@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Cümlede Anlam</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+            font-style: normal;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #3d6a7d;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 8px 12px;
+            font-size: 10pt;
+            border: 1px solid #3d6a7d;
+        }
+
+        td {
+            padding: 8px 12px;
+            border: 1px solid #dcd7cd;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Cümle, bir duyguyu, düşünceyi, bir dilek ya da durumu tam bir yargı hâlinde bildiren dil birimidir. TYT Türkçe sınavında "Cümlede Anlam" konusu, doğrudan altı çizili ifadenin kattığı anlam, boşluk doldurma ve iki cümleyi birleştirme sorularıyla her yıl ortalama 4-6 soru olarak karşımıza çıkar.</p>
+
+    <h2>1. Anlatımına Göre Cümleler</h2>
+    <p>Cümleler, içerdikleri yargıların kişisellik taşıyıp taşımamasına göre temelde iki ana gruba ayrılır. Bu ayrım TYT çeldiricilerinde en sık kullanılan yapılardandır:</p>
+
+    <h3>A) Öznel Anlatımlı Cümleler</h3>
+    <p>Söyleyenin kişisel kanılarını, beğenilerini, duygularını ve yorumlarını içeren cümlelerdir. Öznel yargılar kişiden kişiye değişir, doğruluğu ya da yanlışlığı bilimsel olarak kanıtlanamaz.</p>
+    
+    <div class="example-box">
+        <ul>
+            <li>Yazar, son romanında okuyucuyu adeta büyüleyen <strong>muazzam</strong> bir dil kullanmış. (Beğeni, öznel yargı)</li>
+            <li>İstanbul'un dar sokaklarında yürümek insana her zaman huzur verir. (Kişisel duygu)</li>
+        </ul>
+    </div>
+
+    <h3>B) Nesnel Anlatımlı Cümleler</h3>
+    <p>Söyleyenin kişisel duygu ve görüşlerini barındırmayan, tamamen gerçeğe dayalı yargılardır. Nesnel cümleler kişiden kişiye değişmez; doğruluğu ya da yanlışlığı deney, gözlem veya belgelerle kanıtlanabilir.</p>
+
+    <div class="example-box">
+        <ul>
+            <li>Sanatçının bu eseri toplam dört bölümden ve iki yüz elli sayfadan oluşmaktadır. (Kanıtlanabilir, nesnel)</li>
+            <li>Türkiye'nin en çok yağış alan bölgesi Karadeniz Bölgesi'dir. (İstatistiki gerçeklik)</li>
+        </ul>
+    </div>
+
+    <h2>2. Cümleler Arasındaki Anlam İlişkileri</h2>
+    <p>Bir cümlede eylemin hangi gerekçeyle, hangi şartla ya da hangi hedefle yapıldığını belirten ilişkilerdir. Sorularda birbirine çok karıştırıldığı için yapısal formüllerine dikkat edilmelidir.</p>
+
+    <h3>A) Neden - Sonuç (Gerekçe) Cümleleri</h3>
+    <p>Eylemin gerçekleşme gerekçesini içeren cümlelerdir. Yargılardan biri neden, diğeri ise bu nedene bağlı olarak ortaya çıkan sonuçtur. Genellikle "-dığı için, -den dolayı, yüzünden, amacıyla değil neden belirtmek üzere" gibi ifadelerle kurulur.</p>
+    <div class="tip-box">
+        <strong>Formül:</strong> Nedeni gerçekleşti mi? &rarr; EVET | Sonucu gerçekleşti mi? &rarr; EVET (Her iki eylem de geçmişte ya da şu anda yapılmıştır.)
+    </div>
+    <div class="example-box">
+        <ul>
+            <li>Kar yağışı nedeniyle yollar kapandığından köye gidemedik. (Neden: yolların kapanması [oldu], Sonuç: gidememek [oldu])</li>
+            <li>Geç kaldığı için toplantıdaki sunumu kaçırdı. (Geç kaldı + kaçırdı)</li>
+        </ul>
+    </div>
+
+    <h3>B) Amaç - Sonuç Cümleleri</h3>
+    <p>Eylemin hangi hedefi gerçekleştirmek üzere yapıldığını bildiren cümlelerdir. Genellikle "-mak için, -mak üzere, amacıyla" ifadeleriyle kurulur.</p>
+    <div class="tip-box">
+        <strong>Formül:</strong> Amaç gerçekleşti mi? &rarr; HENÜZ BELLİ DEĞİL (Geleceğe yöneliktir) | Sonuç gerçekleşti mi? &rarr; EVET
+    </div>
+    <div class="example-box">
+        <ul>
+            <li>Sınavı kazanmak için gece gündüz durmadan çalışıyor. (Sonuç: çalışıyor [belli], Amaç: kazanmak [henüz kazanıp kazanmadığı belli değil])</li>
+            <li>Projeyi teslim etmek üzere Ankara'ya gitti.</li>
+        </ul>
+    </div>
+
+    <h3>C) Koşul (Şart) - Sonuç Cümleleri</h3>
+    <p>Bir eylemin gerçekleşmesinin, başka bir durumun ya da eylemin gerçekleşmesine bağlı olduğunu belirten cümlelerdir. Genellikle "-se/-sa, -dikçe, üzere (şartıyla), mı/mi" ek ve edatlarıyla kurulur.</p>
+    <div class="example-box">
+        <ul>
+            <li>Kitabı haftaya geri vermek <strong>üzere</strong> alabilirsin. (Koşul: haftaya geri vermek)</li>
+            <li>Düzenli tekrar yapmadıkça bu konuyu tam olarak kavrayamazsın. (Koşul: düzenli tekrar yapmak)</li>
+        </ul>
+    </div>
+
+    <h2>3. Cümle Oluşturan Kavramlar ve Duygular</h2>
+    <p>TYT'de doğrudan "Bu cümledeki baskın duygu / kavram aşağıdakilerden hangisidir?" tarzında gelen soru tiplerinin temel anahtar kelimeleri şunlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kavram / Duygu</th>
+                <th>Tanımı</th>
+                <th>Örnek Cümle</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Kanıksama</strong></td>
+                <td>Çok tekrarlanan bir duruma alışma, tepki göstermez olma.</td>
+                <td>Artık onun bu asılsız sözlerine kimse şaşırmıyor.</td>
+            </tr>
+            <tr>
+                <td><strong>Yıksınma (Yadırgama)</strong></td>
+                <td>Bir durumu veya davranışı tuhaf bulma, kendine yabancı görme.</td>
+                <td>Koca adamın çocuk gibi davranmasını bir türlü anlayamadım.</td>
+            </tr>
+            <tr>
+                <td><strong>Hayıflanma</strong></td>
+                <td>Geçmişte yapılmayan bir şey için kendi kendine üzülme (Kaçırılan fırsat).</td>
+                <td>Zamanım varken şu yabancı dili iyice öğrenseydim keşke.</td>
+            </tr>
+            <tr>
+                <td><strong>Pişmanlık</strong></td>
+                <td>Yapılan hatalı bir işten dolayı sonradan üzüntü duyma.</td>
+                <td>Ona bu ağır sözleri keşke söylemeseydim.</td>
+            </tr>
+            <tr>
+                <td><strong>Aşamalı Durum</strong></td>
+                <td>Bir olayın zaman içinde olumlu ya da olumsuz yönde değişmesi.</td>
+                <td>Hasta, her geçen gün biraz daha iyileşiyor.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Hayıflanma ve Pişmanlık Farkı):</strong> Sınavda en çok karıştırılan iki kavramdır. <strong>Hayıflanma</strong>, yapılmayan bir eylemin (yapamadım, kaçırdım) hüznüdür; içe dönüktür. <strong>Pişmanlık</strong> ise bizzat yapılan olumsuz bir eylemin (yaptım, söyledim) sonrasındaki vicdan azabıdır.
+    </div>
+
+</body>
+</html>
