@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Sözcükte Yapı (Detaylı)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Sözcükte Yapı, bir kelimenin kök ve ek bileşenlerini, bu bileşenlerin işlevlerini ve kelimenin türetilme süreçlerini inceleyen ünitedir. TYT'de "karma dil bilgisi" sorularının en temel dayanak noktasıdır.</p>
+
+    <h2>1. Kök Nedir ve Kök Türleri</h2>
+    <p>Kök, bir sözcüğün anlamlı, parçalanamayan ve kelimenin bütünüyle <strong>anlamsal ilişkisini koruyan</strong> en küçük dil birimidir. Ayrılan en küçük parçanın, kelimenin tamamı ile mutlak bir anlam bağı olmak zorundadır.</p>
+    <div class="example-box">
+        * <strong>"Balıkçılar"</strong> sözcüğünün kökü "bal" değil, <strong>"balık"</strong>tır. Çünkü bal ile balık arasında bir anlam ilişkisi yoktur.
+    </div>
+
+    <h3>A) İsim (Ad) Kökleri</h3>
+    <p>Varlıkların, kavramların ve duyguların adı olan köklerdir. Bu kökler master eki olan "-mak / -mek" ekini <u>alamazlar</u>.</p>
+    <ul>
+        <li>Ev, göz, su, yol, taş, baş, kan, ağaç...</li>
+    </ul>
+
+    <h3>B) Fiil (Eylem) Kökleri</h3>
+    <p>İş, oluş, hareket ve durum bildiren köklerdir. Sonu "-mak / -mek" master ekiyle okunabilir.</p>
+    <ul>
+        <li>Yaz-, oku-, sev-, koş-, git-, bak-, gör-, dur-...</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ Kritik Sınav İpucu (Sesteş ve Ortak Kök Farkı):</strong> <br>
+        * <strong>Sesteş Kök:</strong> Aralarında hiçbir anlam bağı yoktur. <br><em>Örn: "Yüz" (Sayı) ile "Yüz-" (Yüzme eylemi).</em> <br>
+        * <strong>Ortak (Kökteş) Kök:</strong> Hem isim hem fiil olabilirler ve aralarında belirgin bir <strong>anlam bağı</strong> vardır. <br><em>Örn: Boya (İsim) - Boyamak (Fiil) | Güven (İsim) - Güvenmek (Fiil) | Savaş (İsim) - Savaşmak (Fiil).</em>
+    </div>
+
+    <h2>2. Ekler: Yapım ve Çekim Ekleri</h2>
+    <p>Kelimelerin kök veya gövdelerine gelerek onlara yeni anlamlar kazandıran ya da cümle içindeki görevlerini belirleyen seslerdir.</p>
+
+    <h3>A) Yapım Ekleri</h3>
+    <p>Geldikleri kelimenin anlamını ve bazen de türünü (isimden fiil, fiilden isim vb.) <strong>değiştiren</strong> eklerdir. Yapım eki alan sözcüklere dil bilgisinde <strong>"Gövde"</strong> adı verilir.</p>
+    <ul>
+        <li>İsimden İsim Yapım Eki: Göz + lük &rarr; <strong>Gözlük</strong></li>
+        <li>İsimden Fiil Yapım Eki: Göz + lemek &rarr; <strong>Gözlemek</strong></li>
+        <li>Fiilden İsim Yapım Eki: Sev + gi &rarr; <strong>Sevgi</strong> | Yaz + dı &rarr; Yazı</li>
+        <li>Fiilden Fiil Yapım Eki: Sev + il &rarr; <strong>Sevilmek</strong> | Koş + tur &rarr; <strong>Koşturmak</strong></li>
+    </ul>
+
+    <h3>B) Çekim Ekleri</h3>
+    <p>Kelimelerin anlamını değiştirmeyen, sadece onların diğer kelimelerle bağ kurmasını, çoğalmasını veya kime ait olduğunu belirten eklerdir.</p>
+    <ul>
+        <li><strong>İsim Çekim Ekleri:</strong> Çoğul eki (-ler), Hal (Durum) ekleri (-i, -e, -de, -den), İyelik ekleri (kitab-ım, kitab-ın), İlgi (Tamlayarak) eki (-ın, -in).</li>
+        <li><strong>Fiil Çekim Ekleri:</strong> Kip ekleri (zaman ve dilek ekleri: -yor, -di, -ecek, -se), Şahıs ekleri (geldi-m, geldi-n).</li>
+    </ul>
+
+    <h2>3. Yapı Bakımından Sözcükler</h2>
+    <p>Sözcükler yapısal özelliklerine göre üç grupta incelenir:</p>
+    <ul>
+        <li><strong>Basit Sözcük:</strong> Hiçbir yapım eki almamış sözcüktür. Çekim eki alabilirler. <br><em>Örn: Ev-ler-imiz-den (Anlam değişmediği için basittir).</em></li>
+        <li><strong>Türemiş Sözcük:</strong> En az bir adet <strong>yapım eki</strong> almış sözcüktür. <br><em>Örn: Yol-cu, Bil-gi, San-at-çı, Baş-la-dı.</em></li>
+        <li><strong>Birleşik Sözcük:</strong> En az iki kelimenin bir araya gelerek tek bir kavramı karşılayacak şekilde kalıplaşmasıdır. <br><em>Örn: Hanımeli, bilgisayar, mirasyedi, imambayıldı.</em></li>
+    </ul>
+
+    <h2>4. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: Aşağıdaki altı çizili sözcüklerden hangisi yapı bakımından diğerlerinden <u>farklıdır</u>?</div>
+        <ul class="options-list">
+            <li>A) Sınav yaklaştıkça öğrencilerin <u>heyecanı</u> iyice artıyordu.</li>
+            <li>B) Yaz aylarında bu köyün buz gibi <u>suları</u> hiç eksilmezdi.</li>
+            <li>C) Masanın üzerindeki <u>kitapları</u> çantasına yerleştirdi.</li>
+            <li>D) Akşam saatlerinde şehrin sessiz sokaklarında <u>yürüdüm</u>.</li>
+            <li>E) Yeni aldığı evin <u>odaları</u> oldukça geniş ve ferahtı.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Çözüm:</strong> A seçeneğindeki "heyecanı" sözcüğünün kökü "heye-" değildir, kelimenin aslı "heyecan"dır. Ancak kelime "heyecan-ı" şeklinde iyelik çekim eki almıştır; yapım eki almadığı için <strong>basit yapılıdır</strong>. Diğer tüm şıklardaki altı çizili kelimeler de yapım eki almadığı için basittir. (Pardon, türemiş bir şık kurgusu düzeltildi: "Heyecan" kök halindedir.) Soru kökü detayında tüm kelimeler çekim eki almıştır, kelimeler basit yapılıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: "Yazılışları aynı, anlamları ve işlevleri farklı olan eklere sesteş ekler denir." <br><br>
+        Buna göre "-im / -ım" eki aşağıdaki cümlelerin hangisinde <u>fiilden isim yapım eki</u> görevinde kullanılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Benim bu konuda söyleyecek hiçbir sözüm kalmadı artık.</li>
+            <li>B) Her akşam bu parkta yürümek en büyük lüksüm oldu.</li>
+            <li>C) Son yapılan genel <u>seçim</u> sonuçları herkesi çok şaşırttı.</li>
+            <li>D) Evim, ailemle huzur bulduğum yegane sığınaktır.</li>
+            <li>E) Ben her sabah erkenden kalkıp spora giderim.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Çözüm:</strong> C seçeneğindeki "seçim" kelimesinin kökü "seç-" fiilidir. "Seç-" fiiline gelen "-im" eki, kelimenin anlamını ve türünü değiştirerek onu bir isim haline getirmiştir (Fiilden İsim Yapım Eki). A, B ve D şıklarındaki "-im" ekleri isimlere gelerek aitlik bildiren <strong>iyelik (çekim) ekidir</strong>. E şıkkındaki "-im" ise fiile gelen <strong>şahıs (çekim) ekidir</strong>.
+        </div>
+    </div>
+
+</body>
+</html>
