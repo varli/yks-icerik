@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Fiiller (Eylemler) I</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Fiiller (Eylemler); varlıkların yaptıkları işleri, gerçekleştirdikleri hareketleri, içinde bulundukları durumları ya da uğradıkları değişimleri zamana ve şahsa bağlı olarak anlatan sözcüklerdir. Bir sözcüğün fiil olup olmadığını anlamanın en pratik yolu, o kelimenin kök veya gövdesine "-mak / -mek" mastar ekini getirmektir.</p>
+
+    <h2>1. Anlamlarına Göre Fiiller</h2>
+    <p>Fiiller taahhüt ettikleri eylemin niteliğine göre üç ana gruba ayrılır. TYT'de "Aşağıdaki cümlelerin hangisinde fiil durum bildirmektedir?" tarzı sorular doğrudan bu başlığı ölçer:</p>
+    <ul>
+        <li><strong>İş (Kılış) Fiilleri:</strong> Öznenin kendi isteğiyle gerçekleştirdiği ve bir nesneyi etkilediği fiillerdir. Başına <strong>"onu"</strong> kelimesi getirildiğinde anlamlı olur. <br><em>Örn: okumak (onu okumak), kırmak (onu kırmak), yazmak (onu yazmak).</em></li>
+        <li><strong>Durum Fiilleri:</strong> Öznenin içinde bulunduğu durağan veya anlık bir durumu bildiren fiillerdir. Nesne alamadıkları için başına <strong>"onu"</strong> kelimesi getirildiğinde <u>anlamsız</u> olur. <br><em>Örn: uyumak (onu uyumak - X), gülmek (onu gülmek - X), ağlamak, oturmak.</em></li>
+        <li><strong>Oluş Fiilleri:</strong> Öznenin iradesi dışında, zamanla kendiliğinden meydana gelen fiziksel veya kimyasal değişimleri anlatan fiillerdir. <br><em>Örn: sararmak, yaşlanmak, paslanmak, büyümek, acıkmak.</em></li>
+    </ul>
+
+    <h2>2. Fiil Kipleri (Zaman ve Dilek Sistemleri)</h2>
+    <p>Fiillerin belirli bir zaman diliminde veya tasarlanan bir duygu/istek çerçevesinde çekimlenmesini sağlayan eklere kip denir. Kipler iki ana başlıkta incelenir:</p>
+
+    <h3>A) Bildirme (Haber) Kipleri</h3>
+    <p>Eylemin ne zaman yapıldığını net olarak ortaya koyan, zaman anlamı taşıyan kiplerdir.</p>
+    <ul>
+        <li><strong>Görülen Geçmiş Zaman (-dı / -di):</strong> Eylem geçmişte yapılmıştır ve konuşan kişi buna şahittir. <em>(Geldim)</em></li>
+        <li><strong>Öğrenilen Geçmiş Zaman (-mış / -miş):</strong> Eylem geçmişte yapılmıştır ancak başkasından duyulmuştur ya da sonradan fark edilmiştir. <em>(Gelmişim)</em></li>
+        <li><strong>Şimdiki Zaman (-yor / -makta):</strong> Eylem tam şu anda yapılmaktadır. <em>(Geliyorum / Gelmekteyim)</em></li>
+        <li><strong>Gelecek Zaman (-acak / -ecek):</strong> Eylem henüz yapılmamıştır, gelecekte yapılacaktır. <em>(Geleceğim)</em></li>
+        <li><strong>Geniş Zaman (-r / -ar / -er):</strong> Eylemin her zaman, düzenli olarak yapıldığını bildirir. <em>(Gelirim)</em></li>
+    </ul>
+
+    <h3>B) Dilek (Tasarlama) Kipleri</h3>
+    <p>Eyleme zaman anlamı katmayan; istek, şart, emir veya gereklilik bildiren kiplerdir.</p>
+    <ul>
+        <li><strong>Gereklilik Kipi (-malı / -meli):</strong> Yapılması zorunlu olan eylemleri bildirir. <em>(Çalışmalısın)</em></li>
+        <li><strong>Şart (Koşul) Kipi (-sa / -se):</strong> Eylemin gerçekleşmesini bir şarta bağlar. <em>(Gelsen)</em></li>
+        <li><strong>İstek Kipi (-e / -a):</strong> Eylemin yapılmasının istendiğini belirtir. <em>(Geleyim, gelesin)</em></li>
+        <li><strong>Emir Kipi (Eki yoktur):</strong> Doğrudan buyruk bildirir. Birinci tekil ve çoğul şahsın emri yoktur. <em>(Gel, gelsin)</em></li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ Ölümcül TYT Çeldiricisi (Anlam / Zaman Kayması):</strong> <br>
+        Bir fiilin biçimsel olarak aldığı kip ekiyle, cümlenin kastettiği zaman anlamının farklı olmasına <strong>anlam kayması</strong> denir. Bu durum bir <u>anlatım bozukluğu değildir</u>. <br>
+        * "Her sabah erkenden <strong>kalkıyorum</strong>." &rarr; Ek şimdiki zaman (-yor) ama kastettiği "her sabah" olduğu için anlam <strong>Geniş Zaman</strong>'dır.
+    </div>
+
+    <h2>3. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: Aşağıdaki cümlelerin hangisinde yüklem, anlam özelliğine göre "oluş fiili"dir?</div>
+        <ul class="options-list">
+            <li>A) Sınav sonuçlarını öğrenince derin bir nefes alıp koltuğa oturdu.</li>
+            <li>B) Sonbaharın gelişiyle birlikte parktaki tüm ağaçların yaprakları sarardı.</li>
+            <li>C) Arkadaşının anlattığı fıkraya salondaki herkes uzun uzun güldü.</li>
+            <li>D) Akşam yemeği için mutfakta nefis bir domates çorbası hazırladı.</li>
+            <li>E) Yeni aldığı romanı iki gün içinde soluksuz bir şekilde okudu.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Çözüm:</strong> Oluş fiilleri, öznenin iradesi dışında zamanla kendiliğinden gerçekleşen değişimleri gösterir. B seçeneğindeki "sarardı" (sararmak) eylemi, yaprakların doğası gereği dış etkenlerle ve zamanla kendiliğinden uğradığı renk değişimini ifade ettiği için bir **oluş fiilidir**. A ve C şıklarındaki eylemler nesne alamadığı için <strong>durum fiili</strong>, D ve E şıklarındakiler ise nesne alabildiği için (onu hazırladı, onu okudu) <strong>iş (kılış) fiilidir</strong>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: "Fatih Sultan Mehmet, 1453 yılında İstanbul'u uzun bir kuşatmanın ardından fetheder." <br><br>
+        Bu cümledeki kip kaymasının (anlam kayması) açıklaması aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Şimdiki zaman kipi, gelecek zaman anlamında kullanılmıştır.</li>
+            <li>B) Geniş zaman kipi, öğrenilen geçmiş zaman anlamında kullanılmıştır.</li>
+            <li>C) Gelecek zaman kipi, geniş zaman anlamında kullanılmıştır.</li>
+            <li>D) Görülen geçmiş zaman kipi, istek anlamında kullanılmıştır.</li>
+            <li>E) Şimdiki zaman kipi, geniş zaman anlamında kullanılmıştır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Çözüm:</strong> Cümlenin yüklemi olan "fetheder" kelimesi geniş zaman eki (-er) ile çekimlenmiştir. Ancak bahsedilen olay 1453 yılında gerçekleşen ve tarih kitaplarından öğrenilen geçmişe ait bir eylem olduğu için cümlenin kastettiği asıl anlam öğrenilen geçmiş zamandır (-miş). Dolayısıyla **geniş zaman, öğrenilen geçmiş zaman yerine** kullanılarak anlam kayması oluşturmuştur.
+        </div>
+    </div>
+
+</body>
+</html>
