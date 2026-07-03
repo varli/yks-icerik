@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Yazım Kuralları (Detaylı)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #3d6a7d;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 8px 12px;
+            font-size: 10pt;
+            border: 1px solid #3d6a7d;
+        }
+
+        td {
+            padding: 8px 12px;
+            border: 1px solid #dcd7cd;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+        
+        .correct { color: #2e7d32; font-weight: bold; }
+        .wrong { color: #c62828; text-decoration: line-through; }
+    </style>
+</head>
+<body>
+
+    <p>Yazım Kuralları, dilin yazılı iletişimde standartlaşmasını sağlayan kurallar bütünüdür. TYT Türkçe testinde her yıl doğrudan en az 2 soru çıkmakta ve adayların dikkati ölçülmektedir. TDK kılavuzundaki güncel değişikliklere tam hakim olmak sınavda kesin başarı getirir.</p>
+
+    <h2>1. Büyük Harflerin Kullanımı ve Tuzaklar</h2>
+    <p>Büyük harflerin kullanıldığı yerler basit görünse de, sınav soruları genellikle kelimelerin tür değiştirdiği ince detaylardan gelir.</p>
+
+    <h3>A) Unvanlar, Saygı Sözleri ve Akrabalık Bağları</h3>
+    <p>Kişi adlarından önce ve sonra gelen unvanlar, saygı sözleri, rütbe adları ve lakaplar büyük harfle başlar. Ancak akrabalık bildiren kelimeler küçük harfle yazılır.</p>
+    <div class="example-box">
+        * <span class="correct">Doktor Alper Bey</span>, sunumunu başarıyla tamamladı. <br>
+        * <span class="correct">Genç Osman</span>, cesaretiyle tarihe geçti. <br>
+        * Yarın <span class="correct">Ayşe teyzemin</span> mantısını yemeye gideceğiz. (Akrabalık bildirdiği için küçük) <br>
+        * <span class="correct">Nene Hatun</span> ve <span class="correct">Baba Gündüz</span> tarihi şahsiyetler / lakaplar olduğu için büyük harfle başlar.
+    </div>
+
+    <h3>B) Yer Adlarındaki (Coğrafi) İnce Çizgi</h3>
+    <p>Kıta, bölge, il, ilçe, köy, semt adları büyük harfle başlar. <strong>Kritik Kural:</strong> Özel ada dahil olmayıp tamlama kuran "il, ilçe, belde, köy" kelimeleri küçük harfle yazılır. Ancak "mahalle, meydan, bulvar, cadde, sokak" adlarındaki her kelime büyük harfle başlar.</p>
+    <div class="example-box">
+        * <span class="correct">İstanbul ili</span>, <span class="correct">Kadıköy ilçesi</span>, <span class="correct">Moda beldesi</span> (il, ilçe, belde küçük harf) <br>
+        * <span class="correct">Atatürk Mahallesi</span>, <span class="correct">Taksim Meydanı</span>, <span class="correct">Bağdat Caddesi</span> (mahalle, meydan, cadde büyük harf)
+    </div>
+
+    <h3>C) Tarihî Olay, Çağ ve Dönem Adları</h3>
+    <p>Tarihî olay, çağ ve dönem adları büyük harfle başlar.</p>
+    <ul>
+        <li><span class="correct">Kurtuluş Savaşı</span>, <span class="correct">Cilalı Taş Devri</span>, <span class="correct">Milli Edebiyat Dönemi</span>, <span class="correct">Canzimat Dönemi</span></li>
+    </ul>
+
+    <h2>2. Birleşik Kelimelerin Yazılışı (Bitişik mi, Ayrı mı?)</h2>
+    <p>TYT'nin yazım kurallarındaki en favori alanıdır. Kelimelerin anlam kaybına uğrayıp uğramadığına bakılarak karar verilir.</p>
+
+    <h3>A) Bitişik Yazılan Birleşik Kelimeler</h3>
+    <ol>
+        <li>Uğradığı ses düşmesi veya türemesi olan birleşik kelimeler bitişik yazılır: <span class="correct">kaybolmak</span> (kayıp olmak), <span class="correct">hissetmek</span> (his etmek).</li>
+        <li>Kelimelerden <strong>her ikisi veya ikincisi</strong>, birleşme sırasında anlam değişmesine uğramışsa bitişik yazılır: <span class="correct">aslanağzı</span> (çiçek), <span class="correct">itburnu</span> (bitki), <span class="correct">keçiboynuzu</span> (meyve).</li>
+        <li>"Ağa, bey, efendi, hanım, nene" sözleriyle kurulan birleşik kelimeler: <span class="correct">paşababa</span>, <span class="correct">hanımefendi</span>.</li>
+    </ol>
+
+    <h3>B) Ayrı Yazılan Birleşik Kelimeler</h3>
+    <ol>
+        <li>"Etmek, edilmek, eylemek, olmak" yardımcı fiilleriyle kurulurken hiçbir ses olayına uğramayanlar: <span class="correct">terk etmek</span>, <span class="correct">arz etmek</span>, <span class="correct">sağ ol</span>, <span class="correct">fark etmek</span>.</li>
+        <li>Kelimelerden hiçbiri veya ikinci kelimesi birleşme sırasında anlam değişikliğine uğramayanlar: <span class="correct">ada balığı</span>, <span class="correct">yer elması</span>, <span class="correct">kutup yıldızı</span>.</li>
+        <li><strong>Dış, iç, sıra</strong> sözleriyle oluşturulan birleşik kelime ve terimler ayrı yazılır (Çok Sorulur!): <span class="correct">çağ dışı</span>, <span class="correct">hafta içi</span>, <span class="correct">yurt dışı</span>, <span class="correct">yanı sıra</span>, <span class="correct">ardısıra</span>.</li>
+    </ol>
+
+    <h2>3. Eklerin ve Bağlaçların Yazımı (da/de, ki, mi)</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Unsur</th>
+                <th>Ek Durumu (Bitişik)</th>
+                <th>Bağlaç Durumu (Ayrı)</th>
+                <th>Pratik Test Yöntemi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>-da / -de</strong></td>
+                <td>Bulunma anlamı katar. <br><em>Örn: Evde kalmış.</em></td>
+                <td>Dahi, bile, ek olarak anlamı katar. <br><em>Örn: Sen de gel.</em></td>
+                <td>Cümleden çıkarıldığında anlam tamamen bozuluyorsa ek (bitişik), sadece biraz daralıyorsa bağlaçtır (ayrı).</td>
+            </tr>
+            <tr>
+                <td><strong>-ki</strong></td>
+                <td>Sıfat yapan veya zamir olan ektir. <br><em>Örn: Sınıftaki kitap, benimki.</em></td>
+                <td>Cümleleri bağlar. <br><em>Örn: Duydum ki unutmuşsun.</em></td>
+                <td>Kelimeye <strong>"-ler"</strong> takısı getirin. Anlamlı oluyorsa bitişik (<span class="correct">sınıftakiler</span>), anlamsız oluyorsa ayrıdır (<span class="wrong">duydumkiler</span>).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ "Ki" Bağlacı İstisnası (SON BAHÇEMİ):</strong> Normalde bağlaç olan "ki" ayrı yazılır fakat şu kalıplaşmış kelimelerde bitişik yazılmak zorundadır: <br>
+        <strong>S</strong>anki, <strong>O</strong>ysaki, <strong>N</strong>itekim, <strong>B</strong>elki, <strong>A</strong>hali (A boş), <strong>H</strong>albuki, <strong>Ç</strong>ünkü, <strong>E</strong>ğerki, <strong>M</strong>eğerki, <strong>İ</strong>llaki.
+    </div>
+
+    <h2>4. Kısaltmaların ve Sayıların Yazımı</h2>
+    <ul>
+        <li><strong>Büyük Harfli Kısaltmalar:</strong> Araya nokta konmaz (İstisnalar: T.C. ve T.). Gelen ek, kısaltmanın <strong>son harfinin okunuşuna</strong> göre gelir: <span class="correct">TDK'nin</span> (<span class="wrong">TDK'nın</span> değil çünkü "ka" diye harf yoktur, "ke" denir).</li>
+        <li><strong>Küçük Harfli Kısaltmalar:</strong> Kelime gibi okunur ve ek kelimenin açılımına göre gelir: <span class="correct">kg'dan</span> (kilogramdan), <span class="correct">cm'yi</span> (santimetreyi).</li>
+        <li><strong>Sayılar:</strong> Birden fazla kelimeden oluşan sayılar ayrı yazılır: <span class="correct">on yedi</span>, <span class="correct">üç yüz altmış beş</span>. (Sadece çek ve senetlerde bitişik yazılır). Üleştirme sayıları asla rakamla yazılmaz, yazıyla yazılmalıdır: <span class="correct">ikişer</span> (<span class="wrong">2'şer</span> yazımı yazım hatasıdır).</li>
+    </ul>
+
+</body>
+</html>
