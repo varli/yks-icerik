@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Sözcük Türleri (Tümü Tek Parça)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #3d6a7d;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 8px 12px;
+            font-size: 10pt;
+            border: 1px solid #3d6a7d;
+        }
+
+        td {
+            padding: 8px 12px;
+            border: 1px solid #dcd7cd;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Sözcük Türleri, kelimelerin cümle içerisinde üstlendikleri görev ve işlevlere göre ayrıldığı kategorilerdir. Bir kelimenin türü kalıcı değildir; cümledeki bağlama ve hangi kelimeyi etkilediğine göre şekillenir. TYT Türkçe testinde doğrudan veya karma dil bilgisi sorularının içinde mutlaka karşımıza çıkar.</p>
+
+    <h2>1. İsimler (Adlar)</h2>
+    <p>Evrendeki varlıkları, kavramları ve soyut durumları karşılayan sözcüklerdir. Durum (hâl), iyelik ve çoğul eklerini alabilen kelime grubudur.</p>
+    <ul>
+        <li><strong>Varlıkların Verilişine Göre:</strong> Özel İsim (İstanbul, Ahmet) - Cins İsim (Masa, Ağaç, Defter)</li>
+        <li><strong>Varlıkların Oluşuna Göre:</strong> Somut İsim (Hava, Ses, Soğuk) - Soyut İsim (Rüya, Umut, Adalet)</li>
+        <li><strong>Sayılarına Göre:</strong> Tekil İsim (Çiçek) - Çoğul İsim (Çiçekler) - Topluluk İsmi (Meclis, Takım, Sürü, Ordu)</li>
+    </ul>
+
+    <h2>2. Sıfatlar (Ön Adlar)</h2>
+    <p>İsimlerin önüne gelerek onları renk, şekil yönünden <strong>niteleyen</strong> ya da işaret, sayı, soru yönünden <strong>belirten</strong> sözcüklerdir. Bir kelimenin sıfat olması için kesinlikle bir isme bağlı olması şarttır.</p>
+    <ul>
+        <li><strong>Niteleme Sıfatı:</strong> İsme sorulan "Nasıl?" sorusunun yanıtıdır. <br><em>Örn: <strong>Yırtık</strong> harita, <strong>eski</strong> defterler.</em></li>
+        <li><strong>İşaret Sıfatı:</strong> İsme sorulan "Hangi?" sorusunun yanıtıdır. <br><em>Örn: <strong>Bu</strong> masa, <strong>şu</strong> sokak, <strong>o</strong> çocuk.</em></li>
+        <li><strong>Belgisiz Sıfat:</strong> Belirsizlik katar. <br><em>Örn: <strong>Bazı</strong> insanlar, <strong>birkaç</strong> gün, <strong>her</strong> soru.</em></li>
+        <li><strong>Sayı Sıfatı:</strong> <br><em>Örn: <strong>Beş</strong> kalem (Asıl), <strong>üçüncü</strong> kat (Sıra), <strong>ikişer</strong> elma (Üleştirme).</em></li>
+    </ul>
+
+    <h2>3. Zamirler (Adıllar)</h2>
+    <p>İsim olmadıkları halde, cümlede kalıcı ya da geçici olarak <strong>isimlerin yerini tutan</strong> sözcüklerdir.</p>
+    <ul>
+        <li><strong>Kişi Zamiri:</strong> Ben, sen, o, biz, siz, onlar (ve dönüşlülük anlamı katan "kendi").</li>
+        <li><strong>İşaret Zamiri:</strong> Bu, şu, o, bunlar, şunlar, onlar, burası (Varlığı işaret ederek yerini tutar).</li>
+        <li><strong>Belgisiz Zamir:</strong> Herkes, kimse, biri, hepsi, şey, bazıları.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ Kritik TYT Ayrımı (Sıfat ve Zamir Farkı):</strong> <br>
+        * "<strong>O</strong> <u>telefon</u> benim." &rarr; İsmin önündedir. <strong>(İşaret Sıfatı)</strong> <br>
+        * "<strong>Onu</strong> masaya bırak." &rarr; İsmin yerini tutmuştur. <strong>(İşaret Zamiri)</strong>
+    </div>
+
+    <h2>4. Zarflar (Belirteçler)</h2>
+    <p>Fiillerin, fiilimsilerin, sıfatların ya da kendi türünden olan sözcüklerin anlamını "durum, zaman, miktar, yön" yönünden etkileyen kelimelerdir.</p>
+    <ul>
+        <li><strong>Durum Zarfı (Nasıl?):</strong> Konuyu <strong>hızlıca</strong> anlattı.</li>
+        <li><strong>Zaman Zarfı (Ne zaman?):</strong> Kargomuz <strong>dün</strong> teslim edildi.</li>
+        <li><strong>Miktar Zarfı (Ne kadar?):</strong> Bugün sınava <strong>çok</strong> çalıştım. ("En" ve "Daha" üstünlük zarfıdır.)</li>
+        <li><strong>Yer-Yön Zarfı (Nereye?):</strong> Merdivenden <strong>aşağı</strong> indi. (Ek alırsa isimleşir: "Aşağıya" dersek isim olur!)</li>
+    </ul>
+
+    <h2>5. Edatlar (İlgeçler)</h2>
+    <p>Tek başlarına somut bir anlamı olmayan, ancak kendinden önceki sözcüklerle öbekleşerek cümle içinde "benzerlik, amaç, araç, neden" ilgileri kuran kelimelerdir: <em>gibi, kadar, için, üzere, doğru, karşı, göre</em>.</p>
+    <div class="example-box">
+        * Buz <strong>gibi</strong> soğuk su (Benzerlik) <br>
+        * Uçak <strong>ile</strong> Ankara'ya gitti (Araç / Vasat)
+    </div>
+
+    <h2>6. Bağlaçlar</h2>
+    <p>Eş görevli sözcükleri, söz öbeklerini veya bağımsız cümleleri yapısal olarak birbirine bağlayan kelimelerdir: <em>ve, veya, ya da, ama, fakat, lakin, çünkü, de, ki</em>.</p>
+    <div class="tip-box">
+        <strong>⚠️ "İle" İçin Pratik Test:</strong> Kelimenin yerine <strong>"ve"</strong> getirin. Anlamlı oluyorsa <strong>bağlaçtır</strong>, anlamsız oluyorsa <strong>edattır</strong>. <br>
+        * Kalem <strong>ile</strong> silgi (Kalem ve silgi &rarr; <strong>Bağlaç</strong>) <br>
+        * Fırça <strong>ile</strong> boyadı (Fırça ve boyadı &rarr; Anlamsız &rarr; <strong>Edat</strong>)
+    </div>
+
+    <h2>7. Ünlemler</h2>
+    <p>Sevinç, şaşma, acı, korku gibi ani ve güçlü duyguları dışa vuran ya da seslenme amaçlı kullanılan sözcüklerdir: <em>Eyvah!, Hey!, Dur!, Aaa!</em></p>
+
+    <h2>8. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: Aşağıdaki cümlelerin hangisinde "doğru" sözcüğü zarf (belirteç) görevinde kullanılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Her zaman doğru insanların yanında yer almalıyız.</li>
+            <li>B) Tahtaya çizdiği doğru, iki ucu sonsuza giden bir çizgidir.</li>
+            <li>C) Öğretmenin sorduğu soruya doğru cevap veren çıkmadı.</li>
+            <li>D) Akşama doğru sokaktaki lambalar tek tek yanmaya başladı.</li>
+            <li>E) Haklı olduğunu düşündüğü şeyi her yerde doğru konuştu.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Çözüm:</strong> E seçeneğindeki "doğru" kelimesi "konuştu" fiilini durum yönünden etkilediği ve fiile sorulan "Nasıl?" sorusuna cevap verdiği için <strong>zarftır</strong>. A ve C şıklarında isimlerin önünde olduğu için <strong>sıfat</strong>, B şıkkında bir kavram adı olduğu için <strong>isim</strong>, D şıkkında ise "-e doğru" şeklinde öbekleştiği için <strong>edattır</strong>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: "Birkaç arkadaş dün akşam dışarıya çıkıp sinemaya gitti." cümlesindeki sözcük türleri eşleştirmelerinden hangisi <u>yanlıştır</u>?</div>
+        <ul class="options-list">
+            <li>A) Birkaç &rarr; Belgisiz Sıfat</li>
+            <li>B) Arkadaş &rarr; Cins İsim</li>
+            <li>C) Dün &rarr; Zaman Zarfı</li>
+            <li>D) Dışarıya &rarr; Yer-Yön Zarfı</li>
+            <li>E) Sinemaya &rarr; İsim</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Çözüm:</strong> Yer-yön bildiren kelimeler (aşağı, yukarı, içeri, dışarı) yönelme hâl eki (-a / -e) aldıkları andan itibaren zarf olma özelliklerini yitirir ve isimleşirler. Cümlede "dışarıya" kelimesi ek aldığı için zarf değil, **isimdir**. Dolayısıyla D şıkkındaki eşleştirme yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>
