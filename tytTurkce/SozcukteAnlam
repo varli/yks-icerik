@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Sözcükte Anlam</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+            font-style: normal;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #3d6a7d;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 8px 12px;
+            font-size: 10pt;
+            border: 1px solid #3d6a7d;
+        }
+
+        td {
+            padding: 8px 12px;
+            border: 1px solid #dcd7cd;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Sözcük (kelime), tek başına anlamı olan ya da tek başına anlamı olmadığı hâlde cümle içinde anlam ilişkisi kurmaya yarayan en küçük dil birimidir. TYT Türkçe sınavında sözcükte anlam konusu her yıl doğrudan ve dolaylı olarak çok sayıda soruyla karşımıza çıkmaktadır. Bir kelimenin anlam dünyasını doğru analiz etmek, paragraf ve cümle sorularını da doğru çözmenin temel anahtarıdır.</p>
+
+    <h2>1. Anlam Bakımından Sözcükler</h2>
+    <p>Sözcükler kullanım alanlarına, kazandıkları yeni işlevlere ve cümledeki bağlamlarına göre farklı anlam özelliklerine bürünürler. Bunlar temel olarak dört başlıkta incelenir:</p>
+
+    <h3>A) Gerçek Anlam (Temel / İlk Anlam)</h3>
+    <p>Bir sözcük söylendiğinde akla gelen <strong>ilk ve en yaygın</strong> anlamdır. Bu anlam herkes tarafından bilinen nesnel, somut dünyayı temsil eder ve kelimenin sözlükteki bir numaralı karşılığıdır.</p>
+    
+    <div class="example-box">
+        <ul>
+            <li>Sabahtan beri yürümekten ayaklarıma <strong>kara</strong> sular indi. (Siyah renk, gerçek anlam)</li>
+            <li>Doktor, hastanın <strong>gözlerini</strong> dikkatlice muayene etti. (Görme organı, gerçek anlam)</li>
+            <li>Yemek o kadar <strong>sıcaktı</strong> ki dilim neredeyse yanacaktı. (Yüksek ısı, gerçek anlam)</li>
+        </ul>
+    </div>
+
+    <h3>B) Yan Anlam</h3>
+    <p>Sözcüğün gerçek anlamından tamamen kopmadan, şekil, işlev veya konum benzerliği nedeniyle zaman içinde kazandığı yeni anlamlardır. Genellikle insana ya da hayvana ait organ isimlerinin veya fiziksel özelliklerin cansız varlıklara aktarılması (yakıştırma) yoluyla oluşur.</p>
+
+    <div class="example-box">
+        <ul>
+            <li>Masanın <strong>ayağı</strong> kırılınca üzerindeki her şey yere döküldü. (Konum/destek benzerliği)</li>
+            <li>İğnenin <strong>gözünden</strong> ipliği geçirmek için dakikalarca uğraştı. (Şekil/boşluk benzerliği)</li>
+            <li>Uçağın <strong>kanadı</strong> havada hafifçe titremeye başladı. (İşlev/yapı benzerliği)</li>
+        </ul>
+    </div>
+
+    <h3>C) Mecaz Anlam</h3>
+    <p>Bir sözcüğün gerçek ve yan anlamlarından <strong>tamamen uzaklaşarak</strong>, cümle içinde kazandığı yepyeni ve genellikle soyut olan anlamdır. Mecaz anlamda kelime, gerçek dünyadaki somut, fiziksel yapısını tamamen kaybeder.</p>
+
+    <div class="example-box">
+        <ul>
+            <li>Bize karşı gösterdiği bu <strong>soğuk</strong> tavırlar herkesin dikkatini çekti. (İlgisiz, mesafeli anlamında)</li>
+            <li>O kadar <strong>temiz</strong> bir kalbi var ki kimse hakkında kötü düşünemez. (Saf, iyi niyetli anlamında)</li>
+            <li>Geleceğini tek bir yanlış kararla <strong>yaktığını</strong> sonradan fark etti. (Mahvetmek anlamında)</li>
+        </ul>
+    </div>
+
+    <h3>D) Terim Anlam</h3>
+    <p>Bir sözcüğün bilim, sanat, spor, edebiyat, matematik veya herhangi bir meslek dalına ait özel ve belirli bir kavramı karşılayan anlamıdır. Bir sözcüğün terim olup olmadığı sadece kelimeye bakarak değil, yer aldığı cümleye bakarak anlaşılır.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Alan</th>
+                <th>Terim Örnekleri</th>
+                <th>Cümle İçinde Kullanımı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Matematik</strong></td>
+                <td>Doğru, Açı, Kök, Üs</td>
+                <td>Üçgenin iç <strong>açıları</strong> toplamı her zaman sabittir.</td>
+            </tr>
+            <tr>
+                <td><strong>Edebiyat</strong></td>
+                <td>Uyak, Redif, Ölçü, Teşbih</td>
+                <td>Şair, bu şiirinde zengin <strong>uyak</strong> kullanmayı tercih etmiş.</td>
+            </tr>
+            <tr>
+                <td><strong>Tiyatro</strong></td>
+                <td>Sahne, Perde, Suflör, Jest</td>
+                <td>Oyunun ikinci <strong>perdesi</strong> izleyicilerden büyük alkış aldı.</td>
+            </tr>
+            <tr>
+                <td><strong>Coğrafya</strong></td>
+                <td>Meridyen, Ölçek, İzohips</td>
+                <td>Haritanın <strong>ölçeği</strong> küçüldükçe ayrıntıyı gösterme gücü azalır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu:</strong> Bir sözcük günlük hayatta gerçek anlamda kullanılırken bilimsel veya sanatsal bir bağlamda terim anlam kazanabilir. Karıştırmamak için mutlaka cümlenin tamamını okuyun.<br>
+        <em>Örnek:</em> "Pencerelerden odaya güzel bir <strong>ışık</strong> süzülüyordu." (Gerçek Anlam)<br>
+        <em>Örnek:</em> "Bugünkü fizik dersinde <strong>ışık</strong> kırılmasını işledik." (Fizik Terimi)
+    </div>
+
+    <h2>2. Sözcükler Arasındaki Anlam İlişkileri</h2>
+    
+    <h3>A) Eş Anlamlı (Anlamdaş) Sözcükler</h3>
+    <p>Yazılışları ve okunuşları farklı olduğu hâlde aynı anlamı karşılayan sözcüklerdir. Genellikle biri Türkçe, diğeri yabancı kökenlidir.</p>
+    <ul>
+        <li>Cevap &rarr; Yanıt</li>
+        <li>Siyah &rarr; Kara</li>
+        <li>Öğretmen &rarr; Muallim</li>
+        <li>İmkan &rarr; Olanak</li>
+    </ul>
+
+    <h3>B) Yakın Anlamlı Sözcükler</h3>
+    <p>Eş anlamlı gibi göründükleri hâlde birbirinin yerini tamamen tutamayan, aralarında küçük anlam nüansları bulunan sözcüklerdir.</p>
+    <div class="example-box">
+        <em>Örnekler:</em> Doğru - Dürüst, Basmak - Çiğnemek, Söylemek - Demek, Kırılmak - Gücenmek - Darılmak.
+    </div>
+
+    <h3>C) Zıt (Karşıt) Anlamlı Sözcükler</h3>
+    <p>Anlam bakımından birbirinin tamamen karşıtı olan, birbirine çelişen özellikler barındıran sözcüklerdir.</p>
+    <ul>
+        <li>İleri &times; Geri</li>
+        <li>Güzel &times; Çirkin</li>
+        <li>Zengin &times; Fakir</li>
+    </ul>
+    
+    <div class="tip-box">
+        <strong>⚠️ Önemli Uyarı:</strong> Bir sözcüğün olumsuzu, onun zıt anlamlısı <u>değildir</u>.<br>
+        <em>Gitmek-Gelmek</em> zıt anlamlıdır ancak <em>Gitmek-Gitmemek</em> olumsuzluk ilişkisidir. Sınavlarda bu çeldiriciye sıkça yer verilir.
+    </div>
+
+    <h3>D) Eş Sesli (Sesteş) Sözcükler</h3>
+    <p>Yazılışları ve okunuşları aynı olduğu hâlde anlamları tamamen farklı olan sözcüklerdir. Sesteş sözcükler arasında hiçbir anlam bağı bulunmaz.</p>
+    <div class="example-box">
+        <ul>
+            <li><strong>Yüz:</strong> Sayı olan yüz (100), çehre/surat anlamındaki yüz, yüzme eylemi veya deriyi yüzmek.</li>
+            <li><strong>Gül:</strong> Çiçek türü olan gül ile gülmek eylemi.</li>
+            <li><strong>Yaz:</strong> Mevsim olan yaz ile yazmak eylemi.</li>
+        </ul>
+    </div>
+
+    <h2>3. Söz Öbekleri ve Kalıplaşmış İfadeler</h2>
+    <p>TYT Türkçe sınavının en yoğun soru gelen alanlarından biri de altı çizili söz öbeklerinin cümleye kattığı anlamlardır. Deyimler, atasözleri ve ikilemeler bu gruptadır.</p>
+    
+    <h3>A) İkilemeler</h3>
+    <p>Anlamı güçlendirmek, pekiştirmek veya anlatımı daha çekici kılmak amacıyla iki sözcüğün yan yana gelmesiyle oluşan kalıplaşmış söz gruplarıdır. Farklı yollarla kurulabilirler:</p>
+    <ul>
+        <li><strong>Aynı sözcüğün tekrarı:</strong> Koşa koşa, ağır ağır, deste deste.</li>
+        <li><strong>Eş anlamlı sözcüklerle:</strong> Ses seda, akıllı uslu, güçlü kuvvetli.</li>
+        <li><strong>Zıt anlamlı sözcüklerle:</strong> Az çok, ileri geri, düşe kalka, iyi kötü.</li>
+        <li><strong>Biri anlamlı biri anlamsız sözcüklerle:</strong> Eski püskü, eğri büğrü, yarım yamalak.</li>
+        <li><strong>Her ikisi de anlamsız sözcüklerle:</strong> Ivır zıvır, eften püften, abur cubur.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>Yazım Kuralı Hatırlatması:</strong> İkilemeler her zaman ayrı yazılır ve aralarına kesinlikle hiçbir noktalama işareti (özellikle virgül veya kısa çizgi) getirilemez.
+    </div>
+
+</body>
+</html>
