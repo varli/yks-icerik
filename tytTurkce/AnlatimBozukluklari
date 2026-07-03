@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Anlatım Bozuklukları</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+        
+        .wrong-text { color: #c62828; text-decoration: line-through; }
+        .right-text { color: #2e7d32; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <p>Anlatım Bozuklukları; bir cümlenin dil bilgisi kurallarına uymaması, mantıksal tutarsızlıklar barındırması veya gereksiz/yanlış kelime kullanımı nedeniyle anlam bütünlüğünün zedelenmesidir. Sınavda temelde "Anlama Dayalı (Bağdaşıklık)" ve "Dil Bilgisine Dayalı (Bağlaşıklık)" olmak üzere iki grupta incelenir.</p>
+
+    <h2>1. Anlama Dayalı (Bağdaşıklık) Anlatım Bozuklukları</h2>
+    <p>Cümlenin mantık süzgecine ve kelimelerin doğru anlam dünyasına uymaması durumudur.</p>
+
+    <h3>A) Gereksiz Sözcük Kullanımı (Duruluk İlkesine Aykırılık)</h3>
+    <p>Cümlede aynı anlamı karşılayan iki sözcüğün veya ekin bir arada kullanılmasıdır. Sözcüklerden biri çıkarıldığında cümlenin anlamı daralmıyor veya bozulmuyorsa o sözcük gereksizdir.</p>
+    <div class="example-box">
+        * <span class="wrong-text">Kulağıma alçak sesle fısıldayarak</span> bir şeyler söyledi. <br>
+        * <span class="right-text">Kulağıma fısıldayarak</span> bir şeyler söyledi. *(Fısıldamak zaten alçak sesle yapılır).*
+    </div>
+
+    <h3>B) Sözcüğün Yanlış Anlamda Kullanılması</h3>
+    <p>Yazılışları veya sesleri birbirine benzeyen ancak anlamları tamamen farklı olan kelimelerin birbirinin yerine kullanılmasıdır.</p>
+    <div class="example-box">
+        * Bu kadar fidan dikilmesine rağmen ormanların <span class="wrong-text">tahrip edilmesini sağladılar</span>. *(Sağlamak olumlu durumlar içindir, doğrusu: <strong>neden oldular / yol açtılar</strong> olmalıdır).* <br>
+        * Saçları epey <span class="wrong-text">büyümüştü</span>. *(Saç büyümez, <strong>uzar</strong>).*
+    </div>
+
+    <h3>C) Anlamca Çelişen Sözcüklerin Bir Arada Kullanılması</h3>
+    <p>Cümlede hem "kesinlik" hem de "olasılık / ihtimal" bildiren kelimelerin aynı yargı için kullanılması mantık hatası oluşturur.</p>
+    <div class="example-box">
+        * <span class="wrong-text">Eminim</span> bu saatte eve <span class="wrong-text">varmış olabilir</span>. *(Eminim [Kesinlik] - Olabilir [Olasılık]).*
+    </div>
+
+    <h2>2. Dil Bilgisine Dayalı (Bağlaşıklık) Anlatım Bozuklukları</h2>
+    <p>Genellikle sıralı, bağlı veya birleşik cümlelerde öge eksiklikleri ya da uyumsuzluklardan kaynaklanan yapısal hatalardır.</p>
+
+    <h3>A) Öge Eksiklikleri (Yüklem, Özne, Nesne, Tümleç)</h3>
+    <p>Sıralı cümlelerde ilk cümlenin ögesi ikinci cümleyle uyum sağlamak zorundadır. Aksi takdirde öge eksikliği doğar.</p>
+    <div class="example-box">
+        * Kitapları çok <span class="wrong-text">seviyor (yüklem)</span> ama <span class="wrong-text">bir türlü zaman ayıramıyordu (yüklem)</span>. *(Neye zaman ayıramıyordu? Kitaplara. İkinci cümleye <strong>"kitaplara" dolaylı tümleci</strong> getirilmelidir).* <br>
+        * Arkadaşına <span class="wrong-text">yardım etti (yüklem)</span> ve <span class="wrong-text">bağrına bastı (yüklem)</span>. *(Kimi bağrına bastı? Arkadaşını. İkinci cümleye <strong>"onu / arkadaşını" nesnesi</strong> eklenmelidir).*
+    </div>
+
+    <h3>B) Özne - Yüklem Uyumsuzluğu</h3>
+    <p>Özne insan dışı bir varlık (hayvan, bitki, nesne, kavram) ve çoğulsa, yüklem her zaman **tekil** olmak zorundadır. Kişileştirme varsa yüklem çoğul olabilir.</p>
+    <div class="example-box">
+        * <span class="wrong-text">Kuşlar</span> ağaçların dallarında neşeyle <span class="wrong-text">ötüşüyorlar</span>. (Yanlış - X) <br>
+        * <span class="right-text">Kuşlar</span> ağaçların dallarında neşeyle <span class="right-text">ötüşüyor</span>. (Doğru)
+    </div>
+
+    <h2>3. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: "Her ne kadar üniversite sınavına hazırlanan öğrencilere tavsiyelerde bulunsa da kendisi de bu kurallara uymuyor, bildiği yoldan şaşmıyordu." <br><br>
+        Bu cümledeki anlatım bozukluğunun nedeni aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Gereksiz sözcük kullanılması</li>
+            <li>B) Anlamca çelişen sözcüklerin bir arada kullanılması</li>
+            <li>C) Özne - yüklem uyumsuzluğu</li>
+            <li>D) Dolaylı tümleç eksikliği</li>
+            <li>E) Sözcüğün yanlış yerde kullanılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Çözüm:</strong> Cümledeki "her ne kadar... -sa da" kalıbı ile "kendisi de" ifadeleri zaten cümlenin yapısında bir karşıtlık kurmaktadır. Ancak en belirgin duruluk ihlali **"tavsiyelerde bulunsa da"** kısmındadır. "Tavsiye etmek" veya "tavsiye bulunmak" yerine doğrudan gereksiz yardımcı eylem kullanımından kaçınılarak sözcük elenebilir. Ancak daha yapısal ve doğrudan TDK standardı incelendiğinde; "uymuyor" (neye? kurallara) ve "şaşmıyordu" (neden? bildiği yoldan) kısımlarında öge eksikliği yoktur. Çelişki de barındırmamaktadır. Soru kökündeki stil "her ne kadar" ve "tavsiye" kalıplarındaki gereksiz eşanlamlılık örüntüsüdür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: "Öğrencilerin sorunlarını dikkatlice dinler, her konuda yardımcı olmaya çalışırdı." <br><br>
+        Bu cümledeki anlatım bozukluğu aşağıdaki değişikliklerin hangisiyle giderilebilir?</div>
+        <ul class="options-list">
+            <li>A) "dikkatlice" yerine "özenle" sözcüğü getirilerek</li>
+            <li>B) "dinler" sözcüğünden sonra "onlara" kelimesi eklenerek</li>
+            <li>C) "her konuda" ifadesi cümleden tamamen çıkarılarak</li>
+            <li>D) "Öğrencilerin" yerine "Her öğrencinin" yazılarak</li>
+            <li>E) "çalışırdı" yüklemi yerine "çabalardı" getirilerek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Çözüm:</strong> Cümle sıralı bir cümledir ve iki yüklemi vardır: "dinler" ve "çalışırdı". Dinleyen kim? &rarr; O. Kimi dinler? &rarr; Öğrencinin sorunlarını (Nesne). İkinci cümleye geçiyoruz: "her konuda yardımcı olmaya çalışırdı". Kime yardımcı olmaya çalışırdı? &rarr; <strong>Öğrencilere (Onlara)</strong>. İkinci cümlede bir yer tamlayıcısı (dolaylı tümleç) eksikliği vardır. "dinler" kelimesinden sonra <strong>"onlara"</strong> sözcüğü eklendiğinde bu yapısal bozukluk tamamen düzelir.
+        </div>
+    </div>
+
+</body>
+</html>
