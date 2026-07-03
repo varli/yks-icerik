@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Ses Bilgisi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #3d6a7d;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 8px 12px;
+            font-size: 10pt;
+            border: 1px solid #3d6a7d;
+        }
+
+        td {
+            padding: 8px 12px;
+            border: 1px solid #dcd7cd;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Ses Bilgisi, Türkçedeki seslerin (ünlüler ve ünsüzler) kelime köklerinde veya ek alırken uğradıkları değişimleri inceleyen dil bilgisi konusudur. TYT Türkçe sınavında her yıl doğrudan 1 soru çıkmaktadır. Kuralları formülleştirmek ve istisnaları (tuzakları) bilmek soruyu saniyeler içinde çözdürür.</p>
+
+    <h2>1. Ünlülerle İlgili Ses Olayları</h2>
+    <p>Türkçede 8 adet ünlü harf vardır. Bu harflerin türemesi, düşmesi veya değişmesi olaylarına denir.</p>
+
+    <h3>A) Ünlü Düşmesi (Hece Düşmesi)</h3>
+    <p>İki heceli olan ve ikinci hecesinde dar ünlü (ı, i, u, ü) barındıran bazı sözcükler, ünlüyle başlayan bir ek aldıklarında ikinci hecedeki dar ünlü düşer. Sınavda üç farklı yolla karşımıza çıkabilir:</p>
+    <ul>
+        <li><strong>Çekim Eki Alırken:</strong> Karın + ı &rarr; <strong>Karnı</strong> | Alın + ı &rarr; <strong>Alnı</strong> | Akıl + ım &rarr; <strong>Aklıma</strong></li>
+        <li><strong>Yapım Eki Alırken (Türetilirken):</strong> Yalın + ız &rarr; <strong>Yalnız</strong> | Yanıl + iş &rarr; <strong>Yanlış</strong> | Kıvır + ım &rarr; <strong>Kıvrım</strong> | Besi + lemek &rarr; <strong>Beslemek</strong></li>
+        <li><strong>Birleşik Kelime Oluşurken (Aşınma):</strong> Kahve + altı &rarr; <strong>Kahvaltı</strong> | Ne + için &rarr; <strong>Niçin</strong> | Kayıp + olmak &rarr; <strong>Kaybolmak</strong></li>
+    </ul>
+
+    <h3>B) Ünlü Daralması</h3>
+    <p>Türkçede "a, e" geniş ünlüleriyle biten fiillere "-yor" şimdiki zaman eki getirildiğinde, bu geniş ünlüler daralarak "ı, i, u, ü" seslerine dönüşür.</p>
+    <div class="example-box">
+        * Bekl<strong>e</strong> + yor &rarr; Bekl<strong>i</strong>yor <br>
+        * Başl<strong>a</strong> + yor &rarr; Başl<strong>ı</strong>yor <br>
+        * Özlem<strong>e</strong> + yor &rarr; Özlem<strong>i</strong>yor (Olumsuzluk ekinde de daralma olur)
+    </div>
+    <div class="tip-box">
+        <strong>⚠️ Hayati TYT Tuzağı:</strong> "-yor" eki dışında sadece 3 kelimede "y" harfi yüzünden daralma olur: <strong>ye-</strong>, <strong>de-</strong> ve <strong>ne</strong>.<br>
+        * Ye + ecek &rarr; <strong>Yiyecek</strong> | De + ince &rarr; <strong>Diyen</strong> | Ne + e &rarr; <strong>Niye</strong> <br>
+        Bunun dışındaki kelimelerde "y" harfi daralma yapmaz (Örn: "Anlayacak" yazımı doğrudur, "Anlıyacak" yazımı <u>yazım hatasıdır</u>).
+    </div>
+
+    <h3>C) Ünlü Türemesi</h3>
+    <p>Sözcüğün aslında olmadığı halde, "-cik" küçültme eki getirildiğinde veya pekiştirme yapılırken araya fazladan bir ünlü harfin girmesidir.</p>
+    <ul>
+        <li><strong>Küçültme Ekiyle:</strong> Az + cık &rarr; Az<strong>ı</strong>cık | Dar + cık &rarr; Dar<strong>a</strong>cık | Bir + cik &rarr; Bir<strong>i</strong>cik</li>
+        <li><strong>Pekiştirmeyle:</strong> Sağlam &rarr; S<strong>apa</strong>sağlam | Düz &rarr; D<strong>üpe</strong>düz | Gündüz &rarr; G<strong>üpe</strong>gündüz</li>
+    </ul>
+
+    <h2>2. Ünsüzlerle İlgili Ses Olayları</h2>
+    <p>Türkçedeki ünsüz harflerin (özellikle sert ünsüzlerin) yan yana geldiklerinde uğradıkları uyum ve değişimlerdir.</p>
+
+    <h3>A) Ünsüz Yumuşaması (Ünsüz Değişimi)</h3>
+    <p>Sert ünsüzlerden "p, ç, t, k" ile biten bir sözcüğe, ünlüyle başlayan bir ek getirildiğinde bu sert harfler yumuşayarak "b, c, d, g, ğ"ye dönüşür.</p>
+    <div class="example-box">
+        * Kita<strong>p</strong> + ı &rarr; Ki<strong>tab</strong>ı <br>
+        * Ağa<strong>ç</strong> + a &rarr; Ağa<strong>c</strong>a <br>
+        * Yata<strong>k</strong> + ı &rarr; Yata<strong>ğ</strong>ı
+    </div>
+    <div class="tip-box">
+        <strong>Yumuşamaya Aykırılık (Sınavda Sorulur):</strong> <br>
+        1. Tek heceli bazı kelimeler yumuşamaz: Süt &rarr; Sütü (Südü olmaz), Kaç &rarr; Kaçı. <br>
+        2. Yabancı kökenli kelimeler yumuşamaz: Hukuk &rarr; Hukuku, Evrak &rarr; Evrakı, Millet &rarr; Milleti. <br>
+        3. Özel isimlerin yazılışında yumuşama gösterilmez: Zonguldak'a yazılır, okunurken Zonguldağ'a diye okunur.
+    </div>
+
+    <h3>B) Ünsüz Benzeşmesi (Sertleşme / Ünsüz Uyumu)</h3>
+    <p>Sert ünsüzlerle (<strong>F, S, T, K, Ç, Ş, H, P</strong> - Fıstıkçı Şahap) biten bir kelimeye, yumuşak ünsüzlerden "c, d, g" ile başlayan bir ek geldiğinde, ekin başındaki ünsüzler sertleşerek "ç, t, k"ye dönüşür.</p>
+    <div class="example-box">
+        * Sını<strong>f</strong> + ca &rarr; Sını<strong>fça</strong> <br>
+        * Git + di &rarr; Git<strong>ti</strong> <br>
+        * 1923'<strong>d</strong>e &rarr; 1923'<strong>te</strong> (Sayıların okunuşu sert harfle bitiyorsa kural geçerlidir!)
+    </div>
+
+    <h3>C) Ünsüz Düşmesi</h3>
+    <p>Genellikle "k" harfiyle biten bazı kelimelere "-cik" veya "-l-" yapım eki getirildiğinde kökteki "k" harfi düşer.</p>
+    <ul>
+        <li>Küçü<strong>k</strong> + cük &rarr; <strong>Küçücük</strong></li>
+        <li>Sıca<strong>k</strong> + cık &rarr; <strong>Sıcacık</strong></li>
+        <li>Yükse<strong>k</strong> + lmek &rarr; <strong>Yükselmek</strong></li>
+        <li>Küçü<strong>k</strong> + lmek &rarr; <strong>Küçülmek</strong></li>
+    </ul>
+
+    <h2>3. Ses Olayları Özet Tablosu</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Ses Olayı</th>
+                <th>Kritik Formül</th>
+                <th>Sınav Örneği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Ünsüz Türemesi</strong></td>
+                <td>Kökün sonundaki ünsüzün ikizleşmesi.</td>
+                <td>His + etmek &rarr; His<strong>s</strong>etmek / Sır + ı &rarr; Sır<strong>r</strong>ı</td>
+            </tr>
+            <tr>
+                <td><strong>N-B Çatışması</strong></td>
+                <td>"b" sesinin kendinden önceki "n"yi "m" yapması.</td>
+                <td>Sünbül &rarr; Sü<strong>mb</strong>ül / Çanba &rarr; Ça<strong>rşa</strong>mba (Özel isimler hariç: İstanbul)</td>
+            </tr>
+            <tr>
+                <td><strong>Ulama</strong></td>
+                <td>Ünsüzle biten kelimenin ünlüyle başlayana bağlanması.</td>
+                <td>Sönme<strong>z a</strong>nsızın şafa<strong>k a</strong>tınca (Araya noktalama girerse ulama bozulur).</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
