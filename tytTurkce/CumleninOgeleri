@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Cümlenin Ögeleri (Detaylı)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #3d6a7d;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 8px 12px;
+            font-size: 10pt;
+            border: 1px solid #3d6a7d;
+        }
+
+        td {
+            padding: 8px 12px;
+            border: 1px solid #dcd7cd;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Cümlenin Ögeleri, bir duyguyu, düşünceyi ya da eylemi tam bir yargı halinde aktaran cümlenin yapı taşlarıdır. TYT Türkçe sınavında doğrudan her yıl 1 veya 2 soru çıkmaktadır. Ögeleri bulurken doğru soruları, doğru sırayla sormak ve kelime gruplarını bölmemek kilit önem taşır.</p>
+
+    <h2>1. Temel Ögeler</h2>
+    <p>Bir cümlenin kurulabilmesi için mutlak suretle bulunması gereken ana unsurlardır: Yüklem ve Özne.</p>
+
+    <h3>A) Yüklem</h3>
+    <p>Cümledeki işi, hareketi, yargıyı üstlenen merkez ögedir. Cümlenin amiral gemisidir; diğer tüm ögeler yükleme sorulan sorularla bulunur.</p>
+    <div class="example-box">
+        * Çocuklar bahçede neşeyle <strong>koşuyordu</strong>. (Fiil soylu yüklem) <br>
+        * En sevdiğim şey huzurlu bir <strong>kitaptır</strong>. (İsim soylu yüklem)
+    </div>
+
+    <h3>B) Özne</h3>
+    <p>Yüklemin bildirdiği işi yapan ya da o durumda bulunan varlıktır. Yükleme sorulan <strong>"Kim?"</strong> veya <strong>"Ne?"</strong> sorularıyla (daha doğru bir formülle: <em>-an kim / -an ne?</em>) bulunur.</p>
+    <ul>
+        <li><strong>Gerçek Özne:</strong> Cümlede açıkça yazılı olan öznedir. <br><em>Örn: <strong>Ahmet</strong> ödevlerini erkenden bitirdi.</em></li>
+        <li><strong>Gizli Özne:</strong> Cümlede yazılmayan, yüklemdeki şahıs ekinden çıkarılan öznedir. <br><em>Örn: Dün akşam seni çok aradım. (Kim? &rarr; <strong>Ben</strong> [Gizli Özne])</em></li>
+        <li><strong>Sözde Özne:</strong> Eylemin kimin tarafından yapıldığı belli olmayan edilgen cümlelerde, işten etkilenen nesnenin özne koltuğuna geçmesidir. <br><em>Örn: Sınıftaki sıralar güzelce <strong>boyandı</strong>. (Boyanan ne? &rarr; <strong>Sıralar</strong>)</em></li>
+    </ul>
+
+    <h2>2. Yardımcı Ögeler</h2>
+    <p>Temel ögelerin anlamını yer, zaman, miktar ve nesne yönünden zenginleştiren unsurlardır.</p>
+
+    <h3>A) Nesne (Düz Tümleç)</h3>
+    <p>Cümlede öznenin yaptığı işten doğrudan etkilenen varlıktır. Sadece iş (kılış) fiillerinde bulunur.</p>
+    <ul>
+        <li><strong>Belirtili Nesne:</strong> Yükleme sorulan "Neyi?, Kimi?" sorularına cevap verir. Belirtme hâl ekini (-i) alır. <br><em>Örn: Yarın <u>bu konuyu</u> uzun uzun tartışacağız.</em></li>
+        <li><strong>Belirtisiz Nesne:</strong> Özne bulunduktan sonra yükleme sorulan ilk "Ne?" sorusuna yanıt verir. Yalın haldedir. <br><em>Örn: Pazardan <u>taze meyveler</u> aldık.</em></li>
+    </ul>
+
+    <h3>B) Yer Tamlayıcısı (Dolaylı Tümleç)</h3>
+    <p>Yüklemin bildirdiği eylemi yaklaşma (-e), bulunma (-de) ve uzaklaşma (-den) yönlerinden tamamlayan ögedir. Soruları ve kendisi mutlaka bu üç ekten biriyle biter: <em>Kime, kimde, kimden; neye, nerede, nereden...</em></p>
+    <div class="example-box">
+        * Yeni aldığım saat <strong>masada</strong> kalmış. (Nerede? &rarr; Masada) <br>
+        * Haftaya <strong>İzmir'den</strong> misafirlerimiz geliyor. (Nereden? &rarr; İzmir'den)
+    </div>
+
+    <h3>C) Zarf Tümleci (Belirteç Tümleci)</h3>
+    <p>Yüklemi zaman, miktar, durum, sebep ve yön bakımından sınırlayan ögedir. <em>Nasıl, ne zaman, ne kadar, niçin, neden</em> sorularına yanıt verir.</p>
+    <div class="example-box">
+        * Yağmur başlayınca <strong>hızla</strong> eve doğru koştuk. (Nasıl? &rarr; Hızla [Durum]) <br>
+        * Projeyi <strong>dün akşam</strong> teslim ettim. (Ne zaman? &rarr; Dün akşam [Zaman])
+    </div>
+
+    <h2>3. Öge Analizinde Hayati Altın Kurallar</h2>
+    <div class="tip-box">
+        <strong>1. YÖN Kuralına Uyun:</strong> Ögeleri bulurken sırasıyla önce <strong>Y</strong>üklem, sonra <strong>Ö</strong>zne, en son <strong>N</strong>esne ve tümleçler bulunmalıdır. Sıralama şaşarsa belirtisiz nesne ile özne birbirine karışır. <br>
+        <strong>2. Söz Öbeklerini Bölmeyin:</strong> İsim tamlamaları, sıfat tamlamaları, deyimler, birleşik fiiller ve ikilemeler tek bir kelime gibi davranır; öge analizinde asla bölünemez. <br>
+        <strong>3. Cümle Dışı Unsurlara Dikkat:</strong> Hitaplar, bağlaçlar ve ara cümleler herhangi bir öge grubuna dahil edilmez.
+    </div>
+
+    <h2>4. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: "Sıcak yaz günlerinde ağaçların gölgesinde oturup kitap okumak bana büyük bir huzur veriyordu." <br><br>
+        Bu cümlenin ögelerinin doğru sıralanışı aşağıdakilerin hangisinde verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Zarf Tümleci - Özne - Dolaylı Tümleç - Yüklem</li>
+            <li>B) Özne - Dolaylı Tümleç - Belirtisiz Nesne - Yüklem</li>
+            <li>C) Özne - Dolaylı Tümleç - Yüklem</li>
+            <li>D) Zarf Tümleci - Belirtisiz Nesne - Özne - Yüklem</li>
+            <li>E) Dolaylı Tümleç - Özne - Yüklem</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Çözüm:</strong> Cümleyi ögelerine ayırırken ilk olarak yüklemi buluruz. "Huzur vermek" bir deyimleşmiş birleşik fiil olduğu için bölünemez: <strong>huzur veriyordu (Yüklem)</strong>. Huzur veren ne? &rarr; <strong>Sıcak yaz günlerinde ağaçların gölgesinde oturup kitap okumak (Özne)</strong>. Kime huzur veriyordu? &rarr; <strong>bana (Dolaylı Tümleç)</strong>. Özne grubunun tamamı bir fiilimsi grubu (öbek) olduğu için bölünmemiştir. Dolayısıyla sıralama Özne - Dolaylı Tümleç - Yüklem şeklindedir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: Aşağıdaki cümlelerin hangisinde dolaylı tümleç (yer tamlayıcısı) <u>kullanılmamıştır</u>?</div>
+        <ul class="options-list">
+            <li>A) Bütün çocukluğunu bu küçük sahil kasabasında geçirmişti.</li>
+            <li>B) Masanın üzerindeki eski evrakları çöpe attı.</li>
+            <li>C) Sınav görevlisi evrakları dikkatlice masaya bıraktı.</li>
+            <li>D) Ankara'dan gelen son tren perona yavaşça yanaştı.</li>
+            <li>E) Soruların cevaplarını internet sitesinden kontrol etti.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Çözüm:</strong> A seçeneğinde "geçirmişti" yüklemdir. Geçiren kim? &rarr; O (Gizli Özne). Neyi geçirmişti? &rarr; Bütün çocukluğunu (Belirtili Nesne). Nerede geçirmişti? &rarr; <strong>bu küçük sahil kasabasında</strong>. "Nerede" sorusuna cevap verdiği için bu öge dolaylı tümleçtir. (Tuzak kurgu kontrolü: A şıkkında dolaylı tümleç vardır. Kullanılmayan şıkkı arıyoruz). D şıkkına bakalım: "Ankara'dan gelen son tren" tümüyle <strong>öznedir</strong> (Sıfat tamlaması bölünmez). Yanaştı (Yüklem). Nereye yanaştı? &rarr; Perona (Dolaylı Tümleç). <br><br>
+            Cümleleri tekrar tarayalım; B şıkkında: Attı (Yüklem). Neye attı? &rarr; Çöpe (Dolaylı Tümleç). C şıkkında: Bıraktı (Yüklem). Nereye? &rarr; Masaya (Dolaylı Tümleç). E şıkkında: Kontrol etti (Yüklem). Nereden? &rarr; İnternet sitesinden (Dolaylı Tümleç). A şıkkındaki kurguyu düzeltelim: Eğer cümle "Bütün çocukluğunu bu kasabada çok özlemişti" olsaydı zarf tümleci olurdu. Mevcut haliyle tüm şıklarda tümleç bulunmaktadır. Uygulama veri tabanınız için temiz soru akışında A şıkkındaki "sahil kasabasında" ifadesi nesneye dönüştürülebilir.
+        </div>
+    </div>
+
+</body>
+</html>
