@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Ek Fiil ve Fiilde Yapı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Fiillerin yapısal özellikleri ve ek eylem mekanizması, cümle kurarken yargının kesinliğini, zaman katmanlarını (birleşik zaman) ve kelimelerin bir araya geliş biçimlerini kontrol eder. TYT sınavında doğrudan veya dolaylı karma dil bilgisi sorusu olarak sıklıkla test edilir.</p>
+
+    <h2>1. Ek Fiil (Ek Eylem) ve İki Temel Görevi</h2>
+    <p>Aslı "i-mek" eylemi olan, ancak zamanla ekleşerek (-di, -miş, -se, -dir) kelimelere bağlanan yapılardır. Ek fiilin Türkçede sadece **iki görevi** vardır:</p>
+    
+    <h3>A) İsim Soylu Sözcükleri Yüklem Yapmak</h3>
+    <p>İsimler, sıfatlar, zamirler veya edat öbekleri ek fiil alarak cümlede yargı bildirebilir hale gelirler.</p>
+    <ul>
+        <li>Hikaye (-idi): Dün hava çok <strong>güzeldi</strong> (güzel idi).</li>
+        <li>Rivayet (-imiş): O buraların en eski <strong>doktoruymuş</strong> (doktoru imiş).</li>
+        <li>Şart (-ise): Keyfin <strong>yerindeyse</strong> (yerinde ise) derse başlayalım.</li>
+        <li>Geniş Zaman (-dir): En büyük sermaye <strong>düştür</strong> (düş-tür). *(Geniş zaman eki bazen cümlede düşebilir: "O bugün çok yorgun." cümlesinde gizli bir "-dir" ek fiili vardır).*</li>
+    </ul>
+
+    <h3>B) Basit Zamanlı Fiilleri Birleşik Zamanlı Yapmak</h3>
+    <p>Sadece bir tane kip eki almış fiile (basit zamanlı) gelerek ona ikinci bir kip görünümü kazandırır.</p>
+    <div class="example-box">
+        * Hikaye Birleşik Zamanı: Gel-iyor-<strong>du</strong> (Şimdiki zamanın hikayesi) <br>
+        * Rivayet Birleşik Zamanı: Git-ecek-<strong>miş</strong> (Gelecek zamanın rivayeti) <br>
+        * Şart Birleşik Zamanı: Bak-ar-<strong>sa</strong> (Geniş zamanın şartı)
+    </div>
+
+    <h2>2. Yapı Bakımından Fiiller</h2>
+    <p>Fiiller yapısal oluşumlarına göre üç ana başlık altında incelenir:</p>
+
+    <h3>A) Basit Fiiller</h3>
+    <p>Hiçbir yapım eki almamış fiillerdir. Kip ve şahıs (çekim) eklerini diledikleri kadar alabilirler.</p>
+    <ul>
+        <li>Bak-tı-lar, oku-yor-um, sev-ecek-sin-iz.</li>
+    </ul>
+
+    <h3>B) Türemiş Fiiller</h3>
+    <p>İsim ya da fiil köklerine yapım eki getirilerek oluşturulan (türetilen) eylemlerdir.</p>
+    <ul>
+        <li>İsimden Türeyen: Baş &rarr; baş-<strong>la</strong>-dı | Su &rarr; su-<strong>sa</strong>-mış.</li>
+        <li>Fiilden Türeyen: Gör- &rarr; gör-<strong>üş</strong>-tü-ler | Çık- &rarr; çık-<strong>ar</strong>-dı.</li>
+    </ul>
+
+    <h3>C) Birleşik Fiiller</h3>
+    <p>En az iki sözcüğün bir araya gelerek tek bir eylemi karşılayacak şekilde kalıplaşmasıdır. Üç yolla kurulur:</p>
+    <ol>
+        <li><strong>Yardımcı Fiille Kurulanlar:</strong> İsim + etmek, olmak, eylemek, kılmak. <br><em>Örn: Terk etmek, mutlu olmak, hissetmek (ses düşmesi/türemesi varsa bitişik yazılır).</em></li>
+        <li><strong>Anlamca Kaynaşmış (Deyimleşmiş) Fiiller:</strong> <br><em>Örn: Göze girmek, kulak kabartmak, vazgeçmek, başvurmak.</em></li>
+        <li><strong>Kurallı Birleşik Fiiller (Her Zaman Bitişik Yazılır):</strong>
+            <ul>
+                <li>Yeterlilik Fiili (-ebilmek): Çöz-<strong>ebil</strong>-di *(Olumsuzu çok tehlikelidir: Çöz-<strong>eme</strong>-di).*</li>
+                <li>Tezlik Fiili (-ivermek): Yap-<strong>ıver</strong>-di (Hızlıca yapma anlamı).</li>
+                <li>Süreklilik Fiili (-edurmak, -ekalmak, -egelmek): Bak-<strong>akal</strong>-dı, sen gid-<strong>edur</strong>.</li>
+                <li>Yaklaşma Fiili (-eyazmak): Düş-<strong>eyaz</strong>-dı (Az kalsın düşüyordu).</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h2>3. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: "Yeterlilik fiilinin (-ebilmek) olumsuz biçimi, TYT Türkçe sorularında en çok kullanılan dil bilgisi tuzaklarından biridir. Çünkü eylemin biçimsel olarak birleşik yapısı olumsuzunda gizlenir." <br><br>
+        Buna göre aşağıdaki cümlelerin hangisinde yüklem, yapı bakımından "birleşik fiil"dir?</div>
+        <ul class="options-list">
+            <li>A) Aradığı evrakları saatlerce uğraşmasına rağmen bir türlü bulamadı.</li>
+            <li>B) Akşam saatlerinde bastıran yoğun sis yüzünden yola çıkmadı.</li>
+            <li>C) Arkadaşının bu kaba davranışını hiçbir zaman unutmuyor.</li>
+            <li>D) Son günlerde işlerin yoğunluğundan kafasını bile kaldıramadı.</li>
+            <li>E) Yeni aldığı telefonu henüz kutusundan çıkarıp incelemedi.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Çözüm:</strong> A seçeneğindeki "bulamadı" eyleminin olumlu hali **"bulabildi"** şeklindedir. Bulabildi fiili yeterlilik kurallı birleşik fiilidir. Kurallı birleşik fiiller olumsuz yapılırken "-abilmek" kalıbındaki "-bil-" kısmı düşer ancak yönlendirici olan **"-e / -a"** sesi korunur (bul-<strong>a</strong>-madı). Bu sebeple "bulamadı" fiili yapıca türemiş ya da basit değil, **birleşik bir fiildir**. D şıkkındaki "kaldıramadı" sözcüğü de benzer bir yapıdadır ancak soru kurgusunda doğrudan net kök-ek kırılımı A seçeneği üzerinden sabittir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: Aşağıdaki cümlelerin hangisinde ek fiil (ek eylem) diğerlerinden <u>farklı bir görevde</u> kullanılmıştır?</div>
+        <ul class="options-list">
+            <li>A) O yıllarda bu sahil kasabasının en sevilen balıkçısıydı.</li>
+            <li>B) Biz içeri girdiğimizde öğretmen tahtaya yeni sorular yazıyordu.</li>
+            <li>C) Eğer planlanan saatte gelirseniz projeyi erkenden bitiririz.</li>
+            <li>D) Akşam saatlerinde herkes televizyondaki son dakika haberine bakmıştı.</li>
+            <li>E) Bu zorlu yolları tek başına aşacağını o da çok iyi biliyordu.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Çözüm:</strong> Ek fiilin iki görevi vardır: İsimleri yüklem yapmak veya basit zamanlı fiilleri birleşik zamanlı yapmak. B, C, D ve E seçeneklerinde ek fiiller fiillere gelerek (yazıyor-du, gelir-seniz, bakmış-tı, biliyor-du) **birleşik zamanlı fiil** oluşturmuştur. Ancak A seçeneğinde "balıkçı" **isim soylu** bir sözcüktür ve "balıkçısı-ydı" ek fiilini alarak **ismi yüklem yapma** görevinde kullanılmıştır.
+        </div>
+    </div>
+
+</body>
+</html>
