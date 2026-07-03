@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Noktalama İşaretleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Noktalama İşaretleri, duygu ve düşünceleri daha açık ifade etmek, cümlenin yapısını ve duraklama noktalarını belirlemek, okumayı ve anlamayı kolaylaştırmak amacıyla kullanılan işaretlerdir. Sınavda özellikle virgülün işlevleri ve noktalı virgül ile iki noktanın farkları yoğun bir şekilde sorgulanır.</p>
+
+    <h2>1. Nokta (.) ve Virgül (,)</h2>
+    
+    <h3>A) Nokta (.)</h3>
+    <p>Anlamca tamamlanmış cümlelerin sonuna konur. Ayrıca bazı kısaltmaların sonunda (Dr., Prof.), sayılardan sonra sıra bildirmek için (-ıncı, -inci anlamında: 3., II.) ve saat-dakika göstergelerinin arasında kullanılır.</p>
+    <div class="example-box">
+        * Sınav bugün saat <strong>09.30</strong>'da başlayacak. (TDK'ye göre saatlerin arasına <u>asla</u> iki nokta konulmaz, sadece nokta konur).
+    </div>
+
+    <h3>B) Virgül (,) - TYT'nin En Sevdiği İşaret</h3>
+    <p>Cümle içinde eş görevli sözcük ve sözcük gruplarının arasına, sıralı cümleleri ayırmak için yüklemlerin sonuna veya uzun cümlelerde yüklemden uzak düşmüş özneyi belirtmek için konur.</p>
+    <div class="example-box">
+        * Pazardan elma, armut, mandalina aldık. (Eş görevli kelimeler) <br>
+        * <strong>Yazar</strong>, hayal dünyasını gerçeğin potasında eriterek eserlerini kaleme alır. (Özneyi vurgulama)
+    </div>
+    
+    <div class="tip-box">
+        <strong>⚠️ Asla Virgül Konulmayacak Yerler (Ölümcül Tuzaklar):</strong> <br>
+        1. Metin içinde zarf-fiil eki almış kelimelerden sonra (eğer art arda sıralanmıyorlarsa) virgül <u>konulmaz</u>. <br><em>Örn: Soruları <strong>okuyup</strong> hemen çözmeye başladı.</em> <br>
+        2. Şart ekinden (-se / -sa) sonra virgül <u>konulmaz</u>. <br><em>Örn: Erken <strong>gelirse</strong> sinemaya gideriz.</em> <br>
+        3. Tamlamaların arasında (isim veya sıfat tamlaması) asla virgül <u>konulmaz</u>. <br>
+        4. "Hem... hem...", "ya... ya...", "ne... ne..." gibi tekrarlı bağlaçların önüne veya arkasına virgül <u>konulmaz</u>.
+    </div>
+
+    <h2>2. Noktalı Virgül (;) ve İki Nokta (:) Farkı</h2>
+    <p>Öğrencilerin en çok karıştırdığı iki işarettir. Temel kural şudur: İki noktadan sonra açıklama veya örnekleme gelir; noktalı virgül ise gruplandırma veya karmaşık cümleleri düzenleme işlevi görür.</p>
+
+    <h3>A) İki Nokta (:)</h3>
+    <p>Kendisiyle ilgili örnek verilecek veya açıklama yapılacak cümlenin sonuna konur.</p>
+    <ul>
+        <li><strong>Örnekleme:</strong> En sevdiğim meyvelerden bazıları şunlardır<strong>:</strong> çilek, muz, incir. (Örnekler küçük harfle başlar).</li>
+        <li><strong>Açıklama:</strong> Sana tek bir şey söyleyeceğim<strong>:</strong> Bu sınav çalışarak kazanılır. (Açıklama cümlesi büyük harfle başlar).</li>
+    </ul>
+
+    <h3>B) Noktalı Virgül (;)</h3>
+    <p>İçinde virgül bulunan sıralı cümleleri veya grupları ayırmak için kullanılır. Unutmayın, bir cümlede <strong>virgül yoksa noktalı virgül de olamaz!</strong></p>
+    <div class="example-box">
+        * Pazardan elma, armut<strong>;</strong> marketten süt, peynir, yoğurt aldık. (Tür veya takımları ayırma). <br>
+        * Kel ölür, sırma saçlı olur<strong>;</strong> kör ölür, badem gözlü olur. (İçinde virgül olan iki sıralı cümleyi bağlama).
+    </div>
+
+    <h2>3. Üç Nokta (...) ve Diğer İşaretler</h2>
+    <ul>
+        <li><strong>Üç Nokta (...):</strong> Anlamca tamamlanmamış (eksiltili) cümlelerin sonuna veya örneklerin devam ettiğini göstermek için konur. (Benzeri örnekler anlamında "vb." kısaltmasından sonra üç nokta <u>konulmaz</u>).</li>
+        <li><strong>Kesme İşareti ('):</strong> Özel adlara getirilen iyelik, durum ve bildirme eklerini ayırmak için konur. Ancak <strong>kurum, kuruluş ve kurul adlarına gelen ekler kesme işaretiyle <u>ayrılmaz</u></strong>. <br><em>Örn: Türk Dil Kurumuna (Doğru) | Türk Dil Kurumu'na (Yanlış - X)</em></li>
+    </ul>
+
+    <h2>4. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: Genç adam ( ) odanın pencerelerini tek tek açtı ( ) içeriye serin ( ) mis kokulu sabah havasının dolmasını büyük bir keyifle izledi ( ) Bu anı uzun zamandır bekliyordu. <br><br>
+        Yukarıdaki parantezle belirtilen yerlere sırasıyla hangi noktalama işaretleri getirilmelidir?</div>
+        <ul class="options-list">
+            <li>A) (,) (,) (,) (.)</li>
+            <li>B) (;) (,) (,) (.)</li>
+            <li>C) (,) (;) (,) (.)</li>
+            <li>D) (,) (;) (;) (!)</li>
+            <li>E) (;) (;) (,) (.)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Çözüm:</strong> İlk boşluğa "Genç adam" öznesini vurgulamak için <strong>virgül (,)</strong> getirilir. İkinci boşluktan sonra "içeriye..." diye devam eden bir sıralı cümle yapısı gelmektedir ve bu cümlenin kendi içinde "serin , mis kokulu" şeklinde virgülle ayrılmış eş görevli kelimeleri vardır. İçinde virgül bulunan sıralı cümleleri ayırmak için araya <strong>noktalı virgül (;)</strong> konur. Üçüncü boşluğa eş görevli sıfatları ayırmak için <strong>virgül (,)</strong> konur. Dördüncü cümle bittiği ve yeni cümle büyük harfle başladığı için son boşluğa <strong>nokta (.)</strong> getirilir. Sıralama: (,) (;) (,) (.) olmalıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: Aşağıdaki cümlelerin hangisinde noktalama hatası yapılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Yarın sabah Millî Eğitim Bakanlığının yeni genelgesi okullara duyurulacak.</li>
+            <li>B) Kitaptaki soruları dikkatlice inceleyip, çözemediği yerleri işaretledi.</li>
+            <li>C) Bu kasabada hayat o kadar yavaş akar ki zamanın nasıl geçtiğini anlayamazsınız.</li>
+            <li>D) Toplantı yarın tam 14.15'te konferans salonunda gerçekleştirilecek.</li>
+            <li>E) "Sana dün bir tepeden baktım aziz İstanbul!" dizeleri Yahya Kemal'e aittir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Çözüm:</strong> B seçeneğinde "inceleyip" kelimesi zarf-fiil eki (-ip) almıştır. Dil bilgisi kurallarına ve TDK'nin güncel noktalama kılavuzuna göre, metin içinde art arda sıralanmayan **tek bir zarf-fiilden sonra virgül kullanılması kesinlikle noktalama hatasıdır**. A şıkkında kurum adına gelen ek kesmeyle ayrılmamıştır (Doğru), D şıkkında saat arasına nokta konmuştur (Doğru).
+        </div>
+    </div>
+
+</body>
+</html>
