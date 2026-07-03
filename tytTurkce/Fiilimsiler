@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-9"/>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1254"/>
+    <meta http-equiv="content-type" content="text/html; charset=x-mac-turkish"/>
+    <title>TYT Türkçe Ders Notları - Fiilimsiler (Eylemsiler)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm 15mm 12mm;
+            background-color: #fdfcf7;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c251e;
+            line-height: 1.5;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            color: #2b4c59;
+            font-size: 15pt;
+            border-left: 5px solid #d97d56;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #3d6a7d;
+            font-size: 12.5pt;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .example-box {
+            background-color: #f3f0e7;
+            border-left: 3px dashed #b5a895;
+            padding: 12px 15px;
+            margin: 12px 0;
+            font-style: normal;
+            page-break-inside: avoid;
+        }
+
+        .example-box strong {
+            color: #c95a2e;
+        }
+
+        .tip-box {
+            background-color: #e6f0f3;
+            border: 1px solid #bcd1d8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 4px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #2b4c59;
+        }
+
+        .question-block {
+            background-color: #ffffff;
+            border: 1px solid #dcd7cd;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .question-title {
+            font-weight: bold;
+            color: #2b4c59;
+            margin-bottom: 10px;
+        }
+
+        .options-list {
+            list-style-type: none;
+            padding-left: 5px;
+            margin-bottom: 15px;
+        }
+
+        .options-list li {
+            margin-bottom: 5px;
+        }
+
+        .solution-box {
+            background-color: #edf7ed;
+            border-left: 4px solid #4caf50;
+            padding: 10px 12px;
+            font-size: 10pt;
+            color: #1e4620;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <p>Fiilimsiler (Eylemsiler); fiil kök ya da gövdelerinden belirli eklerle türetilen, fiil anlamını tamamen yitirmemekle birlikte cümle içinde isim, sıfat veya zarf görevinde kullanılan sözcüklerdir. Fiilimsiler kip ve şahıs eki alarak yüklem olamazlar (ek-fiil hariç) ancak fiiller gibi olumsuzluk eki alabilirler.</p>
+
+    <h2>1. İsim - Fiil (Ad - Eylem)</h2>
+    <p>Fiillere getirilen <strong>"-ma, -ış, -mak"</strong> (akılda kalıcı formülüyle: <em>Ma-yış-mak</em>) ekleriyle türetilir. Cümlede isim görevi üstlenirler ve isim çekim eklerini alabilirler.</p>
+    <div class="example-box">
+        * Kitap <strong>okumak</strong> zihni dinlendirir. (Fiilin adı) <br>
+        * Şiir <strong>okuyuşunu</strong> herkes çok beğendi. <br>
+        * Bu konuyu yeniden <strong>konuşmaya</strong> karar verdik.
+    </div>
+    <div class="tip-box">
+        <strong>⚠️ Dikkat - Kalıcı İsim Tuzağı:</strong> İsim-fiil ekini aldığı halde zamanla bir varlığın veya kavramın kalıcı adı olan sözcükler artık fiilimsi değildir. <br>
+        * Pazardan iki kilo <strong>kıyma</strong> aldık. (Kalıcı isim) <br>
+        * Çakmak, dondurma, ekmek, uçurtma, danışma, kavurma gibi kelimelerin cümledeki anlamına dikkat edilmelidir.
+    </div>
+
+    <h2>2. Sıfat - Fiil (Ortaç)</h2>
+    <p>Fiillere getirilen <strong>"-an, -ası, -mez, -ar, -dik, -ecek, -miş"</strong> (akılda kalıcı formülüyle: <em>An-ası-mez-ar-dik-ecek-miş</em>) ekleriyle türetilir. Genellikle bir ismin önüne gelerek sıfat görevi üstlenirler.</p>
+    <div class="example-box">
+        * <strong>Dönülmez</strong> <u>akşamın</u> ufkundayız, vakit çok geç. (Sıfat-fiil + İsim) <br>
+        * Sınavda <strong>tanıdık</strong> <u>sorularla</u> karşılaşınca rahatladı. <br>
+        * Gelecek <u>hafta</u> projenin detaylarını konuşacağız.
+    </div>
+    <div class="tip-box">
+        <strong>⚠️ Kritik Sınav İpucu (Adlaşmış Sıfat-Fiil):</strong> Sıfat-fiilin önündeki isim düştüğünde, sıfat-fiil ismin yerine geçerek adlaşır. Bu durum onun fiilimsi olma özelliğini <u>değiştirmez</u>. <br>
+        * <strong>Gelen</strong> <u>misafirler</u> başımızın tacıdır. (Normal sıfat-fiil) <br>
+        * <strong>Gelenler</strong> başımızın tacıdır. (Adlaşmış sıfat-fiil - Hâlâ fiilimsidir.)
+    </div>
+
+    <h2>3. Zarf - Fiil (Bağ - Fiil / Ulaç)</h2>
+    <p>Fiillere getirilen <strong>"-ken, -alı, -asıya, -emeden, -ip, -arak, -e... -e, -r... -mez, -casına, -meksizin, -dığında"</strong> ekleriyle türetilir. Cümleyi zaman veya durum yönünden tamamlayarak zarf görevi görürler.</p>
+    <div class="example-box">
+        * Soruları <strong>düşünerek</strong> çözersen hata payın azalır. (Nasıl çözersen? &rarr; Düşünerek [Durum]) <br>
+        * Eve <strong>varır varmaz</strong> beni mutlaka ara. (Ne zaman ara? &rarr; Varır varmaz [Zaman]) <br>
+        * Gözlerimin içine <strong>bakıp</strong> her şeyi tek tek anlattı. (Nasıl anlattı? &rarr; Bakıp [Durum])
+    </div>
+
+    <h2>4. Konu Pekiştirme Soruları (Çözümlü)</h2>
+
+    <div class="question-block">
+        <div class="question-title">Soru 1: Aşağıdaki cümlelerin hangisinde altı çizili sözcük fiilimsi <u>değildir</u>?</div>
+        <ul class="options-list">
+            <li>A) Sabahları sahilde <u>yürümek</u> bana çok iyi geliyor.</li>
+            <li>B) Masanın üzerinde duran <u>kırılmış</u> bardağı çöpe attı.</li>
+            <li>C) Misafirleri kapıda <u>karşılayıp</u> salona buyur etti.</li>
+            <li>D) Akşam yemeği için fırında nefis bir <u>ekmek</u> pişirdi.</li>
+            <li>E) Güneş <u>batarken</u> şehrin silüeti harika görünüyordu.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Çözüm:</strong> D seçeneğindeki "ekmek" sözcüğü, her ne kadar isim-fiil eki (-mak/-mek) almış gibi görünse de bir gıda maddesinin, somut bir varlığın kalıcı adı haline geldiği için **kalıcı isimdir**, fiilimsi özelliğini yitirmiştir. A şıkkında "yürümek" isim-fiil, B şıkkında "kırılmış (bardak)" sıfat-fiil, C şıkkında "karşılayıp" zarf-fiil, E şıkkında ise "batarken" zarf-fiildir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title">Soru 2: "Sıfat-fiil ekleri (-mez, -ar, -dik, -ecek, -miş) fiillerin haber (zaman) kipi ekleriyle biçimsel olarak benzerlik gösterir. Bunları karıştırmamak için sözcüğün cümledeki görevine bakılmalıdır." <br><br>
+        Aşağıdakilerin hangisinde "-ecek / -acak" eki farklı bir görevde kullanılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Gelecek yıl üniversite sınavına büyük bir azimle hazırlanacak.</li>
+            <li>B) Yapılacak işleri küçük bir not defterine sırasıyla yazmıştı.</li>
+            <li>C) Bu konuda söylenecek sözleri tüketip sessizce odadan çıktı.</li>
+            <li>D) Çözülecek soruları masanın üzerine güzelce tasnif etti.</li>
+            <li>E) Yeni projenin tüm detayları yarın sabah tek tek <u>açıklanacak</u>.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Çözüm:</strong> A, B, C ve D seçeneklerinde "-ecek / -acak" ekini alan sözcükler önlerindeki isimleri niteleyerek (Gelecek yıl, yapılacak işler, söylenecek sözler, çözülecek sorular) <strong>sıfat-fiil (fiilimsi)</strong> görevi üstlenmiştir. Ancak E seçeneğindeki "açıklanacak" sözcüğü cümlenin yüklemidir ve eylemin ilerleyen bir zamanda yapılacağını bildiren **gelecek zaman (kip) eki** olarak çekimlenmiştir.
+        </div>
+    </div>
+
+</body>
+</html>
