@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih Ders Notları - Kurtuluş Savaşı Hazırlık</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #702459; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #702459; font-size: 14pt; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .tip-box { background-color: #f5f3ff; border: 1px solid #b794f4; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .solution-title { font-weight: bold; color: #553c9a; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #702459; color: #fff; padding: 10px; text-align: left; }
+        td { padding: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Tarih Ders Notları</h1>
+        <p>Ünite 7: Kurtuluş Savaşı Hazırlık Dönemi</p>
+    </div>
+
+    <h2>1. Adım Adım Milli İrade</h2>
+    <p>Hazırlık dönemi, "işgallerin hukuki bir zemine oturtulmasına karşı" halkın örgütlenme sürecidir.</p>
+    
+    <table>
+        <tr>
+            <th>Gelişme</th>
+            <th>Temel Mesajı</th>
+        </tr>
+        <tr>
+            <td><strong>Amasya Genelgesi</strong></td>
+            <td>"Milletin istiklalini yine milletin azim ve kararı kurtaracaktır." (Kurtuluşun yöntem ve gerekçesi).</td>
+        </tr>
+        <tr>
+            <td><strong>Erzurum Kongresi</strong></td>
+            <td>"Kuvay-ı Milliye'yi etkin, milli iradeyi hakim kılmak esastır." (Doğu illeri temsil edildi).</td>
+        </tr>
+        <tr>
+            <td><strong>Sivas Kongresi</strong></td>
+            <td>Tüm cemiyetlerin "Anadolu ve Rumeli Müdafaa-i Hukuk" adı altında birleşmesi.</td>
+        </tr>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ Zihniyet Analizi (Milli Egemenlik):</strong> Amasya Genelgesi'nde ilk kez "milletin azim ve kararından" bahsedilmesi, saltanat sistemine karşı bir "sistem değişikliği" sinyalidir. Artık kararlar padişah adına değil, millet adına alınmaktadır. Bu, TYT sorularında "yönetim biçiminin değişeceğinin ilk işareti" olarak sıkça sorulur.
+    </div>
+
+    <h2>2. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Sivas Kongresi'nde "Manda ve Himaye" fikrinin kesin olarak reddedilmesinin temel sebebi nedir?
+        <div class="solution-title">Çözüm:</div>
+        "Tam bağımsızlık" ilkesinden taviz verilmeyeceğinin göstergesidir. Manda fikrinin reddi, Türk milletinin başka bir devletin kontrolüne girmeyi asla kabul etmeyeceğinin siyasi bir manifestosudur.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Erzurum Kongresi'nin "Doğu illerini temsil etmesi" bakımından bölgesel, ancak aldığı kararlar bakımından ulusal olması ne anlama gelir?
+        <div class="solution-title">Çözüm:</div>
+        Kongre toplanış amacı bakımından bölgesel olsa da, "vatanın bütünlüğü ve bağımsızlığı" gibi tüm ülkeyi ilgilendiren kararlar alması, Milli Mücadele'yi tüm ülkeye mal ettiğini gösterir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 3 (Öncüllü):</strong> Amasya Genelgesi'nde alınan;
+        <br>I. İstanbul Hükümeti üzerine düşen görevi yapmamaktadır,
+        <br>II. Sivas'ta milli bir kongre toplanacaktır,
+        <br>III. Doğu illeri için ayrı bir kongre yapılacaktır
+        <br>maddelerinden hangileri Milli Mücadele'yi "kişisellikten çıkarma" amacını taşır?
+        <div class="solution-title">Çözüm:</div>
+        I ve II doğrudur. Hükümetin görevini yapmadığının ilanı mevcut otoritenin yetersizliğini ortaya koyar, Sivas Kongresi çağrısı ise mücadelenin tüm yurda yayılacağını ve bir kişinin değil, temsilcilerin karar vereceğini gösterir. Cevap: <strong>I ve II</strong>.
+    </div>
+
+</body>
+</html>

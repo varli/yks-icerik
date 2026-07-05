@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih Ders Notları - Osmanlı Kuruluş Süreci</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #702459; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #702459; font-size: 14pt; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .tip-box { background-color: #f5f3ff; border: 1px solid #b794f4; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .solution-title { font-weight: bold; color: #553c9a; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #702459; color: #fff; padding: 10px; text-align: left; }
+        td { padding: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Tarih Ders Notları</h1>
+        <p>Ünite 4: Beylikten Devlete Osmanlı Kuruluş Süreci</p>
+    </div>
+
+    <h2>1. Osmanlı'nın Kısa Sürede Büyümesinin Stratejik Nedenleri</h2>
+    <p>Osmanlı Beyliği, Söğüt ve Domaniç civarında kurulduğunda en küçük beyliklerden biriydi. Büyümesindeki "Sihirli Formül" şunlardır:</p>
+    <ul>
+        <li><strong>Coğrafi Konum:</strong> Bizans sınırında (uç beyliği) kurulması, fetih hareketlerini Hristiyan topraklarına yöneltmesini sağladı.</li>
+        <li><strong>İstimalet Politikası:</strong> Fethedilen topraklardaki halka adaletli davranma ve onları hoşgörüyle yönetme politikası.</li>
+        <li><strong>Ahilerin Desteği:</strong> Anadolu'daki esnaf ve sanatkar teşkilatı olan Ahilerin (Ahi Evran) desteğinin alınması.</li>
+    </ul>
+
+    
+
+    <h2>2. Kuruluş Döneminin Temel Taşları</h2>
+    <table>
+        <tr>
+            <th>Kavram / Olay</th>
+            <th>Tarihsel Önemi</th>
+        </tr>
+        <tr>
+            <td><strong>Bapheus (Koyunhisar)</strong></td>
+            <td>Bizans ile yapılan ilk gerçek savaş, Osmanlı'nın artık bir "beylik" olduğunun ilanı.</td>
+        </tr>
+        <tr>
+            <td><strong>İskan Politikası</strong></td>
+            <td>Fethedilen bölgelere Türkmenlerin yerleştirilerek kalıcılığın sağlanması.</td>
+        </tr>
+        <tr>
+            <td><strong>Devşirme Sistemi</strong></td>
+            <td>Merkezi otoriteyi güçlendirmek için oluşturulan asker ve yönetici kaynağı.</td>
+        </tr>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ Zihniyet Analizi (İstimalet):</strong> İstimalet politikası, Osmanlı'nın bir "fatih" değil, bir "düzen kurucu" olarak algılanmasını sağladı. Balkanlar'daki halkın, feodal baskıcı düzen yerine Osmanlı'nın adaletli vergi sistemini tercih etmesi, büyümenin önündeki en büyük engeli (halkın isyanı) kaldırmıştır.
+    </div>
+
+    <h2>3. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Osmanlı Beyliği'nin kuruluş aşamasında Bizans'ın merkezi otoritesini kaybetmesi ve Anadolu'da "Tekfurlar" (yerel valiler) arasında çatışmalar olması, Osmanlı'nın büyümesini nasıl etkilemiştir?
+        <div class="solution-title">Çözüm:</div>
+        Bizans'ın zayıf olması ve iç çekişmeler, Osmanlı'nın karşılaştığı dış engelleri minimize ederek fetihlerin daha rahat gerçekleşmesini sağlamıştır.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> İskan politikası ile sadece fethedilen yerlere Türkmenlerin yerleştirilmesi değil, göçebe Türkmenlerin yerleşik hayata geçirilmesi de hedeflenmiştir. Bu durum neyi kolaylaştırmıştır?
+        <div class="solution-title">Çözüm:</div>
+        Göçebe hayatın getirdiği asayiş sorunlarının bitirilmesini ve merkezi otoritenin halk üzerindeki kontrolünün artırılmasını kolaylaştırmıştır.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 3 (Öncüllü):</strong> Osmanlı Devleti'nin kuruluş dönemindeki başarısında;
+        <br>I. Şehzadelerin "Lala" eğitmenliğinde sancaklara gönderilmesi,
+        <br>II. İstimalet politikası ile halkın memnuniyetinin kazanılması,
+        <br>III. Bizans'ın sınırlarının genişletilmek istenmesi
+        <br>faktörlerinden hangileri iç politika düzenini güçlendiren unsurlardandır?
+        <div class="solution-title">Çözüm:</div>
+        I (eğitim ve idare) ve II (halk ile ilişki) iç düzeni güçlendirir. III ise dış politika ve fetihle ilgilidir. Cevap: <strong>I ve II</strong>.
+    </div>
+
+</body>
+</html>

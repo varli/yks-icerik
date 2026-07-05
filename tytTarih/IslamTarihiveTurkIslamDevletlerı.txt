@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih Ders Notları - İslam Tarihi ve Türk-İslam Devletleri</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2c5282; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #2c5282; font-size: 14pt; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .tip-box { background-color: #ebf8ff; border: 1px solid #90cdf4; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .solution-title { font-weight: bold; color: #2b6cb0; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #2c5282; color: #fff; padding: 10px; text-align: left; }
+        td { padding: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Tarih Ders Notları</h1>
+        <p>Ünite 3: İslam Tarihi ve Türk-İslam Devletleri</p>
+    </div>
+
+    <h2>1. İslamiyet'in Doğuşu ve Dört Halife Dönemi</h2>
+    <p>İslamiyet öncesi Arap yarımadasına "Cahiliye Dönemi" denir. İslamiyet ile birlikte kabilecilik yerini ümmet anlayışına bırakmıştır. Dört Halife Dönemi, halifelerin seçimle (şura) iş başına gelmesi nedeniyle <strong>"Cumhuriyet Dönemi"</strong> olarak da adlandırılır.</p>
+
+    
+
+    <h2>2. Türklerin İslamiyet'e Girişi</h2>
+    <p>Türklerin İslamiyet'i kabul etmesinde; İslam'daki "cihad" anlayışı ile Türklerdeki "cihan hakimiyeti" fikrinin benzerliği ve sosyal sınıfların olmaması (eşitlik) temel etkendir.</p>
+
+    <table>
+        <tr>
+            <th>Türk-İslam Devleti</th>
+            <th>Önemi / Katkısı</th>
+        </tr>
+        <tr>
+            <td><strong>Karahanlılar</strong></td>
+            <td>İlk Müslüman Türk devleti, ilk Türk-İslam eserleri (Kutadgu Bilig).</td>
+        </tr>
+        <tr>
+            <td><strong>Gazneliler</strong></td>
+            <td>İslamiyet'i Hindistan'a yaydılar (Bünyesinde çok uluslu yapı).</td>
+        </tr>
+        <tr>
+            <td><strong>Büyük Selçuklu</strong></td>
+            <td>İslam dünyasının siyasi liderliği, Nizamülmülk (Nizamiye Medreseleri).</td>
+        </tr>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ Kavram Analizi (İkili Teşkilat vs. Merkezileşme):</strong> Türk devletlerinde geleneksel "ikili teşkilat" (doğu-batı yönetimi), İslamiyet ile birlikte devletin merkezileşmesi gereği (siyasi otoriteyi tek elde toplama) değişim geçirmiştir. İslamiyet'in "adalet" ve "hukuk" anlayışı, Türk töresini zenginleştirmiştir.
+    </div>
+
+    <h2>3. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> İslamiyet'in kabulüyle birlikte Türk devletlerinde "Töre" yerine "Şer'i Hukuk"un gelmesi, devlet yönetiminde hangi değişikliği doğrudan ifade eder?
+        <div class="solution-title">Çözüm:</div>
+        Hukuk sisteminin kaynağının "geleneklerden" (töre) "dini kurallara" (şeriat) geçmesi, devletin daha teokratik bir yapıya evrildiğini gösterir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Karahanlıların "Türkçe"yi resmi dil ilan etmeleri ve Orta Asya'da kurulmaları neyi kanıtlar?
+        <div class="solution-title">Çözüm:</div>
+        İslamiyet'i benimsemelerine rağmen <strong>ulusal kimliklerini ve dillerini koruduklarını</strong>, kültür emperyalizmine direnç gösterdiklerini kanıtlar.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 3 (Öncüllü):</strong> Türklerin İslamiyet'i kabul etmesiyle;
+        <br>I. Fetih politikalarının cihat anlayışına dönüşmesi,
+        <br>II. Yazılı edebiyatın başlangıcı,
+        <br>III. Sanat anlayışında mimari ve süslemenin gelişmesi
+        <br>durumlarından hangileri gerçekleşmiştir?
+        <div class="solution-title">Çözüm:</div>
+        I ve III doğrudur. Ancak II yanlıştır; Türklerde İslam öncesi de (Göktürk Kitabeleri, Orhun Abideleri gibi) yazılı edebiyat mevcuttur. Cevap: <strong>I ve III</strong>.
+    </div>
+
+</body>
+</html>

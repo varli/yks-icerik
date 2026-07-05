@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih Ders Notları - Muharebeler ve Antlaşmalar</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #854d0e; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #854d0e; font-size: 14pt; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .tip-box { background-color: #fffbeb; border: 1px solid #fcd34d; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .solution-title { font-weight: bold; color: #92400e; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #854d0e; color: #fff; padding: 10px; text-align: left; }
+        td { padding: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Tarih Ders Notları</h1>
+        <p>Ünite 8: Kurtuluş Savaşı Muharebeler ve Antlaşmalar</p>
+    </div>
+
+    <h2>1. Askeri Başarıdan Diplomasiye Geçiş</h2>
+    <p>Kurtuluş Savaşı'nda üç ana cephede mücadele verilmiştir: <strong>Doğu, Güney ve Batı.</strong> Özellikle Batı Cephesi, savaşın kaderini belirleyen "düzenli ordunun" sahne aldığı yerdir.</p>
+    
+    <table>
+        <tr>
+            <th>Muharebe</th>
+            <th>Sonuç ve Diplomatik Etkisi</th>
+        </tr>
+        <tr>
+            <td><strong>I. İnönü</strong></td>
+            <td>Londra Konferansı (TBMM'nin hukuken tanınması).</td>
+        </tr>
+        <tr>
+            <td><strong>Sakarya</strong></td>
+            <td>"Son savunma savaşı", Kars Antlaşması ve Ankara Antlaşması.</td>
+        </tr>
+        <tr>
+            <td><strong>Büyük Taarruz</strong></td>
+            <td>Düşmanın yurttan atılması, Mudanya Ateşkesi ve Lozan süreci.</td>
+        </tr>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ Zihniyet Analizi (Lozan'ın Önemi):</strong> Lozan Antlaşması, sadece bir barış metni değil, Osmanlı'nın imzaladığı Sevr'in geçersizliğinin belgelendiği ve modern Türkiye Cumhuriyeti'nin tapusu niteliğinde bir uluslararası belgedir. "Tam bağımsızlık" hedefine ulaşmanın en büyük hukuki kanıtıdır.
+    </div>
+
+    <h2>2. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> İtilaf devletlerinin I. İnönü Savaşı sonrasında TBMM'yi Londra Konferansı'na çağırmalarının temel amacı nedir?
+        <div class="solution-title">Çözüm:</div>
+        TBMM ile İstanbul Hükümeti'ni bir arada çağırarak ikilik çıkarmak ve Sevr Antlaşması'nı küçük değişikliklerle TBMM'ye kabul ettirmek. Ancak TBMM'nin "tek yetkili" olarak katılması bu oyunu bozmuştur.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Sakarya Meydan Muharebesi'nden sonra Türklerin "savunma"dan "taarruz"a geçişi, savaş stratejisinde nasıl bir değişime işaret eder?
+        <div class="solution-title">Çözüm:</div>
+        Ordunun artık yeterli eğitim, silah ve motivasyona sahip olduğunu; işgalci güçlerin inisiyatifinin Türk ordusuna geçtiğini gösterir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 3 (Öncüllü):</strong> Mudanya Ateşkes Antlaşması ile;
+        <br>I. İstanbul, Boğazlar ve Doğu Trakya savaşsız kurtarılmış,
+        <br>II. Osmanlı Devleti'nin hukuki varlığı fiilen sona ermiş,
+        <br>III. Savaş dönemi bitip diplomasi dönemi başlamıştır.
+        <br>Yargılarından hangileri doğrudur?
+        <div class="solution-title">Çözüm:</div>
+        I ve II doğrudur. III yanlıştır çünkü savaşın "diplomasi dönemi" zaten I. İnönü'den itibaren başlamıştı. Mudanya, askeri zaferin diplomatik nihayete ermesidir. Cevap: <strong>I ve II</strong>.
+    </div>
+
+</body>
+</html>
