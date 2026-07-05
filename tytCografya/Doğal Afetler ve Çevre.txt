@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya - Doğal Afetler ve Çevre</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; }
+        .header-banner { background-color: #4a5568; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        h2 { color: #4a5568; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #cbd5e0; padding: 12px; border-radius: 6px; }
+        .example-box { background-color: #fff5f5; border-left: 3px solid #e53e3e; padding: 15px; margin: 15px 0; }
+        .solution-title { font-weight: bold; color: #e53e3e; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #4a5568; color: #fff; padding: 10px; }
+        td { padding: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Coğrafya Ders Notları</h1>
+        <p>Ünite 7: Doğal Afetler ve Çevre Sorunları</p>
+    </div>
+
+    <h2>1. Afetlerin Sınıflandırılması</h2>
+    <p>Afetler kökenlerine göre temel olarak ikiye ayrılır:</p>
+    <table>
+        <tr>
+            <th>Jeolojik (Yer Kökenli)</th>
+            <th>Klimatik (İklim Kökenli)</th>
+        </tr>
+        <tr>
+            <td>Deprem</td>
+            <td>Sel ve Taşkın</td>
+        </tr>
+        <tr>
+            <td>Volkanizma</td>
+            <td>Kuraklık</td>
+        </tr>
+        <tr>
+            <td>Tsunami</td>
+            <td>Kasırga / Fırtına</td>
+        </tr>
+    </table>
+
+    <h2>2. Küresel Çevre Sorunları</h2>
+    <ul>
+        <li><strong>Küresel Isınma:</strong> Sera gazlarının artması sonucu Dünya'nın ortalama sıcaklığının yükselmesi.</li>
+        <li><strong>Asit Yağışları:</strong> Fosil yakıtların atmosfere saldığı gazların (SO2, NO2) yağışla birleşerek asit oluşturması.</li>
+        <li><strong>Biyoçeşitlilik Kaybı:</strong> Orman tahribatı ve kirlilik sonucu canlı türlerinin yok olması.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT İpucu (İnsan Faktörü):</strong> Doğal afetlerin "afet" sayılabilmesi için can ve mal kaybına yol açması gerekir. İnsanların yanlış arazi kullanımı (fay hattı üzerine bina yapmak gibi), doğal olayları birer afete dönüştürür.
+    </div>
+
+    <h2>3. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Aşağıdaki afetlerden hangisinin oluşumunda "iklim" faktörü etkili **değildir**?
+        <br>A) Sel
+        <br>B) Kuraklık
+        <br>C) Deprem
+        <br>D) Kasırga
+        <div class="solution-title">Çözüm:</div>
+        Deprem, yer kabuğunun hareketleri (iç kuvvetler) sonucu oluşur, atmosferik bir olay değildir. Cevap: <strong>C</strong>.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Küresel ısınmanın doğrudan sonuçlarından biri olan deniz seviyelerindeki yükselme, dünyadaki hangi bölgeleri en çok tehdit eder?
+        <div class="solution-title">Çözüm:</div>
+        Alçak kıyı bölgelerini, delta ovalarını ve ada ülkelerini (Örn: Maldivler, Hollanda'nın alçak kısımları) doğrudan tehdit eder.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 3 (Öncüllü):</strong> Doğal afetlerin etkisini azaltmak için;
+        <br>I. Erken uyarı sistemleri kurmak,
+        <br>II. Afet bilinci eğitimi vermek,
+        <br>III. Fay hatları üzerine yerleşim alanları açmak
+        <br>maddelerinden hangileri doğrudur?
+        <div class="solution-title">Çözüm:</div>
+        I ve II afet etkisini azaltır. III tam aksine riski artırır. Cevap: <strong>I ve II</strong>.
+    </div>
+
+</body>
+</html>

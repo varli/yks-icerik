@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya Ders Notları - Doğa ve İnsan</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #276749; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #f6e05e; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #276749; font-size: 14pt; border-left: 5px solid #f6e05e; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .tip-box { background-color: #f0fff4; border: 1px solid #9ae6b4; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .solution-title { font-weight: bold; color: #22543d; margin-top: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #276749; color: #fff; padding: 10px; text-align: left; }
+        td { padding: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Coğrafya Ders Notları</h1>
+        <p>Ünite 1: Doğa ve İnsan</p>
+    </div>
+
+    <h2>1. Coğrafyanın Bölümleri</h2>
+    <p>Coğrafya, doğal ve beşeri ortamları inceleyen bir bütündür. İnceleme alanlarını iki ana başlıkta toplarız:</p>
+    
+    <table>
+        <tr>
+            <th>Doğal Coğrafya (Fiziki)</th>
+            <th>Beşeri ve Ekonomik Coğrafya</th>
+        </tr>
+        <tr>
+            <td>İklim Bilgisi (Klimatoloji)</td>
+            <td>Nüfus Coğrafyası</td>
+        </tr>
+        <tr>
+            <td>Yer Şekilleri (Jeomorfoloji)</td>
+            <td>Ekonomik Coğrafya</td>
+        </tr>
+        <tr>
+            <td>Sular Coğrafyası (Hidrografya)</td>
+            <td>Siyasi ve Yerleşme Coğrafyası</td>
+        </tr>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT İpucu (Doğa-İnsan Etkileşimi):</strong> Sınavlarda genellikle "Doğa insana mı uyum sağlar, insan mı doğaya?" sorusu çıkar. Modern yaklaşım <strong>"karşılıklı etkileşim"</strong>dir. Ancak teknoloji geliştikçe insan doğayı daha fazla değiştirmeye başlamıştır (örneğin; Süveyş Kanalı'nın açılması, tünellerin yapılması).
+    </div>
+
+    <h2>2. Coğrafi Ortamın Dört Unsuru (Doğal Ortam)</h2>
+    <p>Doğal ortamı oluşturan dört temel sistem (küre) vardır:</p>
+    <ul>
+        <li><strong>Litosfer (Taşküre):</strong> Yer kabuğu, yer şekilleri.</li>
+        <li><strong>Atmosfer (Hava Küre):</strong> İklim olayları, gazlar.</li>
+        <li><strong>Hidrosfer (Su Küre):</strong> Okyanuslar, göller, akarsular.</li>
+        <li><strong>Biyosfer (Canlı Küre):</strong> Bitki ve hayvan toplulukları.</li>
+    </ul>
+
+    <h2>3. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Aşağıdaki insan faaliyetlerinden hangisi, doğa üzerindeki "teknolojik etkinin" bir örneği değildir?
+        <br>A) Baraj yapımı
+        <br>B) Dağlarda tünel açılması
+        <br>C) Ekvator'da ince giysiler giyilmesi
+        <br>D) Sulama kanalları ile çölleşmiş alanların tarıma açılması
+        <div class="solution-title">Çözüm:</div>
+        C şıkkı insanın doğaya "uyumunu" gösterir, doğayı değiştirdiğine değil. Diğerleri ise doğanın doğrudan değiştirilmesidir. Cevap: <strong>C</strong>.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir yerin iklim özelliklerini inceleyen bir araştırmacı, coğrafyanın hangi alt dalından yararlanır?
+        <div class="solution-title">Çözüm:</div>
+        İklim biliminin adı <strong>Klimatoloji</strong>'dir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 3 (Öncüllü):</strong> İnsan-doğa etkileşiminde;
+        <br>I. Dağların kuzey yamaçlarının daha soğuk olması,
+        <br>II. Akarsu vadilerine kurulan yerleşimler,
+        <br>III. Kutuplarda yerleşmenin seyrek olması
+        <br>durumlarından hangileri doğanın insan faaliyetleri üzerindeki etkisine örnektir?
+        <div class="solution-title">Çözüm:</div>
+        II ve III doğrudan doğanın insanı yönlendirmesidir. I ise sadece bir doğa olayıdır, insanı doğrudan içermez. Cevap: <strong>II ve III</strong>.
+    </div>
+
+</body>
+</html>
