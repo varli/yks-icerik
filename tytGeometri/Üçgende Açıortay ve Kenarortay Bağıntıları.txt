@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - Açıortay ve Kenarortay</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #1a365d; font-size: 14pt; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .math { font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold; color: #b7791f; }
+        .math-block { text-align: center; margin: 15px 0; font-size: 11.5pt; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .solution-title { font-weight: bold; color: #2f855a; margin-top: 10px; }
+        .tip-box { background-color: #fffaf0; border: 1px solid #feebc8; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 6: Açıortay ve Kenarortay Bağıntıları</p>
+    </div>
+
+    <h2>1. Açıortay Teoremi</h2>
+    <p>Bir üçgenin köşesinden çıkan ve karşı kenarı oranlayan doğru parçasına açıortay denir. Açıortay, karşı kenarı, kolların uzunluklarıyla <strong>orantılı</strong> parçalara böler.</p>
+    
+    <div class="math-block">
+        <span class="math">\frac{c}{n} = \frac{b}{m}</span> (İç Açıortay Teoremi)
+    </div>
+    
+    <p><strong>Açıortay Uzunluğu:</strong> İç açıortay uzunluğunun karesi, kolların çarpımından, ayırdığı parçaların çarpımının çıkarılmasına eşittir: <span class="math">n_A^2 = (b \cdot c) - (m \cdot n)</span></p>
+
+    <h2>2. Kenarortay ve Ağırlık Merkezi</h2>
+    <p>Üçgenin köşesinden karşı kenarın orta noktasına çizilen doğru parçasına kenarortay denir. Üç kenarortayın kesiştiği noktaya <strong>Ağırlık Merkezi (G)</strong> denir.</p>
+
+    <div class="tip-box">
+        <strong>⚠️ Kritik Kural (1'e 2 Oranı):</strong> Ağırlık merkezi, kenarortay üzerinde köşeye 2 birim, kenara 1 birim uzaklıktadır.
+        <br/>• Köşeden G'ye kadar olan kısım <span class="math">2k</span> ise, G'den kenara olan kısım <span class="math">k</span>'dır.
+    </div>
+
+    
+    
+
+    <div class="example-box">
+        <strong>Soru:</strong> Bir ABC üçgeninde G ağırlık merkezi ve <span class="math">[AD]</span> kenarortaydır. <span class="math">|AG| = 8 \text{ cm}</span> olduğuna göre, <span class="math">|GD|</span> ve <span class="math">|AD|</span> kaç cm'dir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Ağırlık merkezi kuralı gereği <span class="math">|AG| = 2 \cdot |GD|</span> bağıntısı vardır.
+            <ul>
+                <li><span class="math">8 = 2 \cdot |GD| \rightarrow |GD| = 4 \text{ cm}</span></li>
+                <li>Toplam uzunluk: <span class="math">|AD| = |AG| + |GD| = 8 + 4 = 12 \text{ cm}</span></li>
+            </ul>
+            <span class="math">|GD| = 4 \text{ cm}</span> ve <span class="math">|AD| = 12 \text{ cm}</span> bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - Özel Açılı Üçgenler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1a365d;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #ecc94b;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #e2e8f0;
+        }
+
+        h2 {
+            color: #1a365d;
+            font-size: 14pt;
+            border-left: 5px solid #ecc94b;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5282;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b7791f;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f7fafc;
+            border-left: 3px solid #4a5568;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2f855a;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fffaf0;
+            border: 1px solid #feebc8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #c05621;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5282;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5282;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #edf2f7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 4: Özel Açılı Üçgenler</p>
+    </div>
+
+    <p>Geometri sorularında <span class="math">30^\circ, 45^\circ, 60^\circ</span> gibi özel açılar görüldüğünde, bu açıları doğrudan kullanmak yerine bir dik üçgenin içerisine hapsetmek en temel çözüm stratejisidir. Bu açılara sahip dik üçgenlerin kenarları arasında sabit geometrik oranlar bulunur.</p>
+
+    <h2>1. En Sık Kullanılan Özel Açılı Dik Üçgenler</h2>
+    <p>Özellikle katlama ve döndürme sorularının temel yükünü taşıyan iki ana üçgen modelimiz şunlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Üçgen Türü (Açılar)</th>
+                <th>Kenar Uzunluk Oranları</th>
+                <th>Kritik Tanım / Kural</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>30° - 60° - 90° Üçgeni</strong></td>
+                <td><span class="math">x, \quad x\sqrt{3}, \quad 2x</span></td>
+                <td>30°'nin karşısındaki kenar hipotenüsün <u>yarısıdır</u>. 60°'nin karşısındaki kenar ise 30°'nin karşısındakinin <span class="math">\sqrt{3}</span> katıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>45° - 45° - 90° Üçgeni</strong> (İkizkenar Dik Üçgen)</td>
+                <td><span class="math">x, \quad x, \quad x\sqrt{2}</span></td>
+                <td>Dik kenarlar birbirine eşittir. Hipotenüs uzunluğu, dik kenarlardan birinin daima <span class="math">\sqrt{2}</span> katına eşittir.</td>
+            </tr>
+            <tr>
+                <td><strong>120° - 30° - 30° Üçgeni</strong> (Geniş Açılı)</td>
+                <td><span class="math">x, \quad x, \quad x\sqrt{3}</span></td>
+                <td>İkizkenar bir üçgendir. 120°'nin karşısındaki uzun kenar, eşit olan yan kenarların <span class="math">\sqrt{3}</span> katıdır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. İleri Düzey Özel Açılı Üçgenler</h2>
+    <ul>
+        <li><strong>15° - 75° - 90° Üçgeni (h - 4h Kuralı):</strong> Bu üçgende hipotenüse ait yükseklik <span class="math">h</span> ise, hipotenüsün uzunluğu bu yüksekliğin tam 4 katıdır (<span class="math">4h</span>). Kenar bağıntısı olarak ise 75°'nin karşısı, 15°'nin karşısının <span class="math">2 + \sqrt{3}</span> katıdır.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Geniş Açılı Özel Durumlar):</strong> Soruda verilen özel açı <span class="math">125^\circ, 135^\circ, 150^\circ</span> gibi geniş bir açı ise, dikme üçgenin içine <u>indirilmez</u>. Bu durumlarda özel açının bütünleri olan dar açılardan (<span class="math">45^\circ, 60^\circ, 30^\circ</span>) faydalanmak için üçgenin kenarı dışarıya doğru uzatılır ve <strong>dışarıda bir dik üçgen</strong> oluşturulur.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir ABC dik üçgeninde <span class="math">m(\widehat{B}) = 90^\circ</span> ve <span class="math">m(\widehat{C}) = 30^\circ</span>'dir. Hipotenüs uzunluğu <span class="math">|AC| = 12 \text{ cm}</span> olduğuna göre, dik kenarların uzunlukları toplamı kaç cm'dir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Üçgenin iç açılar toplamından A açısının <span class="math">180^\circ - (90^\circ + 30^\circ) = 60^\circ</span> olduğunu buluruz. Bu bir 30-60-90 üçgenidir.
+            <ol>
+                <li><strong>30°'nin karşısı (|AB|):</strong> Hipotenüsün yarısıdır. <br/>
+                <div class="math-block"><span class="math">|AB| = \frac{12}{2} = 6 \text{ cm}</span></div></li>
+                <li><strong>60°'nin karşısı (|BC|):</strong> 30°'nin karşısındaki kenarın <span class="math">\sqrt{3}</span> katıdır. <br/>
+                <div class="math-block"><span class="math">|BC| = 6\sqrt{3} \text{ cm}</span></div></li>
+            </ol>
+            Kenarların toplamı: <span class="math">6 + 6\sqrt{3} \text{ cm}</span> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir ABC üçgeninde <span class="math">m(\widehat{B}) = 45^\circ</span>, <span class="math">|AB| = 6\sqrt{2} \text{ cm}</span> ve <span class="math">|BC| = 11 \text{ cm}</span> olduğuna göre, <span class="math">|AC| = x</span> kaç cm'dir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            <span class="math">45^\circ</span> özel açısını kullanmak için A köşesinden <span class="math">[BC]</span> kenarına bir dikme indirelim. Dikmenin değdiği noktaya H diyelim.
+            <ul>
+                <li>Sol tarafta oluşan ABH üçgeni bir <strong>45-45-90 (ikizkenar dik)</strong> üçgeni olur.</li>
+                <li>Hipotenüs <span class="math">6\sqrt{2}</span> ise, dik kenarlar (<span class="math">|AH|</span> ve <span class="math">|BH|</span>) bunun <span class="math">\sqrt{2}</span>'ye bölünmüş hali yani <strong>6 cm</strong> olur.</li>
+                <li><span class="math">|BC| = 11 \text{ cm}</span> olarak verilmişti. Alt tabandaki diğer parçayı bulalım: <br/>
+                <span class="math">|HC| = 11 - |BH| = 11 - 6 = 5 \text{ cm}</span></li>
+                <li>Şimdi sağ tarafta oluşan AHC dik üçgenine bakalım. Dik kenarları <span class="math">|AH| = 6</span> ve <span class="math">|HC| = 5</span>'tir.</li>
+                <li>Hipotenüs <span class="math">x</span>'i bulmak için Pisagor teoremi uygulayalım: <br/>
+                <div class="math-block"><span class="math">x^2 = 6^2 + 5^2 \rightarrow x^2 = 36 + 25 = 61</span></div>
+                <div class="math-block"><span class="math">x = \sqrt{61} \text{ cm}</span></div>
+                </li>
+            </ul>
+            <span class="math">|AC|</span> uzunluğu <strong><span class="math">\sqrt{61}</span> cm</strong>'dir.
+        </div>
+    </div>
+
+</body>
+</html>

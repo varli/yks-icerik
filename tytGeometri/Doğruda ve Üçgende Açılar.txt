@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - Doğruda ve Üçgende Açılar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1a365d;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #ecc94b;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #e2e8f0;
+        }
+
+        h2 {
+            color: #1a365d;
+            font-size: 14pt;
+            border-left: 5px solid #ecc94b;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5282;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b7791f;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f7fafc;
+            border-left: 3px solid #4a5568;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2f855a;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fffaf0;
+            border: 1px solid #feebc8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #c05621;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5282;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5282;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #edf2f7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 1: Doğruda ve Üçgende Açılar</p>
+    </div>
+
+    <p>Geometrinin en temel kavramı olan açı; başlangıç noktaları ortak olan iki ışının birleşimiyle oluşur. Doğruda açı soruları genellikle birbirine paralel doğruların kesilmesiyle oluşan kurallara dayanırken, üçgende açılar iç ve dış ilişkileri modeller.</p>
+
+    <h2>1. Doğruda Açı Kuralları (Paralel İki Doğru Arasındaki Bağıntılar)</h2>
+    <p><span class="math">d_1 \parallel d_2</span> olmak üzere, paralel iki doğruyu kesen üçüncü bir doğrunun oluşturduğu harflerle sembolize edilen kurallar şunlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kural Adı</th>
+                <th>Matematiksel Modeli</th>
+                <th>Geometrik Görsel Mantığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Z Kuralı (İç Ters Açılar)</strong></td>
+                <td>Paralel çizgiler arasında kalan ters yönlü açılar eşittir.</td>
+                <td>Sol alta bakan açı, sağ üste bakan açıya eşittir.</td>
+            </tr>
+            <tr>
+                <td><strong>U Kuralı (Karşı Konumlu Açılar)</strong></td>
+                <td><span class="math">\alpha + \beta = 180^\circ</span></td>
+                <td>Paralel iki doğru arasında birbirine bakan iç açıların toplamı bütünlerdir.</td>
+            </tr>
+            <tr>
+                <td><strong>M Kuralı / Zigzag Kuralı</strong></td>
+                <td><span class="math">\text{Sola bakanlar} = \text{Sağa bakanlar}</span></td>
+                <td>Aynı yöne bakan ardışık dar açıların toplamı, zıt yöne bakanların toplamına eşittir.</td>
+            </tr>
+            <tr>
+                <td><strong>Kalem Ucu (Roket) Kuralı</strong></td>
+                <td><span class="math">a + b + c = 360^\circ</span></td>
+                <td>İçeride hapsedilmiş üç açının toplamı tam bir çember yayının yarısına (360 dereceye) eşittir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ Geometri Altın İpucu (Sıkışınca Paralel Çizme):</strong> Doğruda açı sorularında kırılma noktaları (sivri uçlar) varsa ve soru çözülemiyorsa, yapılacak ilk iş o sivri uçtan mevcut paralellere <strong>üçüncü bir paralel doğru çizmek</strong> olmalıdır. Bu hamle gizli M veya U kurallarını açığa çıkarır.
+    </div>
+
+    <h2>2. Üçgende Açı Özellikleri</h2>
+    <p>Herhangi bir üçgende açılarla ilgili bilinmesi gereken en temel aksiyomlar şunlardır:</p>
+    <ul>
+        <li>Üçgenin iç açılarının ölçüleri toplamı daima <span class="math">180^\circ</span>'dir.</li>
+        <li>Üçgenin dış açılarının ölçüleri toplamı daima <span class="math">360^\circ</span>'dir.</li>
+        <li><strong>En Kritik Kural (2 İç 1 Dış):</strong> Bir üçgende herhangi iki iç açının ölçüleri toplamı, kendilerine komşu olmayan <u>bir dış açının</u> ölçüsüne eşittir.</li>
+    </ul>
+
+    <h3>Muhteşem Üçlü ve İkizkenar İlişkisi</h3>
+    <p>Bir dik üçgende, dik açıdan (<span class="math">90^\circ</span>) hipotenüse çizilen kenarortay uzunluğu, hipotenüsün yarısına eşittir. Bu durum üçgende gizli ikizkenarlıklar ve dolayısıyla eşit açılar doğurur.</p>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Paralel iki doğru arasında kalan bir zigzag kurgusunda; sola bakan açılar <span class="math">30^\circ</span> ve <span class="math">x</span>, sağa bakan açılar ise <span class="math">45^\circ</span> ve <span class="math">25^\circ</span>'dir. Buna göre <span class="math">x</span> açısı kaç derecedir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Doğruda açılarda geçerli olan "Zigzag / M Kuralı" gereğince aynı yöne bakan açıların toplamını birbirine eşitleyelim:
+            <div class="math-block"><span class="math">\text{Sola Bakanlar} = \text{Sağa Bakanlar}</span></div>
+            <div class="math-block"><span class="math">30^\circ + x = 45^\circ + 25^\circ</span></div>
+            <div class="math-block"><span class="math">30^\circ + x = 70^\circ</span></div>
+            <div class="math-block"><span class="math">x = 70^\circ - 30^\circ = 40^\circ</span></div>
+            Cevap <strong>40°</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir ABC üçgeninde <span class="math">m(\widehat{A}) = 2x - 10^\circ</span>, <span class="math">m(\widehat{B}) = x + 20^\circ</span> ve C açısına ait dış açının ölçüsü <span class="math">130^\circ</span> olduğuna göre, <span class="math">x</span> kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Üçgende açıların en çok soru çözdüren "İki iç açının toplamı, kendilerine komşu olmayan bir dış açıya eşittir" kuralını uygulayalım:
+            <ol>
+                <li>Komşu olmayan iç açılar A ve B açılarıdır. C köşesindeki dış açı ise <span class="math">130^\circ</span>'dir.</li>
+                <li>Denklemi kuralım: <br/>
+                <span class="math">m(\widehat{A}) + m(\widehat{B}) = \text{C'nin Dış Açısı}</span></li>
+                <div class="math-block"><span class="math">(2x - 10^\circ) + (x + 20^\circ) = 130^\circ</span></div>
+                <li>Benzer terimleri kendi arasında toplayarak denklemi düzenleyelim: <br/>
+                <span class="math">3x + 10^\circ = 130^\circ</span></li>
+                <div class="math-block"><span class="math">3x = 120^\circ \rightarrow x = 40^\circ</span></div>
+            </ol>
+            <span class="math">x</span> değeri <strong>40°</strong> olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

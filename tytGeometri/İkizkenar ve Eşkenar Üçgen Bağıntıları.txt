@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - İkizkenar ve Eşkenar Üçgen</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1a365d;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #ecc94b;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #e2e8f0;
+        }
+
+        h2 {
+            color: #1a365d;
+            font-size: 14pt;
+            border-left: 5px solid #ecc94b;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5282;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b7791f;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f7fafc;
+            border-left: 3px solid #4a5568;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2f855a;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fffaf0;
+            border: 1px solid #feebc8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #c05621;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5282;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5282;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #edf2f7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 5: İkizkenar ve Eşkenar Üçgen</p>
+    </div>
+
+    <h2>1. İkizkenar Üçgen ve Hayati Şifre: YAKİ</h2>
+    <p>İki kenar uzunluğu birbirine eşit olan üçgenlere <strong>ikizkenar üçgen</strong> denir. İkizkenar üçgen sorularının %90'ını çözen formül, tepeden tabana indirilen dikmedir.</p>
+
+    <div class="tip-box">
+        <strong>🔥 Unutulmaz Geometri Şifresi (YAKİ):</strong> Bir üçgende <strong>Y</strong>ükseklik, <strong>A</strong>çıortay, <strong>K</strong>enarortay ve <strong>İ</strong>kizkenarlık kavramlarından <u>herhangi iki tanesi</u> varsa, diğer iki özellik de otomatik olarak mevcuttur.
+        <br/>• Soruda ikizkenar bir üçgende yükseklik görürseniz, o yüksekliğin aynı zamanda tabanı ikiye böldüğünü (kenarortay) ve açıyı ikiye böldüğünü (açıortay) hemen şekil üzerine işlemelisiniz.
+    </div>
+
+    <h3>İkizkenar Üçgenin Diğer Önemli Özellikleri</h3>
+    <ul>
+        <li>Eşit kenarlara ait yükseklikler, açıortaylar ve kenarortaylar kendi aralarında birbirine eşittir (<span class="math">h_b = h_c</span>).</li>
+        <li>İkizkenar üçgenin tabanındaki herhangi bir noktadan, eşit kenarlara çizilen paralellerin toplamı, üçgenin bir eşit kenar uzunluğuna eşittir.</li>
+        <li>Tabandaki bir noktadan eşit kenarlara çizilen dikmelerin toplamı, eşit kenarlara ait yüksekliğe (<span class="math">h_b</span> veya <span class="math">h_c</span>) eşittir.</li>
+    </ul>
+
+    <h2>2. Eşkenar Üçgen (Geometrinin En Kusursuz Şekli)</h2>
+    <p>Tüm kenar uzunlukları birbirine eşit ve tüm iç açıları <span class="math">60^\circ</span> olan üçgenlere <strong>eşkenar üçgen</strong> denir. Eşkenar üçgende çizilen tüm yükseklikler aynı zamanda açıortay ve kenarortaydır; hepsi birbirine eşittir.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ölçülmek İstenen Parça</th>
+                <th>Matematiksel Formülü</th>
+                <th>Geometrik Altyapısı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Yükseklik (<span class="math">h</span>)</strong></td>
+                <td><span class="math">h = \frac{a\sqrt{3}}{2}</span></td>
+                <td>Tepeden indirilen dikmenin tabanı <span class="math">a/2</span> olarak bölüp 30-60-90 üçgeni oluşturmasından gelir.</td>
+            </tr>
+            <tr>
+                <td><strong>Alanı (<span class="math">A</span>)</strong></td>
+                <td><span class="math">A = \frac{a^2\sqrt{3}}{4}</span></td>
+                <td><span class="math">\frac{\text{Taban} \cdot \text{Yükseklik}}{2}</span> formülünün sadeleşmiş halidir. Direct ezber hız kazandırır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir ABC ikizkenar üçgeninde <span class="math">|AB| = |AC| = 10 \text{ cm}</span> ve taban uzunluğu <span class="math">|BC| = 12 \text{ cm}</span>'dir. Buna göre bu üçgenin alanı kaç <span class="math">\text{cm}^2</span>'dir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            İkizkenar üçgeni gördüğümüz an **YAKİ** kuralını hatırlayarak A köşesinden tabana bir yükseklik (<span class="math">h</span>) indirelim. Dikme ayağı H olsun.
+            <ol>
+                <li>İndirilen yükseklik tabanı iki eşit parçaya böler: <br/>
+                <span class="math">|BH| = |HC| = 12 / 2 = 6 \text{ cm}</span></li>
+                <li>Oluşan ABH dik üçgenine bakalım. Hipotenüs <span class="math">10 \text{ cm}</span>, dik kenarlardan biri <span class="math">6 \text{ cm}</span>'dir.</li>
+                <li>Bu bize <strong>6 - 8 - 10</strong> (3-4-5'in 2 katı) özel üçgenini verir. Buradan yükseklik <span class="math">h = 8 \text{ cm}</span> bulunur.</li>
+                <li>Üçgenin alan formülünü uygulayalım: <br/>
+                <div class="math-block"><span class="math">\text{Alan} = \frac{\text{Taban} \cdot \text{Yükseklik}}{2} = \frac{12 \cdot 8}{2} = 48 \text{ cm}^2</span></div></li>
+            </ol>
+            Üçgenin alanı <strong>48</strong> <span class="math">\text{cm}^2</span>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir kenar uzunluğu 4 cm olan eşkenar üçgenin alanı ile yüksekliğinin çarpımı kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Eşkenar üçgenin kenar uzunluğu <span class="math">a = 4 \text{ cm}</span>'dir. Formülleri doğrudan uygulayalım:
+            <ul>
+                <li><strong>Yükseklik:</strong> <span class="math">h = \frac{a\sqrt{3}}{2} = \frac{4\sqrt{3}}{2} = 2\sqrt{3} \text{ cm}</span></li>
+                <li><strong>Alan:</strong> <span class="math">A = \frac{a^2\sqrt{3}}{4} = \frac{4^2\sqrt{3}}{4} = \frac{16\sqrt{3}}{4} = 4\sqrt{3} \text{ cm}^2</span></li>
+                <li>Bizden bu iki değerin çarpımı isteniyor: <br/>
+                <div class="math-block"><span class="math">\text{Çarpım} = A \cdot h = (4\sqrt{3}) \cdot (2\sqrt{3})</span></div>
+                <div class="math-block"><span class="math">\text{Çarpım} = 4 \cdot 2 \cdot (\sqrt{3} \cdot \sqrt{3}) = 8 \cdot 3 = 24</span></div></li>
+            </ul>
+            İki değerin çarpımı <strong>24</strong>'tür.
+        </div>
+    </div>
+
+</body>
+</html>

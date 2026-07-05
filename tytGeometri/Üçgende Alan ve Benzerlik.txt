@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - Alan ve Benzerlik</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #1a365d; font-size: 14pt; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .math { font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold; color: #b7791f; }
+        .math-block { text-align: center; margin: 15px 0; font-size: 11.5pt; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .solution-title { font-weight: bold; color: #2f855a; margin-top: 10px; }
+        .tip-box { background-color: #fffaf0; border: 1px solid #feebc8; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 7: Üçgende Alan ve Benzerlik</p>
+    </div>
+
+    <h2>1. Üçgende Alan Hesaplama Yöntemleri</h2>
+    <p>Üçgenin alanı, üç farklı yaklaşımla hesaplanabilir:</p>
+    <ul>
+        <li><strong>Klasik Formül:</strong> <span class="math">A = \frac{Taban \cdot Yükseklik}{2}</span></li>
+        <li><strong>Sinüs Alan Formülü:</strong> Bir açısı ve o açının kolları biliniyorsa; <span class="math">A = \frac{1}{2} \cdot b \cdot c \cdot \sin(A)</span></li>
+        <li><strong>Taban Paylaşımı:</strong> Aynı köşeden çıkan ve tabanları doğrusal olan üçgenlerde alanlar, taban uzunlukları ile doğru orantılıdır.</li>
+    </ul>
+
+    
+
+    <h2>2. Üçgende Benzerlik</h2>
+    <p>İki üçgenin karşılıklı açıları eşit ve kenar uzunlukları orantılı ise bu üçgenlere <strong>benzer</strong> denir. Benzerlik oranı <span class="math">k</span> olsun.</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ Benzerliğin Altın Kuralı (Alanlar Oranı):</strong> İki üçgen arasındaki benzerlik oranı <span class="math">k</span> ise, bu iki üçgenin <strong>alanları oranı <span class="math">k^2</span>'dir.</strong> Bu, sınavlarda "oran verilip alan sorulan" soruların tek çözüm yoludur.
+    </div>
+
+    
+
+    <div class="example-box">
+        <strong>Soru:</strong> Benzerlik oranı <span class="math">2/3</span> olan iki üçgenden küçük olanın alanı <span class="math">20 \text{ cm}^2</span> ise, büyük olanın alanı kaç <span class="math">\text{cm}^2</span>'dir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            <ul>
+                <li>Benzerlik oranı <span class="math">k = 2/3</span></li>
+                <li>Alanlar oranı <span class="math">k^2 = (2/3)^2 = 4/9</span></li>
+                <li>Küçük üçgenin alanı / Büyük üçgenin alanı = <span class="math">4/9</span></li>
+                <li><span class="math">20 / A_{büyük} = 4/9 \rightarrow 4 \cdot A_{büyük} = 180 \rightarrow A_{büyük} = 45 \text{ cm}^2</span></li>
+            </ul>
+            Büyük üçgenin alanı <strong>45 <span class="math">\text{cm}^2</span></strong>'dir.
+        </div>
+    </div>
+
+</body>
+</html>

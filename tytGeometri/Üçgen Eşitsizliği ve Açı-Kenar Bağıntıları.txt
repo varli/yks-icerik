@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - Üçgende Açı-Kenar Bağıntıları</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1a365d;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #ecc94b;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #e2e8f0;
+        }
+
+        h2 {
+            color: #1a365d;
+            font-size: 14pt;
+            border-left: 5px solid #ecc94b;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5282;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b7791f;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f7fafc;
+            border-left: 3px solid #4a5568;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2f855a;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fffaf0;
+            border: 1px solid #feebc8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #c05621;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5282;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5282;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #edf2f7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 2: Üçgende Açı-Kenar Bağıntıları ve Üçgen Eşitsizliği</p>
+    </div>
+
+    <p>Rastgele seçilen üç doğru parçasının uç uca eklenerek bir üçgen oluşturması her zaman mümkün değildir. Bir üçgenin var olabilmesi, kenar uzunluklarının matematiksel sınırlarına ve bu kenarların baktığı açıların büyüklük derecelerine bağlıdır.</p>
+
+    <h2>1. Üçgen Eşitsizliği (Üçgen Çizilebilme Şartı)</h2>
+    <p>Kenar uzunlukları <span class="math">a, b, c</span> olan bir üçgende, herhangi bir kenarın uzunluğu; diğer iki kenarın uzunluklarının farkının mutlak değerinden büyük, toplamından ise küçük olmak zorundadır.</p>
+    
+    <div class="math-block">
+        <span class="math">|b - c| < a < b + c</span>
+    </div>
+    <div class="math-block">
+        <span class="math">|a - c| < b < a + c</span>
+    </div>
+    <div class="math-block">
+        <span class="math">|a - b| < c < a + b</span>
+    </div>
+
+    <h2>2. Açı - Kenar İlişkisi ve Geniş/Dar Açı Kriterleri</h2>
+    <p>Bir üçgende <strong>büyük açı karşısında büyük kenar, küçük açı karşısında küçük kenar</strong> bulunur. <span class="math">m(\widehat{A}) > m(\widehat{B}) > m(\widehat{C}) \iff a > b > c</span> bağıntısı mevcuttur.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Açı Durumu</th>
+                <th>Kenarlar Arasındaki Bağıntı (Pisagor Sınırı)</th>
+                <th>Sözel Yorumu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Açı tam <span class="math">90^\circ</span> ise</strong></td>
+                <td><span class="math">a^2 = b^2 + c^2</span></td>
+                <td>Doğrudan Pisagor bağıntısı geçerlidir.</td>
+            </tr>
+            <tr>
+                <td><strong>Açı dar açı ise (<span class="math">< 90^\circ</span>)</strong></td>
+                <td><span class="math">a^2 < b^2 + c^2</span></td>
+                <td>Kenar, dik üçgen durumunda alacağı değerden daha küçük olmak zorundadır.</td>
+            </tr>
+            <tr>
+                <td><strong>Açı geniş açı ise (<span class="math">> 90^\circ</span>)</strong></td>
+                <td><span class="math">a^2 > b^2 + c^2</span></td>
+                <td>Kenar, dik üçgen durumunda alacağı değerin sınırından daha büyük olmalıdır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (En Uzun Kenar Bulma):</strong> Birden fazla üçgenin birleşmesiyle oluşan şekillerde en uzun kenarı bulmak için her üçgenin kendi içindeki en büyük açısı tespit edilir. Oklar yardımıyla büyük açılardan karşılarındaki kenarlara doğru çizgiler çekilir. Okların gösterdiği en son ortak kenar, tüm şeklin en uzun kenarıdır. Dik veya geniş açılı üçgenlerde en uzun kenar daima bu açıların karşısındaki kenardır.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir üçgenin iki kenar uzunluğu 5 cm ve 9 cm'dir. Bu üçgenin üçüncü kenarının alabileceği <u>en büyük tam sayı değeri</u> ile <u>en küçük tam sayı değerinin</u> toplamı kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Üçüncü kenarın uzunluğuna <span class="math">x</span> diyelim ve Üçgen Eşitsizliği kuralını uygulayalım:
+            <ol>
+                <li>Verilen kenarların farkını ve toplamını bulalım: <br/>
+                Fark: <span class="math">|9 - 5| = 4</span> <br/>
+                Toplam: <span class="math">9 + 5 = 14</span></li>
+                <li>Eşitsizliği kuralım: <br/>
+                <div class="math-block"><span class="math">4 < x < 14</span></div></li>
+                <li>Bu aralıktaki tam sayı sınırlarını belirleyelim: <br/>
+                - En küçük tam sayı değeri = 5 <br/>
+                - En büyük tam sayı değeri = 13</li>
+            </ol>
+            Bizden bu iki değerin toplamı istenmişti: <span class="math">5 + 13 = 18</span>. <br/>
+            Cevap <strong>18</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Kenar uzunlukları tam sayı olan bir ABC üçgeninde <span class="math">|AB| = 6 \text{ cm}</span>, <span class="math">|AC| = 8 \text{ cm}</span> ve <span class="math">m(\widehat{A}) > 90^\circ</span> (geniş açı) olduğuna göre, <span class="math">|BC| = x</span>'in alabileceği kaç farklı tam sayı değeri vardır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bu tip sorularda iki aşamalı bir kıyaslama yaparak ortak çözüm kümesi bulmalıyız.
+            <br/><strong>1. Aşama (Klasik Üçgen Eşitsizliği):</strong>
+            <div class="math-block"><span class="math">|8 - 6| < x < 8 + 6 \rightarrow 2 < x < 14</span></div>
+            
+            <strong>2. Aşama (Geniş Açı Kriteri):</strong>
+            <span class="math">A</span> açısı <span class="math">90^\circ</span>'den büyük olduğu için <span class="math">x^2 > 6^2 + 8^2</span> eşitsizliği kurulur.
+            <div class="math-block"><span class="math">x^2 > 36 + 64 \rightarrow x^2 > 100 \rightarrow x > 10</span></div>
+            
+            <strong>3. Aşama (Kesişim Kümesi):</strong>
+            Her iki durumdan elde ettiğimiz sınırları birleştirelim. <span class="math">x</span> sayısı hem 2'den büyük hem de 10'dan büyük olmalıdır. Bu durumda alt sınır daraltılarak büyük olan (<span class="math">10</span>) seçilir:
+            <div class="math-block"><span class="math">10 < x < 14</span></div>
+            Bu aralıktaki tam sayı değerleri: 11, 12, 13 olmak üzere <strong>3 farklı</strong> değerdir.
+        </div>
+    </div>
+
+</body>
+</html>

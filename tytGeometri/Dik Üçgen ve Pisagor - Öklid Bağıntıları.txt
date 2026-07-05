@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - Dik Üçgen</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1a365d;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #ecc94b;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #e2e8f0;
+        }
+
+        h2 {
+            color: #1a365d;
+            font-size: 14pt;
+            border-left: 5px solid #ecc94b;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5282;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b7791f;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f7fafc;
+            border-left: 3px solid #4a5568;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2f855a;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fffaf0;
+            border: 1px solid #feebc8;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #c05621;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5282;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5282;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #edf2f7;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 3: Dik Üçgen, Pisagor ve Öklid Bağıntıları</p>
+    </div>
+
+    <p>Bir açısının ölçüsü <span class="math">90^\circ</span> olan üçgenlere <strong>dik üçgen</strong> denir. Dik açının karşısındaki en uzun kenara <strong>hipotenüs</strong>, dik açıyı oluşturan diğer iki kenara ise <strong>dik kenarlar</strong> adı verilir.</p>
+
+    <h2>1. Pisagor Bağıntısı ve Özel Kenarlı Dik Üçgenler</h2>
+    <p>Bir dik üçgende dik kenarların karelerinin toplamı, hipotenüsün karesine eşittir. Dik kenarları <span class="math">b</span> ve <span class="math">c</span>, hipotenüsü <span class="math">a</span> olan üçgende formül: <span class="math">b^2 + c^2 = a^2</span> şeklindedir. Sorularda kare almakla vakit kaybetmemek için şu özel tam sayı grupları ezbere bilinmelidir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Temel Özel Üçgen</th>
+                <th>Genişletilmiş Katları (k ∈ ℤ⁺)</th>
+                <th>Sınavda Kullanım Sıklığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>3 - 4 - 5 Üçgeni</strong></td>
+                <td>6-8-10, 9-12-15, 12-16-20, 15-20-25</td>
+                <td>En yüksek freanslı özel üçgendir. Katlarına çok dikkat edilmelidir.</td>
+            </tr>
+            <tr>
+                <td><strong>5 - 12 - 13 Üçgeni</strong></td>
+                <td>10-24-26, 15-36-39</td>
+                <td>Özellikle hipotenüsün 13 ve katları geldiği kurgularda aranmalıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>8 - 15 - 17 Üçgeni</strong></td>
+                <td>16-30-34</td>
+                <td>Gözden kaçmaya müsait, seçici sorularda tercih edilen bir gruptur.</td>
+            </tr>
+            <tr>
+                <td><strong>7 - 24 - 25 Üçgeni</strong></td>
+                <td>14-48-50</td>
+                <td>Kenar uzunlukları büyük olan yeni nesil problemlerde sıkça karşımıza çıkar.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. Öklid Bağıntıları (Dikten Dik İnme)</h2>
+    <p>Bir dik üçgende, dik açının bulunduğu köşeden hipotenüse bir dikme (yükseklik) indirilirse <strong>Öklid bağıntıları</strong> doğar. Yükseklik <span class="math">h</span>, hipotenüste ayrılan parçalar <span class="math">p</span> ve <span class="math">k</span>, dik kenarlar ise <span class="math">b</span> ve <span class="math">c</span> olsun:</p>
+    <ul>
+        <li><strong>Yükseklik Bağıntısı (Hhamburger Ppiresinin Kkaresi):</strong> <span class="math">h^2 = p \cdot k</span></li>
+        <li><strong>Dik Kenar Bağıntıları:</strong> <span class="math">c^2 = p \cdot (p + k)</span> ve <span class="math">b^2 = k \cdot (p + k)</span></li>
+        <li><strong>Alan Bağıntısı:</strong> <span class="math">b \cdot c = a \cdot h</span> (Dik kenarların çarpımı, hipotenüs ile yüksekliğin çarpımına eşittir.)</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Pratik Pisagor Taktiği):</strong> Kenar uzunlukları köklü veya birbirinin katı olan dik üçgenlerde doğrudan kare almak yerine oranlama yapın. Dik kenarlardan biri diğerinin 2 katı ise (<span class="math">k</span> ve <span class="math">2k</span>), hipotenüs daima <u>küçüğün <span class="math">\sqrt{5}</span> katıdır</u> (<span class="math">k\sqrt{5}</span>). Dik kenarlardan biri diğerinin 3 katı ise (<span class="math">k</span> ve <span class="math">3k</span>), hipotenüs daima <u>küçüğün <span class="math">\sqrt{10}</span> katıdır</u> (<span class="math">k\sqrt{10}</span>).
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Dik kenarlarından biri 9 cm, hipotenüsü 15 cm olan bir dik üçgenin diğer dik kenarının uzunluğu kaç cm'dir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Uzun uzun Pisagor teoremi uygulamak yerine bu üçgenin özel bir üçgenin katı olup olmadığını kontrol edelim:
+            <ol>
+                <li>Verilen kenarları en küçük tam sayı hallerine sadeleştirmek için 3'e bölelim: <br/>
+                - Dik kenar: <span class="math">9 / 3 = 3</span> <br/>
+                - Hipotenüs: <span class="math">15 / 3 = 5</span></li>
+                <li>Bu değerler bize tanıdık olan <strong>3 - 4 - 5</strong> özel dik üçgenini işaret eder.</li>
+                <li>Sadeleştirme yaptığımız 3 katını geri yükleyelim. Bilinmeyen dik kenar 4'ün 3 katı olmalıdır: <br/>
+                <span class="math">4 \cdot 3 = 12 \text{ cm}</span></li>
+            </ol>
+            Bilinmeyen dik kenar uzunluğu <strong>12 cm</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir ABC dik üçgeninde <span class="math">m(\widehat{A}) = 90^\circ</span>'dir. A köşesinden <span class="math">[BC]</span> hipotenüsüne inen dikme ayağı H noktasıdır. <span class="math">|BH| = 4 \text{ cm}</span> ve <span class="math">|HC| = 9 \text{ cm}</span> olduğuna göre, bu üçgenin yüksekliği <span class="math">|AH| = h</span> kaç cm'dir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Soruda dik açıdan hipotenüse dikme indirildiği (<span class="math">[AH] \perp [BC]</span>) açıkça belirtilmiştir. Bu durum doğrudan **Öklid teoremi** şartıdır.
+            <ul>
+                <li>Öklid'in yükseklik formülünü yazalım: <span class="math">h^2 = p \cdot k</span></li>
+                <li>Verilen parça uzunluklarını yerlerine yerleştirelim: <span class="math">p = 4</span> ve <span class="math">k = 9</span></li>
+                <div class="math-block"><span class="math">h^2 = 4 \cdot 9</span></div>
+                <div class="math-block"><span class="math">h^2 = 36</span></div>
+                <li>Her iki tarafın karekökünü aldığımızda: <br/>
+                <span class="math">h = \sqrt{36} = 6 \text{ cm}</span></li>
+            </ul>
+            Yükseklik değeri <strong>6 cm</strong> olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

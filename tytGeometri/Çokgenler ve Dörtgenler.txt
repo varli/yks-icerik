@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Geometri Ders Notları - Çokgenler ve Dörtgenler</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; background-color: #fafcfb; }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #232a2e; line-height: 1.6; font-size: 10.5pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2d3748; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        .header-banner h1 { margin: 0; font-size: 20pt; font-weight: bold; }
+        h2 { color: #2d3748; font-size: 14pt; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; margin-bottom: 15px; }
+        .math { font-family: 'Times New Roman', Times, serif; font-style: italic; font-weight: bold; color: #b7791f; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #4a5568; padding: 15px; margin: 15px 0; border-radius: 0 6px 6px 0; }
+        .tip-box { background-color: #fffaf0; border: 1px solid #feebc8; padding: 12px 15px; margin: 15px 0; border-radius: 6px; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+        th { background-color: #4a5568; color: #fff; padding: 10px; text-align: left; }
+        td { padding: 10px; border: 1px solid #e2e8f0; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Geometri Ders Notları</h1>
+        <p>Ünite 8: Çokgenler ve Dörtgenler</p>
+    </div>
+
+    <h2>1. Çokgenlerin Temel Özellikleri</h2>
+    <p><span class="math">n</span> kenarlı bir dışbükey çokgende:</p>
+    <ul>
+        <li>İç açılar toplamı: <span class="math">(n-2) \cdot 180^\circ</span></li>
+        <li>Dış açılar toplamı: <span class="math">360^\circ</span> (daima sabittir).</li>
+        <li>Köşegen sayısı: <span class="math">\frac{n(n-3)}{2}</span></li>
+    </ul>
+
+    
+
+    <h2>2. Dörtgenler Hiyerarşisi ve Yamuk</h2>
+    <p>Yamuk, en az iki kenarı paralel olan dörtgendir. Paralellik geometri sorularında her zaman "U" veya "Z" kuralı için bir davetiyedir.</p>
+    
+    <table>
+        <tr>
+            <th>Şekil</th>
+            <th>Kritik Özelliği</th>
+        </tr>
+        <tr>
+            <td><strong>Paralelkenar</strong></td>
+            <td>Karşılıklı kenarlar paralel ve eş, köşegenler birbirini ortalar.</td>
+        </tr>
+        <tr>
+            <td><strong>Dikdörtgen</strong></td>
+            <td>Tüm açılar 90°, köşegenler eşit uzunlukta ve birbirini ortalar.</td>
+        </tr>
+        <tr>
+            <td><strong>Kare</strong></td>
+            <td>Tüm kenarlar eşit, köşegenler 90° ile kesişir ve açıortaydır.</td>
+        </tr>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ Dörtgen İpucu:</strong> Dörtgen sorularında verilen şekli ikiye bölen bir köşegen çizerseniz, problemi bildiğiniz **iki üçgen problemine** indirgemiş olursunuz.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru:</strong> Bir yamukta tabanlar 6 cm ve 14 cm, yükseklik 5 cm'dir. Bu yamuğun alanı kaçtır?
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Yamuk alanı = <span class="math">\frac{(a+c)}{2} \cdot h</span>
+            <br/> Alan = <span class="math">\frac{(6+14)}{2} \cdot 5 = \frac{20}{2} \cdot 5 = 10 \cdot 5 = 50 \text{ cm}^2</span>
+        </div>
+    </div>
+
+</body>
+</html>
