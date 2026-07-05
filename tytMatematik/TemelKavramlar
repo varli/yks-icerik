@@ -1,1 +1,297 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Temel Kavramlar</title>
+    <style>
+        /* A4 Baskı ve Ekran Düzeni Ayarları */
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb; /* Mat, göz yormayan hafif yeşil/gri tonlu beyaz */
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Başlık Alanı */
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        /* Matematiksel Karakterlerin Karışmaması İçin Özel Font Yapısı */
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24; /* Formülleri vurgulamak için soft kiremit tonu */
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        /* Soru ve Çözüm Kutusu */
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40; /* Çözüm başlığı yeşil tonu */
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        /* Kritik Bilgi / İpucu Kutusu */
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* Tablo Tasarımı */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc; /* Zebra çizgileri */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 1: Temel Kavramlar (Sayı Kümeleri, Tek-Çift ve Ardışık Sayılar)</p>
+    </div>
+
+    <p>TYT Matematik testinin temelini oluşturan bu ünite, doğrudan her yıl 2-3 soru getirmekle kalmayıp, sınavın geriye kalan tüm bölümlerindeki (özellikle problemler ve fonksiyonlar) cebirsel işlemleri hatasız yapabilmeniz için kritik öneme sahiptir. Sorular genellikle işlem becerisinden ziyade sayıların yapısal özelliklerini yorumlamaya dayalı "yeni nesil kurgularla" karşımıza çıkar.</p>
+
+    <h2>1. Sayı Kümeleri</h2>
+    <p>Matematikte karşılaştığımız tüm ifadelerin hangi kümenin elemanı olduğunu bilmek, sorunun çözüm stratejisini tamamen değiştirir. Soruların kökündeki <span class="math">x, y &isin; Z</span> veya <span class="math">a, b &isin; N</span> gibi ifadelere dikkat edilmemesi en sık yapılan hata kaynağıdır.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Küme Adı</th>
+                <th>Sembolü</th>
+                <th>Eleman Yapısı ve Özelliği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Rakamlar</strong></td>
+                <td>-</td>
+                <td>Sayıları ifade etmeye yarayan sembollerdir: <span class="math">{0, 1, 2, 3, 4, 5, 6, 7, 8, 9}</span>. En küçük rakam 0'dır.</td>
+            </tr>
+            <tr>
+                <td><strong>Doğal Sayılar</strong></td>
+                <td><span class="math">N</span></td>
+                <td>0'dan başlayıp sonsuza giden kümedir: <span class="math">{0, 1, 2, 3, ...}</span>. Sıfır işaretsizdir.</td>
+            </tr>
+            <tr>
+                <td><strong>Sayma Sayıları (Pozitif Doğal Sayılar)</strong></td>
+                <td><span class="math">N<sup>+</sup></span></td>
+                <td>1'den başlayarak nesneleri sayarken kullandığımız kümedir: <span class="math">{1, 2, 3, ...}</span></td>
+            </tr>
+            <tr>
+                <td><strong>Tam Sayılar</strong></td>
+                <td><span class="math">Z</span></td>
+                <td>Negatif tam sayılar, sıfır ve pozitif tam sayıların birleşimidir: <span class="math">{..., -2, -1, 0, 1, 2, ...}</span></td>
+            </tr>
+            <tr>
+                <td><strong>Rasyonel Sayılar</strong></td>
+                <td><span class="math">Q</span></td>
+                <td><span class="math">b &ne; 0</span> ve <span class="math">a, b &isin; Z</span> olmak üzere <span class="math">a/b</span> biçiminde yazılabilen sayılardır.</td>
+            </tr>
+            <tr>
+                <td><strong>İrrasyonel Sayılar</strong></td>
+                <td><span class="math">Q'</span></td>
+                <td>Rasyonel olmayan, virgülden sonrası tahmin edilemeyen sayılardır. Örn: <span class="math">&pi;</span>, <span class="math">e</span>, <span class="math">&radic;2</span>.</td>
+            </tr>
+            <tr>
+                <td><strong>Gerçek (Reel) Sayılar</strong></td>
+                <td><span class="math">R</span></td>
+                <td>Rasyonel ve irrasyonel sayıların birleşimidir. Sayı doğrusunun tamamını doldurur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu:</strong> Soruda "birbirinden farklı" ibaresi geçiyorsa seçtiğiniz sayıları tekrar kullanamazsınız. Eğer küme belirtilmemişse ancak yalnızca "sayı" deniyorsa, o ifadenin negatif olabileceğini, rasyonel olabileceğini ya da 0 (sıfır) olabileceğini mutlaka göz önünde bulundurmalısınız.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <span class="math">a</span> ve <span class="math">b</span> birbirinden farklı birer doğal sayıdır. 
+        <div class="math-block"><span class="math">3a + 4b = 48</span></div>
+        olduğuna göre, <span class="math">a</span>'nın alabileceği kaç farklı değer vardır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Eşitlikte <span class="math">4b</span> ve <span class="math">48</span> ifadeleri 4'ün tam katıdır. Dolayısıyla <span class="math">3a</span> ifadesi de 4'ün katı olmak zorundadır. Bu durumda <span class="math">a</span> sayısı kesinlikle 4'ün katı olan doğal sayılar olmalıdır.<br/>
+            <ul>
+                <li><span class="math">a = 0</span> için: <span class="math">3(0) + 4b = 48 &rarr; 4b = 48 &rarr; b = 12</span> (Sayılar farklı, uygundur)</li>
+                <li><span class="math">a = 4</span> için: <span class="math">3(4) + 4b = 48 &rarr; 12 + 4b = 48 &rarr; 4b = 36 &rarr; b = 9</span> (Uygundur)</li>
+                <li><span class="math">a = 8</span> için: <span class="math">3(8) + 4b = 48 &rarr; 24 + 4b = 48 &rarr; 4b = 24 &rarr; b = 6</span> (Uygundur)</li>
+                <li><span class="math">a = 12</span> için: <span class="math">3(12) + 4b = 48 &rarr; 36 + 4b = 48 &rarr; 4b = 12 &rarr; b = 3</span> (Uygundur)</li>
+                <li><span class="math">a = 16</span> için: <span class="math">3(16) + 4b = 48 &rarr; 48 + 4b = 48 &rarr; 4b = 0 &rarr; b = 0</span> <br/><strong>Dikkat:</strong> <span class="math">a=16</span> ve <span class="math">b=0</span> değerleri birbirlerinden farklıdır ve doğal sayıdır. Bir sonraki adımda <span class="math">b</span> negatif çıkacağı için burada işlemi durdururuz.</li>
+            </ul>
+            Değerler kontrol edildiğinde: <span class="math">a</span>'nın alabileceği değerler kümesi <span class="math">{0, 4, 8, 12, 16}</span> olup toplamda <strong>5 farklı</strong> değer vardır.
+        </div>
+    </div>
+
+    <h2>2. Tek ve Çift Sayılar</h2>
+    <p>2 ile kalansız bölünebilen tam sayılara <strong>çift sayı</strong> (<span class="math">Ç = 2n</span>), bölünemeyen tam sayılara ise <strong>tek sayı</strong> (<span class="math">T = 2n + 1</span>) denir. Teklik ve çiftlik kavramı yalnızca <strong>tam sayılar</strong> için geçerlidir.</p>
+
+    <h3>Temel İşlem Kuralları:</h3>
+    <ul>
+        <li><strong>Toplama ve Çıkarma:</strong> <span class="math">T &plusmn; T = Ç</span>, &nbsp; <span class="math">Ç &plusmn; Ç = Ç</span>, &nbsp; <span class="math">T &plusmn; Ç = T</span></li>
+        <li><strong>Çarpma:</strong> <span class="math">T &times; T = T</span>, &nbsp; <span class="math">T &times; Ç = Ç</span>, &nbsp; <span class="math">Ç &times; Ç = Ç</span></li>
+        <li><strong>Üs Alma:</strong> <span class="math">n &isin; N<sup>+</sup></span> olmak üzere, <span class="math">T<sup>n</sup> = T</span> ve <span class="math">Ç<sup>n</sup> = Ç</span> durumundadır.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ Kritik Uyarı:</strong> <span class="math">x<sup>2</sup></span> bir çift sayı ise <span class="math">x</span> her zaman çift sayı olmak zorunda değildir! Eğer sorunun başında <span class="math">x &isin; Z</span> denmemişse, <span class="math">x = &radic;2</span> olabilir. <span class="math">(&radic;2)<sup>2</sup> = 2</span> (çifttir) fakat taban tam sayı değildir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <span class="math">a, b</span> ve <span class="math">c</span> birer tam sayıdır.
+        <div class="math-block"><span class="math">(a &times; b) + 3c = 44</span></div>
+        olduğuna göre, aşağıdakilerden hangisi <u>kesinlikle</u> doğrudur?<br/>
+        <strong>D şıkkı)</strong> <span class="math">c</span> tek sayı ise <span class="math">a</span> ve <span class="math">b</span> tek sayıdır.
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Verilen denklemi teklik-çiftlik kurallarına göre analiz edelim. Eşitliğin sağ tarafındaki 44 bir <strong>Çift (Ç)</strong> sayıdır.
+            <div class="math-block"><span class="math">(a &times; b) + 3c = Ç</span></div>
+            Eğer <span class="math">c</span> tek sayı ise, <span class="math">3c</span> de tektir. Eşitliğin çift çıkabilmesi için <span class="math">(a &times; b)</span> çarpımının da tek olması gerekir (<span class="math">T + T = Ç</span>). Çarpımın tek olması ise ancak ve ancak iki çarpanın da (<span class="math">a</span> ve <span class="math">b</span>) aynı anda <strong>Tek</strong> olmasıyla mümkündür. Dolayısıyla ifade kesinlikle doğrudur.
+        </div>
+    </div>
+
+    <h2>3. Ardışık Sayılar ve Terim Toplamı</h2>
+    <p>Belirli bir kurala göre art arda gelen sayı dizilerine ardışık sayılar denir.</p>
+    
+    <div class="math-block">
+        <strong>Terim Sayısı (TS)</strong> = <span class="math">(Son Terim - İlk Terim) / Artış Miktarı + 1</span>
+    </div>
+    <div class="math-block">
+        <strong>Terim Toplamı</strong> = <span class="math">[(Son Terim + İlk Terim) / 2] &times; Terim Sayısı</span>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 3:</strong> Ardışık 7 tane tek tam sayının toplamı 105 olduğuna göre, bu sayıların en büyüğü kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            <strong>Pratik Yol:</strong> Ardışık sayı dizilerinde terim sayısı tek ise toplamı terim sayısına bölerek tam ortadaki sayıyı (ortancayı) bulabiliriz.
+            <div class="math-block"><span class="math">Ortanca Sayı = 105 / 7 = 15</span></div>
+            7 sayının tam ortasındaki sayı 4. terimdir. Sayılar ikişer ikişer artarak ilerlediği için en büyük sayıya (7. terim) ulaşmak için 3 kez 2 ekleriz: <span class="math">15 + (3 &times; 2) = 21</span>.
+        </div>
+    </div>
+
+</body>
+</html>
