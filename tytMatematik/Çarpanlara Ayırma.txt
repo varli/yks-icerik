@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Çarpanlara Ayırma</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 8: Çarpanlara Ayırma ve Özdeşlikler</p>
+    </div>
+
+    <p>Bir polinomun veya cebirsel ifadenin, iki ya da daha fazla ifadenin çarpımı şeklinde yazılması işlemine <strong>çarpanlara ayırma</strong> denir. Bu işlem, karmaşık ifadeleri sadeleştirmek ve denklemlerin köklerini çok daha rahat bulmak için kullanılır.</p>
+
+    <h2>1. Temel Çarpanlara Ayırma Yöntemleri</h2>
+    <ul>
+        <li><strong>Ortak Çarpan Parantezine Alma:</strong> İfadedeki her terimde ortak olan sayı veya değişkenlerin en küçük kuvvetlisi parantez dışına alınır. <br/><span class="math">a \cdot x + b \cdot x - c \cdot x = x(a + b - c)</span></li>
+        <li><strong>Gruplandırarak Çarpanlara Ayırma:</strong> Tüm terimlerde ortak bir çarpan bulunmuyorsa, terimler ikişerli veya üçerli gruplara ayrılarak her grupta kendi içinde ortak çarpan aranır. <br/><span class="math">a \cdot x + a \cdot y + b \cdot x + b \cdot y = a(x + y) + b(x + y) = (x + y)(a + b)</span></li>
+        <li><strong><span class="math">a \cdot x^2 + b \cdot x + c</span> Biçimindeki Üçterimlilerin Ayrılması:</strong> <span class="math">x^2</span>'li terimin ve sabit sayının çarpanları çapraz çarpılıp toplandığında ortadaki terimi (<span class="math">b \cdot x</span>) vermelidir. Yazılırken ise terimler karşılıklı (yatay) olarak paranteze alınır.</li>
+    </ul>
+
+    <h2>2. En Sık Kullanılan Özdeşlikler</h2>
+    <p>TYT'de formülü doğrudan uygulamanızı veya parantez kare açılımlarını soru içinde fark etmenizi sağlayacak en temel özdeşlikler şunlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Özdeşlik Adı</th>
+                <th>Matematiksel Açılımı</th>
+                <th>Sınavdaki Kullanım Amacı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>İki Kare Farkı</strong></td>
+                <td><span class="math">a^2 - b^2 = (a - b)(a + b)</span></td>
+                <td>Sadeleştirme sorularının ve köklü sayılardaki eşlenik çarpımlarının temelidir.</td>
+            </tr>
+            <tr>
+                <td><strong>Tam Kare (Toplam)</strong></td>
+                <td><span class="math">(a + b)^2 = a^2 + 2ab + b^2</span></td>
+                <td>Birincinin karesi, birinciyle ikincinin çarpımının iki katı, ikincinin karesi.</td>
+            </tr>
+            <tr>
+                <td><strong>Tam Kare (Fark)</strong></td>
+                <td><span class="math">(a - b)^2 = a^2 - 2ab + b^2</span></td>
+                <td>Ortadaki işaret eksi (-) olur, karesi alınan terimlerin önü daima artıdır (+).</td>
+            </tr>
+            <tr>
+                <td><strong>İki Küp Toplamı</strong></td>
+                <td><span class="math">a^3 + b^3 = (a + b)(a^2 - ab + b^2)</span></td>
+                <td>Küp açılımlarında sadeleştirme amacıyla çarpan formu tercih edilir.</td>
+            </tr>
+            <tr>
+                <td><strong>İki Küp Farkı</strong></td>
+                <td><span class="math">a^3 - b^3 = (a - b)(a^2 + ab + b^2)</span></td>
+                <td>İlk parantezin işareti eksi, ikinci uzun parantezin tüm işaretleri artıdır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Tam Kare ve İki Kare Farkı Karışıklığı):</strong> Öğrenciler <span class="math">(a - b)^2</span> ile <span class="math">a^2 - b^2</span> ifadelerini sıklıkla karıştırır. <span class="math">(a - b)^2</span> bir parantez (tam) karesidir ve açıldığında 3 terim üretir. <span class="math">a^2 - b^2</span> ise iki ayrı karenin farkıdır, iki parantezin çarpımı şeklinde yazılır.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <span class="math">x - y = 5</span> ve <span class="math">x \cdot y = 4</span> olduğuna göre, <span class="math">x^2 + y^2</span> ifadesinin değeri kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Elimizde fark (<span class="math">x - y</span>) ve çarpım (<span class="math">x \cdot y</span>) varken kareler toplamına ulaşmanın en temiz yolu, fark ifadesinin her iki tarafının karesini almaktır (Tam Kare Özdeşliği):
+            <div class="math-block"><span class="math">(x - y)^2 = 5^2</span></div>
+            Sol tarafın tam kare açılımını yapalım:
+            <div class="math-block"><span class="math">x^2 - 2xy + y^2 = 25</span></div>
+            Soruda bize <span class="math">x \cdot y = 4</span> olarak verilmişti. Denklemde yerine yazalım:
+            <div class="math-block"><span class="math">x^2 - 2(4) + y^2 = 25</span></div>
+            <div class="math-block"><span class="math">x^2 - 8 + y^2 = 25</span></div>
+            <span class="math">-8</span> ifadesini eşitliğin sağ tarafına artı (+) olarak geçirelim:
+            <div class="math-block"><span class="math">x^2 + y^2 = 25 + 8 = 33</span></div>
+            Cevap <strong>33</strong> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <div class="math-block"><span class="math">\frac{x^2 - 5x + 6}{x^2 - 4} \div \frac{x - 3}{2x + 4}</span></div>
+        ifadesinin en sade biçimi nedir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Tüm parçaları sırasıyla çarpanlarına ayırıp sadeleştirmeleri yapalım:
+            <ol>
+                <li><strong><span class="math">x^2 - 5x + 6</span> (Üçterimli):</strong> Çarpımları +6, toplamları -5 olan iki sayı <span class="math">-2</span> ve <span class="math">-3</span>'tür. <br/> Çarpanlara ayrılmış hali: <span class="math">(x - 2)(x - 3)</span> olur.</li>
+                <li><strong><span class="math">x^2 - 4</span> (İki Kare Farkı):</strong> <span class="math">x^2 - 2^2</span> şeklinde düşünüldüğünde: <span class="math">(x - 2)(x + 2)</span> olur.</li>
+                <li><strong><span class="math">2x + 4</span> (Ortak Çarpan):</strong> 2 parantezine alınırsa: <span class="math">2(x + 2)</span> olur.</li>
+            </ol>
+            Şimdi ana ifadeyi bu çarpanlarla yeniden yazalım ve bölme kuralı gereği ikinci kesri ters çevirip çarpalım:
+            <div class="math-block"><span class="math">\frac{(x - 2)(x - 3)}{(x - 2)(x + 2)} \times \frac{2(x + 2)}{x - 3}</span></div>
+            Pay ve paydadaki ortak terimleri sadeleştirelim:
+            <ul>
+                <li>İlk kesrin payındaki ve paydasındaki <span class="math">(x - 2)</span>'ler gider.</li>
+                <li>Pay kısmındaki <span class="math">(x - 3)</span> ile karşı paydadaki <span class="math">(x - 3)</span> sadeleşir.</li>
+                <li>Payda kısmındaki <span class="math">(x + 2)</span> ile karşı pay kısmındaki <span class="math">(x + 2)</span> sadeleşir.</li>
+            </ul>
+            Geriye yalnızca pay kısmında bulunan <strong>2</strong> sayısı kalır.
+            En sade biçim <strong>2</strong>'dir.
+        </div>
+    </div>
+
+</body>
+</html>

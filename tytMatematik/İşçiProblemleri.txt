@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - İşçi Problemleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 15: İşçi Problemleri (Kapasite, Zaman ve Birlikte Çalışma)</p>
+    </div>
+
+    <p>İşçi problemleri çözülürken temelde iki farklı yaklaşım kullanılır: Birincisi geleneksel <strong>"Birim Zamanda Yapılan İş"</strong> formülasyonu, ikincisi ise modern ve rasyonel sayılardan uzaklaştıran <strong>"Kapasite / Toplam İş Belirleme"</strong> yöntemidir. Sınavda hız kazanmak adına modern yöntem tercih edilmelidir.</p>
+
+    <h2>1. Temel Kavramlar ve İlişkiler</h2>
+    <ul>
+        <li><strong>Hız (Kapasite) - Zaman İlişkisi:</strong> Bir işçinin çalışma hızı (kapasitesi) arttıkça, işi bitirme süresi aynı oranda azalır (Ters Orantı). Örneğin; <span class="math">V</span> hızıyla bir işi 12 günde bitiren işçi, hızını <span class="math">3V</span> yaparsa işi <span class="math">12 / 3 = 4</span> günde bitirir.</li>
+        <li><strong>İşçi Sayısı - Zaman İlişkisi:</strong> Özdeş işçi sayısı arttıkça, işin tamamlanma süresi azalır (Ters Orantı). <span class="math">2</span> işçinin 6 günde yaptığı işi, <span class="math">4</span> özdeş işçi 3 günde yapar.</li>
+    </ul>
+
+    <h2>2. Çözüm Metotları Karşılaştırması</h2>
+    <p>Bir işi Ali tek başına <span class="math">A</span> saatte, Burak ise <span class="math">B</span> saatte bitirebiliyor olsun. İkisinin birlikte bu işi <span class="math">t</span> saatte bitirme kurgusu:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Yöntem Adı</th>
+                <th>Matematiksel Formül / Modelleme</th>
+                <th>Süreç ve Mantık</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Geleneksel Metot (Birim İş)</strong></td>
+                <td><div class="math-block"><span class="math">\left(\frac{1}{A} + \frac{1}{B}\right) \cdot t = 1</span></div></td>
+                <td>İşçilerin 1 saatte işin ne kadarını yapabildiğini kesirlerle ifade edip toplarız. İşin tamamı daima <span class="math">1</span> kabul edilir.</td>
+            </tr>
+            <tr>
+                <td><strong>Modern Metot (Toplam İş)</strong></td>
+                <td><div class="math-block"><span class="math">\text{Toplam İş} = \text{EKOK}(A, B)</span></div></td>
+                <td>Sürelerin ortak katı alınarak hayali bir "toplam iş miktarı" belirlenir. Buradan işçilerin saatlik kapasiteleri tam sayı olarak bulunur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (İşçi Giriş-Çıkış Kurguları):</strong> Birlikte başlayıp bir süre sonra birilerinin ayrıldığı sorularda Modern Metot hayat kurtarır. Her işçinin saatlik kapasitesini (örn: Ali <span class="math">3x</span> parça mal üretiyor, Can <span class="math">2x</span> parça) bulduktan sonra, zaman çizelgesine göre ürettikleri toplam parça miktarlarını toplayıp işin tamamına eşitlemeniz yeterlidir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir işi tek başına Hakan 12 günde, Volkan ise 18 günde bitirebilmektedir. İkisi birlikte işe başladıktan 4 gün sonra Hakan işi bırakıyor. 
+        Buna göre, kalan işi Volkan tek başına kaç günde tamamlar?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm (Modern Metot ile):</div>
+            Öncelikle sürelerin (12 ve 18) en küçük ortak katını bularak toplam iş miktarını tanımlayalım:
+            <div class="math-block"><span class="math">\text{Toplam İş} = \text{EKOK}(12, 18) = 36 \text{ parça}</span></div>
+            Şimdi işçilerin günlük iş üretme kapasitelerini hesaplayalım:
+            <ul>
+                <li>Hakan'ın günlük kapasitesi: <span class="math">36 / 12 = 3 \text{ parça/gün}</span></li>
+                <li>Volkan'ın günlük kapasitesi: <span class="math">36 / 18 = 2 \text{ parça/gün}</span></li>
+            </ul>
+            <strong>Süreç Planlaması:</strong>
+            <ol>
+                <li>İlk 4 gün boyunca Hakan ve Volkan birlikte çalışıyor: <br/>
+                <span class="math">\text{Birlikte Güç} = 3 + 2 = 5 \text{ parça/gün}</span> <br/>
+                <span class="math">4 \text{ günde yapılan iş} = 4 \cdot 5 = 20 \text{ parça}</span></li>
+                <li>Kalan iş miktarını bulalım: <br/>
+                <span class="math">\text{Kalan İş} = 36 - 20 = 16 \text{ parça}</span></li>
+                <li>Hakan ayrıldığı için kalan 16 parçayı Volkan tek başına kendi kapasitesiyle (<span class="math">2 \text{ parça/gün}</span>) bitirecek: <br/>
+                <span class="math">\text{Süre} = \frac{\text{Kalan İş}}{\text{Volkan'ın Kapasitesi}} = \frac{16}{2} = 8 \text{ gün}</span></li>
+            </ol>
+            Volkan kalan işi tek başına <strong>8</strong> günde tamamlar.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Özdeş 4 makine birlikte çalıştırıldığında bir siparişi 15 saatte tamamlayabilmektedir. Makineler üretime başladıktan sonra her 3 saatin sonunda 1 makine kapatılıyor.
+        Buna göre, siparişin tamamı toplam kaç saatte biter?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Makineler özdeş olduğuna göre, 1 makinenin 1 saatte ürettiği iş miktarına <span class="math">1 \text{ birim}</span> diyelim.
+            <br/>4 makine birlikte 1 saatte <span class="math">4 \text{ birim}</span> iş yapar.
+            <br/>Bu sipariş 15 saat sürdüğüne göre, siparişteki toplam iş miktarı:
+            <div class="math-block"><span class="math">\text{Toplam İş} = 4 \text{ makine} \cdot 15 \text{ saat} = 60 \text{ birim}</span></div>
+            Şimdi periyotları adım adım hesaplayalım:
+            <ul>
+                <li><strong>İlk 3 saat:</strong> 4 makine aktif. <span class="math">3 \text{ saat} \cdot 4 = 12 \text{ birim}</span> iş yapıldı. (Kalan iş: <span class="math">60 - 12 = 48</span>)</li>
+                <li><strong>Sonraki 3 saat:</strong> 1 makine kapandı, 3 makine aktif. <span class="math">3 \text{ saat} \cdot 3 = 9 \text{ birim}</span> iş yapıldı. (Kalan iş: <span class="math">48 - 9 = 39</span>)</li>
+                <li><strong>Sonraki 3 saat:</strong> 1 makine daha kapandı, 2 makine aktif. <span class="math">3 \text{ saat} \cdot 2 = 6 \text{ birim}</span> iş yapıldı. (Kalan iş: <span class="math">39 - 6 = 33</span>)</li>
+                <li><strong>Sonraki aşama:</strong> 1 makine daha kapandı, artık sadece <u>1 makine</u> çalışıyor. Kalan iş <span class="math">33 birim</span>'dir. <br/>
+                Bu 1 makine tek başına <span class="math">33 birim</span> işi: <span class="math">33 / 1 = 33 \text{ saatte}</span> tamamlar.</li>
+            </ul>
+            Toplam geçen süreyi hesaplayalım:
+            <div class="math-block"><span class="math">\text{Toplam Süre} = 3 + 3 + 3 + 33 = 42 \text{ saat}</span></div>
+            Siparişin tamamı toplam <strong>42</strong> saatte biter.
+        </div>
+    </div>
+
+</body>
+</html>

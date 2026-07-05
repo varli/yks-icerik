@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Olasılık</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 29: Olasılık (Teorik ve Deneysel Olasılık)</p>
+    </div>
+
+    <p>Bir deneyde elde edilebilecek tüm sonuçların kümesine <strong>örnek uzay (<span class="math">E</span>)</strong>, bu örnek uzayın her bir alt kümesine ise <strong>olay (<span class="math">A</span>)</strong> denir. Olasılık, bir olayın gerçekleşme olasılığını sayısal olarak ifade eder.</p>
+
+    <h2>1. Teorik Olasılık Hesabı</h2>
+    <p>Eş olumlu bir örnek uzayda, bir <span class="math">A</span> olamasının gerçekleşme olasılığı <span class="math">P(A)</span> ile gösterilir ve şu evrensel formülle bulunur:</p>
+
+    <div class="math-block">
+        <span class="math">P(A) = \frac{\text{İstenen Durumların Sayısı}}{\text{Tüm Durumların Sayısı}} = \frac{s(A)}{s(E)}</span>
+    </div>
+
+    <h2>2. Olasılığın Altın Kuralları</h2>
+    <p>Hata yapmamak için olasılık değerlerinin sınırlarını ve temel işlem mantığını iyi bilmek gerekir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Olasılık Durumu / Türü</th>
+                <th>Matematiksel Aralığı / Kuralı</th>
+                <th>Sözel Karşılığı ve Anlamı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Olasılık Değer Aralığı</strong></td>
+                <td><span class="math">0 \le P(A) \le 1</span></td>
+                <td>Bir olayın olasılığı negatif olamaz ve 1'den (yani %100'den) büyük olamaz.</td>
+            </tr>
+            <tr>
+                <td><strong>İmkansız Olay</strong></td>
+                <td><span class="math">P(A) = 0</span></td>
+                <td>Gerçekleşmesi mümkün olmayan olaylardır (Zarın 7 gelmesi gibi).</td>
+            </tr>
+            <tr>
+                <td><strong>Kesin Olay</strong></td>
+                <td><span class="math">P(A) = 1</span></td>
+                <td>Gerçekleşmesi kaçınılmaz olan olaylardır.</td>
+            </tr>
+            <tr>
+                <td><strong>Tümleyen Olay</strong></td>
+                <td><span class="math">P(A) + P(A') = 1</span></td>
+                <td>Bir olayın gerçekleşme olasılığı ile gerçekleşmeme olasılığının toplamı daima 1'dir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Kombinasyonlu Olasılık):</strong> Yeni nesil TYT sorularında tüm durum ve istenen durum sayıları tek tek elle yazılamayacak kadar büyüktür. Bu yüzden hem payı (<span class="math">s(A)</span>) hem de paydayı (<span class="math">s(E)</span>) bulurken <u>Kombinasyon (Seçme) formüllerini</u> kullanmak zorundayız.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> İki zar aynı anda havaya atılıyor. Zarların üst yüzüne gelen sayıların <u>toplamının 10 olma olasılığı</u> kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Temel olasılık formülümüzü uygulamak için iki aşamalı ilerleyelim:
+            <ol>
+                <li><strong>Tüm Durumların Sayısı <span class="math">s(E)</span>:</strong> Bir zarın 6 yüzü vardır. İki zar atıldığında toplam durum sayısı çarpma prensibi gereği: <br/>
+                <span class="math">6 \cdot 6 = 36</span>'dır.</li>
+                <li><strong>İstenen Durumların Sayısı <span class="math">s(A)</span>:</strong> Üst yüze gelen sayıların toplamının 10 olduğu ikilileri yazalım: <br/>
+                - (4, 6) <br/>
+                - (5, 5) <br/>
+                - (6, 4) <br/>
+                Görüldüğü üzere bu şartı sağlayan 3 farklı durum vardır.
+                </li>
+            </ol>
+            Bulduğumuz değerleri formülde yerlerine koyalım ve sadeleştirelim:
+            <div class="math-block"><span class="math">P(A) = \frac{s(A)}{s(E)} = \frac{3}{36} = \frac{1}{12}</span></div>
+            Olasılık değeri <strong>1/12</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Torbada 4 kırmızı ve 3 beyaz bilye vardır. Bu torbadan rastgele seçilen 2 bilyenin de <u>aynı renkte olma olasılığı</u> kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Seçim söz konusu olduğu için payı ve paydayı Kombinasyon yardımıyla hesaplayacağız.
+            <ul>
+                <li><strong>Tüm Durum (Payda):</strong> Toplam <span class="math">4 + 3 = 7</span> bilye arasından rastgele 2 bilye seçilmesi: <br/>
+                <div class="math-block"><span class="math">s(E) = \binom{7}{2} = \frac{7 \cdot 6}{2 \cdot 1} = 21</span></div></li>
+                <li><strong>İstenen Durum (Pay):</strong> Seçilen 2 bilyenin de aynı renkte olması, ikisinin de kırmızı VEYA ikisinin de beyaz olması anlamına gelir: <br/>
+                - İkisi de Kırmızı: <span class="math">\binom{4}{2} = \frac{4 \cdot 3}{2 \cdot 1} = 6</span> <br/>
+                - İkisi de Beyaz: <span class="math">\binom{3}{2} = 3</span> <br/>
+                <div class="math-block"><span class="math">s(A) = 6 + 3 = 9</span></div></li>
+            </ul>
+            Değerleri oranlayalım:
+            <div class="math-block"><span class="math">P(A) = \frac{s(A)}{s(E)} = \frac{9}{21}</span></div>
+            Her iki tarafı 3 ile sadeleştirdiğimizde:
+            <div class="math-block"><span class="math">P(A) = \frac{3}{7}</span></div>
+            Bilyelerin aynı renkte olma olasılığı <strong>3/7</strong>'dir.
+        </div>
+    </div>
+
+</body>
+</html>

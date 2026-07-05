@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Üslü Sayılar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 6: Üslü Sayılar (Tanım, Özellikler ve Üslü Denklemler)</p>
+    </div>
+
+    <p><span class="math">a</span> bir gerçek sayı ve <span class="math">n</span> bir pozitif tam sayı olmak üzere, <span class="math">n</span> tane <span class="math">a</span> sayısının yan yana çarpımına <strong>üslü sayı</strong> denir ve <span class="math">a<sup>n</sup></span> şeklinde gösterilir. Burada <span class="math">a</span> taban, <span class="math">n</span> ise üs (kuvvet) adını alır.</p>
+
+    <h2>1. Temel Üslü Sayı Özellikleri</h2>
+    <p>Üslü ifadelerle işlem yaparken hata yapmamak için şu kuralları ezbere bilmek şarttır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik Yapısı</th>
+                <th>Matematiksel Gösterimi</th>
+                <th>Kuralın Açıklaması</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Sıfırıncı Kuvvet</strong></td>
+                <td><span class="math">a<sup>0</sup> = 1</span> &nbsp; (<span class="math">a &ne; 0</span>)</td>
+                <td>Sıfır hariç tüm sayıların 0. kuvveti 1'dir. <span class="math">0<sup>0</sup></span> tanımsızdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Negatif Üs</strong></td>
+                <td><span class="math">a<sup>-n</sup> = (1/a)<sup>n</sup></span></td>
+                <td>Üstteki eksi işareti tabandaki kesri ters çevirir, sayıyı negatif yapmaz.</td>
+            </tr>
+            <tr>
+                <td><strong>Üssün Üssü</strong></td>
+                <td><span class="math">(a<sup>n</sup>)<sup>m</sup> = a<sup>n &times; m</sup></span></td>
+                <td>Bir üslü ifadenin tekrar kuvveti alınırken üsler çarpılır.</td>
+            </tr>
+            <tr>
+                <td><strong>Tabanları Eşit Çarpma</strong></td>
+                <td><span class="math">a<sup>n</sup> &times; a<sup>m</sup> = a<sup>n+m</sup></span></td>
+                <td>Çarpma işleminde tabanlar aynı ise üsler toplanır.</td>
+            </tr>
+            <tr>
+                <td><strong>Üsleri Eşit Çarpma</strong></td>
+                <td><span class="math">a<sup>n</sup> &times; b<sup>n</sup> = (a &times; b)<sup>n</sup></span></td>
+                <td>Çarpma işleminde üsler aynı ise tabanlar çarpılır ortak üs yazılır.</td>
+            </tr>
+            <tr>
+                <td><strong>Tabanları Eşit Bölme</strong></td>
+                <td><span class="math">a<sup>n</sup> / a<sup>m</sup> = a<sup>n-m</sup></span></td>
+                <td>Bölme işleminde tabanlar aynı ise payın üssünden paydanın üssü çıkarılır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Parantez ve İşaret Tuzağı):</strong> Negatif sayıların çift kuvvetleri alınırken parantezin yeri hayati önem taşır. <br/>
+        <span class="math">(-2)<sup>4</sup> = 16</span> iken <span class="math">-2<sup>4</sup> = -16</span>'dır. Çünkü parantez olmadığında 4. kuvvet sadece 2 sayısına aittir, önündeki eksi işaretini bağlamaz.
+    </div>
+
+    <h2>2. Üslü Sayılarda Toplama, Çıkarma ve Sıralama</h2>
+    <h3>Toplama ve Çıkarma İşlemi:</h3>
+    <p>Üslü sayılarda doğrudan bir toplama formülü yoktur. İşlem ancak <u>hem tabanı hem de üssü birebir aynı</u> olan ifadelerin katsayıları arasında ortak paranteze alma yöntemiyle yapılabilir:</p>
+    <div class="math-block"><span class="math">x &times; a<sup>n</sup> + y &times; a<sup>n</sup> - z &times; a<sup>n</sup> = (x + y - z) &times; a<sup>n</sup></span></div>
+
+    <h3>Üslü Sayılarda Sıralama:</h3>
+    <ul>
+        <li>Tabanlar eşitlenebiliyorsa (<span class="math">2, 4, 8</span> gibi aynı asal tabana dönüştürülerek), tabanı pozitif ve 1'den büyük olan sayılardan <strong>üssü büyük olan daha büyüktür</strong>.</li>
+        <li>Üsler eşitlenebiliyorsa (EBOB yardımıyla üsler ortak bir kuvvete getirilerek), üsleri aynı olan pozitif sayılardan <strong>tabanı büyük olan daha büyüktür</strong>.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <div class="math-block"><span class="math">\frac{2<sup>18</sup> + 2<sup>18</sup> + 2<sup>18</sup> + 2<sup>18</sup>}{4<sup>4</sup> &times; 8<sup>3</sup>}</span></div>
+        işleminin sonucu kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Pay ve paydadaki tüm ifadeleri ortak olan <span class="math">2</span> tabanına dönüştürerek çözüme başlayalım:
+            <br/><br/>
+            <strong>Pay kısmı için:</strong> 4 tane <span class="math">2<sup>18</sup></span> sayısının toplamı mevcuttur. Çarpmanın toplama üzerine dağılmasından yararlanalım:
+            <div class="math-block"><span class="math">2<sup>18</sup> + 2<sup>18</sup> + 20<sup>18</sup> + 2<sup>18</sup> = 4 &times; 2<sup>18</sup> = 2<sup>2</sup> &times; 2<sup>18</sup> = 2<sup>2+18</sup> = 2<sup>20</sup></span></div>
+            
+            <strong>Payda kısmı için:</strong> Tabanları 2'nin kuvveti olarak yazalım:
+            <ul>
+                <li><span class="math">4<sup>4</sup> = (2<sup>2</sup>)<sup>4</sup> = 2<sup>8</sup></span></li>
+                <li><span class="math">8<sup>3</sup> = (2<sup>3</sup>)<sup>3</sup> = 2<sup>9</sup></span></li>
+            </ul>
+            Paydadaki çarpma işlemini yapalım: <span class="math">2<sup>8</sup> &times; 2<sup>9</sup> = 2<sup>8+9</sup> = 2<sup>17</sup></span>
+            <br/><br/>
+            Şimdi payı paydaya bölerek nihai sonuca ulaşalım:
+            <div class="math-block"><span class="math">\frac{2<sup>20</sup>}{2<sup>17</sup>} = 2<sup>20 - 17</sup> = 2<sup>3</sup> = 8</span></div>
+            İşlemin sonucu <strong>8</strong> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <span class="math">a = 2<sup>60</sup></span>, &nbsp; <span class="math">b = 3<sup>48</sup></span> &nbsp; ve &nbsp; <span class="math">c = 5<sup>36</sup></span> sayıları veriliyor.
+        Buna göre; <span class="math">a, b, c</span> sayılarının küçükten büyüğe doğru sıralanışı nedir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Sayıların tabanları (<span class="math">2, 3, 5</span>) aralarında asal olduğu için taban eşitlemesi yapılamaz. Bu durumda üsleri (<span class="math">60, 48, 36</span>) eşitleme yoluna gitmeliyiz.
+            <br/>Üslerin en büyük ortak bölenini bulalım: <span class="math">EBOB(60, 48, 36) = 12</span>'dir.
+            <br/><br/>
+            Şimdi her sayıyı üssün üssü kuralını tersten işleterek 12. kuvvet çatısı altında yazalım:
+            <ul>
+                <li><span class="math">a = 2<sup>60</sup> = (2<sup>5</sup>)<sup>12</sup> = 32<sup>12</sup></span></li>
+                <li><span class="math">b = 3<sup>48</sup> = (3<sup>4</sup>)<sup>12</sup> = 81<sup>12</sup></span></li>
+                <li><span class="math">c = 5<sup>36</sup> = (5<sup>3</sup>)<sup>12</sup> = 125<sup>12</sup></span></li>
+            </ul>
+            Kuvvetler 12 olarak eşitlendiğine göre, tabanı küçük olan sayı en küçüktür:
+            <div class="math-block"><span class="math">32<sup>12</sup> &lt; 81<sup>12</sup> &lt; 125<sup>12</sup></span></div>
+            Buradan doğru sıralama <strong>a &lt; b &lt; c</strong> şeklinde elde edilir.
+        </div>
+    </div>
+
+</body>
+</html>

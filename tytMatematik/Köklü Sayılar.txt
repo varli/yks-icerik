@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Köklü Sayılar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 7: Köklü Sayılar (Tanım, Özellikler ve Eşlenik Kavramı)</p>
+    </div>
+
+    <p><span class="math">n</span>, 1'den büyük bir tam sayı ve <span class="math">x</span> bir gerçek sayı olmak üzere, <span class="math">x<sup>n</sup> = a</span> eşitliğini sağlayan <span class="math">x</span> sayısına <span class="math">a</span>'nın <span class="math">n</span>. dereceden kökü denir ve <span class="math">x = <sup>n</sup>&radic;a</span> şeklinde gösterilir. Aslında her köklü sayı, üssü rasyonel olan bir üslü sayıdır (<span class="math"><sup>n</sup>&radic;a<sup>m</sup> = a<sup>m/n</sup></span>).</p>
+
+    <h2>1. Köklü Sayıların Tanım Kümesi ve Dışarı Çıkarma</h2>
+    <p>Bir köklü ifadenin reel (gerçek) sayı belirtebilmesi için kök derecesine (<span class="math">n</span>) bakılır:</p>
+    <ul>
+        <li><strong>Kök derecesi tek ise (<span class="math">3, 5, 7, ...</span>):</strong> Kökün içi her gerçek sayıyı alabilir. <span class="math"><sup>3</sup>&radic;-8 = -2</span> gibi negatif sonuçlar tanımlıdır.</li>
+        <li><strong>Kök derecesi çift ise (<span class="math">2, 4, 6, ...</span>):</strong> Kökün içi asla negatif olamaz, <u>sıfırdan büyük veya eşit</u> olmak zorundadır (<span class="math">a &ge; 0</span>). Aksi halde ifade reel sayı belirtmez (karmaşık sayı olur).</li>
+    </ul>
+
+    <h3>Kö dışına çıkarma kuralı:</h3>
+    <div class="math-block">
+        Kök derecesi tek ise: <span class="math"><sup>n</sup>&radic;a<sup>n</sup> = a</span> <br/>
+        Kök derecesi çift ise: <span class="math"><sup>n</sup>&radic;a<sup>n</sup> = |a|</span> (Mutlak değer içinde çıkar!)
+    </div>
+
+    <h2>2. Temel Köklü Sayı İşlemleri</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>İşlem Türü</th>
+                <th>Uygulanacak Kural / Matematiksel Gösterim</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Toplama - Çıkarma</strong></td>
+                <td>Yalnızca <u>kök dereceleri ve kök içleri tamamen aynı</u> olan ifadeler kendi arasında toplanıp çıkarılabilir. Katsayılar parantezine alınır: <br/>
+                <span class="math">x&radic;a + y&radic;a - z&radic;a = (x + y - z)&radic;a</span></td>
+            </tr>
+            <tr>
+                <td><strong>Çarpma - Bölme</strong></td>
+                <td>İşlem yapılabilmesi için <u>kök derecelerinin eşit olması</u> gerekir. Eşitse tek kök çatısı altında çarpılır veya bölünür: <br/>
+                <span class="math">&radic;a &times; &radic;b = &radic;(a &times; b)</span> &nbsp; ve &nbsp; <span class="math">&radic;a / &radic;b = &radic;(a / b)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Kök Derecesini Genişletme</strong></td>
+                <td>Kök derecesi ve içerideki sayının üssü aynı sayı ile genişletilebilir: <br/>
+                <span class="math"><sup>n</sup>&radic;a<sup>m</sup> = <sup>n &times; k</sup>&radic;a<sup>m &times; k</sup></span> (Bu kural derece eşitlemede kullanılır)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Paydayı Rasyonel Yapma (Eşlenik Kavramı)</h2>
+    <p>Matematikte paydada köklü ifade bırakılması tercih edilmez. Paydayı kökten kurtarmak için kesir, paydanın <strong>eşleniği</strong> ile genişletilir:</p>
+    <ul>
+        <li><span class="math">&radic;a</span> ifadesinin eşleniği <span class="math">&radic;a</span>'dır. (<span class="math">&radic;a &times; &radic;a = a</span>)</li>
+        <li><span class="math">(&radic;a - &radic;b)</span> ifadesinin eşleniği <span class="math">(&radic;a + &radic;b)</span>'dir. Çarpımları iki kare farkından ötürü <span class="math">a - b</span> olur.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Köklü Sayılarda Sıralama):</strong> Köklü sayıları sıralarken eğer kök dereceleri eşitse, kök içi büyük olan sayı daha büyüktür. Eğer dereceler farklıysa, önce derece genişletme kuralı ile dereceler eşitlenir, ardından kök içlerine bakılarak sıralama yapılır.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <div class="math-block"><span class="math">&radic;27 + &radic;75 - &radic;12</span></div>
+        işleminin sonucu kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Kök içleri aynı olmadığı için doğrudan toplama yapamayız. Sayıları çarpanlarına ayırıp tam kare olan kısımları kök dışına çıkaralım:
+            <ul>
+                <li><span class="math">&radic;27 = &radic;(9 &times; 3) = 3&radic;3</span></li>
+                <li><span class="math">&radic;75 = &radic;(25 &times; 3) = 5&radic;3</span></li>
+                <li><span class="math">&radic;12 = &radic;(4 &times; 3) = 2&radic;3</span></li>
+            </ul>
+            Şimdi kök içleri <span class="math">&radic;3</span> olarak eşitlendiği için katsayılar arasında toplama ve çıkarma işlemlerini uygulayabiliriz:
+            <div class="math-block"><span class="math">3&radic;3 + 5&radic;3 - 2&radic;3 = (3 + 5 - 2)&radic;3 = 6&radic;3</span></div>
+            Sonuç <strong>6&radic;3</strong> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <div class="math-block"><span class="math">\frac{4}{&radic;5 - 1} - \frac{5}{&radic;5}</span></div>
+        işleminin sonucu kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Her iki kesrin de paydasını kökten kurtarmak için eşlenikleriyle genişletelim:
+            <br/>Birinci kesrin paydasındaki <span class="math">(&radic;5 - 1)</span> ifadesinin eşleniği <strong>(&radic;5 + 1)</strong>'dir.
+            <br/>İkinci kesrin paydasındaki <span class="math">&radic;5</span> ifadesinin eşleniği <strong>&radic;5</strong>'tir.
+            <br/><br/>
+            Genişletilmiş hali yazalım:
+            <div class="math-block"><span class="math">\frac{4 &times; (&radic;5 + 1)}{(&radic;5 - 1)(&radic;5 + 1)} - \frac{5 &times; &radic;5}{&radic;5 &times; &radic;5}</span></div>
+            Paydaları hesaplayalım: <span class="math">(&radic;5 - 1)(&radic;5 + 1) = 5 - 1 = 4</span> &nbsp; ve &nbsp; <span class="math">&radic;5 &times; &radic;5 = 5</span>.
+            <div class="math-block"><span class="math">\frac{4(&radic;5 + 1)}{4} - \frac{5&radic;5}{5}</span></div>
+            Pay ve paydadaki sadeleşebilen sayıları (4'leri ve 5'leri) götürelim:
+            <div class="math-block"><span class="math">(&radic;5 + 1) - &radic;5</span></div>
+            <span class="math">&radic;5</span> ve <span class="math">-&radic;5</span> birbirini sıfırlar. Geriye yalnızca <strong>1</strong> kalır.
+            Cevap <strong>1</strong>'dir.
+        </div>
+    </div>
+
+</body>
+</html>

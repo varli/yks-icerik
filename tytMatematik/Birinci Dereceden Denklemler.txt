@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Birinci Dereceden Denklemler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 9: Birinci Dereceden Denklemler</p>
+    </div>
+
+    <p><span class="math">a</span> ve <span class="math">b</span> birer gerçek sayı ve <span class="math">a &ne; 0</span> olmak üzere, <span class="math">a \cdot x + b = 0</span> eşitliğine <strong>birinci dereceden bir bilinmeyenli denklem</strong> denir. Buradaki <span class="math">x</span> bilinmeyendir. Eşitliği sağlayan <span class="math">x</span> değerine denklemin <strong>kökü</strong>, bu kökün oluşturduğu kümeye ise <strong>çözüm kümesi (ÇK)</strong> adı verilir.</p>
+
+    <h2>1. Çözüm Kümesinin Özel Durumları</h2>
+    <p><span class="math">a \cdot x + b = 0</span> formundaki bir denklemde bilinmeyeni yalnız bırakmaya çalışırken katsayıların durumuna göre 3 farklı senaryo ile karşılaşırız:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Katsayı Durumu</th>
+                <th>Çözüm Kümesi (ÇK)</th>
+                <th>Matematiksel ve Sözel Anlamı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong><span class="math">a &ne; 0</span></strong></td>
+                <td>Tek elemanlıdır. <br/><span class="math">ÇK = \{-b/a\}</span></td>
+                <td>Denklemin yalnız bir tane gerçek kökü vardır. Bilinmeyen tek bir değer alabilir.</td>
+            </tr>
+            <tr>
+                <td><strong><span class="math">a = 0</span> ve <span class="math">b = 0</span></strong></td>
+                <td>Sonsuz elemanlıdır. <br/><span class="math">ÇK = \mathbb{R}</span> (Reel Sayılar)</td>
+                <td>Denklem <span class="math">0 = 0</span> halini alır. "Her <span class="math">x</span> gerçek sayısı için sağlanır" veya "Denklem daima doğrudur" denir.</td>
+            </tr>
+            <tr>
+                <td><strong><span class="math">a = 0</span> ve <span class="math">b &ne; 0</span></strong></td>
+                <td>Boş kümedir. <br/><span class="math">ÇK = \emptyset</span></td>
+                <td>Denklem <span class="math">0 = 5</span> gibi çelişkili bir hal alır. "Denklemi sağlayan hiçbir <span class="math">x</span> değeri yoktur" denir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Sonsuz Çözüm / Boş Küme Kurgusu):</strong> Sorularda "Denklem her <span class="math">x</span> reel sayısı için sağlandığına göre" ifadesi geçiyorsa <span class="math">x</span>'in önündeki katsayıyı da sabit terimi de <strong>ayrı ayrı sıfıra (0)</strong> eşitlemelisiniz. Eğer "Çözüm kümesi boş kümedir" diyorsa, sadece <span class="math">x</span>'in önündeki katsayı sıfır yapılır, sabit terim sıfırdan farklı bırakılır.
+    </div>
+
+    <h2>2. Birinci Dereceden İki Bilinmeyenli Denklem Sistemleri</h2>
+    <p><span class="math">x</span> ve <span class="math">y</span> değişken olmak üzere, iki bilinmeyenli iki denklemin bir arada bulunmasıyla sistem oluşur. Bu sistemleri çözmek için 2 ana yöntem kullanılır:</p>
+    <ul>
+        <li><strong>Yok Etme Yöntemi:</strong> Değişkenlerden birinin katsayıları, denklemler uygun sayılarla çarpılarak eşit ve zıt işaretli hale getirilir. Ardından denklemler taraf tarafa toplanarak o değişken yok edilir.</li>
+        <li><strong>Yerine Koyma Yöntemi:</strong> Denklemlerin birinden herhangi bir değişken (örneğin <span class="math">x</span>) yalnız bırakılır ve bulunan ifade diğer denklemde yerine yazılır.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <span class="math">(m - 3)x + n + 4 = 0</span> denklemi her <span class="math">x</span> gerçek sayısı için sağlandığına göre, <span class="math">m \cdot n</span> çarpımı kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            "Her <span class="math">x</span> gerçek sayısı için sağlanması" denklemin çözüm kümesinin tüm reel sayılar (<span class="math">\mathbb{R}</span>) olması anlamına gelir. Bu durumun gerçekleşmesi için denklemdeki <span class="math">x</span>'li terimin katsayısı da, sabit terim de sıfıra eşit olmalıdır (<span class="math">0 \cdot x + 0 = 0</span> durumu).
+            <br/><br/>
+            Terimleri ayrı ayrı sıfıra eşitleyelim:
+            <ol>
+                <li><span class="math">m - 3 = 0 \rightarrow m = 3</span></li>
+                <li><span class="math">n + 4 = 0 \rightarrow n = -4</span></li>
+            </ol>
+            Bizden istenen <span class="math">m \cdot n</span> çarpımını hesaplayalım:
+            <div class="math-block"><span class="math">m \cdot n = 3 \cdot (-4) = -12</span></div>
+            Cevap <strong>-12</strong> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> 
+        <div class="math-block">
+            <span class="math">2x + 3y = 13</span><br/>
+            <span class="math">3x - y = 3</span>
+        </div>
+        denklem sistemini sağlayan <span class="math">x</span> ve <span class="math">y</span> değerleri için <span class="math">x + y</span> toplamı kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bu sistemi çözmek için <strong>Yok Etme Yöntemi</strong> en pratik yoldur. <span class="math">y</span> değişkenini yok etmek daha kolay görünüyor; çünkü ilk denklemde <span class="math">+3y</span> var, ikinci denklemde ise <span class="math">-y</span> var.
+            <br/><br/>
+            İkinci denklemin her iki tarafını 3 ile genişletelim:
+            <div class="math-block"><span class="math">3 \cdot (3x - y) = 3 \cdot 3 \rightarrow 9x - 3y = 9</span></div>
+            Şimdi ilk denklem ile yeni elde ettiğimiz ikinci denklemi alt alta yazıp taraf tarafa toplayalım:
+            <div class="math-block">
+                <span class="math">2x + 3y = 13</span><br/>
+                <span class="math">9x - 3y = 9</span><br/>
+                <hr style="border:none; border-top:1px solid #cbd5e1; width:50%; margin:5px auto;"/>
+                <span class="math">(2x + 9x) + (3y - 3y) = 13 + 9</span>
+            </div>
+            <div class="math-block"><span class="math">11x = 22 \rightarrow x = 2</span></div>
+            Buldumuz <span class="math">x = 2</span> değerini sistemdeki herhangi bir denklemde (örneğin ikincisinde) yerine yazarak <span class="math">y</span>'yi bulalım:
+            <div class="math-block"><span class="math">3 \cdot (2) - y = 3 \rightarrow 6 - y = 3 \rightarrow y = 3</span></div>
+            Bizden <span class="math">x + y</span> toplamı istenmişti:
+            <div class="math-block"><span class="math">x + y = 2 + 3 = 5</span></div>
+            Cevap <strong>5</strong>'tir.
+        </div>
+    </div>
+
+</body>
+</html>

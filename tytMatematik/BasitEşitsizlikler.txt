@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Basit Eşitsizlikler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 10: Basit Eşitsizlikler (Aralık Kavramı ve Eşitsizlik Özellikleri)</p>
+    </div>
+
+    <p><span class="math">&lt;, &gt;, &le;, &ge;</span> sembolleri ile ifade edilen niceliksel karşılaştırmalara <strong>eşitsizlik</strong> denir. Birinci dereceden bir bilinmeyen içeren ifadelere ise basit eşitsizlikler adı verilir. Çözüm kümeleri genellikle tek bir sayı değil, sayı doğrusu üzerinde belirli bir <strong>aralık</strong> belirtir.</p>
+
+    <h2>1. Aralık Kavramı ve Gösterimleri</h2>
+    <ul>
+        <li><strong>Açık Aralık <span class="math">(a, b)</span>:</strong> Uç noktalar dahil değildir. Sayı doğrusunda içleri boştur. <span class="math">a &lt; x &lt; b</span></li>
+        <li><strong>Kapalı Aralık <span class="math">[a, b]</span>:</strong> Uç noktalar aralığa dahildir. Sayı doğrusunda içleri doludur. <span class="math">a &le; x &le; b</span></li>
+        <li><strong>Yarı Açık Aralık <span class="math">[a, b)</span> veya <span class="math">(a, b]</span>:</strong> Uç noktalardan yalnızca biri dahildir.</li>
+    </ul>
+
+    <h2>2. Eşitsizliklerin Altın Özellikleri</h2>
+    <p>Eşitsizlik çözümlerinde denklemlerden farklı olarak yön değiştirme reflekslerine çok dikkat edilmelidir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Yapılan İşlem</th>
+                <th>Eşitsizliğin Yön Durumu</th>
+                <th>Örnek Gösterim</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Her İki Tarafa Sayı Ekleme / Çıkarma</strong></td>
+                <td>Yön <u>DEĞİŞMEZ</u>.</td>
+                <td><span class="math">a &lt; b \rightarrow a + c &lt; b + c</span></td>
+            </tr>
+            <tr>
+                <td><strong>Pozitif Bir Sayı ile Çarpma / Bölme</strong></td>
+                <td>Yön <u>DEĞİŞMEZ</u>.</td>
+                <td><span class="math">c &gt; 0</span> ise <span class="math">a &lt; b \rightarrow a \cdot c &lt; b \cdot c</span></td>
+            </tr>
+            <tr>
+                <td><strong>Negatif Bir Sayı ile Çarpma / Bölme</strong></td>
+                <td>Yön <strong>DEĞİŞİR</strong> (&lt; ise &gt; olur).</td>
+                <td><span class="math">c &lt; 0</span> ise <span class="math">a &lt; b \rightarrow a \cdot c &gt; b \cdot c</span></td>
+            </tr>
+            <tr>
+                <td><strong>Taraf Tarafa Toplama</strong></td>
+                <td>Aynı yönlü eşitsizlikler toplanabilir.</td>
+                <td><span class="math">a &lt; b</span> ve <span class="math">c &lt; d \rightarrow a+c &lt; b+d</span></td>
+            </tr>
+            <tr>
+                <td><strong>Taraf Tarafa Çıkarma</strong></td>
+                <td>Eşitsizliklerde çıkarma <strong>YAPILMAZ</strong>.</td>
+                <td>Çıkarma yerine alttaki eşitsizlik <span class="math">-1</span> ile çarpılıp toplanır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Reel Sayı ve Tam Sayı Tuzağı):</strong> Sorunun başında <span class="math">x</span> ve <span class="math">y</span> için <strong>"birer tam sayı"</strong> deniliyorsa aralıktan <u>değer seçilerek</u> işlem yapılır. Eğer <strong>"birer reel (gerçek) sayı"</strong> deniliyorsa veya hiçbir şey denmiyorsa kesinlikle değer seçilmez, aralıkların kendisi üzerinde <u>genişletme/işlem</u> yapılarak yeni aralık elde edilir.
+    </div>
+
+    <h2>3. Kuvvet (Üs) Alma Kuralları</h2>
+    <p>Bir aralığın karesi veya küpü alınırken şu iki duruma dikkat edilmelidir:</p>
+    <ul>
+        <li><strong>Tek Kuvvetler:</strong> Sınırların doğrudan küpü/kuvveti alınır, yön değişimi veya özel durum yoktur.</li>
+        <li><strong>Çift Kuvvetler (Kare Alma):</strong> 
+            <ul>
+                <li>Eğer aralığın alt sınırı negatif, üst sınırı pozitif ise (aralık 0'ı kapsıyorsa), karenin en küçük değeri daima 0 olur ve eşitlik konur. Üst sınır ise sınırların karelerinden büyük olanıdır. Örn: <span class="math">-3 &lt; x &lt; 2 \rightarrow 0 &le; x^2 &lt; 9</span></li>
+                <li>Eğer aralıktaki tüm sayılar aynı işaretliyse sınırlar direkt olarak karesel uçlara göre düzenlenir.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <span class="math">x</span> ve <span class="math">y</span> birer <u>tam sayı</u> olmak üzere, 
+        <div class="math-block"><span class="math">-3 &le; x &lt; 4</span></div>
+        <div class="math-block"><span class="math">1 &lt; y &le; 5</span></div>
+        olduğuna göre, <span class="math">3x - 2y</span> ifadesinin alabileceği <u>en büyük</u> değer kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Sorunun kökünde değişkenlerin <strong>"tam sayı"</strong> olduğu belirtilmiştir. Bu yüzden aralıklardan en uygun tam sayı değerlerini seçerek ilerlemeliyiz.
+            <br/><br/>
+            <span class="math">3x - 2y</span> ifadesinin en büyük çıkması için, önü pozitif olan <span class="math">x</span>'e alabileceği en büyük, önü negatif olan <span class="math">y</span>'ye ise alabileceği en küçük tam sayı değerini vermeliyiz:
+            <ul>
+                <li><span class="math">x</span>'in aralığı: <span class="math">[-3, 4)</span> yani <span class="math">x = \{-3, -2, -1, 0, 1, 2, 3\}</span>. En büyük <span class="math">x = 3</span> seçilir.</li>
+                <li><span class="math">y</span>'nin aralığı: <span class="math">(1, 5]</span> yani <span class="math">y = \{2, 3, 4, 5\}</span>. En küçük <span class="math">y = 2</span> seçilir.</li>
+            </ul>
+            Değerleri yerine koyarak hesabı tamamlayalım:
+            <div class="math-block"><span class="math">3x - 2y = 3 \cdot (3) - 2 \cdot (2) = 9 - 4 = 5</span></div>
+            Alabileceği en büyük değer <strong>5</strong>'tir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <span class="math">a</span> ve <span class="math">b</span> birer <u>gerçek (reel) sayı</u> olmak üzere,
+        <div class="math-block"><span class="math">-2 &lt; a &lt; 3</span></div>
+        <div class="math-block"><span class="math">1 &le; b &lt; 4</span></div>
+        olduğuna göre, <span class="math">2a - b</span> ifadesinin alabileceği en geniş değer aralığı nedir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bu soruda değişkenler <strong>"gerçek sayı"</strong> olarak tanımlanmıştır. Bu yüzden kesinlikle değer seçmiyoruz, aralıkları operasyonlarla benzetmeye çalışıyoruz.
+            <br/><br/>
+            Öncelikle <span class="math">2a</span> ifadesini elde etmek için <span class="math">a</span>'nın eşitsizliğini 2 ile çarpalım (2 pozitif olduğundan yön değişmez):
+            <div class="math-block"><span class="math">2 \cdot (-2) &lt; 2 \cdot a &lt; 2 \cdot 3 \rightarrow -4 &lt; 2a &lt; 6</span></div>
+            
+            Şimdi <span class="math">-b</span> ifadesini elde etmek için <span class="math">b</span>'nin eşitsizliğini <span class="math">-1</span> ile çarpalım. Negatif sayıyla çarptığımız için <strong>eşitsizlik yön değiştirecektir</strong>:
+            <div class

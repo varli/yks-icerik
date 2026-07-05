@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Binom Açılımı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 28: Binom Açılımı</p>
+    </div>
+
+    <p><span class="math">n \in \mathbb{N}</span> olmak üzere, iki terimli bir ifadenin n. dereceden kuvvetinin açılmasına <strong>binom açılımı</strong> denir. Bu açılımdaki katsayılar kombinasyon kombinasyonları ile belirlenir ve sayıların dizilimi geometrik olarak Pascal Üçgeni'ni oluşturur.</p>
+
+    <h2>1. Binom Açılım Formülü</h2>
+    <p><span class="math">(x + y)^n</span> ifadesinin açılımı şu formülle gerçekleştirilir:</p>
+    <div class="math-block">
+        <span class="math">(x + y)^n = \binom{n}{0}x^n \cdot y^0 + \binom{n}{1}x^{n-1} \cdot y^1 + \dots + \binom{n}{n}x^0 \cdot y^n</span>
+    </div>
+
+    <h2>2. Binom Açılımının Temel Özellikleri</h2>
+    <p>Sorularda denklem kurarken veya doğrudan terim ararken şu 4 altın kural hayati önem taşır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik Adı</th>
+                <th>Matematiksel Karşılığı / Bulunuşu</th>
+                <th>Uygulama Mantığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Terim Sayısı</strong></td>
+                <td><span class="math">n + 1</span></td>
+                <td>Kuvvet kaç ise, açılımda daima onun 1 fazlası kadar terim bulunur.</td>
+            </tr>
+            <tr>
+                <td><strong>Katsayılar Toplamı</strong></td>
+                <td>Değişkenler yerine <span class="math">1</span> yazılır. (<span class="math">x=1, y=1</span>)</td>
+                <td>Tüm harfleri etkisiz hale getirerek sadece katsayıların kalmasını sağlar.</td>
+            </tr>
+            <tr>
+                <td><strong>Sabit Terim</strong></td>
+                <td>Değişkenler yerine <span class="math">0</span> yazılır. (<span class="math">x=0, y=0</span>)</td>
+                <td>Tanımsızlık oluşturmayan (paydada olmayan) durumlar için geçerlidir.</td>
+            </tr>
+            <tr>
+                <td><strong>Genel Terim Formülü</strong></td>
+                <td><span class="math">\text{Terim} = \binom{n}{r} \cdot x^{n-r} \cdot y^r</span></td>
+                <td>Baştan <span class="math">(r + 1)</span>. terimi bulmak için kullanılan ana formüldür.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Üslerin Dengesi):</strong> Binom açılımındaki her bir terimde, değişkenlerin üslerinin toplamı daima ana kuvvete (<span class="math">n</span>) eşit olmak zorundadır. <br/>
+        Örneğin; <span class="math">(x + y)^7</span> açılımında <span class="math">A \cdot x^4 \cdot y^3</span> şeklinde bir terim bulunabilir (<span class="math">4 + 3 = 7</span>) ancak <span class="math">x^5 \cdot y^3</span> şeklinde bir terim asla bulunamaz.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <span class="math">(2x - 3y)^4</span> ifadesinin açılımındaki katsayılar toplamı kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Katsayılar toplamını bulmak için kural gereği tüm değişkenlerin (x ve y) yerine 1 yazmalıyız.
+            <ol>
+                <li>İfadede <span class="math">x = 1</span> ve <span class="math">y = 1</span> yazalım: <br/>
+                <span class="math">\text{Katsayılar Toplamı} = (2 \cdot 1 - 3 \cdot 1)^4</span></li>
+                <li>Parantez içindeki işlemi yapalım: <br/>
+                <span class="math">(2 - 3)^4 = (-1)^4</span></li>
+                <li>Negatif bir sayının çift kuvveti pozitif olacağından: <br/>
+                <span class="math">(-1)^4 = 1</span></li>
+            </ol>
+            İfadenin katsayılar toplamı <strong>1</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <span class="math">(x + 2y)^6</span> ifadesinin azalan kuvvetlerine göre açılımında <u>baştan 3. terim</u> nedir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Baştan <span class="math">(r + 1)</span>. terim formülünü uygulayalım.
+            <ul>
+                <li>Ana kuvvetimiz <span class="math">n = 6</span></li>
+                <li>Baştan 3. terim istendiği için: <span class="math">r + 1 = 3 \rightarrow r = 2</span> olarak alınır.</li>
+                <li>Birinci terimimiz = <span class="math">x</span>, İkinci terimimiz = <span class="math">2y</span></li>
+            </ul>
+            Genel terim formülünde verileri yerlerine yerleştirelim:
+            <div class="math-block"><span class="math">\text{Terim} = \binom{6}{2} \cdot (x)^{6-2} \cdot (2y)^2</span></div>
+            Şimdi işlemleri adım adım açalım:
+            <ol>
+                <li>Kombinasyon değeri: <span class="math">\binom{6}{2} = \frac{6 \cdot 5}{2 \cdot 1} = 15</span></li>
+                <li>Birinci bileşenin üssü: <span class="math">x^4</span></li>
+                <li>İkinci bileşenin üssü (katsayı karesine dikkat): <span class="math">(2y)^2 = 4y^2</span></li>
+            </ol>
+            Bulduğumuz tüm parçaları çarpım halinde birleştirelim:
+            <div class="math-block"><span class="math">\text{Terim} = 15 \cdot x^4 \cdot 4y^2 = (15 \cdot 4) \cdot x^4 \cdot y^2</span></div>
+            <div class="math-block"><span class="math">\text{Terim} = 60x^4y^2</span></div>
+            Baştan 3. terim <strong><span class="math">60x^4y^2</span></strong> olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

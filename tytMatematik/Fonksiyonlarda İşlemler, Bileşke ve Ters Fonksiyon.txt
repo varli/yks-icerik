@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Fonksiyonlarda İşlemler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 23: Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon</p>
+    </div>
+
+    <p>Fonksiyonlar kümesi üzerinde tanımlanan işlemler, cebirsel ifadelerin fonksiyonel yapılara dağıtılması esasına dayanır. Bileşke ve ters fonksiyon işlemleri ise fonksiyonların ardışık ve geriye doğru çalışma mekanizmalarını modeller.</p>
+
+    <h2>1. Fonksiyonlarda Dört İşlem</h2>
+    <p><span class="math">f</span> ve <span class="math">g</span> fonksiyonları arasında dört işlem yapılabilmesi için en temel kural, bu iki fonksiyonun <strong>tanım kümelerinin kesişim kümesi (<span class="math">A \cap B</span>)</strong> üzerinde işlem yapılmasıdır. Ortak olmayan elemanlar için dört işlem tanımlanamaz.</p>
+    <ul>
+        <li><span class="math">(f + g)(x) = f(x) + g(x)</span></li>
+        <li><span class="math">(f - g)(x) = f(x) - g(x)</span></li>
+        <li><span class="math">(f \cdot g)(x) = f(x) \cdot g(x)</span></li>
+        <li><span class="math">\left(\frac{f}{g}\right)(x) = \frac{f(x)}{g(x)} \quad (g(x) \neq 0)</span></li>
+    </ul>
+
+    <h2>2. Bileşke Fonksiyon (<span class="math">f \circ g</span>)</h2>
+    <p>Bir fonksiyonun çıktısını, bir sonraki fonksiyonun girdisi yapma işlemine <strong>bileşke işlemi</strong> denir. <span class="math">(f \circ g)(x)</span> ifadesi "f bileşke g" diye okunur ve sağdan sola doğru işletilir:</p>
+    <div class="math-block"><span class="math">(f \circ g)(x) = f(g(x))</span></div>
+    <p>Bileşke işleminin <strong>değişme özelliği yoktur</strong>; yani genel olarak <span class="math">f \circ g \neq g \circ f</span>'dir.</p>
+
+    <h2>3. Ters Fonksiyon (<span class="math">f^{-1}</span>)</h2>
+    <p>Bir fonksiyonun tersinin tanımlı olabilmesi için o fonksiyonun mutlaka <strong>birebir ve örten</strong> olması gerekir. Fonksiyon düz işlemde girdiyi çıktıya götürürken, ters fonksiyon çıktıyı alıp eski girdisine geri götürür.</p>
+    <div class="math-block"><span class="math">f(a) = b \iff f^{-1}(b) = a</span></div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Fonksiyon Tipi</th>
+                <th>Düz Kuralı <span class="math">f(x)</span></th>
+                <th>Pratik Ters Kuralı <span class="math">f^{-1}(x)</span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Doğrusal Tip</strong></td>
+                <td><span class="math">f(x) = ax + b</span></td>
+                <td><div class="math-block"><span class="math">f^{-1}(x) = \frac{x - b}{a}</span></div></td>
+            </tr>
+            <tr>
+                <td><strong>Rasyonel Tip</strong></td>
+                <td><div class="math-block"><span class="math">f(x) = \frac{ax + b}{cx + d}</span></div></td>
+                <td><div class="math-block"><span class="math">f^{-1}(x) = \frac{-dx + b}{cx - a}</span></div> (Paydaki <span class="math">x</span>'in katsayısı ile paydadaki sabit sayı hem yer hem işaret değiştirir.)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Bileşke ve Tersin Kombinasyonu):</strong> Bir bileşke fonksiyonun parantez dışından tersi alınırken, içerideki fonksiyonlar <u>hem ters çevrilir hem de yer değiştirir</u>. Bu kural sadeleştirme sorularında çok sık kullanılır:
+        <div class="math-block"><span class="math">(f \circ g)^{-1}(x) = (g^{-1} \circ f^{-1})(x)</span></div>
+        Ayrıca bir fonksiyon ile tersi bileşke işlemine girerse birbirini yok eder ve birim (etkisiz) fonksiyon kalır: <span class="math">f \circ f^{-1} = I</span>.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Gerçel sayılar kümesinde tanımlı <span class="math">f(x) = 2x + 3</span> ve <span class="math">g(x) = x^2 - 1</span> fonksiyonları veriliyor. 
+        Buna göre, <span class="math">(f \circ g)(3)</span> değeri kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bileşke fonksiyon tanımını açarak sağdan sola doğru işlemimizi başlatalım:
+            <div class="math-block"><span class="math">(f \circ g)(3) = f(g(3))</span></div>
+            <ol>
+                <li>Öncelikle iç kısımdaki <span class="math">g(3)</span> değerini hesaplayalım. <br/>
+                <span class="math">g(x) = x^2 - 1 \rightarrow g(3) = 3^2 - 1 = 9 - 1 = 8</span></li>
+                <li>Bulduğumuz bu 8 değerini dıştaki <span class="math">f</span> fonksiyonunun içine girdi olarak yazalım: <br/>
+                <span class="math">f(g(3)) = f(8)</span></li>
+                <li>Şimdi <span class="math">f(8)</span> değerini hesaplayalım: <br/>
+                <span class="math">f(x) = 2x + 3 \rightarrow f(8) = 2 \cdot (8) + 3 = 16 + 3 = 19</span></li>
+            </ol>
+            Cevap <strong>19</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Tanımlı olduğu aralıkta <span class="math">f\left(\frac{3x - 1}{x + 2}\right) = 2x + 5</span> olduğuna göre, <span class="math">f^{-1}(11)</span> değeri kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Ters fonksiyonun en temel kuralını hatırlayalım: <span class="math">f(a) = b \iff f^{-1}(b) = a</span>. 
+            <br/>Bu kural gereği, fonksiyonun içi ile dışını yer değiştirirsek fonksiyonun üzerine ters sembolünü (<span class="math">-1</span>) koyabiliriz:
+            <div class="math-block"><span class="math">f^{-1}(2x + 5) = \frac{3x - 1}{x + 2}</span></div>
+            Bizden <span class="math">f^{-1}(11)</span> değeri istenmektedir. O halde içeriği 11 yapan <span class="math">x</span> değerini bulmalıyiz:
+            <div class="math-block"><span class="math">2x + 5 = 11 \rightarrow 2x = 6 \rightarrow x = 3</span></div>
+            Şimdi bulduğumuz bu <span class="math">x = 3</span> değerini eşitliğin karşı tarafındaki ifadede yerine yazalım:
+            <div class="math-block"><span class="math">f^{-1}(11) = \frac{3 \cdot (3) - 1}{3 + 2}</span></div>
+            <div class="math-block"><span class="math">f^{-1}(11) = \frac{9 - 1}{5} = \frac{8 Pall}{5}</span></div>
+            Cevap <strong>8/5</strong>'tir.
+        </div>
+    </div>
+
+</body>
+</html>

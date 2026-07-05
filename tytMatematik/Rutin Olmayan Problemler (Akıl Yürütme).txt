@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Rutin Olmayan Problemler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 20: Rutin Olmayan Problemler (Akıl Yürütme ve Örüntü Analizi)</p>
+    </div>
+
+    <p>Rutin olmayan problemler, hazır formüllerle veya bilindik kalıplarla çözülemeyen; adayın analitik düşünme, deneme-yanılma yapma, örüntü keşfetme ve mantıksal çıkarım yapma becerilerini doğrudan sınayan yeni nesil soru türleridir.</p>
+
+    <h2>1. Çözüm Yolunda Kullanılan Temel Stratejiler</h2>
+    <p>Bu soru tarzlarında paniğe kapılmamak ve sistematik ilerlemek için şu yaklaşımlar sergilenmelidir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Strateji Adı</th>
+                <th>Nasıl Uygulanır?</th>
+                <th>Hangi Durumlarda Tercih Edilir?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Küçük Değerlerle Başlama</strong></td>
+                <td>Sorudaki büyük sayılar yerine 1, 2, 3 gibi küçük elemanlar verilerek sistemin davranışı incelenir.</td>
+                <td>Büyük boyutlu matris, şekil veya sayı dizisi içeren sorularda.</td>
+            </tr>
+            <tr>
+                <td><strong>Periyot (Tekrar) Yakalama</strong></td>
+                <td>İşlemlerin kaç adımda bir başa döndüğü, adımlar tek tek yazılarak gözlemlenir.</td>
+                <td>Dairesel çark dönmeleri, ardışık şifreleme ve dairesel dizilim kurgularında.</td>
+            </tr>
+            <tr>
+                <td><strong>Uç Durumları İnceleme</strong></td>
+                <td>Değişkenlerin alabileceği "en küçük" veya "en büyük" sınır değerler test edilir.</td>
+                <td>"En az kaç hamlede kesinlikle...", "En çok kaç farklı şekilde..." sorularında.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Güvercin Yuvası İlkesi):</strong> Rutin olmayan sorularda sıkça karşımıza çıkan garanti arama durumlarında kullanılır. İlkeye göre; <span class="math">n</span> tane kutuya <span class="math">n + 1</span> tane nesne yerleştirilirse, en az bir kutuda birden fazla nesne olmak zorundadır. <br/>
+        <strong>Sınav Pratiği:</strong> Bir torbadan kesinlikle aynı renkten ürün çekmeyi garantilemek istiyorsak, <u>en şanssız olduğumuz senaryoyu (en kötü ihtimali)</u> düşünerek denklem kurmalıyız.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir torbada 5 kırmızı, 7 mavi ve 9 yeşil bilye vardır. Bu torbadan rastgele bilyeler çekiliyor.
+        Çekilen bilyelerden <u>en az birinin kesinlikle mavi olmasını garantilemek için</u> en az kaç bilye çekilmelidir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bu tür "garantileme" sorularında kendimizi dünyanın en şanssız insanı olarak hayal etmeliyiz. Amacımız mavi çekmek ama şansımıza üst üste sürekli diğer renkler geliyor olsun.
+            <ol>
+                <li>Önce torbadaki tüm mavi olmayan (kırmızı ve yeşil) bilyelerin tamamını çekmiş olalım: <br/>
+                <span class="math">\text{Mavi Olmayanlar} = 5 \text{ Kırmızı} + 9 \text{ Yeşil} = 14 \text{ bilye}</span></li>
+                <li>Bu 14 hamlenin sonunda torbada <u>yalnızca mavi bilyeler</u> kalmıştır.</li>
+                <li>Artık torbadan çekeceğimiz 15. bilye, torbada başka renk kalmadığı için <strong>kesinlikle ve kaçınılmaz olarak mavi</strong> olacaktır.</li>
+            </ol>
+            Garantilemek için çekilmesi gereken en az bilye sayısı: <span class="math">14 + 1 = 15</span>'tir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir dijital saat her 45 dakikada bir sinyal vermektedir. İlk sinyalini saat 08:15'te veren bu saat, 12. sinyalini verdiğinde saat kaçı gösterir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bu bir periyot ve aralık problemidir. Ağaç-direk sorularındaki gibi aralık sayısına dikkat etmeliyiz.
+            <ul>
+                <li>1. sinyal ile 12. sinyal arasında toplam <span class="math">12 - 1 = 11</span> tane zaman aralığı (periyot) vardır.</li>
+                <li>Her aralık 45 dakika sürdüğüne göre toplam geçen süreyi dakika cinsinden bulalım: <br/>
+                <div class="math-block"><span class="math">\text{Toplam Dakika} = 11 \cdot 45 = 495 \text{ dakika}</span></div></li>
+                <li>Şimdi bu dakikayı saat ve dakikaya çevirelim (60'a bölelim): <br/>
+                <span class="math">495 / 60 = 8 \text{ saat}</span> ve kalan <span class="math">15 \text{ dakika}</span>'dır.</li>
+                <li>İlk sinyal saati olan 08:15'in üzerine 8 saat 15 dakikayı ekleyelim: <br/>
+                <span class="math">08:15 + 08:00 = 16:15</span> <br/>
+                <span class="math">16:15 + 00:15 = 16:30</span></li>
+            </ul>
+            Saat 12. sinyalini verdiğinde <strong>16:30</strong>'u gösterir.
+        </div>
+    </div>
+
+</body>
+</html>

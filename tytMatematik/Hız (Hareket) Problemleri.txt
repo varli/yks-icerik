@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Hız (Hareket) Problemleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 16: Hız (Hareket) Problemleri</p>
+    </div>
+
+    <p>Hız hareket problemlerinin temeli, fizik dersinden de aşina olduğumuz doğrusal yol formülüne dayanır. Sabit hızla hareket eden bir nesnenin aldığı yol, hızı ile geçen sürenin çarpımına eşittir: <span class="math">X = V \cdot t</span> (Yol = Hız &times; Zaman).</p>
+
+    <h2>1. Karşılaşma ve Yakalama Kurguları</h2>
+    <p>Aralarında <span class="math">X</span> kadar mesafe bulunan iki aracın durumlarına göre hızlar işleme dahil edilir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Hareket Yönü</th>
+                <th>Kullanılan Bağıntı / Formül</th>
+                <th>Sözel Mantığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Zıt Yönlü Hareket (Birbirine Doğru)</strong></td>
+                <td><div class="math-block"><span class="math">X = (V_1 + V_2) \cdot t</span></div></td>
+                <td>Araçlar birbirine doğru geldiği için aradaki mesafe <u>hızlar toplamı</u> oranında hızla kapanır.</td>
+            </tr>
+            <tr>
+                <td><strong>Aynı Yönlü Hareket (Kovalama/Yakalama)</strong></td>
+                <td><div class="math-block"><span class="math">X = (V_1 - V_2) \cdot t</span> &nbsp; (<span class="math">V_1 &gt; V_2</span>)</td>
+                <td>Arkada hızlı olan araç, öndeki aracı yakalamaya çalışır. Aradaki mesafe <u>hızlar farkı</u> oranında kapanır.</td>
+            </tr>
+            <tr>
+                <td><strong>Ortalama Hız (<span class="math">V_{ort}</span>)</strong></td>
+                <td><div class="math-block"><span class="math">V_{ort} = \frac{\text{Toplam Yol}}{\text{Toplam Zaman}}</span></div></td>
+                <td>Tüm yolculuk boyunca gidilen toplam mesafenin, harcanan toplam süreye bölünmesiyle bulunur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Birim Dönüşümü Tuzağı):</strong> Sorularda hız genellikle <span class="math">\text{km/saat}</span> verilirken zaman <span class="math">\text{dakika}</span> veya yol <span class="math">\text{metre}</span> cinsinden verilebilir. İşlem yapmadan önce birimlerin birbiriyle uyumlu olduğundan emin olun. 
+        <br/>• <span class="math">1 \text{ saat} = 60 \text{ dakika}</span> 
+        <br/>• Metre/saniye'yi km/saat'e çevirirken pratik olarak <span class="math">3.6</span> ile çarpabilirsiniz.
+    </div>
+
+    <h2>2. Özel Soru Kalıpları</h2>
+    <ul>
+        <li><strong>Dairesel Pist Hareketleri:</strong> Pistin çevresi "Yol (<span class="math">X</span>)" olarak kabul edilir. Araçlar aynı noktadan zıt yöne giderse karşılaşma süresi için hızlar toplanır; aynı yöne giderse hızlı olanın yavaş olana tur bindirme süresi için hızlar çıkarılır.</li>
+        <li><strong>Tren ve Tünel Geçişleri:</strong> Bir trenin bir tüneli tamamen geçmesi için katetmesi gereken toplam yol: <strong>Tünelin Boyu + Trenin Kendi Boyu</strong> kadardır.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Aralarında 450 km mesafe bulunan A ve B şehirlerinden hızları sırasıyla 70 km/sa ve 80 km/sa olan iki araç aynı anda birbirlerine doğru harekete başlıyorlar. 
+        Buna göre, bu iki araç kaç saat sonra karşılaşırlar?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Araçlar birbirlerine doğru (zıt yönlü) hareket ettikleri için karşılaşma formülümüzü uygulayacağız:
+            <div class="math-block"><span class="math">X = (V_1 + V_2) \cdot t</span></div>
+            Verilen değerleri denklemde yerlerine yerleştirelim:
+            <ul>
+                <li>Toplam Yol (<span class="math">X</span>) = 450 km</li>
+                <li><span class="math">V_1</span> = 70 km/sa , &nbsp; <span class="math">V_2</span> = 80 km/sa</li>
+            </ul>
+            <div class="math-block"><span class="math">450 = (70 + 80) \cdot t</span></div>
+            <div class="math-block"><span class="math">450 = 150 \cdot t</span></div>
+            Her iki tarafı 150'ye bölelim:
+            <div class="math-block"><span class="math">t = \frac{450}{150} = 3 \text{ saat}</span></div>
+            Bu iki araç <strong>3</strong> saat sonra karşılaşırlar.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir araç A şehrinden B şehrine 60 km/sa hızla gitmiş ve hiç durmadan 90 km/sa hızla geri dönmüştür.
+        Buna göre, bu aracın gidiş-dönüş yolculuğundaki ortalama hızı saatte kaç km'dir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            A ile B şehirleri arasındaki yola <span class="math">X</span> diyelim.
+            <ol>
+                <li>Gidiş süresi (<span class="math">t_1</span>): <span class="math">t_1 = \frac{X}{60}</span></li>
+                <li>Dönüş süresi (<span class="math">t_2</span>): <span class="math">t_2 = \frac{X}{90}</span></li>
+            </ol>
+            Ortalama hız formülünü uygulayalım: <span class="math">V_{ort} = \frac{\text{Toplam Yol}}{\text{Toplam Zaman}}</span>
+            <br/>Gidiş-dönüş yapıldığı için <span class="math">\text{Toplam Yol} = X + X = 2X</span> olur.
+            <div class="math-block"><span class="math">V_{ort} = \frac{2X}{\frac{X}{60} + \frac{X}{90}}</span></div>
+            Paydadaki rasyonel ifadelerin paydalarını 180'de eşitleyelim (60'ı 3 ile, 90'ı 2 ile genişletelim):
+            <div class="math-block"><span class="math">V_{ort} = \frac{2X}{\frac{3X + 2X}{180}} = \frac{2X}{\frac{5X}{180}}</span></div>
+            Birinci ifadeyi aynen yazıp, ikinci ifadeyi ters çevirip çarpalım:
+            <div class="math-block"><span class="math">V_{ort} = 2X \cdot \frac{180}{5X}</span></div>
+            <span class="math">X</span> terimleri birbirini sadeleştirir:
+            <div class="math-block"><span class="math">V_{ort} = 2 \cdot 36 = 72 \text{ km/sa}</span></div>
+            Aracın yolculuk boyunca ortalama hızı <strong>72</strong> km/saat'tir.
+        </div>
+    </div>
+
+</body>
+</html>

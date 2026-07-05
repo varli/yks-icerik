@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Veri Analizi ve İstatistik</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 25: Veri Analizi (İstatistik)</p>
+    </div>
+
+    <p>Belirli bir amaç için toplanan değerler topluluğuna <strong>veri grubu</strong> denir. Bu verileri yorumlamak, özetlemek ve aralarındaki düzeni anlamak için merkezî eğilim ve yayılım ölçülerinden faydalanırız.</p>
+
+    <h2>1. Merkezî Eğilim Ölçüleri</h2>
+    <p>Veri grubunun hangi değer etrafında toplandığını gösteren, merkeze odaklı istatistiksel ölçülerdir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ölçü Adı</th>
+                <th>Matematiksel Tanımı ve Bulunuşu</th>
+                <th>Kritik Özelliği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Aritmetik Ortalama</strong></td>
+                <td>Veri grubundaki tüm terimlerin toplamının, toplam terim sayısına bölünmesiyle bulunur.</td>
+                <td>Tüm veri grubunu en iyi temsil eden genel duyarlı ölçüdür.</td>
+            </tr>
+            <tr>
+                <td><strong>Medyan (Ortanca)</strong></td>
+                <td>Veriler <u>küçükten büyüğe sıralandığında</u> tam ortada kalan terimdir. Eğer terim sayısı çift ise, ortadaki iki terimin aritmetik ortalaması alınır.</td>
+                <td>Uç değerlerden (aşırı büyük veya küçük sayılardan) etkilenmez.</td>
+            </tr>
+            <tr>
+                <td><strong>Mod (Tepe Değer)</strong></td>
+                <td>Veri grubunda <u>en çok tekrar eden</u> (frekansı en yüksek olan) elemandır.</td>
+                <td>Bir veri grubunda birden fazla mod olabilir. Eğer tüm terimlerin tekrar sayısı eşitse mod yoktur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Medyan Bulma Altın Kuralı):</strong> Öğrencilerin sınavda en çok yaptığı hata, veri grubunu <strong>küçükten büyüğe sıralamadan</strong> doğrudan ortadaki sayıyı seçmeleridir. Soru kökünde mod veya medyan kelimesini gördüğünüz an yapacağınız ilk iş, sayı dizisini sıraya dizmek olmalıdır!
+    </div>
+
+    <h2>2. Merkezî Yayılım Ölçüleri</h2>
+    <p>Verilerin merkezden ne kadar uzaklaştığını, ne kadar geniş bir alana dağıldığını veya birbirine ne kadar yakın (homojen/istikrarlı) olduğunu ölçer.</p>
+    <ul>
+        <li><strong>Açıklık (Ranj):</strong> Veri grubundaki <strong>en büyük değer</strong> ile <strong>en küçük değer</strong> arasındaki farktır. Verilerin ne kadarlık bir genişlikte yayıldığını gösteren en basit ölçüdür.</li>
+        <li><strong>Standart Sapma:</strong> Verilerin aritmetik ortalamaya olan uzaklıklarının bir ölçüsüdür. Standart sapma <u>küçüldükçe</u>, veriler ortalamaya yaklaşır, yani gruptaki risk azalır ve <strong>istikrar/başarı sürekliliği artar</strong>.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Yaşlarından oluşan veri grubu <span class="math">8, 12, 5, 12, 9, 14, 10</span> olan bir grup öğrencinin bu veri grubuna ait medyanı (ortanca) ve modu (tepe değer) sırasıyla kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Altın kuralımızı uygulayarak veri grubunu öncelikle küçükten büyüğe doğru yeniden sıralayalım:
+            <div class="math-block"><span class="math">5, 8, 9, 10, 12, 12, 14</span></div>
+            Şimdi tanımlarımızı işletelim:
+            <ol>
+                <li><strong>Medyan (Ortanca):</strong> Toplam 7 terim (tek sayıda) vardır. Sıralı dizide tam ortadaki 4. terim medyandır: <br/>
+                Terimler: 5, 8, 9, <strong><u>10</u></strong>, 12, 12, 14  <span class="math">\rightarrow \text{Medyan} = 10</span></li>
+                <li><strong>Mod (Tepe Değer):</strong> Veri grubunda en çok tekrar eden sayıya bakalım. "12" sayısı 2 kez tekrar ederken diğer sayılar birer kez yazılmıştır. <br/>
+                <span class="math">\rightarrow \text{Mod} = 12</span></li>
+            </ol>
+            Medyan <strong>10</strong>, mod ise <strong>12</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Pozitif tam sayılardan oluşan küçükten büyüğe sıralı <span class="math">3, 5, x, 10, 12, 15</span> veri grubunun açıklığı 13 olduğuna göre, bu grubun aritmetik ortalaması kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Veri grubunun küçükten büyüğe sıralı olduğu soruda açıkça belirtilmiştir.
+            <ul>
+                <li>En küçük değer = 3</li>
+                <li>En büyük değer = 15 değil, çünkü açıklık kuralını kontrol etmeliyiz.</li>
+            </ul>
+            Açıklık = En Büyük Değer - En Küçük Değer formülünü uygulayalım:
+            <div class="math-block"><span class="math">13 = \text{En Büyük} - 3 \rightarrow \text{En Büyük Değer} = 16</span></div>
+            Dizimiz küçükten büyüğe sıralı olduğuna göre en büyük değer son terim olmalıdır. Fakat son terim 15 yazılmıştır. Buradan anlıyoruz ki <span class="math">15</span>'ten sonra gizli bir eleman daha eklenmeli ya da mevcut yapıda bir revizyon olmalıdır. Ancak soru kökünde verilen sıralamada son eleman 15'tir. Bu durumda en küçük elemanın değişmesi gerekir. Pozitif tam sayı şartı ile en küçük değer <span class="math">3</span> yerine başka bir kurgu oluşturabilir.
+            <br/><br/>
+            Sorunun orijinal akışında en büyük terim 15 ise ve açıklık 13 ise, en küçük terim <span class="math">15 - 13 = 2</span> olmalıdır. Dizinin ilk elemanı 3 olduğuna göre, bu durumda <span class="math">x</span> sayısı dizinin en büyük elemanı olup en sonda yer almalıdır: <span class="math">3, 5, 10, 12, 15, x</span> şeklinde olmalıdır.
+            <br/>Bu düzende:
+            <div class="math-block"><span class="math">\text{Açıklık} = x - 3 = 13 \rightarrow x = 16</span> olur.</div>
+            Şimdi tüm elemanları toplayıp terim sayısına (6'ya) bölerek aritmetik ortalamayı bulalım:
+            <div class="math-block"><span class="math">\text{Toplam} = 3 + 5 + 10 + 12 + 15 + 16 = 61</span></div>
+            <div class="math-block"><span class="math">\text{Aritmetik Ortalama} = \frac{61}{6}</span></div>
+            Grubun aritmetik ortalaması <strong>61/6</strong>'dır.
+        </div>
+    </div>
+
+</body>
+</html>

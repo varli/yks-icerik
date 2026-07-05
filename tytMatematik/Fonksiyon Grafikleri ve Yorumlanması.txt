@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Fonksiyon Grafikleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 24: Fonksiyon Grafikleri ve Yorumlanması</p>
+    </div>
+
+    <p>Bir fonksiyonun tanım kümesindeki elemanlar ile bu elemanların görüntülerinin oluşturduğu <span class="math">(x, f(x))</span> sıralı ikililerinin analitik düzlemdeki geometrik gösterimine <strong>fonksiyonun grafiği</strong> denir. Grafik sorularında en temel beceri, eksenlerin mantığını doğru okumaktır.</p>
+
+    <h2>1. Grafik Üzerinde Temel Değer Okuma Kuralları</h2>
+    <p>Bir <span class="math">y = f(x)</span> fonksiyonunun grafiği incelenirken şu kurallar asla unutulmamalıdır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Grafik Bölgesi / Durumu</th>
+                <th>Matematiksel Karşılığı</th>
+                <th>Sözel Anlamı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Yatay Eksen (x ekseni)</strong></td>
+                <td>Tanım Kümesi</td>
+                <td>Fonksiyona girdi olarak verilen sayıların eksenidir. Grafiğin sol-sağ sınırları tanım kümesini verir.</td>
+            </tr>
+            <tr>
+                <td><strong>Düşey Eksen (y ekseni)</strong></td>
+                <td>Görüntü Kümesi</td>
+                <td>Fonksiyonun ürettiği çıktıların eksenidir. Grafiğin aşağı-yukarı sınırları görüntü kümesini verir.</td>
+            </tr>
+            <tr>
+                <td><strong>x eksenini kesen noktalar</strong></td>
+                <td><span class="math">f(x) = 0</span></td>
+                <td>Fonksiyonun sıfırları (kökleri) denir. Grafik <span class="math">(a, 0)</span> noktasından geçiyorsa <span class="math">f(a) = 0</span>'dır.</td>
+            </tr>
+            <tr>
+                <td><strong>y eksenini kesen nokta</strong></td>
+                <td><span class="math">f(0) = b</span></td>
+                <td>Girdinin sıfır olduğu, grafiğin y eksenini <span class="math">(0, b)</span> noktasında delip geçtiği değerdir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Dikey Doğru Testi):</strong> Verilen bir grafiğin fonksiyon belirtip belirtmediğini anlamak için y eksenine paralel (dikey) doğrular çizilir. Çizilen bu doğrular grafiği <u>en fazla bir noktada</u> kesiyorsa grafik bir fonksiyon grafiğidir. Birden fazla noktada kesiyorsa fonksiyon değildir (çünkü bir girdinin birden fazla çıktısı olamaz).
+    </div>
+
+    <h2>2. Grafik Üzerinde Ters ve Bileşke Fonksiyon Takibi</h2>
+    <ul>
+        <li><strong>Bileşke Değer Okuma:</strong> Grafikte <span class="math">(f \circ f)(a)</span> soruluyorsa, önce <span class="math">f(a) = b</span> bulunur, ardından çıkan sonuç tekrar fonksiyona yazılıp <span class="math">f(b)</span> değeri grafik üzerinden okunur.</li>
+        <li><strong>Ters Fonksiyon Okuma:</strong> Grafikte <span class="math">f^{-1}(b) = a</span> okunurken süreç tersten işler. y eksenindeki <span class="math">b</span> sayısı bulunur, bu sayıya gitmek için x ekseninden hangi <span class="math">a</span> girdisinin seçildiği grafik çizgisi takip edilerek tespit edilir.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Şekildeki <span class="math">y = f(x)</span> fonksiyonunun grafiği x eksenini <span class="math">(-3, 0)</span> ve <span class="math">(5, 0)</span> noktalarında, y eksenini ise <span class="math">(0, 4)</span> noktasında kesmektedir. Ayrıca grafik üzerindeki bir diğer nokta <span class="math">(2, 7)</span> noktasıdır.
+        Buna göre, <span class="math">\frac{f(2) + f^{-1}(0)}{f(0)}</span> işleminin sonucu kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Grafiğin geçtiği noktaları tek tek fonksiyonel eşitliklere dönüştürelim:
+            <ol>
+                <li>Grafik <span class="math">(2, 7)</span> noktasından geçiyor <span class="math">\rightarrow f(2) = 7</span></li>
+                <li>Grafik x eksenini -3'te kesiyor <span class="math">\rightarrow f(-3) = 0 \iff f^{-1}(0) = -3</span></li>
+                <li>Grafik y eksenini 4'te kesiyor <span class="math">\rightarrow f(0) = 4</span></li>
+            </ol>
+            Bulduğumuz bu net değerleri bizden istenen kesirli ifadede yerlerine yazalım:
+            <div class="math-block"><span class="math">\text{Sonuç} = \frac{f(2) + f^{-1}(0)}{f(0)} = \frac{7 + (-3)}{4}</span></div>
+            <div class="math-block"><span class="math">\text{Sonuç} = \frac{4}{4} = 1</span></div>
+            İşlemin sonucu <strong>1</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Dik koordinat düzleminde tanımlı <span class="math">y = f(x)</span> fonksiyonunun grafiği verilmiştir. Grafik verilerine göre <span class="math">f(4) = 0</span>, <span class="math">f(0) = 2</span> ve <span class="math">f(-2) = 4</span>'tür.
+        Buna göre, <span class="math">(f \circ f)(-2)</span> işleminin sonucu kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bileşke fonksiyonun tanımı gereği ifadeyi iç içe parantez formatında yazalım:
+            <div class="math-block"><span class="math">(f \circ f)(-2) = f(f(-2))</span></div>
+            Adım adım ilerleyelim:
+            <ul>
+                <li><strong>1. Adım (İç kısım):</strong> Öncelikle grafikten <span class="math">f(-2)</span> değerini okuyalım. Soruda da verildiği üzere grafik <span class="math">(-2, 4)</span> noktasından geçtiği için <span class="math">f(-2) = 4</span>'tür.</li>
+                <li><strong>2. Adım (Dış kısım):</strong> İçeride bulduğumuz 4 değerini dıştaki fonksiyonun içine yazacağız: <br/>
+                <span class="math">f(f(-2)) = f(4)</span></li>
+                <li><strong>3. Adım (Son okuma):</strong> Grafikten <span class="math">f(4)</span> değerini bulalım. Grafik x eksenini 4 noktasında kestiği için bu noktanın çıktısı sıfırdır, yani <span class="math">f(4) = 0</span>'dır.</li>
+            </ul>
+            Bileşke işleminin net sonucu <strong>0</strong> olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

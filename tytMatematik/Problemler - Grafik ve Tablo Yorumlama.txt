@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Grafik ve Tablo Yorumlama</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 19: Grafik ve Tablo Yorumlama</p>
+    </div>
+
+    <p>Grafik ve tablo problemleri, verilerin görselleştirilmiş hallerini analiz etme yeteneğini ölçer. Bu ünitede yeni bir formül öğrenmek yerine, önceki ünitelerde gördüğümüz <strong>oran-orantı</strong>, <strong>denklem kurma</strong> ve <strong>yüzde</strong> hesaplarını grafiklerin geometrik yapılarına uyarlamayı öğreneceğiz.</p>
+
+    <h2>1. TYT'de Karşımıza Çıkan Grafik Türleri</h2>
+    <p>Sınavda sorulan kurgular temelde üç farklı grafik türü üzerinden şekillenir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Grafik Türü</th>
+                <th>Kullanım Amacı ve Temel Karakteristiği</th>
+                <th>Çözüm Anahtarı ve Altın Strateji</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Dairesel (Pasta) Grafik</strong></td>
+                <td>Bir bütünün parçalarını ve bu parçaların bütüne olan oranını göstermek için kullanılır.</td>
+                <td>Dairenin tamamı daima <strong><span class="math">360^\circ</span></strong> veya <strong>%100</strong> kabul edilir. Veriler ile merkez açılar doğru orantılıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Sütun Grafiği</strong></td>
+                <td>Farklı kategorilerdeki veri miktarlarını karşılaştırmak ve kesikli verileri incelemek için idealdir.</td>
+                <td>Sütunların tepe noktalarının eksenlerde hangi sayılara denk geldiği dikkatle okunmalı, gerekirse veriler hemen bir tabloya aktarılmalıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Çizgi Grafiği</strong></td>
+                <td>Verilerin zaman içerisindeki değişimini, artış ve azış trendlerini (sürekli verileri) göstermek için kullanılır.</td>
+                <td>Grafikteki eğim (artış/azalış miktarı) belirlenir. Genellikle doğrusal fonksiyon mantığı ile (<span class="math">y = ax + b</span>) çözüme gidilir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Daire Grafiği Dönüşümleri):</strong> Dairesel grafiği sütun grafiğine veya tam tersine dönüştürme sorularında en pratik yol, her bir dilimin merkez açısını 360'ın çarpanlarına bölerek en sade kat (<span class="math">k</span>) değerini bulmaktır. <br/>
+        Örn: <span class="math">120^\circ</span> olan bir dilime <span class="math">12k</span> veya <span class="math">3k</span> demek yerine, 360'ı referans alarak doğrudan <span class="math">120^\circ \rightarrow 1k</span>, <span class="math">240^\circ \rightarrow 2k</span> oranlaması yapılabilir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir çiftçinin ürettiği 720 ton ürünün çeşitlerine göre dağılımı aşağıdaki daire grafiğinde gösterilmiştir. 
+        Grafikte buğdaya ait merkez açı <span class="math">150^\circ</span>, mısıra ait merkez açı <span class="math">90^\circ</span> ve geri kalan kısım arpa üretimine aittir. 
+        Buna göre, bu çiftçi kaç ton arpa üretmiştir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Daire grafiğinin tamamının merkez açısının <span class="math">360^\circ</span> olduğunu biliyoruz.
+            <ol>
+                <li>Öncelikle arpa üretimine ait merkez açıyı bulalım: <br/>
+                <span class="math">\text{Verilen Açılar Toplamı} = 150^\circ + 90^\circ = 240^\circ</span> <br/>
+                <span class="math">\text{Arpanın Açısı} = 360^\circ - 240^\circ = 120^\circ</span></li>
+                <li>Şimdi doğru orantı kuralını işleterek ton hesabına geçelim: <br/>
+                Grafiğin tamamı (<span class="math">360^\circ</span>) 720 ton ürünü temsil ediyorsa; <span class="math">120^\circ</span>'lik arpa kaç tonu temsil eder?
+                <div class="math-block">
+                    <span class="math">360^\circ \longrightarrow 720 \text{ ton}</span> <br/>
+                    <span class="math">120^\circ \longrightarrow X \text{ ton}</span>
+                </div>
+                Açılar arasında 3 katlık bir ilişki vardır (<span class="math">360 / 120 = 3</span>). Dolayısıyla ürün miktarı da 3 kat azalacaktır:
+                <div class="math-block"><span class="math">X = \frac{720}{3} = 240 \text{ ton}</span></div>
+                </li>
+            </ol>
+            Çiftçi toplam <strong>240 ton</strong> arpa üretmiştir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Boyu 20 cm olan bir fidan dikildikten sonra doğrusal olarak uzamaktadır. Fidanın boyunun zamana göre değişimini gösteren çizgi grafiğinde, 4. ayın sonunda fidanın boyunun 36 cm olduğu görülmektedir.
+        Buna göre, dikildikten kaç ay sonra fidanın boyu 60 cm olur?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Doğrusal değişim (çizgi grafiği) mantığını kullanalım. Fidanın başlangıçtaki boyu sabittir.
+            <ul>
+                <li>İlk Boy (0. ay) = 20 cm</li>
+                <li>4. aydaki boy = 36 cm</li>
+                <li>4 ayda meydana gelen net uzama miktarı = <span class="math">36 - 20 = 16 \text{ cm}</span></li>
+            </ul>
+            Buradan fidanın 1 ayda ortalama kaç cm uzadığını (büyüme hızını) bulalım:
+            <div class="math-block"><span class="math">\text{Aylık Uzama} = \frac{16 \text{ cm}}{4 \text{ ay}} = 4 \text{ cm/ay}</span></div>
+            Bizden boyunun 60 cm olması isteniyor. Toplamda yapması gereken uzama miktarını hesaplayalım:
+            <div class="math-block"><span class="math">\text{Hedeflenen Toplam Uzama} = 60 - 20 = 40 \text{ cm}</span></div>
+            Her ay 4 cm uzadığına göre, 40 cm uzaması için geçmesi gereken süreyi (<span class="math">t</span>) bulalım:
+            <div class="math-block"><span class="math">t = \frac{\text{Toplam Uzama}}{\text{Aylık Uzama}} = \frac{40}{4} = 10 \text{ ay}</span></div>
+            Fidan dikildikten <strong>10</strong> ay sonra boyu 60 cm olur.
+        </div>
+    </div>
+
+</body>
+</html>

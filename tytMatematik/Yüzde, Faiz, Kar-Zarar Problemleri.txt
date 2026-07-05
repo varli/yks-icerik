@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Yüzde ve Kâr-Zarar Problemleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 17: Yüzde ve Kâr-Zarar Problemleri</p>
+    </div>
+
+    <p>Bir bütünün 100 eş parçaya ayrılması durumunda ifade edilen oran yapısına <strong>yüzde</strong> denir. Günlük ticari kurgularda ise maliyet, alış, satış, indirim (iskonto) ve enflasyon gibi kavramlar tamamen bu yüzde hesapları üzerine bina edilir.</p>
+
+    <h2>1. Yüzde Hesaplarının Temel Yapısı</h2>
+    <p>Bir <span class="math">A</span> sayısının yüzde <span class="math">x</span>'i bulunurken <span class="math">A \cdot \frac{x}{100}</span> formülü uygulanır. Ancak TYT problemlerinde pratiklik kazanmak adına bilinmeyen değerlere doğrudan <span class="math">100k</span> veya <span class="math">100x</span> demek rasyonel sayılarla uğraşmayı tamamen engeller.</p>
+
+    <h2>2. Kâr ve Zarar Kavramları Sözlüğü</h2>
+    <p>Ticari problemlerde denklemin yönünü tayin eden temel tanımlar ve bağıntılar şunlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kavram / Durum</th>
+                <th>Matematiksel Formülü ve Açıklaması</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Maliyet Fiyatı</strong></td>
+                <td>Ürünün alış fiyatı ile ürün için yapılan masrafların (nakliye, işçilik vb.) toplamıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Kârlı Satış Fiyatı</strong></td>
+                <td><span class="math">\text{Satış} = \text{Maliyet} + \text{Kâr}</span> <br/>Örn: %20 kârlı satış fiyatı: <span class="math">100x + 20x = 120x</span></td>
+            </tr>
+            <tr>
+                <td><strong>Zararlı Satış Fiyatı</strong></td>
+                <td><span class="math">\text{Satış} = \text{Maliyet} - \text{Zarar}</span> <br/>Örn: %30 zararlı satış fiyatı: <span class="math">100x - 30x = 70x</span></td>
+            </tr>
+            <tr>
+                <td><strong>İndirimli (İskontolu) Satış</strong></td>
+                <td>Etiket fiyatı üzerinden yapılan eksiltmedir. <span class="math">\text{Yeni Fiyat} = \text{Etiket} - \text{İndirim}</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Kâr-Zarar Neye Göre Hesaplanır?):</strong> Aksi soruda açıkça belirtilmediği sürece kâr veya zarar oranı daima <strong>Maliyet (veya Alış) Fiyatı</strong> esas alınarak hesaplanır. Etiket fiyatı üzerinden kâr hesaplanmaz! Ayrıca üst üste yapılan indirimlerde (Örn: %20 indirimin üzerine bir %10 daha), ikinci indirim <u>ilk maliyete değil, indirimli yeni fiyata</u> uygulanır.
+    </div>
+
+    <h2>3. Yaş Üzüm / Kuruma Soruları Mantığı</h2>
+    <p>Ürünlerin kurutulması, kırılması veya bozulması durumlarında toplam maliyet <u>asla değişmez</u>. Değişen şey ürünün miktarıdır. Miktar azaldığı için <strong>birim maliyet artar</strong>. Denklem daima şu eşitlik üzerinden kurulur:
+    <div class="math-block"><span class="math">\text{İlk Miktar} \cdot \text{İlk Birim Maliyet} = \text{Son Miktar} \cdot \text{Son Birim Maliyet}</span></div>
+    </p>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir satıcı bir malı %40 kârla satarken, satış fiyatı üzerinden %20 indirim yapıyor. 
+        Buna göre, satıcının son durumdaki net kâr oranı yüzde kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Malın maliyet fiyatına kolay işlem yapabilmek için <strong><span class="math">100x</span></strong> diyelim.
+            <ol>
+                <li><strong>%40 kârlı satış fiyatı (Etiket fiyatı):</strong> <br/>
+                <span class="math">100x + 40x = 140x</span> olur.</li>
+                <li><strong>Etiket fiyatı üzerinden %20 indirim yapılması:</strong> <br/>
+                İndirim miktarı <span class="math">140x</span>'in %20'si kadardır: <br/>
+                <div class="math-block"><span class="math">\text{İndirim} = 140x \cdot \frac{20}{100} = 28x</span></div>
+                New indirimli satış fiyatını bulalım: <br/>
+                <span class="math">140x - 28x = 112x</span></li>
+            </ol>
+            Son durumdaki net kârı bulmak için son satış fiyatı ile ilk maliyeti karşılaştıralım:
+            <div class="math-block"><span class="math">\text{Net Kâr} = \text{Son Satış} - \text{Maliyet} = 112x - 100x = 12x</span></div>
+            Maliyetimiz <span class="math">100x</span> olduğu için, elde edilen <span class="math">12x</span>'lik kâr doğrudan <strong>%12</strong> kâr oranına karşılık gelir.
+            Cevap <strong>%12</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Kilogramı 60 TL olan yaş sabun kurutulduğunda ağırlığının %20'sini kaybetmektedir.
+        Buna göre, kuru sabunun kilogram maliyeti kaç TL olmuştur?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Kurutma sorularındaki altın kuralımızı uygulayalım: Toplam maliyet sabit kalmalıdır.
+            <br/>Başlangıçtaki yaş sabun miktarına hesap kolaylığı için <strong>100 kg</strong> diyelim.
+            <ul>
+                <li>Yaş sabunun kg fiyatı = 60 TL</li>
+                <li>Toplam ödenen para (Maliyet) = <span class="math">100 \text{ kg} \cdot 60 \text{ TL} = 6000 \text{ TL}</span></li>
+            </ul>
+            Sabun kuruyunca ağırlığının %20'sini kaybediyor:
+            <div class="math-block"><span class="math">\text{Kuru Sabun Miktarı} = 100 - (100 \cdot \frac{20}{100}) = 80 \text{ kg}</span></div>
+            Toplam maliyet (6000 TL) değişmeyeceğine göre, yeni birim maliyete (<span class="math">F_{kuru}</span>) diyelim:
+            <div class="math-block"><span class="math">80 \cdot F_{kuru} = 6000</span></div>
+            <div class="math-block"><span class="math">F_{kuru} = \frac{6000}{80} = 75 \text{ TL}</span></div>
+            Kuru sabunun kilogram maliyeti <strong>75 TL</strong> olmuştur.
+        </div>
+    </div>
+
+</body>
+</html>

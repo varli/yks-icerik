@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Mutlak Değer</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 11: Mutlak Değer (Tanım, Özellikler, Denklem ve Eşitsizlikler)</p>
+    </div>
+
+    <p>Bir gerçek sayının sayı doğrusu üzerindeki başlangıç noktasına (orijine) olan uzaklığına o sayının <strong>mutlak değeri</strong> denir ve <span class="math">|x|</span> ile gösterilir. Uzaklık hiçbir zaman negatif olamayacağı için bir sayının mutlak değeri daima sıfıra eşit veya sıfırdan büyüktür (<span class="math">|x| &ge; 0</span>).</p>
+
+    <h2>1. Mutlak Değerin Kök Dışına Çıkarılması</h2>
+    <p>İfadeleri mutlak değer dışına çıkarırken ezbere "her şey artı çıkar" mantığı yerine <u>içinin işaret kontrolü</u> yapılmalıdır:</p>
+    
+    <div class="math-block">
+        Eğer <span class="math">x &gt; 0</span> (içerisi pozitif) ise, ifade aynen çıkar: <span class="math">|x| = x</span> <br/>
+        Eğer <span class="math">x = 0</span> ise: <span class="math">|x| = 0</span> <br/>
+        Eğer <span class="math">x &lt; 0</span> (içerisi negatif) ise, ifade önüne eksi alarak çıkar: <span class="math">|x| = -x</span>
+    </div>
+
+    <div class="tip-box">
+        <strong>⚠️ Kritik Hatayı Önleme:</strong> <span class="math">x &lt; 0</span> olduğunda dışarı <span class="math">-x</span> olarak çıkması sayının negatif olduğu anlamına gelmez. <span class="math">x</span>'in kendisi zaten negatif bir sayı olduğundan (örn: -5), önüne aldğı <span class="math">-</span> işareti onu pozitif yapar (<span class="math">-(-5) = +5</span>).
+    </div>
+
+    <h2>2. Mutlak Değerin Temel Özellikleri</h2>
+    <ul>
+        <li>Zıt işaretli sayıların mutlak değerleri eşittir: <span class="math">|x| = |-x|</span> &nbsp;ve&nbsp; <span class="math">|x - y| = |y - x|</span></li>
+        <li>Çarpım durumundaki ifadeler ayrı ayrı yazılabilir: <span class="math">|x \cdot y| = |x| \cdot |y|</span></li>
+        <li>Bölüm durumundaki ifadeler payda sıfır olmamak şartıyla ayrılabilir: <span class="math">|\frac{x}{y}| = \frac{|x|}{|y|}</span></li>
+        <li>Kuvvet (üs) mutlak değerin dışına taşınabilir: <span class="math">|x^n| = |x|^n</span></li>
+    </ul>
+
+    <h2>3. Mutlak Değerli Denklemler ve Eşitsizlikler</h2>
+    <p><span class="math">a</span> pozitif bir gerçek sayı olmak üzere, çözüm kalıpları tablodaki gibidir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Yapı Türü</th>
+                <th>Açılım Formülü ve Çözüm Yolu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong><span class="math">|x| = a</span> Denklemi</strong></td>
+                <td>İçerideki ifade bir artılısına bir eksilisine eşitlenir: <br/><span class="math">x = a</span> &nbsp;veya&nbsp; <span class="math">x = -a</span></td>
+            </tr>
+            <tr>
+                <td><strong><span class="math">|x| = |y|</span> Denklemi</strong></td>
+                <td>İki mutlak değer birbirine eşitse: <br/><span class="math">x = y</span> &nbsp;veya&nbsp; <span class="math">x = -y</span> şeklinde çözülür.</td>
+            </tr>
+            <tr>
+                <td><strong><span class="math">|x| &le; a</span> Eşitsizliği</strong></td>
+                <td>Mutlak değer kaldırılır ve ifade eksili ile artılı sınır arasına sıkıştırılır: <br/><div class="math-block"><span class="math">-a &le; x &le; a</span></div></td>
+            </tr>
+            <tr>
+                <td><strong><span class="math">|x| &ge; a</span> Eşitsizliği</strong></td>
+                <td>Eşitsizlik iki ayrı parça halinde çözülür: <br/><span class="math">x &ge; a</span> &nbsp;veya&nbsp; <span class="math">x &le; -a</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> <span class="math">x &lt; 0 &lt; y</span> olduğuna göre,
+        <div class="math-block"><span class="math">|x - y| + |2x| - |y|</span></div>
+        ifadesinin eşiti nedir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Mutlak değerlerin içlerinin işaretlerini tek tek analiz ederek dışarı çıkaralım:
+            <ol>
+                <li><strong><span class="math">|x - y|</span> terimi:</strong> <span class="math">x</span> negatif, <span class="math">y</span> pozitiftir. Küçük sayıdan büyük sayı çıkarıldığı için <span class="math">x - y</span> ifadesinin içi kesinlikle <u>negatiftir</u>. Dışarı çıkarken önüne eksi (-) alır: <span class="math">-(x - y) = -x + y</span>.</li>
+                <li><strong><span class="math">|2x|</span> terimi:</strong> <span class="math">x</span> negatif olduğu için <span class="math">2x</span> ifadesinin içi de <u>negatiftir</u>. Dışarı çıkarken önüne eksi (-) alır: <span class="math">-2x</span>.</li>
+                <li><strong><span class="math">|y|</span> terimi:</strong> <span class="math">y</span> pozitif olduğu için içi <u>pozitiftir</u>. Olduğu gibi aynen çıkar: <span class="math">y</span>.</li>
+            </ol>
+            Şimdi bulduğumuz bu değerleri ana işlemde yerlerine yerleştirelim (aradaki işlem işaretlerine dikkat ederek):
+            <div class="math-block"><span class="math">(-x + y) + (-2x) - (y)</span></div>
+            Parantezleri kaldırıp benzer terimleri toplayalım:
+            <div class="math-block"><span class="math">-x + y - 2x - y = -3x</span></div>
+            <span class="math">+y</span> ve <span class="math">-y</span> birbirini sıfırlar. Geriye <strong>-3x</strong> kalır.
+            Cevap <strong>-3x</strong>'tir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <div class="math-block"><span class="math">|2x - 4| &le; 6</span></div>
+        eşitsizliğini sağlayan <span class="math">x</span> tam sayı değerlerinin toplamı kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Küçüktür/Küçük-eşittir biçimindeki mutlak değerli eşitsizlik kalıbını uygulayalım. İfadeyi sağdaki sayının eksilisi ile artılısı arasına sıkıştırıyoruz:
+            <div class="math-block"><span class="math">-6 &le; 2x - 4 &le; 6</span></div>
+            Ortadaki <span class="math">x</span>'i yalnız bırakmak için tüm taraflara <span class="math">+4</span> ekleyelim:
+            <div class="math-block"><span class="math">-6 + 4 &le; 2x &le; 6 + 4</span></div>
+            <div class="math-block"><span class="math">-2 &le; 2x &le; 10</span></div>
+            Şimdi her tarafı 2'ye bölelim (2 pozitif sayı olduğu için yön değişmez):
+            <div class="math-block"><span class="math">-1 &le; x &le; 5</span></div>
+            Bu aralıktaki <span class="math">x</span> tam sayıları şunlardır: <span class="math">\{-1, 0, 1, 2, 3, 4, 5\}</span>.
+            <br/>Bu değerlerin toplamını hesaplayalım:
+            <div class="math-block"><span class="math">(-1) + 0 + 1 + 2 + 3 + 4 + 5 = 14</span></div>
+            <span class="math">-1</span> ve <span class="math">+1</span> birbirini sıfırlar, kalanların toplamı <strong>14</strong> olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

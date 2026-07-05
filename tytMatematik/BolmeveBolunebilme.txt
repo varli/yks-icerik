@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Bölme ve Bölünebilme</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 3: Bölme ve Bölünebilme Kuralları</p>
+    </div>
+
+    <p>Bölme işlemi, bir bütünün eşit parçalara ayrılmasını ifade eden temel matematiksel süreçtir. Bölünebilme kuralları ise bir sayıyı uzun uzun bölme işlemine tabi tutmadan, belirli matematiksel pratiklerle kalanı veya tam bölünüp bölünmediğini bulmamızı sağlar.</p>
+
+    <h2>1. Bölme İşleminin Temel Bileşenleri</h2>
+    <p><span class="math">A, B, C, K</span> birer tam sayı ve <span class="math">B &ne; 0</span> olmak üzere, bir bölme işleminde <span class="math">A</span> bölünen, <span class="math">B</span> bölen, <span class="math">C</span> bölüm ve <span class="math">K</span> kalandır. Bu süreç iki altın kural ile ayakta durur:</p>
+    
+    <ul>
+        <li><strong>Bölme Özdeşliği:</strong> <span class="math">A = B &times; C + K</span></li>
+        <li><strong>Kalan Şartı:</strong> <span class="math">0 &le; K &lt; B</span> (Kalan hiçbir zaman negatif olamaz ve bölenden her zaman küçük olmak zorundadır. Eğer <span class="math">K = 0</span> ise <span class="math">A</span> sayısı <span class="math">B</span>'ye tam bölünüyor denir.)</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu:</strong> Eğer bir soruda <span class="math">K &lt; C</span> şartı da sağlanıyorsa, bölen (<span class="math">B</span>) ile bölüm (<span class="math">C</span>) yer değiştirebilir; bu durum kalan değerini (<span class="math">K</span>) asla etkilemez.
+    </div>
+
+    <h2>2. Temel Bölünebilme Kuralları</h2>
+    <p>Sorularda karmaşık kurallara geçmeden önce sayıların son basamaklarını veya rakam toplamlarını ilgilendiren temel kuralları sırasıyla çalıştırmalıyız:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Bölen</th>
+                <th>Kuralın Tanımı ve Uygulanışı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>2 ile Bölünme</strong></td>
+                <td>Sayının son basamağı çift (<span class="math">0, 2, 4, 6, 8</span>) olmalıdır. Kalan, son basamağın 2'ye bölümünden elde edilir.</td>
+            </tr>
+            <tr>
+                <td><strong>3 ile Bölünme</strong></td>
+                <td>Sayının rakamları toplamı 3 veya 3'ün katı olmalıdır. Kalan, rakamlar toplamının 3'e bölümüyle bulunur.</td>
+            </tr>
+            <tr>
+                <td><strong>4 ile Bölünme</strong></td>
+                <td>Sayının son iki basamağının oluşturduğu sayı 00 veya 4'ün katı olmalıdır. (<span class="math">12, 24, 40</span> vb.)</td>
+            </tr>
+            <tr>
+                <td><strong>5 ile Bölünme</strong></td>
+                <td>Sayının son basamağı <span class="math">0</span> veya <span class="math">5</span> olmalıdır. Son basamak <span class="math">5</span>'ten küçükse kalan kendisi, büyükse 5 eksiğidir.</td>
+            </tr>
+            <tr>
+                <td><strong>8 ile Bölünme</strong></td>
+                <td>Sayının son üç basamağının oluşturduğu sayı 000 veya 8'in katı olmalıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>9 ile Bölünme</strong></td>
+                <td>Sayının rakamları toplamı 9 veya 9'ün katı olmalıdır. Mantığı 3 ile bölünme kuralına benzer.</td>
+            </tr>
+            <tr>
+                <td><strong>10 ile Bölünme</strong></td>
+                <td>Sayının son basamağı <span class="math">0</span> olmalıdır. Sayının son basamağındaki rakam direkt olarak 10'a bölümünden kalandır.</td>
+            </tr>
+            <tr>
+                <td><strong>11 ile Bölünme</strong></td>
+                <td>Sayının basamakları sağdan sola doğru <span class="math">(+, -, +, -, ...)</span> şeklinde işaretlenerek toplanır. Sonuç 0 veya 11'in katı olmalıdır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Aralarında Asal Çarpanlara Ayırarak Bölünme</h2>
+    <p>Büyük ve özel bir kuralı olmayan sayılarla (<span class="math">12, 15, 18, 36, 45</span> vb.) bölünebilme incelenirken, sayı <u>aralarında asal</u> iki çarpanına ayrılır. Sayının bu iki çarpana da ayrı ayrı tam bölünmesi gerekir:</p>
+    <ul>
+        <li><span class="math">12</span> ile bölünme &rarr; Hem <span class="math">3</span> hem de <span class="math">4</span> ile tam bölünmelidir.</li>
+        <li><span class="math">36</span> ile bölünme &rarr; Hem <span class="math">4</span> hem de <span class="math">9</span> ile tam bölünmelidir.</li>
+        <li><span class="math">45</span> ile bölünme &rarr; Hem <span class="math">5</span> hem de <span class="math">9</span> ile tam bölünmelidir.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Rakamları birbirinden farklı dört basamaklı <span class="math">5A7B</span> sayısı 5 ile kalansız bölünebilen bir çift sayıdır. 
+        Buna göre, bu sayının 3 ile tam bölünebilmesi için <span class="math">A</span> yerine yazılabilecek rakamların toplamı kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            İlk olarak sayının son basamağını kilitleyen kuraldan, yani 5 ile bölünmeden başlayalım:
+            <br/>Sayının 5 ile tam bölünebilmesi için son basamağı <span class="math">B = 0</span> veya <span class="math">B = 5</span> olmalıdır.
+            <br/>Soruda sayının <strong>çift sayı</strong> olduğu belirtildiği için <span class="math">B = 5</span> olamaz. Dolayısıyla kesinlikle <span class="math">B = 0</span>'dır.
+            <br/>Sayı yeni haliyle: <span class="math">5A70</span> oldu.
+            <br/><br/>Şimdi 3 ile bölünme kuralını uygulayalım. Rakamlar toplamı 3'ün katı olmalıdır:
+            <div class="math-block"><span class="math">5 + A + 7 + 0 = 12 + A &rarr; 3'ün katı</span></div>
+            <span class="math">12</span> zaten 3'ün katı olduğu için <span class="math">A</span> yerine 3'ün katı olan rakamlar gelebilir: <span class="math">A = {0, 3, 6, 9}</span>.
+            <br/><strong>Krit

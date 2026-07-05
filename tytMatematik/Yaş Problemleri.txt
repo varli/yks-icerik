@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Yaş Problemleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 14: Yaş Problemleri</p>
+    </div>
+
+    <p>Yaş problemleri çözülürken kişilerin bugünkü yaşları temel değişken olarak alınır. Soruda verilen zaman geçişleri (geçmişe gitme veya geleceğe gitme) doğrusal bir şekilde tüm kişilere uygulanarak denklemler kurulur.</p>
+
+    <h2>1. Yaş Problemlerinin Altın Kuralları</h2>
+    <p>Sorularda hata yapmamak için zamanın akışına dair şu evrensel kurallar asla unutulmamalıdır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kavram / Durum</th>
+                <th>Matematiksel Karşılığı ve Kuralı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Zaman Geçişi (Tek Kişi)</strong></td>
+                <td>Bir kişinin bugünkü yaşı <span class="math">x</span> ise; <span class="math">t</span> yıl sonraki yaşı <span class="math">x + t</span>, <span class="math">t</span> yıl önceki yaşı <span class="math">x - t</span> olur.</td>
+            </tr>
+            <tr>
+                <td><strong>Doğum Yılı İlişkisi</strong></td>
+                <td>Bir kişinin doğum yılı küçüldükçe (daha önce doğdukça) yaşı <strong>büyür</strong>; doğum yılı büyüdükçe (daha geç doğdukça) yaşı <strong>küçülür</strong>.</td>
+            </tr>
+            <tr>
+                <td><strong>Yaş Farkı Sabitliği</strong></td>
+                <td>İki kişi arasındaki yaş farkı zamanla <strong>asla değişmez</strong>. <span class="math">t</span> yıl sonra da <span class="math">t</span> yıl önce de yaş farkı aynıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Grup Yaş Toplamı</strong></td>
+                <td><span class="math">n</span> kişilik bir grubun bugünkü yaş toplamı <span class="math">T</span> ise, <span class="math">t</span> yıl sonraki yaş toplamı <span class="math">T + n \cdot t</span> olur. (Herkes <span class="math">t</span> yıl yaşlanır).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Tablo Kurma Stratejisi):</strong> "Ben senin yaşındayken", "Sen benim yaşıma geldiğinde" gibi karmaşık geçiş ifadeleri içeren sorularda mutlaka isimlerin ve zamanların (Bugün, Geçmiş, Gelecek) yer aldığı bir tablo kurun. İki zaman dilimi arasında kişilerin yaşlarında meydana gelen <u>değişim miktarlarını (yıl farkını)</u> birbirine eşitleyerek denklemi çözün.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir babanın yaşı, iki çocuğunun yaşları toplamının 3 katından 2 fazladır. 4 yıl sonra babanın yaşı, çocuklarının yaşları toplamının 2 katından 6 fazla olacağına göre, babanın bugünkü yaşı kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Değişkenlerimizi belirleyelim ve iki çocuk için grup kuralını uygulayalım:
+            <br/>İki çocuğun bugünkü yaşları toplamına <span class="math">x</span> diyelim.
+            <br/>Babanın bugünkü yaşı: <span class="math">3x + 2</span> olur.
+            <br/><br/>
+            <strong>4 yıl sonraki durumu inceleyelim:</strong>
+            <ul>
+                <li>Babanın yaşı 4 artar: <span class="math">(3x + 2) + 4 = 3x + 6</span></li>
+                <li>İki çocuğun yaşları toplamı, 2 çocuk olduğu için <span class="math">2 \cdot 4 = 8</span> artar: <span class="math">x + 8</span></li>
+            </ul>
+            4 yıl sonraki ilişkiyi denklem haline getirelim: "Babanın yaşı = Çocukların toplamının 2 katından 6 fazla"
+            <div class="math-block"><span class="math">3x + 6 = 2 \cdot (x + 8) + 6</span></div>
+            Eşitliğin her iki tarafındaki <span class="math">+6</span>'ları sadeleştirelim ve parantezi dağıtalım:
+            <div class="math-block"><span class="math">3x = 2x + 16</span></div>
+            <div class="math-block"><span class="math">3x - 2x = 16 \rightarrow x = 16</span> (Çocukların bugünkü yaş toplamı)</div>
+            Bizden babanın bugünkü yaşı istenmişti:
+            <div class="math-block"><span class="math">\text{Baba} = 3x + 2 = 3 \cdot (16) + 2 = 48 + 2 = 50</span></div>
+            Babanın bugünkü yaşı <strong>50</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Alper ile Betül'ün yaşları ile ilgili aşağıdakiler bilinmektedir:
+        <ul>
+            <li>Betül'ün bugünkü yaşı, Alper'in bugünkü yaşının 2 katıdır.</li>
+            <li>Alper, Betül'ün bugünkü yaşına geldiğinde ikisinin yaşları toplamı 40 olacaktır.</li>
+        </ul>
+        Buna göre, Alper'in bugünkü yaşı kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Hemen küçük bir tablo kuralım:
+            <br/>Alper'in bugünkü yaşına <span class="math">a</span> dersek, Betül'ün bugünkü yaşı <span class="math">2a</span> olur.
+            <br/><br/>
+            <strong>Gelecekteki durum:</strong> Alper, Betül'ün bugünkü yaşına (yani <span class="math">2a</span> yaşına) gelecektir.
+            <br/>Alper'in <span class="math">a</span> yaşından <span class="math">2a</span> yaşına gelmesi için aradan <span class="math">2a - a = a</span> yıl geçmesi gerekir.
+            <br/>Aynı <span class="math">a</span> yılı Betül için de geçeceğinden, Betül'ün gelecekteki yaşı: <span class="math">2a + a = 3a</span> olur.
+            <br/><br/>
+            Gelecekteki yaşlarının toplamı 40 olarak verilmiştir:
+            <div class="math-block"><span class="math">\text{Alper (Gelecek)} + \text{Betül (Gelecek)} = 40</span></div>
+            <div class="math-block"><span class="math">2a + 3a = 40</span></div>
+            <div class="math-block"><span class="math">5a = 40 \rightarrow a = 8</span></div>
+            <span class="math">a</span> Alper'in bugünkü yaşı olduğuna göre, Alper <strong>8</strong> yaşındadır.
+        </div>
+    </div>
+
+</body>
+</html>

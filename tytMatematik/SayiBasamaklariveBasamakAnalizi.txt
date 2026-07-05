@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Sayı Basamakları</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 2: Sayı Basamakları ve Basamak Analizi</p>
+    </div>
+
+    <p>Günlük hayatta kullandığımız onluk sayı sisteminde (<span class="math">0, 1, 2, ..., 9</span> rakamları ile), bir rakamın bulunduğu konuma göre kazandığı değere <strong>basamak değeri</strong> denir. TYT'de bu konu genellikle harfli ifadelerin birbirine oranlanması veya yeni nesil sayı bulmacaları (kriptoloji/kodlama kurguları) şeklinde karşımıza çıkar.</p>
+
+    <h2>1. Basamak Analizi (Çözümleme)</h2>
+    <p>Çözümleme yaparken, sayıyı oluşturan rakamlar bulundukları basamağın çarpanı ile ağırlıklandırılarak toplanır. <span class="math">a, b, c, d</span> birer rakam olmak üzere:</p>
+    
+    <ul>
+        <li>İki basamaklı <span class="math">ab</span> sayısı: <div class="math-block"><span class="math">ab = 10a + b</span></div></li>
+        <li>Üç basamaklı <span class="math">abc</span> sayısı: <div class="math-block"><span class="math">abc = 100a + 10b + c</span></div></li>
+        <li>Dört basamaklı <span class="math">abcd</span> sayısı: <div class="math-block"><span class="math">abcd = 1000a + 100b + 10c + d</span></div></li>
+    </ul>
+
+    <h3>Pratik Blok Çözümleme Yöntemi:</h3>
+    <p>Büyük sayıları tamamen tek tek parçalamak yerine soru kalıbına göre gruplayarak çözmek zaman kazandırır. Örneğin:</p>
+    <ul>
+        <li><span class="math">abc</span> sayısı <span class="math">ab</span> cinsinden: <span class="math">abc = 10 &times; ab + c</span> şeklinde yazılabilir.</li>
+        <li><span class="math">abab</span> dört basamaklı sayısı: <span class="math">abab = 100 &times; ab + ab = 101 &times; ab</span> olarak hızlıca düzenlenebilir.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Sıfır Tuzağı):</strong> Soruda "iki basamaklı <span class="math">ab</span> sayısı" denildiği an, <span class="math">a</span> rakamının <strong>0 (sıfır) olamayacağı</strong> otomatik olarak kabul edilir (<span class="math">a &ne; 0</span>). Ancak <span class="math">b</span> rakamı sıfır olabilir. Üç basamaklı <span class="math">abc</span> sayısında ise <span class="math">a &ne; 0</span> şartı aranırken <span class="math">b</span> veya <span class="math">c</span> sıfır değerini alabilir.
+    </div>
+
+    <h2>2. Sık Karşılaşılan Kalıplar ve Farklar</h2>
+    <p>Sorularda harflerin yer değiştirmesiyle oluşan farklar sıklıkla sadeleşen sabit katsayılar üretir. Bu katsayıları ezberlemek yerine mantığını kavramak önemlidir:</p>
+    <ul>
+        <li><span class="math">ab + ba = (10a + b) + (10b + a) = 11a + 11b = 11(a + b)</span> (11'in katıdır)</li>
+        <li><span class="math">ab - ba = (10a + b) - (10b + a) = 9a - 9b = 9(a - b)</span> (9'un katıdır)</li>
+        <li><span class="math">abc - cba = (100a + 10b + c) - (100c + 10b + a) = 99a - 99c = 99(a - c)</span> (99'un katıdır ve ortadaki <span class="math">b</span> basamağı birbirini yok eder)</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> İki basamaklı <span class="math">ab</span> sayısı, rakamları toplamının 4 katına eşittir.
+        Buna göre, bu şartı sağlayan <span class="math">ab</span> sayılarının toplamı kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Soruda verilen sözel ifadeyi matematiksel denkleme dökelim:
+            <div class="math-block"><span class="math">ab = 4 &times; (a + b)</span></div>
+            Sol taraftaki <span class="math">ab</span> iki basamaklı sayısını çözümleyelim:
+            <div class="math-block"><span class="math">10a + b = 4a + 4b</span></div>
+            Benzer terimleri eşitliğin aynı tarafında toplayalım (<span class="math">4a</span>'yı sola, <span class="math">b</span>'yi sağa atalım):
+            <div class="math-block"><span class="math">10a - 4a = 4b - b &rarr; 6a = 3b</span></div>
+            Her iki tarafı 3 ile sadeleştirirsek ilişkiyi buluruz:
+            <div class="math-block"><span class="math">2a = b</span></div>
+            <span class="math">a</span> ve <span class="math">b</span> birer rakam olmak zorundadır ve <span class="math">ab</span> iki basamaklı olduğu için <span class="math">a &ne; 0</span> olmalıdır:
+            <ul>
+                <li><span class="math">a = 1</span> için <span class="math">b = 2</span> &rarr; Sayı: <strong>12</strong></li>
+                <li><span class="math">a = 2</span> için <span class="math">b = 4</span> &rarr; Sayı: <strong>24</strong></li>
+                <li><span class="math">a = 3</span> için <span class="math">b = 6</span> &rarr; Sayı: <strong>36</strong></li>
+                <li><span class="math">a = 4</span> için <span class="math">b = 8</span> &rarr; Sayı: <strong>48</strong></li>
+            </ul>
+            <span class="math">a = 5</span> için <span class="math">b = 10</span> olur fakat 10 bir rakam olmadığından burada durulur. Sağlayan sayıların toplamı: <span class="math">12 + 24 + 36 + 48 = 120</span> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2 [Yeni Nesil]:</strong> Üç basamaklı <span class="math">ABC</span> sayısının yüzler basamağındaki rakam 3 artırılıp, onlar basamağındaki rakam 4 azaltılıp, birler basamağındaki rakam 2 artırılıyor.
+        Buna göre, bu <span class="math">ABC</span> sayısının değeri ilk durumuna göre nasıl değişir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Bu tür değişim sorularında her basamağın kendi ağırlığı (basamak değeri) ile çarpılarak işlem yapılması en pratik yoldur. Sayıya değer vermek yerine net değişimi hesaplayalım:
+            <ul>
+                <li><strong>Yüzler basamağı 3 artırılırsa:</strong> Sayının değeri <span class="math">+ 3 &times; 100 = +300</span> değişir.</li>
+                <li><strong>Onlar basamağı 4 azaltılırsa:</strong> Sayının değeri <span class="math">- 4 &times; 10 = -40</span> değişir.</li>
+                <li><strong>Birler basamağı 2 artırılısa:</strong> Sayının değeri <span class="math">+ 2 &times; 1 = +2</span> değişir.</li>
+            </ul>
+            Toplam net değişimi bulmak için bu etkileri toplayalım:
+            <div class="math-block"><span class="math">Net Değişim = +300 - 40 + 2 = +262</span></div>
+            Sonuç pozitif çıktığı için, sayının değeri <strong>262 artar</strong>.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Oran Orantı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 12: Oran - Orantı (Kavramlar, Çeşitler ve Ortalamalar)</p>
+    </div>
+
+    <p>Aynı birimden iki çokluğun birbirine bölünerek karşılaştırılmasına <strong>oran</strong> denir. En az iki oranının birbirine eşitlenmesiyle oluşan matematiksel eşitliğe ise <strong>orantı</strong> adı verilir. <span class="math">a/b = c/d = k</span> ifadesinde <span class="math">k</span> harfi <strong>orantı sabiti</strong> olarak adlandırılır ve çözümlerin anahtarıdır.</p>
+
+    <h2>1. Orantının Altın Özellikleri</h2>
+    <ul>
+        <li><strong>İçler-Dışlar Çarpımı:</strong> Bir orantıda içteki terimlerin çarpımı, dıştaki terimlerin çarpımına daima eşittir. <span class="math">\frac{a}{b} = \frac{c}{d} \rightarrow a \cdot d = b \cdot c</span></li>
+        <li><strong>Pay ve Paydaları Toplama:</strong> Bir orantıda paylar kendi arasında, paydalar kendi arasında toplanırsa orantı sabiti <u>kesinlikle değişmez</u>. <br/><div class="math-block"><span class="math">\frac{a}{b} = \frac{c}{d} = k \rightarrow \frac{a + c}{b + d} = k</span></div></li>
+        <li><strong>Genişletilmiş Toplama:</strong> Oranlar herhangi bir <span class="math">m</span> ve <span class="math">n</span> sayılarıyla genişletilip toplansa da sabit korunur: <span class="math">\frac{m \cdot a + n \cdot c}{m \cdot b + n \cdot d} = k</span></li>
+    </ul>
+
+    <h2>2. Orantı Çeşitleri</h2>
+    <p>Yeni nesil TYT problemlerinin hikayesini anlamak ve denklemi doğru kurabilmek için çoklukların birbiriyle ilişkisini doğru saptamak gerekir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Orantı Türü</th>
+                <th>Sözel Tanımı ve Değişim Durumu</th>
+                <th>Matematiksel Formu ve Grafiksel Karşılığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Doğru Orantı (DO)</strong></td>
+                <td>İki çokluktan biri artarken diğeri de aynı oranda artıyor, ya da biri azalırken diğeri de aynı oranda azalıyorsa.</td>
+                <td>Çokluklar <u>bölüm</u> durumundadır: <br/><span class="math">y / x = k</span> &nbsp;veya&nbsp; <span class="math">y = k \cdot x</span></td>
+            </tr>
+            <tr>
+                <td><strong>Ters Orantı (TO)</strong></td>
+                <td>İki çokluktan biri artarken diğeri aynı oranda azalıyor, ya da biri azalırken diğeri aynı oranda artıyorsa.</td>
+                <td>Çokluklar <u>çarpım</u> durumundadır: <br/><span class="math">x \cdot y = k</span> &nbsp;veya&nbsp; <span class="math">y = k / x</span></td>
+            </tr>
+            <tr>
+                <td><strong>Bileşik Orantı</strong></td>
+                <td>İçinde hem doğru hem de ters orantı barındıran üçlü yapılardır.</td>
+                <td><span class="math">y</span> sayısı <span class="math">x</span> ile doğru, <span class="math">z</span> ile ters orantılı ise: <br/><div class="math-block"><span class="math">\frac{y \cdot z}{x} = k</span></div></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>🧱 İşçi / Dişli / Çark Mantığı:</strong> Problemlerde doğru/ters ayrımına dikkat edilmelidir. Örneğin; işçi sayısı arttıkça işin bitme süresi <u>azalır</u> (Ters Orantı). Bir çarktaki diş sayısı arttıkça dönme (tur) sayısı <u>azalır</u> (Ters Orantı). Bir traktörün ön tekerleği (küçük) arka tekerleğine (büyük) göre <u>daha çok tur</u> atar.
+    </div>
+
+    <h2>3. Ortalama Çeşitleri</h2>
+    <ul>
+        <li><strong>Aritmetik Ortalama (AO):</strong> Verilerin toplamının, veri adedine bölünmesiyle bulunur. <span class="math">AO = \frac{x_1 + x_2 + ... + x_n}{n}</span></li>
+        <li><strong>Geometrik Ortalama (GO):</strong> <span class="math">n</span> adet verinin çarpımının <span class="math">n</span>. dereceden kökünün alınmasıyla elde edilir. <br/>İki sayı için: <span class="math">GO = \sqrt{a \cdot b}</span> &nbsp; | &nbsp; Üç sayı için: <span class="math">GO = \sqrt[3]{a \cdot b \cdot c}</span></li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir miktar bilye 3, 4 ve 5 yaşlarındaki üç çocuğa yaşları ile <u>doğru orantılı</u> olarak paylaştırıldığında en çok bilye alan çocuk 25 bilye alıyor. 
+        Buna göre, toplam paylaştırılan bilye sayısı kaçtır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Çocukların aldıkları bilye sayılarına sırasıyla <span class="math">a, b</span> ve <span class="math">c</span> diyelim. Yaşları ile doğru orantılı paylaştıkları için oranları kurup orantı sabiti olan <span class="math">k</span>'ye eşitleyelim:
+            <div class="math-block"><span class="math">\frac{a}{3} = \frac{b}{4} = \frac{c}{5} = k</span></div>
+            Buradan çocukların aldığı bilye miktarlarını <span class="math">k</span> cinsinden buluruz:
+            <ul>
+                <li>3 yaşındaki çocuk: <span class="math">a = 3k</span></li>
+                <li>4 yaşındaki çocuk: <span class="math">b = 4k</span></li>
+                <li>5 yaşındaki çocuk: <span class="math">c = 5k</span> (En büyük yaşta olan en çok bilyeyi alır)</li>
+            </ul>
+            En çok bilye alan çocuğun 25 bilye aldığı söylenmişti:
+            <div class="math-block"><span class="math">5k = 25 \rightarrow k = 5</span></div>
+            Şimdi toplam bilye sayısını <span class="math">k</span> cinsinden ifade edip nihai sonuca ulaşalım:
+            <div class="math-block"><span class="math">\text{Toplam Bilye} = a + b + c = 3k + 4k + 5k = 12k</span></div>
+            <div class="math-block"><span class="math">\text{Toplam Bilye} = 12 \cdot 5 = 60</span></div>
+            Toplam paylaştırılan bilye sayısı <strong>60</strong>'tır.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Toplamları 26 olan iki pozitif tam sayının aritmetik ortalaması, geometrik ortalamasından 1 fazladır.
+        Buna göre, bu iki sayının farkının mutlak değeri kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Sayılarımıza <span class="math">x</span> ve <span class="math">y</span> diyelim. Verilen bilgileri matematiksel denklemlere dökelim:
+            <ol>
+                <li>Sayıların toplamı: <span class="math">x + y = 26</span></li>
+                <li>Aritmetik Ortalama: <span class="math">AO = \frac{x + y}{2} = \frac{26}{2} = 13</span></li>
+                <li>Geometrik Ortalama: <span class="math">GO = \sqrt{x \cdot y}</span></li>
+            </ol>
+            Soruda "Aritmetik ortalama, geometrik ortalamadan 1 fazladır" denmişti:
+            <div class="math-block"><span class="math">AO = GO + 1 \rightarrow 13 = \sqrt{x \cdot y} + 1</span></div>
+            <div class="math-block"><span class="math">\sqrt{x \cdot y} = 12</span></div>
+            Kökten kurtulmak için her iki tarafın karesini alalım:
+            <div class="math-block"><span class="math">x \cdot y = 144</span></div>
+            Şimdi elimizde <span class="math">x + y = 26</span> ve <span class="math">x \cdot y = 144</span> var. Çarpanlara ayırma ünitesindeki tam kare özdeşliğini hatırlayalım:
+            <div class="math-block"><span class="math">(x - y)^2 = (x + y)^2 - 4xy</span></div>
+            Değerleri yerine yerleştirelim:
+            <div class="math-block"><span class="math">(x - y)^2 = (26)^2 - 4 \cdot 144</span></div>
+            <div class="math-block"><span class="math">(x - y)^2 = 676 - 576 = 100</span></div>
+            Her iki tarafın karekökünü aldığımızda mutlak değerli farka ulaşırız:
+            <div class="math-block"><span class="math">|x - y| = \sqrt{100} = 10</span></div>
+            Bu iki sayının farkının mutlak değeri <strong>10</strong>'dur.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Kümeler ve Kartezyen Çarpım</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 21: Kümeler ve Kartezyen Çarpım</p>
+    </div>
+
+    <p>İyi tanımlanmış, birbirinden farklı nesneler topluluğuna <strong>küme</strong> denir. Kümenin içerisindeki her bir nesneye kümenin elemanı adı verilir ve <span class="math">a \in A</span> şeklinde gösterilir. Kümenin eleman sayısı ise <span class="math">s(A)</span> sembolüyle ifade edilir.</p>
+
+    <h2>1. Alt Küme Kavramı ve Özellikleri</h2>
+    <p>Bir <span class="math">A</span> kümesinin her elemanı, aynı zamanda bir <span class="math">B</span> kümesinin de elemanı oluyorsa <span class="math">A</span> kümesine <span class="math">B</span> kümesinin <strong>alt kümesi</strong> denir ve <span class="math">A \subseteq B</span> şeklinde gösterilir.</p>
+    <ul>
+        <li>Eleman sayısı <span class="math">n</span> olan bir kümenin alt küme sayısı: <span class="math">2^n</span> formülüyle hesaplanır.</li>
+        <li>Kendisi hariç alt kümelerinin sayısına (Özaltı küme sayısı): <span class="math">2^n - 1</span> denir.</li>
+        <li>Boş küme (<span class="math">\emptyset</span>), her kümenin alt kümesidir (<span class="math">\emptyset \subseteq A</span>).</li>
+        <li>Her küme, kendisinin bir alt kümesidir (<span class="math">A \subseteq A</span>).</li>
+        <li>Eleman sayısı <span class="math">n</span> olan bir kümenin <span class="math">r</span> elemanlı alt kümelerinin sayısı kombinasyon ile bulunur: <span class="math">C(n, r) = \frac{n!}{(n-r)! \cdot r!}</span></li>
+    </ul>
+
+    <h2>2. Küme İşlemleri ve Sembolleri</h2>
+    <p>Sorularda şemaları doğru boyayabilmek ve problem denklemlerini kurabilmek için işlemleri iyi bilmek gerekir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>İşlem Adı ve Sembolü</th>
+                <th>Sözel Karşılığı / Anlamı</th>
+                <th>En Kritik Küme Özelliği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Birleşim (<span class="math">A \cup B</span>)</strong></td>
+                <td><span class="math">A</span> veya <span class="math">B</span> kümesindeki tüm elemanların oluşturduğu kümedir.</td>
+                <td><span class="math">s(A \cup B) = s(A) + s(B) - s(A \cap B)</span></td>
+            </tr>
+            <tr>
+                <td><strong>Kesişim (<span class="math">A \cap B</span>)</strong></td>
+                <td>Hem <span class="math">A</span> hem de <span class="math">B</span> kümesinde bulunan ortak elemanların kümesidir.</td>
+                <td>Eğer <span class="math">A \cap B = \emptyset</span> ise bu kümelere <strong>Ayrık Kümeler</strong> denir.</td>
+            </tr>
+            <tr>
+                <td><strong>Fark (<span class="math">A \setminus B</span> veya <span class="math">A - B</span>)</strong></td>
+                <td><span class="math">A</span> kümesinde olup, <span class="math">B</span> kümesinde <u>olmayan</u> elemanların kümesidir.</td>
+                <td><span class="math">A - B = A \cap B'</span> (Sembolik mantık dönüştürmelerinde sık kullanılır)</td>
+            </tr>
+            <tr>
+                <td><strong>Tümleyen (<span class="math">A'</span>)</strong></td>
+                <td>Evrensel kümede (<span class="math">E</span>) olup <span class="math">A</span> kümesinde olmayan dışarıdaki elemanlardır.</td>
+                <td><span class="math">s(A) + s(A') = s(E)</span> &nbsp; | &nbsp; <strong>De Morgan:</strong> <span class="math">(A \cup B)' = A' \cap B'</span></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Kümelerde Eleman Yazım Tuzağı):</strong> Liste yöntemi ile verilen kümelerde süslü parantez içerisindeki virgüller elemanları ayırır. Parantez içindeki bir parantez tek bir eleman sayılır. <br/>
+        Örneğin; <span class="math">A = \{1, 2, \{3, 4\}\}</span> kümesinin eleman sayısı <span class="math">s(A) = 3</span>'tür. Burada <span class="math">1 \in A</span> iken <span class="math">3 \notin A</span>'dır; doğrusu <span class="math">\{3, 4\} \in A</span> şeklindedir. Alt küme yaparken bir kat daha süslü parantez eklenir: <span class="math">\{\{3, 4\}\} \subseteq A</span>.
+    </div>
+
+    <h2>3. Kartezyen Çarpım</h2>
+    <p>Birinci bileşeni <span class="math">A</span> kümesinden, ikinci bileşeni <span class="math">B</span> kümesinden alınarak oluşturulan tüm <span class="math">(x, y)</span> sıralı ikililerinin kümesine <span class="math">A</span> ile <span class="math">B</span>'nin <strong>kartezyen çarpımı</strong> denir ve <span class="math">A \times B</span> ile gösterilir.</p>
+    <ul>
+        <li><strong>Eleman Sayısı:</strong> Kartezyen çarpımın eleman sayısı, kümelerin eleman sayılarının çarpımına eşittir: <span class="math">s(A \times B) = s(A) \cdot s(B)</span></li>
+        <li>Kartezyen çarpımın değişme özelliği yoktur (<span class="math">A \times B \neq B \times A</span>), ancak eleman sayıları eşittir.</li>
+    </ul>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir sınıfta İngilizce veya Almanca dillerinden en az birini bilenler bulunmaktadır. İngilizce bilenlerin sayısı 18, Almanca bilenlerin sayısı 14'tür. 
+        Her iki dili de bilenlerin sayısı 6 olduğuna göre, bu sınıfta sadece bir dil bilen kaç kişi vardır?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Kümelerimizi şematik olarak düşünelim. İngilizce kümesine <span class="math">İ</span>, Almanca kümesine <span class="math">A</span> diyelim.
+            <ol>
+                <li>Her iki dili bilenlerin sayısı kesişim bölgesidir: <span class="math">s(İ \cap A) = 6</span></li>
+                <li>İngilizce bilenlerin toplamı 18 olduğuna göre, <u>sadece İngilizce</u> bilenlerin sayısı (<span class="math">İ - A</span>): <br/><span class="math">18 - 6 = 12</span></li>
+                <li>Almanca bilenlerin toplamı 14 olduğuna göre, <u>sadece Almanca</u> bilenlerin sayısı (<span class="math">A - İ</span>): <br/><span class="math">14 - 6 = 8</span></li>
+            </ol>
+            Bizden "sadece bir dil bilenler" istenmişti. Yani sadece İngilizce bilenler ile sadece Almanca bilenlerin toplamı aranıyor:
+            <div class="math-block"><span class="math">\text{Sadece tek dil} = 12 + 8 = 20</span></div>
+            Cevap <strong>20</strong>'dir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> <span class="math">A = \{x \mid 1 \le x \le 5, x \in \mathbb{Z}\}</span> ve <span class="math">B = \{a, b, c\}</span> kümeleri veriliyor.
+        Buna göre, <span class="math">A \times B</span> kartezyen çarpım kümesinin eleman sayısı kaçtır?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Öncelikle ortak özellik yöntemiyle verilen <span class="math">A</span> kümesinin elemanlarını liste yöntemiyle yazıp eleman sayısını bulalım:
+            <br/><span class="math">A</span> kümesi 1 ile 5 arasındaki (sınırlar dahil) tam sayılardan oluşur:
+            <div class="math-block"><span class="math">A = \{1, 2, 3, 4, 5\} \rightarrow s(A) = 5</span></div>
+            <span class="math">B</span> kümesinin eleman sayısı zaten açıkça görülmektedir:
+            <div class="math-block"><span class="math">B = \{a, b, c\} \rightarrow s(B) = 3</span></div>
+            Kartezyen çarpımın eleman sayısı kuralını uygulayalım:
+            <div class="math-block"><span class="math">s(A \times B) = s(A) \cdot s(B)</span></div>
+            <div class="math-block"><span class="math">s(A \times B) = 5 \cdot 3 = 15</span></div>
+            <span class="math">A \times B</span> kümesinin <strong>15</strong> elemanı vardır.
+        </div>
+    </div>
+
+</body>
+</html>

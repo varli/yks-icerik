@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - EBOB EKOK</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 4: EBOB - EKOK (En Büyük Ortak Bölen - En Küçük Ortak Kat)</p>
+    </div>
+
+    <p>EBOB ve EKOK kavramları, birden fazla sayının çarpan yapılarını inceleyerek ortak sınırlarını belirlememizi sağlar. TYT'de formül sorularından ziyade; tarlaların etrafına ağaç dikme, parçaları birleştirerek zemin kaplama veya nöbet/sinyal gibi periyodik tekrar eden gerçek hayat problemlerinin kurguları sorulur.</p>
+
+    <h2>1. Tanım ve Algoritma Yöntemi</h2>
+    <p>En az biri sıfırdan farklı olan iki veya daha fazla tam sayının ortak bölenlerinin en büyüğüne <strong>EBOB</strong>, ortak katlarının en küçüğüne ise <strong>EKOK</strong> denir. Sayılar yan yana yazılarak asal çarpan algoritması ile hesaplanır.</p>
+    
+    <ul>
+        <li><strong>EBOB Hesaplama:</strong> Sayıların her ikisini de aynı anda bölen asal sayılar işaretlenir ve bu işaretli sayıların çarpımı EBOB'u verir.</li>
+        <li><strong>EKOK Hesaplama:</strong> Algoritma çizgisinin sağ tarafında oluşan tüm asal sayıların çarpımı EKOK'u verir.</li>
+    </ul>
+
+    <h2>2. Altın Değerindeki EBOB - EKOK Özellikleri</h2>
+    <p>Sorularda hız kazanmak ve cebirsel yorum sorularını çözebilmek için şu 4 temel kuralı adınız gibi bilmelisiniz:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik Adı</th>
+                <th>Matematiksel İfadesi ve Açıklaması</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Çarpım Kuralı</strong></td>
+                <td>Herhangi iki <span class="math">a</span> ve <span class="math">b</span> pozitif tam sayısı için: <br/><div class="math-block"><span class="math">EBOB(a,b) &times; EKOK(a,b) = a &times; b</span></div>İki sayının çarpımı, EBOB ve EKOK'larının çarpımına daima eşittir.</td>
+            </tr>
+            <tr>
+                <td><strong>Aralarında Asal Sayılar</strong></td>
+                <td><span class="math">a</span> ve <span class="math">b</span> aralarında asal ise ortak bölenleri sadece 1'dir. <br/> <span class="math">EBOB(a,b) = 1</span> ve <span class="math">EKOK(a,b) = a &times; b</span> olur.</td>
+            </tr>
+            <tr>
+                <td><strong>Ardışık Sayılar</strong></td>
+                <td>Ardışık tam sayılar (<span class="math">n</span> ile <span class="math">n+1</span>) daima aralarında asaldır. <br/>Dolayısıyla EBOB'ları 1, EKOK'ları ise çarpımlarıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Sıralama Özelliği</strong></td>
+                <td>Pozitif iki sayı için sıralama daima şu şekildedir: <br/><div class="math-block"><span class="math">EBOB(a,b) &le; a &le; b &le; EKOK(a,b)</span></div> Sayılar birbirine eşit değilse EBOB sayılardan küçük, EKOK büyüktür.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. Problem Çözme Stratejisi (EBOB mu, EKOK mu?)</h2>
+    <p>Öğrencilerin en çok zorlandığı nokta soruda hangi işlemi uygulayacaklarını seçememektir. Bunun mantığı oldukça basittir:</p>
+    
+    <div class="tip-box">
+        <strong>📦 BÜTÜNDEN &rarr; PARÇAYA (EBOB):</strong> Büyük bir nesne, alan veya hacim daha küçük eşit parçalara ayrılıyorsa, bölme/paylaştırma varsa <strong>EBOB</strong> kullanılır. <br/>
+        <i>Örnekler:</i> Bidonlardaki yağları küçük şişelere doldurmak, çuvaldaki bakliyatları paketlemek, tarlanın etrafına eşit aralıklarla direk/ağaç dikmek, büyük kumaşı eş kare parçalara bölmek.
+    </div>
+
+    <div class="tip-box">
+        <strong>🧱 PARÇADAN &rarr; BÜTÜNE (EKOK):</strong> Küçük parçalar, zaman dilimleri veya nesneler bir araya getirilerek daha büyük bir yapı, ortak bir kat veya eş zamanlı bir an oluşturuluyorsa <strong>EKOK</strong> kullanılır. <br/>
+        <i>Örnekler:</i> Küçük tuğlaları birleştirerek küp yapmak, birlikte nöbet tutan askerlerin tekrar karşılaşma zamanı, farklı aralıklarla çalan zillerin birlikte çalması, cevizleri 3'er 5'er sayınca artması.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Kenar uzunlukları 45 metre ve 60 metre olan dikdörtgen şeklindeki bir arsanın etrafına ve köşelerine de gelmek şartıyla eşit aralıklarla ağaç dikilecektir. 
+        Buna göre, bu iş için <u>en az</u> kaç ağaç gereklidir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Büyük bir arsanın kenarlarını eşit parçalara bölerek ağaç dikeceğimiz için bir <strong>Bütünden Parçaya (EBOB)</strong> problemidir. İki ağaç arasındaki mesafenin maksimum olması gerekir ki ağaç sayısı en az çıksın.
+            <br/>Aralık mesafesi = <span class="math">EBOB(45, 60)</span> olmalıdır.
+            <br/><span class="math">45</span> ve <span class="math">60</span> sayılarının en büyük ortak böleni <span class="math">15</span>'tir. Demek ki her <span class="math">15</span> metrede bir ağaç dikilmelidir.
+            <br/><br/>Dikdörtgen çevre sorularında ağaç sayısı pratik olarak şöyle bulunur:
+            <div class="math-block"><span class="math">Ağaç Sayısı = Çevre / EBOB</span></div>
+            <div class="math-block"><span class="math">Çevre = 2 &times; (45 + 60) = 2 &times; 105 = 210 \text{ metre}</span></div>
+            <div class="math-block"><span class="math">Ağaç Sayısı = 210 / 15 = 14</span></div>
+            Bu iş için en az <strong>14 ağaç</strong> gereklidir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir limandaki üç farklı deniz feneri sırasıyla 20, 30 ve 45 dakikalık aralıklarla sinyal lambası yakmaktadır.
+        Bu üç fener ilk kez saat 08:00'de birlikte sinyal verdiğine göre, <u>ikinci kez</u> saat kaçta tekrar birlikte sinyal verirler?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Küçük zaman dilimlerinin ileri bir noktada birleştiği anı aradığımız için bu bir <strong>Parçadan Bütüne (EKOK)</strong> problemidir. Fenerlerin ortak katı olan süreyi bulmalıyız.
+            <br/>Birlikte yanma süresi = <span class="math">EKOK(20, 30, 45)</span> olmalıdır.
+            <br/>Sayıları asal çarpanlarına ayırıp EKOK hesapladığımızda:
+            <ul>
+                <li><span class="math">20 = 2^2 &times; 5</span></li>
+                <li><span class="math">30 = 2 &times; 3 &times; 5</span></li>
+                <li><span class="math">45 = 3^2 &times; 5</span></li>
+            </ul>
+            <span class="math">EKOK = 2^2 &times; 3^2 &times; 5 = 4 &times; 9 &times; 5 = 180 \text{ dakika}</span> olarak bulunur.
+            <br/><br/>180 dakikanın kaç saat olduğunu bulalım: <span class="math">180 / 60 = 3 \text{ saat}</span>.
+            <br/>İlk sinyal saat 08:00'de verildiğine göre, 3 saat sonraki ikinci ortak sinyal:
+            <div class="math-block"><span class="math">08:00 + 03:00 = 11:00</span></div>
+            Fenerler saat <strong>11:00</strong>'de tekrar birlikte sinyal verirler.
+        </div>
+    </div>
+
+</body>
+</html>

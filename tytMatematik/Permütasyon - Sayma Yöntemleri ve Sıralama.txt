@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Matematik Ders Notları - Permütasyon ve Sayma Yöntemleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm;
+            background-color: #fafcfb;
+        }
+        
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #232a2e;
+            line-height: 1.6;
+            font-size: 10.5pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-banner {
+            background-color: #1e3a47;
+            color: #ffffff;
+            padding: 20px 25px;
+            margin: -18mm -15mm 25px -15mm;
+            border-bottom: 4px solid #d47a55;
+        }
+
+        .header-banner h1 {
+            margin: 0;
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+
+        .header-banner p {
+            margin: 5px 0 0 0;
+            font-size: 11pt;
+            color: #cbd5e1;
+        }
+
+        h2 {
+            color: #1e3a47;
+            font-size: 14pt;
+            border-left: 5px solid #d47a55;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+
+        h3 {
+            color: #2c5364;
+            font-size: 11.5pt;
+            margin-top: 20px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 12px;
+            text-align: justify;
+        }
+
+        .math {
+            font-family: 'Times New Roman', Times, serif;
+            font-style: italic;
+            font-weight: bold;
+            color: #b24c24;
+            padding: 0 2px;
+        }
+
+        .math-block {
+            text-align: center;
+            margin: 15px 0;
+            font-size: 11.5pt;
+        }
+
+        .example-box {
+            background-color: #f4f7f6;
+            border-left: 3px solid #708090;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 0 6px 6px 0;
+            page-break-inside: avoid;
+        }
+
+        .solution-title {
+            font-weight: bold;
+            color: #2e6f40;
+            margin-top: 10px;
+            margin-bottom: 4px;
+        }
+
+        .solution-content {
+            border-top: 1px dashed #cbd5e1;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .tip-box {
+            background-color: #fff9f2;
+            border: 1px solid #f5d0a9;
+            padding: 12px 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            page-break-inside: avoid;
+        }
+
+        .tip-box strong {
+            color: #b24c24;
+        }
+
+        ul, ol {
+            margin-top: 0;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            page-break-inside: avoid;
+        }
+
+        th {
+            background-color: #2c5364;
+            color: #ffffff;
+            font-weight: bold;
+            text-align: left;
+            padding: 10px 12px;
+            font-size: 10pt;
+            border: 1px solid #2c5364;
+        }
+
+        td {
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            font-size: 10pt;
+            background-color: #ffffff;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Matematik Ders Notları</h1>
+        <p>Ünite 26: Permütasyon (Sayma ve Sıralama)</p>
+    </div>
+
+    <p>Permütasyon, nesnelerin kendi aralarındaki diziliş ve <strong>sıralanış</strong> alternatiflerini inceler. Permütasyon konusuna girmeden önce, tüm kombinatorik işlemlerin temelini oluşturan iki ana sayma prensibini kusursuz bilmemiz gerekir.</p>
+
+    <h2>1. Temel Sayma Yöntemleri</h2>
+    <p>Bir olayın kaç farklı şekilde gerçekleşebileceğini bulurken bağlaçların diline dikkat edilir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sayma Yöntemi / Bağlaç</th>
+                <th>Yapılan Matematiksel İşlem</th>
+                <th>Sözel Karşılığı ve Mantığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Toplama Yoluyla Sayma ("VEYA")</strong></td>
+                <td><span class="math">a + b</span></td>
+                <td>Ayrık iki işlemden biri veya diğeri seçilirken kullanılır. Bağımsız, tek bir seçim vardır.</td>
+            </tr>
+            <tr>
+                <td><strong>Çarpma Yoluyla Sayma ("VE")</strong></td>
+                <td><span class="math">a \cdot b</span></td>
+                <td>Birbirine bağlı, ardışık ve eş zamanlı gerçekleşen işlemler zincirinde toplam durumu bulmak için kullanılır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. Permütasyon (Sıralama) Nedir?</h2>
+    <p>Eleman sayısı <span class="math">n</span> olan bir kümenin, <span class="math">r</span> elemanlı her bir <strong>sıralı dizilişine</strong> o kümenin <span class="math">r</span>'li permütasyonu denir ve şu formülle gösterilir:</p>
+    <div class="math-block">
+        <span class="math">P(n, r) = \frac{n!}{(n - r)!}</span>
+    </div>
+    <p><strong>Pratik Yol:</strong> <span class="math">P(n, r)</span> hesaplanırken <span class="math">n</span> sayısı, kendisinden geriye doğru ardışık olarak <span class="math">r</span> tane çarpan kadar açılır. 
+    <br/>Örn: <span class="math">P(7, 3) = 7 \cdot 6 \cdot 5 = 210</span>'dur.</p>
+
+    <h3>Tekrarlı Permütasyon</h3>
+    <p>Bazı elemanları birbirinin aynısı (özdeş) olan nesnelerin yer değiştirmesidir. Toplam <span class="math">n</span> tane nesnenin <span class="math">n_1</span> tanesi, <span class="math">n_2</span> tanesi özdeş ise diziliş sayısı:</p>
+    <div class="math-block">
+        <span class="math">\text{Diziliş Sayısı} = \frac{n!}{n_1! \cdot n_2! \cdot \dots}</span>
+    </div>
+
+    <div class="tip-box">
+        <strong>⚠️ TYT Sınav İpucu (Kelimede Ayırma / Yan Yana Olma Tuzağı):</strong> Sorularda "belirli elemanlar yan yana olmak şartıyla" deniyorsa, o elemanlar <strong>tek bir eleman (paket)</strong> gibi kabul edilir. Toplam eleman sayısı hesaplanırken paket 1 sayılır. Son işlemde ise <u>paketin kendi içindeki yer değiştirmesi (<span class="math">k!</span>)</u> ana sonuçla mutlaka çarpılmalıdır!
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> 3 farklı matematik ve 4 farklı fizik kitabı bir rafa, matematik kitapları daima yan yana olmak şartıyla kaç farklı şekilde sıralanabilir?
+        
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            "Yan yana olma" kuralını işletelim:
+            <ol>
+                <li>3 matematik kitabını birbirine bağlayıp <strong>1 büyük paket</strong> kabul edelim: <span class="math">(\text{M}_1\text{M}_2\text{M}_3)</span></li>
+                <li>Dışarıda serbest halde 4 tane fizik kitabı vardır: <span class="math">\text{F}_1, \text{F}_2, \text{F}_3, \text{F}_4</span></li>
+                <li>Toplam nesne sayısını bulalım: 1 paket + 4 fizik kitabı = <strong>5 nesne</strong>. <br/>
+                Bu 5 nesne rafa <span class="math">5!</span> kadar farklı şekilde dizilir.</li>
+                <li>Son olarak, paketin içindeki 3 farklı matematik kitabının kendi arasındaki yer değişimini hesaba katalım: <span class="math">3!</span></li>
+            </ol>
+            Çarpma prensibi gereği bu iki durumu birleştirelim:
+            <div class="math-block"><span class="math">\text{Toplam Durum} = 5! \cdot 3! = 120 \cdot 6 = 720</span></div>
+            Kitaplar rafa <strong>720</strong> farklı şekilde dizilebilir.
+        </div>
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> "KELEBEK" kelimesinin harflerinin yerleri değiştirilerek anlamlı ya da anlamsız 7 harfli kaç farklı kelime yazılabilir?
+
+        <div class="solution-content">
+            <div class="solution-title">Çözüm:</div>
+            Kelimedeki bazı harfler tekrar ettiği için bu bir <strong>Tekrarlı Permütasyon</strong> sorusudur.
+            <ul>
+                <li>Toplam harf sayısı (<span class="math">n</span>) = 7</li>
+                <li>Tekrar eden harfleri ve sayılarını listeleyelim:
+                    <br/>- "E" harfi: 3 kez tekrar ediyor.
+                    <br/>- "K" harfi: 2 kez tekrar ediyor.
+                    <br/>- "L" ve "B" harfleri: 1'er kez yazılmış (etkisiz).
+                </li>
+            </ul>
+            Tekrarlı permütasyon formülümüzü uygulayalım:
+            <div class="math-block"><span class="math">\text{Toplam Kelime} = \frac{7!}{3! \cdot 2!}</span></div>
+            Faktöriyelleri açarak sadeleştirme yapalım:
+            <div class="math-block"><span class="math">\text{Toplam Kelime} = \frac{7 \cdot 6 \cdot 5 \cdot 4 \cdot 3!}{3! \cdot 2 \cdot 1} = \frac{7 \cdot 6 \cdot 5 \cdot 4}{2}</span></div>
+            <div class="math-block"><span class="math">\text{Toplam Kelime} = 7 \cdot 6 \cdot 5 \cdot 2 = 420</span></div>
+            Harflerle <strong>420</strong> farklı kelime yazılabilir.
+        </div>
+    </div>
+
+</body>
+</html>
