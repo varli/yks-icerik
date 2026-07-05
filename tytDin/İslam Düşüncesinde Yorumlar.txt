@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - İslam Düşüncesinde Yorumlar</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d3748; line-height: 1.6; font-size: 10.5pt; }
+        .header-banner { background-color: #38a169; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        h2 { color: #38a169; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; }
+        .box { background-color: #f0fff4; border: 1px solid #9ae6b4; padding: 12px; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #38a169; padding: 15px; margin: 15px 0; }
+        .solution-title { font-weight: bold; color: #38a169; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Din Kültürü Ders Notları</h1>
+        <p>Ünite 8: İslam Düşüncesinde Yorumlar ve Mezhepler</p>
+    </div>
+
+    <h2>1. Yorum Farklılıklarının Nedenleri</h2>
+    <p>İslam dünyasında farklı yorumların ortaya çıkması bir zenginliktir. Temel nedenler:</p>
+    <ul>
+        <li><strong>İnsani Faktörler:</strong> Kültürel, sosyal ve coğrafi farklılıklar.</li>
+        <li><strong>Siyasi Faktörler:</strong> İslam devletinin hızla genişlemesiyle oluşan yeni toplumsal meseleler.</li>
+        <li><strong>Dini Metinler:</strong> Kur'an ve hadislerin yorumlanmasındaki farklı yaklaşımlar (fıkhi ve itikadi).</li>
+    </ul>
+
+    <h2>2. Temel Mezhep Grupları</h2>
+    <ul>
+        <li><strong>İtikadi (İnançla İlgili):</strong> Maturidilik ve Eşarilik (Genel olarak inanç esaslarında birleşilir, sadece yöntemde farklılıklar vardır).</li>
+        <li><strong>Fıkhi (İbadet ve Uygulamayla İlgili):</strong> Hanefi, Şafii, Maliki ve Hanbeli mezhepleri.</li>
+    </ul>
+
+    <div class="box">
+        <strong>⚠️ TYT İpucu:</strong> TYT'de mezheplerin isimlerini ve detaylı doktrinlerini ezberlemen istenmez. Asıl odak, bu yorum farklılıklarının neden **"doğal ve hoşgörü çerçevesinde bir zenginlik"** olduğudur.
+    </div>
+
+    <h2>3. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> İslam düşüncesinde farklı mezheplerin ortaya çıkmasını "bir rahmet/zenginlik" olarak nitelemenin temel sebebi nedir?
+        <div class="solution-title">Çözüm:</div>
+        İslam'ın geniş coğrafyalara yayılmasıyla ortaya çıkan yeni sorunlara çözüm bulunmasını kolaylaştırması, dini hayatı daha uygulanabilir ve esnek kılmasıdır.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> Bir kişinin, Allah'ın sıfatlarını yorumlarken kullandığı yöntemin farklı olması hangi alanla ilgilidir?
+        <div class="solution-title">Çözüm:</div>
+        İnanç esasları ve Allah'ın zatı/sıfatları ile ilgili olduğu için bu, <strong>İtikadi</strong> mezheplerin alanıdır.
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - Kur'an'da Bazı Kavramlar</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d3748; line-height: 1.6; font-size: 10.5pt; }
+        .header-banner { background-color: #805ad5; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        h2 { color: #805ad5; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; }
+        .box { background-color: #faf5ff; border: 1px solid #d6bcfa; padding: 12px; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #805ad5; padding: 15px; margin: 15px 0; }
+        .solution-title { font-weight: bold; color: #805ad5; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Din Kültürü Ders Notları</h1>
+        <p>Ünite 3: Kur'an'da Bazı Kavramlar</p>
+    </div>
+
+    <h2>1. Temel Ahlaki Kavramlar</h2>
+    <p>Kur'an-ı Kerim'de insanın hem Rabbiyle hem de çevresiyle olan ilişkisini düzenleyen temel kavramlar şunlardır:</p>
+    <ul>
+        <li><strong>Tevekkül:</strong> Bir iş için elinden gelen her türlü gayreti gösterdikten sonra sonucu Allah'a bırakmak ve O'na güvenmektir.</li>
+        <li><strong>Rızık:</strong> Allah'ın insanlara ve tüm canlılara verdiği maddi/manevi her türlü nimet.</li>
+        <li><strong>Sabır:</strong> Zorluklar karşısında dirençli olmak, isyan etmemek ve hedefe ulaşmak için sebat etmektir.</li>
+        <li><strong>İnfak:</strong> Allah'ın rızasını kazanmak amacıyla kişinin sahip olduğu maldan harcaması, ihtiyaç sahiplerine yardım etmesidir.</li>
+    </ul>
+
+    <h2>2. İbadetle İlgili Ahlaki Boyutlar</h2>
+    <p>İbadetlerin şekli kadar, kişinin iç dünyası da önemlidir:</p>
+    <ul>
+        <li><strong>İhlas:</strong> Yapılan ibadet ve davranışlarda sadece Allah'ın rızasını gözetmek, gösterişten uzak durmaktır.</li>
+        <li><strong>Takva:</strong> Allah'a karşı sorumluluk bilinci taşıma, günahlardan sakınıp emirlerini hassasiyetle yerine getirmektir.</li>
+    </ul>
+
+    <div class="box">
+        <strong>⚠️ TYT İpucu:</strong> TYT'de "Tevekkül" kavramı karıştırılır. Tevekkül, çalışmadan beklemek değil, <strong>"üzerine düşeni yaptıktan sonra"</strong> sonucu Allah'a havale etmektir. Yani çalışmak, tevekkülün ilk şartıdır.
+    </div>
+
+    <h2>3. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> Bir çiftçinin tarlasını sürüp tohumu ektikten sonra ürünün bereketli olması için dua etmesi, İslam'daki hangi kavramla açıklanır?
+        <div class="solution-title">Çözüm:</div>
+        Kişinin üzerine düşen vazifeyi (tarla sürmek, tohum ekmek) yaptıktan sonra sonucu Allah'a bırakması <strong>Tevekkül</strong> kavramı ile açıklanır.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> İslam'da "infak" ile "zekat" arasındaki temel fark nedir?
+        <div class="solution-title">Çözüm:</div>
+        Zekat, İslam'ın beş şartından biri olup <strong>farz ve belirli ölçüleri olan</strong> bir mali ibadettir. İnfak ise farz sınırlarının ötesinde, kişinin Allah rızası için yaptığı <strong>her türlü yardım ve harcamayı</strong> kapsayan genel bir kavramdır.
+    </div>
+
+</body>
+</html>

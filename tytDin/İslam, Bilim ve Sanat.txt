@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - İslam, Bilim ve Sanat</title>
+    <style>
+        @page { size: A4; margin: 18mm 15mm; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d3748; line-height: 1.6; font-size: 10.5pt; }
+        .header-banner { background-color: #744210; color: #ffffff; padding: 20px 25px; margin: -18mm -15mm 25px -15mm; border-bottom: 4px solid #ecc94b; }
+        h2 { color: #744210; border-left: 5px solid #ecc94b; padding-left: 10px; margin-top: 30px; }
+        .box { background-color: #fffaf0; border: 1px solid #ecc94b; padding: 12px; border-radius: 6px; }
+        .example-box { background-color: #f7fafc; border-left: 3px solid #744210; padding: 15px; margin: 15px 0; }
+        .solution-title { font-weight: bold; color: #744210; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT Din Kültürü Ders Notları</h1>
+        <p>Ünite 6: İslam, Bilim ve Sanat</p>
+    </div>
+
+    <h2>1. İslam ve Bilim İlişkisi</h2>
+    <p>İslam dini, okumayı, düşünmeyi ve araştırmayı teşvik eder. Kur'an'da pek çok ayet "akletmez misiniz?" veya "hiç bilenlerle bilmeyenler bir olur mu?" diyerek insanı bilgiye yönlendirir.</p>
+    <ul>
+        <li><strong>Bilgiye Bakış:</strong> Bilim, evrenin işleyişini (Allah'ın ayetlerini) anlamak için bir araçtır.</li>
+        <li><strong>Tarihi Katkı:</strong> İslam dünyası; tıp, astronomi, matematik ve coğrafya gibi alanlarda "Altın Çağ"ı yaşamıştır (İbn-i Sina, Harezmi, Biruni).</li>
+    </ul>
+
+    <h2>2. İslam Sanatı</h2>
+    <p>İslam sanatı, "tevhidi" (Allah'ın birliğini) ve estetiği yansıtır.</p>
+    <ul>
+        <li><strong>Hat Sanatı:</strong> Yazının estetik bir formda kullanılması.</li>
+        <li><strong>Tezhip:</strong> Altın ve boyalarla yapılan süsleme sanatı.</li>
+        <li><strong>Mimari:</strong> Cami, medrese ve külliyelerdeki denge, huzur ve estetik.</li>
+    </ul>
+
+    <div class="box">
+        <strong>⚠️ TYT İpucu:</strong> İslam'da sanat "yaratmak" değil, Allah'ın yarattığı güzelliği **"yansıtmak"** (estetik bir yorum getirmek) olarak görülür. Bu yüzden İslam sanatında canlı figürlerinden ziyade soyut, geometrik ve hat tasarımları ön plandadır.
+    </div>
+
+    <h2>3. Örnek Sorular</h2>
+
+    <div class="example-box">
+        <strong>Soru 1:</strong> İslam medeniyetinin bilimsel faaliyetlere verdiği önemin temel sebebi nedir?
+        <div class="solution-title">Çözüm:</div>
+        İslam'ın bilimi, evreni ve Allah'ın yarattığı nizamı anlamanın bir yolu olarak görmesi ve insanın sorumluluğunu yerine getirmesi için <strong>aklını kullanmasını</strong> emretmesidir.
+    </div>
+
+    <div class="example-box">
+        <strong>Soru 2:</strong> İslam sanatında neden genellikle geometrik desenler ve hat sanatı öne çıkmıştır?
+        <div class="solution-title">Çözüm:</div>
+        Allah'ın tekliğini (Tevhid) sembolize etmek ve sanatçıların doğrudan "yaratma" iddiasından kaçınarak estetiği farklı bir formda (hat, tezhip, çini) sunma arzusu etkilidir.
+    </div>
+
+</body>
+</html>
