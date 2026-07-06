@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 7: Karışımlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 7: KARIŞIMLAR</h1>
+        <p>Homojen ve Heterojen Karışımlar, Derişim Türleri, Koligatif Özellikler ve Ayırma Teknikleri</p>
+    </div>
+
+    <h2>1. KARIŞIMLARIN SINIFLANDIRILMASI VE ÖZELLİKLERİ</h2>
+    <p>En az iki farklı saf maddenin kimyasal özelliklerini kaybetmeden, rastgele oranlarda fiziksel olarak bir araya gelmesiyle oluşan maddelere <strong>karışım</strong> denir. Karışımlar saf değildir, belirli formülleri yoktur ve fiziksel yollarla bileşenlerine ayrılabilirler. Görünümlerine göre iki ana grupta incelenirler:</p>
+    <ul>
+        <li><strong>A) Homojen Karışımlar (Çözeltiler):</strong> Her yerinde aynı özelliği gösteren, tek bir faz gibi görünen karışımlardır. Çözücü ve çözünenden oluşurlar. Tanecik boyutu 1 nanometreden küçüktür, dışarıdan bakıldığında ayırt edilemezler. (Örn: Tuzlu su, hava, kolonya, maden suyu, metal alaşımlar [pirinç, lehim]).</li>
+        <li><strong>B) Heterojen Karışımlar:</strong> Her yerinde aynı özelliği göstermeyen, birden fazla faz barındıran sistemlerdir. Dağılan maddenin türüne göre sınıflara ayrılırlar:
+        <br>• <em>Süspansiyon:</em> Sıvı içinde çözünmeyen katıların oluşturduğu heterojen yapılardır. (Örn: Çamurlu su, ayran, Türk kahvesi).
+        <br>• <em>Emülsiyon:</em> Birbiri içinde çözünmeyen iki sıvının oluşturduğu karışımdır. (Örn: Zeytinyağı-su, mayonez, benzin-su).
+        <br>• <em>Aerosol:</em> Bir gazın içine katı veya sıvının heterojen dağılmasıdır. (Örn: Sis, duman, sprey deodorantlar).
+        <br>• <em>Kolloit:</em> Çıplak gözle bakıldığında homojen gibi görünen ancak lazer ışığı tutulduğunda ışığı saçan (Tyndall etkisi), taneciklerin mikroskopla seçilebildiği sınır yapılardır. (Örn: Kan, süt, renkli cam, jöle).</li>
+    </ul>
+
+    <h2>2. ÇÖZÜNME SÜRECİ VE DERİŞİM HESAPLAMALARI</h2>
+    <p>Bir maddenin başka bir madde içinde homojen olarak dağılması olayına çözünme denir. Çözünmede temel kural <strong>"Benzer benzeri çözer"</strong> ilkesidir. Polar maddeler polar çözücülerde (Örn: Tuz suda çözünür), apolar maddeler ise apolar çözücülerde (Örn: İyot katısı benzende çözünür) iyi çözünür.</p>
+    
+    <h3>Sıkça Sorulan Kütlece Yüzde Derişim Formülü:</h3>
+    <div class="highlight-box" style="text-align: center; font-size: 12pt; font-weight: bold;">
+        Kütlece Yüzde Derişim = (Çözünen Maddenin Kütlesi / Toplam Çözelti Kütlesi) x 100
+    </div>
+    <p><em>Kritik Hatırlatma:</em> Toplam çözelti kütlesi alınırken çözücü ve çözünen kütlelerinin toplamı paydaya yazılmalıdır. Hacimce yüzde derişim de benzer mantıkla sıvı-sıvı karışımlarda (kolonya gibi) kullanılır.</p>
+
+    <h2>3. KOLİGATİF ÖZELLİKLER</h2>
+    <p>Çözeltilerin, içlerinde çözünen taneciklerin kimyasal türüne değil, sadece <strong>tanecik derişimine (miktarına)</strong> bağlı olarak değişen fiziksel özelliklerine koligatif özellikler denir. Saf suya uçucu olmayan bir katı (tuz, şeker) eklendiğinde şu değişimler gözlenir:</p>
+    <ul>
+        <li><strong>Kaynama Noktası Yükselmesi:</strong> Çözeltideki tanecik miktarı arttıkça kaynama noktası saf suya göre yükselir. Çözelti doymamışken kaynama süresince sıcaklık artmaya devam eder, çözelti doygunluğa ulaştığında sıcaklık sabitlenir.</li>
+        <li><strong>Donma Noktası Alçalması:</strong> Çözünen tanecikler suyun kristalleşmesini zorlaştırır. Bu nedenle çözeltilerin donma noktası sıfır derecenin altındadır. (Örn: Kışın buzlanmayı önlemek için yollara tuz dökülmesi, uçak kanatlarının alkolle yıkanması).</li>
+    </ul>
+
+    <h2>4. KARIŞIMLARI AYIRMA TEKNİKLERİ</h2>
+    <p>Karışımları oluşturan maddelerin fiziksel özellik farklarından yararlanılarak uygulanan endüstriyel ayırma yöntemleri şunlardır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Yöntem Adı</th>
+                <th>Yararlanılan Fiziksel Özellik Farkı</th>
+                <th>En Yaygın Kullanım Alanı ve Örnek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Ayırma Hunisi</strong></td>
+                <td>Yoğunluk (Özkütle) Farkı</td>
+                <td>Birbiri içinde çözünmeyen Emülsiyon karışımlarda kullanılır. (Örn: Zeytinyağı - Su).</td>
+            </tr>
+            <tr>
+                <td><strong>Flotasyon (Yüzdürme)</strong></td>
+                <td>Yoğunluk Farkı</td>
+                <td>Maden sanayisinde sülfürlü cevherlerin ayrılmasında, saman - kum karışımında kullanılır.</td>
+            </tr>
+            <tr>
+                <td><strong>Basit Damıtma</strong></td>
+                <td>Kaynama Noktası Farkı</td>
+                <td>Katı - sıvı homojen karışımlarda sıvıyı buharlaştırıp geri toplama işlemidir. (Örn: Tuzlu sudan saf su elde etmek).</td>
+            </tr>
+            <tr>
+                <td><strong>Ayrımsal Damıtma</strong></td>
+                <td>Kaynama Noktası Farkı</td>
+                <td>Sıvı - sıvı homojen karışımlarda kullanılır. (Örn: Alkol - Su karışımı, ham petrolün rafineride bileşenlerine ayrılması).</td>
+            </tr>
+            <tr>
+                <td><strong>Ayıklama, Eleme, Süzme</strong></td>
+                <td>Tanecik Boyutu Farkı</td>
+                <td>Süzme katı-sıvı veya katı-gaz heterojen sistemlerde kullanılır. (Örn: Makarnanın süzülmesi, fabrikalardaki toz filtreleri).</td>
+            </tr>
+            <tr>
+                <td><strong>Diyaliz</strong></td>
+                <td>Tanecik Boyutu Farkı</td>
+                <td>Kolloidal karışımların yarı geçirgen zardan geçirilerek temizlenmesidir. (Örn: Böbrek hastalarında kanın temizlenmesi).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Bir araştırmacı laboratuvarda üç farklı behere şu karışımları hazırlamıştır:
+        <br>I. Beher: Su ve zeytinyağı karıştırılarak çalkalanıyor.
+        <br>II. Beher: Su ve yemek tuzu karıştırılarak tamamen çözünmesi sağlanıyor.
+        <br>III. Beher: Su ve ince nehir kumu karıştırılıyor.
+        <br><br>
+        Bu beherlerde elde edilen karışım sınıfları aşağıdakilerin hangisinde doğru eşleştirilmiştir?</div>
+        <ul class="options-list">
+            <li>A) I: Çözelti, II: Emülsiyon, III: Süspansiyon</li>
+            <li>B) I: Emülsiyon, II: Çözelti, III: Süspansiyon</li>
+            <li>C) I: Süspansiyon, II: Kolloit, III: Emülsiyon</li>
+            <li>D) I: Emülsiyon, II: Süspansiyon, III: Çözelti</li>
+            <li>E) I: Aerosol, II: Çözelti, III: Kolloit</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> I. beherde iki sıvı (zeytinyağı ve su) birbiri içinde çözünmeden heterojen dağılmıştır, bu bir emülsiyondur. II. beherde tuz suda tamamen çözünerek homojen bir yapı oluşturmuştur, homojen karışımlara çözelti denir. III. beherde katı tanecikleri (kum) sıvı içinde çözünmeden kalmıştır, bu bir süspansiyondur. Sıralama Emülsiyon - Çözelti - Süspansiyon olmalıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Kimyada maddelerin birbiri içinde çözünme eğilimleri incelenirken "Benzer benzeri çözer" kuralı uygulanır. Bu kurala göre polar maddeler polar çözücülerde, apolar maddeler ise apolar çözücülerde yüksek çözünürlük gösterir. <br><br>
+        Buna göre, polar bir molekül olduğu kesin olarak bilinen H<sub>2</sub>O (su) sıvısı içerisinde, aşağıda yapısal özelliği verilen maddelerden hangisinin <u>en az (ihmal edilecek kadar düşük)</u> çözünmesi beklenir?</div>
+        <ul class="options-list">
+            <li>A) Polar bir bileşik olan HCl (hidrojen klorür)</li>
+            <li>B) İyonik bağlı bir kristal olan NaCl (yemek tuzu)</li>
+            <li>C) Apolar karakterli bir molekül olan C<sub>6</sub>H<sub>6</sub> (benzen)</li>
+            <li>D) Yapısında hidrojen bağı kurabilen CH<sub>3</sub>OH (metil alkol)</li>
+            <li>E) Polar yapılı bir gaz olan NH<sub>3</sub> (amonyak)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Su polar bir çözücüdür. Polar maddeler (HCl, NH<sub>3</sub>), iyonik yapılar (NaCl) ve suyla hidrojen bağı kurabilen alkoller suda çok iyi çözünür. Ancak C<sub>6</sub>H<sub>6</sub> (benzen) apolar bir hidrokarbondur. Polar çözücü olan su, apolar molekülleri çözemez; aralarında faz ayrımı olur. Bu yüzden benzen suda neredeyse hiç çözünmez. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Kütlece %20'lik 200 gram tuzlu su çözeltisi hazırlamak isteyen bir öğrenci, laboratuvarda hassas terazide kaç gram yemek tuzu tartmalı ve bu tuzu kaç gram saf suda çözmelidir?</div>
+        <ul class="options-list">
+            <li>A) 20 gram tuz - 180 gram su</li>
+            <li>B) 40 gram tuz - 200 gram su</li>
+            <li>C) 40 gram tuz - 160 gram su</li>
+            <li>D) 50 gram tuz - 150 gram su</li>
+            <li>E) 40 gram tuz - 140 gram su</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Toplam çözelti kütlesi 200 gramdır. Bu kütlenin %20'si çözünen tuz miktarını verir: 200 x (20 / 100) = 40 gram tuz gereklidir. Toplam kütleden tuz miktarını çıkardığımızda ise kullanılması gereken su miktarını buluruz: 200 - 40 = 160 gram su olmalıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Kış aylarında hava sıcaklığı sıfır derecenin altına düştüğünde göller ve nehirler donarken, deniz sularının veya belediyelerin tuzlama çalışması yaptığı kara yollarının daha geç donduğu, hatta donmadığı müşahede edilir. <br><br>
+        Bu durum çözeltilerin aşağıdaki hangi koligatif özelliğinin günlük hayattaki doğrudan bir yansımasıdır?</div>
+        <ul class="options-list">
+            <li>A) Kaynama noktası yükselmesi</li>
+            <li>B) Denge buhar basıncı artışı</li>
+            <li>C) Donma noktası alçalması</li>
+            <li>D) Elektrik iletkenliği değişimi</li>
+            <li>E) Viskozite direncinin azalması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Saf su 0°C'de donar. Suyun içine tuz gibi uçucu olmayan yabancı tanecikler eklendiğinde, su moleküllerinin düzenli kristal kafes yapısı oluşturması engellenir. Bu durum donma noktasını sıfırın altına **düşürür**. Yollara tuz dökülmesinin sebebi donma noktasını düşürerek gizli buzlanmayı engellemektir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Endüstride ve laboratuvarda sıvı-sıvı homojen karışımları (örneğin etil alkol - su karışımını veya ham petrolü) bileşenlerine saf olarak ayırmak amacıyla, sıvıların kaynama noktası farkından yararlanılan bir distilasyon kulesi düzeneği kullanılır. <br><br>
+        Buna göre özellikleri anlatılan bu fiziksel ayırma tekniğinin tam adı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ayırma Hunisi ile ayırma</li>
+            <li>B) Basit Damıtma</li>
+            <li>C) Ayrımsal Damıtma</li>
+            <li>D) Flotasyon (Yüzdürme)</li>
+            <li>E) Diyaliz Etkisi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sıvı-sıvı homojen karışımları (alkol-su gibi) ayırmada, sıvıların **kaynama noktası farkından** yararlanılarak fraksiyon kolonu içeren düzeneklerle yapılan işleme <strong>Ayrımsal Damıtma</strong> denir. Katı-sıvı homojen karışımlarda ise (tuzlu su gibi) kolon gerekmez, ona basit damıtma denir. Ayırma hunisi yoğunluk farkına dayanır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

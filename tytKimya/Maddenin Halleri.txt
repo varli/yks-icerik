@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 5: Maddenin Halleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 5: MADDENİN HALLERİ</h1>
+        <p>Katı Türleri, Sıvılarda Viskozite, Buhar Basıncı, Kaynama Olayı ve Gaz-Plazma Özellikleri</p>
+    </div>
+
+    <h2>1. KATI TÜRLERİ VE ÖZELLİKLERİ</h2>
+    <p>Maddenin en düzenli, tanecikler arası zayıf etkileşimlerin en güçlü olduğu haline katı denir. Katılar, atom veya moleküllerinin diziliş düzenine göre ikiye ayrılır:</p>
+    <ul>
+        <li><strong>A) Amorf Katılar:</strong> Tanecikleri rastgele, düzensiz ve gelişigüzel istiflenmiş katılardır. Belirli bir erime noktaları <u>yoktur</u>. Isıtıldıklarında yumuşamaya başladıkları bir sıcaklık aralığı vardır; bu sıcaklığa <strong>Camsı Geçiş Sıcaklığı</strong> denir. (Örn: Cam, plastik, lastik, tereyağı, kauçuk).</li>
+        <li><strong>B) Kristal Katılar:</strong> Tanecikleri belirli bir geometrik düzene göre sıralanmış katılardır. Sabit erime noktaları vardır. Bağ yapılarına göre dörde ayrılırlar:
+        <br>• <em>İyonik Kristaller:</em> Zıt yüklü iyonların elektrostatik çekimiyle oluşur. Sert ve kırılgandırlar. Katı halde elektriği iletmezler. (Örn: NaCl, MgO, CaCO<sub>3</sub>).
+        <br>• <em>Moleküler Kristaller:</em> Moleküller arasında dipol-dipol, London veya hidrojen bağları bulunur. Erime noktaları düşüktür. (Örn: Kuru buz (katı CO<sub>2</sub>), buz (katı H<sub>2</sub>O), iyot (I<sub>2</sub>)).
+        <br>• <em>Kovalent Kristaller:</em> Atomların devasa ağ yapılar oluşturarak kovalent bağlarla birbirine tutunmasıdır. Erime noktaları rekor düzeyde yüksektir. (Örn: Elmas, grafiti, kuars (SiO<sub>2</sub>)).
+        <br>• <em>Metalik Kristaller:</em> Metal katyonları ile elektron denizi arasındadır. Parlaktır, işlenebilir ve elektriği iletir. (Örn: Fe, Cu, Al metal blokları).</li>
+    </ul>
+
+    <h2>2. SIVILAR: VİSKOZİTE KAVRAMI</h2>
+    <p>Sıvıların akmaya karşı gösterdiği iç dirence <strong>viskozite</strong> denir. Viskozitesi büyük olan sıvılar yavaş akar (Örn: Balın viskozitesi, suyun viskozitesinden büyüktür). Akışkanlık ise viskozitenin tam tersidir.</p>
+    <div class="tip-box">
+        <strong>⚠️ VİSKOZİTEYİ ETKİLEYEN İKİ KRİTİK FAKTÖR:</strong>
+        <br>• <strong>Moleküller Arası Çekim Kuvveti:</strong> Moleküller birbirini ne kadar güçlü çekiyorsa, sıvının akması o kadar zorlaşır. Çekim gücü arttıkça viskozite <strong>artar</strong>.
+        <br>• <strong>Sıcaklık:</strong> Sıcaklık arttıkça taneciklerin kinetik enerjisi artar, bağlar gevşer ve sıvı daha akışkan hale gelir. Sıcaklık arttıkça viskozite <strong>azalır</strong> (Örn: Isıtılan balın daha hızlı akması).
+    </div>
+
+    <h2>3. BUHAR BASINCI, BUHARLAŞMA HIZI VE KAYNAMA İLİŞKİSİ</h2>
+    <p>Sıvı yüzeyindeki yüksek enerjili taneciklerin sıvı fazı terk ederek gaz fazına geçmesine buharlaşma denir. Kapalı bir kapta sıvı ve buharının dinamik dengeye ulaştığı an yaptığı basınca ise <strong>Denge Buhar Basıncı</strong> denir. ÖSYM bu üç kavramın nelere bağlı olduğunu ayırt etmenizi her yıl sorar:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Etki Eden Faktör</th>
+                <th>Denge Buhar Basıncını Nasıl Etkiler?</th>
+                <th>Buharlaşma Hızını Nasıl Etkiler?</th>
+                <th>Kaynama Noktasını Nasıl Etkiler?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Sıvının Cinsi (Çekim Gücü)</strong></td>
+                <td>Çekim gücü arttıkça **Azalır**</td>
+                <td>Çekim gücü arttıkça **Azalır**</td>
+                <td>Çekim gücü arttıkça **Artar**</td>
+            </tr>
+            <tr>
+                <td><strong>Sıcaklık Artışı</strong></td>
+                <td>Sıcaklık arttıkça **Artar**</td>
+                <td>Sıcaklık arttıkça **Artar**</td>
+                <td>Etki etmez (Sabittir)</td>
+            </tr>
+            <tr>
+                <td><strong>Sıvının Saflığı (Tuz eklemek)</strong></td>
+                <td>Uçucu olmayan katı eklenirse **Azalır**</td>
+                <td>Uçucu olmayan katı eklenirse **Azalır**</td>
+                <td>Uçucu olmayan katı eklenirse **Artar**</td>
+            </tr>
+            <tr>
+                <td><strong>Dış Basınç Artışı (Yükseklik)</strong></td>
+                <td><u>Etki etmez</u> (Değişmez)</td>
+                <td>Dış basınç arttıkça **Azalır**</td>
+                <td>Dış basınç arttıkça **Artar**</td>
+            </tr>
+            <tr>
+                <td><strong>Yüzey Alanı / Rüzgar</strong></td>
+                <td><u>Etki etmez</u> (Değişmez)</td>
+                <td>Yüzey alanı arttıkça **Artar**</td>
+                <td><u>Etki etmez</u> (Değişmez)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <strong>💡 Kaynama ve Buharlaşma Arasındaki Yapısal Farklar:</strong>
+        <br>• Buharlaşma her sıcaklıkta gerçekleşir, sadece sıvının yüzeyinde olur, dış basınca bağlı değildir ve kabarcık oluşmaz.
+        <br>• <strong>Kaynama:</strong> Sıvının denge buhar basıncının, dış atmosfer basıncına <strong>tam eşit olduğu an</strong> başlar. Belirli bir sıcaklıkta olur, sıvının her yerinde (fokurdama) gerçekleşir ve dış basınca doğrudan bağlıdır. 
+        <br>• <em>Kritik Sınav Notu:</em> Aynı ortamda (aynı dış basınçta) kaynamakta olan tüm sıvıların denge buhar basınçları birbirine <strong>kesinlikle eşittir</strong>; çünkü ikisi de aynı dış basınca kafa tutmaktadır.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Günlük hayatta sıkça karşılaştığımız cam, plastik, tereyağı ve asfalt gibi katıların belirli bir erime noktası yoktur. Bu katılar ısıtıldıklarında belirli bir sıcaklık aralığında yavaş yavaş yumuşayarak akışkanlık kazanırlar. <br><br>
+        Kimyasal özellikleri göz önüne alındığında, tanecikleri düzensiz istiflenmiş olan bu katı sınıfına ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) İyonik Kristal</li>
+            <li>B) Kovalent Kristal</li>
+            <li>C) Amorf Katı</li>
+            <li>D) Moleküler Kristal</li>
+            <li>E) Metalik Kristal</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Tanecikleri belirli bir geometrik düzene göre sıralanmamış, rastgele dağılmış, sabit erime noktası olmayıp ısıtıldığında camsı geçiş sıcaklığında yumuşayan katılara <strong>Amorf Katılar</strong> denir. Cam, plastik, kauçuk ve tereyağı amorf katıların en klasik örnekleridir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Aynı sıcaklıkta bulunan bal, su ve etil alkol sıvılarının akmaya karşı gösterdikleri dirençler (viskoziteleri) arasındaki ilişki Bal &gt; Su &gt; Etil Alkol şeklindedir. <br><br>
+        Buna göre bu sıvıların aynı koşullardaki "moleküller arası çekim kuvvetlerinin" büyükten küçüğe doğru sıralanışı aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Bal &gt; Su &gt; Etil Alkol</li>
+            <li>B) Etil Alkol &gt; Su &gt; Bal</li>
+            <li>C) Su &gt; Bal &gt; Etil Alkol</li>
+            <li>D) Bal &gt; Etil Alkol &gt; Su</li>
+            <li>E) Etil Alkol &gt; Bal &gt; Su</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> Viskozite, sıvıların akmaya karşı direncidir. Bir sıvının molekülleri birbirini ne kadar güçlü çekiyorsa, sıvı tanecikleri birbirinden kopup akamaz ve viskozite o kadar yüksek olur. Dolayısıyla moleküller arası çekim gücü ile viskozite **doğru orantılıdır**. Sıralama Bal &gt; Su &gt; Etil Alkol olmalıdır. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir kimya laboratuvarında ağzı açık iki ayrı beherde saf su ve tuzlu su örnekleri ısıtılmaktadır. Isıtma işlemi sırasında her iki sıvının da kaynamaya başladığı an gözlemlenmiştir. <br><br>
+        Buna göre saf suyun içine uçucu olmayan bir katı (tuz) eklenmesinin, saf suya kıyasla sıvının denge buhar basıncı ve kaynama noktası üzerindeki etkisi aşağıdakilerin hangisinde doğru kurgulanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Buhar basıncı artar, kaynama noktası azalır.</li>
+            <li>B) Buhar basıncı azalır, kaynama noktası artar.</li>
+            <li>C) İkisi de değişmeden sabit kalır.</li>
+            <li>D) Buhar basıncı artar, kaynama noktası artar.</li>
+            <li>E) Buhar basıncı azalır, kaynama noktası azalır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Saf bir sıvıya tuz gibi uçucu olmayan bir katı eklendiğinde, tuz tanecikleri su moleküllerinin etrafını sararak onların buharlaşmasını engeller. Bu durum sıvının **buhar basıncını düşürür**. Buhar basıncı düştüğü için sıvının dış basınca eşitlenmesi (kaynaması) daha yüksek sıcaklıklarda gerçekleşir, yani **kaynama noktası yükselir**. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Saf bir sıvının buharlaşma hızı ile denge buhar basıncı özellikleri incelenmektedir. <br><br>
+        Buna göre, aşağıdaki işlemlerden hangisi sıvının "buharlaşma hızını" artırmasına rağmen, "denge buhar basıncını" <u>kesinlikle değiştiremez</u>?</div>
+        <ul class="options-list">
+            <li>A) Sıvının sıcaklığını yükseltmek</li>
+            <li>B) Aynı ortamda sıvının yüzey alanını genişletmek ve rüzgarlı bir alana koymak</li>
+            <li>C) Sıvının içinde uçucu olmayan bir tuz çözmek</li>
+            <li>D) Sıvıyı daha çekim gücü zayıf başka bir sıvıyla değiştirmek</li>
+            <li>E) Sıvının miktarını iki katına çıkarmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Denge buhar basıncı sadece üç şeye bağlıdır: Sıvının cinsi, sıcaklık ve saflık (3S kuralı). Sıvının yüzey alanının genişletilmesi veya rüzgar, birim zamanda gaz fazına geçen tanecik sayısını (buharlaşma hızını) artırır; fakat kapalı sistemdeki denge buhar basıncına **asla etki etmez**. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Erzurum (yüksek rakımlı dağlık bölge) ve İzmir (deniz kenarı) şehirlerinde, açık kaplarda kaynamakta olan iki ayrı saf su örneği bulunmaktadır. <br><br>
+        Buna göre bu iki şehirde <strong>kaynama anında</strong> ölçülen saf suların denge buhar basınçları ve kaynama sıcaklıkları arasındaki ilişki aşağıdakilerin hangisinde doğru kıyaslanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Kaynama Noktası: İzmir &gt; Erzurum ; Buhar Basıncı: İzmir &gt; Erzurum</li>
+            <li>B) Kaynama Noktası: Erzurum &gt; İzmir ; Buhar Basıncı: Erzurum &gt; İzmir</li>
+            <li>C) Kaynama Noktası: İzmir &gt; Erzurum ; Buhar Basıncı: Erzurum = İzmir</li>
+            <li>D) Kaynama Noktası: İzmir = Erzurum ; Buhar Basıncı: İzmir &gt; Erzurum</li>
+            <li>E) Kaynama Noktası: Erzurum &gt; İzmir ; Buhar Basıncı: Erzurum = İzmir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> Deniz seviyesinden yukarı çıkıldıkça (Erzurum'a gidildikçe) açık hava basıncı azalır. Dış basınç azaldığı için su daha düşük sıcaklıkta kaynar (Kaynama noktası: İzmir &gt; Erzurum). Kaynama anında bir sıvının iç buhar basıncı dış basınca tam eşit olmak zorundadır. İzmir'deki su daha yüksek bir dış basınca (1 atm), Erzurum'daki ise daha düşük bir dış basınca kafa tuttuğundan, kaynama anındaki buhar basınçları da dış basınçlar gibi İzmir &gt; Erzurum olur. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

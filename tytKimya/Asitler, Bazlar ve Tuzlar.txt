@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 8: Asitler, Bazlar ve Tuzlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 8: ASİTLER, BAZLAR VE TUZLAR</h1>
+        <p>Arrhenius Tanımı, İndikatörler, Metallerin Asit-Baz Tepkimeleri ve Önemli Endüstriyel Tuzlar</p>
+    </div>
+
+    <h2>1. ASİT VE BAZLARIN GENEL KARAKTERİSTİKLERİ</h2>
+    <p>Arrhenius tanımına göre; sulu çözeltisine hidrojen iyonu (H<sup>+</sup> ya da hidronyum: H<sub>3</sub>O<sup>+</sup>) verebilen maddelere <strong>asit</strong>, sulu çözeltisine hidroksit iyonu (OH<sup>-</sup>) verebilen maddelere ise <strong>baz</strong> denir. İki grubun ayırt edici özellikleri iyi bilinmelidir:</p>
+    <ul>
+        <li><strong>Asitlerin Özellikleri:</strong> Tatları ekşidir (Limon, sirke). Turnusol kağıdını <strong>mavi renkten kırmızıya</strong> çevirirler. pH değerleri 25 derecede 7'den küçüktür. Sulu çözeltileri elektrik akımını iletir (Elektrolittir). Aşındırıcı etkiye sahiptirler.</li>
+        <li><strong>Bazların Özellikleri:</strong> Tatları acıdır (Sabun, çikolata). Ele kayganlık hissi verirler. Turnusol kağıdını <strong>kırmızı renkten maviye</strong> çevirirler. pH değerleri 25 derecede 7'den büyüktür. Sulu çözeltileri elektrik akımını iletir.</li>
+    </ul>
+    
+    <div class="tip-box">
+        <strong>⚠️ FORMÜL ALDATMACALARINA DİKKAT (ÖSYM Tuzakları):</strong>
+        <br>• Yapısında her H atomu bulunduran madde asit değildir. Örneğin, NH<sub>3</sub> (Amonyak) yapısında H barındırmasına rağmen sulu çözeltisine OH<sup>-</sup> iyonu veren susuz bir <strong>bazdır</strong>. CH<sub>4</sub> ise nötr bir gazdır.
+        <br>• Yapısında her OH grubu bulunduran madde baz değildir. Örneğin, CH<sub>3</sub>OH (Metil alkol) ve C<sub>2</sub>H<sub>5</sub>OH (Etil alkol) kovalent yapılı, suda moleküler çözünen <strong>nötr alkollerdir</strong>. CH<sub>3</sub>COOH (Sirke asiti) ise yapısında OH gibi duran bir grup barındırmasına rağmen ortama H<sup>+</sup> veren bir <strong>asittir</strong>.
+    </div>
+
+    <h2>2. METALLERİN ASİTLER VE BAZLARLA REAKSİYONLARI (SINAVIN AMİRAL GEMİSİ)</h2>
+    <p>Kimya sorularında en çok hata yapılan yer, hangi metalin hangi çözeltiyle tepkimeye girip ne gazı açığa çıkaracağı sorusudur. Metaller kimyasal aktifliklerine göre dörde ayrılır:</p>
+    <ul>
+        <li><strong>A) Aktif Metaller (Na, Mg, Ca, Fe, Zn, Al vb.):</strong> Soy metaller dışındaki metallerdir. Tüm asitlerle tepkimeye girerler ve reaksiyon sonucunda <strong>Hidrojen gazı (H<sub>2</sub>)</strong> açığa çıkarırlar.</li>
+        <li><strong>B) Amfoter Metaller (Zn, Al, Pb, Sn, Cr, Be):</strong> <em>"Zeynep Al sana Kırmızı Pabuç Benden"</em> şeklinde kodlanır. Bu metaller hem asitlerle hem de **sadece kuvvetli bazlarla** (NaOH, KOH gibi) tepkimeye girebilirler. İki durumda da açığa çıkan gaz yine <strong>Hidrojen gazıdır (H<sub>2</sub>)</strong>.</li>
+        <li><strong>C) Yarı Soy Metaller (Cu, Hg, Ag):</strong> Bu metaller hidrojenden pasiftir; bu yüzden HCl, HBr gibi içinde oksijen bulunmayan asitlerle <u>asla tepkimeye girmezler.</u> Sadece oksijenli ve kuvvetli asitlerle tepkimeye girerler ve <strong>H<sub>2</sub> gazı çıkaramazlar:</strong>
+        <br>• Derişik HNO<sub>3</sub> (Kezzap) ile tepkimeye girerlerse: NO<sub>2</sub> (Azot dioksit) gazı çıkarırlar.
+        <br>• Seyreltik HNO<sub>3</sub> ile tepkimeye girerlerse: NO (Azot monoksit) gazı çıkarırlar.
+        <br>• Derişik H<sub>2</sub>SO<sub>4</sub> (Zaç yağı) ile tepkimeye girerlerse: SO<sub>2</sub> (Kükürt dioksit) gazı çıkarırlar.</li>
+        <li><strong>D) Tam Soy Metaller (Au, Pt):</strong> Altın ve platin hiçbir asitle veya bazla tek başına tepkimeye girmez. Sadece kezzap ve tuz ruhu karışımı olan <strong>Kral Suyu</strong> ile reaksiyon verirler.</li>
+    </ul>
+
+    <h2>3. GÜNLÜK HAYATTA KULLANILAN ÖNEMLI TUZLAR</h2>
+    <p>Asit og bazların nötrleşmesiyle oluşan iyonik yapılı saf maddelere tuz denir. ÖSYM, müfredattaki 5 tuzu kullanım alanıyla eşleştirmenizi ister:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Tuzun Formülü</th>
+                <th>Sistematik Adı</th>
+                <th>Yaygın / Gündelik Adı</th>
+                <th>Kritik Endüstriyel Kullanım Alanı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>NaCl</td>
+                <td>Sodyum klorür</td>
+                <td>Yemek tuzu</td>
+                <td>Gıdaların korunmasında, dericilikte, kışın yolların buzunun eritilmesinde kullanılır. Nötr bir tuzdur.</td>
+            </tr>
+            <tr>
+                <td>Na<sub>2</sub>CO<sub>3</sub></td>
+                <td>Sodyum karbonat</td>
+                <td>Çamaşır sodası</td>
+                <td>Sert suların yumuşatılmasında, cam üretiminde, sabun ve deterjan sanayisinde kullanılır. Bazik bir tuzdur.</td>
+            </tr>
+            <tr>
+                <td>NaHCO<sub>3</sub></td>
+                <td>Sodyum bikarbonat</td>
+                <td>Yemek sodası / Kabartma tozu</td>
+                <td>Hamur kabartma tozu olarak, antiasit özelliğiyle mide ilaçlarında, diş macunlarında kullanılır. Bazik bir tuzdur.</td>
+            </tr>
+            <tr>
+                <td>CaCO<sub>3</sub></td>
+                <td>Kalsiyum karbonat</td>
+                <td>Kireç taşı</td>
+                <td>Suda çok az çözünür. İnşaat sektöründe çimento, kireç, mermer ve tebeşir imalatında kullanılır. Bazik bir tuzdur.</td>
+            </tr>
+            <tr>
+                <td>NH<sub>4</sub>Cl</td>
+                <td>Amonyum klorür</td>
+                <td>Nişadır</td>
+                <td>Kuru pil imalatında (elektrolit olarak), lehimcilikte metal yüzeylerin temizlenmesinde, öksürük şuruplarında kullanılır. Asidik bir tuzdur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Kimya laboratuvarında raftaki etiketleri sökülmüş üç ayrı şişede saf alkol (C<sub>2</sub>H<sub>5</sub>OH), sirke asiti (CH<sub>3</sub>COOH) ve amonyak (NH<sub>3</sub>) sulu çözeltileri bulunmaktadır. <br><br>
+        Bu çözeltilerin asitlik, bazlık ve nötrlük durumlarını doğru teşhis etmek isteyen bir öğrencinin yaptığı aşağıdaki yorumlardan hangisi kimya bilimine göre doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Üç çözelti de yapısında hidrojen barındırdığı için mavi turnusol kağıdını kırmızıya çevirir.</li>
+            <li>B) CH<sub>3</sub>COOH yapısındaki OH grubundan ötürü güçlü bir bazdır.</li>
+            <li>C) C<sub>2</sub>H<sub>5</sub>OH çözeltisine turnusol kağıdı batırıldığında renk değişimi gözlenmez, çünkü nötr bir alkoldür.</li>
+            <li>D) NH<sub>3</sub> yapısında H atomu barındırdığı için asit sınıfında yer alır ve pH değeri 7'den küçüktür.</li>
+            <li>E) Amonyak çözeltisi mermer tezgahı aşındırırken, sirke asiti cam şişede saklanamaz.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Alkoller (C<sub>2</sub>H<sub>5</sub>OH) suda iyonlaşmaz, moleküler çözünürler ve nötr karakterlidirler; bu yüzden indikatörlere etki etmezler (C şıkkı doğrudur). CH<sub>3</sub>COOH yapısında OH gibi bir grup barındırsa da karboksil asitidir, yani asittir. NH<sub>3</sub> (amonyak) ise yapısında H olmasına rağmen suya OH iyonu veren susuz bir bazdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bakır (Cu) metalinden yapılmış bir kaba, laboratuvarda hidroklorik asit (HCl) sulu çözeltisi döküldüğünde herhangi bir kimyasal tepkimenin ve gaz çıkışının gerçekleşmediği gözlenmiştir. <br><br>
+        Buna göre, bakır metalinin bu asitle reaksiyona girmemesinin <u>temel kimyasal gerekçesi</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bakırın amfoter bir metal olmasından dolayı sadece bazlarla reaksiyona girmesi</li>
+            <li>B) Bakırın yarı soy bir metal olması ve yapısında oksijen bulundurmayan asitlerle tepkime vermemesi</li>
+            <li>C) Bakırın aktifliğinin hidrojenden çok yüksek olması</li>
+            <li>D) HCl asitinin bakır yüzeyleri parlatan nötr bir tuz ruhu çözeltisi olması</li>
+            <li>E) Bakırın sadece saf su içerisinde çözünebilen bir kristal türü olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bakır (Cu), cıva (Hg) ve gümüş (Ag) yarı soy metallerdir. Bu metaller hidrojenden pasif oldukları için oksijensiz asitlerle (HCl, HBr gibi) kesinlikle tepkime **vermezler**. Sadece derişik HNO<sub>3</sub> veya H<sub>2</sub>SO<sub>4</sub> gibi oksijenli kuvvetli asitlerle reaksiyona girerler ve bu reaksiyonlardan asla H<sub>2</sub> gazı çıkmaz, NO<sub>2</sub> veya SO<sub>2</sub> gazları çıkar. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Çinko (Zn) metalinden yapılmış bir kaba sırasıyla şu çözeltiler ekleniyor:
+        <br>I. Beher: Sülfürik asit (H<sub>2</sub>SO<sub>4</sub>) çözeltisi
+        <br>II. Beher: Sodyum hidroksit (NaOH) kuvvetli baz çözeltisi
+        <br><br>
+        Buna göre bu iki beherde gerçekleşen reaksiyonlar sonucunda açığa çıkan gaz türleri aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) I: H<sub>2</sub> gazı , II: Gaz çıkışı olmaz</li>
+            <li>B) I: SO<sub>2</sub> gazı , II: H<sub>2</sub> gazı</li>
+            <li>C) I: H<sub>2</sub> gazı , II: H<sub>2</sub> gazı</li>
+            <li>D) I: O<sub>2</sub> gazı , II: H<sub>2</sub> gazı</li>
+            <li>E) I: H<sub>2</sub> gazı , II: O<sub>2</sub> gazı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Çinko (Zn) metaller dünyasında bir <strong>amfoter metaldir</strong>. Amfoter metaller hem asitlerle hem de kuvvetli bazlarla tepkimeye girebilme yeteneğine sahiptir. Amfoter metallerin asitlerle veya kuvvetli bazlarla yaptığı tüm reaksiyonlarda açığa çıkan gaz her zaman <strong>Hidrojen (H<sub>2</sub>) gazıdır</strong>. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Kuru pil imalatında elektrolit olarak kullanılan, metal sanayisinde lehimlenecek yüzeylerin temizlenmesini üstlenen ve halk arasında "Nişadır" olarak adlandırılan asidik karakterli tuzun kimyasal formülü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) NaCl</li>
+            <li>B) Na<sub>2</sub>CO<sub>3</sub></li>
+            <li>C) NH<sub>4</sub>Cl</li>
+            <li>D) CaCO<sub>3</sub></li>
+            <li>E) NaHCO<sub>3</sub></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Amonyum klorür bileşiğinin sistematik adıdır ve halk arasındaki yaygın adı <strong>Nişadır</strong>'dır. Kimyasal formülü <strong>NH<sub>4</sub>Cl</strong> şeklindedir. Kuru pillerde ve lehimcilikte yaygın olarak kullanılır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Mutfakta kek veya börek yapımında hamurun kabarmasını sağlamak amacıyla kullanılan, kimyasal adı sodyum bikarbonat olan ve antiasit özelliği sayesinde mide yanmalarına karşı ilaç sanayisinde de tercih edilen bazik tuzun formülü hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Na<sub>2</sub>CO<sub>3</sub></li>
+            <li>B) NaHCO<sub>3</sub></li>
+            <li>C) CaCO<sub>3</sub></li>
+            <li>D) NaCl</li>
+            <li>E) NH<sub>4</sub>Cl</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sodyum bikarbonat bileşiği, halk arasında yemek sodası veya kabartma tozu olarak bilinir. Formülü <strong>NaHCO<sub>3</sub></strong> şeklindedir. Yapısındaki karbonat iyonlarından dolayı hamur pişerken CO<sub>2</sub> gazı çıkararak hamurun kabarmasını sağlar. Na<sub>2</sub>CO<sub>3</sub> ise çamaşır sodasıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

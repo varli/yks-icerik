@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 2: Atomun Yapısı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 2: ATOMUN YAPISI</h1>
+        <p>Tarihsel Atom Modelleri, Temel Tanecikler, İyon Kavramı ve İzotop-İzoton-İzobar İlişkileri</p>
+    </div>
+
+    <h2>1. TARİHSEL ATOM MODELLERİNİN EVRİMİ</h2>
+    <p>Atom kavramı ilk kez Demokritos tarafından felsefi olarak ortaya atılmış olsa da deneysel verilere dayalı ilk bilimsel atom teorisi 19. yüzyılın başında John Dalton tarafından kurulmuştur. Günümüze kadar atom teorileri şu kronolojik kırılımlarla gelişmiştir:</p>
+    <ul>
+        <li><strong>Dalton Atom Modeli (Bilardo Topu Modeli):</strong> Atomu içi dolu, berk, bölünemez ve parçalanamaz küreler olarak tanımlamıştır. Bir elementin tüm atomlarının kütle ve şekil olarak birebir aynı olduğunu savunmuştur. <em>(Eksikleri: Atom parçalanabilir, içi boşlukludur ve izotop atomların varlığından ötürü aynı elementin tüm atomları aynı kütlede değildir.)</em></li>
+        <li><strong>Thomson Atom Modeli (Üzümlü Kek Modeli):</strong> Atomun içinde negatif yüklerin ($\text{e}^-$), pozitif yüklü homojen bir küre içerisine dağıldığını söylemiştir. Atomun kendisi nötrdür ve elektronların kütlesi ihmal edilecek kadar küçüktür. <em>(Eksikleri: Pozitif ve negatif yükler atomda homojen dağılmaz, çekirdek kavramı yoktur.)</em></li>
+        <li><strong>Rutherford Atom Modeli (Gezegen Modeli):</strong> Altın levhaya gönderdiği pozitif yüklü alfa ($\alpha$) ışınlarının büyük kısmının sapmadan doğrudan geçtiğini görerek <strong>atomun büyük kısmının boşluklu olduğunu</strong> keşfetmiştir. Pozitif yüklerin çok dar ve yoğun bir merkezde toplandığını söyleyerek **Çekirdek** kavramını kimyaya kazandırmıştır. Elektronlar çekirdek çevresindeki boşlukta döner. Çekirdek kütlesinin yaklaşık yarısını protonlar oluşturur. <em>(Eksikleri: Elektronların neden çekirdeğe düşmediğini veya fırlamadığını, nötronların tam ne olduğunu açıklayamamıştır.)</em></li>
+        <li><strong>Bohr Atom Modeli (Yörünge Modeli):</strong> Elektronların çekirdek etrafında rastgele değil, belirli enerji düzeylerine sahip <strong>yörüngelerde (katman / kabuk)</strong> dairesel olarak döndüğünü savunmuştur. Temel haldeki bir elektron dışarıdan enerji alarak üst katmana geçerse buna **uyarılmış hal** denir (kararsızdır). Üst katmandaki elektron temel hale dönerken dışarıya ışık (foton) yayar. <em>(Eksikleri: Sadece tek elektronlu sistemlerin [$\text{H}$, $\text{He}^+$, $\text{Li}^{2+}$] spektrumunu açıklayabilmiş, çok elektronlu atomları ve elektronun dalga özelliğini açıklayamamıştır.)</em></li>
+    </ul>
+
+    <h2>2. ATOMU OLUŞTURAN TEMEL TANECİKLER VE YERLEŞİM ŞEMASI</h2>
+    <p>Atom; çekirdek ve elektron bulutu olmak üzere iki ana bölgeden oluşur. Çekirdekte protonlar ($\text{p}^+$) ve nötronlar ($\text{n}^0$) yer alırken, çekirdeğin dışındaki devasa boşlukta ise elektronlar ($\text{e}^-$) hareket eder. Bir element sembolü ($X$) etrafındaki taneciklerin yerleşim koordinatları ve matematiksel formülleri ÖSYM sorularının temel işlem alanıdır:</p>
+
+    <div class="highlight-box font-mono" style="text-align: center; font-size: 14pt;">
+        $$_{\text{İyon Yükü}} \quad X \quad ^{\text{Kütle Numarası (A)}}$$
+        $$_{\text{Elektron Sayısı}} \quad X \quad _{\text{Proton Sayısı (Z) (Atom Numarası)}}^{\text{Nötron Sayısı (N)}}$$
+    </div>
+
+    <h3>Pratik Hesaplama Saat Yönü Kuralı:</h3>
+    <ul>
+        <li><strong>Formül 1:</strong> $\text{Proton Sayısı (Z)} = \text{Elektron Sayısı} + \text{İyon Yükü}$</li>
+        <li><strong>Formül 2:</strong> $\text{Kütle Numarası (A)} = \text{Proton Sayısı (Z)} + \text{Nötron Sayısı (N)}$</li>
+        <li><strong>Atom Numarası (Z):</strong> Çekirdek yükü veya proton sayısı olarak da adlandırılır. Elementin kimlik kartıdır; proton sayısı değişirse elementin cinsi değişir.</li>
+        <li><strong>Nükleon Sayısı:</strong> Kütle numarasının diğer adıdır. Çekirdekteki toplam tanecik (proton + nötron) sayısını ifade eder.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ İYON KAVRAMINA DİKKAT (Katyon ve Anyon):</strong>
+        <br>Nötr bir atomda Proton Sayısı = Elektron Sayısıdır. Atomlar sadece <strong>elektron alışverişi</strong> yapabilirler; proton ve nötron sayıları kimyasal tepkimelerde asla değişmez.
+        <br>• <strong>Katyon ($X^+$):</strong> Elektron <u>vermiş</u> pozitif yüklü iyondur. ($\text{Proton} > \text{Elektron}$). Elektron verildiği için elektron başına düşen çekim kuvveti artar ve <strong>iyon çapı küçülür.</strong>
+        <br>• <strong>Anyon ($X^-$):</strong> Elektron <u>almış</u> negatif yüklü iyondur. ($\text{Elektron} > \text{Proton}$). Elektron alındığı için elektronlar arası itme artar ve <strong>iyon çapı büyür.</strong>
+    </div>
+
+    <h2>3. ATOM TÜRLERİ ARASINDAKİ İLİŞKİLER (İZO- KAVRAMLARI)</h2>
+    <p>Farklı veya aynı atomların tanecik sayılarının kıyaslanmasıyla oluşan 4 temel terim mevcuttur:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Terim Adı</th>
+                <th>Aynı Olan Tanecik</th>
+                <th>Farklı Olan Tanecik</th>
+                <th>Kritik Coğrafi / Kimyasal Özellik</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>İzotop</strong></td>
+                <td>Proton Sayısı (Atom No)</td>
+                <td>Nötron ve Kütle Numarası</td>
+                <td>Aynı elemente aittirler. <strong>Kimyasal özellikleri aynı</strong> (elektron sayıları da eşitse), fiziksel özellikleri farklıdır. (Örn: $_{1}^{1}\text{H}$ - $_{1}^{2}\text{H}$)</td>
+            </tr>
+            <tr>
+                <td><strong>İzoton</strong></td>
+                <td>Nötron Sayısı</td>
+                <td>Proton ve Kütle Numarası</td>
+                <td>Farklı elementlerdir. Proton sayıları farklı olduğu için <strong>hem kimyasal hem fiziksel özellikleri tamamen farklıdır.</strong> (Örn: $_{11}^{23}\text{Na}$ - $_{12}^{24}\text{Mg}$)</td>
+            </tr>
+            <tr>
+                <td><strong>İzobar</strong></td>
+                <td>Kütle Numarası (A)</td>
+                <td>Proton ve Nötron Sayısı</td>
+                <td>Farklı elementlerdir. Kütleleri eşit görünse de kimlikleri (protonları) farklı olduğundan <strong>tüm özellikleri farklıdır.</strong> (Örn: $_{19}^{40}\text{K}$ - $_{20}^{40}\text{Ca}$)</td>
+            </tr>
+            <tr>
+                <td><strong>İzoelektronik</strong></td>
+                <td>Elektron Sayısı ve Dizilimi</td>
+                <td>Proton Sayısı</td>
+                <td>En az biri iyon halindedir. Proton sayıları farklı olduğu için <strong>fiziksel ve kimyasal özellikleri farklıdır.</strong> (Örn: $_{11}\text{Na}^+$ [10e] - $_{9}\text{F}^-$ [10e])</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Ernest Rutherford, ince bir altın levha üzerine pozitif yüklü alfa ($\alpha$) tanecikleri gönderdiğinde, ışınların %99.9'unun hiçbir sapmaya uğramadan levhadan doğrudan geçtiğini, çok az bir kısmının ise tam merkezden geriye yansıdığını gözlemlemiştir. <br><br>
+        Rutherford'un yaptığı bu deneyin sonuçları, atom yapısı hakkında aşağıdaki doğrulardan hangisinin felsefi ve bilimsel olarak <u>ilk kez</u> keşfedilmesini sağlamıştır?</div>
+        <ul class="options-list">
+            <li>A) Elektronların belirli enerji seviyesindeki dairesel yörüngelerde döndüğünü</li>
+            <li>B) Atomun parçalanamayan en küçük, içi dolu berk küre olduğunu</li>
+            <li>C) Atomun çok büyük bir kısmının boşluktan ibaret olduğunu ve pozitif yüklerin "çekirdek" adı verilen küçük hacimde toplandığını</li>
+            <li>D) Negatif yüklerin pozitif küre içinde homojen olarak dağıldığını</li>
+            <li>E) Nötronların kütlesinin protonların kütlesine tam olarak eşit olduğunu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Rutherford'un alfa ışınları gönderme deneyi, kimya tarihinde **Çekirdekli Atom Modeli**'nin doğuşudur. Işınların neredeyse tamamının direkt geçmesi atomun büyük oranda **boşluklu** olduğunu, çarpanların geri dönmesi ise merkezde artı yüklerin sıkıştığı yoğun bir çekirdeğin varlığını kanıtlar. A şıkkı Bohr'un, B şıkkı Dalton'un, D şıkkı Thomson'ın tezidir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong>  $_{15}^{31}\text{P}^{3-}$ iyonu ile ilgili olarak;
+        <br>I. Elektron sayısı 18'dir.
+        <br>II. Nükleon sayısı 31'dir.
+        <br>III. Çekirdek yükü +15'tir.
+        <br><br>
+        ifadelerinden hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II and III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> Element sembolünün sol altındaki sayı (15) proton sayısı yani çekirdek yüküdür (III doğru). Sol üstteki sayı (31) kütle numarası yani nükleon sayısıdır (II doğru). İyon yükü -3'tür, yani atom 3 elektron almıştır. $\text{Elektron sayısı} = \text{Proton} - (\text{İyon Yükü}) = 15 - (-3) = 18$ olur (I doğru). Öncüllerin tamamı doğrudur. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Nötr bir kükürt ($_{16}\text{S}$) atomu dışarıdan 2 elektron alarak $_{16}\text{S}^{2-}$ anyonuna dönüştüğünde, bu atomda meydana gelen değişimlerle ilgili aşağıdakilerden hangisi <u>yanlıştır</u>?</div>
+        <ul class="options-list">
+            <li>A) Elektron sayısı 16'dan 18'e yükselir.</li>
+            <li>B) Çekirdeğin çekim gücü ve proton sayısı değişmez.</li>
+            <li>C) Bir elektron başına düşen çekirdek çekim kuvveti azalır.</li>
+            <li>D) Taneciğin fiziksel ve kimyasal özellikleri değişmez.</li>
+            <li>E) Elektronlar arası itme kuvveti artacağından iyon yarıçapı (çapı) büyür.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Atomlar elektron aldıklarında veya verdiklerinde **kimyasal ve fiziksel özellikleri kesinlikle değişir** (D şıkkı hatalıdır). Çekirdekteki proton sayısı sabit kalırken (16) elektron sayısı 18 olduğu için elektron başına düşen çekim azalır (C doğru) ve elektronlar birbirini iterek çapı büyütür, yani anyon çapı nötr halinden büyüktür (E doğru). Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> $_{17}^{35}\text{Cl}$ atomu ile $_{17}^{37}\text{Cl}$ atomu birbirinin izotopudur. <br><br>
+        Buna göre, bu iki nötr klor izotopuyla ilgili aşağıdaki niceliklerden hangisinin <u>aynı (eşit)</u> olması beklenir?</div>
+        <ul class="options-list">
+            <li>A) Çekirdekteki nötron sayıları</li>
+            <li>B) Kütle numaraları (Nükleon sayıları)</li>
+            <li>C) Aynı elementle (örneğin sodyum metaliyle) oluşturdukları bileşiklerin kimyasal özellikleri</li>
+            <li>D) Atomların yoğunlukları ve erime noktaları</li>
+            <li>E) Çekirdekteki toplam tanecik sayıları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İzotop atomların proton sayıları ve elektron sayıları nötr haldeyken eşit olduğu için **kimyasal özellikleri birebir aynıdır** (C şıkkı doğrudur). Kimyasal özellikleri aynı olduğu için başka elementlerle yapacakları reaksiyonlar ve oluşan bileşiklerin kimyasal karakteri eşittir. Nötron sayıları (35-17=18 ve 37-17=20) farklı olduğu için kütleleri, yoğunlukları gibi fiziksel özellikleri farklıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Kimya öğretmeni tahtaya şu iki taneciği yazmıştır: $_{19}\text{K}^{+}$ ve $_{18}\text{Ar}$ <br><br>
+        Öğrencilerinden bu iki tanecik arasındaki ilişkiyi analiz etmelerini istemiştir. Buna göre aşağıdaki öğrenci çıkarımlarından hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Bu iki tanecik birbirinin izotopudur.</li>
+            <li>B) İki taneciğin de nötron sayıları eşit olduğundan izotondurlar.</li>
+            <li>C) Kütle numaraları aynı olduğu için izobardırlar.</li>
+            <li>D) Elektron sayıları (18) ve dizilimleri aynı olduğu için birbirinin izoelektroniğidirler.</li>
+            <li>E) Proton sayıları farklı olmasına rağmen kimyasal özellikleri aynıdır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> $_{19}\text{K}^{+}$ iyonunun elektron sayısı $19 - 1 = 18$’dir. Nötr $_{18}\text{Ar}$ atomunun da elektron sayısı 18'dir. Elektron sayıları ve elektron dizilimleri aynı, proton sayıları (19 ve 18) farklı olan bu tarz tanecik çiftlerine kimyada <strong>İzoelektronik</strong> tanecikler denir. Farklı elementler oldukları için kimyasal özellikleri farklıdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

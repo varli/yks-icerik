@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 9: Kimya Her Yerde</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 9: KİMYA HER YERDE</h1>
+        <p>Temizlik Maddelerinin Yapısı, Polimer Malzemeler, İlaç Formları ve Kozmetikler</p>
+    </div>
+
+    <h2>1. TEMİZLİK MADDELERİNİN KİMYASAL YAPISI</h2>
+    <p>Günlük hayatta en çok kullandığımız yüzey aktif temizlik maddeleri sabunlar ve deterjanlardır. İki türün de kirleri temizleme mekanizması (kuyruk kısımlarının kire, baş kısımlarının suya tutunması) aynı olsa da kimyasal kökenleri tamamen farklıdır:</p>
+    <ul>
+        <li><strong>Sabunlar:</strong> Bitkisel veya hayvansal yağların (doğal kaynakların), NaOH veya KOH gibi kuvvetli bazlarla tepkimesi sonucu oluşan uzun zincirli yağ asidi tuzlarıdır (Saponifikasyon). 
+        <br>• Eğer üretimde NaOH (sodyum hidroksit) kullanılırsa <strong>sert sabun (beyaz sabun)</strong>, KOH (potasyum hidroksit) kullanılırsa <strong>yumuşak sabun (Arap sabunu)</strong> elde edilir. Doğada kolayca parçalanırlar, çevre kirliliğine neden olmazlar. Sert sularda (kalsiyum ve magnezyum iyonu içeren sularda) çökelek oluşturdukları için <u>iyi temizlemezler, köpürmezler.</u></li>
+        <li><strong>Deterjanlar:</strong> Petrol ve türevlerinden (sentetik kaynaklardan) elde edilen kimyasal maddelerdir. Doğada kolay parçalanmazlar, yapılarındaki benzen halkası ve fosfatlar sebebiyle ciddi çevre kirliliğine yol açarlar. Sabunların aksine, <u>sert sularda bile köpürme özelliklerini kaybetmezler ve çok iyi temizlerler.</u></li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ HİDROFİL VE HİDROFOB KAVRAMLARI (Kirin Temizlenme Mekanizması):</strong>
+        <br>Hem sabun hem de deterjan molekülleri iki ana kısımdan oluşur:
+        <br>• <strong>Hidrofob Uç (Suyu Sevmeyen Uç):</strong> Uzun karbon zincirinden oluşan apolar kısımdır. Suyu sevmez, <strong>kire tutunur.</strong>
+        <br>• <strong>Hidrofil Uç (Suyu Seven Uç):</strong> Molekülün polar olan baş kısmıdır. Suyu sever, <strong>su moleküllerine tutunur.</strong> Su ve temizlik maddesi kire etki ettiğinde, hidrofob uç kiri sarıp yüzeyden koparır, hidrofil uç ise suyla birleşerek kirin akıp gitmesini sağlar.
+    </div>
+
+    <h2>2. POLİMER MALZEMELER VE KULLANIM ALANLARI</h2>
+    <p>Çok sayıda küçük molekülün (monomer) kimyasal bağlarla birbirine bağlanarak oluşturduğu devasa zincirli yüksek molekül ağırlıklı yapılara <strong>polimer</strong> denir. ÖSYM, yaygın polimerlerin kısaltmalarını ve kullanım alanlarını eşleştirmenizi isteyebilir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Polimer Adı</th>
+                <th>Kısa Adı</th>
+                <th>Kritik Endüstriyel Özelliği ve Kullanım Alanı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Polietilen tereftalat</td>
+                <td>PET</td>
+                <td>Hafif, şeffaf ve geri dönüştürülebilir plastik türüdür. Su şişeleri, ambalaj yapımı.</td>
+            </tr>
+            <tr>
+                <td>Polivinil klorür</td>
+                <td>PVC</td>
+                <td>Hava şartlarına ve aşınmaya dayanıklıdır. Kapı ve pencere profilleri, su boruları imalatı.</td>
+            </tr>
+            <tr>
+                <td>Politetraflor etilen</td>
+                <td>PTFE (Teflon)</td>
+                <td>Isıya, sürtünmeye ve kimyasallara son derece dayanıklı yapışmaz malzemedir. Mutfak gereçleri kaplaması.</td>
+            </tr>
+            <tr>
+                <td>Polistiren</td>
+                <td>PS</td>
+                <td>Isı yalıtım özelliği yüksektir. Tek kullanımlık çatal-kaşıklar, yalıtım köpükleri.</td>
+            </tr>
+            <tr>
+                <td>Kevlar</td>
+                <td>Kevlar</td>
+                <td>Aynı ağırlıktaki çelikten 5 kat daha hafif ve dayanıklı yapay liftir. Kurşun geçirmez yelekler, zırh yapımı.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. İLAÇ FORMLARI VE KOZMETİK MADDELER</h2>
+    <p>İlaçlar, hastalıkların teşhis veya tedavisinde kullanılan kimyasal formülasyonlardır. Vücuda alınış yollarına göre katı (tablet, kapsül, hap), yarı katı (merhem, krem, pomad), sıvı (şurup, iğne/ampul) formlarda hazırlanırlar. İğne formu, doğrudan kana karıştığı için <u>etki hızı en yüksek olan ilaç formudur.</u></p>
+    <p>Kozmetik maddeler ise estetik ve temizlik amacıyla vücuda uygulanan kimyasallardır. Yapılarında raf ömrünü uzatan koruyucular (parabenler), nemlendiriciler, emülgatörler, boyalar ve ağır metaller barındırırlar. Bilinçsiz ve aşırı kullanımları cilt hastalıklarına ve toksik birikimlere yol açabilir.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Sert sular, bünyesinde yüksek miktarda kalsiyum (Ca) ve magnezyum (Mg) iyonları barındıran sulardır. Bu iyonlar bazı temizlik maddeleriyle reaksiyona girerek çözünmeyen çökelekler oluştururlar ve temizleme verimini düşürürler. <br><br>
+        Buna göre, sert sularda köpürme özelliğini kaybederek çökelek oluşturan ve bu sebeple sert sularda verimli temizlik yapamayan temizlik maddesi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Çamaşır suyu</li>
+            <li>B) Petrol kökenli deterjanlar</li>
+            <li>C) Beytülmal dezenfektanları</li>
+            <li>D) Bitkisel veya hayvansal yağlardan üretilen geleneksel sabunlar</li>
+            <li>E) Sıvı deterjan bileşikleri</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Geleneksel sabunlar doğal yağ asidi tuzlarıdır. Sert sulardaki kalsiyum ve magnezyum iyonları sabun molekülleriyle birleşerek "sabun taşı" adı verilen çözünmeyen çökelekler oluşturur. Bu durum sabunun köpürmesini engeller ve temizleme gücünü tüketir. Deterjanlar ise petrol kökenli sentetik yapılar olduklarından sert sulardan etkilenmezler ve her suda köpürürler. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir deterjan molekülünün yapısı incelendiğinde uzun bir karbon zinciri (kuyruk kısmı) ile sülfonat grubu içeren polar bir baş kısmı görülmektedir. Bir kıyafetin üzerindeki yağ lekesini (kiri) temizleme sürecinde bu molekül aktif rol oynar. <br><br>
+        Buna göre, deterjan molekülünün kire ve suya tutunma mekanizmasıyla ilgili aşağıdaki eşleştirmelerden hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Baş kısım hidrofobdur kire tutunur, kuyruk kısım hidrofil olup suya tutunur.</li>
+            <li>B) Kuyruk kısım hidrofobdur kire tutunur, baş kısım hidrofil olup suya tutunur.</li>
+            <li>=C) İki kısım da hidrofil özellik göstererek sadece su molekülleriyle bağ kurar.</li>
+            <li>D) Kuyruk kısım polar yapıdadır ve su içinde tamamen çözünür.</li>
+            <li>E) Baş kısım apolar yapıdadır ve kirin merkezine nüfuz eder.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Temizlik maddelerinde uzun karbon zinciri apolardır, yani suyu sevmeyen **hidrofob** kısımdır. Kirler de apolar yapıda (yağ kökenli) olduğundan, benzer benzeri çeker kuralıyla hidrofob kuyruk kısmı doğrudan **kire tutunur**. Polar olan baş kısım ise suyu seven **hidrofil** kısımdır ve **su moleküllerine tutunur**. Böylece su hareket ettikçe kir yüzeyden sökülür. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Günlük hayatta teflon olarak bilinen, monomer birimlerinin basamaklı olarak birbirine bağlanmasıyla üretilen, yüksek ısıya, sürtünmeye ve asit-baz gibi güçlü kimyasallara karşı mükemmel bir dayanıklılık gösteren yapışmaz mutfak gereçleri kaplama malzemesinin monomer adı ve polimer kısaltması aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Vinil klorür - PVC</li>
+            <li>B) Etilen - PET</li>
+            <li>C) Tetraflor etilen - PTFE</li>
+            <li>D) Stiren - PS</li>
+            <li>E) Amorf karbon - Kevlar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Halk arasında teflon olarak adlandırılan yapışmaz tava kaplama malzemesinin sistematik adı Politetraflor etilen, kısa kodu ise <strong>PTFE</strong>'dir. Bu polimerin monomer yapı taşı tetraflor etilendir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Hafiflik, esneklik, yüksek mukavemet ve yalıtkanlık gibi avantajlarından ötürü plastik ve polimer malzemeler endüstride çok yaygın kullanılırlar. Ancak bu malzemelerin bilinçsiz üretimi ve doğaya atılması ciddi riskler doğurur. <br><br>
+        Buna göre, polimer malzemelerin çevre ve insan sağlığı üzerindeki olumsuz etkileriyle ilgili aşağıdakilerden hangisi <u>söylenemez</u>?</div>
+        <ul class="options-list">
+            <li>A) Doğada yüzyıllarca bozulmadan kalabildikleri için büyük çöp yığınları ve toprak kirliliği oluştururlar.</li>
+            <li>B) Yakılarak imha edilmek istendiklerinde atmosfere zehirli ve sera etkili gazlar salarlar.</li>
+            <li>C) Gıdalarla temas ettiklerinde plastik yapısındaki kimyasal katkı maddeleri (fitalatlar, BPA) gıdaya sızarak hormonal bozukluklara yol açabilir.</li>
+            <li>D) Mikroplastik formuna dönüşerek su kaynaklarına ve besin zinciriyle canlı organizmalara taşınırlar.</li>
+            <li>E) Tamamı biyobozunur özellikte olduğundan toprağa karıştıklarında tarımsal verimliliği artıran gübre görevi görürler.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> Plastik ve polimer malzemelerin çok büyük kısmı petrol kökenli yapay maddelerdir. Doğada mikroorganizmalar tarafından kolayca parçalanamazlar (biyobozunur değillerdir). Bu yüzden gübre görevi görmeleri veya toprağı beslemeleri söz konusu değildir, aksine toksik kirlilik yaratırlar (E şıkkı hatalıdır). Cevap E şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Hastalıkların tedavisinde etkin maddelerin vücuda en doğru yolla ulaştırılması için farklı ilaç formları geliştirilmiştir. Şuruplar sıvı, tabletler katı formdayken merhem ve kremler yarı katı formdadır. <br><br>
+        Buna göre, acil müdahale gerektiren durumlarda, etkin maddenin sindirim sistemine uğramadan <strong>doğrudan kana karışmasını sağlayan ve etki hızı en yüksek olan</strong> ilaç formu aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kapsül</li>
+            <li>B) Şurup</li>
+            <li>C) Tablet / Hap</li>
+            <li>D) İğne (Ampul / Flan)</li>
+            <li>E) Merhem / Pomad</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ağız yoluyla alınan katı (tablet) veya sıvı (şurup) ilaçlar önce mide ve bağırsak sisteminde sindirilir, karaciğerde elenir ve daha sonra kana karışır; bu yüzden etkileri yavaştır. Merhemler ise cilt üzerinden emilir. Ancak <strong>iğne (enjeksiyon) formundaki ilaçlar</strong> doğrudan damar veya kas yoluyla kana zerk edildiği için sindirime uğramazlar ve vücutta en hızlı etkiyi gösteren formdur. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

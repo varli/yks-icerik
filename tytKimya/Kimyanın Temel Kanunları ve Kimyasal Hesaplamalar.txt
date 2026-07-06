@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 6: Kimyanın Temel Kanunları ve Hesaplamalar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 6: KİMYANIN TEMEL KANUNLARI VE HESAPLAMALAR</h1>
+        <p>Kimya Kanunları, Mol Kavramı Şifreleri, Tepkime Türleri ve Kimyasal Hesaplama Algoritmaları</p>
+    </div>
+
+    <h2>1. KİMYANIN ÜÇ TEMEL KANUNU</h2>
+    <p>Modern kimyanın doğuşunu sağlayan, kütle ve element oranlarını matematiksel olarak açıklayan kanunlar şunlardır:</p>
+    <ul>
+        <li><strong>A) Kütlenin Korunumu Kanunu (Antoine Lavoisier):</strong> Fiziksel ve kimyasal tüm değişimlerde, tepkimeye giren maddelerin kütleleri toplamı, tepkime sonucunda oluşan maddelerin kütleleri toplamına daima eşittir. Kimyasal olaylarda atom türü ve sayısı asla yok olmaz.</li>
+        <li><strong>B) Sabit Oranlar Kanunu (Joseph Proust):</strong> Bir bileşiği oluşturan elementlerin kütleleri arasında her zaman sabit, değişmeyen ve belirli bir oran vardır. Bileşiğin miktarı değişse de elementlerin kütlece birleşme oranı sabit kalır. (Örn: H<sub>2</sub>O bileşiğinde kütlece H / O oranı daima 1 / 8'dir).</li>
+        <li><strong>C) Katlı Oranlar Kanunu (John Dalton):</strong> <u>Aynı iki element</u> birden fazla farklı bileşik oluşturuyorsa (Örn: CO ve CO<sub>2</sub>), elementlerden birinin sabit miktarına karşılık diğer elementin değişen miktarları arasında tam sayılarla ifade edilen küçük bir oran vardır. 
+        <br><em>Katlı Oranların Aranmadığı Kritik Durumlar:</em> Bileşik çifti iki değil üç tür element içeriyorsa (Örn: HNO<sub>3</sub> - HNO<sub>2</sub>), elementler birbirinden tamamen farklıysa (Örn: CO<sub>2</sub> - SO<sub>2</sub>) veya kaba formülleri birebir aynıysa (Örn: C<sub>2</sub>H<sub>4</sub> - C<sub>3</sub>H<sub>6</sub>) katlı oran <u>aranmaz</u>.</li>
+    </ul>
+
+    <h2>2. MOL KAVRAMININ MATEMATİKSEL ALGORİTMASI</h2>
+    <p>Gözle görülemeyecek kadar küçük olan atom og molekülleri sayabilmek için kullanılan evrensel ölçü birimine <strong>mol</strong> denir. 1 mol tam olarak 6,02 . 10<sup>23</sup> adet taneciğe (atom veya molekül) eşittir. Bu devasa sayıya <strong>Avogadro Sayısı (N<sub>A</sub>)</strong> adı verilir.</p>
+    
+    <h3>Mol Geçiş Formülleri:</h3>
+    <p>Sorularda verilen değerleri mole çevirmek veya molden istenen değere geçmek için şu üç basit eşitlik kullanılır:
+    <br>• <strong>Kütleye Bağlı Geçiş:</strong> Mol (n) = Verilen Kütle (m) / Mol Kütlesi (M<sub>A</sub>)
+    <br>• <strong>Tanecik Sayısına Bağlı Geçiş:</strong> Mol (n) = Verilen Tanecik Sayısı (N) / Avogadro Sayısı (N<sub>A</sub>)
+    <br>• <strong>Hacme Bağlı Geçiş (Sadece Gazlar İçin):</strong> Normal Koşullarda (0°C ve 1 atm) Mol (n) = Verilen Hacim (V) / 22,4 litredir. Oda Koşullarında (25°C ve 1 atm) ise payda 24,5 litredir.</p>
+
+    <div class="tip-box">
+        <strong>⚠️ AKB VE GERÇEK ATOM KÜTLESİ TUZAĞI:</strong>
+        <br>• <strong>Gerçek Atom Kütlesi:</strong> Sadece 1 adet atomun gram cinsinden ağırlığıdır. Formülü: M<sub>A</sub> / N<sub>A</sub> gramdır. (Örn: 1 adet C atomu = 12 / N<sub>A</sub> gramdır).
+        <br>• <strong>Atomik Kütle Birimi (akb):</strong> 1 adet proton veya nötronun kütlesine yakın olan, aşırı küçük bir kütle birimidir. 1 gram = N<sub>A</sub> akb'dir. Dolayısıyla 1 adet C atomu tam olarak <strong>12 akb</strong>'dir.
+    </div>
+
+    <h2>3. KİMYASAL TEPKİME TÜRLERİ</h2>
+    <p>Maddelerin kimlik değiştirerek yeni maddelere dönüşmesi süreçlerine kimyasal tepkime denir. ÖSYM, tepkime denklemlerini verip türünü eşleştirmenizi isteyebilir:</p>
+    <ul>
+        <li><strong>A) Sentez (Oluşum) Tepkimeleri:</strong> İki veya daha fazla basit maddenin birleşerek tek bir karmaşık bileşik oluşturmasıdır. (Örn: N<sub>2</sub> + 3H<sub>2</sub> &rarr; 2NH<sub>3</sub>).</li>
+        <li><strong>B) Analiz (Ayrışma) Tepkimeleri:</strong> Bir bileşiğin ısı veya elektrik enerjisiyle daha basit maddelere parçalanmasıdır. (Örn: CaCO<sub>3</sub> &rarr; CaO + CO<sub>2</sub>).</li>
+        <li><strong>C) Yanma Tepkimeleri:</strong> Maddelerin <strong>Oksijen gazı (O<sub>2</sub>)</strong> ile tepkimeye girmesidir. Yapısında Karbon og Hidrojen bulunduran (organik) maddeler yandığında daima CO<sub>2</sub> og H<sub>2</sub>O gazları açığa çıkar. Azot gazının (N<sub>2</sub>) yanması hariç tüm yanma olayları dışarıya ısı verir (ekzotermiktir).</li>
+        <li><strong>D) Asit - Baz Tepkimeleri (Nötrleşme):</strong> Asit ile bazın reaksiyona girerek <strong>Tuz og Su</strong> oluşturmasıdır. Eğer tepkimede su oluşmuyorsa (Örn: HCl + NH<sub>3</sub> &rarr; NH<sub>4</sub>Cl) bu sadece asit-baz tepkimesidir, nötrleşme sayılmaz.</li>
+        <li><strong>E) Çözünme - Çökelme Tepkimeleri:</strong> İki tuz çözeltisi karıştırıldığında iyonların yer değiştirmesiyle suda çözünmeyen katı bir tuzun (çökelti) dibe batması olayıdır. (Örn: AgNO<sub>3</sub> + NaCl &rarr; AgCl(k) + NaNO<sub>3</sub>).</li>
+    </ul>
+
+    <h2>4. KİMYASAL HESAPLAMALARDA SINIRLAYICI BİLEŞEN MANTIĞI</h2>
+    <p>Kimyasal hesaplama sorularında reaksiyona giren maddelerin miktarları miktar geçişi kurallarına göre incelenir. Kimyasal tepkimelerde katsayılar doğrudan **mol oranlarını** gösterir; kütle oranlarını göstermez.</p>
+    <p><strong>Sınırlayıcı Bileşen Algoritması:</strong> Tepkimede maddelerden biri tamamen tükenirken diğerinden artma meydana geliyorsa, tükenen maddeye <strong>sınırlayıcı bileşen</strong> denir. Reaksiyonda ne kadar ürün oluşacağını, ne kadar madde harcanacağını her zaman <u>katsayısına göre en hızlı tükenen (oranı en küçük olan) sınırlayıcı bileşen belirler.</u></p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Aşağıda verilen bileşik çiftlerinden hangisinin arasında John Dalton tarafından ortaya atılan <strong>Katlı Oranlar Kanunu</strong>'nun uygulanması akademik olarak mümkün <u>değildir</u>?</div>
+        <ul class="options-list">
+            <li>A) CO - CO<sub>2</sub></li>
+            <li>B) N<sub>2</sub>O - NO<sub>2</sub></li>
+            <li>C) FeCl<sub>2</sub> - FeCl<sub>3</sub></li>
+            <li>D) C<sub>2</sub>H<sub>4</sub> - C<sub>4</sub>H<sub>8</sub></li>
+            <li>E) SO<sub>2</sub> - SO<sub>3</sub></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Katlı oranların uygulanabilmesi için iki bileşiğin de aynı iki elementten oluşması og kaba (en sade) formüllerinin birbirinden farklı olması şarttır. D seçeneğindeki C<sub>2</sub>H<sub>4</sub> og C<sub>4</sub>H<sub>8</sub> bileşiklerinin en sade formülleri alındığında ikisinin de CH<sub>2</sub> olduğu görülür. En sade formülleri aynı olan bileşikler arasında katlı oran her zaman 1 çıkacağından katlı oranlar kanunu <strong>aranmaz</strong>. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Mol kütlesi (M<sub>A</sub>) 32 g/mol olan oksijen gazının (O<sub>2</sub>) laboratuvarda yapılan ölçümünde, sadece <strong>1 adet O<sub>2</sub> molekülünün</strong> ağırlığı hesaplanmak istenmektedir. <br><br>
+        Buna göre 1 adet O<sub>2</sub> molekülünün gram cinsinden kütlesi (gerçek molekül kütlesi) aşağıdakilerin hangisinde doğru formülle ifade edilmiştir? (N<sub>A</sub>: Avogadro Sayısı)</div>
+        <ul class="options-list">
+            <li>A) 32</li>
+            <li>B) 32 . N<sub>A</sub></li>
+            <li>C) 32 / N<sub>A</sub></li>
+            <li>D) N<sub>A</sub> / 32</li>
+            <li>E) 16 / N<sub>A</sub></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> 1 mol O<sub>2</sub> molekülü, yani 6,02 . 10<sup>23</sup> (N<sub>A</sub>) adet O<sub>2</sub> molekülü 32 gram ağırlığındadır. Bizden sadece 1 adet molekülün gram cinsinden ağırlığı istendiği için basit bir doğru orantıyla; Gerçek Kütle = Mol Kütlesi / Avogadro Sayısı = 32 / N<sub>A</sub> gram olarak bulunur. Eğer akb cinsinden istenseydi doğrudan 32 akb derdik. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Laboratuvarda gerçekleştirilen bir kimyasal reaksiyonda; sodyum hidroksit (NaOH) sulu çözeltisi ile hidroklorik asit (HCl) sulu çözeltisi karıştırılmış, tepkime neticesinde yemek tuzu (NaCl) og su (H<sub>2</sub>O) molekülleri elde edilmiştir. <br><br>
+        Buna göre bu kimyasal tepkimenin ana türü aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Analiz Tepkimesi</li>
+            <li>B) Yanma Tepkimesi</li>
+            <li>C) Çözünme - Çökelme Tepkimesi</li>
+            <li>D) Asit - Baz (Nötrleşme) Tepkimesi</li>
+            <li>E) Sentez Tepkimesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> NaOH kuvvetli bir baz, HCl ise kuvvetli bir asittir. Bir asit ile bazın sulu ortamda bir araya gelerek tuz (NaCl) og su (H<sub>2</sub>O) oluşturması reaksiyonlarına kimyada <strong>Asit-Baz (Nötrleşme) tepkimeleri</strong> adı verilir. Yapıda su oluşması nötrleşmenin kanıtıdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Normal koşullar altında (0°C og 1 atm basınçta) 4,48 litre hacim kaplayan karbondioksit (CO<sub>2</sub>) gazı kaç moldür?</div>
+        <ul class="options-list">
+            <li>A) 0,1</li>
+            <li>B) 0,2</li>
+            <li>C) 0,5</li>
+            <li>D) 1,0</li>
+            <li>E) 2,0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Normal koşullarda (NŞA) ideal bir gazın 1 molü her zaman 22,4 litre hacim kaplar. Eldeki gazın mol sayısını bulmak için verilen hacmi 22,4 sayısına bölmemiz gerekir: n = V / 22,4 = 4,48 / 22,4 = 0,2 mol olarak hesaplanır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Sabit hacimli kapalı bir kapta eşit mol sayılarında hidrojen gazı (H<sub>2</sub>) og oksijen gazı (O<sub>2</sub>) alınarak, 2H<sub>2</sub>(g) + O<sub>2</sub>(g) &rarr; 2H<sub>2</sub>O(g) denklemine göre tam verimle su buharı oluşturulmaktadır. <br><br>
+        Buna göre, tepkimenin hızı og maddelerin tamamen tükenme durumları dikkate alındığında <strong>"sınırlayıcı bileşen (ilk tükenen madde)"</strong> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Oksijen gazı (O<sub>2</sub>)</li>
+            <li>B) Hidrojen gazı (H<sub>2</sub>)</li>
+            <li>C) Oluşan su buharı (H<sub>2</sub>O)</li>
+            <li>D) Reaksiyona girmeyen nötr nötronlar</li>
+            <li>E) İki madde de aynı anda tükenir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Tepkime katsayılarına bakıldığında, 2 mol H<sub>2</sub> gazına karşılık 1 mol O<sub>2</sub> gazı harcanmaktadır. İkisinden de başlangıçta eşit mol sayısında (örneğin 2'şer mol) aldığımızı varsayarsak; 2 mol H<sub>2</sub> harcanırken sadece 1 mol O<sub>2</sub> harcanır. Bu durumda hidrojen tamamen biterken, oksijenden artış olur. Tepkimelerde ilk tükenen og reaksiyonun durmasına neden olan maddeye sınırlayıcı bileşen denir. Burada ilk biten <strong>Hidrojen (H<sub>2</sub>)</strong> gazıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

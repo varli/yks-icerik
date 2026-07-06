@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 1: Kimya Bilimi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 1: KİMYA BİLİMİ</h1>
+        <p>Simyadan Kimyaya Geçiş, Kimya Disiplinleri, Elementler, Bileşikler ve Laboratuvar Güvenliği</p>
+    </div>
+
+    <h2>1. SİMYADAN KİMYAYA GEÇİŞ VE FARKLAR</h2>
+    <p>Kimya bilimi ortaya çıkmadan önce, maddedeki değişimleri anlama ve değersiz madenleri altına çevirme uğraşına <strong>Simya (Alşimi)</strong>, bu işle uğraşanlara ise <strong>Simyacı (Alşimist)</strong> denirdi. Simyacıların iki büyük hayali vardı: Ölümsüzlük iksirini (ab-ı hayat) bulmak ve değersiz madenleri altına çevirecek felsefe taşını üretmek. Simya bir bilim dalı <u>değildir</u>. ÖSYM bu iki disiplinin yapısal farklarını sıklıkla sorgulamaktadır:</p>
+    <ul>
+        <li><strong>Simyanın Özellikleri:</strong> Teorik temelleri yoktur. Tamamen <strong>sınama-yanılma (deneme)</strong> metoduna dayanır. Sistematik bilgi birikimi içermez. Mitolojik, felsefi ve dini ögeler barındırır.</li>
+        <li><strong>Kimyanın Özellikleri:</strong> Teorik temellere dayanır. <strong>Sistematik ve kontrollü deneyler</strong> içerir. Nicel (ölçülebilir) gözlemler esastır. Sistematik bir bilgi birikimi ve evrensel kanunlar barındırır.</li>
+    </ul>
+    <p>Simya bir bilim olmasa da günümüz kimyasına çok önemli laboratuvar teknikleri (kavurma, mayalama, damtma, süzme, kristallendirme) ve maddeler (kükürt, zat yağı, kezzap, sirke asiti, cam, barut) miras bırakmıştır. Robert Boyle'un element tanımı ve Antoine Lavoisier'nin Teraziyi kullanarak kütlenin korunumu kanununu bulmasıyla modern kimya çağı başlamıştır.</p>
+
+    <h2>2. KİMYANIN ALT DALLARI (DİSİPLİNLERİ)</h2>
+    <p>Kimya, maddelerin yapısını çok geniş bir yelpazede incelediği için farklı uzmanlık alanlarına bölünmüştür. Paragraf sorularında çalışma alanına göre alt dalı bulmanız istenir:</p>
+    <ul>
+        <li><strong>Analitik Kimya:</strong> Maddelerin kimyasal bileşenlerinin niteliğini (ne olduğunu) ve niceliğini (ne kadar olduğunu) inceleyen, **analiz** odaklı disiplindir. (Örn: Kan tahlili, su analizi).</li>
+        <li><strong>Biyokimya:</strong> Canlı organizmaların yapısında gerçekleşen kimyasal süreçleri inceler. (Örn: DNA yapısı, fotosentez, solunum reaksiyonları).</li>
+        <li><strong>Organik Kimya:</strong> Temel yapısı **Karbon (C)** atomu olan bileşiklerin (hidrokarbonlar, alkoller, plastikler) yapılarını ve tepkimelerini inceler.</li>
+        <li><strong>Anorganik Kimya:</strong> Organik olmayan, karbon içermeyen asit, baz, tuz, su, mineral ve metallerin yapılarını inceler.</li>
+                <li><strong>Fizikokimya:</strong> Kimyasal sistemlerdeki ısı, iş, enerji dönüşümlerini ve tepkime hızlarını fiziksel ilkelerle inceler. (Örn: Pil reaksiyonları, aktivasyon enerjisi).</li>
+        <li><strong>Polimer Kimyası:</strong> Çok sayıda küçük molekülün (monomer) birleşerek oluşturduğu devasa zincirli yapıları (naylon, plastik, teflon, kauçuk) inceler.</li>
+        <li><strong>Endüstriyel Kimya:</strong> Sanayide kullanılan kimyasal maddelerin üretim süreçlerini ve verimliliğini inceler.</li>
+    </ul>
+
+    <h2>3. MADDENİN SEMBOLİK DİLİ: ELEMENTLER VE BİLEŞİKLER</h2>
+    <p>Kimyasal maddeler saf maddeler ve saf olmayan maddeler (karışımlar) olarak ikiye ayrılır. Saf maddelerin yapı taşları elementler ve bileşiklerdir:</p>
+    
+    <h3>A) Elementler</h3>
+    <p>Aynı tür atomlardan oluşan saf maddelerdir. Fiziksel veya kimyasal yollarla daha basit maddelere <u>ayrıştırılamazlar.</u> Sembollerle gösterilirler (Örn: Fe, Cu, H). Günümüzde Berzelius'un önerdiği Latince baş harf kuralına göre sembolize edilirler. İlk harf her zaman büyük, varsa ikinci harf her zaman küçüktür.</p>
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM'NİN SIKÇA SORDUĞU YAYGIN ELEMENTLER:</strong>
+        <br>İlk 20 element (H, He, Li, Be, B, C, N, O, F, Ne, Na, Mg, Al, Si, P, S, Cl, Ar, K, Ca) ile günlük hayatta çok kullanılan metallerin (Fe: Demir, Cu: Bakır, Zn: Çinko, Pb: Kurşun, Ag: Gümüş, Au: Altın, Pt: Platin, Hg: Cıva, Cr: Krom, Mn: Manganez) sembolleri ad gibi bilinmelidir.
+    </div>
+
+    <h3>B) Bileşikler</h3>
+    <p>En az iki farklı elementin, belirli kütle oranlarında kimyasal bağlarla bir araya gelerek oluşturduğu yeni saf maddelerdir. Formüllerle gösterilirler (Örn: H<sub>2</sub>O, NaCl). Bileşiği oluşturan elementler kendi kimyasal özelliklerini tamamen **kaybederler**. Fiziksel yollarla ayrılamazlar ancak kimyasal yöntemlerle (elektroliz gibi) kendisini oluşturan elementlere ayrıştırılabilirler.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Bileşiğin Formülü</th>
+                <th>Sistematik Adı</th>
+                <th>Gündelik / Yaygın Adı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>H<sub>2</sub>O</td>
+                <td>Dihidrojen monoksit</td>
+                <td>Su</td>
+            </tr>
+            <tr>
+                <td>HCl</td>
+                <td>Hidrojen klorür</td>
+                <td>Tuz ruhu</td>
+            </tr>
+            <tr>
+                <td>H<sub>2</sub>SO<sub>4</sub></td>
+                <td>Sülfürik asit</td>
+                <td>Zaç yağı</td>
+            </tr>
+            <tr>
+                <td>HNO<sub>3</sub></td>
+                <td>Nitrik asit</td>
+                <td>Kezzap</td>
+            </tr>
+            <tr>
+                <td>CH<sub>3</sub>COOH</td>
+                <td>Etanoik asit</td>
+                <td>Sirke asiti</td>
+            </tr>
+            <tr>
+                <td>CaCO<sub>3</sub></td>
+                <td>Kalsiyum karbonat</td>
+                <td>Kireç taşı</td>
+            </tr>
+            <tr>
+                <td>NaHCO<sub>3</sub></td>
+                <td>Kalsiyum hidroksit</td>
+                <td>Sönmüş kireç</td>
+            </tr>
+            <tr>
+                <td>NaCl</td>
+                <td>Sodyum klorür</td>
+                <td>Yemek tuzu</td>
+            </tr>
+            <tr>
+                <td>NaOH</td>
+                <td>Sodyum hidroksit</td>
+                <td>Sud kostik</td>
+            </tr>
+            <tr>
+                <td>KOH</td>
+                <td>Potasyum hidroksit</td>
+                <td>Potas kostik</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. LABORATUVAR GÜVENLİK PİKTOGRAMLARI VE MALZEMELERİ</h2>
+    <p>Kimya laboratuvarlarında maddelerin üzerinde yer alan evrensel tehlike işaretlerinin (piktogramlar) anlamları sorularda görsel olarak karşımıza çıkar:</p>
+    <ul>
+        <li><strong>Yanıcı Madde:</strong> Alev resmi içerir. Isı ve kıvılcımdan uzak tutulmalıdır (Örn: Alkol, aseton).</li>
+        <li><strong>Yakıcı (Oksitleyici) Madde:</strong> Ortasında **"O" harfi** olan alev resmi içerir. Yanıcı maddelerle temas ettirilmemelidir (Örn: Oksijen gazı, hidrojen peroksit).</li>
+        <li><strong>Aşındırıcı (Korozif) Madde:</strong> Metal yüzeye veya ele damlayan asit resmi içerir. Canlı dokuları ve metalleri aşındırır.</li>
+        <li><strong>Tahriş Edici Madde:</strong> Ünlem işareti (!) ile gösterilir. Alerjiye ve solunum yolu rahatsızlıklarına neden olur.</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Simyacılar yüzyıllar boyunca felsefe taşını bularak değersiz madenleri altına çevirmek ve ölümsüzlük iksirini üretmek için çalışmışlardır. Bu süreçte damıtma düzeneğini (imbik) keşfetmiş, zat yağını ve kezzabı sentezlemişlerdir. Ancak simya hiçbir zaman modern bir bilim dalı olarak kabul edilmemiştir. <br><br>
+        Buna göre, simyanın bir bilim dalı sayılmamasının <u>en temel gerekçesi</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Laboratuvarda cam malzemelerin kullanılmıyor olması</li>
+            <li>B) Sadece bitkisel kökenli maddelerle çalışılması</li>
+            <li>C) Teorik temellerinin olmaması, sınama-yanılmaya dayanması ve sistematik bilgi birikimi barındırmaması</li>
+            <li>D) Elementlerin sembollerle gösterilmesine karşı çıkılması</li>
+            <li>E) Kimyasal maddelerin kütle ölçümlerinin yapılamaması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir uğraşın bilim sayılabilmesi için kontrollü deneylere, teorik temellere ve sonraki nesillere aktarılabilen sistematik bir bilgi birikimine sahip olması gerekir. Simya ise tamamen şansa, deneme-yanılmaya dayalı ve teorik altyapısı olmayan bir arayış dönemidir. Bu nedenle bilim kabul edilmez. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir tekstil fabrikasının atık su tesisinde, nehre salınan suyun içindeki kurşun ($Pb^{2+}$) ve cıva ($Hg^{2+}$) gibi zehirli ağır metal iyonlarının türünü ve mililitre başına düşen miktarını (milyonda bir kısım - ppm) ölçmek amacıyla analizler yapılmaktadır. <br><br>
+        Bu fabrikada su numunelerinin analizini gerçekleştiren bir kimyager, kimya biliminin öncelikle hangi alt dalında (disiplininde) uzmanlaşmış olmalıdır?</div>
+        <ul class="options-list">
+            <li>A) Organik Kimya</li>
+            <li>B) Fizikokimya</li>
+            <li>C) Biyokimya</li>
+            <li>D) Analitik Kimya</li>
+            <li>E) Polimer Kimyası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kimyasal maddelerin bileşenlerini, kalitatif (nitel/tür) ve kantitatif (nicel/miktar) olarak inceleyen, laboratuvarda maddelerin analizini, ayrıştırılmasını ve ölçülmesini üstlenen ana kimya disiplini <strong>Analitik Kimya</strong>'dır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Kimya dersinde elementler ve bileşiklerin genel özelliklerini çalışan bir öğrenci defterine şu maddeleri yazmıştır:
+        <br>I. Saf maddedirler ve homojendirler.
+        <br>II. Formüllerle gösterilirler ve kendini oluşturan bileşenlerin özelliklerini taşımazlar.
+        <br>III. Fiziksel yollarla daha basit maddelere ayrıştırılamazlar.
+        <br><br>
+        Bu özelliklerden hangileri hem elementler hem de bileşikler için <strong>ortak (genel) bir özellik</strong> olarak kabul edilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Elementler ve bileşiklerin ikisi de saf maddedir, hal değişimleri hariç homojendirler ve belirli ayırt edici özellikleri (erime/kaynama noktası) vardır (I ortak). Formülle gösterilmek sadece bileşiklere aittir, elementler sembolle gösterilir (II elendi). Fiziksel yollarla ikisi de daha basit maddeye ayrılamaz; elementler kimyasalla da ayrılamazken bileşikler kimyasal yolla ayrılabilir. Dolayısıyla fiziksel yolla ayrılamama ikisi için de ortaktır (III ortak). Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Günlük hayatta kezzap olarak bilinen ve laboratuvarda kuvvetli asit sınıfında yer alan, cilde temas ettiğinde ciddi korozif yaralar açan sülfürik asit ve nitrik asit gibi bileşiklerin ambalajları üzerinde bazı uyarı piktogramları yer almalıdır. <br><br>
+        Buna göre halk arasında "Kezzap" olarak adlandırılan bileşiğin formülü aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) HCl</li>
+            <li>B) $HNO_3$</li>
+            <li>C) $H_2SO_4$</li>
+            <li>D) CH_3COOH</li>
+            <li>E) NaOH</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Halk arasında kezzap olarak bilinen ve nitrik asit olan bileşiğin kimyasal formülü <strong>$HNO_3$</strong>'tür. HCl tuz ruhu, $H_2SO_4$ zaç yağı, $CH_3COOH$ sirke asididir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir kimyasal madde şişesinin üzerinde, ortasında bir oksijen gazını simgeleyen "O" harfi bulunan ve bu harfin üzerinden yukarıya doğru yükselen alev piktogramı yer almaktadır. <br><br>
+        Bu piktograma sahip bir madde ile ilgili olarak laboratuvarda çalışan bir öğrencinin aşağıdakilerden hangisine dikkat etmesi zorunludur?</div>
+        <ul class="options-list">
+            <li>A) Maddenin canlı dokuları tahriş eden güçlü bir baz olduğunu bilmelidir.</li>
+            <li>B) Bu maddenin yakıcı (oksitleyici) olduğunu bilmeli, yanıcı maddelerle kesinlikle temas ettirmemelidir.</li>
+            <li>C) Maddenin radyoaktif ışın yaydığını fark edip kurşun önlük giymelidir.</li>
+            <li>D) Maddenin patlayıcı gaz içerdiğini anlayıp tüpün kapağını açık bırakmalıdır.</li>
+            <li>E) Maddenin çevreye zararlı atık olduğunu anlayıp lavaboya dökmelidir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Alev resminin ortasında "O" harfi varsa bu işaret **Yakıcı (Oksitleyici)** madde anlamına gelir. Yakıcı maddeler yanıcı maddelerle bir araya geldiğinde yangının şiddetini kat kat artırır. Bu yüzden yanıcı malzemelerden uzak tutulmalıdır. Sadece düz alev olsaydı yanıcı olurdu. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

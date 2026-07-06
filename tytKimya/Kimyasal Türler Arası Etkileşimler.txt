@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 3: Kimyasal Türler Arası Etkileşimler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 4: KİMYASAL TÜRLER ARASI ETKİLEŞİMLER</h1>
+        <p>Kimyasal Türlerin Sınıflandırılması, Güçlü ve Zayıf Bağlar, Lewis Formülleri ve Molekül Polarlığı</p>
+    </div>
+
+    <h2>1. KİMYASAL TÜR KAVRAMI VE ETKİLEŞİMLERİN SINIFLANDIRILMASI</h2>
+    <p>Maddenin bağımsız olarak var olabilen ve onun tüm özelliklerini gösteren en küçük yapı taşlarına <strong>kimyasal tür</strong> denir. TYT Kimya müfredatında türler üç ana başlık altında incelenir: <strong>Atom</strong> (elementlerin en küçük yapısal birimi: He, Ar, Fe), <strong>Molekül</strong> (en az iki ametal atomunun kovalent bağlarla bağlanarak oluşturduğu bağımsız grup: H<sub>2</sub>O, O<sub>2</sub>, CO<sub>2</sub>) ve <strong>İyon</strong> (elektron alarak veya vererek artı ya da eksi yük kazanmış tanecikler: Na<sup>+</sup>, Cl<sup>-</sup>, SO<sub>4</sub><sup>2-</sup>).</p>
+    <p>Kimyasal türler birbirine yaklaştığında çekirdekler arası itme ile elektron-çekirdek arası çekme kuvvetleri eş zamanlı meydana gelir. Çekme kuvvetlerinin itme kuvvetlerinden rekor düzeyde büyük olduğu durumlara **Güçlü Etkileşimler (Kimyasal Bağlar)**, çekme ve itme kuvvetlerinin birbirine yakın olduğu durumlara ise **Zayıf Etkileşimler (Fiziksel Bağlar)** denir. Genellikle bir etkileşimi koparmak veya oluşturmak için gereken bağ enerjisi <strong>40 kJ/mol</strong> veya daha fazlaysa güçlü, daha azsa zayıf kabul edilir.</p>
+
+    <h2>2. GÜÇLÜ ETKİLEŞİMLER (KİMYASAL BAĞLAR)</h2>
+    <p>Atomları bir arada tutarak yeni kimyasal maddeler (bileşikler) oluşturan güçlü etkileşimler üç çeşittir:</p>
+    <ul>
+        <li><strong>A) İyonik Bağ:</strong> <u>Metal ve ametal</u> atomları arasında gerçekleşen <strong>elektron alışverişine</strong> dayalı elektrostatik çekim kuvvetidir. Metaller elektron vererek katyon, ametaller elektron alarak anyon oluşturur. İyonik bileşikler bağımsız moleküllerden oluşmaz; düzenli bir örgü oluşturan <strong>kristal örgü yapısındadırlar.</strong> Katı halde elektriği iletmezler, eridiklerinde veya suda çözündüklerinde iyon hareketiyle elektriği iletirler.</li>
+        <li><strong>B) Kovalent Bağ:</strong> İki veya daha fazla <u>ametal</u> atomu arasında, kararlı yapıya ulaşmak için <strong>elektronların ortaklaşa kullanılmasıyla</strong> kurulur. İki alt başlığa ayrılır:
+        <br>• <em>Apolar Kovalent Bağ:</em> <strong>Aynı tür</strong> iki ametal atomu arasında, elektronların eşit güçte çekilmesiyle oluşur. Bağ kutupsuzdur (Örn: H<sub>2</sub>, O<sub>2</sub>, N<sub>2</sub>, Cl<sub>2</sub>).
+        <br>• <em>Polar Kovalent Bağ:</em> <strong>Farklı tür</strong> iki ametal atomu arasında, elektronegatifliği büyük olan atomun elektronları daha çok çekmesiyle oluşur. Bağ kutupludur (Örn: H<sub>2</sub>O, HCl, NH<sub>3</sub>).</li>
+        <li><strong>C) Metalik Bağ:</strong> Metal atomlarının dış yörüngelerindeki serbest elektronların oluşturduğu <strong>elektron denizi</strong> ile artı yüklü metal katyonları arasındaki elektrostatik çekim kuvvetidir. Metallere işlenebilirlik, parlaklık, ısı ve elektrik iletkenliği kazandırır.</li>
+    </ul>
+
+    <h2>3. LEWIS FORMÜLLERİ VE MOLEKÜL POLARLIĞI</h2>
+    <p>Bir element sembolünün etrafına, son yörüngesindeki (değerlik) elektron sayısının nokta şeklinde konulmasıyla elde edilen gösterime <strong>Lewis Yapısı</strong> denir. Noktalar önce elementin dört tarafına birer birer yerleştirilir, elektron sayısı 4'ten fazlaysa eşleştirilerek ikişerli hale getirilir. Lewis yapısındaki tek kalan noktalar, o atomun yapacağı bağ sayısını belirler.</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ BAĞ POLARLIĞI İLE MOLEKÜL POLARLIĞI AYRIMI:</strong>
+        <br>• Atomlar arası bağların polar olup olmadığına sadece atomların cinsine bakılarak karar verilir (Atomlar farklıysa bağ polardır).
+        <br>• <strong>Molekülün Polarlığı (Kutupluluğu):</strong> Molekülün geometrik yapısındaki yük dağılımının dengesine bakılır. Eğer merkez atomda (en çok bağ yapan atomda) ortaklanmamış (bağ yapımına katılmayan boşta kalmış) elektron çifti <strong>varsa</strong> molekül kesinlikle <strong>Polar</strong> karakterlidir (Örn: H<sub>2</sub>O, NH<sub>3</sub>). Merkez atomda hiç boşta elektron çifti kalmamışsa ve etrafındaki tüm atomlar aynıysa molekül dengelidir, yani <strong>Apolar</strong> karakterlidir (Örn: CO<sub>2</sub>, CH<sub>4</sub>, BH<sub>3</sub>).
+    </div>
+
+    <h2>4. ZAYIF ETKİLEŞİMLER (MOLEKÜLLER ARASI FİZİKSEL BAĞLAR)</h2>
+    <p>Maddelerin erime, kaynama noktası gibi fiziksel özelliklerini belirleyen moleküller arası bağlar iki ana grupta toplanır:</p>
+
+    <h3>A) Van der Waals Kuvvetleri</h3>
+    <ul>
+        <li><strong>Dipol - Dipol Etkileşimi:</strong> <strong>Polar</strong> bir molekülün kalıcı artı kutbu ile başka bir <strong>Polar</strong> molekülün kalıcı eksi kutbu arasındaki çekim kuvvetidir. (Örn: HCl ile H<sub>2</sub>S molekülleri arası).</li>
+        <li><strong>İyon - Dipol Etkileşimi:</strong> Bir iyon (katyon ya da anyon) ile <strong>Polar</strong> bir molekül arasındaki elektrostatik çekimdir. (Örn: Tuzlu suda, Na<sup>+</sup> iyonları ile H<sub>2</sub>O dipolleri arası).</li>
+        <li><strong>London Kuvvetleri (İndüklenmiş Dipol - İndüklenmiş Dipol):</strong> <strong>Apolar</strong> moleküller veya Soygaz atomları arasında elektronların anlık kutuplanmasıyla (geçici dipol) oluşan <u>en zayıf</u> fiziksel bağdır. Bir atom veya moleküldeki toplam elektron sayısı arttıkça London kuvvetlerinin gücü ve dolayısıyla maddenin kaynama noktası artar. (Örn: He - He, CO<sub>2</sub> - CO<sub>2</sub>).</li>
+    </ul>
+
+    <h3>B) Hidrojen Bağı</h3>
+    <p>Hidrojen atomunun, elektronegatifliği çok yüksek ve çapı küçük olan <strong>F, O, N (Flor, Oksijen, Azot)</strong> atomlarına doğrudan bağlı olduğu polar moleküller arasında görülen <strong>zayıf etkileşimlerin en güçlüsüdür.</strong> Maddelerin erime ve kaynama noktalarını beklenenden anormal derecede yukarı taşır. (Örn: H<sub>2</sub>O, HF, NH<sub>3</sub> moleküllerinin kendi aralarında kurdukları bağlar).</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Kimyasal türler arası etkileşimler sınıflandırılırken bağın koptuğu ya da oluştuğu esnada meydana gelen enerji değişimi önemli bir kriterdir. Eğer bir etkileşimi koparmak için gereken enerji 40 kJ/mol değerinden belirgin şekilde küçükse zayıf, büyükse güçlü etkileşim kabul edilir. <br><br>
+        Buna göre, aşağıda verilen değişimlerden hangisi 40 kJ/mol sınırından daha büyük bir enerji gerektiren <u>kimyasal (güçlü) bir etkileşimi</u> ifade eder?</div>
+        <ul class="options-list">
+            <li>A) H<sub>2</sub>O(s) + Enerji &rarr; H<sub>2</sub>O(g)</li>
+            <li>B) Ar(s) + Enerji &rarr; Ar(g)</li>
+            <li>C) NaCl(k) + Enerji &rarr; Na<sup>+</sup>(g) + Cl<sup>-</sup>(g)</li>
+            <li>D) C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(k) + Su &rarr; C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(suda)</li>
+            <li>E) I<sub>2</sub>(k) + Enerji &rarr; I<sub>2</sub>(g)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> A, B, D ve E seçeneklerindeki olaylar sırasıyla suyun buharlaşması, argonun gaz haline geçmesi, şekerin suda çözünmesi ve iyodun süblimleşmesidir. Bu olayların tamamı fiziksel hal değişimi olup zayıf bağların kopmasıyla (40 kJ/mol'den küçük enerjilerle) gerçekleşir. Ancak C seçeneğinde iyonik bağlı NaCl katısı, yüksek bir enerjiyle kendisini oluşturan iyonlara ayrışmıştır. İyonik bağ koptuğu için bu güçlü bir **kimyasal etkileşimdir**. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Hidrojen (<sub>1</sub>H), Karbon (<sub>6</sub>C) ve Oksijen (<sub>8</sub>O) elementleri arasında oluşan CO<sub>2</sub> ve H<sub>2</sub>O molekülleri laboratuvarda test edilmektedir. <br><br>
+        Buna göre bu iki molekülün "bağ polarlığı" ve "molekül polarlığı" durumları ile ilgili aşağıdaki kıyaslamalardan hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) İki molekülün de hem bağları hem molekül yapıları apolardır.</li>
+            <li>B) CO<sub>2</sub> molekülündeki bağlar polar kovalenttir, fakat molekülün geometrisi dengeli (doğrusal) olduğu için molekülün kendisi apolardır.</li>
+            <li>C) H<sub>2</sub>O molekülündeki bağlar apolar kovalenttir, molekül ise polardır.</li>
+            <li>D) CO<sub>2</sub> polar bir molekülken, H<sub>2</sub>O apolar bir moleküldür.</li>
+            <li>E) İki molekülde de atomlar aynı olduğundan bağlar polar, moleküller de polardır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> CO<sub>2</sub> molekülünde Karbon ve Oksijen farklı ametaller olduğundan aralarındaki bağlar polar kovalenttir. Ancak merkez atom olan Karbon üzerinde boşta elektron çifti kalmadığından ve oksijenler karbondaki elektronları iki taraftan eşit güçte çektiğinden molekül dengelidir, yani **Apolardır** (B şıkkı doğrudur). H<sub>2</sub>O'da ise merkez atom Oksijen üzerinde ortaklanmamış elektron çiftleri kaldığı için molekül geometrisi kırıktır ve **Polardır**. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Metallerin son yörüngelerindeki serbest değerlik elektronlarının oluşturduğu elektron denizi ile pozitif yüklü metal katyonları arasındaki elektrostatik çekim kuvvetine metalik bağ adı verilir. <br><br>
+        Buna göre, metallere elektrik ve ısı iletkenliği, yüzey parlaklığı ve tel-levha haline getirilebilme (işlenebilirlik) özelliklerini kazandıran <u>temel mekanizma</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Metal atomlarının iyonik kristal örgü oluşturması</li>
+            <li>B) Değerlik elektronlarının serbestçe hareket ederek oluşturduğu dinamik <strong>elektron denizi</strong> yapısı</li>
+            <li>C) Metal çekirdeklerinin birbirini güçlü bir şekilde itmesi</li>
+            <li>D) Ametal atomlarıyla elektron ortaklaşmasına girmeleri</li>
+            <li>E) Proton sayılarının nötron sayılarından her zaman fazla olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Metallerin serbest hareket eden değerlik elektronları bir **elektron denizi** oluşturur. Bu serbest elektronlar, üzerlerine ışık düştüğünde parlamayı, elektrik uygulandığında elektron hareketiyle elektriğin iletilmesini ve darbe geldiğinde kırılmadan tabakaların kayarak şekil almasını (tel-levha olmayı) sağlar. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Soygazlar (He, Ne, Ar) ve apolar moleküller (CH<sub>4</sub>, CO<sub>2</sub>, O<sub>2</sub>) oda koşullarında gaz fazında bulunurlar. Bu tanecikler arasında kalıcı bir kutup (dipol) bulunmamasına rağmen, çok düşük sıcaklıklara inildiğinde sıvılaşabildikleri görülür. <br><br>
+        Buna göre, apolar taneciklerin ve soygazların yoğun fazda kendi aralarında kurabildikleri, elektronların anlık simetri bozulmasıyla oluşan <u>en zayıf moleküller arası etkileşim türü</u> hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Dipol - Dipol</li>
+            <li>B) Hidrojen bağı</li>
+            <li>C) İyon - Dipol</li>
+            <li>D) London Kuvvetleri (İndüklenmiş Dipol - İndüklenmiş Dipol)</li>
+            <li>E) Metalik bağ</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Apolar moleküllerde ve soygazlarda kalıcı bir artı-eksi kutup yoktur. Bunlar birbirine yaklaştıkça elektron bulutları anlık olarak kutuplanır (indüklenmiş dipol oluşturur). Bu geçici ve anlık kutuplanmalardan doğan, fiziksel bağların en zayıfı olan etkileşime <strong>London Kuvvetleri</strong> adı verilir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir kimya öğretmeni laboratuvarda su (H<sub>2</sub>O) ve hidrojen sülfür (H<sub>2</sub>S) bileşiklerinin kaynama noktalarını tahtaya yazmıştır. Benzer molekül kütlelerine sahip olmalarına rağmen suyun oda sıcaklığında sıvı (Kaynama noktası: 100°C), H<sub>2</sub>S'nin ise gaz (Kaynama noktası: -60°C) fazında olduğunu belirtmiştir. <br><br>
+        Suyun kaynama noktasının H<sub>2</sub>S bileşiğine göre bu denli <u>anormal derecede yüksek olmasının</u> temel nedeni, su molekülleri arasında görülen hangi zayıf etkileşim türüdür?</div>
+        <ul class="options-list">
+            <li>A) Güçlü apolar kovalent bağlar</li>
+            <li>B) İyon - dipol çekimleri</li>
+            <li>C) London kuvvetlerinin elektron fazlalığı</li>
+            <li>D) Moleküller arasında kurulan güçlü <strong>Hidrojen Bağları</strong></li>
+            <li>E) Kovalent kristal ağ yapısı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Suda Hidrojen atomu doğrudan Oksijene bağlıdır (F, O, N kuralı). H<sub>2</sub>S'de ise kurala uyan bir atom yoktur, sadece dipol-dipol bağı kurulur. Su molekülleri kendi arasında zayıf etkileşimlerin en kuvvetlisi olan <strong>Hidrojen Bağını</strong> oluşturduğu için, su moleküllerini birbirinden koparmak çok büyük bir ısı enerjisi ister. Bu yüzden suyun kaynama noktası H<sub>2</sub>S'ye göre çok yüksektir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

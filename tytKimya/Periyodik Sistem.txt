@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Kimya - Ünite 3: Periyodik Sistem</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT KİMYA - MODÜL 3: PERİYODİK SİSTEM</h1>
+        <p>Tarihsel Gelişim, Katman Elektron Dizilimi, Element Sınıfları ve Periyodik Özelliklerin Değişimi</p>
+    </div>
+
+    <h2>1. PERİYODİK SİSTEMİN TARİHSEL GELİŞİMİ</h2>
+    <p>Elementlerin keşif sayıları arttıkça, benzer özellik gösterenleri gruplandırma ihtiyacı doğmuştur. Bu alandaki en büyük iki kırılım Dmitri Mendeleyev ve Henry Moseley'e aittir:</p>
+    <ul>
+        <li><strong>Dmitri Mendeleyev:</strong> Elementleri **artan atom kütlelerine (kütle numaralarına)** göre sıralamıştır. Henüz keşfedilmemiş elementlerin yerlerini boş bırakmış ve onların özelliklerini tahmin ederek büyük bir başarı göstermiştir.</li>
+        <li><strong>Henry Moseley:</strong> X-ışınları deneyiyle elementlerin proton sayılarını (atom numaralarını) doğru ölçmüştür. Elementlerin fiziksel ve kimyasal özelliklerinin atom kütlesine değil, atom numarasına bağlı olduğunu kanıtlamıştır. Günümüz modern periyodik tablosu elementlerin <strong>artan atom numaralarına (proton sayılarına)</strong> göre dizilmesiyle oluşturulmuştur.</li>
+    </ul>
+
+    <h2>2. KATMAN ELEKTRON DİZİLİMİ VE YER BULMA KURALLARI</h2>
+    <p>TYT müfredatında ilk 20 elementin yerini bulmak için katman elektron dizilimi kullanılır. Katmanlar çekirdeğe en yakından uzağa doğru maksimum elektron taşıma kapasitelerine sahiptir: 1. katman en fazla 2, 2. katman en fazla 8, 3. katman en fazla 8 elektron alabilir.</p>
+    <p><strong>Yer Bulma Algoritması:</strong> Nötr bir atomun elektron dizilimi yapıldığında;
+    <br>• Toplam katman sayısı = <strong>Periyot Numarasını</strong> verir.
+    <br>• Son katmandaki elektron sayısı (Değerlik Elektron Sayısı) = Baş grup olan <strong>A Grubu Numarasını</strong> verir.</p>
+    <p><em>Örnek:</em> $_{19}\text{K} = 2) \, 8) \,\, 8) \, 1) \rightarrow$ 4 katman var (4. periyot), son katmanda 1e- var (1A grubu).</p>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ İSTİSNA (Helyum - $_{2}\text{He}$):</strong>
+        <br> $_{2}\text{He}$ elementinin elektron dizilimi $2)$ şeklindedir. Son katmanında 2 elektron bulunmasına rağmen bir soygaz olduğu için 2A grubunda değil, <strong>8A grubunda</strong> yer alır. Değerlik elektron sayısı 2 olan tek 8A grubu elementidir. Sınavlarda öncüllü sorularda tuzak olarak sıkça kullanılır.
+    </div>
+
+    <h2>3. PERİYODİK ÖZELLİKLERİN DEĞİŞİM YÖNLERİ</h2>
+    <p>Periyodik sistemde aynı grupta yukarıdan aşağıya veya aynı periyotta soldan sağa doğru gidildikçe bazı kimyasal özellikler düzenli olarak değişir:</p>
+    
+    <h3>A) Atom Yarıçapı (Çapı) - Kardan Adam Modeli</h3>
+    <p>Aynı grupta <strong>yukarıdan aşağıya doğru gidildikçe</strong> katman sayısı (yörünge) arttığı için atom yarıçapı her zaman <strong>artar</strong>. Aynı periyotta <strong>soldan sağa doğru gidildikçe</strong> katman sayısı sabittir fakat proton sayısı (çekirdek yükü) arttığı için elektronları kendine daha güçlü çeker; bu yüzden atom çapı <strong>azalır</strong>.</p>
+
+    <h3>B) İyonlaşma Enerjisi (İ.E)</h3>
+    <p>Gaz halindeki nötr bir atomdan bir elektron koparmak için verilmesi gereken minimum enerjidir. Çap küçüldükçe elektron koparmak zorlaşır. Bu nedenle aynı periyotta soldan sağa gidildikçe genel olarak iyonlaşma enerjisi artar. Ancak küresel simetriden dolayı bu artış düzenli değildir; <strong>"3A ile 2A"</strong> ve <strong>"6A ile 5A"</strong> yer değiştirir:</p>
+    
+    <div class="highlight-box font-mono" style="text-align: center; font-size: 13pt;">
+        1A &lt; 3A &lt; 2A &lt; 4A &lt; 6A &lt; 5A &lt; 7A &lt; 8A  (Üç aşağı, beş yukarı kuralı)
+    </div>
+
+    <h3>C) Elektronegatiflik ve Elektron İlgisi</h3>
+    <ul>
+        <li><strong>Elektronegatiflik:</strong> Bir atomun kimyasal bağdaki elektronları kendine çekme yeteneğidir. Periyodik sistemde elektronegatifliği en yüksek element 7A grubundaki <strong>Flor ($\text{F}$)</strong> elementidir. Soygazların bağ yapma eğilimi olmadığından elektronegatiflikleri aranmaz.</li>
+        <li><strong>Elektron İlgisi:</strong> Gaz halindeki nötr bir atomun bir elektron alması sırasındaki enerji değişimidir. Elektron ilgisi en yüksek olan element 7A grubundaki <strong>Klor ($\text{Cl}$)</strong> elementidir (Flor değildir, istisnadır).</li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Periyodik Özellik</th>
+                <th>Soldan Sağa (&rarr;) Değişim</th>
+                <th>Yukarıdan Aşağıya (&darr;) Değişim</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Atom Numarası (Proton)</strong></td>
+                <td>Artar</td>
+                <td>Artar</td>
+            </tr>
+            <tr>
+                <td><strong>Atom Yarıçapı (Çapı)</strong></td>
+                <td>Azalır</td>
+                <td>Artar</td>
+            </tr>
+            <tr>
+                <td><strong>İyonlaşma Enerjisi</strong></td>
+                <td>Genelde Artar (İstisnalar var)</td>
+                <td>Azalır</td>
+            </tr>
+            <tr>
+                <td><strong>Elektronegatiflik</strong></td>
+                <td>Artar (8A hariç)</td>
+                <td>Azalır</td>
+            </tr>
+            <tr>
+                <td><strong>Metalik Karakter (Elektropozitiflik)</strong></td>
+                <td>Azalır</td>
+                <td>Artar</td>
+            </tr>
+            <tr>
+                <td><strong>Ametalik Karakter</strong></td>
+                <td>Artar (8A hariç)</td>
+                <td>Azalır</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Günümüz modern periyodik sisteminde elementler artan atom numaralarına (proton sayılarına) göre dizilmişken; Dmitri Mendeleyev hazırladığı ilk periyodik tabloda elementleri artan atom kütlelerine göre sıralamıştır. <br><br>
+        Buna göre, elementlerin kimlik özelliklerinin atom kütlelerine değil, proton sayılarına bağlı olduğunu deneysel olarak ispatlayarak modern periyodik tablonun temelini atan bilim insanı hangisidir?</div>
+        <ul class="options-list">
+            <li>A) John Newlands</li>
+            <li>B) Henry Moseley</li>
+            <li>C) Glenn Seaborg</li>
+            <li>D) Johann Döbereiner</li>
+            <li>E) Robert Boyle</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Antik ve klasik kütle dizilimini yıkarak, X-ışınları spektrumları yardımıyla elementlerin doğru proton sayılarını (atom numaralarını) ölçen ve periyodik sistemin artan atom numaralarına göre dizilmesi gerektiğini söyleyen bilim insanı <strong>Henry Moseley</strong>'dir. Çanakkale Savaşları'nda ölmüştür. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Baş grup (A grubu) elementi oldukları bilinen X, Y ve Z elementlerinin nötr atomlarının katman elektron dizilimlerinin son katmanındaki elektron sayıları sırasıyla 1, 2 ve 2'dir. X ve Y aynı periyotta yer alırken, Z elementinin bir soygaz olduğu bilinmektedir. <br><br>
+        Buna göre bu elementlerin periyodik tablodaki grupları aşağıdakilerin hangisinde doğru kurgulanmıştır?</div>
+        <ul class="options-list">
+            <li>A) X: 1A, Y: 2A, Z: 2A</li>
+            <li>B) X: 1A, Y: 2A, Z: 8A</li>
+            <li>C) X: 1A, Y: 8A, Z: 8A</li>
+            <li>D) X: 2A, Y: 2A, Z: 8A</li>
+            <li>E) X: 1A, Y: 2A, Z: 2A</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Son katmandaki elektron sayısı A grubu numarasını verir. X'in son katmanında 1e- var, yani 1A grubundadır. Y'nin son katmanında 2e- var, yani 2A grubundadır. Z'nin de son katmanında 2e- olmasına rağmen soruda onun bir **soygaz** olduğu açıkça belirtilmiştir. Son katmanında 2e- bulunduran tek soygaz Helyum ($_{2}\text{He}$) olup <strong>8A grubunda</strong> yer alır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Aynı periyotta soldan sağa doğru gidildikçe atom yarıçapı küçülür, çekirdeğin en dıştaki elektronlara uyguladığı çekim kuvveti artar. <br><br>
+        Bu durumun doğrudan bir sonucu olarak, aynı periyotta soldan sağa doğru ilerleyen bir araştırmacının aşağıdaki niceliklerden hangisinde genel olarak bir <u>azalma (düşüş)</u> gözlemlemesi beklenir?</div>
+        <ul class="options-list">
+            <li>A) Atom numarası</li>
+            <li>B) İyonlaşma enerjisi</li>
+            <li>C) Elektronegatiflik değeri</li>
+            <li>D) Metalik karakter (elektropozitiflik)</li>
+            <li>E) Ametalik aktiflik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Soldan sağa gidildikçe ametal tarafa geçilir. Çap küçüldüğü için atomların elektron verme eğilimi (metalik özellik) azalır, elektron alma eğilimi (ametalik özellik) artar. Bu yüzden soldan sağa doğru <strong>metalik karakter azalır.</strong> Proton sayısı, iyonlaşma enerjisi ve elektronegatiflik ise genel olarak artış gösterir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Aynı periyotta yer alan baş grup elementlerinden olan $_{11}\text{Na}$, $_{12}\text{Mg}$ ve $_{13}\text{Al}$ atomlarının birinci iyonlaşma enerjilerinin kıyaslanışı aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) $\text{Na} &lt; \text{Mg} &lt; \text{Al}$</li>
+            <li>B) $\text{Na} &lt; \text{Al} &lt; \text{Mg}$</li>
+            <li>C) $\text{Al} &lt; \text{Na} &lt; \text{Mg}$</li>
+            <li>D) $\text{Mg} &lt; \text{Al} &lt; \text{Na}$</li>
+            <li>E) $\text{Na} = \text{Mg} = \text{Al}$</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Elementlerin elektron dizilimleri yapıldığında üçünün de 3. periyotta olduğu görülür: $\text{Na}: \text{1A}$, $\text{Mg}: \text{2A}$, $\text{Al}: \text{3A}$ grubundadır. Aynı periyotta iyonlaşma enerjisi dizilimi küresel simetriden dolayı "3A ile 2A" yer değiştirecek şekildedir ($\text{1A} &lt; \text{3A} &lt; \text{2A}$). Bu nedenle sıralama <strong>$\text{Na} &lt; \text{Al} &lt; \text{Mg}$</strong> şeklinde kurgulanır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Periyodik sistemdeki elementlerin bağ elektronlarını kendine çekme gücü olan elektronegatiflik ile gaz halindeki bir atomun elektron alması sırasındaki enerji değişimini ifade eden elektron ilgisi değerlerinin <u>en yüksek</u> olduğu elementler hangi seçenekte doğru eşleştirilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Flor ($\text{F}$) - Flor ($\text{F}$)</li>
+            <li>B) Klor ($\text{Cl}$) - Klor ($\text{Cl}$)</li>
+            <li>C) Flor ($\text{F}$) - Klor ($\text{Cl}$)</li>
+            <li>D) Klor ($\text{Cl}$) - Flor ($\text{F}$)</li>
+            <li>E) Helyum ($\text{He}$) - Argon ($\text{Ar}$)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Periyodik sistemde elektronegatifliği en yüksek olan element 7A grubunun ilk üyesi olan <strong>Flor ($\text{F}$)</strong> elementidir. Elektron ilgisi (elektron alma isteği) en yüksek olan element ise istisnai olarak aynı grupta bir altta yer alan <strong>Klor ($\text{Cl}$)</strong> elementidir. Bu iki özel element karıştırılmamalıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>
