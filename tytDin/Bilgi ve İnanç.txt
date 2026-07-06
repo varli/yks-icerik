@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - Ünite 1: Bilgi ve İnanç</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT DİN KÜLTÜRÜ - MODÜL 1: BİLGİ VE İNANÇ</h1>
+        <p>İslam'da Sahih Bilginin Kaynakları, İnanç Esasları ve Kelami Kavramlar</p>
+    </div>
+
+    <h2>1. İSLAM'DA BİLGİNİN KAYNAKLARI (ESBAB-I SÜBÛTİYE)</h2>
+    <p>İslam dini, bilgiye ve öğrenmeye büyük önem verir. Ancak her bilgi türü dini ve hukuki açıdan mutlak doğru kabul edilmez. İslam düşüncesine göre insanın yanılgıya düşmeden, doğru ve nesnel bilgiye ulaşmasını sağlayan <strong>üç sahih (güvenilir) kaynak</strong> vardır. Bunlara "Esbab-ı Sübûtiye" denir:</p>
+    <ol>
+        <li><strong>Salim Duyular (Havas-ı Selime):</strong> Herhangi bir ünite bozukluğu, hastalık veya noksanlığı bulunmayan, işlevini tam yapan beş duyu organıdır (göz, kulak, burun, dil, deri). Salim duyularla elde edilen somut veriler, dış dünyayı algılamanın ve fiziki bilimlerin temelini oluşturur.</li>
+        <li><strong>Sadık Haber (Haber-i Sadık):</strong> İnsanın kendi aklı veya duyularıyla doğrudan ulaşamayacağı, geçmişe veya gayb alemine ait bilgileri içeren güvenilir haberlerdir. İki alt başlığa ayrılır: <br>
+        • <em>Vahiy:</em> Yüce Allah'ın peygamberleri aracılığıyla insanlığa gönderdiği ilahi mesajlar, yani Kur'an-ı Kerim'dir. Kesin bilgi kaynağıdır. <br>
+        • <em>Mütevatir Haber:</em> Yalan üzerine birleşmeleri aklen imkansız olan bir topluluğun aktardığı kesin ve şüphe barındırmayan haberlerdir (Peygamberlerin mütevatir sünnetleri ve dilden dile aktarılan tarihi kesin gerçekler).</li>
+        <li><strong>Akl-ı Selim (Sağlıklı Akıl):</strong> İnsanın yaratılışındaki temizliği koruyan, ön yargılardan, nefsi arzulardan, hırs ve ihtiraslardan uzak durarak doğru karar verme yetisine sahip olan akıldır. İslam'da insan, aklı sayesinde dini sorumluluk (mükellef) altına girer. Akıl, vahyin mesajını anlamak ve evrendeki düzeni çözmek için şarttır.</li>
+    </ol>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM BURALARDAN ÇELDİRİR (Geçersiz Bilgi Kaynakları):</strong>
+        <br>İslam inancına göre <strong>Rüya, Keşif ve İlham</strong> gibi sübjektif (kişiye özel) durumlar, genel ve kesin bir bilgi kaynağı <u>kabul edilemez.</u> Bir kimsenin rüyasında veya ilham yoluyla hissettiği bir bilgi sadece kendisini bağlar; İslam hukukunda veya inanç esaslarında bir hüküm, delil veya kanıt olarak kullanılması kesinlikle yasaktır. Çünkü nesnel ve denetlenebilir değillerdir.
+    </div>
+
+    <h2>2. İNANÇLA İLGİLİ TEMEL KELAMİ KAVRAMLAR</h2>
+    <p>İslam'ın inanç (akide) yapısını korumak ve sapmaları önlemek amacıyla belirlenen, sınavlarda doğrudan paragraf metinlerine yerleştirilen temel kavramlar şunlardır:</p>
+    <ul>
+        <li><strong>Tevhid:</strong> Allah'ın varlığına, birliğine, tüm sıfatlarında, isimlerinde ve fiillerinde tek olduğuna, ortağı, dengi veya benzeri bulunmadığına inanmaktır. "Lâ ilâhe illallah" cümlesiyle ifade edilir ve İslam inancının mutlak merkezidir.</li>
+        <li><strong>İhlas:</strong> Kulun, tüm ibadetlerini, niyetlerini, dualarını ve salih amellerini sadece ve sadece Allah rızasını gözeterek yapmasıdır. İçtenlik ve samimiyettir. İhlasın zıddı <strong>Riya (Gösteriş)</strong> ve süm'a (duyurma arzusu) kavramlarıdır; gösteriş için yapılan ibadetler İslam'da geçersiz sayılır.</li>
+        <li><strong>Şirk:</strong> Allah'ın zatında, sıfatlarında veya ibadet edilmesinde O'na ortak koşmak, başka varlıkları da tanrısal güçlere sahip görmek demektir. Şirk koşan kişiye <strong>Müşrik</strong> denir. İslam'da bağışlanmayacak en büyük günah olarak kabul edilir (Tevhidin tam zıddıdır).</li>
+        <li><strong>Takva:</strong> Kulun, Allah'ın emirlerine sımsıkı sarılarak, yasakladığı günahlardan, kötülüklerden ve şüpheli şeylerden titizlikle kaçınması, Allah korkusu ve sevgisiyle haramlara karşı siper alması durumudur.</li>
+        <li><strong>İhsan:</strong> Hz. Muhammed'in tanımıyla; <em>"Allah'ı görüyormuş gibi ibadet etmektir. Sen O'nu görmesen de O seni görmektedir."</em> bilincidir. İnsanın her an denetlendiğini bilerek kusursuz davranmasıdır.</li>
+    </ul>
+
+    <h2>3. İMANIN ŞARTLARI VE KİŞİLİK TİPLERİ</h2>
+    <p>İman, kelime olarak kalpten inanmak, tasdik etmek ve güvenmektir. İslam akaidinde imanın kalple onaylanmasına <strong>Tasdik</strong>, dil ile söylenmesine ise <strong>İkrar</strong> denir. Kalpte tasdik olmadığı sürece sadece dille yapılan ikrar insanı mümin yapmaz.</p>
+
+    <h3>İnanç Bakımından İnsan Tipleri:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Kişilik Tipi</th>
+                <th>Dini ve Kalbi Durumu</th>
+                <th>Sınav İçin Kritik Yorum Anahtarı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Mümin</strong></td>
+                <td>Allah’a, Hz. Muhammed’e ve O’nun getirdiği her şeye kalpten inanıp (tasdik) diliyle söyleyen (ikrar) kişidir.</td>
+                <td>İçi de dışı da tamamen inançla doludur, samimidir.</td>
+            </tr>
+            <tr>
+                <td><strong>Kâfir</strong></td>
+                <td>İslam inanç esaslarını, vahyini veya Allah'ın varlığını açıkça inkar eden, inanmayan kişidir.</td>
+                <td>İnançsızlığını dışarıya da gizlemeden açıkça beyan eder.</td>
+            </tr>
+            <tr>
+                <td><strong>Münafık</strong></td>
+                <td>Kalben inanmadığı halde, Müslümanların arasında menfaat veya korku nedeniyle <strong>inandığını söyleyen (sahte)</strong> kişidir.</td>
+                <td>İçi kâfir, dışı mümin görünür. İslam toplumları için kâfirden daha tehlikeli kabul edilir.</td>
+            </tr>
+            <tr>
+                <td><strong>Müşrik</strong></td>
+                <td>Allah'ın varlığını inkar etmez ancak O'na ulaşmak için araya putları, şahısları veya nesneleri ortak koşar.</td>
+                <td>Tevhid inancını zedeleyen, ortak koşan kişidir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <strong>💡 Taklidi ve Tahkiki İman Ayrımı:</strong>
+        <br>• <strong>Taklidi İman:</strong> Kişinin dinin emir ve inanç esaslarına, ailesinden veya çevresinden gördüğü şekilde, delillerini araştırmadan, körü körüne inanmasıdır. Bu iman türü geçerli olmakla birlikte, felsefi ve fikri bir şüphe anında kolayca sarsılabilir.
+        <br>• <strong>Tahkiki İman:</strong> Kişinin inanç esaslarını delilleriyle, bilgiyle, araştırarak, akl-ı selim süzgecinden geçirerek kalpten benimsemesidir. Sarsılması imkansız olan, İslam'ın hedeflediği olgun iman düzeyidir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> İslam düşüncesinde, rüya, keşif ve ilham gibi yollarla elde edilen sübjektif duygu ve sezgiler kesin bir bilgi kaynağı olarak kabul edilmez. <br><br>
+        İslam akaidinde bu tür kaynakların "herkes için geçerli genel bir delil" sayılmamasının <u>en temel mantıksal gerekçesi</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kişiden kişiye değişen, nesnel olarak denetlenemeyen ve bilimsel olarak kanıtlanamayan sübjektif yapıda olmaları</li>
+            <li>B) Sadece peygamberler tarafından deneyimlenebilen üst düzey haller olmaları</li>
+            <li>C) Kur'an-ı Kerim'de bu kelimelerin hiçbir şekilde geçmiyor olması</li>
+            <li>D) Salim duyuların işleyiş mekanizmasını tamamen bozuyor olmaları</td>
+            <li>E) Akıl yürütme süreçlerini tamamen değersiz kılmaları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir bilginin dini, hukuki ve bilimsel olarak bağlayıcı bir "delil" olabilmesi için nesnel, herkes tarafından sınanabilir ve doğrulanabilir olması gerekir. Rüya veya ilham ise tamamen **kişiye özel (sübjektif)** ve içsel durumlardır. Bir kişinin gördüğü rüya veya kalbine gelen ilham başkası için bağlayıcı veya kanıtlanabilir olamaz. Bu yüzden İslam'da sahih bilgi kaynakları (Esbab-ı Sübûtiye) arasında yer almazlar. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir Müslüman, günlük hayatında gerçekleştirdiği tüm ibadetleri, yaptığı duaları ve insanlara sunduğu yardımları yalnızca Yüce Allah'ın sevgisini ve rızasını kazanmak amacıyla yerine getirmelidir. Gösterişten, insanların övgüsünü toplama arzusundan (riya) ve dünyevi bir menfaat beklentisinden tamamen uzak durmalıdır. <br><br>
+        Yukarıdaki parçada önemi ve ahlaki boyutu vurgulanan kelami kavram aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Tevhid</li>
+            <li>B) Takva</li>
+            <li>C) İhlas</li>
+            <li>D) İhsan</li>
+            <li>E) Mütevatir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İbadetlerin ve amellerin menfaat, çıkar ve gösterişten (riyadan) arındırılarak bütünüyle temiz bir niyetle, sırf Allah rızası için samimiyetle yapılması durumuna İslam literatüründe <strong>İhlas</strong> adı verilir. Metinde "gösterişten uzak durma" ve "yalnızca Allah'ın rızasını kazanma" vurgusu bizi doğrudan ihlas kavramına götürür. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "O, kalbiyle İslam inanç esaslarını kesinlikle doğrulamadığı ve kalbinde zerre kadar iman barındırmadığı halde; Müslümanların sahip olduğu sosyal, ekonomik ve hukuki haklardan yararlanmak ya da dışlanmamak amacıyla diliyle inandığını söyleyerek Müslüman gibi görünmektedir." <br><br>
+        Yukarıdaki paragrafta inanç boyutu ve toplumsal tehlikesi anlatılan kişilik tipi hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Mümin</li>
+            <li>B) Müşrik</li>
+            <li>C) Münafık</li>
+            <li>D) Mükellef</li>
+            <li>E) Kâfir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kalbiyle inanmadığı (tasdik etmediği) halde, menfaat veya korku nedeniyle dışarıya karşı "Müslümanım" diyen (ikrar eden), yani içi kâfir dışı mümin olan iki yüzlü inanç karakterine <strong>Münafık</strong> denir. Münafıklar sahte tavırları nedeniyle toplumsal güveni sarsarlar. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> İslam'da iman olgusu zihinsel bir taklitten ibaret kalmamalıdır. Çevreden duyulan bilgilerin ötesine geçilerek, evrendeki mükemmel düzen gözlemlenmeli, ayetlerin derin anlamları düşünülmeli ve inanç esasları kesin delillerle akıl süzgecinden geçirilerek kalbe yerleştirilmelidir. <br><br>
+        Bu parçada Müslüman bir bireyde bulunması hedeflenen hangi iman türü vurgulanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Taklidi İman</li>
+            <li>B) Tahkiki İman</li>
+            <li>C) Gıyabi İman</li>
+            <li>D) Muallak İman</li>
+            <li>E) Beyanî İman</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Araştırmaya, bilgiye, gözleme ve kesin delillere dayanan, akıl süzgecinden geçirilerek kalple özümsenen sarsılmaz iman türüne <strong>Tahkiki İman</strong> denir. Çevreden görerek taklit etmeye dayanan iman ise taklidi imandır. Parçada araştırma ve delil vurgusu yapıldığı için cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> İslam peygamberi Hz. Muhammed, ashabına dini olgunluğun zirvesini tarif ederken; "İhsan, Allah’ı görüyormuş gibi O’na kulluk etmektir. Sen O’nu görmüyor olsan da O seni mutlaka görmektedir." buyurmuştur. <br><br>
+        Buna göre "İhsan" bilincine ulaşmış bir müminde aşağıdaki ahlaki davranışlardan hangisinin gelişmesi <u>beklenemez</u>?</div>
+        <ul class="options-list">
+            <li>A) Kimsenin olmadığı gizli mekanlarda bile günahlardan titizlikle kaçınması</li>
+            <li>B) İbadetlerini büyük bir ciddiyet, huşu ve özenle yerine getirmesi</li>
+            <li>C) İnsanların olmadığı durumlarda ticari işlerine hile karıştırmaktan çekinmemesi</li>
+            <li>D) Her an ilahi bir gözetim ve denetim altında olduğunu bilerek yaşaması</li>
+            <li>E) Davranışlarında dürüstlüğü, samimiyeti ve adaleti şiar edinmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İhsan bilinci, "Allah beni her an görüyor ve denetliyor" algısıdır. Bu inanca sahip bir kul, yalnız kaldığında veya insanların görmediği gizli alanlarda bile asla hile yapmaz, harama el uzatmaz ve günahlardan kaçınır (A, B, D, E beklenir). Ancak yalnızken hile yapabileceğini düşünen bir insan (C şıkkı) ihsan bilincinden tamamen uzaktır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

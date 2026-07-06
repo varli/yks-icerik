@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - Ünite 5: İslam Medeniyeti, Kurumları ve Yorumlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT DİN KÜLTÜRÜ - MODÜL 5: İSLAM MEDENİYETİ VE YORUMLAR</h1>
+        <p>Kültür Kurumları, Havzalar, İtikadi, Ameli ve Tasavvufi Düşünce Ekolleri</p>
+    </div>
+
+    <h2>1. İSLAM MEDENİYETİNİN BİLİM VE KÜLTÜR KURUMLARI</h2>
+    <p>İslam medeniyeti, vahiyle başlayan bilgi sürecini çok kısa sürede kurumsallaştırmış ve Orta Çağ Avrupa'sının karanlığına inat, küresel bilimin merkezi olmuştur. İslam dünyasında kurulan ve ÖSYM'nin eşleştirme sorularında sıkça kullandığı başlıca kurumlar şunlardır:</p>
+    <ul>
+        <li><strong>Mescid / Cami:</strong> İslam'ın ilk dönemlerinde sadece ibadet yeri değil; aynı zamanda devlet işlerinin görüşüldüğü, elçilerin kabul edildiği ve <strong>Suffe</strong> adı verilen bölümlerde ilk sistemli eğitim faaliyetlerinin yürütüldüğü çok fonksiyonlu merkezlerdir.</li>
+        <li><strong>Beytü'l-Hikme (Bilgelik Evi):</strong> Abbasi halifesi Me'mun döneminde Bağdat'ta kurulan dönemin en büyük akademi, tercüme bürosu ve kütüphanesidir. Yunan, Hint ve Fars klasik dillerindeki eserler burada Arapçaya çevrilerek İslam Rönesansı'nın temelleri atılmıştır.</li>
+        <li><strong>Medrese:</strong> İslam dünyasında yükseköğretim (üniversite) düzeyinde eğitim veren kurumlardır. Karahanlılarda ilk kez burslu öğrencilikle başlamış, Büyük Selçuklu Veziri Nizamülmülk'ün kurduğu <strong>Nizamiye Medreseleri</strong> ile zirveye ulaşmıştır. Hem dini hem de pozitif bilimler (matematik, astronomi, tıp) bir arada okutulmuştur.</li>
+        <li><strong>Rasathane (Gözlemevi):</strong> Gökyüzü olaylarını, yıldız ve gezegen hareketlerini incelemek, takvim hazırlamak amacıyla astronomi bilginlerinin çalıştığı kurumlardır (Örn: el-Me'mun'un Şemmâsiye Rasathanesi).</li>
+        <li><strong>Şifahane (Bimaristan / Darüşşifa):</strong> Günümüzün tam teşekküllü hastaneleridir. Hem tıp eğitimi verilir hem de din, ırk ayrımı yapılmaksızın hastalar ücretsiz tedavi edilirdi. Selçuklu ve Osmanlı'da akıl hastalarının müzik ve su sesiyle tedavi edildiği özgün merkezlerdir.</li>
+    </ul>
+
+    <h2>2. İSLAM DÜŞÜNCESİNDEKİ YORUM BİÇİMLERİ (MEZHEPLER)</h2>
+    <p>Hz. Muhammed'in vefatından sonra sınırların hızla genişlemesi, farklı kültür ve dinlerin İslam havzasına girmesi ve metinlerin (ayet ve hadislerin) farklı yorumlanması nedeniyle İslam dünyasında fikirsel çeşitlilikler doğmuştur. <strong>Mezhepler bir din değil, dinin anlaşılma biçimleridir (yorumlardır).</strong> Üç ana grupta incelenir:</p>
+
+    <h3>A) İtikadi (İnançsal) Yorumlar</h3>
+    <p>Doğrudan imanın şartları ve inanç esasları üzerine yoğunlaşan fikir ekolleridir:
+    <br>• <strong>Maturidilik:</strong> İmam Maturidi tarafından kurulmuştur. Türkler arasında en yaygın itikadi mezheptir. <u>Akla ve iradeye büyük önem verir.</u> Nakil (vahiy) ile aklı sentezler.
+    <br>• <strong>Eş'arilik:</strong> İmam Eş'ari tarafından kurulmuştur. Genellikle Şafii ve Maliki coğrafyasında yaygındır. Maturidiliğe göre <u>nakli (vahyî bildirimleri) aklın önünde tutar.</u>
+    <br>• <strong>Şia:</strong> Hz. Muhammed'den sonra halifeliğin Hz. Ali ve soyuna (Ehli Beyt) ait olduğunu savunan siyasi-itikadi ekoldür.</p>
+
+    <h3>B) Ameli ve Fıkhi (Hukuki) Yorumlar</h3>
+    <p>Günlük ibadetlerin yapılış şekillerini ve hukuki kuralları belirleyen mezheplerdir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Fıkhi Mezhep</th>
+                <th>Kurucusu ve Metodu</th>
+                <th>En Yoğun Görüldüğü Coğrafya</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Hanefilik</strong></td>
+                <td>İmam-ı Azam Ebu Hanife. Akıl, kıyas ve istihsan (kamu yararı) metodunu çok güçlü kullanır.</td>
+                <td>Türkiye, Orta Asya, Balkanlar (Türk dünyasının ana gövdesi).</td>
+            </tr>
+            <tr>
+                <td><strong>Şafiilik</strong></td>
+                <td>İmam Şafii. Hüküm koyarken hadislerin ve sünnetin mutlak bağlayıcılığına sıkı sıkıya bağlıdır.</td>
+                <td>Türkiye'nin Doğu ve Güneydoğu Anadolu bölgeleri, Mısır, Hicaz.</td>
+            </tr>
+            <tr>
+                <td><strong>Malikilik</strong></td>
+                <td>İmam Malik. Medine halkının örfünü ve uygulamalarını güçlü bir delil kabul eder.</td>
+            </tr>
+            <tr>
+                <td><strong>Hanbelilik</strong></td>
+                <td>Ahmet bin Hanbel. Kısa ve net fıkhi yorumları reddeder, tamamen hadislere dayanır.</td>
+                <td>Suudi Arabistan ve Körfez ülkeleri.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>C) Tasavvufi (Ahlaki) Yorumlar</h3>
+    <p>Dinin şekilsel (fıkhi) kurallarının ötesine geçerek, kalbi temizlemeyi, nefsi terbiye etmeyi ve dünyevi hırslardan uzaklaşarak Allah'a yaklaşmayı amaçlayan manevi disiplinlerdir. Başlıca tasavvufi ekoller: <strong>Yisavilik</strong> (Hoca Ahmed Yesevi), <strong>Mevlevilik</strong> (Mevlana), <strong>Kadirilik</strong> (Abdülkadir Geylani), <strong>Nakşibendilik</strong> (Bahaeddin Nakşibend) ve <strong>Alevilik-Bektaşilik</strong>'tir (Hacı Bektaş-ı Veli).</p>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Abbasi Halifesi el-Me'mun döneminde Bağdat'ta kurulan, bünyesinde devasa bir kütüphane, rasathane ve akademi barındıran; Grekçe, Farsça ve Hintçe dillerindeki felsefi, matematiksel ve tıbbi eserlerin sistemli bir şekilde Arapçaya çevrilmesini sağlayarak İslam bilim tarihine altın çağını yaşatan kurum aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Nizamiye Medresesi</li>
+            <li>B) Suffe</li>
+            <li>C) Beytü'l-Hikme</li>
+            <li>D) Darüşşifa</li>
+            <li>E) Maristan</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Abbasiler döneminde Bağdat merkezli kurulan, özellikle yabancı klasiklerin çevrilmesi ve felsefi-bilimsel araştırmaların yürütülmesi amacıyla bir bilim akademisi olarak işlev gören meşhur kuruma <strong>Beytü'l-Hikme (Bilgelik Evi)</strong> adı verilir. Medreseler daha çok genel eğitim-öğretim, Suffe ise Hz. Muhammed dönemindeki ilk eğitim odasıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> İslam düşüncesinde ortaya çıkan yorum biçimleri (mezhepler) hiçbir zaman dinin aslı ve özü yerine konulamaz. Din, Yüce Allah tarafından gönderilen vahyin evrensel ve değişmez üst sınırıyken; mezhepler ise bu vahyî mesajların insanlar (müctehidler) tarafından yaşanılan çağın, coğrafyanın ve kültürün şartlarına göre anlaşılma ve yorumlanma biçimleridir. <br><br>
+        Buna göre mezhepler (orum biçimleri) hakkında aşağıdaki genellemelerden hangisi <u>kesinlikle hatalıdır</u>?</div>
+        <ul class="options-list">
+            <li>A) Mezhepler beşerî (insani) algı ve yorum farklarına dayanır.</li>
+            <li>B) Bir mezhebin görüşlerini değiştirmesi veya zamanla yok olması dinin ortadan kalktığı anlamına gelmez.</li>
+            <li>C) Tüm ameli ve itikadi mezheplerin görüşleri, doğrudan ilahi vahiy gibi mutlak, kutsal ve tartışılamaz bir bağlayıcılığa sahiptir.</li>
+            <li>D) Coğrafi ve kültürel çeşitlilik, mezheplerin doğmasındaki en dinamik etkenlerden biridir.</li>
+            <li>E) İslam düşüncesindeki mezhepsel farklılıklar zihinsel bir zenginlik ve pratik bir kolaylık sağlar.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Mezhepler insanların yorumlarıdır; dolayısıyla kutsal, hatasız ve tartışılamaz değillerdir (C şıkkı yanlıştır). Sadece vahiy (Kur'an) ve mütevatir sünnet mutlak bağlayıcıdır. Mezheplerin görüşleri zamanla değişebilir, coğrafyaya göre esneklik gösterir (A, B, D, E çok doğru akademik tespitlerdir). Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "İmam-ı Azam Ebu Hanife'nin kurduğu, fıkhi hükümlere ulaşırken aklı, kıyası, örfü ve özellikle toplum yararını (istihsanı) çok güçlü bir argüman olarak kullanan, günümüzde Türkiye, Balkanlar ve Orta Asya Türk dünyasında en yaygın olarak benimsenen ameli-fıkhi yorum aşağıdakilerden hangisidir?"</div>
+        <ul class="options-list">
+            <li>A) Şafiilik</li>
+            <li>B) Hanbelilik</li>
+            <li>C) Malikilik</li>
+            <li>D) Hanefilik</li>
+            <li>E) Maturidilik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ebu Hanife'nin ekolü olan ve akıl-kıyas-kamu yararı dengesini en üst düzeyde koruyan, Türk dünyasının neredeyse tamamının benimsediği ameli/hukuki mezhep <strong>Hanefilik</strong>'tir. Maturidilik ise ameli değil, *itikadi* (inançsal) bir mezheptir. Soruda fıkhi/ameli durum sorulduğu için cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> İslam ahlak disiplini içerisinde yer alan, dinin sadece zahiri (şekilsel) kurallarıyla yetinmeyip, ruhun derinliklerine inerek nefsi kötülüklerden temizlemeyi, kalbi dünyevi ihtiraslardan (mal, makam hırsı) arındırarak bütünüyle Allah sevgisine ve rızasına endekslemeyi şiar edinen ahlaki-manevi düşünce yorumlarına genel olarak ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Fıkıh</li>
+            <li>B) Kelam</li>
+            <li>C) Tasavvuf</li>
+            <li>D) Hadis</li>
+            <li>E) Tefsir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İslam düşünce geleneğinde kalbi temizleme, nefsi terbiye etme, ahlakı güzelleştirme ve zühd (dünyadan el etek çekerek Allah'a yönelme) hayatını sistemleştiren manevi disipline <strong>Tasavvuf</strong> (veya irfan ekolü) adı verilir. Fıkıh hukuku, Kelam inancı inceler. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> İslam medeniyetinde kurulan aşağıdaki kurumlardan hangisi, "ırk, din, dil ve sınıf ayrımı gözetmeksizin tüm hastaların ücretsiz tedavi edildiği, aynı zamanda dönemin tıp öğrencilerinin usta-çırak ilişkisiyle klinik eğitim aldığı vakıf temelli sağlık merkezleridir"?</div>
+        <ul class="options-list">
+            <li>A) Rasathane</li>
+            <li>B) Medrese</li>
+            <li>C) Darüşşifa (Şifahane)</li>
+            <li>D) Beytü'l-Mal</li>
+            <li>E) Ribat</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İslam medeniyetinde hastane ve sağlık kurumlarına <strong>Darüşşifa</strong>, Şifahane veya Bimaristan adı verilirdi. Buralar tamamen insani vakıflarla finanse edilir ve hastalardan ücret alınmazdı. Rasathane gözlemevidir, medrese okuldur, beytülmal devlet hazinesidir, ribat ise kervansaraydır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

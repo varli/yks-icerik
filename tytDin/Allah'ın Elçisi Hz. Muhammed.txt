@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - Ünite 4: Allah'ın Elçisi Hz. Muhammed</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT DİN KÜLTÜRÜ - MODÜL 4: ALLAH'UN ELÇİSİ HZ. MUHAMMED</h1>
+        <p>Hz. Muhammed'in İnsani ve Peygamberi Yönü, Nübüvvet Görevleri ve Üsve-i Hasene Ekolü</p>
+    </div>
+
+    <h2>1. HZ. MUHAMMED'İN İNSANİ YÖNÜ VE PEYGAMBERLİK VASFI</h2>
+    <p>İslam inancında Hz. Muhammed'in (s.a.v.) şahsiyeti iki ana boyutta ele alınır: İnsani yönü (*beşeri vasfı*) ve peygamberlik yönü (*nübüvvet vasfı*). ÖSYM, bu iki yönün karıştırılmasını çeldirici olarak sıkça kullanır. Hristiyanlıktaki Hz. İsa tasavvurunun aksine, İslam'da Hz. Muhammed ilahlaştırılmaz; o da herkes gibi bir kuldur.</p>
+    <ul>
+        <li><strong>İnsani (Beşeri) Yönü:</strong> Her insan gibi doğmuş, büyümüş, evlenmiş, çocuk sahibi olmuş, rızkını kazanmak için ticaret yapmış, hastalanmış, üzülmüş ve vakti gelince vefat etmiştir. Geleceği (gaybı) Allah bildirmedikçe kendiliğinden bilemez, olağanüstü insani ihtiyaçlardan muaf değildir. <br><em>Ayet Kanıtı:</em> "De ki: Ben de ancak sizin gibi bir insanım. Fakat bana ilahınızın yalnızca tek bir ilah olduğu vahyolunuyor..." (Fussilet Suresi, 6. Ayet).</li>
+        <li><strong>Peygamberlik (Nübüvvet) Yönü:</strong> Onu diğer insanlardan ayıran tek ve en mutlak çizgi <strong>vahiy almasıdır.</strong> Allah'tan aldığı vahiyleri insanlığa eksiksiz ulaştırmakla görevlidir. Günahtan korunmuşluk (*ismet*) sıfatına sahiptir.</li>
+    </ul>
+
+    <h2>2. HZ. MUHAMMED'İN PEYGAMBERLİK GÖREVLERİ (KRİTİK TERİMLER)</h2>
+    <p>Kur'an-ı Kerim'de peygamberin görev alanlarını, yetkilerini ve toplumsal misyonunu tanımlayan dört teknik kavram vardır. Sınavda bu kelimeler doğrudan sorulur:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Peygamberi Görev</th>
+                <th>Kavramsal Tanımı ve Kırılımı</th>
+                <th>Paragraf Analiz Anahtarı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Tebliğ</strong></td>
+                <td>Allah'tan aldığı vahiy mesajlarını, <strong>hiçbir ekleme veya çıkarma yapmadan</strong> aynen insanlığa duyurması, ulaştırmasıdır.</td>
+                <td>Haber verme, aynen ulaştırma vazifesidir.</td>
+            </tr>
+            <tr>
+                <td><strong>Tebyin</strong></td>
+                <td>Kur'an-ı Kerim'deki kapalı, anlaşılması zor veya genel hükümleri (mücmel ayetleri) <strong>açıklaması, tefsir etmesidir.</strong></td>
+                <td>Açıklama, örnekleme, detaylandırmadır (Örn: Ayette namaz emredilir, nasıl kılınacağını tebyin eder).</td>
+            </tr>
+            <tr>
+                <td><strong>Teşri</strong></td>
+                <td>Kur'an-ı Kerim'de doğrudan hükmü bulunmayan konularda, Allah'ın izniyle <strong>hukuki hüküm koyma, yasama yetkisidir.</strong></td>
+                <td>Kanun koyma, helal/haram belirlemedir (Örn: Ehlî eşek etinin haram kılınması).</td>
+            </tr>
+            <tr>
+                <td><strong>Temsil</strong></td>
+                <td>İslam'ın getirdiği ahlaki, dini ve sosyal kuralları bizzat kendi hayatında yaşayarak insanlığa <strong>canlı model, örnek olmasıdır.</strong></td>
+                <td>Yaşayış, pratik uygulama, rol model olmadır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. ÜSVE-İ HASENE (EN GÜZEL ÖRNEK) KAVRAMI</h2>
+    <p>Ahzab Suresi 21. ayette geçen <strong>Üsve-i Hasene</strong>, sözlükte "en güzel örnek, kusursuz rehber" anlamına gelir. İslam inancında Hz. Muhammed'in hayat tarzı, ahlakı, insan ilişkilerindeki adaleti, merhameti, aile reisliği ve devlet başkanlığı tüm Müslümanlar için taklit edilmesi ve rehber edinilmesi gereken mutlak bir modeldir. Onun bu örnekliği sadece dini ritüellerle sınırlı değildir; dürüst ticaret yapması, sözünde durması (*Muhammedü'l-Emin*), istişareye (başkalarının fikrine) önem vermesi gibi evrensel ahlaki değerleri de kapsar.</p>
+
+    <div class="highlight-box">
+        <strong>💡 Peygamberin Sünnet Çeşitleri:</strong>
+        <br>• <strong>Kavli Sünnet:</strong> Hz. Muhammed’in Müslümanlara söylediği sözler, hadislerdir. (Örn: "Kolaylaştırınız, zorlaştırmayınız" sözü).
+        <br>• <strong>Fiili Sünnet:</strong> Yapılmasını bizzat uygulayarak gösterdiği eylemleridir. (Örn: Namazın kılınış şekli, hac menasiki).
+        <br>• <strong>Takriri Sünnet:</strong> Ashabının yaptığı bir davranışı gördüğünde veya duyduğunda <strong>sessiz kalarak onaylaması</strong>, yasaklamamasıdır.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Kur'an-ı Kerim'de namaz kılmak, zekat vermek ve hacca gitmek gibi temel ibadetler genel emirler halinde zikredilmiş, ancak bu ibadetlerin kaç rekat kılınacağı, hangi duaların okunacağı veya kurbanın nasıl kesileceği gibi şekilsel detaylara girilmemiştir. Müslümanlar bu detayların tamamını Hz. Muhammed'in bizzat açıklamalarından ve uygulamalarından öğrenmişlerdir. <br><br>
+        Bu parçada, Hz. Muhammed'in peygamberlik görevlerinden (nübüvvet fonksiyonlarından) hangisi ön plana çıkarılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Tebliğ</li>
+            <li>B) Teşri</li>
+            <li>C) Tebyin</li>
+            <li>D) Temsil</li>
+            <li>E) İsmet</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kur'an'da kapalı veya genel bırakılan hükümlerin peygamber tarafından söz ve eylemlerle **açıklanması, tefsir edilmesi ve anlaşılır kılınması** görevine fıkıhta ve kelamda <strong>Tebyin</strong> adı verilir. Tebliğ aynen ulaştırmak, teşri kanun koymak, temsil ise canlı model olmaktır. Parçada açıklama yönü anlatıldığı için cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Ahzab Suresi 21. ayette şöyle buyrulmaktadır: "Andolsun, Allah’ın Resulünde sizin için; Allah’a ve ahiret gününe kavuşmayı umanlar ve Allah’ı çokça zikredenler için mükemmel bir örnek vardır." <br><br>
+        Bu ayet metninde doğrudan vurgulanan ve Hz. Muhammed’in "tüm insanlık için kusursuz bir ahlaki rehber ve model" olduğunu ifade eden İslami kavram hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Esma-i Hüsna</li>
+            <li>B) Üsve-i Hasene</li>
+            <li>C) Hatemü'l-Enbiya</li>
+            <li>D) Sadık Haber</li>
+            <li>E) Mütevatir Sünnet</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ayette geçen "mükemmel bir örnek" ifadesinin tam karşılığı İslami literatürde <strong>Üsve-i Hasene</strong>'dir. Hz. Muhammed'in inanç, ahlak ve yaşayış bakımından tüm insanlığa rehber oluşunu simgeler. Hatemü'l-enbiya son peygamber demektir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir gün Hz. Muhammed'in evine giren bir sahabe, onun her insan gibi acıktığını, pazardan alışveriş yaptığını, hastalandığında yatağa düşüp acı çektiğini ve çocuklarının vefatı karşısında gözyaşı döküp hüzünlendiğini müşahede etmiştir. <br><br>
+        Bu sahabenin şahit olduğu bu durumlar, öncelikle Hz. Muhammed’in hangi yönünün doğrudan bir yansımasıdır?</div>
+        <ul class="options-list">
+            <li>A) Nübüvvet ve vahiy alma vasfının</li>
+            <li>B) Beşeri ve insani yönünün</li>
+            <li>C) Teşri (kanun koyma) yetkisinin</li>
+            <li>D) Gayb alemine ait sırları bilme gücünün</li>
+            <li>E) Kusursuz toplumsal devlet başkanlığının</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Yemek yemek, hastalanmak, üzülmek, ağlamak ve pazarda alışveriş yapmak gibi durumlar her insanda görülen **beşeri (insani)** özelliklerdir. İslam inancı, peygamberlerin de melek veya ilah olmadığını, bizim gibi birer insan (kul) olduğunu ısrarla vurgular. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Hz. Muhammed, ashabından birinin bir nehir kıyısında abdest alırken suyu aşırı derecede israf ettiğini görmüş, bunun üzerine ona müdahale ederek; 'Akan bir nehrin kenarında olsan bile suyu israf etme!' buyurmuştur. <br><br>
+        Hukuki olarak Kur'an'da akarsu kenarında abdest suyu israfıyla ilgili doğrudan yazılı bir ayet maddesi bulunmamasına rağmen, peygamberin bu duruma kesin bir yasak getirmesi onun hangi nübüvvet görevini yansıtır?</div>
+        <ul class="options-list">
+            <li>A) Tebliğ</li>
+            <li>B) Tebyin</li>
+            <li>C) Teşri</li>
+            <li>D) Takrir</li>
+            <li>E) Tasdik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kur'an'da doğrudan hükmü açıkça yazılmayan dini-ahlaki bir meselede, peygamberin kendi otoritesi ve Allah'ın izniyle yeni bir kural, haramlık/helallik veya yasak koyması eylemine <strong>Teşri (Yasama/Hüküm koyma)</strong> denir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Sahabeden biri bir gün bir grup Müslüman'ın kendi aralarında zararsız bir şaka veya örfi bir adet uyguladıklarını görmüştür. O esnada orada bulunan Hz. Muhammed bu durumu sessizce izlemiş, ne olumlu bir söz söylemiş ne de sert bir dille yasaklamıştır. <br><br>
+        Peygamberin onay anlamına gelen bu "sessiz kalarak yasaklamama" tavrı, sünnet çeşitlerinden hangisinin kapsamına girmektedir?</div>
+        <ul class="options-list">
+            <li>A) Kavli Sünnet</li>
+            <li>B) Fiili Sünnet</li>
+            <li>C) Takriri Sünnet</li>
+            <li>D) Mücmel Sünnet</li>
+            <li>E) Mensuh Sünnet</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Hz. Muhammed'in, sahabesinin söylediği bir sözü veya yaptığı bir eylemi gördüğünde/duyduğunda itiraz etmeyerek, sessiz kalıp sükutla karşılaması ve onaylaması eylemine fıkıh metodolojisinde <strong>Takriri Sünnet</strong> adı verilir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

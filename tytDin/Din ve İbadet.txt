@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - Ünite 2: Din ve İbadet</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT DİN KÜLTÜRÜ - MODÜL 2: DİN VE İBADET</h1>
+        <p>İbadetin Mahiyeti, Ef'âl-i Mükellefîn (Hukuki Hükümler) ve İbadetlerin İlkeleri</p>
+    </div>
+
+    <h2>1. İBADETİN TANIMI VE MAHİYETİ</h2>
+    <p>İbadet; sözlükte boyun eğmek, itaat etmek, kulluk etmek ve saygı duymak anlamlarına gelir. Dini bir terim olarak ise; müminin Yüce Allah'ın rızasını kazanmak amacıyla O'nun emirlerini yerine getirmesi ve yasaklarından kaçınmasıdır. İslam inancında ibadet, sadece namaz, oruç gibi belirli ritüellerden ibaret değildir; bir müminin Allah rızasını gözeterek yaptığı her güzel, faydalı davranış ve ahlaki duruş (salih amel) da geniş anlamda ibadet sayılır.</p>
+    <p>İslam'da dini emir ve yasaklara muhatap olan, akıl sağlığı yerinde ve ergenlik (bülûğ) çağına gelmiş her bireye <strong>Mükellef</strong> adı verilir. İbadetlerin İslam hukukunda kabul görmesi ve birey üzerinde ahlaki bir olgunluk oluşturması için üç temel ilkeye dayanması şarttır:</p>
+    <ul>
+        <li><strong>İman:</strong> İbadetlerin Allah katında değer bulmasının ön şartıdır. İnanmayan (kâfir veya münafık) birinin yaptığı iyilikler dini bir ibadet statüsü kazanmaz.</li>
+        <li><strong>İhlas (Samimiyet):</strong> İbadetin yalnızca ve sadece Allah rızası için yapılmasıdır. Gösteriş (riya) ve çıkar kaygısı ibadeti geçersiz kılar.</li>
+        <li><strong>Sünnete Uygunluk:</strong> İbadetlerin yapılış şekil ve şartlarında Kur'an'a ve Hz. Muhammed'in (s.a.v.) uygulamalarına (sünnete) bağlı kalınmasıdır. Dinde kendi kafasına göre ibadet şekli uydurmaya <strong>Bid'at</strong> denir ve yasaktır.</li>
+    </ul>
+
+    <h2>2. EF'ÂL-I MÜKELLEFÎN (MÜKELLEFİN DAVRANIŞLARI VE HÜKÜMLERİ)</h2>
+    <p>İslam fıkhında (hukukunda) mükellef olan insanların dinsel, ahlaki ve hukuki açıdan yaptığı eylemlere ve bunlara verilen şer'i derecelere "Ef'âl-i Mükellefîn" denir. ÖSYM bu kavramların paragraflardaki karşılıklarını sıklıkla sorgular:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Hukuki Hüküm</th>
+                <th>Tanımı ve Dini Bağlayıcılığı</th>
+                <th>Örnek Kullanım / Kavram</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Farz</strong></td>
+                <td>Allah'ın mükelleften yapılmasını <strong>kesin ve açık delillerle</strong> istediği işlerdir. İnkar eden dinden çıkar, yapmayan günahkar olur.</td>
+                <td>Namaz kılmak, oruç tutmak, zekat vermek.</td>
+            </tr>
+            <tr>
+                <td><strong>Farz-ı Ayn</strong></td>
+                <td>Her mükellefin bizzat kendisinin yapması zorunlu olan farzlardır. Bir başkası onun yerine yapamaz.</td>
+                <td>Beş vakit namaz, Ramazan orucu.</td>
+            </tr>
+            <tr>
+                <td><strong>Farz-ı Kifaye</strong></td>
+                <td>Müslümanlardan bir kısmının yapmasıyla diğerlerinin üzerinden sorumluluğun kalktığı farzlardır. Kimse yapmazsa tüm toplum sorumlu olur.</td>
+                <td>Cenaze namazı kılmak, topluma faydalı ilim öğrenmek.</td>
+            </tr>
+            <tr>
+                <td><strong>Vacip</strong></td>
+                <td>Yapılması farz kadar kesin olmamakla birlikte, <strong>güçlü delillerle</strong> istenen emirlerdir. İnkar eden dinden çıkmaz ama günahkar olur.</td>
+                <td>Kurban kesmek, Bayram namazı ve Vitir namazı kılmak.</td>
+            </tr>
+            <tr>
+                <td><strong>Sünnet</strong></td>
+                <td>Hz. Muhammed’in (s.a.v.) farz ve vacip dışında yaptığı, Müslümanlardan da yapmasını tavsiye ettiği davranışlardır.</td>
+                <td>Dişleri fırçalamak (misvak), selamlaşmak, sünnet namazlar.</td>
+            </tr>
+            <tr>
+                <td><strong>Mübah (Helal)</strong></td>
+                <td>Mükellefin yapıp yapmamakta dini açıdan tamamen <strong>serbest bırakıldığı</strong>, günahı veya sevabı olmayan nötr eylemlerdir.</td>
+                <td>Uyumak, helal yiyeceklerden yemek, yürümek.</td>
+            </tr>
+            <tr>
+                <td><strong>Haram</strong></td>
+                <td>Allah'ın yapılmasını <strong>kesin ve net delillerle yasakladığı</strong> eylemlerdir. Yapan büyük günahkar olur, helal sayan dinden çıkar.</td>
+                <td>Hırsızlık yapmak, yalan söylemek, iftira atmak, faiz yemek.</td>
+            </tr>
+            <tr>
+                <td><strong>Mekruh</strong></td>
+                <td>Yapılması dinen hoş karşılanmayan, çirkin ve mekruh görülen ancak haram boyutuna ulaşmayan küçük yasaklardır.</td>
+                <td>Soğan yiyip camiye gitmek, suyu israf etmek.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖNEMLİ MEZHEP AYRIMI (Farz ve Vacip Farkı):</strong>
+        <br>İslam mezheplerinden **Hanefi mezhebi**, dini emirleri delilin kesinliğine göre ikiye ayırır. Eğer emir Kur'an'ın apaçık ve tartışmasız bir ayetine dayanıyorsa buna <strong>Farz</strong>; eğer hadis gibi dolaylı veya yoruma açık güçlü delillere dayanıyorsa buna <strong>Vacip</strong> der. Diğer mezheplerin çoğunda (Şafiilerde) ise farz ve vacip aynı anlama gelir, ayrım yapılmaz. Sınavda Hanefi fıkhının bu teknik ayrımı çeldirici olarak kullanılabilir.
+    </div>
+
+    <h2>3. İBADETLERİN BİREYSEL VE TOPLUMSAL FAYDALARI</h2>
+    <p>İbadetler sadece ahiret hayatına yönelik yatırımlar değildir; bireyin psikolojik dünyasını düzenlerken toplumsal barışı ve adaleti de inşa eder:</p>
+    <ul>
+        <li><strong>Bireysel Faydaları:</strong> İbadet eden insan iç huzura kavuşur, yalnızlık hissinden kurtulur. Her an Allah'ın gözetiminde olduğunu bildiği için (ihsan bilinci) kötülüklerden uzak durur ve zaman bilinci (namaz vakitleri sayesinde) kazanır. Sabır ve irade eğitimi (oruç sayesinde) verir.</li>
+        <li><strong>Toplumsal Faydaları:</strong> Özellikle cemaatle kılınan namazlar ve hac ibadeti, Müslümanlar arasında <strong>ırk, dil, sınıf gözetmeksizin tam bir eşitlik ve kardeşlik</strong> bağı kurar. Zekat, sadaka ve kurban gibi mali ibadetler ise toplumdaki zengin ile fakir arasındaki ekonomik uçurumu kapatarak, <strong>sosyal adaleti, dayanışmayı ve paylaşmayı</strong> sağlar. Sınıf kavgalarını ve haset duygularını önler.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> İslam fıkhında, Müslümanların bir kısmı tarafından yerine getirildiğinde diğer Müslümanların üzerinden dini sorumluluğun düştüğü, ancak toplumda hiç kimse yapmadığında tüm Müslümanların günahkar sayıldığı farz türüne ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Farz-ı Ayn</li>
+            <li>B) Farz-ı Kifaye</li>
+            <li>C) Sünnet-i Müekkede</li>
+            <li>D) Vacip</li>
+            <li>E) Mübah</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Soru kökündeki tanım doğrudan <strong>Farz-ı Kifaye</strong> kavramına aittir. Toplumsal nitelikli olan bu farzlarda amaç, işin mutlak surette yapılmasıdır. Birkaç Müslüman bu görevi (örneğin vefat eden birinin cenaze namazını kılmak veya tıp eğitimi almak gibi toplumsal ihtiyaçları karşılamak) yerine getirirse diğerleri sorumluluktan kurtulur. Herkesin bizzat yapması gerekenler ise Farz-ı Ayn'dır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir fıkıh araştırmacısı eserinde şu analize yer vermiştir: "Hanefi mezhebi müctehidleri, şer'i hükümleri belirlerken emrin dayandığı delilin niteliğine bakarlar. Ayet gibi kesin ve yoruma kapalı bir delil varsa buna başka bir isim verirler; ancak hadisler veya güçlü çıkarımlarla sabit olan fakat yoruma açık bir delil varsa buna daha farklı bir dini derece belirlerler." <br><br>
+        Araştırmacının bahsettiği Hanefi fıkhındaki bu iki dini derece (hüküm) sırasıyla aşağıdakilerin hangisinde doğru kurgulanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Sünnet - Mübah</li>
+            <li>B) Farz - Vacip</li>
+            <li>C) Vacip - Haram</li>
+            <li>D) Farz-ı Ayn - Farz-ı Kifaye</li>
+            <li>E) Haram - Mekruh</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Hanefi mezhebinin en özgün fıkhi ayrımı **Farz** ve **Vacip** arasındadır. Hanefiler, kesin ve tartışmasız delille (Kur'an ayetiyle) sabit olan emirlere "Farz"; güçlü ancak yoruma veya farklı rivayetlere açık delillerle sabit olan emirlere ise "Vacip" (Örn: Kurban, Vitir namazı) derler. Diğer mezheplerde bu iki kavram tek başlıkta birleşir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Zekat ve sadaka ibadetleri, zengin Müslümanların mallarındaki muhtaç haklarını sahiplerine ulaştırarak toplumda ekonomik adaleti sağlar. Kurban ibadeti ise hiç et yiyemeyen hanelere paylaşma yoluyla sevinç taşır. Bu mali ibadetler, toplumda oluşabilecek sınıf kinini ve haset duygularını yok eder." <br><br>
+        Bu parçada, ibadetlerin öncelikle hangi yönü ve fonksiyonu üzerinde durulmuştur?</div>
+        <ul class="options-list">
+            <li>A) İbadetlerin yapılış şekillerindeki şer'i kurallar</li>
+            <li>B) Bireyin ruh dünyasındaki psikolojik yansımaları</li>
+            <li>C) Toplumsal dayanışma, sosyal adalet ve birliktelik üzerindeki yapıcı etkileri</li>
+            <li>D) İbadetlerin geçerlilik şartlarındaki niyet esası</li>
+            <li>E) Ahiret hayatındaki günahlardan arınma boyutları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paragrafta bireyin iç dünyasından ziyade "toplumda ekonomik adalet", "paylaşma", "sınıf kininin yok edilmesi" gibi tamamen toplumu ve sosyal yapıyı ilgilendirilen kolektif faydalar işlenmiştir. Bu durum bizi doğrudan C seçeneğindeki toplumsal dayanışma ve sosyal adalet etkilerine götürür. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> İslam inancına göre, bir ibadetin şekilsel olarak tam yapılması onun Allah katında kabul görmesi için tek başına yeterli değildir. Kişi namazını kılarken veya zekatını verirken kalbinde sadece ve sadece yaratıcının hoşnutluğunu barındırmalı; 'ne dindar insan' ya da 'ne cömert kişi' desinler diye gösterişe (riyaya) kapılmamalıdır. <br><br>
+        Bu parçada ibadetlerin kabul şartlarından hangisine vurgu yapılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Sünnete uygunluk</li>
+            <li>B) Farz-ı Kifaye bilinci</li>
+            <li>C) İhlas ve samimiyet esası</li>
+            <li>D) Maddi imkanların yeterliliği</li>
+            <li>E) Zaman ve mekan şartı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İbadetlerin gösterişten (riya), menfaat ve çıkar duygularından arındırılarak bütünüyle temiz bir niyetle, sırf Allah rızası için içtenlikle yapılması kavramına **İhlas** denir. Parçadaki "gösterişe kapılmama" ve "sadece yaratıcının hoşnutluğunu barındırma" ifadeleri ihlası vurgulamaktadır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> İslam dininde, mükelleflerin yapıp yapmamakta dini kurallar çerçevesinde tamamen özgür bırakıldığı, yapılmasına sevap verilmediği gibi yapılmamasına da hiçbir ceza veya günahın terettüp etmediği nötr, helal ve serbest davranışlara ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Mekruh</li>
+            <li>B) Sünnet</li>
+            <li>C) Mübah</li>
+            <li>D) Vacip</li>
+            <li>E) Farz-ı Kifaye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Dinen yapılması veya yapılmaması yönünde hiçbir dayatma, yasak veya emir bulunmayan, mükellefin özgür iradesine bırakılmış helal ve nötr eylemlere (yemek yemek, uyumak, oturmak vb.) fıkıhta <strong>Mübah</strong> (Helal / Caiz) adı verilir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

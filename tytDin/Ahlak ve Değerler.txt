@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Din Kültürü - Ünite 3: Ahlak ve Değerler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT DİN KÜLTÜRÜ - MODÜL 3: AHLAK VE DEĞERLER</h1>
+        <p>Ahlakın Kökeni, Dört Temel Erdem, Toplumsal Değerler ve İslam'da Yasaklanan Ahlaki Tutumlar</p>
+    </div>
+
+    <h2>1. AHLAK VE DEĞER KAVRAMLARI</h2>
+    <p>Ahlak; insanın huyları, mizaç özellikleri, iradeli olarak sergilediği ve alışkanlık haline getirdiği tüm iyi veya kötü davranışlar bütünüdür. İslam literatüründe güzel ahlak kavramı <strong>"Hüsn-ü Hulk"</strong> olarak adlandırılır. Değer ise, bir toplumun veya inancın doğru, güzel ve yararlı kabul ederek benimsediği ortak maddi ve manevi ilkelerdir.</p>
+    <p>Değerlerin oluşumunda din, örf-adet, hukuk ve coğrafi koşullar etkilidir. Din, manevi değerlerin en güçlü kaynağıdır; ahlaki normları ilahi rıza ve ahiret sorumluluğuyla destekleyerek kalıcı ve yaptırımlı hale getirir. İslam ahlakının nihai hedefi, bireyi bencil arzularından arındırıp toplumsal faydaya yöneltmek ve ahlaki olgunluğa (kâmil insan modeline) ulaştırmaktır.</p>
+
+    <h2>2. İSLAM AHLAKININ TEMELİ: DÖRT ANA ERDEM (ÜMMEHAT-I FEZAİL)</h2>
+    <p>İslam ahlak felsefesinde (Gazzâlî, Kınalızâde Ali Efendi ekolleri), insanın tüm iyi davranışlarının kökeninde ruhun üç temel gücünün dengelenmesi yatar. Bu dengeden doğan ve ÖSYM'nin soru bankalarında doğrudan kavramsal olarak sorduğu <strong>dört temel ana erdem</strong> şunlardır:</p>
+    <ul>
+        <li><strong>1. Hikmet (Bilgelik):</strong> İnsanın düşünme gücünün (aklın) itidal (denge) halidir. Hak ile batılı, doğru ile yanlışı birbirinden ayırabilme yeteneğidir. Hikmet sahibi bir mümin, eşyanın hakikatini anlar, nerede nasıl davranacağını bilir ve ilim ile ameli birleştirir.</li>
+        <li><strong>2. Şecaat (Cesaret):</strong> İnsanın öfke ve savunma gücünün denge halidir. Korkaklık ile körü körüne atılganlık (tehevvür) arasındaki orta yoldur. Din, vatan, namus ve adalet uğruna canını ortaya koyabilme, haksızlığa karşı dimdik durabilme yiğitliğidir.</li>
+        <li><strong>3. İffet (Namus / Öz Denetim):</strong> İnsanın yeme, içme, şehvet ve arzulama gücünün denge halidir. Şehvete esir olmak ile hayattan tamamen el etek çekmek (humud) arasındaki ölçüdür. İnsanın helal olmayan şeylerden nefsini koruması, ahlaki sınırları aşmaması ve haramlara karşı koyabilmesidir.</li>
+        <li><strong>4. Adalet:</strong> Yukarıdaki üç erdemin (hikmet, şecaat ve iffet) tam bir uyum içinde birleşmesiyle doğan <strong>en üstün erdemdir.</strong> Her şeye hakkını vermek, ölçülü olmak, zulümden uzak durmaktır. İslam'ın mülk (devlet) ve toplumsal düzen için belirlediği en sarsılmaz temel kuraldır.</li>
+    </ul>
+
+    <h2>3. İSLAM'DA YASAKLANAN BAZI AHLAKİ TUTUMLAR</h2>
+    <p>Toplumsal güveni sarsan, kul hakkı ihlali doğuran ve Kur'an ayetleriyle kesin olarak yasaklanan kötü ahlaki terimler iyi bilinmelidir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kötü Ahlaki Terim</th>
+                <th>Tanımı ve Kavramsal Analizi</th>
+                <th>Sınav İçin Anahtar Vurgu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Haset</strong></td>
+                <td>Bir başkasının sahip olduğu nimetleri, başarıları kıskanmak ve o nimetlerin onun elinden gitmesini <strong>istemektir</strong>.</td>
+                <td>Kıskançlığın yıkıcı, yok edici boyuta ulaşmasıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Gıybet</strong></td>
+                <td>Bir insanın arkasından, duyduğunda hoşlanmayacağı doğru olan eksikliklerini ve kusurlarını <strong>konuşmaktır</strong>.</td>
+                <td>Kur'an'da "ölü kardeşinin etini yemeye" benzetilmiştir.</td>
+            </tr>
+            <tr>
+                <td><strong>İftira (Bühtan)</strong></td>
+                <td>Bir insanda olmayan bir kötülüğü, suçu veya kusuru ona kasıtlı olarak <strong>atfetmek, yalan uydurmaktır</strong>.</td>
+                <td>Gıybete göre çok daha ağır bir kul hakkı ihlalidir.</td>
+            </tr>
+            <tr>
+                <td><strong>Tecessüs</strong></td>
+                <td>İnsanların gizli kalması gereken ayıplarını, mahremiyetlerini ve kusurlarını <strong>merak edip araştırmaktır</strong>.</td>
+                <td>Özel hayatın gizliliğini ihlal eden ajanlık ve dikizleme tavrıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Suizan</strong></td>
+                <td>Bir insan hakkında kesin bir delil ve bilgi olmadan, zihinsel olarak <strong>olumsuz, kötü ön yargıda bulunmaktır</strong>.</td>
+                <td>Zıddı <strong>Hüsnüzan</strong>'dır (iyi niyetli ve olumlu düşünmek).</td>
+            </tr>
+            <tr>
+                <td><strong>Hile / Aldatma</strong></td>
+                <td>İş ve ticarette, insanları yanıltarak haksız kazanç elde etmektir.</td>
+                <td>"Bizi aldatan bizden değildir" hadisiyle doğrudan dışlanmıştır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> İslam ahlak felsefesinde aklın dengeli ve kusursuz işleyişini ifade eden; hak ile batılı, yararlı ile zararlıyı birbirinden ayırma gücünü elinde bulunduran ve insana eşyanın hakikatini kavratan temel ana erdem aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Şecaat</li>
+            <li>B) İffet</li>
+            <li>C) Hikmet</li>
+            <li>D) Adalet</li>
+            <li>E) Takva</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İslam ahlak klasisizminde aklın ölçülü, doğru ve isabetli kullanımından doğan bilgelik erdemine <strong>Hikmet</strong> denir. Öfke gücünün dengesi şecaat, arzu gücünün dengesi iffet, hepsinin bileşimi ise adalettir. Parçada akıl, hak-batıl ayrımı ve bilgelik vurgulandığı için cevap net olarak C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Hujurat Suresi 12. ayette Yüce Allah şöyle buyurmaktadır: "Ey iman edenler! Zannın çoğundan kaçının. Çünkü zannın bir kısmı günahtır. Birbirinizin gizliliklerini araştırmayın. Biriniz diğerinizi arkasından çekiştirmesin..." <br><br>
+        Bu ayet metninde sırasıyla yasaklanan ahlaki tutum ve davranışlar aşağıdakilerin hangisinde doğru terimlerle eşleştirilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Haset - Tecessüs - İftira</li>
+            <li>B) Suizan - Tecessüs - Gıybet</li>
+            <li>C) Hüsnüzan - Gıybet - Riya</li>
+            <li>D) Suizan - Haset - Tecessüs</li>
+            <li>E) Riya - Gıybet - Suizan</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ayette geçen "zannın çoğu" ifadesi kötü ön yargı olan <strong>Suizan</strong>'ı; "birbirinizin gizliliklerini araştırmayın" buyruğu mahremiyet dikizlemesi olan <strong>Tecessüs</strong>'ü; "arkasından çekiştirmesin" ifadesi ise gıybeti (dedikoduyu) yasaklamaktadır. Bu nedenle doğru şık B seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Bir Müslüman, haksızlık ve zulüm karşısında sessiz kalmamalı, korkaklığa kapılmadan dinini, vatanını ve mazlumların haklarını savunabilmelidir. Ancak bunu yaparken ölçüyü kaçırıp körü körüne bir saldırganlığa ve öfke patlamasına da (tehevvür) izin vermemelidir." <br><br>
+        Bu parçada anlatılan ve öfke duygusunun dengelenmesiyle ortaya çıkan ahlaki erdem hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hikmet</li>
+            <li>B) İffet</li>
+            <li>C) Şecaat</li>
+            <li>D) Adalet</li>
+            <li>E) İhsan</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Korkaklık ile delice saldırganlık arasındaki dengeyi kuran, din, vatan ve hak uğruna gösterilen meşru yiğitlik ve cesarete <strong>Şecaat</strong> denir. Öfke duygusunun ahlakileşmiş halidir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Bir kimsenin, iş arkadaşının terfi almasını veya yeni bir ev satın almasını hazmedemeyerek kalbinde büyük bir huzursuzluk hissetmesi, "Neden onda var da bende yok, o başarı ondan geri alınmalı" şeklinde içsel bir yıkım arzulaması durumuna ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Gıybet</li>
+            <li>B) Tecessüs</li>
+            <li>C) Haset</li>
+            <li>D) Riya</li>
+            <li>E) Suizan</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir başkasındaki nimetin yok olmasını istemek, onu çekememek ve kıskançlığın kalbi kirleten en tehlikeli boyutuna ulaşması durumuna İslam ahlakında <strong>Haset</strong> denir. Hadiste "Ateşin odunu yiyip tükettiği gibi haset de iyilikleri tüketir" denmiştir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> İslam ahlakında "İffet" erdemine ulaşmış, öz denetim yeteneği gelişmiş bir müminden aşağıdaki davranışlardan hangisini sergilemesi <u>beklenemez</u>?</div>
+        <ul class="options-list">
+            <li>A) Meşru ve helal olmayan bedensel ve nefsi arzularına set çekmesi</li>
+            <li>B) Kazancını helal yollardan elde etmeye dikkat edip haramlardan uzak durması</li>
+            <li>C) Toplumsal hayatta ahlaki ölçülere ve hayâ duygusuna uygun hareket etmesi</li>
+            <li>D) Çevresindeki insanların mallarına ve haklarına göz dikerek hırs göstermesi</li>
+            <li>E) Yeme, içme ve tüketim eğilimlerinde israftan kaçınıp ölçülü olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> İffet, sadece namus kavramıyla sınırlı değildir; insanın tüm bedensel ve dünyevi arzularında (yeme, içme, şehvet, mal hırsı) ölçülü olması, nefsini haramdan korumasıdır. İffetli bir kul, başkasının malına göz dikmez ve hırs göstermez (D şıkkı iffete tamamen aykırıdır). Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>
