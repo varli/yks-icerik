@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Biyoloji - Ünite 2: Canlıların Temel Bileşenleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT BİYOLOJİ - MODÜL 2: CANLILARIN TEMEL BİLEŞENLERİ</h1>
+        <p>İnorganik ve Organik Maddeler, Karbonhidrat, Lipit ve Protein Dinamikleri, Enzim Kinetiği</p>
+    </div>
+
+    <h2>1. İNORGANİK BİLEŞİKLER</h2>
+    <p>Canlı hücrelerin kendi vücutlarında sentezleyemediği, doğadan hazır olarak almak zorunda olduğu maddelere <strong>inorganik maddeler</strong> denir. Küçük yapılı oldukları için sindirime uğramadan hücre zarından doğrudan geçebilirler. Hücrelerde enerji verici olarak <u>kesinlikle kullanılmazlar.</u> Düzenleyici ve yapıcı-onarıcıdırlar.</p>
+    <ul>
+        <li><strong>Su:</strong> Hücrelerin en büyük bileşenidir. Enzimlerin çalışabilmesi için ortamda en az %15 oranında su bulunmalıdır. İyi bir çözücüdür (homeostazi sağlar), öz ısısı yüksek olduğu için vücut sıcaklığını dengeler, kohezyon gücüyle bitkilerde taşımaya yardımcı olur.</li>
+        <li><strong>Mineraller:</strong> Asla enerji vermezler. Kalsiyum (kemik yapısı, kas kasılması), Demir (hemoglobin yapısı), İyot (tiroit hormonu), Sodyum-Potasyum (sinirsel iletim) gibi yaşamsal görevleri vardır. Enzimlerin yapısına <strong>Kofaktör</strong> olarak katılarak düzenleyici rol oynarlar.</li>
+    </ul>
+
+    <h2>2. ORGANİK BİLEŞİKLERİN SINIFLANDIRILMASI</h2>
+    <p>Canlılar tarafından sentezlenebilen, yapısında temel olarak Karbon (C), Hidrojen (H) ve Oksijen (O) atomlarını bir arada barındıran kompleks bağlara sahip maddelerdir. Enerji verici, yapıcı-onarıcı ve düzenleyici olarak görev alırlar:</p>
+    
+    <h3>A) Karbonhidratlar (Şekerler)</h3>
+    <p>Açlık anında hücrelerin <strong>1. sırada</strong> kullandığı enerji kaynağıdır. Monomerleri arasında <strong>Glikozit Bağı</strong> kurulur. Yapısal karmaşıklıklarına göre üçe ayrılırlar:
+    <br>• <em>Monosakkaritler (Tek şekerler):</em> 5 Karbonlular (Pentoz: Riboz ve Deoksiriboz - Enerji vermezler, nükleik asitlerin yapısına katılırlar) ile 6 Karbonlular (Heksoz: Glikoz, Fruktoz, Galaktoz - Hücresel solunumda enerji verici olarak kullanılırlar).
+    <br>• <em>Disakkaritler (Çift şekerler):</em> İki monosakkaritin dehidrasyonuyla oluşur. Maltoz (Glikoz+Glikoz / Arpa şekeri), Sakkaroz/Sukroz (Glikoz+Fruktoz / Çay şekeri), Laktoz (Glikoz+Galaktoz / Süt şekeri).
+    <br>• <em>Polisakkaritler (Çok şekerler):</em> Çok sayıda glikozun birleşmesiyle oluşur. <strong>Nişasta</strong> (Bitkisel depo), <strong>Glikojen</strong> (Hayvansal/Bakteriyel/Mantarsal depo), <strong>Selüloz</strong> (Bitkisel hücre çeperi yapısı - İnsan sindiremez), <strong>Kitin</strong> (Mantarlarda hücre duvarı, eklem bacaklılarda dış iskelet - Yapısında Azot [N] bulunduran tek karbonhidrattır).</p>
+
+    <h3>B) Lipitler (Yağlar)</h3>
+    <p>Açlık anında <strong>2. sırada</strong> enerji kaynağı olarak kullanılırlar. İçerdikleri yoğun Hidrojen atomundan dolayı <u>solunumda parçalandıklarında en çok enerjiyi ve en çok metabolik suyu açığa çıkaran gruptur.</u> Monomerleri arasında <strong>Ester Bağı</strong> kurulur. Suda çözünmezler.
+    <br>• <em>Nötral Yağlar (Trigliseritler):</em> 1 molekül Gliserol ile 3 molekül Yağ Asidinin dehidrasyonuyla oluşur. Hücrelerde depolanan yağ formudur.
+    <br>• <em>Fosfolipitler:</em> Hücre zarının temel yapısını oluşturur. Çift katlı dizilirler. Baş kısmı polar (hidrofil/suyu seven), kuyruk kısmı apolar (hidrofob/suyu sevmeyen) özelliktedir.
+    <br>• <em>Steroitler:</em> Düzenleyicidir. Hormonların (Eşey hormonları) ve D vitamininin yapısına katılır. Hücre zarına esneklik ve dayanıklılık veren **Kolesterol** bir steroit türevidir (Sadece hayvan hücrelerinde bulunur).</p>
+
+    <h3>C) Proteinler</h3>
+    <p>Açlık anında en son (<strong>3. sırada</strong>) enerji kaynağı olarak kullanılırlar; çünkü hücrenin temel yapı taşlarıdır. Monomerleri <strong>Amino Asitler</strong>dir. Amino asitler arasında <strong>Peptit Bağı</strong> kurulur. Amino asitlerin yapısında karbon, hidrojen, oksijenin yanı sıra mutlaka Azot (N) bulunur. Bir proteinin yapısı yüksek sıcaklık, ağır metal veya pH değişiminde bozulursa buna <strong>Denatürasyon</strong> denir (Primer yapısı/amino asit dizilimi bozulmaz, işlevini kaybeder).</p>
+
+    <h2>3. ENZİMLERİN ÇALIŞMA MEKANİZMASI (ENZİM KİNETİĞİ)</h2>
+    <p>Biyokimyasal reaksiyonların aktivasyon enerjisini düşüren ve tepkimeleri rekor düzeyde hızlandıran biyolojik katalizörlerdir. Enzimler tepkimeden değişmeden çıkarlar, tekrar tekrar kullanılabilirler. Sadece proteinden oluşuyorsa basit enzim; protein kısmının (Apoenzim) yanında yardımcı bir grup barındırıyorsa bileşik enzim (Holoenzim) adını alır. Yardımcı grup organik ise (Vitamin gibi) <strong>Koenzim</strong>, inorganik ise (Mineral gibi) <strong>Kofaktör</strong> adını alır.</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ ENZİM HIZINA ETKİ EDEN FAKTÖRLER:</strong>
+        <br>• <strong>Sıcaklık:</strong> Optimum sıcaklıkta (genelde 36-37°C) hız maksimumdur. Yüksek sıcaklıklar (55°C ve üzeri) enzimin protein yapısını kalıcı olarak bozar (Denatürasyon); soğuk ortamlar ise enzimi bozmaz, sadece çalışmasını durdurur.
+        <br>• <strong>Substrat Yüzeyi:</strong> Enzimler substrata dış yüzeyinden etki etmeye başlar. Substrat yüzeyi arttıkça (Örn: Kıyılmış etin parça ete göre daha hızlı sindirilmesi) reaksiyon hızı <strong>artar</strong>.
+        <br>• <strong>İnhibitörler:</strong> Enzimlerin aktif merkezine bağlanarak veya yapısını bozarak reaksiyonu yavaşlatan ya da durduran maddelerdir (Örn: Siyanür, yılan zehri, kurşun). **Aktivatörler** ise reaksiyon hızını artırır (Örn: Su, bazı iyonlar).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Laboratuvarda incelenen bir polisakkarit molekülünün yapısında Karbon, Hidrojen ve Oksijen atomlarının yanı sıra kimyasal bağ yapısında Azot (N) atomunun da bulunduğu tespit edilmiştir. Aynı zamanda bu polisakkaritin saf halde yumuşak olduğu, kalsiyum karbonat tuzları ile birleştiğinde sertleşerek koruyucu bir dış iskelete dönüştüğü bilinmektedir. <br><br>
+        Buna göre, özellikleri anlatılan bu özgün polisakkarit türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Nişasta</li>
+            <li>B) Kitin</li>
+            <li>C) Selüloz</li>
+            <li>D) Glikojen</li>
+            <li>E) Glikozit</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Polisakkaritler (Nişasta, Glikojen, Selüloz, Kitin) tamamen glikoz birimlerinden oluşur. Ancak bunlar arasında yapısında istisnai olarak azot (N) atomu barındıran tek polisakkarit <strong>Kitin</strong>'dir. Mantarların hücre duvarında ve eklem bacaklıların (böceklerin) dış iskeletinde yer alır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Hücrelerde enerji verici olarak kullanılabilen organik moleküllerin (Karbonhidrat, Lipit, Protein) bazı özellikleri kıyaslandığında şu veriler elde edilmiştir:
+        <br>• Uzun süreli açlıkta hücrelerin kullanım sırası: I - II - III
+        <br>• Solunumda yıkıldıklarında gram başına verdikleri enerji miktarı: II - III - I
+        <br><br>
+        Buna göre bu özellikleri sergileyen organik bileşik sınıfları hangisinde doğru sıralanmıştır?</div>
+        <ul class="options-list">
+            <li>A) I: Protein , II: Lipit , III: Karbonhidrat</li>
+            <li>B) I: Karbonhidrat , II: Lipit , III: Protein</li>
+            <li>C) I: Lipit , II: Karbonhidrat , III: Protein</li>
+            <li>D) I: Karbonhidrat , II: Protein , III: Lipit</li>
+            <li>E) I: Protein , II: Karbonhidrat , III: Lipit</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Açlık anında hücrelerimiz enerji için ilk olarak Karbonhidratları (I), sonra Lipitleri/Yağları (II) ve en son yapı taşları bittiğinde çaresizce Proteinleri (III) kullanır. Gram başına enerji verme miktarlarında ise bol hidrojen içerdiklerinden ötürü Yağlar (Lipitler) liderdir, ardından Proteinler gelir ve en az enerjiyi Karbonhidratlar verir (Yağ > Protein > Karbonhidrat). Bu eşleşmeyi sağlayan şık B'dir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Kaynar su dolu bir beherin içine bırakılan bir tüpün içindeki sindirim enzimlerinin (protein yapılı katalizörlerin) bir süre sonra soğutulsa bile bir daha asla çalışmadığı ve işlevini kaybettiği gözlemlenmiştir. <br><br>
+        Yüksek sıcaklığın enzimlerin yapısı üzerinde kurduğu ve proteinlerin üç boyutlu özgün konfigürasyonunu geri dönüşümsüz yıkan bu biyokimyasal olaya ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Dehidrasyon</li>
+            <li>B) Hidrolizasyon</li>
+            <li>C) Denatürasyon</li>
+            <li>D) Aktivasyon</li>
+            <li>E) Kofaktör Etkisi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Proteinler ve enzimler yüksek sıcaklık, ekstrem pH değerleri veya kimyasal radyasyon gibi etkenlerle karşılaştıklarında üç boyutlu işlevsel yapılarını kaybederler. Bu olaya <strong>Denatürasyon</strong> denir. Yüksek sıcaklıkta denatüre olan bir enzim, ortam eski sıcaklığına getirilse bile yapısı kalıcı olarak bozulduğu için bir daha çalışamaz. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Karaciğerde bulunan katalaz enzimi, hücreler için zehirli bir atık olan hidrojen peroksiti (H<sub>2</sub>O<sub>2</sub>) su ve oksijene parçalar. Laboratuvarda eşit miktarda karaciğer kullanılarak iki ayrı tüp hazırlanıyor:
+        <br>1. Tüp: Parça karaciğer + H<sub>2</sub>O<sub>2</sub>
+        <br>2. Tüp: Ezilmiş/Kıyılmış karaciğer + H<sub>2</sub>O<sub>2</sub>
+        <br><br>
+        Deney sonucunda 2. tüpteki reaksiyon hızının 1. tüpten çok daha yüksek olduğu gözleniyor. Bu durumun <u>temel nedeni</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ezilmiş karaciğerde substrat yüzeyinin artmış olması</li>
+            <li>B) Ezilme sonucu hücrelerden serbest kalan enzim miktarının artması ve substratla daha kolay buluşması</li>
+            <li>C) H<sub>2</sub>O<sub>2</sub> moleküllerinin ezilmiş tüpte inhibitör etkisi yapması</li>
+            <li>D) Karaciğerin dehidrasyon katsayısının değişmesi</li>
+            <li>E) Enzimlerin aktivasyon enerjisinin tüpün sıcaklığıyla dengelenmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bu soru ÖSYM'nin en meşhur tuzak sorularından biridir. Bu deneyde karaciğer "substrat" değil, enzimin (katalaz) bizzat kendisidir. Substrat ise tüpe sonradan eklenen sıvı haldeki H<sub>2</sub>O<sub>2</sub>'dir. Karaciğeri ezmek, substrat yüzeyini artırmaz; hücreleri parçalayarak ortama daha fazla **serbest enzim salınmasını** sağlar. Enzim miktarı arttığı için reaksiyon hızı fırlamıştır (Eğer kıyılmış et deseydi substrat yüzeyi derdik). Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir hücrede sentezlenen bileşik enzimin (Holoenzim) biyokimyasal analizi yapıldığında, apoenzim kısmına yardımcı grup olarak B grubu bir vitaminin bağlandığı tespit edilmiştir. <br><br>
+        Buna göre, enzimin protein kısmına bağlanan bu organik yardımcı gruba felsefi ve biyolojik literatürde verilen isim hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kofaktör</li>
+            <li>B) Koenzim</li>
+            <li>C) Substrat</li>
+            <li>D) İnhibitör</li>
+            <li>E) Aktivatör</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bileşik enzimlerde (holoenzim) proteinden oluşan ana gövdeye apoenzim denir. Enzimin aktifleşmesini sağlayan yardımcı grup eğer **organik bir molekül (vitamin gibi)** ise buna <strong>Koenzim</strong> adı verilir. Yardımcı grup eğer inorganik bir mineral (demir, kalsiyum vb.) olsaydı kofaktör adını alırdı. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

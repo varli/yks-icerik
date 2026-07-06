@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Biyoloji - Ünite 5: Hücre Bölünmeleri ve Üreme</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT BİYOLOJİ - MODÜL 5: HÜCRE BÖLÜNMELERİ VE ÜREME</h1>
+        <p>Mitoz ve Mayoz Mekanizmaları, Eşeysiz ve Eşeyli Üreme Çeşitleri, Genetik Çeşitlilik Dinamikleri</p>
+    </div>
+
+    <h2>1. MİTOZ BÖLÜNME VE HÜCRE DÖNGÜSÜ</h2>
+    <p>Bir hücrenin bölünmeye başlamasından itibaren onu takip eden yeni bir bölünmeye kadar geçen süreçlerin tamamına <strong>hücre döngüsü</strong> denir. Döngü, hazırlık evresi (İnterfaz) ve mitotik evre (Çekirdek ve Sitoplazma bölünmesi) olmak üzere iki ana aşamada gerçekleşir. Genetik yapıyı değiştirmeden tıpatıp aynı yeni hücreler üretilmesini sağlar. Çok hücrelilerde büyüme, onarım ve yenilenmeyi; tek hücrelilerde ise üremeyi sağlar.</p>
+    <ul>
+        <li><strong>İnterfaz (Hazırlık Evresi):</strong> Döngünün en uzun evresidir. Hücre büyür, ATP ve protein sentezi hızlanır. En önemlisi, **DNA kendini eşler (Replikasyon)**. Sentrozomlar da bu evrede eşlenir.</li>
+        <li><strong>Mitoz Evreleri (Karyokinez - Çekirdek Bölünmesi):</strong> <strong>İPMAT</strong> olarak şifrelenir:
+        <br>• <strong>Profaz:</strong> Kromatin iplikler kısalıp kalınlaşarak kromozomlara dönüşür. Çekirdek zarı ve çekirdekçik eriyerek kaybolur. İğ iplikleri oluşur.
+        <br>• <strong>Metafaz:</strong> Kromozomların en net görüldüğü evredir. Tüm kromozomlar hücrenin <strong>ekvatoral düzlemine tek sıra halinde dizilirler.</strong> Karyotip analizi bu evrede yapılır.
+        <br>• <strong>Anafaz:</strong> Kardeş kromatitleri bir arada tutan sentromerler bölünür. İğ ipliklerinin kısalmasıyla <strong>kardeş kromatitler zıt kutuplara çekilir.</strong> Kromatitler kutuplara ulaştığı an artık "kromozom" olarak adlandırılır, bu yüzden bu evrede hücrenin kromozom sayısı geçici olarak <u>iki katına çıkar.</u>
+        <br>• <strong>Telofaz:</strong> Profazın tam tersidir. Kutuplara çekilen kromatitler tekrar kromatin ipliğe dönüşür. Çekirdek zarı ve çekirdekçik yeniden oluşur.</li>
+        <li><strong>Sitokinez (Sitoplazma Bölünmesi):</strong> Çekirdek bölünmesi bittikten sonra sitoplazma bölünür. <strong>Hayvan hücrelerinde dıştan içe doğru boğumlanma ile, bitki hücrelerinde ise hücre çeperinden dolayı içeriden dışarıya doğru ara lamel (hücre plağı) oluşumu ile gerçekleşir.</strong></li>
+    </ul>
+
+    <h2>2. EŞEYSİZ ÜREME ÇEŞİTLERİ</h2>
+    <p>Tek bir atadan kalıtsal çeşitlilik (varyasyon) olmaksızın, mitoz temelinde yeni bireylerin oluşturulmasıdır. Çevre şartlarına uyum yeteneği düşük bireyler üretilir. Altı ana çeşidi vardır:</p>
+    <ul>
+        <li><strong>1. Bölünerek Üreme:</strong> Prokaryotlarda ve tek hücreli eukaryotlarda (amip, paramesyum, öglena) görülür. En hızlı üreme biçimidir.</li>
+        <li><strong>2. Tomurcuklanma ile Üreme:</strong> Ata canlının vücudunda oluşan bir çıkıntının (tomurcuk) gelişerek yeni bir birey oluşturmasıdır. (Örn: Bira mayası, hidra, mercan).</li>
+        <li><strong>3. Sporla Üreme:</strong> Olumsuz şartlara dayanıklı, üzeri kalın bir örtüyle kaplı "spor" adı verilen özelleşmiş hücrelerle yapılan üremedir. (Örn: Plazmodyum, karayosunu, eğrelti otu, mantarlar).</li>
+        <li><strong>4. Rejenerasyon (Yenilenme) ile Üreme:</strong> Canlının kopan bir parçasından eksik kısımların mitozla tamamlanarak yeni bir canlı oluşturmasıdır. (Örn: Planarya [yassı solucan], deniz yıldızı). <em>Dikkat:</em> Kertenkelenin kopan kuyruğunu yenilemesi doku/organ düzeyinde bir rejenerasyondur, üreme <u>değildir.</u> Gelişmişlik arttıkça rejenerasyon yeteneği azalır.</li>
+        <li><strong>5. Partenogenez:</strong> Döllenmemiş bir yumurta hücresinin mitozla gelişerek yeni bir birey oluşturmasıdır. Arılarda, karıncalarda ve bazı kertenkelelerde görülür. Kraliçe arının mayozla ürettiği yumurtalar döllenmeden gelişirse <strong>n kromozomlu erkek arılar</strong> oluşur.</li>
+        <li><strong>6. Vejetatif Üreme:</strong> Gelişmiş bitkilerde görülen; çelikle, yumruyla, soğanla, sürünücü gövdeyle veya doku kültürüyle yapılan, bitkinin dal, yaprak gibi organlarından yeni bitki üretme tekniğidir.</li>
+    </ul>
+
+    <h2>3. MAYOZ BÖLÜNME VE EŞEYLİ ÜREME</h2>
+    <p>2n (diploid) kromozomlu üreme ana hücrelerinden, n (haploid) kromozomlu üreme hücrelerinin (gamet: sperm, yumurta) üretilmesini sağlayan özel bölünmedir. Eşeyli üremenin temelini oluşturur. Nesiller boyu kromozom sayısının sabit kalmasını ve <strong>genetik çeşitliliği</strong> sağlar. Mayoz-1 ve Mayoz-2 olmak üzere iki aşamalıdır, DNA sadece Mayoz-1'in başında (İnterfazda) bir kez eşlenir.</p>
+    
+    <h3>Mayoz Bölünmede Çeşitliliği Sağlayan İki Büyük Mekanizma:</h3>
+    <ul>
+        <li><strong>Crossing-over (Parça Değişimi):</strong> Mayoz-1'in <strong>Profaz-1</strong> evresinde gerçekleşir. Homolog kromozomların kardeş olmayan kromatitleri yan yana gelerek sarmal oluşturur (Sinapsis), birbirine değer (Tetrat) ve karşılıklı gen alışverişi yaparlar. Bu durum yeni gen kombinasyonlarına yol açar. Her mayozda gerçekleşmek zorunda <u>değildir</u>, gerçekleşirse çeşitliliği katlar.</li>
+        <li><strong>Homolog Kromozomların Rastgele Ayrılması:</strong> Mayoz-1'in <strong>Anafaz-1</strong> evresinde gerçekleşir. Anneden ve babadan gelen homolog kromozom çiftleri kutuplara tamamen şansa bağlı, bağımsız ve rastgele çekilirler. <strong>Bu mekanizma her mayoz bölünmede kesinlikle gerçekleşir ve kalıtsal çeşitliliğin temel, ana sebebidir.</strong></li>
+    </ul>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik Belirteci</th>
+                <th>Mitoz Bölünme</th>
+                <th>Mayoz Bölünme</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Görüldüğü Hücre Türü</strong></td>
+                <td>n, 2n ve 3n kromozomlu hücrelerde</td>
+                <td>Sadece 2n kromozomlu üreme ana hücrelerinde</td>
+            </tr>
+            <tr>
+                <td><strong>Bölünme Sonucu Hücre Sayısı</strong></td>
+                <td>2 yeni hücre oluşur</td>
+                <td>4 yeni hücre (gamet) oluşur</td>
+            </tr>
+            <tr>
+                <td><strong>Kromozom Sayısı Değişimi</strong></td>
+                <td>Değişmez, aynı kalır (2n &rarr; 2n)</td>
+                <td>Yarıya iner (2n &rarr; n)</td>
+            </tr>
+            <tr>
+                <td><strong>Kalıtsal Çeşitlilik (Varyasyon)</strong></td>
+                <td>Yoktur (Mutasyon hariç)</td>
+                <td>Kesinlikle vardır (Evrime katkı sağlar)</td>
+            </tr>
+            <tr>
+                <td><strong>Tetrat, Sinapsis, Crossing-over</strong></td>
+                <td>Kesinlikle görülmez</td>
+                <td>Mayoz-1 / Profaz-1'de görülür</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Hücre döngüsünün mitotik evresinde çekirdek bölünmesi tamamlandıktan sonra sitoplazma bölünmesi (sitokinez) başlar. Bitki ve hayvan hücrelerinin sitokinez mekanizmaları yapısal olarak birbirinden farklıdır. <br><br>
+        Buna göre, gelişmiş bir bitki hücresinin sitoplazma bölünmesini hayvan hücresi gibi dıştan içe "boğumlanarak" gerçekleştirememesinin <u>temel yapısal gerekçesi</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bitki hücrelerinde sentrozom organelinin iğ ipliklerini sentezleyememesi</li>
+            <li>B) Bitki hücresinin hücre zarının dış yüzeyinde selüloz yapılı sert bir <strong>hücre çeperinin (duvarının)</strong> bulunması</li>
+            <li>C) Bitki hücrelerinin mitokondriyal ATP üretim hızının düşük olması</li>
+            <li>D) Bitki hücrelerinde çekirdek zarı ve çekirdekçiğin telofaz evresinde erimemesi</li>
+            <li>E) Bitkilerin endositoz mekanizmasıyla sitoplazmayı içeriye doğru emmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Hayvan hücrelerinde hücre duvarı olmadığı için mikrofilamentlerin kasılmasıyla hücre zarı dıştan içe doğru esneyerek kolayca boğumlanabilir. Ancak bitki hücrelerinde zarın dışında selülozdan yapılmış sert ve esnek olmayan bir **hücre çeperi** bulunur. Bu sert çeper, hücrenin dıştan boğumlanmasına izin vermez. Bu yüzden golgi aygıtından ayrılan kesecikler hücrenin tam ortasında birikerek içeriden dışarıya doğru ara lamel (hücre plağı) oluşturur. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir bitkinin kök ucundan alınan meristem (bölünür) hücresinin döngüsü mikroskop altında incelenmektedir. Araştırmacı, kromozomların ekvatoral düzleme tek sıra halinde yan yana dizildiğini ve en net görünüme ulaştığını kaydetmiştir. <br><br>
+        Buna göre, araştırmacının mikroskopta gözlemlediği ve karyotip (kromozom haritası) analizlerinin yapılmasına en uygun olan bu <strong>mitoz evresi</strong> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Profaz</li>
+            <li>B) İnterfaz</li>
+            <li>C) Anafaz</li>
+            <li>D) Metafaz</li>
+            <li>E) Telofaz</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kromozomların hücrenin merkezine (ekvatoral düzleme) yan yana tek sıra halinde dizildiği evre <strong>Metafaz</strong> evresidir. Bu evrede kromozomlar maksimum düzeyde kısalıp kalınlaştıkları için mikroskopta en net şekilde ayırt edilirler. Bu nedenle kalıtsal hastalıkların veya kromozom anomalilerinin belirlendiği karyotip analizleri hep metafaz evresinde yapılır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Eşeysiz üreme çeşitleri ile ilgili çalışma yapan bir öğrenci panoya şu örnekleri not etmiştir:
+        <br>I. Bira mayasının tomurcuklanarak çoğalması
+        <br>II. Deniz yıldızının kopan kolundan yeni bir deniz yıldızı oluşturması
+        <br>III. Kertenkelenin kopan kuyruğunun yerine yeni bir kuyruk uzatması
+        <br><br>
+        Öğrencinin panoya yazdığı bu olaylardan hangileri biyolojik literatürde doğrudan bir <strong>"üreme (birey sayısında artış)"</strong> faaliyeti olarak kabul edilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız III</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Tomurcuklanma (I) bir üreme çeşididir ve birey sayısını artırır. Deniz yıldızının kopan kolundan yeni bir gövde tamamlaması rejenerasyonla üremedir (II), çünkü tek bir deniz yıldızından iki ayrı canlı doğmuştur. Ancak kertenkelenin kopan kuyruğunun yerine yeni kuyruk yapması üreme değil, sadece **organ düzeyinde bir yenilenmedir/onarımdır**, çünkü ortada yeni bir kertenkele bireyi oluşmamıştır, birey sayısı artmamıştır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Eşeyli üreyen canlı türlerinde, nesiller boyu kromozom sayısının katlanarak artmasını engelleyen ve tür içi kromozom sayısının (Örn: İnsanda hep 46 kalmasını) **sabit** tutulmasını sağlayan en temel iki biyolojik mekanizma hangi seçenekte doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Replikasyon - Konjugasyon</li>
+            <li>B) Mayoz Bölünme - Döllenme</li>
+            <li>C) Mitoz Bölünme - Partenogenez</li>
+            <li>D) Crossing-over - Karyokinez</li>
+            <li>E) Sentromer Bölünmesi - Sitokinez</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Eşeyli üremede anne ve babadan gelen kromozomlar birleşir. Eğer bir azaltma mekanizması olmasaydı her nesilde kromozom sayısı iki katına çıkardı. **Mayoz bölünme** ile kromozom sayısı yarıya indirilir (2n &rarr; n). Ardından **Döllenme** olayı ile n kromozomlu sperm ve n kromozomlu yumurta birleşerek tekrar 2n kromozomlu zigotu oluşturur. Bu döngü kromozom sayısının nesiller boyu sabit kalmasını sağlar. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir hayvan hücresinde gerçekleşen mayoz bölünme sürecinde, kalıtsal çeşitliliğin (varyasyonun) oluşmasına katkı sağlayan homolog kromozomların rastgele kutuplara çekilmesi olayı aşağıdaki hangi spesifik bölünme evresinde gerçekleşir?</div>
+        <ul class="options-list">
+            <li>A) Metafaz-1</li>
+            <li>B) Anafaz-1</li>
+            <li>C) Profaz-2</li>
+            <li>D) Anafaz-2</li>
+            <li>E) Telofaz-2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Mayoz bölünmede kalıtsal çeşitliliği sağlayan iki büyük olay vardır. Biri Profaz-1'deki crossing-over, diğeri ise <strong>Anafaz-1</strong> evresindeki **Homolog Kromozomların Rastgele Ayrılmasıdır**. Kardeş kromatitlerin ayrılması deseydi Anafaz-2 olurdu (ki bu çeşitlilik yaratmaz). Homolog kromozomların çiftler halinde rastgele kutuplara çekilmesi Anafaz-1'e hastır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

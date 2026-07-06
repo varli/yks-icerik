@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Biyoloji - Ünite 6: Kalıtım ve Çevre</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT BİYOLOJİ - MODÜL 6: KALITIM VE ÇEVRE</h1>
+        <p>Mendel Genetiği, Kan Grupları Esasları, Eşeye Bağlı Kalıtım ve Ekosistem Ekolojisi</p>
+    </div>
+
+    <h2>1. KALITIMIN TEMEL KAVRAMLARI VE MENDEL İLKELERİ</h2>
+    <p>Kalıtsal özelliklerin nesilden nesle nasıl aktarıldığını inceleyen bilim dalına genetik denir. Gregor Mendel, bezelyelerle yaptığı kontrollü çaprazlamalar sonucunda kalıtımın temel yasalarını keşfetmiştir:</p>
+    <ul>
+        <li><strong>Gen, Allel, Homozigot ve Heterozigot:</strong>
+        <br>• <strong>Gen:</strong> DNA üzerindeki belirli bir kalıtsal özelliği şifreleyen en küçük işlevsel birimdir.
+        <br>• <strong>Allel Gen:</strong> Aynı karakterin kalıtımından sorumlu olan, biri anneden diğeri babadan gelen gen çiftidir (Örn: A ve a).
+        <br>• <strong>Homozigot (Arı döl):</strong> Bir karakteri kontrol eden allel genlerin birbirinin aynı olması durumudur (Örn: AA veya aa).
+        <br>• <strong>Heterozigot (Melez döl):</strong> Bir karakteri kontrol eden allel genlerin birbirinden farklı olması durumudur (Örn: Aa).</li>
+        <li><strong>Fenotip ve Genotip:</strong> Canlıların genetik yapısına <strong>genotip</strong>, bu genotipin dış dünyaya ve fiziksel görünüme yansımasına ise <strong>fenotip</strong> denir. Baskın gen (A) heterozigot durumda da fenotipte etkisini gösterirken, çekinik gen (a) sadece homozigot (aa) durumda fenotipte okunabilir.</li>
+    </ul>
+
+    <h2>2. EŞ BASKINLIK VE AB0 - Rh KAN GRUPLARI</h2>
+    <p>Heterozigot durumda allel genlerin ikisinin de fenotipte etkisini birbirine üstünlük kurmadan, eş zamanlı ve tam olarak göstermesi durumuna <strong>eş baskınlık</strong> denir. En büyük örneği insanlardaki AB kan grubudur.</p>
+    <ul>
+        <li><strong>AB0 Sistemi:</strong> İnsanlarda kan grubunu belirleyen A, B ve 0 olmak üzere üç allel gen vardır (Çok allellik). A ve B genleri birbirine <strong>eş baskındır</strong>, 0 geni ise ikisine karşı da <strong>çekiniktir</strong> (A = B &gt; 0). Alyuvarların yüzeyindeki proteinlere antijen, kan plazmasındaki savunma proteinlerine ise antikor denir.</li>
+        <li><strong>Rh Faktörü:</strong> Alyuvar yüzeyinde Rh antijeni barındıranlar Rh(+) (Genotip: DD veya Dd), barındırmayanlar ise Rh(-) (Genotip: dd) kan grubundandır. Rh(+) geni, Rh(-) genine tam baskındır.
+        <br>• <em>Kan Uyuşmazlığı (Eritroblastosis Fetalis):</em> Sadece anne <strong>Rh(-)</strong>, bebek ise babadan gelen genle <strong>Rh(+)</strong> olduğunda gerçekleşen tehlikeli bir durumdur.</li>
+    </ul>
+
+    <h2>3. EŞEYE BAĞLI KALITIM VE SOYAĞACI ANALİZLERİ</h2>
+    <p>İnsanlarda 46 kromozom bulunur. Bunun 44 tanesi vücut karakterlerini belirleyen <strong>Otozom</strong>, 2 tanesi ise cinsiyeti belirleyen <strong>Gonozom (X ve Y)</strong> kromozomlarıdır. Dişiler XX, erkekler ise XY gonozom dizilimine sahiptir.</p>
+    <ul>
+        <li><strong>X Kromozomuna Bağlı Çekinik Kalıtım (Kırmızı-Yeşil Renk Körlüğü ve Hemofili):</strong> Bu hastalıklar X kromozomunun Y ile homolog olmayan segmentinde çekinik (r) genlerle taşınır. Erkeklerde tek bir X olduğundan, geni almaları durumunda (X<sup>r</sup>Y) **kesinlikle hasta** olurlar. Dişilerde ise iki X olduğundan hasta olabilmeleri için homozigot çekinik (X<sup>r</sup>X<sup>r</sup>) olmaları şarttır. Bu yüzden bu hastalıklar erkeklerde çok daha sık görülür.</li>
+        <li><strong>Y Kromozomuna Bağlı Kalıtım (Kulak kıllılığı, yapışık parmaklılık):</strong> Sadece Y kromozomunda taşınan özelliklerdir. <strong>Sadece erkeklerde görülür</strong> ve hasta bir babanın tüm erkek çocukları istisnasız hasta olur. Kıza geçiş imkansızdır.</li>
+    </ul>
+
+    <h2>4. EKOSİSTEM EKOLOJİSİ: BESİN ZİNCİRİ VE ENERJİ PİRAMİDİ</h2>
+    <p>Belirli bir alanda yaşayan canlılar (biyotik faktörler) ile cansız çevrelerinin (abiyotik faktörler: su, ışık, toprak) oluşturduğu dinamik bütüne <strong>ekosistem</strong> denir. Ekosistemde enerji akışı tek yönlüdür ve besin zincirleri vasıtasıyla trofik düzeyler arasında taşınır.</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ ENERJİ PİRAMİDİNİN YUKARI DOĞRU DEĞİŞİM YÖNLERİ:</strong>
+        <br>Besin piramidinde üreticilerden (en alt basamak) son tüketicilere (en üst basamak) doğru gidildikçe:
+        <br>• <strong>Aktarılan Enerji:</strong> Her basamakta enerjinin sadece %10'u bir üst kata aktarılır (%90'ı ısı ve metabolizmada kaybolur). Yukarı doğru aktarılan enerji <strong>azalır.</strong>
+        <br>• <strong>Biyokütle (Biyomas):</strong> Bir basamaktaki canlıların toplam ağırlığıdır. Yukarı doğru toplam biyokütle <strong>azalır.</strong>
+        <br>• <strong>Biyolojik Birikim (Zehirli Madde Miktarı):</strong> Suda çözünmeyen ağır metaller (DDT, kurşun vb.) dokularda birikir. Yukarı doğru çıktıkça zehir miktarı katlanarak <strong>artar.</strong>
+        <br>• Canlıların vücut büyüklüğü genel olarak artarken, birey sayısı <strong>azalır.</strong>
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Kalıtım çalışan bir araştırmacı, heterozigot kahverengi gözlü (Aa) bir anne ile heterozigot kahverengi gözlü (Aa) bir babanın evliliğinden doğacak çocukların genetik olasılıklarını hesaplamaktadır. <br><br>
+        Mendel'in monohibrit çaprazlama ilkelerine göre, bu çiftin doğacak ilk çocuklarının fenotipinde <u>çekinik özellik olan mavi gözlü (aa)</u> bir birey olma olasılığı yüzde kaçtır?</div>
+        <ul class="options-list">
+            <li>A) %100</li>
+            <li>B) %75</li>
+            <li>C) %50</li>
+            <li>D) %25</li>
+            <li>E) %0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Aa x Aa çaprazlaması yapıldığında genotip dağılımı şu şekilde olur: 1/4 AA (Homozigot baskın), 2/4 Aa (Heterozigot baskın) ve 1/4 aa (Homozigot çekinik). Toplam 4 olasılıktan sadece 1 tanesi çekinik fenotipe (aa - mavi göz) sahip olmaktadır. Matematiksel oran 1/4 yani <strong>%25</strong>'tir. Baskın fenotip (kahverengi göz) olasılığı ise %75 olurdu. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir hastanede acil kan ihtiyacı olan A Rh(-) kan grubundaki bir hastaya acilen tam uyumlu bir donörden kan nakli yapılması gerekmektedir. <br><br>
+        Buna göre, bu hastaya güvenli bir şekilde kan verebilecek olan donörün alyuvarlarının yüzeyinde barındırdığı antijen türleri ve plazmasındaki antikor durumu aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Alyuvarında B ve Rh antijeni bulunur, plazmasında antikor yoktur.</li>
+            <li>B) Alyuvarında sadece A antijeni bulunur, plazmasında Anti-B antikoru vardır; Rh antijeni ise kesinlikle barındırmaz.</li>
+            <li>C) Alyuvarında hiç antijen yoktur, plazmasında Anti-A ve Anti-Rh antikoru vardır.</li>
+            <li>D) Hem A hem Rh antijenlerini alyuvar zarında birlikte taşır.</li>
+            <li>E) Alyuvarında antijen bulunmayan genel alıcı AB Rh(+) grubundadır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> A Rh(-) kan grubundaki bir insanın alyuvar yüzeyinde sadece **A antijeni** bulunur. Rh(-) olduğu için Rh (D) antijeni taşımaz. Kan plazmasında ise yabancı olduğu B grubuna karşı **Anti-B antikoru** yer alır. Tam uyumlu nakil için vericinin de A Rh(-) olması, yani alyuvarında sadece A antijeni taşıyıp Rh antijeni taşımaması gerekir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Kırmızı-yeşil renk körlüğü, X kromozomunun Y ile homolog olmayan segmentinde çekinik bir genle (X<sup>r</sup>) taşınan kalıtsal bir hastalıktır. Sağlıklı bir anne ile kırmızı-yeşil renk körü bir babanın ilk erkek çocuklarının renk körü olduğu saptanmıştır. <br><br>
+        Buna göre, bu ailenin genetik yapısı analiz edildiğinde, erkek çocuğun renk körlüğü genini <u>kimden miras aldığı</u> kesin olarak savunulur?</div>
+        <ul class="options-list">
+            <li>A) Doğrudan babasından almıştır; çünkü baba renk körüdür.</li>
+            <li>B) Kesinlikle annesinden almıştır; çünkü erkek çocuklar Y kromozomunu babadan alırken, hastalık taşıyan X kromozomunu anneden alırlar.</li>
+            <li>C) Hem anneden hem babadan eşit oranda mutasyonel şansla transfer edilmiştir.</li>
+            <li>D) Anne homozigot baskın sağlıklı bir genotipe sahiptir.</li>
+            <li>E) Baba gonozomal kromatit ayrılmamasını bu çocuğa aktarmıştır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Erkek çocukların cinsiyet kromozomları XY'dir. Bir erkek çocuk, erkek olabilmek için babasından **mutlaka Y kromozomunu** almak zorundadır. Dolayısıyla babasından X kromozomu alamaz. X kromozomunu ise **kesinlikle annesinden** alır. Çocuk renk körü (X<sup>r</sup>Y) olduğuna göre, üzerindeki hastalıklı X<sup>r</sup> genini fenotipi sağlıklı görünse de taşıyıcı (X<sup>R</sup>X<sup>r</sup>) olan **annesinden** miras almıştır. Babanın bu durumdaki tek etkisi çocuğun erkek olmasını sağlamaktır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Karasal bir ekosistemde kurgulanan bir besin zinciri şu şekildedir: 
+        <br><strong>Ot &rarr; Çekirge &rarr; Kurbağa &rarr; Yılan &rarr; Kartal</strong>
+        <br><br>
+        Bu ekosisteme tarımsal mücadele amacıyla havadan yoğun miktarda suda çözünmeyen kimyasal zirai zehir (DDT) püskürtülmüştür. Bir süre sonra zehrin tüm canlıların dokularında biriktiği saptanmıştır. <br><br>
+        Besin piramidinin yukarı doğru değişen kuralları dikkate alındığında, bu zehrin (biyolojik birikimin) <u>en yüksek konsantrasyonda ve en ölümcül düzeyde</u> hangi canlı türünün dokularında birikmesi beklenir?</div>
+        <ul class="options-list">
+            <li>A) Üretici olan Ot</li>
+            <li>B) Birincil tüketici olan Çekirge</li>
+            <li>C) Kurbağa</li>
+            <li>D) Yılan</li>
+            <li>E) Besin zincirinin en üstünde yer alan Kartal</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> Besin piramitlerinde üreticilerden tüketicilere (aşağıdan yukarıya) doğru gidildikçe, dokularda parçalanamayan zehirli maddelerin birikme oranı yani **biyolojik birikim katlanarak artar**. Ot az miktarda zehir barındırırken, çekirge çok ot yer ve zehri biriktirir, kartal ise en üstte yer alarak alt basamaklardaki tüm zehirli enerjinin nihai akümülasyon noktası olur. Dolayısıyla zehir yoğunluğu en yüksek olan canlı zincirin son halkası olan <strong>Kartal</strong>'dır. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir enerji piramidinde yer alan saprofit (çürükçül) canlılar; bitki ve hayvan ölülerini, organik atıkları hücre dışı sindirim enzimleriyle parçalayarak inorganik bileşenlerine (özellikle amonyağa) ayırırlar ve toprağı mineralce zenginleştirirler. <br><br>
+        Saprofit organizmaların ekosistem piramidindeki <strong>konumsal yerleşimi ve önemi</strong> ile ilgili aşağıdaki ifadelerden hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Sadece besin piramidinin en alt tabakasında, üreticilerin altında bulunurlar.</li>
+            <li>B) Sadece etçil canlıların bulunduğu en üst trofik düzeyde aktiftirler.</li>
+            <li>C) Besin piramidinin <strong>tüm basamaklarında (trofik düzeylerinde)</strong> eş zamanlı olarak yer alırlar ve madde döngüsünün sürekliliği için zorunludurlar.</li>
+            <li>D) Enerji akışını tersine çevirerek güneş enerjisi üretebilirler.</li>
+            <li>E) Hücre duvarları selülozdan yapılmış olan ototrof kemosentetik canlılardır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Saprofitler (bazı bakteriler ve çoğu mantarlar) ekosistemin temizlik işçileridir. Üreticiler de tüketiciler de öldüğünde organik atık oluşturur. Bu yüzden saprofitler besin piramidinin sadece bir katına sıkışmış değil, **tüm basamaklarına yanal olarak bağlıdır ve her düzeyde iş yaparlar**. Onlar olmasaydı madde döngüsü durur, organik atık dağları oluşurdu. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

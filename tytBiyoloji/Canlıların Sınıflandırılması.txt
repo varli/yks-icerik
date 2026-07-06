@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Biyoloji - Ünite 4: Canlıların Sınıflandırılması</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT BİYOLOJİ - MODÜL 4: CANLILARIN SINIFLANDIRILMASI</h1>
+        <p>Sınıflandırma Basamakları, İkili Adlandırma Kuralları ve Canlılar Dünyasındaki Altı Büyük Alem</p>
+    </div>
+
+    <h2>1. BİLİMSEL SINIFLANDIRMA VE İKİLİ ADLANDIRMA (BINOMINAL)</h2>
+    <p>Canlıları benzerliklerine, anatomik, fizyolojik ve genetik akrabalıklarına göre gruplandıran biyoloji dalına taksonomi veya sınıflandırma denir. Günümüzde geçerli olan <strong>Filogenetik (Doğal) Sınıflandırma</strong>'dır. Bu sınıflandırmada analog organlar (görevdaş: sinek kanadı-kuş kanadı) değil, <strong>Homolog Organlar</strong> (kökenleri aynı, görevleri farklı veya aynı olan: balina yüzgeci-insan kolu) esas alınır. DNA benzerliği, protein benzerliği ve embriyolojik gelişim basamakları temel kriterlerdir.</p>
+    
+    <h3>Sınıflandırma Basamakları (Taksonlar):</h3>
+    <p>Carl Linnaeus tarafından geliştirilen sistemde, en küçük birim olan Tür'den başlayarak Alem'e doğru giden hiyerarşik yapı <strong>"Türkiye Cumhuriyeti Futbol Takımı Sahada Şut Attı"</strong> kelimeleriyle şifrelenir:
+    <br><strong>Tür &rarr; Cins &rarr; Aile (Familya) &rarr; Takım &rarr; Sınıf &rarr; Şube &rarr; Alem</strong>
+    <br><em>Kritik Değişim Yönü:</em> Türden Aleme doğru gidildikçe birey sayısı artar, çeşitlilik artar; fakat protein benzerliği, gen benzerliği ve ortak özellikler <strong>azalır.</strong></p>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM'NİN EN ÇOK SORDUĞU İKİLİ ADLANDIRMA KURALLARI:</strong>
+        <br>Her tür iki kelimeyle adlandırılır (Örn: <i>Pinus nigra</i> [Karaçam]).
+        <br>• İlk kelime her zaman büyük harfle başlar ve canlının <strong>Cins Adı</strong>'nı gösterir.
+        <br>• İkinci kelime küçük harfle yazılır ve <strong>Tanımlayıcı Ad</strong>'dır. Tek başına bir anlam ifade etmez.
+        <br>• İki kelime birden o canlının <strong>Tür Adı</strong>'nı oluşturur.
+        <br>• <u>Akrabalık derecesi kıyaslanırken sadece ilk kelimeye (Cins adına) bakılır.</u> İlk kelimeleri aynı olan canlılar yakın akrabadır. (Örn: <i>Pinus nigra</i> ile <i>Pinus sylvestris</i> yakın akrabadır; çünkü cinsleri aynıdır).
+    </div>
+
+    <h2>2. PROKARYOT ALEMLER: BAKTERİLER VE ARKELER</h2>
+    <ul>
+        <li><strong>Bakteriler Alemi:</strong> Tamamı prokaryot ve tek hücrelidir. Hücre zarlarının dış kısmında peptidoglikan tabakasından yapılmış bir hücre duvarı (çeperi) bulunur. Depo karbonhidratları <strong>glikojendir.</strong> Bazı bakterilerde olumsuz çevre şartlarına karşı korunmak için genetik kopyasını sakladığı dayanıklı <strong>endospor</strong> yapısı oluşur. Bazılarında ise antibiyotik direncini sağlayan küçük halkasal DNA parçası (plazmit) bulunur. Plazmit transferine <strong>konjugasyon</strong> denir (çeşitlilik sağlar, birey sayısı artmaz).</li>
+        <li><strong>Arkeler Alemi:</strong> Bakteriler gibi prokaryottur ancak hücre duvarı yapıları yalancı peptidoglikandır ve DNA'ları tıpkı eukaryotlar gibi histon proteinlerine sarılıdır. En büyük özellikleri <strong>ekstrem koşullarda</strong> (aşırı tuzlu, aşırı sıcak, metan gazlı kutup veya yanardağ ağızlarında) yaşayabilmeleridir.</li>
+    </ul>
+
+    <h2>3. EUKARYOT ALEMLERİN GENEL KARAKTERİSTİKLERİ</h2>
+    <p>Çekirdek ve zarlı organel barındıran gelişmiş canlı grupları dört büyük alem altında incelenir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Alem Adı</th>
+                <th>Hücresel Düzen ve Hücre Duvarı</th>
+                <th>Depo Karbonhidratı ve Beslenme Modeli</th>
+                <th>En Kritik Ayırt Edici Özellikleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Protista</strong></td>
+                <td>Çoğu tek, bazıları çok hücrelidir. Duvar genelde yoktur.</td>
+                <td>Değişken. Öglena ototrof, Amip heterotroftur.</td>
+                <td>Eukaryotların çöp kutusu gibidir. Paramesyum, Plazmodyum (sıtma mikrobu) ve Algler (yosunlar) bu alemdedir.</td>
+            </tr>
+            <tr>
+                <td><strong>Mantarlar (Fungi)</strong></td>
+                <td>Çoğu çok hücrelidir (Maya mantarı hariç). Duvarları <strong>Kitin</strong> yapılıdır.</td>
+                <td>Depo şekerleri <strong>Glikojen</strong>'dir. Tamamı heterotroftur (Fotosentez yapamaz!).</td>
+                <td>Kloroplastları kesinlikle yoktur. Saprofit (çürükçül) veya parazittirler. Hücre dışı sindirimleri çok gelişmiştir.</td>
+            </tr>
+            <tr>
+                <td><strong>Bitkiler (Plantae)</strong></td>
+                <td>Tamamı çok hücrelidir. Duvarları <strong>Selüloz</strong> yapılıdır.</td>
+                <td>Depo şekerleri <strong>Nişasta</strong>'dır. Tamamına yakını Ototroftur (Fotosentez yapar).</td>
+                <td>Tamamı eukaryottur. Damarsız-tohumsuz (Kara yosunu), Damarlı-tohumsuz (Eğrelti otu) ve Tohumlu (Açık/Kapalı) olarak ayrılırlar.</td>
+            </tr>
+            <tr>
+                <td><strong>Hayvanlar (Animalia)</strong></td>
+                <td>Tamamı çok hücrelidir. Hücre duvarı <u>kesinlikle yoktur.</u></td>
+                <td>Depo şekerleri <strong>Glikojen</strong>'dir. Tamamı Heterotroftur (Tüketici).</td>
+                <td>Omurgasızlar ve Omurgalılar olarak ikiye ayrılırlar. Büyümeleri sınırlıdır, aktif hareket ederler.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Omurgalı Hayvanların Sınıflandırılması (Evrimsel Sıralama):</h3>
+    <p>Omurgalılar şubesi 5 ana sınıfa ayrılır: <strong>Balıklar &rarr; İki Yaşamlılar (Kurbağalar) &rarr; Sürüngenler &rarr; Kuşlar &rarr; Memeliler</strong>
+    <br>• Balık ve kurbağalar kalpleri 2-3 odacıklı, soğukkanlı canlılardır.
+    <br>• Kuşlar ve Memeliler sıcakkanlı (sabit ısılı) canlılardır, kalpleri 4 odacıklıdır.
+    <br>• <strong>Sadece Memelilere Has Özellikler (Sınavda Hayat Kurtarır):</strong> Vücutlarının <u>kıllarla</u> kaplı olması (Kuşlar tüylüdür!), yavrularını sütle beslemeleri, alveollü akciğer yapısı barındırmaları ve olgun alyuvarlarının çekirdeksiz olması.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Laboratuvarda taksonomik incelemesi yapılan dört farklı canlının bilimsel tür isimleri aşağıda verilmiştir:
+        <br>I. <i>Pinus nigra</i>
+        <br>II. <i>Populus nigra</i>
+        <br>III. <i>Pinus sylvestris</i>
+        <br>IV. <i>Morus alba</i>
+        <br><br>
+        Buna göre, bu canlıların filogenetik sınıflandırma kurallarına göre <strong>birbirleriyle olan akrabalık dereceleri</strong> analiz edildiğinde hangilerinin en yakın akraba olması beklenir?</div>
+        <ul class="options-list">
+            <li>A) I ve II</li>
+            <li>B) II ve IV</li>
+            <li>C) I ve III</li>
+            <li>D) III ve IV</li>
+            <li>E) II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İkili adlandırma (binominal) sisteminde canlıların akrabalık dereceleri kıyaslanırken tanımlayıcı isim olan ikinci kelimeye değil, kesinlikle ilk kelime olan **Cins Adı**'na bakılır. I. canlının cins adı <i>Pinus</i>, III. canlının da cins adı <i>Pinus</i>'tur. Cins adları aynı olan bu iki canlı (Karaçam ve Sarıçam) aynı cinse ait yakın akrabadır. II. canlının son kelimesi "nigra" olsa da cinsi <i>Populus</i> (Kavak) olduğundan akraba sayılmaz. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Sınıflandırma basamaklarında Tür'den Alem'e doğru (aşağıdan yukarıya) gidildikçe bazı biyolojik parametrelerde düzenli değişimler gerçekleşir. <br><br>
+        Buna göre, bir biyolog tür basamağından başlayarak alem basamağına doğru ilerlediğinde aşağıdaki grafiksel değişimlerden hangisini <u>gözlemleyemez</u>?</div>
+        <ul class="options-list">
+            <li>A) Toplam canlı birey sayısının artması</li>
+            <li>B) Canlılar arasındaki genetik ve protein benzerliğinin azalması</li>
+            <li>C) Canlı çeşitliliğinin ve varyasyonun artması</li>
+            <li>D) Ortak gen sayısının ve ortak morfolojik özelliklerin artması</li>
+            <li>E) Yapısal ve anatomik farklılıkların artması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Türden aleme doğru (Örn: Kediden Hayvanlar Alemine) gidildikçe grup devasalaşır. Birey sayısı ve çeşitlilik katlanarak artar (A ve C doğru). Ancak grup büyüdüğü için gruptaki tüm canlıların paylaştığı ortak gen sayısı ve benzer özellikler **azalır**. D şıkkındaki ortak özelliklerin artması iddiası terstir; ortak özellikler aleme gidildikçe düşüş gösterir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir mantar hücresi ile bitki hücresinin genel yapısal özellikleri laboratuvar ortamında mikroskop altında kıyaslanmaktadır. <br><br>
+        Buna göre, mantarlar aleminin genel özellikleri dikkate alındığında, mantarları bitkilerden ayıran <u>en net ve temel fonksiyonel fark</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Mantarların eukaryot hücre yapısına sahip olması</li>
+            <li>B) Mantarların hücre duvarına (çeperine) sahip olması</li>
+            <li>C) Mantarların kloroplast organeli barındırmaması ve tamamının heterotrof (tüketici) beslenmesi</li>
+            <li>D) Mantarların hücre içinde glikojen depolayabilmesi</li>
+            <li>E) Mantarların nemli ortamlarda sporla üreyebilme yeteneği</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Mantarlar dış görünüş olarak bitkilere benzetilse de bitkilerden tamamen farklı bir alemdir. Bitkiler ototroftur (fotosentez yapar). Mantarlar ise **kesinlikle kloroplast içermez, klorofili yoktur ve fotosentez yapamazlar**. Tamamı heterotroftur, besinlerini dışarıdan çürükçül veya parazit olarak alırlar. Hücre duvarları da selüloz değil, kitindir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Doğal ortamlarda yaşayan prokaryot hücre yapısına sahip bir bakterinin, laboratuvar koşullarında aşırı yüksek sıcaklık, kuraklık ve radyasyon gibi ekstrem ölümcül çevre şartlarına maruz bırakılmasına rağmen kalıtsal materyalini koruyarak hayatta kaldığı gözlenmiştir. <br><br>
+        Bakterilerin elverişsiz çevre şartlarında hayatta kalabilmek için genetik kopyalarını koruyucu kalın bir kılıf içine alarak oluşturdukları bu metabolik <strong>dayanıklılık yapısına</strong> ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Plazmit</li>
+            <li>B) Kapsül</li>
+            <li>C) Endospor</li>
+            <li>D) Peptidoglikan</li>
+            <li>E) Konjugasyon Köprüsü</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bazı bakteriler çevre şartları ölümcül düzeye geldiğinde DNA'larını kopyalar ve etrafını çok dayanıklı, kristalize bir kılıfla sararlar. Hücrenin sitoplazmasındaki suyu minimuma indirerek metabolizmayı neredeyse durdururlar. Bu uyku halindeki koruma yapısına <strong>Endospor</strong> denir. Şartlar düzeldiğinde bakteri endospor kılıfından çıkarak normal yaşamına döner. Olay bir üreme yöntemi değildir, hayatta kalma refleksidir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Doğada keşfedilen omurgalı bir hayvanın; vücudunun kıllarla kaplı olduğu, yavrularını kendi ürettiği süt salgısıyla beslediği ve akciğerlerinde solunum yüzeyini artıran alveol yapılarının bulunduğu tespit edilmiştir. <br><br>
+        Biyolojik ayırt edici kurallara göre, bu hayvan türünün omurgalıların aşağıdaki sınıflarından hangisine ait olduğu kesin olarak savunulur?</div>
+        <ul class="options-list">
+            <li>A) Kuşlar</li>
+            <li>B) Sürüngenler</li>
+            <li>C) İki Yaşamlılar</li>
+            <li>D) Memeliler</li>
+            <li>E) Kemikli Balıklar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Omurgalı hayvanlar içinde vücudun **kıllarla** kaplı olması (kuşlardaki tüydür, karıştırılmamalıdır), yavruların **sütle** beslenmesi, akciğerlerde **alveol** bulunması ve olgun alyuvarların çekirdeksiz olması sadece ve sadece <strong>Memeliler</strong> sınıfına has ayırt edici özelliklerdir. Bu veriler canlının memeli olduğunu kanıtlar. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

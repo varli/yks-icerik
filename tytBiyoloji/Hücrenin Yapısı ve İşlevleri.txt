@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Biyoloji - Ünite 3: Hücrenin Yapısı ve İşlevleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT BİYOLOJİ - MODÜL 3: HÜCRENİN YAPISI VE İŞLEVLERİ</h1>
+        <p>Akıcı Mozaik Zar Modeli, Hücre Organellerinin Görevleri ve Hücre Zarından Madde Geçişleri</p>
+    </div>
+
+    <h2>1. HÜCRE ZARININ YAPISI VE AKICI MOZAİK ZAR MODELİ</h2>
+    <p>Hücre zarı canlı, esnek, seçici-geçirgen (semisellüler) bir yapıya sahiptir. Günümüzde geçerliliğini koruyan <strong>Akıcı Mozaik Zar Modeli</strong>'ne göre zar; sürekli hareket halinde olan çift katlı fosfolipit tabakası ile bu tabakaya gömülü veya yüzeyinde bulunan protein ve karbonhidrat moleküllerinden oluşur.</p>
+    <ul>
+        <li><strong>Fosfolipit Tabakası:</strong> Baş kısımları hidrofil (suyu seven/dışa bakan), kuyruk kısımları hidrofob (suyu sevmeyen/içe bakan) özelliktedir. Zara akışkanlık kazandırır.</li>
+        <li><strong>Glikoprotein ve Glikolipit:</strong> Hücre zarının dış yüzeyinde reseptör görevi görürler. Hücrelerin birbirini tanımasını sağlar, hücreye özgünlük (antijenik kimlik) kazandırır ve seçici geçirgenliği yönetirler.</li>
+        <li><strong>Kolesterol:</strong> Sadece hayvan hücrelerinin zarlarında bulunur. Sıcaklık değişimlerine karşı zara mekanik destek ve esneklik sağlar.</li>
+    </ul>
+
+    <h2>2. SİTOPLAZMA VE HÜCRE ORGANELLERİ</h2>
+    <p>Hücre içi yaşamsal faaliyetlerin (solunum, sentez, sindirim) gerçekleştiği, organelleri barındıran yarı akışkan sıvı kısma sitoplazma denir. Organeller zarsız, tek zarlı ve çift zarlı olmak üzere üçe ayrılır:</p>
+    <ul>
+        <li><strong>A) Zarsız Organeller:</strong>
+        <br>• <strong>Ribozom:</strong> Tüm canlı hücrelerde ortak bulunur. Görevi <strong>protein sentezi</strong> yapmaktır. RNA ve proteinden oluşur (nükleoprotein yapıdadır).
+        <br>• <strong>Sentrozom:</strong> Sadece hayvan hücrelerinde (ve ilkel bitkilerde) bulunur. Hücre bölünmesi sırasında iğ ipliklerini oluşturarak kromozomların ayrılmasını sağlar. Gelişmiş bitkilerde, yumurta, çizgili kas ve sinir hücrelerinde <u>bulunmaz.</u></li>
+        <li><strong>B) Tek Zarlı Organeller:</strong>
+        <br>• <strong>Endoplazmik Retikulum (ER):</strong> Hücre içi madde taşımacılığını (kanal sistemi) üstlenir. Üzerinde ribozom varsa granüllü ER (protein taşır), yoksa granülsüz ER (yağ ve karbonhidrat sentezler, kalsiyum depolar, ilaçları zehirsizleştirir) adını alır.
+        <br>• <strong>Golgi Aygıtı:</strong> ER'den gelen maddeleri paketler, salgılar ve depolar. Glikoprotein ve glikolipitlerin son şeklini aldığı yerdir. Sperm ve alyuvar hücrelerinde aktiftir.
+        <br>• <strong>Lizozom:</strong> İçerisinde güçlü hidrolitik (sindirim) enzimleri barındırır. <strong>Hücre içi sindirim</strong> yapar. Gelişmiş bitkilerde bulunmaz. Hücre kendi lizozomunu patlatarak kendini sindirirse bu olaya <strong>otoliz</strong> denir.
+        <br>• <strong>Koful:</strong> Hücre içi madde depolama alanıdır. Bitkilerde yaşlandıkça merkezde büyük bir koful (merkezi koful) oluşur. Tatlı suda yaşayan tek hücrelilerde fazla suyu dışarı atan pompalı <strong>kontraktil koful</strong> bulunur (ATP harcar).</li>
+        <li><strong>C) Çift Zarlı Organeller (Kendi DNA, RNA ve ribozomları vardır; bölünebilirler):</strong>
+        <br>• <strong>Mitokondri:</strong> Oksijenli solunum ile hücrenin ihtiyacı olan <strong>ATP enerjisini (güç merkezini)</strong> üretir. İç zarına krista, sıvı kısmına matriks denir.
+        <br>• <strong>Kloroplast (Plastit türevi):</strong> Bitki hücrelerinde <strong>fotosentez</strong> reaksiyonları ile organik besin sentezler. İçindeki klorofil pigmenti sayesinde bitkiye yeşil renk verir. Sıvı kısmına stroma, zarlı torbalarına granum denir.</li>
+    </ul>
+
+    <h2>3. HÜCRE ZARINDAN MADDE GEÇİŞ MEKANİZMALARI</h2>
+    <p>Maddelerin hücre zarından geçişi, moleküllerin büyüklüğüne ve ATP harcanma durumuna göre sınıflandırılır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Geçiş Mekanizması</th>
+                <th>Molekül Boyutu</th>
+                <th>Yönü ve Konsantrasyonu</th>
+                <th>ATP Durumu ve Kritik Şartlar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Basit Difüzyon</strong></td>
+                <td>Küçük Molekül</td>
+                <td>Çok yoğundan &rarr; Az yoğuna</td>
+                <td>ATP harcanmaz, taşıyıcı protein kullanılmaz. Lipitte çözünenler (A,D,E,K) zardan doğrudan geçer.</td>
+            </tr>
+            <tr>
+                <td><strong>Kolaylaştırılmış Difüzyon</strong></td>
+                <td>Küçük Molekül</td>
+                <td>Çok yoğundan &rarr; Az yoğuna</td>
+                <td>ATP harcanmaz. Zardaki <strong>taşıyıcı proteinler (kanal proteinleri)</strong> yardımıyla glikoz, amino asit gibi maddeler geçer.</td>
+            </tr>
+            <tr>
+                <td><strong>Osmoz (Suyun Difüzyonu)</strong></td>
+                <td>Su Molekülü</td>
+                <td>Suyun çok olduğu yerden &rarr; Az olduğu yere</td>
+                <td>ATP harcanmaz. Yarı geçirgen zardan su geçişidir. Çözelti ortamlarına (Hipertonik, Hipotonik, İzotonik) göre su yönü değişir.</td>
+            </tr>
+            <tr>
+                <td><strong>Aktif Taşıma</strong></td>
+                <td>Küçük Molekül</td>
+                <td>Az yoğundan &rarr; Çok yoğuna (veya eşitken)</td>
+                <td><strong>ATP harcanır.</strong> Canlılık şarttır. Taşıyıcı proteinler ve enzimler aktif görev alır.</td>
+            </tr>
+            <tr>
+                <td><strong>Endositoz (Fagositoz / Pinositoz)</strong></td>
+                <td>Büyük (Makro) Molekül</td>
+                <td>Sadece Dışarıdan &rarr; İçeriye</td>
+                <td><strong>ATP harcanır.</strong> Hücre zarı cep oluşturarak büyük maddeleri içeri alır, zar yüzeyi <strong>küçülür.</strong> Çeperi olanlar (Bitki, bakteri) yapamaz.</td>
+            </tr>
+            <tr>
+                <td><strong>Ekzositoz</strong></td>
+                <td>Büyük (Makro) Molekül</td>
+                <td>Sadece İçeriden &rarr; Dışarıya</td>
+                <td><strong>ATP harcanır.</strong> Atıkların veya salgıların (enzim, hormon) koful yardımıyla dışa atılmasıdır. Zar yüzeyi <strong>büyür.</strong> Çeperliler yapabilir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <strong>💡 Hücrelerin Yoğunluk Ortamları ve Osmoz Terimleri:</strong>
+        <br>• <strong>Hipertonik Ortam (Çok yoğun ortam):</strong> Hücreye göre çözünmüş madde miktarı fazla, su az olan ortamdır (Tuzlu su). Bu ortama konulan hücre su kaybederek büzülür; bu olaya <strong>Plazmoliz</strong> denir.
+        <br>• <strong>Hipotonik Ortam (Az yoğun ortam):</strong> Hücreye göre maddesi az, suyu çok olan ortamdır (Saf su). Plazmoliz olmuş bir hücre buraya konursa su alarak şişer; buna <strong>Deplazmoliz</strong> denir. Hücre su almaya devam ederse turgor basıncı artar. Hayvan hücresi fazla sudan patlarsa buna <strong>Hemoliz</strong> denir (Bitki hücresi çeperi sayesinde patlamaz).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Hücre zarının dış yüzeyinde yer alan karbonhidrat zincirlerinin proteinlerle birleşerek oluşturduğu glikoproteinler ile lipitlerle birleşerek oluşturduğu glikolipit yapıları zarın özgünlüğünü belirler. <br><br>
+        Buna göre, aşağıdakilerden hangisi doğrudan bu <strong>glikoprotein ve glikolipit mekanizması</strong> tarafından hücreye kazandırılan yaşamsal bir özellik <u>değildir</u>?</div>
+        <ul class="options-list">
+            <li>A) Hücrelerin birbirini tanımasını sağlamak ve doku oluşumunu düzenlemek</li>
+            <li>B) Hormonlar gibi uyarıcı kimyasal molekülleri algılayacak reseptör görevi görmek</li>
+            <li>C) Hücre zarına seçici-geçirgenlik karakteri kazandırarak içeri alınacak maddeleri denetlemek</li>
+            <li>D) Oksijenli solunum reaksiyonlarını başlatarak hücre için gerekli olan ATP moleküllerini sentezlemek</li>
+            <li>E) Hücreye antijenik özellik kazandırarak bağışıklık sisteminde "kendinden olanı" ayırt ettirmek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Glikoprotein ve glikolipitler hücre zarının dış yüzeyindeki glikokaliks tabakasını oluşturur. Hücrelerin birbirini tanıması (A), reseptörlük (B), seçici geçirgenlik kontrolü (C) ve antijenlik (E) tamamen bu moleküllerin görevidir. Ancak oksijenli solunum reaksiyonları ile ATP sentezlenmesi hücre zarının dış karbonhidrat zincirlerinin değil, çift zarlı bir iç organel olan **mitokondrinin** (veya prokaryotlarda mesozom benzeri iç zar kıvrımlarının) görevidir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Canlı bir bitki hücresinde sitoplazma içinde yer alan organellerin faaliyetleri takip edilmektedir. İnceleme sırasında, hücre içi pH değerinin dengelendiği, amino asit miktarının azaldığı ve peptit bağı sayısının hızla arttığı kaydedilmiştir. <br><br>
+        Buna göre, bu biyokimyasal değişimlerin yaşanmasına doğrudan neden olan ve tüm canlı hücrelerde ortak olarak bulunan <strong>zarsız organel</strong> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Lizozom</li>
+            <li>B) Mitokondri</li>
+            <li>C) Sentrozom</li>
+            <li>D) Ribozom</li>
+            <li>E) Kloroplast</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Hücrede amino asitlerin azalarak peptit bağlarının kurulması olayı bir **protein sentezi (dehidrasyonu)** reaksiyonudur. Hücrede protein sentezinden doğrudan sorumlu olan, tüm canlılarda (prokaryot ve eukaryot) ortak olarak bulunan yegane zarsız organel <strong>Ribozom</strong>'dur. Sentrozom da zarsızdır fakat protein sentezlemez, bölünmede görevlidir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Saf su (hipotonik ortam) dolu bir beherin içine bırakılan olgun bir alyuvar (hayvan) hücresinin bir süre sonra aşırı su alarak şiştiği ve iç basıncına dayanamayarak patladığı (hemoliz olduğu) gözlenmiştir. Aynı ortama bırakılan bir bitki hücresinde ise su girişine rağmen patlama olayının gerçekleşmediği saptanmıştır. <br><br>
+        Bitki hücresinin saf suda patlamasını engelleyen ve onu koruyan <u>temel yapısal fark</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bitki hücresinde lizozom organelinin bulunmaması</li>
+            <li>B) Bitki hücresinin hücre zarının dış kısmında selülozdan yapılmış sert bir <strong>hücre çeperinin (duvarının)</strong> bulunması</li>
+            <li>C) Bitki hücresinin mitokondri sayısının hayvan hücresinden az olması</li>
+            <li>D) Bitki hücresinin endositoz mekanizmasını daha hızlı çalıştırması</li>
+            <li>E) Kontraktil kofulların fazla suyu sürekli dışarı pompalaması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Hayvan hücrelerinde hücre zarının dışında koruyucu bir katman yoktur; bu yüzden hipotonik ortamda aşırı su aldıklarında turgor basıncına dayanamayıp patlarlar (hemoliz). Ancak bitki hücrelerinin zarının dışında selülozdan yapılmış cansız, tam geçirgen ve sert bir **hücre çeperi** bulunur. Bu çeper suyun yarattığı iç turgor basıncına karşı mekanik direnç göstererek bitki hücrelerinin patlamasını kesinlikle engeller. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Amip hücresi, etrafındaki büyük nişasta taneciğini hücresinin dışından zarıyla bir cep (yalancı ayak) oluşturarak sitoplazmasının içine doğru almış ve besin kofuluna dönüştürmüştür. <br><br>
+        Büyük moleküllerin hücre içine alınmasını sağlayan bu taşıma mekanizması ile ilgili aşağıdaki ifadelerden hangisi <u>hatalıdır</u>?</div>
+        <ul class="options-list">
+            <li>A) Bu taşıma işlemi gerçekleşirken amip hücresi ATP enerjisi harcar.</li>
+            <li>B) Olay bir fagositoz (endositoz) mekanizmasıdır.</li>
+            <li>C) Bu işlem sonucunda amip hücresinin toplam hücre zarı yüzey alanı biraz küçülür.</li>
+            <li>D) Nişasta taneciği çok yoğundan az yoğuna doğru taşıyıcı proteinler yardımıyla pasif olarak geçmiştir.</li>
+            <li>E) Hücre çeperine sahip olan gelişmiş bitki hücreleri bu mekanizmayı gerçekleştiremez.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Nişasta büyük (makro) bir moleküldür. Büyük moleküller hücre zarındaki porlardan geçemezler; bu yüzden yoğunluk farkına bakılmaksızın sadece **Endositoz** (katı ise fagositoz) mekanizmasıyla içeri alınırlar. Endositozda kesinlikle **ATP harcanır** (D şıkkındaki pasif geçiş iddiası tamamen yanlıştır). Zarın bir kısmı kopup koful oluşturduğu için zar yüzeyi küçülür (C doğru). Bitki hücreleri sert çeperden dolayı cep oluşturamaz, yani endositoz yapamaz (E doğru). Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Hücre zarından madde geçiş süreçleri çalışan bir öğrenci, bir iyot iyonunun hücre dışındaki konsantrasyonunun %1, hücre içindeki konsantrasyonunun ise %5 olduğunu ölçmüştür. Hücrenin dışarıdaki az yoğun ortamdan içerideki çok yoğun ortama doğru iyot almaya devam ettiği kaydedilmiştir. <br><br>
+        Buna göre, hücrenin bu iyot iyonunu içeriye taşımasını sağlayan ve canlılığın kesin bir kanıtı olan mekanizma hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kolaylaştırılmış Difüzyon</li>
+            <li>B) Basit Difüzyon</li>
+            <li>C) Aktif Taşıma</li>
+            <li>D) Pinositoz Akımı</li>
+            <li>E) Ekzositoz Sızması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> İyot bir iyondur, yani hücre zarındaki porlardan geçebilecek büyüklükte küçük bir maddedir. Hücre, iyotu az yoğun olduğu ortamdan (%1) çok yoğun olduğu ortama (%5) doğru almaya çalışmaktadır. Küçük moleküllerin az yoğundan çok yoğuna doğru, enzimler ve taşıyıcı proteinler yardımıyla, ATP harcanarak taşınması olayına <strong>Aktif Taşıma</strong> denir. Difüzyon olsaydı yükler eşitlenene kadar dışarı kaçardı. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

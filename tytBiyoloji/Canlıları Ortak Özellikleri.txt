@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Biyoloji - Ünite 1: Canlıların Ortak Özellikleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT BİYOLOJİ - MODÜL 1: CANLILARIN ORTAK ÖZELLİKLERİ</h1>
+        <p>Hücresel Yapı, Metabolik Süreçler, Homeostazi, Organizasyon ve Uyum Mekanizmaları</p>
+    </div>
+
+    <h2>1. CANLILARIN ENERJİSEL VE YAPISAL ORTAK PAYDALARI</h2>
+    <p>Biyoloji bilimi, yeryüzündeki devasa biyoçeşitliliğe rağmen tüm canlıların (en ilkel bakteriden en gelişmiş memeliye kadar) hücresel düzeyde sergilediği bazı temel yaşamsal özellikleri ortak kabul eder. Bu özellikler, canlılığı cansız maddelerden ayıran felsefi ve ampirik sınırlardır:</p>
+    <ul>
+        <li><strong>Hücresel Yapı:</strong> Tüm canlılar en az bir hücreden oluşur. Canlılar hücresel gelişmişliklerine göre ikiye ayrılır:
+        <br>• <em>Prokaryot Hücre:</em> Belirgin bir çekirdeği ve zarlı organelleri <u>olmayan</u>, DNA'sı sitoplazmada dağınık (halkasal) bulunan ilkel hücrelerdir. (Bakteriler ve Arkeler). <strong>Tamamı tek hücrelidir.</strong>
+        <br>• <em>Eukaryot Hücre:</em> Çekirdeği ve zarlı organelleri (mitokondri, kloroplast vb.) olan gelişmiş hücrelerdir. (Protistalar, Mantarlar, Bitkiler ve Hayvanlar). Tek veya çok hücreli olabilirler.</li>
+        <li><strong>Beslenme:</strong> Canlılar madde ve enerji ihtiyaçlarını karşılamak için beslenmek zorundadır. Kendi besinini kendi üretenlere <strong>Ototrof (Üretici)</strong>, besinini dışarıdan hazır alanlara ise <strong>Heterotrof (Tüketici)</strong> denir. Hem üretici hem tüketici olan özel canlılar da vardır (Örn: Öglena, Böcekçil bitki).</li>
+        <li><strong>Hücresel Solunum (ATP Üretimi / Fosforilasyon):</strong> Beslenmeyle alınan organik monomerlerin hücre içinde parçalanarak yaşamsal faaliyetlerde kullanılan kimyasal enerjiye (ATP) dönüştürülmesi olayıdır. Oksijenli (aerobik), oksijensiz (anaerobik) solunum veya fermantasyon yollarıyla gerçekleştirilebilir. <u>Tüm canlılar kesintisiz ATP üretmek ve tüketmek zorundadır.</u></li>
+    </ul>
+
+    <h2>2. METABOLİZMA, HOMEOSTAZİ VE BOŞALTIM ÜÇGENİ</h2>
+    <p>Canlı organizmanın içinde gerçekleşen tüm biyokimyasal reaksiyonların tamamına <strong>metabolizma</strong> denir. Metabolizma iki yönlü işler:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Metabolizma Türü</th>
+                <th>Sürecin Biyokimyasal Tanımı</th>
+                <th>En Klasik Biyolojik Örnekleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Anabolizma (Yapım / Asimilasyon)</strong></td>
+                <td>Küçük moleküllerin birleştirilerek büyük moleküller oluşturulmasıdır. **Dehidrasyon** reaksiyonlarıdır, ATP harcanır.</td>
+                <td>Fotosentez, kemosentez, protein sentezi, glikojen sentezi.</td>
+            </tr>
+            <tr>
+                <td><strong>Katabolizma (Yıkım / Disimilasyon)</strong></td>
+                <td>Büyük moleküllerin daha küçük bileşenlere parçalanmasıdır. **Hidroliz** süreçlerini de kapsar.</td>
+                <td>Hücresel solunum (ATP üretimi), sindirim reaksiyonları (Hidrolizde ATP harcanmaz).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li><strong>Homeostazi (İç Denge):</strong> Çevre şartları değişse bile organizmanın iç ortamını kararlı ve sabit tutma eğilimidir. Vücut sıcaklığının dengelenmesi, kan pH'ının 7.4'te sabit tutulması, su miktarının ayarlanması homeostazinin doğrudan birer sonucudur. İç denge bozulursa canlılık sona erer.</li>
+        <li><strong>Boşaltım:</strong> Metabolik faaliyetler sonucunda hücre içinde oluşan zararlı veya ihtiyaç fazlası atıkların (CO<sub>2</sub>, amonyak, üre, aşırı tuz) vücuttan uzaklaştırılmasıdır. Homeostazinin korunması için boşaltım <strong>şarttır.</strong> Tek hücreliler kontraktil koful veya hücre zarıyla, bitkiler yaprak dökümü ve terlemeyle, hayvanlar ise böbrekler vasıtasıyla boşaltım yaparlar.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ KAVRAM YANILGILARI (Sorularda Tuzak Olanlar):</strong>
+        <br>• <strong>Büyüme ve Gelişme:</strong> Tüm canlılar büyür. Ancak tek hücreli canlılarda büyüme <strong>hücre hacminin ve kütlesinin artmasıyla</strong> olur (Hücre bölünürse büyüme değil, üreme olur!). Çok hücreli canlılarda ise büyüme, <strong>hücre sayısının ve hacminin artmasıyla</strong> gerçekleşir. Gelişme ise hücrelerin dokulaşarak işlevselleşmesidir.
+        <br>• <strong>Üreme:</strong> Canlıların soylarını devam ettirmek için yeni bireyler meydana getirmesidir. Üreme, bir canlı bireyin <u>kendi yaşamını sürdürebilmesi için zorunlu değildir</u>; ancak türün neslinin devamı için zorunludur.
+    </div>
+
+    <h2>3. UYUM, ORGANİZASYON VE HAREKET</h2>
+    <p>Canlıların çevrelerine olan dinamik yanıtları ve yapısal düzenleri şu ortak paydalarda birleşir:
+    <br>• <strong>Uyum (Adaptasyon):</strong> Bir canlının bulunduğu çevrede yaşama ve üreme şansını artıran, kalıtsal olan uyumsal özellikleridir. (Örn: Kutup ayılarının beyaz postlu olması, kaktüslerin yapraklarının iğne şeklinde olması, develerin hörgüçlerinde yağ depolaması).
+    <br>• <strong>Organizasyon:</strong> Tüm canlılarda belirli bir düzen ve iş birliği vardır. Tek hücrelilerde organizasyon organel düzeyindeyken; çok hücrelilerde Atom &rarr; Molekül &rarr; Organel &rarr; Hücre &rarr; Doku &rarr; Organ &rarr; Sistem &rarr; Organizma hiyerarşisiyle işler.
+    <br>• <strong>Uyarılara Tepki:</strong> Canlılar iç ve dış çevreden gelen uyarılara (ışık, sıcaklık, kimyasallar) karşı bir tepki gösterirler (Örn: Bitki köklerinin suya yönelmesi, amibin asitten kaçması, göz bebeğinin ışıkta küçülmesi).
+    <br>• <strong>Hareket:</strong> Tüm canlılar hareket eder. Tek hücreliler kamçı, sil veya yalancı ayaklarla **aktif** yer değiştirirken; bitkiler yönelim (tropizma) veya ürperme (nasti) hareketleriyle **pasif** olarak hareket ederler.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Biyoloji öğretmeni tahtaya canlıların ortak özelliklerinden olan "büyüme" kavramını yazmış ve öğrencilerinden tek hücreli ile çok hücreli canlılardaki büyüme mekanizmalarını kıyaslamalarını istemiştir. <br><br>
+        Buna göre aşağıdaki öğrenci yorumlarından hangisi biyoloji bilimine göre <u>kesinlikle doğrudur</u>?</div>
+        <ul class="options-list">
+            <li>A) Tek hücreli bir canlı olan amip, hücresel olarak bölünerek hacmini büyütür.</li>
+            <li>B) Çok hücreli canlılarda büyüme sadece hücrelerin hacimce genişlemesiyle olur, hücre sayısı sabit kalır.</li>
+            <li>C) Tek hücreli canlılarda büyüme, hücre sayısının geometrik olarak artması esasına dayanır.</li>
+            <li>D) Tek hücreli canlılarda büyüme hücre kütlesinin ve sitoplazma hacminin artmasıyla olurken; çok hücreli canlılarda büyüme hücre sayısının ve hacminin artmasıyla gerçekleşir.</li>
+            <li>E) Gelişme ve büyüme, sadece eukaryot organizmalarda görülen ayırt edici birer ortak özelliktir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Tek hücreli canlılar (bakteri, amip vb.) eğer hücre sayılarını artırırlarsa (bölünürlerse) bu büyüme değil, **eşeysiz üreme (çoğalma)** olur. Bu yüzden tek hücreliler sadece hücre hacimlerini ve kütlelerini büyüterek gelişebilirler. Çok hücreli canlılar ise hem mitotik bölünmelerle hücre sayılarını artırarak hem de hücrelerini hacimce büyüterek büyürler. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir bitki hücresinde gerçekleşen biyokimyasal reaksiyonlar incelenmektedir. Bu süreçte hücre içindeki küçük amino asit moleküllerinin ATP harcanarak birleştirildiği ve büyük bir protein zinciri sentezlendiği (Dehidrasyon) tespit edilmiştir. <br><br>
+        Buna göre, gerçekleşen bu protein sentezi reaksiyonu canlıların ortak özelliklerinden olan aşağıdaki hangi kavramın doğrudan <strong>anabolik (yapım)</strong> bir alt başlığıdır?</div>
+        <ul class="options-list">
+            <li>A) Homeostazi</li>
+            <li>B) Katabolizma</li>
+            <li>C) Metabolizma</li>
+            <li>D) Boşaltım</li>
+            <li>E) Aktif Uyum</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Canlı hücrelerin içinde meydana gelen yapım (anabolizma) ve yıkım (katabolizma) reaksiyonlarının tamamına birden <strong>Metabolizma</strong> adı verilir. Küçük moleküllerden büyük molekül sentezlenmesi (protein sentezi, nişasta sentezi vb.) anabolizma olup, metabolizmanın yapım kısmını temsil eder. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Koşmakta olan bir insanın kas hücrelerinde metabolik atık olarak karbondioksit (CO<sub>2</sub>) ve laktik asit birikmektedir. Bu durum kan pH değerinin düşmesine (asitliğin artmasına) neden olur. Beyindeki omurilik soğanı bu değişimi fark ederek soluk alıp vermeyi hızlandırır ve CO<sub>2</sub>'nin vücuttan atılmasını sağlayarak kan pH'ını yeniden güvenli olan 7.4 sınırına geri getirir. <br><br>
+        Vücutta solunum ve boşaltım sistemlerinin iş birliğiyle gerçekleştirilen bu <strong>"iç ortamı kararlı ve dengede tutma"</strong> mekanizmasına ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Organizasyon</li>
+            <li>B) Homeostazi</li>
+            <li>C) Adaptasyon</li>
+            <li>D) Mutasyon</li>
+            <li>E) Fosforilasyon</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Değişen iç veya dış çevre şartlarına karşı vücudun fiziksel ve kimyasal iç dengesini sabit, kararlı tutma çabasına biyolojide <strong>Homeostazi (İç Denge)</strong> denir. Kan pH'ının 7.4'te tutulması, terleyerek vücut ısısının düşürülmesi tamamen homeostazi koruma refleksidir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Canlıların soylarını devam ettirebilmeleri için kendilerine benzer yeni bireyler meydana getirmelerine üreme denir. Üreme, eşeyli veya eşeysiz yollarla gerçekleşebilir. <br><br>
+        Üreme özelliğiyle ilgili olarak aşağıda sergilenen biyolojik iddialardan hangisi <u>yanlıştır</u>?</div>
+        <ul class="options-list">
+            <li>A) Üreme, bir canlı bireyin kendi yaşamını sürdürebilmesi için mutlak surette zorunlu olan bir ortak özellik değildir.</li>
+            <li>B) Eşeysiz üremede oluşan yeni bireyler, atasal canlı ile tıpatıp aynı kalıtsal özelliklere sahip olur.</li>
+            <li>C) Bir canlı türünün neslinin yeryüzünden silinmemesi için üreme fonksiyonu zorunludur.</li>
+            <li>D) Tüm canlı bireyler ergenlik dönemine ulaştıklarında kesinlikle üremek zorundadır, aksi takdirde metabolizmaları durur ve homeostazileri yıkılır.</li>
+            <li>E) Eşeyli üreme, tür içi genetik çeşitliliğin (varyasyonun) artmasını sağlar.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Üreme, canlıların ortak bir özelliğidir; fakat **bireyin kendi yaşamını sürdürmesi için zorunlu değildir** (Örn: Kısır bir birey veya arı kovanındaki işçi arılar üremeden de gayet sağlıklı yaşayabilirler). Ürememek organizmanın homeostazisini bozmaz veya metabolizmasını durdurmaz; sadece o bireyin kendi genlerini sonraki nesle aktaramayacağı anlamına gelir. Bu yüzden D şıkkındaki iddia tamamen hatalıdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Develerin hörgüçlerinde yoğun yağ depolayarak uzun süre susuzluğa direnmesi, kaktüs bitkilerinin terlemeyi azaltmak için yapraklarını iğne şekline dönüştürmesi ve kutup tilkilerinin ısı kaybını azaltmak için küçük kulaklı olması yapısal olarak kalıtsaldır. <br><br>
+        Canlıların bulundukları coğrafi çevrede <strong>yaşama ve üreme şansını artıran</strong> bu kalıtsal uyum yeteneğine ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Modifikasyon</li>
+            <li>B) Organizasyon</li>
+            <li>C) Tropizma</li>
+            <li>D) Adaptasyon (Uyum)</li>
+            <li>E) Mutasyonel Rejim</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Canlıların belirli çevre şartlarında hayatta kalma, avlanma ve üreme ihtimallerini artıran, nesilden nesle aktarılan tüm kalıtsal ve yapısal uyumlara <strong>Adaptasyon (Uyum)</strong> adı verilir. Örnek verilen kaktüs, deve ve kutup hayvanı özellikleri adaptasyonun en temel okul örnekleridir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>
