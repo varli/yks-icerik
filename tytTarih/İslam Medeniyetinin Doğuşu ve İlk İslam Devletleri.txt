@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 4: İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 4: İSLAM MEDENİYETİNİN DOĞUŞU VE İLK İSLAM DEVLETLERİ</h1>
+        <p>Cahiliye Dönemi, Hz. Muhammed Dönemi, Kurumsallaşma Süreci ve Siyasi Kırılımlar</p>
+    </div>
+
+    <h2>1. İSLAMİYET ÖNCESİ ARAP YARIMADASI (CAHİLİYE DÖNEMİ)</h2>
+    <p>İslamiyet öncesi Arap Yarımadası'nda siyasi birliği sağlayan tek bir devlet veya otorite yoktu. Toplum, "Kabileler" halinde yaşamaktaydı ve kabileler arası kan davaları kronik bir sorun haline gelmişti. Yalnızca <strong>Eşhur'ul Hurum</strong> adı verilen "Haram Aylar"da (Zilkade, Zilhicce, Muharrem, Recep) savaşlara ara verilir, Mekke çevresinde panayırlar (özellikle Ukaz Panayırı) kurulurdu. Bu panayırlar, bölgede ticari hayatı canlandırmasının yanı sıra edebi yarışmaların yapıldığı ortak bir kültürel havza oluştururdu.</p>
+    <p>Dini açıdan putperestlik (en yaygın inanç), Haniflik (Hz. İbrahim'in dini), Yahudilik ve Hristiyanlık mevcuttu. Toplumsal yapıda tam bir eşitsizlik hakimdi; insanlar hürler, mevaliler (azat edilmiş köleler) ve köleler olarak sınıflara ayrılmıştı. Kadınların mülkiyet ve miras hakkı yoktu. Bu adaletsiz, hukukun güçlünün elinde olduğu ve ahlaki yozlaşmanın zirve yaptığı döneme tarih literatüründe <strong>Cahiliye Dönemi</strong> denir.</p>
+
+    <h2>2. HZ. MUHAMMED DÖNEMİ SİYASİ VE ASKERİ GELİŞMELERİ</h2>
+    <p>610 yılında Hz. Muhammed'e ilk vahyin gelmesiyle İslamiyet yayılmaya başlamıştır. Mekke'deki müşriklerin baskı ve zulümlerinin artması üzerine 622 yılında Müslümanlar Mekke'den Medine'ye göç etmiştir. Bu olaya <strong>Hicret</strong> denir ve Hicri takvimin başlangıcı kabul edilir.</p>
+
+    <h3>A) Medine Sözleşmesi (İslam Devletinin Temeli)</h3>
+    <p>Hicret'ten sonra Müslümanlar, Medine'deki Yahudiler ve henüz İslam'ı seçmemiş Arap kabileleri arasında "Medine Sözleşmesi" imzalanmıştır. Bu sözleşme; din ve vicdan hürriyetini güvence altına alan, Medine'ye yapılacak bir dış saldırıda şehrin hep birlikte savunulacağını hükme bağlayan <strong>tarihteki ilk yazılı anayasal metinlerden biridir.</strong> Bu sözleşme ile Hz. Muhammed, Medine topluluğunun dini liderliğinin yanı sıra siyasi ve hukuki lideri (devlet başkanı) olmuş, böylece <strong>İslam Devleti'nin temelleri atılmıştır.</strong></p>
+
+    <h3>B) Büyük Savaşlar ve Gazveler</h3>
+    <ul>
+        <li><strong>Bedir Savaşı (624):</strong> Müslümanlar ile Mekkeli müşrikler arasındaki ilk savaştır. Müslümanlar kazanmıştır. <br>
+        <strong>Ganimet Hukuku:</strong> Savaş sonunda ele geçen ganimetlerin 5'te 4'ü savaşa katılan askerlere dağıtılmış, 5'te 1'i ise devlet hazinesine (Beytülmal) bırakılmıştır. Ayrıca okuma-yazma bilen esirler, 10 Müslüman'a okuma-yazma öğretmeleri karşılığında serbest bırakılmıştır. Bu durum, İslam hukukunda <u>ganimet kanununun ilk kez şekillendiğini</u> ve İslam'ın <u>eğitime verdiği hayati önemi</u> gösterir.</li>
+        <li><strong>Uhud Savaşı (625):</strong> Okçuların yerlerini terk etmesi nedeniyle Müslümanlar kaybetmiştir. İtaat ve disiplinin askeri başarıdaki önemi anlaşılmıştır.</li>
+        <li><strong>Hendek Savaşı (627):</strong> Müslümanların son savunma savaşıdır. Selman-ı Farisi'nin önerisiyle şehrin etrafına hendekler kazılmıştır. Müşrikler başarısız olmuş ve taarruz gücünü kaybetmiştir.</li>
+    </ul>
+
+    <h3>C) Hudeybiye Barışı ve Mekke'nin Fethi</h3>
+    <p><strong>Hudeybiye Antlaşması (628):</strong> Mekkeli müşrikler ile Müslümanlar arasında yapılan bu antlaşma ile <strong>Mekkeliler, Müslümanları ve İslam Devleti'ni hukuken ve resmen ilk kez tanımıştır.</strong> Barış ortamı İslamiyet'in yayılmasını hızlandırmıştır. <br>
+    <strong>Mekke'nin Fethi (630):</strong> Hudeybiye Antlaşması'nın müşrikler tarafından bozulması üzerine gerçekleştirilmiştir. Mekke savaşılmadan ele geçirilmiş, genel af ilan edilerek Kabe putlardan temizlenmiştir. Arap Yarımadası'nda İslam'ın önündeki en büyük engel kalkmıştır.</p>
+
+    <h2>3. DÖRT HALİFE DÖNEMİ (CUMHURİYET DEVRİ)</h2>
+    <p>Hz. Muhammed'in vefatından sonra devlet başkanlığına sırasıyla Hz. Ebu Bekir, Hz. Ömer, Hz. Osman ve Hz. Ali gelmiştir. Halifeler bu dönemde <strong>biat (seçim)</strong> yoluyla başa geldikleri için bu döneme <strong>Cumhuriyet Devri</strong> de denir.</p>
+
+    <h3>A) Hz. Ebu Bekir Dönemi (İstikrar Süreci)</h3>
+    <p>Hz. Muhammed'in vefatıyla ortaya çıkan iç karışıklıklar çözülmüştür. Yalancı peygamberler ortadan kaldırılmış, dinden dönenlerle <strong>Riddet Savaşları</strong> yapılarak devletin bölünmesi engellenmiş ve zekat vermeyenler itaat altına alınmıştır. Böylece <u>merkezi otorite ve siyasi birlik yeniden korunmuştur.</u> Savaşlarda hafızların şehit olması üzerine Kur'an-ı Kerim bir heyet tarafından <strong>ilk kez kitap (Mushaf) haline getirilmiştir.</strong></p>
+
+    <h3>B) Hz. Ömer Dönemi (Devasa Kurumsallaşma Çağı)</h3>
+    <p>Sınırlar en çok bu dönemde genişlemiştir (Suriye, Filistin, Mısır, İran ve Irak fethedilmiştir). Sınırların hızla genişlemesi ve nüfusun artması üzerine devlet teşkilatlanması zorunlu hale gelmiş ve şu adımlar atılmıştır:</p>
+    <div class="highlight-box">
+        <strong>Hz. Ömer Dönemi Kurumsal Reformları:</strong>
+        <ul>
+            <li>Ülke "Amallik" adı verilen eyaletlere bölünmüş ve başlarına valiler atanmıştır (Merkezi otoriteyi korumak amacıyla).</li>
+            <li>Yargı işlerini yürütmek için eyaletlere valilerden bağımsız çalışacak <strong>Kadılar</strong> atanmıştır (Yargı bağımsızlığı ve hukuk devleti ilkesi).</li>
+            <li>Devletin mali işlerini düzenlemek amacıyla ilk kez resmi devlet hazinesi olan <strong>Beytülmal</strong> kurulmuştur.</li>
+            <li>Askeri işler ve maaş ödemeleri için ilk düzenli ordu ve <strong>Divan-ı Cund</strong> (Askeri Divan) oluşturulmuştur.</li>
+            <li>İlk kez askeri amaçlı posta örgütü ve İkta (toprak-asker) sisteminin temelleri atılmıştır.</li>
+        </ul>
+    </div>
+
+    <h3>C) Hz. Osman ve Hz. Ali Dönemi (İç Karışıklıklar)</h3>
+    <p><strong>Hz. Osman Dönemi:</strong> İlk İslam donanması Şam Valisi Muaviye tarafından kurulmuş, Kıbrıs fethedilmiştir. Kur'an-ı Kerim çoğaltılarak önemli merkezlere gönderilmiştir. Ancak önemli devlet makamlarına kendi hanedanından (Ümeyyeoğulları) kişileri getirmesi, İslam dünyasındaki <strong>ilk iç huzursuzlukların ve gruplaşmaların</strong> başlamasına neden olmuştur. Hz. Osman'ın şehit edilmesiyle süreç krize dönmüştür.<br>
+    <strong>Hz. Ali Dönemi:</strong> Tamamen iç karışıklıklarla geçen, fethi hareketlerinin durduğu dönemdir. <strong>Cemel Vakası (Deve Olayı)</strong> ve Muaviye ile yapılan <strong>Sıffın Savaşı</strong> İslam dünyasındaki ilk iç savaşlardır. Sıffın Savaşı sonrasında yaşanan <strong>Hakem Olayı</strong>, Müslümanların kesin olarak üç gruba (Şiiler, Emeviler/Muaviye taraftarları ve Hariciler) bölünmesine yol açmıştır.</p>
+
+    <h2>4. EMEVİLER DÖNEMİ (IRKÇILIK VE İSTİLA ÇAĞI)</h2>
+    <p>Muaviye tarafından Şam merkezli kurulmuştur. Muaviye ölmeden önce oğlu Yezid'i veliaht tayin ederek <strong>halifeliği saltanata dönüştürmüştür.</strong> Hz. Muhammed'in torunu Hz. Hüseyin ve yakınlarının Yezid'in ordusu tarafından şehit edildiği <strong>Kerbela Olayı (680)</strong>, İslam dünyasındaki Şii-Sünni ayrılığını kesin ve geri dönülemez hale getirmiştir.</p>
+    <p>Emeviler, Kuzey Afrika'nın fethini tamamlamış, Kadiks Savaşı (711) ile İspanya'ya (Endülüs) geçerek Avrupa'da fetihler yapmışlardır. Ancak Fransa'da yapılan <strong>Puvatya Savaşı (732)</strong> ile Emevilerin Avrupa'daki ilerleyişi durdurulmuştur.</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM BU KAVRAMI SORAR (Mevali Politikası):</strong> Emeviler, Arap milliyetçiliği yapmışlardır. Arap olmayan Müslümanlara (Türkler, İranlılar vb.) ikinci sınıf insan muamelesi yapmışlar ve onlara <strong>Mevali</strong> (azatlı köle) demişlerdir. Mevalilerden Müslüman olmalarına rağmen haksız yere Cizye ve Arazi vergisi almaya devam etmişlerdir. Bu ırkçı yaklaşım İslamiyet'in Türkler arasında yayılmasını geciktirmiş ve Emevilerin kısa sürede yıkılmasına neden olmuştur.
+    </div>
+
+    <h2>5. ABBASİLER DÖNEMİ (HOSGÖRÜ VE BİLİM ÇAĞI)</h2>
+    <p>Emevilerin mevali politikasından bunalan toplulukların ve Hz. Ali taraftarlarının desteğiyle Ebu'l Abbas tarafından Bağdat merkezli kurulmuştur. Emevilerin aksine <strong>Ümmetçi (insancıl ve hoşgörülü)</strong> bir politika izlemişlerdir. Tüm Müslümanlara eşit yaklaşmışlardır. Bu sayede Türklerin İslamiyet'i kabul etme süreci hızlanmıştır.</p>
+    <p><strong>Talas Savaşı (751):</strong> Abbasiler ile Çinliler arasındaki bu savaşta Türkler (Karluklar), Çin tehlikesine karşı Müslüman Abbasileri desteklemiştir. Savaşın kazanılmasıyla Çin'in Batı Türkistan'a sızması engellenmiş, kağıt, matbaa ve pusula ilk kez Çin dışına çıkmıştır. En önemlisi <strong>Türk-İslam tarihi bu savaşla başlamıştır.</strong></p>
+    
+    <h3>Abbasilerde Türklerin Rolü</h3>
+    <ul>
+        <li><strong>Avasım Şehirleri:</strong> Abbasiler, Türklerin savaşçı özelliklerini korumak ve Bizans sınırını güvene almak amacıyla sadece Türklerin yaşayabileceği sınır kentleri (Avasım) kurmuşlardır.</li>
+        <li><strong>Samerra Şehri:</strong> Sadece Türk askerleri ve aileleri için Bağdat yakınlarında kurulmuş özel bir askeri şehirdir. Buraya başka toplulukların girmesi ve evlenmesi, Türklerin askeri disiplininin bozulmaması için yasaklanmıştır.</li>
+    </ul>
+    <p>Abbasiler döneminde Yunan, Hint ve Fars klasik eserleri Arapça'ya tercüme edilmiş, Bağdat'ta dünyanın en büyük akademi ve kütüphanelerinden biri olan <strong>Beytü'l-Hikme (Bilgelik Evi)</strong> kurulmuştur. İslam Rönesansı bu dönemde yaşanmıştır.</p>
+
+    <h2>6. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Hz. Ömer Dönemi'nde sınırların hızla genişlemesiyle birlikte ülke toprakları idari birimlere (eyaletlere) bölünmüş, mali işler için Beytülmal adıyla ilk devlet hazinesi kurulmuş, ordunun lojistik ve maaş işlerini yürütmek amacıyla askeri divanlar (Divan-ı Cund) oluşturulmuştur. <br><br>
+        Bu yapısal reformlar, aşağıdaki amaçlardan öncelikle hangisini gerçekleştirmeye yöneliktir?</div>
+        <ul class="options-list">
+            <li>A) Halifelik kurumunu saltanata dönüştürmek</li>
+            <li>B) Ülke içinde dini birlikteliği mutlak olarak sağlamak</li>
+            <li>C) Genişleyen sınırları kontrol altında tutarak merkezi otoriteyi ve devlet yönetimini kurumsallaştırmak</li>
+            <li>D) Arap milliyetçiliğini devlet politikası haline getirmek</li>
+            <li>E) Fetih hareketlerine son vererek savunma stratejisine geçmek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sınırların genişlemesi, eski kabile veya küçük şehir devleti yöntemleriyle koca bir imparatorluğun yönetilemeyeceğini gösterir. Eyaletlere bölünme, mali hazine (Beytülmal) ve askeri divan gibi yapılanmalar doğrudan **kurumsallaşma** adımlarıdır. Amaç, uzaktaki toprakları bile merkeze bağlayıp otoriteyi korumaktır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Emeviler döneminde uygulanan "Mevali" politikası gereği, Arap olmayan Müslümanlar ikinci sınıf vatandaş olarak görülmüş, devlet makamlarından uzak tutulmuş ve kendilerinden haksız vergiler alınmıştır. Abbasiler döneminde ise bu politikadan tamamen vazgeçilerek ümmetçi ve hoşgörülü bir yönetim sergilenmiştir. <br><br>
+        Buna göre Abbasilerin izlediği bu politikanın aşağıdakilerden hangisine ortam hazırladığı <u>savunulamaz</u>?</div>
+        <ul class="options-list">
+            <li>A) İslamiyet'in Türkler ve diğer yabancı kavimler arasında hızla yayılmasına</li>
+            <li>B) İslam dünyasında etnik kökene dayalı iç çatışmaların azalmasına</li>
+            <li>C) Farklı kültürlerin İslam medeniyetine katkı sağlamasına</li>
+            <li>D) Halifeliğin yeniden seçim (biat) sistemine dönüştürülmesine</li>
+            <li>E) Devletin toplumsal tabanının ve meşruiyetinin genişlemesine</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Abbasilerin ümmetçi politikası hoşgörüyü artırmış, İslam'ın yayılmasını hızlandırmış (A), iç çatışmaları azaltmış (B) ve bilimsel katkıyı artırmıştır (C). Ancak bu durum halifeliğin seçim sistemine geri döndüğü anlamına gelmez; Abbasilerde de halifelik babadan oğula veya hanedan üyelerine geçen bir <strong>saltanat</strong> olarak kalmıştır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Medine Sözleşmesi'nde yer alan "Müslümanlar ve Yahudiler kendi dinlerinde serbest olacaklardır.", "Medine'ye bir saldırı olursa iki topluluk şehri birlikte savunacaktır." ve "Çıkan anlaşmazlıklarda Hz. Muhammed hakem kabul edilecektir." maddelerine dayanarak aşağıdaki yargılardan hangisine <u>ulaşılamaz</u>?</div>
+        <ul class="options-list">
+            <li>A) Medine'de çok dinli ve çok kültürlü bir sosyal yapının hukuki güvenceye alındığına</li>
+            <li>B) Hz. Muhammed'in Medine'de sadece dini değil, siyasi ve hukuki bir otorite kazandığına</li>
+            <li>C) Medine'deki Yahudilerin tamamının İslamiyet'i zorunlu olarak kabul ettiğine</li>
+            <li>D) Şehir savunmasında ortak sorumluluk bilinciyle hareket edildiğine</li>
+            <li>E) Sözleşmenin bir anayasa niteliği taşıyarak toplumsal düzeni hedeflediğine</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sözleşmedeki "Yahudiler kendi dinlerinde serbest olacaklardır" maddesi, zorunlu bir din değiştirme politikasının olmadığının, aksine inanç özgürlüğünün tanındığının en açık kanıtıdır. Bu nedenle C şıkkı kesinlikle çıkarılamaz.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Abbasiler, savaşçı özelliklerinden yararlanmak istedikleri Türkler için Bizans sınırında "Avasım" adı verilen uç kentleri kurmuş, ayrıca başkent yakınlarında sadece Türk askerlerinin ve ailelerinin konaklayabileceği "Samerra" şehrini inşa ederek buraya yabancıların girişini yasaklamışlardır. <br><br>
+        Abbasilerin Samerra şehrinde yabancıların yaşamasını ve evlenmesini yasaklamasındaki temel askeri gerekçe aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Türklerin asimile olmasını engelleyerek kendilerine has savaşçılık ve askeri niteliklerini korumak</li>
+            <li>B) Türklerin ticaret yollarını ele geçirmesini önlemek</li>
+            <li>C) İslam dünyasında yeni bir mezhebin doğmasını sağlamak</li>
+            <li>D) Bizans İmparatorluğu ile kalıcı barış antlaşmaları imzalamak</li>
+            <li>E) Türk nüfusunun Bağdat'a göç etmesini tamamen engellemek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> Türklerin bozkır kültüründen gelen en büyük gücü savaşçılık yetenekleridir. Abbasiler, Türklerin Arap veya diğer yerleşik kültürlerle karışarak bu saf askeri niteliklerini, disiplinlerini ve dinamizmlerini (asimile olarak) kaybetmelerinden çekinmişlerdir. Bu yüzden izole bir şehir (Samerra) inşa edilmiştir. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> İslamiyet'in ilk dönemlerinde Bedir Savaşı sonrasında ele geçirilen ganimetlerin belli kurallara göre dağıtılması ve okuma-yazma bilen esirlerin Müslümanlara eğitim vermesi karşılığında serbest bırakılması uygulaması görülmüştür. <br><br>
+        Bu iki durum sırasıyla İslam devletindeki hangi alanların gelişimine doğrudan katkı sağlamıştır?</div>
+        <ul class="options-list">
+            <li>A) Siyasi Tarih - Mimari Yapı</li>
+            <li>B) İslam Hukuku - Eğitim ve Kültür</li>
+            <li>C) Dini İbadetler - Diplomatik İlişkiler</li>
+            <li>D) Dış Ticaret - Sınıflı Toplum Yapısı</li>
+            <li>E) Eyalet Yönetimi - Askeri Teknoloji</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ganimetlerin pay edilmesi mali/askeri bir hukukun oluşmasını sağladığı için <strong>İslam Hukuku</strong> kapsamına girer; esirlerin özgürlük karşılığı ders vermesi ise doğrudan <strong>Eğitim ve Kültür</strong> alanına verilen değeri gösterir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

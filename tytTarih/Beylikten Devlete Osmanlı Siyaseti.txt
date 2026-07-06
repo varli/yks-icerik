@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 7: Beylikten Devlete Osmanlı Siyaseti</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 7: BEYLİKTEN DEVLETE OSMANLI SİYASETİ</h1>
+        <p>Osmanlı Devleti'nin Kuruluş Faktörleri, Balkan Fetihleri ve Cihan Hakimiyeti</p>
+    </div>
+
+    <h2>1. OSMANLI DEVLETİ'NİN KISA SÜREDE BÜYÜME NEDENLERİ</h2>
+    <p>Osmanoğulları, 13. yüzyılın sonlarında Marmara Bölgesi'nin doğusunda (Söğüt ve Domaniç çevresi) kurulmuş küçük bir uç beyliğiyken, bir asır içinde Balkanlar ve Anadolu'ya hakim büyük bir devlete dönüşmüştür. Tarihçi Halil İnalcık'ın da vurguladığı üzere, bu hızlı büyüme rastlantısal değil; jeopolitik, demografik ve stratejik bir dehanın ürünüdür.</p>
+    
+    <h3>Kuruluş Dönemi Stratejik Güçleri ve Politikaları:</h3>
+    <ul>
+        <li><strong>Jeopolitik Konum:</strong> Bizans sınırında kurulması, Osmanlı'ya doğrudan gaza ve cihat yapma imkanı sağlamıştır. Anadolu'daki diğer güçlü beylikler iç mücadelelerle yıpranırken, Osmanlı batıya yürüyerek prestij ve toprak kazanmıştır.</li>
+        <li><strong>Bizans ve Balkanların Durumu:</strong> Bizans'ta sık sık yaşanan taht kavgaları ve "Tekfur" adı verilen yerel valilerin halkı ağır vergilerle ezmesi; Balkanlar'da ise Katolik-Ortodoks çatışmaları ile siyasi parçalanmışlık Osmanlı'nın ilerleyişini kolaylaştırmıştır.</li>
+        <li><strong>İstimalet (Hoşgörü) Politikası:</strong> Osmanlı, fethettiği bölgelerdeki gayrimüslim halkın can, mal ve inanç güvenliğini garanti altına almıştır. Din değiştirme baskısı yapmamış, adil bir vergi sistemi uygulamıştır. Bu durum fethedilen halkın devlete sadakatini sağlamıştır.</li>
+        <li><strong>İskân (Yerleştirme) Politikası:</strong> Fethedilen Balkan topraklarının kalıcı olarak Türk yurdu haline getirilmesi amacıyla Anadolu'daki göçebe Türkmenler bu bölgelere yerleştirilmiştir. İskânda özellikle aralarında kavga olan aileler seçilmiş (Anadolu'da asayişi sağlamak için) ve göç edenlere ücretsiz toprak verilerek üretim teşvik edilmiştir.</li>
+        <li><strong>Merkeziyetçi Yapı:</strong> Geleneksel Türk devletlerinin aksine, ülke hanedan üyeleri arasında bölünmemiş, merkezi otorite tek elde tutulmuştur.</li>
+        <li><strong>Kültürel ve Sosyal Destek:</strong> Ahilerin (Ahi Evran ekolü), Şeyh Edebali'nin dini ve sosyal desteği ile Gaziyân-ı Rûm (Anadolu Gazileri), Alp Erenler ve Bacıyân-ı Rûm (Anadolu Kadınları) gibi sivil/askeri grupların motivasyonu büyümeyi hızlandırmıştır. Halil İnalcık, 1302 **Koyunhisar (Bafeus) Savaşı**'nı devletin resmi kuruluş kronolojisi olarak kabul eder.</li>
+    </ul>
+
+    <h2>2. BEYLİKTEN DEVLETE GEÇİŞ SÜRECİ VE KURUMSALLAŞMA</h2>
+    <p>Osmanlı Devleti, fethettiği topraklar büyüdükçe aşiret yapısından kurumsal bir devlet mekanizmasına geçmek zorunda kalmıştır:</p>
+    <ul>
+        <li><strong>Osman Bey Dönemi:</strong> İlk Osmanlı parası (bakır) basılmış, ilk vergi (Bac) alınmıştır. Aşiret düzeni hakimdir.</li>
+        <li><strong>Orhan Bey Dönemi (Devletleşme Adımı):</strong> Beylikten devlete geçiş bu dönemde tamamlanmıştır. Sınırların genişlemesi üzerine; ilk düzenli ordu (Yaya ve Müsellem), ilk vezirlik makamı ve ilk Divan teşkilatı kurulmuştur. İznik'te ilk Osmanlı medresi açılmış ve başına Kayserili Davud müderris olarak atanmıştır. Karesioğulları Beyliği'nin alınmasıyla <u>Osmanlı ilk kez denizciliğe başlamış</u> ve Anadolu Türk siyasi birliğini sağlama yolundaki ilk adım atılmıştır. Çimpe Kalesi'nin alınmasıyla <u>Rumeli'ye ilk kez geçilmiştir.</u></li>
+        <li><strong>I. Murad Dönemi (İmparatorluk Temelleri):</strong> Sınırlar Balkanlar'da hızla genişlemiştir (Edirne alınarak başkent yapılmıştır). Devletin askeri ve mali omurgası kurulmuştur: <strong>Pençik Sistemi</strong> (Savaş esirlerinin 5'te 1'inin asker yapılması) uygulanarak <strong>Yeniçeri Ocağı</strong> kurulmuştur. İlk kez Veraset sisteminde değişiklik yapılarak "Ülke padişah ve oğullarınındır" anlayışı getirilmiştir (Merkezi otoriteyi güçlendirmek için). Rumeli Beylerbeyliği kurularak idari yapılanma büyütülmüştür.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ KRİTİK SINAV AYRIMI (Fetret Devri ve Ankara Savaşı - 1402):</strong>
+        <br>I. Bayezid (Yıldırım) ile Timur arasında yapılan Ankara Savaşı, Osmanlı'nın mağlubiyeti ile sonuçlanmıştır.
+        <br>• <strong>Sonuçları:</strong> Yıldırım'ın oğulları arasında 11 yıl süren taht kavgaları dönemi (Fetret Devri) başlamıştır. Anadolu Türk beylikleri yeniden kurularak Anadolu siyasi birliği parçalanmıştır. İstanbul'un fethi yaklaşık yarım asır gecikmiştir.
+        <br>• <strong>Yorum Çıkarımı:</strong> Fetret Devri'nde Anadolu'da büyük toprak kayıpları ve isyanlar yaşanırken, Balkanlar'da neredeyse hiç toprak kaybedilmemiştir. Bunun temel sebebi Osmanlı'nın Balkanlar'da uyguladığı adil <strong>İstimalet (hoşgörü) politikası</strong> ve köklü <strong>İskân düzenidir</strong>. Devletin ikinci kurucusu, Fetret Devri'ne son veren <strong>I. Mehmed (Çelebi)</strong>'dir.
+    </div>
+
+    <h2>3. DÜNYA GÜCÜ OSMANLI (YÜKSELME DÖNEMİ ÇAĞI)</h2>
+    <p>1453 yılında Fatih Sultan Mehmed'in İstanbul'u fethetmesiyle Osmanlı Devleti bir cihan imparatorluğuna dönüşmüştür.</p>
+
+    <h3>A) Fatih Sultan Mehmed Dönemi (Mutlakiyetin Zirvesi)</h3>
+    <p>İstanbul'un fethi ile İpek Yolu'nun kontrolü Osmanlı'ya geçmiş, Orta Çağ kapanıp Yeni Çağ başlamıştır. Fatih, merkezi otoriteyi mutlak kılmak için şu radikal adımları atmıştır:</p>
+    <ul>
+        <li><strong>Kul Sistemi ve Devşirmeler:</strong> Yönetimde Türk kökenli aristokrat ailelerin (Çandarlılar gibi) gücünü kırmak amacıyla devlet kademelerine sadece padişaha sadık devşirme kökenli devlet adamlarını getirmiştir.</li>
+        <li><strong>Müsadere Sistemi:</strong> Devlet adamlarının mallarına haksız kazanç veya suç durumunda el koyma sistemidir. Amaç, padişah otoritesine rakip zengin soylu ailelerin doğmasını engellemektir.</li>
+        <li><strong>Kanunname-i Âli Osman:</strong> İlk Osmanlı örfi hukuk anayasasıdır. Devletin bekası için kardeş katline yasal izin verilmiştir (Merkezi otoriteyi korumak, taht kavgalarını bitirmek amacıyla).</li>
+    </ul>

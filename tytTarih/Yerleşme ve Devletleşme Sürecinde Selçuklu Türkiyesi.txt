@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 6: Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 6: YERLEŞME VE DEVLETLEŞME SÜRECİNDE SELÇUKLU TÜRKİYESİ</h1>
+        <p>Anadolu'nun Fethi, Haçlı Seferleri, Türkiye Selçuklu Devleti ve Kültürel Miras</p>
+    </div>
+
+    <h2>1. ANADOLU'NUN TÜRKLEŞME SÜRECİ VE İLK BEYLİKLER</h2>
+    <p>Türklerin Anadolu'ya yönelik ilk akınları 4. yüzyılda Hunlar ve 6. yüzyılda Sabirler tarafından yapılmışsa da bunlar yerleşme amacı taşımayan keşif hareketleridir. Anadolu'yu yurt edinme gayesiyle yapılan planlı akınlar Büyük Selçuklu Devleti döneminde Çağrı Bey liderliğinde başlamıştır. 1048 Pasinler Savaşı ile Bizans'ın direnci kırılmış, <strong>1071 Malazgirt Savaşı</strong> ile Anadolu'nun kapıları Türklere tamamen açılmıştır.</p>
+    <p>Malazgirt zaferinden sonra Sultan Alparslan'ın "Toprak fethedenin malıdır" (Kılıç Hakkı) buyruğu üzerine Anadolu'da <strong>Birinci Dönem Türk Beylikleri</strong> kurulmuştur. Bu beylikler fethettikleri bölgeleri mimari eserlerle donatarak (cami, medrese, darüşşifa, kervansaray) Anadolu'ya "Türkiye" denmesini sağlayan kültürel altyapıyı kurmuşlardır:</p>
+    <ul>
+        <li><strong>Saltuklular:</strong> Erzurum çevresinde kurulan <u>ilk Anadolu Türk beyliğidir</u>. Üç Kümbetler ve Mama Hatun Türbesi en önemli eserleridir.</li>
+        <li><strong>Danişmentliler:</strong> Sivas, Tokat, Kayseri civarında kurulan, dönemin <u>en güçlü beyliğidir</u>. Tokat Niksar'da kurdukları <strong>Yağıbasan Medresesi</strong>, Anadolu'daki ilk Türk medresesidir.</li>
+        <li><strong>Mengücekliler:</strong> Erzincan ve Divriği çevresinde kurulmuşlardır. <strong>Divriği Ulu Cami ve Darüşşifası</strong>, UNESCO Dünya Miras Listesi'nde yer alan bir mimari şaheserdir.</li>
+        <li><strong>Artuklular:</strong> Mardin, Diyarbakır, Batman çevresinde kurulmuşlardır. Dünyanın en geniş taş kemerli köprülerinden olan <strong>Malabadi Köprüsü</strong> bu döneme aittir. Ünlü sibernetik bilgini El-Cezeri bu beylikte çalışmıştır.</li>
+        <li><strong>Çaka Beyliği:</strong> İzmir'de kurulan <u>ilk denizci Türk beyliğidir</u>. Çaka Bey'in ilk donanmayı denize indirdiği 1081 yılı, Türk Deniz Kuvvetleri'nin kuruluş tarihi kabul edilir.</li>
+    </ul>
+
+    <h2>2. TÜRKİYE SELÇUKLU DEVLETİ VE KİLİT SAVAŞLAR</h2>
+    <p>Süleyman Şah tarafından İznik merkezli kurulmuştur. Ancak I. Haçlı Seferi karşısında tutunamayarak başkentlerini <strong>Konya</strong>'ya taşımışlardır. Türkiye Selçuklu tarihi, Anadolu'nun tapusunu alma ve ticari bir üs haline getirme mücadelesidir.</p>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM BU AYRIMI ASLA ATLAMAZ (Miryokefalon Savaşı - 1176):</strong>
+        <br>Sultan II. Kılıç Arslan döneminde Bizans İmparatorluğu ile yapılan bu savaş, Türk tarihi için bir dönüm noktasıdır.
+        <br>• <strong>Siyasi Sonucu:</strong> Bizans'ın Türkleri Anadolu'dan tamamen atma ümidi ve taarruz gücü sona ermiş, Bizans savunmaya çekilmiştir. 
+        <br>• <strong>Yorum Çıkarımı:</strong> Malazgirt Savaşı Anadolu'nun kapılarını açarken, Miryokefalon Savaşı <strong>Anadolu'nun tapusunu tescillemiş</strong> ve Anadolu kesin olarak Türk yurdu haline gelmiştir. Bu tarihten sonra batı kaynaklarında Anadolu için "Turchia" (Türkiye) ifadesi yerleşik hale gelmiştir.
+    </div>
+
+    <h3>A) Haçlı Seferleri ve Sonuçları</h3>
+    <p>Hristiyan Avrupa dünyasının Papa öncülüğünde İslam dünyası üzerine düzenlediği 8 büyük askeri seferdir. Siyasi (Bizans'ın yardım çağrısı), dini (Kudüs'ü geri alma isteği) ve ekonomik (Doğu'nun zenginliklerine ulaşma arzusu) nedenleri vardır.</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Alan</th>
+                <th>Haçlı Seferleri'nin Siyasi ve Sosyo-Ekonomik Sonuçları</th>
+                <th>TYT Yorum Çıkarımı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Dini / Siyasi</strong></td>
+                <td>Papanın ve kilisenin vaatleri boşa çıktı; feodal derebeyler seferlerde öldü.</td>
+                <td>Kiliseye duyulan güven azaldı, <strong>Skolastik düşünce zayıfladı</strong>. Krallar güçlenirken Feodalite zayıfladı.</td>
+            </tr>
+            <tr>
+                <td><strong>Ekonomik</strong></td>
+                <td>Akdeniz limanları (Marsilya, Venedik, Cenova) büyük önem kazandı. Doğu-Batı ticareti gelişti.</td>
+                <td>Avrupa'da ticaretle uğraşan yeni bir sosyal sınıf olan <strong>Burjuva sınıfı</strong> doğdu ve güçlendi.</td>
+            </tr>
+            <tr>
+                <td><strong>Kültürel / Teknik</strong></td>
+                <td>Avrupa dünyası; Müslümanlardan <strong>kağıt, matbaa, pusula ve barutu</strong> öğrendi.</td>
+                <td>Bu teknik buluşların Avrupa'ya taşınması ilerleyen süreçte Coğrafi Keşifler, Rönesans ve Reform'u tetikledi.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. SELÇUKLU TÜRKİYESİ'NDE EKONOMİK VE SOSYAL YAŞAM</h2>
+    <p>Türkiye Selçuklu Devleti, ticareti bir devlet politikası haline getiren dünyadaki ilk devletlerden biridir. Ticari hacmi büyütmek için şu stratejik adımları atmışlardır:</p>
+    <ul>
+        <li><strong>Kervansaray Ağı:</strong> Ticaret yolları üzerinde, tüccarların 3 gün boyunca ücretsiz konaklayabileceği, yeme-içme ve hayvan bakım hizmeti alabileceği korunaklı yapılar inşa edilmiştir.</li>
+        <li><strong>Devlet Sigortası Sistemi:</strong> Selçuklu topraklarında saldırıya uğrayan, malı çalınan veya batan yabancı/yerli tüccarların zararları devlet hazinesinden karşılanmıştır. Bu sistem <u>tarihteki ilk devlet sigortası uygulamasıdır</u> ve yabancı tüccarları ülkeye çekmeyi amaçlamıştır.</li>
+        <li><strong>Liman Şehirlerinin Fethi:</strong> Sinop, Alanya (Alaaddiye) ve Sudak gibi liman kentleri fethedilerek deniz aşırı ticaret başlatılmış, buralarda tersaneler kurularak deniz ticareti güvenceye alınmıştır.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>💡 Ahilik Teşkilatı (Esnaf Örgütlenmesi):</strong>
+        <p>Ahi Evran tarafından Kırşehir merkezli kurulan esnaf ve zanaatkâr örgütlenmesidir. Sadece bir meslek odası değil; dini, ahlaki ve askeri boyutları olan sosyo-ekonomik bir kurumdur. Ürünlerin fiyatını belirler (Narh kesmek), kalitesini denetler, usta-çırak ilişkisini düzenler ve esnafa kredi sağlardı. Gerektiğinde vatan savunmasına katılan bu yapı, Anadolu'da Türk sosyal düzeninin omurgasını oluşturmuştur.</p>
+    </div>
+
+    <h2>4. ANADOLU'DA MOĞOL İSTİLASI VE ÇÖKÜŞ</h2>
+    <p>Türkiye Selçuklu Devleti, en parlak dönemini I. Alâeddin Keykubad ile yaşamıştır. Ancak doğudan gelen Moğol (İlhanlı) tehlikesine karşı bir tampon görevi gören Harzemşahlar Devleti'nin 1230 Yassıçemen Savaşı ile yıkılması, Selçuklu'yu Moğollarla karşı karşıya getirmiştir.</p>
+    <p>Devletin kötü yönetimi ve 1240 yılında çıkan dini-sosyal nitelikli <strong>Baba İshak (Babailer) İsyanı</strong> devletin askeri gücünün zayıfladığını Moğollara kanıtlamıştır. Fırsatı değerlendiren Moğollar Anadolu'ya girmiş ve <strong>1243 Kösedağ Savaşı</strong> ile Türkiye Selçuklu Devleti'ni ağır bir yenilgiye uğratmışlardır.</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ KÖSEDAĞ SAVAŞI'NIN KRİTİK SONUÇLARI:</strong>
+        <br>1. Türkiye Selçuklu Devleti Moğollara vergi bağlayan yarı bağımlı bir devlet haline gelmiş ve çöküş sürecine girmiştir.
+        <br>2. Anadolu'da merkezi otorite tamamen yok olmuş ve <strong>İkinci Dönem Anadolu Türk Beylikleri</strong> (Osmanoğulları, Karamanoğulları, Karesioğulları vb.) kurulmuştur. Siyasi birlik parçalanmıştır.
+        <br>3. Ancak olumlu tek yönü: Moğol baskısından kaçan yoğun Türkmen nüfusu Batı Anadolu'ya yığılmış, bu durum Batı Anadolu'nun hızla Türkleşmesini ve ileride kurulacak olan <strong>Osmanlı Devleti'nin insan altyapısını</strong> hazırlamıştır.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Haçlı Seferleri sonucunda Avrupalılar Müslüman dünyasından pusula, matbaa, kağıt ve barut gibi teknik buluşları öğrenerek ülkelerine taşımışlardır. <br><br>
+        Bu teknik buluşların Avrupa kültür dünyasına taşınmasının, uzun vadede aşağıda verilen gelişmelerden hangisine doğrudan zemin hazırladığı <u>savunulamaz</u>?</div>
+        <ul class="options-list">
+            <li>A) Pusulanın geliştirilmesiyle Coğrafi Keşiflerin başlamasına</li>
+            <li>B) Kağıt ve matbaanın yaygınlaşmasıyla Rönesans ve Reform hareketlerinin doğmasına</li>
+            <li>C) Barutun ateşli silahlarda kullanılmasıyla feodal derebeyliklerin (şatoların) yıkılmasına</li>
+            <li>D) Skolastik düşüncenin ve kilise otoritesinin güç kazanarak tüm dünyaya hakim olmasına</li>
+            <li>E) Avrupa'da okuma-yazma oranının ve kültürel etkileşimin artmasına</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Pusula Coğrafi Keşifleri (A), kağıt ve matbaa bilim/aydınlanmayı yani Rönesans'ı (B), barut ise feodaliteyi yıkarak krallıkları güçlendirmiştir (C). Ancak kağıt, matbaa ve bilimin gelişmesi İncil'in farklı dillere çevrilmesini ve kilisenin yalanlarının ortaya çıkmasını sağladığı için kiliseye ve **Skolastik düşünceye darbe vurmuş, onları zayıflatmıştır**. Bu nedenle D seçeneği tam tersi bir süreçtir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Türkiye Selçuklu Devleti, ülkeden geçen ticaret yolları üzerinde lüks kervansaraylar inşa etmiş, tüccarlardan alınan gümrük vergilerini düşürmüş ve malları zarara uğrayan yabancı tüccarların kayıplarını devlet hazinesinden karşılayan bir sigorta sistemi kurmuştur. <br><br>
+        Selçuklu devletinin bu uygulamalarla ulaşmak istediği temel stratejik hedef aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Anadolu'da tarımsal üretimi tamamen sonlandırıp sanayiye geçmek</li>
+            <li>B) Anadolu'yu uluslararası ticaretin güvenli bir cazibe merkezi haline getirerek ekonomik gelirleri artırmak</li>
+            <li>C) Bizans İmparatorluğu ile askeri ittifak kurup Moğolları engellemek</li>
+            <li>D) Ahilik teşkilatının esnaf üzerindeki ekonomik denetimini ortadan kaldırmak</li>
+            <li>E) Ülkedeki feodal beyliklerin siyasi olarak bağımsızlaşmasını sağlamak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Güvenlik (kervansaray), vergi indirimi ve devlet sigortası gibi teşviklerin tek bir amacı vardır: Küresel ölçekteki tüccarları kendi ülkesine çekmek. Selçuklu bu sayede Anadolu coğrafyasını küresel ticaretin kalbi yapmış ve devlet bütçesini ticaret gelirleriyle zenginleştirmiştir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> 1243 Kösedağ Savaşı'nda Moğollara yenilen Türkiye Selçuklu Devleti çöküş sürecine girmiş, Anadolu'da merkezi otorite dağılmış ve bağımsız Türk beylikleri kurulmuştur. Ancak bu istila sonucunda Moğol zulmünden kaçan milyonlarca Türkmen, Batı Anadolu (Marmara ve Ege) sınırlarına göç etmiştir. <br><br>
+        Bu göç dalgasının Batı Anadolu coğrafyası açısından doğurduğu en hayati olumlu sonuç aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bizans İmparatorluğu'nun İslamiyet'i resmi din olarak kabul etmesi</li>
+            <li>B) Haçlı Seferleri'nin askeri olarak tamamen başarıya ulaşması</li>
+            <li>C) Batı Anadolu'nun demografik (nüfus) olarak hızla Türkleşmesi ve Osmanlı Devleti'nin kuruluşuna zemin hazırlaması</li>
+            <li>D) Ahilik teşkilatının ticari faaliyetleri tamamen durdurması</li>
+            <li>E) Anadolu'da ilk medreselerin ve yazılı kanunların oluşturulması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kösedağ Savaşı Selçuklu'yu yıkmıştır (Siyasi felaket) ancak Moğol önünden kaçan dinamik Türkmen nüfusunu Bizans sınırına (Söğüt, Domaniç, Aydın vb.) yığmıştır. Bu kitlesel nüfus kayması Batı Anadolu'nun hızla Müslümanlaşmasını/Türkleşmesini sağlamış ve orada küçücük bir uç beyliği olarak doğacak olan **Osmanlı'nın ihtiyaç duyduğu insan askeri/sosyal gücünü** oluşturmuştur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Danişmentlilerin Tokat Niksar'da kurduğu Yağıbasan Medresesi'nde dini ilimlerin yanı sıra tıp ve matematik eğitimi de verilmiş, medrese Anadolu'nun ilk yükseköğretim kurumu olmuştur. <br><br>
+        Yalnızca bu bilgiye göre beylikler dönemi eğitimi hakkında hangisi söylenebilir?</div>
+        <ul class="options-list">
+            <li>A) Eğitim faaliyetlerinin sadece askeri amaçlarla sınırlandırıldığı</li>
+            <li>B) Medreselerin sadece Arap Yarımadası'ndaki alimleri eğittiği</li>
+            <li>C) Anadolu'da bilimsel ve kültürel hayatın gelişmesi için çok yönlü eğitim kurumlarının açıldığı</li>
+            <li>D) Pozitif bilimlerin dini baskılardan dolayı tamamen yasaklandığı</li>
+            <li>E) İlk yazılı anayasa metinlerinin medreselerde hazırlandığı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Medresede dini derslerin yanında "tıp ve matematik" gibi pozitif bilimlerin de okutulması, beyliklerin eğitime dogmatik/tek yönlü değil, toplumsal ihtiyaçları karşılayacak şekilde çok yönlü ve bilimsel yaklaştığını gösterir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Selçuklu esnaf örgütlenmesi olan Ahilik teşkilatında haksız rekabeti önlemek amacıyla malların tavan ve taban fiyatları devlet ile ortak belirlenir (Narh kesmek), kalitesiz mal üreten esnafın dükkanı kapatılır ve meslekten ihraç edilirdi. <br><br>
+        Buna göre Ahilik teşkilatının temel toplumsal misyonu aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Tüketici haklarını korumak, esnaf ahlakını ve ürün kalitesini güvence altına almak</li>
+            <li>B) Yabancı tüccarların yerli pazarı tamamen ele geçirmesini sağlamak</li>
+            <li>C) Tarımsal arazilerin mülkiyetini şahıslara dağıtmak</li>
+            <li>D) Saray bürokrasisi için sadece devşirme memurlar yetiştirmek</li>
+            <li>E) Şer'i hukuk kurallarının yönetimdeki etkisini tamamen yok etmek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> Fiyat sabitleme (Narh) ve kalitesiz mal üreteni cezalandırma (Pabucunu dama atmak deyimi buradan gelir) doğrudan **tüketicinin sömürülmesini engeller** ve piyasada ahlaki/kaliteli bir üretim standardı sağlar. Bu yüzden misyon esnaf ahlakı ve tüketiciyi korumaktır. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

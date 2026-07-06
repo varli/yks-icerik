@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 3: İlk ve Orta Çağlarda Türk Dünyası</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 3: İLK VE ORTA ÇAĞLARDA TÜRK DÜNYASI</h1>
+        <p>Avrasya'da Türk İzleri, Bozkır Kültürü, Devlet Teşkilatı ve Toplumsal Yapı</p>
+    </div>
+
+    <h2>1. TÜRK ADININ ANLAMI VE TÜRK ANAYURDU</h2>
+    <p>Türk adı, tarih boyunca farklı kaynaklarda farklı anlamlarla tanımlanmıştır. Çin kaynaklarında "Miğfer", Kaşgarlı Mahmut'ta "Olgunluk Çağı", Ziya Gökalp'te "Töreli, Kanun ve Nizam Sahibi", Wambery'de ise "Türeyen, Çoğalan" anlamlarına gelir. Türklerin anayurdu olan Orta Asya; kuzeyde Sibirya, güneyde Hindukuş ve Karanlık Dağları, doğuda Kingan Dağları, batıda ise Hazar Denizi ile çevrili sert karasal iklime sahip geniş bir coğrafyadır.</p>
+    <p>Orta Asya'nın coğrafi özellikleri (yüksek platolar, şiddetli kışlar, yetersiz tarım arazileri) Türklerin <strong>konargöçer (göçebe)</strong> bir yaşam tarzını benimsemesine neden olmuştur. Bu yaşam tarzı sadece ekonomik bir tercih değil; Türklerin askeri disiplinini, bağımsızlık karakterini, sanat anlayışını ve hukuk sistemini (Töre) doğrudan şekillendiren temel faktördür.</p>
+
+    <h3>Orta Asya Kültür Merkezleri</h3>
+    <ul>
+        <li><strong>Anav:</strong> Orta Asya'nın en eski kültürüdür. At ilk kez bu kültürde görülmüştür.</li>
+        <li><strong>Afanesyevo:</strong> Türklerin en eski kültürü olarak kabul edilir. Savaşçı bir toplum yapısı hakimdir.</li>
+        <li><strong>Andronovo:</strong> Türklerin atalarına ait olduğu düşünülen, tunç ve altından eşyaların yapıldığı geniş yayılma alanlı kültürdür.</li>
+        <li><strong>Karasuk:</strong> Demirin dünyada ilk işlendiği kültürlerden biridir.</li>
+        <li><strong>Tagar:</strong> Orta Asya kültür merkezlerinin en gelişmişidir. "Tunçtan Miğferler" ve gelişmiş süs eşyaları ile tanınır.</li>
+    </ul>
+
+    <h2>2. İSLAMİYET ÖNCESİ KURULAN TÜRK DEVLETLERİ</h2>
+    
+    <h3>A) Asya Hun Devleti (Büyük Hun İmparatorluğu)</h3>
+    <p>Tarihte bilinen ilk Türk devletidir. Başkenti Türklerin "Kutsal Yurdu" kabul edilen <strong>Ötüken</strong>'dir. Bilinen ilk hükümdarı Teoman'dır. En parlak dönemi ise <strong>Mete Han</strong> dönemidir.</p>
+    <div class="highlight-box">
+        <strong>Mete Han Dönemi ve Türk Tarihindeki İlkler:</strong>
+        <ul>
+            <li>Orta Asya'daki tüm Türk boylarını ilk kez tek bayrak altında toplayarak <strong>Türk Siyasi Birliği'ni</strong> sağlamıştır.</li>
+            <li>Dünya askeri tarihine yön veren <strong>Onlu Sistem'i</strong> kurmuştur (Kara Kuvvetlerinin kuruluş tarihi kabul edilir: MÖ 209).</li>
+            <li>Çin'i mağlup etmesine rağmen, Türk nüfusunun kalabalık Çin nüfusu içinde asimile olmasını önlemek amacıyla Çin'i toprağa katmamış, sadece vergiye bağlamıştır.</li>
+        </ul>
+    </div>
+
+    <h3>B) Kavimler Göçü ve Avrupa Hun Devleti</h3>
+    <p>Hunların batıya hareketiyle başlayan Kavimler Göçü (375); Roma İmparatorluğu'nun ikiye bölünmesine, Avrupa'da Feodalite (Derebeylik) sisteminin doğmasına ve Skolastik düşüncenin hakimiyetine yol açmıştır. Avrupa'da kurulan Avrupa Hun Devleti'nin en ünlü hükümdarı <strong>Attila</strong>'dır. Avrupalılar ona "Tanrı'nın Kırbacı" adını vermişlerdir. Attila döneminde Bizans vergiye bağlanmış (Margus ve Anatolios Antlaşmaları), Batı Roma üzerine seferler düzenlenmiştir.</p>
+
+    <h3>C) Kök Türk Devleti (I. ve II. Kök Türk)</h3>
+    <p><strong>I. Kök Türk Devleti:</strong> Türk adını devlet ismi olarak kullanan ilk devlettir. Bumin Kağan tarafından kurulmuştur. Devlet "İkili Teşkilat" (Doğu-Batı) ile yönetilmiştir. <br>
+    <strong>II. Kök Türk (Kutluk) Devleti:</strong> Çin esaretine karşı Kutluk Kağan'ın başlattığı bağımsızlık savaşı ile kurulmuştur. Türk tarihinin ilk yazılı belgeleri olan <strong>Orhun Abideleri (Yazıtları)</strong> bu dönemde dikilmiştir. Bilge Kağan, Kültigin ve Vezir Tonyukuk adına dikilen bu taşlar; devlet yönetimi, milli bilinç ve sosyal devlet anlayışı hakkında eşsiz bilgiler sunar.</p>
+
+    <h3>D) Uygur Devleti</h3>
+    <p>Kutluk Bilge Kül Kağan tarafından kurulmuştur. Türk tarihinde <strong>Maniheizm</strong> dinini benimsemeleriyle en köklü değişimi yaşamışlardır. Bu dinin etkisiyle et yemeyi ve savaşmayı bırakmışlar, <strong>yerleşik hayata geçen ilk Türk topluluğu</strong> olmuşlardır. Tarım, mimari, kütüphanecilik ve matbaacılıkta (hareketli harf sistemi) çok ileri gitmişlerdir. Moğolların Türkleşmesinde "Hocalar" olarak büyük rol oynamışlardır.</p>
+
+    <h2>3. TÜRK DEVLET TEŞKİLATI VE KAVRAMLAR (SINAVIN KALBİ)</h2>
+    <p>İslamiyet öncesi Türk devlet yapısı, belirli bir dünya görüşü ve egemenlik anlayışı üzerine kuruludur. TYT sorularının %80'i aşağıdaki üç kavramdan gelmektedir:</p>
+
+    <h3>A) Kut İnancı</h3>
+    <p>Devleti yönetme yetkisinin Gök Tanrı tarafından bir hanedana (hükümdar ve ailesine) verildiği inancıdır. Bu yetkinin kan yoluyla tüm erkek üyelere geçtiğine inanılır. <br>
+    <strong>Siyasi Sonucu:</strong> Ülke hanedan üyelerinin ortak malı sayılmıştır. Bu durum hükümdar öldüğünde taht kavgalarının çıkmasına ve Türk devletlerinin merkezi otoritesinin zayıflayarak çok çabuk yıkılmasına neden olmuştur.</p>
+
+    <h3>B) Kurultay (Toy / Kengeş)</h3>
+    <p>Devlet işlerinin (savaş, barış, bütçe, töre değişikliği) görüşüldüğü meclistir. Kağan başkanlık eder, ancak Kağan'ın olmadığı durumlarda Vezir veya Hatun da temsil edebilir. Boy beyleri katılır. <br>
+    <strong>Demokratik Özelliği:</strong> Son karar Kağan'a ait olsa da, boy beylerinin görüş bildirmesi ve Kağan'ın töreye uymak zorunda olması kısıtlı da olsa demokratik ve danışma niteliğinde bir yapıyı gösterir.</p>
+
+    <h3>C) İkili Teşkilat</h3>
+    <p>Yönetim kolaylığı sağlamak amacıyla ülkenin Doğu ve Batı olarak ikiye bölünmesidir. Doğu'da "Kağan" (Asıl hükümdar, güneşin doğduğu yön olduğu için kutsaldır) otururken, Batı'da Kağan'ın kardeşi "Yabgu" ünvanıyla iç işlerinde serbest, dış işlerinde merkeze bağlı olarak oturur. <br>
+    <strong>Riski:</strong> Bu sistem merkezi otoriteyi zayıflatmış ve Batı'daki Yabgu'nun bağımsızlık ilan etmesiyle devletlerin parçalanmasını hızlandırmıştır (Federal yapı örneğidir).</p>
+
+    <h2>4. SOSYAL YAPI VE HUKUK (TÖRE)</h2>
+    <p>Türk toplum yapısı genişten dara şu şekilde sıralanır: <strong>İl (Devlet) -> Budun (Millet) -> Boy (Kabile) -> Urug (Sülale) -> Oguş (Aile)</strong>. Türk toplumunda sınıf ayrımı, kölelik ve feodalite görülmez. Bunun temel sebebi, toprağın kişiye değil devlete ait olması ve göçebe yaşamda herkesin savaşçı-asker kabul edilmesidir.</p>
+    <p><strong>Töre:</strong> Türklerin yazısız hukuk kurallarıdır. Kaynağı; gelenekler, kurultay kararları ve Kağan'ın emirleridir. Töre değişimlere açıktır ancak <strong>Adalet (Könilik), Eşitlik (Tüzlük), İyilik (Uzluk) ve İnsanlık</strong> ilkeleri asla değiştirilemez. Kağan dahil herkes töreye uymak zorundadır; bu durum Türklerde <strong>hukuk devleti</strong> anlayışının çok erken dönemde başladığını kanıtlar.</p>
+
+    <h2>5. EKONOMİ, DİN VE SANAT</h2>
+    <ul>
+        <li><strong>Ekonomi:</strong> Temel geçim kaynağı hayvancılıktır. Ancak İpek Yolu hakimiyeti için Çin ile sürekli mücadele edilmiştir. Uygurlarla birlikte tarım ve ticaret ön plana çıkmıştır.</li>
+        <li><strong>Din:</strong> Temel inanç Gök Tanrı inancıdır. Ahiret inancı mevcuttur (Ölülerin eşyalarıyla gömüldüğü <strong>Kurgan</strong> mezarlar ve ruhun yaşadığına inanılan <strong>Balbal</strong> dikili taşları bunun kanıtıdır). Uçmağ (Cennet) ve Tamu (Cehennem) kavramları vardır.</li>
+        <li><strong>Sanat:</strong> Göçebe yaşam nedeniyle taşınabilir sanat eserleri (hayvan üslubu) gelişmiştir. Uygurlarda ise yerleşik hayatla birlikte fresko (duvar resmi) ve kalıcı mimari eserler başlamıştır.</li>
+    </ul>
+
+    <h2>6. ÜNİTE PEKİŞTİRME SORULARI (GENİŞ ANALİZLİ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> İslamiyet öncesi Türk devletlerinde ülkenin "hanedan üyelerinin ortak malı" kabul edilmesi ve kut yetkisinin kan yoluyla tüm erkek üyelere geçmesi, Türk siyasi tarihinde aşağıdaki durumlardan hangisine neden <u>olmamıştır</u>?</div>
+        <ul class="options-list">
+            <li>A) Hükümdar ölümlerinden sonra şiddetli taht kavgalarının yaşanmasına</li>
+            <li>B) Devletlerin merkezi otoritesinin zayıflayarak kısa sürede parçalanmasına</li>
+            <li>C) Birçok farklı hanedanın egemenliği altına girilerek siyasi istikrarsızlık doğmasına</li>
+            <li>D) Ülke topraklarında mutlak ve kalıcı bir merkeziyetçi yapının kurulamamasına</li>
+            <li>E) Devlet yönetiminde kadının (Hatun) söz sahibi olmasının engellenmesine</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ülkenin hanedan malı sayılması (Veraset sistemi), her erkek üyenin yönetimde hak iddia etmesine (A), bu da taht kavgalarına ve parçalanmaya (B, D) yol açmıştır. Ancak bu sistemin kadının yönetimdeki yeriyle doğrudan bir ilgisi yoktur. Aksine Türklerde Hatun, kurultaya katılır, elçi kabul eder ve Kağan'ın yokluğunda devleti temsil ederdi. Dolayısıyla bu sistem Hatun'un yetkilerini engellememiştir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Orhun Abideleri'nde geçen "Açları doyurdum, çıplakları giydirdim, az milleti çok kıldım." ifadesi, İslamiyet öncesi Türk devletlerindeki yönetim anlayışıyla ilgili öncelikle aşağıdakilerden hangisinin göstergesidir?</div>
+        <ul class="options-list">
+            <li>A) Teokratik (dine dayalı) yönetim anlayışının</li>
+            <li>B) Sosyal devlet anlayışının benimsendiğinin</li>
+            <li>C) Halkın yönetimde söz sahibi olduğunun (Demokrasi)</li>
+            <li>D) Ülkenin ikili teşkilatla yönetildiğinin</li>
+            <li>E) Kurultay kararlarının Kağan için bağlayıcı olduğunun</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir hükümdarın halkının temel ihtiyaçlarını (yemek, giyim, güvenlik, refah) karşılamayı kendine görev edinmesi, siyaset biliminde <strong>Sosyal Devlet</strong> ilkesi olarak tanımlanır. Kağan'ın "açları doyurması ve çıplakları giydirmesi" doğrudan halkın refahına yönelik bir hizmet olduğu için bu bir sosyal devlet göstergesidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Uygur Devleti'nin Maniheizm dinini kabul etmesiyle birlikte;
+        <br>I. Yerleşik hayata geçilmesi
+        <br>II. Tarımsal üretimin başlaması
+        <br>III. Savaşçılık özelliklerinin zayıflaması
+        <br>IV. Milli benliğin tamamen kaybedilmesi
+        <br>durumlarından hangilerinin yaşandığı <u>savunulamaz</u>?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) Yalnız IV</li>
+            <li>D) I ve III</li>
+            <li>E) II ve IV</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Mani dini et yemeyi ve savaşmayı yasakladığı için Uygurlar yerleşik hayata geçmiş (I), tarım yapmış (II) ve savaşçılık özelliklerini kaybetmişlerdir (III). Ancak Uygurlar, dini terimlerin bile Türkçe karşılığını kullanarak, kendilerine has 18 harfli Uygur alfabesini geliştirerek <strong>milli benliklerini korumuşlardır</strong>. IV. öncüldeki "milli benliğin kaybedilmesi" ifadesi kesinlikle yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> İslamiyet öncesi Türk toplumunda sınıflı bir toplum yapısının, köleliğin ve toprak ağalığının (feodalite) görülmemesinin temel nedeni aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Dinî inançların eşitliği zorunlu kılması</li>
+            <li>B) Konargöçer yaşam tarzı ve toprağın mülkiyetinin devlete ait olması</li>
+            <li>C) Kurultay meclisinin tüm halkı temsil etmesi</li>
+            <li>D) Kadınlara mirastan pay verilmesi</li>
+            <li>E) Onlu sistem sayesinde ordunun disiplinli olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir toplumda sınıf ayrımının ve feodalitenin doğması için toprağın kişilere ait olması (mülkiyet) gerekir. Türklerde göçebe yaşamdan dolayı toprak mülkiyeti yoktur, toprak devletindir. Ayrıca göçebe hayatta herkes hayatta kalmak için savaşçı olmak zorundadır. Bu durum, Avrupa'daki gibi bir asil-köle ayrımının oluşmasını engellemiştir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Türklerin "Kurgan" adı verilen mezarlara ölülerini değerli eşyalarıyla birlikte gömmeleri, mezarların başına öldürdükleri düşman sayısı kadar "Balbal" dikmeleri ve ölülerini mumyalamaları aşağıdakilerden hangisinin kanıtıdır?</div>
+        <ul class="options-list">
+            <li>A) Türklerin sadece tek tanrılı dinlere inandığının</li>
+            <li>B) Türklerde sanatın sadece mezar mimarisine dayandığının</li>
+            <li>C) Ahiret inancının ve ölümden sonraki yaşamın varlığına inanıldığının</li>
+            <li>D) Mezar kültürünün Çinlilerden etkilenerek oluşturulduğunun</li>
+            <li>E) Savaşçılık özelliklerinin dini inançların önüne geçtiğinin</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir insanın mezara eşyalarıyla (atıyla, kılıcıyla, takılarıyla) gömülmesi, o eşyaları öldükten sonra diğer dünyada kullanacağı inancından kaynaklanır. Balbal dikilmesi ve mumyacılık da bu süreci destekleyen unsurlardır. Tüm bunlar <strong>Ahiret inancının</strong> (ölümden sonra yaşamın devam ettiği fikri) en somut kanıtlarıdır.
+        </div>
+    </div>
+
+</body>
+</html>

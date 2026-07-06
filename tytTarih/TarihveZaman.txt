@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 1: Tarih ve Zaman</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 1: TARİH VE ZAMAN</h1>
+        <p>Eksiksiz Akademik Anlatım, Metodolojik Kırılımlar ve Geniş Çözümlü Soru Bankası</p>
+    </div>
+
+    <h2>1. TARİH BİLİMİNİN TANIMI, KAPSAMI VE ÖZELLİKLERİ</h2>
+    <p>Tarih, geçmişte yaşamış insan topluluklarının faaliyetlerini, birbirleriyle olan ilişkilerini, kültür, medeniyet, sosyal, siyasi ve ekonomik yapılarını yer ve zaman göstererek, sebep-sonuç ilişkisi içerisinde, belgelere dayanarak, objektif (tarafsız) bir şekilde inceleyen sosyal bir bilim dalıdır. Bu tanım, tarih disiplininin sınırlarını ve meşruiyetini çizen yapı taşlarını içerir.</p>
+    <p>Tarih biliminin odağında doğrudan <strong>insan</strong> ve insan toplulukları yer alır. İnsanın dahil olmadığı, insan iradesinden bağımsız gerçekleşen doğa olayları doğrudan coğrafyanın, jeolojinin veya astronominin konusudur. Ancak bir doğa olayının (örneğin Orta Asya'daki büyük kuraklık veya Kavimler Göçü'nü tetikleyen iklim değişiklikleri) insan topluluklarını göçe zorlaması, devletlerin yıkılmasına veya yeni kültürlerin doğmasına yol açması durumunda, bu sonuçlar zinciri tarihin asli inceleme alanına girer.</p>
+
+    <h3>A) Tarih Biliminin Temel Unsurları ve Şartları</h3>
+    <ul>
+        <li><strong>Yer ve Zaman Belirtilmesi:</strong> Tarihî bir olayın doğrulanabilir ve rasyonel bir zemine oturması için nerede ve ne zaman gerçekleştiğinin bilinmesi şarttır. Yer ve zaman bilgisi, olayın yaşandığı dönemin coğrafi, kültürel ve teknolojik şartlarını anlamamızı sağlar. Yer ve zamanı belli olmayan anlatılar, bilimsel tarihin değil; mitolojinin, efsanelerin veya destanların konusudur.</li>
+        <li><strong>Sebep-Sonuç İlişkisi (Nedensellik):</strong> Tarihte hiçbir olay yalıtılmış veya tesadüfi değildir. Her tarihî gelişme, kendisinden önceki olayların bir sonucu; kendisinden sonraki süreçlerin ise bir tetikleyicisidir. Bu zincirleme yapı, tarihçinin olaylar arasında mantıksal köprüler kurmasını zorunlu kılar.</li>
+        <li><strong>Belgelere Dayanma (Kanıtlanabilirlik):</strong> Tarih, soyut varsayımlarla veya tahminlerle inşa edilemez. Ortaya atılan her tezin, iddiaların ve yorumların mutlaka o dönemden kalan somut bir iz, kalıntı veya yazılı metinle belgelenmesi gerekir. Belgesi olmayan iddialar bilimsel değer taşımaz.</li>
+        <li><strong>Objektiflik (Nesnellik):</strong> Tarihçi, incelediği döneme kendi çağının değer yargılarıyla, dini, siyasi veya milli ön yargılarıyla yaklaşamaz. Olayları, yaşandığı dönemin şartları içinde ve belgelere sadık kalarak tarafsız bir gözle ele almalıdır.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ KRİTİK NOT (Deney ve Gözlem Yasağı):</strong> Tarih bilimini pozitif bilimlerden (fizik, kimya, biyoloji) ayıran en keskin çizgi, tarihte <u>deney ve gözlem metodunun kesinlikle uygulanamaz</u> oluşudur. Tarihî olaylar "nev-i şahsına münhasır" yani biriciktir; zaman ve mekan değiştiği için aynı şartlar altında tekrarlanamaz. Laboratuvarda yeniden bir İstanbul'un Fethi veya Fransız İhtilali deneyi yapılamayacağı için tarih, geçmişten kalan izleri yorumlama metodunu kullanır.
+    </div>
+
+    <h2>2. TARİHÎ OLAY (VAKA) VE TARİHÎ OLGU (VAKIA) AYRIMI</h2>
+    <p>ÖSYM'nin soru bankalarında çeldirici olarak en çok kullandığı ve akademik analizin temelini oluşturan iki kavram "Olay" ve "Olgu" dur. Bu kavramların zamansal ve yapısal farkları net olarak bilinmelidir.</p>
+
+    <h3>A) Tarihî Olay (Vaka)</h3>
+    <p>Geçmişte meydana gelen, başlangıcı ve bitiş tarihi (günü, ayı, yılı) net olarak belli olan, kısa süreli, somut, biricik ve özgün gelişmelerdir. Belirli bir mekanda ve belirli aktörler tarafından gerçekleştirilir. Tekrarlanması imkansızdır.</p>
+    <p><em>Örnekler: Malazgirt Savaşı (1071), İstanbul'un Fethi (29 Mayıs 1453), Fransız İhtilali (1789), Cumhuriyet'in İlanı (29 Ekim 1923), Lozan Antlaşması'nın İmzalanması (24 Temmuz 1923).</em></p>
+
+    <h3>B) Tarihî Olgu (Vakıa)</h3>
+    <p>Tarihî olayların veya süreçlerin sonucunda zamana yayılarak meydana gelen, uzun süreli, soyut, başlangıç ve bitiş çizgileri kesin olarak belirlenemeyen genel ve makro gelişmelerdir. Süreklilik ve kararlılık arz ederler. Birden fazla olayın birleşmesiyle oluşan yapısal değişimlerdir.</p>
+    <p><em>Örnekler: Anadolu'nun Türkleşmesi (Malazgirt, Miryokefalon gibi birçok savaşın uzun vadeli sonucudur), İslamiyet'in Yayılması, Milliyetçilik Akımının Dünyaya Yayılması, Kentleşme Süreci, Sanayileşme.</em></p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik</th>
+                <th>Tarihî Olay (Vaka)</th>
+                <th>Tarihî Olgu (Vakıa)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Süre</strong></td>
+                <td>Kısa sürelidir, anlıktır.</td>
+                <td>Uzun sürelidir, zamana yayılır.</td>
+            </tr>
+                <td><strong>Sınırlar</strong></td>
+                <td>Başlangıcı ve bitişi nettir.</td>
+                <td>Başlangıç ve bitişi kesin değildir, süreçtir.</td>
+            </tr>
+            <tr>
+                <td><strong>Yapı</strong></td>
+                <td>Somut ve özeldir (Biriciktir).</td>
+                <td>Soyut ve geneldir (Süreklidir).</td>
+            </tr>
+            <tr>
+                <td><strong>Örnek Kombinasyon</strong></td>
+                <td>Malazgirt Savaşı'nın kazanılması</td>
+                <td>Anadolu'nun Türkleşme süreci</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. TARİH BİLİMİNİN ARAŞTIRMA YÖNTEMİ: 5T FORMÜLÜ</h2>
+    <p>Bir tarihçinin, ham veya dağınık haldeki verileri alıp, süzgeçten geçirerek bilimsel ve güvenilir bir esere dönüştürürken izlemek zorunda olduğu metodolojik sıradır. Bu sıralamanın bozulması araştırmanın bilimsel niteliğine gölge düşürür.</p>
+    
+    <h3>1. Tarama (Kaynak Arama)</h3>
+    <p>Araştırılacak konuyla ilgili her türlü verinin, belgenin, kalıntının ve bulgunun kütüphanelerden, arşivlerden, kazı alanlarından ve müzelerden toplanması aşamasıdır. Kaynaklar, olaya yakınlığına göre ikiye ayrılır:</p>
+    <ul>
+        <li><strong>Birinci Elden Kaynaklar (Ana Kaynak):</strong> Olayın geçtiği döneme ait olan, bizzat o dönemin tanıkları veya kurumları tarafından üretilmiş orijinal belgelerdir. (Örn: Orhun Kitabeleri, İstiklal Madalyası, Osmanlı fermanları, dönem paraları, arkeolojik buluntular).</li>
+        <li><strong>İkinci Elden Kaynaklar:</strong> Olayın geçtiği dönemden sonra, birinci elden kaynaklardan faydalanılarak meydana getirilmiş araştırma, inceleme ve sentez eserleridir. (Örn: Halil İnalcık'ın yazdığı Osmanlı Tarihi kitapları).</li>
+    </ul>
+
+    <h3>2. Tasnif (Sınıflandırma)</h3>
+    <p>Tarama aşamasında elde edilen devasa büyüklükteki veri yığınının, araştırma kolaylığı sağlaması ve kafa karışıklığını önlemesi amacıyla belirli kriterlere göre kategorilere ayrılmasıdır. Genellikle üç tür sınıflandırma yapılır:</p>
+    <ul>
+        <li><strong>Zamana Göre Sınıflandırma:</strong> Tarihin kronolojik dilimlere bölünmesidir. (Örn: Orta Çağ Tarihi, 19. Yüzyıl Tarihi, Kanuni Dönemi).</li>
+        <li><strong>Mekana (Yere) Göre Sınıflandırma:</strong> Coğrafi sınırlara göre yapılan tasniftir. (Örn: Asya Tarihi, Avrupa Tarihi, Anadolu Tarihi).</li>
+        <li><strong>Konuya Göre Sınıflandırma:</strong> İnsanın faaliyet alanlarına göre yapılan tasniftir. (Örn: Tıp Tarihi, Dinler Tarihi, Sanat Tarihi, İktisat Tarihi).</li>
+    </ul>
+
+    <h3>3. Tahlil (Çözümleme)</h3>
+    <p>Sınıflandırılan bilgilerin, içerik olarak araştırmanın amacına uygun olup olmadığının, eldeki verilerin konuyu aydınlatmaya yetip yetmediğinin analiz edildiği aşamadır. Bilgilerin değeri ve derinliği ölçülür.</p>
+
+    <h3>4. Tenkit (Eleştiri)</h3>
+    <p>Tarih metodolojisinin en hayati, en hassas aşamasıdır. Bu aşamada belgelerin sahte olup olmadığı, içindeki bilgilerin ne kadar güvenilir ve nesnel olduğu sorgulanır. Kendi içinde ikiye ayrılır:</p>
+    <ul>
+        <li><strong>Dış Tenkit:</strong> Belgenin fiziksel ve biçimsel özelliklerinin incelenmesidir. Belgenin basıldığı kağıdın cinsi, mürekkebin kimyasal yapısı, yazı türü, kullanılan dilin döneme uygunluğu ve yazarın kimliği incelenerek belgenin orijinal mi yoksa sahte mi olduğu belirlenir.</li>
+        <li><strong>İç Tenkit:</strong> Belgenin içeriğindeki bilgilerin doğruluğunun ve yazarın tarafsızlığının sorgulanmasıdır. Yazar olayı anlatırken taraflı davranmış mıdır? Verilen bilgiler dönemin diğer belgeleriyle ve mantık kurallarıyla uyuşuyor mu? Sorularına cevap aranır.</li>
+    </ul>
+
+    <h3>5. Terkip (Sentez)</h3>
+    <p>Tenkit süzgecinden başarıyla geçen, doğruluğu kanıtlanmış ve temizlenmiş bilgilerin bir araya getirilerek mantıklı, akıcı, sebep-sonuç ilişkisini kuran bilimsel bir rapora, makaleye veya kitaba dönüştürüldüğü son üretim aşamasıdır.</p>
+
+    <h2>4. TARİH BİLİMİNE YARDIMCI BİLİM DALLARI</h2>
+    <p>Tarih, geçmişi aydınlatırken tek başına yetersiz kalır. Bu nedenle fen ve sosyal bilimlerin birçok dalından üst düzey destek alır. Sınavda bu bilim dalları doğrudan tanımlarla değil, bir paragraf senaryosu içinde verilir.</p>
+    <ul>
+        <li><strong>Arkeoloji (Kazı Bilimi):</strong> Toprak veya su altında kalmış geçmiş medeniyetlere ait somut kalıntıları gün yüzüne çıkarır. <u>Yazının henüz bulunmadığı "Tarih Öncesi Çağların" aydınlatılmasında en önemli yardımcı bilim dalıdır.</u></li>
+        <li><strong>Paleografya (Yazı Bilimi):</strong> Eski yazıların, alfabelerin ve yazı sistemlerinin gelişimini inceler. Yazılı dönemlerin aydınlatılmasında etkilidir.</li>
+        <li><strong>Epigrafi (Kitabe Bilimi):</strong> Taşlar, anıtlar, mezar taşları ve kitabeler üzerindeki yazıları inceler. Paleografya ve arkeoloji ile koordineli çalışır (Örn: Orhun Abideleri'nin çözümlenmesi).</li>
+        <li><strong>Numizmatik / Meskukat (Para Bilimi):</strong> Eski dönemlerden kalan paraları inceler. Bir paranın basıldığı maden (altın, gümüş, bakır) o devletin ekonomik gücünü; üzerindeki yazılar ve hükümdar ismi devletin egemenlik yapısını, bağımsızlık tarihini ve kültürünü gösterir.</li>
+        <li><strong>Diplomatik (Belge Bilimi):</strong> Siyasi belgeleri, fermanları, beratları, devletler arası antlaşma metinlerini ve resmi yazışmaları biçim ve içerik olarak inceler.</li>
+        <li><strong>Antropoloji (Irk Bilimi):</strong> İnsan iskeletlerini, kafataslarını ve fiziksel yapılarını inceleyerek ırkların kökenlerini ve göç yollarını haritalandırır. Kültürel antropoloji ise toplumların kültürlerini inceler.</li>
+        <li><strong>Etnografya (Kültür Bilimi):</strong> Toplumların örf, adet, gelenek, görenek ve yaşam tarzlarını inceler.</li>
+        <li><strong>Kronoloji (Zaman Bilimi):</strong> Olayların zamanını belirler ve sıraya koyar. Sebep-sonuç ilişkisinin kurulabilmesi için vazgeçilmezdir.</li>
+        <li><strong>Filoloji (Dil Bilimi):</strong> Dillerin kökenini, yapısını ve diller arasındaki akrabalık bağlarını inceler. Toplumların göç yolları ve kökenleri hakkında bilgi verir.</li>
+        <li><strong>Kimya (Karbon 14 Metodu):</strong> Kazılarda bulunan organik maddelerin (kemik, ahşap, kumaş) bünyesindeki karbon miktarını ölçerek nesnelerin yaşını kesin olarak hesaplar.</li>
+        <li><strong>Heraldik (Arma Bilimi):</strong> Devletlerin, hanedanların, asil ailelerin ve şehirlerin armalarını, mühürlerini ve sembollerini inceler.</li>
+    </ul>
+
+    <h2>5. ZAMANIN TAKSİMİ VE TÜRKLERİN KULLANDIĞI TAKVİMLER</h2>
+    <p>İnsanlık, tarımsal faaliyetleri planlamak (ekim-dikim zamanı), vergi toplama dönemlerini belirlemek ve dini ritüelleri düzenlemek amacıyla zamanı bölümlere ayırmıştır. Astronomi bilimiyle doğrudan ilişkili olan takvim sistemlerinde iki ana ekol vardır:</p>
+    <p><strong>Ay Yılı Esaslı Takvimler:</strong> Ay'ın Dünya etrafındaki 12 tam dönüşünü esas alır. Bir ay yılı 354 gündür. Tarihte ilk kez <strong>Sümerler</strong> tarafından geliştirilmiştir.</p>
+    <p><strong>Güneş Yılı Esaslı Takvimler:</strong> Dünya'nın Güneş etrafındaki bir tam dönüşünü (365 gün 6 saat) esas alır. Tarihte ilk kez <strong>Mısırlılar</strong> tarafından geliştirilmiş, daha sonra Roma medeniyeti (Jülyen ve Gregoryen revizyonları) tarafından geliştirilerek bugünkü Miladi takvime dönüştürülmüştür.</p>
+
+    <h3>Türklerin Tarih Boyunca Kullandığı Takvimler</h3>
+    <ol>
+        <li><strong>12 Hayvanlı Türk Takvimi:</strong> İslamiyet öncesi dönemde Orta Asya'da Türklerin kullandığı en eski takvimdir. <strong>Güneş yılı</strong> esaslıdır. Her yıl bir hayvan ismiyle (Örn: Sığır yılı, Köpek yılı) anılırken, aylar sayılarla ifade edilmiştir. Türklerin astronomi biliminde geliştiğinin ve tamamen kendilerine özgü (milli) bir sistem kurduklarının kanıtıdır.</li>
+        <li><strong>Hicri Takvim:</strong> Türklerin İslamiyet'i kabul etmesiyle birlikte kullanılmaya başlanmıştır. Türklerin tarih boyunca kullandığı takvimler içerisinde <strong>AY YILI ESASLI TEK TAKVİMDİR</strong>. Başlangıç (Milat) noktası, Hz. Muhammed'in 622 yılındaki Mekke'den Medine'ye hicretidir. Hz. Ömer döneminde kurumsallaştırılmıştır. Günümüzde Türkiye'de sadece dini gün, bayram ve gecelerin belirlenmesinde kullanılır.</li>
+        <li><strong>Celali Takvimi:</strong> Büyük Selçuklu Devleti döneminde Sultan Melikşah'ın emriyle, ünlü bilim insanı Ömer Hayyam başkanlığındaki bir astronomi komisyonu tarafından hazırlanmıştır. <strong>Güneş yılı</strong> esaslıdır. Yapılış amacı; Ay yılı esaslı Hicri takvimden dolayı tarımsal vergilerin toplanmasında ve mali bütçe planlamalarında yaşanan mevsimsel kaymaları (ekonomik zararları) tamamen önlemektir. Başlangıcı 1079 yılıdır.</li>
+        <li><strong>Rumi Takvim:</strong> Osmanlı Devleti'nde 17. yüzyıldan itibaren, özellikle de Tanzimat Dönemi sonrasında resmiyet kazanan takvimdir. <strong>Güneş yılı</strong> esaslıdır. Tıpkı Celali takvimi gibi, sadece <strong>mali ve ekonomik işlerin</strong> (maaş ödemeleri, bütçe, vergi döngüsü) Batı dünyasıyla uyumlu yürütülmesi amacıyla tasarlanmıştır. Başlangıç noktası olarak yine Hicret'i baz alır fakat hesaplama Güneş yılına göredir.</li>
+        <li><strong>Miladi Takvim:</strong> Türkiye Cumhuriyeti'nde 1 Ocak 1926'dan itibaren resmi olarak yürürlüğe giren modern takvimdir. <strong>Güneş yılı</strong> esaslıdır. Başlangıcı Hz. İsa'nın doğumu (0) kabul edilir. Bu takvime geçilmesindeki temel amaç, Batılı devletlerle olan ticari, diplomatik, ekonomik ve siyasi ilişkilerde yaşanan zaman ikiliklerini, takvim karmaşasını ortadan kaldırmaktır.</li>
+    </ol>
+
+    <h2>6. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <!-- SORU 1 -->
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Tarih öğreniminin bireye ve topluma sağladığı katkıları araştıran bir akademisyen, eserinde şu ifadelere yer vermiştir: "Tarih, sadece geçmişte ne olduğunu bilmek değil; geçmişteki hatalardan ders çıkararak bugünü anlamlandırmak ve geleceğe yön vermektir. Kendi tarihini bilmeyen bir toplum, hafızasını kaybetmiş bir insana benzer." <br><br>
+        Buna göre, tarih bilincinin bireylere kazandırdığı aşağıdaki özelliklerden hangisi yukarıdaki metinde vurgulanan düşünceyle doğrudan örtüşür?</div>
+        <ul class="options-list">
+            <li>A) Geçmişteki olayları laboratuvar ortamında test etme becerisi</li>
+            <li>B) Kronolojik bilgileri eksiksiz bir şekilde ezberleme yetisi</li>
+            <li>C) Tarihî olayları günümüzün değer yargılarıyla eleştirme refleksi</li>
+            <li>D) Toplumsal hafızayı koruyarak geleceğe yönelik stratejik ve rasyonel adımlar atabilme yeteneği</li>
+            <li>E) Sadece kendi milletinin başarılarına odaklanarak mutlak bir üstünlük fikri geliştirme eğilimi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm analizi:</strong> Metinde tarihin bir "toplumsal hafıza" olduğu ve geçmişten ders çıkarılarak "geleceğe yön verilmesi" gerektiği açıkça belirtilmiştir. A seçeneği tarihin doğasına aykırıdır (deney yapılamaz). B seçeneği kuru bir ezberciliktir, tarih bilimiyle bağdaşmaz. C seçeneği anakronizm hatasıdır (tarihi bugünle yargılamak yanlıştır). E seçeneği ise şovenist/taraflı bir yaklaşımdır. Metindeki "hafıza" ve "geleceğe yön verme" vurgusu bizi doğrudan D seçeneğindeki toplumsal hafızayı koruma ve geleceğe yönelik rasyonel adımlar atabilme yeteneğine götürür.
+        </div>
+    </div>
+
+    <!-- SORU 2 -->
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir tarihçi, Osmanlı Devleti ile Çarlık Rusyası arasında 1774 yılında imzalanan Küçük Kaynarca Antlaşması'nın orijinal metni üzerinde çalışmaktadır. Tarihçi, belgenin yazıldığı kağıdın kalitesini, üzerindeki diplomatik mühürlerin orijinalliğini ve kullanılan mürekkebin 18. yüzyıl kimyasal özelliklerine uygun olup olmadığını laboratuvar desteği alarak incelemiştir. <br><br>
+        Buna göre tarihçi, araştırma yönteminin (5T formülü) hangi aşamasını bizzat yerine getirmiştir?</div>
+        <ul class="options-list">
+            <li>A) İç Tenkit (İç Eleştiri)</li>
+            <li>B) Tasnif (Sınıflandırma)</li>
+            <li>C) Tahlil (Çözümleme)</li>
+            <li>D) Terkip (Sentez)</li>
+            <li>E) Dış Tenkit (Dış Eleştiri)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm analizi:</strong> Tarih araştırmalarında belgenin fiziksel, biçimsel ve maddi özelliklerinin (kağıt cinsi, mürekkep kalitesi, mühür orijinalliği, yazı türü vb.) incelenerek belgenin sahte mi yoksa gerçek mi olduğunun sınanması sürecine <strong>"Dış Tenkit"</strong> adı verilir. Eğer tarihçi belgenin içindeki bilgilerin doğruluğunu, yazarın tarafsızlığını sorgulasaydı bu "İç Tenkit" olurdu. Sınıflandırma yapsaydı Tasnif, bilgileri birleştirseydi Terkip olurdu. Soruda tamamen fiziksel ve biçimsel ögeler incelendiği için cevap net olarak E şıkkıdır.
+        </div>
+    </div>
+
+    <!-- SORU 3 -->
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Arkeolojik kazılarda yazı öncesi döneme (Tarih Öncesi Çağlar) ait bir yerleşim yerinde yapılan incelemelerde; alt katmanlardan üst katmanlara doğru sırasıyla taş baltalar, pişmiş topraktan yapılmış çanak çömlekler ve en üst katmanda ise demirden yapılmış saban kalıntıları bulunmuştur. Ancak bu yerleşim yerinde yapılan hiçbir kazıda yazılı bir tablete, paraya veya kitabeye rastlanmamıştır. <br><br>
+        Bu yerleşim yerinin tarihsel durumunu ve katmanlarını inceleyen bir araştırmacının, aşağıdaki yardımcı bilim dallarının hangisinden faydalanması <u>beklenemez</u>?</div>
+        <ul class="options-list">
+            <li>A) Arkeoloji</li>
+            <li>B) Paleografya</li>
+            <li>C) Antropoloji</li>
+            <li>D) Kimya (Karbon 14)</li>
+            <li>E) Etnografya</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm analizi:</strong> Metinde net bir şekilde "hiçbir kazıda yazılı bir tablete, paraya veya kitabeye rastlanmamıştır" ifadesi geçmektedir. <strong>Paleografya</strong> ise eski yazı sistemlerini ve alfabeleri inceleyen bir yazı bilimidir. Yazının olmadığı bir ortamda Paleografya biliminin çalışma yapması veya tarihe yardımcı olması imkansızdır. Kazı yapıldığı için Arkeoloji, kalıntıların yaşını belirlemek için Kimya (Karbon 14), kültürel ögeler için Etnografya ve insan izleri için Antropoloji kullanılabilir. Cevap B'dir.
+        </div>
+    </div>
+
+    <!-- SORU 4 -->
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Osmanlı Devleti, kuruluşundan yıkılışına kadar dini işlerde, hicri takvimi temel zaman ölçüsü olarak kullanmıştır. Ancak devlet büyüdükçe ve Avrupa ile ticari-mali ilişkiler yoğunlaştıkça, batı dünyasının kullandığı güneş yılı esaslı sistem ile Osmanlı'nın kullandığı ay yılı esaslı sistem arasında 11 günlük farktan dolayı vergilerin toplanmasında ve bütçe hesaplamalarında büyük karışıklıklar çıkmıştır. Bu mali zararı engellemek amacıyla 18. yüzyılda güneş yılı esaslı Rumi Takvim resmi olarak yürürlüğe konmuştur. <br><br>
+        Bu bilgilere göre, Osmanlı Devleti'nin Rumi Takvimi hazırlatmasındaki temel motivasyon aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Toplumda dini birliği kalıcı olarak sağlamak</li>
+            <li>B) Batı dünyasının kültürel üstünlüğünü kayıtsız şartsız kabul etmek</li>
+            <li>C) Ekonomik döngüyü, vergi sistemini ve mali yapıyı koruma altına almak</li>
+            <li>D) Tarımsal faaliyetleri tamamen sonlandırıp ticarete yönelmek</li>
+            <li>E) Klasik medrese eğitim sistemini tamamen batılılaştırmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm analizi:</strong> Paragrafta takvim sistemleri arasındaki farktan dolayı "vergilerin toplanmasında ve bütçe hesaplamalarında büyük karışıklıklar çıktığı" ve "mali zararı engellemek" amacıyla Rumi takvime geçildiği açıkça vurgulanmıştır. Bu durum, devletin tamamen **ekonomik, mali ve idari zorunluluklardan** ötürü bu reformu yaptığını gösterir. Cevap C seçeneğidir.
+        </div>
+    </div>
+
+    <!-- SORU 5 -->
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Tarihî olaylar bir defaya mahsus somut gelişmelerken, tarihî olgular bu olayların sonucunda uzun sürede meydana gelen genel ve soyut değişimlerdir. <br><br>
+        Buna göre, aşağıda verilen olay-olgu eşleştirmelerinden hangisi <u>yanlış</u> kurgulanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Olay: Fransız İhtilali'nin yaşanması -> Olgu: Milliyetçilik akımının dünyaya yayılması</li>
+            <li>B) Olay: Malazgirt Savaşı'nın kazanılması -> Olgu: Anadolu'nun Türkleşme süreci</li>
+            <li>C) Olay: Sanayi Devrimi'nin başlaması -> Olgu: Sömürgeciliğin küreselleşmesi</li>
+            <li>D) Olay: Türkiye Büyük Millet Meclisi'nin açılması -> Olgu: Demokratikleşme ve ulusal egemenliğin yerleşmesi</li>
+            <li>E) Olay: İslamiyet'in Arap Yarımadası dışında yayılması -> Olgu: Talas Savaşı'nın gerçekleşmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm analizi:</strong> E seçeneğinde kavramlar tam tersi kurgulanmıştır. "Talas Savaşı'nın gerçekleşmesi" başlangıcı ve bitişi belli, kısa süreli somut bir gelişme olduğu için **Olay** olmalıdır. "İslamiyet'in Arap Yarımadası dışında yayılması" ise bu savaşın ve benzeri süreçlerin sonucunda yüzyıllara yayılan genel bir süreç olduğu için **Olgu** olmalıdır. Diğer tüm şıklarda (A, B, C, D) olay-olgu ilişkisi doğru ve akademik kurallara uygun olarak verilmiştir. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

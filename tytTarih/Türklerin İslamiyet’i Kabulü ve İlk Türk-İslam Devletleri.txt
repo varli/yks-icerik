@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 5: Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 5: TÜRKLERİN İSLAMİYET'İ KABULÜ VE İLK TÜRK-İSLAM DEVLETLERİ</h1>
+        <p>Talas Savaşı, Karahanlı Ekolü, Gazne İmparatorluğu ve Büyük Selçuklu Kurumsallaşması</p>
+    </div>
+
+    <h2>1. TÜRKLERİN İSLAMİYET'İ KABULÜ VE ETKİLERİ</h2>
+    <p>Türkler ile Müslüman Araplar arasındaki ilk ilişkiler Hz. Ömer döneminde İran’ın fethiyle başlamış, Emeviler dönemindeki ırkçı Mevali politikası nedeniyle şiddetli çatışmalara dönüşmüştür. Ancak <strong>751 Talas Savaşı</strong> kırılma noktasıdır. Çin tehdidine karşı Abbasilerle ittifak kuran Karluk Türkleri, savaşın kazanılmasında rol oynamış ve bu yakınlaşma Türklerin kitleler halinde İslamiyet’i kabul etmesini sağlamıştır. İslamiyet'i kabul eden ilk Türk boyları <strong>Karluk, Yağma, Çiğil ve Tuhsilerdir.</strong></p>
+    <p>İslamiyet'in kabulü, Türklerin hayatında köklü değişimler meydana getirmiştir. Göçebe yaşamdan yerleşik hayata geçiş hızlanmış, hukuk sistemine (Töre) şer'i hukuk kuralları eklenmiş, mimaride cami, medrese, kervansaray ve kümbet gibi yepyeni yapılar doğmuştur. Ancak Türkler İslam medeniyetine girdikten sonra kendi milli benliklerini kaybetmemiş, aksine İslamiyet'in koruyuculuğunu ve liderliğini üstlenmişlerdir (Bizans ve Haçlı baskılarına karşı).</p>
+
+    <div class="highlight-box">
+        <strong>💡 Gök Tanrı İnancı ve İslamiyet Arasındaki Benzerlikler (Kolaylaştırıcı Etkenler):</strong>
+        <ul>
+            <li>Her iki inançta da tek tanrı anlayışının bulunması (Gök Tanrı ve Allah).</li>
+            <li>Ölümden sonraki yaşama (Ahiret) ve ruhun ölümsüzlüğüne (Cennet/Uçmağ, Cehennem/Tamu) inanılması.</li>
+            <li>Türklerdeki "Cihan Hakimiyeti" ülküsünün, İslam’daki "Cihat ve Gaza" (İslam'ı yayma savaşı) fikriyle örtüşmesi.</li>
+            <li>Kurban kesme, temizlik ve ahlak kurallarının her iki yapıda da hayati yer tutması. Sınıf ayrımının olmaması.</li>
+        </ul>
+    </div>
+
+    <h2>2. İLK TÜRK-İSLAM DEVLETLERİ VE ANALİZLERİ</h2>
+
+    <h3>A) Karahanlılar (840 - 1212)</h3>
+    <p>Orta Asya’da kurulan <strong>ilk Müslüman Türk devletidir.</strong> Bilge Kül Kadir Han tarafından kurulmuştur. Satuk Buğra Han döneminde İslamiyet'i resmi din olarak kabul etmişlerdir (Satuk Buğra Han, Abdülkerim adını almıştır). </p>
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM BURADAN SORAR (Karahanlıların Milli/Ulusal Niteliği):</strong> Karahanlılar, kuruldukları coğrafyanın (Batı Türkistan) tamamen Türk olmasından dolayı <u>milli benliklerini en sıkı koruyan</u> Türk-İslam devletidir. Resmi dilleri Türkçedir, Uygur alfabesini kullanmaya devam etmişlerdir, yönetimde geleneksel ikili teşkilatı uygulamışlardır ve hükümdarları Han, Hakan, Kadir gibi Türkçe unvanlar almıştır. Bu özellikleri nedeniyle Karahanlılar **ulusçu (milliyetçi)** bir karaktere sahiptir.
+    </div>
+    <p>Karahanlılar, ticareti geliştirmek amacıyla <strong>Ribat</strong> adı verilen gelişmiş kervansaraylar inşa etmişler, ilk kez kervansaraylarda dünyada burslu öğrencilik ve sigortacılık sistemini başlatmışlardır. Dönemin en önemli edebi/kültürel eserleri şunlardır:</p>
+    <ul>
+        <li><strong>Kutadgu Bilig (Yusuf Has Hacib):</strong> İlk Türk-İslam yazılı eseridir. Siyasetname özelliğindedir, hükümdara adil yönetim öğütler.</li>
+        <li><strong>Divan-ı Lügati't-Türk (Kaşgarlı Mahmut):</strong> Araplara Türkçe öğretmek ve Türkçenin zenginliğini kanıtlamak için yazılmış ilk sözlüktür.</li>
+        <li><strong>Atabetü'l-Hakayık (Edip Ahmet Yükneki):</strong> Dini ve ahlaki bir öğüt kitabıdır.</li>
+        <li><strong>Divan-ı Hikmet (Ahmed Yesevi):</strong> Tasavvufi şiirlerin yer aldığı, Türk tasavvuf tarihinin ilk büyük eseridir.</li>
+    </ul>
+
+    <h3>B) Gazneliler (963 - 1187)</h3>
+    <p>Alp Tigin tarafından bugün Afganistan sınırlarında yer alan Gazne şehrinde kurulmuştur. En parlak dönemlerini <strong>Gazneli Mahmut</strong> ile yaşamışlardır. Gazneli Mahmut, Hindistan üzerine <strong>17 büyük sefer</strong> düzenleyerek İslamiyet’in Hindistan’da yayılmasını sağlamış (bugünkü Pakistan ve Bangladeş'in temeli) ve Abbasiler’i Şii Büveyhoğulları baskısından kurtardığı için Abbasi halifesinden <strong>"Sultan" unvanını alan ilk Türk hükümdarı</strong> olmuştur.</p>
+    <div class="tip-box">
+        <strong>⚠️ YIKILIŞ NEDENİNE DİKKAT:</strong> Gazneliler, Karahanlıların aksine kuruldukları coğrafya nedeniyle kozmopolit (çok uluslu) bir yapıya sahipti. Saray ve orduda Türkçe konuşulurken, halk Arap, Fars, Hint ve Afganlardan oluşuyordu, resmi dil ise Farsçaydı. Bu durum halk ile devlet arasında bir bağ kurulmasını engellemiş, iç bağları zayıflatarak devletin 1040 Dandanakan Savaşı sonrası hızla yıkılmasına yol açmıştır.
+    </div>
+
+    <h3>C) Büyük Selçuklu Devleti (1040 - 1157)</h3>
+    <p>Oğuzların Kınık boyuna mensupturlar. Selçuk Bey devletin temellerini atmış; <strong>Tuğrul ve Çağrı Beyler</strong> döneminde 1040 Dandanakan Savaşı ile Gaznelileri yenerek resmen kurulmuşlardır. Tuğrul Bey, Bağdat seferi ile Şii Büveyhoğulları devletine son vermiş ve halifeyi korumuştur. Bunun üzerine halife, Tuğrul Bey’e <strong>"Doğunun ve Batının Sultanı"</strong> unvanını vermiştir. Bu gelişme ile <u>İslam dünyasının siyasi ve askeri liderliği tamamen Türklere geçmiş</u>, halife ise sadece dini bir sembol olarak kalmıştır (Laik yönetim anlayışının erken örneği).</p>
+    <p><strong>Sultan Alparslan ve Malazgirt Savaşı (1071):</strong> Bizans İmparatorluğu mağlup edilmiş, Romanos Diogenes esir alınmıştır. <br>
+    <strong>Sonuçları:</strong> <u>Anadolu’nun kapıları Türklere açılmış</u>, Anadolu'da ilk Türk beylikleri dönemi başlamış ve Haçlı Seferleri’nin başlamasına neden olmuştur. Alparslan fethi hızlandırmak için <strong>"Toprak fethedenin malıdır" (Kılıç Hakkı)</strong> sistemini uygulamıştır. Bu durum feodal beyliklerin doğmasına yol açsa da Anadolu'nun hızla Türkleşmesini sağlamıştır.</p>
+
+    <h2>3. BÜYÜK SELÇUKLU KURUMLARI VE TEŞKİLATLANMASI</h2>
+    <p>Büyük Selçuklu Devleti, en parlak dönemini Sultan Melikşah ve ünlü vezir <strong>Nizamülmülk</strong> döneminde yaşamıştır. Nizamülmülk'ün "Siyasetname" eseri devlet yönetimi kılavuzudur. Selçuklu'nun en önemli kurumsal mekanizmaları şunlardır:</p>
+    
+    <h3>A) İkta Sistemi</h3>
+    <p>Mülkiyeti devlete ait olan toprakların (Miri arazi), hizmetleri karşılığında askeri ve sivil memurlara maaş yerine verilmesidir. İkta sahibi, topladığı vergilerle hem kendi geçimini sağlar hem de devlete <strong>Cebelü</strong> adı verilen atlı askerler yetiştirir. <br>
+    <strong>Siyasi ve Ekonomik Sonuçları:</strong> Hazineden para çıkmadan güçlü bir ordu kurulmuş, üretimde süreklilik sağlanmış, taşrada asayiş korunmuş ve göçebe Türkmenlerin yerleşik hayata geçmesi kolaylaştırılmıştır.</p>
+
+    <h3>B) Nizamiye Medreseleri</h3>
+    <p>Vezir Nizamülmülk tarafından Bağdat merkezli kurulan üniversite düzeyindeki eğitim kurumlarıdır. <br>
+    <strong>Kuruluş Amacı:</strong> Dönemin en büyük ideolojik ve siyasi tehdidi olan **Bâtınîlik** (Hasan Sabbah'ın fedaileri ve Şii propagandası) hareketine karşı ilmi ve fikri bir mücadele yürütmek, devletin sivil bürokrasisi için nitelikli memur yetiştirmektir.</p>
+
+    <h3>C) Selçuklu Ordusunun Yapısı</h3>
+    <ul>
+        <li><strong>Gulaman-ı Saray:</strong> Doğrudan sultana bağlı, farklı milletlerin çocuklarının sarayda eğitilmesiyle oluşan (Osmanlı'daki devşirme/kapıkulu mantığı) maaşlı askerlerdir.</li>
+        <li><strong>Hassa Ordusu:</strong> Türk boylarından seçilen, sultana sadık seçkin atlı birliklerdir.</li>
+        <li><strong>Eyalet Askerleri:</strong> İkta sahiplerinin yetiştirdiği Cebelü isimli atlı askerlerdir (Ordunun en kalabalık kısmıdır).</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Karahanlılar, İslamiyet'i resmi din olarak kabul etmelerine rağmen yönetimde ikili teşkilatı sürdürmüş, Uygur alfabesini kullanmaya devam etmiş ve resmi dillerini Türkçe olarak ilan etmişlerdir. <br><br>
+        Karahanlıların bu idari ve kültürel tercihleri, aşağıdakilerden hangisinin doğrudan bir göstergesidir?</div>
+        <ul class="options-list">
+            <li>A) İslam medeniyetinin kurallarını tamamen reddettiklerinin</li>
+            <li>B) İnanç sistemlerini siyasi çıkarlara alet ettiklerinin</li>
+            <li>C) Dini dönüşüme rağmen milli (ulusal) kimliklerini ve devlet geleneklerini korumaya özen gösterdiklerinin</li>
+            <li>D) Komşuları olan Çin medeniyetiyle ticari ilişkileri kesmek istediklerinin</li>
+            <li>E) Göçebe yaşam tarzını tamamen ortadan kaldırmaya çalıştıklarının</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir devletin yeni bir dine (İslamiyet) geçmesine rağmen eski yazı sistemini (Uygur alfabesi), geleneksel devlet modelini (İkili teşkilat) ve anadilini (Türkçe) koruması, onun ulusal benliğine sıkı sıkıya bağlı olduğunu gösterir. Karahanlılar İslam'ı kabul ederken asimile olmamış, Türk kimliği ile İslam'ı sentezlemişlerdir. Cevap C'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Gazneli Devleti'nde sarayda ve orduda Türkçe konuşulurken, edebiyatta Farsça, bilim ve hukuk dilinde ise Arapça kullanılmıştır. Halk ise Hint, Afgan ve Fars kökenli topluluklardan oluşmaktaydı. <br><br>
+        Gaznelilerdeki bu çok dilli ve çok uluslu yapının, devletin siyasi geleceği üzerinde nasıl bir olumsuz sonuç doğurduğu savunulabilir?</div>
+        <ul class="options-list">
+            <li>A) Dış ticarette batılı devletlerin tekelinin kırılamamasına</li>
+            <li>B) Toplumsal taban ile devlet yönetimi arasında kültür bağının zayıflamasına ve devletin hızlı yıkılmasına</li>
+            <li>C) Bilimsel faaliyetlerin tamamen durma noktasına gelmesine</li>
+            <li>D) Hindistan'daki kast sisteminin tüm İslam dünyasına yayılmasına</li>
+            <li>E) Halifelik kurumunun askeri gücünün tamamen sona ermesine</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Devletin dili ve yöneticileri ile halkın dili ve kökeni arasındaki bu kopukluk, toplumsal entegrasyonu (bütünleşmeyi) engeller. Halk, yönetici kadroyu kendine uzak görür. Bu kozmopolit yapı, merkezi otorite sarsıldığı an (1040 Dandanakan sonrası gibi) iç çözülmeyi hızlandırmış ve Gaznelilerin çabuk çökmesine neden olmuştur. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Abbasi halifesini Şii Büveyhoğulları baskısından kurtaran Büyük Selçuklu Sultanı Tuğrul Bey’e, halife tarafından "Doğunun ve Batının Sultanı" unvanı verilmiş ve siyasi yetkiler Tuğrul Bey'e devredilmiştir. <br><br>
+        Bu tarihi gelişmenin İslam dünyasındaki yansıması aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) İslamiyet'in yayılma hızının tamamen durması</li>
+            <li>B) Halifeliğin kan bağı yoluyla Selçuklu hanedanına geçmesi</li>
+            <li>C) Siyasi ve askeri liderliğin Türklerin eline geçmesi, dini otorite ile dünyevi otoritenin ayrışması</li>
+            <li>D) Şiilik mezhebinin İslam dünyasında tamamen ortadan kalkması</li>
+            <li>E) Bizans İmparatorluğu ile Haçlı ittifakının resmen son bulması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Halifenin siyasi/askeri yetkileri Tuğrul Bey'e devretmesi, halifenin sadece dini bir lider olarak kalmasını, dünyevi (siyasi-askeri) liderliğin ise tamamen Türk sultanına geçmesini sağlamıştır. Bu durum laik devlet yönetim modelinin (din ve siyaset başkanlarının ayrışması) tarihteki çok önemli bir erken örneğidir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Büyük Selçuklu Devleti'nde uygulanan İkta Sistemi'nde; toprağın mülkiyeti devlete, kullanım hakkı köylüye, vergisini toplama hakkı ise hizmeti karşılığında askeri/sivil memura aitti. İkta sahibi topladığı vergiyle atlı asker (cebelü) beslemek zorundaydı. <br><br>
+        Buna göre İkta Sistemi'nin faydaları arasında aşağıdakilerden hangisi <u>yer almaz</u>?</div>
+        <ul class="options-list">
+            <li>A) Devlet hazinesine doğrudan nakit para girişini rekor seviyede artırmak</li>
+            <li>B) Taşrada (merkez dışı bölgelerde) iç güvenlik ve asayişi sağlamak</li>
+            <li>C) Toprakların boş kalmasını engelleyerek üretimde sürekliliği korumak</li>
+            <li>D) Hazineden doğrudan para çıkmadan her an savaşa hazır büyük bir ordu kurmak</li>
+            <li>E) Göçebe Türkmenlerin yerleşik hayata geçmesini teşvik etmek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> İkta sisteminde para hazineye gitmez, doğrudan taşradaki memurun maaşına ve askerin (cebelü) masrafına harcanır. Dolayısıyla bu sistem hazineden para çıkmasını engeller (D doğru) ama hazineye doğrudan **nakit para girişi** sağlamaz. Diğer şıklar (B, C, E) sistemin doğrudan sosyal ve ekonomik faydaları arasındadır. Cevap A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Büyük Selçuklu Veziri Nizamülmülk tarafından kurulan Nizamiye Medreseleri'nin müfredatında dini ilimlerin yanı sıra pozitif bilimler de yer almış, ayrıca yoksul öğrencilerin barınma ve giyim masrafları devlet tarafından karşılanmıştır. <br><br>
+        Nizamiye Medreseleri'nin yoksul öğrencilere sunduğu bu ücretsiz imkanlar, Selçuklu devlet yapısının hangi özelliğini doğrudan yansıtır?</div>
+        <ul class="options-list">
+            <li>A) Teokratik devlet yapısını</li>
+            <li>B) Federal idari yapılanmayı</li>
+            <li>C) Sosyal devlet anlayışını</li>
+            <li>D) Oligarşik yönetim modelini</li>
+            <li>E) Mutlak monarşiyi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Fırsat eşitliği sağlamak amacıyla yoksul öğrencilerin yeme, içme, barınma ve eğitim masraflarının vakıflar veya devlet eliyle ücretsiz karşılanması, halkın refahını ve eğitim hakkını gözeten **Sosyal Devlet** anlayışının en somut kurumsal yansımasıdır. Cevap C seçeneğidir.
+        </div>
+    </div>
+
+</body>
+</html>

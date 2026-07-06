@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 8: 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 8: 20. YÜZYILDA OSMANLI VE İNKILAP TARİHİ</h1>
+        <p>Milli Mücadele Dönemi, Kongreler, Kurtuluş Savaşı Cepheleri ve Atatürk İlkeleri</p>
+    </div>
+
+    <h2>1. 20. YÜZYIL BAŞINDA OSMANLI DEVLETİ VE I. DÜNYA SAVAŞI</h2>
+    <p>Osmanlı Devleti 20. yüzyıla Trablusgarp (1911) ve Balkan (1912-1913) Savaşları kayıplarıyla girmiştir. Dağılmayı önlemek amacıyla savunulan fikir akımları (Osmanlıcılık, İslamcılık, Türkçülük, Batıcılık) çare olamamıştır. Devlet, kaybettiği toprakları geri almak ve coğrafi yalnızlıktan kurtulmak amacıyla I. Dünya Savaşı'na (1914-1918) İttifak Devletleri safında dahil olmuştur.</p>
+    <p>Osmanlı Devleti bu savaşta birçok cephede çarpışmıştır. **Kafkas Cephesi** (ilk taarruz cephesi, Sarıkamış faciası ve Mustafa Kemal'in Muş-Bitlis'i geri alması), **Kanal Cephesi** (Mısır'ı geri alma amaçlı başarısız taarruz) ve askeri bir destan olan **Çanakkale Cephesi** (İtilaf Devletlerinin Rusya'ya yardım götürmesini engelleyen, savaşın süresini uzatan ve Mustafa Kemal'i milli lider yapan tek başarılı savunma cephesi) öne çıkan kırılımlardır. Savaşın kaybedilmesiyle <strong>30 Ekim 1918 Mondros Ateşkes Antlaşması</strong> imzalanmıştır.</p>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM MONDROS'UN BU MADDELERİNİ SORAR:</strong>
+        <br>• <strong>7. Madde:</strong> "İtilaf Devletleri, güvenliklerini tehdit edecek bir durum ortaya çıkarsa herhangi bir stratejik noktayı işgal edebilecektir." <br><em>Yorumu:</em> Bu madde, Anadolu'nun tamamen <strong>işgale açık hale getirilmesini</strong> amaçlayan en tehlikeli maddedir.
+        <br>• <strong>24. Madde:</strong> "Vilayat-ı Sitte'de (Doğu Anadolu'daki 6 il: Erzurum, Van, Harput, Diyarbakır, Bitlis, Sivas) bir karışıklık çıkarsa buralar işgal edilebilecektir." <br><em>Yorumu:</em> Bu maddenin gizli amacı bölgede bağımsız bir <strong>Ermeni Devleti</strong> kurmaktır.
+    </div>
+
+    <h2>2. MİLLİ MÜCADELE'NİN HAZIRLIK DÖNEMİ (GENELGELER VE KONGRELER)</h2>
+    <p>Mondros sonrası İstanbul Hükümeti'nin teslimiyetçi tavrına karşı halk, bölgesel direniş cemiyetleri (Müdafaa-i Hukuk) ve silahlı Kuva-yı Milliye birliklerini kurmuştur. Mustafa Kemal Paşa, 19 Mayıs 1919'da Samsun'a çıkarak bu dağınık direnişi ulusal bir harekete dönüştürmüştür.</p>
+
+    <h3>A) Amasya Genelgesi (22 Haziran 1919) - İhtilal Beyannamesi</h3>
+    <p>Milli Mücadele'nin <strong>gerekçesi, amacı ve yöntemi</strong> ilk kez bu belgede yazılı hale getirilmiştir:
+    <br>• <em>"Vatanın bütünlüğü, milletin bağımsızlığı tehlikededir."</em> (Gerekçe)
+    <br>• <em>"Milletin bağımsızlığını, yine milletin azim ve kararı kurtaracaktır."</em> (Amaç ve Yöntem). Bu madde ileride **ulusal egemenliğe** (cumhuriyete) geçileceğinin ilk üstü kapalı işaretidir ve ihtilal niteliğindedir. Temsil Heyeti'nin kurulma fikri ilk kez burada doğmuştur.</p>
+
+    <h3>B) Erzurum ve Sivas Kongreleri</h3>
+    <ul>
+        <li><strong>Erzurum Kongresi (23 Temmuz 1919):</strong> Toplanış amacı bakımından bölgesel (Doğu Anadolu'yu koruma), aldığı kararlar bakımından ulusaldır. <u>Manda ve himaye ilk kez reddedilmiştir.</u> İlk kez **Misak-ı Milli sınırlarından** ("Milli sınırlar içinde vatan bir bütündür, parçalanamaz") bahsedilmiştir. Temsil Heyeti sadece Doğu'yu temsil edecek şekilde kurulmuştur.</li>
+        <li><strong>Sivas Kongresi (4 Eylül 1919):</strong> Hem toplanış hem aldığı kararlar bakımından <u>tamamen ulusal bir kongredir.</u> Tüm bölgesel direniş cemiyetleri <strong>Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti</strong> adı altında tek çatı altında birleştirilmiştir (Merkezi koordinasyon ve birlik için). Manda ve himaye <strong>kesin olarak reddedilmiştir.</strong> Temsil Heyeti tüm vatanı temsil eder hale getirilmiştir.</li>
+    </ul>
+
+    <h2>3. BİRİNCİ TBMM DÖNEMİ VE SEVR ANTLAŞMASI</h2>
+    <p>Son Osmanlı Mebusan Meclisi'nin işgaller üzerine kapatılmasının ardından, <strong>23 Nisan 1920'de Ankara'da TBMM açılmıştır.</strong> I. TBMM; kurucu, ihtilalci, milli ve olağanüstü yetkilere (Yasama, yürütme ve yargıyı tek elde toplayan Güçler Birliği ilkesi) sahip bir savaş meclisidir. Amaç, kararları çok hızlı alıp uygulamaktır.</p>
+    <p>İtilaf Devletleri ile saltanat şurası arasında imzalanan <strong>10 Ağustos 1920 Sevr Antlaşması</strong>, meclis onayı (Mebusan Meclisi kapalı olduğu için) olmadığından hukuken geçersiz, ölü doğmuş bir antlaşmadır. TBMM bu antlaşmayı imzalayanları "vatan haini" ilan etmiştir.</p>
+
+    <h2>4. KURTULUŞ SAVAŞI CEPHELERİ VE ZAFERE GİDEN YOL</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Cephe</th>
+                <th>Savaşan Güçler / Komutan</th>
+                <th>Önemli Gelişme ve Sonuç</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Doğu Cephesi</strong></td>
+                <td>Ermeniler / Kazım Karabekir (15. Kolordu)</td>
+                <td>Düzenli ordunun ilk askeri başarısıdır. <strong>Gümrü Antlaşması</strong> ile cephe kapanmış, TBMM'yi tanıyan ilk devlet Ermenistan olmuştur.</td>
+            </tr>
+            <tr>
+                <td><strong>Güney Cephesi</strong></td>
+                <td>Fransız ve Ermeniler / Kuva-yı Milliye (Halk)</td>
+                <td>Maraş, Antep, Urfa'da halk destansı bir direniş göstermiştir. Batı Cephesi'ndeki Sakarya zaferinden sonra yapılan <strong>Ankara Antlaşması (1921)</strong> ile kapanmıştır. Hatay hariç güney sınırı çizilmiştir.</td>
+            </tr>
+            <tr>
+                <td><strong>Batı Cephesi</strong></td>
+                <td>Yunanistan / TBMM Düzenli Ordusu</td>
+                <td>I. İnönü, II. İnönü zaferleriyle düzenli ordu güven kazanmıştır. Kütahya-Eskişehir savaşlarında ordu mağlup olunca M. Kemal'e **Başkomutanlık** ve **Tekalif-i Milliye** emirlerini çıkarma yetkisi verilmiştir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <strong>💡 Sakarya ve Büyük Taarruz Kırılımları:</strong>
+        <br>• <strong>Sakarya Meydan Muharebesi (1921):</strong> Türk ordusunun II. Viyana Kuşatması'ndan (1683) beri devam eden <u>geri çekilişi sona ermiş</u>, ordu taarruz gücüne ulaşmıştır. Mustafa Kemal'e Gazilik unvanı ve Mareşallik rütbesi verilmiştir. Франsa ile Ankara Antlaşması imzalanmıştır.
+        <br>• <strong>Büyük Taarruz ve Başkomutanlık Meydan Muharebesi (1922):</strong> Türk ordusunun ilk ve son büyük taarruzudur. Yunan ordusu Anadolu'dan tamamen atılmıştır. Askeri safha bitmiş, diplomatik safha olan <strong>Mudanya Ateşkesi</strong> imzalanmıştır.
+    </div>
+
+    <p><strong>Lozan Barış Antlaşması (24 Temmuz 1923):</strong> Yeni Türk Devleti'nin bağımsızlığının ve sınırlarının tüm dünya tarafından resmen ve hukuken kabul edildiği belgedir. Ermeni iddiaları son bulmuş, Kapitülasyonlar ve Duyun-u Umumiye tamamen kaldırılmıştır (Ekonomik bağımsızlık). Boğazlar komisyona bırakılmıştır (Ulusal egemenliğe aykırı tek maddedir, ileride Montrö ile çözülecektir).</p>
+
+    <h2>5. ATATÜRK İLKELERİNİN ŞİFRELERİ VE İNKILAPLAR</h2>
+    <p>TYT Tarih sorularının en klasik yorumlama alanı ilkeler ve anahtar kelimelerdir:</p>
+    <ul>
+        <li><strong>Cumhuriyetçilik:</strong> Ulusal egemenlik, milli irade, seçim, oy, meclis, çok partili hayat, saltanat ve hilafetin kaldırılması, Kadınlara seçme/seçilme hakkı verilmesi.</li>
+        <li><strong>Milliyetçilik:</strong> Milli bağımsızlık, milli benlik, Türk Tarih/Dil Kurumlarının açılması, Kabotaj Kanunu'nun çıkarılması (Denizlerde Türk tekelinin kurulması), Türk parasını koruma kanunu. İçinde "Türk" geçen kurumlar.</li>
+        <li><strong>Halkçılık:</strong> Kanun önünde eşitlik, sosyal adalet, ayrıcalıkların reddi. Aşar vergisinin kaldırılması (köylünün rahatlatılması), soyadı kanunu ile unvanların yasaklanması, kılık-kıyafet kanunu. *(Cumhuriyetçilik ve Milliyetçiliğin zorunlu sonucudur).*</li>
+        <li><strong>Laiklik:</strong> Din ve devlet işlerinin ayrılması, akılcılık, bilimsellik. Halifeliğin kaldırılması, Şer'iyye ve Evkaf Vekaleti'nin kaldırılması, Medrese ve Tekke-Zaviyelerin kapatılması, Medeni Kanun'un kabulü.</li>
+        <li><strong>Devletçilik:</strong> Ekonomik kalkınmanın devlet eliyle yapılması. Sermayesi olmayan halk yerine fabrikaları devletin açması. I. Beş Yıllık Sanayi Planı, Sümerbank, Etibank, demiryollarının devletleştirilmesi.</li>
+        <li><strong>İnkılapçılık:</strong> Çağdaşlaşma, modernleşme, dinamizm, statükoya karşı olma. Takvim, saat, ölçü ve hafta sonu tatilinin batıya uyumlu hale getirilmesi, Harf İnkılabı.</li>
+    </ul>
+
+    <h2>6. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Amasya Genelgesi'nde yer alan "Milletin bağımsızlığını, yine milletin azim ve kararı kurtaracaktır." maddesi, Kurtuluş Savaşı'nın yöntemi ve geleceği hakkında hayati ipuçları barındırır. <br><br>
+        Buna göre bu maddenin, Türk siyasi hayatında uzun vadede aşağıdaki gelişmelerden hangisine doğrudan zemin hazırladığı savunulabilir?</div>
+        <ul class="options-list">
+            <li>A) Manda ve himaye fikrinin ilk kez kabul edilmesine</li>
+            <li>B) Saltanat sisteminin korunarak meşruti yönetime devam edilmesine</li>
+            <li>C) Osmanlı Mebusan Meclisi'nin tamamen kapatılmasına</li>
+            <li>D) Ulusal egemenliğe dayalı, yeni bir yönetim modelinin (Cumhuriyet'in) kurulmasına</li>
+            <li>E) Kuva-yı Milliye birliklerinin bölgesel savunmaya devam etmesine</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Maddede geçen "milletin kararı" ifadesi siyaset biliminde doğrudan milli iradeye ve ulusal egemenliğe atıftır. Milletin kendi geleceği hakkında karar vermesi fikri, padişahın ve kişisel egemenliğin (saltanatın) reddedilerek ilerleyen süreçte **Cumhuriyet rejimine ve TBMM tabanlı yeni bir devlete** geçileceğinin en net ihtilalci kanıtıdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Erzurum Kongresi bölgesel bir kongre olmasına rağmen aldığı "Milli sınırlar içinde vatan bir bütündür, parçalanamaz." ve "Manda ve himaye kabul edilemez." kararlarıyla ulusal bir nitelik kazanmıştır. <br><br>
+        Buna göre Erzurum Kongresi'nin "manda ve himayeyi reddetmesi" doğrudan aşağıdaki ilkelerden hangisine ödün vermeden bağlı kalındığını gösterir?</div>
+        <ul class="options-list">
+            <li>A) Sosyal devlet anlayışına</li>
+            <li>B) Sınıfsal eşitlik ilkesine</li>
+            <li>C) Tam bağımsızlık ve ulusal benlik ülküsüne</li>
+            <li>D) Geleneksel veraset sistemine</li>
+            <li>E) Bölgesel yönetim modeline</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Manda ve himaye; zayıf bir devletin kendi kendini yönetemeyerek büyük bir devletin (İngiltere, ABD gibi) boyunduruğu altına girmesidir. Bunun kongrede sert bir dille reddedilmesi, Türk milletinin başka bir devletin esaretini asla kabul etmeyeceğini, hedefinin kayıtsız şartsız **Tam Bağımsızlık** olduğunu kanıtlar. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Birinci TBMM dönemi savaş şartlarında açılmış bir meclis olup, hızlı kararlar alabilmek amacıyla yasama ve yürütme güçlerini kendi bünyesinde toplamıştır (Güçler Birliği). Meclis içinden seçilen hükümet başkanı aynı zamanda meclisin de başkanı kabul edilmiştir (Meclis Hükümeti Sistemi). <br><br>
+        Buna göre I. TBMM'nin güçler birliği ilkesini benimsemesindeki temel gerekçe aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Klasik çok partili hayata bir an önce geçiş yapmak</li>
+            <li>B) Savaş ve olağanüstü işgal şartlarında bürokratik engelleri aşarak hızlı karar alıp uygulamak</li>
+            <li>C) Saltanat şurasının kararlarına hukuki meşruiyet kazandırmak</li>
+            <li>D) Bölgesel direniş cemiyetlerinin bağımsız hareket etmesini sağlamak</li>
+            <li>E) Yargı bağımsızlığını tamamen ortadan kaldırmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Normal şartlarda demokratik ülkelerde güçler ayrılığı (yasama, yürütme, yargının farklı kurumlarda olması) esastır. Ancak meclis açıldığında ülke işgal altındadır ve Kurtuluş Savaşı verilmektedir. Bu olağanüstü durumlarda kuvvetler ayrılığı kararların yavaşlamasına neden olur. Meclis, **zaman kaybetmemek ve kararları yıldırım hızıyla cepheye yansıtmak** için güçler birliğini uygulamıştır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> 1926 yılında kabul edilen Kabotaj Kanunu ile Osmanlı döneminde yabancı devletlerin gemilerine verilen deniz ticareti ayrıcalıkları iptal edilmiş, Türk karasularında yük ve yolcu taşıma hakkı sadece Türk gemilerine ve vatandaşlarına verilmiştir. <br><br>
+        Bu inkılap hamlesi doğrudan aşağıdaki Atatürk ilkelerinden hangisiyle ilişkilidir?</div>
+        <ul class="options-list">
+            <li>A) Devletçilik</li>
+            <li>B) Laiklik</li>
+            <li>C) Halkçılık</li>
+            <li>D) Milliyetçilik</li>
+            <li>E) İnkılapçılık</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kabotaj Kanunu, denizlerdeki ekonomik bağımsızlığı ve millileşmeyi ifade eder. Kapitülasyonların denizlerdeki izini silerek hakkı "Türk tekelinde" toplaması, doğrudan **Milliyetçilik** ilkesinin ekonomi ve bağımsızlık alanındaki yansımasıdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Cumhuriyet döneminde kabul edilen Soyadı Kanunu ile toplumda ayrıcalık, üstünlük veya sınıf belirten (Ağa, Paşa, Efendi, Hacı, Seyyid vb.) unvanların kullanımı yasaklanmış, her vatandaşa eşitlikçi bir soyadı zorunluluğu getirilmiştir. <br><br>
+        Bu yasal düzenleme, öncelikle aşağıdaki Atatürk ilkelerinden hangisinin toplumsal hayattaki yansımasıdır?</div>
+        <ul class="options-list">
+            <li>A) Laiklik</li>
+            <li>B) Halkçılık</li>
+            <li>C) Cumhuriyetçilik</li>
+            <li>D) Milliyetçilik</li>
+            <li>E) Devletçilik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kanun önünde eşitliği savunan, sınıfsal ayrıcalıkları reddeden, toplumu tek bir bütün olarak gören ilke doğrudan **Halkçılık** ilkesidir. Unvanların yasaklanması ve resmi işlerdeki karmaşanın bitirilmesi halkçılığın eşitlik esasına dayanır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

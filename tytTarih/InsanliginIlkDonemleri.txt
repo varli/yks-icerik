@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Tarih - Ünite 2: İnsanlığın İlk Dönemleri (İlk Çağ Medeniyetleri)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT TARİH - MODÜL 2: İNSANLIĞIN İLK DÖNEMLERİ</h1>
+        <p>Yazı Öncesi Çağlar, İlk Çağ Medeniyet Havzaları ve Hukuk Sistemleri</p>
+    </div>
+
+    <h2>1. TARİH ÖNCESİ ÇAĞLAR (YAZI ÖNCESİ DÖNEM)</h2>
+    <p>İnsanlık tarihinin yazının icadından (MÖ 3200) önceki dönemine "Tarih Öncesi Çağlar" denir. Bu dönem sınıflandırılırken insanların araç-gereç yapımında kullandıkları malzemelerin niteliği (Taş ve Maden) esas alınmıştır. Tarih öncesi dönemlerin en önemli özelliği, yazılı kaynak olmadığı için bu döneme ait bilgilerin sadece arkeolojik buluntulara dayanmasıdır.</p>
+    <p>Tarih Öncesi Çağlar her bölgede aynı anda yaşanmamıştır. Örneğin Mezopotamya maden çağını yaşarken, dünyanın başka bir yerindeki topluluk henüz taş çağında olabilmiştir. Toplumlar arası etkileşimi (ticaret, göç, savaş) zayıf olan yerlerde çağlar sırasıyla (Paleolitik, Mezolitik, Neolitik, Kalkolitik, Tunç, Demir) yaşanır. Eğer bir yerleşim yerinde taş çağının hemen ardından demir çağına geçilmişse, orada kesinlikle gelişmiş bir medeniyetle göç veya ticaret yoluyla etkileşim kurulduğu anlaşılır.</p>
+
+    <h3>A) Taş Çağı Dönemleri ve Yaşam Biçimleri</h3>
+    <ul>
+        <li><strong>Paleolitik (Eski Taş / Kaba Taş):</strong> İnsanlık tarihinin en uzun dönemidir. İnsanlar tamamen doğaya bağımlıdır. Geçim kaynağı avcılık ve toplayıcılıktır (Üretim yoktur, tüketicidirler). İklim şartları nedeniyle mağaralarda ve ağaç kovuklarında yaşamışlardır. Dönemin sonuna doğru "Ateş" kontrol altına alınmış; bu sayede ısınma, pişirme ve vahşi hayvanlardan korunma imkanı doğmuştur. Türkiye'de Karain, Yarımburgaz ve Öküzini mağaraları bu döneme aittir.</li>
+        <li><strong>Mezolitik (Orta Taş):</strong> Paleolitik ile Neolitik arasında bir geçiş dönemidir. İklim yumuşamaya başlamıştır. Avcılık ve toplayıcılık devam etmektedir. Taşlar biraz daha biçimlendirilerek "Mikrolit" adı verilen küçük araçlar yapılmıştır.</li>
+        <li><strong>Neolitik (Yeni Taş / Cilalı Taş):</strong> İnsanlık tarihindeki en büyük ekonomik kırılma bu dönemde yaşanmıştır. Buzul çağının bitmesiyle insanlar su kenarlarına inmiş ve <strong>tarımsal faaliyetler (üretim) başlamıştır.</strong></li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>Neolitik Devrim'in Zincirleme Sonuçları:</strong>
+        <ol>
+            <li>Tarım başladı -> Üretici toplum yapısına geçildi -> Toprağa bağlılık nedeniyle <strong>yerleşik hayat</strong> başladı.</li>
+            <li>İlk kez kerpiç evler inşa edildi ve insanlığın ilk köyleri kuruldu.</li>
+            <li>Hayvanlar (koyun, keçi, sığır) evsilleştirildi.</li>
+            <li>Artı ürün (ihtiyaç fazlası mal) ortaya çıktı -> Bu durum topluluklar arası <strong>takas usulü ticareti</strong> başlattı.</li>
+            <li>Artı ürünü koruma ihtiyacından dolayı kilden çanak-çömlek yapıldı, seramik sanatı doğdu.</li>
+            <li>Bitki liflerinden elbiseler dikildi, dokumacılık başladı.</li>
+            <li>Mülkiyet kavramı ve sınır kavgaları doğdu; bu durum ilerleyen süreçte hukuk kurallarının ve devlet yapısının temellerini attı.</li>
+        </ol>
+    </div>
+
+    <h3>B) Maden Çağı Dönemleri</h3>
+    <ul>
+        <li><strong>Kalkolitik (Taş-Maden Çağı):</strong> Taş ile madenin bir arada kullanıldığı geçiş dönemidir. İşlenen ilk maden, doğada bol bulunan ve kolay işlenen <strong>bakır</strong> olmuştur.</li>
+        <li><strong>Tunç Çağı:</strong> Bakır ile kalayın karıştırılmasıyla daha sert bir alaşım olan tunç (bronz) elde edilmiştir. Bu dönemde tarım aletleri ve silahlar güçlenmiş, ilk şehir devletleri (Sümer, Akad) kurulmaya başlanmıştır.</li>
+        <li><strong>Demir Çağı:</strong> Erimesi zor olan demirin işlenmesi, teknolojik ve askeri bir devrimdir. Demir silahlar üreten kavimler, diğerlerine karşı askeri üstünlük kurmuştur. Büyük imparatorlukların kurulma süreci hızlanmıştır.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>🌟 ÖSYM'NİN GÖZDESİ (Anadolu'nun Özel Merkezleri):</strong>
+        <br>• <strong>Göbeklitepe (Şanlıurfa):</strong> İnsanlığın bilinen en eski kült (inanç) merkezidir. Avcı-toplayıcı insanların henüz yerleşik hayata ve tarıma geçmeden önce devasa tapınaklar inşa ettiğini kanıtlayarak ezberleri bozmuştur.
+        <br>• <strong>Çatalhöyük (Konya):</strong> Dünyanın ilk şehir yerleşmesi kabul edilir. Evlerin bitişik nizamda yapılması ve girişlerin çatıdan olması savunma amaçlıdır.
+        <br>• <strong>Çayönü (Diyarbakır):</strong> Türkiye ve Güneydoğu Avrupa'da tarımın yapıldığı, yerleşik hayata geçilen ilk köy yerleşmesidir.
+    </p>
+    </div>
+
+    <h2>2. İLK ÇAĞ MEDENİYET HAVZALARI</h2>
+    <p>MÖ 3200'de Sümerlerin çivi yazısını bulmasıyla Tarihî Çağlar (İlk Çağ) başlamıştır. İlk Çağ medeniyetlerinin neredeyse tamamı coğrafi şartlar gereği su kaynaklarının bol olduğu, iklimin ılıman ve toprakların verimli olduğu nehir yataklarında kurulmuştur.</p>
+
+    <h3>A) Mezopotamya Medeniyetleri (Fırat ve Dicle Arası)</h3>
+    <p>Mezopotamya, düzlük bir coğrafya olması ve istila yolları üzerinde bulunması nedeniyle sık sık istilalara uğramış, bu yüzden mimari eserlerini kerpiç ve tuğladan yapmışlardır. Taş az olduğu için bu eserler günümüze kadar ulaşamamıştır.</p>
+    <ul>
+        <li><strong>Sümerler:</strong> Şehir devletlerine "Site" denir. Patesi ya da Ensi adı verilen rahip-krallar tarafından yönetilirlerdi. Çivi yazısını icat ederek tarih çağlarını başlattılar. Çok katlı tapınakları olan <strong>Zigguratları</strong> okul, depo ve rasathane olarak kullandılar. Gökyüzü gözlemleri sayesinde Ay Yılı esaslı ilk takvimi buldular.</li>
+        <li><strong>Babiller:</strong> Kral Hammurabi, meşruiyetini dinden değil askeri güçten alan <strong>ilk mutlak krallığı</strong> kurdu. Laik devlet yapısının ilk örneğidir. "Hammurabi Kanunları" son derece sert ve kısasa kısas esasına dayalıdır.</li>
+        <li><strong>Asurlar:</strong> Kuzey Mezopotamya'da kuruldular. Toprakları tarıma elverişli olmadığı için <strong>kara koloniciliği (ticaret)</strong> yaptılar. Kayseri Kültepe'ye (Kaniş karumu) ticari amaçla çivi yazısını getirerek <strong>Anadolu'yu tarih çağlarına başlatan</strong> medeniyettir. Dünyanın ilk kütüphanesini Ninova'da kurmuşlardır.</li>
+        <li><strong>Akadlar:</strong> Tarihteki ilk düzenli orduyu ve ilk büyük imparatorluğu kurmuşlardır.</li>
+    </ul>
+
+    <h3>B) Anadolu Medeniyetleri</h3>
+    <ul>
+        <li><strong>Hititler:</strong> Kafkaslar üzerinden gelerek Kızılırmak yayında kurulmuşlardır. Başkentleri Hattuşaş'tır. <strong>Pankuş</strong> adı verilen soylular meclisi kralın yetkilerini kısıtlardı (Meşruti krallık). Kraliçeye "Tavananna" denirdi ve yönetimde söz sahibiydi. Tanrılarına hesap vermek amacıyla "Anal" denilen tarafsız yıllıklar yazdılar (Objektif tarihçiliğin başlangıcı). Mısır ile tarihin ilk yazılı antlaşması olan <strong>Kadeş Antlaşması'nı (MÖ 1280)</strong> imzaladılar.</li>
+        <li><strong>Frigler:</strong> Sakarya nehri çevresinde (Gordion) kuruldular. Temel geçim kaynakları tarım ve hayvancılıktır. Dini inanışları ve hukuk kuralları tarıma göre şekillenmiştir. Bereket tanrıçaları Kibele'dir. Öküz öldürmenin veya saban kırmanın cezası idamdır. "Fabıl" türü hayvan hikayelerinin ve "Tapates" adı verilen kilimlerin mucididirler.</li>
+        <li><strong>Lidyalılar:</strong> Gediz ve Menderes nehirleri arasında kuruldular. Efes'ten başlayıp Ninova'ya kadar uzanan <strong>Kral Yolu'nu</strong> geliştirerek ticarette büyük ilerleme kaydettiler. <strong>Parayı icat ederek</strong> takas usulüne son verdiler. Ordularında tamamen ücretli asker kullandıkları için milli bağ kurulamamış ve kısa sürede yıkılmışlardır.</li>
+        <li><strong>İyonlar:</strong> Ege kıyılarında şehir devletleri (Efes, Milet, İzmir) halinde yaşadılar. Merkezi otorite olmadığı için <strong>özgür düşünce ortamı</strong> gelişti. Deniz ticareti sayesinde zenginleştiler. Bilim ve felsefede öncü oldular (Tales, Hipokrat, Homeros, Diyojen, Herodot bu dönemde yaşadı).</li>
+        <li><strong>Urartular:</strong> Van (Tuşpa) merkezli kuruldular. Taş işçiliğinde geliştiler, kaleler yaptılar. Tarımı geliştirmek için günümüzde bile kullanılan "Şamran" adı verilen su kanallarını inşa ettiler.</li>
+    </ul>
+
+    <h3>C) Mısır Medeniyeti</h3>
+    <p>Nil Nehri'nin çevresinde, etrafı çöllerle ve denizlerle kaplı kapalı bir coğrafyada kurulmuştur. Bu coğrafi yalıtılmışlık nedeniyle istilaya az uğramış ve <u>tamamen kendine özgü (özgün)</u> bir medeniyet olarak kalmıştır. Hititlerden veya Sümerlerden etkilenmemiştir.</p>
+    <p>Kral tasarımları "Tanrı-Kral" (Firavun) şeklindedir. Firavunun sözleri doğrudan tanrı buyruğu (hukuk) sayıldığı için Mısır'da mutlak teokrasi egemendir ve laikleşme ya da hukuk gelişimi yaşanmamıştır. Ölümden sonraki yaşama (Ahiret) inandıkları için ölülerini mumyalamışlardır. Mumyacılık; tıp, anatomi ve eczacılık bilimlerinin gelişmesini sağlamıştır. Nil'in taşma zamanını hesaplamak için <strong>Güneş Yılı esaslı takvimi</strong> bulmuşlar, taşan tarlaların sınırlarını yeniden çizmek için ise <strong>geometri bilimini</strong> geliştirmişlerdir. Kendilerine has resim yazısına "Hiyeroglif", yazı malzemesine "Papirüs" denir.</p>
+
+    <h2>3. İLK ÇAĞ HUKUK SİSTEMLERİ</h2>
+    <p>Toplumsal düzeni sağlamak ve devlet otoritesini pekiştirmek amacıyla İlk Çağ'da ilk yazılı hukuk kuralları oluşturulmuştur:</p>
+    <ul>
+        <li><strong>Urkagina Kanunları (Sümerler):</strong> Tarihte bilinen <strong>ilk yazılı hukuk kurallarıdır.</strong> Fidye ve tazminat esasına dayalı, daha yumuşak kurallardır. Tapınak rahiplerinin halkı sömürmesine karşı yapılmış sosyal bir reform niteliğindedir.</li>
+        <li><strong>Hammurabi Kanunları (Babiller):</strong> Samami geleneklerinden beslenen, çok sert ceza maddeleri içeren kanunlardır. <strong>Kısasa kısas</strong> esası hakimdir (Göze göz, dişe diş). Sınıf farklılıkları gözetilir; bir asile verilen ceza ile köleye verilen ceza aynı değildir.</li>
+        <li><strong>Hitit Hukuku:</strong> Medeni hukukun ve aile hukukunun temellerini atmışlardır. Kadın haklarına önem verilmiş, resmi nikah ve boşanma hakkı yasal güvenceye alınmıştır. Cezalar genellikle ölüm veya işkence yerine <strong>tazminat (bedel)</strong> ödenmesi şeklindedir. İnsancıl bir hukuk sistemidir.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Tarih öncesi bir yerleşim yerinde yapılan arkeolojik kazılarda en alt katmandan üste doğru sırasıyla; yontulmuş taş aletler, bakır süs eşyaları ve demir kılıçlar bulunmuştur. Ancak normal kronolojik sırada bulunması gereken Cilalı Taş (Neolitik) ve Tunç dönemlerine ait hiçbir bulguya rastlanmamıştır.<br><br>
+        Bu durum, söz konusu yerleşim yerindeki topluluk ile ilgili aşağıdakilerden hangisinin kesin bir göstergesidir?</div>
+        <ul class="options-list">
+            <li>A) Tarımsal üretime diğer topluluklardan daha önce başladıklarının</li>
+            <li>B) Yazıyı Anadolu medeniyetlerinden daha önce kullanmaya başladıklarının</li>
+            <li>C) Tarihsel gelişim süreçlerinin dışarıdan gelen göç veya ticari etkileşimlerle kesintiye uğradığının / hızlandığının</li>
+            <li>D) Yaşadıkları coğrafyada maden yataklarının bulunmadığının</li>
+            <li>E) Siyasi birliklerini şehir devletleri şeklinde örgütlediklerinin</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm analizi:</strong> Normal şartlarda bir topluluk dış dünyadan tamamen izole ise çağları sırasıyla (Taş, Bakır, Tunç, Demir) yaşamak zorundadır. Ancak metindeki topluluk taş çağındayken birden bire bakır ve ardından demire zıplamıştır. Aradaki evrelerin atlanması, buraya dışarıdan daha gelişmiş bir topluluğun göç ettiğini veya ticari yollarla gelişmiş teknolojinin (maden işleme) buraya taşındığını gösterir. Bu yüzden tarihsel gelişim dış etkilerle hızlanmıştır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Mısır Medeniyeti'nde Nil Nehri'nin taşma zamanlarının hesaplanması astronomi ve takvimin; taşma sonrası tarım arazilerinin sınırlarının yeniden tespit edilmesi ise geometri ve matematiğin gelişmesinde doğrudan etkili olmuştur.<br><br>
+        Bu bilgiye dayanarak bilimsel gelişmeler ile ilgili aşağıdaki genellemelerden hangisine ulaşılabilir?</div>
+        <ul class="options-list">
+            <li>A) Bilimsel çalışmalar sadece din adamlarının tekelinde ilerler.</li>
+            <li>B) İhtiyaçlar ve coğrafi zorunluluklar, insanları bilimsel çözümler üretmeye yönlendirir.</li>
+            <li>C) İlk Çağ'da bilimsel faaliyetler sadece kapalı havzalarda ortaya çıkmıştır.</li>
+            <li>D) Siyasi mücadelelerin bittiği dönemlerde bilimsel üretim durma noktasına gelir.</li>
+            <li>E) Astronomi bilimi yeryüzü şekillerinin değişmesinden etkilenmez.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm analizi:</strong> Paragrafta Mısır halkının durup dururken değil, Nil'in taşmasıyla oluşan hayati sorunları çözmek (tarlaları kurtarmak, kıtlığı önlemek) amacıyla takvimi ve geometriyi geliştirdiği anlatılmıştır. Bu durum "İhtiyaçlar icatların anasıdır" felsefesini destekler. Yani pratik yaşam ihtiyaçları ve coğrafi faktörler bilimsel gelişmeyi tetiklemiştir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Sümerlerde tapınaklara (Ziggurat) getirilen ürünlerin miktarlarını ve kimin getirdiğini kaydetme zorunluluğu, rahipleri sembolik işaretler kullanmaya itmiş ve bu durum zamanla çivi yazısının doğmasını sağlamıştır.<br><br>
+        Buna göre yazının icadı ile ilgili;
+        <br>I. Ekonomik ve idari zorunluluklar kurumsal çözümler doğurmuştur.
+        <br>II. Dinî mekanlar aynı zamanda bilimsel ve kültürel sıçramaların merkezidir.
+        <br>III. İlk yazılı belgeler tamamen edebi ve felsefi içeriklidir.
+        <br>yargılarından hangileri savunulabilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, I ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm analizi:</strong> Ürünlerin kaydedilmesi ihtiyacı ekonomik/idari bir durumdur (I doğru). Bu sürecin Ziggurat denilen tapınaklarda gerçekleşmesi dini mekanların kültürel sıçrama merkezi olduğunu kanıtlar (II doğru). Ancak ilk yazılar edebi veya felsefi değil, tamamen muhasebe ve depo kayıtları (ekonomik) amaçlıdır (III yanlış). Bu yüzden doğru öncüller I ve II'dir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> İlk Çağ Anadolu medeniyetlerinden Hititlerde ceza hukukunda fidyecilik ve tazminat esası yaygınken, Babil Devleti'nde Hammurabi Kanunları'nda "kısasa kısas" gibi son derece sert bedensel cezalar uygulanmıştır.<br><br>
+        Yalnızca bu bilgiye göre İlk Çağ hukuk sistemleri hakkında aşağıdakilerden hangisi söylenebilir?</div>
+        <ul class="options-list">
+            <li>A) Tüm İlk Çağ devletleri ortak anayasa metinleri kullanmıştır.</li>
+            <li>B) Hitit hukuku insancıl ve telafi edici bir yapıya sahipken, Babil hukuku caydırıcılığı sertlikte aramıştır.</li>
+            <li>C) Mezopotamya hukuku Anadolu hukukundan daha sonra gelişmiştir.</li>
+            <li>D) Hukuk kuralları ilk kez Hititler tarafından yazılı hale getirilmiştir.</li>
+            <li>E) Demokratik yönetim biçimleri hukuk kurallarının sertleşmesini engellemiştir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm analizi:</strong> Metinde iki medeniyetin hukuk anlayışındaki keskin fark vurgulanmıştır. Hititlerin maddi tazminatla cezayı çözmesi daha insancıl/telafi edici olduğunu; Babillerin ise göz çıkartana göz çıkartma (kısas) cezası vermesi caydırıcılığı mutlak sertlikte aradığını gösterir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> İlk Çağ'da Lidyalılar ticaret yollarını geliştirip parayı bularak zenginleşmiş, ancak ordularında milli bir yapı yerine tamamen ücretli askerleri istihdam etmişlerdir. Bu durum devletin yıkılış sürecini hızlandırmıştır.<br><br>
+        Lidyalıların askeri yapıdaki bu tercihinin olumsuz sonuçlanması, orduda aranan aşağıdaki özelliklerden hangisinin eksikliğinden kaynaklanmaktadır?</div>
+        <ul class="options-list">
+            <li>A) Teknolojik ve gelişmiş silahların kullanımı</li>
+            <li>B) Sayısal olarak üstünlük ve kalabalık kadrolar</li>
+            <li>C) Vatan sevgisi, aidiyet bilinci ve milli ülkü bağı</li>
+            <li>D) Süvari birliklerinin profesyonel eğitimi</li>
+            <li>E) Askerlerin düzenli maaş alması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm analizi:</strong> Ücretli askerler sadece alacakları paraya odaklanırlar. Parayı veren başka bir devlet olduğunda saf değiştirebilir veya ölüm riski gördüklerinde savaştan kaçabilirler. Lidyalıların kısa sürede çökmesinin sebebi, parayla satın alınamayan "vatan sevgisi, aidiyet ve milli ordu bilinci" eksikliğidir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>
