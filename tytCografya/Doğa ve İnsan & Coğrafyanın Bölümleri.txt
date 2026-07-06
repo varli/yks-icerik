@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya - Ünite 1: Doğa ve İnsan & Coğrafyanın Bölümleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT COĞRAFYA - MODÜL 1: DOĞA VE İNSAN</h1>
+        <p>Doğal Ortamlar, Karşılıklı Etkileşim, Coğrafyanın İlkeleri ve Metodolojik Alt Dallar</p>
+    </div>
+
+    <h2>1. DOĞA VE İNSAN ETKİLEŞİMİ</h2>
+    <p>Coğrafya; insan ile doğa (doğal ortam) arasındaki karşılıklı etkileşimi, kendine has ilkeleriyle inceleyen ve sonuçlarını mekansal olarak sentezleyen dinamik bir bilim dalıdır. İnsan yaşamı, içinde bulunduğu doğal çevrenin sınırları ve sunduğu imkanlar ölçüsünde şekillenir. Doğa ve insan etkileşimi üç temel boyutta gerçekleşir:</p>
+    <ul>
+        <li><strong>Doğanın İnsana Etkisi (Doğal Çevrenin Şekillendiriciliği):</strong> Teknolojinin henüz gelişmediği dönemlerde ve bölgelerde bu etki maksimum düzeydedir. <br><em>Örnekler:</em> Kutuplara yakın bölgelerde insanların kalın kıyafetler giymesi ve geçimini avcılıkla sağlaması; Güneydoğu Asya'da muson yağmurları nedeniyle temel besin kaynağının pirinç olması; deprem bölgelerinde konut yapımında ahşap veya esnek malzemelerin tercih edilmesi.</li>
+        <li><strong>İnsanın Doğaya Etkisi (Mekânı Değiştirme ve Şekillendirme):</strong> Sanayi Devrimi ve teknolojik gelişmelerle birlikte insanoğlunun doğaya müdahale gücü rekor seviyede artmıştır. <br><em>Örnekler:</em> Denizlerin doldurularak havalimanı yapılması (Ordu-Giresun Havalimanı, Japonya Kansai Havalimanı); İsviçre Alpleri'nde ulaşımı kolaylaştırmak için devasa tünel ve viyadüklerin açılması; tarım arazilerini sulamak için akarsuların önüne barajlar inşa edilmesi.</li>
+        <li><strong>Doğal Çevrenin İnsan Tarafından Uyarlanması / Karşılıklı Uyum:</strong> İnsanın doğaya zarar vermeden, onun kurallarını anlayarak akılcı çözümler üretmesidir. <br><em>Örnekler:</em> Hollanda'nın "Polder" sistemiyle deniz taşkınlarından korunmak için setler yapması ve tarım alanı kazanması; seracılık faaliyetleri ile kış aylarında da tarım yapılabilmesi.</li>
+    </ul>
+
+    <h2>2. COĞRAFYANIN DÖRT TEMEL DOĞAL ORTAMI (MUHTEŞEM DÖRTLÜ)</h2>
+    <p>Yeryüzündeki tüm coğrafi olaylar, birbirleriyle kesintisiz etkileşim halinde olan dört ana küre (ortam) içerisinde meydana gelir:</p>
+    <ol>
+        <li><strong>Litosfer (Taş Küre):</strong> Yer kabuğu, kayaçlar, topraklar, dağlar, vadiler ve yer şekillerini kapsayan katmandır. Jeomorfoloji bilimi bu katmanı inceler.</li>
+        <li><strong>Atmosfer (Hava Küre):</strong> Dünyayı çevreleyen gaz kütlesidir. Sıcaklık, basınç, rüzgarlar, nem ve yağış gibi tüm iklim ve meteoroloji olayları bu katmanda gerçekleşir. Klimatoloji bilimi bu katmanı odaklar.</li>
+        <li><strong>Hidrosfer (Su Küre):</strong> Okyanuslar, denizler, göller, akarsular, yeraltı suları ve buzullardan oluşan su katmanıdır. Hidroğrafya bilimi tarafından incelenir.</li>
+        <li><strong>Biyosfer (Canlı Küre):</strong> Litosfer, atmosfer ve hidrosferin birleştiği, canlı yaşamına elverişli olan ortak katmandır. Bitkiler, hayvanlar, insanlar ve mikroorganizmalar bu kürede yaşar. Biyocoğrafya bilimi bu alanı inceler.</li>
+    </ol>
+
+    <h2>3. COĞRAFYA BİLİMİNİN ÜÇ TEMEL İLKESİ (YÖNTEMİ)</h2>
+    <p>Bir araştırmanın coğrafi nitelik kazanabilmesi ve diğer bilimlerden (tarih, sosyoloji, jeoloji) ayrılabilmesi için aşağıdaki üç ilkeye uygun olarak kurgulanması şarttır:</p>
+    <ul>
+        <li><strong>1. Nedensellik (Sebep-Sonuç) İlkesi:</strong> Coğrafi olayların meydana geliş nedenlerini sorgular. "Neden?" sorusuna yanıt arar. <br><em>Örnek:</em> Doğu Anadolu Bölgesi'nde kış turizminin gelişmesinin nedeni, yükseltinin fazla olması ve karın yerde kalma süresinin uzun olmasıdır.</li>
+        <li><strong>2. Karşılıklı İlgi ve Bağlantı İlkesi:</strong> Coğrafi olayların birbirleriyle olan ilişkilerini ve karşılıklı etkilerini inceler. <br><em>Örnek:</em> Güneş ışınlarının geliş açısı ile sıcaklık arasındaki ilişki; yağış miktarı ile bitki örtüsünün gürlüğü arasındaki bağlantı.</li>
+        <li><strong>3. Dağılış İlkesi (Coğrafyanın En Önemli İlkesi):</strong> Coğrafya bilimini diğer tüm bilim dallarından ayıran, <strong>coğrafyanın imza ilkesidir.</strong> Olayların ve olguların yeryüzünde, harita üzerinde "Nerede?" bulunduğunu, nasıl yayıldığını açıklar. Sınavda bir metinde yer ismi, harita veya dağılış vurgusu varsa cevap doğrudan dağılış ilkesidir. <br><em>Örnek:</em> Türkiye'de zeytin tarımı en yoğun olarak Ege ve Akdeniz kıyılarında yapılmaktadır.</li>
+    </ul>
+
+    <h2>4. COĞRAFYANIN BÖLÜMLERİ VE YARDIMCI BİLİM DALLARI</h2>
+    <p>Coğrafya bilimi, inceleme alanının devasa genişliği nedeniyle Fizikî Coğrafya (Doğal unsurlar) ve Beşerî/Ekonomik Coğrafya (İnsan faaliyetleri) olmak üzere iki ana başlığa ayrılır:</p>
+
+    <h3>A) Fizikî Coğrafya ve Alt Dalları</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Fizikî Coğrafya Alt Dalı</th>
+                <th>İnceleme Alanı</th>
+                <th>Doğrudan Destek Aldığı Yardımcı Bilim Dalları</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Jeomorfoloji</strong></td>
+                <td>Yer şekilleri bilimidir. Dağlar, ovalar, platolar, iç ve dış kuvvetleri inceler.</td>
+                <td><strong>Jeoloji</strong> (Yer bilimi), <strong>Jeofizik</strong> (Yer fiziği), <strong>Pedoloji</strong> (Toprak bilimi), <strong>Litoloji</strong> (Taş bilimi).</td>
+            </tr>
+            <tr>
+                <td><strong>Klimatoloji</strong></td>
+                <td>İklim bilimidir. Uzun süreli hava olaylarını, sıcaklık, basınç ve rüzgar kuşaklarını inceler.</td>
+                <td><strong>Meteoroloji</strong> (Hava durumu bilimi), <strong>Fizik</strong>.</td>
+            </tr>
+            <tr>
+                <td><strong>Hidroğrafya</strong></td>
+                <td>Sular coğrafyasıdır. Denizler, göller, akarsular ve yeraltı sularını inceler.</td>
+                <td><strong>Hidroloji</strong> (Su bilimi), <strong>Okyanografya</strong> (Okyanus bilimi), <strong>Limnoloji</strong> (Göl bilimi), <strong>Potamoloji</strong> (Akarsu bilimi).</td>
+            </tr>
+            <tr>
+                <td><strong>Biyocoğrafya</strong></td>
+                <td>Canlılar coğrafyasıdır. Bitki ve hayvan topluluklarının yeryüzündeki dağılışını inceler.</td>
+                <td><strong>Biyoloji</strong>, <strong>Botanik</strong> (Bitki bilimi), <strong>Zooloji</strong> (Hayvan bilimi), <strong>Tıp</strong>.</td>
+            </tr>
+            <tr>
+                <td><strong>Kartografya</strong></td>
+                <td>Harita bilimidir. Harita yapım tekniklerini, projeksiyonları ve ölçek hesaplamalarını inceler.</td>
+                <td><strong>Matematik</strong>, <strong>Geometri</strong>, <strong>Geodezi</strong> (Yer ölçüm bilimi).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>B) Beşerî ve Ekonomik Coğrafya</h3>
+    <p>Merkezinde tamamen insan faaliyetleri yer alır. Başlıca alt dalları şunlardır:
+    <br>• <strong>Nüfus Coğrafyası:</strong> Nüfusun yapısını, yoğunluğunu, göçleri inceler (<em>Demografi</em> biliminden destek alır).
+    <br>• <strong>Yerleşme Coğrafyası:</strong> Mesken tiplerini (ahşap, taş, kerpiç), kır ve kent yerleşmelerini odaklar.
+    <br>• <strong>Siyasi Coğrafya:</strong> Devletlerin sınırlarını, jeopolitik konumlarını ve küresel ilişkilerini analiz eder.
+    <br>• <strong>Ekonomik Coğrafya:</strong> Tarım, sanayi, ticaret, turizm, ulaşım ve madencilik gibi insanın geçim kaynaklarını inceler.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> "Güneydoğu Asya kıyılarında her yıl yaz mevsiminde etkili olan aşırı muson yağmurları akarsuların taşmasına, tarım arazilerinin su altında kalmasına ve milyonlarca insanın göç etmesine neden olmaktadır." <br><br>
+        Bu parçada anlatılan durum, coğrafyanın hangi temel inceleme alanına veya etkileşim türüne doğrudan örnek oluşturur?</div>
+        <ul class="options-list">
+            <li>A) İnsanın doğaya olan üstünlüğüne ve müdahalesine</li>
+            <li>B) Doğal çevrenin insan faaliyetleri ve yaşamı üzerindeki sınırlandırıcı / şekillendirici etkisine</li>
+            <li>C) Teknolojik gelişmelerin iklim olaylarını tamamen kontrol altına aldığına</li>
+            <li>D) Litosfer tabakasındaki iç kuvvetlerin hidrosfere olan etkisine</li>
+            <li>E) Beşerî faaliyetlerin küresel iklim krizini tetikleme süreçlerine</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paragrafta doğanın (muson yağmurlarının) insan yaşamı, tarımı ve göç dalgaları üzerindeki mutlak etkisi vurgulanmıştır. İnsan burada tamamen etkilenen, doğa ise şekillendiren konumdadır. Bu durum "Doğanın insana etkisi" başlığı altında incelenir. Teknolojik müdahale veya insanın doğayı değiştirmesi söz konusu değildir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir coğrafyacı, Akdeniz Bölgesi'nde karstik kayaçların (kalker, jips) yaygın olduğu alanlardaki yer şekillerinin (obruk, dolin, mağara) oluşum aşamalarını ve bu şekillerin bölgedeki turizm faaliyetlerine olan katkılarını araştırmaktadır. <br><br>
+        Buna göre bu uzman, araştırması sırasında coğrafyanın hangi fizikî alt dalından ve onun yardımcı biliminden en üst düzeyde yararlanmalıdır?</div>
+        <ul class="options-list">
+            <li>A) Klimatoloji - Meteoroloji</li>
+            <li>B) Hidroğrafya - Limnoloji</li>
+            <li>C) Jeomorfoloji - Jeoloji</li>
+            <li>D) Biyocoğrafya - Botanik</li>
+            <li>E) Kartografya - Geodezi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Metinde "karstik kayaçlar" (taş-kayaç yapısı) ve "yer şekillerinin (obruk, mağara) oluşumu" ifadeleri geçmektedir. Yer şekillerini inceleyen fizikî coğrafya alt dalı <strong>Jeomorfoloji</strong>'dir. Yer şekillerinin ve kayaçların yapısını anlamak için doğrudan destek alması gereken yer kabuğu ve yer altı bilimi ise <strong>Jeoloji</strong>'dir. Bu nedenle uzman C şıkkındaki bilimlerden yararlanmalıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Yeryüzünde aktif volkanların ve şiddetli depremlerin yaşandığı alanlar büyük oranda levha sınırları ile paralellik gösterir. Bu tehlikeli alanlar dünyada Pasifik Ateş Çemberi kuşağında, Alp-Himalaya dağ kıvrım sisteminde ve Atlas Okyanusu'nun ortasındaki yarık boyunca uzanmaktadır." <br><br>
+        Yukarıdaki metinde coğrafya biliminin aşağıdaki ilkelerinden hangisi ön plana çıkarılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Nedensellik (Sebep-Sonuç)</li>
+            <li>B) Karşılıklı İlgi ve Bağlantı</li>
+            <li>C) Karşılaştırma</li>
+            <li>D) Dağılış (Yayılış)</li>
+            <li>E) Değişkenlik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paragrafta volkan ve depremlerin dünyada **nerede** bulundukları, hangi kuşaklar boyunca (Pasifik, Alp-Himalaya, Atlas Okyanusu) yeryüzüne yayıldıkları açıkça yer isimleri verilerek haritalandırılmıştır. Coğrafi olayların mekandaki yerini ve yayılımını gösteren ilke <strong>Dağılış ilkesidir.</strong> Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Yeryüzündeki göllerin su kimyasını, derinlik haritalarını, göl tabanındaki tortul yapıları ve tatlı su göllerindeki biyolojik çeşitliliğin hidrolik dengesini inceleyen bir araştırmacının, coğrafyanın hangi alt dalının uzmanlık alanından doğrudan destek alması gerekir?</div>
+        <ul class="options-list">
+            <li>A) Klimatoloji</li>
+            <li>B) Hidroğrafya</li>
+            <li>C) Nüfus Coğrafyası</li>
+            <li>D) Jeomorfoloji</li>
+            <li>E) Siyasi Coğrafya</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Soru kökünde tamamen "göller, göl suları, su kimyası ve hidrolik denge" yani **yeryüzündeki sular** odaklanmıştır. Suları, okyanusları, deniz ve gölleri inceleyen fizikî coğrafya ana anabilim dalı <strong>Hidroğrafya</strong>'dır (Sular Coğrafyası). Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Aşağıda verilen insan faaliyetlerinden hangisi, "İnsanın doğal çevreye olan müdahalesine ve onu köklü bir şekilde değiştirmesine" örnek olarak <u>gösterilemez</u>?</div>
+        <ul class="options-list">
+            <li>A) Akarsuların üzerine devasa barajlar kurularak nehir rejimlerinin değiştirilmesi</li>
+            <li>B) Deniz kıyılarının taş ve toprakla doldurularak sanayi tesisleri ve havalimanları inşa edilmesi</li>
+            <li>C) Dağlık ve engebeli bölgelerde ulaşımı sağlamak amacıyla kilometrelerce uzunlukta tüneller açılması</li>
+            <li>D) Aşırı engebeli ve dik yamaçlarda tarım yapabilmek için basamaklı taraçalar (teraslama) oluşturulması</li>
+            <li>E) İç Anadolu gibi kurak bölgelerde insanların kış aylarında ısınmak için kömür tüketimini artırması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> A, B, C ve D seçeneklerinde insan, teknolojiyi ve gücünü kullanarak doğayı doğrudan değiştirmiş, şekillendirmiş ve modifiye etmiştir (İnsanın doğaya etkisi). Ancak E seçeneğinde havaların soğuması nedeniyle insanın kömür yakması, **doğanın (iklimin) insan davranışları üzerindeki zorunlu etkisidir**. İnsan burada doğayı değiştirmemiş, doğanın şartlarına uyum sağlamaya çalışmıştır. Dolayısıyla cevap E şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

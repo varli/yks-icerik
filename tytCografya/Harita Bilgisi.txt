@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya - Ünite 3: Harita Bilgisi ve İzohipsler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT COĞRAFYA - MODÜL 3: HARİTA BİLGİSİ VE İZOHİPSLER</h1>
+        <p>Projeksiyon Yöntemleri, Ölçeklerin Mekansal Özellikleri ve Eş Yükselti Eğrileri</p>
+    </div>
+
+    <h2>1. HARİTA ÇİZİMİNDEKİ KRİTERLER VE PROJEKSİYONLAR</h2>
+    <p>Bir çizimin harita özelliği taşıyabilmesi için mutlaka **kuşbakışı görünüme** sahip olması, belirli bir **ölçek dahilinde küçültülmesi** ve bir **düzleme aktarılması** gerekir. Ölçek kullanılmadan yapılan kabataslak çizimlere ise "Kroki" adı verilir; krokiler harita sayılmaz.</p>
+    <p>Dünyanın küresel yüzeyi düz bir kağıda aktarılırken mutlaka yırtılma, uzama ve bozulmalar meydana gelir. Bu bozulmaların temel sebebi yeryüzünün eğrisel (küresel), kağıdın ise düzlemsel olmasıdır. Çizimlerdeki bu hataları rekor düzeyde en aza indirmek amacıyla kullanılan matematiksel aktarım tekniklerine <strong>Projeksiyon (İzdüşüm) Yöntemleri</strong> denir:</p>
+    <ul>
+        <li><strong>Silindirik Projeksiyon:</strong> Dünyanın etrafına silindir bir kağıt sarılmasıyla oluşturulur. Bu yöntemle çizilen haritalarda <strong>Ekvator ve çevresinde bozulma en azdır.</strong> Kutuplara doğru gidildikçe kara kütlelerinin alanları aşırı büyür ve bozulma artar (Örn: Brezilya, Endonezya ve Kongo haritalarında hata payı düşüktür).</li>
+        <li><strong>Konik Projeksiyon:</strong> Dünyanın üzerine koni şeklinde bir kağıt oturtulmasıyla elde edilir. Bu yöntem <strong>Orta Enlemler (30° - 60° enlemleri) için en ideal yöntemdir.</strong> Türkiye, İtalya, ABD gibi orta kuşak ülkelerinin haritaları en az hatayla bu yöntemle çizilir.</li>
+        <li><strong>Düzlem (Açısal) Projeksiyon:</strong> Kağıdın dünyanın tek bir noktasına teğet yerleştirilmesiyle çizilir. Genellikle <strong>Kutup Bölgelerinin</strong> ve dar alanların haritalandırılmasında tercih edilir. Merkezden uzaklaşıldıkça bozulma şiddeti katlanarak artar.</li>
+    </ul>
+
+    <h2>2. HARİTALARDA ÖLÇEK KAVRAMI VE KARŞILAŞTIRMALAR</h2>
+    <p>Ölçek, haritadaki küçültme oranıdır. Kesir ölçeklerde payda büyüdükçe küçültme oranı artar, bu da haritanın daha küçük ölçekli olduğunu gösterir. ÖSYM ölçek formüllerinden ziyade büyük ve küçük ölçekli haritaların mantıksal yorum farklarını sormaktadır.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik</th>
+                <th>Büyük Ölçekli Haritalar (Örn: 1 / 10.000)</th>
+                <th>Küçük Ölçekli Haritalar (Örn: 1 / 1.000.000)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Küçültme Oranı</strong></td>
+                <td>Az küçültülmüştür (Payda küçüktür).</td>
+                <td>Çok küçültülmüştür (Payda büyüktür).</td>
+            </tr>
+            <tr>
+                <td><strong>Gösterilen Alan</strong></td>
+                <td>Dar alanları gösterir (Örn: Söğüt ilçesi).</td>
+                <td>Geniş alanları gösterir (Örn: Asya Kıtası).</td>
+            </tr>
+            <tr>
+                <td><strong>Ayrıntıyı Gösterme Gücü</strong></td>
+                <td><strong>Fazladır.</strong> Sokaklar, binalar net seçilir.</td>
+                <td><strong>Azdır.</strong> Sadece ana hatlar görünür.</td>
+            </tr>
+            <tr>
+                <td><strong>Hata / Bozulma Oranı</strong></td>
+                <td>Azdır.</td>
+                <td>Fazladır.</td>
+            </tr>
+            <tr>
+                <td><strong>İzohips Eğrisi Sayısı</strong></td>
+                <td>Çoktur (Eğriler arası fark azdır, örn: 10m).</td>
+                <td>Azdır (Eğriler arası fark fazladır, örn: 200m).</td>
+            </tr>
+            <tr>
+                <td><strong>Kağıtta Kapladığı Alan</strong></td>
+                <td>Aynı alan çizilirse kağıtta çok yer kaplar.</td>
+                <td>Aynı alan çizilirse kağıtta az yer kaplar.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖNEMLİ COĞRAFİ KAVRAM (Gerçek Alan - İzdüşüm Alan):</strong>
+        <br>• <strong>Gerçek Alan:</strong> Yeryüzündeki tüm engebelerin, dağların, vadilerin hesaba katılarak ölçüldüğü alandır.
+        <br>• <strong>İzdüşüm Alan:</strong> Yeryüzündeki tüm dağ ve vadilerin düz kabul edildiği, deniz seviyesine indirgendiği alandır.
+        <br>• <strong>Sınav Tüyosu:</strong> Bir bölgede gerçek alan ile izdüşüm alan arasındaki fark ne kadar <u>fazla</u> ise, o bölge o kadar <strong>dağlık ve engebelidir</strong> (Örn: Türkiye'de Doğu Anadolu ve Doğu Karadeniz). Fark az ise orası <strong>düzdür</strong> (Örn: Marmara ve Güneydoğu Anadolu).
+    </div>
+
+    <h2>3. İZOHİPS (EŞ YÜKSELTİ EĞRİLERİ) YÖNTEMİ VE ÖZELLİKLERİ</h2>
+    <p>Deniz seviyesinden itibaren aynı yükseklikteki noktaların birleştirilmesiyle elde edilen iç içe kapalı eğrilere <strong>İzohips (Eş Yükselti Eğrisi)</strong> denir. Yer şekillerini en iyi gösteren ve TYT'de en çok soru getiren topoğrafya yöntemidir.</p>
+    
+    <h3>İzohipslerin Altın Kuralları:</h3>
+    <ul>
+        <li>İç içe kapalı eğrilerdir. Her eğri kendinden daha yüksek bir alanı çevreler. En dıştaki eğri en alçak, en içteki eğri ise en yüksek noktadır.</li>
+        <li>Eğriler birbirlerini <strong>asla kesmezler.</strong></li>
+        <li>Aynı izohips eğrisi üzerindeki tüm noktaların <strong>yükseltileri birbirine eşittir.</strong></li>
+        <li>Komşu iki izohips eğrisi arasındaki yükselti farkı (ekuidistans) haritanın her yerinde sabittir ve değişmez. Bu fark haritanın ölçeğine bağlıdır.</li>
+        <li>Birbirini çevrelemeyen komşu iki izohips eğrisinin veya bir akarsuyun her iki tarafındaki komşu eğrilerin <strong>yükseltileri birbirine eşittir.</strong></li>
+        <li><strong>Eğrilerin Sıklaştığı Yerler (Birbirine yaklaştığı alanlar):</strong> Eğimin fazla olduğunu gösterir. Akarsuların akış hızı ve aşındırma gücü fazladır, kıyıda falez (uçurum) oluşma riski yüksektir, yol yapım maliyeti fazladır.</li>
+        <li><strong>Eğrilerin Seyrekleştiği Yerler (Birbirinden uzaklaştığı alanlar):</strong> Eğimin az, alanın düz olduğunu gösterir (Önal: Kıta sahanlığı geniştir).</li>
+    </ul>
+
+    <h2>4. İZOHİPS HARİTALARINDA YER ŞEKİLLERİNİN OKUNMASI</h2>
+    <ul>
+        <li><strong>Doruk (Zirve):</strong> Dağın en yüksek noktasıdır. İzohips haritalarında üçgen, nokta (.) veya artı (+) sembolleriyle gösterilir.</li>
+        <li><strong>Boyun:</strong> İki dağ veya doruk arasında kalan alçakta kalmış düzlüktür. Karşılıklı iki izohips kümesi arasındaki boşluktur.</li>
+        <li><strong>Vadi:</strong> İzohips eğrilerinin yüksek tarafa doğru <strong>ters "V" (▲)</strong> şeklini aldığı alanlardır. Vadilerin içinden genellikle akarsu geçer. Ucun gösterdiği yön her zaman akarsuyun kaynağını (yukarısını) işaret eder.</li>
+        <li><strong>Sırt:</strong> İzohips eğrilerinin alçak tarafa doğru <strong>"V"</strong> şeklini aldığı, iki yamacı ayıran su bölümü çizgisidir. Vadinin tam tersi bir uzanış gösterir.</li>
+        <li><strong>Falez (Yalıyar):</strong> Deniz kıyısında izohips eğrilerinin üst üste binecek kadar sıklaştığı dik uçurumlardır. Karadeniz ve Akdeniz kıyılarında yaygındır.</li>
+        <li><strong>Delta:</strong> Akarsuyun denize döküldüğü yerde taşıdığı alüvyonları biriktirmesiyle denizin içine doğru yaptığı üçgen şeklindeki çıkıntıdır (Örn: Çukurova, Çarşamba deltası). Delta olan yerde kıyı sığdır (kıta sahanlığı geniştir).</li>
+        <li><strong>Haliç:</strong> Gelgit (medcezir) etkisiyle okyanus sularının akarsu ağzını aşındırarak karanın içine doğru yaptığı girintidir. Deltanın tam tersidir. Türkiye denizlerinde gelgit az olduğu için <u>gerçek haliç bulunmaz.</u></li>
+        <li><strong>Çukur (Kratör / Kapalı Havza):</strong> Çevresine göre alçakta kalan çanak yapılardır. İzohipslerin üzerinde <strong>içeriye doğru bakan ok (➔)</strong> işaretleriyle gösterilir. Ok işaretinin başladığı eğriden itibaren yükselti ok yönünde azalmaya (alçalmaya) başlar.</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Dünyanın küresel yüzeyinin düz bir kağıda aktarılması sırasında alan, açı ve uzunluk bozulmaları meydana gelir. Bu bozulmaları en aza indirmek için farklı izdüşüm (projeksiyon) yöntemleri geliştirilmiştir. <br><br>
+        Buna göre; Brezilya ve Endonezya gibi Ekvator çevresindeki ülkelerin haritalarını en az hatayla çizmek isteyen bir kartografın tercih etmesi gereken projeksiyon türü ile Türkiye ve İtalya gibi orta kuşak ülkeleri için kullanılması gereken projeksiyon türü aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Konik - Silindirik</li>
+            <li>B) Silindirik - Konik</li>
+            <li>C) Düzlem - Silindirik</li>
+            <li>D) Konik - Düzlem</li>
+            <li>E) Silindirik - Düzlem</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ekvator ve yakın çevresindeki bölgelerin haritalandırılmasında hatayı en aza indiren yöntem <strong>Silindirik Projeksiyon</strong>'dur. Türkiye, İtalya, İspanya, ABD gibi Orta Enlemlerde (Orta Kuşak) yer alan ülkelerin çiziminde ise en ideal ve hatasız sonuç veren yöntem <strong>Konik Projeksiyon</strong>'dur. Kutuplar için ise Düzlem projeksiyon kullanılır. Bu nedenle doğru sıralama B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir coğrafya öğretmeni sınıfa aynı boyutlardaki iki kağıt getirmiştir. Birinci kağıda "Türkiye Fiziki Haritası"nı, ikinci kağıda ise "Marmara Bölgesi Fiziki Haritası"nı kağıtların tamamını dolduracak şekilde çizmiştir. <br><br>
+        Buna göre, öğretmen çizdiği bu haritalarla ilgili olarak öğrencilerine aşağıdaki yorumlardan hangisini yaparsa akademik olarak <u>hatalı</u> olur?</div>
+        <ul class="options-list">
+            <li>A) Marmara Bölgesi haritasının ölçeği, Türkiye haritasına göre daha büyüktür.</li>
+            <li>B) Türkiye haritasındaki küçültme oranı daha fazla olduğundan bozulma ve hata payı daha yüksektir.</li>
+            <li>C) İki haritada da İstanbul Boğazı'nın kapladığı alan ve haritadaki ayrıntı gücü aynıdır.</li>
+            <li>D) Marmara Bölgesi haritasında izohips eğrileri arasındaki yükselti farkı (ekuidistans) daha az değerlerle (örn: 20m) çizilmiştir.</li>
+            <li>E) Türkiye haritası daha geniş bir alanı gösterdiği için küçük ölçekli harita sınıfına girer.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Marmara Bölgesi, Türkiye'ye göre daha dar bir alanı ifade eder. Aynı boyuttaki kağıda Marmara'yı sığdırmak için daha AZ küçültme yapılır, yani Marmara haritası **Büyük Ölçeklidir**. Büyük ölçekli haritalarda ayrıntı gösterme gücü daha fazladır ve nesneler (İstanbul Boğazı gibi) kağıtta daha büyük yer kaplar. Türkiye haritası ise daha çok küçültüldüğü için ayrıntı azdır. Dolayısıyla iki haritada ayrıntı gücünün aynı olduğunu iddia eden C şıkkı yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Bir izohips haritasında eş yükselti eğrilerinin birbirine çok yaklaştığı, adeta üst üste bindiği alanlar tespit edilmiştir." <br><br>
+        Bu haritadaki eğrilerin sıklaştığı bölge ile ilgili olarak aşağıda yapılan çıkarımlardan hangisi kesinlikle <u>yanlıştır</u>?</div>
+        <ul class="options-list">
+            <li>A) Söz konusu alanda arazi eğimi oldukça fazladır.</li>
+            <li>B) Eğer bu alandan bir akarsu geçiyorsa akış hızı ve hidroelektrik potansiyeli yüksektir.</li>
+            <li>C) Bu bölgede yapılacak bir karayolunun yapım maliyeti düz alanlara göre çok daha yüksektir.</li>
+            <li>D) Akarsuların yataklarında derin yarma vadiler ve geriye doğru aşındırma kuvveti fazladır.</li>
+            <li>E) Bu alanın tam deniz kıyısında olması durumunda geniş geniş tarım deltaları oluşur.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> İzohipslerin sıklaşması eğimin, dikliğin fazla olduğunu gösterir (A, B, C, D doğru). Ancak dik yamaçların denizle buluştuğu kıyılarda dik uçurumlar yani <strong>falezler</strong> oluşur. Geniş tarım deltalarının (E şıkkı) oluşabilmesi için eğimin az, kıyının sığ olması ve izohipslerin <u>seyrek</u> geçmesi gerekir. Dik yerde delta oluşamaz. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Bir topoğrafya haritasında iç içe kapalı izohips eğrilerinin üzerinde, dışarıdan merkeze doğru (içeriye doğru) yönelmiş ok işaretleri (➔) yer almaktadır. <br><br>
+        Bu ok işaretlerinin bulunduğu yer şekliyle ilgili olarak aşağıdakilerden hangisi söylenebilir?</div>
+        <ul class="options-list">
+            <li>A) Bölgede bir akarsu biriktirmesiyle oluşan delta ovası bulunmaktadır.</li>
+            <li>B) Çevresine göre alçakta kalan bir çanak, kapalı havza veya kratör gölü mevcuttur.</li>
+            <li>C) İki dağ sırası arasında ulaşımı kolaylaştıran doğal bir boyun yer almaktadır.</li>
+            <li>D) Eğimin aniden dikleştiği falezli deniz kıyıları mevcuttur.</li>
+            <li>E) Akarsuyun yatağını derinlemesine aşındırdığı dik bir vadi bulunmaktadır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> İzohips haritalarında içeriye doğru bakan ok işaretleri <strong>Çukur (Kapalı Havza / Çanak)</strong> yapılarını gösterir. Okun başladığı eğriden itibaren yükselti artmaz, tam tersine azalır. Bu durum volkanik kratörleri, obrukları veya çöküntü alanlarını ifade eder. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir bölgenin dağlık ve engebeli olması, o bölgenin "Gerçek Alanı" ile dağların düz kabul edildiği "İzdüşüm Alanı" arasındaki farkın yüksek olmasına neden olur. <br><br>
+        Coğrafi özellikleri göz önüne alındığında, Türkiye'de aşağıdaki coğrafi bölümlerin hangisinde gerçek alan ile izdüşüm alan arasındaki fark <u>en azdır</u>?</div>
+        <ul class="options-list">
+            <li>A) Doğu Karadeniz Bölümü</li>
+            <li>B) Erzurum - Kars Platosu</li>
+            <li>C) Hakkari Bölümü</li>
+            <li>D) Ergene Bölümü (Trakya)</li>
+            <li>E) Antalya Bölümü</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Gerçek alan ile izdüşüm alan arasındaki farkın **en az** olması, o arazinin oldukça **düz ve sade** bir yapıya sahip olduğunu gösterir. Doğu Karadeniz, Hakkari, Antalya ve Erzurum-Kars son derece engebeli ve dağlıktır (fark fazladır). Ancak Marmara Bölgesi'nde yer alan <strong>Ergene Bölümü (Trakya)</strong> Türkiye'nin en düz, yükseltisi en az ve sade alanlarından biri olduğu için fark minimumdur. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

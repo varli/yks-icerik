@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya - Ünite 6: Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT COĞRAFYA - MODÜL 6: DIŞ KUVVETLER VE DOĞAL UNSURLAR</h1>
+        <p>Yeryüzünü Şekillendiren Dış Güçler, Toprak Coğrafyası ve Türkiye'nin Flora/Fauna Dağılımı</p>
+    </div>
+
+    <h2>1. YERYÜZÜNÜ ŞEKİLLENDİREN DIŞ KUVVETLER</h2>
+    <p>Enerjisini doğrudan Güneş'ten ve atmosfer olaylarından alan, iç kuvvetlerin oluşturduğu tüm dağları ve pürüzleri aşındırarak yeryüzünü düzleştirmeye (peneplen yapmaya) çalışan, yani <strong>yıkıcı/düzenleyici</strong> etkiye sahip kuvvetlere dış kuvvetler denir. Nemli bölgelerde en etkili dış kuvvet <strong>akarsular</strong> iken; kurak ve çöl bölgelerinde <strong>rüzgarlar</strong>, kutup çevrelerinde ise <strong>buzullar</strong> ön plana çıkar.</p>
+
+    <h3>A) Akarsuların Oluşturduğu Yer Şekilleri</h3>
+    <ul>
+        <li><strong>Aşınım Şekilleri:</strong> Kanyon, Çentik ve Boğaz <strong>Vadiler</strong>; suların yüksekten döküldüğü dev kazanları; akarsuların birbirine yakın dirençteki taşları aşındırmasıyla oluşan **Kırgıbayır (Badlands)** ve Türkiye'de İç Anadolu ile Kapadokya çevresinde tüf ve bazalt kombinasyonuyla oluşan <strong>Peri Bacaları</strong>. Akarsuyun yatağını deniz seviyesine kadar aşındırmasıyla oluşan en son düzlüğe <strong>Peneplen (Yontukdüz)</strong> denir.</li>
+        <li><strong>Birikim Şekilleri:</strong> Akarsuyun dağ eteğinde taşıdığı malzemeyi biriktirmesiyle oluşan Birikinti Yelpazesi, Dağ Eteği Ovası; nehir yatağındaki kum adacıkları ve en önemlisi akarsuyun denize döküldüğü kıyıda yaptığı üçgen çıkıntı olan <strong>Delta Ovaları</strong> (Örn: Çukurova, Çarşamba, Bafra). Delta oluşabilmesi için kıyıda gelgit az olmalı, kıyı sığ (kıta sahanlığı geniş) olmalı ve akarsu bol alüvyon taşımalıdır.</li>
+        <li><strong>Hem Aşınım Hem Birikim Şekilleri:</strong> Eğimin azaldığı yerlerde akarsuyun kıvrıla kıvrıla akmasıyla oluşan <strong>Menderesler</strong> ve nehir yataklarındaki basamaklı yapılar olan <strong>Seki (Taraçalar)</strong>.</li>
+    </ul>
+
+    <h3>B) Rüzgarlar ve Karstik Şekiller</h3>
+    <p><strong>Rüzgar Şekilleri:</strong> Kurak alanlarda rüzgarın çarparak aşındırdığı Mantar Kaya, Tafoni (kuş yuvası delikleri) ve Şahit Kaya; rüzgarın biriktirdiği hilal şeklindeki çöl kumulları olan <strong>Barkanlar</strong> ve rüzgarın taşıdığı verimli topraklara verilen ad olan <strong>Lösler</strong>.</p>
+    <p><strong>Karstik Şekiller (Eriyen Kayaçlar):</strong> Kalker, jips (alçı taşı) ve kaya tuzu gibi suda kolay eriyen taşların yaygın olduğu (Türkiye'de en çok Teke ve Taşeli platoları ile Akdeniz'de) alanlarda oluşur. <br>
+    • <em>Aşınım:</em> En küçüğü Lapya, büyüklüğe göre sıralanışı: Dolin -> Uvala -> <strong>Polye (Karstik Ova)</strong>. Yer altındaki mağaraların tavanlarının aniden çökmesiyle oluşan derin kuyulara <strong>Obruk</strong> denir (Örn: Kızören Obruğu, Cennet-Cehennem obrukları). <br>
+    • <em>Birikim:</em> Mağara tavanında Sarkıt, tabanında Dikit, birleşirse Sütun. Kireçli suların yeryüzüne çıkıp buharlaşmasıyla basamaklı yapılar oluşturan <strong>Travertenler</strong> (Örn: Pamukkale).</p>
+
+    <h2>2. TOPRAK COĞRAFYASI VE TOPRAK TİPLERİ</h2>
+    <p>Toprak, kayaçların fiziksel (kurak yerde sıcaklık farkıyla ufalanma) ve kimyasal (nemli yerde suyla erime) çözünmesi sonucu oluşan canlı tabakadır. Gelişmiş bir toprak profilinde A, B, C, D olarak adlandırılan <strong>Horizonlar (Katmanlar)</strong> bulunur. Topraklar oluşum mekanizmalarına göre üç ana gruba ayrılır:</p>
+
+    <h3>A) Zonal (Yerli) Topraklar</h3>
+    <p>Bulundukları bölgenin iklim ve bitki örtüsü özelliklerini birebir yansıtan, tüm horizonları eksiksiz gelişmiş topraklardır:
+    <br>• <strong>Laterit:</strong> Ekvatoral bölgenin aşırı yıkanmış, humusu az, demir oksit nedeniyle kırmızı renkli toprağıdır.
+    <br>• <strong>Terra-Rossa:</strong> Akdeniz iklim bölgesinin, kalkerler üzerinde oluşan kırmızı renkli toprağıdır.
+    <br>• <strong>Podzol:</strong> Sert karasal iklimin, soğuk ve nemli iğne yapraklı orman (Tayga) altındaki kül renkli, yıkanmış toprağıdır.
+    <br>• <strong>Çernezyom (Kara Topraklar):</strong> Sert karasal iklimin yarı nemli çayır alanlarında (Türkiye'de Erzurum-Kars) görülen, <u>dünyanın en verimli yerli toprağıdır.</u> Üzerindeki gür çayırlar humusu artırdığı için rengi siyahtır.
+    <br>• <strong>Kahverengi Step (Bozkır):</strong> Ilıman karasal iklimin (İç Anadolu) bitki örtüsü zayıf, yağışı az olan alanlarındaki humusça fakir toprağıdır.</p>
+
+    <h3>B) Azonal (Taşınmış) Topraklar</h3>
+    <p>Dış kuvvetlerin (akarsu, rüzgar, buzul) başka yerlerden aşındırıp getirdiği malzemeleri biriktirmesiyle oluşan topraklardır. <u>Horizonları yoktur.</u> Sürekli farklı mineralleri bünyesinde topladığı için <strong>tarımsal verimlilikleri son derece yüksektir.</strong> Bulundukları bölgenin iklimi hakkında bilgi vermezler.
+    <br>• <strong>Alüvyon:</strong> Akarsuların taşıp biriktirdiği topraklardır (Deltalarda yaygındır).
+    <br>• <strong>Lös:</strong> Rüzgarların taşıdığı topraklardır. <strong>Moren:</strong> Buzulların taşıdığı topraklardır.
+    <br>• <strong>Kolüvyon / Litosfer:</strong> Dağ yamaçlarından yer çekimiyle eteklere dökülen taşlı topraklardır.</p>
+
+    <h2>3. TÜRKİYE'NİN BİTKİ VARLIĞI VE ÖZEL KAVRAMLAR</h2>
+    <p>Türkiye, coğrafi konumu, yer şekillerinin çeşitliliği ve üç farklı iklim tipinin aynı anda yaşanması nedeniyle bitki çeşitliliği (flora) açısından dünyanın en zengin ülkelerinden biridir. Türkiye'deki bitki toplulukları 4 ana grupta toplanır:</p>
+    <ul>
+        <li><strong>Ormanlar:</strong> Yağışın bol olduğu Karadeniz kıyılarında gür geniş ve iğne yapraklı ormanlar hakimdir. Akdeniz'de ise Kızılçam ormanları yaygındır.</li>
+        <li><strong>Maki - Garig - Psödömaki:</strong> Akdeniz ikliminin bitki örtüsüdür. Kızılçamların tahrip edilmesiyle bodur çalılıklar olan <strong>Maki</strong> (Zeytin, defne, mersin, sandal) oluşur. Makilerin de tahrip edildiği çok kurak yerlerde daha kısa, cılız çalı topluluğu olan <strong>Garig</strong> (Lavanta, kekik) doğar. Karadeniz ormanlarının tahrip edildiği nemli yerlerde oluşan yalancı makilere ise <strong>Psödömaki</strong> denir.</li>
+        <li><strong>Bozkır (Step):</strong> Ilıman karasal iklimin (İç Anadolu) ilkbahar yağmurlarıyla yeşerip yazın sararan kısa boylu ot topluluğudur (Geven, çoban yastığı, üzerlik otu).</li>
+        <li><strong>Alpin Çayırlar:</strong> Dağların yüksek kesimlerinde, orman üst sınırının üzerinde yer alan, yaz boyu yeşil kalan gür otlardır (Erzurum-Kars ve Torosların zirveleri).</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM BU İKİ BİTKİ TERİMİNİ ÇOK SEVER:</strong>
+        <br>• <strong>Endemik Bitki:</strong> Dünyada sadece belirli bir bölgede veya yörede yetişen, başka yerde bulunmayan <strong>yeryüzünde nadir/tek olan</strong> bitkilerdir. Türkiye endemik açıdan çok zengindir. <br><em>Örnekler:</em> Muğla Köyceğiz çevresindeki <strong>Sığla (Günlük) Ağacı</strong>, Datça ve Teke yarımadasındaki Datça Hurması, Kastamonu ve Yozgat'taki İspir Meşesi, Göller yöresindeki Kasnak Meşesi, Şanlıurfa'daki Karagül.
+        <br>• <strong>Relikt (Kalıntı) Bitki:</strong> Geçmiş jeolojik dönemlerdeki (özellikle buzul çağlarındaki) iklim şartlarında yaşamış, günümüzde ise iklimin değişmesine rağmen dağların kuytu yamaçlarında kendisini koruyabilmiş <strong>geçmişten kalan mazi kalıntısı</strong> bitkilerdir. <br><em>Örnek:</em> Karadeniz iklimine ait olan Kayın ağacının, Akdeniz'de Amanos Dağları'nın kuytu bir yamacında öbek olarak yaşamaya devam etmesi.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Türkiye'de gerçek anlamda okyanus kıyılarında görülen büyük gelgit genliği (medcezir) yaşanmadığı için iç deniz kıyılarımız akarsu biriktirmesi olan delta ovalarının oluşumu açısından oldukça elverişlidir. <br><br>
+        Buna göre, Türkiye haritası düşünüldüğünde aşağıdaki akarsulardan hangisinin döküldüğü kıyıda, güçlü akıntıların ve arazi eğiminin az olmasının da etkisiyle <u>Anadolu'nun en büyük delta ovası</u> oluşmuştur?</div>
+        <ul class="options-list">
+            <li>A) Sakarya Nehri</li>
+            <li>B) Çoruh Nehri</li>
+            <li>C) Seyhan ve Ceyhan Nehirleri (Çukurova)</li>
+            <li>D) Kızılırmak (Bafra)</li>
+            <li>E) Bakırçay</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Seyhan ve Ceyhan nehirlerinin Akdeniz'e döküldüğü yerde taşıdıkları devasa alüvyonları biriktirmesiyle Türkiye'nin ve Anadolu'nun en büyük, en verimli delta ovası olan <strong>Çukurova Deltası</strong> meydana gelmiştir. Sakarya ağzında dalga çok olduğu için delta belirgin değildir, Çoruh ise çok derine dökülür. Bafra ve Bakırçay da birer deltatır ancak hacimsel olarak Çukurova liderdir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir coğrafya araştırmacısı, Akdeniz Bölgesi'nde yer alan Taşeli Platosu'nda yaptığı saha çalışmalarında; kireç taşlarının (kalker) erimesiyle oluşan geniş polye ovalarını, derin yer altı mağaralarını ve bu mağaraların tavanlarının aniden çökmesiyle meydana gelmiş devasa dikey obruk kuyularını haritalandırmıştır. <br><br>
+        Buna göre, araştırmacının incelediği bu yer şekillerinin ortaya çıkmasında etkili olan temel süreç ve kayaç türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Volkanik faaliyetler - Bazalt ve Akıcı Lavlar</li>
+            <li>B) Rüzgar erozyonu - Lös ve Kumul Öbekleri</li>
+            <li>C) Karstik aşınma (çözünme) - Kimyasal Tortul Kayaçlar (Kalker)</li>
+            <li>D) Buzul aşındırması - Moren ve Sirk Gölleri</li>
+            <li>E) Dalga biriktirmesi - Tombolo ve Kıyı Setleri</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Polye, mağara ve obruk gibi yer şekilleri, suda kolayca eriyebilen taşların bulunduğu sahalarda suyun kimyasal eritme gücüyle ortaya çıkan **Karstik aşınım şekilleridir**. Bu yapıların oluştuğu kireç taşı (kalker) kayaç grubu ise <strong>Kimyasal Tortul Kayaçlar</strong> sınıfına girer. Türkiye'de bu durumun en net görüldüğü yer Akdeniz'deki Taşeli ve Teke platolarıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Dış kuvvetlerin (akarsu, rüzgar vb.) aşındırarak başka bölgelerden taşıyıp getirdiği ve Horizon (katman) yapısı göstermeyen Azonal topraklar, bünyelerinde çok farklı mineral ve besin maddeleri barındırdıkları için tarımsal açıdan son derece yüksek bir verimliliğe sahiptirler." <br><br>
+        Buna göre, toprak özellikleri dikkate alındığında aşağıdaki topraklardan hangisi bu anlatılan **"taşınmış ve horizonu olmayan verimli topraklar"** sınıfına örnek gösterilebilir?</div>
+        <ul class="options-list">
+            <li>A) Terra-Rossa</li>
+            <li>B) Laterit</li>
+            <li>C) Çernezyom</li>
+            <li>D) Alüvyon</li>
+            <li>E) Podzol</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Terra-rossa, laterit, çernezyom ve podzol toprakları bulundukları yerin iklimiyle şekillenen, horizonları tam gelişmiş **Zonal (yerli)** topraklardır. Ancak <strong>Alüvyon</strong>, akarsuların taşıyıp vadilerde veya deltalarda biriktirdiği katmansız (horizonsuz), mineralce zengin bir **Azonal (taşınmış)** toprak türüdür ve tarım için çok değerlidir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Erzurum-Kars ve Ardahan platolarında, sert karasal iklim şartlarına bağlı olarak yaz yağışlarıyla yeşeren gür çayır bitki örtüsünün altında, organik madde (humus) oranı rekor düzeyde yüksek olan, dünyanın en verimli yerli kara toprakları oluşmuştur. <br><br>
+        Yukarıdaki paragrafta coğrafi özellikleri ve konumu anlatılan zonal toprak türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Podzol</li>
+            <li>B) Çernezyom</li>
+            <li>C) Tundra</li>
+            <li>D) Regosol</li>
+            <li>E) Kahverengi Orman Toprağı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sert karasal iklimde, uzun boylu çayırların altında gelişen, humus zenginliğinden ötürü koyu siyah renkli olan ve "Kara Topraklar" olarak bilinen en verimli zonal toprak türü <strong>Çernezyom</strong>'dur. Türkiye'de sadece Kuzeydoğu Anadolu'da (Erzurum-Kars-Ardahan) görülür. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Dünyada sadece belirli bir coğrafi alanda, dar bir yörede yetişen, başka hiçbir yerde doğal yaşam alanı bulunmayan yeryüzündeki nadir bitkilere "Endemik Bitki" adı verilir. <br><br>
+        Buna göre, Türkiye'nin bitki varlığı düşünüldüğünde aşağıdaki türlerden hangisi <u>sadece Anadolu'ya özgü endemik bir bitki türü</u> olarak kabul edilir?</div>
+        <ul class="options-list">
+            <li>A) Karadeniz kıyılarındaki kayın ağaçları</li>
+            <li>B) Muğla Köyceğiz çevresinde yayılış gösteren Sığla (Günlük) Ağacı</li>
+            <li>C) Akdeniz genelinde görülen maki çalılıkları</li>
+            <li>D) İç Anadolu steplerindeki geven otları</li>
+            <li>E) Toros dağlarındaki kızılçam ormanları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kayın, maki, geven ve kızılçam geniş alanlarda, dünyanın farklı ülkelerinde de görebileceğimiz yaygın türlerdir. Ancak <strong>Sığla (Günlük) Ağacı</strong> dünyada sadece ve sadece Muğla Fethiye, Köyceğiz, Marmaris çevrelerindeki su kenarlarında ve vadilerde yetişen, kozmetik ve eczacılıkta kullanılan mutlak bir **Türk endemik bitkisidir**. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

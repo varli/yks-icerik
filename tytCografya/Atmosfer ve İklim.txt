@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya - Ünite 4: Atmosfer ve İklim</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT COĞRAFYA - MODÜL 4: ATMOSFER VE İKLİM</h1>
+        <p>Hava Kürenin Katmanları, İklim Elemanları ve Küresel Makroklima Tipleri</p>
+    </div>
+
+    <h2>1. ATMOSFER VE KATMANLARININ ÖZELLİKLERİ</h2>
+    <p>Dünyayı çepeçevre saran gaz kütlesine atmosfer (hava küre) denir. Atmosfer, canlı yaşamı için gerekli gazları barındırmasının yanı sıra Güneş'ten gelen zararlı ışınları filtreler ve dünyamızın aşırı ısınmasını veya aşırı soğumasını engeller. Atmosfer yer çekiminin etkisiyle yoğunluklarına göre katmanlara ayrılmıştır:</p>
+    <ul>
+        <li><strong>Troposfer:</strong> Atmosferin yere temas eden <u>en alt ve en yoğun katmanıdır.</u> Gazların %75'i ve su buharının (nemin) <strong>tamamı</strong> bu katmandadır. Bu nedenle <strong>tüm meteorolojik ve iklim olayları sadece Troposfer'de gerçekleşir.</strong> Yerden yansıyan ışınlarla ısındığı için yükseldikçe sıcaklık her 200 metrede 1°C azalır.</li>
+        <li><strong>Stratosfer:</strong> Troposfer'in üzerindeki katmandır. Sıcaklık sabittir (-56°C). Bu katmanda yatay hava hareketleri (Jet rüzgarları) görülür. Su buharı olmadığı için iklim olayları yaşanmaz.</li>
+        <li><strong>Ozonosfer (Ozon Tabakası):</strong> Stratosfer'in üst kısımlarında yer alır. Güneş'ten gelen ölümcül ultraviyole (UV) zararlı ışınlarını emerek filtreler ve yeryüzündeki yaşamı korur.</li>
+        <li><strong>Termosfer (İyonosfer):</strong> Gazların iyonlarına ayrıldığı katmandır. Radyo dalgalarını ve haberleşme sinyallerini yansıttığı için <strong>kablosuz iletişim</strong> bu katman sayesinde sağlanır. Kutup ışıkları (Aurora) burada oluşur.</li>
+    </ul>
+
+    <h2>2. İKLİM ELEMANLARI</h2>
+    <p>Bir yerin iklim yapısını oluşturan temel bileşenler sıcaklık, basınç, rüzgarlar, nem ve yağıştır.</p>
+
+    <h3>A) Sıcaklık ve Dağılışını Etkileyen Faktörler</h3>
+    <p>Sıcaklık, iklim elemanlarının en önemlisidir; basınç ve nemi doğrudan kontrol eder. Dağılışını şu faktörler belirler:
+    <br>• <strong>Enlem (Güneş Işınlarının Açısı):</strong> Ekvatordan kutuplara gidildikçe ışınların açısı daralır, sıcaklık azalır.
+    <br>• <strong>Yükselti:</strong> Troposfer alttan ısındığı için yükseldikçe sıcaklık azalır. <u>İndirgenmiş sıcaklık</u> hesaplanırken yükselti yok sayılır (deniz seviyesi kabul edilir) ve her 200 metre için sıcaklığa 1°C eklenir.
+    <br>• <strong>Kara ve Denizlerin Dağılışı:</strong> Karalar erken ısınır, erken soğur (Sert iklim). Denizler geç ısınır, geç soğur (Ilıman iklim). Kuzey Yarım Küre'de karalar daha fazla olduğu için yıllık sıcaklık farkları Güney Yarım Küre'ye göre çok daha yüksektir.
+    <br>• <strong>Bakı:</strong> Güneşe dönük yamaçların daha fazla ısınmasıdır. Kuzey Yarım Küre'de dağların **güney** yamaçları, Güney Yarım Küre'de ise **kuzey** yamaçları bakı etkisi altındadır.</p>
+
+    <h3>B) Basınç Merkezleri ve Rüzgarlar</h3>
+    <p>Yeryüzüne düşen gazların ağırlığına atmosfer basıncı denir (Normal basınç 1013 milibar). Sıcaklığa bağlı oluşan basınçlara <strong>Termik</strong>, dünyanın günlük hareketine bağlı oluşan basınçlara <strong>Dinamik</strong> basınç denir.</p>
+    <ul>
+        <li><strong>Alçak Basınç (Yükselici Hava):</strong> Hava ısınarak yükselir. Merkezde hava bulutludur, yağış ihtimali yüksektir. Rüzgar, çevreden merkeze doğru eser.</li>
+        <li><strong>Yüksek Basınç (Alçalıcı Hava):</strong> Hava soğuyarak ağırlaşır ve alçalır. Hava açıktır, ayaz olur, yağış oluşmaz (Çöller bu yüzden yüksek basınç alanlarıdır). Rüzgar, merkezden çevreye doğru eser.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ RÜZGAR TÜRLERİ:</strong>
+        <br>• <strong>Fön (Föhn) Rüzgarı:</strong> Bir hava kütlesinin dağ yamacını aşarak diğer tarafta aşağıya doğru alçalmasıyla oluşur. Alçalan hava sürtünmenin etkisiyle <strong>her 100 metrede 1°C ısınır</strong> (Normal rüzgarlardan iki kat daha hızlı ısınır). Kurutucu etki yapar, tarım ürünlerini erken olgunlaştırır, karları aniden eriterek çığ riskini artırır. Türkiye'de Doğu Karadeniz ve Toroslar'da yaygındır.
+        <br>• <strong>Meltem Rüzgarları:</strong> Dünyanın günlük hareketine bağlı olarak gün içindeki geçici sıcaklık ve basınç farklarından doğan <strong>yerel rüzgarlardır.</strong> Etki alanları dardır, yağış bırakmazlar. Deniz-Kara ve Dağ-Vadi meltemi olarak ayrılırlar.
+    </div>
+
+    <h3>C) Nem ve Yağış Türleri</h3>
+    <p>Havadaki su buharına nem denir. <strong>Mutlak Nem:</strong> Havada o an var olan nem miktarıdır (Deniz kenarlarında fazladır). <strong>Maksimum Nem:</strong> Havanın sıcaklığa bağlı olarak taşıyabileceği en yüksek nem kapasitesidir (Sıcaklık arttıkça hava genişler, maksimum nem artar; en fazla çöllerde ve Güneydoğu Anadolu'da yazındır). <strong>Bağıl Nem:</strong> Mutlak nemin maksimum neme oranıdır. Bağıl nem %100'e ulaştığında hava doyma noktasına gelir, üzerine çıkan her değer <strong>yağış</strong> olarak düşer (Bağıl nem en fazla Karadeniz'dedir ve soğuk havada artır).</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Yağış Oluşum Türü</th>
+                <th>Mekanizması</th>
+                <th>Dünyada ve Türkiye'de Görüldüğü Yerler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Konveksiyonel (Yükselim)</strong></td>
+                <td>Isınan havanın dikey olarak yükselip soğumasıyla oluşur (Kırkikindi yağmurları).</td>
+                <td>Dünyada: Ekvatoral bölge. <br>Türkiye'de: İç Anadolu (İlkbahar) ve Doğu Anadolu (Yaz).</td>
+            </tr>
+            <tr>
+                <td><strong>Orografik (Yamaç)</strong></td>
+                <td>Nemli hava kütlesinin bir dağ yamacına çarparak yükselmesi ve soğumasıyla oluşur.</td>
+                <td>Dünyada: Muson Asyası (Hindistan). <br>Türkiye'de: Karadeniz ve Akdeniz kıyı dağları.</td>
+            </tr>
+            <tr>
+                <td><strong>Cephesel (Frontal)</strong></td>
+                <td>Sıcak hava ile soğuk havanın karşılaşma alanlarında (cephelerde) oluşur.</td>
+                <td>Dünyada: 60° enlemleri ve Akdeniz Havzası. <br>Türkiye'de: Kış aylarında tüm ülkede (Özellikle Akdeniz kıyıları).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. DÜNYADAKİ BÜYÜK İKLİM TİPLERİ (MAKROKLİMALAR)</h2>
+    <ul>
+        <li><strong>Ekvatoral İklim:</strong> Her mevsim sıcak ve her mevsim yağışlıdır (Yıllık yağış rejiminin düzenli olduğu iki iklimden biridir). Kimyasal çözünme fazladır. Doğal bitki örtüsü yıl boyu yeşil kalan <strong>yağmur ormanlarıdır.</strong> Amazon ve Kongo havzalarında görülür.</li>
+        <li><strong>Akdeniz İklimi:</strong> Yazlar sıcak ve kurak, kışlar ılık ve yağışlıdır. En fazla yağışı kışın alır. Doğal bitki örtüsü kızılçam ormanlarının tahrip edilmesiyle oluşan bodur çalılıklar yani <strong>maki</strong>lerdir (Zeytin, zakkum, defne). Akdeniz çevresi, California, Kap Bölgesi (G. Afrika) ve Avustralya'nın güneybatısında görülür.</li>
+        <li><strong>Muson İklimi:</strong> Yaz musonları nedeniyle <strong>yaz mevsimi aşırı yağışlı</strong>, kış mevsimi ise kuraktır. Dünyanın en fazla yağış alan iklim bölgesidir (Çerapunçi). Doğal bitki örtüsü kışın yaprağını döken gür muson ormanlarıdır (Teak ağacı). Güney ve Güneydoğu Asya'da (Hindistan, Çin, Japonya) etkilidir.</li>
+        <li><strong>Tundra İklimi:</strong> Yılın 10 ayı sıcaklık 0°C'nin altındadır. Yazın sıcaklık birkaç dereceye çıkınca topraklar çözülerek bataklığa dönüşür. Bitki örtüsü yosunsu çalılar olan <strong>tundra</strong>lardır. Sibirya ve Kanada'nın kuzeyinde görülür.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Atmosferin en alt katmanı olan Troposfer'de gazların büyük bir kısmı ve su buharının (nemin) tamamı yer almaktadır. Bu katmanda sıcaklık, yerden yükseldikçe her 200 metrede ortalama 1°C azalmaktadır. <br><br>
+        Troposfer tabakasındaki su buharının tamamının bu katmanda bulunmasının doğurduğu <u>en hayati</u> coğrafi sonuç aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Güneş'ten gelen zararlı ultraviyole ışınlarının tamamen filtrelenmesi</li>
+            <li>B) Yağış, bulut, sis ve nem gibi tüm iklim ve meteoroloji olaylarının sadece bu katmanda gerçekleşmesi</li>
+            <li>C) Radyo ve iletişim sinyallerinin kesintisiz yeryüzüne geri yansıtılması</li>
+            <li>D) Yatay hava hareketleri olan jet rüzgarlarının maksimum hıza ulaşması</li>
+            <li>E) Meteorların yeryüzüne düşmeden sürtünmeyle parçalanması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Yağış, sis, bulut gibi meteorolojik olayların oluşabilmesi için ortamda mutlaka su buharının (nemin) bulunması şarttır. Su buharının tamamı yer çekiminin etkisiyle en alt katman olan Troposfer'de toplandığı için, **iklim olayları atmosferin diğer üst katmanlarında görülmez, sadece Troposfer'de yaşanır**. A şıkkı Ozonosfer'in, C şıkkı Termosfer'in, E şıkkı ise Mezosfer'in görevidir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir dağ yamacı boyunca yükselen hava kütlesi her 200 metrede 1°C soğurken; zirveyi aşıp dağın diğer yamacından aşağıya doğru dikey olarak alçalan hava kütlesi (Fön rüzgarı) her 100 metrede 1°C ısınmaktadır. <br><br>
+        Fön rüzgarlarının aşağı doğru inerken normalden iki kat daha hızlı ısınmasının temel fiziksel gerekçesi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Alçalan havanın nem taşıma kapasitesinin (maksimum neminin) aniden azalması</li>
+            <li>B) Hava kütlesinin dikey yönde alçalırken dağ yüzeyine sürtünmesi ve sıkışarak kinetik enerjinin ısıya dönüşmesi</li>
+            <li>C) Dağın arka yamacında bitki örtüsünün daha gür ve sık olması</li>
+            <li>D) Yüksek basınç merkezlerinin deniz seviyesinde hava yoğunluğunu azaltması</li>
+            <li>E) Güneş ışınlarının arka yamaca yıl boyunca daha dik açıyla düşmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Yükselen hava serbestçe genişlediği için normal hızda soğur (200m'de 1°C). Ancak yer çekiminin etkisiyle dağ yamacından aşağıya doğru hızla çöken hava, hem alçaldıkça yoğunlaşır/sıkışır hem de **dağ yüzeyine yoğun bir şekilde sürtünür**. Bu sürtünme ve gaz sıkışması ekstra bir ısı üreterek Fön rüzgarlarının her 100 metrede 1°C (normalin iki katı) hızla ısınmasını sağlar. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir hava kütlesinin sıcaklığı arttıkça havada genleşme meydana gelir ve havanın nem taşıma kapasitesi (maksimum nemi) yükselir. Sıcaklık azaldıkça ise hava büzüşür, nem taşıma kapasitesi düşer ve havanın doymuşluğunu ifade eden bağııl nem oranı artar. <br><br>
+        Buna göre, gün içindeki sıcaklık değişimi düşünüldüğünde, bir bölgede bağıl nem oranının en yüksek seviyeye ulaşarak <u>yağış ihtimalinin en fazla arttığı günün anı</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Güneş ışınlarının en dik geldiği öğle vakti (12.00)</li>
+            <li>B) Günün en sıcak anı olan öğleden sonra (14.00 - 15.00 arası)</li>
+            <li>C) Güneşin batmasından hemen sonraki akşam vakti</li>
+            <li>D) Günün en soğuk anı olan güneşin doğmasından hemen önceki şafak vakti</li>
+            <li>E) Gece yarısı (24.00)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Havanın soğuması, büzüşmesine ve maksimum nemin (kapasitenin) küçülmesine neden olur. İçindeki mutlak nem sabit kalırken havanın küçülmesi, havanın doluluk oranını (bağıl nemi) yukarı taşır ve doyma noktasına yaklaştırır. Günün en soğuk anı ısı kaybının zirve yaptığı **güneşin doğmasından hemen önceki an (şafak vakti)** olduğu için, hava bu anda en dar halindedir, bağıl nem en yüksektir ve sis/çiğ/yağış oluşma ihtimali maksimumdur. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> "Yaz mevsiminde denizden karaya doğru esen nemli rüzgarlar Himalaya Dağları'na çarparak yükselir ve dünyanın en yüksek yağış rejimini oluşturur. Kışın ise karadan denize doğru estiği için bölgede kurak bir dönem yaşanır." <br><br>
+        Yukarıda mekanizması ve mevsimsel özellikleri anlatılan küresel iklim tipi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ekvatoral İklim</li>
+            <li>B) Akdeniz İklimi</li>
+            <li>C) Muson İklimi</li>
+            <li>D) Tundra İklimi</li>
+            <li>E) Karasal İklim</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Metindeki anahtar kelimeler "Himalaya Dağları", "mevsimlik yön değiştiren rüzgarlar (Musonlar)" ve "yazın aşırı yağış, kışın kuraklık" ifadeleridir. Bu mekanizma doğrudan Güney ve Güneydoğu Asya'da etkili olan <strong>Muson İklimi</strong>'ne aittir. Ekvatoral iklim her mevsim yağışlıdır, Akdeniz ise kışın yağışlıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Coğrafya dersinde iklim tiplerini harita üzerinde çalışan bir öğrenci; California (ABD), Orta Şili, Güney Afrika'nın Kap Bölgesi ve Avustralya'nın güneybatı kıyılarının aynı renk tonuyla boyandığını fark etmiştir. <br><br>
+        Haritadaki bu alanların ortak bir renge boyanmasının temel nedeni, bu bölgelerin aşağıdaki coğrafi özelliklerden hangisi bakımından ortak olmasıdır?</div>
+        <ul class="options-list">
+            <li>A) Yıllık sıcaklık ortalamalarının 0°C'nin altında olması</li>
+            <li>B) Doğal bitki örtülerinin gür yağmur ormanlarından oluşması</li>
+            <li>C) Akdeniz iklim özelliklerinin ve maki bitki topluluğunun görülmesi</li>
+            <li>D) Aktif volkanik dağların ve deprem kuşaklarının bulunması</li>
+            <li>E) Tamamının Kuzey Yarım Küre'de yer alması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Akdeniz havzası dışında dünyada Akdeniz ikliminin görüldüğü özel yerler ÖSYM tarafından harita sorularında sıkça sorulur. California, Orta Şili, Kap Bölgesi ve Güneybatı Avustralya dünyada **Akdeniz İklimi**'nin mikro alanlar olarak görüldüğü ve bodur çalıların (maki) ortak bitki örtüsü olduğu alanlardır. Bu yüzden aynı iklim bölgesini temsil ederler. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

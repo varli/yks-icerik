@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya - Ünite 5: Yerin İç Yapısı ve İç Kuvvetler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT COĞRAFYA - MODÜL 5: YERİN İÇ YAPISI VE İÇ KUVVETLER</h1>
+        <p>Dünyanın Katmanları, Levha Tektoniği Teorisi, Orojenez, Epirojenez ve Tektonik Döngüler</p>
+    </div>
+
+    <h2>1. DÜNYANIN İÇ YAPISI VE GEOSFERLER</h2>
+    <p>Dünyanın iç yapısı hakkındaki doğrudan bilgilere maden kazıları, derin sondajlar veya volkanik patlamalarla ulaşmak imkansızdır; çünkü en derin sondaj bile yer kabuğunun dış yüzeyini aşamamıştır. Yerin derinlikleri hakkındaki en bilimsel ve net veriler <strong>deprem (sismik) dalgalarının</strong> katmanlardaki kırılma ve hız değişimlerinden elde edilir. Dünya merkezine doğru gidildikçe sıcaklık, basınç ve yoğunluk sürekli artar. Dünya dıştan içe doğru üç ana katmandan oluşur:</p>
+    <ul>
+        <li><strong>Yer Kabuğu (Litosfer):</strong> Dünyanın en dış, en ince ve en hafif katmanıdır. İki alt tabakaya ayrılır: <br>
+        • <em>Sial (Granitik Kabuk):</em> Silisyum ve alüminyum ağırlıklıdır. Karaların altında kalın, okyanus tabanlarında çok incedir. <br>
+        • <em>Sima (Bazaltik Kabuk):</em> Silisyum ve magnezyum ağırlıklıdır. Okyanus tabanlarında kalın, karaların altında incedir.</li>
+        <li><strong>Manto:</strong> Yer kabuğunun altından başlayıp çekirdeğe kadar uzanan, <u>dünyanın toplam hacminin yaklaşık %84'ünü oluşturan</u> devasa katmandır. Üst kısmına akışkan ve kızgın magmanın bulunduğu <strong>Astenosfer</strong> denir. Magmadaki sıcaklık ve basınç farklarından dolayı dikey yönlü <strong>konveksiyonel akıntılar</strong> meydana gelir. Bu akıntılar, iç kuvvetlerin (deprem, volkanizma, orojenez) ana enerji kaynağıdır.</li>
+        <li><strong>Çekirdek (Barisfer):</strong> Dünyanın en iç, en yoğun ve en sıcak katmanıdır. Demir ve nikelden oluştuğu için nife de denir. Dünyanın manyetik alanını ve yer çekimini oluşturan merkezdir.</li>
+    </ul>
+
+    <h2>2. LEVHA TEKTONİĞİ TEORİSİ</h2>
+    <p>Alfred Wegener tarafından 1912 yılında "Kıtaların Kayması Teorisi" adıyla ortaya atılan, günümüzde ise "Levha Tektoniği" olarak adlandırılan teoriye göre; yer kabuğu tek parça değildir, bir yapboz gibi "Levha" adı verilen büyük parçalara ayrılmıştır. Bu levhalar Mantodaki konveksiyonel akıntıların üzerinde yüzer pozisyondadır ve sürekli hareket halindedir. Geçmişte tüm kıtalar <strong>Pangea</strong> adı verilen tek bir dev kıtadır; zamanla levha hareketleriyle ayrılarak bugünkü görünümünü almıştır.</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM BU KANITLARI SORAR (Kıtaların Geçmişte Bir Arada Olduğunun Kanıtları):</strong>
+        <br>1. Güney Amerika'nın doğu kıyıları ile Afrika'nın batı kıyılarının bir yapboz gibi birbirine tam oturması.
+        <br>2. Farklı kıtalardaki (bugün aralarında okyanus olan) dağ sıralarının ve yaşlı kayaç yapılarının jeolojik olarak birbirinin devamı olması.
+        <br>3. Benzer sürüngen ve bitki fosillerinin (örneğin Mesosaurus fosili) okyanuslarla ayrılmış farklı kıtalarda birebir aynı yaşta bulunması.
+    </div>
+
+    <h2>3. İÇ KUVVETLER VE YERYÜZÜNÜN ŞEKİLLENMESİ</h2>
+    <p>Enerjisini yerin derinliklerindeki magmadan (Manto) alan, yeryüzünde yeni yer şekilleri oluşturan, yani <strong>yapıcı</strong> etkiye sahip kuvvetlere iç kuvvetler denir. Dört ana başlıkta incelenir:</p>
+
+    <h3>A) Orojenez (Dağ Oluşumu)</h3>
+    <p>Deniz ve okyanus tabanlarındaki tortul alanların (jeosenklinal) levhaların yan basınçlarıyla sıkışarak yükselmesi sürecidir. Tortul tabakaların esneklik durumuna göre iki tip dağ oluşur:</p>
+    <ul>
+        <li><strong>Kıvrımlı Dağlar:</strong> Eğer tabakalar esnek ve yumuşak ise yan basınçlarla kıvrılarak yükselir. Kıvrılma sonucu yüksekte kalan kubbe kısımlarına <strong>Antiklinal</strong>, alçakta kalan çanak kısımlarına ise <strong>Senklinal</strong> denir. <br><em>Dünyada:</em> Alp, Himalaya, And ve Kayalık dağları. <em>Türkiye'de:</em> Kuzey Anadolu Dağları ve Toroslar.</li>
+        <li><strong>Kırıklı Dağlar:</strong> Eğer tabakalar yaşlı, sert ve esneklik özelliğini yitirmiş ise yan basınçlar karşısında kıvrılamaz ve kırılır. Kırılma hatlarına <strong>Fay</strong> denir. Kırılma sonucu yüksekte kalan bloklara <strong>Horst</strong>, alçakta kalan çöküntü alanlarına ise <strong>Graben</strong> denir. <br><em>Türkiye'de en yaygın:</em> Ege Bölgesi (Yunt, Madra, Bozdağlar horst; Gediz, Küçük ve Büyük Menderes grabendir). Ayrıca Hatay'daki Nur (Amanos) Dağları bir horsttur.</li>
+    </ul>
+
+    <h3>B) Epirojenez (Kıta Oluşumu)</h3>
+    <p>Yer kabuğu levhalarının dikey yönde, geniş alanlarda yavaşça yükselmesi veya alçalması hareketidir. Epirojenezin gerçekleşmesi için yer kabuğunun dengesini ifade eden <strong>İzostatik Denge</strong>'nin bozulması gerekir. Karaların üzerindeki yük artarsa (buzullaşma, volkanik malzeme birikmesi) kara ağırlaşır ve mantoya çöker. Yük azalırsa (buzulların erimesi, dış kuvvetlerin aşındırması) kara hafifler ve yükselir. İki kritik terimi vardır:</p>
+    <ul>
+        <li><strong>Transgresyon (Deniz İlerlemesi):</strong> Karaların ağırlaşıp mantoya doğru çökmesi durumunda deniz suları karanın iç kısımlarına doğru ilerler, sahil çizgisi içeri kayar.</li>
+        <li><strong>Regresyon (Deniz Gerilemesi):</strong> Karaların hafifleyip yükselmesi durumunda deniz suları geri çekilir, eski deniz tabanları kara haline gelir ve kıyılarda <strong>Taraça (Sekiler)</strong> oluşur.</li>
+    </ul>
+
+    <h3>C) Volkanizma</h3>
+    <p>Magmanın yer kabuğunun zayıf ve çatlak hatlarından (fay hatlarından) yeryüzüne çıkması veya yerin derinliklerinde soğuması olayıdır. Derinlik volkanizmasında magma yüzeye çıkamaz, yerin altında soğur ve **Batolit, Lakolit, Sill, Dik** adı verilen iç şekilleri oluşturur. Yüzey volkanizmasında ise lav, tüf, lapilli dışarı çıkar. Volkan ağzındaki patlama çukurlarına **Krater**, kraterin büyümesiyle oluşan dev çukurlara **Kaldera**, gaz patlamasıyla oluşan çukurlara ise **Maar** denir.</p>
+
+    <h3>D) Depremler (Seizma)</h3>
+    <p>Yer kabuğundaki ani sarsıntılardır. Oluşum nedenlerine göre çöktüntü (karstik mağara tavanlarının çökmesiyle, dar etkilidir), volkanik (volkan patlaması esnasında) ve <strong>Tektonik depremler</strong> olarak ayrılır. Sınavda sorulan büyük depremlerin tamamı fay hatlarına bağlı tektonik depremlerdir. Depremin yerin altındaki odak noktasına *İç merkez (Hiposantr)*, yeryüzündeki en kısa dik izdüşümüne ise *Dış merkez (Episantr)* denir.</p>
+
+    <h2>4. DÜNYANIN VE TÜRKİYE'NİN TEKTONİK RİSK ALANLARI</h2>
+    <p>Dünya haritası üzerinde <strong>Levha Sınırları = Fay Hatları = Aktif Volkanlar = Tektonik Depremler = Sıcak Su Kaynakları (Jeotermal/Gayzer)</strong> coğrafi olarak birbirleriyle birebir paralellik gösterir. Dünya haritasına büyük bir <strong>"H" harfi</strong> çizildiğinde risk alanları ortaya çıkar: Pasifik Kıyıları (Ateş Çemberi), Amerika'nın batısı, Alp-Himalaya kuşağı ve Atlas Okyanusu ortası.</p>
+    <p>Türkiye, Alp-Himalaya deprem kuşağı üzerinde yer alan genç oluşumlu bir ülkedir. Ülkemizde 3 ana fay sistemi vardır: <strong>KAF</strong> (Saros Körfezi'nden Van'a kadar uzanan Kuzey Anadolu Fayı), <strong>DAF</strong> (Hatay'dan başlayıp Bingöl'e uzanan Doğu Anadolu Fayı) ve <strong>BAF</strong> (Ege'deki kırıklı Horst-Graben sistemini kapsayan Batı Anadolu Fayı).</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Yer kabuğunun altında yer alan kızgın ve akışkan Manto katmanında meydana gelen dikey yönlü konveksiyonel akıntılar, yer kabuğu levhalarının sürekli hareket etmesine yol açar. <br><br>
+        Buna göre, Mantodaki bu konveksiyonel akıntıların yeryüzünde doğrudan ortaya çıkardığı aşağıdaki gelişmelerden hangisi iç kuvvetlerin <u>"yapıcı ve yeni alanlar oluşturan"</u> özelliğine örnek gösterilebilir?</div>
+        <ul class="options-list">
+            <li>A) Akarsuların yataklarını derinlemesine aşındırarak vadi yapması</li>
+            <li>B) Okyanus ortası yarıklarında magmanın soğumasıyla yeni deniz tabanlarının ve volkanik adaların oluşması</li>
+            <li>C) Rüzgarların taşıdığı lösleri kurak bölgelerde biriktirmesi</li>
+            <li>D) Karstik mağaraların tavanlarının çökmesiyle obrukların meydana gelmesi</li>
+            <li>E) Buzulların erimesiyle kıyı çizgilerinin değişmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Enerjisini magmadan alan kuvvetler iç kuvvetlerdir ve yeryüzünde yeni yer şekilleri, dağlar, okyanus tabanları inşa ederler (Yapıcı etki). B seçeneğinde okyanus ortası sırtlarda magmanın dışarı çıkarak katılaşması, yeni bir yer kabuğu kabuğunun ve volkanik adaların (Örn: İzlanda) yapılması doğrudan iç kuvvetlerin yapıcı özelliğidir. A, C ve D şıkları ise enerjisini güneş ve atmosferden alan, yeryüzünü düzleştirmeye ve **yıkmaya/aşındırmaya** çalışan dış kuvvetlerin veya çökmelerin konusudur. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir jeolog araştırma yapmak için gittiği bir dağlık bölgede, tabakaların yan basınçlara uğrayarak kırıldığını, fay hatları boyunca bazı blokların yükselerek horstları, alçalan blokların ise graben ovalarını oluşturduğunu gözlemlemiştir. <br><br>
+        Bu jeoloğun inceleme yaptığı saha, coğrafi özellikleri dikkate alındığında Türkiye'de öncelikle aşağıdaki alanların hangisinde yer almaktadır?</div>
+        <ul class="options-list">
+            <li>A) Doğu Karadeniz Dağ Kuşağı</li>
+            <li>B) Teke Yarımadası</li>
+            <li>C) Kıyı Ege Bölümü</li>
+            <li>D) Konya Ovası ve Çevresi</li>
+            <li>E) Yıldız Dağları Bölümü</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Yan basınçlar karşısında sertleşmiş tabakaların kırılarak Horst ve Graben sistemlerini oluşturması olayına kırıklı orojenez denir. Türkiye'de kırıklı dağ oluşumunun, fay hatlarının ve horst-graben ovalarının (Gediz, Menderes) en yaygın ve karakteristik olarak görüldüğü coğrafi alan <strong>Kıyı Ege Bölümü</strong>'dür. Karadeniz ve Akdeniz'de ise kıvrımlı dağlar (antiklinal-senklinal) hakimdir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Kuzey Avrupa'da yer alan İskandinav Yarımadası, üzerindeki devasa buzul kütlelerinin Kuaterner sonlarında erimeye başlamasıyla birlikte her yıl birkaç milimetre hafifleyerek dikey yönde yükselmektedir. Bu yükselme sonucunda eski deniz kıyılarında basamaklı kıyı taraçaları (sekiler) oluşmaktadır." <br><br>
+        Yukarıdaki paragrafta mekanizması ve sonuçları anlatılan iç kuvvet aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Orojenez (Dağ oluşumu)</li>
+            <li>B) Epirojenez (Kıta oluşumu)</li>
+            <li>C) Volkanizma</li>
+            <li>D) Tektonik Depremler</li>
+            <li>E) Seizma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Geniş kara kütlelerinin üzerindeki yükün (buzul erimesi veya aşınma ile) hafiflemesi sonucu dikey yönde toptan yükselmesi veya çökmesi olayına <strong>Epirojenez (Kıta oluşumu)</strong> denir. Karaların yükselmesiyle deniz geriler (regresyon) ve kıyılarda basamaklı taraçalar oluşur. Metin doğrudan epirojenezin izostatik denge mekanizmasını tarif etmektedir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Yer kabuğunu oluşturan levhaların sınırları ile yeryüzündeki bazı coğrafi olguların dağılışı dünya haritasında birebir paralellik göstermektedir. <br><br>
+        Buna göre, aşağıdakilerden hangisinin coğrafi dağılışının levha sınırları ve fay hatları ile paralellik göstermesi <u>beklenemez</u>?</div>
+        <ul class="options-list">
+            <li>A) Tektonik deprem riski yüksek alanlar</li>
+            <li>B) Aktif yüzey volkanizmasının bulunduğu bölgeler</li>
+            <li>C) Jeotermal (sıcak su) kaynakları ve kaplıcalar</li>
+            <li>D) Karstik aşınma şekilleri olan lapyalar ve mağaralar</li>
+            <li>E) Genç kıvrım dağ kuşakları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Fay hatları ve levha sınırları; depremleri (A), volkanları (B), sıcak su kaynaklarını (C) ve genç dağları (E) doğrudan belirler. Ancak D seçeneğinde yer alan karstik aşınma şekilleri (lapya, mağara) yerin tektonik yapısıyla değil, tamamen arazinin kayaç yapısıyla (kalker, jips gibi **kimyasal tortul kayaçların** varlığıyla) ilgilidir. Suda kolay eriyen taşlarla alakalıdır, fay hatlarına bağlı değildir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Türkiye, jeolojik geçmişi düşünüldüğünde Üçüncü Zamanın (Tersiyer) sonları ile Dördüncü Zamanın (Kuaterner) başlarında Alp-Himalaya kıvrım sisteminden etkilenmiş, toptan yükselmelere uğramış genç oluşumlu bir arazi yapısına sahiptir. <br><br>
+        Aşağıdakilerden hangisi Türkiye'nin bu <strong>"genç jeolojik oluşumlu"</strong> yapısının doğrudan bir kanıtı <u>değildir</u>?</div>
+        <ul class="options-list">
+            <li>A) Sık sık yıkıcı tektonik depremlerin meydana gelmesi</li>
+            <li>B) Ülke genelinde zengin linyit, petrol ve bor yataklarının bulunması</li>
+            <li>C) Akarsuların yatak eğimlerinin fazla, akış hızlarının yüksek olması</li>
+            <li>D) Taş kömürü yataklarının geniş alanlar kaplaması</li>
+            <li>E) Jeotermal enerji ve sıcak su kaynaklarının (kaplıca) yaygın olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Depremler (A), linyit/bor yatakları (B), akarsuların yüksek eğimli akması (C) ve sıcak sular (E) bir ülkenin yakın jeolojik zamanda (3. ve 4. zaman) oluştuğunun, yani genç olduğunun kanıtıdır. Ancak D seçeneğindeki <strong>Taş kömürü</strong>, Birinci Jeolojik Zamanda (Paleozoik) oluşan çok yaşlı kalıntılardır. Taş kömürünün varlığı arazinin genç değil, yaşlı (masif) olduğunu gösterir (Örn: Zonguldak arazisi masiftir). Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

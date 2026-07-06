@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Coğrafya - Ünite 2: Dünyanın Şekli ve Hareketleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT COĞRAFYA - MODÜL 2: DÜNYANIN ŞEKLI VE HAREKETLERI</h1>
+        <p>Geoid ve Küresel Şeklin Farkları, Eksen Hareketi ve Yıllık Döngünün Mekansal Analizi</p>
+    </div>
+
+    <h2>1. DÜNYANIN ŞEKLİ VE SONUÇLARI</h2>
+    <p>Dünya, kutuplardan hafifçe basık, ekvatordan ise şişkin kendine has bir şekle sahiptir. Bu özel geometrik şekle <strong>Geoid</strong> denir. Dünyanın şekliyle ilgili sorular incelenirken "Sadece Geoid olmanın sonuçları" ile "Dünyanın genel küresel şeklinin sonuçları" birbirine karıştırılmamalıdır.</p>
+
+    <h3>A) Sadece Geoid (Kutuplardan Basık) Olmanın Sonuçları</h3>
+    <p>Dünyanın geoid yapısı, yerin merkezine olan uzaklık farklarından ötürü fiziksel bazı sapmalar doğurur. Testlerde sadece şu 3 madde geoid olmanın kanıtıdır:</p>
+    <ul>
+        <li><strong>Yer Çekimi Farkı:</strong> Kutuplar yerin merkezine (çekirdeğe) daha yakın olduğu için <strong>yer çekimi kutuplarda ekvatora göre daha fazladır.</strong></li>
+        <li>Ekvator yarıçapının, kutuplar yarıçapından daha uzun olması (yaklaşık 21 km).</li>
+        <li>Ekvator çevre uzunluğunun, tam bir meridyen dairesinin çevre uzunluğundan daha fazla olması.</li>
+    </ul>
+
+    <h3>B) Dünyanın Küresel Şeklinin Sonuçları (Ekvatordan Kutuplara Değişenler)</h3>
+    <p>Dünya tam bir küre olsaydı da gerçekleşecek olan, güneş ışınlarının açısına bağlı sonuçlardır:</p>
+    <ul>
+        <li><strong>Güneş Işınlarının Geliş Açısı:</strong> Ekvatordan kutuplara doğru gidildikçe güneş ışınlarının yere düşme açısı daralır. Buna bağlı olarak; sıcaklık azalır, kalıcı kar sınırı, denizlerin tuzluluk oranı, tarım ve orman üst sınırı ekvatordan kutuplara doğru <u>aşağıya (deniz seviyesine) iner.</u></li>
+        <li><strong>Çizgisel Hız:</strong> Dünyanın kendi ekseni etrafındaki dönüş hızı (çizgisel hız) Ekvatordan kutuplara doğru azalır (Kutuplarda sıfırdır). Buna bağlı olarak güneşin doğuş (tan) ve batış (gurup) süreleri kutuplara doğru uzar. Kutuplarda güneş çok yavaş doğar ve batar.</li>
+        <li><strong>Paralel ve Meridyen Boyları:</strong> Paralellerin çevre uzunlukları kutuplara doğru kısalır. İki meridyen arasındaki mesafe sadece Ekvatorda 111 km'dir; kutuplara gidildikçe meridyenler birleştiği için bu mesafe daralır.</li>
+        <li><strong>Termik Basınç Kuşakları:</strong> Dünyanın küresel şeklinden dolayı Ekvator sürekli sıcak (Termik Alçak Basınç), Kutuplar sürekli soğuktur (Termik Yüksek Basınç).</li>
+    </ul>
+
+    <h2>2. DÜNYANIN GÜNLÜK (EKSEN) HAREKETİ VE SONUÇLARI</h2>
+    <p>Dünyanın kendi ekseni etrafında batıdan doğuya doğru 24 saatte yaptığı dönüşe günlük hareket denir. Bu hareketin en önemli sonuçları şunlardır:</p>
+    <ul>
+        <li><strong>Gece ve Gündüzün Ardalanması:</strong> Gece ve gündüz birbirini kesintisiz olarak takip eder. (Dünyanın şekli gece-gündüzü oluşturur, günlük hareket ise bunların ardalanmasını sağlar).</li>
+        <li><strong>Günün İçindeki Değişimler:</strong> Gün içinde güneş ışınlarının açısı sürekli değişir. Sabah dar, öğlen dik, akşam dar açıyla gelir. Buna bağlı olarak; günlük sıcaklık farkları oluşur, fiziksel (mekanik) çözünme meydana gelir ve gün içinde gölge boyu ile gölge yönü değişir.</li>
+        <li><strong>Dinamik Basınç Kuşakları:</strong> Günlük hareketten dolayı havanın savrulması (Coriolis etkisi) sonucu 30° enlemlerinde Dinamik Yüksek Basınç (çöller oluşur), 60° enlemlerinde ise Dinamik Alçak Basınç kuşakları meydana gelir.</li>
+        <li><strong>Sürekli Rüzgarlarda Sapma:</strong> Rüzgarlar ve okyanus akıntıları düz esemez; Kuzey Yarım Küre'de hareket yönünün <strong>sağına</strong>, Güney Yarım Küre'de ise hareket yönünün <strong>soluna</strong> saparlar.</li>
+        <li><strong>Yerel Saat Farkları:</strong> Dünya batıdan doğuya döndüğü için doğudaki yerlerin yerel saati her zaman batıdakilere göre daha ileridir.</li>
+    </ul>
+
+    <h2>3. DÜNYANIN YILLIK HAREKETİ VE EKSEN EĞİKLİĞİ</h2>
+    <p>Dünya, Güneş'in etrafındaki dönüşünü elips bir yörüngede 365 gün 6 saatte tamamlar. Bu esnada yer ekseni, ekliptik (yörünge) düzlemine tam dik değildir; <strong>23° 27'lik bir eğikliğe sahiptir.</strong> Sınavda yıllık hareket ile eksen eğikliğinin sonuçları aynı kabul edilir.</p>
+
+    <div class="highlight-box">
+        <strong>Dünyanın Yıllık Hareketi ve Eksen Eğikliğinin Sonuçları:</strong>
+        <ol>
+            <li>Güneş ışınlarının bir noktaya düşme açısı <strong>yıl içinde</strong> sürekli değişir.</li>
+            <li>Buna bağlı olarak <strong>mevsimler</strong> oluşur ve aynı anda iki yarım kürede farklı mevsimler yaşanır.</li>
+            <li>Yıl içinde gece ve gündüz süreleri sürekli değişir (Ekvator hariç, ekvatorda hep 12 saattir).</li>
+            <li>Güneşin doğduğu ve battığı yer ile saatler yıl boyunca değişir.</li>
+            <li><strong>Aydınlanma Çemberi</strong> (Gece ile gündüzü ayıran çizgi) yıl içinde kutup noktaları ile kutup daireleri arasında sürekli yer değiştirir.</li>
+            <li>Matematiksel iklim kuşaklarının sınırları belirlenir (Dönenceler 23°27', Kutup Daireleri 66°33').</li>
+            <li>Kara ve denizlerin yıl içinde farklı ısınmasıyla <strong>Muson Rüzgarları</strong> oluşur.</li>
+        </ol>
+    </div>
+
+    <div class="tip-box">
+        <strong>⚠️ YÖRÜNGENİN ELİPS OLMASININ ÖZEL SONUÇLARI (Eksen Eğikliği ile Karışanlar):</strong>
+        <br>Dünyanın yörüngesi tam daire değil elipstir. Bu yüzden Dünya Güneş'e bazen yaklaşır (Perihel - 3 Ocak), bazen uzaklaşır (Afhel - 4 Temmuz). Buna bağlı olarak:
+        <br>1. Dünyanın yörüngedeki dönüş hızı değişir. Güneş'e yakınken hızlı döner; bu yüzden <strong>Şubat ayı 28 gün çeker</strong> (kısadır).
+        <br>2. Uzakken yavaş döner; bu yüzden Kuzey Yarım Küre'de yaz ekinoksu 2 gün gecikir ve <strong>23 Eylül'de</strong> gerçekleşir (normalde 21'i olması gerekirken).
+        <br>3. Yarım kürelerde mevsim süreleri eşit olmaz. Kuzey yarım kürede yaz mevsimi daha uzundur.
+    </div>
+
+    <h2>4. KRİTİK SOLSTİS VE EKİNOKS TARİHLERİ ANALİZİ</h2>
+
+    <h3>A) 21 Haziran (Yaz Solstisi)</h3>
+    <p>Güneş ışınları Kuzey Yarım Küre'deki <strong>Yengeç Dönencesi'ne (23° 27' K)</strong> dik açıyla gelir. Kuzey Yarım Küre'de en uzun gündüz, Güney Yarım Küre'de en uzun gece yaşanır. Bu tarihten sonra Kuzey Yarım Küre'de gündüzler kısalmaya başlar. Aydınlanma çemberi kutup dairelerine (66° 33') teğet geçer. Kuzeye doğru gidildikçe gündüz süresi uzar.</p>
+
+    <h3>B) 21 Aralık (Kış Solstisi)</h3>
+    <p>Güneş ışınları Güney Yarım Küre'deki <strong>Oğlak Dönencesi'ne (23° 27' G)</strong> dik açıyla gelir. Güney Yarım Küre'de yaz, Kuzey Yarım Küre'de kış başlar. Kuzey Yarım Küre'de en uzun gece, en kısa gündüz yaşanır. Kuzeye doğru gidildikçe gece süresi uzar; Kuzey Kutup Dairesi tamamen karanlıktır.</p>
+
+    <h3>C) 21 Mart ve 23 Eylül (Ekinoks - Gece Gündüz Eşitliği)</h3>
+    <p>Güneş ışınları <strong>Ekvator'a</strong> dik açıyla gelir. Aydınlanma çemberi kutup noktalarından (90°) tam teğet geçer. Dünyanın her yerinde <strong>12 saat gece, 12 saat gündüz (Ekinoks)</strong> yaşanır. Aynı meridyen üzerindeki tüm noktalarda güneş aynı anda doğar ve aynı anda batar.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Dünyanın kendine has geoid şekline bağlı olarak yer çekimi kuvveti Ekvatordan kutuplara doğru gidildikçe artmaktadır. <br><br>
+        Buna göre, yeryüzünde sadece dünyanın geoid şekliyle açıklanabilen bu durum, aşağıdakilerden hangisinin temel nedenidir?</div>
+        <ul class="options-list">
+            <li>A) Sıcaklığın kutuplara doğru azalmasının</li>
+            <li>B) Kutuplara yakın bölgelerde kalıcı kar sınırının deniz seviyesine inmesinin</li>
+            <li>C) Ekvatorda ağırlığı 100 kg olan bir nesnenin kutup noktalarında daha ağır ölçülmesinin</li>
+            <li>D) Çizgisel dönüş hızının Ekvatorda en yüksek seviyede olmasının</li>
+            <li>E) Paralel boylarının kutuplara doğru kısalmasının</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Yer çekimi, kütle çekim yasası gereği merkeze yaklaştıkça artar. Dünyanın geoid şeklinden dolayı kutuplar yerin merkezine daha yakın olduğundan orada yer çekimi fazladır. Dolayısıyla bir cismin dinamometreyle ölçülen ağırlığı kutuplara götürüldüğünde artar. A, B, D ve E şıkları ise geoid olmanın değil, dünyanın **küresel şeklinin** ve güneş ışınlarının açısının daralmasının sonuçlarıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> "Dünyanın kendi ekseni etrafındaki dönüş hızı olan çizgisel hız Ekvatordan kutuplara doğru azalır. Bu durum, güneşin doğuş ve batış anını ifade eden tan ve gurup sürelerinin kutuplara doğru uzamasına neden olur." <br><br>
+        Buna göre, coğrafi özellikleri düşünüldüğünde aşağıdaki şehirlerin hangisinde akşam vakti güneşin batışını (gurup vaktini) izleme süresi <u>en uzundur</u>?</div>
+        <ul class="options-list">
+            <li>A) Hatay</li>
+            <li>B) Antalya</li>
+            <li>C) İzmir</li>
+            <li>D) Ankara</li>
+            <li>E) Sinop</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> Çizgisel hız Ekvatorda en fazla, kutuplarda en azdır. Ekvatorda dünya çok hızlı döndüğü için güneş aniden doğar ve batar (alacakaranlık süresi kısadır). Kutuplara gidildikçe çizgisel hız azaldığı için güneşin batış anı yavaş gerçekleşir ve izleme süresi uzar. Türkiye'de en kuzeyde yer alan, yani kutba en yakın olan şehir <strong>Sinop</strong> olduğu için, orada çizgisel hız en az ve güneşin batışını izleme süresi en uzundur. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Aşağıda verilen coğrafi olgulardan hangisi, "Dünyanın günlük (eksen) hareketinin" değil, doğrudan **eksen eğikliği ve yıllık hareketinin** bir sonucudur?</div>
+        <ul class="options-list">
+            <li>A) Gün içinde gölge boylarının ve yönlerinin sürekli değişmesi</li>
+            <li>B) 30° ve 60° enlemlerinde dinamik kökenli basınç kuşaklarının oluşması</li>
+            <li>C) Sürekli rüzgarların Kuzey Yarım Küre'de hareket yönünün sağına sapması</li>
+            <li>D) Yıl içinde gece ve gündüz sürelerinin sürekli değişiklik göstermesi</li>
+            <li>E) Yerel saat farklarının ortaya çıkması ve doğuda saatin ileri olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> A, B, C ve E seçenekleri Dünyanın kendi ekseni etrafında 24 saatlik dönüşünün (günlük hareket) net sonuçlarıdır. Ancak D seçeneğinde yer alan "Gece ve gündüz sürelerinin **yıl içinde** değişmesi" durumu tamamen eksen eğikliği ve yıllık hareketin bir sonucudur. Cümlede "yıl içinde" ibaresi ipucudur. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Dünyanın Güneş etrafında döndüğü yörüngenin elips olması nedeniyle, Dünya Güneş'e ocak ayında en yakın (perihel), temmuz ayında ise en uzak (afhel) konumda bulunur. <br><br>
+        Aşağıdakilerden hangisi yörüngenin bu elips şeklinin doğurduğu özel sonuçlardan biridir?</div>
+        <ul class="options-list">
+            <li>A) Matematiksel iklim kuşaklarının sınırlarının çizilmesi</li>
+            <li>B) Şubat ayının diğer aylardan kısa sürerek 28 gün çekmesi</li>
+            <li>C) Aynı anda iki yarım kürede farklı mevsimlerin yaşanması</li>
+            <li>D) Ekvatorda gece ve gündüzün yıl boyunca 12 saat eşit kalması</li>
+            <li>E) Muson rüzgarlarının Asya kıtasında yön değiştirmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Dünya ocak ayında Güneş'e yaklaştığında Güneş'in çekim gücü artar ve Dünya yörüngede daha hızlı dönmeye başlar. Bu hızlanma nedeniyle yol çabuk biter ve **şubat ayı 28 gün** sürer. Bu durum tamamen yörüngenin elips olmasıyla ilgilidir. A, C ve E şıkları eksen eğikliğinin sonuçlarıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> "21 Haziran tarihinde Türkiye'de bulunan bir gözlemci, bulunduğu şehirden kuzey yönünde yer alan başka bir şehre doğru seyahat etmiştir." <br><br>
+        Bu gözlemcinin gittiği yerde, ilk bulunduğu şehre göre aşağıdaki coğrafi değişimlerden hangisini gözlemlemesi kesin olarak beklenir?</div>
+        <ul class="options-list">
+            <li>A) Gece süresinin daha uzun olduğunu</li>
+            <li>B) Güneş ışınlarının daha dik açıyla düştüğünü</li>
+            <li>C) Gündüz süresinin daha uzun olduğunu ve yer çekiminin arttığını</li>
+            <li>D) Çizgisel dönüş hızının daha fazla olduğunu</li>
+            <li>E) Yerel saatin daha geri olduğunu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> 21 Haziran tarihinde Kuzey Yarım Küre'de kuzeye doğru gidildikçe **gündüz süreleri uzar** (Kutup dairesinde 24 saat gündüz yaşanır). Ayrıca Ekvatordan kutuba doğru (kuzeye) gidildiği için dünyanın şeklinden ötürü **yer çekimi artar**. Bu nedenle gözlemci hem daha uzun bir gündüzle karşılaşır hem de yer çekiminin arttığı bir alana ulaşır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>
