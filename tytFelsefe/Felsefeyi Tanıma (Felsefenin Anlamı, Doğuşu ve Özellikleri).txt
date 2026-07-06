@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Felsefe - Ünite 1: Felsefeyi Tanıma</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FELSEFE - MODÜL 1: FELSEFEYİ TANIMA</h1>
+        <p>Felsefenin Anlamı, Antik Yunan'da Doğuş Şartları ve Felsefi Düşüncenin Karakteristik Özellikleri</p>
+    </div>
+
+    <h2>1. FELSEFENİN KAVRAMSAL ANLAMI VE ÖZÜ</h2>
+    <p>Felsefe, etimolojik olarak Antik Yunanca <strong>"philia"</strong> (sevgi, arayış) ve <strong>"sophia"</strong> (bilgelik, bilgi) kelimelerinin birleşmesiyle türetilmiştir. Kelime anlamı tam olarak <strong>"Bilgelik Sevgisi"</strong> veya "Bilgi Arayışı" demektir. Tarihte felsefe terimini ilk kez kullanan düşünür Matematikçi <strong>Pythagoras (Pisagor)</strong> olmuştur. Pisagor, her şeyi bilen mutlak bir bilge (*sophos*) olamayacağını, insanın ancak bilginin peşinden koşan bir arayışçı (*philosophos*) olabileceğini savunmuştur.</p>
+    <p>Felsefenin tek, evrensel ve üzerinde herkesin uzlaştığı matematiksel bir tanımı <u>yoktur</u>. Bu durum felsefenin eksikliğinden değil; öznelliğinden, dinamizminden ve her çağda kendini yeniden üretebilen yapısından kaynaklanır. Karl Jaspers'ın o ünlü ifadesiyle: <strong>"Felsefe yapmak yolda olmaktır."</strong> Felsefede sorular, cevaplardan her zaman daha hayatidir. Çünkü ulaşılan her cevap, zihni yeni bir sorgulama evrenine fırlatır.</p>
+
+    <h2>2. FELSEFENİN ANTİK YUNAN'DA DOĞUŞUNU SAĞLAYAN ŞARTLAR</h2>
+    <p>İnsanlık tarihi boyunca Mısır, Mezopotamya, Çin ve Hint medeniyetlerinde çok güçlü ahlaki, dini ve pratik düşünceler (mitolojiler) üretilmiştir. Ancak felsefenin rasyonel, sistematik ve bağımsız bir disiplin olarak MÖ 6. yüzyılda İyonya (Batı Anadolu - Milet) kentlerinde doğduğu kabul edilir. ÖSYM bu "neden başka yer değil de İyonya?" sorusunun sosyo-ekonomik altyapısını sorgulamayı çok sever:</p>
+    
+    <div class="highlight-box">
+        <strong>Felsefenin İyonya'da Doğmasının Temel Faktörleri:</strong>
+        <ol>
+            <li><strong>Mitolojiden Logosa Geçiş (Rasyonelleşme):</strong> İyonya düşünürleri (Thales gibi), evrenin varoluşunu artık mitolojik efsanelerle, tanrıların öfkeleriyle değil; akla dayalı, somut gözlemlerle (*Logos*) açıklamaya başlamışlardır.</li>
+            <li><strong>Ekonomik Refah ve Boş Zaman (Skhole):</strong> Deniz ticaretiyle uğraşan İyonya kentleri çok zenginleşmişti. Temel hayatta kalma (barınma, açlık) sorunlarını çözen insanlar, entelektüel sorgulamalar için "boş zaman" elde etmişlerdir.</li>
+            <li><strong>Demokratik ve Özgür Düşünce Ortamı:</strong> İyonya, baskıcı teokratik krallıklar yerine, şehir devletlerinin (Polis) getirdiği nispeten özgür ve tartışmaya açık bir siyasi atmosfere sahipti.</li>
+            <li><strong>Kültürel Etkileşim (Sentez):</strong> Ticaret yollarının kesişim noktasında olan İyonya; Mısır'ın geometrisini, Mezopotamya'nın astronomisini alarak kendi akıl süzgecinden geçirmiş ve dogmatik kalıplardan kurtarmıştır.</li>
+        </ol>
+    </div>
+
+    <h2>3. FELSEFİ DÜŞÜNCENİN KARAKTERİSTİK ÖZELLİKLERİ (SINAVIN KALBİ)</h2>
+    <p>Bir düşüncenin veya metnin "felsefi" nitelik taşıyabilmesi için aşağıdaki yapısal özellikleri barındırması şarttır. Paragraf sorularının kilit kelimeleri burasıdır:</p>
+    <ul>
+        <li><strong>Sorgulayıcı Olma (Refleksiflik):</strong> Felsefe, hazır bilgileri, dogmaları, toplumsal kalıpları körü körüne kabul etmez. Her şeyi şüphe süzgecinden geçirir. **Refleksif Düşünce**, düşünce üzerine düşünmektir. Zihnin kendi ürettiği bilgiyi yeniden masaya yatırıp sorgulamasıdır.</li>
+        <li><strong>Öznel (Subjektif) Olma:</strong> Her felsefi sistem, o sistemi kuran filozofun kişisel bakış açısını, çağının izlerini ve dünya görüşünü yansıtır. Bu yüzden felsefede tek bir mutlak doğru yoktur; her filozofun doğrusu kendi sistemi içinde geçerlidir.</li>
+    </ul>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Felsefi Özellik</th>
+                <th>Kavramsal Tanımı</th>
+                <th>TYT Soru Çıkarım İpucu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Rasyonel (Akılsal) Olma</strong></td>
+                <td>Felsefe dayanaklarını inançtan veya mitolojiden değil, tamamen insan aklından ve mantık ilkelerinden alır.</td>
+                <td>Metinde "tutarlılık, mantıksal örüntü, akıl yürütme" varsa rasyonelliktir.</td>
+            </tr>
+            <tr>
+                <td><strong>Evrensel Olma</strong></td>
+                <td>Felsefe sadece bir milletin veya grubun sorunlarını değil, tüm insanlığı ilgilendiren ortak konuları (varlık, bilgi, ahlak) ele alır.</td>
+                <td>Konunun "zamansız ve tüm insanlığı kapsayıcı" olmasıdır.</td>
+            </tr>
+            <tr>
+                <td><strong>Kümülatif (Yığılan) Olma</strong></td>
+                <td>Felsefe, bilim gibi ilerlemez; yığılır. Platon'un 2500 yıl önce ortaya attığı iddia bugün hala felsefenin güncel bir tartışmasıdır.</td>
+                <td>Ortak konular etrafında **cevapların üst üste yığılması**, ancak birinin diğerini tamamen çürütüp bitirmemesidir.</td>
+            </tr>
+            <tr>
+                <td><strong>Sistematik ve Tutarlı Olma</strong></td>
+                <td>Filozofun iddiaları arasında çelişki bulunmaması, fikirlerinin kendi içinde bütünlük arz eden bir mimari oluşturmasıdır.</td>
+                <td>"Çelişkiden uzak durma, kendi içinde uyumlu olma" vurgusudur.</td>
+            </tr>
+            <tr>
+                <td><strong>Evreni / Varlığı Bütünsel Ele Alma</strong></td>
+                <td>Bilim varlığı parçalara ayırarak inceler (biyoloji canlıyı, fizik hareketi); felsefe ise varlığı tümel, bir bütün olarak kuşatır.</td>
+                <td>Metinde "parçacı değil, bütüncül / tümel yaklaşım" aranır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. FELSEFENİN BİREYE VE TOPLUMA SAĞLADIĞI KATKILAR</h2>
+    <p>Felsefe karın doyurmaz, pratik bir ev aleti üretmez; ancak insanın ve toplumun yönünü tayin eden zihinsel haritayı çizer:
+    <br>• <strong>Bireysel Katkıları:</strong> İnsana eleştirel ve ön yargılardan uzak bakış açısı kazandırır. Kendi hayatına anlam katmasını, manipülasyonlara ve dogmalara karşı entelektüel bir kalkan geliştirmesini sağlar. Farklı fikirlere açık olma esnekliği verir.
+    <br>• <strong>Toplumsal Katkıları:</strong> Demokrasi kültürünün, insan haklarının ve hoşgörünün yerleşmesini sağlar. Farklı fikirlerin bir arada yaşayabildiği çoğulcu toplum yapısını inşa eder. Bilimsel araştırmaların önünü açan özgürlükçü iklimi besler.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI METİN ANALİZLİ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Felsefe, tarihte belirli bir birikime ulaşmış olan Mısır veya Babil uygarlıklarında değil de MÖ 6. yüzyılda İyonya kıyılarında sistemli bir disiplin haline gelmiştir. Çünkü Mısır'da geometri Nil Nehri'nin taşan sınırlarını çizmek için, Babil'de astronomi tarım zamanını belirlemek için yani tamamen pratik/gündelik ihtiyaçları karşılamak için kullanılıyordu. İyonya'da ise Thales, aklına hiçbir pratik fayda getirmeyecek olan 'Evrenin ana maddesi (arkhesi) nedir?' sorusunun peşine salt bilme arzusuyla düşmüştür. <br><br>
+        Bu parçaya göre, felsefi düşüncenin doğuşundaki en temel zihinsel motivasyon aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Gündelik hayatı kolaylaştıracak pratik aletler üretmek</li>
+            <li>B) Doğal afetlerin yıkıcı etkilerinden korunma yolları aramak</li>
+            <li>C) Herhangi bir fayda amacı gütmeden, sadece bilmek ve hakikate ulaşmak için duyulan saf merak ve hayret</li>
+            <li>D) Dini dogmaları ve mitolojik anlatıları toplum tabanına yaymak</li>
+            <li>E) Devlet yönetimini kolaylaştıracak bürokratik kurallar geliştirmek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paragrafta Mısır ve Babil'in bilgiyi pratik çıkarlar (tarım, sınır çizme) için kullandığı, felsefenin ise İyonya'da hiçbir pratik fayda gözetmeksizin sırf **bilme arzusu ve merakla** doğduğu anlatılmıştır. Aristoteles'in de dediği gibi felsefe hayret ve merakla başlar, pratik bir çıkar peşinde koşmaz. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> "Felsefe bilim gibi doğrusal ilerleyen bir yapıya sahip değildir. Fizik bilimi Newton'dan Einstein'a geçerek eski teorileri geride bırakır ve ilerler. Ancak felsefede Platon'un adalet kavramı üzerine açtığı tartışma, bugün hala güncelliğini korumakta ve çağdaş filozoflar tarafından tartışılmaktadır. Geçmişteki felsefi fikirler eskiyip çöpe atılmaz; tam aksine yeni fikirlerle harmanlanarak ortak bir düşünce havuzunda toplanır." <br><br>
+        Bu parçada felsefi düşüncenin aşağıdaki özelliklerinden hangisi vurgulanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Refleksif olma</li>
+            <li>B) Kümülatif (Yığılan) olma</li>
+            <li>C) Subjektif (Öznel) olma</li>
+            <li>D) Evrensel olma</li>
+            <li>E) Sistemli ve tutarlı olma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Felsefede fikirlerin bilim gibi birbirini çürütüp yok etmemesi, aksine yüzyıllar boyunca aynı sorular etrafında üst üste birikmesi, yığılması durumuna coğrafyada ve felsefe metodolojisinde <strong>Kümülatif (yığılan) olma</strong> denir. Metindeki "eskiyip çöpe atılmama ve ortak havuzda toplanma" vurgusu kümülatifliği işaret eder. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir filozof, sadece dış dünyadaki nesneleri, doğayı veya toplumu gözlemlemekle kalmaz; aynı zamanda kendi zihninin ürettiği kavramları, bilginin ne olduğunu ve kendi iddialarının sınırlarını da sorgular. Yani felsefe, yöneldiği nesneye dair ürettiği bilgiyi dönüp arkadan bir daha sorgulayan, düşünce üzerine katmerli bir biçimde yeniden düşünen bir eylemdir. <br><br>
+        Parçada felsefenin "düşünce üzerine düşünme" olarak tanımlanan hangi karakteristik özelliği üzerinde durulmuştur?</div>
+        <ul class="options-list">
+            <li>A) Evrensellik</li>
+            <li>B) Rasyonellik</li>
+            <li>C) Tutarlılık</li>
+            <li>D) Refleksiflik</li>
+            <li>E) Tümsellik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Zihnin kendi ürettiği düşünceyi, bilgiyi veya kavramları yeniden mercek altına alıp sorgulaması eylemine felsefede <strong>Refleksif olma (Düşünce üzerine düşünme)</strong> denir. Metindeki "dönüp arkadan bir daha sorgulayan, düşünce üzerine yeniden düşünen" ifadesi refleksifliğin en net tanımıdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> "Her felsefi sistem, o sistemi kuran düşünürün kendi yaşam deneyimlerinden, psikolojik yapısından, aldığı eğitimden ve içinde nefes aldığı çağın kültürel kodlarından izler taşır. Kant'ın ahlak felsefesi ile Nietzsche'nin ahlak felsefesi arasındaki keskin uçurum, evrenin eksikliğinden değil, bu iki düşünürün dünyaya baktıkları pencerelerin farklı olmasından kaynaklanır." <br><br>
+        Bu parçaya göre felsefi düşünce hakkında aşağıdaki yargılardan hangisine ulaşılabilir?</div>
+        <ul class="options-list">
+            <li>A) Felsefe, deneye dayalı nesnel gerçeklikleri inceler.</li>
+            <li>B) Felsefi düşünce öznel (subjektif) bir karaktere sahiptir.</li>
+            <li>C) Filozoflar çağlarının ötesinde, tamamen bağımsız birer varlıktır.</li>
+            <li>D) Felsefede mutlak ve tek bir doğruya ulaşmak zorunludur.</li>
+            <li>E) Sistemli olan her felsefi akım evrensel bir yasaya dönüşür.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Metinde iki filozofun ahlak görüşleri arasındaki farkın "dünyaya baktıkları pencerelerin (bakış açılarının) farklı olmasından" kaynaklandığı belirtilmiştir. Bu durum felsefenin kişiye özel, yani <strong>öznel (subjektif)</strong> bir yapıya sahip olduğunu, kesin ve laboratuvar tipi nesnel bir doğrusunun olmadığını gösterir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Felsefe ile bilim arasındaki en bariz farklardan biri ele aldıkları nesneye yaklaşım biçimleridir. Biyoloji bilimi sadece canlı hücreleri inceler, psikoloji sadece insan davranışlarını odaklar, tıp sadece insan bedenini ele alır. Felsefe ise insanı, ruhu, evreni ve varlığı bir bütün olarak karşıdan kucaklar; onu parçalara ayırarak sınırlandırmaz. <br><br>
+        Buna göre, felsefenin varlığa yaklaşımındaki bu "bütüncül" tavrı ifade eden kavram aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Subjektiflik</li>
+            <li>B) Kümülatiflik</li>
+            <li>C) Rasyonellik</li>
+            <li>D) Tümsellik (Bütünsel/Evrensel)</li>
+            <li>E) Pragmatizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bilimlerin varlığı parçalayarak (lokal) incelemesine karşın felsefenin varlığı bir bütün, genel ve kapsayıcı olarak ele alması özelliğine felsefede <strong>Tümsellik (Bütünsel olma)</strong> adı verilir. Cevap D seçeneğidir.
+        </div>
+    </div>
+
+</body>
+</html>

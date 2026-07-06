@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Felsefe - Ünite 2: Felsefe ile Düşünme</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FELSEFE - MODÜL 2: FELSEFE İLE DÜŞÜNME</h1>
+        <p>Akıl Yürütme Yöntemleri, Temellendirme, Doğruluk-Gerçeklik ve Dil-Kavram İlişkisi</p>
+    </div>
+
+    <h2>1. AKIL YÜRÜTME VE ARGÜMANTASYON</h2>
+    <p>Felsefe, rastgele iddialar veya temelsiz görüşler topluluğu değildir. Bir filozofun savunduğu fikri mantıksal bir silsile içinde sunmasına <strong>Argümantasyon</strong> denir. Argüman, bir iddiayı (tezi) desteklemek amacıyla öne sürülen öncüllerden ve bu öncüllerden çıkan bir sonuçtan oluşur. Zihnin, eldeki verilerden veya önermelerden hareketle yeni bir sonuca ulaşma sürecine ise <strong>Akıl Yürütme</strong> adı verilir.</p>
+    <p>Felsefi bir argümanın geçerli ve güvenilir olabilmesi için iki temel şart aranır: Öncüllerin doğru olması ve öncüller ile sonuç arasında mantıksal açıdan kopukluk bulunmaması. Eğer bir argümandaki önermeler kendi içinde çelişiyorsa veya mantık kurallarına uymuyorsa, o düşünce sistemi geçerliliğini yitirir.</p>
+
+    <h2>2. TEMEL AKIL YÜRÜTME YÖNTEMLERİ</h2>
+    <p>İnsan zihni, felsefe yaparken ya da günlük yaşamda çıkarımlarda bulunurken üç ana mantıksal yolu kullanır. ÖSYM, paragraflarda kullanılan akıl yürütme yöntemini buldurmayı çok sever:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Yöntem Adı</th>
+                <th>Mantıksal Akış Yönü</th>
+                <th>Kavramsal Analiz ve Örnek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Tümdengelim (Dedüksiyon)</strong></td>
+                <td>Genelden &rarr; Özele</td>
+                <td>Genel yasalardan veya doğru kabul edilen genel önermelerden yola çıkarak özele dair zorunlu sonuçlar çıkarma eylemidir. Kesin sonuç verir.<br><em>Örnek:</em> Bütün insanlar ölümlüdür (1. Öncül). Sokrates bir insandır (2. Öncül). O halde Sokrates de ölümlüdür (Sonuç).</td>
+            </tr>
+            <tr>
+                <td><strong>Tümevarım (Endüksiyon)</strong></td>
+                <td>Özelden &rarr; Genele</td>
+                <td>Tek tek yapılan somut gözlemlerden ve özel durumlardan hareketle genel, kapsayıcı bir sonuca veya yasaya ulaşmaktır. Bilimlerin ana yöntemidir.<br><em>Örnek:</em> Gözlemlediğim 1. karga siyahtır. Gözlemlediğim 2. karga siyahtır. O halde bütün kargalar siyahtır.</td>
+            </tr>
+            <tr>
+                <td><strong>Analoji (Benzeşim)</strong></td>
+                <td>Özelden &rarr; Özele</td>
+                <td>İki farklı nesne, durum veya kavram arasındaki benzerliklerden yola çıkarak, biri için geçerli olan bir özelliği diğeri için de geçerli saymaktır.<br><em>Örnek:</em> Dünya'da atmosfer vardır ve canlılar yaşar (Durum A). Mars da Dünya gibi bir gezegendir ve atmosferi vardır (Durum B). O halde Mars'ta da canlılar yaşayabilir (Analojik Çıkarım).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. FELSEFEDE KRİTİK KAVRAM ÇİFTLERİ</h2>
+    <p>Felsefi metinleri analiz ederken birbiriyle sıkça karıştırılan ancak felsefe metodolojisinde keskin sınırlarla ayrılan kavram çiftlerini iyi bilmek gerekir:</p>
+    <ul>
+        <li><strong>Doğruluk (Hakikat) ve Gerçeklik:</strong> <strong>Gerçeklik</strong>, insan zihninden bağımsız olarak dış dünyada var olan her şeydir (Örn: Masa, Güneş, Ağaç). <strong>Doğruluk</strong> ise, zihnimizdeki bir düşüncenin veya bir önermenin dış dünyadaki gerçeklikle uyuşması durumudur. Dış dünyada "Güneş" bir gerçekliktir; "Güneş sıcaktır" cümlesi ise bir doğruluktur. Gerçeklik varlığın, doğruluk ise bilginin bir özelliğidir.</li>
+        <li><strong>Tutarlılık ve Çelişiklik:</strong> Bir felsefi sistem içindeki önermelerin birbiriyle uyumlu olması, birbirini nakzetmemesi durumuna <strong>Tutarlılık</strong> denir. Eğer bir filozof sisteminin başında "Her şey maddedir" deyip ortasında "Ruh ölümsüz bir tözdür" diyorsa, kendi içinde <strong>Çelişiklik</strong> yaşıyor demektir. Felsefede nesnel doğruluk aranmaz ama içsel tutarlılık kesinlikle aranır.</li>
+        <li><strong>Temellendirme:</strong> Filozofun, ortaya attığı iddiayı kuru bir inanç olmaktan çıkarıp akılsal gerekçelerle, mantıksal kanıtlarla desteklemesi ve tabanını sağlamlaştırması sürecidir. Felsefede kanıtlama (laboratuvar deneyi) yoktur, temellendirme vardır.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM TUZAĞI (Görüş ve Önerme Farkı):</strong>
+        <br>Her önerme bir görüştür ancak her görüş bir önerme değildir. Bir ifadenin mantıkta ve felsefede <strong>Önerme</strong> sayılabilmesi için kesinlikle bir doğruluk değerine (Doğru ya da Yanlış) sahip olması ve yargı bildirmesi gerekir. Dilek, emir, soru ve ünlem cümleleri ("Keşke felsefe çalışsam", "Kapıyı kapat!", "Felsefe nedir?") asla önerme kabul edilmez. Sınavda çeldirici olarak bu tarz cümleler şıklara konulabilir.
+    </div>
+
+    <h2>4. DİL VE KAVRAM İLİŞKİSİ</h2>
+    <p>Felsefe, düşüncelerini dil aracılığıyla somutlaştırır. Dil, düşüncenin hem evi hem de sınırıdır. Kavramlar, dış dünyadaki nesnelerin zihindeki soyut tasarımlarıdır ve kelimeler (terimler) vasıtasıyla dile dökülürler. Dilin belirsiz, çok anlamlı veya hatalı kullanılması felsefi krizlere (safsatalara) yol açar. Bu yüzden filozoflar, felsefe yapmaya başlamadan önce kullanacakları kavramların sınırlarını keskin bir biçimde çizerler (Kavram Analizi).</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI METİN ANALİZLİ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> "İçinde yaşadığım şehirde bugüne kadar gördüğüm tüm belediye otobüsleri kırmızı renkliydi. Başka bir şehre giden arkadaşım da oradaki otobüslerin kırmızı olduğunu söyledi. İnternette izlediğim birkaç videoda da otobüslerin kırmızı olduğunu gördüm. O halde, yeryüzündeki tüm belediye otobüsleri kırmızı renklidir." <br><br>
+        Bu parçada sergilenen mantıksal akıl yürütme yöntemi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Tümdengelim (Dedüksiyon)</li>
+            <li>B) Tümevarım (Endüksiyon)</li>
+            <li>C) Analoji (Benzeşim)</li>
+            <li>D) Temellendirme</li>
+            <li>E) Refleksif Düşünme</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Parçada bireysel ve tek tek yapılan somut gözlemlerden (benim gördüğüm otobüsler, arkadaşımın gördükleri, videodakiler) yola çıkılarak "yeryüzündeki tüm otobüsler..." şeklinde genel, kuşatıcı ve tümel bir sonuca varılmıştır. Özel gözlemlerden genel yasalara gitme yöntemine mantıkta <strong>Tümevarım (Endüksiyon)</strong> denir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Felsefe tarihinde filozofların laboratuvarları yoktur. Onlar iddialarını test etmek için doğaya çıkıp deneyler yapmazlar. Örneğin Platon, devletin kaynağının ne olduğunu açıklarken bir toplum deneyi kurmamış; bunun yerine insanın ruhsal yapısı ile devlet mekanizması arasında mantıksal bağlar kurarak iddiasını akılsal gerekçelerle meşrulaştırmaya çalışmıştır. <br><br>
+        Bu parçada filozofların iddialarını desteklemek için kullandıkları hangi felsefi yöntem vurgulanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Doğrulama</li>
+            <li>B) Çelişiklik</li>
+            <li>C) Analoji</li>
+            <li>D) Temellendirme</li>
+            <li>E) Kümülâtiflik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Felsefede bir düşüncenin, tezin ya da argümanın akla dayalı gerekçeler, mantıksal kanıtlar ve dayanaklar gösterilerek açıklanması, alt yapısının sağlamlaştırılması sürecine <strong>Temellendirme</strong> adı verilir. Bilim doğrulamaya (deneye) dayanırken, felsefe temellendirmeye dayanır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Dış dünyada kendi başına var olan, insan zihni ona yönelse de yönelmese de mevcudiyetini koruyan her şeye 'A' denir. Bu var olan şeye dair zihnimizin ürettiği iddiaların, yargıların dış dünya ile örtüşmesi, uyuşması durumuna ise 'B' adı verilir. Örneğin, odamdaki çalışma masası 'A' kapsamındayken, 'Bu masa ahşaptır' önermesi 'B' kapsamına girer." <br><br>
+        Bu parçada boş bırakılan "A" ve "B" yerlerine sırasıyla hangi kavram çifti getirilmelidir?</div>
+        <ul class="options-list">
+            <li>A) Doğruluk - Gerçeklik</li>
+            <li>B) Gerçeklik - Doğruluk</li>
+            <li>C) Tutarlılık - Geçerlilik</li>
+            <li>D) Önerme - Argüman</li>
+            <li>E) Gerçeklik - Tutarlılık</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> İnsan zihninden bağımsız olarak dış dünyada var olan somut nesnelere ve durumlara <strong>Gerçeklik</strong> (A) denir. Bu gerçekliğe dair kurulan cümlelerin, önermelerin dışarısıyla uyuşma derecesine ise <strong>Doğruluk</strong> (B) adı verilir. Sıralama Gerçeklik - Doğruluk olmalıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Mantık ve felsefe dersinde öğretmen tahtaya şu üç cümleyi yazmıştır:
+        <br>I. Türkiye'nin başkenti Ankara'dır.
+        <br>II. Lütfen sessiz olun ve yerlerinize oturun!
+        <br>III. Eyvah, cüzdanımı arabada unuttum!
+        <br><br>
+        Öğretmen, bu cümlelerden hangilerinin felsefi veya mantıksal açıdan bir <u>önerme kabul edilemeyeceğini</u> sormuştur. Doğru cevap aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir ifadenin önerme sayılabilmesi için mutlaka bir yargı bildirmesi ve "Doğru" ya da "Yanlış" gibi bir doğruluk değerine sahip olması gerekir. I. cümle net bir yargı bildirir (Önermedir). Ancak II. cümle bir emir/istek cümlesidir, III. cümle ise bir ünlem/duygu cümlesidir. Bunların doğruluk değeri olmadığı için önerme sayılamazlar. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir felsefe profesörü öğrencisinin tez taslağını incelerken şu eleştiride bulunmuştur: "Metninin ilk sayfalarında özgürlüğün insanın en kutsal hakkı olduğunu ve hiçbir otoritenin bunu kısıtlayamayacağını savunuyorsun. Ancak son sayfalarda toplumsal düzenin korunması adına devletin bireysel özgürlükleri tamamen ortadan kaldırması gerektiğini ileri sürmüşsün. Bu iki iddia aynı sistem içinde barınamaz." <br><br>
+        Profesörün öğrencisine yönelttiği eleştiri, felsefi düşüncenin öncelikle hangi özelliğinin <u>ihlal edildiğini</u> göstermektedir?</div>
+        <ul class="options-list">
+            <li>A) Evrensellik</li>
+            <li>B) Kümülatiflik</li>
+            <li>C) Rasyonellik</li>
+            <li>D) İçsel Tutarlılık</li>
+            <li>E) Refleksiflik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir düşünce sisteminin kendi içindeki farklı önermelerinin birbiriyle çelişmemesi, uyumlu ve bütüncül olması kuralına <strong>İçsel Tutarlılık</strong> denir. Öğrenci aynı metinde hem özgürlüğün kısıtlanamaz olduğunu hem de tamamen yok edilmesi gerektiğini savunarak çelişki üretmiş ve tutarlılık ilkesini çiğnemiştir. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Felsefe - Ünite 4: Varlık Felsefesi (Ontoloji)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FELSEFE - MODÜL 4: VARLIK FELSEFESİ (ONTOLOJİ)</h1>
+        <p>Varlığın Doğası, Arkhe Problemi, Varlık Sorunsalına Yaklaşımlar ve Ontolojik Akımlar</p>
+    </div>
+
+    <h2>1. VARLIK FELSEFESİNİN KONUSU VE BİLİMLE FARKI</h2>
+    <p>Varlık felsefesi ya da felsefe tarihindeki adıyla <strong>Ontoloji</strong>; varlığın ne olduğunu, kaynağını, yapısını, özünü ve temel ilkelerini felsefi bir boyutta ele alan disiplindir. Felsefe, "Varlık var mıdır?", "Varlığın ana maddesi nedir?" gibi köksel sorular sorar. Ontolojinin varlığa yaklaşımı ile bilimlerin varlığa yaklaşımı arasında çok temel farklar vardır. ÖSYM bu ayrımı sık sık sormaktadır:</p>
+    <ul>
+        <li><strong>Bilimin Varlığa Yaklaşımı:</strong> Bilim, varlığın var olduğunu <strong>ön kabul</strong> olarak benimser, varlığın mevcudiyetinden şüphe etmez. Varlığı parçalara bölerek inceler (biyoloji canlıyı, fizik hareketi, kimya maddeyi ele alır). Sadece deneye, gözleme ve olgusal verilere dayanan somut varlıkları (fiziki dünyayı) konu edinir.</li>
+        <li><strong>Felsefenin Varlığa Yaklaşımı:</strong> Felsefe, varlığın var olup olmadığını bile radikal bir şekilde sorgular. Varlığı parçalamaz; onu <strong>tümel (bütüncül)</strong> bir bakış açısıyla bir bütün olarak kucaklar. Sadece fiziki dünyayı değil, zihinsel ve ideal varlıkları (metafiziği) da inceleme alanına dahil eder.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖNEMLİ KAVRAMSAL AYRIM (Reel Varlık - İdeal Varlık):</strong>
+        <br>• <strong>Reel (Gerçek) Varlık:</strong> İnsan zihninden bağımsız, dış dünyada zaman ve mekan içinde somut olarak var olan nesnelerdir. (Örn: Ağaç, taş, deniz, masa).
+        <br>• <strong>İdeal (Düşünsel) Varlık:</strong> Zaman ve mekan dışı olan, sadece insan zihninin ürettiği, geometrik, matematiksel veya kurgusal tasarımlardır. (Örn: Pi sayısı, üçgenin iç açıları, Kafdağı, deniz kızı).
+    </div>
+
+    <h2>2. VARLIK VAR MIDIR? SORUSUNA VERİLEN CEVAPLAR</h2>
+    <p>Ontolojinin ilk ve en radikal sorusuna filozoflar iki zıt cephede yanıt üretmişlerdir:</p>
+    
+    <h3>A) Varlığın Yok Olduğunu Savunanlar (Nihilizm ve Taoculuk)</h3>
+    <ul>
+        <li><strong>Nihilizm (Hiççilik):</strong> Her türlü varlığı, değeri ve otoriteyi reddeden akımdır. İlk Çağ'da Gorgias <em>"Hiçbir şey yoktur, olsa da bilinemez, bilinse de aktarılamaz"</em> diyerek nihilizmin zirve noktasını çizmiştir. Modern dönemde ise Nietzsche, toplumsal değerlerin ve köhneleşmiş ahlaki kuralların yıkılması anlamında nihilizmi bir basamak olarak kullanmıştır.</li>
+        <li><strong>Taoculuk:</strong> Antik Çin'de Lao Tse tarafından kurulan bu öğretiye göre, evrendeki tek gerçek dış dünyadaki nesneler değil, görünmez bir ilke olan "Tao"dur. Tao dışındaki tüm nesnel varlıklar birer yanılsamadır, dolayısıyla yok hükmündedir.</li>
+    </ul>
+
+    <h3>B) Varlığın Var Olduğunu Savunanlar (Realizm / Gerçekçilik)</h3>
+    <p>İnsan zihninden bağımsız, somut veya düşünsel bir varlık evreninin kesin olarak mevcut olduğunu savunan görüştür. Realist filozoflar "Varlık vardır" dedikten sonra, **"Varlık ne türdendir / niteliği nedir?"** sorusu etrafında şu büyük akımlara ayrılmışlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Felsefi Akım</th>
+                <th>Kurucu Düşünürler</th>
+                <th>Varlığın Niteliği ve Temel Tezi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Varlık "Oluş"tur</strong></td>
+                <td>Herakleitos, Whitehead</td>
+                <td>Varlık durağan değildir; sürekli bir değişim, akış ve dönüşüm halindedir. Herakleitos'un <em>"Aynı nehirde iki kez yıkanılmaz"</em> sözü bu akımın şifresidir. Evren zıtların savaşıyla (diyalektik) yürür.</td>
+            </tr>
+            <tr>
+                <td><strong>Varlık "İdea"dır (İdealizm)</strong></td>
+                <td>Platon, Aristoteles, Descartes, Hegel, Farabi</td>
+                <td>Varlığın özü maddesel değildir; ruhsal, zihinsel, düşünsel bir tözdür (İdeadır). Platon'a göre gerçek varlıklar duyular dünyasında değil, sadece akılla kavranan <strong>İdealar Dünyasındadır.</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Varlık "Madde"dir (Materyalizm)</strong></td>
+                <td>Demokritos, Hobbes, Marx, La Mettrie</td>
+                <td>İdealizmin tam zıddıdır. Ruh, düşünce veya bilinç maddeden bağımsız olamaz; her şey maddenin, atomların bir sonucudur. Evrende sadece fiziksel ve mekanik yapılar vardır. Karl Marx'a göre madde diyalektik (çelişki) yoluyla ilerler.</td>
+            </tr>
+            <tr>
+                <td><strong>Varlık Hem İdea Hem Maddendir (Düalizm)</strong></td>
+                <td>René Descartes</td>
+                <td>Varlığın kökeninde birbirine indirgenemeyen <strong>iki ayrı töz</strong> olduğunu savunur. İnsanda bu iki töz <strong>Ruh (Düşünce)</strong> ve <strong>Beden (Madde/Yer kaplama)</strong> olarak birleşmiştir. İkiciliktir.</td>
+            </tr>
+            <tr>
+                <td><strong>Varlık "Fenomen"dir (Görüngübilim)</strong></td>
+                <td>Edmund Husserl</td>
+                <td>Varlık, insan bilincinin nesneye yüklediği özdür. Nesnelerin özüne ulaşabilmek için onların rengini, şeklini, önyargılarını, yani duyusal tüm özelliklerini <strong>paranteze almak</strong> gerekir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <strong>💡 İlk Çağ Doğa Felsefesi ve Arkhe Problemi:</strong>
+        <p>Felsefenin ilk dönemindeki filozoflar (Doğa Filozofları) evrenin kökenini, yani ilk ana maddesini sorgulamışlardır. Bu ana maddeye felsefede <strong>Arkhe</strong> denir. Thales arkheyi <strong>Su</strong>, Anaximandros <strong>Apeiron (Sonsuzluk)</strong>, Anaximenes <strong>Hava</strong>, Demokritos <strong>Atom</strong>, Empedokles ise dört element (Ateş, Su, Hava, Toprak) olarak belirlemiştir. Bu sorgulama, teolojik/mitolojik evrenden rasyonel evrene geçişin ilk büyük basamağıdır.</p>
+    </div>
+
+    <h2>3. ÇAĞDAŞ VARLIKSAL AKIM: EGZİSTANSİYALİZM (VAROLUŞÇULUK)</h2>
+    <p>Jean-Paul Sartre, Heidegger ve Kierkegaard gibi modern dönem düşünürleri tarafından savunulan bu akıma göre; evrendeki tüm nesnelerin (bir masanın, bir kalemin) özü varoluşundan önce belirlenmiştir. Ancak insan için durum tam tersidir. İnsanda <strong>varoluş, özden önce gelir.</strong> İnsan önce dünyaya fırlatılır (var olur), daha sonra kendi iradesi, seçimleri ve kararlarıyla kendi özünü (karakterini, geleceğini) kendisi inşa eder. Bu yüzden insan özgürlüğe mahkumdur ve kendi kaderinin tek sorumlusudur.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI METİN ANALİZLİ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> "Fizik bilimi, atomun yapısını, kütle çekimini ve maddeler arası çekim kuvvetini incelerken 'Madde gerçekten var mıdır?' diye bir soru sormaz. Maddenin varlığını bir ön kabul olarak cebine koyar ve laboratuvar testlerine başlar. Felsefe ise masanın üzerindeki elmaya bakıp 'Bu elma benim zihnimden bağımsız olarak gerçekten mevcut mudur yoksa sadece duyularımın ürettiği bir algıdan mı ibarettir?' sorusunun peşine düşer." <br><br>
+        Bu parçaya göre, felsefenin (ontolojinin) varlığa yaklaşımını bilimden ayıran en temel fark aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bilimin felsefeye göre daha bütüncül ve tümel bir bakış açısına sahip olması</li>
+            <li>B) Felsefenin varlığın mevcudiyetini ve özünü radikal bir şekilde sorgulaması, bilimin ise varlığı doğrudan doğruya bir ön kabul olarak alması</li>
+            <li>C) Bilimin sadece soyut ve ideal varlıkları inceleme alanına dahil etmesi</li>
+            <li>D) Felsefenin varlığı parçalayarak lokal alanlarda deneyle test etmesi</li>
+            <li>E) Filozofların iddialarını doğrulamak için sadece olgusal verilere güvenmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paragrafta fiziğin (bilimin) maddenin varlığından şüphe etmeden onu doğrudan bir **ön kabul** olarak benimsediği, felsefenin ise varlığın bizzat kendisini, mevcudiyetini en kökten (radikal) şekilde sorguladığı açıkça ortaya konmuştur. Bilim parçacı ve dogmatiktir (kabulcüdür); felsefe ise sorgulayıcı ve bütüncüldür. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> "Evren durağan, sabit ve donmuş bir kütle değildir. Tam aksine, her an yeni bir dönüşümün, akışın ve hareketin içindedir. Çatışma ve çelişki bu hareketin motor gücüdür. Bugün var gördüğümüz şey, aslında bir sonraki an yok oluşa ve yeni bir forma doğru evrilmektedir. Bu yüzden varlığı donmuş bir madde olarak görmek büyük bir yanılgıdır." <br><br>
+        Herakleitos'un "Aynı nehirde iki kez yıkanılmaz" felsefesiyle sembolleşen bu ontolojik yaklaşım aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Varlık İdeadır (İdealizm)</li>
+            <li>B) Varlık Maddendir (Materyalizm)</li>
+            <li>C) Varlık Oluştur</li>
+            <li>D) Varlık Fenomendir</li>
+            <li>E) Varlık Yoktur (Nihilizm)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Metinde evrenin sabit olmadığı, sürekli bir "dönüşüm, akış, hareket ve diyalektik süreç" içinde bulunduğu vurgulanmıştır. Varlığı donmuş bir nesne değil, kesintisiz bir değişim süreci olarak gören bu ontolojik akım <strong>Varlık oluştur</strong> (Herakleitos ve Whitehead) yaklaşımıdır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Platon'un "Mağara Metaforu"na göre, bir mağarada elleri ayakları zincirlenmiş insanlar arkalarındaki ateşin önünden geçen nesnelerin duvara vuran gölgelerini izlemektedir. Bu insanlar gölgeleri gerçek varlıklar sanırlar. Ancak zincirini kıran biri mağaranın dışına çıkıp asıl nesneleri ve Güneş'i gördüğünde, içeridekilerin sadece birer yanılsama (gölge) olduğunu anlar. Platon için asıl gerçeklik, akılla kavranan bu kalıcı dış dünyadır. <br><br>
+        Platon'un bu ünlü metaforla temellendirdiği ve asıl gerçek varlıkların "zihinsel/düşünsel özler" olduğunu savunan ontolojik akım hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Materyalizm</li>
+            <li>B) İdealizm</li>
+            <li>C) Düalizm</li>
+            <li>D) Varoluşçuluk</li>
+            <li>E) Nihilizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Platon, duyular dünyasındaki somut varlıkları birer gölgeden (yanılsamadan) ibaret görür. Ona göre asıl gerçek ve sarsılmaz varlıklar sadece akılla kavranabilen, zaman ve mekan dışı olan <strong>İdealar Dünyasındadır.</strong> Varlığın özünü düşünceye, ruha veya zihne (ideaya) dayandıran bu akım <strong>İdealizm</strong>'dir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Fransız filozof René Descartes, varlığın doğasını açıklarken ne Platon gibi sadece düşünceyi ne de Demokritos gibi sadece maddeyi mutlak kabul etmiştir. Ona göre evren, özleri birbirinden tamamen farklı iki ana tözden oluşur: Düşünen ama yer kaplamayan ruh ile yer kaplayan ama düşünemeyen beden. Bu iki töz birbirine indirgenemez ve evrenin dengesini oluşturur. <br><br>
+        Descartes'ın bu "ikici" varlık felsefesi literatürde hangi isimle anılmaktadır?</div>
+        <ul class="options-list">
+            <li>A) Monizm (Tekçilik)</li>
+            <li>B) Plüralizm (Çokçuluk)</li>
+            <li>C) Düalizm (İkicilik)</li>
+            <li>D) Pragmatizm</li>
+            <li>E) Kritisizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Varlığın temelinde ruh ve madde (düşünce ve beden) olmak üzere **iki ayrı töz** olduğunu savunan, bu iki yapıyı birbirine indirgemeyen felsefi yaklaşıma <strong>Düalizm (İkicilik)</strong> adı verilir. Descartes düalizmin felsefe tarihindeki en sembol ismidir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> "Bir masa imal edilmeden önce marangozun zihninde onun şekli, boyutu ve ne işe yarayacağı (özü) bellidir; masa bu tasarıma göre üretilir (var olur). Fakat insan için bu durum geçerli değildir. İnsan önce dünyaya gelir, var olur ve sıfır noktasında durur. Daha sonra aldığı kararlar, yaptığı özgür seçimler ve eylemleriyle kendi karakterini, özünü ve geleceğini kendisi sıfırdan inşa eder. İnsanın önceden yazılmış bir kader özü yoktur." <br><br>
+        Sartre'ın "Varoluş, özden önce gelir" ilkesiyle temellenen bu çağdaş felsefi akım aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Egzistansiyalizm (Varoluşçuluk)</li>
+            <li>B) Pozitivizm</li>
+            <li>C) Nihilizm</li>
+            <li>D) Materyalizm</li>
+            <li>E) Fenomenoloji</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> İnsanın önceden belirlenmiş sabit bir özünün olmadığını, onun önce var olup (dünyaya gelip) daha sonra kendi özgür iradesi ve seçimleriyle kendi özünü tasarladığını savunan akım <strong>Egzistansiyalizm (Varoluşçuluk)</strong>'dur. Parçada doğrudan varoluşçuluğun insan tanımı yapılmıştır. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

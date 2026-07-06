@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Felsefe - Ünite 5: Ahlak Felsefesi (Etik)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FELSEFE - MODÜL 5: AHLAK FELSEFESİ (ETİK)</h1>
+        <p>Ahlaki Eylemin Temelleri, Özgürlük Problemi ve Evrensel Ahlak Yasası Tartışmaları</p>
+    </div>
+
+    <h2>1. AHLAK FELSEFESİNİN TEMEL KAVRAMLARI</h2>
+    <p>Ahlak felsefesi ya da felsefi adıyla <strong>Etik</strong>; insan eylemlerinin, normlarının, değerlerinin ve "iyi-kötü" gibi kavramların yapısal analizini yapan felsefe dalıdır. Günlük ahlak, toplumda neyin doğru neyin yanlış olduğunu söylerken; etik, bu kuralların arkasındaki felsefi gerekçeleri sorgular. Etiğin kalbini oluşturan temel kavramlar şunlardır:</p>
+    <ul>
+        <li><strong>İyi ve Kötü:</strong> Toplumun ya da felsefi sistemin yapılmasına onay verdiği, yapıcı eylemlere "İyi"; yapılması yasaklanan, yıkıcı eylemlere "Kötü" denir.</li>
+        <li><strong>Ahlaki Karar ve Ahlaki Eylem:</strong> Bireyin kendi özgür iradesiyle ahlak yasasına uyarak verdiği zihinsel karara "Ahlaki Karar", bu kararı somut eyleme dönüştürmesine "Ahlaki Eylem" adı verilir.</li>
+        <li><strong>Özgürlük ve Sorumluluk:</strong> Özgürlük, bireyin dışarıdan hiçbir baskı olmaksızın kendi seçimlerini yapabilmesidir. Sorumluluk ise, özgürce yapılan bu seçimlerin doğuracağı sonuçları üstlenebilmektir. <u>Felsefede özgürlüğün olmadığı yerde sorumluluktan, dolayısıyla ahlaktan bahsedilemez.</u></li>
+        <li><strong>Vicdan:</strong> İnsanın kendi eylemlerini yargılayan içsel mahkemesidir. İyi ve kötüyü ayırt etme gücüdür.</li>
+    </ul>
+
+    <h2>2. İNSAN EYLEMLERİNDE ÖZGÜR MÜDÜR? (ÖZGÜRLÜK PROBLEMİ)</h2>
+    <p>İnsanın ahlaki kararlar alırken ne derece bağımsız olduğu sorusu, ahlak felsefesinin en çok soru getiren teorik tartışmalarından biridir. Bu soruya beş farklı yaklaşım geliştirilmiştir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Felsefi Yaklaşım</th>
+                <th>Temel Tezi ve Özgürlük Durumu</th>
+                <th>Sınav İçin Anahtar Vurgu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Determinizm (Belirlenimcilik)</strong></td>
+                <td>İnsan eylemlerinde <strong>özgür değildir.</strong> Çünkü insan, psikolojik, toplumsal ve fiziksel yasaların (neden-sonuç zincirinin) esiridir. Davranışlarımız önceden belirlenmiştir.</td>
+                <td>"Doğa yasaları, toplumsal baskı, neden-sonuç zorunluluğu, özgürlüğün reddi" kelimeleri aranır.</td>
+            </tr>
+            <tr>
+                <td><strong>İndeterminizm (Belirlenmezcilik)</strong></td>
+                <td>Determinizmin tam zıddıdır. İnsan eylemlerinde <strong>tamamen özgürdür.</strong> İnsan davranışlarını sınırlayan hiçbir mutlak yasa yoktur; birey kendi seçimlerini kendisi yapar.</td>
+                <td>"Sonsuz seçenek, mutlak irade ve özgürlük, sınırların yokluğu" vurgulanır.</td>
+            </tr>
+            <tr>
+                <td><strong>Otodeterminizm (Ahlaki Özerklik)</strong></td>
+                <td>Özgürlüğü bireyin gelişimine bağlayan <strong>sentez görüştür.</strong> İnsan, aklını ve bilgisini geliştirdiği, kişisel farkındalığını artırdığı müddetçe özgürleşir. Özgürlük doğuştan sabit değil, kazanılan bir süreçtir.</td>
+                <td>"Kendi kendini belirleme, entelektüel gelişim, akıl ve bilgiyle gelen özerklik" anahtardır.</td>
+            </tr>
+            <tr>
+                <td><strong>Fatalizm (Kadercilik)</strong></td>
+                <td>İnsan eylemlerinde <strong>özgür değildir.</strong> Çünkü her insanın geleceği, kararları üstün bir ilahi güç ya da kozmik bir yazgı (kader) tarafından önceden çizilmiştir. İnsan sadece bir figürandır.</td>
+                <td>"Kozmik yazgı, kaçınılmaz kader, ilahi önceden belirlenmişlik" ifadeleri verilir.</td>
+            </tr>
+            <tr>
+                <td><strong>Libertarianizm (Özgürlükçülük)</strong></td>
+                <td>Siyasal ve ahlaki açıdan devletin ya da yasaların bireyin özgürlüğünü kısıtlamasına karşı çıkan radikal akımdır. İnsan tam manasıyla özgür olmalıdır.</td>
+                <td>"Otorite karşıtlığı, bireysel özgürlüğün mutlak dokunulmazlığı" aranır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. EVRENSEL BİR AHLAK YASASI VAR MIDIR?</h2>
+    <p>Ahlak felsefesinin en büyük kırılım noktası, tüm insanlık için her zaman ve her yerde geçerli olabilecek nesnel bir ahlak yasasının var olup olamayacağı tartışmasıdır.</p>
+
+    <h3>A) Evrensel Ahlak Yasasının Varlığını Reddedenler (Subjektif Yaklaşımlar)</h3>
+    <p>Ahlakın mutlak surette kişiye, çağa veya duruma göre değiştiğini savunan akımlardır:
+    <br>• <strong>Hedonizm (Haz Ahlakı - Aristippos / Epikuros):</strong> Eylemin amacı hazza ulaşmaktır. Haz ise tamamen öznel/kişisel bir duygu olduğundan, herkesi mutlu edecek evrensel bir ahlak yasası olamaz.
+    <br>• <strong>Pragmatizm (Faydacılık):</strong> Eylemin değeri getirdiği pratik faydaya bağlıdır. Çıkar ve fayda kişiden kişiye değiştiği için evrensel ahlakı reddederler.
+    <br>• <strong>Anarşizm (Proudhon / Stirner):</strong> İnsanın özgürlüğünü kısıtlayan devlete, hukuka ve tüm kurallara karşı çıkarlar. Kuralların olmadığı yerde ahlak yasası da olamaz.
+    <br>• <strong>Nihilizm (Nietzsche):</strong> Mevcut tüm köle ahlakını ve dini değerleri reddeder. İnsan kendi değerini kendisi yaratan bir "Üstinsan" (*Übermensch*) olmalıdır.
+    <br>• <strong>Egzistansiyalizm (Sartre):</strong> İnsanın önceden yazılmış bir özü yoktur. Evrensel bir kural koymak insanın mutlak özgürlüğünü yok eder. Birey kendi değerini kendi seçer.</p>
+
+    <h3>B) Evrensel Ahlak Yasasının Varlığını Kabul Edenler (Objektif Yaklaşımlar)</h3>
+    <p>Herkes için geçerli ortak bir ahlaki zeminin mümkün olduğunu savunan akımlardır. İki farklı temel üzerinden kabul ederler:</p>
+    <ul>
+        <li><strong>Ahlak Yasasını Subjektif Özelliklere Dayandıranlar (Utilitarizm):</strong> Temsilcileri Bentham ve Mill'dir. Eylemin amacını fayda olarak görürler ancak bu fayda kişisel değil, **"olabildiğince çok insanın, en yüksek düzeyde faydası"** olmalıdır (Toplumsal Fayda). Bu kural evrenseldir.</li>
+        <li><strong>Ahlak Yasasını Objektif Gerçekliklere Dayandıranlar (Sokrates, Platon, Spinoza, Kant):</strong> Platon'a göre en üstün yasa "İyi İdeası"na uygun yaşamaktır. En çok soru getiren düşünür ise <strong>Immanuel Kant</strong>'tır.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>💡 Immanuel Kant'ın Ödev Ahlakı Mimarisi:</strong>
+        <p>Kant'a göre bir eylemin ahlaki sayılabilmesi için, o eylemin arkasındaki niyetin hiçbir çıkar, korku, acıma veya ödül beklentisi taşımaması gerekir. Eylem, sırf <strong>"Ödev"</strong> bilinciyle, yani yasanın emri olduğu için yapılmalıdır. Kant buna <strong>Koşulsuz Buyruk (Kategorik İmperatif)</strong> der: <em>"Öyle davran ki, eyleminin arkasındaki ilke tüm insanlık için evrensel bir yasa olabilsin."</em> Çıkar için yapılan iyilik ahlaki değil, sadece yasaya uygundur.</p>
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI METİN ANALİZLİ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> "Bir insan suç işlediğinde onu mahkemeye çıkarıp cezalandırıyoruz. Çünkü onun bu suçu kendi özgür iradesiyle, alternatif seçenekleri varken bilerek seçtiğini varsayıyoruz. Eğer insanın kararları doğa yasaları, genetik kodlar ya da toplumsal baskılar tarafından önceden tamamen belirlenmiş olsaydı, bir robotu programlandığı gibi davrandığı için cezalandıramayacağımız gibi, insanı da eylemlerinden ötürü sorumlu tutamazdık." <br><br>
+        Bu parçada savunulan temel felsefi iddia aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Sorumluluğun olmadığı yerde kadercilik (fatalizm) hakim olur.</li>
+            <li>B) Ahlaki sorumluluğun temel ön şartı, bireyin eylemlerinde özgür iradeye sahip olmasıdır.</li>
+            <li>C) Determinizm, insanı toplumdaki en özgür varlık haline getirir.</li>
+            <li>D) Evrensel ahlak yasası, insan özgürlüğünü tamamen ortadan kaldırır.</li>
+            <li>E) Vicdan, insan eylemlerini yargılayan nesnel bir doğa yasasıdır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paragrafta, insanı eylemlerinden ötürü cezalandırabilmemizin veya sorumlu tutabilmemizin gerekçesi olarak "alternatif seçenekleri varken kendi iradesiyle seçmesi" (özgürlük) gösterilmiştir. Eğer özgürlük olmasaydı sorumluluk da olmazdı vurgusu yapılmıştır. Dolayısıyla ahlaki sorumluluğun ön şartı özgürlüktür. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> "Ben doğduğumda ne zengin bir ailede doğmayı seçtim, ne de genetik olarak bu hastalıklara sahip olmayı istedim. İçinde büyüdüğüm toplumun ahlak kuralları, aldığım eğitim ve beynimdeki kimyasal reaksiyonlar bana sormadan davranışlarımı şekillendirdi. Ben sadece önceden kurulmuş bir domino taşının yıkılış sahnesindeki son taşım; eylemlerimde özgür olduğumu sanmam, sadece arkadaki nedenleri bilmememden kaynaklanan bir illüzyondur." <br><br>
+        Bu sözleri söyleyen bir kişinin, ahlak felsefesindeki hangi yaklaşıma sımsıkı bağlı olduğu savunulabilir?</div>
+        <ul class="options-list">
+            <li>A) İndeterminizm</li>
+            <li>B) Otodeterminizm</li>
+            <li>C) Determinizm (Belirlenimcilik)</li>
+            <li>D) Libertarianizm</li>
+            <li>E) Egzistansiyalizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Parçayı konuşan kişi insanın genetik, toplumsal ve psikolojik yasaların (nedenlerin) bir sonucu olduğunu, kararlarının önceden belirlendiğini ve özgürlüğün bir yanılsama olduğunu ileri sürmektedir. İnsanın eylemlerinde özgür olmadığını ve her şeyin bir neden-sonuç zinciriyle belirlendiğini savunan akım <strong>Determinizm</strong>'dir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir bakkal, dükkanına gelen küçük bir çocuğa para üstünü eksiksiz verir. Bakkalın bu eylemi yaparken aklında iki farklı niyet olabilir: 
+        <br>I. Durum: "Eğer çocuğun parasını eksik verirsem mahallede adım hırsıza çıkar, müşteri kaybederim." düşüncesi.
+        <br>II. Durum: "Dürüst olmak bir insanlık ödevidir, para üstünü tam vermek yasanın mutlak emridir." düşüncesi.
+        <br><br>
+        Kant’ın ödev ahlakı mimarisine göre, bu durumlardan hangileri <u>ahlaki bir eylem</u> olarak kabul edilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) İkisi de ahlaki değildir</li>
+            <li>E) Duruma göre değişir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kant'a göre bir eylemin dışarıdan iyi görünmesi yetmez; arkasındaki niyetin saf olması gerekir. I. durumda bakkal müşteri kaybetmemek (çıkar/fayda) için dürüst davranmıştır, bu eylem Kant'a göre ahlaki değildir, sadece yasaya uygundur. II. durumda ise hiçbir çıkar gözetmeden, sırf dürüstlüğü bir **ödev** ve koşulsuz buyruk kabul ettiği için yapmıştır. Kant'a göre sadece II. durum ahlakidir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> "Evrensel bir ahlak yasasının varlığını savunan Bentham ve Mill, ahlaki bir eylemin değerini onun sonucunda ortaya çıkan faydaya bağlarlar. Ancak buradaki fayda, bencilce kendi çıkarını düşünmek demek değildir. Gerçek ahlak, bireyin karar alırken 'olabildiğince çok insana, olabildiğince büyük bir mutluluk ve fayda' getirecek seçeneğe yönelmesidir." <br><br>
+        Parçada anlatılan ve ahlak yasasını toplumsal faydaya dayandırarak evrenselleştiren akım hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hedonizm</li>
+            <li>B) Anarşizm</li>
+            <li>C) Utilitarizm (Toplumsal Faydacılık)</li>
+            <li>D) Egzistansiyalizm</li>
+            <li>E) Nihilizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Faydayı temel alan iki akım vardır: Pragmatizm bireysel faydaya odaklanıp evrensel ahlakı reddeder; <strong>Utilitarizm</strong> (Bentham ve Mill) ise faydayı topluma yayarak "en çok insanın en büyük mutluluğu" formülüyle evrensel ahlak yasasını kabul eder. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> "İnsanın dışındaki her nesnenin özü sabittir. Bir kağıt makasının ne işe yarayacağı üretilmeden önce bellidir. Ancak insan, hiçbir önceden belirlenmiş kalıp, kader ya da genel ahlak yasası olmadan dünyaya fırlatılmıştır. Evrensel bir ahlak yasasının varlığını iddia etmek, insanın kendi geleceğini yaratma gücünü ve mutlak özgürlüğünü elinden almak demektir. İnsan kendi kurallarını kendi yazar." <br><br>
+        Sartre'ın bu düşünceleri doğrultusunda evrensel ahlak yasasını reddeden felsefi akım hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Pozitivizm</li>
+            <li>B) Egzistansiyalizm (Varoluşçuluk)</li>
+            <li>C) Fatalizm</li>
+            <li>D) Utilitarizm</li>
+            <li>E) Otodeterminizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Metinde Jean-Paul Sartre'ın "Varoluş özden önce gelir" felsefesine dayanan, insanın mutlak özgürlüğünü savunan ve bu özgürlüğü kısıtlayacağı gerekçesiyle evrensel ahlak yasalarını tamamen dışlayan <strong>Egzistansiyalizm (Varoluşçuluk)</strong> akımı anlatılmıştır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

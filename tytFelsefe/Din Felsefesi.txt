@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Felsefe - Ünite 7: Din Felsefesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .slate-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FELSEFE - MODÜL 7: DİN FELSEFESİ</h1>
+        <p>Din Felsefesinin Konusu, Tanrı'nın Varlığına Yönelik Kanıtlar ve Teolojik Yaklaşımlar</p>
+    </div>
+
+    <h2>1. DİN FELSEFESİNİN KONUSU VE TEOLOJİDEN FARKI</h2>
+    <p>Din felsefesi; dinin temel iddialarını, kavramlarını (Tanrı, vahiy, ahiret, kutsal) rasyonel, objektif ve eleştirel bir süzgeçten geçirerek inceleyen felsefe dalıdır. Din felsefesi ne bir dine inanmayı telkin eder ne de dini inançları çürütmeyi amaçlar; tamamen tarafsız bir anlama ve sorgulama faaliyetidir. ÖSYM, din felsefesi ile **Teoloji (ilahiyat)** arasındaki yöntemsel ayrımı sormayı çok sever:</p>
+    <ul>
+        <li><strong>Teolojinin (İlahiyat) Özellikleri:</strong> Belli bir dine (Örn: İslam teolojisi, Hristiyan teolojisi) dayanır. Amacı, inandığı dinin doğruluğunu kanıtlamak, dogmalarını savunmak ve inananların imanını güçlendirmektir. **Dogmatiktir** ve taraflıdır.</li>
+        <li><strong>Din Felsefesinin Özellikleri:</strong> Belirli bir dini değil, genel olarak "din" olgusunu evrensel boyutta ele alır. Dayanağı dogma değil, tamamen insan aklıdır. **Eleştirel, objektif (tarafsız) ve rasyoneldir.**</li>
+    </ul>
+
+    <h2>2. TANRI'NIN VARLIĞINI KABUL EDENLERİN KANITLARI (TEİZM)</h2>
+    <p>Teizm; evreni yaratan, sürekli müdahale eden, ödül ve ceza veren mutlak bir Tanrı'nın varlığına inanmaktır. Teist filozoflar akıl yoluyla Tanrı'nın varlığını ispatlamak için şu dört büyük rasyonel argümanı geliştirmişlerdir:</p>
+    <ul>
+        <li><strong>1. Ontolojik Kanıt (Varlık Kanıtı - Anselmus / Descartes):</strong> Tanrı kavramının bizzat kendisinden yola çıkan zihinsel bir kanıttır. Zihnimizde "en kusursuz, kendisinden daha mükemmeli düşünülemeyen bir varlık" (Tanrı) fikri mevcuttur. Eğer bu varlık sadece zihnimizde olsaydı, dış dünyada da var olan başka bir şey ondan daha mükemmel olurdu. Dolayısıyla en kusursuz varlık tanımı gereği <strong>dış dünyada da mutlak olarak var olmak zorundadır.</strong></li>
+        <li><strong>2. Kozmolojik Kanıt (İlk Neden / Nedensellik Kanıtı - Gazali / Aquinaslı Thomas):</strong> Evrendeki her olayın bir nedeni vardır. Bu neden-sonuç zincirini geriye doğru sonsuza kadar götürmek mantıksal olarak imkansızdır (Kısırdöngü). Öyleyse bu zinciri başlatan, kendisi hiçbir şeye muhtaç olmayan bir <strong>İlk Neden (İlk Muharrik / Nedensiz Neden)</strong> olmalıdır; o da Tanrı'dır.</li>
+        <li><strong>3. Teleolojik Kanıt (Düzen ve Amaç Kanıtı):</strong> Evrendeki muazzam mikro ve makro dengeden (Gözün yapısı, ekosistem, gezegenlerin yörüngeleri) yola çıkar. Bu mükemmel tasarım ve amaç, kendiliğinden ya da tesadüfen oluşamaz. Akıllıca kurgulanan her tasarım, arkasında mutlaka <strong>Akıllı bir Tasarımcı (Mimar)</strong> barındırır.</li>
+        <li><strong>4. Ahlak Kanıtı (Kant):</strong> İnsandaki vicdan ve ahlak duygusuna dayanır. Evrende iyilerin ödüllendirilmesi, kötülerin cezalandırılması fikri ahlaki bir zorunluluktur. Bu adaleti tam manasıyla sağlayacak üstün bir mutlak adalet otoritesinin (Tanrı'nın) varlığı ahlaken şarttır.</li>
+    </ul>
+
+    <h2>3. TANRI’NIN VARLIĞI PROBLEMİNE YAKLAŞIMLAR</h2>
+    <p>Filozoflar Tanrı'nın varlığı, evrenle ilişkisi ve bilinebilirliği konusunda farklı teorik kamplara ayrılmışlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Teolojik Yaklaşım</th>
+                <th>Kavramsal Tanımı ve Felsefesi</th>
+                <th>Sınav İçin Anahtar Vurgu</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Deizm (Yaradancılık)</strong></td>
+                <td>Tanrı evreni mükemmel bir saat gibi yaratmıştır ancak <strong>ondan sonra evrene, insana ve tarihe müdahale etmez.</strong> Vahiy, peygamber ve dinler yoktur. Akıl, Tanrı'yı bulmak için yeterlidir.</td>
+                <td>"Emekli Tanrı modeli, dinlerin/peygamberlerin reddi, sadece yaratıcı Tanrı" vurgulanır.</td>
+            </tr>
+            <tr>
+                <td><strong>Ateizm (Tanrıtanımazlık)</strong></td>
+                <td>Tanrı'nın ve metafizik her türlü varlığın mevcudiyetini <strong>kesin olarak reddeden</strong> görüştür. Evren sadece maddeden ibarettir. Kötülük problemi en büyük dayanaklarıdır.</td>
+                <td>"Kötülük sorunu, mutlak inkar, materyalist altyapı" kelimeleri aranır.</td>
+            </tr>
+            <tr>
+                <td><strong>Agnostisizm (Bilinemezcilik)</strong></td>
+                <td>Tanrı'nın var olduğunu veya yok olduğunu kanıtlayacak <strong>yeterli rasyonel delile sahip olmadığımızı</strong> savunur. İnsan aklı sınırlıdır, bu yüzden bu konuda kesin bir yargıya varılamaz.</td>
+                <td>"Yargıdan kaçınma, insan aklının sınırı, askıda kalma" anahtardır.</td>
+            </tr>
+            <tr>
+                <td><strong>Panteizm (TümTanrıcılık)</strong></td>
+                <td><strong>Tanrı ile evren birdir, aynı şeydir (Özdeştir).</strong> Evrenin ötesinde aşkın bir Tanrı yoktur; doğadaki her şey (bütün evren) Tanrı'nın kendisidir. Temsilcisi Spinoza'dır.</td>
+                <td>"Tanrı = Evren formülü, içkinlik, doğanın kutsallığı" ifadeleri verilir.</td>
+            </tr>
+            <tr>
+                <td><strong>Panenteizm (Kamusal Varoluşçuluk)</strong></td>
+                <td>Her şey Tanrı'nın içindedir ancak Tanrı evrenden ibaret değildir, <strong>evreni aşan bir boyutu da vardır.</strong> Hem içkin hem aşkındır. Ruh ile beden ilişkisi gibidir.</td>
+                <td>"Her şey Tanrı'dadır ama Tanrı evrenden büyüktür" ayrımı esastır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <strong>💡 Din Felsefesinde Kötülük Problemi (Teodise):</strong>
+        <p>Ateist filozofların en güçlü argümanıdır: "Eğer Tanrı mutlak güçlü ve mutlak iyiyse, dünyadaki bu kötülükler (savaşlar, bebek ölümleri, depremler) neden vardır? Kötülüğü engelleyemiyorsa gücü yetmiyordur (acizdir); engellemek istemiyorsa iyi değildir." Teist filozoflar ise bu problemi <strong>"İnsanın özgür iradesi"</strong> ile çözerler: Tanrı insanı robot olarak yaratmamıştır, seçimi insana bırakmıştır. Kötülük, iyiliğin bilinebilmesi için bir zıtlık unsurudur.</p>
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI METİN ANALİZLİ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> "Hristiyan teolojisi, İsa Mesih'in uluhiyetini ve İncil'in hatasızlığını temel bir dogma olarak kabul eder ve tüm argümanlarını bu inancı meşrulaştırmak için kurar. Din felsefesi ise kutsal metinlerin tarihsel ve mantıksal geçerliliğini, Tanrı kavramının felsefi tutarlılığını herhangi bir inancın tarafını tutmadan, dışarıdan rasyonel bir gözle inceler." <br><br>
+        Bu parçaya göre, din felsefesini teolojiden ayıran <u>en temel nitelik</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Teolojinin evrensel konuları, din felsefesinin ise sadece lokal inançları ele alması</li>
+            <li>B) Din felsefesinin tarafsız, eleştirel ve rasyonel olması; teolojinin ise dogmatik ve savunmacı (taraflı) bir yapıya sahip olması</li>
+            <li>C) İki disiplinin de inanç esaslarını akılla çürütmeyi ortak hedef belirlemesi</li>
+            <li>D) Teolojinin dayanağının sadece insan aklı, din felsefesinin ise kutsal vahiyler olması</li>
+            <li>E) Din felsefesinin insanlara yeni ahlaki ve dini ritüeller telkin etmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paragrafta teolojinin belli bir inancı temel alan ve onu korumaya çalışan dogmatik yapısı (savunmacılığı) ile din felsefesinin herhangi bir inancın tarafını tutmadan rasyonel ve nesnel yaklaşımı karşılaştırılmıştır. Din felsefesi eleştirel ve objektifken, teoloji dogmatik ve taraflıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> "Bir kumsalda yürürken yerde karmaşık dişlilere, çarklara ve kusursuz bir mekanizmaya sahip altın bir cep saati bulduğunuzu hayal edin. Bu saatin dalgaların kumu aşındırmasıyla, rüzgarın tesadüfen metalleri birleştirmesiyle kendi kendine oluştuğunu iddia edebilir misiniz? Kesinlikle hayır. Saatin varlığı, onu tasarlayan akıllı bir saat ustasının varlığını zorunlu kılar. O halde, atomlarından galaksilerine kadar milyarlarca kat daha karmaşık olan bu evren de kendiliğinden oluşamaz; arkasında akıllı bir mimar vardır." <br><br>
+        Bu parçada sergilenen ve evrendeki düzenden yola çıkan Tanrı'nın varlığı kanıtı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ontolojik Kanıt</li>
+            <li>B) Kozmolojik Kanıt</li>
+            <li>C) Teleolojik (Düzen ve Amaç) Kanıt</li>
+            <li>D) Ahlak Kanıtı</li>
+            <li>E) Kötülük Kanıtı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Evrendeki harika işleyişten, tasarım, nizam ve amaçtan yola çıkarak "Her tasarım bir tasarımcıyı gerektirir" mantığıyla Tanrı'nın varlığını ispatlayan argümana felsefede <strong>Teleolojik (Düzen ve Amaç) kanıt</strong> adı verilir. Parçadaki saat ustası metaforu teleolojik kanıtın en klasik örneğidir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> "Tanrı evreni yoktan var etmiş, fizik kurallarını ve kusursuz işleyiş mekanizmasını kurmuştur. Ancak evreni yarattıktan sonra bir kenara çekilmiş; dünyaya müdahale etmeyi, peygamberler göndermeyi ya da mucizeler yaratmayı bırakmıştır. Evren, Tanrı'nın kurduğu kurallara göre işleyen mekanik bir saattir. İnsanın Tanrı'yı bulması için vahiylere ihtiyacı yoktur, sadece aklını kullanması yeterlidir." <br><br>
+        Bu parçada felsefi özellikleri anlatılan teolojik yaklaşım aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Teizm</li>
+            <li>B) Panteizm</li>
+            <li>C) Deizm (Yaradancılık)</li>
+            <li>D) Agnostisizm</li>
+            <li>E) Ateizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Tanrı'nın varlığını ilk yaratıcı olarak kabul eden ancak yaratım eyleminden sonra evrene asla müdahale etmediğini savunan, vahiy ve din mekanizmasını tamamen dışlayan akıma <strong>Deizm (Yaradancılık)</strong> denir. Parçada "kenara çekilen ve müdahale etmeyen Tanrı" modeli resmedilmiştir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> "Evren ile Tanrı arasında hiyerarşik bir yaratıcı-yaratılan ilişkisi yoktur. Tanrı, doğanın dışında, gökyüzünde bir yerlerde duran aşkın bir güç değildir. Doğa neyse Tanrı odur, Tanrı neyse doğa odur. Taş, toprak, ağaç, nehirler ve insan aslında o tek olan ilahi tözün farklı biçimlerde görünüşe gelmesidir. Evren ile Tanrı özdeştir." <br><br>
+        Spinoza'nın bu felsefi sistemini özetleyen ve "TümTanrıcılık" olarak bilinen yaklaşım hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Teizm</li>
+            <li>B) Panenteizm</li>
+            <li>C) Panteizm</li>
+            <li>D) Deizm</li>
+            <li>E) Agnostisizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Tanrı ile evreni bir ve aynı (özdeş) kabul eden, evrenin ötesinde aşkın bir yaratıcıyı reddedip ilahi gücü tamamen doğanın içine (içkinliğe) gömen yaklaşıma <strong>Panteizm (TümTanrıcılık)</strong> denir. Formülü Tanrı = Evren'dir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> "İnsan aklı sadece duyular evreniyle sınırlıdır. Laboratuvara sokamadığımız, zaman ve mekan içinde test edemediğimiz metafiziksel varlıklar (Tanrı'nın varlığı ya da yokluğu gibi) hakkında kesin bir hüküm vermek rasyonel açıdan imkansızdır. Biz ne 'Tanrı vardır' diyebiliriz ne de 'Tanrı yoktur' diyebiliriz. Doğru tavır, bilinemez olan bu konuda yargıdan kaçınmaktır." <br><br>
+        Bu parçada savunulan "bilinemezcilik" tavrı felsefe literatüründe hangi isimle anılır?</div>
+        <ul class="options-list">
+            <li>A) Agnostisizm</li>
+            <li>B) Ateizm</li>
+            <li>C) Teizm</li>
+            <li>D) Panteizm</li>
+            <li>E) Nihilizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> İnsan aklının sınırlarından ötürü Tanrı'nın varlığı ya da yokluğu konusunda kesin bir kanıta ulaşılamayacağını, dolayısıyla bu konunun insan için "bilinemez" olduğunu savunan akıma <strong>Agnostisizm (Bilinemezcilik)</strong> adı verilir. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>
