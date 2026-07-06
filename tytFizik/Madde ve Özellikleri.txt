@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Fizik - Ünite 2: Madde ve Özellikleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FİZİK - MODÜL 2: MADDE VE ÖZELLİKLERİ</h1>
+        <p>Kütle, Hacim, Özkütle, Katılarda Dayanıklılık ve Sıvılarda Yüzey Gerilimi - Kılcallık Etkisi</p>
+    </div>
+
+    <h2>1. MADDENİN ORTAK VE AYIRT EDİCİ ÖZELLİKLERİ</h2>
+    <p>Kütlesi, hacmi, eylemsizliği ve tanecikli yapısı olan her şeye madde denir. Kütle ve hacim maddelerin ortak özellikleriyken; özkütle, erime noktası, iletkenlik gibi özellikler ayırt edici özelliklerdir.</p>
+    <ul>
+        <li><strong>Kütle:</strong> Maddenin değişmeyen madde miktarıdır. Skaler ve temel bir büyüklüktür. SI sistemindeki birimi kilogramdır (kg), eşit kollu teraziyle ölçülür.</li>
+        <li><strong>Hacim:</strong> Maddenin uzayda kapladığı alandır. Skaler ve türetilmiş bir büyüklüktür. Birimi metreküptür (m<sup>3</sup>). Geometrik şekli düzgün olan katıların hacmi formüllerle (Küp: a<sup>3</sup>, Dikdörtgenler Prizması: a.b.c, Silindir: &pi;.r<sup>2</sup>.h, Küre: 4/3.&pi;.r<sup>3</sup>), düzgün olmayanlarınki ise dereceli silindir ve taşırma kapları yardımıyla ölçülür.</li>
+    </ul>
+
+    <h2>2. ÖZKÜTLE (YOĞUNLUK) VE KARIŞIMLAR</h2>
+    <p>Sabit sıcaklık ve basınç altında, bir maddenin birim hacminin kütlesine <strong>özkütle</strong> denir. "d" sembolü ile gösterilir, birimi g/cm<sup>3</sup> veya kg/m<sup>3</sup>'tür. Formülü:</p>
+    <div class="highlight-box" style="text-align: center; font-size: 12pt; font-weight: bold;">
+        Özkütle (d) = Kütle (m) / Hacim (V)
+    </div>
+    <p>Sabit sıcaklık ve basınçta saf bir maddenin kütlesi arttıkça hacmi de aynı oranda artar; bu nedenle <strong>maddenin kütle-hacim grafiği eğimi sabit bir doğru verir ve bu eğim bize özkütleyi sunar.</strong> Sıcaklık artarsa maddenin hacmi genleşir, kütlesi sabit kalacağından özkütlesi azalır.</p>
+    <p><strong>Karışımların Özkütlesi:</strong> Birbiri içinde homojen çözünen sıvıların oluşturduğu karışımın özkütlesi (d<sub>k</sub>), toplam kütlenin toplam hacme bölünmesiyle bulunur. Karışımın özkütlesi, karışıma giren sıvıların özkütlelerinin <u>arasında bir değer almak zorundadır.</u> Asla özkütlesi en büyük olandan daha büyük veya en küçük olandan daha küçük olamaz.</p>
+
+    <h2>3. KATILARDA DAYANIKLILIK İLKELERİ</h2>
+    <p>Katı maddelerin çekme, germe veya sıkıştırma gibi dışarından uygulanan kuvvetlere karşı geometrik şekillerini koruma direncine <strong>dayanıklılık</strong> denir. Galilei'nin küp-kök kanununa göre geometrik cisimlerin boyutları (örneğin kenar uzunluğu) "k" katına çıkarılırsa; kesit alanları "k<sup>2</sup>" katına, hacimleri ve kütleleri ise "k<sup>3</sup>" katına çıkar.</p>
+    <p>Kendi ağırlığına karşı dayanıklılık, cismin kesit alanının hacmine bölünmesiyle (Kesit Alanı / Hacim) hesaplanır. Düzgün yükselen cisimlerde (küp, silindir, prizma) bu oran doğrudan <strong>1 / h (1 / Yükseklik)</strong> formülüne indirgenir. Buradan çıkan iki sarsılmaz sınav sonucu şudur:</p>
+    <ul>
+        <li>Boyutları orantılı olarak artırılan katı bir cismin kendi ağırlığına karşı dayanıklılığı <strong>azalır.</strong> (Bu yüzden devasa canlıların bacakları gövdelerine göre çok kalındır).</li>
+        <li>Küçük canlıların (karınca, pire) dayanıklılığı büyük canlılara (fil, balina) göre çok daha yüksektir.</li>
+    </ul>
+
+    <h2>4. SIVILARDA ADHEZYON, KOHEZYON VE YÜZEY GERİLİMİ</h2>
+    <p>Sıvı mekaniğinin endüstriyel ve biyolojik süreçlerini yöneten moleküler kuvvetler şunlardır:</p>
+    <ul>
+        <li><strong>Adezyon (Yapışma):</strong> <u>Farklı tür</u> moleküller arasındaki çekim kuvvetidir. Sıvının cama yapışması, yağmur damlasının cama tutunması adezyon etkisidir. Adezyon baskınsa sıvı yüzeyi ıslatır ve cam kapta çukur (içbükey) görünüm alır.</li>
+        <li><strong>Kohezyon (Birbirini Tutma):</strong> <u>Aynı tür</u> moleküllerin birbirini çekmesidir. Su damlalarının küresel kalma eğilimi, cıvanın dağılmadan durması kohezyondur. Kohezyon baskınsa sıvı yüzeyi ıslatmaz ve cam kapta tümsek (dışbükey) görünüm alır.</li>
+        <li><strong>Yüzey Gerilimi:</strong> Sıvı yüzeyindeki moleküllerin iç kısımdaki moleküller tarafından aşağıya doğru çekilmesiyle sıvı yüzeyinin gergin bir zar gibi davranması olayıdır. Kohezyon kuvvetinin doğrudan bir sonucudur. (Örn: Böceklerin suda yürümesi, ataşın suda batmadan durması).</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ YÜZEY GERİLİMİNİ DEĞİŞTİREN FAKTÖRLER:</strong>
+        <br>• <strong>Sıcaklık:</strong> Sıcaklık arttıkça kohezyon zayıflar, yüzey gerilimi <strong>azalır</strong> (Örn: Çamaşırların sıcak suda daha iyi yıkanması).
+        <br>• <strong>Deterjan / Sabun:</strong> Çözündüklerinde suyun yüzey gerilimini ciddi oranda <strong>düşürürler</strong> ve suyun kire nüfuz etmesini sağlarlar.
+        <br>• <strong>Tuz:</strong> Saf suya tuz eklenirse suyun yüzey gerilimi <strong>artar</strong>.
+    </div>
+
+    <ul>
+        <li><strong>Kılcallık (Kapiler Etki):</strong> Sıvıların çok ince (kılcal) borularda adezyon ve kohezyon kuvvetleri etkisiyle kendiliğinden yükselmesi veya alçalması olayıdır. Boru daraldıkça (kesit alanı küçüldükçe) kılcallık etkisi <strong>artar.</strong> (Örn: Ağaçların köklerindeki suyu yapraklara taşıması, süngerin veya kağıt havlunun suyu emmesi, gaz lambası fitilinin yağı çekmesi).</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Aynı sıcaklık ve basınç altında boş bir dereceli silindire önce 40 gram kütleye sahip X sıvısı konulduğunda hacmi 20 cm<sup>3</sup> olarak ölçülüyor. Daha sonra bu sıvı ile homojen karışabilen 3 g/cm<sup>3</sup> özkütleli Y sıvısı eklenerek bir karışım oluşturuluyor. <br><br>
+        Buna göre, elde edilen homojen karışımın özkütlesi aşağıdakilerden hangisi <u>kesinlikle olamaz</u>?</div>
+        <ul class="options-list">
+            <li>A) 2,1 g/cm<sup>3</sup></li>
+            <li>B) 2,5 g/cm<sup>3</sup></li>
+            <li>C) 2,8 g/cm<sup>3</sup></li>
+            <li>D) 2,0 g/cm<sup>3</sup></li>
+            <li>E) 3,2 g/cm<sup>3</sup></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> Önce X sıvısının özkütlesini bulalım: d<sub>X</sub> = m / V = 40 / 20 = 2 g/cm<sup>3</sup>. Y sıvısının özkütlesi ise d<sub>Y</sub> = 3 g/cm<sup>3</sup> olarak verilmiştir. Kimya ve fizik kurallarına göre, iki sıvının oluşturduğu homojen karışımın özkütlesi bu iki değerin (2 ile 3) **arasında** olmak zorundadır. Karışımın yoğunluğu sınır değerler olan 2 ve 3'e de eşit olamaz. Bu nedenle 3,2 g/cm<sup>3</sup> değeri bu karışım için kesinlikle imkansızdır. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Boyutları orantılı olarak büyütülen katı bir prizmanın kendi ağırlığına karşı dayanıklılık değişimi incelenmektedir. <br><br>
+        Buna göre homojen katı bir silindirin tüm geometrik boyutları (yarıçapı ve yüksekliği) 2 katına çıkarıldığında, silindirin kesit alanı, hacmi ve kendi ağırlığına karşı dayanıklılığı sırasıyla nasıl değişir?</div>
+        <ul class="options-list">
+            <li>A) Kesit alanı 2 katına çıkar, Hacim 4 katına çıkar, Dayanıklılık değişmez.</li>
+            <li>B) Kesit alanı 4 katına çıkar, Hacim 8 katına çıkar, Dayanıklılık yarıya iner (1/2 olur).</li>
+            <li>C) Kesit alanı 4 katına çıkar, Hacim 8 katına çıkar, Dayanıklılık 2 katına çıkar.</li>
+            <li>D) Kesit alanı 8 katına çıkar, Hacim 4 katına çıkar, Dayanıklılık 4 katına çıkar.</li>
+            <li>E) Kesit alanı 2 katına çıkar, Hacim 2 katına çıkar, Dayanıklılık yarıya iner.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Boyutlar 2 katına çıktığında Galileo'nun küp-kök yasasına göre kesit alanı yarıçapın karesiyle orantılı olduğundan 2<sup>2</sup> = 4 katına çıkar. Hacim ise boyutların küpüyle orantılı olduğundan 2<sup>3</sup> = 8 katına çıkar. Kendi ağırlığına karşı dayanıklılık Kesit Alanı / Hacim olduğundan 4 / 8 = 1/2 olur, yani **yarıya iner** (Yükseklik 2 katına çıktığı için 1/h formülünden de doğrudan 1/2 olduğu görülebilir). Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir bardağın içindeki saf suya bir damla deterjan damlatıldığında, su yüzeyinde batmadan dengede durmakta olan metal bir ataşın hızla batarak dibe çöktüğü gözlemlenmiştir. <br><br>
+        Laboratuvarda gözlemlenen bu durumun fiziksel nedeni aşağıdakilerden hangisi ile açıklanır?</div>
+        <ul class="options-list">
+            <li>A) Deterjanın suyun özkütlesini aşırı derecede artırması</li>
+            <li>B) Deterjanın su molekülleri arasındaki kohezyon bağlarını gevşeterek yüzey gerilimini düşürmesi</li>
+            <li>C) Ataşa etki eden kaldırma kuvvetinin deterjanla birlikte tersine dönmesi</li>
+            <li>D) Deterjanın kılcallık etkisini artırarak ataşı aşağıya doğru emmesi</li>
+            <li>E) Suyun sıcaklığının deterjan molekülleri yüzeyinde donma noktasına gelmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ataşın su yüzeyinde batmadan durabilmesi, yoğunluğunun küçük olmasından değil (ataş metaldir, yoğundur) tamamen suyun **yüzey gerilimi** sayesindedir. Suya deterjan veya sabun eklendiğinde bu maddeler yüzey aktif madde olarak suyun kohezyon gücünü, dolayısıyla yüzey gerilimini **azaltır**. Yüzey gerilimi yıkıldığı için gergin zar yırtılır ve ataş batar. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Yağmurlu bir günde bir otomobilin ön camına çarpan su damlalarının yer çekimine rağmen cam yüzeyine yapışarak asılı kaldığı ve aşağıya kaymadığı gözlenmiştir. <br><br>
+        Su damlalarının cam yüzeyinde bu şekilde tutunabilmesini sağlayan temel fiziksel kuvvet aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kohezyon Kuvveti</li>
+            <li>B) Adezyon Kuvveti</li>
+            <li>C) Kılcallık Etkisi</li>
+            <li>D) Kaldırma Kuvveti</li>
+            <li>E) Sürtünmesiz Plazma Etkisi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Farklı tür moleküllerin (burada su molekülleri ile cam moleküllerinin) birbirine çekim uygulayarak yapışması olayına fıkıh ve fizik dilinde <strong>Adezyon (Yapışma)</strong> denir. Su damlalarının kendi içinde küresel kalması kohezyonken, cama tutunup asılı kalması adezyon kuvvetinin yer çekimine kafa tutmasıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Günlük hayatta ve doğada karşılaştığımız bazı olaylar kılcallık (kapiler etki) prensibiyle açıklanır. <br><br>
+        Buna göre aşağıdaki olaylardan hangisi doğrudan <strong>kılcallık etkisinin</strong> bir sonucu olarak <u>gösterilemez</u>? Gaz lambası fitilinin yağı çekmesi?</div>
+        <ul class="options-list">
+            <li>A) Kesme şeker köşesinden çaya değdirildiğinde tüm şekerin hızla ıslanması</li>
+            <li>B) Bitkilerin kökleriyle topraktan aldığı suyu metrelerce yükseklikteki yapraklarına kadar iletmesi</li>
+            <li>C) Masaya dökülen suyun üzerine bırakılan kağıt havlu tarafından tamamen emilmesi</li>
+            <li>D) Durgun bir su yüzeyine yavaşça bırakılan çelik bir iğnenin batmadan su üzerinde kalması</li>
+            <li>E) Duvarların tabandan gelen nemi yukarıya doğru çekerek rutubetlenmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> A, B, C ve E seçeneklerindeki olaylar, maddelerin içindeki mikro boşluklar ve ince kanallar sayesinde sıvıların adezyon-kohezyon dengesiyle kendiliğinden ilerlemesi olan kılcallık ile ilgilidir. Ancak D seçeneğinde çelik iğnenin su yüzeyinde batmadan durması, kılcallık değil suyun en üst katmanındaki <strong>Yüzey Gerilimi</strong> ile açıklanır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

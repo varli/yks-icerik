@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Fizik - Ünite 7: Dalgalar ve Optik</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FİZİK - MODÜL 7: DALGALAR VE OPTİK</h1>
+        <p>Dalga Mekaniğinin Temelleri, Ses ve Deprem Dalgaları, Aynalar, Kırılma ve Mercekler</p>
+    </div>
+
+    <h2>1. DALGA MEKANİĞİNİN TEMEL PARAMETRELERİ</h2>
+    <p>Esnek bir ortamda oluşturulan sarsıntının (titreşimin) bir noktadan diğerine enerji taşıyarak yayılması olayına <strong>dalga hareketi</strong> denir. Dalgalar taşınan enerjiye göre mekanik (ortam şart: yay, su, ses) ve elektromanyetik (boşlukta yayılır: ışık, X-ışınları) olarak ayrılır. Enlemesine ve boylamasına titreşim yönleri de mevcuttur. (Ses sadece boyuna, ışık sadece eninedir).</p>
+    
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ KAVRAMSAL FORMÜL BAĞLANTISI:</strong>
+        <br>Dalga mekaniğindeki temel hız formülü: <strong>Hız = Dalga Boyu x Frekans</strong> şeklindedir. Sınavlarda yorum soruları şu iki altın kurala göre çözülür:
+        <br>• <strong>Hız (V):</strong> Dalganın yayılma hızı <u>sadece ve sadece yayıldığı ortama bağlıdır.</u> Ortam değişmedikçe hız kesinlikle değişmez. (Örn: Derin su ortamında su dalgası hızlı, sığda yavaştır; hafif yayda yay dalgası hızlı, ağır yayda yavaştır).
+        <br>• <strong>Frekans (f) ve Periyot (T):</strong> Dalganın frekansı <u>sadece ve sadece dalgayı üreten kaynağa bağlıdır.</u> Dalga kaynaktan çıktıktan sonra ortam değiştirse bile frekansı asla değişmez.
+    </div>
+
+    <h2>2. SES DALGALARININ KARAKTERİSTİK ÖZELLİKLERİ</h2>
+    <p>Ses mekanik ve boyuna bir dalgadır. Boşlukta kesinlikle <u>yayılmaz.</u> Ses dalgaları üç temel özelliği üzerinden sorgulanır:
+    <br>• <strong>Yükseklik (Frekans):</strong> Sesin ince (tiz) veya kalın (pes) olması durumudur. Frekansı yüksek olan ses ince sestir (Kadın veya çocuk sesi), frekansı düşük olan ses kalın sestir (Erkek sesi). Gergin, ince ve kısa tellerden ince (yüksek frekanslı) ses çıkar.
+    <br>• <strong>Şiddet (Gürlük / Genlik):</strong> Sesin taşıdığı enerji miktarıdır, birimi Desibel'dir (dB). Dalganın genliği arttıkça sesin gürlüğü artar. (Fısıltı ile bağırma arasındaki fark sesteki şiddet farkıdır).
+    <br>• <strong>Tını (Ses Rengi):</strong> Aynı frekansta ve aynı gürlükte çıkan bir sesin, hangi müzik aletinden veya hangi kaynaktan geldiğini ayırt etmemizi sağlayan sesin kalitesidir, rengidir.</p>
+
+    <h2>3. OPTİK: AYDINLANMA, GÖLGE VE DÜZLEM AYNALAR</h2>
+    <p>Işık olaylarını, ışığın maddeyle etkileşimini inceleyen optik, TYT'nin en yüksek soru hacmine sahip kısmıdır:</p>
+    <ul>
+        <li><strong>Işık Akısı (&Phi;) ve Aydınlanma Şiddeti (E):</strong> Işık akısı, bir kaynağın birim zamanda etrafa saldığı toplam ışık enerjisidir, birimi lümendir. Aydınlanma şiddeti ise birim yüzeye düşen ışık akısıdır; birimi lükstür ve uzaklığın karesiyle ters orantılıdır (E = I / d<sup>2</sup>).</li>
+        <li><strong>Gölge Oluşumu:</strong> Işığın doğrusal yollarla yayılmasının doğrudan bir sonucudur. Noktasal veya küresel ışık kaynaklarının önüne saydam olmayan (opak) cisimler konulduğunda perdede hiç ışık alamayan tam gölge ve kısmen ışık alan yarı gölge alanları oluşur.</li>
+        <li><strong>Düzlem Aynalar:</strong> Yansıma kanunlarına göre çalışır (Gelen açı = Yansıyan açı). Düzlem aynada oluşan görüntü her zaman <strong>sanal (zahiri), düz, cisimle eşit boyda ve aynaya göre simetriktir.</strong></li>
+    </ul>
+
+    <h2>4. KÜRESEL AYNALAR, KIRILMA VE MERCEKLER</h2>
+    <p>Yansıtıcı yüzeyi küre şeklinde olan aynalar ve ışığı kıran cam optik araçlar şunlardır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Optik Araç Türü</th>
+                <th>Işığa Karşı Temel Davranışı</th>
+                <th>Görüntü Karakteristiği ve Günlük Kullanımı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Çukur Ayna (Dev aynası)</strong></td>
+                <td>Üzerine gelen ışınları odak noktasında (F) <strong>toplar.</strong></td>
+                <td>Cismin konumuna göre ters-küçük, ters-eşit, ters-büyük veya düz-büyük (sanal) görüntü verebilir. Dişçi aynaları, makyaj aynaları.</td>
+            </tr>
+            <tr>
+                <td><strong>Tümsek Ayna</strong></td>
+                <td>Üzerine gelen ışınları odaktan geliyormuş gibi dışarıya doğru <strong>dağıtır.</strong></td>
+                <td>Görüntü her zaman <strong>düz, sanal ve cisimden küçüktür.</strong> Görüş alanını genişlettiği için araba dikiz aynalarında, kavşak aynalarında kullanılır.</td>
+            </tr>
+            <tr>
+                <td><strong>Işığın Kırılması (Snell)</strong></td>
+                <td>Işığın bir ortamdan diğerine geçerken <strong>hızının ve doğrultusunun değişmesidir.</strong></td>
+                <td>Çok kırıcı (yoğun) ortama geçen ışık normale yaklaşarak yavaşlar. Az kırıcı ortama geçen ışık normalden uzaklaşarak hızlanır. Sınır açısı ve tam yansıma olayları (Serap olayı, fiberoptik) bu alana aittir.</td>
+            </tr>
+            <tr>
+                <td><strong>İnce Kenarlı Mercek (Yakınsak)</strong></td>
+                <td>Işığı kırarak odağa doğru <strong>toplar.</strong> Çukur ayna gibi davranır.</td>
+                <td>Göz kusurlarından <strong>Hipermetrop (yakını görememe)</strong> tedavisinde ve büyüteçlerde kullanılır.</td>
+            </tr>
+            <tr>
+                <td><strong>Kalın Kenarlı Mercek (Iraksak)</strong></td>
+                <td>Işığı kırarak odaktan geliyormuş gibi dışarı <strong>dağıtır.</strong> Tümsek ayna gibidir.</td>
+                <td>Görüntü hep düz ve küçüktür. Göz kusurlarından <strong>Miyop (uzağı görememe)</strong> tedavisinde kullanılır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Derinliği her yerinde sabit olan bir dalga leğeninde periyodik olarak çalışan bir dalga kaynağının ürettiği su dalgaları, leğenin ortasına yerleştirilen sığ (az derin) bir bölgeye doğru ilerlemektedir. <br><br>
+        Su dalgaları bu sığ (az derin) bölgeye giriş yaptığı an, dalgaların yayılma hızı, frekansı ve dalga boyu niceliklerinin değişimi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Hız artar, Frekans azalır, Dalga boyu artar.</li>
+            <li>B) Hız azalır, Frekans değişmez, Dalga boyu azalır.</li>
+            <li>C) Hız azalır, Frekans artar, Dalga boyu değişmez.</li>
+            <li>D) Hız değişmez, Frekans azalır, Dalga boyu artar.</li>
+            <li>E) Üç nicelik de sığ bölgede ortam yoğunluğundan ötürü artış gösterir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Su dalgalarında yayılma hızı tamamen ortamın derinliğine bağlıdır. Dalgalar sığ ortama geçtiğinde hızları kesinlikle **azalır**. Frekans ise sadece dalgayı üreten kaynağa bağlıdır; dalga kaynaktan çıktıktan sonra ortam değiştirse bile frekansı **asla değişmez**. Hız = Dalga Boyu x Frekans formülüne göre, frekans sabitken hız azaldığı için dalga boyu da mecburen **azalır**. Sıralama Azalır - Değişmez - Azalır olmalıdır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir gitar sanatçısı, gitarın akort ayarını yaparken telleri sabitleyen mandalları çevirerek telleri daha gergin hale getirmektedir. Teller gerildikten sonra gitara vurulduğunda çıkan sesin değiştiği fark edilmektedir. <br><br>
+        Buna göre tellerin daha gergin hale getirilmesi, gitardan çıkan ses dalgalarının öncelikle hangi fiziksel özelliğini artırmaya (değiştirmeye) yöneliktir?</div>
+        <ul class="options-list">
+            <li>A) Sesin şiddetini (gürlüğünü)</li>
+            <li>B) Sesin havadaki yayılma hızını</li>
+            <li>C) Sesin yüksekliğini (frekansını inceletmek amacıyla)</li>
+            <li>D) Sesin tınısını (rengini)</li>
+            <li>E) Ses dalgalarının taşıdığı toplam desibel mekaniğini</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Müzik aletlerinde bir tel ne kadar gergin, ince ve kısa olursa, o telin titreşim frekansı o kadar yüksek olur. Fizikte sesin frekansına sesin **yükseklği** denir. Tel gerildikçe frekans artar, yani ses incelir (tizleşir). Sesin hızı sadece havanın sıcaklığına bağlıdır, tellerin gerginliği hızı değiştirmez. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir mağazanın güvenlik ve otopark çıkış hatlarına, sürücülerin arkadan gelen araçları ve kör noktaları daha geniş bir açıyla görebilmelerini sağlamak amacıyla küre şeklinde yansıtıcı aynalar yerleştirilmiştir. <br><br>
+        Görüş alanını maksimum düzeyde genişleten ve her zaman cisimlerin <strong>düz ve küçük sanal görüntülerini</strong> oluşturan bu optik ayna türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Çukur Ayna</li>
+            <li>B) Düzlem Ayna</li>
+            <li>C) Tümsek Ayna</li>
+            <li>D) İnce Kenarlı Mercek Aynası</li>
+            <li>E) Parabolik Dev Aynası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Küresel aynalardan olan <strong>Tümsek Aynalar</strong>, üzerlerine gelen paralel ışınları dağıtarak yansıttıkları için en geniş görüş alanına sahip aynalardır. Tümsek aynanın önündeki bir cismin görüntüsü, cisim nerede olursa olsun her zaman odak ile ayna arasında **düz, sanal (aynanın içinde) ve cisimden daha küçüktür**. Bu yüzden otopark çıkışlarında ve dikiz aynalarında güvenlik amacıyla tercih edilirler. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Saydam K ortamından başka bir saydam L ortamına gönderilen tek renkli bir ışık ışınının, iki ortamı ayıran yüzeye geldiğinde doğrusal yolundan saparak normale yaklaşacak şekilde kırıldığı ve hızının yavaşladığı tespit edilmiştir. <br><br>
+        Buna göre bu iki ortamın optik yoğunlukları (kırıcılık indisleri: n<sub>K</sub>, n<sub>L</sub>) ve ışığın ortamlardaki yayılma hızları (V<sub>K</sub>, V<sub>L</sub>) arasındaki ilişki aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) n<sub>K</sub> &gt; n<sub>L</sub> ; V<sub>K</sub> &gt; V<sub>L</sub></li>
+            <li>B) n<sub>L</sub> &gt; n<sub>K</sub> ; V<sub>K</sub> &gt; V<sub>L</sub></li>
+            <li>C) n<sub>L</sub> &gt; n<sub>K</sub> ; V<sub>L</sub> &gt; V<sub>K</sub></li>
+            <li>D) n<sub>K</sub> = n<sub>L</sub> ; V<sub>K</sub> = V<sub>L</sub></li>
+            <li>E) n<sub>K</sub> &gt; n<sub>L</sub> ; V<sub>L</sub> &gt; V<sub>K</sub></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Işık ışınları az kırıcı (az yoğun) ortamdan çok kırıcı (çok yoğun) ortama geçerken **normale yaklaşarak kırılırlar**. Metinde ışığın normale yaklaştığı ve yavaşladığı söylendiğine göre, L ortamı K ortamından daha yoğundur, yani n<sub>L</sub> &gt; n<sub>K</sub>'dir. Bir ortamın kırıcılık indisi ne kadar büyükse, ışık o ortamda o kadar yavaş ilerler. Hızlar arasındaki ilişki ise V<sub>K</sub> &gt; V<sub>L</sub> şeklindedir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir göz muayenesine giden Hakan'a doktoru, göz merceğinin ışınları retinanın (ağ tabakanın) arkasında odakladığını, bu yüzden yakındaki nesneleri net göremediğini (Hipermetrop göz kusuru olduğunu) söylemiştir. Hakan'ın bu yakını görememe problemini çözmek için ışınları göz küresine girmeden önce biraz toplayarak öne çekecek bir gözlük camı reçete etmiştir. <br><br>
+        Buna göre Hakan'ın gözlüğünde kullanılması gereken, ışığı toplama özelliğine sahip <u>optik mercek türü</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kalın Kenarlı (Iraksak) Mercek</li>
+            <li>B) Tümsek Ayna Merceği</li>
+            <li>C) İnce Kenarlı (Yakınsak) Mercek</li>
+            <li>D) Silindirik Astigmat Aynası</li>
+            <li>E) Düzlem Cam Filtresi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Hipermetrop göz kusuru, yakını görememe durumudur ve ışınlar retinanın arkasına düştüğü için oluşur. Bu ışınları kırarak merkeze doğru toplama ve retinanın tam üzerine (öne) çekme görevi <strong>İnce Kenarlı (Yakınsak) Merceklere</strong> aittir. Miyop (uzağı görememe) olsaydı kalın kenarlı mercek kullanılırdı. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

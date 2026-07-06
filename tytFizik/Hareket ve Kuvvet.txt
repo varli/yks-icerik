@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Fizik - Ünite 3: Hareket ve Kuvvet</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FİZİK - MODÜL 3: HAREKET VE KUVVET</h1>
+        <p>Kinematik Kavramlar, Doğrusal Hareket Grafikleri, Newton'ın Hareket Kanunları ve Sürtünme Kuvveti</p>
+    </div>
+
+    <h2>1. HAREKET KAVRAMLARI VE AYIRT EDİCİ FARKLAR</h2>
+    <p>Bir cismin seçilen sabit bir referans noktasına göre zamanla yer değiştirmesine <strong>hareket</strong> denir. Hareket göreceli bir kavramdır. Mekaniğin bu kinematik kısmında birbiriyle sıkça karıştırılan kavram çiftleri ÖSYM'nin en sevdiği soru madenidir:</p>
+    <ul>
+        <li><strong>Konum, Alınan Yol ve Yer Değiştirme:</strong> 
+        <br>• <strong>Konum:</strong> Seçilen referans noktasından cismin bulunduğu noktaya çizilen yönlü uzaklıktır. Vektöreldir.
+        <br>• <strong>Alınan Yol (x):</strong> Hareketlinin izlediği yörüngenin toplam uzunluğudur. Yönü yoktur, <strong>skalerdir.</strong>
+        <br>• <strong>Yer Değiştirme (&Delta;x):</strong> Cismin ilk konumu ile son konumu arasındaki en kısa yönlü uzaklıktır. <strong>Vektöreldir.</strong> Başlangıçtan bitişe çizilen düz bir okla gösterilir.</li>
+        <li><strong>Sürat ve Hız:</strong>
+        <br>• <strong>Sürat (v):</strong> Bir hareketlinin birim zamanda <u>aldığı yoldur</u>. Formülü: Sürat = Alınan Yol / Zaman şeklindedir. <strong>Skalerdir.</strong> Araçlardaki hız göstergeleri aslında anlık sürati ölçer.
+        <br>• <strong>Hız (V):</strong> Bir hareketlinin birim zamandaki <u>yer değiştirmesidir</u>. Formülü: Hız = Yer Değiştirme / Zaman şeklindedir. <strong>Vektöreldir.</strong></li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM TUZAĞI (Ortalama Hız ve Ortalama Sürat):</strong>
+        <br>Dairesel veya dikey bir pistte tur atıp ilk başladığı noktaya geri dönen bir koşucunun yer değiştirmesi sıfırdır. Bu yüzden bu koşucunun dairesel pistteki yer değiştirmesi sıfır olduğundan <strong>Ortalama Hızı da sıfırdır.</strong> Ancak pist çevresinde yol katettiği için <strong>Ortalama Sürati sıfırdan farklıdır.</strong> Sorularda "hız" ve "sürat" kelimelerine çok dikkat edilmelidir.
+    </div>
+
+    <h2>2. NEWTON'IN HAREKET KANUNLARI (DİNAMİK)</h2>
+    <p>Cisimlerin hareket durumlarını ve bu durumların arkasındaki kuvvet etkileşimlerini açıklayan 3 temel yasa mevcuttur:</p>
+    <ul>
+        <li><strong>1. Eylemsizlik Yasası:</strong> Bir cisme etki eden net kuvvet sıfır ise (F<sub>net</sub> = 0), cisim o anki hareket durumunu korur. Duruyorsa durmaya devam eder, hareket halindeyse sabit hızla düzgün doğrusal hareketine devam eder. Ani fren yapan otobüste ileri fırlamamız eylemsizlik sonucudur.</li>
+        <li><strong>2. Dinamiğin Temel Prensibi:</strong> Bir cisme sıfırdan farklı bir net kuvvet etki ederse cisim kuvvet doğrultusunda ivmeli (hızlanan veya yavaşlayan) hareket yapar. Uygulanan net kuvvetin, cismin kazandığı ivmeye oranı sabittir ve bu oran cismin kütlesini verir. Formülü: <strong>F<sub>net</sub> = m . a</strong> şeklindedir. (F: Kuvvet [Newton], m: Kütle [kg], a: İvme [m/s<sup>2</sup>]).</li>
+        <li><strong>3. Etki - Tepki Yasası:</strong> Doğada kuvvetler asla tek başına bulunmaz, daima çiftler halindedir. Bir A cismi B cismine bir etki kuvveti uyguladığında, B cismi de A cismine <strong>eşit büyüklükte fakat zıt yönde</strong> bir tepki kuvveti uygular. Etki ve tepki kuvvetleri <u>farklı cisimler üzerinde olduğu için birbirini yok edemez veya net kuvveti sıfırlayamaz.</u> (Örn: Duvara vurulduğunda elin acıması, masanın üzerindeki kitaba masanın uyguladığı dik kuvvet).</li>
+    </ul>
+
+    <h2>3. SÜRTÜNME KUVVETİ (STATİK VE KİNETİK REJİM)</h2>
+    <p>Birbirine temas eden yüzeyler arasında, cismin hareketine ya da hareket eğilimine karşı koyan engelleyici kuvvete <strong>sürtünme kuvveti (F<sub>s</sub>)</strong> denir. Sürtünme kuvveti cismin kütlesine ve yüzeyin dik tepki kuvvetine (N) bağlıdır. İki aşamada incelenir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Sürtünme Türü</th>
+                <th>Etki Ettiği Durum</th>
+                <th>Kritik Hesaplama ve Davranış Modeli</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Statik Sürtünme Kuvveti</strong></td>
+                <td>Durmakta olan cisimler</td>
+                <td>Cisim harekete geçene kadar etki eder. Sabit bir değeri yoktur; <strong>durmakta olan bir cisme uygulanan yatay kuvvet ne kadarsa, statik sürtünme de tam o kadardır.</strong> Maksimum değeri F<sub>s(statik)</sub> = k<sub>s</sub> . N formülüyle bulunur.</td>
+            </tr>
+            <tr>
+                <td><strong>Kinetik Sürtünme Kuvveti</strong></td>
+                <td>Hareket halindeki cisimler</td>
+                <td>Cisim harekete geçtikten sonra etki eden sürtünmedir. Değeri sabittir, hareket hızı artsa da değişmez. Formülü: F<sub>s(kinetik)</sub> = k<sub>k</sub> . N şeklindedir. Kinetik sürtünme değeri, statik sürtünmenin maksimum değerinden her zaman <u>biraz daha küçüktür.</u></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Yarıçapı 10 metre olan çember şeklindeki bir koşu pistinin A noktasından harekete başlayan bir atlet, pist çevresinde yarım tur atarak tam karşıdaki B noktasına ulaşıyor. Bu hareket 5 saniye sürüyor. (&pi; = 3 alınız)<br><br>
+        Buna göre, atletin bu 5 saniyelik hareketi süresince ulaştığı ortalama sürati ve ortalama hızının büyüklüğü sırasıyla kaç m/s'dir?</div>
+        <ul class="options-list">
+            <li>A) Sürat: 6, Hız: 4</li>
+            <li>B) Sürat: 4, Hız: 6</li>
+            <li>C) Sürat: 6, Hız: 6</li>
+            <li>D) Sürat: 3, Hız: 2</li>
+            <li>E) Sürat: 12, Hız: 8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> 
+            <br>• Önce alınan yolu bulalım: Çemberin tam çevresi 2.&pi;.r = 2 . 3 . 10 = 60 metredir. Atlet yarım tur attığı için aldığı yol x = 60 / 2 = 30 metredir. 
+            <br>• Yer değiştirmeyi bulalım: A noktasından tam karşıdaki B noktasına en kısa mesafe çemberin çapı kadardır. Çap R = 2 . r = 2 . 10 = 20 metredir. Dolayısıyla yer değiştirme &Delta;x = 20 metredir.
+            <br>• Ortalama Sürat = Alınan Yol / Zaman = 30 / 5 = 6 m/s olur.
+            <br>• Ortalama Hız = Yer Değiştirme / Zaman = 20 / 5 = 4 m/s olur. Sıralama 6 ve 4 olmalıdır. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Doğrusal bir yolda durmakta olan 2 kg kütleli homojen bir tahta bloğa, zeminle arasında statik sürtünme katsayısının maksimum değerini üreten kuvvet sınırının 10 Newton olduğu bilinmektedir. Bu cisme durmaktayken yatay doğrultuda 6 Newton büyüklüğünde bir itme kuvveti uygulanıyor.<br><br>
+        Buna göre, bu kuvvet uygulandığı anda tahta bloğa etki eden sürtünme kuvvetinin büyüklüğü kaç Newton'dır?</div>
+        <ul class="options-list">
+            <li>A) 10</li>
+            <li>B) 4</li>
+            <li>C) 6</li>
+            <li>D) 0</li>
+            <li>E) 8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Statik sürtünme kuvvetinin formülle hesaplanan değeri (burada 10 N) o yüzeyin gösterebileceği **maksimum direnç sınırıdır**. Cisim henüz hareket etmiyorken, ona uygulanan yatay kuvvet (6 N) bu maksimum sınırı (10 N) aşamadığı için cisim eylemsizliğini korur ve durmaya devam eder. Durmakta olan cisimlerde net kuvvet sıfır olmak zorundadır. Bu nedenle, cisim harekete geçene kadar yüzeyin gösterdiği statik sürtünme kuvveti, uygulanan kuvvete büyüklükçe tam eşit olur. Sürtünme kuvveti de tam 6 Newton'dır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir asansörün içindeki baskülün üzerine çıkan Ahmet, asansör hareketsiz dururken baskülde 60 kg değerini okuyor. Asansör yukarı doğru sabit ivmeyle hızlanarak harekete başladığı an, Ahmet basküldeki değerin anlık olarak 65 kg düzeyine yükseldiğini fark ediyor.<br><br>
+        Ahmet'in baskülde kendi ağırlığından daha fazla bir değer görmesine neden olan ve eylemsizlik durumunun korunma eğiliminden doğan bu fiziksel olgu aşağıdakilerden hangisi ile doğrudan ilişkilidir?</div>
+        <ul class="options-list">
+            <li>A) Ahmet'in kütlesinin asansör içinde yer çekiminden bağımsız artması</li>
+            <li>B) Newton'ın 1. Yasası olan Eylemsizlik Prensibi ve Ahmet'in hızlanmaya karşı eski konumunu koruma isteği</li>
+            <li>C) Asansör halatındaki sürtünme kuvvetinin Ahmet'i yukarı doğru sıkıştırması</li>
+            <li>D) Etki-tepki yasasının asansör içinde tamamen ortadan kalkması</li>
+            <li>E) Asansörün kütle çekim ivmesini azaltacak bir hıza ulaşması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Asansör yukarı doğru hızlanırken, Ahmet'in gövdesi **eylemsizlik** prensibi gereği eski hareket durumunu (durma halini) korumak ister. Bu yüzden asansör tabanı yukarı doğru ivmelenirken Ahmet'in vücudu zemine doğru fazladan bir baskı uygular. Baskülün tepki kuvveti artar ve Ahmet kendisini daha ağır hisseder. Bu durum tamamen Newton'ın Eylemsizlik Yasası'nın bir sonucudur. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Yatay bir masa üzerinde durmakta olan kalın bir fizik kitabına, yer çekiminden ötürü dünyanın uyguladığı bir kütle çekim kuvveti (ağırlık) etki etmektedir. Masanın yüzeyi de kitaba dik doğrultuda bir tepki kuvveti uygulamaktadır.<br><br>
+        Newton'ın Etki-Tepki Yasası dikkate alındığında, bu sistemdeki masanın kitaba uyguladığı dik tepki kuvvetinin <strong>"tepki eşiği (etki çifti)"</strong> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Dünyanın kitaba uyguladığı kütle çekim kuvveti</li>
+            <li>B) Kitabın masa yüzeyine uyguladığı dik baskı kuvveti</li>
+            <li>C) Kitabın dünyaya uyguladığı kütle çekim kuvveti</li>
+            <li>D) Kitap ile masa arasındaki statik sürtünme kuvveti</li>
+            <li>E) Kitabın içindeki sayfaların birbirine uyguladığı sıkıştırma gücü</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Etki-tepki kuvvet çiftleri her zaman aynı iki cisim arasında karşılıklı olarak gerçekleşir. Eğer etki kuvveti "Kitabın masaya uyguladığı dik baskı kuvveti" ise, onun etki-tepki çifti olan tepki kuvveti de doğrudan <strong>"Masanın kitaba uyguladığı dik tepki kuvvetidir"</strong>. Dünyanın kitaba uyguladığı kütle çekiminin çifti ise kitabın dünyaya uyguladığı çekimdir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Sürtünmeli yatay bir düzlemde bulunan 4 kg kütleli bir koliyi harekete geçirebilmek için yatay doğrultuda 24 Newton büyüklüğünde bir net kuvvet uygulanıyor. Yüzeyin kinetik sürtünme katsayısı k = 0,2 olarak ölçülmüştür. (g = 10 m/s<sup>2</sup> alınız)<br><br>
+        Buna göre, kolinin hareketi esnasında kazanacağı ivmenin büyüklüğü kaç m/s<sup>2</sup>'dir?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 4</li>
+            <li>C) 5</li>
+            <li>D) 6</li>
+            <li>E) 3</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> 
+            <br>• Önce cismin ağırlığını ve yüzeyin dik tepki kuvvetini (N) bulalım: N = m . g = 4 . 10 = 40 Newton.
+            <br>• Kinetik sürtünme kuvvetini hesaplayalım: F<sub>s</sub> = k . N = 0,2 . 40 = 8 Newton.
+            <br>• Cisme etki eden net kuvveti bulalım: F<sub>net</sub> = F<sub>uygulanan</sub> - F<sub>s</sub> = 24 - 8 = 16 Newton.
+            <br>• Newton'ın 2. kanununa göre ivmeyi türetelim: F<sub>net</sub> = m . a &rarr; 16 = 4 . a &rarr; a = 4 m/s<sup>2</sup> olarak bulunur. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Fizik - Ünite 6: Elektrostatik ve Elektrik Akımı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FİZİK - MODÜL 6: ELEKTROSTATİK VE ELEKTRİK AKIMI</h1>
+        <p>Elektriklenme Çeşitleri, Elektroskop Dinamiği, Ohm Kanunu ve Lamba Parlaklığı Analizleri</p>
+    </div>
+
+    <h2>1. ELEKTROSTATİK VE ELEKTRİKLENME ÇEŞİTLERİ</h2>
+    <p>Durgun elektrik yüklerini ve bu yüklerin birbirleriyle olan etkileşimlerini inceleyen fizik dalına elektrostatik denir. Doğada pozitif (+) ve negatif (-) olmak üzere iki tür yük vardır. Aynı yükler birbirini iter, zıt yükler birbirini çeker. Nötr cisimler ise yalıtkan değilse birbirini etkilemez ancak yüklü cisimler nötr cisimleri hafifçe çekebilir. Elektriklenmede <strong>sadece negatif yükler (elektronlar) hareket eder;</strong> pozitif yükler (protonlar) çekirdekte hapis olduğundan asla hareket etmez.</p>
+    <ul>
+        <li><strong>Sürtünme ile Elektriklenme:</strong> Yalıtkan iki cisim birbirine sürtüldüğünde elektron ilgisi fazla olan elektron alır ve (-) yüklenir, diğeri ise (+) yüklenir. Cisiler kesinlikle <strong>eşit miktarda ve zıt yükle</strong> yüklenirler. (Örn: Ebonit/Plastik çubuk kumaşa sürtülürse [-], Cam çubuk ipek kumaşa sürtülürse [+] yüklenir).</li>
+        <li><strong>Dokunma ile Elektriklenme:</strong> İletken cisimler birbirine dokundurulduğunda toplam yükü, <strong>yarıçapları (kapasiteleri) oranında</strong> paylaşırlar. Dokunma sonucunda cisimlerin son yük işaretleri kesinlikle aynı (ikisi de +, ikisi de - veya ikisi de nötr) olmak zorundadır.</li>
+        <li><strong>Etki (Tesir) ile Elektriklenme:</strong> Yüklü bir cisim iletken bir cisme yaklaştırıldığında, cisimdeki serbest elektronları iter veya çeker. Bu durum geçici bir kutuplanma yaratır. Toplam yük değişmez, sadece yüklerin konumu yer değiştirir.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ELEKTROSKOP KILAVUZU (Yük Ölçer):</strong>
+        <br>Bir cismin yüklü olup olmadığını, yüklü ise hangi cins yükle yüklü olduğunu anlamaya yarayan araca elektroskop denir.
+        <br>• Nötr bir elektroskobun yaprakları tamamen kapalıdır. Yük miktarı arttıkça yapraklar arasındaki açı artar.
+        <br>• (+) yüklü bir elektroskoba (+) yüklü cisim yaklaştırılırsa yapraklar <strong>biraz daha açılır</strong>.
+        <br>• (+) yüklü bir elektroskoba (-) yüklü cisim yaklaştırılırsa yapraklar <strong>biraz kapanabilir, tamamen kapanabilir veya önce kapanıp sonra tekrar açılabilir.</strong> Ancak dokundurma olmadan asla doğrudan "biraz daha açılma" gözlenemez.
+    </div>
+
+    <h2>2. ELEKTRİK AKIMI VE OHM KANUNU</h2>
+    <p>Bir iletkenin kesitinden birim zamanda geçen net yük miktarına <strong>elektrik akımı (I)</strong> denir. Temel ve skaler bir büyüklüktür, birimi Amper'dir ve devreye seri bağlanan ampermetre ile ölçülür. Akımın yönü, yüksek potansiyelden düşük potansiyele doğrudur (elektronların hareket yönüne zıttır).</p>
+    <p><strong>Ohm Kanunu:</strong> Bir elektrik devresinde iletkenin uçları arasındaki potansiyel farkının (gerilim/V), devreden geçen akım şiddetine (I) oranı sabittir. Bu sabit oran iletkenin **elektriksel direncini (R)** verir. Devrelerin çözülmesinde kullanılan ana formül şudur:</p>
+    <div class="highlight-box" style="text-align: center; font-size: 12pt; font-weight: bold;">
+        Potansiyel Fark (V) = Akım (I) x Direnç (R) &rarr; (V = I . R)
+    </div>
+    <p>Gerilim birimi Volt'tur ve devreye paralel bağlanan voltmetre ile ölçülür. Voltmetrenin iç direnci sonsuz kabul edildiği için üzerinden akım geçmesine izin vermez.</p>
+
+    <h2>3. DEVRE BAĞLANTILARI VE LAMBA PARLAKLIĞI</h2>
+    <p>Dirençler devrede iki farklı şekilde bağlanarak eşdeğer direnci (R<sub>eş</sub>) oluştururlar:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Bağlantı Türü</th>
+                <th>Eşdeğer Direnç Durumu</th>
+                <th>Akım ve Gerilim Dağılım Modeli</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Seri Bağlantı</strong></td>
+                <td>R<sub>eş</sub> = R<sub>1</sub> + R<sub>2</sub> + ... (Artar)</td>
+                <td>Tüm dirençlerden geçen <strong>akım şiddetleri birbirine eşittir.</strong> Üretecin toplam gerilimi, dirençlerin büyüklükleri oranında paylaştırılır.</td>
+            </tr>
+            <tr>
+                <td><strong>Paralel Bağlantı</strong></td>
+                <td>1/R<sub>eş</sub> = 1/R<sub>1</sub> + 1/R<sub>2</sub> + ... (Azalır)</td>
+                <td>Tüm kolların <strong>potansiyel farkları (gerilimleri) birbirine kesinlikle eşittir.</strong> Ana koldan gelen akım, dirençlerle ters orantılı olarak kollara dağılır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Lamba Parlaklığı Stratejisi:</h3>
+    <p>Özdeş lambaların parlaklığı, lambanın harcadığı **elektriksel güç** ile doğrudan orantılıdır. Güç formülü P = I<sup>2</sup> . R veya P = V<sup>2</sup> / R şeklindedir. Lambalar özdeş (dirençleri eşit) olduğundan, parlaklık kıyaslanırken doğrudan <strong>lambanın üzerinden geçen akıma</strong> veya <strong>lambanın uçları arasındaki gerilime (Volt)</strong> bakılır. Gerilimi veya akımı büyük olan lamba en parlak yanar.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Yalıtkan bir zemin üzerinde durmakta olan nötr ebonit (plastik) bir çubuk, kuru bir yün kumaşa sertçe sürtüldüğünde elektriklenerek eksi (-) yük ile yükleniyor. <br><br>
+        Buna göre bu sürtünme ile elektriklenme sürecinde gerçekleşen yük geçişi ve kumaşın son yük durumu ile ilgili aşağıdaki ifadelerden hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Kumaştan ebonit çubuğa pozitif (+) yükler geçmiştir ve kumaş nötr kalmıştır.</li>
+            <li>B) Ebonit çubuktan kumaşa elektron geçmiştir ve kumaş eksi yüklenmiştir.</li>
+            <li>C) Yün kumaştan ebonit çubuğa elektron (negatif yük) geçmiştir ve yün kumaş eşit miktarda pozitif (+) yükle yüklenmiştir.</li>
+            <li>D) İki cisim de sürtünme sonucunda aynı işaretli elektrik yüküne sahip olmuştur.</li>
+            <li>E) Sürtünme elektriklenmesinde sadece yalıtkanların protonları yer değiştirir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Elektriklenme olaylarında sadece ve sadece **negatif yükler (elektronlar)** hareket edebilir, pozitif yükler sabittir (A ve E elendi). Ebonit çubuk eksi yüklendiğine göre, yün kumaştan çubuğa elektron geçişi olmuştur. Sürtünme ile elektriklenen cisimler eşit miktarda fakat zıt işaretle yükleneceğinden, elektron kaybeden yün kumaş kesinlikle artı (+) yükle yüklenir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Pozitif (+) yüklü olduğu bilinen iletken bir K küresi, hafifçe açık ve eksi (-) yüklü olan bir elektroskobun topuzuna dokundurulmadan sadece yaklaştırılıyor. <br><br>
+        Bu yaklaştırma eylemi esnasında elektroskobun yapraklarında aşağıdaki hareketlerden hangisinin gerçekleşmesi <u>kesinlikle imkansızdır</u>?</div>
+        <ul class="options-list">
+            <li>A) Yaprakların biraz kapanması</li>
+            <li>B) Yaprakların tamamen kapanması</li>
+            <li>C) Yaprakların önce tamamen kapanıp, ardından tekrar biraz açılması</li>
+            <li>D) Yaprakların biraz daha açılması</li>
+            <li>E) Yaprakların konumunu değiştirmeden sabit kalması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Elektroskobumuz eksi yüklü, yaklaştırılan cisim ise artı yüklüdür. Artı yüklü K cismi, elektroskobun yapraklarındaki eksileri (elektronları) topuza doğru yukarı çeker. Yapraklardaki eksi yük miktarı azalacağı için yapraklar biraz kapanabilir (A), yükler tamamen çekilirse tamamen kapanabilir (B), çok güçlü çekilirse yapraklar nötrlenip artı yüklenerek önce kapanıp sonra açılabilir (C). Ancak yapraklardan eksi yük çekildiği için yaprakların eksi yük yoğunluğunun artarak **biraz daha açılması** (D şıkkı) fiziksel olarak kesinlikle imkansızdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir fizik laboratuvarında kurulan basit bir elektrik devresinde iç direnci önemsiz bir üreteç, bir lamba, bir ampermetre ve bir voltmetre bulunmaktadır. <br><br>
+        Bu ölçüm araçlarının devreye doğru bağlanma kuralları dikkate alındığında aşağıdaki kuplajlardan hangisi elektrik akımının geçişini engellemeden doğru bir ölçüm sağlar?</div>
+        <ul class="options-list">
+            <li>A) Ampermetre lambaya paralel, Voltmetre lambaya seri bağlanmalıdır.</li>
+            <li>B) İki ölçüm aracı da lambaya seri olarak arka arkaya bağlanmalıdır.</li>
+            <li>C) Ampermetre lambaya seri, Voltmetre lambaya paralel bağlanmalıdır.</li>
+            <li>D) İki ölçüm aracı da lambaya yan yana paralel hatlar oluşturacak şekilde bağlanmalıdır.</li>
+            <li>E) Voltmetre ana kola seri bağlanarak akımın yönü tayin edilmelidir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Akım şiddetini ölçen ampermetrenin iç direnci sıfır kabul edilir ve akımı kesmemesi için devreye her zaman **seri bağlanır**. Potansiyel farkı ölçen voltmetrenin iç direnci ise sonsuz kabul edilir, üzerinden akım geçmez ve iki nokta arasındaki gerilimi yakalaması için devreye her zaman **paralel bağlanır**. Voltmetre seri bağlanırsa o koldan akım geçişini tamamen durdurur (bloklar). Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> İç direnci önemsiz bir pil ve özdeş üç lamba ile kurulan devrede, iki lamba birbirine paralel bağlanmış, üçüncü lamba ise bu paralel gruba seri olarak eklenmiştir. Devre bu haliyle ışık vermektedir. <br><br>
+        Buna göre, ana koldan çıkan akımın paylaşımları ve lambaların üzerindeki gerilim dağılımları analiz edildiğinde <u>en parlak yanan lamba</u> hangisi olur?</div>
+        <ul class="options-list">
+            <li>A) Paralel kollarda yer alan lambalardan üstte olanı</li>
+            <li>B) Paralel kollarda yer alan lambalardan altta olanı</li>
+            <li>C) Ana kolda yer alan ve paralel gruba seri bağlı olan lamba</li>
+            <li>D) Üç lamba da paralel kollardan bağımsız olarak eşit parlaklıkta yanar</li>
+            <li>E) Pille aynı kolda olan paralel lambaların tamamı söner</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Ana koldan çıkan toplam akım (örneğin 2I), paralel kollara geldiğinde lambalar özdeş olduğundan eşit bölünür ve kollardan I kadar akım geçer. Bu iki kol birleşerek ana koldaki seriye bağlandığında, serideki lambanın üzerinden toplam akım olan 2I geçer. Lambaların parlaklığı üzerinden geçen akımın karesiyle (veya doğrudan akımla) orantılı olduğundan, ana kolda duran ve pilden çıkan tüm akımı göğüsleyen **seri bağlı lamba en parlak yanar**. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Evlerimizde kullandığımız buzdolabı, televizyon, çamaşır makinesi ve ütü gibi elektrikli ev aletlerinin tamamı tek bir sigorta kutusuna bağlı priz hatlarından beslenmektedir. <br><br>
+        Bu ev aletlerinin hepsinin çalışırken <strong>aynı potansiyel farkı (220 Volt şehir gerilimini)</strong> kullanabilmesi ve bir alet bozulduğunda diğerlerinin çalışmaya devam edebilmesi için ev tesisatındaki bağlantı modelinin ne olması zorunludur?</div>
+        <ul class="options-list">
+            <li>A) Tüm prizler ve ev aletleri birbirine seri bağlanmalıdır.</li>
+            <li>B) Tüm prizler ve ev aletleri birbirine paralel bağlanmalıdır.</li>
+            <li>C) Ütü ve çamaşır makinesi seri, diğerleri köprü hattıyla bağımsız olmalıdır.</li>
+            <li>D) Yüksek dirençli aletler ana kola üreteç gibi seri kurgulanmalıdır.</li>
+            <li>E) Ev tesisatlarında gerilimi sabitlemek için direnç kullanılmaz.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Paralel bağlı devrelerin en temel özelliği, tüm kolların **gerilimlerinin (potansiyel farklarının) birbirine tam eşit olmasıdır**. Evlerimizde her aletin standart 220 V gerilimle çalışması ve biri kapatıldığında veya bozulduğunda akım yolunun kesilip diğer odaların sönmemesi için tüm ev tesisatları kesinlikle **paralel bağlantı** mimarisiyle inşa edilir. Seri olsaydı biri kapandığında tüm ev kararır ve voltaj bölünürdü. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

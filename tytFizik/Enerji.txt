@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Fizik - Ünite 4: Enerji</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FİZİK - MODÜL 4: ENERJİ</h1>
+        <p>İş ve Güç Analizi, Mekanik Enerji Türleri, Enerjinin Korunumu ve Verim Kavramı</p>
+    </div>
+
+    <h2>1. FİZİKSEL ANLAMDA İŞ VE GÜÇ</h2>
+    <p>Günlük hayatta kullanılan "iş" kelimesi zihinsel veya bedensel her türlü yorucu faaliyeti kapsasa da fizikteki anlamı çok daha sınırlandırılmıştır. Bir kuvvetin fiziksel anlamda <strong>iş (W)</strong> yapabilmesi için, kuvvetin cisme uygulanması ve cismin bu <strong>kuvvet doğrultusunda yer değiştirmesi</strong> gerekir.</p>
+    <ul>
+        <li><strong>İş (W):</strong> Skaler bir büyüklüktür. SI sistemindeki birimi <strong>Joule</strong>'dür. Formülü: W = F . &Delta;x şeklindedir (F: Net kuvvet [N], &Delta;x: Yer değiştirme [m]). Eğer bir kuvvet hareket doğrultusuna dik ise (Örn: Çantasını elinde sallamadan düz yolda yürüyen çocuk) fiziksel anlamda iş <u>yapmaz</u>.</li>
+        <li><strong>Güç (P):</strong> Birim zamanda yapılan iş ya da harcanan enerjidir. Skaler bir büyüklüktür. SI sistemindeki birimi <strong>Watt</strong>'tır (Joule / saniye). Formülü: P = W / t şeklindedir (t: Zaman [s]). Aynı işi daha kısa sürede tamamlayan motor veya makine daha güçlüdür.</li>
+    </ul>
+
+    <h2>2. MEKANİK ENERJİ TÜRLERİ</h2>
+    <p>Bir cismin iş yapabilme yeteneğine <strong>enerji (E)</strong> denir. Skalerdir ve birimi tıpkı iş gibi Joule'dür. Fizikte mekanik enerji iki ana başlıkta incelenir:</p>
+    <ul>
+        <li><strong>A) Kinetik Enerji (E<sub>k</sub>):</strong> Cisimlerin sadece <strong>hareketinden (hızından)</strong> dolayı sahip olduğu enerji türüdür. Formülü: E<sub>k</sub> = (1/2) . m . V<sup>2</sup> şeklindedir (m: Kütle [kg], V: Hız [m/s]). Bir cismin üzerine yapılan net iş, o cismin kinetik enerjisindeki değişime eşittir (&Delta;W = &Delta;E<sub>k</sub>).</li>
+        <li><strong>B) Potansiyel Enerji (E<sub>p</sub>):</strong> Cisimlerin konumlarından, durumlarından veya esnekliklerinden dolayı depoladıkları saklı enerjidir:
+        <br>• <em>Yer Çekimi Potansiyel Enerjisi:</em> Cismin yerden yüksekliğine bağlıdır. Yer seviyesi referans alınarak E<sub>p</sub> = m . g . h formülüyle hesaplanır (g: Yer çekimi ivmesi, h: Kütle merkezinin yüksekliği).
+        <br>• <em>Esneklik Potansiyel Enerjisi:</em> Sıkıştırılan ya da gerilen esnek cisimlerde (yay, lastik) depolanan enerjidir. Hooke yasasına göre E<sub>p</sub> = (1/2) . k . x<sup>2</sup> formülüyle hesaplanır (k: Yay sabiti, x: Sıkışma/uzama miktarı).</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ MEKANİK ENERJİNİN KORUNUMU İLKESİ:</strong>
+        <br>Bir sistemdeki Kinetik Enerji ile Potansiyel Enerjinin toplamına <strong>Mekanik Enerji</strong> denir (E<sub>mekanik</sub> = E<sub>k</sub> + E<sub>p</sub>). 
+        <br>• Eğer ortamda sürtünme <u>yoksa</u>, mekanik enerji zamanla asla değişmez, **sabit kalır.** Potansiyel enerji azalırken kinetik enerjiye, kinetik azalırken potansiyel enerjiye dönüşür (Örn: Sürtünmesiz ortamda yukarıdan serbest bırakılan topun aşağı inerken potansiyelinin azalması, kinetiğinin artması).
+        <br>• Eğer ortamda sürtünme <u>varsa</u>, mekanik enerjinin bir kısmı ısı enerjisine dönüşür. Bu durumda mekanik enerji <strong>azalır</strong> fakat evrendeki toplam enerji her zaman korunur.
+    </div>
+
+    <h2>3. VERİM VE ENERJİ KAYNAKLARI</h2>
+    <p>Bir sisteme veya makineye verilen enerjinin, sistemden alınan yararlı enerjiye oranına <strong>verim</strong> denir. Doğada hiçbir makinenin verimi %100 <u>olamaz</u>; çünkü enerjinin bir kısmı sürtünmelerden dolayı mutlaka ses ve ısıya dönüşür. Verimi artırmak için sürtünmeler azaltılmalı ve enerji tasarruflu cihazlar tercih edilmelidir.</p>
+    <p><strong>Enerji Kaynakları:</strong> Kullanım ömürlerine ve kendilerini yenileme hızlarına göre ikiye ayrılırlar:
+    <br>• <strong>Yenilenemez Kaynaklar:</strong> Tüketim hızı, üretim hızından çok daha büyüktür. Zamanla biterler ve çevreye zararlıdırlar (Kömür, petrol, doğal gaz, nükleer/uranyum kaynakları).
+    <br>• <strong>Yenilenebilir Kaynaklar:</strong> Doğal süreçlerle sürekli yenilenen, çevre dostu kaynaklardır (Güneş, rüzgar, hidroelektrik, jeotermal, biyokütle, dalga enerjisi).</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Günlük hayatta iş, sürat ve güç kelimeleri fiziksel anlamlarından tamamen farklı bağlamlarda kullanılabilmektedir. <br><br>
+        Buna göre fizikteki <strong>"Mekanik İş (W)"</strong> tanımı dikkate alındığında, günlük hayatta gerçekleştirilen aşağıdaki eylemlerden hangisinde fiziksel anlamda bir iş <u>yapılmamıştır</u>?</div>
+        <ul class="options-list">
+            <li>A) Yerde duran ağır bir koliye yukarı doğru kuvvet uygulayarak üst rafa kaldırmak</li>
+            <li>B) Duran bir bebek arabasını arkasından iterek yatay doğrultuda hızlandırmak</li>
+            <li>C) Ağır bir sırt çantasını takmış olan bir öğrencinin, çantayı sallamadan düz yolda sabit hızla yatay doğrultuda yürütmesi</li>
+            <li>D) Merdivenlerden yukarıya doğru sabit hızla koşarak tırmanan bir sporcu</li>
+            <li>E) Durmakta olan bir kutuyu iterek ona yatay düzlemde ivme kazandırmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Fizikte bir kuvvetin iş yapabilmesi için cisme uygulanması ve cismin uygulanan kuvvetle **aynı doğrultuda** yer değiştirmesi şarttır. C seçeneğinde öğrenci çantayı taşımak için yukarı yönlü (düşey) bir kuvvet uygulamaktadır; fakat hareket doğrultusu yataydır. Kuvvet ile hareket doğrultusu birbirine dik olduğundan bu süreçte fiziksel anlamda bir iş yapılmamıştır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Bir inşaat şantiyesinde yerde duran 100 kg kütleli çimento torbalarını 10 metre yükseklikteki binanın çatısına çıkarmak için iki farklı motor kullanılmaktadır.
+        <br>• X motoru: Torbayı çatıya 10 saniyede çıkarıyor.
+        <br>• Y motoru: Aynı kütledeki torbayı çatıya 20 saniyede çıkarıyor.
+        <br><br>
+        Buna göre bu iki motorun yaptıkları işler (W<sub>X</sub>, W<sub>Y</sub>) ve harcadıkları güçler (P<sub>X</sub>, P<sub>Y</sub>) arasındaki ilişki aşağıdakilerin hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) W<sub>X</sub> &gt; W<sub>Y</sub> ; P<sub>X</sub> = P<sub>Y</sub></li>
+            <li>B) W<sub>X</sub> = W<sub>Y</sub> ; P<sub>X</sub> &gt; P<sub>Y</sub></li>
+            <li>C) W<sub>X</sub> = W<sub>Y</sub> ; P<sub>Y</sub> &gt; P<sub>X</sub></li>
+            <li>D) W<sub>Y</sub> &gt; W<sub>X</sub> ; P<sub>X</sub> &gt; P<sub>Y</sub></li>
+            <li>E) W<sub>X</sub> &gt; W<sub>Y</sub> ; P<sub>X</sub> &gt; P<sub>Y</sub></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> İki motor da aynı kütledeki cismi aynı yüksekliğe çıkardığı için yer çekimine karşı yaptıkları işler eşittir (W<sub>X</sub> = W<sub>Y</sub>). Güç ise yapılan işin zamana oranıdır (P = W/t). X motoru bu işi 10 saniyede (daha kısa sürede) tamamladığı için Y motoruna göre iki kat daha güçlüdür. Bu nedenle P<sub>X</sub> &gt; P<sub>Y</sub> ilişkisi kurulur. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Sürtünmesiz yatay bir ray üzerinde durmakta olan bir vagon, sabit bir yatay kuvvetle itilerek hızlandırılıyor. Vagonun hareketi esnasında kinetik enerjisinin sürekli arttığı gözleniyor.<br><br>
+        Sürtünmelerin ihmal edildiği bu sistemle ilgili olarak;
+        <br>I. Vagonun mekanik enerjisi zamanla artmaktadır.
+        <br>II. Vagona uygulanan dış kuvvet fiziksel anlamda pozitif iş yapmaktadır.
+        <br>III. Vagonun potansiyel enerjisi kinetik enerjiye dönüşmektedir.
+        <br><br>
+        ifadelerinden hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sistem sürtünmesizdir ancak dışarıdan sürekli bir **kuvvet uygulanarak sisteme enerji pompalanmaktadır**. Sisteme dışarıdan iş yapıldığı için vagonun hızı ve kinetik enerjisi artar (II doğru). Yatay düzlemde yükseklik değişmediğinden potansiyel enerji sabittir; dolayısıyla kinetik enerji potansiyelden dönüşmemiştir (III yanlış). Potansiyel sabitken kinetik arttığı için ikisinin toplamı olan mekanik enerji de zamanla artar (I doğru). Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Hava sürtünmesinin tamamen **ihmal edildiği** bir ortamda, yerden h yüksekliğindeki bir kulenin tepesinden serbest bırakılan m kütleli demir bir bilye yer çekimi etkisiyle aşağıya doğru düşmektedir.<br><br>
+        Demir bilyenin yere düşme süreci boyunca sergilediği enerji dönüşümleriyle ilgili aşağıdaki ifadelerden hangisi <u>kesinlikle hatalıdır</u>?</div>
+        <ul class="options-list">
+            <li>A) Bilyenin yüksekliği azaldığı için yer çekimi potansiyel enerjisi sürekli azalır.</li>
+            <li>B) Azalan potansiyel enerji, hıza yani kinetik enerjiye dönüşür.</li>
+            <li>C) Ortam sürtünmesiz olduğundan bilyenin her andaki mekanik enerjisi sabit kalır.</li>
+            <li>D) Bilye yere çarptığı an kinetik enerjisi maksimum düzeydedir.</li>
+            <li>E) Bilye aşağı inerken hızı arttığı için mekanik enerjisi sürekli artış gösterir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sürtünmesiz ortamlarda serbest düşen veya fırlatılan cisimlerin **mekanik enerjisi kesinlikle değişmez, sabit kalır** (E şıkkı tamamen hatalıdır). Cismin hızı arttıkça kinetik enerjisi artar ancak aynı oranda potansiyel enerjisi azaldığı için bu iki değerin toplamı olan mekanik enerji düşme süresince korunur. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Bir elektrikli su pompasının teknik özellikleri incelendiğinde, şebekeden 1000 Joule elektrik enerjisi çektiği an, bu enerjinin 750 Joule kadarlık kısmını suyu yukarı pompalamak (yararlı iş) için kullandığı, geri kalan 250 Joule enerjinin ise motor dişlilerindeki sürtünmelerden dolayı ısı ve sese dönüştüğü tespit edilmiştir.<br><br>
+        Buna göre, bu elektrikli su pompasının çalışma <strong>verimi</strong> yüzde kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 25</li>
+            <li>B) 50</li>
+            <li>C) 75</li>
+            <li>D) 80</li>
+            <li>E) 90</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Bir sistemin verimi, elde edilen yararlı işin sisteme verilen toplam enerjiye oranı ile hesaplanır: $\text{Verim} = (\text{Alınan Yararlı Enerji} / \text{Verilen Toplam Enerji}) \times 100$ formülünden; $\text{Verim} = (750 / 1000) \times 100 = 75$ yani %75 olarak bulunur. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Fizik - Ünite 1: Fizik Bilimine Giriş</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FİZİK - MODÜL 1: FİZİK BİLİMİNE GİRİŞ</h1>
+        <p>Fiziğin Alt Dalları, Fiziksel Büyüklüklerin Sınıflandırılması ve Bilim Araştırma Merkezleri</p>
+    </div>
+
+    <h2>1. FİZİK BİLİMİNİN ODDAK NOKTASI VE ALT DALLARI</h2>
+    <p>Fizik; madde ile enerji arasındaki etkileşimi inceleyen, doğada gerçekleşen olayları akıl yürütme, gözlem ve kontrollü deneylerle açıklamaya çalışan deneysel bir bilim dalıdır. Fizik bilimi canlı mekanizmaların bilinciyle (psikoloji, sosyoloji) ilgilenmez; tamamen evrenin cansız doğasının işleyiş yasalarını inceler. Fizik çalışma alanının devasalığından dolayı 8 ana alt dala ayrılmıştır. Bu alt dallar <strong>KAMYONET</strong> kelimesiyle şifrelenir:</p>
+    <ul>
+        <li><strong>K - Katıhal Fiziği:</strong> Kristal örgü yapısına sahip düzenli katı maddelerin elektriksel, manyetik, optik ve termal özelliklerini inceler. Nanoteknoloji, yarı iletkenler, akıllı kumaşlar, güneş pilleri ve mikroçipler bu alanın meyvesidir.</li>
+        <li><strong>A - Atom Fiziği:</strong> Atomun yapısını, atomu oluşturan taneciklerin birbirleriyle olan ilişkilerini ve atomik boyuttaki moleküler etkileşimleri inceler. Nanoteknoloji atom fiziği ile de doğrudan ilişkilidir.</li>
+        <li><strong>M - Mekanik:</strong> Kuvvet, hareket ve denge arasındaki ilişkileri inceler. Gezegenlerin hareketinden köprü yapımına, dalgaların yayılmasından ses oluşumuna kadar hareket barındıran makro sistemleri konu edinir.</li>
+        <li><strong>Y - Yüksek Enerji ve Plazma Fiziği:</strong> Atom altı tanecikleri (kuarklar, leptonlar) ve maddenin 4. hali olan iyonize olmuş yüksek enerjili plazma durumunu inceler. Uzay seyahatleri, nükleer füzyon ve CERN'deki çarpışma deneyleri bu alanın konusudur.</li>
+        <li><strong>O - Optik:</strong> Işığın yapısını, davranışını, yansıma, kırılma olaylarını, gölge oluşumunu ve mercekleri inceler. Gözlük, teleskop, mikroskop, fiberoptik kablolar optiğin alanıdır.</li>
+        <li><strong>N - Nükleer Fizik (Çekirdek Fiziği):</strong> Atomun bizzat <strong>çekirdeğini</strong>, çekirdekteki kararsızlıkları, radyoaktif bozulmaları, füzyon ve fisyon reaksiyonlarını inceler. Röntgen, MR cihazları, nükleer santraller ve arkeolojik yaş tayini bu alana aittir.</li>
+        <li><strong>E - Elektromanyetizma:</strong> Maddelerin elektriksel ve manyetik özelliklerini, elektrik akımını, manyetik alanları ve elektromanyetik dalgaları bir bütün olarak inceler. Maglev trenleri, elektrikli motorlar, pusulalar çalışma konusudur.</li>
+        <li><strong>T - Termodinamik:</strong> Isı enerjisini, sıcaklık kavramını, ısının maddeler üzerindeki genleşme ve hal değişimi etkilerini ve ısı yalıtımını inceler. Klima, kalorifer sistemleri ve motorların soğutma sistemleri termodinamikle çözülür.</li>
+    </ul>
+
+    <h2>2. FİZİKSEL BÜYÜKLÜKLERİN SINIFLANDIRILMASI</h2>
+    <p>Fizikte yapılan ölçümlerin sonuçları ifade edilirken büyüklükler iki farklı kritere göre gruplandırılır:</p>
+    
+    <h3>A) Elde Ediliş Biçimine Göre (Temel ve Türetilmiş)</h3>
+    <ul>
+        <li><strong>Temel Büyüklükler:</strong> Kendisinden başka hiçbir büyüklüğe ihtiyaç duyulmadan, doğrudan tek başına ölçülebilen büyüklüklerdir. Uluslararası Birim Sistemi'nde (SI) 7 tane temel büyüklük vardır ve <strong>KISA MUZ</strong> olarak kodlanır:
+        <br>• <strong>K</strong>ütle (Birim: Kilogram [kg], Ölçüm: Eşit kollu terazi)
+        <br>• <strong>I</strong>şık Şiddeti (Birim: Candela [cd], Ölçüm: Fotometre)
+        <br>• <strong>S</strong>ıcaklık (Birim: Kelvin [K], Ölçüm: Termometre - <em>Celsius değildir, dikkat!</em>)
+        <br>• <strong>A</strong>kım Şiddeti (Birim: Amper [A], Ölçüm: Ampermetre)
+        <br>• <strong>M</strong>adde Miktarı (Birim: Mol [mol], Ölçüm aracı yoktur, hesaplanır)
+        <br>• <strong>U</strong>zunluk (Birim: Metre [m], Ölçüm: Şerit metre / Kumpas)
+        <br>• <strong>Z</strong>aman (Birim: Saniye [s], Ölçüm: Kronometre)</li>
+        <li><strong>Türetilmiş Büyüklükler:</strong> İfade edilebilmesi için en az iki temel büyüklüğün matematiksel formülle birleştirilmesine ihtiyaç duyulan büyüklüklerdir. (Örn: Hız [m/s], Kuvvet [Newton], Enerji [Joule], Güç [Watt], Özkütle [g/cm<sup>3</sup>]).</li>
+    </ul>
+
+    <h3>B) Yön Biçimine Göre (Skaler ve Vektörel)</h3>
+    <ul>
+        <li><strong>Skaler Büyüklükler:</strong> Sadece bir sayı ve bir birimle ifade edildiğinde anlamı tamamen anlaşılan, yönü ve kutbu olmayan büyüklüklerdir. <u>KISA MUZ listesindeki temel büyüklüklerin tamamı skalerdir.</u> Ayrıca enerji, sürat ve alınan yol da skalerdir. (Örn: 50 kg kütle, 20 saniye zaman).</li>
+        <li><strong>Vektörel Büyüklükler:</strong> Sayı ve birimin yanında, anlam kazanabilmesi için <strong>mutlaka doğrultu ve yön bilgisinin de verilmesi gereken</strong> büyüklüklerdir. Üzerlerinde küçük bir ok işaretiyle gösterilirler. (Örn: Kuvvet, Hız, Yer Değiştirme, İvme, Ağırlık, Elektriksel Alan).</li>
+    </ul>
+
+    <h2>3. BİLİM ARAŞTIRMA MERKEZLERİ</h2>
+    <p>Bilimsel teorilerin test edildiği, teknolojik inovasyonların yapıldığı ulusal ve uluslararası büyük araştırma kurumları şunlardır:</p>
+    <ul>
+        <li><strong>TÜBİTAK (Türkiye):</strong> Türkiye Bilimsel ve Teknolojik Araştırma Kurumu. Ülkemizdeki bilim politikalarını belirler ve akademik projeleri destekler.</li>
+        <li><strong>TENMAK (Türkiye):</strong> Türkiye Enerji, Nükleer ve Maden Araştırma Kurumu. Nükleer teknoloji, bor madeni ve temiz enerji araştırmalarını yürütür (TAEK bu kuruma devredilmiştir).</li>
+        <li><strong>ASELSAN (Türkiye):</strong> Askeri Elektronik Sanayii. Türk Silahlı Kuvvetleri başta olmak üzere savunma sanayisine yönelik haberleşme, radar ve elektronik harp sistemleri geliştirir.</li>
+        <li><strong>CERN (Avrupa):</strong> Avrupa Nükleer Araştırma Merkezi. İsviçre-Fransa sınırında yer alan, dünyanın en büyük parçacık fiziği laboratuvarıdır. Hadron Çarpıştırıcısı ile atom altı parçacıkları inceler.</li>
+        <li><strong>NASA (ABD):</strong> Ulusal Havacılık ve Uzay Dairesi. Amerika'nın uzay programı çalışmalarını, gezegen keşiflerini ve gök bilimi araştırmalarını yürütür.</li>
+        <li><strong>ESA (Avrupa):</strong> Avrupa Uzay Ajansı. Avrupa ülkelerinin ortaklığında uzay araştırmaları, uydu teknolojileri fırlatma süreçlerini yönetir.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Günümüz akıllı telefonlarında ve bilgisayarlarında kullanılan mikroçiplerin, silisyum tabanlı yarı iletken malzemelerin geliştirilmesi ve güneş panellerinin verimliliğinin artırılması doğrudan katı maddelerin mikroskobik boyuttaki optik, termal ve elektriksel özelliklerinin incelenmesine dayanır. <br><br>
+        Buna göre, teknolojinin kalbi kabul edilen bu mikroçip ve yarı iletken AR-GE çalışmaları, fizik biliminin öncelikle hangi alt dalının inceleme alanına girmektedir?</div>
+        <ul class="options-list">
+            <li>A) Nükleer Fizik</li>
+            <li>B) Katıhal Fiziği</li>
+            <li>C) Atom Fiziği</li>
+            <li>D) Termodinamik</li>
+            <li>E) Yüksek Enerji ve Plazma Fiziği</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kristal örgü yapısına sahip katı maddeleri, yarı iletken teknolojisini (silisyum, germanyum elementleri), LED'leri, mikroçipleri, güneş pillerini ve nanoteknolojik akıllı malzemeleri inceleyen ana fizik alt dalı <strong>Katıhal Fiziği</strong>'dir. Çekirdek deseydi nükleer, atomun dış elektron bağları deseydi atom fiziği olurdu. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong>  Fiziksel büyüklükler ölçülürken Uluslararası Birim Sistemi (SI) standartları esas alınır. <br><br>
+        Buna göre bir laboratuvarda yapılan ölçümlerde kayda geçen;
+        <br>I. Bir cismin sıcaklığı: 25 santigrat derece (°C)
+        <br>II. Bir odanın aydınlatma akımı: 4 Amper (A)
+        <br>III. Bir masanın boyu: 1.2 Metre (m)
+        <br><br>
+        ölçüm sonuçlarından hangilerinin birimi, <strong>SI birim sistemindeki temel birim tanımına</strong> tam olarak uygundur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> Akım şiddetinin SI birimi Amper'dir (II doğru). Uzunluğun SI birimi Metre'dir (III doğru). Ancak <strong>Sıcaklık</strong> büyüklüğünün Uluslararası Birim Sistemi'ndeki (SI) resmi birimi Santigrat Derece değil, <strong>Kelvin (K)</strong>'dir. Günlük hayatta dereceyi çok kullansak da bilimsel standart birimi Kelvin'dir. Bu yüzden I. öncül hatalıdır. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Bir otomobil sürücüsü, navigasyon ekranına baktığında şu iki farklı veriyi okumuştur:
+        <br>• Otomobilin anlık sürati: 90 km/h
+        <br>• Otomobile etki eden net sürtünme kuvveti: 400 Newton (Kuzey yönünde)
+        <br><br>
+        Sürücünün navigasyondan elde ettiği bu iki büyüklüğün sırasıyla yön boyutu dikkate alınarak yapılan <strong>"Skaler - Vektörel"</strong> sınıflandırması aşağıdakilerden hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Skaler - Skaler</li>
+            <li>B) Vektörel - Vektörel</li>
+            <li>C) Skaler - Vektörel</li>
+            <li>D) Vektörel - Skaler</li>
+            <li>E) Temel - Türetilmiş</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Sürat, sadece sayı ve birimle ifade edilen, yöne bağlı olmayan **skaler** bir büyüklüktür (Eğer hız deseydi vektörel olurdu). Kuvvet ise anlam kazanabilmesi için mutlaka bir uygulama yönüne ve doğrultusuna sahip olmak zorunda olan **vektörel** bir büyüklüktür. Metinde de zaten "Kuzey yönünde" denerek ipucu verilmiştir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Fizikte temel büyüklükler doğrudan tek bir ölçüm aletiyle ölçülebilirken, türetilmiş büyüklükler matematiksel formüllerle türetilir. <br><br>
+        Buna göre, fizik dersinde laboratuvar malzemelerini inceleyen bir öğrencinin elindeki;
+        <br>I. Kronometre
+        <br>II. Ampermetre
+        <br>III. Dinamometre
+        <br><br>
+        ölçüm araçlarından hangileri doğrudan bir <strong>türetilmiş büyüklüğü</strong> ölçmek amacıyla tasarlanmıştır?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız III</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Kronometre temel bir büyüklük olan zamanı ölçer (I elendi). Ampermetre temel bir büyüklük olan elektrik akımını ölçer (II elendi). <strong>Dinamometre</strong> ise türetilmiş ve vektörel bir büyüklük olan <strong>Kuvveti (veya ağırlığı)</strong> ölçmek için tasarlanmıştır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Fransa-İsviçre sınırında, yerin kilometrelerce altında kurulan devasa dairesel tünellerde (Büyük Hadron Çarpıştırıcısı), atom altı parçacıkları ışık hızına yakın hızlarda birbiriyle çarpıştırarak evrenin varoluş sırlarını, karanlık maddeyi ve Higgs Bozonu'nu (Tanrı Parçacığı) keşfetmeye çalışan <strong>dünyanın en büyük parçacık fiziği araştırma laboratuvarı</strong> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) NASA</li>
+            <li>B) ESA</li>
+            <li>C) CERN</li>
+            <li>D) TÜBİTAK</li>
+            <li>E) TENMAK</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong> Parçada net tasviri yapılan, İsviçre sınırındaki devasa parçacık hızlandırıcısına sahip olan ve yüksek enerji-parçacık fiziğinin kalbi kabul edilen uluslararası kurum <strong>CERN</strong>'dür (Avrupa Nükleer Araştırma Merkezi). NASA ve ESA uzayla, TÜBİTAK ve TENMAK ise Türkiye'deki yerel bilimsel çalışmalarla ilgilidir. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

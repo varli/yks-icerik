@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>TYT Fizik - Ünite 5: Isı, Sıcaklık ve Genleşme</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>TYT FİZİK - MODÜL 5: ISI, SICAKLIK VE GENLEŞME</h1>
+        <p>İç Enerji Kavramı, Isı Alışverişi, Hal Değişimleri, Isı İletim Yolları ve Genleşme Esasları</p>
+    </div>
+
+    <h2>1. TEMEL KAVRAMLAR VE KAVRAM YANILGILARI</h2>
+    <p>Isı ve sıcaklık günlük hayatta birbiri yerine çok sık kullanılan fakat fizikte tamamen farklı olan iki niceliktir. ÖSYM, bu kavram yanılgılarını içeren paragrafları sormayı çok sever:</p>
+    <ul>
+        <li><strong>İç Enerji:</strong> Bir maddeyi oluşturan tüm atom ve moleküllerin kinetik enerjileri (titreşim, dönme, öteleme) ile potansiyel enerjilerinin (bağ enerjileri) toplamıdır. Maddenin kütlesi ya da sıcaklığı artarsa iç enerjisi artar.</li>
+        <li><strong>Sıcaklık (T):</strong> Bir maddedeki atom ve moleküllerin <strong>ortalama kinetik enerjisinin bir göstergesidir.</strong> Bir enerji <u>değildir.</u> Temel ve skaler bir büyüklüktür. SI sistemindeki birimi Kelvin'dir (K), termometre ile ölçülür. Bir maddenin sıcaklığı 0 Kelvin (Mutlak Sıcaklık = -273.15°C) altına kesinlikle inemez; çünkü bu noktada teorik olarak tüm moleküler hareketler durur.</li>
+        <li><strong>Isı (Q):</strong> Sıcaklıkları farklı iki madde arasında, sıcak olandan soğuk olana doğru **yalnızca sıcaklık farkından dolayı transfer edilen (aktarılan) enerjidir.** Türetilmiş ve skaler bir büyüklüktür. Birimi Joule veya Kalori'dir (cal), kalorimetre kabı ile ölçülür. <em>Kritik Sınav Notu:</em> Tek başına duran bir maddenin "ısısı" diye bir kavram yoktur. "Suyun ısısı arttı" ifadesi fiziksel bir hatadır; doğrusu "suyun iç enerjisi/sıcaklığı arttı" veya "suya ısı verildi" olmalıdır.</li>
+    </ul>
+
+    <h2>2. ISI ALIŞVERİŞİ, ÖZ ISI VE HAL DEĞİŞİMİ</h2>
+    <p>Transfer edilen ısı enerjisi, maddede ya sıcaklık değişimine ya da hal değişimine neden olur:</p>
+    <ul>
+        <li><strong>Sıcaklık Değişimi (Q = m . c . &Delta;T):</strong> Isı alan bir maddenin sıcaklığındaki değişim kütlesine (m) ve öz ısısına (c) bağlıdır.
+        <br>• <strong>Öz Isı (c):</strong> Bir maddenin 1 gramının sıcaklığını 1°C artırmak için gereken ısıdır. Maddeler için **ayırt edici** bir özelliktir. Öz ısısı büyük olan maddeler (su gibi) geç ısınır, geç soğur.
+        <br>• <strong>Isı Sığası (m.c):</strong> Bir maddenin tamamının sıcaklığını 1°C artırmak için gereken ısıdır. Kütleye bağlı olduğu için ayırt edici <u>değildir.</u></li>
+        <li><strong>Hal Değişimi (Q = m . L):</strong> Saf bir madde hal değiştirirken (erime, kaynama) dışarıdan aldığı ısıyı bağları koparmak için kullanır. Bu yüzden <strong>hal değişimi süresince saf maddelerin sıcaklığı kesinlikle sabit kalır.</strong> (L: Hal değiştirme ısısıdır).</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ ISI ALIŞVERİŞİ KURALLARI:</strong>
+        <br>Sıcaklıkları farklı iki madde yalıtılmış bir ortamda bir araya getirilirse, sıcaklıklar eşitlenene (Denge Sıcaklığı: T<sub>d</sub>) kadar ısı alışverişi olur.
+        <br>• Alınan Isı daima Verilen Isıya eşittir (Q<sub>alınan</sub> = Q<sub>verilen</sub>).
+        <br>• Isı akış yönü her zaman sıcak maddeden soğuk maddeye doğrudur.
+        <br>• Denge sıcaklığı, ısısı büyük olanın değil, <strong>ısı sığası (m.c) büyük olan maddenin sıcaklığına daha yakın olur.</strong>
+    </div>
+
+    <h2>3. ISININ İLETİM YOLLARI VE İLETİM HIZI</h2>
+    <p>Isı enerjisi yüksek sıcaklıktaki bölgeden düşük sıcaklıktaki bölgeye doğru üç farklı mekanizma ile yayılır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>İletim Yolu</th>
+                <th>Yayılma Mekanizması ve Fiziksel Yapısı</th>
+                <th>Günlük Hayat Örnekleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>İletim (Kondüksiyon)</strong></td>
+                <td>Isının taneciklerin birbirine **titreşim yoluyla** çarpması sonucu aktarılmasıdır. Katılarda (özellikle metallerde) en etkilidir. Boşlukta gerçekleşmez.</td>
+                <td>Çorbanın içindeki metal kaşığın sapının ısınması, sıcak çay bardağının elimizi yakması.</td>
+            </tr>
+            <tr>
+                <td><strong>Konveksiyon (Taşıma)</strong></td>
+                <td>Isınan akışkanların (sıvı veya gaz) özkütlesinin azalarak yukarı yükselmesi, soğuk olanların aşağı inmesiyle oluşan **kütle transferidir.**</td>
+                <td>Odanın içindeki kalorifer peteğinin tüm odayı ısıtması, tencerede kaynayan suyun hareketi.</td>
+            </tr>
+            <tr>
+                <td><strong>Işıma (Radyasyon)</strong></td>
+                <td>Isının **elektromanyetik dalgalar (fotonlar)** yoluyla yayılmasıdır. Maddesel ortama ihtiyaç <u>duymaz</u>, boşlukta da ışık hızıyla yayılır.</td>
+                <td>Güneş'in dünyamızı ısıtması, kamp ateşinin veya infra-red (Ufo) ısıtıcının karşısındakini ısıtması.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. KATILA VE SIVILARDA GENLEŞME</h2>
+    <p>Isı alan bir maddenin taneciklerinin titreşim genliğinin artması sonucu hacminin büyümesine <strong>genleşme</strong>, ısı vererek hacminin küçülmesine ise <strong>büzülme (büzüşme)</strong> denir. Genleşme miktarı; maddenin ilk boyutuna, sıcaklık değişimine ve maddenin cinsine (Genleşme Katsayısı: &lambda;) bağlıdır. Genleşme katsayısı katı ve sıvılar için ayırt edicidir, gazlar için ayırt edici değildir (tüm gazlar aynı oranda genleşir).</p>
+    <p><strong>Suyun Anormal Davranışı (+4°C Özelliği):</strong> Genel olarak tüm sıvıların sıcaklığı azaldıkça hacmi azalır, özkütlesi artar. Ancak su bu kurala uymaz. Su, <strong>+4°C sıcaklıkta en küçük hacme ve en büyük özkütleye (1 g/cm<sup>3</sup>) sahiptir.</strong> Sıcaklık +4°C'den 0°C'ye doğru indikçe suyun hacmi garip bir şekilde genleşir ve özkütlesi azalır. Bu sayede kışın göller üstten donmaya başlar. Buzun yoğunluğu sudan küçük olduğu için yüzeyde kalır ve dipteki canlı yaşamı (suyun altı her zaman +4°C civarındadır) korunur.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> Günlük hayatta sıcaklık ve ısı kavramları ile ilgili kurulan bazı cümleler aşağıda verilmiştir:
+        <br>I. Bugün Ankara'da hava ısısı anlık olarak 15°C ölçüldü.
+        <br>II. Vücut sıcaklığı yükselen hastaya müdahale edildi.
+        <br>III. Kalorifer peteği odaya ısı enerjisi verdi.
+        <br><br>
+        Buna göre, bu ifadelerden hangileri fizik bilimi açısından <strong>kavram yanılgısı içermeyen, doğru</strong> cümlelerdir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <strong>Geniş Çözüm Analizi:</strong> I. öncülde "hava ısısı 15°C ölçüldü" denmiştir. 15°C ısının değil, sıcaklığın birimidir. Ayrıca tek başına duran havanın transfer edilmeyen bir "ısısı" olamaz; cümle hatalıdır. II. öncülde "vücut sıcaklığı" ifadesi ve III. öncülde kaloriferin transfer ettiği "ısı enerjisi" ifadeleri fizik terminolojisine tamamen uygundur ve kavram yanılgısı barındırmaz. Cevap D şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Isıca yalıtılmış kapalı bir kapta, sıcaklıkları birbirinden farklı olan saf su ve bir buz kalıbı bir araya getirilerek karıştırılıyor. Bir süre sonra buz kalıbının kütlesinin hemen azalmaya başladığı (eridiği) gözleniyor. <br><br>
+        Isı alışverişinin sadece su ve buz arasında gerçekleştiği bu sistemde, buzun kütlesinin <u>hemen azalmaya başlaması</u>, buzun ilk sıcaklığı hakkında felsefi ve fiziksel olarak aşağıdaki doğrulardan hangisini kesin olarak kanıtlar?</div>
+        <ul class="options-list">
+            <li>A) Buzun ilk sıcaklığı 0°C'nin altındadır.</li>
+            <li>B) Buzun ilk sıcaklığı tam olarak 0°C'dir.</li>
+            <li>C) Suyun ilk sıcaklığı buzun ilk sıcaklığına eşittir.</li>
+            <li>D) Buzun ısı sığası suyun ısı sığasından çok büyüktür.</li>
+            <li>E) Buzun öz ısısı hal değiştirme sürecinde artmıştır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Saf maddeler erime noktasına gelmeden eriyemezler. Eğer buzun sıcaklığı 0°C'nin altında (örneğin -5°C) olsaydı, su buza ısı verdiğinde buz önce sıcaklığını 0°C'ye ulaştırmak için beklerdi ve buz kütlesi hemen azalmazdı. Buz kütlesinin suyla temas eder etmez **anında azalmaya başlaması**, buzun zaten hal değiştirme sınırı olan **tam 0°C sıcaklıkta** beklemekte olduğunu gösterir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Güneşli bir kış gününde dışarıda rüzgarsız bir ortamda duran iki maddeden demir banka oturan bir insan, yanındaki ahşap banka oturan insana göre çok daha fazla üşüdüğünü ve demir bankın daha "soğuk" olduğunu iddia etmiştir. Oysaki iki bank da sabahtan beri aynı ortamda yan yana durmaktadır.<br><br>
+        Termal denge durumundaki bu iki bankın sıcaklıkları aslında eşit olmasına rağmen demirin daha soğuk hissedilmesinin <u>asıl fiziksel nedeni</u> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Demirin öz ısısının ahşaptan çok büyük olması</li>
+            <li>B) Demirin ısı iletkenliğinin ahşaba göre çok daha yüksek olması ve insan vücudundan hızlıca ısı çekmesi</li>
+            <li>C) Ahşap bankın güneş ışınlarını ışıma yoluyla yansıtması</li>
+            <li>D) Demirin kütlesinin ahşabın kütlesinden fazla olması</li>
+            <li>E) Demirin genleşme katsayısının ahşaba göre düşük kalması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Aynı ortamda uzun süre bekleyen cisimlerin sıcaklıkları termal denge nedeniyle birbirine **eşittir**. Bizim hissettiğimiz şey sıcaklık değil, cismin vücudumuzdan ısıyı ne kadar hızlı çekebildiğidir. Demirin **ısı iletkenliği** ahşaba göre çok yüksek olduğundan, oturduğumuz an vücudumuzdaki ısıyı çok hızlı bir şekilde kondüksiyon (iletim) yoluyla çeker ve biz demiri daha soğuk hissederiz. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> Soğuk bir kış gününde evlerin pencerelerinden dışarıya ısı kaçmasını engellemek amacıyla çift camlı pencereler tasarlanır. Bu pencerelerin iki cam tabakası arasındaki hava tamamen boşaltılır veya çok düşük yoğunluklu durgun gaz konulur. <br><br>
+        Çift camlı pencerelerde iki katman arasında maddesel ortamın minimuma indirilmesi, ısının hangi yollarla yayılma hızını <strong>en çok düşürmek</strong> amacıyla yapılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Sadece Işıma</li>
+            <li>B) İletim ve Konveksiyon</li>
+            <li>C) İletim ve Işıma</li>
+            <li>D) Sadece Konveksiyon</li>
+            <li>E) Konveksiyon ve Işıma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Isının **iletim (titreşim)** ve **konveksiyon (taşıma)** yollarıyla yayılabilmesi için mutlaka **maddesel bir ortama (atomlara)** ihtiyaç vardır. İki cam arasındaki havanın vakumlanması veya durgun bırakılması, ısı enerjisinin katı moleküllerle çarpışarak (iletim) veya hava akımıyla (konveksiyon) dışarı kaçmasını engeller. Işıma maddesiz de yayılacağı için bu yöntemle tam engellenemez. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Ağzına kadar saf su ile dolu cam bir şişe, dondurucuya (0°C'nin altına) konulduğunda bir süre sonra suyun donmasıyla birlikte cam şişenin çatlayıp patladığı gözlenmiştir. <br><br>
+        Normal şartlarda donan maddelerin hacminin küçülmesi beklenirken suyun donarken şişeyi patlatması, suyun hangi <strong>anormal ve özgün fiziksel özelliği</strong> ile doğrudan ilişkilidir?</div>
+        <ul class="options-list">
+            <li>A) Suyun öz ısısının donma esnasında rekor düzeyde artması</li>
+            <li>B) Suyun +4°C'den 0°C'ye doğru soğutulurken hacminin garip bir şekilde genleşmesi ve buzun yoğunluğunun sudan küçük olması</li>
+            <li>C) Suyun yüzey geriliminin donarken şişeyi içten içe sıkıştırması</li>
+            <li>D) Cam şişenin büzülme katsayısının sudan büyük olması</li>
+            <li>E) Donma esnasında su moleküllerinin kılcallık etkisiyle dışarı fırlaması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Su doğadaki en şaşırtıcı anomaliye sahip sıvıdır. +4°C'den 0°C'ye soğutulurken hacmi daralmaz, aksine **genleşir**. Su buza dönüşürken hacmi büyüdüğü için kapalı cam şişeye muazzam bir iç basınç (çeper basıncı) uygular ve şişeyi patlatır. Bu sayede buzun yoğunluğu sudan küçük olur ve buz su üzerinde yüzerek göllerin alttan donmasını engeller. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>
