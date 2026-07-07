@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 10: Karbon Kimyasına Giriş</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 10: KARBON KİMYASINA GİRİŞ</h1>
+        <p>Karbon Allotropları, Lewis Formülleri, Hibritleşme Teorisi ve VSEPR Molekül Geometrileri</p>
+    </div>
+
+    <h2>1. ANORGANİK VE ORGANİK BİLEŞİKLER — KARBONUN DOĞASI</h2>
+    <p>Temel kaynağı genellikle canlılar ve canlı kalıntıları (fosil yakıtlar) olan, yapısında karbon (C) ve hidrojen (H) elementlerini ana omurga olarak barındıran bileşiklere <b>organik bileşikler</b> denir. Yapısında C atomu bulundurmasına rağmen CO, CO₂, CS₂, CN⁻ (Siyanür) ve CO₃²⁻ (Karbonat) iyonlarını içeren bileşikler organik değil, <b>anorganik (organik olmayan)</b> bileşiklerdir. Organik bileşiklerin tepkimeleri genellikle yavaş, basamaklı ve düşük verimlidir; bağları ise kovalent karakterlidir.</p>
+    <p><b>Karbonun Allotropları:</b> Karbon atomu periyodik cetvelde 4A grubundadır ve 4 adet kalıcı kovalent bağ yapma yeteneğine sahiptir. Aynı elementin atomlarının uzayda farklı bağ örüntüleri ve geometrilerle dizilmesiyle oluşan yapılara <b>allotrop</b> denir:</p>
+    <ul>
+        <li><b>Elmas (Doğal):</b> Karbondaki her bir atom, çevresindeki diğer 4 atomla düzgün dörtyüzlü geometride güçlü sigma bağları kurar. Bilinen en sert doğal maddelerden biridir, elektriği iletmez ancak ısıyı iyi iletir. $sp^3$ hibritleşmesi yapar.</li>
+        <li><b>Grafit (Doğal):</b> Karbon atomları altıgen halkalar içeren tabakalar halinde dizilmiştir. Tabakalar arasında zayıf London etkileşimleri ve serbest pi (&pi;) elektronları bulunur. Bu sayede grafit **elektrik akımını ve ısıyı iletebilir**. Yumuşak ve kaygandır. $sp^2$ hibritleşmesi yapar.</li>
+        <li><b>Grafen (Yapay):</b> Karbon atomlarının iki boyutlu, bal peteği örgüsünde dizildiği tek bir atom kalınlığındaki devrimsel tabakadır. Çelikten kat kat güçlü, esnek ve elektriği mükemmel ileten modern nanoteknoloji malzemesidir.</li>
+        <li><b>Karbon Nanotüpler ve Fullerene (Yapay):</b> Grafen tabakalarının silindir şeklinde bükülmesiyle oluşan nanotüpler, elektronik sanayinde ve hidrojen depolama pillerinde sıklıkla kullanılır.</li>
+    </ul>
+
+    <h2>2. HİBRİTLEŞME (MELEZLEŞME) VE BAĞ OLUŞUMU</h2>
+    <p>Bir atomun temel halindeki farklı enerji seviyelerinde bulunan eş enerjili olmayan orbitallerinin (örn: s ve p), kimyasal bağ yaparken etkileşerek tamamen **eş enerjili ve özdeş yeni orbitallere** dönüşmesi olayına <b>hibritleşme (melezleşme)</b> denir. Karbon atomunun merkez atom olduğu organik bileşiklerde en çok üç tür hibritleşme gözlenir:</p>
+    <ul>
+        <li><b>sp³ Hibritleşmesi:</b> Karbon atomu çevresindeki tüm bağları **tekli bağ (single bond)** olarak kurmuşsa bu hibritleşmeyi yapar. (Örn: CH₄ molekülündeki C atomu).</li>
+        <li><b>sp² Hibritleşmesi:</b> Karbon atomu çevresinde 1 adet **ikili bağ (double bond)** barındırıyorsa bu hibritleşmeyi seçer. (Örn: C₂H₄ veya H₂CO molekülleri).</li>
+        <li><b>sp Hibritleşmesi:</b> Karbon atomu çevresinde 1 adet **üçlü bağ (triple bond)** veya karşılıklı 2 adet ikili bağ barındırıyorsa bu hibritleşmeyi yapar. (Örn: C₂H₂ veya CO₂ molekülleri).</li>
+    </ul>
+    <p><b>Sigma (&sigma;) ve Pi (&pi;) Bağları:</b> Orbitallerin bağ ekseni boyunca uç uca örtüşmesiyle oluşan ilk ve en güçlü kovalent bağa <b>sigma bağ</b> denir. İki atom arasında bir sigma bağı kurulmadan başka bağ oluşamaz. Sigma bağı oluştuktan sonra, hibritleşmeye katılmayan p orbitallerinin bağ eksenine dik olarak **yan yana (paralel)** örtüşmesiyle oluşan nispeten zayıf bağlara ise <b>pi bağı</b> denir:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 10px 0;">
+        Tekli Bağ = 1 &sigma; &nbsp; | &nbsp; İkili Bağ = 1 &sigma; + 1 &pi; &nbsp; | &nbsp; Üçlü Bağ = 1 &sigma; + 2 &pi;
+    </p>
+    <p></p>
+
+    <h2>3. VSEPR TEORİSİ VE MOLEKÜL GEOMETRİLERİ</h2>
+    <p>Moleküllerin 3 boyutlu geometrik şekillerini açıklamak için kullanılan, merkez atomun değerlik kabuğundaki elektron çiftlerinin birbirini en uzak mesafeye itmesi ilkesine dayanan teoriye <b>VSEPR (Değerlik Kabuğu Elektron Çifti İtme Kuramı)</b> denir. Genel gösterim kalıbı <b>AX<sub>n</sub>E<sub>e</sub></b> şeklindedir (A: Merkez atom, X: Merkez atoma bağlı grup sayısı, E: Merkez atomun ortaklanmamış / bağ yapmayan elektron çifti sayısı). Pi bağları VSEPR geometrisinde gruba <u>dahil edilmez</u>.</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Molekül Örneği</th>
+                <th>VSEPR Gösterimi</th>
+                <th>Merkez Atom Hibriti</th>
+                <th>Molekül Geometrisi</th>
+                <th>Bağ Açısı (°C)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>BeH₂ / CO₂</b></td>
+                <td>AX₂</td>
+                <td>sp</td>
+                <td>Doğrusal (Lineer)</td>
+                <td>180°</td>
+            </tr>
+            <tr>
+                <td><b>BH₃ / C₂H₄</b></td>
+                <td>AX₃</td>
+                <td>sp²</td>
+                <td>Düzlem Üçgen</td>
+                <td>120°</td>
+            </tr>
+            <tr>
+                <td><b>CH₄ / CCl₄</b></td>
+                <td>AX₄</td>
+                <td>sp³</td>
+                <td>Düzgün Dörtyüzlü (Tetrahedral)</td>
+                <td>109.5°</td>
+            </tr>
+            <tr>
+                <td><b>NH₃</b></td>
+                <td>AX₃E</td>
+                <td>sp³</td>
+                <td>Üçgen Piramit</td>
+                <td>107°</td>
+            </tr>
+            <tr>
+                <td><b>H₂O</b></td>
+                <td>AX₂E₂</td>
+                <td>sp³</td>
+                <td>Açısal / Kırık Doğru</td>
+                <td>104.5°</td>
+            </tr>
+        </tbody>
+    </table>
+    <p></p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Aşağıda formülleri verilen bileşiklerden hangisi kimyasal sınıflandırma kriterlerine göre <b>anorganik (organik olmayan)</b> bir bileşiktir?</div>
+        <ul class="options-list">
+            <li>A) CH₃OH (Metanol)</li>
+            <li>B) CH₄ (Metan)</li>
+            <li>C) H₂CO₃ (Karbonik asit)</li>
+            <li>D) HCOOH (Formik asit)</li>
+            <li>E) C₆H₆ (Benzen)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yapısında karbon (C) atomu barındıran her bileşik otomatik olarak organik kabul edilmez.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A, B, D, E seçeneklerindeki moleküller klasik hidrokarbon ve fonksiyonel organik zincir yapılarıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - C seçeneğinde verilen H₂CO₃ (Karbonik asit) bileşiği, yapısında karbonat ($CO_3^{2-}$) kökü barındırır. Karbonat iyonları, siyanürler (CN⁻), karbon monoksit (CO) ve karbon dioksit (CO₂) gibi oksitler mineral kökenli olduklarından anorganik kimyanın inceleme alanına girerler. Bu yüzden H₂CO₃ organik değil, <b>anorganik</b> bir asittir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Karbon elementinin yapay bir allotropu olan, karbon atomlarının iki boyutlu bal peteği örgüsünde dizildiği, tek atom kalınlığındaki, elektriği ve ısıyı mükemmel ileten modern nanoteknoloji malzemesi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Elmas</li>
+            <li>B) Grafit</li>
+            <li>C) Grafen</li>
+            <li>D) Fullerene</li>
+            <li>E) Karbon Nanotüp</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Karbon allotroplarının tanımlarını eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Elmas ve Grafit karbonun doğal allotroplarıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Fullerene futbol topu benzeri yapay kafes yapılardır. Nanotüpler ise silindirik borulardır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Soruda spesifik olarak tarif edilen "iki boyutlu (2D), bal peteği kristal yapısında, tek atom kalınlığındaki katman" ifadesi doğrudan **Grafen** tabakasının fiziksel tanımıdır. Grafen, olağanüstü iletkenliği ve sağlamlığı ile modern yarı iletken ve esnek ekran teknolojilerinin hammaddesidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Açık formülü H-C&equiv;C-H şeklinde olan Asetilen (Etin) molekülü ile ilgili; I. Toplam 3 tane sigma (&sigma;) ve 2 tane pi (&pi;) bağı içerir, II. Karbon atomları sp hibritleşmesi yapmıştır, III. Molekülün geometrisi doğrusaldır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Asetilen molekülünün bağ yapısını detaylı inceleyelim: H — C &equiv; C — H
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: İki adet tekli C-H bağı bulunur (2 sigma). Ortadaki üçlü C&equiv;C bağının içinde ise 1 sigma ve 2 pi bağı yer alır. Toplamda: 2 + 1 = <b>3 sigma</b> ve <b>2 pi bağı</b> mevcuttur. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Karbon atomları çevresinde birer üçlü bağ barındırdığı ve VSEPR doğrultu sayısı 2 (AX₂) olduğu için hibritleşme türü kesinlikle <b>sp hibritleşmesidir</b>. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: sp hibritleşmesine sahip AX₂ yapısındaki merkez atomlu moleküller, aralarındaki bağ elektronlarının itmesini minimuma indirmek için tam 180°'lik açıyla dizilirler, yani şekil <b>doğrusaldır (lineer)</b>. Bu da doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> VSEPR gösterimi AX₃E şeklinde olan bir molekülün merkez atomunun hibritleşme türü, molekül geometrisi ve bağ açısı aşağıdakilerden hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) sp² , Düzlem Üçgen , 120°</li>
+            <li>B) sp³ , Düzgün Dörtyüzlü , 109.5°</li>
+            <li>C) sp³ , Üçgen Piramit , 107°</li>
+            <li>D) sp³ , Kırık Doğru , 104.5°</li>
+            <li>E) sp² , Üçgen Piramit , 120°</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• AX₃E kalıbını analiz edelim: Merkez atom A'ya 3 grup (X₃) bağlıdır ve tepesinde 1 çift ortaklanmamış elektron (E) taşımaktadır. Toplam doğrultu/elektron çifti sayısı = 3 + 1 = 4'tür.
+            <br>• Toplam doğrultusu 4 olan merkez atomların (tıpkı CH₄ veya H₂O'da olduğu gibi) hibritleşme karakteri <b>sp³ hibritleşmesidir</b>.
+            <br>• Tepedeki ortaklanmamış elektron çifti (E), bağ elektronlarını aşağı doğru güçlüce ittiği için düzlemsellik bozulur ve yapı bir piramite dönüşür. Bu geometrinin adı <b>Üçgen Piramit</b>'tir (En belirgin örneği ₅NH₃ molekülüdür). Elektron itmesinden dolayı bağ açısı düzgün dörtyüzlüden (109.5°) daralarak yaklaşık <b>107°</b> değerine iner.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> ₈O ve ₁H atomları arasında oluşan H₂O (Su) molekülü ile ilgili; I. VSEPR gösterimi AX₂E₂ şeklindedir, II. Molekül geometrisi kırık doğrudur (açısal), III. Merkez atom olan Oksijen sp² hibritleşmesi yapmıştır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Su molekülünün Lewis yapısını kuralım: Merkez atom Oksijenin (2-6 diziliminden) 6 değerlik elektronu vardır. 2 tanesiyle H atomlarına bağlanır, kalan 4 elektron ise 2 çift ortaklanmamış elektron olarak kafasında kalır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Merkez atom A (Oksijen), bağlı grup sayısı X₂ (iki Hidrojen), ortaklanmamış çift sayısı E₂'dir. VSEPR kodu: <b>AX₂E₂</b> olur. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: AX₂E₂ kalıbındaki iki çift elektron bağları şiddetle aşağı büktüğü için doğrusal bağ yapısı bozularak 104.5°'lik bir <b>Kırık Doğru (Açısal)</b> geometri oluşur. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: H₂O'da toplam doğrultu sayısı (2 bağ + 2 elektron çifti) = 4'tür. Doğrultusu 4 olan merkez atom sp² değil, kesinlikle <b>sp³ hibritleşmesi</b> yapmak zorundadır. Bu yüzden üçüncü öncül yanlıştır. Cevap I ve II olur.
+        </div>
+    </div>
+
+</body>
+</html>

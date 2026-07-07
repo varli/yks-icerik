@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 9: Kimya ve Elektrik</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1c3d5a; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3bffa; }
+        h2 { color: #1c3d5a; font-size: 15pt; border-left: 5px solid #38b2ac; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #234e52; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #e6fffa; border-left: 4px solid #38b2ac; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1c3d5a; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #234e52; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #234e52; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 9: KİMYA VE ELEKTRİK</h1>
+        <p>Redoks Dengesi, Metalik Aktiflik, Galvanik Hücreler, Nernst Denklemi ve Elektroliz Kuralları</p>
+    </div>
+
+    <h2>1. REDOKS TEPKİMELERİ VE METALİK AKTİFLİK</h2>
+    <p>Elektron alışverişi ile gerçekleşen kimyasal tepkimelere <b>indirgenme-yükseltgenme (redoks) tepkimeleri</b> denir. Elektron veren (yükseltgenen) madde, karşıdakini indirgediği için <b>indirgen</b> özellik gösterir. Elektron alan (indirgenen) madde ise karşıdakini yükselttiği için <b>yükseltgen</b> özellik gösterir.</p>
+    <p><b>Metalik Aktiflik:</b> Metallerin elektron verme (yükseltgenme) eğilimlerinin bir ölçüsüdür. Aktifliği Hidrojenden yüksek olan metallere aktif metaller, düşük olanlara ise soy metaller (Cu, Hg, Ag, Pt, Au) denir. Bir metal çubuk, kendisinden daha pasif bir metal iyonu içeren çözeltiye batırılırsa **kendiliğinden tepkime (aşınma) gerçekleşir**. Pasif bir metal aktif bir iyon çözeltisinde ise asla aşınmaz.</p>
+
+    <h2>2. GALVANİK HÜCRELER (PİLLER) VE ANOT-KATOT AYRIMI</h2>
+    <p>Kendiliğinden gerçekleşen (istemsiz olmayan) redoks tepkimelerinden kimyasal enerjiyi elektrik enerjisine dönüştüren sistemlere <b>galvanik hücre</b> denir. İki yarı hücreden oluşur ve aradaki yük denkliğini sağlamak için **tuz köprüsü** (anyonlar anoda, katyonlar katoda akar) kullanılır. Standart şartlarda (25°C, 1 M çözelti) pillerin çalışma mekanizması şu kurallara dayanır:</p>
+    <ul>
+        <li><b>Anot (Yükseltgenme Hücresi):</b> Elektron verme (yükseltgenme) potansiyeli **büyük olan** metal anottur. Zamanla anot çubuğun kütlesi aşınarak <u>azalır</u>, çözeltideki katyon derişimi ise <u>artar</u>.</li>
+        <li><b>Katot (İndirgenme Hücresi):</b> Yükseltgenme potansiyeli **küçük olan** (pasif) metalin bulunduğu taraftır. Elektronlar dış devrede daima **Anottan Katoda doğru** akar. Çözeltideki katyonlar gelen elektronları alarak indirgenir. Katot çubuğunun kütlesi genellikle <u>artar</u>.</li>
+    </ul>
+    <p></p>
+
+    <h2>3. NERST DENKLEMİ VE PİL POTANSİYELİNE ETKİ EDEN FAKTÖRLER</h2>
+    <p>Pil tepkimeleri tersinir (denge) tepkimeleridir ve ekzotermiktir (ısı veren). Dolayısıyla Le Chatelier ilkesine göre dengeyi **ürünler yönüne (sağa)** kaydıran tüm etkiler pil potansiyelini ($E_{pil}$) <b>artırır</b>; girenler yönüne kaydıranlar ise **azaltır**. Sıcaklık artırılırsa denge sola kayacağından pil gerilimi <u>azalır</u> (Piller soğukta daha verimli çalışır).</p>
+    <p><b>Nernst Denklemi:</b> Çözeltilerin derişimleri 1 Molar'dan farklı olduğunda pil potansiyelini hesaplamak için kullanılan analitik formüldür:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 12px 0;">
+        E<sub>pil</sub> = E°<sub>pil</sub> - (0.0592 / n) . logQ
+    </p>
+    <p>Burada <b>E°<sub>pil</sub></b>: Standart pil potansiyeli, <b>n</b>: Alınan/verilen elektron sayısı, <b>Q</b>: Denge kesridir (Anot derişimi / Katot derişimi kalıbıdır).</p>
+    <p><b>Derişim Pilleri:</b> Elektrotları aynı, sadece yarı hücrelerdeki çözelti derişimleri farklı olan pillerdir. Derişimi **küçük olan hücre anot**, **büyük olan hücre katottur**. Derişimler eşitlendiğinde pil çalışmayı durdurur ($E_{pil} = 0$).</p>
+
+    <h2>4. ELEKTROLİZ VE FARADAY YASALARI</h2>
+    <p>Kendiliğinden gerçekleşmeyen (istemsiz) bir redoks tepkimesinin, dışarıdan bir üreteç yardımıyla sisteme elektrik enerjisi verilerek zorla gerçekleştirilmesi sürecine <b>elektroliz</b> denir. Pillerin tam tersi çalışır; elektrik enerjisi kimyasal enerjiye dönüşür. Anotta yükseltgenme, katotta indirgenme kuralı burada da geçerlidir.</p>
+    <div class="highlight-box">
+        <strong>⚠️ ELEKTROLİZDE AÇIĞA ÇIKMA ÖNCELİK SIRALAMASI:</strong>
+        <br>Birden fazla iyon içeren bir karışım (veya sulu çözelti) elektroliz edildiğinde:
+        <br>• <b>Katotta (İndirgenme):</b> Elektron alma (indirgenme) eğilimi **en büyük olan (en pasif)** iyon ilk önce açığa çıkar.
+        <br>• <b>Anotta (Yükseltgenme):</b> Elektron verme (yükseltgenme) eğilimi **en büyük olan (en aktif)** iyon ilk önce açığa çıkar.
+    </div>
+    <p><b>Faraday'ın I. Elektroliz Yasası:</b> Elektroliz devresinden geçen elektrik yükü miktarı (Q) ile elektrotlarda toplanan madde miktarı (m) doğrudan doğru orantılıdır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        m = (I . t . M<sub>A</sub>) / (96500 . z)
+    </p>
+    <p>Burada <b>I</b>: Akım (Amper), <b>t</b>: Süre (Saniye), <b>z</b>: iyonun aldığı/verdiği elektron sayısıdır (iyon yükü). Bir devreden 1 Faradaylık yük geçtiğinde, devreden tam <b>1 mol elektron</b> geçmiş demektir ve bu da <b>96500 Coulomb</b> yüke eşittir.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Standart şartlarda hazırlanan bir galvanik hücrede metallerin indirgenme potansiyelleri verilmiştir:
+        <br>• Zn²⁺(suda) + 2e⁻ &rarr; Zn(k) &nbsp;&nbsp; E° = -0.76 V
+        <br>• Cu²⁺(suda) + 2e⁻ &rarr; Cu(k) &nbsp;&nbsp; E° = +0.34 V
+        <br>Buna göre, bu iki yarı hücreden oluşturulan standart pilin potansiyeli (E°<sub>pil</sub>) kaç Volt'tur?</div>
+        <ul class="options-list">
+            <li>A) 0.42</li>
+            <li>B) 1.10</li>
+            <li>C) -1.10</li>
+            <li>D) 0.76</li>
+            <li>E) 1.52</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bize verilen tepkimeler indirgenme yönündedir. Anodu bulabilmek için elektron verme (yükseltgenme) potansiyellerine dönüştürelim (tepkimeleri ters çevirip E° işaretini değiştirelim):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Zn &rarr; Zn²⁺ + 2e⁻ &nbsp; E°<sub>yükseltgenme</sub> = +0.76 V
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Cu &rarr; Cu²⁺ + 2e⁻ &nbsp; E°<sub>yükseltgenme</sub> = -0.34 V
+            <br>• Yükseltgenme potansiyeli büyük olan Zn metali <b>Anot</b>, küçük olan Cu metali ise <b>Katot</b> olur.
+            <br>• Standart pil gerilimi anot yükseltgenme potansiyeli ile katot indirgenme potansiyelinin toplamına eşittir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E°<sub>pil</sub> = E°<sub>anot(yükseltgenme)</sub> + E°<sub>katot(indirgenme)</sub>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E°<sub>pil</sub> = (+0.76 V) + (+0.34 V) = <b>+1.10 Volt</b> olarak pil gerilimi hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bir derişim pilinde, her iki yarı hücrede de Ag(k) elektrotlar kullanılmaktadır. I. kapta 0.01 M Ag⁺ sulu çözeltisi, II. kapta ise 1.0 M Ag⁺ sulu çözeltisi bulunmaktadır. Bu pil sistemi ile ilgili; I. I. kap anottur, II. Zamanla II. kaptaki Ag⁺ iyon derişimi azalır, III. Hücrelerin derişimleri eşitlendiğinde pil potansiyeli sıfır olur yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Derişim pillerinin karakteristik çalışma felsefesini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Derişim pillerinde çözelti derişimi az olan yarı hücre daima **Anot** görevi üstlenir. 0.01 M &lt; 1.0 M olduğundan I. kap anottur. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: II. kap katot hücresidir. Katotta indirgenme reaksiyonu gerçekleşeceğinden çözeltideki Ag⁺ iyonları elektron alarak katı metal halinde çöker; dolayısıyla çözeltideki Ag⁺ iyon derişimi zamanla <b>azalır</b> (I. kaptaki derişim ise yükseltgenmeyle artar). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Derişim pillerini çalıştıran itici güç iki hücre arasındaki konsantrasyon farkıdır. Zamanla derişimler birbirine yaklaşıp tam eşitlendiği anda sistem dengeye ulaşır, potansiyel fark yok olur ve <b>pil durur (E_pil = 0)</b>. Bu da doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> E°<sub>pil</sub> = 2.00 V olan bir galvanik hücre düzeneğinde, anot bölmesindeki katyon derişimi 0.1 M, katot bölmesindeki katyon derişimi ise 0.01 M olarak ayarlanmıştır. Alınan/verilen elektron sayısı n = 1 olduğuna göre, Nernst denklemine göre bu pilin gerçek potansiyeli kaç Volt'tur? (Nernst sabitini 0.06 alınız).</div>
+        <ul class="options-list">
+            <li>A) 1.94</li>
+            <li>B) 2.00</li>
+            <li>C) 2.06</li>
+            <li>D) 1.88</li>
+            <li>E) 2.12</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Derişimler 1 Molar'dan farklı olduğu için Nernst denklemini kurmalıyiz: E<sub>pil</sub> = E°<sub>pil</sub> - (0.06 / n) . log(Anot/Katot)
+            <br>• Verilen sayısal değerleri denkleme yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>pil</sub> = 2.00 - (0.06 / 1) . log(0.1 / 0.01)
+            <br>• Logaritma içindeki kesri sadeleştirelim: 0.1 / 0.01 = 10.
+            <br>• log(10) taban kuralı gereği 1'e eşittir. O halde işlem şu hale evrilir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>pil</sub> = 2.00 - 0.06 . (1)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>pil</sub> = 2.00 - 0.06 = <b>1.94 Volt</b> olarak gerçek pil potansiyeli elde edilir. Katot derişimi seyreltildiği için gerilim düşmüştür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Ergimiş (sıvı) CaCl₂ tuzu bir elektroliz kabında 9.65 Amperlik bir akımlarla tam 1000 saniye boyunca elektroliz ediliyor. Buna göre, bu süre sonunda katotta toplanan Kalsiyum (Ca) katısı kaç gramdır? (Ca: 40 g/mol , 1 Faraday = 96500 C)</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 4</li>
+            <li>C) 8</li>
+            <li>D) 20</li>
+            <li>E) 40</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak devreden geçen toplam elektrik yükü miktarını (Q = I . t) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Q = 9.65 Amper . 1000 saniye = <b>9650 Coulomb</b>.
+            <br>• Bu yük miktarının kaç mol elektrona (Faraday) karşılık geldiğini oranlayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; n<sub>elektron</sub> = 9650 C / 96500 C = <b>0.1 mol elektron</b> devreden geçmiştir.
+            <br>• Katottaki kalsiyum indirgenme yarı tepkimesini yazalım (Ca, CaCl₂ bileşiğinde +2 yüklüdür):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Ca²⁺ + 2e⁻ &rarr; Ca(k)
+            <br>• Denklem katsayılarına göre: 2 mol elektron geçtiğinde 1 mol Ca katısı toplanıyorsa; 0.1 mol elektron geçtiğinde yarısı kadar, yani <b>0.05 mol Ca katısı</b> toplanır.
+            <br>• Toplanan kütleyi gram cinsine çevirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; m = n . M<sub>A</sub> = 0.05 mol . 40 g/mol = <b>4 gram Ca</b> katısı birikir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> İçerisinde NaCl(suda) çözeltisi bulunan bir kap elektroliz edilmektedir. Ortamda Na⁺, H⁺, Cl⁻, OH⁻ iyonları bulunmaktadır. İyonların elektron verme (aktiflik) sıralaması Na &gt; H &gt; Cl &gt; OH şeklinde olduğuna göre, anot ve katotta ilk önce açığa çıkan maddeler aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Anot: Na(k) , Katot: Cl₂(g)</li>
+            <li>B) Anot: Cl₂(g) , Katot: H₂(g)</li>
+            <li>C) Anot: O₂(g) , Katot: Na(k)</li>
+            <li>D) Anot: Cl₂(g) , Katot: Na(k)</li>
+            <li>E) Anot: O₂(g) , Katot: H₂(g)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Elektroliz kaplarında anyonlar anoda, katyonlar katoda gider.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Katot bölmesine pozitif katyonlar (Na⁺ ve H⁺) gider. Katotta indirgenme önceliği, elektron alma eğilimi en büyük olan (en pasif) iyona aittir. Aktiflik sıralaması Na &gt; H olduğuna göre, H iyonu Na'dan daha pasiftir. Dolayısıyla katotta ilk önce H⁺ iyonları indirgenerek <b>H₂(g) gazı</b> açığa çıkar.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Anot bölmesine negatif anyonlar (Cl⁻ ve OH⁻) gider. Anotta yükseltgenme önceliği, elektron verme eğilimi en büyük olan (en aktif) iyona aittir. Sıralamada Cl &gt; OH verildiği için Cl⁻ iyonu daha aktiftir. Dolayısıyla anotta ilk önce Cl⁻ iyonları yükseltgenerek <b>Cl₂(g) gazı</b> açığa çıkar.
+            <br>• Sonuç olarak Anotta Cl₂(g), Katotta H₂(g) ilk önce serbest kalır.
+        </div>
+    </div>
+
+</body>
+</html>

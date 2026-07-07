@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 11: Organik Bileşikler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 11: ORGANİK BİLEŞİKLER</h1>
+        <p>Hidrokarbonlar, Fonksiyonel Gruplar, IUPAC Adlandırma Kuralları, İzomeri ve Tepkime Mekanizmaları</p>
+    </div>
+
+    <h2>1. HİDROKARBONLAR (ALKAN, ALKEN, ALKİN, AROMATİK)</h2>
+    <p>Sadece karbon (C) ve hidrojen (H) atomlarından oluşan organik bileşiklere <b>hidrokarbonlar</b> denir. Kendi aralarında doymuş ve doymamış olarak ayrılırlar:</p>
+    <ul>
+        <li><b>Alkanlar (Parafinler):</b> Tüm bağları sigma olan doymuş hidrokarbonlardır. Genel formülleri <b>C<sub>n</sub>H<sub>2n+2</sub></b>'dir. Tepkimeye girme eğilimleri çok düşüktür; sadece yanma ve güneş ışığında halojenlerle **yer değiştirme (substitüsyon)** tepkimesi verirler.</li>
+        <li><b>Alkenler (Olefinler):</b> Yapılarında en az bir adet ikili bağ (C=C) bulunduran doymamış hidrokarbonlardır. Genel formülleri <b>C<sub>n</sub>H<sub>2n</sub></b>'dir. İkili bağdaki pi bağının kolay kırılmasından dolayı halojenlerle, suyla ($H_2O$) veya $H_2$ ile **katılma (adiksiyon)** tepkimesi verirler.
+        <br><b>⚠️ Markovnikov Kuralı:</b> Alkenlere asimetrik bir madde (örn: HCl veya H-OH) katılırken, hidrojen atomu ikili bağ karbonlarından **hidrojeni çok olan** karbona; diğer grup (Cl veya OH) ise hidrojeni az olan karbona bağlanır.
+        <br><b>⚠️ Geometrik İzomeri (Cis-Trans):</b> Alkenlerde ikili bağ karbonlarına bağlı gruplar aynı tarafta ise <b>cis</b>, çapraz konumlarda ise <b>trans</b> izomeri oluşur. İkili bağ karbonlarından herhangi birine aynı iki grup bağlıysa cis-trans izomerliği <u>görülmez</u>.</li>
+        <li><b>Alkinler (Asetilenler):</b> Yapılarında en az bir adet üçlü bağ (C&equiv;C) bulunduran doymamış hidrokarbonlardır. Genel formülleri <b>C<sub>n</sub>H<sub>2n-2</sub></b>'dir. Üçlü bağ karbonlarına bağlı hidrojen atomu taşıyan alkinlere <i>uç alkin</i> denir. Uç alkinler, Tollens çözeltisi ($Ag^+$) ile beyaz çökelek, Fehling çözeltisi ($Cu^+$) ile kırmızı çökelek oluşturarak **yer değiştirme** tepkimesi verirler (İç alkinler bu testi vermez).</li>
+        <li><b>Aromatik Hidrokarbonlar (Arenler):</b> Kendine has kokuları olan, en temel üyesi **Benzen (C₆H₆)** olan halkalı bileşiklerdir. Benzen halkasındaki ikili bağlar sürekli yer değiştirir (rezonans yapı), bu yüzden katılma tepkimelerine karşı çok dirençlidirler. Benzene -OH bağlanırsa Fenol, -NH₂ bağlanırsa Anilin, -CH₃ bağlanırsa Toluen oluşur.</li>
+    </ul>
+    <p></p>
+
+    <h2>2. FONKSİYONEL GRUPLAR VE REAKSİYON KARAKTERLERİ</h2>
+    <p>Organik bileşiklerde moleküle karakteristik kimyasal özelliklerini kazandıran atom veya atom gruplarına <b>fonksiyonel gruplar</b> denir:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Sınıfı</th>
+                <th>Fonksiyonel Grubu</th>
+                <th>Genel Formülü</th>
+                <th>En Kritik Kimyasal Özelliği / Dönüşümü</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Alkoller</b></td>
+                <td>-OH (Hidroksil)</td>
+                <td>R - OH</td>
+                <td>Primer alkoller 1 derece yükseltgenirse Aldehit, 2 derece yükseltgenirse Karboksilik asit oluşturur. Sekonder alkoller Ketona yükseltgenir. Tersiyer alkoller <u>yükseltgenmez</u>.</td>
+            </tr>
+            <tr>
+                <td><b>Eterler</b></td>
+                <td>-O- (Oksi)</td>
+                <td>R - O - R'</td>
+                <td>Aynı karbon sayılı monoalkollerle **fonksiyonel grup izomeridir**. Tepkimeye girmeyen, oldukça kararlı, polar çözücülerdir.</td>
+            </tr>
+            <tr>
+                <td><b>Aldehitler</b></td>
+                <td>-CHO (Karbonil)</td>
+                <td>R - CHO</td>
+                <td>Tollens (Gümüş aynası) ve Fehling çözeltilerini **yükseltgenerek karboksilik aside dönüştürürken** indirgerler. Alkollerin aksine indirgendiklerinde primer alkol oluştururlar.</td>
+            </tr>
+            <tr>
+                <td><b>Ketonlar</b></td>
+                <td>-CO- (Karbonil)</td>
+                <td>R - CO - R'</td>
+                <td>Aynı karbon sayılı aldehitlerle **izomerdir** (En küçüğü 3 karbonlu Asetondur). Aldehitlerin aksine Tollens ve Fehling çözeltilerine etki <u>etmezler (yükseltgenmezler)</u>.</td>
+            </tr>
+            <tr>
+                <td><b>Karboksilik Asitler</b></td>
+                <td>-COOH (Karboksil)</td>
+                <td>R - COOH</td>
+                <td>Zayıf asit özelliği gösterirler. Aynı karbon sayılı esterlerle **izomerdir**. Alkollerle asit katalizörlüğünde birleşerek **Esterleri** oluştururlar.</td>
+            </tr>
+            <tr>
+                <td><b>Esterler</b></td>
+                <td>-COO- (Ester)</td>
+                <td>R - COO - R'</td>
+                <td>Hoş kokulu meyve esanslarıdır. Karboksilik asit + Alkol $\rightleftharpoons$ Ester + H₂O tepkimesine **Esterleşme (Kondansasyon)** reaksiyonu denir. Bazik ortamda hidroliz edildiklerinde sabun oluştururlar (Sabunlaşma).</td>
+            </tr>
+        </tbody>
+    </table>
+    <p></p>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> IUPAC adlandırma kurallarına göre bir organik bileşiğin ismi "2-metil bütan" olarak belirlenmiştir. Buna göre bu bileşiğin kapalı formülü ve hidrokarbon sınıfı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) C₄H₁₀ , Alken</li>
+            <li>B) C₅H₁₀ , Alkan</li>
+            <li>C) C₅H₁₂ , Alkan</li>
+            <li>D) C₄H₈ , Alkin</li>
+            <li>E) C₆H₁₄ , Alkan</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İsmi parçalayarak toplam karbon (C) sayısını bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - "bütan" eki ana zincirin <b>4 karbonlu</b> olduğunu söyler.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - "2-metil" kısmı ise ana zincire bağlı olan metil (-CH₃) yan grubundan <b>1 karbon</b> geldiğini belirtir.
+            <br>• Toplam Karbon Sayısı = 4 + 1 = 5 karbon (n = 5).
+            <br>• İsmin sonundaki "-an" eki bu bileşiğin bir düz zincirli <b>Alkan</b> (parafin) olduğunu kesinleştirir.
+            <br>• Alkanların genel formülü C<sub>n</sub>H<sub>2n+2</sub> olduğuna göre n=5 için hidrojen sayısını bulalım: 2 . 5 + 2 = 12.
+            <br>• Kapalı formülümüz <b>C₅H₁₂</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Aşağıda verilen alken moleküllerinden hangisinin yapısal formülünde <b>cis-trans (geometrik) izomerliği</b> gözlenebilir?</div>
+        <ul class="options-list">
+            <li>A) Propene (CH₂=CH-CH₃)</li>
+            <li>B) 1-Büten (CH₂=CH-CH₂-CH₃)</li>
+            <li>C) 2-Metil-2-büten (CH₃-C(CH₃)=CH-CH₃)</li>
+            <li>D) 2-Büten (CH₃-CH=CH-CH₃)</li>
+            <li>E) 1,1-Diklor eten (CCl₂=CH₂)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Alkenlerde cis-trans izomerliği aranırken çift bağlı (C=C) karbon atomları tek tek incelenir. Çift bağlı karbonlardan herhangi birine aynı iki atom ya da grup (örn: iki adet H veya iki adet -CH₃) bağlıysa o molekülde cis-trans <u>görülmez</u>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A, B ve E şıklarında en baştaki karbonda iki adet H (veya Cl) bağlı olduğundan ($CH_2=$ yapısı) geometrik izomeri yoktur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - C şıkkında çift bağlı karbonlardan birine iki adet -CH₃ bağlıdır, bu yüzden onda da yoktur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - D şıkkındaki 2-Büten molekülünü incelersek: $CH_3-CH=CH-CH_3$. Çift bağlı karbonların her birine 1 adet -H ve 1 adet -CH₃ bağlıdır. Gruplar farklı olduğu için bu molekülün Cis-2-büten ve Trans-2-büten olmak üzere iki geometrik izomeri **mevcuttur**.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir hidrokarbon numunesinin uç alkin mi yoksa iç alkin mi olduğunu laboratuvarda ayırt etmek isteyen bir kimyager, numuneyi amonyaklı gümüş nitrat (Tollens) çözeltisi ile reaksiyona sokuyor. Deney sonucunda kapta beyaz bir çökelek oluştuğu gözleniyor. Buna göre bu numune bileşiği aşağıdakilerden hangisi olabilir?</div>
+        <ul class="options-list">
+            <li>A) Propan</li>
+            <li>B) 2-Bütin</li>
+            <li>C) Propin</li>
+            <li>D) Eten</li>
+            <li>E) 2-Pentin</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Tollens çözeltisi ile yer değiştirme tepkimesi vererek metal tuzu (beyaz çökelek) oluşturma özelliği sadece ve sadece **uç alkinlere** (üçlü bağ karbonunda en az bir adet H atomu taşıyan alkinlere) hastır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A ve D şıkları alkan ve alken olduğundan Tollens ile çökelek vermez.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - B ve E şıklarındaki 2-Bütin ($CH_3-C\equiv C-CH_3$) ve 2-Pentin iç alkindir; üçlü bağ karbonlarında hidrojen kalmadığı için Tollens'e etki edemezler.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - C şıkkındaki Propin ($CH\equiv C-CH_3$) ise en uçta üçlü bağ barındıran net bir <b>uç alkindir</b>. Tollens çözeltisindeki Ag⁺ iyonları ile uçtaki H yer değiştirerek gümüş asetilenür beyaz çökeleğini oluşturur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Fonksiyonel grupların izomerlik ilişkileri ile ilgili; I. Aynı karbon sayılı monoalkoller ile eterler birbirinin fonksiyonel grup izomeridir, II. 1 karbonlu metanal (formaldehit) bileşiğinin keton sınıfında bir izomeri yoktur, III. Aynı karbon sayılı karboksilik asitler ile esterler izomerdir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Organik kimyadaki fonksiyonel grup izomerlik sınırlarını kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Alkollerin ve eterlerin genel formülü C<sub>n</sub>H<sub>2n+2</sub>O'dur. Karbon sayıları aynı olmak şartıyla birbirlerinin fonksiyonel grup izomeridirler. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Ketonların en küçük üyesi, karbonil grubunun iki yanına metil bağlanmasıyla oluşan 3 karbonlu **Aseton**dur. 1 veya 2 karbonlu keton olamaz. Bu yüzden 1 karbonlu bir aldehit olan metanalin keton izomeri yoktur. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Karboksilik asitler ile esterlerin genel formülü C<sub>n</sub>H<sub>2n</sub>O₂'dir. Karbon sayıları eşit olduğunda birbirlerinin fonksiyonel grup izomeri olurlar. Bu da doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Bir organik X bileşiği uygun koşullarda yükseltgendiğinde Y bileşiğini oluşturmaktadır. Y bileşiği ise Tollens çözeltisine etki ederek gümüş aynası oluşturabilmektedir. Buna göre başlangıçtaki X bileşiğinin sınıfı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Sekonder Alkol</li>
+            <li>B) Primer Alkol</li>
+            <li>C) Keton</li>
+            <li>D) Eter</li>
+            <li>E) Tersiyer Alkol</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İpucunu sondan başa doğru zincirleme reaksiyonla çözelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Tollens çözeltisi ile gümüş aynası oluşturabilen (yükseltgenebilen) karbonil bileşiği kesinlikle bir <b>Aldehit</b>tir (Y bileşiği aldehittir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Soru bize X bileşiğinin 1 kademe yükseltgenmesiyle bu Y (aldehit) bileşiğinin oluştuğunu söylemektedir.
+            <br>• Alkollerin yükseltgenme kurallarına göre; **Primer (birincil) alkoller** 1 derece yükseltgendiğinde Aldehitleri oluşturur (Aldehitler de yükseltgenirse karboksilik asit olur). Sekonder alkoller keton oluştururdu, tersiyerler ise hiç yükseltgenmezdi.
+            <br>• Dolayısıyla başlangıçtaki X maddesi net bir <b>Primer Alkol</b> olmak zorundadır.
+        </div>
+    </div>
+
+</body>
+</html>

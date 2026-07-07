@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 6: Kimyasal Tepkimelerde Denge</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 6: KİMYASAL TEPKİMELERDE DENGE</h1>
+        <p>Denge Parametreleri, K_c ve K_p İlişkisi, Denge Kesri ve Le Chatelier İlkesi</p>
+    </div>
+
+    <h2>1. KİMYASAL DENGE KAVRAMI VE KOŞULLARI</h2>
+    <p>Kapalı bir kapta, sabit sıcaklıkta gerçekleşen tersinir (çift yönlü $\rightleftharpoons$) tepkimelerde, ileri tepkime hızının geri tepkime hızına eşitlendiği dinamik duruma <b>kimyasal denge</b> denir. Doğada iki büyük eğilim yarışır:</p>
+    <ul>
+        <li><b>Minimum Enerji Eğilimi:</b> Isı (entalpi) teriminin olduğu yöne doğrudur.</li>
+        <li><b>Maksimum Düzensizlik Eğilimi:</b> Katıdan gaza doğru ya da gaz mol sayısının çok olduğu yöne doğrudur.</li>
+    </ul>
+    <p>Bir tepkimenin dengeye ulaşabilmesi için bu iki zıt eğilimin genellikle **farklı yönlerde** olması gerekir. Denge anında makroskobik (gözle görülebilen renk, basınç, iletkenlik) özellikler sabit kalırken, mikroskobik (tanecikler arası dönüşümler) düzeydeki hareketlilik kesintisiz devam eder. Denge anında girenlerin ve ürünlerin derişimleri kesinlikle <b>sabit kalır</b> (birbirine eşit olmak zorunda değildir).</p>
+
+    <h2>2. DENGE SABİTİ (K<sub>c</sub>) VE K<sub>p</sub> İLİŞKİSİ</h2>
+    <p>İleri ve geri hız bağıntılarının eşitliğinden türetilen Kimyasal Denge Sabiti ($K_c$), ürünlerin derişimleri çarpımının girenlerin derişimleri çarpımına oranına eşittir. Tıpkı hız bağıntısında olduğu gibi, **saf katı ve sıvılar denge bağıntısına yazılmaz**, sadece gazlar (g) ve sulu çözeltiler (suda) yazılır. Katsayılar üs olarak geçer. Örn: $aA(g) + bB(g) \rightleftharpoons cC(g)$ tepkimesi için:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        K<sub>c</sub> = [C]<sup>c</sup> / ([A]<sup>a</sup> . [B]<sup>b</sup>)
+    </p>
+    <p><b>K<sub>p</sub> ile K<sub>c</sub> Arasındaki İlişki:</b> Gaz fazındaki tepkimelerde maddelerin kısmi basınçları kullanılarak $K_p$ sabiti de yazılabilir. İki sabit arasındaki analitik dönüşüm formülü şöyledir (Akılda kalması için "Köpek Kaçırtan" olarak kodlanır):</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        K<sub>p</sub> = K<sub>c</sub> . (R . T)<sup>&Delta;n</sup>
+    </p>
+    <p>Burada <b>&Delta;n</b>: Ürünlerdeki gazların katsayıları toplamından girenlerdeki gazların katsayıları toplamı çıkarılarak bulunur (&Delta;n = n<sub>ürün(gaz)</sub> - n<sub>giren(gaz)</sub>).</p>
+
+    <div class="highlight-box">
+        <strong>⚠️ HES YASASININ DENGE SABİTİNE (K<sub>c</sub>) UYARLANMASI:</strong>
+        <br>• Bir denge tepkimesi ters çevrilirse, denge sabitinin çarpmaya göre tersi alınır (<b>1 / K<sub>c</sub></b> olur).
+        <br>• Bir tepkime n sayısı ile çarpılırsa, bu sayı denge sabitine üs olarak yansır (<b>K<sub>c</sub><sup>n</sup></b> olur).
+        <br>• Birden fazla denge basamağı toplanırsa, net tepkimenin denge sabiti basamakların K<sub>c</sub> değerlerinin **çarpımına** eşit olur (K<sub>net</sub> = K₁ . K₂).
+    </div>
+
+    <h2>3. LE CHATELIER İLKESİ (DENGEYE ETKİ EDEN FAKTÖRLER)</h2>
+    <p>Dengedeki bir sisteme dışarıdan bir etki (derişim, sıcaklık, hacim, basınç) yapıldığında, sistem bu etkiyi azaltacak (zıtlık oluşturacak) yönde tepki verir ve yeniden dengeye kurulur:</p>
+    <ul>
+        <li><b>Derişim:</b> Kaba bir maddeden eklenirse, sistem o maddeyi harcamak için **zıt yöne** kayar. Kaptan madde çekilirse, sistem o maddeyi yeniden üretmek için **maddenin olduğu yöne** kayar.</li>
+        <li><b>Hacim / Basınç:</b> Sabit sıcaklıkta kabın hacmi küçültülürse, gazların toplam basıncı artar. Sistem basıncı düşürmek amacıyla gazların **mol sayısının az olduğu yöne** kayar. Hacim büyütülürse sistem gaz mol sayısının çok olduğu yöne hareket eder.</li>
+        <li><b>Sıcaklık:</b> <b>Denge sabiti K<sub>c</sub>'yi değiştirebilen YEGANE faktördür</b>. 
+        <br>&bull; Endotermik tepkimelerde sıcaklık artarsa denge ürünlere kayar, <b>K<sub>c</sub> büyür</b>.
+        <br>&bull; Ekzotermik tepkimelerde sıcaklık artarsa denge girenlere kayar, <b>K<sub>c</sub> küçülür</b>.</li>
+        <li><b>Katalizör:</b> İleri ve geri tepkime hızlarını aynı oranda artırdığı için dengenin yönünü ve K<sub>c</sub> değerini kesinlikle <u>değiştirmez</u>. Sadece sistemin daha kısa sürede dengeye ulaşmasını sağlar.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 2 Litrelik sabit hacimli kapalı bir kapta gerçekleştirilen; N₂(g) + 3H₂(g) &rightleftharpoons; 2NH₃(g) tepkimesi dengedeyken kapta 2 mol N₂, 2 mol H₂ ve 4 mol NH₃ gazları bulunmaktadır. Buna göre bu sıcaklıktaki derişimler cinsinden denge sabiti (K<sub>c</sub>) kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 4</li>
+            <li>C) 8</li>
+            <li>D) 16</li>
+            <li>E) 32</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Denge sabiti formülünde mol sayıları değil, **Molar derişimler (M = n / V)** kullanılmalıdır. Kabın hacmi V = 2 Litre olarak verilmiştir. Her gazın denge derişimini hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; [N₂] = 2 mol / 2 L = 1 M &nbsp; | &nbsp; [H₂] = 2 mol / 2 L = 1 M &nbsp; | &nbsp; [NH₃] = 4 mol / 2 L = 2 M.
+            <br>• Şimdi denge bağıntısını ($K_c$) kuralım: K<sub>c</sub> = [NH₃]² / ([N₂] . [H₂]³)
+            <br>• Hesaplanan derişimleri formülde yerlerine koyalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; K<sub>c</sub> = (2)² / (1 . 1³)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; K<sub>c</sub> = 4 / 1 = <b>4</b> olarak denge sabiti elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Gaz fazında gerçekleşen bir denge tepkimesinin kısmi basınçlar cinsinden denge sabiti (K<sub>p</sub>) ile derişimler cinsinden denge sabiti (K<sub>c</sub>) arasında K<sub>p</sub> = K<sub>c</sub> / (R.T) ilişkisi bulunmaktadır. Buna göre bu tepkimenin denklemi aşağıdakilerden hangisi olabilir?</div>
+        <ul class="options-list">
+            <li>A) H₂(g) + Cl₂(g) &rightleftharpoons; 2HCl(g)</li>
+            <li>B) N₂(g) + 3H₂(g) &rightleftharpoons; 2NH₃(g)</li>
+            <li>C) PCl₅(g) &rightleftharpoons; PCl₃(g) + Cl₂(g)</li>
+            <li>D) 2CO(g) + O₂(g) &rightleftharpoons; 2CO₂(g)</li>
+            <li>E) C(k) + O₂(g) &rightleftharpoons; CO₂(g)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Genel dönüşüm formülümüz K<sub>p</sub> = K<sub>c</sub> . (R . T)<sup>&Delta;n</sup> şeklindedir.
+            <br>• Soruda verilen ilişki: K<sub>p</sub> = K<sub>c</sub> / (R.T) = K<sub>c</sub> . (R.T)⁻¹ biçimindedir. Buradan karşılaştırma yaparsak **&Delta;n = -1** olması gerektiği anlaşılır.
+            <br>• &Delta;n = n<sub>ürün(gaz)</sub> - n<sub>giren(gaz)</sub> formülünden şıkları inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A şıkkı: &Delta;n = 2 - (1+1) = 0 &rarr; K<sub>p</sub> = K<sub>c</sub>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - B şıkkı: &Delta;n = 2 - (1+3) = -2
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - C şıkkı: &Delta;n = (1+1) - 1 = +1
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - D şıkkı: &Delta;n = 2 - (2+1) = 2 - 3 = <b>-1</b>. Bu durum tam aradığımız şartı sağlamaktadır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> A(g) + 2B(g) &rightleftharpoons; C(g) &nbsp;&nbsp; K<sub>c</sub> = 4 jenerik denge tepkimesi sabit sıcaklıkta veriliyor. Buna göre aynı sıcaklıkta gerçekleşen <b>2C(g) &rightleftharpoons; 2A(g) + 4B(g)</b> tepkimesinin yeni denge sabiti kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1/4</li>
+            <li>B) 1/16</li>
+            <li>C) 2</li>
+            <li>D) 8</li>
+            <li>E) 16</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk tepkime ile bizden istenen yeni tepkime arasındaki manipülasyon adımlarını tek tek belirleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) İlk tepkimede C sağdayken yeni tepkimede soldadır. Yani tepkime **ters çevrilmiştir**. Tepkime ters çevrilirse denge sabiti çarpmaya göre ters döner: K' = 1 / K<sub>c</sub> = 1/4 olur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Yeni tepkimenin tüm katsayıları ilk durumun tam **2 katıdır**. Bir tepkime katsayı ile çarpılırsa o sayı K'ye üs olarak yansır: K<sub>son</sub> = (K')² = (1/4)² = <b>1/16</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Gaz fazında sabit hacimli kapalı bir kapta gerçekleştirilen ekzotermik (ısı veren) bir denge tepkimesinin sıcaklığı artırılmaktadır. Bu işlem sonucunda; I. Denge girenler yönüne kayar, II. Denge sabiti K<sub>c</sub>'nin değeri küçülür, III. İleri tepkime hızı artarken geri tepkime hızı azalır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Le Chatelier ilkesine göre ekzotermik reaksiyonlarda ısı ürünler kısmındadır. Sıcaklık artırıldığında sistem ısıyı azaltmak için **girenler yönüne (sola)** hareket eder (I. öncül doğru).
+            <br>• Denge sola kaydığında ürün derişimleri azalır, giren derişimleri artar. K<sub>c</sub> = Ürün / Giren olduğundan denge sabitinin değeri net bir şekilde <b>küçülür</b> (II. öncül doğru).
+            <br>• III. Öncüldeki hıza etki analizi çok kritik bir ÖSYM tuzağıdır. **Sıcaklık artışı, tepkime yönünden bağımsız olarak hem ileri hem de geri hızı her zaman artırır**. Sadece geri hız ileri hıza kıyasla daha fazla arttığı için denge sola kaymıştır. Bir tarafın hızının azalması söz konusu olamaz. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Sabit sıcaklıkta ideal pistonlu bir kapta gaz fazında gerçekleşen; X(g) + 2Y(g) &rightleftharpoons; Z(g) tepkimesi dengedeyken piston aşağı doğru itilerek kabın hacmi yarıya indiriliyor. Sistem yeniden dengeye ulaştığında ilk duruma göre; I. Toplam gaz basıncı artar, II. Denge ürünler yönüne kayar, III. Denge sabiti K<sub>c</sub>'nin değeri artar yargılarından hangileri gerçekleşir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Piston aşağı itilip hacim (V) küçültüldüğünde tüm gazların derişimleri ve toplam sistem basıncı anlık olarak fırlar (I. öncül doğru).
+            <br>• Le Chatelier kuralına göre sistem bu artan sıkışıklığı azaltmak için gazların **mol sayısının az olduğu yöne** kaymak ister. Girenlerde 1+2 = 3 mol gaz, ürünlerde ise 1 mol gaz vardır. Az olan taraf ürünler olduğu için denge <b>ürünler yönüne (sağa)</b> kayar (II. öncül doğru).
+            <br>• III. Öncül ise yine o sarsılmaz temel kurala toslamaktadır: <b>Denge sabiti K<sub>c</sub> sadece ve sadece sıcaklıkla değişir</b>. Hacim değişimi K<sub>c</sub>'yi değiştiremez. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

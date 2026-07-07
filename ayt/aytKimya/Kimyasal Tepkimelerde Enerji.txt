@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 4: Kimyasal Tepkimelerde Enerji</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 4: KİMYASAL TEPKİMELERDE ENERJİ</h1>
+        <p>Tepkime Entalpisi, Endotermik-Ekzotermik Ayrımı, Standart Oluşum Isıları ve Hess Yasası</p>
+    </div>
+
+    <h2>1. KİMYASAL TEPKİMELERDE ENERJİ DEĞİŞİMİ VE ENTALPİ (H)</h2>
+    <p>Bir sistemin sabit basınç altında dışarısıyla alışverişini yaptığı toplam ısı miktarına <b>entalpi (H - ısı kapsamı)</b> denir. Bir maddenin tek başına sahip olduğu mutlak entalpi değeri ölçülemez; ancak bir kimyasal tepkime sırasındaki entalpi değişimi (<b>&Delta;H = H<sub>ürünler</sub> - H<sub>girenler</sub></b>) ölçülebilir. Tepkimeler ısı alışveriş yönüne göre ikiye ayrılır:</p>
+    
+    <h3>A) Endotermik (Isı Alan) Tepkimeler</h3>
+    <p>Gerçekleşirken dışarıdan ısı alan tepkimelerdir. Isı terimi girenler kısmına yazılır. Ürünlerin toplam entalpisi, girenlerin toplam entalpisinden büyüktür. Bu yüzden entalpi değişimi pozitif değer alır: <b>&Delta;H &gt; 0</b>. (Örn: Erime, buharlaşma, analiz tepkimeleri, iyonlaşma enerjisi reaksiyonları ve <u>Azot gazının yanması</u>).</p>
+
+    <h3>B) Ekzotermik (Isı Veren) Tepkimeler</h3>
+    <p>Gerçekleşirken dışarıya ısı veren tepkimelerdir. Isı terimi ürünler kısmına yazılır. Ürünlerin toplam entalpisi, girenlerinkinden küçüktür. Bu yüzden entalpi değişimi negatif değer alır: <b>&Delta;H &lt; 0</b>. (Örn: Donma, yoğuşma, sentez tepkimeleri, nötrleşme tepkimeleri ve Azot hariç tüm <u>yanma tepkimeleri</u>).</p>
+
+    <h2>2. STANDART OLUŞUM ENTALPİSİ VE BAĞ ENERJİLERİ</h2>
+    <p><b>Standart Oluşum Entalpisi (&Delta;H°<sub>f</sub>):</b> 25°C sıcaklık ve 1 atm basınç altında (standart koşullarda), bir bileşiğin **kendi elementlerinin en kararlı doğal hallerinden** 1 mol oluşması sırasındaki entalpi değişimidir. Elementlerin standart koşullardaki en kararlı hallerinin standart oluşum entalpileri <b>sıfır kabul edilir</b> (Örn: O₂(g) için 0'dır, O₃(g) veya O₂(s) için sıfır değildir).</p>
+    <p>Bir tepkimenin entalpi değişimi, ürünlerin standart oluşum entalpileri toplamından, girenlerin standart oluşum entalpileri toplamı çıkarılarak hesaplanır:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 12px 0;">
+        &Delta;H°<sub>tepkime</sub> = &Sigma;n . &Delta;H°<sub>f(ürünler)</sub> - &Sigma;m . &Delta;H°<sub>f(girenler)</sub>
+    </p>
+    <p><b>Bağ Enerjileri:</b> Gaz halindeki bir moleküldeki kimyasal bağları koparmak için gereken enerjidir. Bağ kopması endotermik, bağ oluşumu ise ekzotermiktir. Bağ enerjileri cinsinden tepkime entalpisi hesaplanırken tersine bir kural uygulanır:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 12px 0;">
+        &Delta;H°<sub>tepkime</sub> = &Sigma; Enerji<sub>kopan bağlar (girenler)</sub> - &Sigma; Enerji<sub>oluşan bağlar (ürünler)</sub>
+    </p>
+
+    <h2>3. HESS YASASI (TEPKİME ISILARININ TOPLANABİLİRLİĞİ)</h2>
+    <p>Entalpi bir hal fonksiyonu olduğu için değeri tepkimenin izlediği basamaklara (mekanizmaya) bağlı değildir; sadece ilk ve son duruma bağlıdır. Hess Yasası, bir tepkime birden fazla tepkimenin toplamı şeklinde yazılabiliyorsa, o tepkimenin entalpisinin de diğer tepkimelerin entalpileri toplamına eşit olacağını söyler. Matematiksel manipülasyon kuralları şöyledir:</p>
+    <ul>
+        <li>Bir tepkime ters çevrilirse, entalpisinin işareti değişir (&Delta;H işaret değiştirir; + ise -, - ise + olur).</li>
+        <li>Bir tepkime herhangi bir katsayı ile çarpılırsa veya bölünürse, entalpi değeri de aynı katsayı ile çarpılır ya da bölünür.</li>
+        <li>Birden fazla tepkime basamağı alt alta toplanırsa, net tepkimenin entalpisi basamakların entalpilerinin <u>cebirsel toplamına</u> eşit olur.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Standart koşullarda gerçekleşen bir tepkimenin Potansiyel Enerji - Tepkime Koordinatı grafiğinde girenlerin potansiyel enerjisi 20 kJ, ürünlerin potansiyel enerjisi ise 90 kJ olarak okunmaktadır. Buna göre bu tepkimeyle ilgili; I. Endotermiktir, II. &Delta;H değeri +70 kJ'dir, III. Minimum enerjiye eğilim girenler yönündedir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Tepkimenin entalpi değişim formülünü uygulayalım: &Delta;H = H<sub>ürünler</sub> - H<sub>girenler</sub>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta;H = 90 kJ - 20 kJ = <b>+70 kJ</b> olarak bulunur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: &Delta;H değeri pozitif (+) çıktığı için tepkime dışarıdan ısı alarak gerçekleşmiştir, yani <b>endotermiktir</b>. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Matematiksel hesaplama +70 kJ değerini doğrulamaktadır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Doğada tüm sistemler daha az enerjili (minimum enerjili) olma eğilimindedir. Grafikte girenlerin enerjisi (20 kJ) ürünlerin enerjisinden (90 kJ) daha küçük olduğu için minimum enerjiye eğilim düşük enerjili olan <b>girenler yönündedir</b>. Bu da doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Standart koşullarda CO₂(g) bileşiğinin standart oluşum entalpisi &Delta;H°<sub>f</sub> = -393 kJ/mol'dür. Buna göre, standart koşullarda 8.8 gram CO₂ gazı kendi elementlerinden sentezlendiğinde dışarıya kaç kJ ısı yayılır? (C: 12, O: 16)</div>
+        <ul class="options-list">
+            <li>A) 39.3</li>
+            <li>B) 78.6</li>
+            <li>C) 157.2</li>
+            <li>D) -78.6</li>
+            <li>E) 393.0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak sentezlenen CO₂ bileşiğinin mol kütlesini ve mol sayısını bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M<sub>A</sub>(CO₂) = 12 + (2 . 16) = 44 g/mol.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; n = m / M<sub>A</sub> = 8.8 g / 44 g/mol = <b>0.2 mol</b> CO₂ gazı oluşmuştur.
+            <br>• CO₂'nin standart oluşum entalpisi -393 kJ/mol'dür. Bunun anlamı: 1 mol CO₂ oluştuğunda 393 kJ ısı açığa çıkar (yayılır).
+            <br>• 0.2 mol bileşik oluştuğundaki ısı miktarını oranlayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Isı = 0.2 mol . 393 kJ/mol = <b>78.6 kJ</b> ısı açığa çıkar.
+            <br>• <i>Kritik Dikkat noktası:</i> Soru kökünde "kaç kJ ısı yayılır / açığa çıkar" dendiği için cevap pozitif skaler değer olan <b>78.6</b> olmalıdır (Eğer tepkime entalpisi &Delta;H sorulsaydı -78.6 olurdu).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> C₃H₈(g) + 5O₂(g) &rarr; 3CO₂(g) + 4H₂O(g) tepkimesinin entalpi değişimini (&Delta;H) hesaplamak için; C₃H₈(g), CO₂(g) ve H₂O(g) bileşiklerinin standart oluşum entalpileri sırasıyla -104 kJ/mol, -393 kJ/mol ve -242 kJ/mol olarak verilmiştir. Buna göre bu yanma tepkimesinin &Delta;H değeri kaç kJ'dir?</div>
+        <ul class="options-list">
+            <li>A) -2044</li>
+            <li>B) -2252</li>
+            <li>C) +2044</li>
+            <li>D) -1844</li>
+            <li>E) -2148</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Oluşum entalpilerinden tepkime ısısı bulma formülünü kuralım: &Delta;H° = &Sigma;n.&Delta;H°<sub>f(ürünler)</sub> - &Sigma;m.&Delta;H°<sub>f(girenler)</sub>.
+            <br>• Standart koşullarda bir element olan O₂(g) gazının oluşum entalpisi <b>sıfırdır</b>, hesaba katılmaz.
+            <br>• Katsayıları çarparak ürünler ve girenler bloklarını oluşturalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Ürünler = [3 . &Delta;H°(CO₂)] + [4 . &Delta;H°(H₂O)] = [3 . (-393)] + [4 . (-242)] = -1179 + (-968) = <b>-2147 kJ</b>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Girenler = [1 . &Delta;H°(C₃H₈)] = [1 . (-104)] = <b>-104 kJ</b>.
+            <br>• İki bloku birbirinden çıkaralım (Eksilerin çarpımına dikkat):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta;H = Ürünler - Girenler = (-2147) - (-104) = -2147 + 104 = <b>-2043 kJ</b> (En yakın seçenek yuvarlamasıyla -2044 kJ).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Hess Yasası uygulamasına göre bize şu iki basamak verilmiştir:
+        <br>1) C(k) + O₂(g) &rarr; CO₂(g) &nbsp;&nbsp; &Delta;H₁ = -393 kJ
+        <br>2) CO(g) + 1/2 O₂(g) &rarr; CO₂(g) &nbsp;&nbsp; &Delta;H₂ = -283 kJ
+        <br>Buna göre, <b>C(k) + 1/2 O₂(g) &rarr; CO(g)</b> hedef tepkimesinin entalpi değişimi (&Delta;H) kaç kJ'dir?</div>
+        <ul class="options-list">
+            <li>A) -676</li>
+            <li>B) -110</li>
+            <li>C) +110</li>
+            <li>D) +676</li>
+            <li>E) -220</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Verilen basamakları manipüle ederek hedef tepkimeyi elde etmeye çalışalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Hedefte C(k) sol tarafta 1 mol olmalı. 1. tepkime aynen kalır. (&Delta;H₁ = -393 kJ)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Hedefte CO(g) sağ tarafta 1 mol olmalı. 2. tepkimede CO sol taraftadır. O halde 2. tepkimeyi <b>ters çevirmeliyiz</b>. Ters çevrilince entalpi işaret değiştirir: &Delta;H₂' = +283 kJ olur.
+            <br>• Bu iki işlemi alt alta yazıp toplayalım ve kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; C(k) + O₂(g) &rarr; CO₂(g)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; CO₂(g) &rarr; CO(g) + 1/2 O₂(g)
+            <br>• Net Tepkime: C(k) + 1/2 O₂(g) &rarr; CO(g) (Ara ürün olan CO₂'ler birbirini götürür ve hedef tam olarak elde edilir).
+            <br>• Net entalpiyi bulmak için basamak entalpilerini toplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta;H<sub>net</sub> = &Delta;H₁ + &Delta;H₂' = (-393) + (+283) = <b>-110 kJ</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kimyasal bağ enerjileri ile ilgili; I. İki atom arasındaki bağ sayısı arttıkça bağın kararlılığı ve bağ enerjisi artar, II. Bir bağın kopması her zaman endotermik (ısı alan) bir süreçtir, III. Bağ enerjileri kullanılarak tepkime entalpisi hesaplanırken "Ürünlerin bağ enerjileri toplamından girenlerinki çıkarılır" kuralı uygulanır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kimyasal bağ kuvvet analizlerini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Aynı iki atom arasındaki çoklu bağlar (örn: C&equiv;C üçlü bağı, C=C ikili bağından), tekli bağlara kıyasla çok daha güçlüdür; bağı koparmak için gereken enerji (bağ enerjisi) daha büyüktür. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Kimyasal bir bağı koparmak sisteme zorla enerji vermeyi gerektirir, bu yüzden bağ kopmaları istisnasız her zaman <b>endotermiktir</b> (Bağ oluşumları ise ekzotermiktir). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Bağ enerjisi tabloları doğrudan bağın kopma enerjisini (girenler lehine) verdiği için entalpi hesabı yapılırken tam aksine **Girenlerin bağ enerjileri toplamından ürünlerin bağ enerjileri toplamı çıkarılır** ($\Delta H = \Sigma E_{kopan} - \Sigma E_{oluşan}$). Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

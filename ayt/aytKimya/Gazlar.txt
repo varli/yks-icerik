@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 2: Gazlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 2: GAZLAR</h1>
+        <p>İdeal Gaz Yasası, Gaz Kanunları, Kinetik Teori, Kısmi Basınç ve Gerçek Gazlar</p>
+    </div>
+
+    <h2>1. İDEAL GAZ YASASI VE GAZ KANUNLARI</h2>
+    <p>Gaz tanecikleri arasındaki çekim kuvvetlerinin ve taneciklerin kendi öz hacimlerinin ihmal edildiği varsayılan hayalî gazlara <b>ideal gaz</b> denir. Bir gazın davranışını belirleyen dört temel değişken (Basınç-P, Hacim-V, Mol Sayısı-n, Sıcaklık-T) arasındaki ilişki <strong>İdeal Gaz Denklemi</strong> ile modellenir (Akılda kalması için "Paran Varsa Ne Rahat" olarak kodlanır):</p>
+    <p style="text-align: center; font-size: 13pt; font-weight: bold; margin: 15px 0;">
+        P . V = n . R . T
+    </p>
+    <p>Burada <b>P</b>: Basınç (Atm), <b>V</b>: Hacim (Litre), <b>n</b>: Mol sayısı, <b>T</b>: Mutlak Sıcaklık (Kelvin: T = t°C + 273), <b>R</b>: İdeal Gaz Sabiti ($R = \frac{22.4}{273}$ veya $0.082$ L·atm/mol·K) değerlerini temsil eder.</p>
+
+    <h3>Temel Gaz Kanunları:</h3>
+    <ul>
+        <li><b>Boyle Kanunu (P - V İlişkisi):</b> Mol sayısı ve sıcaklık sabitken, gazın basıncı ile hacmi <u>ters orantılıdır</u>: <b>P<sub>1</sub> . V<sub>1</sub> = P<sub>2</sub> . V<sub>2</sub></b>.</li>
+        <li><b>Charles Kanunu (V - T İlişkisi):</b> Basınç ve mol sayısı sabitken, gazın hacmi ile mutlak sıcaklığı <u>doğru orantılıdır</u>: <b>V<sub>1</sub> / T<sub>1</sub> = V<sub>2</sub> / T<sub>2</sub></b>.</li>
+        <li><b>Gay-Lussac Kanunu (P - T İlişkisi):</b> Hacim ve mol sayısı sabitken, sabit hacimli kaptaki gazın basıncı ile mutlak sıcaklığı <u>doğru orantılıdır</u>: <b>P<sub>1</sub> / T<sub>1</sub> = P<sub>2</sub> / T<sub>2</sub></b>.</li>
+        <li><b>Avogadro Kanunu (V - n İlişkisi):</b> Basınç ve sıcaklık sabitken (aynı koşullarda), gazların hacimleri ile mol sayıları <u>doğru orantılıdır</u>: <b>V<sub>1</sub> / n<sub>1</sub> = V<sub>2</sub> / n<sub>2</sub></b>. (Normal Koşullarda - 0°C ve 1 atm; 1 mol ideal gaz 22.4 L hacim kaplar).</li>
+    </ul>
+
+    <h2>2. GAZLARDA KİNETİK TEORİ VE DİFÜZYON (GRAHAM YASASI)</h2>
+    <p>Kinetik Teoriye göre, gaz tanecikleri sürekli, hızlı ve rastgele hareket ederler (Brown hareketi). Aynı sıcaklıktaki tüm gaz taneciklerinin **ortalama kinetik enerjileri birbirine tam eşittir**. Ortalama kinetik enerji sadece ve sadece <u>mutlak sıcaklığa</u> bağlıdır ($E_k = \frac{3}{2}k_BT$).</p>
+    <p>Gazların aynı ya da farklı gazlar içinde yayılmasına <b>difüzyon</b>, boşluğa yayılmasına ise <b>efüzyon</b> denir. Graham Difüzyon Yasasına göre, gazların yayılma hızları mutlak sıcaklığın karekökü ile doğru, mol kütlelerinin (M<sub>A</sub>) karekökü ile ters orantılıdır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        &vartheta;<sub>1</sub> / &vartheta;<sub>2</sub> = &radic;(M<sub>A2</sub> / M<sub>A1</sub>) . &radic;(T<sub>1</sub> / T<sub>2</sub>)
+    </p>
+
+    <h2>3. KISMİ BASINÇ VE GAZ KARIŞIMLARI</h2>
+    <p>Bir gaz karışımında, her bir gazın tek başına kaba uyguladığı basınca o gazın <b>kısmi basıncı</b> denir. Sabit hacimli bir kapta bulunan gazların kısmi basınçları, kendi mol sayıları ile <u>doğru orantılıdır</u>. Bir gazın kısmi basıncı ($P_X$), toplam basınç ($P_{top}$) ve gazın mol kesri ($X_X = \frac{n_X}{n_{top}}$) cinsinden hesaplanır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        P<sub>X</sub> = P<sub>top</sub> . (n<sub>X</sub> / n<sub>top</sub>)
+    </p>
+    <div class="highlight-box">
+        <strong>💡 GAZ KARIŞIMLARININ GENEL DENKLEMİ:</strong>
+        <br>Aralarında tepkime olmayan gazlar karıştırıldığında ya da musluklu kaplar açıldığında son durum tork mantığıyla kurulur:
+        <p style="text-align: center; font-weight: bold; margin: 8px 0;">P<sub>1</sub> . V<sub>1</sub> + P<sub>2</sub> . V<sub>2</sub> + ... = P<sub>son</sub> . V<sub>son</sub></p>
+        • İdeal pistonlu veya balonlu kaplarda dış basınç sabit olduğundan <b>P<sub>son</sub> = P<sub>dış</sub></b> kabul edilir.
+    </div>
+
+    <h2>4. GERÇEK GAZLAR VE JOULE-THOMSON OLAYI</h2>
+    <p>Doğadaki hiçbir gaz tamamen ideal değildir. Yüksek sıcaklık ve düşük basınçta gazlar ideale yaklaşırken; **düşük sıcaklık ve yüksek basınçta** gazlar idealden uzaklaşır (gerçek gaz olur). Gerçek gazlarda tanecikler arası çekim kuvveti olduğundan ölçülen gerçek basınç, ideal hesaplamadan daima <u>daha küçüktür</u>.</p>
+    <p><b>Joule-Thomson Olayı:</b> Sıkıştırılmış yüksek basınçlı gazların, aniden geniş hacme yayılarak genleşmesi sırasında, tanecikler arası çekim kuvvetlerini yenmek için kendi öz kinetik enerjilerini kullanıp **soğuması** olayıdır. Buzdolabı, klima ve klimalardaki soğutma sistemleri bu ilkeye dayanır. Kritik sıcaklığı yüksek, kaynama noktası düşük olan gazlar en ideal <i>soğutucu akışkan</i> olarak seçilir.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 0°C sıcaklıkta sabit hacimli 5.6 litrelik kapalı bir kapta 8 gram CH₄ gazı bulunmaktadır. Buna göre bu gazın kaba uyguladığı basınç kaç atmosferdir? (C: 12, H: 1, R = 22.4/273)</div>
+        <ul class="options-list">
+            <li>A) 1</li>
+            <li>B) 2</li>
+            <li>C) 4</li>
+            <li>D) 6</li>
+            <li>E) 8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak gazın mol kütlesini ve mol sayısını hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M<sub>A</sub>(CH₄) = 12 + (4 . 1) = 16 g/mol.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; n = m / M<sub>A</sub> = 8 / 16 = <b>0.5 mol</b> CH₄ gazı vardır.
+            <br>• Sıcaklığı Kelvin'e dönüştürelim: T = 0°C + 273 = 273 K.
+            <br>• İdeal gaz denklemini uygulayalım (P . V = n . R . T):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; P . 5.6 = 0.5 . (22.4 / 273) . 273
+            <br>• 273'ler sadeleşir: P . 5.6 = 0.5 . 22.4 &rarr; P . 5.6 = 11.2
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; P = 11.2 / 5.6 = <b>2 atm</b> olarak gazın basıncı hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Aynı sıcaklıkta bulunan He ve SO₂ ideal gazları borunun iki ucundan aynı anda gönderiliyor. He gazının mol kütlesi 4 g/mol, SO₂ gazının mol kütlesi ise 64 g/mol'dür. He gazının hızı &vartheta; olduğuna göre, SO₂ gazının yayılma hızı kaç &vartheta; olur?</div>
+        <ul class="options-list">
+            <li>A) 4 &vartheta;</li>
+            <li>B) 2 &vartheta;</li>
+            <li>C) &vartheta;/2</li>
+            <li>D) &vartheta;/4</li>
+            <li>E) &vartheta;/16</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Gazların yayılma hızları, kinetik teori uyarınca mol kütlelerinin karekökü ile ters orantılıdır (Graham Yasası):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &vartheta;<sub>He</sub> / &vartheta;<sub>SO₂</sub> = &radic;(M<sub>A(SO₂)</sub> / M<sub>A(He)</sub>)
+            <br>• Verilen mol kütlesi değerlerini kök içerisine yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &vartheta; / &vartheta;<sub>SO₂</sub> = &radic;(64 / 4) = &radic;16
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &vartheta; / &vartheta;<sub>SO₂</sub> = 4
+            <br>• İçler dışlar çarpımından SO₂ gazının hızı çekilirse: <b>&vartheta;<sub>SO₂</sub> = &vartheta; / 4</b> olarak bulunur. Hafif olan He gazı, ağır olan SO₂ gazından tam 4 kat daha hızlı hareket eder.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Sabit hacimli bir kapta 0.2 mol Ne ve 0.6 mol Ar ideal gazları karışım halinde bulunmaktadır. Karışımın toplam basıncı 1.6 atm olduğuna göre, Ne gazının bu kaptaki kısmi basıncı kaç atmosferdir?</div>
+        <ul class="options-list">
+            <li>A) 0.2</li>
+            <li>B) 0.4</li>
+            <li>C) 0.6</li>
+            <li>D) 0.8</li>
+            <li>E) 1.2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak kaptaki toplam gaz mol sayısını bulalım: n<sub>top</sub> = n<sub>Ne</sub> + n<sub>Ar</sub> = 0.2 + 0.6 = 0.8 mol.
+            <br>• Kısmi basınç formülünü Ne gazı için çalıştıralım (P<sub>Ne</sub> = P<sub>top</sub> . [n<sub>Ne</sub> / n<sub>top</sub>]):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; P<sub>Ne</sub> = 1.6 atm . (0.2 mol / 0.8 mol)
+            <br>• Mol kesri oranını sadeleştirirsek (0.2 / 0.8 = 1/4) gelir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; P<sub>Ne</sub> = 1.6 . (1 / 4) = <b>0.4 atm</b> olarak Ne gazının kısmi basıncı hesaplanır. (Geriye kalan 1.2 atm basınç ise Ar gazına aittir).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Şekildeki musluklu sistemde 2 atm basınçlı 3 Litre hacimli X gazı bulunan kap ile 3 atm basınçlı 2 Litre hacimli Y gazı bulunan kap aradaki musluk açılarak sabit sıcaklıkta karıştırılıyor. Kaplar arasındaki musluk açıldıktan sonra sistemin son basıncı (P<sub>son</sub>) kaç atm olur? (Bağlantı borusunun hacmi ihmal edilmiştir).</div>
+        <ul class="options-list">
+            <li>A) 2.0</li>
+            <li>B) 2.4</li>
+            <li>C) 2.5</li>
+            <li>D) 3.0</li>
+            <li>E) 4.2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Gazların tepkimesiz karışım denklemini ($P_1 \cdot V_1 + P_2 \cdot V_2 = P_{son} \cdot V_{son}$) uygulayalım.
+            <br>• Musluk açıldığında gazlar tüm hacme yayılacağından son hacim iki kabın hacimleri toplamı olur: V<sub>son</sub> = 3 L + 2 L = 5 Litre.
+            <br>• Değerleri formülde yerlerine koyalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (2 . 3) + (3 . 2) = P<sub>son</sub> . 5
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 6 + 6 = 5 . P<sub>son</sub>  &rarr;  12 = 5 . P<sub>son</sub>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; P<sub>son</sub> = 12 / 5 = <b>2.4 atm</b> olarak karışımın son dengelenmiş basıncı hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Gerçek bir gazın davranışının ideale yaklaşması veya idealden uzaklaşması ile ilgili; I. Yüksek sıcaklık ve düşük basınçta gazlar ideale yaklaşır, II. Düşük sıcaklık ve yüksek basınçta gazlar idealden uzaklaşır, III. Gerçek gazların molekülleri arasındaki çekim kuvvetleri sıfır kabul edilir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İdeal ve gerçek gaz ayrımlarını analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Gazlar sıcaklıkları arttıkça hızlanır ve basınç düştükçe birbirinden uzaklaşır; böylece tanecikler arası etkileşim yok denecek kadar azalır ve gaz **ideale yaklaşır**. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Gazlar soğutulup üzerlerindeki basınç artırıldığında birbirlerine çok yaklaşırlar, taneciklerin kendi öz hacimleri ve çekim kuvvetleri belirginleşir; gaz **idealden uzaklaşır**. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Tanecikler arası çekim kuvvetlerinin sıfır kabul edilmesi **ideal gazların** tanımıdır. Gerçek gazlarda çekim kuvvetleri kesinlikle sıfır <u>değildir</u> ve ihmal edilemez. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

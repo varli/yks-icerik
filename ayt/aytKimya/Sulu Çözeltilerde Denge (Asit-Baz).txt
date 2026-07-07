@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 7: Sulu Çözeltilerde Denge (Asit-Baz)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 7: SULU ÇÖZELTİLERDE DENGE (ASİT-BAZ)</h1>
+        <p>pH/pOH Hesaplamaları, Konjuge Çiftler, Tampon Sistemler, Hidroliz ve Titrasyon Analizleri</p>
+    </div>
+
+    <h2>1. SUYUN OTOİYONİZASYONU VE pH / pOH KAVRAMLARI</h2>
+    <p>Saf su, çok az da olsa kendi kendine iyonlaşabilen (otoiyonizasyon) endotermik bir denge sistemidir ($H_2O(s) + H_2O(s) \rightleftharpoons H_3O^+(aq) + OH^-(aq)$). 25°C standart sıcaklıkta bu iyonlaşma sabiti <b>K<sub>su</sub> = [H⁺] . [OH⁻] = 10⁻¹⁴</b> değerine eşittir. Bu sabitten yola çıkılarak Sørensen tarafından pH ve pOH skaları geliştirilmiştir:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 10px 0;">
+        pH = -log[H⁺] &nbsp; | &nbsp; pOH = -log[OH⁻] &nbsp; | &nbsp; 25°C'de: <b>pH + pOH = 14</b>
+    </p>
+    <p><b>Bronsted-Lowry Asit-Base Tanımı:</b> Tepkimelerde proton ($H^+$ iyonu) veren maddelere <b>asit</b>, proton alan maddelere ise <b>baz</b> denir. Aralarında 1 adet $H^+$ iyonu farkı olan asit-baz çiftlerine <b>eşlenik (konjuge) asit-baz çifti</b> adı verilir. (Örn: $NH_4^+$ asidinin konjuge bazı $NH_3$'tür).</p>
+
+    <h2>2. KUVVETLİ VE ZAYIF ASİT-BAZ DENGELERİ</h2>
+    <ul>
+        <li><b>Kuvvetli Asit ve Bazlar:</b> Suda %100 iyonlaştığı varsayılan maddelerdir (HCl, HNO₃, NaOH, KOH). Denge oluşturmazlar (tek yönlü okla gösterilirler). Başlangıç derişimleri doğrudan [H⁺] veya [OH⁻] iyonu derişimine eşittir.</li>
+        <li><b>Zayıf Asit ve Bazlar:</b> Suda kısmen (çok az) iyonlaşan, bu yüzden sulu çözeltilerinde bir denge kuran maddelerdir (HF, CH₃COOH, NH₃). İyonlaşma denklemlerinden asitlik denge sabiti (<b>K<sub>a</sub></b>) veya bazlık denge sabiti (<b>K<sub>b</sub></b>) türetilir. Başlangıç derişimi C olan zayıf bir HA asidinin [H⁺] derişimi yaklaşımla şöyle bulunur:
+        <p style="text-align: center; font-weight: bold; margin: 8px 0;">[H⁺] = &radic;(K<sub>a</sub> . C)</p></li>
+    </ul>
+
+    <h2>3. TAMPON ÇÖZELTİLER VE HİDROLİZ</h2>
+    <p><b>Tampon Çözelti:</b> Az miktarda kuvvetli asit veya baz eklendiğinde **pH değerinin değişmesine karşı direnç gösteren** çözeltilerdir. Tampon çözeltiler; <u>zayıf bir asit ile bu asidin konjuge bazını (tuzunu)</u> veya <u>zayıf bir baz ile bu bazın konjuge asidini (tuzunu)</u> bir arada barındırır. (Örn: HF - NaF karışımı asidik bir tampon, NH₃ - NH₄Cl karışımı ise bazik bir tampondur. İnsan kanı doğal bir tampon sistemidir).</p>
+    <p><b>Hidroliz:</b> Zayıf asit ya da zayıf bazlardan türeyen tuzların iyonlarının, su ile kimyasal tepkimeye girerek ortamın pH'ını değiştirmesi olayıdır. Kuvvetli asit ve bazdan oluşan nötr tuzlar (NaCl) hidroliz <u>olmaz</u>. Ancak:</p>
+    <ul>
+        <li><b>Asidik Tuzlar (Kuvvetli Asit + Zayıf Baz):</b> Örn: NH₄Cl. Yapısındaki zayıf karakterden gelen katyon ($NH_4^+$) su ile hidroliz olarak ortama $H^+$ iyonu verir ve pH &lt; 7 olur.</li>
+        <li><b>Bazik Tuzlar (Zayıf Asit + Kuvvetli Baz):</b> Örn: CH₃COONa. Yapısındaki zayıf karakterden gelen anyon ($CH_3COO^-$) su ile hidroliz olarak ortama $OH^-$ iyonu verir ve pH &gt; 7 olur.</li>
+    </ul>
+
+    <h2>4. NÖTRLEŞME VE TİTRASYON</h2>
+    <p>Asitten gelen $H^+$ iyonu ile bazdan gelen $OH^-$ iyonunun birleşerek su oluşturması reaksiyonuna nötrleşme denir ($H^+ + OH^- \rightarrow H_2O$). Tam nötrleşme anında asidin molü bazın molüne değil, **$H^+$ iyonunun mol sayısı $OH^-$ iyonunun mol sayısına eşit olur** ($n_{H^+} = n_{OH^-}$). Derişimi bilinmeyen bir asit ya da baz çözeltisinin derişiminin, derişimi tam bilinen bir standart çözelti yardımıyla indikatör eşliğinde bulunması işlemine <b>titrasyon</b> denir. pH'ın 7 olduğu tam nötrleşme anına <b>eşdeğerlik (dönüm) noktası</b> adı verilir.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 25°C sıcaklıkta sulu bir çözeltide pH - pOH = 4 ilişkisi bulunmaktadır. Buna göre bu çözeltideki hidrojen iyonu derişimi [H⁺] kaç Molar'dır?</div>
+        <ul class="options-list">
+            <li>A) 10⁻⁴</li>
+            <li>B) 10⁻⁵</li>
+            <li>C) 10⁻⁷</li>
+            <li>D) 10⁻⁹</li>
+            <li>E) 10⁻⁹</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• 25°C standart sıcaklıkta her sulu çözelti için geçerli olan sarsılmaz kuralı yazalım: pH + pOH = 14.
+            <br>• Soruda bize verilen bağıntıyı da altına ekleyerek iki bilinmeyenli denklem sistemini çözelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; pH + pOH = 14
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; pH - pOH = 4
+            <br>• İki denklemi alt alta toplarsak pOH terimleri birbirini götürür:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2 . pH = 18  &rarr;  <b>pH = 9</b> olarak bulunur.
+            <br>• pH = -log[H⁺] formülünden [H⁺] iyonu derişimini çekersek: [H⁺] = 10^(-pH) = <b>10⁻⁵ Molar</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 25°C sıcaklıkta 0.1 Molar'lık sulu HF (Florür asidi) çözeltisinin pH değeri 4'tür. Buna göre zayıf bir asit olan HF'nin aynı sıcaklıktaki asitlik denge sabiti (K<sub>a</sub>) kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 10⁻⁴</li>
+            <li>B) 10⁻⁵</li>
+            <li>C) 10⁻⁶</li>
+            <li>D) 10⁻⁷</li>
+            <li>E) 10⁻⁸</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Çözeltinin pH değeri 4 olarak verildiğine göre, ortamdaki dengeden gelen [H⁺] iyonu derişimi: [H⁺] = 10⁻⁴ Molar'dır.
+            <br>• Zayıf HA asitleri için pratik denge yaklaşım formülümüzü uygulayalım: [H⁺] = &radic;(K<sub>a</sub> . C).
+            <br>• Burada başlangıç asit derişimi C = 0.1 M = 10⁻¹ M'dir. Değerleri yerine koyup her iki tarafın karesini alalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 10⁻⁴ = &radic;(K<sub>a</sub> . 10⁻¹)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (10⁻⁴)² = K<sub>a</sub> . 10⁻¹
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 10⁻⁸ = K<sub>a</sub> . 10⁻¹  &rarr;  K<sub>a</sub> = 10⁻⁸ / 10⁻¹ = <b>10⁻⁷</b> olarak asitlik sabiti hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Aşağıda verilen madde çiftlerinden hangisi bir araya getirilerek sulu çözeltisi hazırlandığında, dışarıdan yapılacak küçük asit-baz etkilerine karşı pH değerini koruyabilen <b>tampon bir çözelti</b> oluşturur?</div>
+        <ul class="options-list">
+            <li>A) HCl - NaCl</li>
+            <li>B) NaOH - KOH</li>
+            <li>C) CH₃COOH - CH₃COONa</li>
+            <li>D) HNO₃ - NH₄Cl</li>
+            <li>E) H₂SO₄ - Na₂SO₄</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Tampon çözelti olabilmenin mutlak kuralı: Çözeltide **zayıf bir asit ve onun konjuge tuzu** ya da **zayıf bir baz ve onun konjuge tuzu** bir arada yer almalıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A, D, E şıklarındaki HCl, HNO₃ ve H₂SO₄ kuvvetli asitler olduklarından tampon oluşturamazlar.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - B şıkkında iki kuvvetli baz bir aradadır, tampon oluşturmaz.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - C şıkkını incelediğimizde; CH₃COOH (Asetik asit) sulu ortamda az çözünen **zayıf bir asittir**. Yanındaki CH₃COONa (Sodyum asetat) ise bu asidin kuvvetli bir bazla yaptığı **konjuge anyon tuzudur**. Bu iki yapı yan yana geldiğinde asidik bir tampon çözelti meydana getirirler.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Kuvvetli bir asit olan 100 mL HCl sulu çözeltisi, kuvvetli bir baz olan 0.1 Molar'lık NaOH sulu çözeltisi ile titre edilmektedir. Titrasyon düzeneğinde eşdeğerlik noktasına (pH=7 tam nötrleşme anına) ulaşabilmek için bürattan tam 200 mL NaOH harcandığına göre, HCl çözeltisinin başlangıçtaki derişimi kaç Molar'dır?</div>
+        <ul class="options-list">
+            <li>A) 0.05</li>
+            <li>B) 0.1</li>
+            <li>C) 0.2</li>
+            <li>D) 0.4</li>
+            <li>E) 0.5</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Eşdeğerlik noktasında (tam nötrleşmede) asitten gelen $H^+$ iyonunun molü bazdan gelen $OH^-$ iyonunun molüne eşit olmak zorundadır: n<sub>H⁺</sub> = n<sub>OH⁻</sub>.
+            <br>• Mol formülünü derişim ve tesir değerliği (iyon sayısı) cinsinden açalım: M<sub>asit</sub> . V<sub>asit</sub> . T<sub>d(asit)</sub> = M<sub>baz</sub> . V<sub>baz</sub> . T<sub>d(baz)</sub>
+            <br>• HCl tek $H^+$ verdiğinden T<sub>d</sub>=1, NaOH tek $OH^-$ verdiğinden T<sub>d</sub>=1'dir. Hacimleri mL cinsinden bırakabiliriz (karşılıklı sadeleşir):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M<sub>asit</sub> . 100 mL . 1 = 0.1 M . 200 mL . 1
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M<sub>asit</sub> . 100 = 20
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M<sub>asit</sub> = 20 / 100 = <b>0.2 Molar</b> olarak başlangıç HCl derişimi bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Zayıf bir baz olan NH₃ (Amonyak) maddesinin sulu çözeltisine aynı sıcaklıkta bir miktar NH₄Cl (Amonyum klorür) tuzu eklenip çözülüyor. Bu işlem sonucunda çözeltide; I. Ortak iyon etkisinden dolayı NH₃ bazının iyonlaşma yüzdesi azalır, II. Çözeltinin pH değeri düşer (asitliğe yaklaşır), III. NH₃ bazlık denge sabiti (K<sub>b</sub>) azalır yargılarından hangileri gerçekleşir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• NH₃ suda şu dengeye sahiptir: $NH_3 + H_2O \rightleftharpoons NH_4^+ + OH^-$.
+            <br>• Ortama eklenen NH₄Cl tuzu tamamen çözünerek ortama yoğun bir şekilde <b>NH₄⁺ (Amonyum)</b> iyonu salar.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Ortamda ortak iyon olan NH₄⁺ derişimi fırladığı için Le Chatelier ilkesi gereği denge sola (girenlere) kayar. Sola kayma zayıf bazın **iyonlaşma yüzdesini azaltır**. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Denge sola kaydığı için ortamdaki serbest $OH^-$ iyonları derişimi azalır. $OH^-$ azaldığı için pOH artar, dolayısıyla toplam <b>pH değeri düşer</b>. (Sistem bazik tampon oluşturmuştur). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Sıklıkla vurguladığımız sarsılmaz kural: **Denge sabitleri (K_a, K_b, K_c) sadece ve sadece sıcaklıkla değişir**. Ortak iyon eklemek K<sub>b</sub> değerini kesinlikle <u>değiştirmez</u>. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

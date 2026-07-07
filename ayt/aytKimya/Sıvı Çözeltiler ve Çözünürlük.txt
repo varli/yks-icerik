@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 3: Sıvı Çözeltiler ve Çözünürlük</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 3: SIVI ÇÖZELTİLER VE ÇÖZÜNÜRLÜK</h1>
+        <p>Çözücü-Çözünen Etkileşimleri, Derişim Birimleri, Koligatif Özellikler ve Çözünürlük Dengesi</p>
+    </div>
+
+    <h2>1. ÇÖZÜNME MEKANİZMASI VE DERİŞİM BİRİMLERİ</h2>
+    <p>Bir maddenin başka bir madde içinde homojen olarak dağılması olayına <b>çözünme</b>, elde edilen homojen karışıma ise <b>çözelti</b> denir. Çözünmenin gerçekleşmesinde en temel kural "Benzer benzeri çözer" ilkesidir. Polar veya iyonik yapılı maddeler polar çözücülerde (örn: su), apolar yapılı maddeler ise apolar çözücülerde (örn: CCl₄) iyi çözünür.</p>
+    
+    <h3>En Çok Kullanılan Kimyasal Derişim Birimleri:</h3>
+    <ul>
+        <li><b>Molarite (M):</b> 1 litre çözeltide çözünmüş olan maddenin mol sayısıdır. Birimi mol/L'dir: <b>M = n / V<sub>(Litre)</sub></b></li>
+        <li><b>Molalite (m):</b> 1 kilogram (1000 g) çözücüde çözünmüş olan maddenin mol sayısıdır: <b>m = n<sub>çözünen</sub> / m<sub>çözücü(kg)</sub></b></li>
+        <li><b>Kısım Başına Milyon (PPM):</b> Çok seyreltik çözeltilerde kullanılır. 1 kg veya 1 Litre çözeltideki çözünen maddenin miligram (mg) cinsinden kütlesidir: <b>PPM = (m<sub>çözünen</sub> / m<sub>çözelti</sub>) . 10⁶</b> veya doğrudan <b>mg/kg</b>.</li>
+    </ul>
+    <div class="highlight-box">
+        <strong>💡 ÖSYM'NİN SEVDİĞİ PRATİK FORMÜL ("Denizde Yüzen On Maymun"):</strong>
+        <br>Bir çözeltinin kütlece yüzde derişimi (%), yoğunluğu (d) ve çözünenin mol kütlesi (M<sub>A</sub>) biliniyorsa, Molarite (M) doğrudan şu formülle hesaplanır:
+        <p style="text-align: center; font-weight: bold; font-size: 12pt; margin: 8px 0;">M = (d . % . 10) / M<sub>A</sub></p>
+    </div>
+
+    <h2>2. KOLİGATİF ÖZELLİKLER</h2>
+    <p>Çözeltinin bileşimindeki maddenin kimyasal türüne değil, yalnızca **çözeltideki toplam tanecik (iyon veya molekül) derişimine** bağlı olan özelliklere <b>koligatif özellikler</b> denir. Saf suya uçucu olmayan bir katı (örn: tuz, şeker) eklendiğinde şu değişimler gözlenir:</p>
+    <ul>
+        <li><b>Buhar Basıncı Düşmesi (Raoult Yasası):</b> Çözeltinin buhar basıncı, saf çözücünün buhar basıncı ile çözücünün mol kesrinin çarpımına eşittir: <b>P<sub>çözelti</sub> = P°<sub>çözücü</sub> . X<sub>çözücü</b>. Toplam tanecik derişimi arttıkça buhar basıncı düşer.</li>
+        <li><b>Kaynama Noktası Yükselmesi (Ebyuliyoskopi):</b> Saf suya katı eklenirse kaynama noktası saf suyun kaynama noktasının üzerine çıkar. Yükselme miktarı (&Delta;T<sub>k</sub>):
+        <br><b>&Delta;T<sub>k</sub> = K<sub>k</sub> . m . i</b> &nbsp; (K<sub>k</sub>: Sabit, m: molalite, i: tanecik/iyon sayısı. Şeker için i=1, NaCl için i=2).</li>
+        <li><b>Donma Noktası Alçalması (Kriyoskopi):</b> Çözeltilerin donmaya başlama sıcaklığı saf çözücüden daima daha düşüktür (Kışın yollara tuz dökülmesi, araçlara antifriz konulması). Düşme miktarı (&Delta;T<sub>d</sub>):
+        <br><b>&Delta;T<sub>d</sub> = K<sub>d</sub> . m . i</b></li>
+    </ul>
+
+    <h2>3. ÇÖZÜNÜRLÜK VE ÇÖZÜNÜRLÜĞE ETKİ EDEN FAKTÖRLER</h2>
+    <p>Belirli bir sıcaklık ve basınçta, 100 gram çözücüde çözünebilen maksimum madde miktarına <b>çözünürlük</b> denir. Çözünürlük maddeler için ayırt edici bir özelliktir. Çözünürlüğe etki eden faktörler şunlardır:</p>
+    <ul>
+        <li><b>Sıcaklık:</b> Katı ve sıvıların çözünürlüğü genellikle endotermik (ısı alan) ise sıcaklıkla **artar**, ekzotermik (ısı veren) ise sıcaklıkla **azalır**. Ancak **gazların sudaki çözünürlüğü istisnasız daima ekzotermiktir**; bu yüzden soğuk sularda daha çok gaz (oksijen) çözünür.</li>
+        <li><b>Basınç:</b> Katı ve sıvıların çözünürlüğü basınç değişiminden etkilenmez. **Gazların çözünürlüğü ise basınç arttıkça doğrusal olarak artar** (Gazlı içeceklerin/vurgun olaylarının felsefesi).</li>
+        <li><b>Ortak İyon Etkisi:</b> Bir katının yapısındaki iyonlardan birini içeren başka bir çözeltiye atılması durumunda, çözünürlüğü saf suya kıyasla <b>daima azalır</b>.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 0.4 mol Al(NO₃)₃ katısı tamamen çözülerek saf su ile 200 mL'lik sulu çözelti hazırlanıyor. Buna göre, bu çözeltideki toplam iyon derişimi kaç Molar'dır?</div>
+        <ul class="options-list">
+            <li>A) 2.0</li>
+            <li>B) 4.0</li>
+            <li>C) 6.0</li>
+            <li>D) 8.0</li>
+            <li>E) 10.0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak çözünen tuzun molar derişimini (M = n / V) hesaplayalım. Hacmi litreye çevirmeliyiz: V = 200 mL = 0.2 Litre.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M<sub>tuz</sub> = 0.4 mol / 0.2 L = <b>2 Molar</b> Al(NO₃)₃.
+            <br>• Şimdi tuzun suda iyonlaşma denklemini yazarak ortama verdiği toplam iyon sayısını (tanecik sayısı - i) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Al(NO₃)₃(katı) &rarr; Al³⁺(suda) + 3NO₃⁻(suda)
+            <br>• Denkleme göre 1 mol tuz çözündüğünde 1 mol Al³⁺ ve 3 mol NO₃⁻ olmak üzere toplam <b>4 mol iyon</b> açığa çıkar (i = 4).
+            <br>• Çözeltinin derişimi 2 Molar olduğuna göre toplam iyon derişimi:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Toplam İyon Derişimi = M<sub>tuz</sub> . i = 2 M . 4 = <b>8 Molar</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Yoğunluğu d = 1.2 g/mL olan kütlece %20'lik NaOH sulu çözeltisinin molar derişimi (Molaritesi) kaçtır? (NaOH: 40 g/mol)</div>
+        <ul class="options-list">
+            <li>A) 3</li>
+            <li>B) 4</li>
+            <li>C) 6</li>
+            <li>D) 8</li>
+            <li>E) 12</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Soruda yoğunluk, yüzde derişim ve mol kütlesi bir arada verildiği için pratik "Denizde yüzen on maymun" formülümüzü doğrudan işletelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M = (d . % . 10) / M<sub>A</sub>
+            <br>• Verilen d = 1.2, % = 20 ve M<sub>A</sub> = 40 değerlerini formüle yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M = (1.2 . 20 . 10) / 40
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M = 240 / 40
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; M = <b>6 Molar</b> olarak çözeltinin derişimi hızlıca elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> 1 atm dış basınç altında saf suyun kaynamaya başlama sıcaklığı 100°C'dir. Aynı koşullarda 1 kg saf suda 1 mol C₆H₁₂O₆ (glikoz/şeker) çözündüğünde oluşan çözeltinin kaynamaya başlama sıcaklığı 100 + a °C olmaktadır. Buna göre, yine 1 kg saf suda 0.5 mol MgCl₂ tuzu tamamen çözülürse oluşan çözeltinin aynı koşullardaki kaynamaya başlama sıcaklığı kaç °C olur?</div>
+        <ul class="options-list">
+            <li>A) 100 + a</li>
+            <li>B) 100 + 1.5a</li>
+            <li>C) 100 + 2a</li>
+            <li>D) 100 + 0.5a</li>
+            <li>E) 100 + 3a</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kaynama noktası yükselmesi (&Delta;T<sub>k</sub>) çözeltideki toplam **tanecik (iyon/molekül) molalitesi** ile doğru orantılıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) İlk çözelti: 1 kg suda 1 mol şeker (moleküler çözünür, i=1). Toplam tanecik mol sayısı = 1 . 1 = 1 moldür. 1 mol tanecik kaynama noktasını <b>a °C</b> yükseltmiştir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) İkinci çözelti: MgCl₂ tuzu suda iyonlarına ayrışır: MgCl₂ &rarr; Mg²⁺ + 2Cl⁻ (Toplam 3 iyon verir, i=3).
+            <br>• 0.5 mol MgCl₂ çözündüğünde ortama salınan toplam iyon mol sayısı: 0.5 mol . 3 = <b>1.5 mol iyon</b> olur.
+            <br>• Çözücü kütleleri eşit (1 kg) olduğundan doğrudan mol sayılarını oranlayabiliriz: 1 mol tanecik a °C yükseltirse, 1.5 mol iyon sıcaklığı <b>1.5a °C</b> yükseltir.
+            <br>• Suyun kaynama noktası 100°C olduğundan yeni sıcaklık <b>100 + 1.5a °C</b> olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Gazların sudaki çözünürlük davranışları ile ilgili; I. Sıcaklık artırılırsa gazların sudaki çözünürlüğü azalır, II. Üzerlerindeki kısmi basınç artırılırsa gazların sudaki çözünürlüğü artar, III. Gazların çözünme süreci genellikle endotermiktir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>·C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Gazların çözünürlük karakteristiğini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Gazların sudaki çözünme reaksiyonları istisnasız **ekzotermiktir (ısı veren)**. Le Chatelier ilkesi uyarınca sıcaklık artırılırsa denge sola kayar ve gazların çözünürlüğü <b>azalır</b> (Sıcak gazozun asidinin çabuk kaçması). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Henry Yasasına göre, bir gazın sıvıdaki çözünürlüğü, sıvının üzerindeki gazın kısmi basıncı ile doğrudan **doğru orantılıdır**. Basınç arttıkça daha çok gaz çözünür. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: İlk maddede belirttiğimiz gibi gazların çözünmesi endotermik değil, <b>ekzotermiktir</b>. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> X tuzunun sudaki çözünürlüğünün sıcaklıkla değişim grafiği endotermik (sıcaklık arttıkça çözünürlük artan) bir eğri göstermektedir. 25°C sıcaklıkta hazırlanan doygun X tuzu çözeltisini **aşırı doymamış** hale getirebilmek için; I. Çözeltiyi ısıtmak, II. Aynı sıcaklıkta saf su eklemek, III. Aynı sıcaklıkta bir miktar daha X katısı çözmek işlemlerinden hangileri tek başına uygulanabilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Doygun bir çözeltiyi doymamış hale getirmek, o çözeltinin kapasitesini artırmak ya da içindeki çözünen/çözücü oranını seyreltmek demektir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. İşlem: Çözünme endotermik olduğundan çözelti ısıtıldığında (sıcaklık arttığında) suyun madde çözme kapasitesi (çözünürlüğü) artar. Çözelti elindeki mevcut maddeyle doygun kalamaz ve **doymamış** hale gelir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. İşlem: Sabit sıcaklıkta sisteme dışarıdan saf su eklemek çözücü miktarını artırır ve mevcut çözüneni seyreltir. Sistem yeni eklenen su miktarından ötürü daha fazla madde çözebilecek konuma gelir, yani **doymamış** olur. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. İşlem: Doygun çözeltiye katı eklemek dipte katı birikmesine yol açar, çözeltiyi doymamış yapmaz. Yanlıştır. Cevap I ve II olur.
+        </div>
+    </div>
+
+</body>
+</html>

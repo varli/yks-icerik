@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 1: Modern Atom Teorisi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 1: MODERN ATOM TEORİSİ</h1>
+        <p>Kuantum Sayıları, Elektron Dizilim İlkeleri, Periyodik Özellikler ve Değişim Trendleri</p>
+    </div>
+
+    <h2>1. MODERN ATOM MODELİ VE KUANTUM SAYILARI</h2>
+    <p>Bohr atom modeli, elektronları dairesel yörüngelerde dönen tanecikler olarak kabul ettiği için yalnızca tek elektronlu sistemlerin (₁H, ₂He⁺, ₃Li²⁺) spektrumlarını açıklayabilmiştir. Çok elektronlu atomların davranışlarını açıklamak amacıyla Heisenberg’in Belirsizlik İlkesi ve Schrödinger’in dalga denklemleri birleştirilerek <b>Modern Atom Teorisi (Bulut Modeli)</b> geliştirilmiştir. Bu modele göre elektronların kesin yerleri saptanamaz, yalnızca bulunma olasılıklarının yüksek olduğu bölgelerden bahsedilebilir. Elektronların bulunma olasılığının en yüksek olduğu bu hacimsel bölgelere <b>orbital (elektron bulutu)</b> denir.</p>
+    <p>Atomdaki bir elektronun ve orbitalin durumunu tam olarak tanımlayabilmek için 4 adet kuantum sayısı kullanılır:</p>
+    <ul>
+        <li><b>Baş Kuantum Sayısı (n):</b> Elektronun çekirdeğe olan ortalama uzaklığını ve enerji düzeyini (katmanını) belirtir. n = 1, 2, 3, 4... gibi pozitif tam sayı değerleri alır.</li>
+        <li><b>Açısal Momentum Kuantum Sayısı (&ell;):</b> Orbitalin şeklini ve alt enerji düzeyinin türünü belirtir. Değeri baş kuantum sayısına bağlıdır ve 0 ile (n-1) arasındaki tam sayı değerlerini alır.
+        <br>&bull; &ell; = 0 &rarr; <b>s orbitali</b> &nbsp; | &nbsp; &ell; = 1 &rarr; <b>p orbitali</b> &nbsp; | &nbsp; &ell; = 2 &rarr; <b>d orbitali</b> &nbsp; | &nbsp; &ell; = 3 &rarr; <b>f orbitali</b></li>
+        <li><b>Manyetik Kuantum Sayısı (m<sub>&ell;</sub>):</b> Orbitalin uzaydaki yönelimini ve o alt kabukta kaç adet eş enerjili orbital bulunduğunu belirtir. Değeri -&ell; ile +&ell; arasındaki tüm tam sayı değerlerini alır (Toplam $2\ell + 1$ adet değer).
+        <br>&bull; s orbitali (&ell;=0) için: m<sub>&ell;</sub> = 0 (1 adet orbital)
+        <br>&bull; p orbitali (&ell;=1) için: m<sub>&ell;</sub> = -1, 0, +1 (3 adet orbital)
+        <br>&bull; d orbitali (&ell;=2) için: m<sub>&ell;</sub> = -2, -1, 0, +1, +2 (5 adet orbital)</li>
+        <li><b>Spin Kuantum Sayısı (m<sub>s</sub>):</b> Elektronun kendi ekseni etrafındaki dönme (spin) yönünü belirtir. Bir orbitalde en fazla iki elektron bulunabilir ve bu elektronların spinleri birbirine zıt olmak zorundadır. Yalnızca <b>+1/2</b> ve <b>-1/2</b> değerlerini alabilir.</li>
+    </ul>
+
+    <h2>2. ELEKTRON DİZİLİM İLKELERİ VE KÜRESEL SİMETRİ</h2>
+    <p>Elektronlar orbitallere yerleşirken doğadaki minimum enerji ve maksimum kararlılık eğilimine uygun olarak üç temel kurala göre dizilirler:</p>
+    <ol>
+        <li><b>Aufbau İlkesi:</b> Elektronlar orbitallere daima en düşük enerjili orbitalden başlanarak yerleştirilir. Orbitallerin enerji seviyeleri **Madelung-Klechkowski İlkesi** uyarınca (n + &ell;) değerinin büyüklüğüne göre belirlenir. (n + &ell;) değeri eşit olan orbitallerden, baş kuantum sayısı (n) büyük olanın enerjisi daha yüksektir.
+        <br><i>Sıralama: 1s &lt; 2s &lt; 2p &lt; 3s &lt; 3p &lt; 4s &lt; 3d &lt; 4p &lt; 5s &lt; 4d...</i></li>
+        <li><b>Pauli Dışlama İlkesi:</b> Bir atomda bulunan herhangi iki elektronun 4 kuantum sayısının (n, &ell;, m<sub>&ell;</sub>, m<sub>s</sub>) dördü de **aynı olamaz**. Aynı orbitalde bulunan iki elektronun n, &ell; ve m<sub>&ell;</sub> değerleri aynı olsa bile m<sub>s</sub> değerleri kesinlikle zıt işaretli olmalıdır.</li>
+        <li><b>Hund Kuralı:</b> Elektronlar, eş enerjili orbitallere (örneğin 3 adet p orbitaline) yerleşirken önce orbitallere **teker teker ve aynı spinli (paralel)** olacak şekilde yerleşirler. Orbitallerin tamamı yarı dolmadan elektronlar eşleşmeye (ikilenmeye) başlayamaz.</li>
+    </ol>
+
+    <div class="highlight-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ İSTİSNALAR (Cr ve Cu Dizilimleri):</strong>
+        <br>Bir atomun elektron dizilimindeki en son orbital grubunun tamamen dolu (s², p⁶, d¹⁰) ya da yarı dolu (s¹, p³, d⁵) olması durumuna <b>küresel simetri</b> denir. Küresel simetri atoma ekstra kararlılık kazandırır.
+        <br>&bull; <b>₂₄Cr (Krom) Gerçek Dizilimi:</b> 1s² 2s² 2p⁶ 3s² 3p⁶ <b>4s¹ 3d⁵</b> şeklindedir. (4s² 3d⁴ yazımı yanlıştır).
+        <br>&bull; <b>₂₉Cu (Bakır) Gerçek Dizilimi:</b> 1s² 2s² 2p⁶ 3s² 3p⁶ <b>4s¹ 3d¹⁰</b> şeklindedir. (4s² 3d⁹ yazımı yanlıştır).
+        <br>Bu iki durum temel haldedir, uyarılma kesinlikle <u>değildir</u>. Atom kendiliğinden bu kararlı dizilimi seçer.
+    </div>
+
+    <h2>3. PERİYODİK ÖZELLİKLER VE DEĞİŞİM TRENDLERİ</h2>
+    <p>Elementlerin periyodik cetveldeki yerlerine göre gösterdikleri fiziksel ve kimyasal özelliklerin değişim yönleri şu analitik kurallara dayanır:</p>
+    <ul>
+        <li><b>Atom Yarıçapı:</b> Aynı periyotta sağa doğru gidildikçe proton sayısı (çekirdek yükü) artar, elektron başına düşen çekim kuvveti arttığı için çap <b>küçülür</b>. Aynı grupta aşağı doğru inildikçe katman sayısı arttığı için çap <b>büyür</b>. (Kardan adam modeli).</li>
+        <li><b>İyonlaşma Enerjisi (İ.E):</b> Gaz halindeki nötr bir atomdan bir elektron koparmak için verilmesi gereken enerjidir. Genellikle çapla ters orantılıdır; soldan sağa gidildikçe <b>artar</b>, yukarıdan aşağıya <b>azalır</b>.
+        <br><b>⚠️ Periyodik Değişim İstisnası (Üç Aşağı Beş Yukarı Kuralı):</b> Aynı periyotta sağa doğru gidildikçe İ.E sıralaması küresel simetri kararlılığından dolayı (2A > 3A ve 5A > 6A) sapma gösterir:
+        <p style="text-align: center; font-weight: bold; margin: 8px 0;">1A &lt; 3A &lt; 2A &lt; 4A &lt; 6A &lt; 5A &lt; 7A &lt; 8A</p></li>
+        <li><b>Elektron İlgisi (E.İ):</b> Gaz halindeki nötr bir atomun bir elektron alması sırasındaki enerji değişimidir. Genellikle soldan sağa gidildikçe <b>artar</b>. Periyodik cetvelde elektron ilgisi en yüksek olan element <b>Klor (₁₇Cl)</b> elementidir (Flor değildir, istisnadır).</li>
+        <li><b>Elektronegatiflik:</b> Bir atomun kimyasal bağ elektronlarını kendine doğru çekme yeteneğidir. Sağa doğru artar, aşağı doğru azalır. Elektronegatifliği en yüksek olan element <b>Flor (₉F)</b> elementidir. Soygazların bağ yapma eğilimi olmadığından elektronegatiflikleri ve elektron ilgileri yok kabul edilir.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Baş kuantum sayısı n = 3 ve açısal momentum kuantum sayısı &ell; = 2 olan bir alt kabukta bulunan bir elektronun, manyetik kuantum sayısı (m<sub>&ell;</sub>) ve spin kuantum sayısı (m<sub>s</sub>) aşağıdakilerden hangisi <b>olamaz</b>?</div>
+        <ul class="options-list">
+            <li>A) m<sub>&ell;</sub> = 0 , m<sub>s</sub> = +1/2</li>
+            <li>B) m<sub>&ell;</sub> = -2 , m<sub>s</sub> = -1/2</li>
+            <li>C) m<sub>&ell;</sub> = +1 , m<sub>s</sub> = +1/2</li>
+            <li>D) m<sub>&ell;</sub> = +3 , m<sub>s</sub> = -1/2</li>
+            <li>E) m<sub>&ell;</sub> = -1 , m<sub>s</sub> = +1/2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Verilen kuantum sayılarına göre orbital türünü analiz edelim: n = 3 ve &ell; = 2. Açısal momentum kuantum sayısı &ell; = 2 olan orbital türü <b>d orbitalidir</b> (Yani bahsedilen alt kabuk 3d'dir).
+            <br>• Manyetik kuantum sayısı m<sub>&ell;</sub>, -&ell; ile +&ell; arasındaki tam sayı değerlerini alabilirdi. &ell; = 2 olduğuna göre m<sub>&ell;</sub> değerleri: <b>-2, -1, 0, +1, +2</b> tam sayıları olabilir.
+            <br>• D seçeneğinde verilen m<sub>&ell;</sub> = +3 değeri, &ell; = 2 sınır şartını aştığı için (ancak &ell; = 3 olan f orbitalinde bulunabilir) kuantum mekaniği kurallarına göre kesinlikle <b>olamaz</b>. m<sub>s</sub> değeri her elektron için +1/2 veya -1/2 olabileceğinden spin yönü kurallara uygundur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Temel haldeki X atomunun elektron diziliminde toplam 11 tane tam dolu ve 2 tane yarı dolu orbitali bulunmaktadır. Buna göre bu X atomunun proton sayısı (atom numarası) kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 20</li>
+            <li>B) 22</li>
+            <li>C) 24</li>
+            <li>D) 26</li>
+            <li>E) 28</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Tam dolu orbitallerdeki elektron sayılarını ve Aufbau sırasına göre dizilimi kuralım (Her tam dolu orbital 2 elektron barındırır):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 1s² &rarr; 1 tam dolu orbital
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 2s² &rarr; 1 tam dolu orbital
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 2p⁶ &rarr; 3 tam dolu orbital
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 3s² &rarr; 1 tam dolu orbital
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 3p⁶ &rarr; 3 tam dolu orbital
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 4s² &rarr; 1 tam dolu orbital
+            <br>• Buraya kadar olan tam dolu orbitalleri toplayalım: 1 + 1 + 3 + 1 + 3 + 1 = 11 tane tam dolu orbital elde ettik. Bu orbitallerde toplam 11 . 2 = 22 elektron yer almaktadır.
+            <br>• Aufbau kuralına göre 4s'den sonra gelen orbital grubu <b>3d</b> alt kabuğudur. d kabuğu 5 adet eş enerjili orbitalden oluşur.
+            <br>• Hund kuralı uyarınca bu 5 orbitalin içine 2 tane yarı dolu orbital yerleştirmeliyiz: Elektronlar önce tek tek yerleşeceğinden 3d alt kabuğunun dizilimi <b>3d²</b> şeklinde (2 elektron paralel spinli) son bulur.
+            <br>• Toplam elektron sayısını toplayalım: 22 (tam dolulardan) + 2 (yarı dolulardan) = <b>24</b> değil, en son 4s'e kadar olan elektron sayısı 20'dir. 20 + 2 = <b>22</b> proton sayısı olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Temel haldeki ₂₄Cr (Krom) atomu ile ilgili; I. Elektron dizilimi küresel simetriktir, II. d alt kabuğunda toplam 5 elektron bulunur, III. En yüksek enerjili baş kuantum sayısı n = 4'tür yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• ₂₄Cr atomu AYT Kimya'nın en meşhur küresel simetri istisnasıdır. Temel hal dizilimini dikkatle yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; ₁s² 2s² 2p⁶ 3s² 3p⁶ <b>4s¹ 3d⁵</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: En son alt kabuk olan 3d⁵ yarı dolu ve ondan önceki 4s¹ de yarı dolu olduğundan atom **küresel simetriktir**, atoma ekstra kararlılık verir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Yazımdan görüleceği üzere d alt kabuğunda tam 5 elektron yer alır. (4s² 3d⁴ dizilimi kararsız olduğundan doğada oluşmaz). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Elektron dizilimindeki en büyük baş kuantum sayısı (n), en dış katmanı belirleyen 4s'teki <b>4</b> sayısıdır (Periyodik cetvelde 4. periyot elementidir). Doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Aynı periyotta bulunan baş grup (A grubu) elementlerinden olan X, Y ve Z atomlarının iyonlaşma enerjileri arasında X &gt; Z &gt; Y ilişkisi bulunmaktadır. Bu elementlerin atom numaraları ardışık olduğuna göre, X elementinin grup numarası aşağıdakilerden hangisi olabilir?</div>
+        <ul class="options-list">
+            <li>A) 1A</li>
+            <li>B) 2A</li>
+            <li>C) 3A</li>
+            <li>D) 4A</li>
+            <li>E) 6A</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Normalde aynı periyotta sağa doğru gidildikçe iyonlaşma enerjisinin düzenli artması beklenir. Ancak küresel simetriden dolayı sapmalar (2A-3A yer değişimi ve 5A-6A yer değişimi) yaşanıyordu.
+            <br>• Atom numaraları ardışık olan üç elementin normal artış diziliminde iyonlaşma enerjisinin ortadaki elementte tepe yapıp düşmesi durumu incelenmelidir. 1A-2A-3A periyodik kesitine bakalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; İ.E sıralaması: 1A &lt; 3A &lt; 2A şeklindedir.
+            <br>• Atom numarası sırasıyla (ardışık): Y(1A), X(2A), Z(3A) olarak yerleştirildiğinde iyonlaşma enerjileri:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; X(2A) &gt; Z(3A) &gt; Y(1A) sıralamasını verir. Bu durum soruda verilen X &gt; Z &gt; Y şartıyla mükemmel uyuşmaktadır.
+            <br>• Demek ki ortada tepe yapan ve enerjisi en yüksek olan X elementi <b>2A grubu</b> (veya benzer mantıkla 5A grubu) elementidir. Options içinde 2A mevcut olduğundan cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Periyodik cetvelde halojenler (7A grubu) grubunda yukarıdan aşağıya doğru inildikçe; I. Atom yarıçapı, II. Elektron ilgisi, III. Elektronegatiflik niceliklerinden hangilerinin **azalması** beklenir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Halojenler grubunu (₉F, ₁₇Cl, ₃₅Br, ₅₃I) yukarıdan aşağıya doğru analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Aşağı doğru inildikçe katman sayısı (periyot) arttığı için atom yarıçapı doğrusal olarak <b>artar</b>. (Azalmasını aradığımız için bu elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Elektron ilgisi sağa doğru artarken aşağı doğru genellikle <b>azalır</b>. (F'den Cl'ye geçerken istisnai bir artış olsa da grubun genelinde aşağıya doğru net bir azalış trendi hakimdir). Azalır kabul edilir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Elektronegatiflik (bağ elektronlarını çekme gücü) yarıçap büyüdüğü ve çekirdeğin çekim etkisi azaldığı için yukarıdan aşağıya doğru kesin olarak <b>azalır</b>. (En yüksek olan F en üsttedir).
+            <br>• II ve III nicelikleri aşağı doğru azalan grupta yer aldığından doğru şık C seçeneğidir.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Kimya - Ünite 8: Çözünürlük Dengesi (KÇÇ)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafbfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e2530; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1a365d; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #93c5fd; }
+        h2 { color: #1a365d; font-size: 15pt; border-left: 5px solid #3182ce; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c5282; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #ebf8ff; border-left: 4px solid #3182ce; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7fafc; border: 1px solid #e2e8f0; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1a365d; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c5282; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c5282; }
+        td { padding: 10px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT KİMYA - MODÜL 8: ÇÖZÜNÜRLÜK DENGESİ (K<sub>çç</sub>)</h1>
+        <p>Suda Az Çözünen Tuzların Dengesi, Çözünürlük Çarpımı İspatları, Ortak İyon Etkisi ve Çökelme Şartları</p>
+    </div>
+
+    <h2>1. ÇÖZÜNÜRLÜK ÇARPIMI (K<sub>çç</sub>) KAVRAMI</h2>
+    <p>Sıvı çözeltilerde gördüğümüz NaCl veya şeker gibi maddeler suda çok iyi çözünürken; AgCl, BaSO₄ veya PbI₂ gibi bazı iyonik katılar suda son derece az çözünürler. Suda az çözünen bu iyonik katılar saf suya atıldığında, çok küçük bir kısmı iyonlaşır ve kısa sürede çözünemeyen katısıyla dengede olan **doygun bir sulu çözelti** oluşturur. Bu heterojen denge sistemine <b>çözünürlük dengesi</b> denir.</p>
+    <p>Örnek olarak genel bir $X_mY_n(k)$ tuzunun suda iyonlaşma dengesini ve bu dengeden türetilen **Çözünürlük Çarpımı (K<sub>çç</sub>)** bağıntısını yazalım (Katı haldeki tuz denge bağıntısına <u>yazılmaz</u>):</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 10px 0;">
+        X<sub>m</sub>Y<sub>n</sub>(k) &rightleftharpoons; mX<sup>n+</sup>(suda) + nY<sup>m-</sup>(suda) &nbsp; &rArr; &nbsp; <b>K<sub>çç</sub> = [X<sup>n+</sup>]<sup>m</sup> . [Y<sup>m-</sup>]<sup>n</sup></b>
+    </p>
+
+    <h3>Tuz Türlerine Göre Saf Sudaki Çözünürlük (s) ve K<sub>çç</sub> İlişkileri:</h3>
+    <p>Bir tuzun saf sudaki molar çözünürlüğüne <b>s Molar</b> dersek, iyonlaşma katsayılarına göre K<sub>çç</sub> formülleri şu analitik kalıpları alır:</p>
+    <ul>
+        <li><b>1:1 Türü Tuzlar (AgCl, BaSO₄):</b> $AgCl(k) \rightleftharpoons Ag^+(s) + Cl^-(s) \implies [s].[s] = \mathbf{s^2 = K_{çç}}$</li>
+        <li><b>1:2 veya 2:1 Türü Tuzlar (PbI₂, Na₂CO₃):</b> $PbI_2(k) \rightleftharpoons Pb^{2+}(s) + 2I^-(s) \implies [s].[2s]^2 = \mathbf{4s^3 = K_{çç}}$</li>
+        <li><b>1:3 veya 3:1 Türü Tuzlar (Al(OH)₃, FeCl₃):</b> $Al(OH)_3(k) \rightleftharpoons Al^{3+}(s) + 3OH^-(s) \implies [s].[3s]^3 = \mathbf{27s^4 = K_{çç}}$</li>
+    </ul>
+
+    <h2>2. ÇÖZÜNÜRLÜĞE ETKİ EDEN FAKTÖRLER VE ORTAK İYON ETKİSİ</h2>
+    <p>Çözünürlük çarpımı $K_{çç}$ de tıpkı diğer tüm denge sabitleri gibi <b>yalnızca sıcaklıkla değişir</b>. Çözünme endotermik ise sıcaklık arttıkça $K_{çç}$ büyür ve çözünürlük artar; ekzotermik ise sıcaklık arttıkça $K_{çç}$ küçülür.</p>
+    <div class="highlight-box">
+        <strong>⚠️ ORTAK İYON ETKİSİ VE ANALİTİK HESAPLAMA MANTIĞI:</strong>
+        <br>Suda az çözünen bir katı, kendi yapısındaki iyonlardan birini zaten barındıran başka bir sulu çözeltiye atılırsa, Le Chatelier ilkesi gereği denge katı oluşumu yönüne (sola) kayar. Bu yüzden <b>ortak iyon, bir katının çözünürlüğünü saf suya kıyasla daima azaltır</b>. Ortak iyon derişimi ne kadar fazla ise çözünürlük o kadar dramatik düşer.
+        <br>• Ortak iyon soruları çözülürken; iyi çözünen (kuvvetli) tuzdan gelen ortak iyon derişimi aynen alınır, az çözünen tuzdan gelen ortak iyon miktarı ise matematiksel olarak çok küçük kalacağından toplama işleminde <u>ihmal edilir</u>.
+    </div>
+
+    <h2>3. ÇÖKELME ŞARTLARI VE DENGE KESRİ (Q<sub>çç</sub>)</h2>
+    <p>İki farklı iyonik çözelti karıştırıldığında, ortamdaki iyonların anlık derişimleri çarpımı hesaplanır ve buna <b>iyon çarpımı / denge kesri (Q<sub>çç</sub>)</b> denir. Sistemin çökelme eğilimi $Q_{çç}$ ile $K_{çç}$ karşılaştırılarak belirlenir:</p>
+    <ul>
+        <li><b>Q<sub>çç</sub> &lt; K<sub>çç</sub>:</b> Çözelti henüz doymamıştır. Çökelme <u>olmaz</u>. Sistem daha fazla katı çözebilir.</li>
+        <li><b>Q<sub>çç</sub> = K<sub>çç</sub>:</b> Çözelti tam doygunluk sınırındadır. Sistem dengededir, çökelme sınırındadır.</li>
+        <li><b>Q<sub>çç</sub> &gt; K<sub>çç</sub>:</b> İyon derişimleri dengenin taşıyabileceği sınırı aşmıştır. Çözelti aşırı doygundur ve sistem dengeye ulaşana kadar **iyonlar birleşerek dibe doğru çöker**. Çökelme bittiğinde çözelti doygun olarak yeniden dengeye kurulur ($Q_{çç} = K_{çç}$).</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Belirli bir sıcaklıkta XY₂ iyonik katısının saf sudaki molar çözünürlüğü s = 1.10⁻⁴ Molar'dır. Buna göre, bu sıcaklıkta XY₂ tuzunun çözünürlük çarpımı (K<sub>çç</sub>) değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1.10⁻⁸</li>
+            <li>B) 2.10⁻⁸</li>
+            <li>C) 4.10⁻¹²</li>
+            <li>D) 1.10⁻¹²</li>
+            <li>E) 4.10⁻¹⁶</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak XY₂ tuzunun suda iyonlaşma denklemini yazalım ve molar çözünürlüğü (s) iyonlara katsayılarına göre dağıtalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; XY₂(k) &rightleftharpoons; X²⁺(suda) + 2Y⁻(suda)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; s M &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2s M
+            <br>• Çözünürlük çarpımı bağıntısını kuralım: K<sub>çç</sub> = [X²⁺] . [Y⁻]² = (s) . (2s)² = <b>4s³</b>.
+            <br>• Soruda bize verilen s = 1.10⁻⁴ M değerini formülde yerine yazarak üstel işlemi yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; K<sub>çç</sub> = 4 . (1.10⁻⁴)³
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; K<sub>çç</sub> = 4 . 1.10⁻¹² = <b>4.10⁻¹²</b> olarak denge sabiti hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Belirli bir sıcaklıkta AgCl katısının çözünürlük çarpımı K<sub>çç</sub> = 1.10⁻¹⁰'dur. Buna göre, aynı sıcaklıkta AgCl tuzunun <b>0.1 Molar NaCl sulu çözeltisindeki</b> molar çözünürlüğü kaç Molar'dır?</div>
+        <ul class="options-list">
+            <li>A) 1.10⁻⁵</li>
+            <li>B) 1.10⁻⁹</li>
+            <li>C) 1.10⁻¹⁰</li>
+            <li>D) 1.10⁻⁴</li>
+            <li>E) 2.10⁻⁹</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bu bir ortak iyon sorusudur. Ortamda iki farklı tuz vardır: İyi çözünen NaCl ve az çözünen AgCl. Ortak iyon ise <b>Cl⁻ (Klorür)</b> iyonudur.
+            <br>• İlk olarak iyi çözünen tuzun iyon derişimini yazalım: NaCl &rarr; Na⁺ + Cl⁻. 0.1 M NaCl çözündüğünde ortama <b>0.1 M Cl⁻</b> iyonu gelir.
+            <br>• Şimdi az çözünen AgCl katısının bu çözeltideki çözünürlüğüne <b>x Molar</b> diyelim ve denklemi kuralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; AgCl(k) &rightleftharpoons; Ag⁺(suda) + Cl⁻(suda)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x M &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; x M
+            <br>• Dengedeki toplam iyon derişimlerini yazalım: [Ag⁺] = x M , [Cl⁻] = 0.1 + x M.
+            <br>• K<sub>çç</sub> bağıntısını AgCl için kuralım: K<sub>çç</sub> = [Ag⁺] . [Cl⁻] &rarr; 1.10⁻¹⁰ = (x) . (0.1 + x)
+            <br>• Ortak iyon hesaplarında, az çözünen tuzdan gelen x değeri, kuvvetli çözeltiden gelen 0.1 değerinin yanında aşırı küçük kalacağından toplama işleminde <b>ihmal edilir</b> (0.1 + x &asymp; 0.1).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1.10⁻¹⁰ = x . 0.1  &rarr;  1.10⁻¹⁰ = x . 10⁻¹
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x = 1.10⁻¹⁰ / 10⁻¹ = <b>1.10⁻⁹ Molar</b> olarak AgCl'nin ortak iyondaki çözünürlüğü bulunur. (Saf suda &radic;K<sub>çç</sub> = 1.10⁻⁵ çıkardı, ortak iyon çözünürlüğü tam 10.000 kat azaltmıştır).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Belirli bir sıcaklıkta suda az çözünen CaCO₃ tuzu için çözünürlük dengesi kurulmuştur. Sabit sıcaklıkta bu doygun çözeltiye bir miktar Na₂CO₃ katısı eklenip çözülüyor. Bu işlem sonucunda ilk duruma göre; I. CaCO₃ katısının çözünürlüğü azalır, II. Çözeltideki Ca²⁺ iyon derişimi azalır, III. CaCO₃ tuzunun çözünürlük çarpımı (K<sub>çç</sub>) değeri küçülür yargılarından hangileri gerçekleşir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• CaCO₃ katısının dengesi şöyledir: $CaCO_3(k) \rightleftharpoons Ca^{2+} + CO_3^{2-}$. Eklenen Na₂CO₃ tuzu ortama bolca ortak iyon olan <b>CO₃²⁻ (Karbonat)</b> iyonu salar.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Ortak iyon derişimi arttığı için Le Chatelier ilkesi uyarınca denge sola (katı oluşumuna) kayar. Sola kayma katının **çözünürlüğünü azaltır**. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Denge katı çöktürmek üzere sola kayarken ortamdaki serbest <b>Ca²⁺ iyonlarını harcar</b>, bu yüzden Ca²⁺ iyon derişimi zamanla azalır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Denge sabitleri ($K_{çç}$ dahil) **sadece sıcaklıkla değişir**. Ortak iyon eklemek denge yönünü değiştirse de $K_{çç}$ değerini <u>kesinlikle değiştiremez</u>, sabit kalır. Bu yüzden üçüncü ifade yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Suda az çözünen iyonik bir tuzun doymuş sulu çözeltisi ısıtıldığında, çözeltideki iyon derişimlerinin arttığı ve dipteki katı kütlesinin azaldığı gözleniyor. Buna göre bu tuzun suda çözünme reaksiyonu ve sıcaklık artışının K<sub>çç</sub>'ye etkisi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Endotermik , K<sub>çç</sub> büyür</li>
+            <li>B) Ekzotermik , K<sub>çç</sub> küçülür</li>
+            <li>C) Endotermik , K<sub>çç</sub> küçülür</li>
+            <li>D) Ekzotermik , K<sub>çç</sub> büyür</li>
+            <li>E) Endotermik , K<sub>çç</sub> değişmez</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Sorudaki ipuçlarını yorumlayalım: Sistem ısıtıldığında dipteki katı kütlesi azalıyor ve iyon derişimleri artıyor. Demek ki sıcaklık artışı katının daha fazla çözünmesini sağlamış, yani dengeyi **sağa (ürünler lehine)** kaydırmıştır.
+            <br>• Le Chatelier kuralına göre sıcaklık artışıyla sağa kayan tepkimeler kesinlikle ısı alan, yani <b>endotermik</b> karakterdedir (Isı + Katı &rightleftharpoons; İyonlar).
+            <br>• Endotermik dengelerde sıcaklık arttıkça ürün iyon derişimleri artacağından çözünürlük çarpımı <b>K<sub>çç</sub> değeri büyür</b>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Eşit hacimlerde karıştırılan iki sulu çözeltide anlık iyon derişimleri çarpımı Q<sub>çç</sub> = 5.10⁻⁶, katının o sıcaklıktaki çözünürlük çarpımı ise K<sub>çç</sub> = 2.10⁻⁸ olarak hesaplanmıştır. Bu sistem yeniden dengeye ulaşana kadar geçen süreçte; I. Net bir çökelme olayı gerçekleşir, II. Çökelme bittiğinde sistemde Q<sub>çç</sub> = K<sub>çç</sub> eşitliği kurulur, III. Çözelti başlangıçta doymamıştır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Verilen değerleri karşılaştıralım: $Q_{çç} = 5\cdot10^{-6}$ ve $K_{çç} = 2\cdot10^{-8}$. Sayısal olarak **Q<sub>çç</sub> &gt; K<sub>çç</sub>** durumu mevcuttur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: İyon çarpımı denge sınırını aştığı için çözelti aşırı doygundur. Sistem fazla iyonları katı formunda dibe çöktürmek ister, yani net bir <b>çökelme olayı yaşanır</b>. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Çökelme reaksiyonu ortamdaki iyon miktarı tam olarak dengenin taşıyabileceği sınıra inene kadar sürer. Sistem yeniden dengeye ulaştığında her zaman <b>Q<sub>çç</sub> = K<sub>çç</sub></b> eşitliği yeniden kurulur ve çözelti doygun kalır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Q<sub>çç</sub> &gt; K<sub>çç</sub> durumu çözeltinin doymamış değil, tam aksine <b>aşırı doymuş (çökelme eğiliminde)</b> olduğunu gösterir. Üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>
