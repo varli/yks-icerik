@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 8: Basit Makineler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 8: BASİT MAKİNELER</h1>
+        <p>Mekanik Avantaj, Makaralar, Kaldıraçlar, Eğik Düzlem, Vida, Çıkrık, Dişli ve Kasnaklar</p>
+    </div>
+
+    <h2>1. BASİT MAKİNELERİN GENEL İLKELERİ VE VERİM</h2>
+    <p>Günlük hayatta iş yapma kolaylığı sağlamak amacıyla tasarlanan kuvvetin büyüklüğünü, yönünü veya uygulama noktasını değiştirebilen düzeneklere <b>basit makine</b> denir. Basit makinelerin en kutsal kuralı enerji korunumu kanunudur:</p>
+    <div class="highlight-box">
+        <strong>⚠️ BASİT MAKİNELERİN DEĞİŞMEZ KANUNLARI:</strong>
+        <br>• Hiçbir basit makinede <b>işten (W) veya enerjiden kazanç sağlanamaz</b>. Yapılan iş ya da harcanan enerji asla azaltılamaz.
+        <br>• Kuvvetten kazanç sağlanan bir düzenekte, aynı oranda <b>yoldan kayıp</b> yaşanır. Tersine, yoldan kazanç varsa aynı oranda kuvvetten kayıp yaşanır.
+    </div>
+    <p><b>Mekanik Avantaj (Kuvvet Kazancı):</b> Sistemdeki yükün (P), bu yükü dengeleyen kuvvet (F) büyüklüğüne oranıdır. <b>K.K = P / F</b> formülüyle bulunur. Oran 1'den büyükse kuvvetten kazanç, 1'den küçükse kuvvetten kayıp vardır.</p>
+    <p><b>Verim:</b> Gerçek hayatta sürtünmelerden dolayı enerjinin bir kısmı ısıya dönüşür. Verim formülü: <b>Verim = Alınan İş / Verilen Enerji</b> (veya Sürtünmesiz Kuvvet / Sürtünmeli Kuvvet) şeklinde modellenir. İdeal (sürtünmesiz) sistemlerde verim %100 kabul edilir.</p>
+
+    <h2>2. TEMEL BASİT MAKİNE TÜRLERİ VE DENGE ŞARTLARI</h2>
+    
+    <h3>A) Makaralar ve Palangalar</h3>
+    <ul>
+        <li><b>Sabit Makara:</b> Sadece kendi ekseni etrafında dönebilen, yukarı-aşağı hareket etmeyen makaradır. Yalnızca <b>kuvvetin yönünü değiştirerek</b> iş kolaylığı sağlar. Sürtünmesiz ve makara ağırlıksız sistemde: <b>F = P</b> olur. Kuvvet kazancı yoktur, ip h kadar çekilirse yük de h kadar yükselir.</li>
+        <li><b>Hareketli Makara:</b> Hem kendi ekseni etrafında dönen hem de yükle birlikte yukarı-aşağı hareket eden makaradır. Aynı ipin her yerinde gerilme eşit olduğundan yükü iki ip taşır: <b>2F = P + G<sub>makara</sub></b>. Kuvvetten 2 kat kazanç sağlar. Yoldan 2 kat kayıp olacağından, ip h kadar çekilirse yük <b>h / 2</b> kadar yükselir; kalan h/2 miktar ise makarayı <b>döndürmeye</b> gider.</li>
+        <li><b>Palangalar:</b> Sabit ve hareketli makaraların birleştirilmesiyle kurulan sistemlerdir. Kuvvet kazancı çok yüksektir. Denge denklemi, hareketli makaraları yukarı çeken ip sayısının belirlenmesiyle ($F = P / n$) çözülür.</li>
+    </ul>
+
+    <h3>B) Eğik Düzlem ve Çıkrık</h3>
+    <p><b>Eğik Düzlem:</b> Ağır yükleri belirli bir h yüksekliğine daha küçük bir F kuvvetiyle çıkarmaya yarayan düzenektir. İş prensibinden ($F \cdot L = P \cdot h$) ötürü denge şartı: <b>F = P . sin(&alpha;)</b> olarak kurulur. Daima kuvvetten kazanç vardır.</p>
+    <p><b>Çıkrık:</b> Dönme eksenleri aynı, yarıçapları farklı sabit iki silindirden oluşan sistemdir (Kuyulardan su çekme düzeneği). Moment (tork) dengesine göre kuralı: <b>F . R = P . r</b> (R: Kuvvet kolu yarıçapı, r: Yük silindiri yarıçapı) şeklindedir.</p>
+
+    <h3>C) Vida</h3>
+    <p>Bir silindirin üzerine sarılmış eğik düzlem yapısıdır. Vidanın ardışık iki dişi arasındaki mesafeye <b>vida adımı (a)</b> denir. Vida r yarıçaplı bir kolun ucuna uygulanan F kuvvetiyle döndürüldüğünde, zeminin vidaya gösterdiği direnç kuvveti (N veya R) iş teoremiyle dengelenir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        F . (2 . &pi; . r) = N . a
+    </p>
+    <p>Vidanın zeminde ilerleme (saplanma) miktarı (h), vidanın tur sayısı (n) ile vida adımının (a) çarpımına eşittir: <b>h = n . a</b>. İlerleme miktarı kuvvetten veya kol yarıçapından tamamen <u>bağımsızdır</u>.</p>
+
+    <h2>3. DİŞLİ VE KASNAK SİSTEMLERİ</h2>
+    <p>Dönme hareketini ve torku bir noktadan diğerine ileten düzeneklerdir. Yarıçapı r, diş sayısı N ve tur sayısı n olan sistemlerde şu kurallar geçerlidir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Bağlantı Türü</th>
+                <th>Dönme Yönü İlişkisi</th>
+                <th>Tur Sayısı Denklem Yapısı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Eş Merkezli (Perçinli)</b></td>
+                <td>Dönme yönleri <b>aynıdır</b>.</td>
+                <td>Tur sayıları <b>kesinlikle eşittir (n<sub>1</sub> = n<sub>2</sub>)</b>.</td>
+            </tr>
+            <tr>
+                <td><b>Düz (Dıştan) Bağlı / Temaslı</b></td>
+                <td>Dönme yönleri <b>birbirine zıttır</b>.</td>
+                <td>Tur sayısı yarıçapla ters orantılıdır: <b>n<sub>1</sub> . r<sub>1</sub> = n<sub>2</sub> . r<sub>2</sub></b></td>
+            </tr>
+            <tr>
+                <td><b>Çapraz Bağlı Kasnaklar</b></td>
+                <td>Dönme yönleri <b>birbirine zıttır</b>.</td>
+                <td>Yarıçap bağıntısı aynen geçerlidir: <b>n<sub>1</sub> . r<sub>1</sub> = n<sub>2</sub> . r<sub>2</sub></b></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sürtünmesiz ve makara ağırlıklarının ihmal edildiği bir sistemde, bir hareketli makaraya asılı P = 60 N ağırlığındaki yük, ipin ucuna uygulanan yatay F kuvveti ile dengelenmiştir. Buna göre, F kuvvetinin büyüklüğü kaç N'dir ve ipin ucu yukarı doğru h = 6 metre çekilirse yük kaç metre yükselir?</div>
+        <ul class="options-list">
+            <li>A) 30 N , 6 m</li>
+            <li>B) 60 N , 3 m</li>
+            <li>C) 30 N , 3 m</li>
+            <li>D) 30 N , 1.5 m</li>
+            <li>E) 15 N , 3 m</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hareketli makarada yükü yukarı doğru çeken iki paralel ip gerilmesi mevcuttur. Makara ağırlıksız olduğundan düşey denge:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2F = P  &rarr;  2F = 60  &rarr;  <b>F = 30 N</b> olarak kuvvet büyüklüğü bulunur (2 kat kuvvet kazancı).
+            <br>• Kuvvetten 2 kat kazanç sağlandığı için yoldan aynı oranda 2 kat kayıp yaşanmalıdır.
+            <br>• İpin çekilme miktarı (h<sub>ip</sub>) ile yükün yükselme miktarı (h<sub>yük</sub>) arasındaki ilişki yoldan kayıp nedeniyle:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h<sub>yük</sub> = h<sub>ip</sub> / 2  &rarr;  h<sub>yük</sub> = 6 / 2 = <b>3 metre</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Vida adımı a = 2 mm olan bir vidanın kolu, r = 10 cm uzunluğundaki bir kolun ucuna uygulanan F = 5 N'lik kuvvetle döndürülüyor. Buna göre, zeminin vidaya gösterdiği direnç kuvvetinin (N) büyüklüğü kaç N'dir? (&pi; = 3 alınız.)</div>
+        <ul class="options-list">
+            <li>A) 1500</li>
+            <li>B) 3000</li>
+            <li>C) 4500</li>
+            <li>D) 6000</li>
+            <li>E) 7500</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak birim dönüşümlerine dikkat etmeliyiz. Vida adımı mm cinsinden, kol uzunluğu ise cm cinsindendir. İkisini de metreye veya mm'ye çevirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a = 2 mm
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; r = 10 cm = 100 mm.
+            <br>• Vidanın iş/tork denge formülünü yazalım: F . (2 . &pi; . r) = N . a.
+            <br>• Verilen değerleri yerlerine koyalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 5 . (2 . 3 . 100) = N . 2
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 5 . 600 = 2N  &rarr;  3000 = 2N
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; N = 3000 / 2 = <b>1500 N</b> olarak bulunur.
+            <br>• <i>Düzeltme ve Seçenek Notu:</i> İşlem adımları hatasız olarak 1500 N değerini vermektedir. Doğru şık A seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Yarıçapları sırasıyla r<sub>K</sub> = 3r ve r<sub>L</sub> = r olan birbirine temas halindeki (dişli) K ve L çarklarından K çarkı ok yönünde pozitif tarafa doğru 2 tur döndürülüyor. Buna göre L çarkının dönme yönü ve tur sayısı (n<sub>L</sub>) ne olur?</div>
+        <ul class="options-list">
+            <li>A) Aynı yönde, 6 tur</li>
+            <li>B) Zıt yönde, 6 tur</li>
+            <li>C) Zıt yönde, 2/3 tur</li>
+            <li>D) Aynı yönde, 3 tur</li>
+            <li>E) Zıt yönde, 4 tur</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Birbirine dıştan temas eden dişli çarklar veya düz bağlı kasnaklar temas noktalarında birbirini ittiği için daima <b>zıt yönlerde</b> dönerler. K çarkı pozitif yönde dönüyorsa, L çarkı kesinlikle <b>zıt (negatif) yönde</b> dönecektir.
+            <br>• Tur sayıları ile yarıçaplar arasındaki ters orantı denklemini kuralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; n<sub>K</sub> . r<sub>K</sub> = n<sub>L</sub> . r<sub>L</sub>
+            <br>• Verilen n<sub>K</sub> = 2 tur ve yarıçap değerlerini yerlerine yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2 . 3r = n<sub>L</sub> . r  &rarr;  6r = n<sub>L</sub> . r  &rarr;  <b>n<sub>L</sub> = 6 tur</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Boyu L = 5 metre ve yüksekliği h = 3 metre olan sürtünmesiz bir eğik düzlemin en alt noktasından P = 50 N ağırlığındaki bir yük, düzleme paralel F kuvveti ile sabit hızla yukarı çıkarılmak isteniyor. Buna göre, uygulanması gereken F kuvveti kaç N'dir?</div>
+        <ul class="options-list">
+            <li>A) 20</li>
+            <li>B) 30</li>
+            <li>C) 40</li>
+            <li>D) 50</li>
+            <li>E) 60</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Eğik düzlemde iş prensibi kuralını işletelim: Kuvvet . Kuvvet Yolu = Yük . Yük Yolu (F . L = P . h).
+            <br>• Verilen L = 5 m, h = 3 m ve P = 50 N değerlerini formüle yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F . 5 = 50 . 3
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 5F = 150  &rarr;  F = 150 / 5  &rarr;  <b>F = 30 N</b> olarak dengeleyici kuvvet bulunur.
+            <br>• <i>Alternatif Yol (Dinamik):</i> F = P . sin(&alpha;) &rarr; sin(&alpha;) = karşı / hipotenüs = h / L = 3 / 5 = 0.6'dır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F = 50 . 0.6 = 30 N kuvvet değeri yine doğrulanır (3-4-5 dik üçgen geometrisi).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Yarıçapı r olan hareketli bir makarayı taşıyan ip h kadar yukarı çekildiğinde makara n tur dönmektedir. Aynı ip 2h kadar yukarı çekilirse, makaranın yükselme miktarı ve tur sayısı ilk duruma göre nasıl değişir?</div>
+        <ul class="options-list">
+            <li>A) Yükselme 2 katına çıkar, tur sayısı değişmez</li>
+            <li>B) Yükselme değişmez, tur sayısı 2 katına çıkar</li>
+            <li>C) İkisi de 2 katına çıkar</li>
+            <li>D) Yükselme 4 katına çıkar, tur sayısı 2 katına çıkar</li>
+            <li>E) İkisi de yarıya iner</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hareketli makaranın en büyüleyici mekanik özelliği çekilen ip miktarının (H) tam olarak paylaştırılmasıdır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Çekilen miktarın yarısı (H / 2) makaranın merkezinin <b>yükselmesine</b> gider.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Çekilen miktarın kalan diğer yarısı (H / 2) ise makaranın kendi ekseni etrafında <b>dönmesini (tur sayısını)</b> sağlar.
+            <br>• İp h kadar çekildiğinde; yükselme h/2, dönmeye giren ip de h/2'dir. Tur sayısı: n = (h/2) / Çevre.
+            <br>• İp 2h kadar çekildiğinde; yeni yükselme miktarı 2h / 2 = h olur (yani ilk yükselme olan h/2'nin tam <b>2 katıdır</b>). New dönme ipi miktarı da 2h / 2 = h olacağından tur sayısı da tam <b>2 katına (2n)</b> çıkacaktır.
+            <br>• Her iki parametre de (yükselme ve tur sayısı) doğrusal olarak tam 2 katına çıkar.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 19: Büyük Patlama ve Parçacık Fiziği</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #4a2e1b; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e0d0c5; }
+        h2 { color: #4a2e1b; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #6e4428; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7edf0; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #4a2e1b; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #6e4428; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #6e4428; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 19: BÜYÜK PATLAMA VE PARÇACIK FİZİĞİ</h1>
+        <p>Big Bang Teorisi, Standart Model Yapısı, Kuarklar, Leptonlar, Hadronlar ve Alan Bozonları</p>
+    </div>
+
+    <h2>1. BÜYÜK PATLAMA (BIG BANG) TEORİSİ</h2>
+    <p>Evrenin yaklaşık 13.8 milyar yıl önce sonsuz yoğunluk ve sıcaklıktaki tekil bir noktadan patlayarak/genişleyerek var olduğunu savunan teoridir. Günümüzde Big Bang modelini destekleyen üç büyük bilimsel kanıt bulunur:</p>
+    <ul>
+        <li><b>Hubble Kanunu (Evrenin Genişlemesi):</b> Edwin Hubble, galaksilerden gelen ışığın kırmızıya kaydığını (Doppler) ve uzak olan galaksilerin daha büyük bir hızla uzaklaştığını fark etmiştir. Bu durum evrenin sürekli genişlediğini kanıtlar.</li>
+        <li><b>Kozmik Mikrodalga Arka Plan Işıması (CMBR):</b> Büyük patlamanın ilk anlarından evrene yayılan ve günümüzde uzayın her noktasından homojen olarak alınan yaklaşık 2.7 Kelvin sıcaklığındaki fosil radyasyondur.</li>
+        <li><b>Hafif Elementlerin Bolluğu:</b> Evrendeki Hidrojen ve Helyum elementlerinin kütlesel oranlarının, Big Bang matematiksel modellemeleriyle birebir örtüşmesidir.</li>
+    </ul>
+
+    <h2>2. ATOM ALTI PARÇACIKLARIN SINIFLANDIRILMASI (STANDART MODEL)</h2>
+    <p>Modern fizikte doğadaki tüm bilinen temel parçacıkları ve aralarındaki etkileşimleri açıklayan kuramsal çerçeveye <b>Standart Model</b> denir. Standart modele göre parçacıklar temelde Maddesel Parçacıklar (Fermiyonlar) ve Etkileşim/Alan Parçacıkları (Bozonlar) olarak ikiye ayrılır.</p>
+    
+    <div class="highlight-box">
+        <strong>⚠️ TEMEL (NOKTASAL) PARÇACIK KAVRAMI:</strong>
+        <br>Kendisini oluşturan daha alt bir yapı taşı bulunmayan, iç yapısı olamayan en yalın parçacıklara <b>temel parçacık</b> denir. Standart modelde yalnızca iki grup temel madde parçacığı vardır: <b>Kuarklar</b> ve <b>Leptonlar</b>. Proton ve nötron gibi yapılar temel parçacık <u>değildir</u>, kuarklardan oluşurlar.
+    </div>
+
+    <h3>A) Kuarklar (6 Çeşit)</h3>
+    <p>Güçlü nükleer kuvvetle etkileşen, kesirli elektrik yüklerine sahip temel parçacıklardır: <b>u</b> (yukarı), <b>d</b> (aşağı), <b>c</b> (tılsımlı), <b>s</b> (garip), <b>t</b> (üst), <b>b</b> (alt). Bizim için en önemlileri birinci nesil olan u ve d kuarklarıdır:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 8px 0;">
+        u kuark yükü = +2/3 e &nbsp; | &nbsp; d kuark yükü = -1/3 e
+    </p>
+
+    <h3>B) Leptonlar (6 Çeşit)</h3>
+    <p>Güçlü nükleer kuvvetle <u>etkileşmeyen</u>, doğada serbest (tek başına) bulunabilen temel parçacıklardır. En popüler üyesi <b>Elektron (e⁻)</b>'dur. Diğerleri: Elektron nötrinosu, Müon, Müon nötrinosu, Tau ve Tau nötrinosudur. Nötrinoların yükü sıfırdır, kütleleri yok denecek kadar azdır ve maddelerle neredeyse hiç etkileşime girmezler.</p>
+
+    <h2>3. HADRONLAR (KUARK BİLEŞİKLERİ)</h2>
+    <p>Kuarkların güçlü nükleer kuvvet (glüonlar) vasıtasıyla bir araya gelerek oluşturduğu bileşik parçacık ailesine <b>Hadronlar</b> denir. İçerdikleri kuark sayılarına göre iki alt sınıfa ayrılırlar:</p>
+    <ul>
+        <li><b>Baryonlar (Üç Kuarklılar):</b> Tamamı **3 adet kuarkın** birleşmesiyle oluşur. En hafif ve en kararlı baryon <b>Proton</b>'dur. Diğer kararlı baryon ise <b>Nötron</b>'dur. Diğer tüm baryonlar kararsızdır ve bozunarak protona dönüşürler.
+        <br>&bull; <b>Proton Yapısı (uud):</b> (+2/3) + (+2/3) + (-1/3) = <b>+1</b> net elektrik yükü oluşturur.
+        <br>&bull; <b>Nötron Yapısı (udd):</b> (+2/3) + (-1/3) + (-1/3) = <b>0</b> net elektrik yükü (nötr) oluşturur.</li>
+        <li><b>Mezonlar (İki Kuarklılar):</b> Bir kuark ile bir **anti-kuarkın** bir araya gelmesiyle (toplam 2 kuark) oluşan kararsız, kısa ömürlü parçacıklardır. En bilinen örnekleri Pion ve Kaon'dur. Temel parçacık değillerdir.</li>
+    </ul>
+
+    <h2>4. DOĞADAKİ TEMEL KUVVETLER VE ARACI BOZONLAR</h2>
+    <p>Standart modele göre evrendeki tüm fiziksel etkileşimler 4 temel kuvvet ve bu kuvvetleri taşıyan/ileten **Bozon** adı verilen alan parçacıklarıyla gerçekleşir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Temel Kuvvet Adı</th>
+                <th>Etki Menzili</th>
+                <th>Aracı Kuvvet Parçacığı (Bozon)</th>
+                <th>Sistemdeki Fiziksel Görevi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Güçlü Nükleer Kuvvet</b></td>
+                <td>Çekirdek İçi (Çok dar)</td>
+                <td><b>Glüon (Gluon)</b></td>
+                <td>Kuarkları bir arada tutarak proton/nötronu var eder. Çekirdeğin dağılmasını önler. En güçlü kuvvettir.</td>
+            </tr>
+            <tr>
+                <td><b>Elektromanyetik Kuvvet</b></td>
+                <td>Sonsuz</td>
+                <td><b>Foton (&gamma;)</b></td>
+                <td>Yüklü parçacıkların birbirini itmesini/çekmesini sağlar. Atom ve molekül bağlarını korur.</td>
+            </tr>
+            <tr>
+                <td><b>Zayıf Nükleer Kuvvet</b></td>
+                <td>Çekirdek İçi (Çok dar)</td>
+                <td><b>W<sup>+</sup>, W<sup>-</sup> ve Z<sup>0</sup> Bozonları</b></td>
+                <td>Parçacıkların radyoaktif olarak bozunmasından (Beta bozunması) sorumludur. Kuarkların tür değiştirmesini sağlar.</td>
+            </tr>
+            <tr>
+                <td><b>Kütle Çekim Kuvveti</b></td>
+                <td>Sonsuz</td>
+                <td><b>Graviton</b> (Teorik)</td>
+                <td>Makro evrende büyük kütlelerin birbirini çekmesini sağlar. En zayıf kuvvettir. Standart modele tam entegre edilememiştir.</td>
+            </tr>
+        </tbody>
+    </table>
+    <p><b>Higgs Bozonu:</b> Standart modeldeki Fermiyonlara ve bazı Bozonlara (W ve Z) **kütle kazandıran** mekanizmanın aracı alan parçacığıdır (Tanrı Parçacığı olarak da bilinir).</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Standart Model kuramına göre, aşağıda verilen atom altı parçacıklardan hangisi daha alt yapı taşlarından oluşmamış, yapısında başka parçacık barındırmayan <b>temel (noktasal) bir parçacıktır</b>?</div>
+        <ul class="options-list">
+            <li>A) Proton</li>
+            <li>B) Nötron</li>
+            <li>C) Elektron</li>
+            <li>D) Pion</li>
+            <li>E) Alfa parçacığı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Standart Modelde iç yapısı bulunmayan gerçek temel parçacık grupları yalnızca Kuarklar ve Leptonlardır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Proton ve Nötron 3'er kuarktan oluşan Baryon grubundadır (temel değildir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Pion, bir kuark ve bir antikuarktan oluşan Mezon grubundadır (temel değildir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Alfa parçacığı ise 2 proton ve 2 nötrondan oluşan bir helyum çekirdeğidir (büyük bir bileşiktir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>Elektron</b> ise Lepton ailesinin temel bir üyesidir; laboratuvar şartlarında kendisini oluşturan daha alt bir parçacık bulunamamıştır, noktasaldır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> İki adet "yukarı" (u) kuark ve bir adet "aşağı" (d) kuarkın güçlü nükleer kuvvetle bir araya gelmesiyle oluşan (uud) yapıdaki atom altı parçacık aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Nötron</li>
+            <li>B) Proton</li>
+            <li>C) Elektron nötrinosu</li>
+            <li>D) Pozitron</li>
+            <li>E) Foton</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kuarkların yük değerlerini netleştirerek cebirsel olarak toplayalım: u = +2/3 e ve d = -1/3 e.
+            <br>• Verilen (uud) kombinasyonunun net elektrik yük hesabını yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Yük = u + u + d
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Yük = (+2/3) + (+2/3) + (-1/3) = 4/3 - 1/3 = 3/3 = <b>+1 e</b>.
+            <br>• 3 kuarktan oluştuğu için bu bir Baryondur. Yükü +1 olan en kararlı ve meşhur baryon ise çekirdeğin temel taşı olan <b>Proton</b>'dur. (Nötron udd yapısında olup nötrdür).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Atom çekirdeğindeki proton ve nötronları, birbirlerini elektriksel olarak itmelerine rağmen bir arada tutan, çekirdeğin dağılmasını engelleyen doğadaki <b>en güçlü kuvvet</b> ve bu kuvvetin iletimini sağlayan aracı bozon aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Elektromanyetik Kuvvet - Foton</li>
+            <li>B) Zayıf Nükleer Kuvvet - W bozonu</li>
+            <li>C) Güçlü Nükleer Kuvvet - Glüon (Gluon)</li>
+            <li>D) Kütle Çekim Kuvveti - Graviton</li>
+            <li>E) Güçlü Nükleer Kuvvet - Higgs Bozonu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Çekirdekte yan yana duran pozitif (+) yüklü protonlar elektromanyetik kuvvet nedeniyle birbirini korkunç bir şiddetle iter. Çekirdeğin dağılmadan kararlı kalmasını sağlayan yegane güç, bu itme kuvvetini baskılayan doğadaki en şiddetli kuvvet olan **Güçlü Nükleer Kuvvettir (Yeğin Kuvvet)**.
+            <br>• Standart model kuramına göre güçlü nükleer kuvvetin kuarklar ve nükleonlar arasında taşınmasını, adeta bir yapıştırıcı gibi iletilmesini sağlayan alan parçacığı (bozonu) ise <b>Glüon (Gluon)</b>'dur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Atom altı parçacıklardan oluşan Hadron ailesi ile ilgili; I. Tamamı kuark bileşikleridir, II. Leptonlar güçlü nükleer kuvvetle etkileşmediği için hadron ailesine dahil edilemezler, III. Baryonlar 3 kuarktan, mezonlar ise 2 kuarktan oluşur yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hadron ailesinin ve leptonların temel ayrım özelliklerini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Hadron kelime anlamı olarak güçlü nükleer kuvvetten etkilenen kuark örgülü bileşik yapıların genel adıdır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Leptonlar (elektron vb.) zayıf nükleer ve elektromanyetik kuvvetle etkileşirken güçlü nükleer kuvveti asla hissetmezler. Bu yüzden hadron ailesine kesinlikle <u>alınmazlar</u>, bağımsız temel parçacıktırlar. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Hadronlar kendi içinde Baryonlar (3 kuark örüntülü proton, nötron) ve Mezonlar (1 kuark, 1 antikuark olmak üzere 2 kuarklı yapılar) olarak ikiye ayrılır. Bu da doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Edwin Hubble'ın galaksilerden yayılan ışık spektrum çizgilerini inceleyerek "Evrenin sürekli ve ivmelenerek genişlediği" sonucuna ulaşması, dalga mekaniğindeki hangi fiziksel olayın astronomideki doğrudan bir uygulamasıdır?</div>
+        <ul class="options-list">
+            <li>A) Kırınım Olayı</li>
+            <li>B) Doppler Etkisi</li>
+            <li>C) Polarizasyon Etkisi</li>
+            <li>D) Fotoelektrik Olayı</li>
+            <li>E) Compton Saçılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Edwin Hubble, uzak galaksilerin spektrum (renk) tayflarını ölçtüğünde, tayf çizgilerinin normalde olması gereken yerlerden dalga boyu daha uzun olan **kırmızı renge doğru kaydığını** (Redshift) keşfetmiştir.
+            <br>• Işık veya ses yayan hareketli bir kaynağın, hareketinden ötürü gözlemci tarafından frekans ve dalga boyunun farklı algılanması olayına fizikte <b>Doppler Etkisi</b> denir. Galaksilerin uzaklaşırken ışık dalga boylarını esnetmesi Doppler olayının kozmolojideki en büyük ve en net pratik kanıtıdır.
+        </div>
+    </div>
+
+</body>
+</html>

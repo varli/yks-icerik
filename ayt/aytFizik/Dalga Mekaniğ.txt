@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 17: Dalga Mekaniği</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #4a2e1b; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e0d0c5; }
+        h2 { color: #4a2e1b; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #6e4428; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7edf0; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #4a2e1b; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #6e4428; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #6e4428; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 17: DALGA MEKANİĞİ</h1>
+        <p>Su Dalgalarında Kırınım ve Girişim, Işığın Çift/Tek Yarık Teorileri ve Doppler Olayı Analizi</p>
+    </div>
+
+    <h2>1. SU DALGALARINDA KIRINIM VE GİRİŞİM</h2>
+    <p><b>Kırınım:</b> Doğrusal su dalgalarının, aralarındaki mesafe w olan dar bir yarıktan geçerken bükülerek çembersel dalgalara dönüşmesi olayıdır. Kırınımın gözlenebilmesi için dalga boyunun (&lambda;) yarık genişliğine (w) eşit veya büyük olması şarttır: <b>&lambda; &ge; w</b>. &lambda; &lt; w ise dalgalar bükülmeden aynen geçer.</p>
+    <p><b>Girişim:</b> Aynı fazda ve aynı frekansta çalışan iki noktasal dalga kaynağının ürettiği çembersel dalgaların üst üste binerek oluşturduğu desendir. Bu desende iki tür çizgi doğar:</p>
+    <ul>
+        <li><b>Dalga Katarı (Maksimum Noktalar):</b> İki dalga tepesinin veya iki dalga çukurunun üst üste gelerek birbirini güçlendirdiği (yapıcı girişim) sürekli çizgilerdir. Yol farkı: <b>&Delta;S = n . &lambda;</b></li>
+        <li><b>Düğüm Çizgisi (Minimum Noktalar):</b> Bir dalga tepesi ile bir dalga çukurunun üst üste gelerek birbirini sönümlediği (yokedici girişim) hareketsiz noktalardır. Yol farkı: <b>&Delta;S = (n - 1/2) . &lambda;</b></li>
+    </ul>
+
+    <h2>2. IŞIĞIN ÇİFT YARIKTA GİRİŞİMİ (YOUNG DENEYİ)</h2>
+    <p>Işığın dalga doğasını kanıtlayan en meşhur deneydir. Tek renkli bir ışık kaynağı, önünde paralel iki yarık (fant) bulunan levhaya düşürüldüğünde, ekran (perde) üzerinde ardışık aydınlık ve karanlık saçaklar oluşur. Merkezde daima bir **Merkezî Aydınlık Saçak (A<sub>0</sub>)** yer alır.</p>
+    <p><b>Saçak Genişliği (&Delta;x):</b> Peş peşe gelen iki aydınlık veya iki karanlık saçak merkezi arasındaki mesafedir. Formülü (Akılda kalması için "Laleli / Dana" olarak kodlanır):</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        &Delta;x = (L . &lambda;) / (d . n)
+    </p>
+    <p>Burada <b>L</b> fant ile perde arası uzaklık, <b>&lambda;</b> ışığın dalga boyu, <b>d</b> iki yarık arası mesafe ve <b>n</b> fant-perde arası ortamın kırıcılık indisidir.</p>
+
+    <h2>3. IŞIĞIN TEK YARIKTA KIRINIMI</h2>
+    <p>Işığın w genişliğindeki tek bir yarıktan geçerek perde üzerinde saçaklar oluşturması olayıdır. Çift yarıktan en büyük yapısal farkı şudur: Merkezî aydınlık saçak (A<sub>0</sub>), diğer tüm aydınlık saçakların tam **iki katı genişliğindedir (2&Delta;x)** ve çok daha parlaktır. Saçak aralığı formülü ise: <b>&Delta;x = (L . &lambda;) / (w . n)</b> şeklindedir.</p>
+
+    <h2>4. DOPPLER OLAYI</h2>
+    <p>Bir dalga kaynağının veya gözlemcinin hareketli olması durumunda, gözlemci tarafından algılanan dalga boyu ve frekansın, kaynağın gerçek değerlerinden farklı hissedilmesi olayıdır. Hem ses hem de ışık (elektromanyetik) dalgalarında yaşanır:</p>
+    <ul>
+        <li><b>Yaklaşma Durumu:</b> Kaynak gözlemciye yaklaşıyorsa, ön taraftaki dalgalar sıkışır. Gözlemcinin algıladığı dalga boyu <u>küçülür</u>, frekans ise <u>artar</u>. (Ambulans yaklaşırken sesin incelmesi).</li>
+        <li><b>Uzaklaşma Durumu:</b> Kaynak gözlemciye uzaklaşıyorsa, arkadaki dalgalar gevşer. Algılanan dalga boyu <u>büyür</u>, frekans <u>azalır</u>.</li>
+    </ul>
+    <div class="highlight-box">
+        <strong>IŞIKTA DOPPLER VE EVRENİN GENİŞLEMESİ:</strong>
+        <br>Astronomide galaksilerin yaydığı ışık tayfı incelendiğinde dalga boylarının kayması gözlenir:
+        <br>&bull; <b>Kırmızıya Kayma (Redshift):</b> Yıldızlar bizden uzaklaşıyorsa dalga boyu büyür. Görünür spektrumun en uzun dalga boyu kırmızı olduğundan ışık kırmızıya kayar. Evrenin genişlemesinin en büyük kanıtıdır.
+        <br>&bull; <b>Maviye Kayma:</b> Gök cismi bize yaklaşıyorsa dalga boyu küçülür, ışık maviye/mora doğru kayar.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Su derinliği her yerde sabit bir dalga leğeninde, aralarındaki mesafe w olan bir yarığa dalga boyu &lambda; olan doğrusal su dalgaları gönderiliyor. Yarıktan geçen dalgaların kırınıma <b>uğramadan</b> doğrusal hatlarını koruyarak geçmesi için; I. Dalga boyu artırılmalı, II. Yarık genişliği w artırılmalı, III. Leğene su eklenmeli işlemlerinden hangileri tek başına yapılabilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) Yalnız III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Doğrusal su dalgalarının kırınıma <u>uğramaması</u> için gerekli olan fiziksel şart dalga boyunun yarık genişliğinden küçük olması durumudur: <b>&lambda; &lt; w</b>.
+            <br>• Bizden sistemin bu &lambda; &lt; w sınır şartına taşınması istenmektedir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Dalga boyunu (&lambda;) artırmak sistemi kırınıma yaklaştırır (&lambda; &ge; w), bu yüzden yanlıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Yarık genişliğini (w) artırmak doğrudan &lambda; &lt; w durumunu büyüteceğinden dalgalar kırınmadan düz geçer, <b>doğrudur</b>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Leğene su eklemek suyun derinliğini artırır. Derinlik artarsa dalga hızı artar, v = &lambda;.f bağıntısından frekans sabitken dalga boyu (&lambda;) da artar. Dalga boyunun artması kırınımı artıracağından bu da yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Işığın çift yarıkta girişim (Young) deneyinde perde üzerinde oluşan ardışık saçaklar arasındaki mesafe (saçak genişliği) &Delta;x'tir. Deneyde kullanılan ışığın frekansı artırılırsa saçak genişliği (&Delta;x) ve perdede oluşan toplam saçak sayısı (N) nasıl değişir?</div>
+        <ul class="options-list">
+            <li>A) &Delta;x artar, N azalır</li>
+            <li>B) &Delta;x azalır, N artar</li>
+            <li>C) İkisi de artar</li>
+            <li>D) &Delta;x azalır, N değişmez</li>
+            <li>E) İkisi de azalır</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Işık dalgaları için hız denklemimiz c = &lambda; . f şeklindedir. Işığın boşluktaki hızı (c) sabit olduğundan, kaynağın frekansı (f) artırıldığında ışığın dalga boyu (&lambda;) dengeli olarak <b>azalır</b>.
+            <br>• Saçak aralığı formülümüzü inceleyelim: &Delta;x = (L . &lambda;) / (d . n). Dalga boyu (&lambda;) azaldığı için saçak genişliği (&Delta;x) doğrudan <b>azalır</b>.
+            <br>• Perdenin fiziksel boyutu sabittir. Perde üzerindeki saçak şeritleri küçüldüğünde (&Delta;x azaldığında), sabit alana daha fazla sayıda çizgi sığabileceğinden toplam saçak sayısı (N) zorunlu olarak <b>artar</b>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Işığın tek yarıkta kırınımı deneyinde kırmızı renkli ışık kullanıldığında perdede oluşan saçak genişliği &Delta;x<sub>K</sub>, mavi renkli ışık kullanıldığında ise &Delta;x<sub>M</sub> olmaktadır. Diğer tüm deneysel parametreler sabit tutulduğuna göre saçak genişliklerinin oranı (&Delta;x<sub>K</sub> / &Delta;x<sub>M</sub>) hakkında ne söylenebilir?</div>
+        <ul class="options-list">
+            <li>A) 1'e eşittir</li>
+            <li>B) 1'den küçüktür</li>
+            <li>C) 1'den büyüktür</li>
+            <li>D) 2'ye eşittir</li>
+            <li>E) Frekansa bağlı değildir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Görünür ışık spektrumunda renklerin dizilimi kırmızıdan mora doğru enerji ve frekans artışı, dalga boyu azalışı yönündedir (Kırmızı, Turuncu, Sarı, Yeşil, Mavi, Mor).
+            <br>• Buradan, kırmızı ışığın dalga boyunun mavi ışığın dalga boyundan kesinlikle daha büyük olduğunu netleştiririz: <b>&lambda;<sub>kırmızı</sub> &gt; &lambda;<sub>mavi</sub></b>.
+            <br>• Saçak genişliği formülünde dalga boyu pay kısmında yer aldığından (&Delta;x &prop; &lambda;) dalga boyu ile doğru orantılıdır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta;x<sub>K</sub> &gt; &Delta;x<sub>M</sub> olmak zorundadır.
+            <br>• Büyük bir değerin küçük bir değere oranı matematiksel olarak her zaman <b>1'den büyük</b> olmak zorundadır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Sabit frekansla ses yayan bir polis sireni, yol kenarında durmakta olan bir gözlemciye doğru hızla yaklaşmaktadır. Buna göre duran gözlemcinin algıladığı ses dalgalarının dalga boyu (&lambda;) ve frekansı (f), sirenin gerçek değerlerine kıyasla nasıl değişir?</div>
+        <ul class="options-list">
+            <li>A) &lambda; artar, f azalır</li>
+            <li>B) &lambda; azalır, f artar</li>
+            <li>C) İkisi de artar</li>
+            <li>D) &lambda; azalır, f azalır</li>
+            <li>E) İkisi de değişmez</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Soru kalıbı mekanik dalgalarda klasik bir <b>Doppler Olayı</b> senaryosudur.
+            <br>• Ses kaynağı (polis aracı) durmakta olan gözlemciye doğru hareket ettiğinde, hareket yönündeki ses dalgaları araç tarafından sıkıştırılır.
+            <br>• Bu fiziksel sıkışmadan ötürü gözlemciye ulaşan dalgaların ardışık mesafesi, yani dalga boyu (&lambda;) gerçek değerinden daha <b>küçük</b> olarak algılanır.
+            <br>• Sesin ortamdaki yayılma hızı sadece ortama (havaya) bağlı olduğundan sabittir. v = &lambda;.f bağıntısı uyarınca, algılanan dalga boyu küçüldüğünden, algılanan frekans (f) kesinlikle daha <b>büyük (yüksek)</b> hissedilir. Ses daha ince (tiz) duyulur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Işığın tek yarıkta kırınımı deneyinde, ekran üzerinde oluşan merkezî aydınlık saçak (A<sub>0</sub>) ile ilgili; I. Genişliği diğer saçakların iki katıdır, II. Parlaklığı en fazladır, III. Fant-perde arasına su doldurulursa genişliği azalır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Tek yarıkta kırınım olayının karakteristik özelliklerini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Girişimin aksine tek yarıkta merkezî aydınlık saçak tam <b>2&Delta;x genişliğindedir</b>, diğerleri ise &Delta;x kadardır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Işık enerjisinin en yoğun toplandığı yer tam merkez ekseni olduğundan merkezî saçak en parlaktır, merkezden uzaklaştıkça parlaklık hızla azalır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Ortama su doldurulduğunda kırıcılık indisi (n) artar. &Delta;x = (L.&lambda;) / (w.n) formülünde n paydada yer aldığından &Delta;x saçak aralığı dolayısıyla da merkezî saçak genişliği (2&Delta;x) <b>azalır</b>. Bu da doğrudur.
+        </div>
+    </div>
+
+</body>
+</html>

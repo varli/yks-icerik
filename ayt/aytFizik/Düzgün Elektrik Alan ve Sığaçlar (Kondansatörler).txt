@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 11: Düzgün Elektrik Alan ve Sığaçlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 11: DÜZGÜN ELEKTRİK ALAN VE SIĞAÇLAR</h1>
+        <p>Paralel Levhalar, Yüklü Parçacıkların İvmeli Hareketi, Sığa Kavramı ve Kondansatörlerde Enerji Depolama</p>
+    </div>
+
+    <h2>1. PARALEL LEVHALAR ARASINDAKİ DÜZGÜN ELEKTRİK ALAN</h2>
+    <p>Aralarında d kadar uzaklık bulunan iki iletken levha, gerilimi V olan bir üretece (pile) bağlandığında, üretecin pozitif kutbuna bağlı levha (+) yükle, negatif kutbuna bağlı levha ise (-) yükle düzgünce yüklenir. Bu levhalar arasında, (+) yüklü levhadan (-) yüklü levhaya doğru yönelen <b>düzgün (homojen) bir elektrik alan (E)</b> meydana gelir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        E = V / d
+    </p>
+    <p>Bu elektrik alanın en önemli özelliği, levhalar arasındaki her noktada (levhalara yakınlık veya uzaklıktan tamamen bağımsız olarak) **şiddetinin ve yönünün tamamen aynı** olmasıdır. Birimi Volt/metre veya N/C'dir.</p>
+
+    <h2>2. YÜKLÜ PARÇACIKLARIN LEVHALAR ARASINDAKİ HAREKETİ</h2>
+    <p>Bu düzgün elektrik alan içerisine bırakılan q yüklü bir parçacığa, elektrik alan tarafından sabit bir <b>elektriksel kuvvet (F = q . E)</b> etki eder. Bu kuvvet (+) yüklere elektrik alanla aynı yönde, (-) yüklere ise elektrik alanla zıt yönde etki eder.</p>
+    <p>Newton'ın ikinci kanunu ($F = m \cdot a$) işletildiğinde, parçacığın levhalar arasında yapacağı ivmeli hareketin ivmesi (a) şu formülle hesaplanır (Akılda kalması için "Kayınvalide / Damat" olarak kodlanır):</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        a = (q . V) / (m . d)
+    </p>
+    <div class="highlight-box">
+        <strong>💡 LEVHALAR ARASI İŞ VE ENERJİ TEOREMİ:</strong>
+        <br>Parçacık bir levhadan diğerine ulaştığında, elektriksel kuvvetlerin yaptığı iş ($W = F \cdot d = q \cdot E \cdot d = q \cdot V$), parçacığın kazandığı kinetik enerjiye eşit olur:
+        <p style="text-align: center; font-weight: bold; margin: 8px 0;">W = q . V = &Delta;E<sub>k</sub></p>
+        Bu denklem bize parçacığın karşı levhaya çarpma hızının, <b>levhalar arasındaki d mesafesinden tamamen bağımsız</b> olduğunu gösterir. d mesafesi sadece karşıya geçme süresini (t) etkiler.
+    </div>
+
+    <h2>3. SIĞA (KAPASİTE) VE SIĞAÇ (KONDANSATÖR) KAVRAMI</h2>
+    <p>İki iletken levha arasına yalıtkan (dielektrik) bir malzeme yerleştirilmesiyle elde edilen, elektrik enerjisi ve yük depolamaya yarayan devre elemanlarına <b>sığaç (kondansatör)</b> denir. Bir sığacın yük depolayabilme yeteneğine ise <b>sığa (C - Kapasite)</b> adı verilir. Birimi Farad (F) olan sığa, sığacın geometrik yapısına bağlıdır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        C = &epsilon; . A / d
+    </p>
+    <p>Burada <b>&epsilon; (epsilon)</b> levhalar arasındaki malzemenin dielektrik katsayısı, <b>A</b> levhalardan birinin yüzey alanı, <b>d</b> ise levhalar arası uzaklıktır. Sığa kesinlikle sığaca bağlı olan gerilime veya yüke bağlı <u>değildir</u>; sadece bu fiziksel boyutlarla değişir.</p>
+
+    <h2>4. KONDANSATÖRLERDE YÜK VE ENERJİ İLİŞKİSİ</h2>
+    <p>Bir sığacın levhaları arasında V gerilimi uygulandığında, sığaçta depolanan net yük miktarı (Q), sığa ile gerilimin çarpımına eşit olur (Akılda kalması için "Güve - QVe" olarak kodlanır):</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        Q = C . V
+    </p>
+    <p><b>Sığaçta Depolanan Enerji (E):</b> Yük-Potansiyel grafiğinin altında kalan alan bize sığaçta depolanan elektriksel enerjiyi verir:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 12px 0;">
+        E = (1 / 2) . Q . V &nbsp; = &nbsp; (1 / 2) . C . V<sup>2</sup> &nbsp; = &nbsp; Q<sup>2</sup> / 2C
+    </p>
+
+    <div class="tip-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ DEĞİŞİM SENARYOLARI:</strong>
+        <br>• <b>Sığaç Üretece (Pile) Bağlı İken:</b> Sığacın uçlarındaki gerilim (V) pil devrede olduğu sürece kesinlikle <b>sabit kalır</b>. Levhalar arası mesafe (d) artırılırsa C azalır; V sabit olduğundan Q = C.V uyarınca depolanan yük (Q) azalır.
+        <br>• <b>Sığaç Pilden Çıkarıldıktan Sonra:</b> Sığacın üzerindeki yükü aktarabileceği bir yer kalmadığından depolanan yük (Q) kesinlikle <b>sabit kalır</b>. Levhalar arası mesafe (d) artırılırsa C azalır; Q sabit olduğundan Q = C.V uyarınca levhalar arası gerilim (V) artar.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Aralarında d = 20 cm mesafe bulunan iki paralel iletken levha, gerilimi V = 100 Volt olan bir üretece bağlanmıştır. Buna göre, levhalar arasındaki düzgün elektrik alanın şiddeti kaç Volt/metre'dir?</div>
+        <ul class="options-list">
+            <li>A) 5</li>
+            <li>B) 50</li>
+            <li>C) 200</li>
+            <li>D) 500</li>
+            <li>E) 2000</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Paralel levhalar arasındaki düzgün elektrik alan formülümüz E = V / d şeklindedir.
+            <br>• Formüldeki d mesafesinin birimi SI sisteminde metre (m) olmak zorundadır: d = 20 cm = 0.2 metre.
+            <br>• Verilenleri formülde yerlerine yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = 100 V / 0.2 m
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = 1000 / 2 = <b>500 V/m</b> (veya N/C) olarak elektrik alan şiddeti hesaplanır. Levhalar arasındaki her noktada bu değer aynıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sürtünmesiz yatay düzlemde durmakta olan m = 2.10<sup>-4</sup> kg kütleli ve q = +4.10<sup>-5</sup> C yüklü bir parçacık, aralarında d = 0.5 m mesafe bulunan ve V = 200 Volt gerilim uygulanan paralel levhaların (+) yüklü olanından serbest bırakılıyor. Parçacığın karşı levhaya çarpma ivmesi kaç m/s<sup>2</sup>'dir?</div>
+        <ul class="options-list">
+            <li>A) 20</li>
+            <li>B) 40</li>
+            <li>C) 80</li>
+            <li>D) 100</li>
+            <li>E) 200</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Parçacığın levhalar arasındaki hareket ivmesi formülünü uygulayalım: a = (q . V) / (m . d).
+            <br>• Üstel sayılara ve basamak çarpanlarına dikkat ederek verileri formüle dizelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a = (4.10<sup>-5</sup> . 200) / (2.10<sup>-4</sup> . 0.5)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a = (8.10<sup>-3</sup>) / (1.10<sup>-4</sup>)
+            <br>• Bölme işleminde tabanlar aynı olduğundan üsler çıkarılır (-3 - (-4) = 1):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a = 8 . 10<sup>1</sup> = <b>80 m/s<sup>2</sup></b> olarak parçacığın ivmesi elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir sığacın levhalarının yüzey alanı A, levhalar arası uzaklığı d ve yalıtkanlık katsayısı &epsilon; iken sığası C'dir. Sığacın levhalarının yüzey alanı 2A yapılıp, levhalar arasındaki mesafe yarıya (d/2) indirilirse sığanın yeni değeri kaç C olur?</div>
+        <ul class="options-list">
+            <li>A) 1/4</li>
+            <li>B) 1</li>
+            <li>C) 2</li>
+            <li>D) 4</li>
+            <li>E) 8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk durumdaki geometrik sığa tanımını yazalım: C = &epsilon; . A / d.
+            <br>• İkinci durumdaki yeni geometrik değişimleri yansıtan sığa ifadesini (C') kuralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; C' = &epsilon; . (2A) / (d / 2)
+            <br>• Paydadaki 1/2 ters çevrilip pay kısmındaki 2 ile çarpım durumuna geçer (2 . 2 = 4):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; C' = 4 . (&epsilon; . A / d)
+            <br>• İlk sığamız C tanımına eşit olduğundan, yeni sığa değeri tam <b>4C</b> olarak hesaplanır. Sığa 4 katına çıkmıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bir sığaç, gerilimi sabit bir üretece (pile) bağlı durumdayken levhaları arasındaki uzaklık (d) artırılıyor. Bu işlem sonucunda sığacın sığası (C), uçları arasındaki gerilim (V) ve depoladığı yük (Q) değerlerinden hangileri <b>azalır</b>?</div>
+        <ul class="options-list">
+            <li>A) Yalnız C</li>
+            <li>B) Yalnız Q</li>
+            <li>C) C ve Q</li>
+            <li>D) V ve Q</li>
+            <li>E) C, V ve Q</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Sığaç üretece <b>bağlı durumda</b> olduğu için, üretecin gerilimi neyse sığacın gerilimi de o olmak zorundadır. Yani <b>V gerilimi kesinlikle sabit kalır</b> (V değişmez).
+            <br>• Sığa formülünü inceleyelim: C = &epsilon; . A / d. Levhalar arası d mesafesi artırıldığı için sığa (C) değeri <b>azalır</b>.
+            <br>• Yük formülümüzü çalıştıralım: Q = C . V. Gerilim (V) sabitken, sığa (C) azaldığı için sığacın depolayabileceği yük miktarı (Q) da <b>azalır</b>.
+            <br>• Sonuç olarak C ve Q değerleri azalırken, V sabit kalmıştır. Bizden azalanlar istendiği için cevap C ve Q olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Sığası C = 4.&mu;F (Mikrofarad) olan bir kondansatör, V = 50 Volt'luk bir pil ile yükleniyor. Bu kondansatörün elektrik alanında depoladığı toplam enerji kaç Joule'dür? (1 &mu;F = 10<sup>-6</sup> F)</div>
+        <ul class="options-list">
+            <li>A) 5.10<sup>-3</sup></li>
+            <li>B) 1.10<sup>-2</sup></li>
+            <li>C) 5.10<sup>-2</sup></li>
+            <li>D) 2.10<sup>-1</sup></li>
+            <li>E) 5.10<sup>-4</sup></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bir kondansatörün depoladığı enerji formüllerinden sığa (C) ve gerilim (V) içeren kalıbı seçelim: E = (1 / 2) . C . V<sup>2</sup>.
+            <br>• C sığasının birimini Farad'a çevirerek formüle yazalım: C = 4 &mu;F = 4.10<sup>-6</sup> Farad.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = (1 / 2) . (4.10<sup>-6</sup>) . (50)<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = (2.10<sup>-6</sup>) . 2500
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = 5000 . 10<sup>-6</sup> = 5 . 10<sup>3</sup> . 10<sup>-6</sup> = <b>5.10<sup>-3</sup> Joule</b> olarak toplam depolanan enerji hesaplanır.
+        </div>
+    </div>
+
+</body>
+</html>

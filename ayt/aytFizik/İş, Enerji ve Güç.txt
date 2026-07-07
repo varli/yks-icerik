@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 5: İş, Enerji ve Güç</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 5: İŞ, ENERJİ VE GÜÇ</h1>
+        <p>Mekanik İş, Güç Kavramı, Kinetik ve Potansiyel Enerji Dönüşümleri, İş-Enerji Teoremi</p>
+    </div>
+
+    <h2>1. MEKANİK İŞ VE GÜÇ KAVRAMLARI</h2>
+    <p>Fiziksel anlamda <b>iş (W)</b>, bir kuvvete maruz kalan cismin kuvvet doğrultusunda yer değiştirmesiyle üretilen skaler bir büyüklüktür. Uygulanan F kuvveti ile cismin yer değiştirme (&Delta;x) vektörü arasındaki açı &alpha; ise iş formülü şu şekildedir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        W = F . &Delta;x . cos(&alpha;)
+    </p>
+    <p>Kuvvet ile hareket yönü aynı ise iş pozitif (+), kuvvet hareket yönüne zıt ise (sürtünme kuvveti gibi) iş negatiftir (-). Eğer kuvvet hareket doğrultusuna dik ise (cos90&deg;=0) mekanik anlamda <u>iş yapılmaz</u>.</p>
+    <p><b>Güç (P):</b> Birim zamanda yapılan iş ya da harcanan enerji miktarıdır. Birimi Watt (Joule/saniye) olan güç şu formülle ifade edilir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        P = W / t &nbsp; veya &nbsp; P = F . V<sub>ort</sub> &nbsp; (Kuvvet . Ortalama Hız)
+    </p>
+
+    <h2>2. MEKANİK ENERJİ TÜRLERİ VE MATEMATİKSEL MODELLERİ</h2>
+    <p>Bir cismin veya sistemin iş yapabilme yeteneğine <b>enerji</b> denir. Mekanik enerji, kinetik ve potansiyel enerjilerin toplamından oluşur.</p>
+    
+    <h3>A) Kinetik Enerji (E<sub>k</sub>)</h3>
+    <p>Cisimlerin yalnızca hızlarından (hareketlerinden) dolayı sahip oldukları enerji türüdür: <b>E<sub>k</sub> = (1 / 2) . m . V<sup>2</sup></b></p>
+
+    <h3>B) Potansiyel Enerji (E<sub>p</sub>)</h3>
+    <p>Cisimlerin konumlarından, durumlarından veya dizilimlerinden dolayı depoladıkları enerjidir:</p>
+    <ul>
+        <li><b>Yer Çekimi Potansiyel Enerjisi:</b> Yerden h kadar yükseklikteki m kütleli cismin kütle çekim alanında sahip olduğu enerjidir: <b>E<sub>p</sub> = m . g . h</b> (Cisimlerin kütle merkezi referans alınır).</li>
+        <li><b>Esneklik Potansiyel Enerjisi (Yay Enerjisi):</b> Esnek bir yayın x kadar sıkışması veya gerilmesiyle yayda depolanan enerjidir. Hooke Yasası'na (F = k.x) bağlı olarak şu şekilde hesaplanır: <b>E<sub>yay</sub> = (1 / 2) . k . x<sup>2</sup></b> (k: Yay sabiti).</li>
+    </ul>
+
+    <h2>3. İŞ - ENERJİ TEOREMİ VE ENERJİNİ KORUNUMU</h2>
+    <p>Fizikte iş ile enerji arasındaki bağ net bir teoremle açıklanır: **"Bir sistem üzerine yapılan net iş, o sistemin mekanik enerjisindeki değişime eşittir."**</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        W<sub>net</sub> = &Delta;E<sub>Mekanik</sub>
+    </p>
+    <div class="highlight-box">
+        <strong>Kuvvet Türlerine Göre Enerji Analizi:</strong>
+        <br>• Sürtünmelerin ihmal edildiği ve sisteme dışarıdan müdahale edilmediği durumlarda mekanik enerji daima korunur: <b>E<sub>ilk</sub> = E<sub>son</sub></b> (Kinetik potansiyele, potansiyel kinetiğe dönüşebilir ama toplam sabit kalır).
+        <br>• Sürtünmeli sistemlerde mekanik enerji korunmaz; enerjinin bir kısmı sürtünme kuvvetinin yaptığı negatif işten dolayı ısı enerjisine (E<sub>ısı</sub>) dönüşür: <b>E<sub>ilk</sub> = E<sub>son</sub> + E<sub>ısı</sub></b> &nbsp; | &nbsp; <b>E<sub>ısı</sub> = F<sub>s</sub> . &Delta;x</b>.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sürtünmesiz yatay düzlemde durmakta olan m = 2 kg kütleli bir bloka yatay doğrultuda F = 10 N'lik bir kuvvet uygulanıyor. Bu kuvvet cismi x = 5 metre boyunca ittiğine göre, kuvvetin yaptığı iş kaç Joule'dür ve cismin bu yol sonundaki kinetik enerjisi ne olur?</div>
+        <ul class="options-list">
+            <li>A) 20 J , 20 J</li>
+            <li>B) 50 J , 25 J</li>
+            <li>C) 50 J , 50 J</li>
+            <li>D) 100 J , 50 J</li>
+            <li>E) 50 J , 100 J</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak uygulanan kuvvetin yaptığı mekanik işi (W) hesaplayalım. Kuvvet ve yer değiştirme aynı doğrultuda olduğu için açı etkisi yoktur (cos0&deg; = 1):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; W = F . &Delta;x = 10 . 5 = <b>50 Joule</b>.
+            <br>• İş-Enerji Teoremi uyarınca, net kuvvetin yaptığı iş cismin mekanik enerjisindeki değişime eşittir (W<sub>net</sub> = &Delta;E).
+            <br>• Cisim yatay düzlemde hareket ettiğinden potansiyel enerjisi değişmez, tüm enerji değişimi kinetik enerjide meydana gelir.
+            <br>• Cisim başlangıçta durmakta olduğundan (E<sub>k(ilk)</sub> = 0):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; W = E<sub>k(son)</sub> - E<sub>k(ilk)</sub>  &rarr;  50 = E<sub>k(son)</sub> - 0  &rarr;  <b>E<sub>k(son)</sub> = 50 Joule</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Kütlesi m = 4 kg olan bir cisim yerden h = 20 metre yükseklikten serbest bırakılıyor. Hava direncinin ihmal edildiği bu ortamda, cismin tam yarı yükseklikten (h = 10 m) geçerken sahip olduğu kinetik enerji kaç Joule'dür? (g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 200</li>
+            <li>B) 400</li>
+            <li>C) 600</li>
+            <li>D) 800</li>
+            <li>E) 1000</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hava direnci ihmal edildiği için sistemde mekanik enerji tamamen korunacaktır: E<sub>ilk</sub> = E<sub>son</sub>.
+            <br>• Cismin en üst noktadaki (h = 20 m) ilk hızı sıfır olduğundan sadece potansiyel enerjisi vardır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>ilk</sub> = E<sub>p(ilk)</sub> = m . g . h<sub>ilk</sub> = 4 . 10 . 20 = <b>800 Joule</b>.
+            <br>• Cismin yarı yüksekliğe (h = 10 m) geldiği andaki potansiyel enerjisini hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>p(son)</sub> = m . g . h<sub>son</sub> = 4 . 10 . 10 = <b>400 Joule</b>.
+            <br>• Enerji korunumu gereği, toplam mekanik enerji 800 J sabit kalmalıdır. Bu noktadaki kinetik enerjiyi bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>ilk</sub> = E<sub>p(son)</sub> + E<sub>k(son)</sub>  &rarr;  800 = 400 + E<sub>k(son)</sub>  &rarr;  <b>E<sub>k(son)</sub> = 400 Joule</b> olarak bulunur.
+            <br>• <i>Kısa Yorum:</i> Cisim tam yarı yola geldiğinde potansiyel enerjisinin tam yarısını kaybetmiş, bu kaybolan yarı değer (400 J) tamamen kinetik enerjiye dönüşmüştür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Yay sabiti k = 200 N/m olan esnek bir yay, denge konumundan x = 0.5 metre kadar sıkıştırılıyor. Bu yayda depolanan esnelik potansiyel enerjisi kaç Joule'dür?</div>
+        <ul class="options-list">
+            <li>A) 25</li>
+            <li>B) 50</li>
+            <li>C) 100</li>
+            <li>D) 200</li>
+            <li>E) 400</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Esneklik potansiyel enerjisinin matematiksel modelini doğrudan uygulayalım: E<sub>yay</sub> = (1 / 2) . k . x<sup>2</sup>.
+            <br>• Soruda verilen k = 200 N/m ve uzama/sıkışma miktarı x = 0.5 m değerlerini formülde yerlerine koyalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>yay</sub> = (1 / 2) . 200 . (0.5)<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>yay</sub> = 100 . (0.25)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>yay</sub> = <b>25 Joule</b> olarak yayda depolanan enerji hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Kütlesi m = 3 kg olan bir cisim, sürtünmeli yatay bir düzleme V = 10 m/s ilk hızla fırlatılıyor. Cisim yüzeyde x = 5 metre ilerledikten sonra tamamen durduğuna göre, cisim ile yüzey arasındaki sürtünme kuvveti (F<sub>s</sub>) kaç N'dir?</div>
+        <ul class="options-list">
+            <li>A) 10</li>
+            <li>B) 15</li>
+            <li>C) 20</li>
+            <li>D) 30</li>
+            <li>E) 45</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Cisim fırlatıldığı anda sadece kinetik enerjiye sahiptir. Bu ilk mekanik enerjiyi hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>ilk</sub> = (1 / 2) . m . V<sup>2</sup> = (1 / 2) . 3 . (10)<sup>2</sup> = (1 / 2) . 3 . 100 = <b>150 Joule</b>.
+            <br>• Cisim 5 metre sonra tamamen durduğu için son kinetik enerjisi sıfır olur (E<sub>son</sub> = 0).
+            <br>• Sürtünmeli sistemlerde enerji korunumu dengesine göre, başlangıçtaki kinetik enerjinin tamamı sürtünmeden dolayı ısı enerjisine dönüşmüştür:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>ilk</sub> = E<sub>ısı</sub>  &rarr;  150 = F<sub>s</sub> . x
+            <br>• x = 5 metre yol bilgisini yerine yazarak sürtünme kuvvetini çekelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 150 = F<sub>s</sub> . 5  &rarr;  F<sub>s</sub> = 150 / 5  &rarr;  <b>F<sub>s</sub> = 30 N</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Bir elektrik motoru, m = 50 kg kütleli bir yükü sabit hızla t = 10 saniyede h = 4 metre yüksekliğe çıkarmaktadır. Bu işlem sırasında motorun harcadığı elektriksel güç kaç Watt'tır? (g = 10 m/s<sup>2</sup>, sürtünmeler ve motor mekanik kayıpları ihmal edilmiştir.)</div>
+        <ul class="options-list">
+            <li>A) 100</li>
+            <li>B) 200</li>
+            <li>C) 300</li>
+            <li>D) 400</li>
+            <li>E) 500</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Motorun cismi yukarı çıkarırken yer çekimine karşı yaptığı mekanik iş, cismin kazandığı potansiyel enerji miktarına (m.g.h) eşittir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; W = &Delta;E<sub>p</sub> = m . g . h
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; W = 50 . 10 . 4 = <b>2000 Joule</b>.
+            <br>• Güç (P), birim zamanda yapılan iş formülüyle bulunuyordu (P = W / t).
+            <br>• Yapılan 2000 J'lük iş, t = 10 saniyede gerçekleştiğine göre gücü oranlayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; P = 2000 / 10 = <b>200 Watt</b> olarak motorun gücü hesaplanır.
+        </div>
+    </div>
+
+</body>
+</html>

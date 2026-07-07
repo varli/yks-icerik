@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 18: Elektromanyetik Dalgalar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #4a2e1b; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e0d0c5; }
+        h2 { color: #4a2e1b; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #6e4428; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7edf0; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #4a2e1b; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #6e4428; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #6e4428; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 18: ELEKTROMANYETİK DALGALAR</h1>
+        <p>Maxwell Denklemleri, EM Dalgaların Doğuşu, Vektörel Yön Analizi ve Elektromanyetik Spektrum</p>
+    </div>
+
+    <h2>1. MAXWELL DENKLEMLERİ VE EM DALGALARIN DOĞUŞU</h2>
+    <p>Klasik fizik döneminde elektrik ve manyetizma birbirinden bağımsız iki ayrı disiplin olarak görülüyordu. James Clerk Maxwell, kendisinden önceki Gauss, Faraday ve Ampere kanunlarını matematiksel olarak birleştirip modifiye ederek elektrik ve manyetizmanın aynı madalyonun iki yüzü olduğunu kanıtlayan 4 meşhur denklem ortaya koymuştur:</p>
+    <ol>
+        <li><b>Gauss Yasası (Elektrik İçin):</b> Elektrik yüklerinin çevrelerinde bir elektrik alan oluşturduğunu ve durgun elektrik yüklerinin izole edilebileceğini (tekil + veya - yük olabileceğini) söyler.</li>
+        <li><b>Gauss Yasası (Manyetizma İçin):</b> Doğada asla tekil bir manyetik kutup (yalnızca N veya yalnızca S) bulunamayacağını, manyetik alan çizgilerinin daima kapalı eğriler olduğunu belirtir. Net manyetik akı sıfırdır.</li>
+        <li><b>Faraday İndüksiyon Yasası:</b> Zamanla değişen bir manyetik alanın, ortamda bir elektrik alan indüklediğini (ürettiğini) söyler.</li>
+        <li><b>Ampere - Maxwell Yasası:</b> Akım geçen tellerin manyetik alan oluşturmasının yanı sıra, **zamanla değişen bir elektrik alanın (akı değişiminin) da ortamda bir manyetik alan ürettiğini** kanıtlar.</li>
+    </ol>
+    <p><b>Oluşum Mekanizması:</b> Maxwell bu teoriden yola çıkarak şunu fark etmiştir: İvmeli hareket yapan (hızlanan, yavaşlayan veya titreşen) bir elektrik yükü, zamanla değişen bir elektrik alan yaratır. Bu değişken elektrik alan bir manyetik alan doğurur. Oluşan değişken manyetik alan da tekrar bir elektrik alan doğurur. Bu döngü, birbirini sürekli doğurarak uzayda ışık hızıyla yayılan **Elektromanyetik Dalgaları** meydana getirir. Dolayısıyla EM dalgaların kaynağı kesinlikle <b>yüklerin ivmeli hareketidir</b>.</p>
+
+    <h2>2. ELEKTROMANYETİK DALGALARIN GENEL ÖZELLİKLERİ</h2>
+    <p>Tüm elektromanyetik dalgalar, enerjilerine veya frekanslarına bakılmaksızın evrende ortak fiziksel kurallara tabidirler:</p>
+    <ul>
+        <li>Yüklerin ivmeli hareketi sonucu üretilirler ancak kendileri kesinlikle <b>nötrdür (yüksüzdür)</b>. Bu yüzden elektrik ve manyetik alanlardan geçerken sapmaya uğramazlar.</li>
+        <li>Mekanik dalgaların (Ses, deprem, su) aksine yayılabilmek için maddesel bir ortama ihtiyaç duymazlar; <b>boşlukta da yayılabilirler</b>.</li>
+        <li>Boşlukta (vakumda) tamamı **ışık hızıyla (c &asymp; 3.10<sup>8</sup> m/s)** yayılırlar. Maddesel bir ortama (cam, su vb.) girdiklerinde ortalama süratleri azalır.</li>
+        <li>Tamamı <b>enine dalgalardır</b>. Elektrik alan ($\vec{E}$), manyetik alan ($\vec{B}$) ve dalganın yayılma yönü ($\vec{c}$) vektörleri **birbirine daima diktir**.</li>
+        <li>Herhangi bir t anında elektrik alan şiddetinin manyetik alan şiddetine oranı sabittir ve ışık hızına eşittir: <b>E / B = c</b></li>
+        <li>Enerji, momentum ve basınç taşırlar. Yüzeylere çarptıklarında **radyasyon basıncı** uygularlar. Doğrusal olarak yayılırlar, yansıma, kırılma, girişim ve polarlanma (kutuplanma) yapabilirler.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>⚠️ EM DALGADA SAĞ EL KURALI VE YÖN ANALİZİ:</strong>
+        <br>Dalganın yayılma yönü, elektrik ve manyetik alan vektörlerinin vektörel çarpımı ($\vec{E} \times \vec{B}$) yönündedir:
+        <br>• Sağ elin düz tutulan <b>dört parmağı elektrik alan ($\vec{E}$) yönünü</b> gösterecek şekilde tutulur.
+        <br>• Avuç içi <b>manyetik alan ($\vec{B}$) yönüne</b> bakacak şekilde el büküldüğünde, bunlara dik olarak açılan <b>başparmak dalganın yayılma yönünü ($\vec{c}$)</b> gösterir.
+    </div>
+
+    <h2>3. ELEKTROMANYETİK DALGA SPEKTRUMU (TAYFI)</h2>
+    <p>EM dalgalar, dalga boyları ve frekanslarına göre dizildiğinde dev bir spektrum oluştururlar. Spektrumda <b>Radyo Dalgalarından Gama Işınlarına doğru gidildikçe: Frekans (f) ve Enerji (E) artar, Dalga Boyu (&lambda;) azalır.</b></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Dalga Türü</th>
+                <th>Karakteristik Özelliği ve Teknolojik Kullanım Alanı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Radyo Dalgaları</b></td>
+                <td>En büyük dalga boyuna, en küçük frekans ve enerjiye sahiptir. Radyo, TV ve telsiz iletişiminde kullanılır.</td>
+            </tr>
+            <tr>
+                <td><b>Mikrodalgalar</b></td>
+                <td>Radarlarda (hız tespiti), GPS sistemlerinde, cep telefonlarında ve mikrodalga fırınlarda (su moleküllerini titreştirerek) kullanılır.</td>
+            </tr>
+            <tr>
+                <td><b>Kızılötesi Işınlar (Infrared)</b></td>
+                <td>Sıcak cisimler tarafından yayılır (Termal ışıma). Gece görüş kameralarında, TV kumandalarında ve tıbbi termografilerde kullanılır.</td>
+            </tr>
+            <tr>
+                <td><b>Görünür Işık</b></td>
+                <td>İnsan gözünün algılayabildiği çok dar bir spektrum bandıdır (Kırmızıdan mora). Kaynağı elektron geçişleridir.</td>
+            </tr>
+            <tr>
+                <td><b>Morötesi Işınlar (UV)</b></td>
+                <td>Enerjisi görünür ışıktan büyüktür. Güneş ışınlarında bulunur. Sterilizasyonda (bakteri öldürme) ve sahte para tespitinde kullanılır.</td>
+            </tr>
+            <tr>
+                <td><b>X-Işınları</b></td>
+                <td>Yüksek enerjili elektronların metal hedefe çarptırılarak yavaşlatılmasıyla (ivmeli hareket) üretilir. Röntgen ve tomografi (BT) cihazlarında kullanılır. Canlı dokuya zarar verebilir.</td>
+            </tr>
+            <tr>
+                <td><b>Gama Işınları (&gamma;)</b></td>
+                <td>En büyük frekansa, en yüksek enerjiye ve en küçük dalga boyuna sahiptir. **Çekirdek tepkimeleri (radyoaktivite)** sonucu üretilir. Kanser tedavisinde (radyoterapi) ve nükleer sanayide kullanılır. İyonlaştırıcı ve ölümcül etkisi en yüksek dalgadır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Aşağıda verilen fiziksel durumlardan hangisi bir elektromanyetik dalganın <b>doğrudan üretilmesini</b> sağlayabilir?</div>
+        <ul class="options-list">
+            <li>A) Doğrusal bir telden sabit doğru akım (DC) geçirmek</li>
+            <li>B) Durgun bir protonu yalıtkan bir zemin üzerinde bekletmek</li>
+            <li>C) Bir elektronu paralel levhalar arasında sabit ivmeyle hızlandırmak</li>
+            <li>D) Bir nötronu yüksek hızda düzgün doğrusal harekete geçirmek</li>
+            <li>E) Akım geçen teli sabit hızla döndürmek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Elektromanyetik dalgaların üretilebilmesi için temel ve mutlak şart, **yüklü bir parçacığın ivmeli hareket yapmasıdır** (hızlanması, yavaşlaması veya titreşmesi).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A şıkkında sabit akım durgun manyetik alan üretir, dalga üretmez.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - B şıkkında durgun proton sadece sabit elektrik alan üretir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - D şıkkında nötron yüksüz (nötr) bir parçacık olduğundan ivmelense bile EM dalga üretemez.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - C şıkkında ise elektron yüklü bir parçacıktır ve paralel levhalar arasında elektriksel kuvvetten dolayı **sabit ivmeli hareket (hızlanma)** yapmaktadır. Bu ivmeli hareket zamanla değişen alanlar doğurarak EM dalgayı doğrudan var eder.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bir elektromanyetik dalganın herhangi bir t anındaki elektrik alan vektörü pozitif y ekseni yönünde (+y), manyetik alan vektörü ise pozitif z ekseni yönündedir (+z). Buna göre, sağ el kuralı işletildiğinde bu dalganın uzaydaki yayılma yönü (ışık hızı vektörü) hangi eksen yönündedir?</div>
+        <ul class="options-list">
+            <li>A) +x</li>
+            <li>B) -x</li>
+            <li>C) +y</li>
+            <li>=D) -z</li>
+            <li>E) +z</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• EM dalgalarda yön bulma kuralı $\vec{E} \times \vec{B}$ vektörel çarpım yönüyle, yani Sağ El Kuralıyla çözülür.
+            <br>• Koordinat sistemini gözümüzde canlandırarak sağ elimizi yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Sağ elin düz tutulan dört parmağı elektrik alan yönünde, yani <b>YUKARI (+y)</b> doğru uzatılır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Avuç içi manyetik alan yönüne bakmalıdır. +z ekseni sayfa düzleminden dışarı doğru (bize doğru) bir eksendir. O halde avucumuzu <b>BİZE DOĞRU (+z)</b> çeviririz.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Bu konumdayken dik olarak açılan başparmağımız tam olarak sağ tarafı, yani koordinat eksenindeki <b>pozitif x eksenini (+x)</b> göstermektedir.
+            <br>• Dolayısıyla dalganın yayılma doğrultusu ve yönü +x yönüdür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Boşlukta yayılmakta olan morötesi (UV) ışınları ile radyo dalgaları kıyaslandığında; I. Boşluktaki yayılma hızları, II. Frekansları, III. Taşıdıkları enerji değerlerinden hangileri morötesi ışınlar için <b>daha büyüktür</b>?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve II</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Elektromanyetik spektrum kurallarını hatırlayalım. Radyo dalgalarından gama ışınlarına doğru gidildikçe frekans ve enerji artarken, dalga boyu azalır.
+            <br>• Morötesi (UV) ışınlar spektrumda radyo dalgalarına göre çok daha sağda (gamaya yakın) yer alır. Bu yüzden morötesi ışınların **frekansı (II) ve taşıdığı enerji (III)** radyo dalgalarından kesinlikle daha büyüktür.
+            <br>• Ancak I. öncüldeki "Boşluktaki yayılma hızları" tüm EM dalgalar için sabit bir evrensel değerdir ve tamamı boşlukta istisnasız **ışık hızıyla (c)** yayılır. Hızları birbirine eşittir, bu yüzden I. öncül yanlıştır. Cevap II ve III olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bir elektromanyetik dalganın elektrik alan şiddetinin maksimum değeri E = 300 N/C'dir. Buna göre, bu dalganın aynı andaki manyetik alan şiddetinin (B) maksimum değeri kaç Tesla olur? (Işık hızı c = 3.10<sup>8</sup> m/s)</div>
+        <ul class="options-list">
+            <li>A) 1.10<sup>-6</sup></li>
+            <li>B) 1.10<sup>6</sup></li>
+            <li>C) 9.10<sup>10</sup></li>
+            <li>D) 1.10<sup>-4</sup></li>
+            <li>E) 3.10<sup>-6</sup></li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Elektromanyetik dalgalarda herhangi bir andaki elektrik alan şiddetinin manyetik alan şiddetine oranı ışık hızına eşittir: E / B = c.
+            <br>• Bizden manyetik alan (B) istendiği için formülü düzenleyelim: B = E / c.
+            <br>• Verilen E = 300 ve c = 3.10<sup>8</sup> m/s değerlerini yerlerine yazarak üstel bölme işlemini yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; B = 300 / (3 . 10<sup>8</sup>)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; B = (3 . 10<sup>2</sup>) / (3 . 10<sup>8</sup>)
+            <br>• 3'ler sadeleşir, üsler çıkarılır (2 - 8 = -6):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; B = 1 . 10<sup>-6</sup> Tesla olarak maksimum manyetik alan şiddeti hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Tıbbi görüntüleme tekniklerinde kullanılan X-ışınları ve Bilgisayarlı Tomografi (BT) cihazları ile ilgili; I. Canlı dokulara iyonlaştırıcı radyasyon zararı verebilirler, II. Boşlukta yayılabilirler, III. Elektrik alandan geçerken (+) yüklü levhaya doğru saparlar yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• X-ışınlarının ve genel olarak EM dalgaların özelliklerini test edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: X-ışınları yüksek frekanslı ve yüksek enerjili dalgalar olduğundan iyonlaştırıcı etkiye sahiptirler; hücre yapısını bozarak canlı dokuya zarar verebilirler (Bu yüzden hamilelerin röntgen odalarına girmesi yasaktır). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: X-ışınları bir elektromanyetik dalga türü olduğundan yayılmak için ortama ihtiyaç duymaz, boşlukta ışık hızıyla yayılır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Tüm EM dalgalar gibi X-ışınları da kesinlikle <b>yüksüzdür (nötrdür)</b>. Yüksüz oldukları için elektrik veya manyetik alanlardan geçerken hiçbir kuvvet maruz kalmazlar ve kesinlikle <u>sapmadan düz yollarına devam ederler</u>. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

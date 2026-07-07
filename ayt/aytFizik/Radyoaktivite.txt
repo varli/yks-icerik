@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 20: Radyoaktivite</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #4a2e1b; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e0d0c5; }
+        h2 { color: #4a2e1b; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #6e4428; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7edf0; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #4a2e1b; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #6e4428; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #6e4428; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 20: RADYOAKTİVITE</h1>
+        <p>Çekirdek Kararlılığı, Alfa, Beta ve Gama Bozunmaları, Nükleer Fisyon ve Füzyon Reaksiyonları</p>
+    </div>
+
+    <h2>1. ÇEKİRDEK KARARLILIĞI VE RADYOAKTİVİTE KAVRAMI</h2>
+    <p>Atom çekirdeğindeki protonları ve nötronları bir arada tutan güçlü nükleer kuvvet ile protonların birbirini itmesini sağlayan elektromanyetik kuvvet arasındaki denge, çekirdeğin kararlı olup olmadığını belirler. Bir çekirdeğin **Nötron sayısının (N) Proton sayısına (Z) oranı** yaklaşık 1 ile 1.5 arasında olduğunda çekirdek kararlıdır. Bu oranın dışındaki kararsız (yüksek enerjili) çekirdeklerin, kendiliğinden dışarıya parçacık veya elektromanyetik dalga yayarak daha kararlı alt çekirdeklere dönüşmesi olayına <b>radyoaktivite (radyoaktif bozunma)</b> denir.</p>
+    
+    <h2>2. DOĞAL RADYOAKTİF BOZUNMA TÜRLERİ</h2>
+    <p>Kararsız bir X atom çekirdeği ($_{Z}^{A}X$, A: Kütle No, Z: Atom No) kararlı hale gelebilmek için üç ana ışıma tipinden birini veya birkaçını gerçekleştirir:</p>
+    
+    <h3>A) Alfa (&alpha;) Bozunması</h3>
+    <p>Çekirdeğin çok ağır olması durumunda (genellikle Z > 83), kütle azaltmak için dışarıya **bir Helyum çekirdeği ($_{2}^{4}He$)** fırlatması olayıdır. Alfa parçacığı yayan bir atomun:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 8px 0;">
+        Kütle Numarası (A) 4 azalır &nbsp; | &nbsp; Atom Numarası (Z) 2 azalır.
+    </p>
+
+    <h3>B) Beta (&beta;) Bozunmaları</h3>
+    <p>Çekirdekteki nötron veya proton dengesizliğini çözmek için zayıf nükleer kuvvet aracılığıyla gerçekleşen parçacık bozunmalarıdır. İki çeşittir:</p>
+    <ul>
+        <li><b>Beta Eksi (&beta;⁻) Bozunması:</b> Çekirdekteki nötron sayısı çok fazla olduğunda, bir nötron protona dönüşür ($n \rightarrow p + e^- + \bar{\nu}_e$). Dışarıya bir elektron fırlatılır. Atomun **Kütle numarası (A) değişmez, Atom numarası (Z) 1 artar**.</li>
+        <li><b>Beta Artı (&beta;⁺) Bozunması:</b> Çekirdekteki proton sayısı fazla olduğunda, bir proton nötrona dönüşür ($p \rightarrow n + e^+ + \nu_e$). Dışarıya elektronun antimaddesi olan bir pozitron fırlatılır. Atomun **Kütle numarası (A) değişmez, Atom numarası (Z) 1 azalır**.</li>
+    </ul>
+
+    <h3>C) Gama (&gamma;) Bozunması</h3>
+    <p>Alfa veya Beta bozunması geçirmiş bir çekirdek hala yüksek enerjili (uyarılmış) durumda olabilir. Bu uyarılmış çekirdeğin, fazla enerjisini dışarıya **yüksek enerjili bir foton (Gama ışını)** olarak salması olayıdır. Saf bir enerji yayılımı olduğundan, gama ışıması yapan bir atomun **Kütle numarası (A) ve Atom numarası (Z) kesinlikle değişmez**, sadece çekirdeğin enerji seviyesi düşer.</p>
+
+    <h2>3. YAPAY RADYOAKTİVİTE: FİSYON VE FÜZYON</h2>
+    <p>Doğal bozunmaların aksine, çekirdeklerin dışarıdan nötron gibi parçacıklarla bombardıman edilerek reaksiyona zorlanmasıdır. Muazzam miktarda enerji ($E = \Delta m \cdot c^2$) açığa çıkarırlar:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Reaksiyon Türü</th>
+                <th>Fiziksel Dönüşüm Mekanizması</th>
+                <th>Önemli Özellikleri ve Güncel Kullanım Alanı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Fisyon (Çekirdek Bölünmesi)</b></td>
+                <td>Ağır kararsız bir çekirdeğin (Uranyum, Plütonyum), bir nötron yutarak daha hafif ve kararlı iki veya daha fazla çekirdeğe parçalanmasıdır.</td>
+                <td>Nükleer santrallerde kontrollü olarak elektrik üretiminde ve atom bombasında (kontrolsüz zincirleme reaksiyon) kullanılır. Atıkları radyoktiftir.</td>
+            </tr>
+            <tr>
+                <td><b>Füzyon (Çekirdek Birleşmesi)</b></td>
+                <td>Hafif iki çekirdeğin (Hidrojen izotopları: Döteryum ve Trityum), çok yüksek sıcaklıkta birleşerek daha ağır bir çekirdek (Helyum) oluşturmasıdır.</td>
+                <td><b>Güneş ve yıldızların enerji kaynağıdır</b>. Birim kütle başına ürettiği enerji fisyondan çok daha fazladır. Atıkları temizdir ancak kontrolü çok zordur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Kararsız $_{92}^{238}U$ (Uranyum) çekirdeği ardışık radyoaktif bozunmalar geçirerek daha kararlı olan $_{82}^{206}Pb$ (Kurşun) çekirdeğine dönüşmektedir. Bu dönüşüm sürecinde çekirdek toplam kaç adet Alfa (&alpha;) ve kaç adet Beta Eksi (&beta;⁻) bozunması yapmıştır?</div>
+        <ul class="options-list">
+            <li>A) 8 &alpha; , 6 &beta;⁻</li>
+            <li>B) 6 &alpha; , 4 &beta;⁻</li>
+            <li>C) 8 &alpha; , 4 &beta;⁻</li>
+            <li>D) 4 &alpha; , 2 &beta;⁻</li>
+            <li>E) 8 &alpha; , 8 &beta;⁻</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Beta bozunması kütle numarasını (A) etkilemediği için, ilk olarak kütle numarası değişiminden salınan Alfa (&alpha;) parçacığı sayısını bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; İlk Kütle No = 238 , Son Kütle No = 206 &rarr; Azalma miktarı = 238 - 206 = 32.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Her bir Alfa parçacığı ($_{2}^{4}He$) kütleyi 4 azalttığına göre: Alfa Sayısı = 32 / 4 = <b>8 adet Alfa bozunması</b> gerçekleşmiştir.
+            <br>• Şimdi atom numarası (Z) dengesini kuralım. 8 Alfa bozunması atom numarasını 8 . 2 = 16 azaltmalıdır. Uranyumun ilk atom numarası 92 olduğuna göre beklenen yeni atom numarası: 92 - 16 = 76 olmalıdır.
+            <br>• Ancak Kurşunun son atom numarası 82 olarak verilmiştir. Fark: 82 - 76 = 6 birimlik bir artış söz konusudur.
+            <br>• Her bir Beta Eksi (&beta;⁻) bozunması atom numarasını 1 artırdığına göre, bu 6 birimlik fark için tam <b>6 adet Beta Eksi bozunması</b> yapılmış olmalıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Radyoaktif bir X çekirdeği uyarılmış durumdan temel enerji durumuna geçerken dışarıya yüksek enerjili elektromanyetik ışınım salmaktadır. Bu ışıma türü aşağıdakilerden hangisidir ve X atomunun kütle numarası nasıl değişir?</div>
+        <ul class="options-list">
+            <li>A) Alfa ışıması, 4 azalır</li>
+            <li>B) Beta Artı ışıması, değişmez</li>
+            <li>C) Gama ışıması, değişmez</li>
+            <li>D) Beta Eksi ışıması, 1 artar</li>
+            <li>E) Gama ışıması, 2 azalır</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Soruda "uyarılmış bir çekirdeğin temel enerji durumuna geçmesi" ve dışarıya "elektromanyetik ışınım (foton)" salması durumları net olarak tarif edilmiştir. Parçacık fırlatılmamaktadır.
+            <br>• Uyarılmış çekirdeklerin fazla enerjilerini foton olarak salması olayı net bir şekilde <b>Gama (&gamma;) bozunmasıdır</b>.
+            <br>• Gama bozunması saf bir enerji yayılımı (foton transferi) olduğundan, çekirdeğin nötron veya proton yapısını/sayısını sayısal olarak değiştirmez. Bu yüzden atomun kütle numarası (A) ve atom numarası (Z) kesinlikle <b>değişmez (sabit kalır)</b>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Nükleer fizik uygulamalarında karşılaşılan Fisyon ve Füzyon reaksiyonları ile ilgili; I. Fisyon, ağır bir çekirdeğin bölünmesi olayıdır, II. Füzyon, hafif çekirdeklerin birleşmesi olayıdır, III. Güneş'in devasa enerji kaynağı kontrolsüz bir nükleer fisyon reaksiyonudur yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yapay çekirdek tepkimelerinin tanımlarını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Fisyon kelime anlamı olarak bölünmedir; Uranyum gibi kararsız ağır atomların bölünmesini ifade eder. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Füzyon kelime anlamı olarak birleşmedir; Hidrojen izotoplarının birleşerek Helyum oluşturmasını ifade eder. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Güneş ve diğer tüm aktif yıldızların enerji mekanizması hafif hidrojen çekirdeklerinin birleşmesine, yani **Füzyon** reaksiyonuna dayanır. Öncülde fisyon denildiği için bu ifade kavramsal olarak yanlıştır. Cevap I ve II olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bir radyoaktif element numunesinin başlangıçtaki kütlesi 80 gramdır. Bu elementin yarı ömrü (t<sub>1/2</sub>) 4 gün olduğuna göre, tam 12 gün sonra numunede bozunmadan kalan radyoaktif kütle kaç gram olur?</div>
+        <ul class="options-list">
+            <li>A) 40</li>
+            <li>B) 20</li>
+            <li>C) 10</li>
+            <li>D) 5</li>
+            <li>E) 2.5</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yarı ömür, bir radyoaktif maddenin başlangıçtaki kütlesinin tam olarak yarısına inmesi için geçen süredir.
+            <br>• Toplam geçen süre 12 gün ve yarı ömür 4 gün olduğuna göre, numune toplam n = 12 / 4 = <b>3 kez yarılanma</b> döngüsü geçirecektir.
+            <br>• Adım adım kütleyi her döngüde yarıya indirerek hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Başlangıç: 80 gram
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 1. Yarılanma (4. gün sonu): 80 / 2 = 40 gram kalan.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 2. Yarılanma (8. gün sonu): 40 / 2 = 20 gram kalan.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 3. Yarılanma (12. gün sonu): 20 / 2 = <b>10 gram bozunmadan kalan</b> kütle olarak elde edilir. (Bozunan miktar istenseydi 80 - 10 = 70 gram olurdu).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kararsız bir çekirdek Beta Artı (&beta;⁺) bozunması geçirdiğinde; I. Çekirdekteki bir proton nötrona dönüşmüştür, II. Dışarıya bir pozitron fırlatılmıştır, III. Çekirdeğin kütle numarası 1 azalmıştır yargılarından hangileri gerçekleşir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Beta Artı (&beta;⁺) bozunmasının iç mekanizmasını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Çekirdekte proton fazlalığı olduğunda, bir proton zayıf nükleer kuvvet etkisiyle bozunarak bir nötrona, bir pozitrona ve bir nötrinoya dönüşür ($p \rightarrow n + e^+$). Dolayısıyla proton nötrona dönüşmüştür ifadesi <b>doğrudur</b>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Reaksiyon sonucunda dışarı fırlatılan artı yüklü parçacık ($e^+$) elektronun antimaddesi olan pozitondur. Bu da <b>doğrudur</b>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Bir proton azalırken yerine bir nötron geldiği için toplam nükleon (Proton+Nötron) sayısı, yani kütle numarası (A) <b>kesinlikle değişmez, sabit kalır</b>. Üçüncü öncül azaldı dediği için yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

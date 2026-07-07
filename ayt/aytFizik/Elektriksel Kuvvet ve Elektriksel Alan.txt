@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 9: Elektriksel Kuvvet ve Elektriksel Alan</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 9: ELEKTRİKSEL KUVVET VE ELEKTRİKSEL ALAN</h1>
+        <p>Coulomb Yasası, Vektörel Kuvvet Analizi, Noktasal Elektrik Alan ve Yüklü İletken Kürelerin Alan Dağılımları</p>
+    </div>
+
+    <h2>1. ELEKTRİKSEL KUVVET (COULOMB YASASI)</h2>
+    <p>Doğada durgun elektrik yüklerinin birbirine uyguladığı itme veya çekme kuvvetine <b>elektriksel kuvvet (F)</b> denir. Bu kuvvet, yüklerin işaretine göre yön kazanır: Aynı işaretli yükler birbirini iterken, zıt işaretli yükler birbirini çeker. Kuvvetin büyüklüğü, yüklerin çarpımı ile doğru, aralarındaki uzaklığın karesi ile ters orantılıdır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        F = k . (q<sub>1</sub> . q<sub>2</sub>) / d<sup>2</sup>
+    </p>
+    <p>Burada <b>k</b>, ortamın dielektrik katsayısına bağlı olan Coulomb sabitidir (Boşluk için k &asymp; 9.10<sup>9</sup> N.m<sup>2</sup>/C<sup>2</sup>). Elektriksel kuvvet <b>vektörel</b> bir büyüklüktür. Newton'ın etki-tepki yasası gereği, iki yükün birbirine uyguladığı kuvvetlerin büyüklükleri yük miktarlarından bağımsız olarak daima birbirine <u>eşit</u>, yönleri ise tam zıttır (F<sub>12</sub> = -F<sub>21</sub>).</p>
+
+    <h2>2. ELEKTRİKSEL ALAN KAVRAMI</h2>
+    <p>Bir elektrik yükünün çevresinde elektriksel özelliklerini gösterebildiği ve diğer yüklere kuvvet uygulayabildiği uzay boşluğuna <b>elektriksel alan (E)</b> denir. Teorik olarak, bir Q yükünün kendisinden d kadar uzaklıktaki bir noktada oluşturduğu elektrik alanı bulmak için, o noktada <b>+1 Coulomb'luk (+1 C) hayalî bir test yükü</b> olduğu kabul edilir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        E = F / q<sub>test</sub> &nbsp; &rArr; &nbsp; E = k . Q / d<sup>2</sup>
+    </p>
+    <p>Elektrik alan vektörel bir büyüklüktür ve birimi N/C'dir (veya V/m). Yönü, +1 C'lik yüke uygulanan kuvvet doğrultusundadır. Dolayısıyla, <b>pozitif (+) yüklerin elektrik alan vektörleri kendinden dışarı doğru, negatif (-) yüklerin elektrik alan vektörleri ise kendine içeri doğrudur</b>.</p>
+
+    <div class="highlight-box">
+        <strong>💡 ELEKTRİK ALAN ÇİZGİLERİNİN ÖZELLİKLERİ:</strong>
+        <br>Elektrik alanını görselleştirmek amacıyla kullanılan modelleme çizgilerinin kuralları:
+        <ul>
+            <li>Çizgiler daima pozitif (+) yükten başlar, negatif (-) yükte son bulur.</li>
+            <li>Elektrik alan çizgileri <b>asla birbirini kesmezler</b>.</li>
+            <li>Çizgilerin sıklaştığı bölgelerde elektrik alanı şiddetli (büyük), seyrekleştiği yerlerde ise zayıftır.</li>
+            <li>Çizgiler, yüklü iletken yüzeylerden çıkarken veya yüzeylere girerken o yüzeye daima <b>dik</b> konumdadır.</li>
+        </ul>
+    </div>
+
+    <h2>3. YÜKLÜ İLETKEN KÜRENİN ELEKTRİK ALANI</h2>
+    <p>İletken cisimlerde aynı işaretli yükler birbirini en uzak noktaya iteceğinden, yüklü homojen iletken bir kürenin tüm net yükü <b>tamamen dış yüzeyinde</b> toplanır. Yarıçapı R ve toplam yükü Q olan bir kürenin bölgelerine göre elektrik alan dağılımı grafiksel olarak şöyle modellenir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Bölge Konumu</th>
+                <th>Elektrik Alan Değeri</th>
+                <th>Analitik Sebebi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Kürenin İçi (r &lt; R)</b></td>
+                <td><b>E = 0</b></td>
+                <td>İletkenin içinde net yük bulunmadığından içteki her noktada elektrik alan sıfırdır (Faraday Kafesi İlkesi).</td>
+            </tr>
+            <tr>
+                <td><b>Kürenin Yüzeyi (r = R)</b></td>
+                <td><b>E<sub>maks</sub> = k . Q / R<sup>2</sup></b></td>
+                <td>Elektrik alanın alabileceği en büyük (maksimum) değer yüzeydedir.</td>
+            </tr>
+            <tr>
+                <td><b>Kürenin Dışı (r &gt; R)</b></td>
+                <td><b>E = k . Q / r<sup>2</sup></b></td>
+                <td>Kürenin dışındaki noktalar için, kürenin tüm yükü <u>tam merkezinde toplanmış bir noktasal yük gibi</u> davranır. Merkezden uzaklaştıkça alan uzaklığın karesiyle azalarak sıfıra yaklaşır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Aralarındaki uzaklık d olan q<sub>1</sub> = +q ve q<sub>2</sub> = +4q yüklü iki noktasal cismin birbirine uyguladığı elektriksel kuvvetin büyüklüğü F'dir. Yükler arasındaki uzaklık 2d yapılırsa, birbirlerine uygulayacakları yeni kuvvet kaç F olur?</div>
+        <ul class="options-list">
+            <li>A) 4</li>
+            <li>B) 2</li>
+            <li>C) 1/2</li>
+            <li>D) 1/4</li>
+            <li>E) 1/8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk durumdaki Coulomb kuvvetini formülize edelim: F = k . (q . 4q) / d<sup>2</sup> = 4 . (k.q<sup>2</sup> / d<sup>2</sup>).
+            <br>• İkinci durumda yükler sabit tutulup aralarındaki mesafe 2d yapılıyor. Yeni kuvvet ifadesini (F') yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F' = k . (q . 4q) / (2d)<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F' = k . 4q<sup>2</sup> / (4d<sup>2</sup>)
+            <br>• Pay ve paydadaki 4 terimleri birbirini sadeleştirir: F' = k.q<sup>2</sup> / d<sup>2</sup> olur.
+            <br>• İlk kuvvetimiz 4 birimken yeni kuvvetimiz 1 birim çıktığına göre oranlarsak: F' = <b>F / 4</b> (yani 1/4 F) olarak elde edilir. Mesafe 2 katına çıktığında kuvvet karesiyle (4 kat) azalmıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Noktasal q<sub>1</sub> = +q ve q<sub>2</sub> = -9q yükleri yatay bir doğrultu üzerine aralarında 20 cm mesafe olacak şekilde yerleştirilmiştir. Bu doğrultu üzerinde, q<sub>1</sub> yükünden kaç cm uzağa koyulan +Q test yüküne etki eden net elektriksel kuvvet sıfır olur?</div>
+        <ul class="options-list">
+            <li>A) 5</li>
+            <li>B) 10</li>
+            <li>C) 15</li>
+            <li>D) 20</li>
+            <li>E) 30</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yükler zıt işaretli (+q ve -9q) olduğu için, konulacak üçüncü yükün dengede kalabileceği net kuvvet sıfır noktası yüklerin <b>arasında olamaz</b> (çünkü aradayken biri iter diğeri çeker net kuvvet asla sıfırlanmaz). Nokta yüklerin dışında ve mutlak değerce <b>küçük olan yükün (&bull;q) dış tarafında</b> olmalıdır.
+            <br>• q<sub>1</sub> = +q yükünün sol dış tarafında, x kadar uzakta bir nokta seçelim. Bu noktanın q<sub>2</sub> = -9q yüküne uzaklığı (20 + x) olur.
+            <br>• Bu noktadaki +Q yüküne etki eden kuvvetleri eşitleyelim: F<sub>1</sub> = F<sub>2</sub>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; k . (q . Q) / x<sup>2</sup> = k . (9q . Q) / (20 + x)<sup>2</sup>
+            <br>• Ortak olan k, q ve Q terimlerini sadeleştirelim: 1 / x<sup>2</sup> = 9 / (20 + x)<sup>2</sup>.
+            <br>• Her iki tarafın karekökünü alarak denklemi doğrusal hale getirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1 / x = 3 / (20 + x)
+            <br>• İçler dışlar çarpımı yapalım: 20 + x = 3x  &rarr;  20 = 2x  &rarr;  <b>x = 10 cm</b> uzağa konulmalıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> q = +2.10<sup>-6</sup> C'lik noktasal bir yükün, kendisinden d = 3 metre uzaklıktaki bir K noktasında oluşturduğu elektriksel alanın şiddeti kaç N/C'dir? (k = 9.10<sup>9</sup> N.m<sup>2</sup>/C<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 1000</li>
+            <li>B) 2000</li>
+            <li>C) 3000</li>
+            <li>D) 4000</li>
+            <li>E) 6000</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Noktasal bir yükün elektrik alan formülünü doğrudan uygulayalım: E = k . q / d<sup>2</sup>.
+            <br>• Verilen değerleri üstel sayılara dikkat ederek formülde yerlerine yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = (9 . 10<sup>9</sup>) . (2 . 10<sup>-6</sup>) / 3<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = (18 . 10<sup>3</sup>) / 9
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E = 2 . 10<sup>3</sup> = <b>2000 N/C</b> olarak elektrik alan şiddeti elde edilir. Yük pozitif olduğu için yönü dışarı doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Toplam net yükü Q = +36q ve yarıçapı R = 3 metrekare değil, 3 metre olan iletken bir kürenin; merkezinden r = 2 metre uzaktaki K noktasındaki elektrik alanı E<sub>K</sub>, merkezinden r = 6 metre uzaktaki L noktasındaki elektrik alanı E<sub>L</sub>'dir. Buna göre elektrik alanların oranı (E<sub>K</sub> / E<sub>L</sub>) kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 0</li>
+            <li>B) 1</li>
+            <li>C) 4</li>
+            <li>D) 9</li>
+            <li>E) 36</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• K noktasının konumunu inceleyelim: r = 2 metre, kürenin yarıçapı R = 3 metreden küçüktür (r &lt; R). Yani K noktası <b>kürenin içindedir</b>.
+            <br>• İletken kürelerin içindeki net yük sıfır olduğundan, içteki tüm noktalarda elektrik alan kesinlikle sıfırdır: <b>E<sub>K</sub> = 0</b>.
+            <br>• L noktasının konumunu inceleyelim: r = 6 metre, kürenin yarıçapından büyüktür (r &gt; R). Yani L noktası kürenin dışındadır. Dışarıdaki noktalar için merkezden uzaklık formülü uygulanır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; E<sub>L</sub> = k . Q / r<sup>2</sup> = k . 36q / 6<sup>2</sup> = k . 36q / 36 = k.q.
+            <br>• Bizden istenen oran: E<sub>K</sub> / E<sub>L</sub> = 0 / k.q = <b>0</b> değerini verir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Aralarında d mesafe bulunan iki yükün birbirine uyguladığı Coulomb kuvveti F'dir. Bu yüklerin bulundukları ortamın dielektrik katsayısı (yalıtkanlığı) 2 katına çıkarılırsa, yüklerin birbirine uygulayacağı yeni elektriksel kuvvet kaç F olur?</div>
+        <ul class="options-list">
+            <li>A) 4</li>
+            <li>B) 2</li>
+            <li>C) 1</li>
+            <li>D) 1/2</li>
+            <li>E) 1/4</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Coulomb sabitinin (k) açık yazılımı k = 1 / (4.&pi;.&epsilon;) şeklindedir. Buradaki &epsilon; (epsilon) ortamın dielektrik katsayısını temsil eder.
+            <br>• Formülden görüleceği üzere, dielektrik katsayısı (&epsilon;) ile Coulomb sabiti (k) ve dolayısıyla elektriksel kuvvet (F) <b>ters orantılıdır</b>. Ortamın yalıtkanlığı arttıkça yüklerin birbirini etkileme kuvveti zayıflar.
+            <br>• Ortamın yalıtkanlık katsayısı 2 katına çıkarılırsa, Coulomb sabiti yarıya (k/2) iner.
+            <br>• Bu durum kuvveti de doğrudan yarıya düşüreceğinden yeni kuvvet <b>F / 2</b> (1/2 F) olarak hesaplanır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 22: Kuantum Fiziğine Giriş</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #4a2e1b; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e0d0c5; }
+        h2 { color: #4a2e1b; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #6e4428; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7edf0; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #4a2e1b; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #6e4428; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #6e4428; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 22: KUANTUM FİZİĞİNE GİRİŞ</h1>
+        <p>Siyah Cisim Işıması, Fotoelektrik Olay Dinamikleri, Compton Saçılması ve De Broglie Hipotezi</p>
+    </div>
+
+    <h2>1. KLASİK FİZİĞİN İFLASI: SİYAH CİSİM IŞIMASI</h2>
+    <p>Üzerine düşen tüm ışınımı soğuran ve sıcaklığına bağlı olarak her dalga boyunda ışıma yapan ideal cisimlere <b>Siyah Cisim</b> denir. Klasik fizik teorisi (Rayleigh-Jeans yasası), cismin sıcaklığı arttıkça yayılan ışınımın frekansının sonsuza doğru gideceğini, yani dalga boyu sıfıra yaklaştıkça ışıma şiddetinin sonsuz olacağını öngörüyordu. Buna fizik tarihinde <b>Ultraviyole (Morötesi) Felaketi</b> denir. Ancak deneyler yüksek frekanslarda ışıma şiddetinin sıfıra gittiğini gösterdi.</p>
+    <p>1900 yılında Max Planck, enerjinin sürekli değil, **kuantum (kesikli / paketçikler)** halinde yayıldığını öne sürerek bu krizi çözdü ve kuantum fiziğinin temelini attı. Bir enerji paketçiğinin (fotonun) enerjisi: <b>E = h . f = h . c / &lambda;</b> formülüyle hesaplanır (h: Planck sabiti, f: frekans, &lambda;: dalga boyu).</p>
+
+    <h2>2. FOTOELEKTRİK OLAY (IŞIĞIN TANECİK DOĞASI)</h2>
+    <p>Yüksek frekanslı ışığın (fotonların), metal bir yüzeye düşürülerek yüzeyden elektron sökmesi olayına <b>fotoelektrik olay</b> denir. Sökülen elektronlara <i>fotoelektron</i>, oluşan akıma ise <i>fotokorrent (fotoelektrik akım)</i> denir. Einstein, Planck'ın teorisini genişleterek fotoelektrik olayın enerji korunum denklemini yazdı:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        E<sub>foton</sub> = E<sub>bağlanma (eşik)</sub> + E<sub>kinetik</sub>
+    </p>
+    <p><b>Kritik Dinamikler:</b></p>
+    <ul>
+        <li>Bir foton, metal yüzeyde sadece **bir tek elektronla** etkileşime girer. Enerjisi yetiyorsa elektronu söker ve kendisi tamamen yok olur (soğurulur). Enerjisi yetmiyorsa hiçbir şey yapamaz.</li>
+        <li><b>Eşik (Bağlanma) Enerjisi (E<sub>0</sub>):</b> Elektronun metalden sökülebilmesi için gereken minimum enerjidir. Sadece **metalin cinsine** bağlıdır. Işığın şiddeti (foton sayısı) eşik enerjisini değiştiremez.</li>
+        <li><b>Kesme Potansiyeli (V<sub>kesme</sub>):</b> Sökülen elektronların karşı levhaya (anoda) ulaşmasını engellemek için devreye ters bağlanan ve akımı sıfırlayan gerilimdir. Doğrudan elektronların maksimum kinetik enerjisinin bir ölçüsüdür: <b>E<sub>kinetik</sub> = e . V<sub>kesme</sub></b>. Dolayısıyla kesme potansiyeli ışık şiddetine değil, sadece gelen fotonun enerjisine ve metalin cinsine bağlıdır.</li>
+    </ul>
+
+    <h2>3. COMPTON SAÇILMASI</h2>
+    <p>Yüksek enerjili bir X-ışını fotonunun, durgun bir serbest elektronla çarpışarak momentum ve enerji aktarması, kendisinin ise farklı bir açıya sapması (saçılması) olayıdır. Fotoelektrik olay gibi ışığın **tanecik modelini** kesin olarak kanıtlar ancak fotoelektrikten farkı; foton bu olayda **yok olmaz (soğurulmaz)**, enerjisinin bir kısmını vererek saçılır.</p>
+    
+    <div class="highlight-box">
+        <strong>⚠️ COMPTON SAÇILMASINDA DEĞİŞMEZ VE DEĞİŞEN PARAMETRELER:</strong>
+        <br>Çarpışma tam esnek olduğundan toplam enerji ve toplam momentum vektörel olarak korunur. Çarpışma sonrasında:
+        <br>• Gelen fotonun enerjisi (E) ve frekansı (f) <b>azalır</b>. Enerji azaldığı için saçılan fotonun dalga boyu (&lambda;') kesinlikle <b>artar</b> (&lambda;' &gt; &lambda;).
+        <br>• Hem gelen hem de saçılan foton birer elektromanyetik dalga olduğundan uzaydaki **hızları kesinlikle değişmez ve ışık hızına (c) eşittir**.
+    </ul>
+    </div>
+
+    <h2>4. DALGA - TANECİK İKİLİLİĞİ VE DE BROGLIE</h2>
+    <p>Louis de Broglie, ışığın hem dalga hem tanecik özelliği göstermesinden esinlenerek, hareket halindeki kütleli her maddesel parçacığa (elektron, proton vb.) bir dalganın eşlik ettiğini ileri sürmüştür. Bu dalgalara <i>madde dalgaları</i> denir ve dalga boyu şu formülle hesaplanır:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 8px 0;">
+        &lambda;<sub>de Broglie</sub> = h / p = h / (m . v)
+    </p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Kuantum fiziğinin doğuşuna zemin hazırlayan Siyah Cisim Işıması ile ilgili; I. Klasik fizik yaklaşımları yüksek frekanslardaki ışıma şiddetini açıklamada başarısız olmuştur, II. Max Planck, enerjinin sürekli değil kuantumlu (kesikli) paketler halinde salındığını ispatlamıştır, III. Cismin sıcaklığı arttığı zaman yaptığı ışınımın tepe noktasındaki dalga boyu büyür yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Siyah cisim ışımasının detaylarını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Klasik fizik teorisi morötesi dalga boylarında ışıma şiddetinin sonsuza gideceğini söyleyerek çuvallamıştır (Morötesi felaketi). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Max Planck enerjiyi paketçik (E=hf) formuna sokarak deneysel grafiği tam olarak açıklamıştır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Wien Kayma Yasasına göre, sıcaklık (T) arttıkça maksimum ışıma şiddetine karşılık gelen dalga boyu (&lambda;<sub>max</sub>) **küçülür** (Sola, yani yüksek enerjiye kayar). Formül: &lambda;<sub>max</sub> . T = sabit. Bu yüzden üçüncü ifade yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bir fotoelektrik tüpte, eşik enerjisi E<sub>0</sub> = 2 eV olan metal yüzeye enerjisi E<sub>f</sub> = 5 eV olan tek renkli ışık fotonları gönderiliyor. Buna göre metalden sökülen fotoelektronları tamamen durdurabilmek için devreye uygulanması gereken ters <b>kesme potansiyeli (V<sub>kesme</sub>)</b> kaç Volt olmalıdır?</div>
+        <ul class="options-list">
+            <li>A) 1.5</li>
+            <li>B) 2.0</li>
+            <li>C) 3.0</li>
+            <li>D) 5.0</li>
+            <li>E) 7.0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Einstein'ın fotoelektrik enerji korunum denklemini yazalım: E<sub>foton</sub> = E<sub>bağlanma</sub> + E<sub>kinetik</sub>
+            <br>• Soruda verilen sayısal değerleri denklemde yerlerine yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 5 eV = 2 eV + E<sub>kinetik</sub> &rarr; E<sub>kinetik</sub> = 5 - 2 = <b>3 eV</b>.
+            <br>• Sökülen elektronların maksimum kinetik enerjisi 3 eV olarak bulunmuştur.
+            <br>• Kesme potansiyeli formülü E<sub>kinetik</sub> = e . V<sub>kesme</sub> olduğuna göre, 3 eV değerindeki kinetik enerjiyi sıfırlayacak voltaj değeri doğrudan **3 Volt** olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir fotoelektrik olay deneyinde kullanılan katot metalinin cinsi değiştirilmeden, sadece gönderilen ışığın frekansı artırılıyor. Bu işlem sonucunda; I. Metalin eşik (bağlanma) enerjisi, II. Sökülen elektronların maksimum kinetik enerjisi, III. Devrenin kesme potansiyeli değerlerinden hangileri <b>artar</b>?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) Yalnız II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Gönderilen ışığın frekansının (f) artması, E = h.f uyarınca gelen fotonların enerjisini (E<sub>foton</sub>) doğrudan artırır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Eşik enerjisi sadece ve sadece **metalin cinsine** bağlıdır. Işığın frekansının artması eşik enerjisini <u>değiştirmez</u>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: E<sub>foton</sub> = E<sub>eşik</sub> + E<sub>kinetik</sub> denkleminde eşik enerjisi sabitken foton enerjisi arttığı için sökülen elektronların kinetik enerjisi **artar**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: E<sub>kinetik</sub> = e.V<sub>kesme</sub> ilişkisinden dolayı kinetik enerji arttığı için elektronları durdurmak zorlaşır ve kesme potansiyeli de **artar**. Cevap II ve III olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Compton saçılması olayında, durgun bir elektrona çarpan yüksek enerjili bir foton şekildeki gibi saçılıyor. Saçılan fotonun dalga boyu &lambda;', gelen fotonun dalga boyu &lambda; olduğuna göre; I. &lambda;' > &lambda; ilişkisi vardır, II. Saçılan fotonun sürati gelen fotonun süratinden küçüktür, III. Çarpışmada toplam momentum vektörel olarak korunmuştur yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Compton saçılmasının çarpışma mekaniğini test edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Foton enerjisinin bir kısmını elektrona verdiği için saçılan fotonun enerjisi azalır. E = hc/&lambda; gereği enerji azaldıkça dalga boyu büyür, yani &lambda;' &gt; &lambda; ilişkisi <b>doğrudur</b>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Hem gelen hem de saçılan foton birer ışık paketidir. Işığın hızı ortama bağlıdır ve boşlukta daima **ışık hızına (c)** eşittir. Saçılan foton yavaşlamaz, sürati değişmez. Bu yüzden ikinci öncül yanlıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Olay tam esnek bir çarpışma olduğundan tüm mekanik çarpışmalarda olduğu gibi toplam momentum vektörel olarak kesinlikle korunur. Doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kütlesi m olan bir parçacık v süratiyle hareket ederken kendisine eşlik eden De Broglie dalga boyu &lambda;'dır. Bu parçacığın çizgisel momentumunun büyüklüğü yarıya indirilirse, parçacığa eşlik eden yeni De Broglie dalga boyu kaç &lambda; olur?</div>
+        <ul class="options-list">
+            <li>A) 1/4</li>
+            <li>B) 1/2</li>
+            <li>C) 1</li>
+            <li>D) 2</li>
+            <li>E) 4</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• De Broglie madde dalgası formülümüz: &lambda; = h / p şeklindedir (p: çizgisel momentum).
+            <br>• Formülden açıkça görüleceği üzere, dalga boyu (&lambda;) ile momentum (p) büyüklüğü **ters orantılıdır**.
+            <br>• Parçacığın çizgisel momentumu yarıya indirilirse (p' = p/2), ters orantı kuralı gereği dalga boyu tam **2 katına** çıkmak zorundadır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &lambda;' = h / (背) = 2 . (h/p) = 2&lambda; olarak hesaplanır.
+        </div>
+    </div>
+
+</body>
+</html>

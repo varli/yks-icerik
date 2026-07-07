@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 13: Alternatif Akım ve Transformatörler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 13: ALTERNATİF AKIM VE TRANSFORMATÖRLER</h1>
+        <p>AC Akım Üretimi, Etkin Değer, Devre Dirençleri, Empedans ve Voltaj Dönüştürücü Transformatörler</p>
+    </div>
+
+    <h2>1. ALTERNATİF AKIM (AC) KAVRAMI VE PARAMETRELERİ</h2>
+    <p>Zamana bağlı olarak <b>yönü ve büyüklüğü sürekli ve periyodik olarak değişen</b> elektrik akımına <strong>alternatif akım (AC)</strong> denir. Barajlardaki jeneratörlerde, düzgün bir manyetik alan içinde bir tel çerçevenin sabit hızla döndürülmesiyle (manyetik akı değişimi sonucu indüksiyon yoluyla) üretilir. Pillerden elde edilen sabit yönlü doğru akımdan (DC) en büyük farkı, sinüzoidal bir dalga formuna sahip olmasıdır.</p>
+    
+    <h3>Temel AC Parametreleri:</h3>
+    <ul>
+        <li><b>Maksimum Değer (I<sub>maks</sub> , V<sub>maks</sub>):</b> Akım veya gerilimin dalga boyunda ulaşabildiği en tepe, en büyük sayısal değerdir.</li>
+        <li><b>Etkin Değer (I<sub>etk</sub> , V<sub>etk</sub>):</b> Alternatif akımın bir dirençte, aynı sürede ürettiği ısı miktarını doğru akımın (DC) kaç volta veya ampere karşılık ürettiğini gösteren ortalama değerdir. Ölçü aletlerinin (voltmetre, ampermetre) gösterdiği değer daima etkin değerdir:
+        <br><b>I<sub>etk</sub> = I<sub>maks</sub> / &radic;2</b> &nbsp; ve &nbsp; <b>V<sub>etk</sub> = V<sub>maks</sub> / &radic;2</b></li>
+    </ul>
+
+    <h2>2. ALTERNATİF AKIM DEVRELERİNDE DİRENÇ DAVRANIŞLARI</h2>
+    <p>AC devrelerine bağlanan elemanlar, akımın sürekli yön değiştirmesinden ötürü frekansa (f) bağlı özel direnç etkileri gösterirler:</p>
+    <ul>
+        <li><b>Saf Direnç (R - Omik Direnç):</b> Normal elektrik ısıtıcısı veya lamba direncidir. Akımın frekansından <u>kesinlikle etkilenmez</u>. Enerjiyi ısı olarak tüketir.</li>
+        <li><b>İndüktans (X<sub>L</sub> - Bobinin Direnci):</b> Bobinin alternatif akımın yön değiştirmesine karşı gösterdiği eylemsizlik direncidir. <b>X<sub>L</sub> = 2&pi; . f . L</b> (L: Özindüksiyon katsayısı) formülüyle bulunur. Akımın **frekansı artarsa bobinin direnci (X<sub>L</sub>) artar**. Enerji tüketmez, manyetik alanda depolar.</li>
+        <li><b>Kapasitans (X<sub>C</sub> - Sığacın Direnci):</b> Sığacın (kondansatörün) AC akımına gösterdiği direnç etkisidir. <b>X<sub>C</sub> = 1 / (2&pi; . f . C)</b> formülüyle modellenir. Akımın **frekansı artarsa sığacın direnci (X<sub>C</sub>) azalır**. Enerji tüketmez, elektrik alanda depolar.</li>
+        <li><b>Empedans (Z):</b> Bir AC devresindeki tüm dirençlerin (R, X<sub>L</sub>, X<sub>C</sub>) vektörel toplamından oluşan **eşdeğer (toplam) dirençtir**.</li>
+        <li><b>Rezonans Hali:</b> Bir AC devresinde bobinin direnci ile sığacın direnci birbirine tam eşit olursa (<b>X<sub>L</sub> = X<sub>C</sub></b>), bu duruma rezonans denir. Rezonans anında empedans en küçük (Z = R) değerini alır ve devreden geçen **etkin akım maksimum sınıra ulaşır**. (Radyo frekansı ayarlama mantığı buna dayanır).</li>
+    </ul>
+
+    <h2>3. TRANSFORMATÖRLER (GERİLİM DÖNÜŞTÜRÜCÜLER)</h2>
+    <p>Alternatif akımın gerilim (voltaj) değerini, elektromanyetik indüksiyon yoluyla frekansını değiştirmeden yükseltmeye veya düşürmeye yarayan duragan cihazlara <b>transformatör</b> denir. Giriş bobinine (Primer) uygulanan AC gerilimi, demir çekirdekte değişken bir manyetik akı yaratarak çıkış bobininde (Sekonder) yeni bir AC gerilimi indükler.</p>
+    <div class="highlight-box">
+        <strong>⚠️ TRANSFORMATÖRÜN ALTIN KURALLARI:</strong>
+        <br>• Transformatörler daima <b>alternatif akım (AC) ile çalışır</b>. Girişine pil veya akü gibi bir doğru akım (DC) kaynağı bağlanırsa manyetik akı değişimi oluşmayacağından çıkıştan <u>kesinlikle gerilim alınamaz (V<sub>son</sub> = 0)</u>.
+        <br>• Gerilimlerin oranı, bobinlerin sarım sayıları (N) ile doğru orantılıdır: <b>V<sub>p</sub> / V<sub>s</sub> = N<sub>p</sub> / N<sub>s</sub></b>
+        <br>• <b>Sarım sayılarına göre çeşitleri:</b> N<sub>s</sub> &gt; N<sub>p</sub> ise gerilimi yükseltir (Yükseltici); N<sub>s</sub> &lt; N<sub>p</sub> ise gerilimi düşürür (Düşürücü).
+    </div>
+    <p><b>Verim ve Güç İlişkisi:</b> Giriş gücü P<sub>giriş</sub> = V<sub>p</sub>.I<sub>p</sub> ve çıkış gücü P<sub>çıkış</sub> = V<sub>s</sub>.I<sub>s</sub> şeklindedir.</p>
+    <ul>
+        <li><b>İdeal Transformatör (%100 Verimli):</b> Enerji kaybı yoktur. Giriş gücü çıkış gücüne eşittir: V<sub>p</sub> . I<sub>p</sub> = V<sub>s</sub> . I<sub>s</sub>. Buradan gerilim ile akımın <b>ters orantılı</b> olduğu görülür.</li>
+        <li><b>İdeal Olmayan Transformatör:</b> Sürtünme ve ısı kayıpları vardır. Verim formülü: <b>Verim = P<sub>çıkış</sub> / P<sub>giriş</sub> = (V<sub>s</sub> . I<sub>s</sub>) / (V<sub>p</sub> . I<sub>p</sub>)</b> şeklinde hesaplanır.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bir alternatif akım devresindeki gerilimin zamana bağlı denklemi V(t) = 40&radic;2 . sin(100&pi;t) Volt olarak verilmiştir. Bu devreye bağlanan bir voltmetrenin göstereceği değer (V<sub>etk</sub>) kaç Volt'tur?</div>
+        <ul class="options-list">
+            <li>A) 20</li>
+            <li>B) 40</li>
+            <li>C) 40&radic;2</li>
+            <li>D) 80</li>
+            <li>E) 100</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Alternatif akımda gerilimin genel sinüzoidal denklemi V(t) = V<sub>maks</sub> . sin(&omega;t) formundadır.
+            <br>• Bize verilen denklemle genel kalıbı eşleştirdiğimizde, sinüsün önündeki katsayının maksimum gerilim olduğunu görürüz: V<sub>maks</sub> = 40&radic;2 Volt.
+            <br>• Voltmetreler ve ampermetreler devreye bağlandıklarında anlık dalgalanmaları değil, daima skaler ortalama olan <b>etkin değeri (V<sub>etk</sub>)</b> ölçerler.
+            <br>• Etkin değer formülünü uygulayalım: V<sub>etk</sub> = V<sub>maks</sub> / &radic;2.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>etk</sub> = (40&radic;2) / &radic;2 = <b>40 Volt</b> olarak voltmetrenin göstereceği değer hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bir alternatif akım devresine bağlı olan bobinin özindüksiyon katsayısı sabittir. Devreye elektrik sağlayan kaynağın akım frekansı (f) artırılırsa, bobinin indüktif reaktansı (X<sub>L</sub>) ve devreden geçen etkin akım (I<sub>etk</sub>) değerleri nasıl değişir? (Devrede sadece bobin vardır).</div>
+        <ul class="options-list">
+            <li>A) X<sub>L</sub> artırılır, I<sub>etk</sub> azalır</li>
+            <li>B) X<sub>L</sub> azalır, I<sub>etk</sub> artar</li>
+            <li>C) İkisi de artar</li>
+            <li>D) X<sub>L</sub> artırılır, I<sub>etk</sub> değişmez</li>
+            <li>E) İkisi de azalır</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bobinin alternatif akımdaki direnç formülünü (indüktans) yazalım: X<sub>L</sub> = 2&pi; . f . L.
+            <br>• Formülden açıkça görüleceği üzere, bobinin direnci akımın frekansı (f) ile <b>doğru orantılıdır</b>. Frekans artırıldığında bobinin direnç etkisi olan X<sub>L</sub> değeri de <b>artar</b>.
+            <br>• AC devreleri için Ohm Kanununu ($V_{etk} = I_{etk} \cdot Z$) çalıştıralım. Devrede sadece bobin olduğu için toplam empedans doğrudan bobinin direncine eşittir (Z = X<sub>L</sub>).
+            <br>• Kaynağın etkin gerilimi (V<sub>etk</sub>) sabitken, devrenin direnci (X<sub>L</sub>) arttığı için devreden geçebilecek etkin akım (I<sub>etk</sub>) miktarı zorlaşarak <b>azalır</b>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Giriş sarım sayısı N<sub>p</sub> = 200 ve çıkış sarım sayısı N<sub>s</sub> = 800 olan ideal bir transformatörün girişine (primer) V<sub>p</sub> = 50 Volt'luk bir alternatif akım uygulanıyor. Buna göre, bu transformatörün çıkışından (sekonder) alınacak gerilim (V<sub>s</sub>) kaç Volt'tur?</div>
+        <ul class="options-list">
+            <li>A) 12.5</li>
+            <li>B) 50</li>
+            <li>C) 100</li>
+            <li>D) 200</li>
+            <li>E) 400</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Transformatörlerdeki gerilim dönüşüm kuralı, sarım sayıları oranıyla doğrudan doğru orantılıdır: V<sub>p</sub> / V<sub>s</sub> = N<sub>p</sub> / N<sub>s</sub>.
+            <br>• Verilen N<sub>p</sub> = 200, N<sub>s</sub> = 800 ve V<sub>p</sub> = 50 V değerlerini formülde yerlerine yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 50 / V<sub>s</sub> = 200 / 800
+            <br>• Sarım sayıları oranını sadeleştirirsek 1/4 kat ilişkisi (yükseltici transformatör) olduğunu görürüz:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 50 / V<sub>s</sub> = 1 / 4  &rarr;  V<sub>s</sub> = 50 . 4  &rarr;  <b>V<sub>s</sub> = 200 Volt</b> çıkış gerilimi olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bir transformatörün giriş bobinine (primer) V = 12 Volt'luk bir <b>doğru akım (DC) pili</b> bağlanmıştır. Transformatörün giriş sarım sayısı 100, çıkış sarım sayısı ise 300 olduğuna göre, çıkış bobininden (sekonder) okunan gerilim kaç Volt olur?</div>
+        <ul class="options-list">
+            <li>A) 0</li>
+            <li>B) 4</li>
+            <li>C) 12</li>
+            <li>D) 36</li>
+            <li>E) 48</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• ÖSYM'nin en çok sorduğu teorik tuzak sorularından biridir. Sarım sayıları oranına bakarak (300/100 = 3 kat) gerilimi 12 . 3 = 36 Volt olarak hesaplamak büyük bir kavramsal hatadır.
+            <br>• Transformatörlerin çalışabilmesi ve çıkış bobininde emk indükleyebilmesi için çekirdekteki manyetik akının **zamanla sürekli değişmesi (&Delta;&Phi; / &Delta;t)** şarttır.
+            <br>• Giriş bobinine **doğru akım (DC) kaynağı olan bir pil** bağlandığında, telden geçen akım yönü ve büyüklüğü sabit kalacağından oluşan manyetik alan ve akı da sabit kalır, yani akı değişimi sıfır olur (&Delta;&Phi; = 0).
+            <br>• Akı değişimi meydana gelmediği için çıkış bobininde hiçbir elektrik akımı indüklenemez. Bu yüzden çıkış gerilimi kesinlikle <b>0 Volt</b> olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Verimi %80 olan ideal olmayan bir transformatörün giriş gücü 500 Watt'tır. Bu transformatörün çıkış gerilimi V<sub>s</sub> = 100 Volt olduğuna göre, çıkış bobinden çekilen akım (I<sub>s</sub>) kaç Amper'dir?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 4</li>
+            <li>C) 5</li>
+            <li>D) 6</li>
+            <li>E) 8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İdeal olmayan sistemlerde verim formülümüz: Verim = Çıkış Gücü / Giriş Gücü (P<sub>sekonder</sub> / P<sub>primer</sub>) şeklindedir.
+            <br>• %80 verim oranını rasyonel olarak 80/100 = 0.8 olarak yazıp çıkış gücünü (P<sub>çıkış</sub>) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 0.8 = P<sub>çıkış</sub> / 500  &rarr;  P<sub>çıkış</sub> = 500 . 0.8 = <b>400 Watt</b>. (Yani 500 W giriş enerjisinin 400 W'ı çıkışa aktarılabilmiş, 100 W'ı ısı olarak kaybolmuştur).
+            <br>• Elektriksel güç formülünü çıkış bileşenleri için çalıştıralım: P<sub>çıkış</sub> = V<sub>s</sub> . I<sub>s</sub>.
+            <br>• Bulduğumuz 400 W gücü ve verilen V<sub>s</sub> = 100 V gerilim değerini yerine yazarak akımı çekelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 400 = 100 . I<sub>s</sub>  &rarr;  I<sub>s</sub> = 400 / 100  &rarr;  <b>I<sub>s</sub> = 4 Amper</b> olarak sekonder akımı hesaplanır.
+        </div>
+    </div>
+
+</body>
+</html>

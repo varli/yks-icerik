@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 3: Bir Boyutta Sabit İvmeli Hareket</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 3: BİR BOYUTTA SABİT İVMELİ HAREKET</h1>
+        <p>Hareket Grafikleri Analizi, Serbest Düşme, Düşey Atışlar ve Hava Dirençli (Limit Hız) Sistemler</p>
+    </div>
+
+    <h2>1. SABİT İVMELİ HAREKET VE GRAFİKSEL DÖNÜŞÜMLER</h2>
+    <p>Bir hareketlinin hızının eşit zaman aralıklarında eşit miktarlarda değiştiği harekete <b>sabit ivmeli hareket</b> denir. İvme (a) sabit olduğunda, hareket denklemlerinin analitik çözümü grafiklerin altında kalan alanlara ve eğimlerine dayanır:</p>
+    <ul>
+        <li><b>Konum - Zaman (x-t) Grafiği:</b> Eğrisi paraboliktir ("parabolik yaşlı/genç k"). Bu grafiğin herhangi bir andaki teğetinin <b>eğimi, o andaki anlık hızı (V)</b> verir.</li>
+        <li><b>Hız - Zaman (V-t) Grafiği:</b> Grafiğin doğrusunun <b>eğimi ivmeyi (a)</b> verirken, grafiğin zaman ekseni ile arasında kalan <b>alan, cismin yer değiştirmesini (&Delta;x)</b> verir.</li>
+        <li><b>İvme - Zaman (a-t) Grafiği:</b> Sabit bir yatay doğru belirtir. Grafiğin altında kalan <b>alan, cismin hızındaki değişim miktarını (&Delta;V)</b> verir.</li>
+    </ul>
+
+    <h2>2. BİR BOYUTTA ATILIŞ HAREKETLERİ (YER ÇEKİMİ ETKİSİ)</h2>
+    <p>Hava direncinin ihmal edildiği ortamlarda, yeryüzüne yakın yerlerdeki tüm cisimler kütlelerinden bağımsız olarak yer çekimi ivmesi (<b>g &asymp; 10 m/s<sup>2</sup></b>) ile hareket ederler. Bu durum, cisimlerin hızlarının her 1 saniyede düşerken 10'ar 10'ar artacağı, yukarı atılırken ise 10'ar 10'ar azalacağı anlamına gelir.</p>
+
+    <h3>A) Serbest Düşme Hareketi</h3>
+    <p>İlk hızı olmaksızın (V<sub>0</sub> = 0) belirli bir h yüksekliğinden bırakılan cismin yaptığı harekettir. Zamanla bağlı hareket denklemleri şu şekildedir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        V = g . t &nbsp; | &nbsp; h = (1 / 2) . g . t<sup>2</sup> &nbsp; | &nbsp; V<sup>2</sup> = 2 . g . h &nbsp; (Zamansız Hız Formülü)
+    </p>
+    <div class="highlight-box">
+        <strong>💡 PRATİK h, 3h, 5h KURALI:</strong>
+        <br>Serbest düşmeye bırakılan bir cisim, hareketinin her 1 saniyelik ardışık zaman dilimlerinde sırasıyla:
+        <br>&bull; 1. saniyede: <b>5 metre (h)</b>
+        <br>&bull; 2. saniyede: <b>15 metre (3h)</b>
+        <br>&bull; 3. saniyede: <b>25 metre (5h)</b>
+        <br>&bull; 4. saniyede: <b>35 metre (7h)</b> yol alır. Hızı ise her saniye sonu sırasıyla 10, 20, 30, 40 m/s olur.
+    </div>
+
+    <h3>B) Düşey Atış Hareketleri</h3>
+    <ul>
+        <li><b>Aşağı Doğru Düşey Atış:</b> Belli bir V<sub>0</sub> ilk hızıyla aşağı fırlatılan cisimdir. Formüllere ilk hız etkisi eklenir: <b>h = V<sub>0</sub>.t + (1/2).g.t<sup>2</sup></b> ve <b>V = V<sub>0</sub> + g.t</b>.</li>
+        <li><b>Yukarı Doğru Düşey Atış:</b> Yerden yukarı doğru V<sub>0</sub> hızıyla fırlatılan cisim önce yavaşlar, tepe noktasında anlık olarak durur (V=0) ve sonra serbest düşme hareketi yaparak geri döner. Tepe noktasına çıkış süresi <b>t<sub>uçuş</sub> / 2 = t<sub>çıkış</sub> = V<sub>0</sub> / g</b> formülüyle, çıkabileceği maksimum yükseklik ise <b>h<sub>maks</sub> = (V<sub>0</sub>)<sup>2</sup> / 2g</b> ile hesaplanır.</li>
+    </ul>
+
+    <h2>3. HAVA DİRENCİ VE LİMİT HIZ</h2>
+    <p>Gerçek ortamlarda hava moleküllerinin cisimlere uyguladığı sürtünme kuvvetine hava direnç kuvveti (F<sub>D</sub>) denir. Bu kuvvet cismin hızı arttıkça büyür: <b>F<sub>D</sub> = k . A . V<sup>2</sup></b> (k: akışkan katsayısı, A: cismin en büyük kesit alanı, V: hız).</p>
+    <p>Serbest bırakılan bir cisim hızlandıkça hava direnci de artar. Öyle bir an gelir ki, hava direnç kuvveti cismin ağırlığına (m.g) tam eşit olur. Bu andan itibaren net kuvvet sıfırlandığı için cisim Newton'ın 1. yasası gereği artık hızlanamaz ve sabit bir hızla yere iner. Bu ulaşılan maksimum hıza <b>Limit Hız (V<sub>lim</sub>)</b> denir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        k . A . V<sub>lim</sub><sup>2</sup> = m . g &nbsp; &rArr; &nbsp; V<sub>lim</sub> = &radic;( (m . g) / (k . A) )
+    </p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Durgun halden harekete başlayan bir aracın ivme-zaman grafiği sabit a = 4 m/s<sup>2</sup> olan bir doğrudur. Bu aracın 5 saniye sonundaki hızı kaç m/s olur ve bu sürede kaç metre yer değiştirir?</div>
+        <ul class="options-list">
+            <li>A) 20 m/s , 100 m</li>
+            <li>B) 10 m/s , 50 m</li>
+            <li>C) 20 m/s , 50 m</li>
+            <li>D) 40 m/s , 100 m</li>
+            <li>E) 20 m/s , 25 m</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İvme-zaman grafiğinin altında kalan alan hız değişimini (&Delta;V) verir. İvme sabit 4 ve zaman 5 saniye olduğuna göre:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta;V = a . t = 4 . 5 = 20 m/s. Araç durgun halden başladığı için (V<sub>0</sub> = 0) son hızı doğrudan <b>20 m/s</b> olur.
+            <br>• Alınan yolu (yer değiştirmeyi) bulmak için hareket formülünü uygulayalım (V<sub>0</sub> = 0 olduğundan):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x = (1 / 2) . a . t<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x = (1 / 2) . 4 . 5<sup>2</sup> = 2 . 25 = <b>50 metre</b> olarak hesaplanır.
+            <br>• <i>Grafiksel alternatif yol:</i> İlk hızı 0, son hızı 20 olan bir üçgen Hız-Zaman grafiği çizilirse, bu üçgenin alanı (20 . 5) / 2 = 50 metreyi doğrular.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Yerden h yüksekliğindeki bir kuleden serbest bırakılan bir taşın yere düşme süresi 4 saniye sürmüştür. Hava direnci ihmal edildiğine göre, kulenin yüksekliği (h) kaç metredir ve taş yere kaç m/s hızla çarpmıştır? (g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 40 m , 40 m/s</li>
+            <li>B) 80 m , 40 m/s</li>
+            <li>C) 80 m , 20 m/s</li>
+            <li>D) 160 m , 40 m/s</li>
+            <li>E) 100 m , 50 m/s</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Serbest düşme hareket denklemlerini doğrudan uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h = (1 / 2) . g . t<sup>2</sup> &rarr; h = (1 / 2) . 10 . 4<sup>2</sup> = 5 . 16 = <b>80 metre</b> (Kulenin yüksekliği).
+            <br>• Yere çarpma hızını bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V = g . t &rarr; V = 10 . 4 = <b>40 m/s</b>.
+            <br>• <i>Pratik yoldan teyit:</i> 4 saniye düşen bir cisim sırasıyla 5, 15, 25, 35 metre yollar alır. Bunların toplamı 5+15+25+35 = 80 metredir. Hızı ise her saniye 10 artacağından 4. saniye sonunda 40 m/s olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Yerden yukarı doğru düşey doğrultuda V<sub>0</sub> = 30 m/s ilk hızla fırlatılan bir cismin havada kalma (uçuş) süresi kaç saniyedir ve çıkabileceği maksimum yükseklik (h<sub>maks</sub>) kaç metredir? (g = 10 m/s<sup>2</sup>, hava direnci yok)</div>
+        <ul class="options-list">
+            <li>A) 3 s , 45 m</li>
+            <li>B) 6 s , 90 m</li>
+            <li>C) 6 s , 45 m</li>
+            <li>D) 4 s , 40 m</li>
+            <li>E) 8 s , 80 m</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Cismin yukarı doğru çıkış süresi formülünden: t<sub>çıkış</sub> = V<sub>0</sub> / g = 30 / 10 = 3 saniye sürer.
+            <br>• Sürtünmesiz ortamda çıkış süresi iniş süresine eşit olacağından toplam uçuş süresi: t<sub>uçuş</sub> = 2 . t<sub>çıkış</sub> = 2 . 3 = <b>6 saniye</b> olur.
+            <br>• Maksimum yüksekliği bulalım. Cisim tepe noktasından sonra 3 saniye boyunca serbest düşme yapacaktır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h<sub>maks</sub> = (1 / 2) . g . (t<sub>iniş</sub>)<sup>2</sup> = (1 / 2) . 10 . 3<sup>2</sup> = 5 . 9 = <b>45 metre</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Hava direncinin olduğu bir ortamda m kütleli ve en büyük kesit alanı A olan bir bilye yeterince yüksekten serbest bırakılıyor. Bilyenin limit hızı V olduğuna göre, aynı ortamda aynı maddeden yapılmış 8m kütleli ve en büyük kesit alanı 4A olan başka bir bilyenin limit hızı kaç V olur?</div>
+        <ul class="options-list">
+            <li>A) V</li>
+            <li>B) &radic;2 V</li>
+            <li>C) 2 V</li>
+            <li>D) 4 V</li>
+            <li>E) &radic;3 V</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Limit hız genel formülümüzü hatırlayalım: V<sub>lim</sub> = &radic;( (m . g) / (k . A) ).
+            <br>• İlk cisim için bu değer: V = &radic;(mg / kA) olarak tanımlanmıştır.
+            <br>• İkinci cismin kütlesi 8m ve kesit alanı 4A yapılmıştır. Aynı ortamda oldukları için k katsayısı sabittir. Formülde yerlerine yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>yeni</sub> = &radic;( (8m . g) / (k . 4A) )
+            <br>• Kök içindeki sayıları sadeleştirdiğimizde (8 / 4 = 2) kalır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>yeni</sub> = &radic;( 2 . (mg / kA) ) = &radic;2 . &radic;(mg / kA)
+            <br>• İlk ifadenin değeri V olduğuna göre yeni limit hız net bir şekilde <b>&radic;2 V</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Yerden yukarı doğru düşey fırlatılan bir cisim hareketinin son saniyesinde 35 metre yol alarak yere çarptığına göre, bu cismin ilk fırlatılma hızı (V<sub>0</sub>) kaç m/s'dir? (g = 10 m/s<sup>2</sup>, hava direnci yok)</div>
+        <ul class="options-list">
+            <li>A) 30</li>
+            <li>B) 40</li>
+            <li>C) 50</li>
+            <li>D) 60</li>
+            <li>E) 70</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yukarı fırlatılan simetrik hareketlerde iniş aşaması tamamen bir serbest düşmedir. Cismin hareketinin son saniyesi, serbest düşüşünün de tam olarak son saniyesine denk gelir.
+            <br>• Serbest düşmedeki pratik h, 3h, 5h, 7h (5, 15, 25, 35...) serisini hatırlayalım. Taş son saniyesinde 35 metre yol aldığına göre, bu serideki 35 metre değerine tam 4. saniyede ulaşılır (5 -> 15 -> 25 -> 35).
+            <br>• Demek ki bu cismin tepe noktasından yere inme süresi (t<sub>iniş</sub>) tam olarak 4 saniye sürmüştür.
+            <br>• Simetri gereği çıkış süresi de 4 saniye olmalıdır: t<sub>çıkış</sub> = V<sub>0</sub> / g &rarr; 4 = V<sub>0</sub> / 10 &rarr; <b>V<sub>0</sub> = 40 m/s</b> fırlatılma hızı olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

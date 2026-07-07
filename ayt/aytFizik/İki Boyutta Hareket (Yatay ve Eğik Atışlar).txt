@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 4: İki Boyutta Hareket</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 4: İKİ BOYUTTA HAREKET</h1>
+        <p>Bileşik Hareket İlkesi, Yatay Atış, Eğik Atış, Menzil ve Maksimum Yükseklik Analizleri</p>
+    </div>
+
+    <h2>1. İKİ BOYUTTA HAREKETİN TEMEL İLKESİ (BİLEŞİK HAREKET)</h2>
+    <p>Hava direncinin ihmal edildiği ortamlarda, iki boyutta (hem yatay hem düşey eksende) yapılan atış hareketleri incelenirken **"Hareketlerin Bağımsızlığı İlkesi"** kullanılır. Bu ilkeye göre, bir eksendeki kuvvet ve hareket durumu, diğer eksendeki parametreleri asla etkilemez:</p>
+    <ul>
+        <li><b>Yatay Eksende (X Ekseni):</b> Cisme yatay doğrultuda etki eden hiçbir kuvvet (yer çekimi düşeydedir) olmadığı için net kuvvet sıfırdır. Bu yüzden cisim yatayda daima <b>sabit hızlı hareket</b> yapar.</li>
+        <li><b>Düşey Eksende (Y Ekseni):</b> Cisme aşağı doğru sabit yer çekimi kuvveti (G = m.g) etki eder. Bu yüzden cisim düşey eksende daima yer çekimi ivmesiyle (g = 10 m/s<sup>2</sup>) <b>sabit ivmeli hareket</b> (serbest düşme veya düşey atış) yapar.</li>
+    </ul>
+
+    <h2>2. YATAY ATIŞ HAREKETİ</h2>
+    <p>Yerden h kadar yükseklikten yatay doğrultuda V<sub>0</sub> ilk hızıyla fırlatılan bir cismin yaptığı harekettir. Cisim fırlatıldığı andan itibaren düşeyde serbest düşme yaparken, yatayda yol almaya devam eder.</p>
+    
+    <h3>Yatay Atış Hareket Denklemleri:</h3>
+    <ul>
+        <li><b>Uçuş Süresi (t):</b> Sadece düşeydeki h yüksekliğine bağlıdır. Serbest düşme kuralları geçerlidir: <b>h = (1/2) . g . t<sup>2</sup></b></li>
+        <li><b>Menzil Uzaklığı (X):</b> Cismin yatayda aldığı toplam mesafedir. Yatay hız ile uçuş süresinin çarpımına eşittir: <b>X = V<sub>0</sub> . t</b></li>
+        <li><b>Herhangi Bir andaki Hız (V):</b> Yatay hız bileşeni (V<sub>x</sub> = V<sub>0</sub>) hareket boyunca hiç değişmez. Düşey hız bileşeni ise (V<sub>y</sub> = g.t) her saniye 10'ar 10'ar artar. Herhangi bir t anındaki net hız vektörü Pitagor bağıntısı ile bulunur: <b>V = &radic;(V<sub>x</sub><sup>2</sup> + V<sub>y</sub><sup>2</sup>)</b></li>
+    </ul>
+
+    <h2>3. EĞİK ATIŞ HAREKETİ</h2>
+    <p>Yatay düzlemle &alpha; açısı yapacak şekilde V<sub>0</sub> ilk hızıyla fırlatılan bir cismin yaptığı parabolik harekettir. Analiz için hız vektörü ilk olarak dik bileşenlerine ayrıştırılır: <b>V<sub>0x</sub> = V<sub>0</sub> . cos(&alpha;)</b> ve <b>V<sub>0y</sub> = V<sub>0</sub> . sin(&alpha;)</b>.</p>
+
+    <h3>Eğik Atış Hareket Denklemleri:</h3>
+    <ul>
+        <li><b>Uçuş Süresi (t<sub>uçuş</sub>):</b> Cisim düşey hız bileşeni (V<sub>0y</sub>) nedeniyle yukarı doğru yavaşlayan atış, tepe noktasından sonra ise serbest düşme yapar. Çıkış süresi: <b>t<sub>çıkış</sub> = V<sub>0y</sub> / g</b> &nbsp; | &nbsp; Toplam uçuş süresi: <b>t<sub>uçuş</sub> = 2 . V<sub>0y</sub> / g</b></li>
+        <li><b>Maksimum Yükseklik (h<sub>maks</sub>):</b> Cismin çıkabileceği en tepe noktadır. Bu noktada <u>düşey hız sıfırdır</u>, cismin sadece yatay hızı vardır. Değeri: <b>h<sub>maks</sub> = (V<sub>0y</sub>)<sup>2</sup> / 2g</b></li>
+        <li><b>Menzil (X):</b> Yatayda ulaşılan toplam mesafedir: <b>X = V<sub>0x</sub> . t<sub>uçuş</sub></b></li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>💡 ÖSYM TARZI ÖZEL EĞİK ATIŞ KURALLARI:</strong>
+        <br>• <b>Maksimum Menzil Şartı:</b> Bir cismin aynı V<sub>0</sub> ilk hızıyla en uzağa fırlatılabilmesi için atış açısının mutlaka <b>45&deg;</b> olması gerekir.
+        <br>• <b>Tümler Açı Kuralı:</b> Aynı ilk hızla fırlatılan iki cismin atış açılarının toplamı 90&deg; ise (&alpha; + &beta; = 90&deg;), bu iki cismin yatayda ulaşacağı <b>menzil uzaklıkları (X) birbirine tam eşittir</b>.
+        <br>• <b>Hedef Vurma İlkesi:</b> Bir cisim eğik olarak fırlatıldığı doğrultudaki bir T noktasına nişan alınmışsa; cisim fırlatıldığı an T noktasından serbest bırakılan başka bir cisimle, atılan cismin yörüngesi üzerinde bir noktada çarpışır.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Yerden h = 45 metre yükseklikteki bir kuleden yatay doğrultuda V<sub>0</sub> = 20 m/s hızla fırlatılan bir cismin yatayda alacağı yol (Menzil - X) kaç metredir? (g = 10 m/s<sup>2</sup>, hava direnci yok)</div>
+        <ul class="options-list">
+            <li>A) 40</li>
+            <li>B) 60</li>
+            <li>C) 80</li>
+            <li>D) 100</li>
+            <li>E) 120</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak cismin düşeyde serbest düşme yaptığını bilerek havada kalma süresini (t) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h = (1 / 2) . g . t<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 45 = (1 / 2) . 10 . t<sup>2</sup>  &rarr;  45 = 5 . t<sup>2</sup>  &rarr;  t<sup>2</sup> = 9  &rarr;  <b>t = 3 saniye</b>.
+            <br>• Cisim yatay eksende sabit hızlı hareket yaptığından, menzil uzaklığını bulmak için yatay hız ile süreyi çarpalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; X = V<sub>0</sub> . t
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; X = 20 . 3 = <b>60 metre</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> h yüksekliğinden yatay fırlatılan bir cismin yere çarpma anındaki yatay hız bileşeni 15 m/s, düşey hız bileşeni ise 20 m/s'dir. Buna göre, cismin yere çarptığı andaki net hızının büyüklüğü kaç m/s'dir ve cisim kaç metre yükseklikten fırlatılmıştır? (g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 25 m/s , 20 m</li>
+            <li>B) 35 m/s , 45 m</li>
+            <li>C) 25 m/s , 45 m</li>
+            <li>D) 25 m/s , 80 m</li>
+            <li>E) 30 m/s , 40 m</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yatay ve düşey hız bileşenleri birbirine diktir. Yere çarpma anındaki net hız vektörünü Pitagor kuralından (15 - 20 - 25 özel üçgeni) bulabiliriz:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V = &radic;(15<sup>2</sup> + 20<sup>2</sup>) = &radic;(225 + 400) = &radic;625 = <b>25 m/s</b>.
+            <br>• Düşey hız bileşeni V<sub>y</sub> = g . t formülüyle bulunur. Son düşey hız 20 m/s olduğuna göre uçuş süresi:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 20 = 10 . t  &rarr;  <b>t = 2 saniye</b> sürer.
+            <br>• 2 saniye serbest düşen bir cismin fırlatıldığı h yüksekliği:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h = (1 / 2) . g . t<sup>2</sup>  &rarr;  h = (1 / 2) . 10 . 2<sup>2</sup> = 5 . 4 = <b>20 metre</b> olarak elde edilir.
+            <br>• <i>Seçenek revizyonu:</i> h=20 m ve V=25 m/s bulguları tam olarak A şıkkında uyuşmaktadır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Yerden eğik olarak V<sub>0</sub> = 50 m/s ilk hızla ve yatayla &alpha; = 37&deg; açı yapacak şekilde fırlatılan bir cismin çıkabileceği maksimum yükseklik (h<sub>maks</sub>) kaç metredir? (sin37&deg; = 0.6, cos37&deg; = 0.8, g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 25</li>
+            <li>B) 35</li>
+            <li>C) 45</li>
+            <li>D) 60</li>
+            <li>E) 80</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk hamle olarak hız vektörünü yatay ve düşey bileşenlerine ayıralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>0x</sub> = V<sub>0</sub> . cos(37&deg;) = 50 . 0.8 = 40 m/s
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>0y</sub> = V<sub>0</sub> . sin(37&deg;) = 50 . 0.6 = 30 m/s
+            <br>• Maksimum yükseklik sadece düşey hız bileşenine (V<sub>0y</sub>) bağlıdır. Formülü uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h<sub>maks</sub> = (V<sub>0y</sub>)<sup>2</sup> / 2g
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h<sub>maks</sub> = (30)<sup>2</sup> / (2 . 10) = 900 / 20 = <b>45 metre</b> olarak hesaplanır.
+            <br>• <i>Pratik Yol:</i> Düşey hızı 30 m/s olan bir cisim yukarı doğru 3 saniyede çıkar (30 -> 20 -> 10 -> 0). İnişte de 3 saniye serbest düşme yapacağından 5, 15, 25 metre yolları alır; toplamı 45 metredir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Aynı ilk hız büyüklüğüyle (V<sub>0</sub>) fırlatılan K ve L bilyelerinden K bilyesi yatayla 30&deg;'lik, L bilyesi ise yatayla 60&deg;'lik açı yapmaktadır. K bilyesinin yatayda aldığı yol (menzil) X<sub>1</sub>, L bilyesinin aldığı yol X<sub>2</sub> olduğuna göre, menzillerin oranı (X<sub>1</sub> / X<sub>2</sub>) kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1/2</li>
+            <li>B) 1</li>
+            <li>C) &radic;3</li>
+            <li>D) 2</li>
+            <li>E) 1/3</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Eğik atış hareketinin en kritik ÖSYM kurallarından biri tümler açılarla ilgilidir.
+            <br>• Eğer iki cisim <b>aynı hız büyüklüğüyle</b> fırlatılıyorsa ve fırlatılma açılarının toplamı 90&deg; ise, bu cisimlerin yatay eksende alacakları menzil yolları kesinlikle birbirine eşittir.
+            <br>• Soruda K açısı 30&deg; ve L açısı 60&deg; verilmiştir. Toplamları 30&deg; + 60&deg; = 90&deg; (tümler açı) şartını tam sağladığından:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; X<sub>1</sub> = X<sub>2</sub> olmak zorundadır.
+            <br>• Birbirine eşit iki büyüklüğün oranı ise <b>1</b> değerini verir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Yerden eğik fırlatılan bir cismin çıkabileceği maksimum yükseklikteki hızının büyüklüğü 20 m/s'dir. Cismin toplam uçuş süresi 8 saniye olduğuna göre, bu cismin menzil uzaklığı (X) kaç metredir? (g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 80</li>
+            <li>B) 120</li>
+            <li>C) 160</li>
+            <li>D) 200</li>
+            <li>E) 240</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Eğik atış hareketinde cismin çıkabileceği en tepe noktada (h<sub>maks</sub>) düşey hız bileşeni anlık olarak sıfırlanır (V<sub>y</sub> = 0). Dolayısıyla maksimum yükseklikte cismin sahip olduğu tek hız, hareket boyunca hiç değişmeyen <b>yatay hız bileşenidir (V<sub>x</sub>)</b>.
+            <br>• Buradan cismin sabit yatay hızının V<sub>x</sub> = 20 m/s olduğunu netleştiririz.
+            <br>• Yatayda alınan yol (menzil), sabit olan yatay hız ile havada kalınan toplam uçuş süresinin çarpımına eşittir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; X = V<sub>x</sub> . t<sub>uçuş</sub>
+            <br>• Verilen değerleri çarpalım: X = 20 . 8 = <b>160 metre</b> olarak menzil mesafesi elde edilir.
+        </div>
+    </div>
+
+</body>
+</html>

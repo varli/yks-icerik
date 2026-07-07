@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 2: Newton’ın Hareket Yasaları</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 2: NEWTON’IN HAREKET YASALARI</h1>
+        <p>Eylemsizlik, Dinamiğin Temel Prensibi, Etki-Tepki Yasası ve Sürtünmeli Sistem Analizleri</p>
+    </div>
+
+    <h2>1. NEWTON'IN HAREKET YASALARI (ÜÇ ANA PRENSİP)</h2>
+    <p>Sir Isaac Newton tarafından ortaya konan ve klasik mekaniğin temelini oluşturan üç yasa, cisimlerin kuvvet altındaki davranışlarını kusursuz bir şekilde açıklar:</p>
+    
+    <h3>A) Eylemsizlik Yasası (1. Yasa)</h3>
+    <p>Bir cisim üzerine etki eden net kuvvet sıfır ise (&Sigma;F = 0), cisim o anki hareket durumunu korur. Cisim duruyorsa durmaya devam eder, hareket halindeyse <b>sabit hızlı doğrusal hareketine</b> devam eder. Eylemsizlik, cisimlerin kütlelerinden dolayı hareket durumlarındaki değişikliğe karşı gösterdikleri bir dirençtir.</p>
+
+    <h3>B) Dinamiğin Temel Prensibi (2. Yasa)</h3>
+    <p>Bir cisim üzerine etki eden net bir kuvvet varsa, cisim bu net kuvvet doğrultusunda ivmeli hareket yapar. Cismin kazandığı ivme, net kuvvet ile doğru orantılı, kütlesi ile ters orantılıdır:</p>
+    <p style="text-align: center; font-size: 13pt; font-weight: bold; margin: 15px 0;">
+        F<sub>net</sub> = m . a
+    </p>
+
+    <h3>C) Etki - Tepki Yasası (3. Yasa)</h3>
+    <p>Bir cisim ikinci bir cisme kuvvet (etki) uyguladığında, ikinci cisim de birinci cisme aynı büyüklükte, aynı doğrultuda fakat <b>tam zıt yönde</b> bir kuvvet (tepki) uygular. Unutulmamalıdır ki; etki ve tepki kuvvetleri daima <u>farklı cisimler üzerindedir</u>, bu yüzden birbirlerini asla yok edemezler (net kuvvet hesabında birbirlerinden çıkarılmazlar).</p>
+
+    <h2>2. SÜRTÜNME KUVVETİ VE KARAKTERİSTİK ANALİZİ</h2>
+    <p>Birbiriyle temas halinde olan yüzeyler arasında, cisimlerin hareketine veya hareket eğilimine karşı oluşan kuvvete <b>sürtünme kuvveti (F<sub>s</sub>)</b> denir. Sürtünme kuvveti statik ve kinetik olmak üzere iki evrede incelenir:</p>
+    <ul>
+        <li><b>Statik Sürtünme Kuvveti:</b> Durmakta olan cisimlerin harekete geçmesini engelleyen kuvvettir. Sabit bir değeri yoktur; cismi harekete geçirmek için uygulanan kuvvete eşit büyüklüktedir. Alabileceği bir <b>maksimum sınır değeri</b> vardır: <b>F<sub>s(maks)</sub> = k<sub>s</sub> . N</b> (N: Yüzeyin dik tepki kuvveti, k<sub>s</sub>: statik sürtünme katsayısı).</li>
+        <li><b>Kinetik Sürtünme Kuvveti:</b> Hareket halindeki cisimlere etki eden sürtünme kuvvetidir ve hareket boyunca sabittir: <b>F<sub>s(kinetik)</sub> = k<sub>k</sub> . N</b>. Genellikle k<sub>s</sub> &gt; k<sub>k</sub> olduğundan, bir cismi harekete geçirmek, hareketini sürdürmekten daha zorludur.</li>
+    </ul>
+
+    <h2>3. EĞİK DÜZLEM ÜZERİNDEKİ KUVVET ANALİZİ</h2>
+    <p>Eğik düzlem üzerindeki m kütleli bir cismin ağırlık vektörü (G = m.g) daima yerin merkezine doğrudur. Soruları çözebilmek için bu ağırlık vektörü eğik düzleme dik ve paralel bileşenlerine ayrıştırılır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Bileşen Yönü</th>
+                <th>Matematiksel Karşılığı</th>
+                <th>Sisteme Etkisi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Düzleme Paralel Bileşen</b></td>
+                <td><b>F<sub>paralel</sub> = m . g . sin(&alpha;)</b></td>
+                <td>Cismi eğik düzlemden aşağıya doğru kaydırmaya (hızlandırmaya) çalışan kuvvettir.</td>
+            </tr>
+            <tr>
+                <td><b>Düzleme Dik Bileşen</b></td>
+                <td><b>F<sub>dik</sub> = m . g . cos(&alpha;)</b></td>
+                <td>Cismi yüzeye bastıran kuvvettir. Yüzeyin tepki kuvveti (N) bu bileşene eşittir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sürtünmesiz yatay bir düzlemde yan yana durmakta olan m<sub>1</sub> = 2 kg ve m<sub>2</sub> = 3 kg kütleli iki bloka, m<sub>1</sub> kütleli blokun arkasından yatay F = 20 N'lik bir kuvvet uygulanıyor. Buna göre, m<sub>1</sub> blokunun m<sub>2</sub> blokuna uyguladığı tepki kuvveti kaç N'dir?</div>
+        <ul class="options-list">
+            <li>A) 4</li>
+            <li>B) 8</li>
+            <li>C) 12</li>
+            <li>D) 16</li>
+            <li>E) 20</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak sistemin ortak ivmesini (a) bulmak için tüm kütleleri tek bir sistem gibi düşünelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>net</sub> = m<sub>toplam</sub> . a
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 20 = (2 + 3) . a  &rarr;  20 = 5 . a  &rarr;  <b>a = 4 m/s<sup>2</sup></b>.
+            <br>• Şimdi kütleleri birbirinden ayırıp sadece öndeki m<sub>2</sub> = 3 kg'lık bloka odaklanalım. Bu bloku yatay düzlemde hareket ettiren tek kuvvet, arkasındaki m<sub>1</sub> kütlesinin ona uyguladığı itme (etki) kuvvetidir (F<sub>12</sub>):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>12</sub> = m<sub>2</sub> . a
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>12</sub> = 3 . 4 = <b>12 N</b>.
+            <br>• Newton'ın 3. yasası gereği, m<sub>1</sub>'in m<sub>2</sub>'ye uyguladığı etki, m<sub>2</sub>'nin m<sub>1</sub>'e uyguladığı tepki kuvvetine büyüklükçe eşittir. Dolayısıyla aralarındaki etki-tepki kuvveti 12 N'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Yatay düzlemdeki m = 4 kg kütleli bir bloka yatay doğrultuda F kuvveti uygulanıyor. Yüzey ile cisim arasındaki statik sürtünme katsayısı k<sub>s</sub> = 0.5 ve kinetik sürtünme katsayısı k<sub>k</sub> = 0.4'tür. Cisme hareketsizken F = 15 N'lik yatay bir kuvvet uygulanırsa, cisme etki eden sürtünme kuvveti kaç N olur? (g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 15</li>
+            <li>B) 16</li>
+            <li>C) 20</li>
+            <li>D) 0</li>
+            <li>E) 12</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk yapılması gereken hamle, cismin harekete geçip geçemeyeceğini anlamak için statik sürtünme kuvvetinin maksimum sınır değerini hesaplamaktır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; N = m . g = 4 . 10 = 40 N (Yüzeyin dik tepkisi)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>s(maks)</sub> = k<sub>s</sub> . N = 0.5 . 40 = <b>20 N</b>.
+            <br>• Cismin harekete başlayabilmesi için uygulanan kuvvetin bu 20 N'lik eşik değerini aşması gerekir. 
+            <br>• Soruda uygulanan kuvvet F = 15 N'dir. 15 N &lt; 20 N olduğundan cisim <b>harekete geçemez, durmaya devam eder</b>.
+            <br>• Durmakta olan cisimlerde eylemsizlik gereği sürtünme kuvveti, uygulanan kuvvete tam eşit büyüklükte olmalıdır ki net kuvvet sıfır kalsın. Bu yüzden cisme etki eden statik sürtünme kuvveti doğrudan uygulanan kuvvet olan <b>15 N</b>'dir. (Hatalı bir şekilde kinetik veya maksimum statik formülü doğrudan kullanılmamalıdır).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Eğik düzlem açısı &alpha; = 37&deg; olan sürtünmesiz bir eğik düzlemin en üst noktasından serbest bırakılan m = 2 kg kütleli bir blokun kayma ivmesi kaç m/s<sup>2</sup> olur? (sin37&deg; = 0.6, cos37&deg; = 0.8, g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 4</li>
+            <li>B) 6</li>
+            <li>C) 8</li>
+            <li>D) 10</li>
+            <li>E) 12</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Eğik düzlem sürtünmesiz olduğuna göre, cismi aşağı doğru ivmelendiren tek kuvvet ağırlığının düzleme paralel olan bileşenidir: F<sub>net</sub> = m . g . sin(&alpha;).
+            <br>• Newton'ın ikinci kanunu formülüne bu net kuvveti yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>net</sub> = m . a  &rarr;  m . g . sin(&alpha;) = m . a
+            <br>• Eşitliğin her iki tarafındaki m (kütle) terimleri birbirini sadeleştirir. Bu da bize sürtünmesiz eğik düzlemlerde kayma ivmesinin <b>kütleden bağımsız</b> olduğunu kanıtlar:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a = g . sin(&alpha;)
+            <br>• Değerleri yerlerine koyalım: a = 10 . sin(37&deg;) = 10 . 0.6 = <b>6 m/s<sup>2</sup></b> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bir asansörün tavanına asılı m = 3 kg kütleli bir cismin bağlı olduğu ipteki gerilme kuvveti (T), asansör yukarı doğru a = 2 m/s<sup>2</sup> ivmeyle <b>hızlanan</b> hareket yaparken kaç N olur? (g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 24</li>
+            <li>B) 26</li>
+            <li>C) 30</li>
+            <li>D) 36</li>
+            <li>E) 40</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Asansör yukarı doğru hızlandığına göre, içerideki cismin eylemsizlik hissi (ivmeye zıt yönde) aşağı doğru ek bir etki yaratacaktır. Dinamik denklemini asansör dışındaki eylemsiz gözlemciye göre kurarsak; yukarı yönlü net bir ivme olması için ip gerilmesinin (T) cismin ağırlığından (G = m.g) büyük olması gerekir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>net</sub> = m . a
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; T - m.g = m . a
+            <br>• Bilinen değerleri denklemde yerine yazarak ip gerilmesini çekelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; T - (3 . 10) = 3 . 2
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; T - 30 = 6  &rarr;  T = 30 + 6 = <b>36 N</b> olarak hesaplanır (Cisim kendini daha ağır hisseder).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kütlesi m = 5 kg olan bir cisim sürtünmeli yatay bir düzlemde bulunmaktadır. Cisim ile yüzey arasındaki kinetik sürtünme katsayısı k<sub>k</sub> = 0.2'dir. Cisme yatay doğrultuda F = 20 N'lik bir kuvvet uygulandığına göre, cismin hareket ivmesi kaç m/s<sup>2</sup> olur? (g = 10 m/s<sup>2</sup>)</div>
+        <ul class="options-list">
+            <li>A) 1</li>
+            <li>B) 2</li>
+            <li>C) 3</li>
+            <li>D) 4</li>
+            <li>E) 5</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Cisim hareket halinde veya harekete zorlandığı için yüzeyin dik tepkisinden kinetik sürtünme kuvvetini hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; N = m . g = 5 . 10 = 50 N
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>s</sub> = k<sub>k</sub> . N = 0.2 . 50 = <b>10 N</b>.
+            <br>• Cisme uygulanan hareket ettirici kuvvet F = 20 N olduğundan, sürtünme kuvvetini aşmıştır ve net kuvvet yönünde ivmelenecektir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>net</sub> = F - F<sub>s</sub> = 20 - 10 = 10 N.
+            <br>• Şimdi temel prensibi ($F = m \cdot a$) çalıştırarak ivmeyi bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F<sub>net</sub> = m . a  &rarr;  10 = 5 . a  &rarr;  <b>a = 2 m/s<sup>2</sup></b> olarak elde edilir.
+        </div>
+    </div>
+
+</body>
+</html>

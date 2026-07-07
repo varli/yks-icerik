@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 23: Modern Fiziğin Teknolojideki Uygulamaları</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #4a2e1b; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e0d0c5; }
+        h2 { color: #4a2e1b; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #6e4428; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f7edf0; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #4a2e1b; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #6e4428; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #6e4428; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 23: MODERN FİZİĞİN TEKNOLOJİDEKİ UYGULAMALARI</h1>
+        <p>Görüntüleme Cihazları, Yarı İletken Teknolojisi, Süper İletkenler ve Lazer Işınları</p>
+    </div>
+
+    <h2>1. TIBBİ GÖRÜNTÜLEME TEKNOLOJİLERİ</h2>
+    <p>Modern fizik teorileri, tıp dünyasında devrimsel tanı cihazlarının üretilmesini sağlamıştır. ÖSYM bu cihazların hangi fiziksel dalga veya prensiple çalıştığını sıklıkla sorar:</p>
+    <ul>
+        <li><b>Röntgen:</b> **X-ışınlarının** (yüksek enerjili EM dalga) dokulardan geçiş oranına dayanır. Kemikli yapıları görüntülemede iyidir. Canlı dokuya radyasyon zararı vardır.</li>
+        <li><b>Bilgisayarlı Tomografı (BT):</b> Röntgen cihazının gelişmiş halidir. Vücudun etrafında dönen bir mekanizmayla **X-ışınları** kullanılarak katman katman 3 boyutlu kesit görüntüsü alınır. Radyasyon oranı yüksektir.</li>
+        <li><b>Manyetik Rezonans (MR):</b> **Kesinlikle radyasyon (X-ışını) içermez.** Vücuda güçlü bir manyetik alan uygulanarak hücrelerdeki hidrojen atomlarının protonları hizalanır. Ardından gönderilen **Radyo Dalgaları** ile bu protonların rezonansa gelmesi sağlanarak net doku görüntüsü elde edilir. Yumuşak doku analizinde mükemmeldir.</li>
+        <li><b>Pozitron Emisyon Tomografisi (PET):</b> Hastaya radyoaktif bir şeker (flor-18) damardan verilir. Bu madde vücutta pozitron ($\beta^+$) salar. Pozitronlar vücuttaki elektronlarla çarpışarak **yok olma reaksiyonu** gerçekleştirir ve dışarıya **Gama ışınları** fırlatır. Cihaz bu gama ışınlarını yakalayarak kanserli (hızlı büyüyen) dokuları saptar. Nükleer tıp uygulamasıdır.</li>
+        <li><b>Ultrason:</b> **Kesinlikle elektromanyetik dalga veya radyasyon içermez.** Tamamen yüksek frekanslı **Ses Dalgaları** ile çalışır. Dokulardan yansıyan ses dalgalarının (eko) piezoelektrik kristaller tarafından elektrik sinyaline dönüştürülmesiyle görüntü üretilir. Gebelikte güvenle kullanılır.</li>
+        <li><b>Sonar:</b> Denizcilikte kullanılan, tıpkı ultrason gibi yüksek frekanslı **Ses Dalgaları** ile çalışan, deniz tabanı haritalama ve balık sürüsü saptama cihazıdır.</li>
+        <li><b>Termal Kameralar:</b> Cisimlerin sıcaklıklarından ötürü yaydıkları **Kızılötesi (Infrared) ışınları** algılayarak ısı haritası çıkaran cihazlardır.</li>
+    </ul>
+
+    <h2>2. YARI İLETKEN TEKNOLOJİSİ VE ELEKTRONİK</h2>
+    <p>Normal şartlarda yalıtkan olan, ancak ısı, ışık veya elektriksel gerilim gibi dış bir etki uygulandığında iletken hale gelen maddelere <b>yarı iletken</b> denir (Silisyum, Germanyum). Saf yarı iletkenler bor veya fosfor gibi elementlerle laboratuvarda katkılanarak iki tipe ayrılır:</p>
+    <ul>
+        <li><b>P-Tipi Yarı İletken:</b> Pozitif yük taşıyıcılarının (elektron boşlukları / deşikler) çoğunlukta olduğu yapıdır.</li>
+        <li><b>N-Tipi Yarı İletken:</b> Negatif yük taşıyıcılarının (serbest elektronlar) çoğunlukta olduğu yapıdır.</li>
+    </ul>
+    <p><b>Devre Elemanları:</b></p>
+    <ol>
+        <li><b>Diyot:</b> Bir adet P ve bir adet N tipi yarı iletkenin birleştirilmesiyle (p-n jonksiyonu) oluşur. Akımı **tek yönde geçiren** devre elemanıdır. Alternatif akımı (AC), doğru akıma (DC) dönüştürmede (doğrultmaç) kullanılır. **LED** ise ışık yayan özel bir diyottur.</li>
+        <li><b>Transistör:</b> İki n ve bir p (NPN) ya da iki p ve bir n (PNP) tabakasının birleşmesiyle oluşan 3 bacaklı (Emitter, Base, Collector) mucizevi elemandır. Küçük elektrik sinyallerini **yükseltmeye** (amfi görevi) ya da devrelerde çok hızlı bir **elektronik anahtar** (0 ve 1 mantığı) olarak çalışmaya yarar. İşlemcilerin temelidir.</li>
+        <li><b>Güneş Pilleri (Fotovoltaik):</b> Üzerine düşen güneş ışığını (fotonları) p-n ekleminde doğrudan **elektrik enerjisine** dönüştüren sistemlerdir.</li>
+    </ol>
+
+    <h2>3. SÜPER İLETKENLER</h2>
+    <p>Belirli maddelerin (cıva, seramik vb.), **Kritik Sıcaklık (T<sub>c</sub>)** adı verilen çok düşük bir sıcaklık değerine kadar soğutulduklarında, **elektriksel dirençlerinin tam olarak sıfıra düşmesi** olayına süper iletkenlik denir. Direnç sıfır olduğu için akım hiç enerji kaybetmeden sonsuza kadar akabilir.</p>
+    <p><b>Meissner Etkisi:</b> Bir madde süper iletken faza geçtiği anda, içerisindeki tüm manyetik alan çizgilerini dışarı doğru iter; yani **mükemmel bir diyamanyetik** malzeme haline gelir. Bu sayede süper iletkenler güçlü mıknatısların üzerinde havada asılı kalabilirler (Levitasyon). **Maglev trenleri** ve MR cihazlarındaki güçlü elektromıknatıslar süper iletken teknolojisiyle çalışır.</p>
+
+    <h2>4. LAZER IŞINLARI (Uyarılmış Emisyon)</h2>
+    <p>Lazer (LASER), uyarılmış atomların zincirleme bir reaksiyonla aynı anda, aynı fazda ve aynı doğrultuda foton salmasıyla elde edilen **şiddetli, tek renkli (monokromatik) ve doğrusal** bir ışık demetidir. Temeli **Uyarılmış Emisyon** olayına dayanır. Dağılmadan çok uzak mesafelere gidebilir, bulutlardan geçebilir, tıpta göz ameliyatlarında ve sanayide hassas kesim/kaynak işlerinde kullanılır.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Tıpta yaygın olarak kullanılan; I. Manyetik Rezonans (MR), II. Bilgisayarlı Tomografi (BT), III. Ultrason cihazlarının hangilerinde teşhis ve görüntüleme amacıyla vücuda <b>elektromanyetik dalga</b> gönderilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Cihazların fiziksel temellerini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: MR cihazı, hidrojen protonlarını rezonansa getirmek için **Radyo Dalgaları** kullanır. Radyo dalgaları bir EM dalgadır. (Radyasyon/iyonlaştırma etkisi yoktur ancak EM dalgadır).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: BT cihazı vücuda yüksek enerjili **X-ışınları** gönderir. X-ışınları spektrumun en güçlü EM dalgalarındandır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Ultrason cihazı ise tamamen **Ses Dalgaları** (mekanik dalga) ile çalışır. Yapısında elektromanyetik dalga kesinlikle barındırmaz. Cevap I ve II olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Yarı iletken teknolojisiyle üretilen ve modern elektroniğin temelini oluşturan diyot ve transistörler ile ilgili; I. Diyot, alternatif akımı doğru akıma dönüştürmede kullanılır, II. Transistörler devrelerde elektrik sinyallerini yükseltmek veya anahtarlama yapmak amacıyla kullanılır, III. Diyotlar akımı her iki yönde de kusursuz iletir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yarı iletken komponentlerin görev analizini yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Diyot akımı tek yöne tek tipleştirdiği için dalgalı AC akımı düz çizgisel DC akıma doğrultmada (doğrultmaç devrelerinde) ana roldedir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Transistörlerin temel iki fonksiyonu vardır; akım/gerilim sinyalini yükseltmek (amplifikatör) ve lojik kapılarda hızlı açma-kapama anahtarı olmak. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Diyotlar akımı her iki yönde değil, **yalnızca tek yönde (doğru kutuplama yönünde)** iletirler, ters yönde çok büyük bir direnç göstererek akımı keserler. Bu yüzden üçüncü ifade yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir malzemenin süper iletkenlik fazına geçmesi süreci ile ilgili; I. Malzeme kritik sıcaklığın altına kadar soğutulmalıdır, II. Süper iletken faza geçen malzemenin içindeki manyetik alan sıfırlanır (Meissner etkisi), III. Maddenin elektriksel direnci tamamen sıfıra düşer yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Süper iletkenlik doğasını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Her süper iletken malzemenin kendine has bir eşik sıcaklığı ($T_c$) vardır ve sistem ancak o soğukluğa ulaştığında süper iletkendir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Meissner etkisi gereği süper iletken malzeme dış manyetik alanı içine kabul etmez, dışarı iter ve iç net manyetik akısı sıfır olur (mükemmel diyamanyetizma). Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Süper iletkenliğin en büyük elektriksel tanımı, atom kafes titreşimlerinin durmasıyla elektronların hiçbir sürtünmeye / engele uğramadan sıfır dirençle akmasıdır. Bu da doğrudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Lazer ışınlarının genel özellikleri ile ilgili aşağıda verilen ifadelerden hangisi kavramsal olarak <b>yanlıştır</b>?</div>
+        <ul class="options-list">
+            <li>A) Temel üretim mekanizması uyarılmış emisyona dayanır.</li>
+            <li>B) Aynı fazda, tek renkli ve birbirine paralel fotonlardan oluşur.</li>
+            <li>C) Dağılmadan çok uzak mesafelere doğrusal olarak yayılabilirler.</li>
+            <li>D) Röntgen ışınları gibi tamamen boyuna dalga yapısındadırlar.</li>
+            <li>E) Enerjileri sıradan ışık kaynaklarına göre çok yoğundur.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Lazer ışınları sıradan ışıklardan farklı olarak uyarılmış emisyonla üretilen, koherent (aynı fazlı), monokromatik (tek frekanslı) ve yüksek yoğunluklu fotonlardır (A, B, C, E şıkları doğrudur).
+            <br>• Ancak D şıkkındaki ifade kesinlikle yanlıştır. Çünkü **lazer ışınları özünde birer ışık paketidir, yani elektromanyetik dalgadır**. Tüm elektromanyetik dalgalar istisnasız **enine dalgalardır**, boyuna dalga olamazlar.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kanserli veya metabolizması aşırı hızlanmış dokuların hücresel düzeyde saptanmasında kullanılan Pozitron Emisyon Tomografisi (PET) cihazı ile ilgili; I. Bir nükleer tıp görüntüleme tekniğidir, II. Temelinde madde ile antimaddenin birleşerek birbirini yok etmesi reaksiyonu yatar, III. Cihazın dedektörleri dokudan dışarı yayılan ses dalgalarını toplar yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• PET cihazının nükleer işleyişini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Vücuda radyoaktif izotop enjekte edildiği ve çekirdek bozunması takip edildiği için net bir nükleer tıp uygulamasıdır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Enjekte edilen maddeden çıkan Pozitron (antimadde), vücuttaki bir Elektronla (madde) çarpışır ve **Madde-Antimadde Yok Olma (Annihilation)** reaksiyonu gerçekleşerek saf enerjiye (Gama fotonlarına) dönüşür. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Yok olma reaksiyonu sonucu dışarıya fırlatılan dalgalar ses dalgası değil, muazzam enerjili **Gama (&gamma;) ışınlarıdır**. Cihaz bu ışınları tarar. Üçüncü öncül yanlış olduğundan cevap I ve II olur.
+        </div>
+    </div>
+
+</body>
+</html>

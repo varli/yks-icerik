@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 7: Tork, Denge ve Kütle Merkezi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 7: TORK, DENGE VE KÜTLE MERKEZİ</h1>
+        <p>Kuvvetin Döndürme Etkisi, Sağ El Kuralı, Statik Denge Şartları ve Geometrik Cisimlerin Kütle Merkezleri</p>
+    </div>
+
+    <h2>1. TORK (KUVVET MOMENTİ) KAVRAMI</h2>
+    <p>Bir kuvvetin, uygulandığı cismi sabit bir eksen veya nokta etrafında döndürme etkisine <b>tork (&tau; - Moment)</b> denir. Tork, hem büyüklüğü hem de dönme yönü olan <b>vektörel</b> bir büyüklüktür. Dönme noktasına d kadar dik uzaklıkta uygulanan bir F kuvvetinin ürettiği tork formülü şöyledir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        &tau; = F . d . sin(&alpha;)
+    </p>
+    <p>Eğer kuvvetin doğrultusu doğrudan dönme noktasından geçiyorsa (d = 0 veya &alpha; = 0&deg;), bu kuvvetin döndürme etkisi yoktur, yani torku sıfırdır.</p>
+    
+    <div class="highlight-box">
+        <strong>⚠️ TORKUN YÖNÜ VE SAĞ EL KURALI:</strong>
+        <br>Tork vektörünün yönü, cismin dönme yönüyle aynı değildir! Tork yönü <b>Sağ El Kuralı</b> ile bulunur:
+        <br>• Sağ elin dört parmağı cismin <b>dönme yönünü</b> gösterecek şekilde büküldüğünde, bunlara dik olarak açılan <b>başparmak tork vektörünün yönünü</b> gösterir.
+        <br>• Bu doğrultuda tork vektörü sayfa düzleminden dışarı doğru (☉) veya sayfa düzleminden içeri doğru (&otimes;) bir yön belirtir.
+    </div>
+
+    <h2>2. STATİK DENGE ŞARTLARI</h2>
+    <p>Bir cismin veya sistemin statik dengede kalabilmesi (duruyorsa durmaya devam etmesi) için iki altın şartın aynı anda sağlanması zorunludur:</p>
+    <ul>
+        <li><b>1. Denge Şartı (Öteleme Dengesi):</b> Cisme etki eden tüm kuvvetlerin vektörel toplamı (net kuvvet) sıfır olmalıdır: <b>&Sigma;F = 0</b>. (Yani sağa çekenler sola çekenlere, yukarı çekenler aşağı çekenlere eşit olmalıdır).</li>
+        <li><b>2. Denge Şartı (Dönme Dengesi):</b> Cisme etki eden tüm kuvvetlerin herhangi bir noktaya göre seçilen net torku sıfır olmalıdır: <b>&Sigma;&tau; = 0</b>. (Yani saatin tersi yönünde döndürmeye çalışan torkların büyüklüğü, saat yönünde döndürmeye çalışan torkların büyüklüğüne eşit olmalıdır).</li>
+    </ul>
+
+    <h2>3. KÜTLE VE AĞIRLIK MERKEZİ ANALİZİ</h2>
+    <p>Bir cismin yer çekimi tarafından çekilen tüm atomlarının ağırlık bileşkelerinin toplandığı tek bir uygulama noktasına <b>ağırlık merkezi</b> denir. Küçük cisimlerde kütle merkezi ile ağırlık merkezi üst üste çakışır; fakat çok yüksek binalarda (gökdelenlerde) yer çekimi ivmesi yukarı çıkıldıkça azaldığı için ağırlık merkezi, kütle merkezinin <u>biraz daha altında</u> yer alır.</p>
+
+    <h3>Düzgün ve Homojen Cisimlerin Ağırlık Merkezleri:</h3>
+    <ul>
+        <li><b>Tek Boyutlu Cisimler (Teller, Çubuklar):</b> Ağırlık, telin <b>uzunluğu (L)</b> ile doğru orantılı alınır. Homojen çubuğun tam orta noktasıdır.</li>
+        <li><b>İki Boyutlu Cisimler (Levhalar, Kare, Daire):</b> Ağırlık, levhanın <b>alanı (A)</b> ile doğru orantılı alınır. Dairenin merkezidir. Üçgen levhada ise tabandan 1, köşeden 2 birim uzaklıktaki kenarortay kesim noktasıdır.</li>
+        <li><b>Üç Boyutlu Cisimler (Küp, Silindir, Küre):</b> Ağırlık, cismin <b>hacmi (V)</b> ile doğru orantılı yansıtılır.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> O noktası etrafında serbestçe dönebilen eşit bölmeli, homojen ve P ağırlığındaki bir çubuk, ucuna asılan G = 2P ağırlığındaki cisimle yatay olarak dengededir. Çubuğu dengede tutan düşey ipteki gerilme kuvveti (T) kaç P büyüklüğündedir? (İp çubuğun en uç noktasına bağlıdır ve çubuk 4 bölmelidir).</div>
+        <ul class="options-list">
+            <li>A) P</li>
+            <li>B) 1.5P</li>
+            <li>C) 2P</li>
+            <li>D) 2.5P</li>
+            <li>E) 3P</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Çubuğun dönebildiği O noktasına göre net tork denklemini kuralım (&Sigma;&tau; = 0).
+            <br>• Çubuk homojen ve 4 bölmeli olduğundan, kendi P ağırlığı tam ortadan (O'ya 2 bölme uzaklıktan) aşağı doğru etki eder.
+            <br>• G = 2P ağırlığındaki yük çubuğun en ucuna (O'ya 4 bölme uzaklığa) asılmıştır ve o da aşağı yönlü döndürmeye çalışır.
+            <br>• Düşey T ip gerilmesi ise çubuğun yine en ucundan (4 bölme uzaklıktan) yukarı doğru çekerek bu iki ağırlığı dengelemektedir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Sigma;&tau;<sub>O</sub> = 0  &rarr;  T . 4 = (P . 2) + (2P . 4)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4T = 2P + 8P  &rarr;  4T = 10P
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; T = 10P / 4 = <b>2.5P</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sürtünmesiz dik duvara yaslanmış olan homojen bir merdiven yerde kaymadan dengede durmaktadır. Duvarın merdivene uyguladığı tepki kuvveti F<sub>duvar</sub>, yerin merdivene uyguladığı dik tepki kuvveti N<sub>yer</sub> ve yerdeki sürtünme kuvveti F<sub>s</sub>'dir. Bu sistemde öteleme dengesi şartlarına göre hangi kuvvetler birbirine büyüklükçe tam eşit olmak zorundadır?</div>
+        <ul class="options-list">
+            <li>A) F<sub>duvar</sub> = N<sub>yer</sub></li>
+            <li>B) N<sub>yer</sub> = Merdivenin Ağırlığı</li>
+            <li>C) F<sub>duvar</sub> = F<sub>s</sub></li>
+            <li>D) B ve C seçeneklerinin ikisi de doğrudur</li>
+            <li>E) F<sub>s</sub> = Merdivenin Ağırlığı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Sistemin öteleme dengesinde kalabilmesi için net kuvvetin sıfır olması gerekir (&Sigma;F<sub>x</sub> = 0 ve &Sigma;F<sub>y</sub> = 0).
+            <br>• <b>Yatay Eksen Analizi (X Ekseni):</b> Merdiveni sağa doğru iten yegane kuvvet düşey duvarın tepki kuvvetidir (F<sub>duvar</sub>). Merdivenin sola doğru kaymasını engelleyen tek kuvvet ise yerdeki sürtünme kuvvetidir (F<sub>s</sub>). Dengeden dolayı: <b>F<sub>duvar</sub> = F<sub>s</sub></b> olmalıdır.
+            <br>• <b>Düşey Eksen Analizi (Y Ekseni):</b> Merdiveni aşağı doğru çeken kuvvet kendi ağırlığıdır (G). Yukarı doğru tutan dik kuvvet ise yerin tepki kuvvetidir (N<sub>yer</sub>). Duvar sürtünmesiz olduğundan düşey kuvvet üretmez. Dengeden dolayı: <b>N<sub>yer</sub> = Merdivenin Ağırlığı</b> olmalıdır.
+            <br>• Hem B hem de C çıkarımları doğru olduğundan doğru şık D seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Homojen, yarıçapı R ve ağırlığı P olan düzgün bir dairesel levhadan, şekildeki gibi aynı homojenlikte r = R/2 yarıçaplı dairesel bir parça kesilerek çıkartılıyor. Buna göre, kalan levhanın ağırlık merkezi orijinal merkezden kaç R kadar uzaklığa kayar?</div>
+        <ul class="options-list">
+            <li>A) R/2</li>
+            <li>B) R/3</li>
+            <li>C) R/4</li>
+            <li>D) R/6</li>
+            <li>E) R/8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Levhaların ağırlıkları alanları ile doğru orantılıdır (Alan = &pi;.r<sup>2</sup>).
+            <br>• Orijinal levhanın alanı: A<sub>büyük</sub> = &pi;.R<sup>2</sup> &rarr; Buna 4G ağırlığı diyelim.
+            <br>• Çıkarılan parçanın alanı: A<sub>küçük</sub> = &pi;.(R/2)<sup>2</sup> = &pi;.R<sup>2</sup> / 4 &rarr; Bunun ağırlığı G olur.
+            <br>• Parça çıkarma sorularında pratik koordinat veya tork yöntemi uygulanır: Çıkan parçanın ağırlık vektörü (G) yukarı doğru bir ok olarak çizilir. Kalan kütle ise 4G - G = 3G olur.
+            <br>• Büyük çember merkezine göre tork alalım. Çıkarılan küçük çemberin merkezi, büyük merkezden R/2 kadar uzaktadır. Yeni kütle merkezinin kayma miktarına x dersek, kalan 3G kütlesi zıt yönde x kadar tork üretmelidir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Kalan Kütle . x = Çıkan Kütle . Uzaklık
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3G . x = G . (R / 2)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3x = R / 2  &rarr;  x = R / (2 . 3)  &rarr;  <b>x = R / 6</b> olarak kayma miktarı hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Boyu 60 cm olan homojen ve düzgün bir telin bir ucundan 10 cm'lik bir kısım kesilerek atılıyor. Buna göre, telin ağırlık merkezi ilk konumuna göre kaç cm kaymıştır?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 5</li>
+            <li>C) 10</li>
+            <li>D) 15</li>
+            <li>E) 20</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Homojen tellerin ağırlık merkezi tam orta noktalarındadır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Telin ilk boyu 60 cm iken ağırlık merkezi tam ortada, yani 30. cm'dedir.
+            <br>• Telin bir ucundan 10 cm kesildiğinde yeni boyu: 60 - 10 = 50 cm olur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Yeni durumdaki ağırlık merkezi 50 cm'nin tam ortası olan 25. cm'ye gelecektir (kesilen taraftan ölçüldüğünde).
+            <br>• Ağırlık merkezinin kayma miktarı için çok pratik bir altın kural vardır: **"Bir telin ucundan x kadar kısım kesilirse, ağırlık merkezi kesilen miktarın tam yarısı (x / 2) kadar kayar."**
+            <br>• Kesilen miktar 10 cm olduğuna göre kayma miktarı: 10 / 2 = <b>5 cm</b> olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> O noktasından geçen dik mil etrafında dönebilen bir kapıya, milden d = 2 metre uzaklıkta kapı yüzeyine tam dik olarak F = 15 N'lik bir kuvvet uygulanıyor. Bu kuvvetin O noktasına göre oluşturduğu tork vektörünün büyüklüğü kaç N.m'dir?</div>
+        <ul class="options-list">
+            <li>A) 7.5</li>
+            <li>B) 15</li>
+            <li>C) 30</li>
+            <li>D) 45</li>
+            <li>E) 60</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kuvvet kapı yüzeyine tam dik uygulandığı için açı &alpha; = 90&deg;'dir (sin90&deg; = 1). Uzaklık dik uzaklıktır.
+            <br>• Tork büyüklük formülünü doğrudan çalıştıralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &tau; = F . d
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &tau; = 15 N . 2 m = <b>30 N.m</b> olarak kuvvetin oluşturduğu moment büyüklüğü elde edilir.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 12: Manyetizma ve Elektromanyetik İndüklenme</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 12: MANYETİZMA VE ELEKTROMANYETİK İNDÜKLENME</h1>
+        <p>Akımın Manyetik Etkisi, Manyetik Kuvvet, İndüksiyon Akımı, Lenz Kanunu ve Özindüksiyon</p>
+    </div>
+
+    <h2>1. ELEKTRİK AKIMININ MANYETİK ETKİSİ (B)</h2>
+    <p>Üzerinden akım geçen her iletken, çevresindeki uzay boşluğunda bir manyetik alan (B) oluşturur. Manyetik alan vektörel bir büyüklüktür ve birimi Tesla'dır (Wb/m²). Üç farklı iletken geometrisi için manyetik alan modelleri şunlardır:</p>
+    <ul>
+        <li><b>Düz Telin Manyetik Alanı:</b> Üzerinden i akımı geçen düz bir telden d kadar uzaktaki manyetik alan: <b>B = 2k . i / d</b> formülüyle hesaplanır. Yönü <b>Sağ El Kuralı</b> ile bulunur: Başparmak akım yönünü gösterecek şekilde tel kavrandığında, bükülen dört parmak manyetik alan dolanım yönünü (sayfa dışı ☉ veya sayfa içi &otimes;) verir.</li>
+        <li><b>Halkanın Manyetik Alanı:</b> r yarıçaplı çembersel bir telin merkezinde oluşan alan: <b>B = 2k . &pi; . i / r</b> şeklindedir. Burada sağ elin dört parmağı akım yönünde bükülür, dik açılan başparmak merkezdeki manyetik alan yönünü gösterir.</li>
+        <li><b>Akım Makarası (Bobin - Solenoid):</b> N sarımlı ve L boyundaki bir bobinin merkez ekseninde oluşan düzgün alan: <b>B = 4k . &pi; . i . N / L</b> formülüyle elde edilir. Dört parmak bobin üzerindeki akım yönünü saracak şekilde tutulduğunda, başparmak bobinin içindeki manyetik alanın yönünü (yani bobinin N kutbunu) gösterir.</li>
+    </ul>
+
+    <h2>2. MANYETİK KUVVET VE PARÇACIK DİNAMİĞİ</h2>
+    <p>Manyetik alanların, akımlara ve hareketli yüklere uyguladığı mekanik etkilerdir:</p>
+    <ul>
+        <li><b>Akım Geçen Tele Etki Eden Kuvvet:</b> B manyetik alanı içerisine yerleştirilen L boyundaki düz bir telden i akımı geçiyorsa, tele etki eden kuvvet (Akılda kalması için "BİL" olarak kodlanır): <b>F = B . i . L . sin(&alpha;)</b> bağıntısıyla hesaplanır. Sağ elin başparmağı akım (i), dört parmağı manyetik alan (B) yönünü gösterdiğinde, <b>avuç içi</b> tele etki eden manyetik kuvvetin (F) yönünü gösterir.</li>
+        <li><b>Yüklü Parçacıklara Etki Eden Kuvvet:</b> B manyetik alanına v hızıyla giren q yüklü bir parçacığa etki eden kuvvet (Akılda kalması için "Bisküvi - Bqv" olarak kodlanır): <b>F = B . q . v</b> şeklindedir. Sağ el kuralında; başparmak hız (v), dört parmak alan (B) doğrultusunu gösterir. <b>(+) yükler için avuç içi yönünde, (-) yükler için avuç dışı yönünde</b> bir sapma kuvveti uygulanır. Hız ve alan dik ise parçacık alan içinde <u>çembersel hareket</u> yapar.</li>
+    </ul>
+
+    <h2>3. ELEKTROMANYETİK İNDÜKLENME VE LENZ KANUNU</h2>
+    <p><b>Manyetik Akı (&Phi;):</b> Belirli bir yüzeyden dik olarak geçen manyetik alan çizgilerinin toplam miktarının bir ölçüsüdür. Birimi Weber'dir ve <b>&Phi; = B . A . cos(&alpha;)</b> şeklinde ifade edilir.</p>
+    <p><b>Faraday İndüksiyon Kanunu:</b> Bir devre sistemini çevreleyen toplam manyetik akı zamanla değişirse, devrede bu akı değişim hızıyla doğru orantılı bir **İndüksiyon Elektromotor Kuvveti (&epsilon;)** meydana gelir. Sistem kapalı bir devre ise indüksiyon akımı oluşur:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        &epsilon; = - &Delta;&Phi; / &Delta;t
+    </p>
+    <div class="highlight-box">
+        <strong>⚠️ LENZ KANUNU VE FORMÜLDEKİ EKSİ (-) İŞARETİ:</strong>
+        <br>Lenz Kanununa göre; indüksiyon akımı, kendisini oluşturan manyetik akı değişimine <b>daima karşı koyacak (zıtlık oluşturacak)</b> yönde meydana gelir.
+        <br>• Eğer sistemdeki dış manyetik akı <b>artıyorsa</b>, indüksiyon akımı bu artışı engellemek için dış alana <u>zıt yönde</u> kendi manyetik alanını üretir.
+        <br>• Eğer dış manyetik akı <b>azalıyorsa</b>, indüksiyon akımı bu azalışı desteklemek için dış alanla <u>aynı yönde</u> bir manyetik alan üretecek şekilde dolanır.
+    </div>
+
+    <h2>4. ÖZİNDÜKSİYON AKIMI</h2>
+    <p>Bir elektrik devresinin (özellikle bobin içeren devrelerin) **kendi üzerinden geçen akımın değiştirilmesi** (reosta ile akımın artırılması veya azaltılması, anahtarın açılıp kapatılması) sonucu devrenin kendi içinde oluşturduğu akıma <b>özindüksiyon akımı</b> denir. Özindüksiyon emk'si <b>&epsilon; = -L . &Delta;i / &Delta;t</b> (L: Özindüksiyon katsayısı) ile bulunur. Devre akımı artarken özindüksiyon akımı akıma zıt yönde oluşur; devre akımı azalırken ise akımla aynı yönde oluşarak akımı korumaya çalışır.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sayfa düzleminde bulunan düz bir telden yukarı doğru i akımı geçmektedir. Bu telden d kadar sağ tarafta bulunan bir K noktasında oluşan manyetik alanın yönü ve telden geçen akım 2i, uzaklık d/2 yapılırsa yeni manyetik alan şiddeti kaç B olur? (İlk alan şiddeti B'dir).</div>
+        <ul class="options-list">
+            <li>A) Sayfa İçine (&otimes;) , 2B</li>
+            <li>B) Sayfa Dışına (☉) , 4B</li>
+            <li>C) Sayfa İçine (&otimes;) , 4B</li>
+            <li>D) Sayfa Dışına (☉) , 2B</li>
+            <li>E) Sayfa İçine (&otimes;) , B</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak Sağ El Kuralı ile yönü bulalım: Sağ elin başparmağı yukarı (akım yönü) doğrultulduğunda, telin sağ tarafındaki K noktasında dört parmağımızın uçları sayfa düzlemine dik olarak içeri girmektedir. Dolayısıyla yön <b>Sayfa İçine Doğrudur (&otimes;)</b>.
+            <br>• İlk durum alan büyüklüğü: B = 2k.i / d.
+            <br>• İkinci durum alan büyüklüğü (B'): Akım 2i, uzaklık d/2 yapılıyor:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; B' = 2k . (2i) / (d / 2) = 2 . 2 . (2k.i / d) = 4 . (2k.i / d)
+            <br>• İlk alan tanımımız B olduğuna göre, yeni manyetik alan şiddeti <b>4B</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sayfa düzlemine dik ve içeri doğru olan düzgün bir B = 2 Tesla büyüklüğündeki manyetik alan içerisine, alan doğrultusuna dik v = 5.10<sup>5</sup> m/s hızla giren q = +2.10<sup>-6</sup> C yüklü bir parçacığa etki eden manyetik kuvvetin büyüklüğü kaç Newton'dur?</div>
+        <ul class="options-list">
+            <li>A) 1</li>
+            <li>B) 2</li>
+            <li>C) 4</li>
+            <li>D) 5</li>
+            <li>E) 10</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Manyetik alan içindeki hareketli yüke etki eden kuvvet formülünü ($F = B \cdot q \cdot v$) doğrudan çalıştıralım.
+            <br>• Üstel sayı basamaklarına dikkat ederek verileri formüle dizelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F = 2 Tesla . (2.10<sup>-6</sup> C) . (5.10<sup>5</sup> m/s)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F = 2 . 2 . 5 . 10<sup>-6</sup> . 10<sup>5</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F = 20 . 10<sup>-1</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; F = 20 / 10 = <b>2 Newton</b> olarak kuvvet büyüklüğü elde edilir. Parçacık (+) yüklü olduğu için yönü avuç içi doğrultusundadır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir tel çerçevenin içinden geçen manyetik akı &Delta;t = 0.2 saniye içerisinde &Phi;<sub>ilk</sub> = 1.0 Weber değerinden &Phi;<sub>son</sub> = 0.2 Weber değerine düzgün olarak düşüyor. Buna göre, bu çerçevede meydana gelen indüksiyon elektromotor kuvvetinin (&epsilon;) büyüklüğü kaç Volt'turlar?</div>
+        <ul class="options-list">
+            <li>A) 1.6</li>
+            <li>B) 2.0</li>
+            <li>C) 3.2</li>
+            <li>D) 4.0</li>
+            <li>E) 5.0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Faraday İndüksiyon Kanununu işletelim: &epsilon; = - &Delta;&Phi; / &Delta;t.
+            <br>• İlk olarak akı değişim miktarını (&Delta;&Phi; = &Phi;<sub>son</sub> - &Phi;<sub>ilk</sub>) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta;&Phi; = 0.2 - 1.0 = -0.8 Weber.
+            <br>• Şimdi zaman aralığı ile birlikte formüle yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &epsilon; = - (-0.8 Wb) / 0.2 s
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &epsilon; = + 0.8 / 0.2 = <b>4 Volt</b> olarak indüksiyon emk büyüklüğü hesaplanır. Eksi işaretlerin çarpımı sonucu emk pozitif yön kazanmıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Sayfa düzleminde sağa doğru yönelmiş düzgün bir B manyetik alanı içerisine, akımı yukarı yönlü olan L boyunda iletken bir tel yerleştirilmiştir. Sağ el kuralına göre bu tele etki eden manyetik kuvvetin yönü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Sayfa Düzleminde Sağa</li>
+            <li>B) Sayfa Düzleminde Sola</li>
+            <li>C) Sayfa Düzleminden İçeri (&otimes;)</li>
+            <li>D) Sayfa Düzleminden Dışarı (☉)</li>
+            <li>E) Kuvvet Sıfırdır</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Akım geçen düz tele etki eden kuvvetin yönü için Sağ El Kuralını uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Sağ elin düz tutulan dört parmağı manyetik alan yönünde, yani <b>SAĞA</b> doğru yönlendirilir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Açık olan başparmak akım yönünde, yani <b>YUKARI</b> doğru tutulur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Bu konumdayken sağ elimin avuç içi doğrudan ekranı/sayfayı göstermektedir. Avuç içinin gösterdiği doğrultu dik olarak sayfanın tabanına giren yöndür.
+            <br>• Dolayısıyla tele etki eden kuvvetin yönü <b>Sayfa Düzleminden İçeri Doğrudur (&otimes;)</b>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Bir bobin, pil ve reostadan (ayarlı direnç) oluşan bir elektrik devresinde, reostanın sürgüsü ok yönünde çekilerek devrenin toplam direnci azaltılıyor. Direnç azalırken devrede oluşan özindüksiyon akımının yönü için ne söylenebilir?</div>
+        <ul class="options-list">
+            <li>A) Devre akımı ile aynı yönde oluşur</li>
+            <li>B) Devre akımına zıt yönde oluşur</li>
+            <li>C) Özindüksiyon akımı oluşmaz, indüksiyon oluşur</li>
+            <li>D) Önce aynı yönde, sonra zıt yönde oluşur</li>
+            <li>E) Akım sıfır kalır</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Ohm Kanununa göre ($V = I \cdot R$) gerilim sabitken devrenin direnci (R) azaltılırsa, devreden geçen ana kol akımı (I) zamanla **artmaya** başlar.
+            <br>• Lenz Kanununun özindüksiyona uyarlanmış temel felsefesi uyarınca; sistem kendi içinde artan akımı törpülemek, yani onu azaltmak isteyecektir.
+            <br>• Bir akımı azaltmanın yegane yolu ona karşı koyacak zıt bir etki üretmektir. Dolayısıyla meydana gelen özindüksiyon akımı, artan devre akımını dengelemek amacıyla **Devre akımına ZIT yönde** oluşur.
+        </div>
+    </div>
+
+</body>
+</html>

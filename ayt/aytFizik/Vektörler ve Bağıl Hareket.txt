@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Fizik - Ünite 1: Vektörler ve Bağıl Hareket</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1e3a2f; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #c2d6ce; }
+        h2 { color: #1e3a2f; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2d5a49; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #edf2f0; border: 1px solid #b3c7bf; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1e3a2f; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2d5a49; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2d5a49; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FİZİK - MODÜL 1: VEKTÖRLER VE BAĞIL HAREKET</h1>
+        <p>Vektörlerin Özellikleri, Bileşenlerine Ayırma, Bağıl Hız ve İki Boyutta Nehir Problemleri</p>
+    </div>
+
+    <h2>1. VEKTÖR KAVRAMI VE ÖZELLİKLERİ</h2>
+    <p>Fizikte büyüklükler skaler ve vektörel olmak üzere ikiye ayrılır. Sadece sayı ve birimle ifade edilemeyen, tam olarak anlaşılabilmesi için <b>yön, doğrultu, başlangıç noktası ve büyüklük (şiddet)</b> bilgilerine ihtiyaç duyulan büyüklüklere <strong>vektörel büyüklükler</strong> denir (Hız, kuvvet, ivme, momentum vb.).</p>
+    
+    <h3>Vektörlerin Temel Özellikleri:</h3>
+    <ul>
+        <li><b>Vektörlerin Eşitliği:</b> İki vektörün eşit olabilmesi için yönlerinin, doğrultularının ve büyüklüklerinin <u>birebir aynı</u> olması gerekir. Başlangıç noktalarının farklı olması eşitliği bozmaz.</li>
+        <li><b>Vektörün Tersi:</b> Bir A vektörü ile doğrultusu ve büyüklüğü aynı, fakat yönü tam tersi olan vektöre A'nın tersi denir ve <b>-A</b> ile gösterilir.</li>
+        <li><b>Skaler Sayı ile Çarpım:</b> Bir vektör pozitif bir sayıyla çarpılırsa yönü değişmez, sadece büyüklüğü o kat kadar artar. Negatif bir sayıyla çarpılırsa yönü tam tersine döner.</li>
+    </ul>
+
+    <h2>2. BİLEŞKE VEKTÖR BULMA VE BİLEŞENLERİNE AYIRMA</h2>
+    <p>Birden fazla vektörün yaptığı etkiyi tek başına yapabilen vektöre <b>bileşke vektör (R)</b> denir. Bileşkeyi bulurken uç uca ekleme, paralelkenar veya dik bileşenlerine ayırma metotları kullanılır.</p>
+
+    <h3>Dik Koordinat Sisteminde Bileşenlere Ayırma:</h3>
+    <p>Aralarında &alpha; açısı bulunan bir K vektörünün eksenlerdeki izdüşümleri trigonometrik dik üçgen kuralları ile hesaplanır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        K<sub>x</sub> = K . cos(&alpha;) &nbsp; (Açıya komşu olan eksen)<br>
+        K<sub>y</sub> = K . sin(&alpha;) &nbsp; (Açının karşısında kalan eksen)
+    </p>
+
+    <div class="highlight-box">
+        <strong>💡 ÖZEL DURUMLAR (Paralelkenar Metodu İçin):</strong>
+        <br>Büyüklükleri eşit ve F kadar olan iki kuvvet arasındaki açıya göre bileşke kuvvetin (R) değerleri:
+        <ul>
+            <li>Açı <b>0&deg;</b> ise: Kuvvetler aynı yönlüdür, bileşke maksimumdur &rarr; <b>R = 2F</b></li>
+            <li>Açı <b>60&deg;</b> ise: Bileşke kuvvet kollardan birinin kök 3 katıdır &rarr; <b>R = F&radic;3</b></li>
+            <li>Açı <b>90&deg;</b> ise: Pitagor bağıntısı geçerlidir &rarr; <b>R = F&radic;2</b></li>
+            <li>Açı <b>120&deg;</b> ise: Bileşke kuvvet tam kollardan birinin büyüklüğüne eşittir &rarr; <b>R = F</b></li>
+            <li>Açı <b>180&deg;</b> ise: Kuvvetler zıt yönlüdür, bileşke minimumdur &rarr; <b>R = 0</b></li>
+        </ul>
+    </div>
+
+    <h2>3. BAĞIL HAREKET VE BAĞIL HIZ</h2>
+    <p>Bir hareketlinin başka bir gözlemciye (referans sistemine) göre yaptığı harekete <b>bağıl hareket</b>, bu hareketin hızına ise <b>bağıl hız (V<sub>bağıl</sub>)</b> denir. Evrende mutlak bir sabit nokta olmadığından tüm hareketler aslında bağıldır.</p>
+    <p>Bağıl hız hesaplanırken gözlenen hareketlinin hız vektöründen, gözlemcinin hız vektörü vektörel olarak çıkarılır. Akılda kalması için "Gözlenenden gözlemci çıkarılır" ya da "Bakan kişinin gözü çıksın" mantığı uygulanır:</p>
+    <p style="text-align: center; font-size: 13pt; font-weight: bold; margin: 18px 0;">
+        V<sub>bağıl</sub> = V<sub>gözlenen</sub> - V<sub>gözlemci</sub> &nbsp; (V<sub>bağıl</sub> = V<sub>Cisim</sub> - V<sub>Gözlemci</sub>)
+    </p>
+
+    <h2>4. İKİ BOYUTTA NEHİR PROBLEMLERİ</h2>
+    <p>Nehir problemlerinde yüzücülerin veya kayıkların hareketleri, suya göre hız ve yere göre hız kavramları ile incelenir. Eksenler birbirine dik olduğundan <u>yatay hareket ile düşey hareket tamamen birbirinden bağımsızdır</u>.</p>
+    <ul>
+        <li><b>Suya Göre Hız (V<sub>su</sub>):</b> Yüzücünün sadece kendi motor gücüyle ürettiği hızıdır. Akıntı hızını barındırmaz.</li>
+        <li><b>Yere Göre Hız (V<sub>yer</sub>):</b> Dışarıdan bakan sabit bir gözlemcinin gördüğü hızdır. Yüzücünün suya göre hızı ile akıntı hızının vektörel toplamıdır: <b>V<sub>yer</sub> = V<sub>su</sub> + V<sub>akıntı</sub></b>. Yüzücü daima yere göre hız vektörünün doğrultusunda karşı kıyıya çıkar.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>💡 NEHİRDE HAREKETİN ANALİTİK FORMÜLLERİ:</strong>
+        <br>Nehrin genişliği d, yüzücünün nehre dik hız bileşeni V<sub>y</sub>, akıntı yönündeki yatay hız bileşeni V<sub>x</sub> ve akıntı hızı V<sub>a</sub> olsun:
+        <br>• <b>Karşı Kıyıya Ulaşma Süresi (t):</b> Sadece nehrin genişliğine ve nehre dik olan hız bileşenine bağlıdır. Akıntı hızı karşıya geçme süresini <u>asla etkilemez</u>, sadece sürüklenme miktarını değiştirir:
+        <p style="text-align: center; font-weight: bold; margin: 8px 0;">t = d / V<sub>y</sub></p>
+        • <b>Yatayda Alınan Yol / Sürüklenme (X):</b> Yüzücünün yataydaki toplam hızı ile sürenin çarpımıdır:
+        <p style="text-align: center; font-weight: bold; margin: 8px 0;">X = (V<sub>x</sub> &plusmn; V<sub>a</sub>) . t</p>
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Büyüklükleri 5 N ve 5 N olan iki kuvvet arasındaki açı 60&deg; iken bileşke kuvvet R<sub>1</sub>, aralarındaki açı 120&deg; yapıldığında bileşke kuvvet R<sub>2</sub> olmaktadır. Buna göre, bileşke kuvvetlerin oranları (R<sub>1</sub> / R<sub>2</sub>) kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1</li>
+            <li>B) &radic;2</li>
+            <li>C) &radic;3</li>
+            <li>D) 2</li>
+            <li>E) 3</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Eşit büyüklükteki kuvvetlerin özel durum kurallarını uygulayalım. Kollardaki kuvvetler F = 5 N değerindedir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Aralarındaki açı 60&deg; iken bileşke kuvvet kollardan birinin &radic;3 katı olur: R<sub>1</sub> = F&radic;3 = 5&radic;3 N.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Aralarındaki açı 120&deg; yapıldığında bileşke kuvvet doğrudan kollardan birinin büyüklüğüne eşit kalır: R<sub>2</sub> = F = 5 N.
+            <br>• Bizden bu iki değerin birbirine oranı istenmiştir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; R<sub>1</sub> / R<sub>2</sub> = (5&radic;3) / 5 = <b>&radic;3</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Akıntı hızının doğuya doğru sabit V<sub>a</sub> = 3 m/s olduğu bir nehirde, bir motor suya göre batıya doğru V<sub>m</sub> = 7 m/s hızla hareket etmektedir. Kıydaki sabit bir gözlemciye göre bu motorun hızının yönü ve büyüklüğü nedir?</div>
+        <ul class="options-list">
+            <li>A) Doğuya doğru, 10 m/s</li>
+            <li>B) Batıya doğru, 10 m/s</li>
+            <li>C) Doğuya doğru, 4 m/s</li>
+            <li>D) Batıya doğru, 4 m/s</li>
+            <li>E) Duruyor</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kıyıdaki sabit gözlemcinin gördüğü hız, motorun <b>yere göre hızıdır</b>. Yere göre hız, suya göre hız vektörü ile akıntı hız vektörünün toplama işlemidir: V<sub>yer</sub> = V<sub>motor</sub> + V<sub>akıntı</sub>.
+            <br>• Yönleri vektörel işaret mantığıyla belirleyelim. Doğu yönünü (+), batı yönünü (-) kabul edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>akıntı</sub> = +3 m/s (Doğu)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>motor</sub> = -7 m/s (Batı)
+            <br>• Değerleri toplayalım: V<sub>yer</sub> = (-7) + (+3) = -4 m/s.
+            <br>• Sonucun eksi (-) çıkması yönün <b>batı</b> olduğunu, büyüklüğünün ise <b>4 m/s</b> olduğunu gösterir. Cevap batıya doğru 4 m/s'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Aynı düzlemde hareket eden K ve L araçlarından K aracının yere göre hızı kuzeye doğru 10 m/s, L aracının yere göre hızı ise doğuya doğru 10 m/s'dir. Buna göre, K aracındaki bir gözlemci L aracını hangi yönde ve hızda görür?</div>
+        <ul class="options-list">
+            <li>A) Kuzeydoğu, 10&radic;2 m/s</li>
+            <li>B) Güneydoğu, 10&radic;2 m/s</li>
+            <li>C) Kuzeybatı, 10 m/s</li>
+            <li>D) Güneybatı, 10&radic;2 m/s</li>
+            <li>E) Doğu, 20 m/s</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bağıl hız formülünü kuralım: V<sub>bağıl</sub> = V<sub>gözlenen</sub> - V<sub>gözlemci</sub>.
+            <br>• Soruda "K aracındaki gözlemci" denildiği için gözlemci K aracıdır, gözlenen ise L aracıdır: V<sub>bağıl</sub> = V<sub>L</sub> - V<sub>K</sub>.
+            <br>• Vektörel çıkarma işlemini yapmak için V<sub>L</sub> vektörünün ucuna, V<sub>K</sub> vektörünün tersini (-V<sub>K</sub>) ekleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>L</sub> = Doğuya doğru 10 m/s
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; -V<sub>K</sub> = Kuzeyin tersi olan Güneye doğru 10 m/s
+            <br>• Doğu ve güney vektörleri birbirine diktir (90&deg;). Aralarındaki bileşke vektör dik üçgen Pitagor kuralından (10-10-10&radic;2) <b>10&radic;2 m/s</b> olur. Yönü ise doğu ile güneyin tam arası olan <b>Güneydoğu</b> yönüdür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Genişliği d = 40 m olan sabit akıntılı bir nehirde, suya göre hızı nehre dik doğrultuda V = 8 m/s olan bir yüzücü K noktasından yüzmeye başlıyor. Akıntı hızı V<sub>a</sub> = 3 m/s olduğuna göre, yüzücü kaç saniyede karşı kıyıya ulaşır?</div>
+        <ul class="options-list">
+            <li>A) 4</li>
+            <li>B) 5</li>
+            <li>C) 6</li>
+            <li>D) 8</li>
+            <li>E) 10</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Nehir problemlerinde en önemli kural şudur: Karşı kıyıya geçme süresi (t) nehir genişliğinin, nehre dik olan hız bileşenine bölünmesiyle bulunur (t = d / V<sub>y</sub>).
+            <br>• Akıntı hızı yüzücüyü sadece yatayda sürükler, karşıya geçiş süresini kesinlikle etkilemez.
+            <br>• Soruda yüzücünün hızı zaten nehre dik doğrultuda (V<sub>y</sub> = 8 m/s) verilmiştir.
+            <br>• Verileri formülde yerlerine koyalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; t = 40 / 8 = <b>5 saniye</b> olarak karşı kıyıya ulaşma süresi hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Akıntı hızının doğuya doğru sabit V<sub>a</sub> = 4 m/s olduğu bir nehirde, akıntıya dik olarak kuzey yönünde suya göre V = 6 m/s hızla yüzmeye başlayan bir yüzücü karşı kıyıya ulaştığında kaç metre sürüklenmiş olur? (Nehrin genişliği d = 24 metredir.)</div>
+        <ul class="options-list">
+            <li>A) 12</li>
+            <li>B) 16</li>
+            <li>C) 20</li>
+            <li>D) 24</li>
+            <li>E) 32</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak yüzücünün karşı kıyıya kaç saniyede geçeceğini bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; t = d / V<sub>y</sub> = 24 / 6 = 4 saniye.
+            <br>• Yüzücü nehre tam dik (kuzeye) yüzdüğü için kendi motor gücünden gelen bir yatay hız bileşeni yoktur (V<sub>x</sub> = 0). Dolayısıyla yatay eksende onu sürükleyen tek etken akıntı hızıdır (V<sub>a</sub> = 4 m/s).
+            <br>• Sürüklenme mesafesi (X) yatay hız ile hareket süresinin çarpımıyla bulunur:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; X = V<sub>akıntı</sub> . t
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; X = 4 . 4 = <b>16 metre</b> doğuya doğru sürüklenmiş olarak karşı kıyıya çıkar.
+        </div>
+    </div>
+
+</body>
+</html>
