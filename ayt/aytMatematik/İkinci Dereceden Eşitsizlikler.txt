@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 6: İkinci Dereceden Eşitsizlikler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 6: İKİNCİ DERECEDEN EŞİTSİZLİKLER</h1>
+        <p>İşaret Tablosu Oluşturma, Katlı Kök Analizi, Eşitsizlik Sistemleri ve Grafik Yorumlama</p>
+    </div>
+
+    <h2>1. İKİNCİ DERECEDEN EŞİTSİZLİK KAVRAMI VE KÖK ANALİZİ</h2>
+    <p>a, b, c birer gerçek sayı ve a sıfırdan farklı olmak üzere; <b>a.x<sup>2</sup> + b.x + c &lt; 0</b>, <b>a.x<sup>2</sup> + b.x + c &le; 0</b>, <b>a.x<sup>2</sup> + b.x + c &gt; 0</b> veya <b>a.x<sup>2</sup> + b.x + c &ge; 0</b> biçimindeki ifadelere ikinci dereceden bir bilinmeyenli eşitsizlik denir.</p>
+    <p>Eşitsizliklerin çözüm kümesini bulmak için f(x) = a.x<sup>2</sup> + b.x + c fonksiyonunun işaret tablosu incelenir. Bu inceleme, denklemin diskriminantının (&Delta;) işaretine göre üç farklı senaryoda gerçekleşir:</p>
+
+    <h3>A) &Delta; &gt; 0 Durumu (Farklı İki Reel Kök)</h3>
+    <p>Denklemin x<sub>1</sub> ve x<sub>2</sub> (x<sub>1</sub> &lt; x<sub>2</sub>) gibi iki farklı reel kökü vardır. Tabloda kökler küçükten büyüğe sıralanır. İşaret incelemesi en sağdan <b>"a başkatsayısının işareti"</b> ile başlar. Her kökten geçildiğinde işaret değiştirilir: <i>(a'nın işareti) | (a'nın ters işareti) | (a'nın işareti)</i>.</p>
+
+    <h3>B) &Delta; = 0 Durumu (Çakışık / Çift Katlı Kök)</h3>
+    <p>Denklemin birbirine eşit iki kökü vardır (x<sub>1</sub> = x<sub>2</sub>). Bu köke <b>çift katlı kök</b> denir. Çift katlı köklerde işaret tablosunda kökten geçilirken <u>işaret değiştirilmez</u>. Kökün sağ tarafı da sol tarafı da başkatsayı olan "a" ile aynı işarete sahip olur.</p>
+
+    <h3>C) &Delta; &lt; 0 Durumu (Reel Kök Yok)</h3>
+    <p>Fonksiyonu sıfır yapan hiçbir x reel sayısı yoktur. Bu yüzden işaret tablosuna kök yazılmaz. Tablonun her yeri, tüm reel sayı aralığı boyunca tamamen <b>"a başkatsayısının işareti"</b> ile kaplanır.</p>
+
+    <h2>2. ÇARPIYOR VEYA BÖLÜNÜYOR DURUMDAKİ EŞİTSİZLİKLER (RASYONEL İFADELER)</h2>
+    <p>Birden fazla ifadenin çarpımı veya bölümü şeklindeki karmaşık eşitsizliklerde şu metodoloji izlenir:</p>
+    <ul>
+        <li><b>Tüm Köklerin Bulunması:</b> Pay ve paydadaki her bir çarpan ayrı ayrı sıfıra eşitlenerek tüm kökler listelenir.</li>
+        <li><b>Köklerin Adet Analizi:</b> Aynı kökten toplamda çift sayıda (2, 4, 6...) varsa o kök <b>çift katlı kök</b>, tek sayıda (1, 3, 5...) varsa <b>tek katlı kök</b> olarak işaretlenir.</li>
+        <li><b>Payda Tanımsızlığı:</b> Paydayı sıfır yapan kökler çözüm kümesine <u>asla dahil edilmez</u> (Eşitsizlikte &ge; veya &le; olsa bile açık aralık bırakılır).</li>
+        <li><b>Sistem Başlangıç İşareti:</b> Her bir çarpanın en büyük dereceli teriminin işareti belirlenir. Bu işaretler birbiriyle çarpılarak/bölünerek tablonun en sağından başlanacak ana işaret netleştirilir.</li>
+    </ul>
+
+    <div class="highlight-box">
+        <strong>⚠️ ÖNEMLİ AKADEMİK DETAYLAR:</strong>
+        <br>• Mutlak değerli ifadeler (örn: |x - 2|) daima pozitif veya sıfır olduğundan, içini sıfır yapan kök tabloya <b>çift katlı kök</b> gibi yansıtılır.
+        <br>• Üstel ifadeler (örn: 2<sup>x</sup>, e<sup>x</sup>) daima pozitif değerler üretir ve kök getirmezler. İşaret tablosunun yönünü etkilemezler.
+    </div>
+
+    <h2>3. İKİNCİ DERECEDEN EŞİTSİZLİK SİSTEMLERİ</h2>
+    <p>En az iki veya daha fazla eşitsizliğin bir arada bulunduğu sistemlere <b>eşitsizlik sistemi</b> denir. Çözüm kümesi bulunurken her bir eşitsizlik için ayrı bir satır içeren ortak bir tablo kurulur. Her eşitsizlik sadece kendi kökünde işaret değiştirir. Sürecin sonunda, her iki eşitsizliği de aynı anda sağlayan (ortak boyalı) bölgeler sistemin çözüm kümesi olarak seçilir.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> x<sup>2</sup> - 4x - 12 &le; 0 eşitsizliğini sağlayan x tam sayılarının toplamı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 14</li>
+            <li>B) 16</li>
+            <li>C) 18</li>
+            <li>D) 20</li>
+            <li>E) 22</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak ifadeyi çarpanlarına ayırıp kökleri bulalım: x<sup>2</sup> - 4x - 12 = (x - 6).(x + 2) = 0
+            <br>• Buradan köklerimiz x<sub>1</sub> = -2 ve x<sub>2</sub> = 6 (tek katlı kökler) olarak bulunur.
+            <br>• Başkatsayı olan x<sup>2</sup>'nin önündeki işaret (+) pozitif olduğundan tabloya en sağdan (+) ile başlanır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x &lt; -2 için (+) | -2 &le; x &le; 6 için (-) | x &gt; 6 için (+)
+            <br>• Soru bizden &le; 0 (negatif ve sıfıra eşit) bölgeyi istediği için Çözüm Kümesi: [-2, 6] kapalı aralığıdır.
+            <br>• Bu aralıktaki tam sayılar: -2, -1, 0, 1, 2, 3, 4, 5, 6'dır.
+            <br>• Toplamları hesaplandığında (-2, -1 ve 1, 2 birbirini götürür): 0 + 3 + 4 + 5 + 6 = 18 bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> [(x - 3)<sup>2</sup> . (4 - x)] / (x + 1) &ge; 0 eşitsizliğinin çözüm kümesi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) (-1, 4]</li>
+            <li>B) [-1, 4]</li>
+            <li>C) (-1, 4] - {3}</li>
+            <li>D) (-&infin;, -1) &cup; [4, &infin;)</li>
+            <li>E) (-1, 3]</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Pay ve paydadaki tüm kökleri tek tek ayrıştırarak inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (x - 3)<sup>2</sup> = 0 &rarr; x = 3 (Kuvvet çift olduğu için <b>çift katlı kök</b>)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4 - x = 0 &rarr; x = 4 (Tek katlı kök)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x + 1 = 0 &rarr; x = -1 (Paydanın kökü, dahil edilemez!)
+            <br>• Tablo işaretini belirleyelim: (x-3)<sup>2</sup>'den (+), (4-x)'ten (-), (x+1)'den (+) gelir. (+).(-) / (+) = (-) ile tabloya en sağdan başlanır.
+            <br>• Küçükten büyüğe sıralı köklerle tabloyu kuralım (-1, 3, 4):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x &gt; 4 için (-) | 3 ile 4 arası (+) | -1 ile 3 arası (3 çift katlı kök olduğundan işaret değişmez) yine (+) | x &lt; -1 için (-)
+            <br>• Bizden &ge; 0 (pozitif yerler) isteniyor. Pozitif bölge -1 ile 4 aralığıdır. x = 3 bu aralıktadır ve sıfır yaptığı için eşitsizliği sağlar. x = -1 paydayı sıfır yaptığı için açık bırakılır, x = 4 payı sıfır yaptığı için kapatılır. Dolayısıyla ÇK = (-1, 4] olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> (m - 2)x<sup>2</sup> - 2mx + m - 4 = 0 denkleminin kökleri x<sub>1</sub> ve x<sub>2</sub>'dir. Kökler arasında x<sub>1</sub> &lt; 0 &lt; x<sub>2</sub> bağıntısı olduğuna göre, m'nin alabileceği en geniş değer aralığı nedir?</div>
+        <ul class="options-list">
+            <li>A) (2, 4)</li>
+            <li>B) (-&infin;, 2) &cup; (4, &infin;)</li>
+            <li>C) (0, 2)</li>
+            <li>D) (2, &infin;)</li>
+            <li>E) (4, &infin;)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Köklerden birinin negatif, diğerinin pozitif olması demek köklerin zıt işaretli olması demektir.
+            <br>• Zıt işaretli köklerde kesin olan kural <b>Kökler Çarpımının negatif olmasıdır (x<sub>1</sub> . x<sub>2</sub> &lt; 0)</b>. 
+            <br>• İkinci derece denklemlerde kökler çarpımı c / a formülüyle bulunuyordu:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x<sub>1</sub> . x<sub>2</sub> = (m - 4) / (m - 2) &lt; 0
+            <br>• Bu yeni rasyonel eşitsizliğin kökleri m = 4 ve m = 2'dir. İkisi de tek katlı köktür.
+            <br>• Başkatsayıların oranı (+)/(+) = (+) olduğundan en sağdan (+) ile başlanır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; m &gt; 4 için (+) | 2 &lt; m &lt; 4 için (-) | m &lt; 2 için (+)
+            <br>• &lt; 0 olan arandığı için m'nin en geniş aralığı (2, 4) olarak tespit edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> her x reel sayısı için x<sup>2</sup> - 2mx + m + 12 &gt; 0 eşitsizliği daima doğru olduğuna göre, m'nin alabileceği tam sayı değerleri kaç tanedir?</div>
+        <ul class="options-list">
+            <li>A) 5</li>
+            <li>B) 6</li>
+            <li>C) 7</li>
+            <li>D) 8</li>
+            <li>E) 9</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bir ikinci derece ifadenin daima pozitif (&gt; 0) olması için grafiğin (parabolün) x eksenini kesmemesi ve kollarının yukarı bakması gerekir.
+            <br>• Kollar yukarı bakıyor çünkü x<sup>2</sup>'nin katsayısı 1'dir (1 &gt; 0).
+            <br>• Eksenleri kesmemesi şartı ise <b>&Delta; &lt; 0 (Diskriminantın negatif olması)</b> kuralına bağlıdır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta; = b<sup>2</sup> - 4ac = (-2m)<sup>2</sup> - 4 . 1 . (m + 12) &lt; 0
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4m<sup>2</sup> - 4m - 48 &lt; 0  (Her tarafı 4'e bölelim)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; m<sup>2</sup> - m - 12 &lt; 0 &rarr; (m - 4).(m + 3) &lt; 0
+            <br>• Köklerimiz m = -3 ve m = 4 olur. En sağdan (+) ile başlarsak kökler arası (-) olacaktır.
+            <br>• m'nin aralığı (-3, 4) açık aralığıdır. Bu aralıktaki tam sayılar: -2, -1, 0, 1, 2, 3'tür. Toplamda 7 tane tam sayı değeri vardır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Tek bir tabloda çözülmesi gereken;<br>1. Eşitsizlik: x<sup>2</sup> - 9 &lt; 0<br>2. Eşitsizlik: x<sup>2</sup> - 2x &ge; 0<br>sisteminin ortak çözüm kümesi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) (-3, 0] &cup; [2, 3)</li>
+            <li>B) [-3, 2)</li>
+            <li>C) (0, 2]</li>
+            <li>D) (-3, 3)</li>
+            <li>E) [2, 3)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İki eşitsizliğin köklerini ayrı ayrı bulup ortak tabloda listeleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Denklem: x<sup>2</sup> - 9 = 0 &rarr; x = -3 ve x = 3
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Denklem: x<sup>2</sup> - 2x = 0 &rarr; x(x - 2) = 0 &rarr; x = 0 ve x = 2
+            <br>• Toplam kök listemiz küçükten büyüğe: -3, 0, 2, 3.
+            <br>• İki satırlı tablo oluşturalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>1. Satır (x<sup>2</sup>-9 &lt; 0):</b> En sağdan (+) başlar, 3'te (-) olur, -3'te tekrar (+) olur. Bizden (-) bölgeler istendiği için <u>(-3, 3)</u> arası boyanır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>2. Satır (x<sup>2</sup>-2x &ge; 0):</b> En sağdan (+) başlar, 2'de (-) olur, 0'da tekrar (+) olur. Bizden (+) bölgeler istendiği için <u>x &le; 0 ve x &ge; 2</u> bölgeleri boyanır.
+            <br>• İki satırda da boyalı olan ortak bölgeler çakıştırıldığında: <b>(-3, 0]</b> aralığı ile <b>[2, 3)</b> aralığının ortak olduğu görülür. Dahillik durumlarına göre 0 ve 2 ikinci denklemi sağladığı ve ilk aralığa düştüğü için köşeli parantez, -3 ve 3 ilk denklemde eşitlik olmadığından açık parantez yapılır. Cevap: (-3, 0] &cup; [2, 3) olur.
+        </div>
+    </div>
+
+</body>
+</html>

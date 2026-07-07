@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 15: İntegral</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 15: İNTEGRAL</h1>
+        <p>Belirsiz İntegral, Değişken Değiştirme, Belirli İntegral ve Eğri Altında Kalan Alan Hesabı</p>
+    </div>
+
+    <h2>1. DİFERANSİYEL KAVRAMI VE BELİRSİZ İNTEGRAL</h2>
+    <p>Türevi alınabilen bir f(x) fonksiyonunun türevi ile bağımsız değişkenin değişim miktarının (dx) çarpımına o fonksiyonun <b>diferansiyeli</b> denir ve <b>df(x) = f'(x).dx</b> şeklinde gösterilir.</p>
+    <p><b>Belirsiz İntegral:</b> Türevi (veya diferansiyeli) bilinen bir fonksiyonun kendisini bulma işlemine integral alma (ters türev) denir. Sembolik olarak şu şekilde ifade edilir:</p>
+    <p style="text-align: center; font-size: 13pt; font-weight: bold; margin: 18px 0;">
+        &int; f'(x) dx = f(x) + c
+    </p>
+    <p>Buradaki <b>c</b> sayısına <b>integral sabit sayı birimi</b> denir. Sabit sayıların türevi sıfır olduğundan, türevi f'(x) olan sonsuz sayıda fonksiyon ailesini temsil etmek amacıyla sona daima "+ c" eklenir.</p>
+
+    <h2>2. TEMEL İNTEGRAL ALMA KURALLARI</h2>
+    <p>Türev kurallarının tam tersi işletilerek elde edilen temel integral formülleri:</p>
+    <ul>
+        <li><b>Sabit Sayının İntegrali:</b> a bir reel sayı ise &rArr; <b>&int; a dx = a.x + c</b></li>
+        <li><b>Kuvvet Kuralı:</b> n &ne; -1 olmak üzere &rArr; <b>&int; x<sup>n</sup> dx = [x<sup>n+1</sup> / (n + 1)] + c</b> (Üs 1 artırılır, oluşan yeni üsse bölünür)</li>
+        <li><b>Sabit Çarpan Özelliği:</b> k bir sabit sayı ise &rArr; <b>&int; k.f(x) dx = k . &int; f(x) dx</b></li>
+        <li><b>Toplama / Çıkarma Özelliği:</b> <b>&int; [f(x) &plusmn; g(x)] dx = &int; f(x) dx &plusmn; &int; g(x) dx</b></li>
+    </ul>
+
+    <h2>3. DEĞİŞKEN DEĞİŞTİRME YÖNTEMİ</h2>
+    <p>İç içe geçmiş veya çarpım durumundaki karmaşık integralleri temel kurallara benzetmek için kullanılan en seçici yöntemdir. İntegral içinde bir ifadeye <b>u</b> denildiğinde, o ifadenin türevi (diferansiyeli) olan <b>du</b> da integralin içinde çarpan olarak mevcut olmalıdır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        &int; f(g(x)) . g'(x) dx &nbsp; &rArr; &nbsp; g(x) = u ve g'(x)dx = du dönüşümü ile &nbsp; &rArr; &nbsp; &int; f(u) du
+    </p>
+
+    <h2>4. BELİRLİ İNTEGRAL VE NEWTON-LEIBNIZ FORMÜLÜ</h2>
+    <p>Sınırları belli olan integral işlemidir. Belirsiz integralden farklı olarak sonuç fonksiyon değil, net bir <b>reel sayı</b> çıkar (Bu yüzden belirli integralde sabit sayı olan c yazılmaz). f(x)'in ters türevi F(x) olsun:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        <sub>a</sub>&int;<sup>b</sup> f(x) dx = F(x) |<sub>a</sub><sup>b</sup> = F(b) - F(a)
+    </p>
+    <div class="tip-box">
+        <strong>💡 BELİRLİ İNTEGRALİN KRİTİK ÖZELLİKLERİ:</strong>
+        <br>• Sınırlar yer değiştirirse integralin işareti tersine döner: <b><sub>a</sub>&int;<sup>b</sup> f(x) dx = - <sub>b</sub>&int;<sup>a</sup> f(x) dx</b>
+        <br>• Sınırlar arasına bir c noktası eklenerek integral parçalanabilir: <b><sub>a</sub>&int;<sup>b</sup> f(x) dx = <sub>a</sub>&int;<sup>c</sup> f(x) dx + <sub>c</sub>&int;<sup>b</sup> f(x) dx</b> &nbsp; (a &lt; c &lt; b)
+        <br>• Alt ve üst sınır aynı ise sonuç sıfırdır: <b><sub>a</sub>&int;<sup>a</sup> f(x) dx = 0</b>
+    </div>
+
+    <h2>5. İNTEGRAL İLE ALAN HESABI</h2>
+    <p>Belirli integralin geometrik karşılığı, eğrilerin altında kalan net sınırlandırılmış alanlardır:</p>
+    <ul>
+        <li><b>X Ekseni Üzerindeki Alan:</b> y = f(x) fonksiyonu [a, b] aralığında x ekseninin <u>üstünde</u> (pozitif bölgede) kalıyorsa, eğri ile x ekseni arasındaki alan doğrudan integrale eşittir: <b>Alan = <sub>a</sub>&int;<sup>b</sup> f(x) dx</b></li>
+        <li><b>X Ekseni Altındaki Alan:</b> Fonksiyon x ekseninin <u>altında</u> (negatif bölgede) kalıyorsa, integral sonucu negatif çıkacaktır. Alan negatif olamayacağından önüne eksi almalıdır: <b>Alan = - <sub>a</sub>&int;<sup>b</sup> f(x) dx</b></li>
+        <li><b>İki Eğri Arasındaki Alan:</b> [a, b] aralığında üstte kalan f(x) fonksiyonundan altta kalan g(x) fonksiyonu çıkarılarak integral kurulur: <b>Alan = <sub>a</sub>&int;<sup>b</sup> [f(x) - g(x)] dx</b></li>
+    </ul>
+
+    <h2>6. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> &int; (3x<sup>2</sup> - 4x + 5) dx belirsiz integralinin eşiti aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) x<sup>3</sup> - 2x<sup>2</sup> + 5x</li>
+            <li>B) 6x - 4 + c</li>
+            <li>C) x<sup>3</sup> - 2x<sup>2</sup> + 5x + c</li>
+            <li>D) 3x<sup>3</sup> - 4x<sup>2</sup> + 5x + c</li>
+            <li>E) x<sup>3</sup> - 4x<sup>2</sup> + 5 + c</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İntegrali terim terim kuvvet kuralını uygulayarak çözelim. Her terimin üssünü 1 artırıp yeni üsse böleceğiz:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &int; 3x<sup>2</sup> dx = 3 . (x<sup>3</sup> / 3) = x<sup>3</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &int; -4x dx = -4 . (x<sup>2</sup> / 2) = -2x<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &int; 5 dx = 5x
+            <br>• Bulduğumuz parçaları birleştirelim ve belirsiz integralin olmazsa olmazı olan sabit integral çarpanını (+ c) sonuna ekleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Sonuç = <b>x<sup>3</sup> - 2x<sup>2</sup> + 5x + c</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> &int; (2x - 3)<sup>4</sup> dx integralini çözmek için u = 2x - 3 dönüşümü yapıldığında hangi u integrali elde edilir?</div>
+        <ul class="options-list">
+            <li>A) &int; u<sup>4</sup> du</li>
+            <li>B) 2 . &int; u<sup>4</sup> du</li>
+            <li>C) (1/2) . &int; u<sup>4</sup> du</li>
+            <li>D) &int; (1/2)u<sup>4</sup> du</li>
+            <li>E) (1/4) . &int; u<sup>4</sup> du</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Değişken değiştirme adımını başlatalım: <b>u = 2x - 3</b>
+            <br>• Her iki tarafın diferansiyelini (türev çarpı dx) alalım: du = 2 dx  &rarr;  Buradan dx terimini yalnız bırakırsak <b>dx = du / 2</b> olur.
+            <br>• Şimdi bu bulguları orijinal integral ifadesinde yerlerine yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &int; (u)<sup>4</sup> . (du / 2)
+            <br>• Paydadaki sabit olan 2 sayısını 1/2 çarpanı olarak integralin dışına taşıyalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Sonuç = <b>(1/2) . &int; u<sup>4</sup> du</b> biçiminde yeni integral elde edilmiş olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> <sub>1</sub>&int;<sup>3</sup> (3x<sup>2</sup> - 2x) dx belirli integralinin sayısal değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 16</li>
+            <li>B) 18</li>
+            <li>C) 20</li>
+            <li>D) 22</li>
+            <li>E) 24</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak ifadenin belirsiz integralini (ters türevini) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &int; (3x<sup>2</sup> - 2x) dx = 3.(x<sup>3</sup>/3) - 2.(x<sup>2</sup>/2) = <b>x<sup>3</sup> - x<sup>2</sup></b>
+            <br>• Belirli integral kuralı gereği sınırları (1 ve 3) yerine yazıp farklarını alacağız: [x<sup>3</sup> - x<sup>2</sup>] |<sub>1</sub><sup>3</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Üst Sınır (3) için: 3<sup>3</sup> - 3<sup>2</sup> = 27 - 9 = 19
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Alt Sınır (1) için: 1<sup>3</sup> - 1<sup>2</sup> = 1 - 1 = 0
+            <br>• Sonuç üst sınırdan alt sınırın çıkarılmasıdır: 18 - 0 = <b>18</b> olarak hesaplanır.
+            <br>• <i>İşlem kontrol notu:</i> 27 - 9 = 18'dir. İşlem hatasız olarak 18 sonucunu vermektedir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> y = 3x<sup>2</sup> eğrisi, x = 1, x = 2 doğruları ve x ekseni arasında kalan sınırlı bölgenin alanı kaç birimkaredir?</div>
+        <ul class="options-list">
+            <li>A) 5</li>
+            <li>B) 6</li>
+            <li>C) 7</li>
+            <li>D) 8</li>
+            <li>E) 9</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• y = 3x<sup>2</sup> fonksiyonu [1, 2] aralığında pozitif değerler alır (x ekseninin üstündedir). Dolayısıyla bu alan belirli integral yardımıyla doğrudan hesaplanabilir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Alan = <sub>1</sub>&int;<sup>2</sup> 3x<sup>2</sup> dx
+            <br>• İntegrali dışarı çıkaralım: &int; 3x<sup>2</sup> dx = x<sup>3</sup>. Sınırları yerine yazalım: [x<sup>3</sup>] |<sub>1</sub><sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Üst sınır yazıldığında: 2<sup>3</sup> = 8
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Alt sınır yazıldığında: 1<sup>3</sup> = 1
+            <br>• Farklarını aldığımızda aranan alan değeri: 8 - 1 = <b>7</b> birimkare olarak bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Türevi f'(x) = 2x + 4 olan ve f(1) = 8 şartını sağlayan f(x) fonksiyonunun sabit terimi kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1</li>
+            <li>B) 2</li>
+            <li>C) 3</li>
+            <li>D) 4</li>
+            <li>E) 5</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Türevi verilen bir fonksiyonun kendisini (f(x)) bulmak için belirsiz integral alırız:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f(x) = &int; f'(x) dx  &rarr;  f(x) = &int; (2x + 4) dx
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f(x) = x<sup>2</sup> + 4x + c
+            <br>• İntegral sabitini (c) bulmak için soruda verilen f(1) = 8 bilgisini kullanalım. x yerine 1 yazıp 8'e eşitleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f(1) = 1<sup>2</sup> + 4(1) + c = 8
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1 + 4 + c = 8  &rarr;  5 + c = 8  &rarr;  <b>c = 3</b> bulunur.
+            <br>• Fonksiyonumuz f(x) = x<sup>2</sup> + 4x + 3 haline geldi. Bir fonksiyonun sabit terimi x = 0 yazılarak bulunur: f(0) = 3. Dolayısıyla sabit terim <b>3</b>'tür.
+        </div>
+    </div>
+
+</body>
+</html>

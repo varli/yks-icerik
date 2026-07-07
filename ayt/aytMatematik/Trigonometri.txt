@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 7: Trigonometri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 7: TRİGONOMETRİ</h1>
+        <p>Yönlü Açılar, Birim Çember, Fonksiyonlar, Özdeşlikler, Bölge İndirgemeleri ve Teoremler</p>
+    </div>
+
+    <h2>1. YÖNLÜ AÇILAR, AÇI ÖLÇÜ BİRİMLERİ VE ESAS ÖLÇÜ</h2>
+    <p>Saatin dönme yönünün <b>tersi pozitif yön (+),</b> saatin dönme yönü ise <b>negatif yön (-)</b> olarak kabul edilir. Derece (&deg;) ve Radyan (R) olmak üzere iki ana ölçü birimi kullanılır. Aralarındaki dönüşüm ilişkisi şöyledir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        Derece / 180 = Radyan / &pi;
+    </p>
+    <p><b>Esas Ölçü:</b> Bir açının [0&deg;, 360&deg;) veya [0, 2&pi;) aralığındaki karşılığıdır. Derece cinsinden büyük açılarda sayı 360'a bölünür ve <b>kalan</b> alınır. Negatif açılarda ise kalan pozitif olana dek üzerine 360&deg; (veya 2&pi;'nin katları) eklenir. Radyan kesirlerinde ise pay, paydanın <u>iki katına</u> bölünerek kalan paya yazılır.</p>
+
+    <h2>2. BİRİM ÇEMBER VE TRİGONOMETRİK FONKSİYONLARIN TANIMI</h2>
+    <p>Analitik düzlemde merkezi orijin (0,0) ve yarıçapı 1 birim olan x<sup>2</sup> + y<sup>2</sup> = 1 çemberine <b>birim çember</b> denir. Çember üzerindeki herhangi bir P(x, y) noktası için:</p>
+    <ul>
+        <li><b>Sinüs ve Kosinüs:</b> P noktasının apsisi açının kosinüsünü (x = cos&alpha;), ordinatı ise sinüsünü (y = sin&alpha;) verir. Bu yüzden x eksenine kosinüs ekseni, y eksenine sinüs ekseni denir. Görüntü kümeleri <b>-1 &le; sin&alpha; &le; 1</b> ve <b>-1 &le; cos&alpha; &le; 1</b> aralığındadır.</li>
+        <li><b>Tanjant ve Kotanjant:</b> x = 1 doğrusu tanjant eksenidir. Açının bu ekseni kestiği noktanın ordinatı tan&alpha;'dır. y = 1 doğrusu ise kotanjant eksenidir ve kesim noktasının apsisi cot&alpha;'yı verir.</li>
+    </ul>
+
+    <h2>3. TEMEL TRİGONOMETRİK ÖZDEŞLİKLER</h2>
+    <p>Soru çözümlerinde sadeleştirme işlemlerinin omurgasını oluşturan özdeşlikler şunlardır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Özdeşlik Grubu</th>
+                <th>Matematiksel Karşılığı ve Çıkarımları</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Pitagor Özdeşliği</b></td>
+                <td><b>sin<sup>2</sup>&alpha; + cos<sup>2</sup>&alpha; = 1</b> &nbsp; &rarr; &nbsp; (sin<sup>2</sup>&alpha; = 1 - cos<sup>2</sup>&alpha; &nbsp; ve &nbsp; cos<sup>2</sup>&alpha; = 1 - sin<sup>2</sup>&alpha;)</td>
+            </tr>
+            <tr>
+                <td><b>Tan-Cot İlişkisi</b></td>
+                <td><b>tan&alpha; = sin&alpha; / cos&alpha;</b> &nbsp; | &nbsp; <b>cot&alpha; = cos&alpha; / sin&alpha;</b> &nbsp; | &nbsp; <b>tan&alpha; . cot&alpha; = 1</b></td>
+            </tr>
+            <tr>
+                <td><b>Sekant / Kosekant</b></td>
+                <td><b>sec&alpha; = 1 / cos&alpha;</b> &nbsp; | &nbsp; <b>cosec&alpha; = 1 / sin&alpha;</b></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. BÖLGELERE GÖRE İŞARETLER VE AÇI İNDİRGEMELERİ</h2>
+    <p>Trigonometrik fonksiyonların bölgelerdeki işaret dağılımı şöyledir:</p>
+    <ul>
+        <li><b>1. Bölge (0&deg; - 90&deg;):</b> Herkes pozitif (+).</li>
+        <li><b>2. Bölge (90&deg; - 180&deg;):</b> Yalnızca Sinüs pozitif (+), diğerleri negatif (-).</li>
+        <li><b>3. Bölge (180&deg; - 270&deg;):</b> Tanjant ve Kotanjant pozitif (+), Sinüs ve Kosinüs negatif (-).</li>
+        <li><b>4. Bölge (270&deg; - 360&deg;):</b> Yalnızca Kosinüs pozitif (+), diğerleri negatif (-).</li>
+    </ul>
+    <div class="tip-box">
+        <strong>💡 İNDİRGEME (İSİM DEĞİŞTİRME) KURALI:</strong>
+        <br>• Eğer dönüşümde <b>180&deg; (&pi;)</b> veya <b>360&deg; (2&pi;)</b> eksenleri kullanılıyorsa <u>isim değişmez</u>. Sadece açının düştüğü bölgedeki orijinal fonksiyonun işaretine bakılır.
+        <br>• Eğer dönüşümde <b>90&deg; (&pi;/2)</b> veya <b>270&deg; (3&pi;/2)</b> eksenleri kullanılıyorsa <u>isim değişir</u> (sin &harr; cos, tan &harr; cot). İşaret yine başlangıçtaki fonksiyonun bölgesine göre tayin edilir.
+    </div>
+
+    <h2>5. KOSİNÜS VE SİNÜS TEOREMLERİ</h2>
+    <p>Bir ABC üçgeninin kenarları a, b, c ve bu kenarlara bakan açılar A, B, C olsun:</p>
+    <p><b>Kosinüs Teoremi:</b> Herhangi bir kenarın karesi, diğer iki kenarın kareleri toplamından, bu kenarların ve aralarındaki açının kosinüsünün çarpımının iki katının çıkarılmasına eşittir:</p>
+    <p style="text-align: center; font-weight: bold; margin: 10px 0;">a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> - 2.b.c.cos(A)</p>
+    <p><b>Sinüs Teoremi:</b> Üçgenin kenar uzunlukları, o kenarlara bakan açıların sinüs değerleri ile doğru orantılıdır (R = Çevrel çemberin yarıçapı):</p>
+    <p style="text-align: center; font-weight: bold; margin: 10px 0;">a / sin(A) = b / sin(B) = c / sin(C) = 2R</p>
+
+    <h2>6. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Ölçüsü -71&pi; / 3 radyan olan bir açının esas ölçüsü kaç radyandır?</div>
+        <ul class="options-list">
+            <li>A) &pi;/3</li>
+            <li>B) 2&pi;/3</li>
+            <li>C) &pi;/2</li>
+            <li>D) 4&pi;/3</li>
+            <li>E) 5&pi;/3</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Negatif rasyonel radyan açılarında pratik yol; payın mutlak değeri (71), paydanın 2 katına (3 . 2 = 6) bölünür.
+            <br>• 71 / 6 işleminde kalan 5'tir (Çünkü 6 . 11 = 66,  71 - 66 = 5).
+            <br>• Bulunan kalan paya yazılır ve orijinal işaret korunur: -5&pi; / 3 elde edilir.
+            <br>• Açıyı [0, 2&pi;) pozitif aralığına taşımak için üzerine bir adet 2&pi; periyodu ekleriz:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Esas Ölçü = 2&pi; + (-5&pi; / 3) = (6&pi; - 5&pi;) / 3 = <b>&pi; / 3</b> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> (3.sin&alpha; - 2.cos&alpha;) / (sin&alpha; + 4.cos&alpha;) = 1/2 olduğuna göre, tan&alpha; değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 4/5</li>
+            <li>B) 1</li>
+            <li>C) 6/5</li>
+            <li>D) 8/5</li>
+            <li>E) 2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Verilen rasyonel eşitlikte içler dışlar çarpımı yaparak sinüs ve kosinüs terimlerini gruplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2 . (3.sin&alpha; - 2.cos&alpha;) = 1 . (sin&alpha; + 4.cos&alpha;)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 6.sin&alpha; - 4.cos&alpha; = sin&alpha; + 4.cos&alpha;
+            <br>• Benzer terimleri eşitliğin farklı taraflarına geçirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 6.sin&alpha; - sin&alpha; = 4.cos&alpha; + 4.cos&alpha;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 5.sin&alpha; = 8.cos&alpha;
+            <br>• Soru bizden tan&alpha;'yı (yani sin&alpha; / cos&alpha;'yı) istiyor. Eşitliğin her iki tarafını cos&alpha;'ya ve 5'e bölersek:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; sin&alpha; / cos&alpha; = 8 / 5  &rarr;  <b>tan&alpha; = 8 / 5</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> &pi;/2 &lt; x &lt; &pi; olmak üzere, &radic;(1 - sin<sup>2</sup>x) . (1 + tan<sup>2</sup>x) ifadesinin en sade biçimi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) secx</li>
+            <li>B) cosecx</li>
+            <li>C) -secx</li>
+            <li>D) -cosx</li>
+            <li>E) tanx</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak kök içini düzenleyelim: sin<sup>2</sup>x + cos<sup>2</sup>x = 1 olduğundan, 1 - sin<sup>2</sup>x = cos<sup>2</sup>x'tir. Kök dışına mutlak değerle çıkar: |cosx|.
+            <br>• Verilen aralık (&pi;/2, &pi;) 2. bölgedir. 2. bölgede kosinüsün işareti <b>negatif (-)</b> olduğundan kökten önüne eksi alarak çıkar: <b>-cosx</b>.
+            <br>• İkinci parantezi düzenleyelim: 1 + tan<sup>2</sup>x = 1 + (sin<sup>2</sup>x / cos<sup>2</sup>x) = (cos<sup>2</sup>x + sin<sup>2</sup>x) / cos<sup>2</sup>x = <b>1 / cos<sup>2</sup>x</b>.
+            <br>• Şimdi iki bulguyu çarpalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (-cosx) . (1 / cos<sup>2</sup>x) = -1 / cosx
+            <br>• 1 / cosx ifadesi secx'e eşit olduğundan, nihai sonuç <b>-secx</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> a = cos230&deg;, b = sin110&deg; ve c = tan300&deg; değerlerinin doğru sıralanışı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) c &lt; a &lt; b</li>
+            <li>B) a &lt; c &lt; b</li>
+            <li>C) c &lt; b &lt; a</li>
+            <li>D) b &lt; a &lt; c</li>
+            <li>E) a &lt; b &lt; c</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Tüm açıları bölge analiziyle indirgeyip işaret ve değerlerini netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>a = cos230&deg;:</b> 3. bölgededir, işareti (-). cos(180&deg; + 50&deg;) = -cos50&deg; = -sin40&deg;.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>b = sin110&deg;:</b> 2. bölgededir, işareti (+). sin(180&deg; - 70&deg;) = +sin70&deg;.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>c = tan300&deg;:</b> 4. bölgededir, işareti (-). tan(360&deg; - 60&deg;) = -tan60&deg; = -&radic;3 &asymp; -1.73.
+            <br>• b tek pozitif değer olduğu için en büyüktür. a ve c negatiflerini kıyaslayalım:
+            <br>• a = -sin40&deg; değeri -1 ile 0 arasında çok küçük bir kesirdir (yaklaşık -0.64). c ise -1.73 ile -1'den daha küçüktür.
+            <br>• Bu kıyaslamaya göre en küçük c, sonra a, en büyük ise b'dir. Sıralama: <b>c &lt; a &lt; b</b> olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Bir ABC üçgeninde kenar uzunlukları arasında a<sup>2</sup> - b<sup>2</sup> = c<sup>2</sup> - &radic;3.b.c bağıntısı bulunduğuna göre, A açısının ölçüsü kaç derecedir?</div>
+        <ul class="options-list">
+            <li>A) 30&deg;</li>
+            <li>B) 45&deg;</li>
+            <li>C) 60&deg;</li>
+            <li>D) 120&deg;</li>
+            <li>E) 150&deg;</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Verilen bağıntıyı düzenleyerek a<sup>2</sup> ifadesini yalnız bırakalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> - &radic;3.b.c
+            <br>• ABC üçgeninde A açısına göre yazılacak standart <b>Kosinüs Teoremi</b> formülünü hatırlayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a<sup>2</sup> = b<sup>2</sup> + c<sup>2</sup> - 2.b.c.cos(A)
+            <br>• Elde ettiğimiz iki a<sup>2</sup> eşitliğini birbirine eşitleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; b<sup>2</sup> + c<sup>2</sup> - &radic;3.b.c = b<sup>2</sup> + c<sup>2</sup> - 2.b.c.cos(A)
+            <br>• Her iki taraftaki b<sup>2</sup> + c<sup>2</sup> terimleri birbirini yok eder. Geriye kalanlar sadeleştirildiğinde:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; -&radic;3.b.c = -2.b.c.cos(A)  &rarr;  &radic;3 = 2.cos(A)  &rarr;  <b>cos(A) = &radic;3 / 2</b>
+            <br>• Kosinüsün hangi açıda &radic;3/2 değerini aldığını düşünürsek; A açısı <b>30&deg;</b> olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

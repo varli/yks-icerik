@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 2: Parabol</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 2: PARABOL</h1>
+        <p>İkinci Dereceden Fonksiyon Grafikleri, Tepe Noktası ve Eksenlerle İlişki Analizi</p>
+    </div>
+
+    <h2>1. PARABOLÜN TANIMI VE YÖNÜ</h2>
+    <p>a, b, c birer gerçek sayı ve a sıfırdan farklı olmak üzere, <b>f(x) = ax<sup>2</sup> + bx + c</b> biçimindeki ikinci dereceden fonksiyonların koordinat düzlemindeki grafiklerine <strong>parabol</strong> denir. Bir parabolün genel şekli ve açılma yönü doğrudan başkatsayı olan "a" değerine bağlıdır:</p>
+    <ul>
+        <li><b>a &gt; 0 ise :</b> Parabolün kolları <b>yukarı</b> doğrudur. Bu durumda parabolün tepe noktası fonksiyonun <b>en küçük (minimum)</b> değerini aldığı noktadır.</li>
+        <li><b>a &lt; 0 ise :</b> Parabolün kolları <b>aşağı</b> doğrudur. Bu durumda parabolün tepe noktası fonksiyonun <b>en büyük (maksimum)</b> değerini aldığı noktadır.</li>
+        <li><b>|a| (mutlak değer a) büyüdükçe :</b> Parabolün kolları birbirine yaklaşır (grafik daralır).</li>
+    </ul>
+
+    <h2>2. TEPE NOKTASI VE SİMETRİ EKSENİ</h2>
+    <p>Bir parabolün "dönüş" yaptığı, yani artanlıktan azalanlığa veya azalanlıktan artanlığa geçtiği en kritik noktaya <strong>tepe noktası</strong> denir. Tepe noktası genellikle <b>T(r, k)</b> koordinatları ile gösterilir:</p>
+    <ul>
+        <li><b>Apsis (r) :</b> Parabolün simetri merkezidir. Formülü: <b>r = -b / 2a</b> şeklindedir.</li>
+        <li><b>Ordinat (k) :</b> Fonksiyonun tepe noktasındaki değeridir. <b>k = f(r)</b> hesaplanarak bulunur. Ayrıca doğrudan k = (4ac - b<sup>2</sup>) / 4a formülüyle de hesaplanabilir.</li>
+        <li><b>Simetri Ekseni :</b> x = r doğrusuna parabolün simetri ekseni denir. Parabol üzerindeki her nokta bu doğruya göre simetriktir. Yani kökler x<sub>1</sub> ve x<sub>2</sub> ise, r noktası köklerin tam ortasındadır (r = (x<sub>1</sub> + x<sub>2</sub>) / 2).</li>
+    </ul>
+
+    <h2>3. PARABOLÜN EKSENLERİ KESTİĞİ NOKTALAR</h2>
+    <p>Parabolün x ve y eksenleri ile olan etkileşimi denklem çözümlerine dayanır:</p>
+    <ul>
+        <li><b>Y-Eksenini Kestiği Nokta :</b> Fonksiyonda x = 0 yazılarak bulunur. f(0) = c olduğundan parabol y-eksenini her zaman <b>(0, c)</b> noktasında keser.</li>
+        <li><b>X-Eksenini Kestiği Noktalar (Kökler) :</b> f(x) = 0 denkleminin çözümleridir. Bu durum diskriminant (&Delta; = b<sup>2</sup> - 4ac) ile analiz edilir:
+        <br>• <b>&Delta; &gt; 0 ise :</b> Parabol x-eksenini <b>farklı iki noktada</b> keser (x<sub>1</sub> ve x<sub>2</sub>).
+        <br>• <b>&Delta; = 0 ise :</b> Parabol x-eksenine <b>teğettir.</b> Bu durumda tepe noktası x-ekseni üzerindedir (k = 0).
+        <br>• <b>&Delta; &lt; 0 ise :</b> Parabol x-eksenini <b>kesmez.</b> Grafik tamamen eksenin üstünde (a&gt;0) veya altındadır (a&lt;0).</li>
+    </ul>
+
+    <h2>4. PARABOL DENKLEMİNİ YAZMA STRATEJİLERİ</h2>
+    <p>Grafiği verilen bir parabolün denklemini kurmak için üç farklı yol izlenebilir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Verilen Bilgi</th>
+                <th>Kullanılacak Formül Yapısı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>X-eksenini kestiği noktalar (x<sub>1</sub>, x<sub>2</sub>) biliniyorsa</td>
+                <td><b>y = a . (x - x<sub>1</sub>) . (x - x<sub>2</sub>)</b></td>
+            </tr>
+            <tr>
+                <td>Tepe noktası T(r, k) biliniyorsa</td>
+                <td><b>y = a . (x - r)<sup>2</sup> + k</b></td>
+            </tr>
+            <tr>
+                <td>Parabol üzerinde herhangi üç nokta biliniyorsa</td>
+                <td><b>y = ax<sup>2</sup> + bx + c</b> genel formunda noktalar yerine yazılır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>💡 PARABOL VE DOĞRU İLİŞKİSİ:</strong>
+        <br>Bir parabol ile bir doğrunun (y = mx + n) birbirine göre durumunu incelemek için denklemler birbirine eşitlenir. Elde edilen yeni ikinci derece denklemin diskriminantına bakılır:
+        <br>• &Delta; &gt; 0 ise : İki noktada kesişirler.
+        <br>• &Delta; = 0 ise : Doğru parabole teğettir.
+        <br>• &Delta; &lt; 0 ise : Kesişmezler.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> f(x) = x<sup>2</sup> - 6x + m - 2 fonksiyonunun grafiği olan parabol x-eksenine teğet olduğuna göre, m gerçek sayısı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 7</li>
+            <li>B) 9</li>
+            <li>C) 11</li>
+            <li>D) 13</li>
+            <li>E) 15</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bir parabolün x-eksenine teğet olması, o fonksiyonun diskriminantının (&Delta;) sıfıra eşit olması demektir.
+            <br>• Denklemde a = 1, b = -6 ve c = m - 2'dir.
+            <br>• &Delta; = b<sup>2</sup> - 4ac = 0 formülünü uygulayalım:
+            <br>• (-6)<sup>2</sup> - 4 . 1 . (m - 2) = 0
+            <br>• 36 - 4m + 8 = 0 &rarr; 44 = 4m &rarr; m = 11 olarak bulunur. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> f(x) = -x<sup>2</sup> + 4x + 12 fonksiyonunun alabileceği <strong>en büyük değer</strong> kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 12</li>
+            <li>B) 14</li>
+            <li>C) 16</li>
+            <li>D) 18</li>
+            <li>E) 20</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Fonksiyonun başkatsayısı (a = -1) negatif olduğu için parabolün kolları aşağı doğrudur ve en büyük değerini tepe noktasının ordinatında (k) alır.
+            <br>• Önce tepe noktasının apsisini (r) bulalım: r = -b / 2a = -4 / (2 . -1) = -4 / -2 = 2.
+            <br>• Şimdi bu değeri fonksiyonda yerine yazarak en büyük değeri (k) bulalım:
+            <br>• f(2) = -(2)<sup>2</sup> + 4(2) + 12 = -4 + 8 + 12 = 16. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Tepe noktası T(2, -1) olan ve y-eksenini (0, 7) noktasında kesen parabolün denklemi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) y = 2(x - 2)<sup>2</sup> - 1</li>
+            <li>B) y = (x - 2)<sup>2</sup> - 1</li>
+            <li>C) y = 2(x + 2)<sup>2</sup> - 1</li>
+            <li>D) y = 4(x - 2)<sup>2</sup> + 1</li>
+            <li>E) y = 2(x - 1)<sup>2</sup> + 2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Tepe noktası T(r, k) olan parabolün denklemi y = a(x - r)<sup>2</sup> + k şeklindedir.
+            <br>• r = 2 ve k = -1 değerlerini yerine koyalım: y = a(x - 2)<sup>2</sup> - 1.
+            <br>• Parabol (0, 7) noktasından geçtiğine göre x = 0 için y = 7 olmalıdır:
+            <br>• 7 = a(0 - 2)<sup>2</sup> - 1 &rarr; 7 = 4a - 1 &rarr; 8 = 4a &rarr; a = 2.
+            <br>• Denklem: y = 2(x - 2)<sup>2</sup> - 1 olarak elde edilir. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> f(x) = x<sup>2</sup> - (m + 4)x + 2m - 1 parabolünün simetri ekseni x = 3 doğrusu olduğuna göre, parabolün y-eksenini kestiği noktanın ordinatı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) -1</li>
+            <li>B) 1</li>
+            <li>C) 3</li>
+            <li>D) 5</li>
+            <li>E) 7</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b>
+            <br>• Simetri ekseni x = r doğrusudur. Soruda r = 3 olarak verilmiştir.
+            <br>• r = -b / 2a formülünden: 3 = -[-(m + 4)] / (2 . 1) &rarr; 3 = (m + 4) / 2 &rarr; 6 = m + 4 &rarr; m = 2.
+            <br>• Fonksiyonun y-eksenini kestiği nokta f(0)'dır, yani c değeridir.
+            <br>• c = 2m - 1 idi. m = 2 olduğuna göre: 2(2) - 1 = 3 olarak bulunur. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> f(x) = x<sup>2</sup> - 4x + 1 parabolü ile y = 2x - 4 doğrusunun kesiştiği noktaların apsisleri toplamı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 4</li>
+            <li>C) 6</li>
+            <li>D) 8</li>
+            <li>E) 10</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kesişim noktalarını bulmak için denklemleri birbirine eşitleyelim:
+            <br>• x<sup>2</sup> - 4x + 1 = 2x - 4
+            <br>• x<sup>2</sup> - 6x + 5 = 0
+            <br>• Bu yeni oluşan ikinci derece denklemin kökleri, kesişim noktalarının apsisleridir.
+            <br>• Kökler toplamı formülü -b / a olduğundan: -(-6) / 1 = 6 olarak hesaplanır. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

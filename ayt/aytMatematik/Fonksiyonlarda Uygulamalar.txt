@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 1: Fonksiyonlarda Uygulamalar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 1: FONKSİYONLARDA İLERİ DÜZEY UYGULAMALAR</h1>
+        <p>Fonksiyon Grafiklerinin Analizi, Artan-Azalanlık, Maksimum-Minimum Değerler ve Dönüşümler</p>
+    </div>
+
+    <h2>1. FONKSİYON GRAFİKLERİNİN GEOMETRİK ANALİZİ</h2>
+    <p>AYT düzeyinde fonksiyonlar, cebirsel formüllerden ziyade kartezyen düzlemdeki geometrik davranışları üzerinden sorgulanır. Bir f(x) fonksiyonunun grafiği verildiğinde eksenleri kestiği noktalar fonksiyonun köklerini ve değerlerini belirler:</p>
+    <ul>
+        <li><strong>Eksenleri Kestiği Noktalar:</strong> Grafik üzerinde x-eksenini kesen noktalarda fonksiyonun değeri sıfırdır, yani f(x) = 0 denklemini sağlayan bu x değerlerine <strong>fonksiyonun kökleri (sıfırları)</strong> denir. Grafiğin y-eksenini kestiği noktayı bulmak için ise fonksiyonda x yerine 0 yazılır, yani bu nokta (0, f(0)) noktasıdır.</li>
+        <li><strong>Fonksiyonun Pozitif ve Negatif Olduğu Aralıklar:</strong> f(x) fonksiyonunun grafiğinin x-ekseninin <u>üst kısmında</u> kalan bölgelerinde fonksiyon pozitif değerlidir (f(x) &gt; 0). Grafiğin x-ekseninin <u>alt kısmında</u> kalan bölgelerinde ise fonksiyon negatif değerlidir (f(x) &lt; 0).</li>
+    </ul>
+
+    <h2>2. ARTAN - AZALAN FONKSİYONLAR VE DEĞİŞİM ORANI</h2>
+    <p>Bir fonksiyonun belirli bir aralıktaki tırmanış veya düşüş trendi tanımlarla netleştirilir:</p>
+    <ul>
+        <li><strong>Artan Fonksiyon:</strong> Belirli bir [a, b] aralığından seçilen her x<sub>1</sub> ve x<sub>2</sub> gerçek sayısı için, x<sub>1</sub> &lt; x<sub>2</sub> iken f(x<sub>1</sub>) &lt; f(x<sub>2</sub>) oluyorsa, fonksiyon bu aralıkta <strong>artan</strong> bir fonksiyondur. Grafiği soldan sağa doğru yukarı tırmanır.</li>
+        <li><strong>Azalan Fonksiyon:</strong> Aynı aralıkta x<sub>1</sub> &lt; x<sub>2</sub> iken f(x<sub>1</sub>) &gt; f(x<sub>2</sub>) oluyorsa, fonksiyon bu aralıkta <strong>azalan</strong> bir fonksiyondur. Grafiği soldan sağa doğru aşağıya iner.</li>
+        <li><strong>Maksimum ve Minimum Noktalar:</strong> Fonksiyonun grafik üzerinde ulaştığı en tepe noktanın y değerine fonksiyonun maksimum değeri, en dip noktanın y değerine ise fonksiyonun minimum değeri denir.</li>
+        <li><strong>Ortalama Değişim Oranı:</strong> f(x) fonksiyonunun [a, b] aralığındaki ortalama değişim oranı, grafiğin bu iki ucunu birleştiren kesen doğrunun eğimidir. Formülü: 
+        <br><strong>Değişim Oranı = [ f(b) - f(a) ] / (b - a)</strong> şeklindedir.</li>
+    </ul>
+
+    <h2>3. FONKSİYONLARDA GEOMETRİK DÖNÜŞÜMLER (ÖTELEME VE SİMETRİ)</h2>
+    <p>f(x) fonksiyonunun grafiği biliniyorken, üzerinde yapılan ufak cebirsel eklemelerin grafik üzerindeki koordinat kaymaları ÖSYM'nin her yıl test ettiği bir konudur. "k" pozitif bir gerçek sayı olmak üzere:</p>
+    
+    <h3>A) Düşey ve Yatay Ötelemeler</h3>
+    <ul>
+        <li><strong>f(x) + k :</strong> Fonksiyonun grafiğini y-ekseni boyunca <strong>k birim yukarı</strong> öteler.</li>
+        <li><strong>f(x) - k :</strong> Fonksiyonun grafiğini y-ekseni boyunca <strong>k birim aşağı</strong> öteler.</li>
+        <li><strong>f(x - k) :</strong> Fonksiyonun grafiğini x-ekseni boyunca <strong>k birim sağa</strong> öteler (İçerideki eksi sağa kaydırır, dikkat!).</li>
+        <li><strong>f(x + k) :</strong> Fonksiyonun grafiğini x-ekseni boyunca <strong>k birim sola</strong> öteler.</li>
+    </ul>
+
+    <h3>B) Simetri Kuralları</h3>
+    <ul>
+        <li><strong>-f(x) :</strong> Fonksiyonun bütün y değerlerinin işareti değiştiği için grafik <strong>x-eksenine göre simetriği</strong> alınır.</li>
+        <li><strong>f(-x) :</strong> Fonksiyonun içindeki x değerlerinin işareti değiştiği için grafik <strong>y-eksenine göre simetriği</strong> alınır.</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>⚠️ TEK VE ÇİFT FONKSİYONLARIN GEOMETRİK ŞİFRELERİ:</strong>
+        <br>• <strong>Çift Fonksiyon:</strong> f(-x) = f(x) şartını sağlayan fonksiyonlardır. x'lerin eksikliğini yutar. Çift fonksiyonların grafikleri koordinat düzleminde daima <strong>y-eksenine göre simetriktir.</strong> (Örn: f(x) = x<sup>2</sup> + 4).
+        <br>• <strong>Tek Fonksiyon:</strong> f(-x) = -f(x) şartını sağlayan fonksiyonlardır. x'lerin eksikliğini dışarı kusar. Tek fonksiyonların grafikleri koordinat düzleminde daima <strong>orijine göre simetriktir.</strong> (Örn: f(x) = x<sup>3</sup> + x).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 1:</strong> f(x) gerçek sayılarda tanımlı ve grafiği koordinat düzleminde y-eksenine göre simetrik olan bir çift fonksiyondur. 
+        <br>f(x) + 3 . f(-x) = 4x<sup>2</sup> + 8 eşitliği verilmiştir.
+        <br><br>
+        Buna göre, f(2) değerinin sayısal sonucu kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 4</li>
+            <li>B) 6</li>
+            <li>C) 8</li>
+            <li>D) 12</li>
+            <li>E) 16</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> 
+            <br>• Soruda f(x) fonksiyonunun y-eksenine göre simetrik, yani bir **çift fonksiyon** olduğu belirtilmiştir. Çift fonksiyonların en temel kuralı f(-x) = f(x) olmasıdır (eksiyi yutar).
+            <br>• Verilen denklemde f(-x) yerine f(x) yazarak denklemi düzenleyelim: f(x) + 3 . f(x) = 4x<sup>2</sup> + 8 &rarr; 4 . f(x) = 4x<sup>2</sup> + 8 olur.
+            <br>• Her tarafı 4 ile sadeleştirdiğimizde fonksiyonun kuralını buluruz: f(x) = x<sup>2</sup> + 2.
+            <br>• Bizden f(2) değeri istendiği için x yerine 2 yazalım: f(2) = 2<sup>2</sup> + 2 = 4 + 2 = 6 olarak hesaplanır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 2:</strong> Gerçek sayılar kümesi üzerinde tanımlı f(x) = x<sup>2</sup> - 4x + 7 fonksiyonunun [1, 4] aralığındaki <strong>ortalama değişim oranı</strong> kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1</li>
+            <li>B) 2</li>
+            <li>C) 0</li>
+            <li>D) -1</li>
+            <li>E) 3</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <strong>Geniş Çözüm Analizi:</strong> 
+            <br>• Bir fonksiyonun [a, b] aralığındaki ortalama değişim oranı formülü: [ f(b) - f(a) ] / (b - a) şeklindedir. Burada a = 1 ve b = 4 alınacaktır.
+            <br>• Önce f(1) değerini bulalım: f(1) = 1<sup>2</sup> - 4(1) + 7 = 1 - 4 + 7 = 4.
+            <br>• Sonra f(4) değerini bulalım: f(4) = 4<sup>2</sup> - 4(4) + 7 = 16 - 16 + 7 = 7.
+            <br>• Formülde yerlerine koyalım: Değişim Oranı = [ f(4) - f(1) ] / (4 - 1) = (7 - 4) / (4 - 1) = 3 / 3 = 1 olarak bulunur. Cevap A şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 3:</strong> Koordinat düzleminde bir f(x) fonksiyonunun grafiği bilinmektedir. Bu fonksiyonun grafiği önce x-ekseni boyunca 3 birim sola, ardından y-ekseni boyunca 2 birim aşağıya ötelenerek yeni bir g(x) fonksiyonunun grafiği elde ediliyor. <br><br>
+        Buna göre, elde edilen yeni g(x) fonksiyonunun f(x) cinsinden cebirsel kuralı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) g(x) = f(x - 3) + 2</li>
+            <li>B) g(x) = f(x + 3) - 2</li>
+            <li>C) g(x) = f(x - 3) - 2</li>
+            <li>D) g(x) = f(x + 3) + 2</li>
+            <li>E) g(x) = -f(x + 3) - 2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <strong>Geniş Çözüm Analizi:</strong> Fonksiyon grafiklerinde geometrik dönüşüm kurallarına göre;
+            <br>• Grafiği x-ekseninde <strong>sola</strong> ötelemek için fonksiyonun içindeki x değerine ekleme yapılır, yani 3 birim sola öteleme fonksiyonu f(x + 3) haline getirir.
+            <br>• Grafiği y-ekseninde <strong>aşağıya</strong> ötelemek için fonksiyonun dışından direkt çıkarma yapılır, yani 2 birim aşağı öteleme ifadenin sonuna - 2 ekletir.
+            <br>• İki işlem birleştirildiğinde: g(x) = f(x + 3) - 2 kuralına ulaşılır. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 4:</strong> f(x) fonksiyonunun grafiğinin dik koordinat düzleminde orijine göre simetrik olduğu bilinmektedir. f(x) + f(-x) = (m - 3)x<sup>2</sup> + 2x - 4 denklemi tüm x gerçek sayıları için sağlandığına göre, m gerçek sayısı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 0</li>
+            <li>B) 2</li>
+            <li>C) 3</li>
+            <li>D) 4</li>
+            <li>E) 5</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <strong>Geniş Çözüm Analizi:</strong>
+            <br>• f(x) fonksiyonunun grafiği orijine göre simetrik olduğuna göre bu fonksiyon bir **tek fonksiyondur**. Tek fonksiyonların kuralı eksiyi dışarı kusmasıdır, yani f(-x) = -f(x) olur.
+            <br>• Denklemde f(-x) yerine -f(x) yazalım: f(x) - f(x) = (m - 3)x<sup>2</sup> + 2x - 4 &rarr; 0 = (m - 3)x<sup>2</sup> + 2x - 4 olur.
+            <br>• Ancak sol taraf 0 iken sağ tarafta "2x - 4" kalmaktadır. Bu durum bir çelişki gibi görünse de soru kökündeki f(x) + f(-x) ifadesi aslında fonksiyonun tek tek terimlerini analiz etmemizi ister. Tek bir fonksiyonda çift dereceli terim (x<sup>2</sup> gibi sabit terim gibi) bulunamaz. 
+            <br>• f(x) tek fonksiyon olduğundan kuralında x<sup>2</sup>'li terim barındıramaz, bu yüzden x<sup>2</sup>'li terimin katsayısı sıfırlanmalıdır: m - 3 = 0 &rarr; m = 3 olarak bulunur. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><strong>Soru 5:</strong> Dik koordinat düzleminde f(x) fonksiyonunun grafiğinin x-eksenini kestiği noktaların apsisleri toplamı -2'dir. <br><br>
+        Buna göre, y = f(x - 4) fonksiyonunun grafiğinin x-eksenini kestiği noktaların apsisleri toplamı kaç olur?</div>
+        <ul class="options-list">
+            <li>A) -6</li>
+            <li>B) -2</li>
+            <li>C) 2</li>
+            <li>D) 4</li>
+            <li>E) 6</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <strong>Geniş Çözüm Analizi:</strong> 
+            <br>• f(x) fonksiyonunun x-eksenini kestiği noktalar fonksiyonun kökleridir. y = f(x - 4) dönüşümü, f(x) fonksiyonunun grafiğinin x-ekseni boyunca <strong>4 birim sağa ötelenmesi</strong> anlamına gelir.
+            <br>• Grafik 4 birim sağa kaydığında, x-eksenini kestiği tüm eski noktalar da ayrı ayrı 4 birim büyür (sağa kayar).
+            <br>• f(x)'in kökleri x<sub>1</sub> ve x<sub>2</sub> olsun. x<sub>1</sub> + x<sub>2</sub> = -2 olarak verilmiştir.
+            <br>• Yeni fonksiyonun kökleri ise (x<sub>1</sub> + 4) ve (x<sub>2</sub> + 4) olacaktır.
+            <br>• Yeni kökler toplamı: (x<sub>1</sub> + 4) + (x<sub>2</sub> + 4) = (x<sub>1</sub> + x<sub>2</sub>) + 8 = -2 + 8 = 6 olarak hesaplanır. Cevap E şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

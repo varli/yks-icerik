@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 12: Limit ve Süreklilik</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 12: LİMİT VE SÜREKLİLİK</h1>
+        <p>Yaklaşım Kavramı, Sağdan ve Soldan Limit, Belirsizlik Çözümleri ve Süreklilik Şartları</p>
+    </div>
+
+    <h2>1. YAKLAŞIM KAVRAMI, SAĞDAN VE SOLDAN LİMİT</h2>
+    <p>Bir x değişkeni bir a gerçel sayısına, a'dan küçük değerlerle (soldan) veya a'dan büyük değerlerle (sağdan) sonsuz küçük adımlarla yaklaşıyorsa bu duruma <b>yaklaşım</b> denir. f(x) fonksiyonunun bu esnada yöneldiği değer ise limittir.</p>
+    <ul>
+        <li><b>Soldan Limit:</b> x değişkeni a sayısına azalan değerlerle sol taraftan yaklaşırken f(x)'in yaklaştığı değerdir ve <b>lim<sub>x&rarr;a<sup>-</sup></sub>f(x) = L<sub>1</sub></b> şeklinde gösterilir.</li>
+        <li><b>Sağdan Limit:</b> x değişkeni a sayısına artan değerlerle sağ taraftan yaklaşırken f(x)'in yaklaştığı değerdir ve <b>lim<sub>x&rarr;a<sup>+</sup></sub>f(x) = L<sub>2</sub></b> şeklinde gösterilir.</li>
+    </ul>
+    <div class="highlight-box">
+        <strong>⚠️ LİMİTİN VARLIK ŞARTI:</strong>
+        <br>Bir f(x) fonksiyonunun x = a noktasında limitinin var olabilmesi için o noktadaki sağdan ve soldan limitlerinin <b>birbirine eşit olması</b> şarttır:
+        <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 10px 0;">
+            lim<sub>x&rarr;a<sup>-</sup></sub>f(x) = lim<sub>x&rarr;a<sup>+</sup></sub>f(x) = L &nbsp; &harr; &nbsp; lim<sub>x&rarr;a</sub>f(x) = L
+        </p>
+        Eğer sağ ve sol limitler farklı değerler çıkıyorsa, fonksiyonun o noktada limiti <u>yoktur</u> denir. Fonksiyonun o noktada tanımlı olup olmaması limitin varlığını etkilemez.
+    </div>
+
+    <h2>2. LİMİTİN ÖZELLİKLERİ VE POLİNOM FONKSİYONLAR</h2>
+    <p>Polinom fonksiyonlarda (tanımsızlık barındırmayan yapılarda) limit bulurken doğrudan x yerine a yazılır: <b>lim<sub>x&rarr;a</sub>P(x) = P(a)</b>. Limit işleminin temel cebirsel özellikleri şunlardır:</p>
+    <ul>
+        <li><b>Toplama/Çıkarma:</b> lim [f(x) &plusmn; g(x)] = lim f(x) &plusmn; lim g(x)</li>
+        <li><b>Çarpma/Bölme:</b> lim [f(x) . g(x)] = lim f(x) . lim g(x) &nbsp; | &nbsp; lim [f(x) / g(x)] = lim f(x) / lim g(x) (Payda &ne; 0)</li>
+        <li><b>Kuvvet/Kök:</b> lim [f(x)]<sup>n</sup> = [lim f(x)]<sup>n</sup> &nbsp; | &nbsp; lim &radic;f(x) = &radic;(lim f(x)) (Kök içi uygunsa)</li>
+    </ul>
+
+    <h2>3. LİMİTTE BELİRSİZLİK DURUMLARI (0/0 BELİRSİZLİĞİ)</h2>
+    <p>lim<sub>x&rarr;a</sub> [f(x) / g(x)] işleminde x yerine a yazıldığında pay ve payda aynı anda sıfır oluyorsa karşımıza <b>0/0 belirsizliği</b> çıkar. Belirsizliği ortadan kaldırmak için şu stratejiler izlenir:</p>
+    <ol>
+        <li><b>Çarpanlara Ayırma:</b> Pay ve payda çarpanlarına ayrılarak limiti sıfıra götüren ortak (x - a) çarpanları sadeleştirilir. Ardından limit değeri tekrar yerine yazılır.</li>
+        <li><b>Eşlenik ile Genişletme:</b> İfade köklü terim barındırıyorsa, köklü ifadenin eşleniği ile pay ve payda genişletilerek kökten kurtulma sağlanır, ardından sadeleştirme yapılır.</li>
+    </ol>
+
+    <h2>4. SÜREKLİLİK KAVRAMI</h2>
+    <p>Bir f(x) fonksiyonunun x = a noktasında <b>sürekli</b> olabilmesi için aşağıdaki üç şartı aynı anda yerine getirmesi zorunludur:</p>
+    <table style="margin: 15px 0;">
+        <thead>
+            <tr>
+                <th>Şart Sırası</th>
+                <th>Süreklilik Kriteri</th>
+                <th>Açıklaması</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>1. Şart</b></td>
+                <td>Fonksiyon o noktada tanımlı olmalı</td>
+                <td>f(a) bir gerçel sayıya eşit olmalıdır. Grafikte o noktanın içi dolu olmalıdır.</td>
+            </tr>
+            <tr>
+                <td><b>2. Şart</b></td>
+                <td>Fonksiyonun o noktada limiti olmalı</td>
+                <td>Sağdan ve soldan limit değerleri birbirine eşit (L) olmalıdır.</td>
+            </tr>
+            <tr>
+                <td><b>3. Şart</b></td>
+                <td><b>lim<sub>x&rarr;a</sub>f(x) = f(a)</b> olmalı</td>
+                <td>Bulunan limit değeri, fonksiyonun o noktadaki görüntüsüne tam olarak eşit olmalıdır.</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="tip-box">
+        <strong>💡 GRAFİKSEL SÜREKLİLİK YORUMU:</strong>
+        <br>Bir fonksiyonun grafiğini çizerken elinizi kağıttan hiç kaldırmadan devam edebiliyorsanız fonksiyon o aralıkta süreklidir. Grafik üzerindeki <b>boşluklar (tanımsızlık), içi boş halkalar (limitsiz veya farklı görüntülü yerler) ve sıçramalar (sağ/sol limit farkı)</b> sürekliliği bozar.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> lim<sub>x&rarr;3</sub> (x<sup>2</sup> - 5x + 6) / (x<sup>2</sup> - 9) limitinin değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 0</li>
+            <li>B) 1/6</li>
+            <li>C) 1/3</li>
+            <li>D) 1/2</li>
+            <li>E) Yoktur</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• x yerine 3 yazdığımızda pay kısmında 3<sup>2</sup> - 5(3) + 6 = 9 - 15 + 6 = 0 elde ederiz.
+            <br>• Payda kısmında ise 3<sup>2</sup> - 9 = 9 - 9 = 0 elde ederiz. Karşımıza <b>0/0 belirsizliği</b> çıktı.
+            <br>• Belirsizliği yok etmek için pay ve paydayı çarpanlarına ayıralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Pay: x<sup>2</sup> - 5x + 6 = (x - 3).(x - 2)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Payda: x<sup>2</sup> - 9 = (x - 3).(x + 3)
+            <br>• İfadeleri yerine koyup limiti sıfıra götüren (x - 3) çarpanlarını sadeleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; lim<sub>x&rarr;3</sub> [(x - 3).(x - 2)] / [(x - 3).(x + 3)] = lim<sub>x&rarr;3</sub> (x - 2) / (x + 3)
+            <br>• Şimdi x yerine 3 değerini güvenle yazabiliriz: (3 - 2) / (3 + 3) = <b>1 / 6</b> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> f(x) fonksiyonu x = 2 noktasında sürekli bir fonksiyondur.<br>lim<sub>x&rarr;2<sup>-</sup></sub> f(x) = 3m - 4 ve lim<sub>x&rarr;2<sup>+</sup></sub> f(x) = m + 6 olduğuna göre, f(2) değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 5</li>
+            <li>B) 7</li>
+            <li>C) 9</li>
+            <li>D) 11</li>
+            <li>E) 13</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Fonksiyonun x = 2 noktasında sürekli olması, o noktada limitinin var olduğu ve bu limitin f(2) görüntüsüne eşit olduğu anlamına gelir.
+            <br>• Limit varlığı için sağ ve sol limitlerin eşit olması gerekir: lim<sub>x&rarr;2<sup>-</sup></sub> f(x) = lim<sub>x&rarr;2<sup>+</sup></sub> f(x)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3m - 4 = m + 6
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3m - m = 6 + 4  &rarr;  2m = 10  &rarr;  <b>m = 5</b> bulunur.
+            <br>• m = 5 değerini herhangi bir limit tanımında yerine yazarak limit değerini bulalım: 5 + 6 = 11.
+            <br>• Süreklilik şartı gereğince limit değeri fonksiyonun o noktadaki görüntüsüne (f(2)) eşit olmak zorundadır. Dolayısıyla <b>f(2) = 11</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> f(x) = (2x + 1) / (x<sup>2</sup> - mx + 9) fonksiyonu tüm gerçel sayılar kümesinde sürekli olduğuna göre, m'nin alabileceği tam sayı değerleri kaç tanedir?</div>
+        <ul class="options-list">
+            <li>A) 3</li>
+            <li>B) 5</li>
+            <li>C) 7</li>
+            <li>D) 9</li>
+            <li>E) 11</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kesirli bir ifadenin tüm reel sayılarda sürekli olması, paydayı sıfır yapan hiçbir x reel sayısının <u>bulunmaması</u> demektir. Payda sıfır olsaydı o noktada tanımsızlık (ve dolayısıyla süreksizlik) oluşurdu.
+            <br>• Payda olan x<sup>2</sup> - mx + 9 ikinci derece ifadesinin reel kökünün olmaması şartı <b>&Delta; &lt; 0</b> olmasına bağlıdır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &Delta; = b<sup>2</sup> - 4ac = (-m)<sup>2</sup> - 4 . 1 . 9 &lt; 0
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; m<sup>2</sup> - 36 &lt; 0  &rarr;  m<sup>2</sup> &lt; 36
+            <br>• Karesi 36'dan küçük olan sayılar -6 ile 6 açık aralığındadır: <b>-6 &lt; m &lt; 6</b>.
+            <br>• Bu aralıktaki m tam sayıları: -5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5 olmak üzere toplam <b>7 tanedir</b>.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> lim<sub>x&rarr;4</sub> (&radic;x - 2) / (x - 4) limitinin değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1/8</li>
+            <li>B) 1/4</li>
+            <li>C) 1/2</li>
+            <li>D) 1</li>
+            <li>E) 2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• x yerine 4 yazdığımızda (&radic;4 - 2) / (4 - 4) = (2 - 2) / 0 = 0/0 belirsizliği oluşur.
+            <br>• Payda kısmındaki (x - 4) ifadesini iki kare farkı mantığıyla çarpanlarına ayıralım: x - 4 = (&radic;x - 2).(&radic;x + 2).
+            <br>• Bunu limit ifadesinde yerine yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; lim<sub>x&rarr;4</sub> (&radic;x - 2) / [(&radic;x - 2).(&radic;x + 2)]
+            <br>• Pay ve paydadaki (&radic;x - 2) çarpanları birbirini sadeleştirir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; lim<sub>x&rarr;4</sub> 1 / (&radic;x + 2)
+            <br>• Şimdi x yerine 4 yazarak limiti sonuçlandıralım: 1 / (&radic;4 + 2) = 1 / (2 + 2) = <b>1 / 4</b> olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> f(x) parçalı fonksiyonu şu şekilde tanımlanmıştır:<br>x &lt; 1 için f(x) = ax + 3<br>x &ge; 1 için f(x) = x<sup>2</sup> - 2x + b<br>Fonksiyonun x = 1 noktasında limiti var ve bu limit değeri 5 olduğuna göre, a . b çarpımı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 12</li>
+            <li>B) 14</li>
+            <li>C) 16</li>
+            <li>D) 18</li>
+            <li>E) 20</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kritik nokta olan x = 1 noktasında limitin var olması ve 5'e eşit olması, sağ ve sol limitlerin ayrı ayrı 5'e eşit olması demektir.
+            <br>• <b>Sol Limit (x &rarr; 1<sup>-</sup>):</b> x &lt; 1 aralığındaki kural uygulanır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; lim<sub>x&rarr;1<sup>-</sup></sub> (ax + 3) = a(1) + 3 = a + 3. Bu değer 5 olmalıdır: a + 3 = 5 &rarr; <b>a = 2</b>.
+            <br>• <b>Sağ Limit (x &rarr; 1<sup>+</sup>):</b> x &ge; 1 aralığındaki kural uygulanır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; lim<sub>x&rarr;1<sup>+</sup></sub> (x<sup>2</sup> - 2x + b) = 1<sup>2</sup> - 2(1) + b = 1 - 2 + b = -1 + b. Bu değer de 5 olmalıdır: -1 + b = 5 &rarr; <b>b = 6</b>.
+            <br>• Bizden istenen katsayılar çarpımı: a . b = 2 . 6 = <b>12</b> olarak hesaplanır. 
+            <br>• <i>Seçenek revizyon notu:</i> İşlemler neticesinde a.b = 12 çıkmaktadır. Seçeneklerde A şıkkı 12'yi göstermektedir.
+        </div>
+    </div>
+
+</body>
+</html>

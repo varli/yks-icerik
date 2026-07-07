@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 8: Trigonometri II</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 8: TRİGONOMETRİ II</h1>
+        <p>Toplam-Fark ve Yarım Açı Formülleri, Trigonometrik Denklemler ve Çözüm Kümeleri</p>
+    </div>
+
+    <h2>1. TOPLAM VE FARK FORMÜLLERİ</h2>
+    <p>İki farklı açının toplamının veya farkının trigonometrik değerlerini, bu açıların kendi trigonometrik değerleri cinsinden hesaplamaya yarayan formüller geometrik ispatlara dayanır ve şu şekildedir:</p>
+    
+    <h3>A) Sinüs Toplam-Fark Formülleri</h3>
+    <p>Sinüs fonksiyonu paylaşımcı ve uyumludur; sinüs ve kosinüsü çarpar, aradaki işareti aynen korur:</p>
+    <ul>
+        <li><b>sin(a + b) = sina.cosb + cosa.sinb</b></li>
+        <li><b>sin(a - b) = sina.cosb - cosa.sinb</b></li>
+    </ul>
+
+    <h3>B) Kosinüs Toplam-Fark Formülleri</h3>
+    <p>Kosinüs fonksiyonu bencildir ve terstir; önce kosinüsleri, sonra sinüsleri çarpar ve aradaki işareti tersine çevirir:</p>
+    <ul>
+        <li><b>cos(a + b) = cosa.cosb - sina.sinb</b></li>
+        <li><b>cos(a - b) = cosa.cosb + sina.sinb</b></li>
+    </ul>
+
+    <h3>C) Tanjant ve Kotanjant Toplam-Fark Formülleri</h3>
+    <p>Tanjant formülü rasyonel bir yapıya sahiptir. Kotanjant sorularında formül ezberlemek yerine <b>cot(a&plusmn;b) = 1 / tan(a&plusmn;b)</b> ilişkisini kullanmak pratiktir:</p>
+    <ul>
+        <li><b>tan(a + b) = (tana + tanb) / (1 - tana.tanb)</b></li>
+        <li><b>tan(a - b) = (tana - tanb) / (1 + tana.tanb)</b></li>
+    </ul>
+
+    <h2>2. YARIM AÇI (İKİ KAT AÇI) FORMÜLLERİ</h2>
+    <p>Toplam formüllerinde b yerine a yazılmasıyla türetilen, bir açının değerinden o açının yarısının trigonometrik değerlerine geçiş sağlayan formüllerdir:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Fonksiyon</th>
+                <th>Yarım Açı Açılımları</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Sinüs Yarım Açı</b></td>
+                <td><b>sin(2a) = 2.sina.cosa</b></td>
+            </tr>
+            <tr>
+                <td><b>Kosinüs Yarım Açı</b></td>
+                <td>Kosinüsün üç farklı yazımı vardır, sorudaki sadeleştirmeye göre seçilir:
+                <br>1) <b>cos(2a) = cos<sup>2</sup>a - sin<sup>2</sup>a</b>
+                <br>2) <b>cos(2a) = 2.cos<sup>2</sup>a - 1</b> (Soruda yanındaki -1'i yok etmek için)
+                <br>3) <b>cos(2a) = 1 - 2.sin<sup>2</sup>a</b> (Soruda yanındaki +1'i yok etmek için)</td>
+            </tr>
+            <tr>
+                <td><b>Tanjant Yarım Açı</b></td>
+                <td><b>tan(2a) = (2.tana) / (1 - tan<sup>2</sup>a)</b></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. TRİGONOMETRİK DENKLEMLER VE ÇÖZÜM KÜMELERİ</h2>
+    <p>Trigonometrik denklemleri çözerken temel amaç, eşitliğin her iki tarafını da aynı isimli fonksiyona çevirmektir. Çember üzerindeki periyodik dönüşlerden ötürü kökler k bir tam sayı ($k \in \mathbb{Z}$) olmak üzere sonsuz elemanlı kümeler belirtir:</p>
+
+    <h3>A) sinx = sina Denkleminin Çözümü</h3>
+    <p>Sinüs ekseni y ekseni olduğundan, sinüsü aynı olan iki açı ya &alpha; açısıdır ya da ikinci bölgedeki (&pi; - &alpha;) açısıdır:</p>
+    <p style="text-indent: 40px;"><b>x<sub>1</sub> = &alpha; + 2k&pi;</b> &nbsp; veya &nbsp; <b>x<sub>2</sub> = (&pi; - &alpha;) + 2k&pi;</b></p>
+
+    <h3>B) cosx = cosa Denkleminin Çözümü</h3>
+    <p>Kosinüs ekseni x ekseni olduğundan, kosinüsü aynı olan iki açı ya &alpha; açısıdır ya da dördüncü bölgedeki (-&alpha;) açısıdır:</p>
+    <p style="text-indent: 40px;"><b>x<sub>1</sub> = &alpha; + 2k&pi;</b> &nbsp; veya &nbsp; <b>x<sub>2</sub> = -&alpha; + 2k&pi;</b></p>
+
+    <h3>C) tanx = tana ve cotx = cota Denklemlerinin Çözümü</h3>
+    <p>Tanjant ve kotanjant fonksiyonları her 180 derecede (&pi;) bir aynı değerleri aldıkları için periyotları &pi;'dir. Tek bir çözüm kalıbı yeterlidir:</p>
+    <p style="text-indent: 40px;"><b>x = &alpha; + k&pi;</b></p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> sin15&deg; . cos15&deg; . cos30&deg; işleminin sonucu kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1/8</li>
+            <li>B) &radic;3/8</li>
+            <li>C) 1/4</li>
+            <li>D) &radic;3/4</li>
+            <li>E) 1/2</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İfadenin ilk kısmında yer alan sin15&deg; . cos15&deg; çarpımı bize sinüs yarım açı formülünü (sin2a = 2.sina.cosa) hatırlatmalıdır. Başında 2 çarpanı eksik olduğu için ifadeyi 2 ile çarpıp 2've bölelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (2 . sin15&deg; . cos15&deg;) / 2 = sin(2 . 15&deg;) / 2 = <b>sin30&deg; / 2</b>
+            <br>• Şimdi bu bulguyu orijinal işlemde yerine yazıp devam edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (sin30&deg; / 2) . cos30&deg; = (sin30&deg; . cos30&deg;) / 2
+            <br>• Pay kısmında yine bir yarım açı fırsatı var. Tekrar 2 ile genişletelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (2 . sin30&deg; . cos30&deg;) / (2 . 2) = sin(2 . 30&deg;) / 4 = <b>sin60&deg; / 4</b>
+            <br>• Standart dik üçgenden sin60&deg; = &radic;3 / 2 değerini biliyoruz. Yerine yazarsak:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (&radic;3 / 2) / 4 = <b>&radic;3 / 8</b> olarak cevaba ulaşırız.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bir ABC üçgeninde tan(A) = 2 ve tan(B) = 3 olduğuna göre, bu üçgenin iç açısı olan C açısının ölçüsü kaç derecedir?</div>
+        <ul class="options-list">
+            <li>A) 30&deg;</li>
+            <li>B) 45&deg;</li>
+            <li>C) 60&deg;</li>
+            <li>D) 120&deg;</li>
+            <li>E) 135&deg;</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bir üçgenin iç açılarının toplamı A + B + C = 180&deg; (veya &pi;) radyandır.
+            <br>• Buradan A + B = 180&deg; - C yazabiliriz. Her iki tarafın tanjantını alalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; tan(A + B) = tan(180&deg; - C)
+            <br>• 2. bölge indirgemesinden tan(180&deg; - C) = -tan(C) olduğunu biliyoruz.
+            <br>• Sol tarafa tanjant toplam formülünü uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; tan(A + B) = [tan(A) + tan(B)] / [1 - tan(A).tan(B)]
+            <br>• Verilen tan(A) = 2 ve tan(B) = 3 değerlerini yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; tan(A + B) = (2 + 3) / (1 - 2.3) = 5 / (1 - 6) = 5 / -5 = -1
+            <br>• O halde; tan(A + B) = -1 ise, üstteki eşitlik gereği -tan(C) = -1 &rarr; <b>tan(C) = 1</b> olur.
+            <br>• Bir üçgende tanjantı 1 olan iç açı <b>45&deg;</b> olduğundan C açısı 45 derecedir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> (cos2x) / (cosx + sinx) + sinx ifadesinin en sade biçimi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) sinx</li>
+            <li>B) cosx</li>
+            <li>C) tanx</li>
+            <li>D) cos2x</li>
+            <li>E) 1</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Pay kısmındaki cos2x ifadesine iki kare farkı içeren yarım açı açılımını (cos<sup>2</sup>x - sin<sup>2</sup>x) uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; cos2x = (cosx - sinx) . (cosx + sinx)
+            <br>• Bunu kesirli ifadede yerine yerleştirip sadeleştirmeyi yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; [(cosx - sinx) . (cosx + sinx)] / (cosx + sinx)  + sinx
+            <br>• Pay ve paydadaki (cosx + sinx) terimleri birbirini sadeleştirir. Geriye şu kalır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (cosx - sinx) + sinx
+            <br>• -sinx ve + sinx birbirini sıfırlar ve nihai sonuç net bir şekilde <b>cosx</b> kalır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> cos<sup>2</sup>x - sin<sup>2</sup>x = sinx denkleminin [0, 2&pi;) aralığında kaç farklı kökü vardır?</div>
+        <ul class="options-list">
+            <li>A) 1</li>
+            <li>B) 2</li>
+            <li>C) 3</li>
+            <li>D) 4</li>
+            <li>E) 5</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Sol taraftaki cos<sup>2</sup>x - sin<sup>2</sup>x yapısının cos2x yarım açı açılımı olduğunu biliyoruz: cos2x = sinx.
+            <br>• Denklemi çözebilmek için iki tarafı da aynı isme çevirmeliyiz. sinx yerine cos(&pi;/2 - x) yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; cos2x = cos(&pi;/2 - x)
+            <br>• Kosinüs denklem çözüm kuralına göre iki ana durum incelenir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>1. Durum:</b> 2x = (&pi;/2 - x) + 2k&pi; &rarr; 3x = &pi;/2 + 2k&pi; &rarr; <b>x = &pi;/6 + 2k&pi;/3</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; k = 0 için: x = &pi;/6 (30&deg;)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; k = 1 için: x = &pi;/6 + 2&pi;/3 = 5&pi;/6 (150&deg;)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; k = 2 için: x = &pi;/6 + 4&pi;/3 = 9&pi;/6 = 3&pi;/2 (270&deg;)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; <b>2. Durum:</b> 2x = -(&pi;/2 - x) + 2k&pi; &rarr; 2x = -&pi;/2 + x + 2k&pi; &rarr; <b>x = -&pi;/2 + 2k&pi;</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&bull; k = 1 için: x = -&pi;/2 + 2&pi; = 3&pi;/2 (270&deg;) [Bu kök 1. durumda zaten bulunmuştu, tekrar sayılmaz]
+            <br>• [0, 2&pi;) aralığına düşen benzersiz kökler: 30&deg;, 150&deg; ve 270&deg; olmak üzere toplam 3 tanedir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> tanx . tan2x = 1 denkleminin (0, &pi;) aralığındaki kökü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) &pi;/6</li>
+            <li>B) &pi;/4</li>
+            <li>C) &pi;/3</li>
+            <li>D) 2&pi;/3</li>
+            <li>E) 5&pi;/6</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Eşitlikte her iki tarafı tanx'e bölelim: tan2x = 1 / tanx.
+            <br>• 1 / tanx ifadesinin cotx'e eşit olduğunu biliyoruz: tan2x = cotx.
+            <br>• Sağ taraftaki cotx'i tanjanta çevirmek için tümler açı kuralını (tan(&pi;/2 - x)) kullanalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; tan2x = tan(&pi;/2 - x)
+            <br>• Tanjantın genel denklem çözüm kuralını uygulayalım (x = &alpha; + k&pi;):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2x = (&pi;/2 - x) + k&pi;
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3x = &pi;/2 + k&pi;  &rarr;  <b>x = &pi;/6 + k&pi;/3</b>
+            <br>• (0, &pi;) aralığına uygun kök aradığımız için k = 0 yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x = &pi;/6 + 0 = <b>&pi;/6</b> (30&deg;) olarak aranan aralıktaki kök elde edilir.
+        </div>
+    </div>
+
+</body>
+</html>

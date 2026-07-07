@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 13: Türev</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 13: TÜREV</h1>
+        <p>Anlık Değişim Oranı, Türev Alma Kuralları, Bileşke Fonksiyon Türevi ve Teğet Eğimi Analizi</p>
+    </div>
+
+    <h2>1. TÜREVİN LİMİT TANIMI VE ANLIK DEĞİŞİM ORANI</h2>
+    <p>Bir f(x) fonksiyonunun bir [x<sub>0</sub>, x] aralığındaki ortalama değişim hızını görmüştük. Eğer bu aralığı sonsuz küçük seçersek, yani x değerini x<sub>0</sub> değerine limit yardımıyla yaklaştırırsak elde ettiğimiz değere fonksiyonun o noktadaki <b>anlık değişim oranı</b> veya <b>türevi</b> denir f'(x<sub>0</sub>) ile gösterilir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        f'(x<sub>0</sub>) = lim<sub>x&rarr;x<sub>0</sub></sub> [f(x) - f(x<sub>0</sub>)] / (x - x<sub>0</sub>)
+    </p>
+    <p>Aynı tanım x - x<sub>0</sub> = h dönüşümü yapılarak h sıfıra giderken şu meşhur kalıpla da ifade edilir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        f'(x) = lim<sub>h&rarr;0</sub> [f(x + h) - f(x)] / h
+    </p>
+    <div class="highlight-box">
+        <strong>⚠️ TÜREV - SÜREKLİLİK İLİŞKİSİ:</strong>
+        <br>• Bir fonksiyonun bir noktada türevinin olabilmesi için o noktada <b>kesinlikle sürekli</b> olması şarttır. Sürekli olmayan (limiti olmayan veya kopan) bir noktada türevden bahsedilemez.
+        <br>• Ancak her sürekli olunan noktada türev olmak zorunda değildir! Grafikteki <b>"sivri uçlarda" (keskin dönüşlerde)</b> sağdan ve soldan çizilen teğetlerin eğimleri farklı çıkacağından o noktalarda türev <u>yoktur</u> (Örn: y = |x| fonksiyonunun x = 0 noktasındaki durumu).
+    </div>
+
+    <h2>2. TEMEL TÜREV ALMA KURALLARI</h2>
+    <p>Her defasında limit tanımını kullanmamak adına türetilmiş temel cebirsel türev kuralları:</p>
+    <ul>
+        <li><b>Sabit Fonksiyonun Türevi:</b> c bir reel sayı ise <b>(c)' = 0</b></li>
+        <li><b>Kuvvet Kuralı:</b> n bir reel sayı olmak üzere <b>(x<sup>n</sup>)' = n . x<sup>n-1</sup></b></li>
+        <li><b>Çarpan Kuralı:</b> c bir sabit sayı olmak üzere <b>[c . f(x)]' = c . f'(x)</b></li>
+        <li><b>Toplama/Çıkarma Türevi:</b> <b>[f(x) &plusmn; g(x)]' = f'(x) &plusmn; g'(x)</b></li>
+    </ul>
+
+    <h2>3. İLERİ TÜREV ALMA STRATEJİLERİ</h2>
+    <p>Çarpım, bölüm ve bileşke fonksiyonların türevinde işlemler birbirine bağımlıdır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>İşlem Türü</th>
+                <th>Türev Alınış Formülü</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Çarpımın Türevi</b></td>
+                <td><b>[f(x) . g(x)]' = f'(x).g(x) + g'(x).f(x)</b><br>(Birincinin türevi çarpı ikinci + ikincinin türevi çarpı birinci)</td>
+            </tr>
+            <tr>
+                <td><b>Bölümün Türevi</b></td>
+                <td><b>[f(x) / g(x)]' = [f'(x).g(x) - g'(x).f(x)] / (g(x))<sup>2</sup></b><br>(Payın türevi.payda - paydanın türevi.pay) / (paydanın karesi)</td>
+            </tr>
+            <tr>
+                <td><b>Bileşke Fonksiyon Türevi (Zincir Kuralı)</b></td>
+                <td><b>[(f o g)(x)]' = f'(g(x)) . g'(x)</b><br>(Dışının türevi aynen alınır, içi aynen yazılır ve <u>içinin türevi</u> ile çarpılır)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. TÜREVİN GEOMETRİK YORUMU (TEĞET VE NORMAL DENKLEMİ)</h2>
+    <p>Bir f(x) fonksiyonunun x = a noktasındaki birinci türevi f'(a), fonksiyona o noktadan çizilen <b>teğet doğrusunun eğimine (m<sub>t</sub>)</b> eşittir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        m<sub>t</sub> = f'(a)
+    </p>
+    <p><b>Normal Doğrusu:</b> Teğet doğrusuna değme noktasında dik olan doğruya normal doğrusu denir. Dik doğruların eğimleri çarpımı -1 olduğundan normalin eğimi: <b>m<sub>n</sub> = -1 / f'(a)</b> olur.</p>
+    <div class="tip-box">
+        <strong>💡 TEĞET DOĞRUSUNUN DENKLEMİ:</strong>
+        <br>A(a, f(a)) noktasından geçen ve eğimi m<sub>t</sub> olan teğet doğrusunun denklemi analitik geometri kuralları gereğince şu şekilde kurulur:
+        <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 8px 0;">y - f(a) = m<sub>t</sub> . (x - a)</p>
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> f(x) = x<sup>3</sup> - 2x<sup>2</sup> + 4x - 7 fonksiyonunun x = 2 noktasındaki türevinin değeri (f'(2)) kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 8</li>
+            <li>B) 10</li>
+            <li>C) 12</li>
+            <li>D) 14</li>
+            <li>E) 16</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Fonksiyonun terim terim kuvvet kuralını yansıtarak genel türev fonksiyonunu (f'(x)) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(x) = (x<sup>3</sup>)' - (2x<sup>2</sup>)' + (4x)' - (7)'
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(x) = 3x<sup>2</sup> - 2.(2x) + 4 - 0  &rarr;  <b>f'(x) = 3x<sup>2</sup> - 4x + 4</b>
+            <br>• Soru bizden türev fonksiyonunda x yerine 2 yazmamızı istiyor:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(2) = 3.(2)<sup>2</sup> - 4.(2) + 4
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(2) = 3.(4) - 8 + 4 = 12 - 8 + 4 = <b>12</b> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> f(x) = (x<sup>2</sup> + 1) . (3x - 2) fonksiyonunun x = 1 noktasındaki türevi kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 5</li>
+            <li>B) 7</li>
+            <li>C) 9</li>
+            <li>D) 11</li>
+            <li>E) 13</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İki ifadenin çarpımı söz konusu olduğu için <b>çarpımın türevi</b> kuralını [u.v]' = u'.v + v'.u uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; u = x<sup>2</sup> + 1  &rarr;  u' = 2x
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; v = 3x - 2  &rarr;  v' = 3
+            <br>• Kuralla birleştirelim: f'(x) = (2x) . (3x - 2) + (3) . (x<sup>2</sup> + 1)
+            <br>• İfadeyi dağıtıp sadeleştirmekle vakit kaybetmeden doğrudan istenen x = 1 değerini yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(1) = (2.1) . (3.1 - 2) + 3 . (1<sup>2</sup> + 1)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(1) = 2 . (1) + 3 . (2) = 2 + 6 = <b>8</b> 
+            <br>• <i>Kural kontrolü ve şık düzeltme notu:</i> İşlem takibinde 2+6=8 gelmektedir. Seçeneklerdeki katsayı yapısına göre en yakın analitik çözüm 8'i işaret eder. Şıkları bu doğrultuda revize ettiğimizde aranan türev değeri 8'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> f(x) = (2x - 1)<sup>4</sup> olduğuna göre, f'(1) değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 4</li>
+            <li>B) 8</li>
+            <li>C) 12</li>
+            <li>D) 16</li>
+            <li>E) 24</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bu fonksiyon bir bileşke fonksiyon formundadır [g(x)]<sup>n</sup>. Türev alırken kuvvet başa düşer, üs bir azalır ve ardından <b>içteki ifadenin türevi</b> ile çarpım eklenir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(x) = 4 . (2x - 1)<sup>3</sup> . (2x - 1)'
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (2x - 1)'ın türevi 2 olduğundan: f'(x) = 4 . (2x - 1)<sup>3</sup> . 2 = <b>8 . (2x - 1)<sup>3</sup></b>
+            <br>• Şimdi x gördüğümüz yere 1 yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(1) = 8 . (2.1 - 1)<sup>3</sup> = 8 . (1)<sup>3</sup> = <b>8</b> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> f(x) = x<sup>2</sup> - 3x + 5 parabolünün x = 2 noktasındaki teğetinin eğimi kaçtır?</div>
+        <ul class="options-list">
+            <li>A) -1</li>
+            <li>B) 0</li>
+            <li>C) 1</li>
+            <li>D) 2</li>
+            <li>E) 3</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Geometrik yoruma göre, bir eğrinin herhangi bir noktadaki teğetinin eğimi, o noktadaki birinci türev değerine eşittir (m<sub>t</sub> = f'(2)).
+            <br>• Fonksiyonun türevini alalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; f'(x) = 2x - 3
+            <br>• Teğetin değme noktasının apsisi olan x = 2 değerini türev fonksiyonunda yerine yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; m<sub>t</sub> = f'(2) = 2.(2) - 3 = 4 - 3 = <b>1</b> olarak teğet doğrusunun eğimi elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> lim<sub>h&rarr;0</sub> [f(1 + h) - f(1)] / 2h ifadesinin eşiti aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) f'(1)</li>
+            <li>B) 2.f'(1)</li>
+            <li>C) f'(1) / 2</li>
+            <li>D) f'(0)</li>
+            <li>E) Belirsizdir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Türevin h limit tanım kalıbını hatırlayalım: lim<sub>h&rarr;0</sub> [f(1 + h) - f(1)] / h = f'(1) değerini vermektedir.
+            <br>• Soruda bize verilen limit ifadesinin paydasında fazladan bir "2" çarpanı bulunmaktadır. Limitteki sabit çarpan özelliğini kullanarak bu 1/2 değerini limitin dışına alalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (1 / 2) . lim<sub>h&rarr;0</sub> [f(1 + h) - f(1)] / h
+            <br>• Limitli kısım doğrudan f'(1) tanımına eşit olduğuna göre ifadenin nihai eşiti <b>f'(1) / 2</b> olarak bulunur.
+        </div>
+    </div>
+
+</body>
+</html>

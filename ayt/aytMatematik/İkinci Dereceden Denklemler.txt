@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Matematik - Ünite 4: İkinci Dereceden Denklemler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #2b4c59; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #d1e0e6; }
+        h2 { color: #2b4c59; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #3d6a7d; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #e6f0f3; border: 1px solid #bcd1d8; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #2b4c59; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #3d6a7d; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #3d6a7d; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MATEMATİK - MODÜL 4: İKİNCİ DERECEDEN DENKLEMLER</h1>
+        <p>Diskriminant Analizi, Kök-Katsayı İlişkileri ve Denklem Kurma Stratejileri</p>
+    </div>
+
+    <h2>1. İKİNCİ DERECEDEN DENKLEM TANIMI VE ÇÖZÜM YÖNTEMLERİ</h2>
+    <p>a, b, c birer gerçek sayı ve a sıfırdan farklı olmak üzere,</p>
+    <p style="text-align: center; font-size: 13pt; font-weight: bold; margin: 18px 0;">
+        a.x<sup>2</sup> + b.x + c = 0
+    </p>
+    <p>ifadesine bir bilinmeyenli <strong>ikinci dereceden denklem</strong> denir. Bu denklemi doğru kılan x değerlerine denklemin <b>kökleri</b>, köklerin bir araya gelerek oluşturduğu kümeye ise <b>çözüm kümesi (ÇK)</b> adı verilir.</p>
+
+    <h3>A) Çarpanlara Ayırma Yöntemi</h3>
+    <p>Denklem çarpanlarına ayrılabilecek bir yapıdaysa, her çarpan ayrı ayrı sıfıra eşitlenerek en hızlı şekilde köklere ulaşılır. Örneğin; x<sup>2</sup> - 5x + 6 = 0 denklemi (x - 2).(x - 3) = 0 olarak çarpanlarına ayrılır ve buradan kökler x<sub>1</sub> = 2, x<sub>2</sub> = 3 olarak bulunur.</p>
+
+    <h3>B) Diskriminant (&Delta;) Yöntemi</h3>
+    <p>Çarpanlara ayırmanın kolay olmadığı veya imkansız göründüğü durumlarda, denklemin katsayıları kullanılarak genel çözüm formülüne başvurulur. Önce <b>Diskriminant (&Delta;)</b> hesaplanır:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        &Delta; = b<sup>2</sup> - 4.a.c
+    </p>
+    <p>Kökler ise diskriminant yardımıyla şu formülle elde edilir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        x<sub>1,2</sub> = (-b &plusmn; &radic;&Delta;) / (2.a)
+    </p>
+
+    <h2>2. DİSKRİMİNANT (&Delta;) DURUMLARININ ANALİZİ</h2>
+    <p>Diskriminantın sayısal değeri ve işareti, denklemin köklerinin gerçek hayattaki karşılığını ve sayısını belirler:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Diskriminant Şartı</th>
+                <th>Köklerin Karakteri ve Grafiksel Karşılığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>&Delta; &gt; 0 ise</b></td>
+                <td>Birbirinden farklı <b>iki gerçek (reel) kök</b> vardır (x<sub>1</sub> &ne; x<sub>2</sub>). Parabol x-eksenini iki noktada keser.</td>
+            </tr>
+            <tr>
+                <td><b>&Delta; = 0 ise</b></td>
+                <td>Birbirine eşit, <b>çakışık iki reel kök</b> vardır (x<sub>1</sub> = x<sub>2</sub>). İfade tam karedir, parabol x-eksenine teğettir.</td>
+            </tr>
+            <tr>
+                <td><b>&Delta; &lt; 0 ise</b></td>
+                <td>Denklemin <b>reel kökü yoktur</b>. Karmaşık sayılar kümesinde iki farklı sanal kökü bulunur. Parabol ekseni kesmez.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. KÖKLER VE KATSAYILAR ARASINDAKİ İLİŞKİLER (VİETE FORMÜLLERİ)</h2>
+    <p>a.x<sup>2</sup> + b.x + c = 0 denkleminin kökleri x<sub>1</sub> ve x<sub>2</sub> olmak üzere, denklemi uzun uzadıya çözmeden köklerin kendi arasındaki ilişkileri katsayılardan bulabiliriz:</p>
+    <ul>
+        <li><b>Kökler Toplamı:</b> x<sub>1</sub> + x<sub>2</sub> = -b / a</li>
+        <li><b>Kökler Çarpımı:</b> x<sub>1</sub> . x<sub>2</sub> = c / a</li>
+        <li><b>Köklerin Mutlak Farkı:</b> |x<sub>1</sub> - x<sub>2</sub>| = &radic;&Delta; / |a|</li>
+    </ul>
+
+    <div class="tip-box">
+        <strong>💡 KÖKLERİ VERİLEN DENKLEMİ YAZMA:</strong>
+        <br>Kökleri bilinen bir denklemi kurmak için önce Kökler Toplamı (<b>T</b> = x<sub>1</sub> + x<sub>2</sub>) ve Kökler Çarpımı (<b>Ç</b> = x<sub>1</sub> . x<sub>2</sub>) değerleri netleştirilir.
+        <br>Ardından bu değerler şu kalıba yerleştirilerek ana denklem oluşturulur:
+        <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 10px 0;">
+            x<sup>2</sup> - T.x + Ç = 0
+        </p>
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> x<sup>2</sup> - (m - 3)x + 16 = 0 denkleminin birbirine eşit (çakışık) iki reel kökü olduğuna göre, m'nin alabileceği pozitif değer kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 5</li>
+            <li>B) 8</li>
+            <li>C) 11</li>
+            <li>D) 14</li>
+            <li>E) 17</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Denklemin çakışık iki kökünün bulunması, diskriminantın sıfıra eşit olması (&Delta; = 0) anlamına gelir.
+            <br>• Denklem katsayılarına baktığımızda a = 1, b = -(m - 3) ve c = 16'dır.
+            <br>• &Delta; = b<sup>2</sup> - 4.a.c formülünü uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;[-(m - 3)]<sup>2</sup> - 4 . 1 . 16 = 0
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;(m - 3)^{2} - 64 = 0 &rarr; (m - 3)<sup>2</sup> = 64
+            <br>• Karesi 64 olan iki farklı durum mevcuttur:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;1) m - 3 = 8 &rarr; <b>m = 11</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;2) m - 3 = -8 &rarr; <b>m = -5</b>
+            <br>• Bizden pozitif olan m değeri istendiği için doğru cevap 11 olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 3x<sup>2</sup> - 8x + 2 = 0 denkleminin kökleri x<sub>1</sub> ve x<sub>2</sub>'dir. Buna göre, (1 / x<sub>1</sub>) + (1 / x<sub>2</sub>) ifadesinin değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 3</li>
+            <li>C) 4</li>
+            <li>D) 5</li>
+            <li>E) 6</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Sorulan ifadeden yola çıkarak rasyonel sayılarda toplama mantığıyla payda eşitleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;(1 / x<sub>1</sub>) + (1 / x<sub>2</sub>) = (x<sub>2</sub> + x<sub>1</sub>) / (x<sub>1</sub> . x<sub>2</sub>)
+            <br>• Karşımıza çıkan kesirli yapı üstte <b>Kökler Toplamı</b>, altta ise <b>Kökler Çarpımı</b> barındırır.
+            <br>• Denklemimizin katsayıları: a = 3, b = -8, c = 2'dir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Kökler toplamı: -b / a = -(-8) / 3 = 8 / 3
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;Kökler çarpımı: c / a = 2 / 3
+            <br>• Bu iki bulguyu oranlayalım: (8 / 3) / (2 / 3) = (8 / 3) . (3 / 2) = 4 olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Kökleri arasında x<sub>1</sub> + x<sub>2</sub> - x<sub>1</sub>.x<sub>2</sub> = 5 ve 2(x<sub>1</sub> + x<sub>2</sub>) + x<sub>1</sub>.x<sub>2</sub> = 7 bağıntıları bulunan ikinci dereceden denklem aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) x<sup>2</sup> - 4x + 1 = 0</li>
+            <li>B) x<sup>2</sup> - 4x - 1 = 0</li>
+            <li>C) x<sup>2</sup> + 4x - 1 = 0</li>
+            <li>D) x<sup>2</sup> - 2x + 3 = 0</li>
+            <li>E) x<sup>2</sup> - 3x + 4 = 0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İşlemleri sadeleştirmek adına kökler toplamına T, kökler çarpımına Ç diyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;T - Ç = 5
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;2T + Ç = 7
+            <br>• Bu iki bilinmeyenli denklem sistemini taraf tarafa topladığımızda Ç'ler birbirini yok eder:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;3T = 12 &rarr; <b>T = 4</b> bulunur.
+            <br>• İlk denklemde T yerine 4 yazarak Ç'yi çekelim: 4 - Ç = 5 &rarr; <b>Ç = -1</b> olur.
+            <br>• Denklem yazma kalıbımız x<sup>2</sup> - T.x + Ç = 0 olduğuna göre verileri yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp;x<sup>2</sup> - (4).x + (-1) = 0 &rarr; <b>x<sup>2</sup> - 4x - 1 = 0</b> denklemi elde edilir.
+        </div>
+    </div>
+
+</body>
+</html>
