@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>YDT İngilizce - Modül 1: Tenses & Passive Voice</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #0f172a; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #1d4ed8); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #bfdbfe; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #3b82f6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #1d4ed8; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #eff6ff; border: 1px dashed #3b82f6; border-left: 5px solid #1d4ed8; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e3a8a; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>YDT İNGİLİZCE - MODÜL 1: TENSES & PASSIVE VOICE</h1>
+        <p>"The Core of Grammar: Zaman Uyumları, Sınav Odaklı İpucu Zarfları ve Edilgen Çatı Dönüşümleri"</p>
+    </div>
+
+    <h2>1. SINAV ODAKLI ZAMAN (TENSE) STRATEJİLERİ</h2>
+    <p>YDT İngilizce testindeki gramer sorularında, doğrudan anlamı bilmek yerine cümle içerisindeki **zaman zarflarını (time expressions)** yakalamak öğrenciyi doğrudan doğru şıkka götürür. ÖSYM'nin en çok yokladığı kritik zaman kombinasyonları şunlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>İngilizce Zaman (Tense)</th>
+                <th>Sınavda Çözüm Sağlayan Zaman Zarfları</th>
+                <th>YDT Soru Bankası Çözdüren Altın Formül</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Simple Past Tense</b><br>(V2)</td>
+                <td>yesterday, ago, last year, **in 1999**, originally, initially, historically</td>
+                <td>Cümlede geçmişe ait net, spesifik bir tarih veya "past" ipucu varsa doğrudan **V2 (did / was-were)** seçilir.</td>
+            </tr>
+            <tr>
+                <td><b>Present Perfect Tense</b><br>(have/has V3)</td>
+                <td>since, for, lately, recently, **over/in/during the last 10 years**, so far, up to now</td>
+                <td>Geçmişte başlayıp günümüze kadar gelen süreçleri anlatır. Özellikle **"over the last / past + zaman"** yapısı saniye kaybettirmeden *have/has V3* cevabını verir.</td>
+            </tr>
+            <tr>
+                <td><b>Past Perfect Tense</b><br>(had V3)</td>
+                <td>by the time, before, **by 2010 (geçmiş zaman sınırı ile)**</td>
+                <td>Geçmişte yapılan iki eylemden **daha önce yapılanı** anlatır. Cümlede net bir geçmiş zaman (V2) ipucu yoksa tek başına şıklarda asla doğru cevap olamaz.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. SARSILMAZ KURAL: ZAMAN UYUMU (TENSE AGREEMENT)</h2>
+    <p>İngilizce gramer sorularında yan cümleleri bağlayan zaman bağlaçları (<i>when, while, after, before, as soon as, by the time, until</i>) varsa, cümlelerin zamanları arasında mutlak bir **uyum** olmak zorundadır. ÖSYM bu uyum kurallarıyla yanlış şıkları elendirir:</p>
+    <div class="memory-box">
+        <strong>⚙️ ZAMAN UYUMU MATRİSİ:</strong>
+        <br>&bull; **Past + Past Uyumlu:** Yan cümle Simple Past (V2) ise, ana cümle de Past Süreç (V2, Past Continuous veya had V3) olmak zorundadır.
+        <br>&bull; **Present + Present/Future Uumlu:** Yan cümle Present (V1 / have-has V3) ise, ana cümle Present veya Future (will / is going to) olur.
+        <br><b>🔥 EN BÜYÜK SINAV TUZAĞI: Zaman bağlaçlarının (When, After vb.) bulunduğu yan cümlenin bizzat İÇİNE kesinlikle WILL, WOULD veya SHALL gelemez! Göründüğü an o şık direkt elenir.</b>
+    </div>
+
+    <h2>3. AKTİF - PASİF (ACTIVE - PASSIVE VOICE) MATEMATİĞİ</h2>
+    <p>Cümledeki özne, işi kendisi yapmıyorsa; tam aksine yapılan işten **etkileniyorsa** o cümle **Passive (Edilgen)** yapıdır. Sınavda boşluktan sonra bir nesne gelmiyorsa veya genellikle *by* edatı (preposition) bulunuyorsa pasif yapı aranır. Pasif yapının değişmez matematiksel formülü şudur:</p>
+    $$Passive = "be" + V_3$$
+
+    <table>
+        <thead>
+            <tr>
+                <th>Zaman Türü</th>
+                <th>Aktif Form (Active)</th>
+                <th>Pasif Karşılığı (Passive Form)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Simple Present (V1)</b></td>
+                <td>The chef **prepares** the meal.</td>
+                <td>The meal **is prepared** (by the chef).</td>
+            </tr>
+            <tr>
+                <td><b>Simple Past (V2)</b></td>
+                <td>Alexander Fleming **discovered** penicillin in 1928.</td>
+                <td>Penicillin **was discovered** in 1928.</td>
+            </tr>
+            <tr>
+                <td><b>Present Perfect (have/has V3)</b></td>
+                <td>Scientists **have developed** a new vaccine.</td>
+                <td>A new vaccine **has been developed**.</td>
+            </tr>
+            <tr>
+                <td><b>Future (will)</b></td>
+                <td>The company **will launch** the product.</td>
+                <td>The product **will be launched**.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Archaeologists ---- a well-preserved ancient temple in Egypt last month, and they ---- its historical significance ever since.</div>
+        <ul class="options-list">
+            <li>A) discovered / have been investigating</li>
+            <li>B) have discovered / investigated</li>
+            <li>C) discover / will investigate</li>
+            <li>D) had discovered / are investigating</li>
+            <li>E) were discovering / had investigated</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• YDT gramer süzgecini iki aşamalı olarak cümleye uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Cümlenin ilk kısmında **"last month"** (geçen ay) şeklinde geçmişe ait net bir zaman zarfı vardır. Bu ipucu bizi doğrudan **Simple Past Tense (V2)** yapısına götürür. Şıklarda ilk kısmı V2 olan tek seçenek A'dır (discovered).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Cümlenin ikinci kısmında ise **"ever since"** (o zamandan beri) zarfı yer almaktadır. *Since* yapısı, eylemin geçmişte başlayıp günümüze kadar sürdüğünü simgelediği için **Present Perfect Tense** (have/has been V-ing) gerektirir. 
+            <br>• İki ipucu birleştiğinde doğru kombinasyon A şıkkında verilmiştir. Cevap A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Global temperatures ---- significantly over the last few decades, causing polar ice caps to melt at an alarming rate.</div>
+        <ul class="options-list">
+            <li>A) rose</li>
+            <li>B) will rise</li>
+            <li>C) have risen</li>
+            <li>D) had risen</li>
+            <li>E) are rising</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Cümledeki o en meşhur YDT sınav zarfını yakalayalım: **"over the last few decades"** (son birkaç on yıldır).
+            <br>• Sınav kurallarına göre, içinde *over / in / during / past* kelimeleriyle kurulan *"over the last / past + zaman"* kalıpları, eylemin günümüze kadar gelen etkisini vurguladığı için her zaman **Present Perfect Tense (have / has V3)** yapısını tetikler. C şıkkındaki *have risen* bu kurala tam uyan seçenektir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> By the time the fire department ---- at the scene, the entire warehouse ---- to the ground.</div>
+        <ul class="options-list">
+            <li>A) arrives / will burn</li>
+            <li>B) arrived / had burned</li>
+            <li>C) has arrived / burned</li>
+            <li>D) had arrived / was burning</li>
+            <li>E) arrived / has burned</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• **"By the time"** bağlacının sarsılmaz sınav formülünü işletelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Formül: *By the time + Simple Past (V2) , Past Perfect (had V3)*
+            <br>• Bu bağlaç, "-dığı zamana kadar ana eylem çoktan bitmişti" anlamı katar. İtfaiye olay yerine vardığında (arrived - V2), ambar çoktan küle dönmüştü (had burned - had V3). Zaman uyumu kuralına göre past ile present birleşemez (E ve C elenir). Doğru şık B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> The global economic crisis of 1929, which is known as the Great Depression, ---- by a sudden collapse of stock prices in the United States.</div>
+        <ul class="options-list">
+            <li>A) triggered</li>
+            <li>B) was triggered</li>
+            <li>C) has triggered</li>
+            <li>D) was triggering</li>
+            <li>E) had triggered</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Cümlenin hem aktif-pasif yapısını hem de zamanını analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Cümlede **"1929"** tarihi verilmiştir, dolayısıyla geçmiş zaman (Simple Past) olmak zorundadır (C elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Boşluktan sonra **"by a sudden collapse"** (ani bir çöküş tarafından) ifadesi yer almaktadır. Ekonomik kriz kendi kendine bir şeyi tetiklememiş; çöküş tarafından *tetiklenmiştir*. Yani yapı **Passive (Edilgen)** olmalıdır.
+            <br>• Simple Past zamanının pasif formülü *was/were + V3* olduğuna göre, doğru cevap <b>was triggered</b> seçeneğidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> As soon as the new software update ---- next week, users ---- to experience a much faster interface.</div>
+        <ul class="options-list">
+            <li>A) will be released / are starting</li>
+            <li>B) is released / will start</li>
+            <li>C) released / started</li>
+            <li>D) is going to release / start</li>
+            <li>E) has released / will be started</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• **"As soon as"** bir zaman bağlacıdır ve cümlenin genelinde **"next week"** (gelecek hafta) ipucu yer almaktadır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Zaman bağlaçlarının en altın kuralını hatırlayalım: Bağlacın hemen arkasından gelen yan cümle içine kesinlikle *will / is going to* gelemez (A ve D elenir). Gelecek zaman anlamı Present Simple (V1) ile verilir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Yeni yazılım güncellemesi kendi kendini yayınlamaz, şirket tarafından yayınlanır. Yani yan cümle present ve **Passive (is released)** olmalıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3. Ana cümle ise gelecek zamana uyumlu olarak **will start** olur. Bu harika kombinasyon B şıkkında verilmiştir. Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

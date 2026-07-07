@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>YDT İngilizce - Modül 3: Conjunctions & Bağlaçlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #0f172a; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #1d4ed8, #4338ca); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0e7ff; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #4f46e5; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #4338ca; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #eff6ff; border: 1px dashed #6366f1; border-left: 5px solid #4f46e5; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e1b4b; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>YDT İNGİLİZCE - MODÜL 3: CONJUNCTIONS & BAĞLAÇLAR</h1>
+        <p>"The Core of YDT: Cümle Yapısını Çözen Makro Bağlaç Grupları ve Boşluk Arkası Gramer Kuralları"</p>
+    </div>
+
+    <h2>1. BAĞLAÇLARIN EN BÜYÜK SINAV SIRRI: SÜREÇ ANALİZİ</h2>
+    <p>Sınavda bir bağlaç sorusunu çözerken anlamdan önce **boşluğun hemen arkasından gelen yapının türüne** bakılır. Bağlaçlar, arkalarından aldıkları yapılara göre kesin olarak iki ana gruba ayrılırlar. Bu ayrım, öğrencilere anlamı hiç bilmeseler dahi şıkların yarısını saniyeler içinde eletir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Grup Adı</th>
+                <th>Arkasından Aldığı Yapı</th>
+                <th>Sınavda En Çok Çıkan Temsilci Örnekleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>1. Grup: Cümle Alanlar</b></td>
+                <td>**Tam Cümle** (Subject + Verb + Object)</td>
+                <td>Although, Though, Even though, Because, Since, As, While, Whereas, Unless, Provided that</td>
+            </tr>
+            <tr>
+                <td><b>2. Grup: İsim / İsimleşmiş Fiil Alanlar</b></td>
+                <td>**Yalın İsim (Noun)** ya da **V-ing (Gerund)**</td>
+                <td>Despite, In spite of, Due to, Owing to, Because of, In addition to, Aside from, Rather than</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. ÖSYM'NİN EN SEVDİĞİ BAĞLAÇ KATEGORİLERİ</h2>
+
+    <h3>A) Adversative Conjunctions (Zıtlık Bağlaçları)</h3>
+    <p>Cümlenin iki tarafı arasında bir artı-eksi ($+/-$) veya beklenmedik durum çelişkisi kurarlar. Sınavın en çok doğru cevap olan grubudur:</p>
+    <ul>
+        <li><b>Although / Even though / Though (+ Cümle):</b> "-e rağmen" anlamına gelirler. (Örn: *Although he studied hard, he failed the exam.*)</li>
+        <li><b>Despite / In spite of (+ İsim/V-ing):</b> Aynı anlamdadır ancak arkalarından asla cümle almazlar, sadece isim alırlar. (Örn: *Despite his hard work, he failed.*)</li>
+        <li><b>However / Nevertheless:</b> "Ancak, yine de" anlamına gelen, iki bağımsız cümle ortasında noktalamalarla kullanılan geçiş bağlaçlarıdır.</li>
+    </ul>
+
+    <h3>B) Causal Conjunctions (Sebep - Sonuç Bağlaçları)</h3>
+    <p>Eylemlerin gerekçelerini ve neticelerini birbirine bağlarlar:</p>
+    <ul>
+        <li><b>Because / Since / As (+ Cümle):</b> "-içindir, çünkü" anlamına gelirler. *Since* ve *As* yapıları zaman anlamı dışında sınavda çok sık "çünkü/için" olarak karşımıza çıkar.</li>
+        <li><b>Due to / Owing to / Because of (+ İsim):</b> "-den dolayı, yüzünden" anlamına gelen ve arkasından sadece isim alan kalıplardır.</li>
+        <li><b>Therefore / As a result:</b> "Bu yüzden, sonuç olarak" anlamına gelen sonuç bildiren zarflardır.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN ÇOK SEÇİCİ TUZAK KURAR: "UNLESS" KODU</strong>
+        <br><b>Unless</b>, "if not" yani "-medikçe, -mezse" anlamına gelen gizli bir olumsuz koşul bağlacıdır. 
+        <br><b>Altın Kural:</b> *Unless* bağlacının bizzat içinde bulunduğu yan cümlenin yüklemi yapısal olarak her zaman **OLUMLU** olmak zorundadır (çünkü anlam kendiliğinden olumsuzdur). Ana cümle ise genellikle anlamca olumsuz veya bir modal (*can't, won't*) barındırır.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> ---- all the strict security measures implemented by the tech firm, a highly sophisticated group of hackers managed to breach the main database.</div>
+        <ul class="options-list">
+            <li>A) Although</li>
+            <li>B) Despite</li>
+            <li>C) Because</li>
+            <li>D) Due to</li>
+            <li>E) Even though</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Boşluğun hemen arkasındaki yapının gramer kontrolünü yapalım: *"all the strict security measures implemented by the tech firm"* (teknoloji firması tarafından uygulanan tüm sıkı güvenlik önlemleri). Bu yapı öznesi ve yüklemi olan tam bir cümle değildir; uzun bir **isim tamlamasıdır (Noun Phrase)**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Şıklardaki *Although* (A) ve *Even though* (E) arkalarından tam cümle istedikleri için doğrudan elenirler.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Cümlenin anlamına baktığımızda bir zıtlık söz konusudur: "Sıkı güvenlik önlemlerine **rağmen** hackerlar veritabanını ihlal etmeyi başardı."
+            <br>• Hem arkasından sadece isim alan hem de zıtlık anlamı katan yegane doğru seçenek <b>Despite</b> bağlacıdır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> The company decided to cancel the outdoor launch event ---- the weather forecast predicted a sudden and heavy thunderstorm in the afternoon.</div>
+        <ul class="options-list">
+            <li>A) because of</li>
+            <li>B) in spite of</li>
+            <li>C) because</li>
+            <li>D) though</li>
+            <li>E) due to</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Boşluktan sonraki yapıyı analiz edelim: *"the weather forecast (Özne) predicted (Yüklem) a sudden thunderstorm..."* Karşımızda tam bir **cümle (Clause)** yapısı mevcuttur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Arkalarından sadece isim kabul eden *because of* (A) ve *due to* (E) şıkları anında elenir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Cümlenin anlamına baktığımızda bir sebep-sonuç ilişkisi vardır: "Şirket lansmanı iptal etti **çünkü** hava durumu sağanak yağış tahmin etmişti."
+            <br>• Cümle alan ve sebep bildiren tek doğru seçenek <b>because</b> bağlacıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> The new electric car model is highly praised for its eco-friendly features; ----, its exceptionally high market price prevents it from becoming a commercial success.</div>
+        <ul class="options-list">
+            <li>A) therefore</li>
+            <li>B) furthermore</li>
+            <li>C) however</li>
+            <li>D) so that</li>
+            <li>E) since</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Cozum:</b> 
+            <br>• Cümledeki noktalama işaretlerine ve iki taraf arasındaki anlam bağına dikkat edelim: İki tam cümle ortasında noktalı virgül (;) ve virgül (,) arasında bir geçiş zarfı aranmaktadır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - İlk kısım: "Yeni elektrikli araç çevre dostu özellikleriyle çok övülüyor" (Olumlu / $+$)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - İkinci kısım: "Yüksek piyasa fiyatı onun ticari bir başarı yakalamasını engelliyor" (Olumsuz / $-$)
+            <br>• Artıdan eksiye geçiş yaptıran, iki cümle ortasında "ancak, oysa ki" anlamıyla sarsılmaz bir zıtlık köprüsü kuran doğru geçiş kelimesi <b>however</b> zarfıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> ---- a nation invests heavily in its educational infrastructure, it cannot hope to achieve sustainable economic growth in the long run.</div>
+        <ul class="options-list">
+            <li>A) Provided that</li>
+            <li>B) As long as</li>
+            <li>C) Unless</li>
+            <li>D) In case</li>
+            <li>E) If</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Cümlenin iki tarafı arasındaki koşul ve anlam ilişkisini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Yan cümle (olumlu yapıda): *"Bir millet eğitim altyapısına büyük yatırım yapar"*
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ana cümle (olumsuz yapıda): *"Uzun vadede sürdürülebilir bir ekonomik büyüme yakalamayı umut edemez."*
+            <br>• Anlamca birleştirildiğinde: "Bir millet eğitime büyük yatırım **yapmadıkça / yapmazsa**, ekonomik büyüme yakalayamaz" mantığı kurulmaktadır.
+            <br>• Yapıca olumlu, anlamca olumsuz bir koşul bağı kuran "-medikçe" anlamındaki tek bağlaç <b>Unless</b> yapısıdır. *If* veya *provided that* gelseydi anlam bozulurdu. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Modern space telescopes can capture incredibly clear images of distant galaxies ---- they are positioned far above the distorting effects of Earth's atmosphere.</div>
+        <ul class="options-list">
+            <li>A) as</li>
+            <li>B) although</li>
+            <li>C) whereas</li>
+            <li>D) in spite of</li>
+            <li>E) rawther than</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Boşluktan sonra tam bir cümle gelmektedir: *"they (Özne) are positioned (Yüklem)..."* <br>• Anlam ilişkisini kuralım: "Modern uzay teleskopları uzak galaksilerin inanılmaz netlikte görüntülerini yakalayabiliyorlar **çünkü / -diğeri için** dünyanın atmosferinin bozucu etkilerinin çok daha yukarısında konumlandırılmışlardır."
+            <br>• YDT testlerinde *because* bağlacının en büyük ve en elit alternatifi, cümle başında veya ortasında "çünkü / -diğinden dolayı" anlamı katan <b>as</b> bağlacıdır. Cevap A'dır.
+        </div>
+    </div>
+
+</body>
+</html>

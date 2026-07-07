@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>YDT İngilizce - Modül 2: Clauses & Modals</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #0f172a; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #0f172a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #bfdbfe; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #3b82f6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #eff6ff; border: 1px dashed #3b82f6; border-left: 5px solid #1d4ed8; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e3a8a; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>YDT İNGİLİZCE - MODÜL 2: CLAUSES & MODALS</h1>
+        <p>"Advanced Grammar Matrix: Sıfat ve İsim Cümlecikleri Formülleri ve Sınav Odaklı Modal Çıkarımları"</p>
+    </div>
+
+    <h2>1. RELATIVE CLAUSES (SIFAT CÜMLECİKLERİ) FORMÜLLERİ</h2>
+    <p>Relative Clause, kendisinden önce gelen bir **ismi** (adılı) niteleyen ve ona sıfat yapan yapıdır. Sınavda doğru pronoun'ı bulmak için boşluğun hemen öncesi ve sonrasındaki kelime türüne bakılır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pronoun</th>
+                <th>Boşluk Öncesi (Nitelediği İsim)</th>
+                <th>Boşluk Sonrası (Gelen Yapı)</th>
+                <th>Sınav Stratejisi Formülü</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Who / That</b></td>
+                <td>İnsan (Person)</td>
+                <td>Fiil (Verb) ya da Özne</td>
+                <td>İnsan + **who** + Fiil/Cümle (Örn: The man *who* called you...)</td>
+            </tr>
+            <tr>
+                <td><b>Which / That</b></td>
+                <td>Nesne / Hayvan / Olay</td>
+                <td>Fiil (Verb) ya da Özne</td>
+                <td>Nesne + **which** + Fiil/Cümle (Örn: The book *which* I read...)</td>
+            </tr>
+            <tr>
+                <td><b>Whose</b></td>
+                <td>İnsan ya da Nesne</td>
+                <td>Yalın İsim (Noun - Artıcletsız)</td>
+                <td>İsim + **whose** + İsim (Mülkiyet bildirir: *Whose* car, *whose* family)</td>
+            </tr>
+            <tr>
+                <td><b>Where</b></td>
+                <td>Yer Bildiren İsim (Place)</td>
+                <td>**Tam Cümle** (Özne + Fiil)</td>
+                <td>Yer + **where** + Tam Cümle (Eğer boşluktan sonra direkt fiil gelirse *which* seçilir!)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. NOUN CLAUSES (İSİM CÜMLECİKLERİ) AYIRT ETME YÖNTEMLERİ</h2>
+    <p>Relative Clause bir ismi nitelerken, Noun Clause cümlede doğrudan bir **isim gibi** görev yapar (Özne veya nesne konumundadır). Kendisinden önce niteleyeceği bir isim **bulunmaz**, genellikle bir fiilden veya sıfattan sonra gelir:</p>
+    <ul>
+        <li><b>That:</b> Kesinlik bildiren durumlarda kullanılır. Fiilden sonra düz bir cümle bağlar. (Örn: *I know that she is right.*)</li>
+        <li><b>Whether / If:</b> "-ip tossed, -meyeceği" anlamına gelen, şüphe ve belirsizlik durumlarında kullanılan bağlaçtır. Genellikle sonunda *or not* kalıbını barındırır.</li>
+        <li><b>What / How / Why:</b> Soru kelimeleriyle kurulan isim cümleçikleridir. Boşluktan sonraki eksik ögeye göre seçilirler.</li>
+    </ul>
+
+    <h2>3. MODALS VE PAST MODAL ÇIKARIMLARI (CRITICAL MATRIX)</h2>
+    <p>YDT gramer sorularında en çok elenme nedeni olan kısım, geçmişe yönelik çıkarım yapan **Past Modals** yapılarıdır. ÖSYM anlam inceliklerini doğrudan test eder:</p>
+    <div class="warning-box">
+        <strong>⚠️ PAST MODAL FORMÜLLERİNİ FORMÜL GİBİ EZBERLETİN:</strong>
+        <br>&bull; <b>Must have V3:</b> Geçmişe yönelik **güçlü ve kesin bir olumlu çıkarım** bildirir. (-miş olmalı). (Örn: *The ground is wet; it must have rained.*)
+        <br>&bull; <b>Can't / Couldn't have V3:</b> Geçmişe yönelik **kesin olumsuz çıkarım** bildirir. (-miş olamaz). (Örn: *He can't have stolen the money; he was with me.*)
+        <br>&bull; <b>Should have V3 / Ought to have V3:</b> Geçmişte yapılması gerekip de **yapılmayan** eylemleri anlatır; pişmanlık veya eleştiri bildirir. (-meliydi ama yapmadı). (Örn: *You should have studied more; you failed.*)
+        <br>&bull; <b>May / Might / Could have V3:</b> Geçmişe yönelik **zayıf ihtimal** bildirir. (-miş olabilir).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Marie Curie was a brilliant scientist ---- discoveries in radioactivity completely revolutionized modern medicine and physics.</div>
+        <ul class="options-list">
+            <li>A) who</li>
+            <li>B) which</li>
+            <li>C) whose</li>
+            <li>D) whom</li>
+            <li>E) that</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Boşluğun hemen öncesini ve sonrasını formülümüze göre inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Boşluk öncesi: *scientist* (bilim insanı - bir kişi/isim).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Boşluk sonrası: *discoveries* (keşifler - yalın, önünde 'the' veya 'a/an' olmayan bir isim).
+            <br>• İki ismin ortasında mülkiyet, iyelik bağı kuran ve "onun keşifleri" anlamına gelen tek bir relative pronoun vardır, o da <b>whose</b> yapısıdır. İnsan olduğu için *who* çeldiricisine düşülmemelidir; çünkü boşluktan sonra fiil değil, bir isim gelmektedir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> The isolated island ---- the endangered species of giant tortoises live is now strictly protected by international environmental laws.</div>
+        <ul class="options-list">
+            <li>A) which</li>
+            <li>B) where</li>
+            <li>C) that</li>
+            <li>D) whose</li>
+            <li>E) when</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Boşluk öncesindeki *the isolated island* yer bildiren bir isimdir (mekân). Yer bildiren isimlerden sonra iki ihtimal vardır: *where* ya da *which*.
+            <br>• Ayrım kriterimizi uygulayalım: Boşluktan sonra gelen cümleye bakıyoruz: *"the endangered species of giant tortoises live"* (öznesi ve fiili olan tam bir cümle).
+            <br>• Yer bildiren isimden sonra tam bir cümle geldiği için doğru cevap <b>where</b> bağlacıdır. Eğer *live* fiili doğrudan boşluğun arkasından gelseydi cevap *which* olurdu. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> The geneticists are currently conducting a series of complex tests to determine ---- the new gene therapy will be effective on the patients or not.</div>
+        <ul class="options-list">
+            <li>A) that</li>
+            <li>B) what</li>
+            <li>C) whether</li>
+            <li>D) why</li>
+            <li>E) how</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Cümlede determine (belirlemek) fiilinden sonra bir Noun Clause (İsim cümlesi) boşluğu bırakılmıştır. 
+            <br>• Cümlenin sonuna doğru göz gezdirdiğimizde karşımıza çıkan o devasa YDT ipucunu yakalıyoruz: **"or not"** kalıbı.
+            <br>• İngilizcede "-ip bitmeyeceği, olup olmayacağı" şeklinde bir belirsizlik ve şüphe bildiren, cümle sonunda veya bağlacın hemen yanında *or not* ile ayrılmaz bir bütün oluşturan Noun Clause bağlacı kesin olarak <b>whether</b> ($whether ... or not$) yapısıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> You ---- your umbrella with you yesterday; the weather forecast predicted a heavy downpour, but you completely ignored it and got soaked.</div>
+        <ul class="options-list">
+            <li>A) must have taken</li>
+            <li>B) can't have taken</li>
+            <li>C) should have taken</li>
+            <li>D) need to take</li>
+            <li>E) might take</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Cümledeki zaman ipucunu ve anlam tonunu süzülim: **"yesterday"** (dün) kelimesi eylemin past olduğunu gösterir, bu yüzden present yapılar (D ve E) direkt elenir.
+            <br>• Anlama baktığımızda: *"Hava durumu sağanak yağmur tahmin etmişti ama sen bunu tamamen göz ardı ettin ve sırılsıklam oldun."* Burada geçmişe yönelik net bir **eleştiri ve pişmanlık** durumu söz konusudur.
+            <br>• Geçmişte yapılması gerekip de yapılmayan eylemleri anlatan, "-meliydin (ama yapmadın)" işlevine sahip yegane past modal yapısı <b>should have V3</b> (*should have taken*) formülüdür. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> The ancient civilization ---- flourished along the banks of the Indus River left behind complex urban blueprints ---- are still being studied by historians today.</div>
+        <ul class="options-list">
+            <li>A) who / whose</li>
+            <li>B) that / which</li>
+            <li>C) which / whom</li>
+            <li>D) whose / that</li>
+            <li>E) where / which</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İki boşluklu bu relative clause sorusunu adım adım çözelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. İlk boşluktan önce *The ancient civilization* (Antik medeniyet - cansız/soyut bir nesne/kavram) vardır. İnsan olmadığı için *who* elenir. *Which* veya *that* gelmelidir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. İkinci boşluktan önce ise *complex urban blueprints* (karmaşık şehir planları - nesne) yer almaktadır. Yine bir nesne nitelemesi olduğu için *which* ya da *that* kullanılmalıdır.
+            <br>• İki tarafta da nesne niteleme kurallarına tam uyum sağlayan ve birbirinin alternatifi olan **that / which** ikilisi B şıkkında kusursuzca bir araya getirilmiştir. Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

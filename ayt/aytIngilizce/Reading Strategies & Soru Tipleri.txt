@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>YDT İngilizce - Modül 4: Reading Strategies & Soru Tipleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #0f172a; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #0f172a, #1e3a8a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #bfdbfe; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #3b82f6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0f9ff; border: 1px dashed #3b82f6; border-left: 5px solid #1d4ed8; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e3a8a; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e2e8f0; border-top: 4px solid #0f172a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e2e8f0; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>YDT İNGİLİZCE - MODÜL 4: READING STRATEGIES & SORU TİPLERİ</h1>
+        <p>"The Ultimate Stage: Paragraf Çözme Sanatı, Eş Anlamlı Cümle Şifreleri ve Diyalog Tamamlama Taktikleri"</p>
+    </div>
+
+    <h2>1. YDT'NİN ŞAH ESERİ: PARAGRAF (READING) STRATEJİLERİ</h2>
+    <p>YDT sınavında paragrafları kelime kelime Türkçe'ye çevirmeye çalışmak en büyük zaman tuzağıdır. ÖSYM, öğrencilerin metindeki makro fikirleri süzme yeteneğini ölçer. Paragraf sorularını hatasız çözmek için şu 3 adımlı evrensel taktik izlenmelidir:</p>
+    <ol>
+        <li><b>Önce Soruları Okuyun:</b> Metne dalmadan önce soru köklerini okumak, zihne bir dedektif gibi neyi arayacağı görevini yükler. Soru kökündeki anahtar kelimelerin altı çizilir.</li>
+        <li><b>Tarama (Skimming & Scanning):</b> Metnin ilk ve son cümleleri ana fikri (topic sentence) verir. Metinde geçen sayılar, tarihler, italik/tırnak içindeki kelimeler ve zıtlık bağlaçları (*but, however, although*) her zaman bir sorunun cevabını barındırır.</li>
+        <li><b>Aşırı Yorumdan Kaçının (Stay in the Text):</b> Şıklarda kendi mantığınıza çok doğru gelen ama **metinde asla bahsedilmeyen** iddialar en büyük çeldiricidir. Doğru şık, metindeki bir cümlenin eş anlamlı kelimelerle yeniden yazılmış (*paraphrased*) halidir.</li>
+    </ol>
+
+    <h2>2. SINAV SORU TİPLERİNİN ŞİFRE KELİMELERİ VE TAKTİKLERİ</h2>
+    <p>Gramer dışındaki macro soru tiplerinde saniyeler içinde doğru şıkka gitmenizi sağlayan turnusol yöntemleri şunlardır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Soru Tipi (Question Type)</th>
+                <th>ÖSYM'nin Soru Kalıbı Örneği</th>
+                <th>Doğru Şıkkı Veren Sihirli Çözüm Taktikleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Eş Anlamlı Cümle</b><br>(Restatement)</td>
+                <td>*Which of the following closely matches the sentence above?*</td>
+                <td>Cümledeki **bağlacı** (Örn: *Although* varsa şıkta *Despite* veya *but* aranır) ve **miktar belirleyicileri** (*all, most, few, only*) tıpatıp koruyan şık aranır. Miktar ve bağlaç değişemez!</td>
+            </tr>
+            <tr>
+                <td><b>Diyalog Tamamlama</b><br>(Dialogue Completion)</td>
+                <td>Boşluk bırakılan karşılıklı konuşma metni.</td>
+                <td>Boşluğun **hemen arkasından gelen** cümleye bakılır. Eğer arkasından gelen kişi *"Great idea, let's do it"* diyorsa boşlukta bir öneri yapısı (*Why don't we...*) aranır. Referans zamirlere (*it, they, this*) dikkat edilir.</td>
+            </tr>
+            <tr>
+                <td><b>Paragraf Tamamlama</b><br>(Paragraph Insertion)</td>
+                <td>Metin ortasında bırakılan boşluk.</td>
+                <td>Boşluk öncesi ve sonrası arasındaki **konu bütünlüğü ve kronoloji** denetlenir. Boşluk sonrasındaki bir *However* ifadesi, boşluğa tam zıt anlamda bir cümlenin gelmesi gerektiğini fısıldar.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>⚠️ ŞIK ELEMEDE ALTIN TUZAK KELİMELER (EXTREME WORDS):</strong>
+        <br>Paragraf ve anlam sorularında şıkların içinde **"all, always, never, only, the most, completely, totally"** gibi aşırı, kesinlik ve radikallik bildiren iddialı kelimeler geçiyorsa ve bu mutlaklık metinde birebir tescillenmemişse, o şık %95 oranında **YANLIŞTIR**. ÖSYM bu kelimelerle iddialı ama yanlış çeldiriciler üretir.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1 (Restatement):</b> 
+            <i>"Although the newly developed smartphone model features an exceptionally advanced camera system, its prohibitive price prevents it from achieving high sales figures."</i>
+            <br>Which of the following options conveys the closest meaning to the sentence above?
+        </div>
+        <ul class="options-list">
+            <li>A) The smartphone model has high sales figures because its advanced camera system justifies its very high price.</li>
+            <li>B) In spite of its incredibly advanced camera system, the new smartphone model cannot reach high sales numbers due to its extremely high cost.</li>
+            <li>C) If the new smartphone model were cheaper, its advanced camera system would make it the best-selling phone on the market.</li>
+            <li>D) Only because of its advanced camera system does the new smartphone model manage to achieve reasonable sales despite being expensive.</li>
+            <li>E) The prohibitive price of the new smartphone prevents customers from appreciating its advanced camera features.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Orijinal cümlenin matematiksel bağlaç ve anlam eşleşmesini yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Orijinal cümlede **"Although"** (zıtlık bağlacı) kullanılmıştır. Demek ki doğru şıkta da bir zıtlık yapısı (*Despite, In spite of, but, however*) olmalıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Anlam: "Yeni geliştirilen akıllı telefon modeli olağanüstü gelişmiş bir kamera sistemine sahip olmasına **rağmen**, el yakan (prohibitive) fiyatı onun yüksek satış rakamlarına ulaşmasını **engelliyor**."
+            <br>• B seçeneğini incelediğimizde: **"In spite of"** ile zıtlık korunmuş, *advanced camera* aynen kalmış, *prohibitive price* ifadesi *extremely high cost* ile, *prevents high sales* kısmı ise *cannot reach high sales* ile kusursuzca eş anlamlı olarak yeniden yazılmıştır (*paraphrased*). Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2 (Dialogue Completion):</b>
+            <br><b>Kevin:</b> Have you read the recent report on the devastating effects of global warming on Arctic ecosystems?
+            <br><b>Sarah:</b> Yes, it states that the ice caps are melting much faster than previously estimated.
+            <br><b>Kevin:</b> ----
+            <br><b>Sarah:</b> Exactly. In fact, scientists predict that if greenhouse gas emissions are not reduced immediately, summers in the Arctic could be completely ice-free by 2040.
+        </div>
+        <ul class="options-list">
+            <li>A) I think scientists are overreacting to minor climate fluctuations.</li>
+            <li>B) That means many unique species living there are facing an imminent threat of extinction.</li>
+            <li>C) Luckily, alternative energy sources have already solved this critical problem.</li>
+            <li>D) How long does it take for a polar bear to adapt to warmer waters?</li>
+            <li>E) The report also emphasizes the economic benefits of new trade routes in the ice-free Arctic.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Diyalog tamamlama sorularının altın kuralını uygulayalım: Boşluğun **hemen arkasından gelen** cümleye kilitleniyoruz.
+            <br>• Sarah boşluktan sonra: *"Exactly (Kesinlikle). Hatta bilim insanları seragazı salınımı durmazsa 2040'ta kutuplarda hiç buz kalmayacağını öngörüyor"* diyerek Kevin'ın boşlukta söylediği vahim durumu onaylıyor ve vahameti artırıyor.
+            <br>• Kevin'ın boşlukta Sarah'nın bu onayını tetikleyecek trajik bir tespitte bulunması gerekir. B şıkkındaki *"Bu durum, orada yaşayan pek çok benzersiz türün yakın bir zamanda yok olma tehlikesiyle karşı karşıya olduğu anlamına geliyor"* ifadesi Sarah'nın "Kesinlikle/Aynen öyle" tepkisine tam oturan muazzam bir tespittir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3 (Reading Passage):</b> 
+            <i>"The human brain is an incredibly complex organ that consumes roughly 20% of the body's total energy, despite accounting for only about 2% of its total weight. This high energy demand is primarily driven by the continuous electrical signaling between billions of neurons. Interestingly, while the brain remains highly active even during sleep, its energy consumption does not significantly fluctuate between intense intellectual tasks and periods of rest."</i>
+            <br>According to the passage, it is clear that the human brain ----.
+        </div>
+        <ul class="options-list">
+            <li>A) requires drastically more energy when a person is solving a complex mathematical puzzle than when resting.</li>
+            <li>B) expends a constant amount of energy that remains largely unchanged whether a person is deeply thinking or relaxing.</li>
+            <li>C) consumes energy in direct proportion to its total weight relative to the rest of the body.</li>
+            <li>D) shuts down its electrical signaling mechanisms during deep sleep to conserve energy resources.</li>
+            <li>E) is the only organ in the human body that relies entirely on electrical impulses for communication.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraf sorularının sarsılmaz kuralı: "Metne sadık kal, aşırı yorum yapma." Metnin son cümlesini mercek altına alalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Metindeki cümle: *"...its energy consumption does not significantly fluctuate between intense intellectual tasks and periods of rest."* (Beynin enerji tüketimi, yoğun zihinsel aktiviteler ile dinlenme dönemleri arasında belirgin bir şekilde dalgalanmaz/değişmez).
+            <br>• B seçeneğini okuduğumuzda: *"birey ister derin derin düşünüyor isterse dinleniyor olsun, beynin harcadığı enerji miktarı büyük ölçüde değişmeden sabit kalır"* denilmektedir. Metindeki cümlenin kelimelerini değiştirip (*remains largely unchanged*) eş anlamlısını sunan tam bir doğru YDT şıkkıdır. A şıkkı metnin tam tersini söyler, E şıkkındaki "the only" kelimesi ise aşırı uçtur ve metinde yoktur. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4 (Paragraph Completion):</b> 
+            <i>"Renewable energy sources, particularly solar and wind power, have experienced exponential growth globally over the last decade. Advances in technology have significantly reduced production costs, making them highly competitive with traditional fossil fuels. ----. For instance, solar panels cannot generate electricity at night, and wind turbines remain idle when the air is still. Therefore, developing efficient energy storage systems is crucial for a complete transition to green energy."</i>
+            <br>Which of the following sentences best fits the blank in the paragraph above?
+        </div>
+        <ul class="options-list">
+            <li>A) Governments are heavily subsidizing coal mining to prevent unemployment in industrial sectors.</li>
+            <li>B) However, these green alternatives still face a major drawback regarding their intermittent nature.</li>
+            <li>C) Consequently, traditional power plants are being closed down at an unprecedented pace worldwide.</li>
+            <li>D) In addition, solar energy is widely considered the most reliable source of power in desert regions.</li>
+            <li>E) As a result, the global dependency on oil and natural gas has completely come to an end.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraf tamamlama zincirini boşluk öncesi ve sonrasına göre kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Boşluk öncesi: Yenilenebilir enerjinin devasa büyümesinden ve maliyetlerin düşerek fosil yakıtlara rakip olmasından (olumlu / $+$) bahsediyor.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Boşluk sonrası: *"Örneğin, güneş panelleri geceleri elektrik üretemez ve rüzgar durduğunda türbinler boşta kalır. Bu yüzden depolama şarttır"* diyerek bu enerjinin kesintili olma sorununu, yani dezavantajını (olumsuz / $-$) anlatıyor.
+            <br>• Artıdan eksiye geçişi sağlayacak, boşluk sonrasındaki örneği (*For instance*) önceden kural olarak verecek cümle B şıkkındaki: <b>"However (Ancak), bu yeşil alternatifler kesintili doğalarından dolayı hala büyük bir dezavantajla karşı karşıyadır"</b> cümlesidir. Harika bir köprüdür. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5 (Irrelevant Sentence):</b> 
+            (I) The Silk Road was historically not a single continuous track, but rather a vast, interconnected network of trade routes. 
+            <br>(II) It facilitated the exchange of goods, luxury items, and textiles between the East and the West for centuries. 
+            <br>(III) Central Asian nomadic tribes were exceptionally skilled at breeding horses and camels for harsh desert journeys. 
+            <br>(IV) Beyond commercial goods, this historical network also served as a critical channel for the transmission of cultures, religions, and world-changing technologies. 
+            <br>(V) Consequently, its historical legacy profoundly shaped the development of pre-modern Eurasian civilizations.
+            <br>Which of the sentences breaks the meaningful flow of the passage above?
+        </div>
+        <ul class="options-list">
+            <li>A) I</li>
+            <li>B) II</li>
+            <li>C) III</li>
+            <li>D) IV</li>
+            <li>E) V</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragrafın akışını bozan (anlamsız) cümleyi bulma taktiğini uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I, II, IV ve V numaralı cümleler doğrudan **İpek Yolu'nun (The Silk Road)** ticari, kültürel, teknolojik bir ağ olmasından ve onun tarihi mirasından bütüncül olarak bahsetmektedir (Konu: İpek Yolu'nun işlevi).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak III numaralı cümle, ana konudan tamamen saparak ansızın *"Orta Asya göçebe kabilelerinin çöl yolculukları için at ve deve yetiştirmedeki üstün yeteneklerine"* odaklanmıştır. 
+            <br>• Konu genel olarak İpek yolu iken araya kabilelerin deve yetiştiriciliğinin girmesi akışı kesin olarak baltalamıştır. Bu yüzden III numaralı cümle (C şıkkı) akışı bozan gereksiz cümledir. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>
