@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Sosyoloji - Modül 1: Sosyolojiye Giriş ve Toplumsal Yapı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #0369a1); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0f2fe; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #0284c7; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0f766e; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #0d9488; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT SOSYOLOJİ - MODÜL 1: SOSYOLOJİYE GİRİŞ VE TOPLUMSAL YAPI</h1>
+        <p>"Toplumsal Matris: Sosyal Statüler, Rol Çatışmaları, Tabakalaşma Piramitleri ve Değişme Dinamikleri"</p>
+    </div>
+
+    <h2>1. SOSYOLOJİNİN DOĞUŞU VE TEMEL YÖNLERİ</h2>
+    <p>Sosyoloji (Toplum Bilimi), toplumsal grupları, kurumları, ilişkileri ve toplumsal değişmeleri bilimsel ve nesnel olarak inceleyen pozitif bir bilim dalıdır. Fransız İhtilali ve Sanayi Devrimi'nin yarattığı devasa toplumsal kaos ve krizleri çözmek amacıyla 19. yüzyılda bağımsız bir bilim olarak doğmuştur. Kurucusu **Auguste Comte**'tur. Sosyoloji değer yargısı bildirmez (normatif değildir), olması gerekeni değil **olanı inceler** ve toplumsal olaylar arasında tek nedenli değil çok nedenli bağlar kurar.</p>
+
+    <h2>2. TOPLUMSAL YAPININ KILCAL DAMARLARI: STATÜ VE ROL</h2>
+    <p>Bireyin toplum içindeki pozisyonuna, konumuna <b>Statü</b> denir. Statülerin pratik hayata yansıyan davranışsal karşılığına ise <b>Rol</b> adı verilir. (Örn: Öğretmenlik bir statüdür, sınıfta ders anlatmak ise o statünün rolüdür).</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sosyolojik Kavram</th>
+                <th>Tanımı ve Çalışma Mekanizması</th>
+                <th>ÖSYM Standartlarında Nokta Atışı Örneği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Verilen (Edinilen) Statü</b></td>
+                <td>Bireyin kendi emeği ve iradesi olmadan, doğuştan veya biyolojik/sosyal faktörlerle kendiliğinden sahip olduğu konumdur.</td>
+                <td>Irk, cinsiyet, asil bir ailede doğmak, yaş, kraliyet soyu.</td>
+            </tr>
+            <tr>
+                <td><b>Kazanılan Statü</b></td>
+                <td>Bireyin kendi çabası, eğitimi, zekası ve yeteneği sonucunda sonradan elde ettiği konumdur. Gelişmiş toplumlarda belirleyicidir.</td>
+                <td>Doktor, milletvekili, mühendis, anne/baba olmak, üniversite mezunu olmak.</td>
+            </tr>
+            <tr>
+                <td><b>Anahtar Statü</b></td>
+                <td>Bireyin sahip olduğu çok sayıda statü arasından, toplumda onu en çok tanımlayan ve en baskın olan vitrin konumudur.</td>
+                <td>Bir kişinin hem baba, hem pul koleksiyoncusu, hem dernek üyesi olup toplumda öncelikle **"Vali"** olarak tanınması.</td>
+            </tr>
+            <tr>
+                <td><b>Rol Çatışması</b></td>
+                <td>Bireyin sahip olduğu iki farklı statüye ait rollerin birbirini engellemesi, aralarında uyuşmazlık çıkması durumudur.</td>
+                <td>Bir kadın hakimin, kendi öz oğlunun davasına bakarken **anne rolü ile hakim rolünün** birbiriyle çelişmesi.</td>
+            </tr>
+            <tr>
+                <td><b>Rol Pekişmesi</b></td>
+                <td>Bireyin sahip olduğu bir rolün, üstlendiği diğer bir rolü kolaylaştırması, onu beslemesi durumudur.</td>
+                <td>Bir anaokulu öğretmeninin, evde kendi çocuklarına bakarken **öğretmenlik deneyiminin anneliğini kolaylaştırması**.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. TOPLUMSAL TABAKALAŞMA VE SOSYAL HAREKETLİLİK</h2>
+    <p>Toplumu oluşturan bireylerin gelir, güç, saygınlık ve eğitim gibi kriterlere göre hiyerarşik olarak derecelendirilmesine <b>toplumsal tabakalaşma</b> denir. Tarihsel süreçte 3 ana tabakalaşma modeli görülmüştür:</p>
+    <ul>
+        <li><b>Kapalı Tabakalaşma:</b> Tabakalar arası geçiş hukuken ve dinen kesinlikle yasaktır. En bariz örneği Hindistan'daki <b>Kast Sistemi</b> ve kölelik düzenidir. Birey hangi tabakada doğarsa orada ölür.</li>
+        <li><b>Yarı Açık Tabakalaşma:</b> Tabakalar arası geçiş çok zor şartlara ve sınırlı kurallara bağlıdır. Orta Çağ Avrupa'sındaki **Feodalizm** (Soylular, ruhbanlar, serfler) buna örnektir. Bir serf ancak kralın üstün rütbe vermesiyle şövalye olabilir.</li>
+        <li><b>Açık Sınıf Tabakalaşması:</b> Tabakalar arası geçiş tamamen serbesttir ve bireyin kendi yeteneğine (kazanılan statülere) bağlıdır. Modern **Demokratik ve Endüstriyel** toplumların yapısıdır. Sınıf değiştirmeye <b>Sosyal Hareketlilik</b> denir.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN HAREKETLİLİK SORAR (YÖNLERİNE DİKKAT!):</strong>
+        <br>&bull; <b>Yatay Hareketlilik:</b> Bireyin toplumsal tabakasında, gelirinde ve saygınlığında belirgin bir değişim **olmadan**, benzer bir işe veya mekâna geçmesidir. (Örn: Ankara'daki bir coğrafya öğretmeninin İstanbul'a tayin olması veya bir manavın bakkal dükkanı açması).
+        <br>&bull; <b>Dikey Hareketlilik:</b> Bireyin bir toplumsal sınıftan diğerine (aşağıdan yukarıya ya da yukarıdan aşağıya) kesin olarak geçmesidir. (Örn: Bir fabrika işçisinin gece üniversitesi bitirip holdinge CEO olması -Yukarı doğru- veya iflas eden bir fabrikatörün işportacı olması -Aşağı doğru-).
+    </div>
+
+    <h2>4. TOPLUMSAL DEĞİŞME VE ETKENLERİ</h2>
+    <p>Toplumsal yapının, kurumların, ilişkilerin ve değerlerin zaman içinde geçirdiği niteliksel dönüşümlere <b>toplumsal değişme</b> denir. Değişmeyi hızlandıran makro faktörler: **Teknolojik buluşlar** (İnternet, yapay zekâ), **Ekonomik kırılmalar** (Sanayi devrimi), **Demografik hareketler** (Göçler, savaşlar) ve **Fiziki çevre** (Depremler, kuraklık) olarak sıralanır. Gelişmiş demokratik toplumlarda toplumsal değişme planlı ve dengelidir.</p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bir lisede okul müdürü olarak görev yapan bir beyefendi, aynı okulda okuyan kendi kızının disiplin kuruluna sevk edilmesi üzerine büyük bir kararsızlık yaşamıştır. Kurul toplantısında bir yandan okulun asayişinden ve kurallarından sorumlu bir "Müdür" gibi katı davranması gerekirken, diğer yandan kızını korumak isteyen merhametli bir "Baba" gibi hissetmiş ve bu iki konumun getirdiği sorumluluklar birbirini engellemiştir. 
+        <br>Yukarıdaki olayda okul müdürünün yaşadığı bu sosyolojik kriz, aşağıdaki **kavramlardan hangisiyle doğrudan adlandırılır**?</div>
+        <ul class="options-list">
+            <li>A) Rol Pekişmesi</li>
+            <li>B) Rol Çatışması</li>
+            <li>C) Statü Kaybı</li>
+            <li>D) Anahtar Statü</li>
+            <li>E) Toplumsal Prestij</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Bireyin sosyal rollerinin birbiriyle olan ilişkisini inceleyelim. Karakterimiz aynı anda hem "Müdür" hem de "Baba" statülerine sahiptir.
+            <br>• Disiplin kurulunda müdürlük statüsünün gerektirdiği rol (kuralları uygulama) ile babalık statüsünün gerektirdiği rol (çocuğunu koruma) karşı karşıya gelmiş ve birbirini zorlaştırmıştır. Bireyin sahip olduğu farklı statülere ait rollerin bu şekilde uyuşmazlık yaşamasına sosyolojide net bir terimle <b>Rol Çatışması</b> adı verilir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> İzmir'de bir devlet hastanesinde yıllarca başarıyla görev yapan uzman bir "Kardiyolog (Kalp Doktoru)", aldığı ani bir kararla tıp mesleğini bırakmış, ticarete atılarak kent merkezinde büyük bir şarküteri ve gıda dükkanı açmıştır. Doktorluktan esnaflığa geçen bu kişinin gelirinde devasa bir artış veya azalış olmamıştır. 
+        <br>Bu hekimin gerçekleştirdiği mesleki ve mekânsal yer değiştirme eylemi, sosyolojik olarak aşağıdaki **sosyal hareketlilik türlerinden hangisine tam bir örnektir**?</div>
+        <ul class="options-list">
+            <li>A) Yukarı Doğru Dikey Hareketlilik</li>
+            <li>B) Aşağı Doğru Dikey Hareketlilik</li>
+            <li>C) Yatay Hareketlilik</li>
+            <li>D) Kapalı Tabakalaşma</li>
+            <li>E) Kuşaklar Arası Hareketlilik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sosyal hareketliliğin yön ve sınıf kriterlerini kontrol edelim: Bireyin bir sınıftan diğerine dikey (aşağı/yukarı) geçebilmesi için saygınlığında ve toplumsal tabakasında net bir katman değişimi olmalıdır.
+            <br>• Olayda doktorluk mesleğini bırakıp esnaflığa geçen bireyin toplumsal prestij hiyerarşisindeki yatay düzlemi korunmuştur; benzer bir sosyo-ekonomik seviyede sadece iş dalı ve mekân değiştirmiştir. Sınıf değiştirme söz konusu olmadığı için bu durum tam bir <b>Yatay Hareketlilik</b> örneğidir. Eğer işçiyken holding sahibi olsaydı dikey olurdu. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Hindistan'da yüzyıllardır dini ve kültürel bir gelenek olarak uygulanan Kast Sistemi'nde; toplum Brahmanlar (Rahipler), Ksatriyalar (Askerler), Vaisyalar (Tüccarlar) ve Sudralar (İşçiler) gibi katı sınırlarla bölünmüştür. Sistem dışı kalan Paryalar ise hiçbir hakka sahip değildir. Bu düzende tabakalar arası evlilik, geçiş veya meslek değiştirmek tamamen yasaktır ve dinen cezalandırılır. 
+        <br>Kast Sistemi, sosyolojik kriterlere göre aşağıdaki **tabakalaşma modellerinden hangisinin dünyadaki en bariz, en radikal temsilcisidir**?</div>
+        <ul class="options-list">
+            <li>A) Açık Sınıf Tabakalaşması</li>
+            <li>B) Yarı Açık Tabakalaşma</li>
+            <li>C) Kapalı Tabakalaşma</li>
+            <li>D) Demokratik Tabakalaşma</li>
+            <li>E) Yatay Tabakalaşma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tabakalaşma modellerinin geçirgenlik sınırlarını test edelim. Eğer bir toplumsal yapıda bireyin doğuştan getirdiği statü (verilen statü) ömür boyu değiştirilemiyorsa, sınıflar arası dikey geçiş yasal, geleneksel veya dini kurallarla tamamen kilitlenmişse, o yapı sosyolojide <b>Kapalı Tabakalaşma</b> modeli olarak tanımlanır. Hindistan'daki Kast düzeni bu katı kapalılığın tarihteki en meşhur abidesidir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Gelişmiş modern endüstriyel toplumlarda, bireylerin aile soyu veya doğuştan getirdikleri etnik/ırksal kökenler onların hayattaki konumlarını belirlemede etkili değildir. Bu toplumlarda liyakat, eğitim kalitesi, kişisel başarı ve zekâ ön plandadır; birey kendi çabasıyla en alt tabakadan en üst sınıfa kadar özgürce tırmanabilir. 
+        <br>Buna göre modern toplumların sahip olduğu bu esnek ve demokratik yapı, aşağıdaki **tabakalaşma türlerinden hangisiyle adlandırılır**?</div>
+        <ul class="options-list">
+            <li>A) Kapalı Tabakalaşma</li>
+            <li>B) Yarı Açık Tabakalaşma</li>
+            <li>C) Açık Sınıf Tabakalaşması</li>
+            <li>D) Feodal Tabakalaşma</li>
+            <li>E) Geleneksel Kast Düzeni</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Modern toplumların demografik ve sınıfsal dehasını yorumlayalım. Sınıf geçişlerinin önünde hiçbir hukuki veya dini engelin bulunmadığı, dikey hareketliliğin (yukarı doğru yükselmenin) bireyin şahsi eğitim ve emeğine (kazanılan statülere) endekslendiği çağdaş modele <b>Açık Sınıf Tabakalaşması</b> denir. Günümüz modern demokratik devletlerinin hedeflediği yapı budur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Bir sosyolog, sanayi sitelerinde çalışan işçilerin sendikalaşma oranları ile iş doyumları arasındaki ilişkiyi incelerken, olaylara hiçbir şekilde kendi şahsi fikirlerini, siyasi görüşlerini veya ahlaki değer yargılarını katmamış; toplumu olduğu gibi, çıplak gerçekliğiyle rapor etmiştir. 
+        <br>Sosyoloğun bu tarafsız duruşu, sosyoloji biliminin **hangi temel bilimsel niteliğinin mutlak bir gereğidir**?</div>
+        <ul class="options-list">
+            <li>A) Normatif (kural koyucu) olması</li>
+            <li>B) Nesnel (Objektif) ve değer yargılarından arınmış olması</li>
+            <li>C) Öznel ve ideolojik olması</li>
+            <li>D) Toplumsal olayları tek bir nedene bağlaması</li>
+            <li>E) Geleceğe yönelik kehanetlerde bulunması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sosyolojinin pozitivist bilim metodolojisini sorgulayan harika bir final sorusudur. Sosyoloji felsefe veya hukuk gibi "toplum nasıl olmalıdır?" sorusuna yanıt arayan kural koyucu (normatif) bir alan değildir.
+            <br>• Sosyoloji pozitif bir bilimdir ve laboratuvardaki kimyager gibi nesnel olmak zorundadır. Olayları incelerken araştırmacının kendi inançlarını, ideolojilerini sürece katmaması, olanı tarafsızca ortaya koyması onun <b>Nesnel (Objektif) ve değer yargılarından arınmış</b> olma ilkesinin sarsılmaz bir kanıtıdır. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

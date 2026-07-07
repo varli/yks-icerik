@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Sosyoloji - Modül 2: Toplumsal Kurumlar ve Kültür</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #0f766e, #1e3a8a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ccfbf1; font-style: italic; }
+        h2 { color: #0f766e; font-size: 16pt; border-left: 6px solid #14b8a6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #1e3a8a; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #14b8a6; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0f766e; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0f766e; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0f766e; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT SOSYOLOJİ - MODÜL 2: TOPLUMSAL KURUMLAR VE KÜLTÜR</h1>
+        <p>"Kurumsal Analiz: Aile Matrisi, Otorite Türleri ve Kültürel Süreçlerin Sosyolojik Röntgeni"</p>
+    </div>
+
+    <h2>1. TOPLUMSAL KURUMLAR VE YAPISAL İŞLEVLERİ</h2>
+    <p>Toplumda organize olmuş, kalıcı, kuşaklar boyu aktarılan ve bireylerin temel sosyal ihtiyaçlarını karşılayan kurallar, değerler ve ilişkiler bütününe <b>toplumsal kurum</b> denir. Başlıca toplumsal kurumlar aile, siyaset, ekonomi, din ve eğitimdir.</p>
+
+    <h3>A) Aile Kurumu ve Evlilik Tipolojileri</h3>
+    <p>Aile, toplumun en küçük ve ilk kurumsal yapısıdır. ÖSÜM aile içi evlilik ve yerleşme kalıplarını terimsel olarak yoklamayı çok sever:</p>
+    <ul>
+        <li><b>Eş Sayısına Göre:</b> <b>Monogami</b> (Tek eşle evlilik), <b>Poligami</b> (Çok eşle evlilik - Polijini: Erkeğin çok kadınla, Poliandri: Kadının çok erkekle evlenmesi).</li>
+        <li><b>Grup İlişkisine Göre:</b> <b>Endogami</b> (Grup içi / akraba-klan içi evlilik), <b>Egzogami</b> (Grup dışı / yabancıyla evlilik).</li>
+        <li><b>Yerleşme Yerine Göre:</b> <b>Patrilokal</b> (Gelin damadın ailesinin yanına taşınır), <b>Matrilokal</b> (Damat gelinin ailesinin yanına taşınır - İç güveysi), <b>Neolokal</b> (Yeni evliler tamamen bağımsız ayrı ev açar - Modern çekirdek aile).</li>
+    </ul>
+
+    <h3>B) Siyaset Kurumu ve Otorite Biçimleri (Max Weber)</h3>
+    <p>Siyaset, güç ve iktidarın dağılımını düzenleyen kurumdur. Sosyolog Max Weber meşru otorite türlerini üçe ayırır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Otorite Türü</th>
+                <th>Meşruiyetin (Gücün) Kaynağı ve Dayanağı</th>
+                <th>Sosyolojik Örnekleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Geleneksel Otorite</b></td>
+                <td>Gücünü geçmişten, eskiden beri gelen adetlerden, inançlardan ve kutsal sayılan törelerden alır. İktidar babadan oğula geçer.</td>
+                <td>Krallıklar, padişahlıklar, aşiret liderliği, şeyhlik.</td>
+            </tr>
+            <tr>
+                <td><b>Karizmatik Otorite</b></td>
+                <td>Gücünü liderin tamamen kendine has, sıra dışı, büyüleyici, kahramanca ve **olağanüstü kişisel özelliklerinden (karizmasından)** alır.</td>
+                <td>Mustafa Kemal Atatürk, Gandhi, Napolyon.</td>
+            </tr>
+            <tr>
+                <td><b>Rasyonel - Yasal Otorite</b></td>
+                <td>Gücünü kişilerden değil, akla uygun olarak yapılmış **yazılı hukuk kurallarından, yasalardan ve anayasadan** alır. Modern toplum biçimidir.</td>
+                <td>Cumhurbaşkanları, başbakanlar, bürokratik memurlar, modern valiler.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. KÜLTÜR SOSYOLOJİSİ VE KÜLTÜREL SÜREÇLER</h2>
+    <p>Kültür, bir toplumun tarihsel süreçte ürettiği her türlü maddi (teknoloji, binalar, giysiler) ve manevi (dil, din, ahlak, hukuk) değerlerin bütünüdür. Kültür statik değildir, sürekli etkileşim halindedir. ÖSYM'nin en meşhur sosyoloji soruları bu süreçlerden gelir:</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSÜM BU SÜREÇLERİ SÖZLÜK GİBİ SORAR — DİKKAT KUTUSU:</strong>
+        <br>&bull; <b>1. Kültürel Gecikme (Cultural Lag — Ogburn):</b> Maddi kültürün (teknolojinin, sanayinin) çok hızlı gelişmesine, manevi kültürün (hukukun, ahlakın, geleneklerin) bu hıza ayak uyduramayıp geride kalması durumudur. (Örn: Gelişmiş akıllı telefonların hızla ülkeye girmesi ancak trafikte veya sinemada bu telefonları kullanma görgü kurallarının henüz gelişmemiş olması).
+        <br>&bull; <b>2. Kültürleşme (Acculturation):</b> Farklı iki kültürün bir araya gelerek birbirlerini karşılıklı olarak etkilemesi ve bu etkileşim sonucunda ikisinde de yepyeni kültürel ögelerin doğması sürecidir. (Örn: Türkiye'ye göç eden Almanlar ile yerli halkın etkileşimi sonucu iki tarafın da yemek ve yaşam tarzının harmanlanması).
+        <br>&bull; <b>3. Kültürlenme (Enculturation):</b> Bireyin doğduğu andan itibaren kendi toplumunun kültürel değerlerini öğrenmesi, içselleştirmesi sürecidir. (Sosyalleşmenin kültürel adıdır).
+        <br>&bull; <b>4. Kültür Şoku:</b> Kendi kültüründen tamamen farklı, yabancı bir kültürel ortama giren bireyin yaşadığı uyum sorunu, şaşkınlık ve bunaltı durumudur. (Köyden Paris'e giden birinin bocalaması).
+        <br>&bull; <b>5. Kültür Emperyalizmi:</b> Gelişmiş güçlü ülkelerin, zayıf ülkeleri kendi kültürel ürünleriyle (sinema, fast-food, dil) sömürmesi, tek tipleştirmesidir.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Büyük bir metropolde yaşayan iki genç evlendikten sonra ne erkeğin ailesinin evine (patrilokal) ne de kadının ailesinin evine (matrilokal) taşınmıştır. Ekonomik özgürlüklerine sahip olan bu çift, ailelerden tamamen bağımsız, kendilerine ait yepyeni müstakil bir konut kiralayarak orada yaşamaya başlamışlardır. 
+        <br>Bu modern evli çiftin sergilediği **yerleşme yeri odaklı aile modeli** sosyolojide hangi terimle adlandırılır?</div>
+        <ul class="options-list">
+            <li>A) Patrilokal</li>
+            <li>B) Matrilokal</li>
+            <li>C) Neolokal</li>
+            <li>D) Bilokal</li>
+            <li>E) Endogami</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Evlilik sonrası yerleşim yeri kavramsal haritasını kontrol edelim: Patrilokal baba evine gitmek (A), Matrilokal ana evine gitmek (B)'dir.
+            <br>• Modern endüstriyel toplumlarda çekirdek ailenin kurulmasıyla tırmanan, yeni evlilerin anne-baba gözetiminden uzakta, tamamen **yeni ve bağımsız bir mekân (ev) açması** eylemine sosyolojide <b>Neolokal yerleşme</b> adı verilir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sosyolog William Ogburn'e göre, toplumlarda değişme her ögede aynı hızda gerçekleşmez. Fabrikalar, bilgisayarlar, otomobiller ve tıp teknolojisi (maddi kültür) baş döndürücü bir süratle ilerlerken; insanların bu teknolojiyi kullanma biçimleri, yasal düzenlemeler, ahlaki kurallar ve alışkanlıklar (manevi kültür) çok daha ağır değişir. Bu iki hız arasındaki uçurum toplumda derin uyumsuzluklar doğurur. 
+        <br>Ogburn'un geliştirdiği, maddi ve manevi kültür arasındaki bu dengesizliği açıklayan **ünlü sosyolojik kavram** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kültür Şoku</li>
+            <li>B) Kültürel Gecikme (Cultural Lag)</li>
+            <li>C) Kültür Emperyalizmi</li>
+            <li>D) Kültürel Özümseme (Asimilasyon)</li>
+            <li>E) Kültürel Görecelik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kültür süreçlerinin en seçici, en popüler kuramsal turnusolünü işletelim. Paragrafta "teknolojinin çok hızlı gitmesi" ancak "toplumsal kural ve ahlakın geride kalmasıyla oluşan uçurum" net olarak betimlenmiştir.
+            <br>• Maddi ve manevi kültürün senkronize değişememesinden doğan bu zamansal boşluğa sosyolojide <b>Kültürel Gecikme (Cultural Lag)</b> adı verilir. Akıllı araba alıp emniyet kemeri takmamak veya yere çöp atmak bunun en klasik göstergesidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Kurtuluş Savaşı döneminde milletini ortak bir ülkü etrafında birleştiren, kitleleri peşinden sürükleyen muazzam hitabet gücü, askeri dehası ve sıra dışı liderlik özellikleriyle Türkiye Cumhuriyeti'ni kuran Mustafa Kemal Atatürk'ün halk üzerindeki iktidar ve meşruiyet gücü sarsılmaz bir niteliktedir. 
+        <br>Max Weber'in iktidar sınıflandırmasına göre, Atatürk'ün sahip olduğu bu **olağanüstü kişisel deha ve çekim gücüne dayalı meşru otorite modeli** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Geleneksel Otorite</li>
+            <li>B) Karizmatik Otorite</li>
+            <li>C) Rasyonel - Yasal Otorite</li>
+            <li>D) Teokratik Otorite</li>
+            <li>E) Bürokratik Otorite</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Max Weber'in egemenlik tiplerini analiz edelim. Gücün yasalardan (C) veya törelerden (A) gelmediği; tamamen liderin kendi **olağanüstü, büyüleyici, eşsiz şahsi niteliklerine, yeteneklerine ve kahramanlığına** dayandığı, kitlelerin ona duyduğu mutlak sevgi ve inançla tescillenen otorite türüne sosyolojide <b>Karizmatik Otorite</b> adı verilir. Atatürk bu modelin dünyadaki en net ve en başarılı örneğidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Anadolu'nun küçük bir köyünde geleneksel tarım kültürüyle büyüyen bir genç, üniversite kazanarak aniden İngiltere'nin başkenti Londra'ya gitmiştir. Dilini, insan ilişkilerini, sokak düzenini ve yaşam tarzını tamamen yabancı bulduğu bu devasa metropolde ne yapacağını bilememiş; derin bir yalnızlık, şaşkınlık, uyum krizi ve psikolojik bunaltı yaşamıştır. 
+        <br>Bu gencin içine düştüğü toplumsal bocalama durumu, aşağıdaki **kültürel kavramlardan hangisiyle açıklanır**?</div>
+        <ul class="options-list">
+            <li>A) Kültürleşme</li>
+            <li>B) Kültür Şoku</li>
+            <li>C) Kültürel Bütünleşme</li>
+            <li>D) Kültürlenme</li>
+            <li>E) Alt Kültür</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Bireyin yabancı bir sosyal çevreyle ilk temas psikolojisini okuyalım. Kendi alışık olduğu kültürel havzadan (köyünden) kopup, tamamen zıt ve bambaşka kuralları olan yabancı bir makro mekâna (Londra'ya) ani geçiş yapan bireyin sinir sisteminin ve sosyal algılarının felç olması, şaşırması ve bocalaması sosyolojik olarak doğrudan <b>Kültür Şoku</b> terimiyle tanımlanır. Doğru cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Modern endüstriyel toplumlarda devlet yönetimi, kişilerin keyfi isteklerine veya hanedan sülalelerinin kararlarına göre şekillenmez. İktidarın sınırları, vatandaşların hakları ve devlet organlarının işleyişi akla uygun olarak tasarlanmış, herkesi bağlayan anayasalarla ve yazılı hukuk kurallarıyla belirlenir. Liderler seçimle gelir ve süreleri bittiğinde koltuğu devrederler. 
+        <br>Bahsedilen bu modern demokratik devlet yapısı, Max Weber'in **hangi otorite türüne tam olarak karşılık gelmektedir**?</div>
+        <ul class="options-list">
+            <li>A) Geleneksel Otorite</li>
+            <li>B) Karizmatik Otorite</li>
+            <li>C) Rasyonel - Yasal Otorite</li>
+            <li>D) Monarşik Otorite</li>
+            <li>E) İlkel Otorite</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kurumsal siyasetin modern yapısını denetleyen harika bir final sorusudur. Meşruiyetin sarsılmaz kaynağı kişisel büyüleyicilik (karizma) veya tarihsel töreler (gelenek) değil; tamamen akla uygun anayasal kurallarsa, o otorite <b>Rasyonel - Yasal Otorite</b>'dir. Hukukun üstünlüğüne dayalı modern bürokratik devletlerin yönetim biçimidir. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>
