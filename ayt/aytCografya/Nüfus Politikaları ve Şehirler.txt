@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 3: Nüfus Politikaları ve Şehirler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #0369a1); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0f2fe; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #0284c7; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0f766e; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #0d9488; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 3: NÜFUS POLİTİKALARI VE ŞEHİRLER</h1>
+        <p>"Demografik Stratejiler: Ülkelerin Nüfus Politikaları, Şehirlerin Fonksiyonel Gücü ve Sakin Şehir Hareketi"</p>
+    </div>
+
+    <h2>1. ÜLKELERİN UYGULADIĞI NÜFUS POLİTİKALARI VE ANALİZİ</h2>
+    <p>Ülkelerin nüfusun niteliğini (eğitim, sağlık) ve niceliğini (sayı, artış hızı) değiştirmek amacıyla uyguladıkları bilinçli stratejilere <b>nüfus politikası</b> denir. Dünyada ekonomik gelişmişlik düzeyine göre 3 ana nüfus politikası uygulanır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Politika Türü</th>
+                <th>Temel Amacı ve Gerekçesi</th>
+                <th>Dünya Haritasındaki En Net Örnek Ülkeler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>1. Nüfus Artış Hızını Azaltmaya Yönelik Politika</b></td>
+                <td>Nüfus artış hızının, ekonomik büyüme hızından çok daha yüksek olduğu ülkelerde uygulanır. Amacı, doğum oranlarını düşürerek kişi başına düşen milli geliri artırmak ve kalkınmayı hızlandırmaktır.</td>
+                <td>Hindistan, Bangladeş, Nijerya, Endonezya, Kenya, Pakistan. (Çin yakın zamanda bu politikayı terk etmiştir).</td>
+            </tr>
+            <tr>
+                <td><b>2. Nüfus Artış Hızını Artırmaya Yönelik Politika</b></td>
+                <td>Doğum oranlarının aşırı düştüğü, nüfusun yaşlandığı, iş gücü açığının baş gösterdiği gelişmiş ülkelerde uygulanır. Çocuk başına para yardımı, uzun doğum izinleri ve kreş destekleri verilir.</td>
+                <td>Almanya, Fransa, Japonya, Rusya, İtalya, İngiltere, Güney Kore.</td>
+            </tr>
+            <tr>
+                <td><b>3. Nüfusun Niteliğini ve Niceliğini Korumaya/İyileştirmeye Yönelik Politika</b></td>
+                <td>Nüfus miktarı ve artış hızı ülkenin ekonomik kaynaklarıyla dengeli olan, gelişmekte olan ülkelerde uygulanır. Doğum oranlarına müdahale edilmez; eğitim, sağlık ve yaşam kalitesi artırılmaya çalışılır.</td>
+                <td>Meksika, Brezilya, Arjantin, Güney Afrika Cumhuriyeti.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN GELECEK PROJEKSİYONU SORAR:</strong>
+        <br>Bir ülkede nüfus artış hızı aşırı düşerse uzun vadede: Yaşlı nüfus oranı **artır**, dinamik iş gücü **azalır**, emekli nüfusa ödenen maaşlar devlet bütçesine yük olur, askeri savunma gücü zayıflar. Bu yüzden Avrupa ve Japonya şu an alarm durumundadır.
+    </div>
+
+    <h2>2. ŞEHİRLERİN FONKSİYONLARI VE ETKİ ALANLARI</h2>
+    <p>Şehirlerin doğmasında, büyümesinde ve küresel ölçekte bir güce dönüşmesinde üstlendikleri ekonomik, siyasi veya kültürel faaliyetler (fonksiyonlar) etkilidir. Bir şehrin fonksiyonel çeşitliliği ne kadar fazlaysa, **etki alanı (küresel, bölgesel, yerel)** o kadar geniştir.</p>
+    
+    <h3>A) Küresel Etkiye Sahip Şehirler (Dünya Devleri)</h3>
+    <p>Aldığı bir kararla tüm dünya piyasalarını, modayı, siyaseti veya inanç dünyasını doğrudan etkileyen şehirlerdir:</p>
+    <ul>
+        <li><b>New York (ABD):</b> Küresel **Finans ve Ticaret** merkezidir. Wall Street borsası ve BM Genel Merkezi buradadır.</li>
+        <li><b>Tokyo (Japonya):</b> Küresel **Teknoloji, Sanayi ve Finans** devidir. Dünyanın en kalabalık metropol alanıdır.</li>
+        <li><b>Essen (Almanya):</b> Ruhr Havzası'nın kalbidir. Küresel **Maden ve Sanayi** fonksiyonuyla büyümüştür.</li>
+        <li><b>Mekke - Medine - Kudüs - Vatikan:</b> Tamamen **Dini** fonksiyonları nedeniyle küresel etki alanına sahiptirler.</li>
+        <li><b>Paris (Fransa):</b> Moda, turizm, sanat ve kültürün küresel başkentidir.</li>
+    </ul>
+
+    <h3>B) Bölgesel ve Yerel Etkiye Sahip Şehirler</h3>
+    <p>&bull; <b>Bölgesel Etki:</b> Çevresindeki birkaç ülkeyi etkileyen şehirlerdir. Örn: <b>Tahran (İran)</b>, <b>Kahire (Mısır)</b>, <b>Kiev (Ukrayna)</b>.
+    <br>&bull; <b>Yerel Etki:</b> Genellikle tarım veya küçük ticaret fonksiyonuna sahip, sadece kendi ülke sınırları içindeki dar bir alanı etkileyen şehirlerdir. Örn: Türkiye'deki **Bayburt**, **Kırşehir** veya dünyadaki küçük tarım kasabaları.</p>
+
+    <h2>3. KÜRESELLEŞMEYE REAKSİYON: SAKİN ŞEHİR (CITTASLOW) HAREKETİ</h2>
+    <p>1999 yılında İtalya'da (Chiantigiana) küreselleşmenin şehirleri tek tipleştirmesine, gürültülü ve hızlı tüketim toplumuna dönüştürmesine tepki olarak doğan uluslararası bir belediyeler birliği hareketidir. Salyangoz logosuyla bilinir.</p>
+    
+    <div class="memory-box">
+        <strong>👑 SAKİN ŞEHİR OLMA KRİTERLERİ VE TÜRKİYE HARİTASI:</strong>
+        <br>Bir şehrin Cittaslow unvanı alabilmesi için nüfusunun <b>50 binden az</b> olması, tarihi ve kültürel dokusunu koruması, yenilenebilir enerji kullanması, fast-food yerine yerel yemekleri (slow food) desteklemesi ve gürültü kirliliğini engellemesi gerekir.
+        <br>&bull; <b>Türkiye'nin İLK Sakin Şehri:</b> İzmir'in <b>Seferihisar</b> ilçesidir (2009).
+        <br>&bull; <i>Diğer Önemli Sakin Şehirlerimiz:</i> Akyaka (Muğla), Gökçeada (Çanakkale), Taraklı (Sakarya), Mudurnu (Bolu), Şavşat (Artvin), Eğirdir (Isparta), Halfeti (Şanlıurfa), Uzundere (Erzurum). ÖSYM buraları güncel coğrafya sorusu olarak sormayı sever.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Batı Avrupa ülkelerinden Almanya, doğum oranlarının uzun yıllardır aşırı düşük seyretmesi, nüfusunun hızla yaşlanması ve genç iş gücü açığının sanayi üretimini tehdit etmesi nedeniyle ailelere çocuk başına yüksek maddi yardımlar yapmakta, kreş ve vergi avantajları sunmaktadır. 
+        <br>Buna göre Almanya'nın uyguladığı bu demografik strateji, aşağıdaki **nüfus politikası türlerinden** hangisinin doğrudan bir örneğidir?</div>
+        <ul class="options-list">
+            <li>A) Nüfus artış hızını radikal şekilde azaltmaya yönelik politika</li>
+            <li>B) Nüfusun niceliğini koruyup sadece eğitim kalitesini artırmaya yönelik politika</li>
+            <li>C) Nüfus artış hızını ve doğum oranlarını nitelikli olarak yükseltmeye/artırmaya yönelik politika</li>
+            <li>D) Kentsel nüfus oranını azaltıp kırsal nüfusu teşvik etme politikası</li>
+            <li>E) Göçmen kabulünü tamamen durdurma politikası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Gelişmiş ülkelerin demografik kriz reflekslerini analiz edelim. Sanayileşmiş, eğitim düzeyi yüksek olan Batı Avrupa ülkeleri ile Japonya gibi merkezlerde kadınların iş hayatına katılımı ve yaşam tarzı nedeniyle doğum oranları çakılmıştır.
+            <br>• Nüfusun yaşlanması üretimi durdurma noktasına getirdiği için bu devletler **Nüfus Artış Hızını Artırmaya (Doğumları teşvik etmeye)** yönelik katı bir politika izlerler. Soruda Almanya'nın sunduğu çocuk yardımları ve teşvikler bu politikanın imza kanıtıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bazı şehirler üstlendikleri küresel finans, borsa, uluslararası ticaret veya teknoloji gibi devasa fonksiyon çeşitlilikleri sayesinde, sınırlarını aşarak dünya ekonomisini ve siyasetini doğrudan yönlendirebilecek bir etki alanına ulaşırlar. 
+        <br>Buna göre, aşağıdaki şehir-fonksiyon eşleştirmelerinden hangisi o şehrin **küresel ölçekteki en baskın etki karakterini** yanlış yansıtmaktadır?</div>
+        <ul class="options-list">
+            <li>A) New York &rarr; Finans ve Uluslararası Ticaret</li>
+            <li>B) Vatikan &rarr; Dini Merkez</li>
+            <li>C) Essen &rarr; Madencilik ve Ağır Sanayi</li>
+            <li>D) Paris &rarr; Moda, Kültür ve Turizm</li>
+            <li>E) Kahire &rarr; Küresel Finans ve Küresel Teknoloji Başkenti</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Cevap:</b> 
+            <br>• Şehirlerin küresel fonksiyonel kimliklerini denetleyelim: New York Wall Street borsasıyla finans (A), Vatikan Katolik dünyasıyla din (B), Essen Ruhr havzası kömürleriyle sanayi/maden (C) ve Paris moda/kültürle (D) küresel devlerdir.
+            <br>• Ancak Mısır'ın başkenti olan <b>Kahire</b>, Kuzey Afrika ve Ortadoğu için önemli **bölgesel** bir merkezdir; kesinlikle New York veya Tokyo gibi küresel ölçekte tüm dünyaya yön veren bir finans, borsa veya yüksek teknoloji üretim üssü değildir. E seçeneğindeki fonksiyon yakıştırması Kahire için aşırı ve yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Küreselleşmenin getirdiği hızlı tüketim kültürüne, gürültüye, çevre kirliliğine ve şehirlerin mimari/kültürel olarak tek tipleşmesine karşı duran uluslararası **Cittaslow (Sakin Şehir)** ağının bir şehre bu unvanı verebilmesi için o şehrin nüfusunun **en fazla kaç bin** olması şartı aranır?</div>
+        <ul class="options-list">
+            <li>A) 50 bin</li>
+            <li>B) 100 bin</li>
+            <li>C) 250 bin</li>
+            <li>D) 500 bin</li>
+            <li>E) 1 milyon</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sakin şehir hareketinin en katı, en net sayısal kriterini sorgulayan bir ÖSYM bilgi klasiğidir.
+            <br>• Bir kentin Cittaslow birliğine kabul edilebilmesi için çevre, altyapı, yerel üretim gibi pek çok kriterin yanında mutlak bir nüfus barajı vardır. Bu kritere göre, adayın metropolleşmemiş, sakin yapısını korumuş olması adına nüfusunun **50 binden az (en fazla 50 bin)** olması zorunludur. Cevap A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bir ülkenin nüfus artış hızının, o ülkenin yıllık ekonomik büyüme ve kalkınma hızından çok daha yüksek olması durumunda; kişi başına düşen milli gelir azalır, işsizlik tırmanır, eğitim ve sağlık hizmetleri çöker (demografik yatırımlar yük olur). 
+        <br>Bu tarz sosyo-ekonomik sorunlarla boğuşan bir ülkenin **derhal ve öncelikle** aşağıdaki nüfus politikalarından hangisini uygulaması rasyonel bir zorunluluktur?</div>
+        <ul class="options-list">
+            <li>A) Doğum oranlarını ve nüfus artış hızını düşürmeye/azaltmaya yönelik katı bir politika</li>
+            <li>B) Yaşlı nüfusu ülkeye göçle davet etme politikası</li>
+            <li>C) Bebek doğumlarını teşvik etmek için para yardımı yapma politikası</li>
+            <li>D) Kırsal alanlardan kentlere göçü serbest bırakma politikası</li>
+            <li>E) Nüfus politikalarını tamamen iptal edip doğaya bırakma politikası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Nüfus ile ekonomik kaynak dengesi arasındaki makası okuyalım. Eğer bir ülkede üretim %2 büyürken, nüfus %5 çoğalıyorsa, o ülkede fakirlik kaçınılmazdır. Ülke kaynakları bu hızlı nüfusa yetmez.
+            <br>• Hindistan, Nijerya ve Bangladeş gibi ülkelerin yaşadığı bu temel krizi çözmenin tek yolu, aile planlaması ve doğum kontrol yöntemleriyle **Nüfus Artış Hızını Azaltmaktır**. Doğumlar azaltılmalıdır ki ekonomik büyüme nüfusa yetişebilsin ve kalkınma başlasın. Cevap A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 2009 yılında uluslararası Sakin Şehir (Cittaslow) birliğine başvurarak, tarihi dokusu, geleneksel yaşam tarzı ve narenciye kokulu doğasıyla **Türkiye'nin İLK Sakin Şehri (Cittaslow)** olma unvanını kazanan ege ilçemiz aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Halfeti (Şanlıurfa)</li>
+            <li>B) Seferihisar (İzmir)</li>
+            <li>C) Şavşat (Artvin)</li>
+            <li>D) Gökçeada (Çanakkale)</li>
+            <li>E) Taraklı (Sakarya)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Türkiye'nin sakin şehir coğrafyasındaki en tarihi "ilk" unvan sahibi yeri arıyoruz. Şıklardaki tüm yerler (Halfeti, Şavşat, Gökçeada, Taraklı) birer sakin şehirdir.
+            <br>• Ancak Türkiye'de bu akımı başlatan, İtalya'daki genel merkeze başvurup kriterleri tamamlayarak 2009 yılında resmi olarak **Türkiye'nin ilk Cittaslow'u** ilan edilen yer İzmir'in <b>Seferihisar</b> ilçesidir. Sınavlarda genel kültür ve güncel coğrafya alanında en çok yoklanan bilgidir. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

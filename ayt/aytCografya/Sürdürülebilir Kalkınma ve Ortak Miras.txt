@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 12: Sürdürülebilir Kalkınma ve Ortak Miras</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #065f46, #15803d); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #dcfce7; font-style: italic; }
+        h2 { color: #065f46; font-size: 16pt; border-left: 6px solid #22c55e; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #165b33; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #22c55e; border-left: 5px solid #16a34a; padding: 15px; margin: 18px 0; border-radius: 4px; color: #14532d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #065f46; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #065f46; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #065f46; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 12: SÜRDÜRÜLEBİLİR KALKINMA VE ORTAK MİRAS</h1>
+        <p>"Gezegenin Yeşil Geleceği: Küresel Çevre Politikaları, Ekolojik Döngüler ve UNESCO İnsanlık Mirası"</p>
+    </div>
+
+    <h2>1. SÜRDÜRÜLEBİLİR KALKINMANIN COĞRAFİ FELSEFESİ</h2>
+    <p>Doğal kaynakların tamamen yok edilmeden, ekosistemin taşıma kapasitesi göz önünde bulundurularak planlı kullanılmasına ve ekonomik büyümenin çevre korumayla dengelenmesine <b>sürdürülebilir kalkınma</b> denir. 
+    <br><b>💡 Temel İlkesi:</b> "Bugünün ihtiyaçlarını karşılarken, gelecek nesillerin de kendi ihtiyaçlarını karşılayabilme hakkını tehlikeye atmamaktır." Sürdürülebilir kaynak yönetimi için; yenilenemeyen fosil yakıtlar yerine **Güneş, Rüzgâr, Biyokütle** gibi temiz kaynaklara geçilmeli, sanayide **Geri Dönüşüm** mekanizmaları zorunlu kılınmalı ve katı atık miktarı sıfırlanmalıdır.</p>
+
+    <h2>2. DÜNYAYI KURTARMA PLANLARI: KÜRESEL ÇEVRE POLİTİKALARI</h2>
+    <p>Ülkelerin sanayi sınırlarını aşan çevre felaketlerini önlemek amacıyla bir araya gelerek imzaladıkları makro hukuk paktlarıdır. ÖSYM bu sözleşmelerin anahtar kelimelerini doğrudan test eder:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Uluslararası Çevre Sözleşmesi</th>
+                <th>ÖSYM Odaklı En Kritik Amacı ve Kapsamı</th>
+                <th>Türkiye'nin Statüsü / Soru Bankası Şifresi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>RAMSAR SÖZLEŞMESİ (1971)</b></td>
+                <td>Özellikle göçmen kuşların yaşama ve üreme alanı olan **SULAK ALANLARIN (Göller, bataklıklar, deltalar)** korunmasını hedefleyen sözleşmedir. İran'ın Ramsar kentinde imzalanmıştır.</td>
+                <td>**Türkiye üyedir.** Ülkemizde; Manyas (Kuşgölü), Göksu Deltası, Sultan Sazlığı, Nemrut Kalderası, Yumurtalık Lagünleri ve Kızılırmak Deltası gibi sulak alanlar devlet korumasındadır.</td>
+            </tr>
+            <tr>
+                <td><b>KYOTO PROTOKOLÜ (1997)</b></td>
+                <td>Atmosferdeki sera gazı salınımlarını (**Karbon emisyonunu**) azaltarak küresel ısınmayı ve iklim değişikliğini durdurmayı amaçlayan, gelişmiş ülkelere katı yasal kotalar koyan protokoldür.</td>
+                <td>**Türkiye 2009 yılında resmen imzalamıştır.** Fosil yakıt tüketimini sınırlamayı taahhüt eden en tarihi çevre sözleşmelerindendir.</td>
+            </tr>
+            <tr>
+                <td><b>PARİS İKLİM ANLAŞMASI (2015)</b></td>
+                <td>Kyoto'nun devamıdır. Küresel sıcaklık artışını sanayileşme öncesi döneme göre **2&deg;C'nin (mümkünse 1.5&deg;C) altında tutmayı** hedefleyen, yeşil enerji dönüşümünü zorunlu kılan evrensel paktır.</td>
+                <td>**Türkiye bu anlaşmaya da taraftır** ve karbon nötr hedefleri doğrultusunda sanayi ve enerji politikalarını güncellemektedir.</td>
+            </tr>
+            <tr>
+                <td><b>Barselona Sözleşmesi</b></td>
+                <td>Akdeniz'in kirlenmeye karşı korunmasını, kıyı ekosisteminin temiz tutulmasını hedefleyen bölgesel/küresel çevre paktıdır.</td>
+                <td>Türkiye kıyıdaş ülke olarak aktif üyedir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. İNSANLIĞIN ORTAK MİRASI VE UNESCO ATLASI</h2>
+    <p>Bütün insanlığın ortak geçmişini, estetik dehasını ve doğanın benzersiz harikalarını yansıtan, gelecek nesillere bozulmadan aktarılması gereken evrensel değerlere <b>Ortak Miras</b> denir. Ortak miras alanları **UNESCO** (Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü) tarafından tescillenir ve koruma altına alınır. Ortak miras üç grupta incelenir:</p>
+    <ul>
+        <li><b>Kültürel Miras (İnsan Eseri):</b> Saraylar, tapınaklar, antik kentler. (Örn: Çin Seddi, Tac Mahal-Hindistan, Piramitler-Mısır, Kolezyum-İtalya).</li>
+        <li><b>Doğal Miras (Doğa Harikası):</b> İnsan eli değmeden oluşan jeolojik/biyolojik alanlar. (Örn: Grand Kanyon-ABD, Galapagos Adaları-Ekvador, Kilimanjaro Ulusal Parkı-Afrika).</li>
+        <li><b>Karma Miras (Hem Doğal Hem Kültürel):</b> Bünyesinde hem doğanın benzersiz şekillerini hem de tarihi insan eserlerini bir arada barındıran muazzam alanlardır.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM TÜRKİYE'NİN KARMA MİRASLARINI ADI GİBİ SORAR:</strong>
+        <br>Türkiye'de UNESCO Dünya Miras Listesi'nde yer alan onlarca eser (Göbeklitepe, Efes, Truva, Hattuşaş, Safranbolu Evleri vb.) vardır. Ancak bunlar içinde **hem doğa harikası hem de tarihi eser** özelliğini taşıyan dünyadaki nadir <b>KARMA MİRAS</b> alanlarımız iki tanedir:
+        <br>1. <b>Göreme Milli Parkı ve Kapadokya (Nevşehir):</b> Peri bacaları **Doğal**, içindeki kaya kiliseleri ve yer altı şehirleri **Kültürel** mirastır.
+        <br>2. <b>Hierapolis ve Pamukkale (Denizli):</b> Pamukkale travertenleri **Doğal**, hemen arkasındaki antik Roma kenti Hierapolis **Kültürel** mirastır.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sürdürülebilir kalkınma modeli; "Bugünün ekonomik ve sosyal ihtiyaçlarını karşılarken, gelecek nesillerin de kendi ihtiyaçlarını karşılayabilme hakkını tehlikeye atmama" felsefesi üzerine kuruludur. 
+        <br>Buna göre, bir ülkenin sanayi ve enerji üretim süreçlerinde uygulayacağı aşağıdaki **davranışlardan hangisi sürdürülebilir kalkınma ilkeleriyle kesinlikle bağdaşmaz**?</div>
+        <ul class="options-list">
+            <li>A) Termik santrallerde linyit ve taş kömürü tüketimini katlayarak artırmak, yeni kömür ocakları açmak</li>
+            <li>B) Sanayi üretiminde ortaya çıkan cam, plastik ve metal atıklar için gelişmiş geri dönüşüm tesisleri kurmak</li>
+            <li>C) Enerji ihtiyacını rüzgâr, güneş ve jeotermal gibi yenilenebilir ve karbon salınımı sıfır olan kaynaklardan karşılamak</li>
+            <li>D) Fabrika atık sularını doğaya bırakmadan önce modern biyolojik/kimyasal arıtma tesislerinden geçirmek</li>
+            <li>E) Doğal orman alanlarını koruma altına alıp, kesilen her ağacın yerine planlı endüstriyel ağaçlandırma sahaları kurmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sürdürülebilir coğrafya ve çevre politikası kurallarını işletelim: Geri dönüşüm (B), temiz enerji (C), atık arıtma (D) ve ağaçlandırma (E) ekosistemi koruyan, geleceğe kaynak bırakan tam sürdürülebilir kalkınma adımlarıdır.
+            <br>• Ancak A seçeneğindeki "linyit ve taş kömürü gibi fosil kaynakların tüketimini artırmak", atmosfere devasa miktarda sera gazı pompalamak ve küresel ısınmayı azdırmak demektir. Fosil yakıtlar hem tükenen kaynaklardır hem de dünyayı kirletir; dolayısıyla bunların kullanımını artırmak sürdürülebilir kalkınmanın ruhuna tamamen aykırıdır. Cevap A'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 1971 yılında İran'da imzalanan ve temel amacı *"Özellikle göçmen kuşların yaşama, üreme ve göç rotaları üzerindeki duraklama alanları olan sulak alanların (göller, bataklıklar, deltalar, lagünler) korunmasını, akılcı kullanılmasını ve kurutulmasının engellenmesini"* hukuki güvenceye bağlayan uluslararası çevre sözleşmesi hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kyoto Protokolü</li>
+            <li>B) Paris İklim Anlaşması</li>
+            <li>C) Ramsar Sözleşmesi</li>
+            <li>D) Barselona Konvansiyonu</li>
+            <li>E) CITES Sözleşmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Uluslararası çevre paktlarının spesifik odak kelimelerini tarayalım: "Sulak alanların korunması", "göçmen kuşların yaşam sahaları" ve "İran'da imzalanması".
+            <br>• Bu üç hayati ipucu coğrafyada doğrudan <b>Ramsar Sözleşmesi</b>'ni tanımlar. Türkiye'nin de imzacısı olduğu bu sözleşme sayesinde Manyas Kuşgölü, Kızılırmak Deltası gibi harika su ekosistemlerimiz uluslararası koruma kalkanı altındadır. Kyoto ve Paris karbon emisyonuyla ilgilidir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Atmosferdeki sera gazı oranlarını düşürerek küresel sıcaklık artışını sanayileşme öncesi döneme kıyasla **2°C'nin (mümkünse 1.5°C sınırında) altında tutmayı** küresel bir hedef olarak belirleyen, 2015 yılında imzalanan ve Türkiye'nin de aktif olarak yeşil ekonomik dönüşüm taahhütleriyle taraf olduğu evrensel iklim paktı hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ramsar Sözleşmesi</li>
+            <li>B) Paris İklim Anlaşması</li>
+            <li>C) Barselona Sözleşmesi</li>
+            <li>D) Montreal Protokolü</li>
+            <li>E) Helsinki Deklarasyonu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İklim diplomasisinin en güncel ve en büyük evrensel sınır değer hedefini sorgulayalım: "2015 yılı", "Sera gazı salınımını durdurmak" ve o en ünlü **"küresel sıcaklığı 1.5°C - 2°C sınırında frenleme"** maddesi.
+            <br>• Bu tarihi karar, Kyoto Protokolü'nün süresinin dolmasının ardından yürürlüğe giren ve tüm dünya ekonomilerini karbon nötr olmaya zorlayan <b>Paris İklim Anlaşması</b>'na aittir. Türkiye de bu anlaşmanın kararlılık imzacılarındandır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> UNESCO Dünya Miras Listesi'nde yer alan bazı alanlar, bünyelerinde hem doğanın milyonlarca yılda oluşturduğu benzersiz jeolojik yer şekillerini (doğal miras) hem de insanlığın geçmişte inşa ettiği tarihi abideleri, antik kentleri (kültürel miras) bir arada barındırırlar. Bu tarz alanlara coğrafyada **Karma Miras** adı verilir. 
+        <br>Buna göre, aşağıdaki alanlardan hangisi Türkiye'nin UNESCO tescilli bu benzersiz **karma miras alanlarına** doğru bir örnektir?</div>
+        <ul class="options-list">
+            <li>A) Şanlıurfa &rarr; Göbeklitepe Arkeolojik Alanı</li>
+            <li>B) Çanakkale &rarr; Truva Antik Kenti</li>
+            <li>C) Denizli &rarr; Pamukkale Travertenleri ve Hierapolis Antik Roma Kenti</li>
+            <li>D) Karabük &rarr; Safranbolu Tarihi Evleri</li>
+            <li>E) Çorum &rarr; Hattuşaş Hitit Başkenti</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin en meşhur "Karma Miras" turnusol kuralını uygulayalım. Göbeklitepe (A), Truva (B), Safranbolu (D) ve Hattuşaş (E) sadece insan eliyle yapılmış saf **Kültürel** miraslardır, içlerinde kendiliğinden oluşmuş bir doğa harikası yoktur.
+            <br>• Ancak C seçeneğindeki <b>Pamukkale, yer altı sularının çökerttiği o traverten basamaklarıyla muazzam bir DOĞAL miras; hemen üzerinde yer alan Hierapolis kenti ise tiyatrosu ve tapınaklarıyla tarihi KÜLTÜREL bir mirastır</b>. İkisi bir arada olduğu için burası tescilli bir **Karma Miras** alanıdır (Diğeri ise Nevşehir Kapadokya'dır). Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Gezegenimiz üzerindeki insanlığın ortak mirası olan kültürel ve doğal varlıkların korunması, sadece o varlığın bulunduğu ülkenin değil, tüm insanlığın ortak sorumluluğundadır. 
+        <br>Buna göre, dünya ortak mirasının korunmasında ve tescillenmesinde küresel ölçekte yetkili olan **Birleşmiş Milletler'e bağlı o meşhur uzmanlık kuruluşu** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) UNICEF</li>
+            <li>B) WHO (Dünya Sağlık Örgütü)</li>
+            <li>C) UNESCO</li>
+            <li>D) IMF</li>
+            <li>E) NATO</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Uluslararası örgütlerin alt kurumsal misyonlarını eşleştirelim. UNICEF çocuk hakları, WHO sağlık, IMF küresel finans, NATO ise askeri savunmadır.
+            <br>• Tüm dünyadaki kültürel, bilimsel ve tarihi ortak miras alanlarını denetleyen, "Dünya Miras Listesi"ni yayınlayarak buralara fon sağlayan Birleşmiş Milletler Eğitim, Bilim ve Kültür Örgütü kısa adıyla <b>UNESCO</b>'dur. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

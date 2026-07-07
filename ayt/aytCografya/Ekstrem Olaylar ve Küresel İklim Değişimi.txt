@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 2: Ekstrem Olaylar ve Küresel İklim Değişimi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #7c2d12, #0f172a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ffedd5; font-style: italic; }
+        h2 { color: #7c2d12; font-size: 16pt; border-left: 6px solid #ea580c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fff7ed; border: 1px dashed #f97316; border-left: 5px solid #ea580c; padding: 15px; margin: 18px 0; border-radius: 4px; color: #7c2d12; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #7c2d12; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #7c2d12; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #7c2d12; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 2: EKSTREM DOĞA OLAYLARI</h1>
+        <p>"Doğanın Sınırları: Ekstrem Olayların Köken Analizi ve Küresel İklim Değişiminin Mekânsal Sonuçları"</p>
+    </div>
+
+    <h2>1. DOĞADAKİ EKSTREM (SIRA DIŞI) OLAYLAR VE KÖKENLERİ</h2>
+    <p>Alışılmışın dışında olan, nadiren gerçekleşen ve oluştuğu bölgede devasa yıkımlara yol açan doğa olaylarına <b>ekstrem olaylar</b> denir. ÖSYM bu olayları oluşum kökenlerine göre gruplandırmayı çok sever:</p>
+
+    <h3>A) Astronomik Kökenli Ekstrem Olaylar</h3>
+    <p>Doğrudan uzay ve evren kaynaklı olaylardır. En bariz örneği <b>Gök Taşı (Meteor) Düşmesi</b>'dir. Büyük kütleli gök taşlarının yeryüzüne çarpması sonucu devasa kraterler oluşur, atmosfere yayılan toz bulutları güneş ışınlarını engelleyerek küresel buzul çağlarını tetikleyebilir (Dinazorların yok oluş teorisi).</p>
+
+    <h3>B) Meteorolojik ve Hidrometeorolojik Kökenli Ekstrem Olaylar</h3>
+    <p>Atmosfer ve su kaynaklı, hava durumuna endeksli sıra dışı olaylardır:</p>
+    <ul>
+        <li><b>Aşırı Sıcaklıklar ve Kuraklık:</b> Belirli bir bölgede sıcaklıkların uzun süre mevsim normallerinin üzerinde seyretmesiyle oluşur. Etki alanı **en geniş**, oluşum hızı ise **en yavaş (sinsi)** ekstrem olay kuraklıktır. Tarımsal üretimi sıfırlar, hidroelektrik üretimi düşürür ve kıtlığa yol açar.</li>
+        <li><b>Tropikal Fırtınalar (Kasırga, Tayfun, Hurricane):</b> Tropikal kuşakta (5&deg;-30&deg; enlemleri) ani basınç farkları ve sıcak deniz suları (27&deg;C üzeri) nedeniyle doğan, hızları saatte yüzlerce kilometreyi bulan dev yıkıcı rüzgarlardır.</li>
+    </ul>
+
+    <h3>C) Jeolojik ve Jeomorfolojik Kökenli Ekstrem Olaylar</h3>
+    <p>Doğrudan yer kabuğu, magma ve yer şekilleri kaynaklı ekstrem olaylardır:</p>
+    <ul>
+        <li><b>Depremler ve Süper Volkanlar:</b> Levha sınırlarında (Fay hatlarında) gerçekleşir. Endonezya'daki Toba veya ABD'deki Yellowstone gibi süper volkan patlamaları binlerce kilometrelik alanı küle boğabilir.</li>
+        <li><b>Tsunami:</b> Okyanus tabanlarında meydana gelen **deprem, volkan patlaması veya heyelanlar** sonucu tetiklenen, kıyıya yaklaştıkça devasa dalgalara (30-40 metre) dönüşen okyanus yıkımıdır.</li>
+        <li><b>Kütle Hareketleri (Heyelan, Çığ):</b> Eğimin, yağışın ve tabaka uzanışının etkisiyle toprağın kütle halinde kaymasıdır.</li>
+    </ul>
+
+    <h2>2. EKSTREM OLAYLARIN KÜRESEL HARİTA DAĞILIMI</h2>
+    <p>ÖSYM soru bankalarında dünya haritası üzerinde noktalar vererek ekstrem olay eşleştirmesi yapar. İşte o kritik bölgeler:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Ekstrem Olay Türü</th>
+                <th>Dünya Haritasındaki En Yoğun Bölge ve Noktalar</th>
+                <th>Coğrafi Neden-Sonuç İlişkisi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Deprem - Volkanizma - Tsunami</b></td>
+                <td>Pasifik Ateş Çemberi (Japonya, Endonezya, Şili), İzlanda, İtalya, Alp-Himalaya kuşağı.</td>
+                <td>Levha sınırları, aktif fay hatları ve okyanus tabanı hareketleri.</td>
+            </tr>
+            <tr>
+                <td><b>Tropikal Fırtınalar (Tayfun)</b></td>
+                <td>Meksika Körfezi (ABD), Bengal Körfezi (Hindistan), Güneydoğu Asya kıyıları (Filipinler, Çin).</td>
+                <td>**Ekvator çevresi ve sıcak okyanus suları.** (Türkiye gibi Orta Kuşak ülkelerinde sert kasırgalar görülmez).</td>
+            </tr>
+            <tr>
+                <td><b>Şiddetli Kuraklık</b></td>
+                <td>Afrika'nın **Sahel Bölgesi** (Sahra Çölü'nün güney şeridi), Avustralya'nın içleri, Orta Asya.</td>
+                <td>Yetersiz yağış, yüksek buharlaşma ve dinamik yüksek basınç alanları.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. KÜRESEL İKLİM DEĞİŞİMİ VE ZİNCİRLEME ETKİLERİ</h2>
+    <p>Sanayi Devrimi'nden beri fosil yakıtların aşırı kullanımı, ormansızlaşma ve yanlış tarım uygulamaları atmosferdeki sera gazlarını (CO2, Metan, Azot Oksit) tırmandırmıştır. Bu durum küresel sıcaklıkların artmasına, yani **Küresel İklim Değişimine** neden olmuştur.</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN ZİNCİRLEME REAKSİYON SORAR — EKOLOJİK DOMİNO ETKİSİ:</strong>
+        <br>Küresel ısınma sonucu gerçekleşen süreçler bir domino taşı gibi birbirini tetikler:
+        <br>1. Kutuplardaki **buzullar ve dağ buzulları hızla erir**.
+        <br>2. Eriyen buzullar **okyanus ve deniz seviyelerini yükseltir** (Kıyı kentleri ve delta ovaları sular altında kalma riski yaşar).
+        <br>3. Okyanus sularının tatlı suyla karışması, akıntı sistemlerini (**Gulf Stream**) bozarak bazı bölgelerde aşırı soğumaya, bazı yerlerde aşırı kuraklığa yol açar.
+        <br>4. Göller ve akarsular kurur, **biyoçeşitlilik hızla azalır**, mercanlar beyazlayarak ölür.
+        <br>5. Tarımsal üretim düşer, su kıtlığı başlar ve küresel ölçekte **İklim Göçleri** tetiklenir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Doğa olayları normal seyrinde devam ederken bazen bu seyrin dışına çıkarak o güne kadar görülmemiş büyüklükte veya sıklıkta gerçekleşebilir. Bunlara ekstrem olaylar denir. 
+        <br>Buna göre, aşağıdaki ekstrem doğa olaylarından hangisi **diğerlerinden farklı olarak jeolojik veya jeomorfolojik (yer kabuğu ve magmatik) kökenli değil, tamamen meteorolojik/hidrometeorolojik kökenlidir**?</div>
+        <ul class="options-list">
+            <li>A) Okyanus tabanındaki deprem sonucu oluşan devasa Tsunami dalgaları</li>
+            <li>B) Güneydoğu Asya kıyılarını saatte 250 km hızla vuran yıkıcı Tayfunlar</li>
+            <li>C) Süper volkan patlamasıyla binlerce kilometrekarelik alanın küllerle kaplanması</li>
+            <li>D) Yamaç dengesinin bozularak devasa bir toprak kütlesinin aşağı doğru kayması (Heyelan)</li>
+            <li>E) Aktif fay hatlarının kırılmasıyla meydana gelen şiddetli depremler</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Ekstrem olayların köken ayrımlarını zihnimizde netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Tsunami (A), Volkanizma (C), Heyelan (D) ve Deprem (E) doğrudan yer kabuğu, iç kuvvetler, magma veya yer şekilleriyle bağlantılı olduğu için **Jeolojik/Jeomorfolojik** kökenlidir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak B seçeneğindeki **Tayfunlar (Tropikal Fırtınalar)**, tamamen atmosferdeki ani basınç değişimleri ve yüksek sıcaklıklar nedeniyle oluşan meteorolojik (hava durumu) kökenli bir ekstrem olaydır. Yer kabuğuyla hiçbir bağı yoktur. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Ekstrem doğa olaylarının oluşum hızları ve etki süreleri birbirinden farklıdır. Bazı olaylar saniyeler içinde gerçekleşip biterken, bazıları yıllarca süren sinsi bir süreçle yayılır. 
+        <br>Buna göre, doğadaki ekstrem olaylar içerisinde **oluşum hızı en yavaş olan ancak etki alanı, yarattığı ekonomik ve sosyal yıkım en geniş olan** hidrometeorolojik ekstrem olay hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Deprem</li>
+            <li>B) Kasırga</li>
+            <li>C) Şiddetli Kuraklık</li>
+            <li>D) Çığ Düşmesi</li>
+            <li>E) Volkanik Patlama</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Ekstrem olayların zamansal karakteristiğini sorgulayan harika bir ÖSYM klasiğidir.
+            <br>• Deprem, çığ, kasırga ve volkanik patlamalar aniden, saniyeler veya saatler içinde gerçekleşen şok olaylardır. Ancak <b>Kuraklık</b>, yağışların aylarca, yıllarca azalmasıyla ortaya çıkan, ne zaman başladığı tam kestirilemeyen **en yavaş, en sinsi** gelişen ekstrem olaydır. Yavaş gelişmesine rağmen tüm su kaynaklarını, tarımı, hayvancılığı ve enerjiyi vurduğu için kıtlığa ve kitlesel göçlere yol açar, etkisi en geniş olaydır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir coğrafya araştırmacısı, dünya haritası üzerinde harikasını çalışırken Orta Kuşak'ta yer alan Türkiye, İtalya ve Yunanistan gibi Akdeniz ülkelerinde **saatte 200 kilometreyi aşan yıkıcı tropikal kasırgaların ve tayfunların hiçbir zaman yaşanmadığını** tespit etmiştir. 
+        <br>Bu durum Akdeniz kuşağındaki ülkelerin **öncelikle hangi coğrafi özelliğiyle** doğrudan açıklanabilir?</div>
+        <ul class="options-list">
+            <li>A) Geniş düzlüklere sahip olmalarıyla</li>
+            <li>B) Matematiksel konumları gereği Orta Kuşak'ta yer almaları, tropikal kuşaktaki o aşırı sıcak deniz sularından ve basınç merkezlerinden uzak olmalarıyla</li>
+            <li>C) Aktif fay hatları üzerinde bulunmalarıyla</li>
+            <li>D) Orman örtüsünün zengin olmasıyla</li>
+            <li>E) Ortalama yükseltilerinin fazla olmasıyla</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tropikal fırtınaların dünyadaki coğrafi koordinat şartını hatırlayalım: Adı üzerinde, bu fırtınalar sadece **Tropikal Kuşakta (5°-30° enlemleri arasında)**, okyanus sularının sıcaklığının 27°C'nin üzerine çıktığı devasa su kütlelerinde doğabilir.
+            <br>• Türkiye ve komşuları **Matematiksel Konumları** nedeniyle 36°-42° enlemlerinde, yani **Orta Kuşak**'ta yer alırlar. Bu kuşakta tropikal fırtınaları besleyecek devasa sıcak okyanus enerjisi bulunmadığı için buralarda kasırga, tayfun gibi yıkıcı ekstrem rüzgarlar görülmez. Temel neden enlemdir (B şıkkı).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Küresel iklim değişiminin yeryüzündeki fiziki çevre üzerindeki zincirleme etkileri düşünüldüğünde; kutuplardaki ve dağlardaki kalıcı buzulların hızla erimesinin **ardından gerçekleşecek bir sonraki zincirleme felaket adımı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Deprem sayısında ani bir patlama yaşanması</li>
+            <li>B) Okyanus ve deniz seviyelerinin yükselerek kıyı kentlerini, alçak delta ovalarını sular altında bırakma riski yaratması</li>
+            <li>C) Volkanik dağların tamamen sönmesi</li>
+            <li>D) Atmosferdeki ozon tabakasının kalınlaşması</li>
+            <li>E) Kayaçların fiziksel olarak ufalanmasının durması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin sormayı çok sevdiği "Ekolojik Domino Etkisi" mantığını yürütelim. Sıcaklık artar &rarr; Buzullar erir. Peki eriyen bu devasa katı buz suları nereye akar? Doğrudan denizlere ve okyanuslara dökülür.
+            <br>• Küresel ölçekte deniz seviyelerinin yükselmesi, deniz seviyesine çok yakın kurulmuş olan dev kıyı metropollerini (Örn: Amsterdam, New York, Venedik) ve tarımın kalbi olan verimli **delta ovalarını** sular altında kalma tehlikesiyle karşı karşıya bırakır. Zincirleme reaksiyonun bir sonraki fiziki adımı budur. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 2004 yılında Hint Okyanusu tabanında meydana gelen 9.1 büyüklüğündeki devasa bir deprem, başta Endonezya'nın Sumatra adası olmak üzere Tayland, Hindistan ve Sri Lanka kıyılarını vuran, yaklaşık 230 bin insanın ölümüne yol açan devasa tsunami dalgalarını tetiklemiştir. 
+        <br>Bu felaketin harita üzerindeki yerleri incelendiğinde, bu tarz jeolojik ekstrem olayların **dünyada en yoğun kümelendiği devasa jeopolitik kuşak** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) İskandinav Yarımadası kıyıları</li>
+            <li>B) Afrika'nın iç kesimleri (Kalahari Çölü çevresi)</li>
+            <li>C) Pasifik Ateş Çemberi (Büyük Okyanus levha sınırları) ve Hint Okyanusu kuşağı</li>
+            <li>D) Kanada'nın kuzeyindeki tundralar</li>
+            <li>E) Avustralya'nın iç çölleri</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Deprem, volkanizma ve okyanus tabanlı tsunamilerin dünyadaki mutlak harita adresini saptayalım. Dünyadaki levha sınırlarının, aktif kırılmaların ve magmatik sızıntıların en yoğun olduğu yer Büyük Okyanus (Pasifik) kıyılarıdır.
+            <br>• Coğrafya literatüründe bu bölgeye <b>Pasifik Ateş Çemberi</b> adı verilir. Japonya, Endonezya, Filipinler ve Şili bu kuşaktadır. Endonezya'da yaşanan bu tsunami de bu kırılgan levha hareketlerinin doğrudan bir sonucudur. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

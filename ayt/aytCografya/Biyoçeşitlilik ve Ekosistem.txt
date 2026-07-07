@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 1: Biyoçeşitlilik ve Ekosistem</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #065f46, #0284c7); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ccfbf1; font-style: italic; }
+        h2 { color: #047857; font-size: 16pt; border-left: 6px solid #10b981; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #10b981; border-left: 5px solid #047857; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #047857; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #047857; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #047857; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 1: BİYOÇEŞİTLİLİK VE EKOSİSTEM</h1>
+        <p>"Yaşam Kuşakları: Biyom Alanları, Enerji Piramidi ve Küresel Madde Döngülerinin Analitik Haritası"</p>
+    </div>
+
+    <h2>1. BİYOÇEŞİTLİLİĞİ ETKİLEYEN COĞRAFİ FAKTÖRLER</h2>
+    <p>Bir bölgedeki genlerin, türlerin ve ekosistemlerin oluşturduğu bütüne <b>biyoçeşitlilik</b> denir. Yeryüzünde canlıların dağılışı düzenli değildir, belirli faktörlere bağlıdır:</p>
+    <ul>
+        <li><b>Fiziki (Doğal) Faktörler:</b> En önemlisi <b>İklim</b> (Sıcaklık ve Yağış)'dir. Ekvatoral iklim gibi sıcak ve nemli bölgelerde biyoçeşitlilik tavan yaparken, çöl ve kutuplarda taban yapar. Yer şekilleri (Yükselti, bakı, dağların uzanışı) de kısa mesafede canlı türlerini değiştirir.</li>
+        <li><b>Paleocoğrafya (Geçmiş Dönem) Faktörleri:</b> **Kıtaların kayması** ve Kuvaterner'deki **İklim değişimleri (Buzul çağları)** canlıların göç etmesine, bazı türlerin yok olmasına (paleoendemik) yol açmıştır.</li>
+        <li><b>Biyolojik Faktörler:</b> İnsan faaliyetleri (barajlar, sanayileşme, avlanma, orman tahribatı) canlı dağılışını en çok bozan etkendir.</li>
+    </ul>
+
+    <h2>2. YERYÜZÜNDEKİ BAŞLICA BİYOM TÜRLERİ VE HARİTA ŞİFRELERİ</h2>
+    <p>Benzer bitki ve hayvan topluluklarını barındıran geniş coğrafi alanlara <b>biyom</b> denir. Genellikle iklim kuşaklarıyla paralellik gösterirler:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Biyom Adı</th>
+                <th>Genel İklim ve Bitki Örtüsü Özellikleri</th>
+                <th>ÖSÜM Odaklı Coğrafi Konum Şifreleri (Dünya Haritası)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Tropikal Yağmur Ormanları</b></td>
+                <td>Her mevsim sıcak ve yağışlı. Yıl boyu yeşil kalan geniş yapraklı ormanlar. Biyoçeşitliliğin **en zengin** olduğu yerdir.</td>
+                <td>Amazon Havzası (Brezilya), Kongo Havzası (Orta Afrika), Endonezya ve Malezya adaları.</td>
+            </tr>
+            <tr>
+                <td><b>Savan Biyomu</b></td>
+                <td>Yazı yağışlı tropikal iklim. Uzun boylu otsu savanlar. Belgesellerin çekildiği aslan, zebra, zürafa yuvası.</td>
+                <td>10&deg;-20&deg; Kuzey ve Güney enlemleri arası (Afrika'nın orta kesimlerinin çevresi).</td>
+            </tr>
+            <tr>
+                <td><b>Çöl Biyomu</b></td>
+                <td>Yıllık yağış yok denecek kadar az. Su depolayan kaktüsler, derin köklü kurakçıl çalılar. Gece-gündüz sıcaklık farkı devasa.</td>
+                <td>Kuzey Afrika (Büyük Sahra), Avustralya'nın iç kesimleri (Victoria), Arabistan ve Orta Asya'nın içleri (Gobi).</td>
+            </tr>
+            <tr>
+                <td><b>Tundra Biyomu</b></td>
+                <td>Yılın 10 ayı donmuş toprak, yazın çözülen bataklıkta doğan yosunlar, likenler. Sıcaklık 10&deg;C'yi geçmez.</td>
+                <td>Kutupların hemen çevresi; Sibirya'nın kuzeyi, Kanada'nın kuzeyi ve Grönland kıyıları.</td>
+            </tr>
+            <tr>
+                <td><b>Çalı (Akdeniz) Biyomu</b></td>
+                <td>Yazları sıcak ve kurak, kışları ılık ve yağışlı. Bodur ağaç ve çalılardan oluşan **Maki, Garig, Psödomaki**.</td>
+                <td>Akdeniz Havzası, California (ABD), Kap Bölgesi (Güney Afrika), Orta Şili, Avustralya'nın güneybatısı.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. EKOSİSTEMLERİN İŞLEYİŞİ: BESİN ZİNCİRİ VE ENERJİ AKIŞI</h2>
+    <p>Ekosistemde enerji akışı **tek yönlüdür** ve güneşten başlar. Canlılar beslenme ilişkilerine göre bir piramit oluşturur. Piramidin en altında kendi besinini üreten <b>Üreticiler (Bitkiler/Ototroflar)</b> bulunur. Üreticilerle beslenenler *Birincil Tüketiciler (Otçullar)*, onlarla beslenenler *İkincil Tüketiciler (Etçiller)* ve en üsttekiler *Üçüncül Tüketiciler (Hepçiller)* olarak sıralanır. Her basamakta organik atıkları ayrıştıran <b>Ayrıştırıcılar (Mantar ve Bakteriler)</b> her seviyede görev yapar.</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN YÜZDE HESABI SORAR — %10 YASASI:</strong>
+        <br>Besin piramidinde **aşağıdan yukarıya doğru** çıkıldıkça:
+        <br>1. Biyokütle (canlı ağırlığı sumamı) ve birey sayısı **azalır**.
+        <br>2. Enerji akışında, her basamak bir üst basamağa enerjisinin **sadece %10'unu** aktarabilir (%90'ı ısı ve solunumla kaybolur).
+        <br>3. Dokularda biriken zehirli madde miktarı (<b>Biyolojik Birikim</b>) yukarı çıkıldıkça **artar** (En üstteki canlıda zehir en fazladır).
+    </div>
+
+    <h2>4. KÜRESEL MADDE DÖNGÜLERİNİN JEOPOLİTİK ŞİFRELERİ</h2>
+    <p>Doğadaki maddelerin canlı ve cansız çevre arasında sürekli olarak sirküle etmesine madde döngüsü denir. Sınavda en çok karbon ve azot döngüsü elenir:</p>
+
+    <div class="memory-box">
+        <strong>👑 KARBON DÖNGÜSÜ (Doğanın Nefesi):</strong>
+        <br>&bull; <i>Karbon Tüketen (Doğadan Eksilten) Olaylar:</i> **Fotosentez** (bitkilerin CO2 alması), deniz canlılarının kabuk oluşumu, kireç taşı (kalker) oluşumu, fosil yakıtların (kömür, petrol) oluşumu.
+        <br>&bull; <i>Karbon Üreten (Doğaya CO2 Salan) Olaylar:</i> Canlıların **solunumu**, fosil yakıtların **yakılması** (Fabrika, araba), orman yangınları, kireç taşının ayrışması ve volkanik patlamalar. Fosil yakıtların aşırı yakılması karbon dengesini bozarak **Sera Etkisine** ve küresel ısınmaya yol açar.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 AZOT (NİTROJEN) DÖNGÜSÜ (%78'lik Gizem):</strong>
+        <br>Atmosferin %78'i azottur ancak canlılar bu gazı doğrudan soluyarak kullanamazlar. Azotun toprağa bağlanması (bağlanma/fiksasyon) gerekir.
+        <br><b>💡 Döngü Formülü:</b> Yıldırım, şimşek patlamaları ve volkanik faaliyetler havadaki azotu yüksek enerjiyle açığa çıkarır. Yağmurlarla toprağa inen azot, baklagillerin kökündeki **Rhizobium bakterileri** tarafından tutulur. Topraktaki amonyak önce nitrite, sonra bitkilerin emebileceği **NİTRAT**'a dönüşür (<b>Nitrifikasyon</b>). Bitkiler bu nitratı alır, besin zinciriyle hayvanlara geçer. Ölen canlıların bünyesindeki azotun tekrar gaz olarak atmosfere salınmasına ise <b>Denitrifikasyon</b> denir.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Coğrafya dersinde harita üzerinde taralı alanları inceleyen bir öğrenci; Amazon Havzası, Kongo Havzası ve Güneydoğu Asya adalarının (Endonezya/Malezya) biyoçeşitlilik açısından yeryüzünün en zengin bölgeleri olduğunu fark etmiştir. 
+        <br>Buna göre, bahsedilen bu bölgelerin biyoçeşitlilik zenginliğinde etkili olan **en temel fiziki/iklimsel faktör** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yıllık sıcaklık farklarının aşırı yüksek olması</li>
+            <li>B) Her mevsimin sıcak, nemli ve düzenli bol yağışlı (Ekvatoral iklim) olması sayesinde bitki ve hayvan yaşamına ideal koşul sunması</li>
+            <li>C) Geniş düzlüklerin ve platoların yer kaplaması</li>
+            <li>D) Toprak yapısının tamamen kireçli ve çorak olması</li>
+            <li>E) Paleocoğrafya dönemlerinde buzul istilasına uğramış olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Bahsedilen bölgelerin dünya haritasındaki jeopolitik iklim koordinatını saptayalım: Amazon, Kongo ve Endonezya **Ekvator çizgisi** üzerindedir. 
+            <br>• Ekvatoral iklim kuşağında sıcaklık yıl boyu yüksek, yağış ise her mevsim düzenli ve boldur. Bu nemli/sıcak ortam bitkilerin kesintisiz büyümesini (Tropikal Yağmur Ormanları) ve bu ormanların katmanlarında milyonlarca farklı böcek, kuş, memeli ve sürüngen türünün barınmasını sağlamıştır. Canlı çeşitliliğinin bir numaralı yakıtı **Sıcaklık ve Nem (Yağış)** ikilisidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Besin piramidinde üreticilerden (tabandan) başlayarak en üst tüketici basamağına (zirveye) doğru dikey bir yön izlendiğinde; ekosistemin enerji ve biyolojik kütle kurallarına göre **hangi parametrenin artması** beklenir?</div>
+        <ul class="options-list">
+            <li>A) Toplam biyokütle miktarı</li>
+            <li>B) Birey ve popülasyon sayısı</li>
+            <li>C) Bir üst basamağa aktarılan net enerji miktarı</li>
+            <li>D) Canlıların dokularında biriken kimyasal/zehirli atık miktarı (Biyolojik Birikim)</li>
+            <li>E) Üretilen oksijen hacmi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Besin piramidinin dikey işleyiş kurallarını ameliyat edelim: 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Aşağıdan yukarı çıkıldıkça bitkilerden etçillere doğru gidildiği için toplam canlı ağırlığı (biyokütle) ve birey sayısı azalır (A ve B elenir). 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - %10 yasası gereği aktarılan enerji her katta 10 kat azalır, yani enerji düşer (C elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak doğaya salınan ağır metaller, pestisitler ve zehirli maddeler canlıların yağ dokularında birikir ve dışarı atılamaz. Piramidin en altındaki binlerce bitkideki zehir, yukarıdaki otçullara, onlardan da en tepedeki etçile (hepçile) geçerek süzülür. Dolayısıyla piramidin en tepesindeki canlı, alt basamaklardaki tüm zehri bünyesinde topladığı için <b>Biyolojik Birikim (Zehir miktarı) yukarı çıkıldıkça KESİN OLARAK ARTAR</b>. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Atmosfer ile yeryüzü arasında karbon dengesi sürekli bir alışveriş halindedir. Buna göre, insanoğlunun sanayileşme süreçlerinde enerji üretmek amacıyla kömür, petrol ve doğal gaz gibi **fosil yakıtları aşırı ve kontrolsüz şekilde yakması**, karbon döngüsünde nasıl bir kırılma yaratır ve neye yol açar?</div>
+        <ul class="options-list">
+            <li>A) Atmosferdeki karbon miktarını azaltarak fotosentezi durdurur.</li>
+            <li>B) Atmosferde serbest CO2 birikimini tırmandırarak "Sera Etkisi" yaratır, bu da küresel iklim değişimlerine ve buzulların erimesine neden olur.</li>
+            <li>C) Kireç taşlarının oluşumunu hızlandırır.</li>
+            <li>D) Azot döngüsünü tamamen ortadan kaldırır.</li>
+            <li>E) Okyanuslardaki su seviyesini kurutur.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Fosil yakıtların kimyasal ve coğrafi etkisini yorumlayalım: Milyonlarca yıl boyunca yer altında sıkışıp kalan kömür ve petrol devasa bir karbon deposudur. 
+            <br>• İnsanoğlunun bu depoları çıkarıp fabrikalarda, arabalarda yakması (oksijenle birleştirmesi), atmosfere muazzam miktarda **karbondioksit (CO2)** gazı pompalar. Atmosferde biriken bu CO2 tabakası, güneşten gelen ışınların uzaya geri yansımasını engelleyerek dünyayı bir sera gibi ısıtır (<b>Sera Etkisi</b>). Bu durum günümüzün en büyük küresel çevre krizi olan **Küresel İklim Değişikliğini** doğurur. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Havada serbest halde bulunan azot gazının (%78) bitkiler tarafından emilebilmesi ve besin zincirine dahil olabilmesi için öncelikle toprağa bağlanarak **Nitrat** tuzlarına dönüşmesi gerekir. 
+        <br>Aşağıdaki doğal olaylardan hangisi, havadaki azotu yüksek enerjiyle kırarak toprağa inmesini sağlayan **en etkili meteorolojik kırılmadır**?</div>
+        <ul class="options-list">
+            <li>A) Sis ve bulut oluşumu</li>
+            <li>B) Düzenli rüzgarların esmesi</li>
+            <li>C) Yıldırım ve şimşek patlamaları ile volkanik faaliyetler</li>
+            <li>D) Gelgit (medcezir) olayları</li>
+            <li>E) Kar ve dolu yağışları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Azotun toprağa fiksasyon (bağlanma) mekanizmasını inceleyelim: Atmosferdeki azot (N2) molekülleri birbirine çok sıkı üçlü bağlarla bağlıdır, bu bağı koparmak için devasa bir elektrik/elektromanyetik enerji gerekir.
+            <br>• Gökyüzünde çakan **şimşekler ve yıldırımlar** ile yeryüzünde patlayan **volkanlar**, ortaya çıkardıkları bu muazzam enerjiyle havadaki azotu oksijenle birleştirerek azot oksitlere dönüştürür. Bu maddeler yağmurlarla toprağa akar ve bakteriler vasıtasıyla bitkilerin kökleriyle içebileceği <b>Nitrat</b> formuna dönüşür. Yani döngünün ilk kıvılcımı yıldırımlardır. Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 
+            <i>"Yazları sıcak ve kurak, kışları ılık ve yağışlı geçen iklim bölgelerinde görülür. Kuraklığa dayanıklı, yaprakları kadifemsi ve tüylü, bodur ağaççıklardan oluşan maki, garig gibi bitki toplulukları bu biyomun ana örtüsüdür. Akdeniz Havzası, California ve Güney Afrika'nın Kap bölgesi en bariz yayılış alanlarıdır."</i>
+            <br>Yukarıda coğrafi ve bitki örtüsü şifreleri verilen **biyom türü** aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Savan Biyomu</li>
+            <li>B) Tundra Biyomu</li>
+            <li>C) Çalı (Akdeniz) Biyomu</li>
+            <li>D) İğne Yapraklı Orman Biyomu</li>
+            <li>E) Ilıman Çayırlar Biyomu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraftaki ÖSYM nokta atışı anahtar kelimeleri yakalayalım: "Yazları sıcak kurak, kışları ılık yağışlı (Akdeniz iklimi)", **"Maki, Garig bitki örtüsü"** ve "Akdeniz havzası, California, Kap bölgesi lokasyonları".
+            <br>• Bu özelliklerin tamamı coğrafya literatüründe Akdeniz iklim kuşağını temsil eden <b>Çalı Biyomu</b>'na aittir. Bodur ağaçlar olan makiler kuraklığa karşı yapraklarını kadifemsi tüylerle korurlar. Doğru cevap C şıkkıdır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 5: Ekonomik Faaliyetler ve Türkiye Ekonomisi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #0f766e, #115e59); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ccfbf1; font-style: italic; }
+        h2 { color: #0f766e; font-size: 16pt; border-left: 6px solid #14b8a6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #14b8a6; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0f766e; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0f766e; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0f766e; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 5: EKONOMİK FAALİYETLER VE TÜRKİYE EKONOMİSİ</h1>
+        <p>"Üretim ve Kaynak Atlası: Doğal Kaynak Yönetimi, Sektörel Dağılım ve Türkiye Maden Jeopolitiği"</p>
+    </div>
+
+    <h2>1. ÜRETİM, DAĞITIM VE TÜKETİMİ ETKİLEYEN COĞRAFİ FAKTÖRLER</h2>
+    <p>Mal ve hizmetlerin sağlanmasına **üretim**, bunların tüketiciye ulaştırılmasına **dağıtım**, mal ve hizmetlerin kullanılmasına ise **tüketim** denir. 
+    <br>&bull; <b>Doğal Faktörler:</b> İklim (tarımsal üretimi ve ulaşımı/dağıtımı doğrudan belirler), Yer şekilleri (dağlık alanlar dağıtımı engeller), Hammadde kaynakları ve Su kaynakları (sanayi yer seçiminde etkilidir).
+    <br>&bull; <b>Beşerî Faktörler:</b> Üretim için *sermaye, iş gücü, teknoloji*; dağıtım için *ulaşım ağları, pazarlama, modern taşımacılık*; tüketim için ise *nüfus, gelir düzeyi, moda ve ihtiyaçlar* belirleyicidir.</p>
+
+    <h2>2. TÜRKİYE'DE TARIM VE HAYVANCILIĞIN STRATEJİK YAPISI</h2>
+    <p>Türkiye'de tarımda verimi artırmanın en temel yolu <b>SULAMA</b>'dır. Sulama sorunu çözüldüğünde nadas alanları azalır, üretimde dalgalanma biter ve yılda birden fazla ürün alınabilir. **GAP** (Güneydoğu Anadolu Projesi) ile Güneydoğu'da, **KOP** (Konya Ovası Projesi) ile İç Anadolu'da pamuk, mısır ve şeker pancarı üretimi tavan yapmıştır.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN TUZAK KURAR — MODERN vs GELENEKSEL TARIM:</strong>
+        <br>1. <b>İntansif (Entansif - Modern) Tarım:</b> Sulama, gübreleme, makineleşme ve kaliteli tohum kullanılır. Dar alandan en yüksek verim alınır. Hava durumuna bağımlılık **azdır**, üretimde dalgalanma **yoktur**. (Örn: Çukurova, Antalya seraları).
+        <br>2. <b>Ekstansif (Geleneksel) Tarım:</b> Doğaya, yağışa bağımlıdır. İlkel yöntemler uygulanır. Verim düşüktür, üretimde yıllara göre dalgalanma **fazladır**. (Örn: Doğu Anadolu içleri).
+    </div>
+
+    <h3>Türkiye'de Hayvancılık Türleri ve Coğrafi Eşleşmeleri:</h3>
+    <ul>
+        <li><b>Büyükbaş Hayvancılık (Mera):</b> Yaz yağışlarıyla yeşeren gür Alpin çayırlarının bulunduğu **Erzurum-Kars-Ardahan** platosunda yaygındır. Doğaya bağımlıdır.</li>
+        <li><b>Büyükbaş Hayvancılık (Besi-Ahır):</b> Doğaya bağımlı <u>değildir</u>. Tüketici nüfusun (pazarın) fazla olduğu **Marmara ve Ege'de (büyük kentlerin çevresinde)** yoğunlaşmıştır.</li>
+        <li><b>Küçükbaş Hayvancılık:</b> Bozkır (step) bitki örtüsünün ve düzlüklerin yaygın olduğu **İç Anadolu ve Güneydoğu Anadolu**'da koyun; dağlık/engebeli Akdeniz (Teke ve Taşeli platoları) matoral alanlarında ise kıl keçisi yaygındır.</li>
+        <li><b>Kümes Hayvancılığı:</b> İklimden etkilenmez (kapalı tesis). **Büyük şehirlere yakın yerlerde (Marmara/Ege)** pazar odaklı kurulmuştur.</li>
+        <li><b>Arıcılık:</b> Bitki çeşitliliğinin fazla, engebeli alanlarda tavan yapar. Muğla (Çam balı), Ordu, Hakkari, Kars, Rize (Anzer).</li>
+    </ul>
+
+    <h2>3. ÖSYM'NİN EN SEVDİĞİ ALAN: TÜRKİYE MADEN HARİTASI VE ŞİFRELERİ</h2>
+    <p>Türkiye, jeolojik yapısının karmaşıklığı ve farklı dönemlerde volkanik faaliyetlere uğraması nedeniyle **maden çeşitliliği en zengin** ülkelerden biridir. Maden çeşitliliğinin en fazla olduğu bölge <b>Doğu Anadolu Bölgesi</b>, bölüm ise <b>Yukarı Fırat Bölümü (Elazığ - Malatya çevresi)</b>'dur.</p>
+
+    <div class="memory-box">
+        <strong>👑 DEMİR (Sanayinin Omurgası):</strong>
+        <br>&bull; <i>En Hayati Çıkarım Yerleri:</i> <b>Sivas (Divriği)</b>, <b>Malatya (Hekimhan - Hasançelebi)</b>.
+        <br>&bull; <i>İşleme Tesisleri:</i> Karabük ve Ereğli (Zonguldak) Demir-Çelik fabrikaları (Neden buradalar? Taş kömürüne yani **Enerji Kaynağına Yakınlık**), İskenderun Demir-Çelik fabrikası (Neden burada? **Ulaşım/Liman Avantajı**).
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 BAKIR (Elektrik - Elektronik):</strong>
+        <br>&bull; <i>Çıkarım Yerleri (Kodlama: <b>KADER</b>):</i> <b>K</b>astamonu (Küre), <b>A</b>rtvin (Murgul), <b>D</b>iyarbakır (Ergani), <b>E</b>lazığ (Maden), <b>R</b>ize (Çayeli).
+        <br>&bull; <i>İşleme Tesisi:</i> **Samsun Bakır İşletmeleri** (Samsun'da bakır yatağı yoktur, fabrikanın kurulma nedeni tamamen **Ulaşım ve Hinterlandı geniş Liman** özelliğidir). Artvin Murgul'da ise hammaddeye yakınlıktan kurulmuştur.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 BOR MİNERALİ (Dünya Rezerv Lideri - %70'den fazlası):</strong>
+        <br>&bull; Jet ve roket yakıtı, cam, nükleer sanayi, ilaç yapımı.
+        <br>&bull; <i>Yatakları:</i> Balıkesir (Bigadiç), Kütahya (Emet), Eskişehir (Kırka), Bursa (Mustafakemalpaşa). (Güney Marmara ve İç Batı Anadolu hattı).
+        <br>&bull; <i>İşleme Tesisleri:</i> Bandırma (Balıkesir) ve Kırka (Eskişehir) boraks fabrikaları.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 BOKSİT (Alüminyumun Hammaddesi) & KROM (Paslanmaz Çelik):</strong>
+        <br>&bull; <b>Boksit Yatakları:</b> <b>Antalya (Akseki)</b>, <b>Konya (Seydişehir)</b>. Seydişehir'de devasa alüminyum tesisi işler.
+        <br>&bull; <b>Krom Yatakları:</b> <b>Elazığ (Guleman)</b> - En büyük yatak burasıdır. Muğla (Fethiye-Köyceğiz).
+        <br>&bull; <i>İşleme Tesisleri:</i> Elazığ ve Antalya Ferro-Krom fabrikaları.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Türkiye'de modern tarım yöntemlerinin (İntansif/Entansif) uygulandığı Adana Çukurova ve Antalya kıyı seralarında, tarımsal üretimde yıllara göre dalgalanma neredeyse hiç görülmezken ve dar alandan devasa yüksek verim alınırken; Doğu Anadolu'nun bazı iç kesimlerinde geleneksel tarım (Ekstansif) yapıldığı için üretimde yıldan yıla büyük dalgalanmalar yaşanmaktadır. 
+        <br>Bu durum geleneksel tarım yöntemlerinin **öncelikle aşağıdaki faktörlerin hangisine olan katı bağımlılığından** kaynaklanmaktadır?</div>
+        <ul class="options-list">
+            <li>A) Toprağın eğim ve engebe durumuna</li>
+            <li>B) Doğal iklim koşullarına, özellikle de yıllık ve mevsimlik yağış miktarına</li>
+            <li>C) Tüketici pazar alanlarının uzaklığına</li>
+            <li>D) Bölgede kullanılan tarım işçisi sayısına</li>
+            <li>E) Tohum ıslah çalışmalarının maliyetine</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tarım metotlarının doğal çevreyle olan ilişkisini analiz edelim. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Modern tarımda sulama ve teknoloji olduğu için o yıl yağmur yağmasa bile barajlardan su verilerek ürün kurtarılır, doğaya bağımlılık azdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Geleneksel (Ekstansif) tarımda ise sulama altyapısı yetersizdir. Çiftçi tamamen gökten yağacak yağmura muhtaçtır. Eğer o yıl kurak geçerse üretim çöker, yağışlı geçerse üretim tavan yapar. Bu durum <b>üretimde yıllara göre istikrarsızlık (dalgalanma)</b> yaratır. Temel neden **Doğal İklim Koşullarına/Yağışa Bağımlılıktır**. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Türkiye'de hayvancılık faaliyetlerinin coğrafi dağılışı incelendiğinde; kümes hayvancılığı ile besi-ahır hayvancılığının Doğu Anadolu veya Karadeniz'in kırsal alanları yerine, **yoğun olarak İstanbul, Kocaeli, Bursa, İzmir gibi Marmara ve Ege'nin dev metropollerinin çevresinde** kümelendiği görülmektedir. 
+        <br>Bu hayvancılık tesislerinin yer seçiminde iklim veya yer şekilleri etkili olmadığına göre, **asıl belirleyici beşerî faktör** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bölgedeki geniş otlak ve mera varlığı</li>
+            <li>B) Bitki çeşitliliğinin fazla olması</li>
+            <li>C) Muazzam büyüklükteki tüketici nüfusa (pazara) yakınlık ve nakliye/ulaşım kolaylığı</li>
+            <li>D) İş gücü maliyetinin buralarda çok ucuz olması</li>
+            <li>E) Yıllık yağış miktarının fazla olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Hayvancılık türlerinin pazar ile olan mekânsal bağını kuralım. Kümes hayvancılığı ve besi-ahır hayvancılığı tamamen kapalı, modern, endüstriyel tesislerde icra edilir. Dışarıdaki kar, yağmur veya otlak bu hayvanları ilgilendirmez, dolayısıyla fiziki çevre faktörlerinden bağımsızdırlar.
+            <br>• Bu tarz entegre et ve süt tesisleri ürettikleri ürünleri bozunmadan, taze olarak hızla satmak isterler. Marmara ve Ege bölgesi Türkiye nüfusunun ve sanayisinin kalbidir, yani dev bir **tüketim havzasıdır**. Bu tesislere yakın kurulmalarının yegane sebebi <b>Pazara/Tüketici Nüfusa Yakınlık</b> ilkesidir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Sivas'ın Divriği ve Malatya'nın Hekimhan yataklarından çıkarılan zengin demir cevherleri, çıkarıldıkları bu şehirlerde işlenmek yerine tren hatlarıyla yüzlerce kilometre taşınarak **Zonguldak Ereğli ve Karabük Demir-Çelik fabrikalarına** götürülür ve orada eritilerek işlenir. 
+        <br>Demir-çelik sanayisinde Karabük ve Ereğli şehirlerinin fabrika yeri olarak seçilmesindeki **temel coğrafi gerekçe** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bölgede demir madeninin çok zengin olması</li>
+            <li>B) Demir cevherini eritmek için ihtiyaç duyulan yüksek kalorili **Taş Kömürü (Enerji Kaynağı) yataklarının** bu bölgede bulunması</li>
+            <li>C) İş gücü potansiyelinin batı karadenizde fazla olması</li>
+            <li>D) Fabrika sahalarının düz arazilerden oluşması</li>
+            <li>E) Akarsu ağının çok yoğun olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sanayi coğrafyasının en meşhur yer seçimi kuralını test edelim: Kuruluş ilkeleri; hammaddeye yakınlık, enerjiye yakınlık, pazara yakınlık veya ulaşımdır. Demiri eritmek sıradan bir ısıyla mümkün değildir, 1000°C'nin üzerinde devasa bir enerji gerekir ve bunu Türkiye'de sadece Zonguldak havzasındaki **Taş Kömürü** sağlar.
+            <br>• Sivas ve Malatya'dan gelen demir madeni, taş kömürünün ayağına götürülür. Dolayısıyla Karabük ve Ereğli'deki fabrikaların yer seçimi tamamen <b>Enerji Kaynağına Yakınlık</b> ilkesiyle açıklanır. İskenderun'daki fabrika ise liman/ulaşım odaklıdır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Türkiye maden yataklarının coğrafi dağılışı incelendiğinde, bakır madeninin çıkarım yerlerini ezberlemek isteyen bir öğrenci coğrafya öğretmeninin tavsiyesiyle **"KADER"** akrostiş şifresini defterine yazmıştır. 
+        <br>Buna göre, aşağıda verilen şehir ve maden ocağı eşleştirmelerinden hangisi bu şifre zincirinin ve **bakır madeninin çıkarım alanlarının dışında kalır**?</div>
+        <ul class="options-list">
+            <li>A) Kastamonu - Küre</li>
+            <li>B) Artvin - Murgul</li>
+            <li>C) Elazığ - Maden</li>
+            <li>D) Balıkesir - Bigadiç</li>
+            <li>E) Rize - Çayeli</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Maden harita şifresini işletelim: **KADER** formülünün harflerini açıyoruz:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **K**astamonu (Küre) &rarr; Bakır yatağıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **A**rtvin (Murgul) &rarr; Bakır yatağıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **D**iyarbakır (Ergani) &rarr; Bakır yatağıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **E**lazığ (Maden) &rarr; Bakır yatağıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **R**ize (Çayeli) &rarr; Bakır yatağıdır.
+            <br>• Ancak D seçeneğindeki <b>Balıkesir Bigadiç, bakır değil; Türkiye'nin ve dünyanın en stratejik rezervi olan BOR MİNERALİ</b> yataklarının merkezidir. Bakırla ilgisi yoktur. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Karadeniz Bölgesi'nde bakır madeni yatakları bulunmamasına rağmen, **Samsun şehri Karadeniz Bölgesi'nin en büyük bakır işleme tesisine (Samsun Bakır İşletmeleri)** ev sahipliği yapmaktadır. 
+        <br>Samsun'da hammadde bulunmadığı halde bu fabrikanın buraya kurulmasının **asıl nedeni** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Samsun'un ikliminin bakır işlemeye çok uygun olması</li>
+            <li>B) Şehirde iş gücü maliyetlerinin çok düşük olması</li>
+            <li>C) Samsun'un engebeli yer şekillerine sahip olması</li>
+            <li>D) Samsun'un gelişmiş ulaşım altyapısına, demir yolu bağlantısına ve hinterlandı (art bölgesi) çok geniş, işlek bir limana sahip olması</li>
+            <li>E) Bölgede su kaynaklarının aşırı fazla olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sanayi coğrafyasının liman ve ulaşım ilişkisini sorgulayan muazzam bir ÖSYM klasiğidir. Kastamonu Küre, Murgul ve Çayeli'nden çıkarılan bakır madenleri gemilerle ve araçlarla Samsun'a taşınır.
+            <br>• Samsun, Orta Karadeniz'de dağların arkadan uzanması sayesinde iç kesimlerle **demir yolu ve kara yolu** bağlantısı olan, Karadeniz'in en işlek **liman kentidir**. Hammaddenin deniz yoluyla dünyaya ihraç edilmesini kolaylaştıran bu devasa **Ulaşım ve Hinterland Avantajı**, Samsun'u maden olmamasına rağmen fabrika üssü yapmıştır. Doğru şık D'dir.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 10: Küresel ve Bölgesel Örgütler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #1e1b4b, #1e3a8a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #dbeafe; font-style: italic; }
+        h2 { color: #1e1b4b; font-size: 16pt; border-left: 6px solid #2563eb; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #1e3a8a; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #16a34a; border-left: 5px solid #15803d; padding: 15px; margin: 18px 0; border-radius: 4px; color: #14532d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e1b4b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e1b4b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 10: ÜLKELER ARASI ETKİLEŞİM VE KÜRESEL ÖRGÜTLER</h1>
+        <p>"Diplomasi Masası: Küresel Siyasi, Askeri, Ekonomik Paktlar ve Türkiye'nin Uluslararası Rolü"</p>
+    </div>
+
+    <h2>1. KÜRESEL ÖRGÜTLER VE TÜRKİYE'NİN ÜYELİK STATÜLERİ</h2>
+    <p>Uluslararası örgütler; kuruluş amaçlarına (siyasi, askeri, ekonomik, çevre) ve etki alanlarına (küresel veya bölgesel) göre sınıflandırılır. ÖSYM bu örgütlerin misyonlarını doğrudan test eder:</p>
+
+    <h3>A) Siyasi Örgütler</h3>
+    <p>&bull; <b>Birleşmiş Milletler (BM):</b> II. Dünya Savaşı'nı kazanan devletlerin liderliğinde, küresel barış ve güvenliği korumak amacıyla 1945'te kurulmuştur. **Türkiye, BM'nin KURUCU üyelerinden biridir.**</p>
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN KESİN SORAR — BM VETO SİSTEMİ (FİRCHA):</strong>
+        <br>BM Güvenlik Konseyi'nin alınan kararları tek başına engelleme (veto) hakkına sahip 5 daimi üyesi vardır. Bu ülkeler onaylamazsa BM karar alamaz. (Kodlama: <b>FİRCHA</b>):
+        <br>&bull; <b>F</b>ransa, <b>İ</b>ngiltere, <b>R</b>usya, <b>C</b>hin (Çin), <b>H</b>epsi &rarr; <b>A</b>BD. (Dünya beşten büyüktür sözünün odağı burasıdır).
+    </div>
+
+    <h3>B) Askeri Örgütler</h3>
+    <p>&bull; <b>NATO (Kuzey Atlantik Antlaşması Örgütü):</b> 1949'da Sovyet Rusya (SSCB) tehdidine karşı Batı Bloğu ülkeleri (ABD liderliğinde) tarafından kurulan ortak savunma paktıdır. Üye ülkelerden birine yapılan askeri saldırı, tüm üyelere yapılmış sayılır. **Türkiye, Kore Savaşı'na asker göndererek sergilediği askeri deha sonrası 1952 yılında NATO'ya üye olmuştur.**</p>
+
+    <h3>C) Ekonomik Örgütler</h3>
+    <ul>
+        <li><b>OPEC (Petrol İhraç Eden Ülkeler Örgütü):</b> 1960'ta Bağdat'ta kurulmuştur. Amaç; petrol fiyatlarını ve üretim miktarlarını küresel ölçekte belirlemektir. **Türkiye üye değildir.** (Kurucular: Suudi Arabistan, İran, Irak, Kuveyt, Venezuela). Bir kartel örgütüdür.</li>
+        <li><b>IMF (Uluslararası Para Fonu) ve Dünya Bankası:</b> Küresel finansal istikrarı sağlamak, gelişmekte olan ülkelere kredi ve yapısal destek vermek amacıyla kurulmuştur. **Türkiye üyedir.**</li>
+        <li><b>OECD (Ekonomik İşbirliği ve Kalkınma Örgütü):</b> Küresel ekonomiyi ve ticareti geliştirmek amacıyla kurulmuştur. **Türkiye kurucu üyedir.**</li>
+        <li><b>G-20 (Gelişmiş 20 Ülke):</b> Dünyanın ekonomik olarak en büyük 19 ülkesi ve Avrupa Birliği Komisyonu'ndan oluşur. Küresel finansal krizleri çözmeyi hedefler. **Türkiye bu dev ekonomik masanın daimi üyesidir.**</li>
+    </ul>
+
+    <h2>2. BÖLGESEL ÖRGÜTLER VE ENTEGRASYONLAR</h2>
+    
+    <h3>A) Avrupa Birliği (AB) — Küresel Güç Odağı</h3>
+    <p>1951 yılında **Avrupa Kömür ve Çelik Topluluğu** (Roma Anlaşması) olarak temelleri atılan, günümüzde ise tek bir para birimi (Euro) ve ortak sınırları (Schengen) olan devasa bir siyasi/ekonomik bölgesel entegrasyondur. İngiltere yakın zamanda birlikten ayrılmıştır (Brexit). **Türkiye, AB'ye tam üye değildir; aday ülke statüsündedir.**</p>
+
+    <h3>B) KEİ (Karadeniz Ekonomik İşbirliği Örgütü) — Bölgesel Deha</h3>
+    <p>1992 yılında **Türkiye'nin öncülüğünde ve liderliğinde** İstanbul'da kurulmuş bölgesel ekonomik bir örgüttür. Amaç; Karadeniz havzasındaki ülkelerin ticari, ekonomik ve teknolojik iş birliğini artırarak bölge barışına katkı sunmaktır. 
+    <br><b>⚠️ En Seçici Özelliği:</b> Karadeniz'e kıyısı olmamasına rağmen **Arnavutluk, Ermenistan, Azerbaycan, Yunanistan, Sırbistan ve Moldova** gibi ülkeler de KEİ'nin daimi üyeleridir. ÖSYM bu istisnayı coğrafi konum sorusu olarak çok sever.</p>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Birleşmiş Milletler (BM) Güvenlik Konseyi'nde alınan herhangi bir siyasi veya askeri kararın yürürlüğe girebilmesi için, konseyin veto yetkisine sahip 5 daimi üyesinin hiçbirinin bu karara itiraz etmemesi gerekir. Tek bir daimi üyenin "HAYIR" demesi kararı tamamen felç eder. 
+        <br>Buna göre, aşağıda verilen ülkelerden hangisi BM Güvenlik Konseyi'nin bu **mutlak veto hakkına sahip 5 daimi üyesinden biri değildir**?</div>
+        <ul class="options-list">
+            <li>A) Fransa</li>
+            <li>B) İngiltere</li>
+            <li>C) Japonya</li>
+            <li>D) Rusya</li>
+            <li>E) Çin</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• BM Güvenlik Konseyi'nin o sarsılmaz kurucu beşli şifresini uygulayalım: **FİRCHA** formülünü açıyoruz:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **F**ransa / **İ**ngiltere / **R**usya / **C**hina (Çin) / **A**BD.
+            <br>• Bu 5 küresel güç II. Dünya Savaşı'nın galipleridir ve konseyde mutlak veto gücüne sahiptirler. <b>Japonya, dünyanın en büyük ekonomik güçlerinden biri olmasına rağmen, II. Dünya Savaşı'nı kaybeden tarafta yer aldığı için BM Güvenlik Konseyi'nin daimi üyesi değildir</b>, veto hakkı kesinlikle yoktur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 1949 yılında Washington Antlaşması ile kurulan, temel felsefesi "üye ülkelerden herhangi birine yapılacak silahlı bir saldırı, tüm üye devletlerin egemenliğine yapılmış sayılacaktır" maddesiyle özetlenen; Türkiye'nin de 1952 yılında Kore Savaşı'ndaki askeri başarısının ardından dahil olduğu **küresel askeri savunma paktı** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Varşova Paktı</li>
+            <li>B) NATO</li>
+            <li>C) Avrupa Birliği</li>
+            <li>D) İslam İşbirliği Teşkilatı</li>
+            <li>E) AGİT</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Soru kökündeki askeri pakt şifrelerini birleştirelim: "Ortak askeri savunma kalkanı", "1949 kuruluşu" ve "Türkiye'nin 1952'de Kore Savaşı sonrasında üye olması".
+            <br>• Bu özellikler, kısa adı <b>NATO (Kuzey Atlantik Antlaşması Örgütü)</b> olan askeri ittifakı tarif eder. Sovyet tehdidine karşı kurulan bu pakt, günümüzün en büyük küresel askeri gücüdür. Varşova Paktı ise bunun SSCB kanadındaki eski karşıtıydı. Doğru cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> 1992 yılında **Türkiye'nin yoğun diplomatik çabaları ve liderliğiyle İstanbul'da kurulan**; temel amacı üye ülkeler arasındaki ticari sınırları esnetmek, ekonomik ve teknolojik entegrasyonu hızlandırarak bölge barışını perçinlemek olan **bölgesel örgüt** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) D-8 (Gelişen 8 Ülke)</li>
+            <li>B) Karadeniz Ekonomik İşbirliği Örgütü (KEİ)</li>
+            <li>C) Avrupa Birliği</li>
+            <li>D) Petrol İhraç Eden Ülkeler Örgütü (OPEC)</li>
+            <li>E) NAFTA</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Türkiye'nin bizzat kurucu lideri ve fikir babası olduğu bölgesel ittifakı arıyoruz: "1992 yılı", "İstanbul merkezli kuruluş" ve "Karadeniz havzası odaklı iş birliği".
+            <br>• Soğuk Savaş bittikten sonra Karadeniz havzasındaki ülkeleri ekonomik bir sinerjide buluşturmak amacıyla Türkiye'nin vizyoner liderliğiyle kurulan bu örgüt <b>KEİ (Karadeniz Ekonomik İşbirliği Örgütü)</b>'dür. Genel sekreterliği hala İstanbul'dadır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Karadeniz Ekonomik İşbirliği Örgütü'nün (KEİ) üyelik yapısı incelendiğinde; örgütün adında 'Karadeniz' ibaresi geçmesine rağmen, coğrafi konum olarak **Karadeniz'e hiçbir kıyısı bulunmayan ülkelerin de** bu birliğe kurucu veya daimi üye olarak kabul edildiği görülmektedir. 
+        <br>Aşağıdaki ülkelerden hangisi, Karadeniz'e kıyısı olmadığı halde KEİ masasında yer alan bu **istisna coğrafi konumlu devletlerden biri değildir**?</div>
+        <ul class="options-list">
+            <li>A) Yunanistan</li>
+            <li>B) Ermenistan</li>
+            <li>C) Azerbaycan</li>
+            <li>D) Ukrayna</li>
+            <li>E) Arnavutluk</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin harita okuma ve siyasi coğrafya sınır algısını yoklayan harika bir sorudur. KEİ bölgesel bir örgüttür ancak ekonomik entegrasyonu geniş tutmak adına Karadeniz'e kıyısı olmayan komşu ve yakın ülkeleri de (Yunanistan, Ermenistan, Azerbaycan, Arnavutluk, Sırbistan, Moldova) bünyesine katmıştır (A, B, C ve E elenir).
+            <br>• Ancak D seçeneğinde yer alan <b>Ukrayna, Karadeniz'in kuzey kıyısını boydan boya kaplayan, Kırım yarımadasına sahip, Karadeniz'e en geniş kıyısı olan mutlak kıyıdaş devletlerden biridir</b>. Dolayısıyla o bir istisna değil, doğrudan kıyısı olan doğal üyedir. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 10:</b> Küresel petrol üretim miktarlarını denetlemek, petrolün varil fiyatını uluslararası piyasalarda tekel olarak belirlemek amacıyla 1960 yılında kurulan ve petrolü bir ekonomik silah veya güç olarak kullanan küresel kartel örgütü hangisidir ve Türkiye bu örgüte üyedir?</div>
+        <ul class="options-list">
+            <li>A) OECD - Türkiye üyedir</li>
+            <li>B) OPEC - Türkiye üye değildir</li>
+            <li>C) IMF - Türkiye kurucu ortaktır</li>
+            <li>D) G-20 - Türkiye üye değildir</li>
+            <li>E) AB - Türkiye tam üyedir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Küresel kartel örgütünün misyonunu ve Türkiye'nin enerji haritasını eşleştirelim: Petrol fiyatlarını manipüle eden, Kuveyt, Venezuela, Suudi Arabistan gibi petrol devlerinin kurduğu bu ünlü örgüt <b>OPEC (Petrol İhraç Eden Ülkeler Örgütü)</b>'tir.
+            <br>• Türkiye, net bir petrol ihraç eden (satan) ülke olmadığı, tam aksine enerjide dışa bağımlı bir petrol ithalatçısı (alıcısı) olduğu için <b>OPEC'e kesinlikle üye değildir</b>. Doğru eşleşme B şıkkındadır.
+        </div>
+    </div>
+
+</body>
+</html>

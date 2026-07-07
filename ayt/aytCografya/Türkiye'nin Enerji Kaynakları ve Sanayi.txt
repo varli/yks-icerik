@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 6: Türkiye'nin Enerji Kaynakları ve Sanayi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #1e293b, #b45309); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fef3c7; font-style: italic; }
+        h2 { color: #9a3412; font-size: 16pt; border-left: 6px solid #ea580c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #1e3a8a; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fffbeb; border: 1px dashed #f59e0b; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #9a3412; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e293b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e293b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 6: ENERJİ KAYNAKLARI VE SANAYİ STRATEJİSİ</h1>
+        <p>"Güç ve Sanayi Üsleri: Elektrik Santralleri Coğrafyası, Sanayi Kolları ve Yer Seçim Kriterleri"</p>
+    </div>
+
+    <h2>1. TÜRKİYE'NİN ENERJİ KAYNAKLARI VE ELEKTRİK SANTRALLERİ</h2>
+    <p>Türkiye, elektrik enerjisi ihtiyacını hem fosil yakıtlardan hem de çevre dostu yenilenebilir kaynaklardan karşılamaktadır. ÖSYM, hangi santralin hangi kaynakla çalıştığını harita üzerinden sorgulamayı çok sever:</p>
+
+    <h3>A) Tükenebilir (Fosil) Enerji Kaynakları Santralleri</h3>
+    <ul>
+        <li><b>Taş Kömürü:</b> I. Jeolojik Zaman'da oluşmuştur. Kalorisi çok yüksektir. Türkiye'de sadece Zonguldak havzasından çıkarılır. En meşhur elektrik üretim santrali <b>Zonguldak Çatalağzı Termik Santrali</b>'dir (Hammaddeye yakınlık).</li>
+        <li><b>Linyit (Kahverengi Kömür):</b> III. Jeolojik Zaman'da oluşmuştur. Türkiye genç oluşumlu bir ülke olduğu için linyit yatakları **hemen her bölgede** yaygındır. En ünlü linyit santralleri: <b>Kahramanmaraş (Afşin-Elbistan)</b>, <b>Manisa (Soma)</b>, Muğla (Yatağan, Yeniköy), Kütahya (Seyitömer, Tunçbilek).</li>
+        <li><b>Doğal Gaz:</b> Çevre kirliliği linyite göre az, verimi yüksektir. Türkiye doğal gazda dışa (Rusya, İran) bağımlıdır. En ünlü doğal gaz elektrik santralleri (Kısaltma: <b>OHA</b>): Kırklareli <b>O</b>vacak, İstanbul <b>H</b>amitabat, Bursa <b>A</b>mbarlı.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN ÇELTİK ATAR — İKLİME BAĞIMLILIK TESTİ:</strong>
+        <br>Termik santraller (Linyit, Taş Kömürü, Doğal Gaz) ve Nükleer santraller üretim yaparken **hava durumundan (yağıştan, rüzgârdan, güneşten) kesinlikle etkilenmezler**. Yıl boyu üretimleri istikrarlıdır. Ancak **Hidroelektrik, Rüzgâr ve Güneş** santrallerinin elektrik üretimi tamamen iklim koşullarına, kuraklığa bağlıdır ve yıldan yıla büyük dalgalanma gösterir.
+    </div>
+
+    <h3>B) Yenilenebilir ve Temiz Enerji Kaynakları Santralleri</h3>
+    <ul>
+        <li><b>Hidroelektrik (Su Gücü):</b> Türkiye dağlık ve engebeli olduğu için akarsuların akış hızı ve hidroelektrik potansiyeli yüksektir. Potansiyelin en fazla olduğu bölge **Doğu Anadolu**, en az olduğu bölge **Marmara**'dır. En devasa barajlar Fırat ve Dicle üzerindedir: <b>Atatürk, Karakaya, Keban, Ilısu</b>.</li>
+        <li><b>Jeotermal Enerji (Yer Altı Sıcak Su):</b> Fay hatlarının, kırıklı yer yapısının yaygın olduğu bölgelerde tavan yapar. Türkiye'de jeotermal elektrik üretiminin kalbi **Ege Bölgesi**'dir. En meşhur santraller: <b>Denizli (Sarayköy)</b> ve <b>Aydın (Germencik)</b>.</li>
+        <li><b>Rüzgâr ve Güneş:</b> Rüzgâr gücünde batı kıyıları (İzmir, Balıkesir, Çanakkale) liderdir. İlk rüzgâr santrali İzmir Alaçatı'da kurulmuştur. Güneş enerjisi potansiyelinde ise güneşlenme süresi en fazla olan **Güneydoğu Anadolu ve İç Anadolu (Konya Karapınar)** başı çekerken, bulutluluk süresi fazla olan Karadeniz kıyıları en diptedir.</li>
+    </ul>
+
+    <h2>2. TÜRKİYE'NİN SANAYİ STRATEJİSİ VE SANAYİ KOLLARI MAP ANALİZİ</h2>
+    <p>Türkiye'de sanayi tesislerinin kuruluş yerleri seçilirken **hammaddeye yakınlık, enerji kaynağına yakınlık, ulaşım kolaylığı, pazar olanakları ve su kaynakları** gibi coğrafi kriterler gözetilir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Sanayi Kolu</th>
+                <th>En Yoğun Kümelendiği Şehirler ve Bölgeler</th>
+                <th>Fabrikaların Yer Seçimindeki Temel Coğrafi Gerekçe</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Unlu Mamuller ve Şeker Sanayisi</b></td>
+                <td>Konya, Ankara, Eskişehir (İç Anadolu Bölgesi).</td>
+                <td><b>Hammaddeye Yakınlık:</b> Şeker pancarı ve buğday tarlalarının bölgede yaygın olması. Şeker pancarı söküldükten sonra hızla bozulduğu için fabrika tarlaya yakın kurulmak zorundadır.</td>
+            </tr>
+            <tr>
+                <td><b>Pamuklu Dokuma (Tekstil)</b></td>
+                <td>İstanbul, Bursa, İzmir, Adana, Gaziantep, Denizli.</td>
+                <td>Gaziantep ve Adana'da **hammaddeye yakınlık**; İstanbul ve Bursa'da ise tamamen **Pazar ve Ulaşım/Liman avantajı** etkilidir.</td>
+            </tr>
+            <tr>
+                <td><b>Tütün ve Sigara Sanayisi</b></td>
+                <td>İzmir, Manisa, Samsun, Tokat, İstanbul.</td>
+                <td>Ege ve Karadeniz'de kaliteli tütün üretimi nedeniyle **hammaddeye yakınlık**; İstanbul'da ise **pazar** etkilidir.</td>
+            </tr>
+            <tr>
+                <td><b>Otomotiv Sanayisi</b></td>
+                <td>Bursa, Kocaeli, İstanbul, Sakarya, İzmir, Aksaray.</td>
+                <td>Bölgelerde hammadde yoktur. Yer seçimi tamamen **Gelişmiş Ulaşım, Hinterlandı Geniş Limanlar ve Devasa Pazar** olanaklarıdır.</td>
+            </tr>
+            <tr>
+                <td><b>Kağıt Sanayisi</b></td>
+                <td>Giresun (Aksu), Kastamonu (Taşköprü), Zonguldak (Çaycuma), Muğla (Dalaman).</td>
+                <td><b>Hammaddeye (Orman Varlığına) Yakınlık:</b> Kıyı bölgelerimizin nemli iklimi ve zengin orman kuşağı gerekçedir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Türkiye'de elektrik enerjisi üreten santrallerin üretim karakteristiği incelendiğinde; kurak geçen yıllarda bazı santrallerin elektrik üretim miktarlarında devasa düşüşler ve dalgalanmalar yaşanırken, bazı santraller hava koşullarından bağımsız olarak yıl boyu tam kapasite üretime devam etmektedir. 
+        <br>Buna göre, kuraklık ve yağış azlığından **en çok ve doğrudan etkilenen** elektrik santral türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) İstanbul Hamitabat Doğal Gaz Santrali</li>
+            <li>B) Manisa Soma Linyit Termik Santrali</li>
+            <li>C) Kahramanmaraş Afşin-Elbistan Termik Santrali</li>
+            <li>D) Fırat Nehri üzerinde yer alan Atatürk Hidroelektrik Baraj Santrali</li>
+            <li>E) Zonguldak Çatalağzı Taş Kömürü Santrali</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Enerji kaynaklarının iklim ve hava koşullarına olan duyarlılığını test edelim. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Doğal gaz (A), Linyit (B, C) ve Taş kömürü (E) yakılarak buhar gücü elde edilen **Termik** kaynaklardır. Depodaki kömür veya gaz bitmediği sürece dışarıda kar yağması, kuraklık olması bu santrallerin üretimini etkilemez.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak <b>Hidroelektrik santraller (Barajlar)</b>, tamamen akarsuyun taşıdığı su miktarına bağımlıdır. Kurak yıllarda baraj gölündeki su seviyesi taban yapınca tribünler dönemez ve elektrik üretimi bıçak gibi kesilir. Türkiye'nin en büyük su gücü üssü olan Atatürk Barajı bu durumdan doğrudan etkilenir. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Türkiye'de fay hatlarının, aktif kırıklı yer yapısının, deprem riskinin ve kaplıca/ılıca kaynaklarının en yoğun kümelendiği bölge Ege Bölgesi'dir. Bu jeolojik yapı Ege Bölgesi'ni alternatif bir temiz enerji kaynağında lider yapmıştır. 
+        <br>Buna göre, **Denizli (Sarayköy) ve Aydın (Germencik)** sahalarında yer alan, yer altındaki aşırı sıcak su ve buhar gücünden elektrik üreten **enerji kaynağı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Biyokütle Enerjisi</li>
+            <li>B) Jeotermal Enerji</li>
+            <li>C) Hidrojen Enerjisi</li>
+            <li>D) Linyit Enerjisi</li>
+            <li>E) Nüleer Enerji</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Soru kökündeki net yer yapısı ve konum şifrelerini birleştirelim: "Fay hatları/kırıklı yapı", "yer altı sıcak suyu" ve "Denizli Sarayköy - Aydın Germencik lokasyonları".
+            <br>• Magmanın yer kabuğuna yakın olduğu kırık hatlarında ısınan suyun buhar gücünden türbinler vasıtasıyla elektrik elde edilmesine coğrafyada <b>Jeotermal Enerji</b> adı verilir. Türkiye'de jeotermal elektrik üretiminin tek asıl adresi kırıklı yapısından dolayı Ege Bölgesi ve bahsedilen Denizli-Aydın santralleridir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Türkiye'de şeker fabrikalarının yer seçim stratejisi incelendiğinde; fabrikaların neredeyse tamamının Konya, Eskişehir, Erzurum, Tokat gibi şeker pancarı tarımının yapıldığı tarlaların hemen yanı başına kurulduğu görülmektedir. 
+        <br>Şeker sanayisinde fabrikaların tarım alanlarından uzak yerlere kurulmamasının **temel coğrafi zorunluluğu** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Şeker pancarının nakliye maliyetinin çok ucuz olması</li>
+            <li>B) Fabrika çalışanlarının kırsalda yaşamak istemesi</li>
+            <li>C) Şeker pancarının topraktan söküldükten sonra **çok kısa sürede işlenmesi gerektiği, aksi takdirde hızla çürüyüp şeker oranını (verimini) kaybetmesi (Çabuk bozulabilirlik)**</li>
+            <li>D) Şeker üretiminde aşırı fazla insan gücüne ihtiyaç duyulması</li>
+            <li>E) Şeker fabrikalarının sadece dağlık alanlarda çalışabilmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sanayide hammadde özelliklerinin fabrika konumuna etkisini deşifre edelim. Bazı hammaddeler (Örn: Petrol, madenler, pamuk) uzak mesafelere bozulmadan taşınabilir, bu yüzden fabrikaları limana veya pazara kurulabilir.
+            <br>• Ancak çay, şeker pancarı ve domates (salça) gibi ürünler toplandıktan sonra hızla fermente olur veya çürür. <b>Şeker pancarı tarladan söküldüğü andan itibaren fire vermeye başlar, bu yüzden günlerce yollarda taşınamaz</b>. Fabrika hammadde kaynağının hemen dibine kurulmak zorundadır. Bu durum katı bir <b>Hammaddeye Yakınlık</b> zorunluluğudur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Türkiye'de elektrik üretim santrallerinin isimlerini harita üzerinde çalışan bir öğrenci **"OHA"** kısaltmasını panosuna asmıştır. Bu kısaltma Türkiye'nin dışa bağımlı olduğu çok önemli bir yakıtla çalışan dev elektrik üslerini simgeler. 
+        <br>Buna göre; <b>O</b>vacak (Kırklareli), <b>H</b>amitabat (İstanbul) ve <b>A</b>mbarlı (Bursa) santrallerinde elektrik üretmek için kullanılan **enerji kaynağı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Linyit</li>
+            <li>B) Taş Kömürü</li>
+            <li>C) Doğal Gaz</li>
+            <li>D) Jeotermal</li>
+            <li>E) Biyokütle</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin soru bankalarında en çok yokladığı o meşhur termik santral kısaltmasını işletelim: **OHA** formülünün konumlarını kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **O**vacak / **H**amitabat / **A**mbarlı üçlüsü Türkiye'nin en büyük <b>Doğal Gaz dönüşüm termik santralleridir</b>. 
+            <br>• Hamitabat'ta yerel az miktarda gaz çıksa da bu dev tesisler temel olarak Rusya ve İran'dan boru hatlarıyla ithal ettiğimiz doğal gazı yakarak ülkenin elektrik ihtiyacını karşılarlar. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kocaeli, Bursa ve İzmir gibi şehirlerimiz; Türkiye'de otomotiv, parça ve yük taşımacılığı gibi devasa sanayi kollarının ana üssü konumundadır. Bu kıyı şehirlerimizde otomotiv üretimi için demir veya petrol gibi hiçbir hammadde kaynağı bulunmamaktadır. 
+        <br>Buna rağmen otomotiv sanayisinin bu şehirlerde devleşmesinin **asıl coğrafi gerekçesi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hammadde kaynaklarının şehir içinde yer alması</li>
+            <li>B) Gelişmiş ulaşım altyapısı, demir yolu ağları, hinterlandı çok geniş uluslararası işlek limanlar (Ulaşım/İhracat kolaylığı) ve devasa tüketici nüfusa (pazara) yakınlık</li>
+            <li>C) İklim koşullarının montaj sanayisine çok uygun olması</li>
+            <li>D) Su kaynaklarının Marmara ve Ege'de aşırı fazla olması</li>
+            <li>E) Bölgedeki yer şekillerinin tamamen engebeli olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Otomotiv ve montaj sanayisinin küresel lojistik dinamiklerini yorumlayalım. Otomotiv sanayisi binlerce parçanın dünyanın dört bir yanından gelip birleştiği ve üretilen araçların büyük kısmının dış ülkelere ihraç edildiği devasa bir sektördür.
+            <br>• Fabrikanın hammaddeye yakın kurulması anlamsızdır, çünkü hammadde tek bir çeşit değildir. Asıl hayati olan, üretilen araçların gemilere yüklenip dünyaya hızla satılabileceği **büyük limanlara, deniz yollarına sahip olmak (Ulaşım)** ve yurt içi satışlar için kalabalık **pazara yakın olmaktır**. Kocaeli, Bursa ve İzmir bu iki avantajı (Ulaşım ve Pazar) dünyada en iyi birleştiren merkezlerdir. Doğru cevap B'dir.
+        </div>
+    </table>
+</div>

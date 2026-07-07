@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 8: Küresel Ticaret, Ulaşım ve Turizm</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #0f172a, #0369a1); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0f2fe; font-style: italic; }
+        h2 { color: #0f172a; font-size: 16pt; border-left: 6px solid #0284c7; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #0d9488; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0f172a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0f172a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0f172a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 8: KÜRESEL TİCARET, ULAŞIM VE TURİZM</h1>
+        <p>"Dünyanın Şah Damarları: Stratejik Boğazlar, Deniz Rotaları ve Bacasız Sanayinin Jeopolitik Etkileri"</p>
+    </div>
+
+    <h2>1. KÜRESEL TİCARETİN ÜÇ SACAYAĞI: HAMMADDE, ÜRETİM VE PAZAR</h2>
+    <p>Küresel ticaret; hammadde kaynakları, üretim merkezleri ve tüketim (pazar) alanları arasındaki kesintisiz akışla gerçekleşir. ÖSYM bu alanların dünyadaki yerlerini harita üzerinde test eder:</p>
+    <ul>
+        <li><b>Hammadde Alanları:</b> Tarımsal hammadde (Amazon, Kongo, Güneydoğu Asya), Orman ürünleri (Sibirya, Kanada), Enerji ve Maden hammaddesi (Ortadoğu petrolleri, Rusya doğal gazı, Güney Afrika madenleri).</li>
+        <li><b>Üretim Alanları (Sanayi ve Teknoloji):</b> Batı Avrupa, Kuzey Amerika (ABD), Doğu ve Güneydoğu Asya (Çin, Japonya, Güney Kore).</li>
+        <li><b>Pazar (Tüketim) Alanları:</b> Nüfusun ve satın alma gücünün en fazla olduğu yerlerdir. **Kuzey Amerika, Batı Avrupa, Doğu Asya** hem devasa birer üretim üssü hem de dünyanın en büyük pazar alanlarıdır.</li>
+    </ul>
+
+    <h2>2. DÜNYA DENİZ TİCARETİNİN ŞAH DAMARLARI: BOĞAZLAR VE KANALLAR</h2>
+    <p>Küresel ticaretin yaklaşık %80'i deniz yoluyla taşınır çünkü deniz taşımacılığı tek seferde en fazla yükü taşıyan **en ucuz** ulaşım türüdür. Deniz rotalarındaki kritik dar geçitler (Doğal olanlar <b>Boğaz</b>, insan eliyle açılanlar <b>Kanal</b>) küresel jeopolitiğin merkezidir:</p>
+
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th>Su Yolu Adı</th>
+                <th>Türü (Doğal/Yapay)</th>
+                <th>Coğrafi Konumu ve ÖSYM Odaklı En Kritik Özelliği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Panama Kanalı</b></td>
+                <td>Yapay (İnsan eliyle)</td>
+                <td>Kuzey ve Güney Amerika arasında, Atlas Okyanusu ile Büyük Okyanus'u bağlar. Mühendislik harikası dev sıvı asansörleri (havuz sistemi) ile çalışır. Açılmasıyla **Macellan Boğazı** önemini tamamen kaybetmiştir.</td>
+            </tr>
+            <tr>
+                <td><b>Süveyş Kanalı</b></td>
+                <td>Yapay (İnsan eliyle)</td>
+                <td>Mısır'da yer alır, Akdeniz ile Kızıldeniz'i bağlar. Açılmasıyla **Ümit Burnu** (Güney Afrika) rotası önemini kaybetmiştir. Dünyanın kapakları olmayan en uzun kanalıdır, küresel ticareti aşırı hızlandırmıştır.</td>
+            </tr>
+            <tr>
+                <td><b>Cebelitarık Boğazı</b></td>
+                <td>Doğal</td>
+                <td>Avrupa (İspanya) ile Afrika'yı (Fas) ayırır. Atlas Okyanusu'ndan Akdeniz'e giriş kapısıdır. Süveyş Kanalı ile birlikte önemi katlanarak artmıştır.</td>
+            </tr>
+            <tr>
+                <td><b>Hürmüz Boğazı</b></td>
+                <td>Doğal</td>
+                <td>Basra Körfezi'ni Umman Denizi'ne bağlar. **Dünyanın bir numaralı petrol sevkiyat kapısıdır.** Ortadoğu petrollerinin dünyaya açıldığı yer olduğundan stratejik/askeri riski en yüksek boğazdır.</td>
+            </tr>
+            <tr>
+                <td><b>Babülmendep Boğazı</b></td>
+                <td>Doğal</td>
+                <td>Kızıldeniz'i Aden Körfezi'ne (Hint Okyanusu) bağlar. Süveyş Kanalı'ndan çıkan gemilerin Hint Okyanusu'na geçmek için uğramak zorunda olduğu dar, korsanlık riskli boğazdır.</td>
+            </tr>
+            <tr>
+                <td><b>Malakka Boğazı</b></td>
+                <td>Doğal</td>
+                <td>Malezya ve Endonezya (Sumatra) arasında yer alır. Hint Okyanusu ile Büyük Okyanus'u bağlar. Çin, Japonya ve Güney Kore'nin Avrupa ve Ortadoğu'ya giden gemilerinin kullandığı **en işlek yolcu ve ticaret boğazlarından biridir**.</td>
+            </tr>
+            <tr>
+                <td><b>Kiel ve Korint</b></td>
+                <td>Yapay (Kanal)</td>
+                <td>Kiel Kanalı Kuzey Denizi ile Baltık Denizi'ni (Almanya); Korint Kanalı ise Ege Denizi ile İyon Denizi'ni (Yunanistan - çok dardır, büyük gemiler geçemez) bağlar.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM ROTAYI BÖYLE SORAR — COĞRAFİ AKIL OYUNU:</strong>
+        <br>Bir gemi Kuveyt'ten (Basra Körfezi) yüklediği petrolü İngiltere'ye en kısa yoldan götürmek istiyorsa sırasıyla hangi su yollarından geçmelidir?
+        <br><b>Çözüm Rotaları:</b> Kuveyt &rarr; <b>Hürmüz Boğazı</b> &rarr; Hint Okyanusu &rarr; <b>Babülmendep Boğazı</b> &rarr; Kızıldeniz &rarr; <b>Süveyş Kanalı</b> &rarr; Akdeniz &rarr; <b>Cebelitarık Boğazı</b> &rarr; Atlas Okyanusu &rarr; İngiltere.
+    </div>
+
+    <h2>3. BACASIZ SANAYİ: ULUSLARARASI TURİZMİN COĞRAFİ ETKİLERİ</h2>
+    <p>İnsanların dinlenme, eğlenme, görme ve tanıma amacıyla yaptıkları gezilere turizm, bu faaliyete katılanlara turist denir. Turizm, döviz girdisi sağladığı için **bacasız sanayi** ve görünmeyen ihracat olarak adlandırılır. Etkileri 4 boyuttadır:</p>
+    <ul>
+        <li><b>Ekonomik Etkisi:</b> Doğrudan döviz girdisi sağlar, istihdam (iş olanakları) yaratır, dış ticaret açığını kapatır. (Akdeniz kuşağı ülkeleri İspanya, İtalya, Türkiye ve Fransa için hayatidir).</li>
+        <li><b>Sosyo-Kültürel Etkisi:</b> Farklı milletlerin birbirini tanımasını sağlar, ön yargıları kırar, hoşgörü ortamı yaratır ve **dünya barışına** katkıda bulunur. Dillere ait kültürel etkileşimi artırır.</li>
+        <li><b>Ekolojik (Çevresel) Etkisi:</b> Turizm tesisleri kurmak amacıyla ormanların tahribi, kıyıların betonlaşması gibi olumsuz etkileri olabileceği gibi; doğal parkların, koruma alanlarının oluşturulması gibi olumlu etkileri de vardır.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 1914 yılında Amerika kıtasının en dar noktasında açılan ve Atlas Okyanusu ile Büyük Okyanus'u birbirine bağlayan yapay su yolu, mühendislik harikası dev sıvı asansörlü havuz sistemleriyle gemileri dağların üzerinden aşırarak küresel deniz ticaretini baştan aşağı değiştirmiştir. 
+        <br>Yukarıda teknik özellikleri ve konumu verilen bu **yapay kanalın açılmasıyla birlikte**, Güney Amerika'nın en ucunda yer alan aşağıdaki **doğal boğazlardan hangisi önemini tamamen kaybetmiştir**?</div>
+        <ul class="options-list">
+            <li>A) Bering Boğazı</li>
+            <li>B) Macellan Boğazı</li>
+            <li>C) Cebelitarık Boğazı</li>
+            <li>D) Hürmüz Boğazı</li>
+            <li>E) Malakka Boğazı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kanal-boğaz ikame ilişkisini dünya coğrafi haritası üzerinden kuralım. Panama Kanalı açılmadan önce, Atlas Okyanusu'ndan (Örn: New York'tan) kalkan bir gemi Büyük Okyanus'a (Örn: San Francisco'ya) geçmek için tüm Güney Amerika kıtasını boydan boya dolaşmak ve kıtanın en güney ucundaki o fırtınalı, tehlikeli <b>Macellan Boğazı</b>'ndan geçmek zorundaydı.
+            <br>• <b>Panama Kanalı'nın açılmasıyla gemiler kıtayı dolaşmaktan kurtulmuş ve rota binlerce kilometre kısalmıştır</b>. Bu durum Güney Amerika'nın en ucundaki Macellan Boğazı'nın deniz ticaret trafiğindeki işlevini ve önemini tamamen bitirmiştir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Küresel enerji jeopolitiğinde Basra Körfezi çevresindeki Ortadoğu ülkelerinin (Suudi Arabistan, Irak, Kuveyt, BAE, İran) ürettiği devasa miktardaki ham petrolün tanker gemilerine yüklenerek dünya pazarlarına (ABD, Avrupa, Çin) açıldığı, **dünyanın bir numaralı petrol sevkiyat geçidi** kabul edilen ve askeri/siyasi risk oranı en yüksek olan doğal boğaz hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Süveyş Kanalı</li>
+            <li>B) Babülmendep Boğazı</li>
+            <li>C) Hürmüz Boğazı</li>
+            <li>D) Malakka Boğazı</li>
+            <li>E) Dover Boğazı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin en çok yokladığı o nokta atışı maden/enerji boğazı şifresini uygulayalım. "Basra Körfezi" ve "Petrol taşımacılığı" anahtar kelimeleri doğrudan ve sarsılmaz şekilde tek bir su yolunu işaret eder.
+            <br>• Basra Körfezi'ni Umman Denizi'ne ve Hint Okyanusu'na bağlayan dar kapı <b>Hürmüz Boğazı</b>'dır. Dünyada deniz yoluyla taşınan petrolün neredeyse üçte biri sadece bu dar boğazdan geçer. Siyasi gerilimlerde (Örn: İran-ABD krizleri) buranın kapatılma tehdidi bile küresel petrol fiyatlarını fırlatır. Doğru cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Japonya'nın Tokyo limanından yüklediği teknolojik ürünleri en kısa deniz rotasını kullanarak İtalya'nın Roma limanına götürmek isteyen dev bir konteyner gemisi, yolculuğu esnasında aşağıdaki **su yollarının hangisinden geçmek zorunda değildir**?</div>
+        <ul class="options-list">
+            <li>A) Malakka Boğazı</li>
+            <li>B) Babülmendep Boğazı</li>
+            <li>C) Süveyş Kanalı</li>
+            <li>D) Panama Kanalı</li>
+            <li>E) Süveyş Kanalı'ndan Akdeniz'e giriş rotası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Gemi rotasını dünya haritasında batıya doğru adım adım yürütelim: 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Japonya'dan kalkan gemi Büyük Okyanus'tan Hint Okyanusu'na geçmek için Güneydoğu Asya'daki <b>Malakka Boğazı</b>'ndan geçmelidir (A'dan geçti).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Hint Okyanusu'nu aşan gemi Kızıldeniz'e girmek için dar <b>Babülmendep Boğazı</b>'nı kullanmalıdır (B'den geçti).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3. Kızıldeniz'i boydan boya geçip Akdeniz'e çıkmak için Mısır'daki <b>Süveyş Kanalı</b>'nı kullanmalıdır (C'den geçti).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4. Akdeniz'e çıkan gemi doğrudan İtalya (Roma) limanına yanaşır.
+            <br>• Bu rotada gemi tamamen Doğu Yarım Küre'deki su yollarını kullanmıştır. Amerika kıtasını birbirine bağlayan <b>Panama Kanalı (D şıkkı)</b> dünya haritasının tamamen ters tarafında, batıda kaldığı için bu yolculukta kesinlikle kullanılmaz.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Uluslararası turizm faaliyetleri, sağladığı devasa ekonomik gelirlerin ötesinde sosyo-kültürel alanda da küresel ölçekte büyük etkiler yaratmaktadır. 
+        <br>Aşağıdakilerden hangisi turizmin **uluslararası sosyo-kültürel ve insani etkileri arasında yer alan en olumlu, en vizyoner** sonuçtur?</div>
+        <ul class="options-list">
+            <li>A) Ülkelerin dış ticaret açıklarının kapatılması</li>
+            <li>B) Farklı dil, din ve ırktan milletlerin birbirlerinin kültürlerini yerinde görerek ön yargılarını kırması, kültürel etkileşimin ve hoşgörünün artmasıyla **dünya barışına** doğrudan hizmet etmesi</li>
+            <li>C) Kıyı bölgelerinde betonlaşmanın ve lüks otellerin hızla çoğalması</li>
+            <li>D) Tarihi eserlerin sadece yabancı para birimleriyle ziyarete açılması</li>
+            <li>E) Tarım işçisi sayısında ani azalmaların yaşanması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorunun kökündeki kategoriyi iyi okuyalım: Soruda turizmin ekonomik değil, **sosyo-kültürel (toplumsal/insani)** etkisi sorulmaktadır. Dış ticaret açığı (A) ekonomiktir, Betonlaşma (C) ekolojiktir.
+            <br>• Turizmin en büyük insani ve sosyo-kültürel dehası, dünyadaki farklı halkları bir araya getirmesidir. Turistler gittikleri ülkelerdeki insanlarla bağ kurar, kültürleri tanır. Bu durum ırkçı ve şovenist ön yargıları kırarak küresel ölçekte **kültürel empatiyi ve dünya barışını** besler. Doğru cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 1869 yılında Fransız mühendislerin de katkısıyla Mısır topraklarında açılan yapay su yolu, Akdeniz ile Kızıldeniz'i birbirine bağlayarak Avrupa'dan Hindistan ve Doğu Asya'ya giden deniz rotasını binlerce kilometre kısaltmıştır. 
+        <br>Bu ünlü **Süveyş Kanalı'nın açılmasıyla birlikte**, sömürgecilik döneminde coğrafi keşiflerle bulunmuş olan aşağıdaki **hangi tarihi deniz rotası / burun önemini tamamen kaybetmiştir**?</div>
+        <ul class="options-list">
+            <li>A) Macellan Boğazı</li>
+            <li>B) Ümit Burnu (Güney Afrika)</li>
+            <li>C) Horn Burnu</li>
+            <li>D) Bering Geçidi</li>
+            <li>E) Dover Hattı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Coğrafi Keşifler ve Akdeniz ticareti dengesini kurallara bağlayalım: Vasco da Gama tarafından Afrika'nın en güney ucunun keşfedilmesiyle (**Ümit Burnu**), Akdeniz ticareti çökmüş ve gemiler Hindistan'a gitmek için tüm Afrika kıtasını dolaşmaya başlamıştı.
+            <br>• Ancak 1869'da Mısır'da <b>Süveyş Kanalı</b> açılınca, gemiler artık Afrika'yı dolaşmaktan vazgeçip kestirmeden Akdeniz-Kızıldeniz hattını kullanmaya başlamışlardır. Bu durum, yüzyıllardır gemilerin uğrak yeri olan Afrika'nın en güney ucundaki <b>Ümit Burnu rotasının ticari önemini bıçak gibi keserek bitirmiştir</b>. Akdeniz limanları ise yeniden canlanmıştır. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

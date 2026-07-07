@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 9: Kültür Bölgeleri ve Türk Kültürü</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #15803d, #854d0e); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fef08a; font-style: italic; }
+        h2 { color: #15803d; font-size: 16pt; border-left: 6px solid #a16207; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #854d0e; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #16a34a; border-left: 5px solid #15803d; padding: 15px; margin: 18px 0; border-radius: 4px; color: #14532d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #15803d; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #15803d; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #15803d; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 9: KÜLTÜR BÖLGELERİ VE TÜRK KÜLTÜRÜ</h1>
+        <p>"Medeniyet Beşikleri: Küresel Kültür Havzaları ve Türk Kültürünün Coğrafi ve Jeopolitik Kimliği"</p>
+    </div>
+
+    <h2>1. İLK MEDENİYETLERİN DOĞUŞ ALANLARI VE ORTAK ÖZELLİKLERİ</h2>
+    <p>İnsanlığın ilk yerleşik hayata geçtiği ve büyük medeniyetler kurduğu alanlar rastgele seçilmemiştir. Bu alanların ortak özellikleri; **ılıman iklim koşulları, verimli alüvyal topraklar ve büyük akarsu (su) kaynakları** çevresi olmasıdır. ÖSYM akarsu-medeniyet eşleştirmelerini çok sever:</p>
+    <ul>
+        <li><b>Mezopotamya Medeniyeti:</b> Fırat ve Dicle nehirleri arası. (Bereketli Hilal).</li>
+        <li><b>Mısır Medeniyeti:</b> Nil Nehri çevresi. Etrafı çöllerle çevrili olduğu için istilaya uğramamış, özgün kalmıştır.</li>
+        <li><b>Hint Medeniyeti:</b> İndus ve Ganj nehirleri çevresi. Verimli tarım alanları.</li>
+        <li><b>Çin Medeniyeti:</b> Sarıırmak (Huang-He) ve Gökırmak (Yang-Tse) nehirleri havzası.</li>
+        <li><b>İnka ve Maya/Aztek Medeniyetleri:</b> Amerika kıtasındaki bu medeniyetler nehir boylarında değil, **dağlık/yüksek alanlarda** kurulmuştur. İnka, Ant Dağları'nın zirvelerinde (Ekvator çevresindeki aşırı sıcaktan kaçmak amacıyla) kurulmuş tek medeniyettir.</li>
+    </ul>
+
+    <h2>2. DÜNYADAKİ BAŞLICA KÜLTÜR BÖLGELERİ</h2>
+    <p>Kültür; bir toplumun dil, din, gelenek, sanat ve yaşam tarzıyla oluşturduğu maddi ve manevi değerler bütünüdür. Yeryüzü coğrafi olarak büyük kültür bölgelerine ayrılır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kültür Bölgesi</th>
+                <th>Coğrafi Yayılış Alanları</th>
+                <th>ÖSYM Odaklı En Belirgin Karakteristik Özelliği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Batı (Avrupa) Kültür Bölgesi</b></td>
+                <td>Avrupa kıtası, Kuzey Amerika (ABD, Kanada), Avustralya ve Yeni Zelanda.</td>
+                <td>**Dünyanın coğrafi olarak en geniş alana yayılmış kültür bölgesidir.** Sömürgecilik ve Coğrafi Keşifler sayesinde küreselleşmiştir. Temeli Hristiyanlık inancı ve Roma hukukudur.</td>
+            </tr>
+            <tr>
+                <td><b>İslam Kültür Bölgesi</b></td>
+                <td>Kuzey Afrika, Ortadoğu, Orta Asya ve Güneydoğu Asya'nın bir kısmı (Endonezya).</td>
+                <td>Ortak paydası İslam dinidir. Ticaret yolları üzerinde yer aldığı için dinamik ve bütünleştirici bir yapı sergiler.</td>
+            </tr>
+            <tr>
+                <td><b>Slav-Doğu Avrupa Kültürü</b></td>
+                <td>Rusya, Ukrayna, Beyaz Rusya ve Orta Asya'nın kuzey şeridi.</td>
+                <td>Bizans ve Ortodoks Hristiyanlık inancından derin izler taşır. Rus kültürü egemendir.</td>
+            </tr>
+            <tr>
+                <td><b>Şark (Doğu) Kültür Bölgesi</b></td>
+                <td>Çin, Japonya, Hindistan, Güneydoğu Asya.</td>
+                <td>Dünya nüfusunun en yoğun olduğu kültür havzasıdır. Kendi içinde **Çin Kültürü**, **Hint Kültürü** ve **Pasifik Kültürü** gibi devasa alt kollara ayrılır. Budizm, Hinduizm, Konfüçyüsçülük hakimdir.</td>
+            </tr>
+            <tr>
+                <td><b>Afrika Kültür Bölgesi</b></td>
+                <td>Büyük Sahra Çölü'nün güneyinde kalan (Sub-Sahara) Afrika kıtası.</td>
+                <td>Etnik, kabilevi ve dilsel çeşitliliğin en fazla olduğu, izole kalmış ancak sömürgecilikle sarsılmış kültür bölgesidir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. TÜRK KÜLTÜRÜNÜN COĞRAFİ İSKELETİ VE NİTELİKLERİ</h2>
+    <p>Türk kültürü, dünyanın en eski, köklü ve geniş alanları etkilemiş kültürlerinden biridir. Bu yapının oluşmasında coğrafi çevre mutlak bir rol oynamıştır:</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN KAVRAM YOKLAR — KÜLTÜR OCAĞI:</strong>
+        <br>Bir kültürün ilk doğduğu, filizlendiği ve dünyaya yayılmaya başladığı yere <b>Kültür Ocağı</b> denir. Türk kültürünün ocağı, sert karasal iklimin, geniş bozkırların yer aldığı <b>Orta Asya</b>'dır.
+    </div>
+
+    <h3>A) Türk Kültürünün Maddi (Somut) ve Manevi Ögeleri</h3>
+    <p>&bull; <b>Maddi Ögeler:</b> Coğrafi konum (Orta Asya bozkırları, Anadolu), çadır (yurt), kilim dokumaları, at, demir, kılıç, atlı göçebe yaşamın simgeleri ve mimari eserler (Köprüler, camiler, kervansaraylar).
+    <br>&bull; <b>Manevi Ögeler:</b> Dil (Türkçe), inanç, misafirperverlik, teşkilatçılık, adalet duygusu, örf, adet ve Töre hukuku.</p>
+
+    <h3>B) Türk Kültürünün Genel Özellikleri</h3>
+    <ul>
+        <li>Hem göçebe (bozkır) hem de yerleşik hayat özelliklerini (Anadolu dönemi) bir arada barındıran **sentez** bir kültürdür.</li>
+        <li>Çok köklü ve eski olmasına rağmen, statik değil **dinamik ve yenilikçidir**; çağın şartlarına hızla uyum sağlar.</li>
+        <li>Çevresindeki kültürleri (Çin, Fars, Arap, Bizans, Avrupa) etkilemiş ve onlardan etkilenmiştir.</li>
+        <li>Temel felsefesi insan sevgisine, hoşgörüye ve adalete dayalı olduğu için işgalci değil, **kalıcı ve kucaklayıcıdır** (İstimalet mirası).</li>
+    </ul>
+
+    <h3>C) Anadolu'nun Kültürel ve Jeopolitik Gücü</h3>
+    <p>Türk kültürü göçlerle birlikte Orta Asya'dan taşınarak **Anadolu**'yu yeni yurt edinmiştir. Anadolu; Asya, Avrupa ve Afrika kıtalarının birbirine en çok yaklaştığı **stratejik bir köprüdür**. Akdeniz havzasında yer alması, iklim çeşitliliği ve verimli su kaynakları nedeniyle tarih boyunca onlarca medeniyete ev sahipliği yapmış bir **kültür merkezidir**. Türk kültürü bu topraklardaki tüm kadim mirasları kendi potasında eriterek muazzam bir cihan imparatorluğu kültürü (Osmanlı) doğurmuştur.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> İlk yerleşik medeniyetlerin yeryüzünde kurulduğu coğrafi alanlar incelendiğinde; bu medeniyetlerin hemen hepsinin büyük nehir yataklarında ve verimli alüvyal ovalarda filizlendiği görülmektedir. 
+        <br>Buna göre, aşağıdaki medeniyet ve akarsu havzası eşleştirmelerinden hangisi bu coğrafi kuralı **yanlış** yansıtmaktadır?</div>
+        <ul class="options-list">
+            <li>A) Mısır Medeniyeti &rarr; Nil Nehri</li>
+            <li>B) Mezopotamya Medeniyeti &rarr; Fırat ve Dicle Nehirleri</li>
+            <li>C) Hint Medeniyeti &rarr; İndus ve Ganj Nehirleri</li>
+            <li>D) Çin Medeniyeti &rarr; Sarıırmak ve Gökırmak</li>
+            <li>E) İnka Medeniyeti &rarr; Amazon Nehri ve Kolları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kadim medeniyetlerin coğrafi lokasyon kriterlerini kontrol edelim: Mısır Nil'e (A), Mezopotamya Fırat-Dicle'ye (B), Hint İndus-Ganj'a (C) ve Çin Sarıırmak-Gökırmak'a (D) can damarı olarak bağlıdır ve hepsi nehir medeniyetidir.
+            <br>• Ancak Güney Amerika'da kurulan <b>İnka Medeniyeti, kesinlikle bir nehir boyunda kurulmamıştır</b>. İnkalar, Ekvator çevresindeki nemli ve aşırı sıcak iklimden kaçmak, korunmak amacıyla **Ant Dağları'nın zirvelerinde (Machu Picchu gibi yüksek dik yamaçlarda)** taş işçiliğine dayalı bir dağ medeniyeti kurmuşlardır. Amazon nehrinin balta girmemiş sık ormanlarında ilk çağda büyük bir medeniyet kurulamamıştır. Cevap E'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bir kültürün ilk ortaya çıktığı, filizlendiği, o kültüre ait maddi ve manevi özelliklerin şekillenerek dünyaya yayılmaya başladığı coğrafi bölgeye "Kültür Ocağı" adı verilir. 
+        <br>Buna göre, Türk tarihinin köklü dil, töre, yaşam tarzı ve sanatsal kimliğinin şekillendiği **Türk Kültürünün gerçek coğrafi ocağı** yeryüzünde neresidir?</div>
+        <ul class="options-list">
+            <li>A) Anadolu ve Balkanlar</li>
+            <li>B) Kuzey Afrika kıyıları</li>
+            <li>C) Orta Asya (Türkistan) bozkırları</li>
+            <li>D) Mezopotamya ve Suriye ovaları</li>
+            <li>E) Hindistan yarımadası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kültür ocağı kavramının Türk tarihiyle olan mekânsal eşleşmesini yapalım. Türkler bugün Anadolu'da, Balkanlar'da geniş bir kültürel mirasa sahiptir; ancak bu topraklara sonradan (göçlerle ve fetihlerle) gelmişlerdir.
+            <br>• Türk adının, atlı göçebe yaşam tarzının, demirciliğin, kilim dokuma motiflerinin ve Töre hukukunun ilk doğduğu, şekillendiği ve Kavimler Göçü gibi büyük hareketlerle dünyaya yayıldığı o ilk ana vatan, yani <b>Türk Kültürünün gerçek ocağı Orta Asya (Türkistan) coğrafyasıdır</b>. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Kültür bölgelerinin dünya haritasındaki yayılış alanları incelendiğinde; bazı kültürlerin coğrafi keşifler, sömürgecilik faaliyetleri ve göç dalgaları sayesinde ana vatanından çıkarak başka kıtalara yayıldığı ve **yeryüzünde coğrafi olarak en geniş alana hükmeden kültür bölgesi** haline geldiği görülmektedir. 
+        <br>Bahsedilen, Avrupa'da doğup Kuzey Amerika (ABD, Kanada) ve Avustralya'yı tamamen içine alan bu devasa **kültür bölgesi** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Slav-Doğu Avrupa Kültür Bölgesi</li>
+            <li>B) Şark (Doğu) Kültür Bölgesi</li>
+            <li>C) Batı (Avrupa) Kültür Bölgesi</li>
+            <li>D) İslam Kültür Bölgesi</li>
+            <li>E) Latin Amerika Kültür Bölgesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kültür coğrafyasının makro alan analizini yapalım. 15. ve 16. yüzyıllarda İngiltere, Fransa, İspanya gibi devletlerin başlattığı Coğrafi Keşifler, Avrupa kültürünü tüm dünyaya taşımıştır.
+            <br>• Bugün Kuzey Amerika kıtası (ABD-Kanada) ve okyanusun öbür ucundaki Avustralya-Yeni Zelanda, yerli kültürlerini kaybederek tamamen Avrupa yaşam tarzını, dilini ve dinini benimsemiştir. Bu yüzden yeryüzünde coğrafi yayılım alanı <b>en geniş, en küresel kültür bölgesi Batı (Avrupa) Kültür Bölgesi</b>'dir. Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Kültürleri oluşturan ögeler somut (maddi) ve soyut (manevi) olmak üzere ikiye ayrılır. Coğrafi konum, iklim özellikleri, giysiler ve mimari yapılar maddi ögeleri oluştururken; dil, din, ahlak kuralları ve komşuluk ilişkileri manevi ögeleri oluşturur. 
+        <br>Buna göre, aşağıdakilerden hangisi Türk kültürünü şekillendiren **manevi (soyut) ögeler arasında yer almaktadır**?</div>
+        <ul class="options-list">
+            <li>A) Orta Asya'nın sert karasal iklimi ve geniş bozkır toprakları</li>
+            <li>B) Göçebe hayatta kullanılan kıl çadırlar (Yurtlar)</li>
+            <li>C) Türk dili (Türkçe), örf, adetler ve adalet esasına dayalı Töre hukuku</li>
+            <li>D) Savaşlarda dövülen demir kılıçlar ve at koşum takımları</li>
+            <li>E) Selçuklu ve Osmanlı döneminde yapılan taş kervansaraylar ve köprüler</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Maddi ve manevi kültür ögelerinin turnusol ayrımını yapalım: Coğrafi mekân (A), çadır (B), kılıç/at (D) ve mimari taş binalar (E) gözle görülebilen, elle tutulabilen fiziksel **maddi (somut)** unsurlardır.
+            <br>• Ancak bir toplumun düşünce dünyasını, ahlak yapısını ve hukuk felsefesini oluşturan <b>Dil (Türkçe), gelenekler, örf ve yazısız hukuk kuralları olan Töre, Türk kültürünün soyut, yani manevi ögeleridir</b>. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Anadolu coğrafyası (Türkiye), tarih boyunca Akdeniz havzasının kalbinde yer alması, iklim çeşitliliği, verimli toprakları ve zengin su kaynakları nedeniyle onlarca medeniyetin doğuşuna ev sahipliği yapmış; Asya, Avrupa ve Afrika kıtaları arasında devasa bir kültürel köprü olmuştur. 
+        <br>Anadolu'nun sahip olduğu bu benzersiz durum, coğrafya literatüründe **öncelikle hangi kavramın doğrudan bir yansımasıdır**?</div>
+        <ul class="options-list">
+            <li>A) Matematiksel konumun getirdiği mutlak sıcaklık değerlerinin</li>
+            <li>B) Bölgedeki maden çeşitliliğinin az olmasının</li>
+            <li>C) Anadolu'nun sahip olduğu muazzam **Stratejik ve Jeopolitik konumun**</li>
+            <li>D) Nüfus artış hızının sürekli düşmesinin</li>
+            <li>E) Yer şekillerinin tamamen düzlüklerden oluşmasının</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Jeopolitik ve kültürel coğrafya ilişkisini yorumlayalım: Bir yerin coğrafi konumunun, o bölgenin siyasi, askeri, ticari ve kültürel ilişkilerine yansımasına **Jeopolitik** denir.
+            <br>• Anadolu, doğu (Asya) ile batı (Avrupa) kültürlerinin tam kesişim noktasıdır. Ticaret yollarının (İpek ve Kral yolu) buradan geçmesi, üç kıtayı birbirine bağlaması, Anadolu'yu tarih boyunca bir cazibe merkezi ve medeniyetler beşiği yapmıştır. Bu durum, Türkiye topraklarının dünyadaki o sarsılmaz <b>Jeopolitik ve Stratejik Konumunun</b> doğrudan, kaçınılmaz bir sonucudur. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

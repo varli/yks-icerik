@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 4: Türkiye'de Nüfus ve Yerleşme</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #b91c1c, #0f172a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fee2e2; font-style: italic; }
+        h2 { color: #b91c1c; font-size: 16pt; border-left: 6px solid #ef4444; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fff7ed; border: 1px dashed #f97316; border-left: 5px solid #ea580c; padding: 15px; margin: 18px 0; border-radius: 4px; color: #7c2d12; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #b91c1c; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #b91c1c; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #b91c1c; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 4: TÜRKİYE'DE NÜFUS VE YERLEŞME</h1>
+        <p>"Anadolu'nun Demografisi: Cumhuriyet Dönemi Nüfus Politikaları, Projeksiyonlar ve Göçün Mekânsal Etkileri"</p>
+    </div>
+
+    <h2>1. CUMHURİYET’TEN GÜNÜMÜZE TÜRKİYE’NİN NÜFUS DÖNEMEÇLERİ</h2>
+    <p>Türkiye Cumhuriyeti'nde ilk resmi nüfus sayımı 1927 yılında yapılmış ve nüfusumuz 13.6 milyon olarak belirlenmiştir. Geçen süreçte Türkiye nüfusu sürekli **artmıştır**. Ancak nüfusun **artış hızı** (yıllık çoğalma oranı) dalgalanmalar göstermiştir. ÖSYM bu dönemleri sormayı çok sever:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tarihsel Dönem</th>
+                <th>Uygulanan Nüfus Politikası ve Karakteri</th>
+                <th>Nüfus Artış Hızını Değiştiren Kritik Olaylar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>1923 - 1965 Dönemi</b></td>
+                <td>**Nüfus Artış Hızını Artırmaya Yönelik Politika (Pro-natalist)**</td>
+                <td>Savaşlardan yeni çıkılmıştı, erkek nüfus azdı ve tarımda insan gücüne ihtiyaç vardı. Çocuk sayısını artırmak için madalya verildi, çok çocuklu aileler vergiden muaf tutuldu. <br><b>⚠️ İstisna: 1940-1945 arası (II. Dünya Savaşı) askere alma ve ekonomik sıkıntılardan dolayı nüfus artış hızı tarihin en düşük seviyelerinden birine inmiştir.</b> Savaş sonrası (1950-1960) ise patlama yaşanmıştır.</td>
+            </tr>
+            <tr>
+                <td><b>1965 - 1980 Dönemi</b></td>
+                <td>**Nüfus Artış Hızını Azaltmaya / Planlamaya Yönelik Politika**</td>
+                <td>Nüfus çok hızlı artınca kalkınma hızı yavaşladı. 1965'te *Nüfus Planlaması Kanunu* çıkarıldı. Doğum kontrolüne izin verildi. Bu dönemde Avrupa'ya (özellikle Almanya'ya) yoğun işçi göçleri yaşandı.</td>
+            </tr>
+            <tr>
+                <td><b>1980 - 2000'ler Dönemi</b></td>
+                <td>**Nüfusun Niteliğini ve Niceliğini İyileştirmeye Yönelik Politika**</td>
+                <td>Eğitim, sağlık ve yaşam kalitesini artırmak ana hedef seçildi. Kentleşme ve kadının iş hayatına girmesiyle birlikte doğum oranları kendiliğinden hızla düşmeye başladı.</td>
+            </tr>
+            <tr>
+                <td><b>Görünen Trend (2000 Sonrası)</b></td>
+                <td>**Nüfus Artış Hızını Yeniden Artırmaya Yönelik Söylemler**</td>
+                <td>Doğum oranlarının Avrupa seviyelerine gerilemesi, nüfusun hızla yaşlanma eğilimine girmesi nedeniyle en az 3 çocuk söylemleri ve doğum teşvikleri (doğum yardımı, izinler) mevzuata girmiştir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. TÜRKİYE'NİN GELECEĞİ VE NÜFUS PROJEKSİYONLARI</h2>
+    <p>Mevcut demografik verileri (doğum, ölüm, göç) analiz ederek gelecekteki nüfus miktarı ve yapısı hakkında yapılan bilimsel tahminlere <b>nüfus projeksiyonu</b> denir. TÜİK verilerine göre Türkiye'nin nüfus piramidinin tabanı (çocuk nüfus) hızla daralmakta, tavanı (yaşlı nüfus) ise genişlemektedir.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM GELECEK SENARYOSUNU SORAR — TÜRKİYE YAŞLANIYOR:</strong>
+        <br>Mevcut doğurganlık eğilimi devam ederse, Türkiye nüfus projeksiyonlarına göre:
+        <br>1. Türkiye nüfusu 2050'li yıllara kadar yavaşlayarak artacak, ardından durağanlaşacak ve **azalmaya başlayacaktır**.
+        <br>2. Medyan (ortanca) yaş yükselecektir (Yani toplumumuz yaşlı bir nüfusa evrilecektir).
+        <br>3. Genç ve dinamik iş gücü nüfusu azalırken, yaşlı bağımlı nüfus oranı **artacaktır**. Bu durum gelecekte sosyal güvenlik kurumlarına (SGK) büyük mali yükler getirecektir.
+    </div>
+
+    <h2>3. GÖÇLERİN MEKÂNSAL ETKİLERİ VE YERLEŞME DÜZENİ</h2>
+    <p>Türkiye'de Cumhuriyet tarihi boyunca kırsal alanlardan kentlere doğru devasa göç dalgaları yaşanmıştır. Günümüzde ise göçler daha çok **kentten kente** (gelişmemiş kentten gelişmiş kente) doğru akmaktadır. Göç alan ve göç veren yerlerde mekânsal yapılar tamamen değişir:</p>
+
+    <div class="memory-box">
+        <strong>👑 GÖÇ ALAN YERLERDE (BÜYÜK KENTLERDE) YAŞANAN MEKÂNSAL SORUNLAR:</strong>
+        <br>&bull; Kent çeperlerinde plansız ve kaçak yapılaşma (**Gecekondulaşma**) tavan yapar.
+        <br>&bull; Sanayi tesisleri, fabrikalar, mezarlıklar ve askeri kışlalar zamanla kent merkezinin içinde sıkışıp kalır (Çevre kirliliği artar).
+        <br>&bull; Trafik yoğunluğu kronikleşir, yeşil alanlar betonlaşır.
+        <br>&bull; Okul, hastane ve altyapı (kanalizasyon, su, elektrik) hizmetleri yetersiz kalır, kentsel hizmetler aksar.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 GÖÇ VEREN YERLERDE (KIRSALDA) YAŞANAN MEKÂNSAL DEĞİŞİMLER:</strong>
+        <br>&bull; Tarım arazileri, bağ ve bahçeler bakımsızlıktan dolayı terk edilir, nadasa bırakılır veya erozyona açık hale gelir.
+        <br>&bull; Evler, okullar ve sağlık ocakları kapanır, kamu binaları harabeye döner.
+        <br>&bull; Köy nüfusu sadece yaşlılardan oluştuğu için tarım ve hayvancılıkta üretim gücü çöker, dinamizm kaybolur.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Türkiye'nin nüfus artış hızı grafiği incelendiğinde; Cumhuriyet tarihi boyunca nüfus miktarının sürekli artmasına rağmen, **140-1945 yılları arasındaki dönemde nüfus artış hızının çok keskin ve ani bir düşüş gösterdiği** görülmektedir. 
+        <br>Türkiye'nin o dönemde savaşa fiilen girmemesine rağmen yaşanan bu düşüşün **temel nedeni** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ülkede çok şiddetli bir kuraklık ve deprem felaketinin yaşanması</li>
+            <li>B) Nüfus planlaması kanununun çıkarılarak çocuk doğumlarının yasaklanması</li>
+            <li>C) II. Dünya Savaşı tehlikesi nedeniyle yetişkin erkek nüfusun seferberlik ilan edilerek uzun süreli askere alınması ve ekonomik güvensizlik ortamının doğum oranlarını çökertmesi</li>
+            <li>D) Avrupa'ya çok yoğun işçi göçlerinin başlatılması</li>
+            <li>E) Tıbbi imkanların yetersizliğinden dolayı salgın hastalıkların tavan yapması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Türkiye'nin yakın tarih demografi kırılmasını analiz edelim. 1940-1945 yılları arası dünyayı sarsan II. Dünya Savaşı dönemidir. 
+            <br>• Türkiye savaşa fiilen girmemiştir ancak sınırlarını korumak adına **seferberlik** ilan etmiş ve ne kadar üretken, genç erkek nüfus varsa hepsini silah altına alarak siperlere yerleştirmiştir. Genç erkeklerin yıllarca evlerinden, üretimden uzak kalması ve savaş ekonomisinin getirdiği kıtlık/ekonomik güvensizlik atmosferi, ailelerin çocuk yapma kararını ertelemesine yol açmıştır. Bu durum **doğum oranlarını çökertmiş** ve nüfus artış hızını tarihin en dip seviyelerine indirmiştir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Türkiye'nin mevcut demografik dönüşüm çizgisi ve TÜİK tarafından hazırlanan nüfus projeksiyonları (gelecek tahminleri) incelendiğinde; uzun vadede Türkiye nüfus yapısında aşağıdaki **durumlardan hangisinin yaşanması kesinlikle beklenmez**?</div>
+        <ul class="options-list">
+            <li>A) Toplumun ortanca (medyan) yaş değerinin sürekli yükselmesi</li>
+            <li>B) Toplam nüfus içindeki yaşlı nüfus (65 yaş üstü) oranının artması</li>
+            <li>C) Nüfus piramidinin tabanının (0-14 yaş arası çocuk nüfus) giderek daralması</li>
+            <li>D) Doğum oranlarının kontrolsüz şekilde artarak genç bağımlı nüfus oranının patlama yapması</li>
+            <li>E) Gelecekte aktif sigortalı çalışan nüfusun, emekli nüfusu finanse etmekte zorlanması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Türkiye'nin güncel ve geleceğe yönelik nüfus projeksiyon haritasını okuyalım. Türkiye artık eski gelişmemiş ülkeler gibi çok çocuklu, yüksek doğum oranlarına sahip bir ülke değildir. 
+            <br>• Kentleşme, eğitim seviyesinin yükselmesi ve kadının iş hayatına katılmasıyla Türkiye'de doğum oranları hızla düşmektedir. Bu yüzden piramidin tabanı daralmaktadır (C), yaşlı nüfus artmaktadır (B), yaş ortalaması yükselmektedir (A). 
+            <br>• Dolayısıyla gelecekte doğum oranlarında kontrolsüz bir patlama veya genç nüfusta devasa bir artış **beklenemez**; tam aksine ülke Avrupa gibi hızla yaşlanma ve iş gücü kaybetme riskiyle karşı karşıyadır. Doğru şık D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Türkiye'de iç göç dalgalarının mekânsal etkileri incelendiğinde; İstanbul, İzmir, Kocaeli, Bursa gibi yoğun göç alan metropollerin çeperlerinde yaşanan plansız yerleşme hareketleri şehirlerin iç yapısını bozmaktadır. 
+        <br>Aşağıdakilerden hangisi göç alan bu büyük sanayi kentlerinde ortaya çıkan **mekânsal ve altyapısal sorunlardan biri değildir**?</div>
+        <ul class="options-list">
+            <li>A) Fabrikaların ve sanayi tesislerinin zamanla kent merkezinin içinde sıkışıp kalması</li>
+            <li>B) Kent çevresinde plansız gecekondu mahallelerinin türemesi</li>
+            <li>C) Tarım ve hayvancılıkta çalışacak genç nüfus bulunamadığı için tarımsal üretimin çökmesi</li>
+            <li>D) Trafik yoğunluğunun artması, yeşil alanların yerini beton binaların alması</li>
+            <li>E) Okul ve hastane gibi kamusal hizmet binalarının kapasitelerinin yetersiz kalması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorunun mantık kökündeki yer saptama turnusolunu iyi okuyalım: Soruda **Göç Alan** yerlerdeki (büyük şehirlerdeki) sorunlar sorulmaktadır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Gecekondulaşma (B), sanayinin şehir içinde kalması (A), trafik ve betonlaşma (D), okul/hastane yetersizliği (E) göç alan kalabalık şehirlerin mekânsal dramıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak C seçeneğindeki "genç nüfusun kalmaması ve tarımın çökmesi" göç alan şehirlerin değil, göçü veren **kırsal alanların (köylerin, küçük kasabaların)** temel sorunudur. Kentlerde zaten tarım yapılmaz. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Türkiye Cumhuriyeti'nin kuruluş yıllarında (1923-1965 arası) devlet, nüfus artış hızını ve doğum oranlarını en üst düzeye çıkarmak için pro-natalist (nüfus artırıcı) katı kararlar almıştır. 
+        <br>Aşağıdakilerden hangisi o dönemde uygulanan bu **nüfus artırıcı politikanın resmi yasal uygulamalarından biri olamaz**?</div>
+        <ul class="options-list">
+            <li>A) Çok çocuklu ailelerin yol vergisinden muaf tutulması</li>
+            <li>B) Altı veya daha fazla çocuk doğuran kadınlara devlet tarafından milli madalya verilmesi</li>
+            <li>C) Evlilik yaş sınırının düşürülerek gençlerin erken evlenmeye teşvik edilmesi</li>
+            <li>D) Doğum kontrol yöntemlerinin, ilaçlarının ithalatının ve satışının kesin olarak yasaklanması</li>
+            <li>E) Çocuk başına alınan vergilerin katlanarak artırılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kuruluş dönemi nüfus politikalarının mantığını eşleştirelim. Devlet nüfusu artırmak istiyorsa çocuklu aileleri ödüllendirir, çocuk yapmayı kolaylaştırır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Madalya verilmesi (B), vergiden muafiyet (A), evlilik yaşının düşürülmesi (C) ve doğum kontrolünün yasaklanması (D) nüfusu artırmaya yönelik teşviklerdir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak E seçeneğindeki "çocuk başına alınan verginin artırılması" çocuk yapmayı cezalandıran, nüfusu azaltmak isteyen (Hindistan veya eski Çin gibi) ülkelerin uygulayacağı bir yöntemdir. Türkiye o dönem nüfusu artırmak istediği için böyle bir şey yapmamış, tam aksine çocuklu ailelere vergi indirimi uygulamıştır. Cevap E'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Türkiye'de kırsal alanlardan şehirlere doğru yapılan göçler sonucunda, göç veren bölgelerde nüfus miktarının azalması mekân üzerinde doğrudan yapısal değişimlere neden olmaktadır. 
+        <br>Aşağıdakilerden hangisi **göç veren (nüfusu boşalan) kırsal bir bölgede** gözlemlenebilecek bir durumdur?</div>
+        <ul class="options-list">
+            <li>A) Kent içi ulaşım hatlarının ve metroların yetersiz kalması</li>
+            <li>B) Tarım arazilerinin, bağ ve bahçelerin bakımsızlıktan dolayı terk edilmesi, okul ve sağlık ocağı binalarının boş kalarak çürümesi</li>
+            <li>C) Sanayi tesislerinin tarım arazilerini işgal etmesi</li>
+            <li>D) Konut fiyatlarının ve kiraların fahiş şekilde tırmanması</li>
+            <li>E) Kültürel çeşitliliğin ve sinema/tiyatro salonlarının artması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Bu kez **Göç Veren** yerdeki (kırsaldaki) manzarayı arıyoruz. Nüfusu azalan bir köyde konut fiyatı artmaz (D elenir), sanayi gelmez (C elenir), metro yapılmaz (A elenir).
+            <br>• İnsanların terk ettiği köylerde genç iş gücü kalmadığı için o verimli tarım arazileri, meralar boş kalır, ekilemez. Nüfus kalmadığı için devletin açtığı köy okulları, sağlık ocakları kapanır ve binalar bakımsızlıktan dolayı zamanla harabeye döner. Bu kırsalın en bariz göç verme sonucudur. Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

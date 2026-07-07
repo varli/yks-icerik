@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 7: Türkiye'nin İşlevsel Bölgeleri ve Kalkınma Projeleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #0f766e); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ccfbf1; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #0f766e; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0f766e; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #14b8a6; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 7: TÜRKİYE'NİN İŞLEVSEL BÖLGELERİ VE KALKINMA PROJELERİ</h1>
+        <p>"Bölgesel Şahlanış: İşlevsel Bölge Dinamikleri ve Makro Kalkınma Projelerinin Coğrafi Haritası"</p>
+    </div>
+
+    <h2>1. TÜRKİYE'NİN İŞLEVSEL BÖLGELERİ VE KRİTERLERİ</h2>
+    <p>Belirli bir merkezi odağa bağlı olarak gelişen, aralarında ekonomik, idari veya hizmet yönünden tıkır tıkır işleyen bir bağ bulunan alanlara <b>işlevsel bölge</b> denir. 4 grupta incelenir:</p>
+    <ul>
+        <li><b>İşlevsel Yönetim Bölgeleri:</b> Devletin ülkeyi kolayca yönetmesi amacıyla kurduğu yapılardır. Merkeze bağlı yönetimler (**Valilikler, Kaymakamlıklar**) ve Yerel yönetimler (**Belediyeler, Muhtarlıklar**) bu gruptadır.</li>
+        <li><b>İşlevsel Hizmet Bölgeleri:</b> Sağlık, eğitim, meteoroloji gibi kamu hizmetlerinin ülke genelinde planlı yürütülmesi için kurulan kurumsal ağlardır. **Meteoroloji Genel Müdürlüğü**, **DSİ** (Devlet Su İşleri) ve **Karayolları Genel Müdürlüğü** bölge müdürlükleri en bariz örneklerdir.</li>
+        <li><b>İşlevsel İstatistik Bölgeleri (İBBS):</b> TÜİK tarafından, bölgeler arası farkları analiz etmek ve sağlıklı ekonomik veriler toplamak amacıyla oluşturulmuş hiyerarşik bölgelerdir.</li>
+    </ul>
+
+    <h2>2. ÖSYM'NİN EN SEVDİĞİ DOSYA: BÖLGESEL KALKINMA PROJELERİ</h2>
+    <p>Türkiye'de bölgeler arasındaki ekonomik ve sosyal gelişmişlik farklarını azaltmak, göçü engellemek ve yerel potansiyelleri patlatmak amacıyla makro ölçekli kalkınma projeleri hazırlanmıştır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Proje Adı ve Kapsamı</th>
+                <th>Projenin Ana Çıkış Noktası ve Gerekçesi</th>
+                <th>ÖSYM Odaklı Hedefleri ve Yaşanan Ekonomik Değişimler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>GAP (Güneydoğu Anadolu Projesi)</b><br>Şanlıurfa, Gaziantep, Diyarbakır, Mardin, Batman, Siirt, Şırnak, Kilis, Adıyaman.</td>
+                <td>Bölgedeki su kaynaklarının (**Fırat ve Dicle**) potansiyelini kullanarak tarımsal sulamayı ve hidroelektrik üretimini tavan yaptırmak. **Cumhuriyet tarihinin en başarılı ve en köklü projesidir.**</td>
+                <td>&bull; Sulamayla birlikte nadas alanları neredeyse bitmiştir.<br>&bull; Bölge, Türkiye **Pamuk** üretiminde Ege ve Çukurova'yı geçerek **1. sıraya** yükselmiştir.<br>&bull; Mısır ve soya üretimi başlamıştır.<br>&bull; Bölge dışına olan tarım göçleri azalmıştır.</td>
+            </tr>
+            <tr>
+                <td><b>DAP (Doğu Anadolu Projesi)</b><br>Erzurum, Kars, Malatya, Van, Ağrı, Elazığ, Erzincan dahil Doğu Anadolu illeri + Sivas. (İl sayısı en fazla projedir).</td>
+                <td>Karasal iklim, dağlık yer şekilleri ve sanayinin olmaması nedeniyle bölgenin ekonomik olarak geri kalmış olması.</td>
+                <td>&bull; **Büyükbaş hayvancılığı (mera/ırk ıslahı)** modernize etmek ve et-süt sanayisini geliştirmek.<br>&bull; Tarım topraklarını sulamaya açmak.<br>&bull; Kış turizmini (Palandöken, Sarıkamış) canlandırmak.</td>
+            </tr>
+            <tr>
+                <td><b>DOKAP (Doğu Karadeniz Projesi)</b><br>Artvin, Rize, Trabzon, Giresun, Ordu, Gümüşhane, Bayburt, Samsun, Tokat, Amasya.</td>
+                <td>Engebeli arazi yapısı, ulaşımın zorluğu ve ekonomik faaliyetlerin sadece çay-fındık tarımı ile balıkçılığa sıkışması.</td>
+                <td>&bull; Ulaşım ve altyapı hizmetlerini (havaalanları, limanlar) güçlendirmek.<br>&bull; Yayla turizmini birleştiren <b>Yeşil Yol Projesi</b> ile turizm çeşitliliğini artırmak.<br>&bull; Mevcut tarımsal faaliyetleri ve hayvancılığı modernize etmek.</td>
+            </tr>
+            <tr>
+                <td><b>ZBK (Zonguldak - Bartın - Karabük)</b><br>Sadece 3 ili kapsar: Zonguldak, Bartın, Karabük.</td>
+                <td>Özelleştirmelerle birlikte demir-çelik ve taş kömürü sektörlerinde istihdamın (iş gücü ihtiyacının) azalması ve bölgenin çöküş riski.</td>
+                <td>&bull; Bölgeyi sadece kömür ve demire bağımlı olmaktan kurtarmak; **ekonomiyi çeşitlendirmek**.<br>&bull; Yeni yatırım alanları (organize sanayi, tarım, turizm) açmak.<br>&bull; Filyos Limanı projesiyle Karadeniz'e dev bir ticaret kapısı kurmak.</td>
+            </tr>
+            <tr>
+                <td><b>KOP (Konya Ovası Projesi)</b><br>Konya, Karaman, Aksaray, Niğde + Nevşehir, Kırşehir, Kırıkkale, Yozgat.</td>
+                <td>İç Anadolu'nun kalbi olan bu düzlüklerin Türkiye'nin en az yağış alan, kuraklık ve yer altı su seviyesinin çökme riski taşıyan bölgesi olması (Obruk oluşumları).</td>
+                <td>&bull; Göksu Nehri'nin sularını Mavi Tünel projesiyle Konya Ovası'na akıtarak devasa bir **sulamalı tarım** devrimi gerçekleştirmek.<br>&bull; Su yetersizliğinden dolayı obruk oluşan tarım alanlarını kurtarmak, mısır ve şeker pancarı üretiminde süreklilik sağlamak.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN EN COĞRAFİ SİNSİ SORUYU SORAR:</strong>
+        <br>Bir il, coğrafi konumu gereği birden fazla kalkınma projesinin içinde yer alabilir. Örneğin; **Samsun, Tokat ve Amasya** illeri hem **DOKAP** (Doğu Karadeniz Projesi) kapsamında yer alırken hem de Yeşilırmak Havzası Gelişim Projesi (**YHGP**) içinde yer alan çift mühürlü şehirlerdir. Sivas ise DAP kapsamına sonradan eklenmiştir.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Türkiye'de hayata geçirilen kalkınma projelerinin bölgesel tarım yapılarına olan yansımaları incelendiğinde; Güneydoğu Anadolu Projesi'nin (GAP) sulama kanallarının devreye girmesiyle birlikte bölge tarımında köklü bir devrim yaşanmıştır. 
+        <br>Buna göre, GAP projesinin sulama aşamasının tamamlanmasının ardından, bölgedeki **tarımsal üretim deseninde yaşanan en bariz ve tarihi değişim** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Nadas alanlarının aşırı derecede artması</li>
+            <li>B) Bölgenin, Türkiye **Pamuk** üretiminde Ege ve Çukurova gibi devleri geride bırakarak 1. sıraya yükselmesi</li>
+            <li>C) Çay ve fındık tarımının bölge ekonomisinin tek hakimi olması</li>
+            <li>D) Tarımsal üretimin tamamen durarak göçün hızlanması</li>
+            <li>E) Sadece seracılık faaliyetlerinin yapılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• GAP projesinin tarım coğrafyasına olan etkisini deşifre edelim. Güneydoğu Anadolu, düzlük arazilere ve yüksek sıcaklıklara (güneşlenme süresine) sahip bir bölgedir ancak en büyük eksikliği şiddetli kuraklık ve su yetersizliğiydi.
+            <br>• Atatürk ve Karakaya barajlarından çekilen dev tüneller ve kanallarla Şanlıurfa ve Mardin ovaları suya kavuşunca, bölgede su ve güneş birleşmiştir. Bu durum, suya aşırı ihtiyaç duyan ancak yüksek gelir getiren endüstri bitkisi olan <b>Pamuk</b> üretiminde patlama yaratmıştır. Güneydoğu, Türkiye pamuğunun yarıdan fazlasını tek başına üreterek liderliğe oturmuştur. Nadas alanları ise azalmıştır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> İç Anadolu Bölgesi'nde yer alan Konya, Karaman, Aksaray ve Niğde gibi illerimizin en büyük çevre ve ekonomi krizi, yıllık yağış miktarının azlığına bağlı olarak tarımda yer altı sularının aşırı çekilmesi ve bunun sonucunda toprağın aniden çökmesiyle oluşan dev "Obruk" çukurlarıdır. 
+        <br>Bu kuraklık felaketini önlemek ve ovayı suya kavuşturmak amacıyla Akdeniz'e dökülen Göksu Nehri'nin sularını dev dağ tünelleriyle (**Mavi Tünel**) bölgeye akıtan o meşhur **kalkınma projesi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) ZBK</li>
+            <li>B) DOKAP</li>
+            <li>C) KOP (Konya Ovası Projesi)</li>
+            <li>D) DAP</li>
+            <li>E) YHGP</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Soru kökündeki net coğrafi koordinat ve nehir/tünel şifrelerini birleştirelim: "Konya-Karaman-Aksaray-Niğde hattı", "yer altı suyu çökmesi/obruklar" ve "Göksu Nehri sularını ovaya taşıyan Mavi Tünel projesi".
+            <br>• Bu devasa tarımsal sulama ve çevre kurtarma hamlesi kısa adı <b>KOP olan Konya Ovası Projesi</b>'dir. Projeye son yıllarda Yozgat, Kırşehir, Kırıkkale ve Nevşehir de dahil edilerek İç Anadolu'nun kuraklık iskeleti kırılmak istenmiştir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Türkiye Bölgesel Kalkınma Projeleri haritasında yer alan illerin dağılımı incelendiğinde; bazı şehirlerin coğrafi ve akarsu havza konumlarından dolayı **hem DOKAP (Doğu Karadeniz Projesi) hem de YHGP (Yeşilırmak Havzası Gelişim Projesi) kapsamında çift mühürlü olarak yer aldığı** görülmektedir. 
+        <br>Aşağıdaki şehirlerden hangisi bu **iki projenin de ortak sınırları içerisinde yer alan** o şanslı illerimizden biridir?</div>
+        <ul class="options-list">
+            <li>A) Zonguldak</li>
+            <li>B) Tokat</li>
+            <li>C) Şanlıurfa</li>
+            <li>D) Erzurum</li>
+            <li>E) Antalya</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin harita üzerindeki en sinsi, en seçici çakışma/ortak il sorularından biridir. 
+            <br>• Yeşilırmak akarsuyunun kolları üzerinde yer alan ve YHGP projesinin omurgasını oluşturan dört il vardır: Amasya, Tokat, Çorum ve Samsun. Devlet daha sonra bu illerin Karadeniz kalkınma entegrasyonunu sağlamak amacıyla **Samsun, Amasya ve Tokat** illerini **DOKAP** (Doğu Karadeniz Projesi) sınırlarına da dahil etmiştir. Dolayısıyla <b>Tokat</b> (veya Samsun/Amasya) her iki projenin de üyesidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bölgesel kalkınma projelerinin çıkış noktaları bazen tarım veya hayvancılık değil, bölgede çöken bir ağır sanayi kolunu kurtarmak ve ekonomiyi çeşitlendirmek olabilir. 
+        <br>Kapsamında sadece üç il bulunan (Zonguldak, Bartın, Karabük); temel amacı **bölgeyi sadece taş kömürü ve demir-çelik sanayisine bağımlı olmaktan kurtararak yeni iş kolları açmak ve Filyos limanını kurmak** olan proje hangisidir?</div>
+        <ul class="options-list">
+            <li>A) GAP</li>
+            <li>B) DAP</li>
+            <li>C) KOP</li>
+            <li>D) ZBK (Zonguldak - Bartın - Karabük Projesi)</li>
+            <li>E) YHGP</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Projenin adını doğrudan oluşturan baş harfleri ve ekonomik mantığı eşleştirelim. Batı Karadeniz'in bu dar maden şeridindeki tesislerin (TTK ve Kardemir) özelleşme/küçülme adımları sonrası bölgede istihdam krizi doğmuştur.
+            <br>• Devlet bu üç ili (Zonguldak, Bartın, Karabük) kapsayan, sanayiyi çeşitlendirmeyi, tarım ve seracılığı geliştirmeyi ve dev Filyos limanı ile bölgeyi lojistik üs yapmayı hedefleyen <b>ZBK Projesi</b>'ni hazırlamıştır. Doğru cevap D'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Doğu Anadolu Projesi (DAP), Türkiye'de il sayısı (15 il) ve kapsadığı coğrafi alan bakımından en devasa projedir. Bölgenin engebeli yükseltisi ve sert karasal iklimi nedeniyle sanayi ve tarım çok kısıtlıdır. 
+        <br>Buna göre, DAP projesinin bölgeyi ayağa kaldırmak için odaklandığı **en temel, en baskın ekonomik sektör sektörel faaliyet** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yoğun kümes hayvancılığı ve ipek böcekçiliği</li>
+            <li>B) Narenciye ve zeytin tarımını geliştirmek</li>
+            <li>C) **Büyükbaş hayvancılığı**, mera ıslahını, veterinerlik hizmetlerini modernize etmek ve et-süt entegre sanayisini kurmak</li>
+            <li>D) Deniz turizmini ve yat limanlarını yaygınlaştırmak</li>
+            <li>E) Taş kömürü maden ocaklarını çoğaltmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Doğu Anadolu Bölgesi'nin fiziki coğrafya gerçeklerini ekonomik potansiyelle birleştirelim. Bölge dağlıktır, yaz yağışları alır ve Erzurum-Kars gibi devasa meralara, Alpin çayırlarına sahiptir. Bu coğrafyanın doğal ve en güçlü ekonomik potansiyeli **Büyükbaş Hayvancılık**tır.
+            <br>• <b>DAP projesinin ana iskeleti, hayvancılığı ilkel mera yönteminden kurtarıp modern besi-ırk ıslahına geçirmek</b>, hayvancılıkla geçinen halkın gelirini artırmak ve bölgede et-süt kombinalarını açarak sanayiyi başlatmaktır. Deniz turizmi (D) veya narenciye (B) zaten iklim gereği bölgede imkansızdır. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

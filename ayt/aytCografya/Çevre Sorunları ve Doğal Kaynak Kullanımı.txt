@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Coğrafya - Modül 11: Çevre Sorunları ve Doğal Kaynak Kullanımı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #164e63, #0f766e); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #cffafe; font-style: italic; }
+        h2 { color: #164e63; font-size: 16pt; border-left: 6px solid #06b6d4; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0f766e; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #ecfeff; border: 1px dashed #22d3ee; border-left: 5px solid #06b6d4; padding: 15px; margin: 18px 0; border-radius: 4px; color: #164e63; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #164e63; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #164e63; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #164e63; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT COĞRAFYA - MODÜL 11: ÇEVRE SORUNLARI VE DOĞAL KAYNAK KULLANIMI</h1>
+        <p>"Doğanın Feryadı: Yanlış Arazi Planlaması, Ekosistem Tahribatı ve Küresel Çevre Krizleri"</p>
+    </div>
+
+    <h2>1. DOĞAL KAYNAK KULLANIMINDA YAPILAN COĞRAFİ HATALAR</h2>
+    <p>İnsanoğlu yüzyıllar boyunca ormanları, toprakları, su kaynaklarını ve madenleri tükenmeyecekmiş gibi kullanmıştır. Arazi potansiyeline uygun olmayan **yanlış yer seçimleri** ve aşırı tüketim geri dönülmez çevre felaketlerine yol açmıştır:</p>
+    <ul>
+        <li><b>Madenlerin Tahribatı:</b> Özellikle açık işletme madenciliğinde bitki örtüsü tamamen sıyrılır, yer şekilleri darmadağın edilir, devasa çukurlar açılır ve toprağın yapısı bozulur. Siyanür gibi kimyasalların altını ayrıştırmada kullanılması yer altı su kaynaklarını zehirler.</li>
+        <li><b>Ormanların Tahribatı:</b> Tarım alanı açmak, kereste elde etmek veya yerleşme kurmak amacıyla yapılan orman kesimleri biyoçeşitliliği bitirir, **erozyonu tırmandırır** ve karbon dengesini bozarak küresel ısınmayı hızlandırır (Örn: Amazon ve Kongo ormanlarının yok edilmesi).</li>
+        <li><b>Toprakların Yanlış Kullanımı:</b> Birinci sınıf tarım ovalarının (Örn: Dilovası, Çukurova, Bursa Ovası) sanayiye ve yerleşmeye açılması, meraların aşırı otlatılarak çıplak bırakılması toprağı öldüren beşerî hatalardır.</li>
+        <li><b>Su Kaynaklarının Kurutulması:</b> Tarımda aşırı ve yanlış (vahşi/salma) sulama yapılması yer altı sularını çökertir (Konya'daki obruklar). Dünyanın en büyük göllerinden biri olan **Aral Gölü**, kendisini besleyen nehirlerin pamuk tarlalarına aşırı akıtılması yüzünden bugün tamamen kuruyarak bir tuz çölüne dönmüştür.</li>
+    </ul>
+
+    <h2>2. ÇEVRE KİRLİLİĞİ TÜRLERİ VE ÖSÜM ODAKLI TERİMLER</h2>
+    <p>Sanayi atıklarının, egzoz gazlarının ve kanalizasyon sularının doğaya arıtılmadan bırakılmasıyla çevre kirliliği tavan yapmıştır. Sınavda en çok elenen iki spesifik terim şunlardır:</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSÜM BU İKİ KRİTİK TERİMİ ÇOK SEVER — BİLGİ KUTUSU:</strong>
+        <br>&bull; <b>1. ASİT YAĞMURLARI (Atmosferin Zehri):</b> Sanayi tesislerinde ve araçlarda fosil yakıtların yakılmasıyla atmosfere **Kükürt Dioksit (SO2)** ve **Azot Oksit (NOx)** gazları salınır. Bu gazlar havadaki su buharıyla birleşerek kimyasal reaksiyona girer ve sülfürik/nitrik asit olarak yeryüzüne yağar. Asit yağmurları; ormanları kurutur, tarihi eserleri aşındırarak eritir, göl sularının pH dengesini bozarak balıkları öldürür ve toprakları çoraklaştırır.
+        <br>&bull; <b>2. ÖTROFİKASYON (Suların Boğulması):</b> Tarımda kullanılan kimyasal gübrelerin ve kanalizasyon atıklarının (Fosfor ve Azotun) yağmurlarla göllere ve durgun sulara taşınması olayıdır. Bu besin maddeleri sudaki **alglerin (yosunların) aşırı derecede çoğalmasına** yol açar. Göllerin üzeri yeşil bir yosun tabakasıyla kaplanır. Bu tabaka güneş ışınlarının ve oksijenin suyun dibine inmesini engeller. Gölün alt katmanlarında oksijen biter, hidrojen sülfür gazı birikir ve **göldeki tüm canlı yaşamı (balıklar) toplu halde ölür**, göl bataklığa dönüşür.
+    </div>
+
+    <h2>3. DOĞAL KAYNAK KULLANIMI VE ÇEVRESEL ETKİ MATRİSİ</h2>
+    <p>Doğal kaynakların çıkarılması, işlenmesi ve tüketilmesi süreçlerinin her biri ekosistemde farklı bir kirlilik dalgası yaratır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Doğal Kaynak Faaliyeti</th>
+                <th>Yarattığı Çevresel Risk ve Kirlilik Türü</th>
+                <th>ÖSYM Standartlarında Alınabilecek Coğrafi Önlemler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Termik Santraller (Kömür yakılması)</b></td>
+                <td>Hava kirliliği (Sera etkisi, partikül madde), kül yığınları, asit yağmurları.</td>
+                <td>Bacalar en modern **baca filtreleriyle (desülfürizasyon)** donatılmalı, kömür atığı küller sızdırmaz depolarda tutulmalıdır.</td>
+            </tr>
+            <tr>
+                <td><b>Nükleer Santraller</b></td>
+                <td>Radyoaktif sızıntı riski, kullanılmış nükleer yakıtların (atıkların) binlerce yıl radyasyon yayma tehlikesi. Su kirliliği (soğutma suyunun termal etkisi).</td>
+                <td>Santraller deprem ve tsunami riskinin en az olduğu jeolojik olarak kararlı levhalara kurulmalı, nükleer atıklar kurşun kaplı derin yer altı depolarında mühürlenmelidir.</td>
+            </tr>
+            <tr>
+                <td><b>Açık Maden Ocakları</b></td>
+                <td>Yer şekillerinin bozulması, erozyon, bitki ve toprak tabakasının yok edilmesi, görsel kirlilik.</td>
+                <td>Maden çıkarımı bittikten sonra açılan dev çukurlar toprakla doldurulmalı, topoğrafya düzeltilmeli ve saha **yeniden ağaçlandırılmalıdır (Rehabilitasyon)**.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Tarım alanlarında verimi artırmak amacıyla bilinçsizce ve aşırı miktarda kullanılan kimyasal suni gübreler ile evsel/kanalizasyon atıkları, yağışlar ve akarsular vasıtasıyla göllere veya durgun deniz koylarına taşınmaktadır. Su ekosistemine giren bu aşırı azot ve fosfor, sudaki alglerin (yosunların) kontrolsüzce çoğalmasına, su yüzeyinin yeşil bir tabakayla kaplanarak ışık ve oksijenin dibe inmesini engellemesine yol açar. Sonuçta gölün alt katmanlarında oksijen biter ve toplu canlı ölümleri başlar. 
+        <br>Yukarıda mekanizması ve ekolojik felaket adımları anlatılan **çevre coğrafyası terimi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Asit Yağmuru</li>
+            <li>B) Ötrofikasyon</li>
+            <li>C) Sera Etkisi</li>
+            <li>D) Fotokimyasal Smog</li>
+            <li>E) Biyolojik Birikim</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Çevre coğrafyasının en popüler su kirliliği terimini analiz edelim. Paragraftaki o can alıcı şifre kelimeleri yakalayalım: "Göllere azot-fosfor taşınması", "alglerin/yosunların aşırı çoğalması", "su yüzeyinin yeşil kaplanması" ve "oksijensizlikten toplu balık ölümleri".
+            <br>• Bu biyokimyasal su kirliliği sürecine literatürde <b>Ötrofikasyon</b> adı verilir. Ötrofikasyona uğrayan bir göl, zamanla berraklığını kaybeder, bataklığa dönüşür ve içindeki tüm ekosistem çöker. Doğru cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sanayi tesislerinde ve motorlu taşıtlarda kömür ve petrol gibi fosil yakıtların yakılması sonucu atmosfere kükürt dioksit (SO2) ve azot oksit (NOx) gazları salınır. Bu gazlar atmosferdeki su buharıyla kimyasal reaksiyona girerek sülfürik ve nitrik asit damlalarına dönüşür. 
+        <br>Aşağıdakilerden hangisi bu asit damlalarının **"Asit Yağmurları" olarak yeryüzüne inmesinin doğuracağı olumsuz ekolojik sonuçlardan biri olamaz**?</div>
+        <ul class="options-list">
+            <li>A) Geniş ormanlık alanlardaki ağaçların yapraklarını yakarak kurutması</li>
+            <li>B) Tarihi binaları, antik açık hava tapınaklarını ve mermer heykelleri kimyasal olarak aşındırıp eritmesi</li>
+            <li>C) Göl ve akarsuların asitlik (pH) dengesini bozarak tatlı su canlılarının ölümüne yol açması</li>
+            <li>D) Toprağın mineral yapısını bozarak onu çoraklaştırması ve tarımsal verimi düşürmesi</li>
+            <li>E) Yer altındaki fay hatlarını tetikleyerek tektonik deprem sayısını artırması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Asit yağmurlarının etki alanlarını denetleyelim: Ormanları kurutması (A), tarihi eserleri kimyasal eritmesi (B), suların kimyasını bozup balıkları öldürmesi (C) ve toprağı çoraklaştırması (D) asit yağmurlarının tescilli biyolojik ve fiziki yıkımlarıdır.
+            <br>• Central olarak, asit yağmurları tamamen birer **atmosferik/kimyasal** olaydır. Yer kabuğunun derinliklerinde, magmadaki enerjiden kaynaklanan **fay hatlarını tetiklemesi veya tektonik deprem yaratması (E şıkkı)** jeolojik kurallara göre tamamen imkansızdır. Depremler iç kuvvet, asit yağmuru ise dış/atmosferik etkendir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Orta Asya'da yer alan ve geçmişte dünyanın en büyük dördüncü gölü olan Aral Gölü, 1960'lardan itibaren Sovyetler Birliği döneminde gölü besleyen Amuderya ve Siriderya nehirlerinin sularının pamuk tarlalarını sulamak amacıyla aşırı ve kontrolsüzce çekilmesi sonucu bugün %90 oranında kuruyarak dev bir tuz çölüne dönüşmüştür. 
+        <br>Aral Gölü'nün bu trajik yok oluş hikayesi, doğal kaynak kullanımında yapılan **hangi temel hatanın** küresel ölçekteki en bariz kanıtıdır?</div>
+        <ul class="options-list">
+            <li>A) Maden ocaklarının açık işletmeyle açılmasının</li>
+            <li>B) Sanayi tesislerinin yer seçiminde deprem riskinin gözetilmemesinin</li>
+            <li>C) Akarsu ve göl havzalarının hidrolojik dengesinin ve taşıma kapasitesinin hiçe sayılarak, yanlış arazi ve su politikalarıyla **doğal kaynakların aşırı/bilinçsiz sömürülmesinin**</li>
+            <li>D) Orman yangınlarına zamanında müdahale edilememesinin</li>
+            <li>E) Kıyıların turizm amacıyla aşırı betonlaştırılmasının</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Aral Gölü trajedisinin çevre coğrafyası dersini yorumlayalım. Bir gölü besleyen su kaynaklarını, gölün buharlaşma dengesini hesaba katmadan hunharca tarımsal sulamaya akıtırsanız o gölün hidrolojik (su) dengesini bozarsınız.
+            <br>• Aral Gölü'nün kuruması, insanoğlunun <b>doğal kaynakları (su kaynaklarını) planlamadan, aşırı ve bencilce sömürmesinin</b> dünya çevre tarihindeki en büyük, en hüzünlü ve ders niteliğindeki felaket örneğidir. Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Yeryüzündeki açık işletme maden ocaklarında, cevhere ulaşmak için üstteki bitki örtüsü ve toprak tabakası tamamen kazınarak sıyrılır. Dinamit patlatmalarıyla yer şekilleri bozulur ve maden bittiğinde geriye devasa çukurlar, çıplak ve çorak bir topoğrafya kalır. 
+        <br>Buna göre, açık maden işletmelerinin çevreye verdiği bu zararları en aza indirmek amacıyla maden kapatıldıktan sonra uygulanması gereken **en bilimsel, en doğru ekolojik restorasyon/rehabilitasyon yöntemi** nedir?</div>
+        <ul class="options-list">
+            <li>A) Açılan çukurları sanayi atıklarıyla ve çöplerle doldurmak</li>
+            <li>B) Maden sahasını kendi haline bırakıp doğanın bin yılda çözmesini beklemek</li>
+            <li>C) Açılan dev çukurların hafriyat ve verimli toprakla doldurularak topoğrafyanın düzeltilmesi, sahanın **yeniden ağaçlandırılarak ekosisteme geri kazandırılması (rehabilitasyon süreci)**</li>
+            <li>D) Sahayı tamamen beton dökerek kapatmak</li>
+            <li>E) Maden çukurlarını nükleer atık deposu yapmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sürdürülebilir madencilik ve çevre koruma politikalarını eşleştirelim. Madenler ekonomik ihtiyaçtır, çıkarılacaktır; ancak çevreye saygılı olunmalıdır.
+            <br>• Açık işletme bittikten sonra o dev yaraları, krater benzeri çukurları kaderine terk etmek erozyonu ve görsel kirliliği tırmandırır. En doğru yöntem; o çukurların doldurulması, yüzey şeklinin eski haline yaklaştırılması ve üzerine hızla büyüyen ağaçların dikilerek sahanın <b>Rehabite edilmesi (Ekolojik Restorasyon)</b> sürecidir. Günümüzde gelişmiş ülkelerde bu yasal bir zorunluluktur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Çevre kirliliği sorunları yerel, bölgesel ve küresel olmak üzere etki alanlarına göre gruplandırılır. Bazı kirlilikler sadece çıktığı mahalleyi etkilerken, bazıları rüzgâr ve akarsularla kıtaları aşarak tüm dünyayı tehdit eder. 
+        <br>Buna göre, aşağıdaki çevre sorunlarından hangisi **etki alanı yönüyle kesinlikle küresel (tüm gezegeni doğrudan ilgilendiren) bir karaktere sahiptir**?</div>
+        <ul class="options-list">
+            <li>A) Bir şehrin çöplüğünden yayılan kötü koku ve çöp sızıntı suları</li>
+            <li>B) Taş ocaklarındaki patlamalardan çıkan gürültü ve toz kirliliği</li>
+            <li>C) Fosil yakıtların aşırı kullanımı sonucu atmosferde sera gazlarının birikmesiyle yaşanan **Küresel İklim Değişikliği ve Ozon Tabakasının Seyrelmesi**</li>
+            <li>D) Bir fabrikanın kimyasal atığını yanındaki küçük dereye boşaltması</li>
+            <li>E) Kent içi trafiğin yarattığı lokal egzoz dumanı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Çevre sorunlarının mekânsal ölçeklerini kıyaslayalım: Çöp kokusu (A), taş ocağı tozu (B), dere kirliliği (D) ve kent trafiği (E) lokal, yerel veya en fazla bölgesel sınırlarda kalan kirliliklerdir.
+            <br>• Ancak atmosferin üst katmanlarında biriken sera gazlarının tetiklediği <b>Küresel İklim Değişimi ve Ozon tabakasının delinmesi</b>, gazı salan ülkeden bağımsız olarak tüm dünyadaki iklimleri, buzulları, denizleri ve canlı yaşamını vurur. Bu yüzden etki alanı kesinlikle küreseldir ve çözümü de küresel paktlarla (Kyoto, Paris) olmak zorundadır. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>
