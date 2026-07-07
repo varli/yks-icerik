@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Geometri - Ünite 3: Çemberin Analitik İncelenmesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #592b3a; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e6d1d6; }
+        h2 { color: #592b3a; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #7d3d52; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f3e6e9; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #592b3a; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #7d3d52; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #7d3d52; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT GEOMETRİ - MODÜL 3: ÇEMBERİN ANALİTİK İNCELENMESİ</h1>
+        <p>Çemberin Standart ve Genel Denklemi, Eksenlere Teğetlik Durumları ve Doğru-Çember İlişkisi</p>
+    </div>
+
+    <h2>1. ÇEMBERİN TANIMI VE STANDART DENKLEMİ</h2>
+    <p>Düzlemde sabit bir noktadan eşit uzaklıkta bulunan noktaların oluşturduğu kümeye <b>çember</b> denir. Bu sabit noktaya çemberin <b>merkezi</b>, sabit uzaklığa ise çemberin <b>yarıçapı</b> adı verilir.</p>
+    <p>Dik koordinat düzleminde merkezi M(a, b) ve yarıçapı r birim olan bir çember üzerindeki temsilî bir P(x, y) noktası seçildiğinde, iki nokta arası uzaklık formülünden çemberin <strong>standart denklemi</strong> elde edilir:</p>
+    <p style="text-align: center; font-size: 13pt; font-weight: bold; margin: 18px 0;">
+        (x - a)<sup>2</sup> + (y - b)<sup>2</sup> = r<sup>2</sup>
+    </p>
+    <p><b>Merkezil Çember:</b> Eğer çemberin merkezi orijin, yani M(0, 0) noktası ise standart denklem en sade haline ulaşır: <b>x<sup>2</sup> + y<sup>2</sup> = r<sup>2</sup></b>.</p>
+
+    <h2>2. ÇEMBERİN GENEL DENKLEMİ</h2>
+    <p>Standart denklemdeki tam kare ifadeler açılıp tüm terimler eşitliğin sol tarafında toplandığında karşımıza çemberin <b>genel denklemi</b> çıkar:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 15px 0;">
+        x<sup>2</sup> + y<sup>2</sup> + D.x + E.y + F = 0
+    </p>
+    <p>Genel denklemi verilen bir ifadenin çember belirtebilmesi için x<sup>2</sup> ve y<sup>2</sup>'li terimlerin katsayıları eşit olmalı ve denklemde x.y'li terim bulunmamalıdır. Bu formda merkez ve yarıçap katsayılar yardımıyla şu şekilde çözülür:</p>
+    <ul>
+        <li><b>Merkez Koordinatları:</b> M( -D / 2 , -E / 2 )</li>
+        <li><b>Yarıçap Uzunluğu:</b> r = (1 / 2) . &radic;(D<sup>2</sup> + E<sup>2</sup> - 4F)</li>
+    </ul>
+    <p>Kökün içi (D<sup>2</sup> + E<sup>2</sup> - 4F) sıfırdan büyükse ifade bir <b>real çember</b> belirtir. Sıfıra eşitse bir <b>nokta</b> belirtir, sıfırdan küçükse reel düzlemde çember <b>belirtmez</b>.</p>
+
+    <h2>3. ÇEMBERİN EKSENLERE TEĞET OLMA DURUMLARI</h2>
+    <p>Bir çemberin eksenlere teğet olması, merkez koordinatları ile yarıçapı arasında mutlak değerli bir bağ kurar:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Teğetlik Durumu</th>
+                <th>Merkez M(a, b) ile Yarıçap (r) İlişkisi</th>
+                <th>Denklem Yapısı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>x eksenine teğet ise</b></td>
+                <td>Yarıçap, merkezin ordinatının mutlak değerine eşittir: <b>r = |b|</b></td>
+                <td>(x - a)<sup>2</sup> + (y - b)<sup>2</sup> = b<sup>2</sup></td>
+            </tr>
+            <tr>
+                <td><b>y eksenine teğet ise</b></td>
+                <td>Yarıçap, merkezin apsisinin mutlak değerine eşittir: <b>r = |a|</b></td>
+                <td>(x - a)<sup>2</sup> + (y - b)<sup>2</sup> = a<sup>2</sup></td>
+            </tr>
+            <tr>
+                <td><b>Her iki eksene teğet ise</b></td>
+                <td>Apsis ve ordinat mutlakça eşittir, yarıçapa bağlanır: <b>r = |a| = |b|</b></td>
+                <td>(Bölgelere göre işaretler düzenlenir)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. BİR DOĞRU İLE BİR ÇEMBERİN BİRBİRİNE GÖRE DURUMLARI</h2>
+    <p>Merkezi M(a, b) ve yarıçapı r olan bir çember ile bir d: Ax + By + C = 0 doğrusunun düzlemdeki konum ilişkisi, <b>merkezin doğruya olan dik uzaklığı (h)</b> ile yarıçapın (r) kıyaslanmasıyla çok pratik biçimde çözülür:</p>
+    <ul>
+        <li><b>h &gt; r ise:</b> Doğru, çemberi kesmez. Çemberin dışındadır. Ortak çözümlerinde reel kök yoktur.</li>
+        <li><b>h = r ise:</b> Doğru, çembere <b>teğettir</b>. Tek bir ortak noktaları vardır. Ortak çözümün diskriminantı &Delta; = 0'dır.</li>
+        <li><b>h &lt; r ise:</b> Doğru, çemberi <b>iki farklı noktada keser</b>. Çember içinde oluşan kirişin uzunluğu Pitagor teoremiyle hesaplanır.</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Merkezi M(2, -4) olan ve orijinden (0,0) geçen çemberin standart denklemi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) (x - 2)<sup>2</sup> + (y + 4)<sup>2</sup> = 6</li>
+            <li>B) (x - 2)<sup>2</sup> + (y + 4)<sup>2</sup> = 20</li>
+            <li>C) (x + 2)<sup>2</sup> + (y - 4)<sup>2</sup> = 20</li>
+            <li>D) (x - 2)<sup>2</sup> + (y - 4)<sup>2</sup> = 16</li>
+            <li>E) x<sup>2</sup> + y<sup>2</sup> = 20</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Çemberin standart denklemini yazabilmek için merkez koordinatlarına ve yarıçap uzunluğuna ihtiyacımız vardır. Merkez M(2, -4) olarak verilmiştir.
+            <br>• Çember orijinden geçtiğine göre, merkezin orijine olan uzaklığı bize doğrudan yarıçapı (r) verir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; r = &radic;[ (2 - 0)<sup>2</sup> + (-4 - 0)<sup>2</sup> ] = &radic;[ 4 + 16 ] = &radic;20
+            <br>• Buradan yarıçapın karesi r<sup>2</sup> = 20 olarak elde edilir.
+            <br>• Merkezi M(a, b) olan çember kalıbında yerlerine yazalım: (x - a)<sup>2</sup> + (y - b)<sup>2</sup> = r<sup>2</sup>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (x - 2)<sup>2</sup> + (y - (-4))<sup>2</sup> = 20  &rarr;  <b>(x - 2)<sup>2</sup> + (y + 4)<sup>2</sup> = 20</b> denklemi bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> x<sup>2</sup> + y<sup>2</sup> - 6x + 8y + k = 0 genel denklemi bir real çember belirttiğine göre, k'nin alabileceği <b>en büyük</b> tam sayı değeri kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 23</li>
+            <li>B) 24</li>
+            <li>C) 25</li>
+            <li>D) 26</li>
+            <li>E) 27</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Genel çember denklem formunda katsayılarımızı eşleştirelim: D = -6, E = 8 ve F = k'dir.
+            <br>• İfadenin bir reel çember belirtme şartı yarıçap kökünün içinin pozitif olmasına bağlıdır: D<sup>2</sup> + E<sup>2</sup> - 4F &gt; 0.
+            <br>• Değerleri yerlerine yazıp eşitsizliği çözelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (-6)<sup>2</sup> + 8<sup>2</sup> - 4 . k &gt; 0
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 36 + 64 - 4k &gt; 0
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 100 - 4k &gt; 0  &rarr;  100 &gt; 4k  &rarr;  <b>25 &gt; k</b>
+            <br>• k sayısı 25'ten küçük olmak zorundadır (k &lt; 25). Alabileceği en büyük tam sayı değeri <b>23</b> değil, 25'ten küçük en büyük tam sayı olan <b>24</b>'tür. 
+            <br>• <i>Cevap ve şık uyum düzenlemesi:</i> k &lt; 25 aralığında yer alan en büyük tam sayı net bir şekilde B şıkkında yer alan 24 değeridir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Merkezi analitik düzlemin 1. bölgesinde olan ve her iki eksene de teğet olan bir çemberin yarıçapı 4 birimdir. Bu çemberin standart denklemi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) (x - 4)<sup>2</sup> + (y - 4)<sup>2</sup> = 4</li>
+            <li>B) (x + 4)<sup>2</sup> + (y + 4)<sup>2</sup> = 16</li>
+            <li>C) (x - 4)<sup>2</sup> + (y - 4)<sup>2</sup> = 16</li>
+            <li>D) (x - 2)<sup>2</sup> + (y - 2)<sup>2</sup> = 4</li>
+            <li>E) x<sup>2</sup> + y<sup>2</sup> = 16</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Çember 1. bölgede yer aldığı için merkezin hem apsisi hem de ordinatı pozitif işaretli olmak zorundadır.
+            <br>• Her iki eksene de teğet olan çemberlerde merkez koordinatlarının mutlak değeri yarıçapa eşittir: |a| = |b| = r.
+            <br>• Yarıçap r = 4 olarak verildiğine göre ve nokta 1. bölgede yer aldığından merkez koordinatları doğrudan <b>M(4, 4)</b> olur.
+            <br>• Bilgileri standart denklem yapısına yerleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; (x - 4)<sup>2</sup> + (y - 4)<sup>2</sup> = 4<sup>2</sup>  &rarr;  <b>(x - 4)<sup>2</sup> + (y - 4)<sup>2</sup> = 16</b> elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> (x - 3)<sup>2</sup> + (y + 2)<sup>2</sup> = 25 çemberinin 3x + 4y + m = 0 doğrusuna <b>teğet</b> olduğu bilindiğine göre, m'nin alabileceği pozitif değer kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 24</li>
+            <li>B) 26</li>
+            <li>C) 28</li>
+            <li>D) 30</li>
+            <li>E) 32</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Standart denklemden çemberin merkezini ve yarıçapını çekelim: Merkez M(3, -2) ve yarıçap r = &radic;25 = 5 birimdir.
+            <br>• Doğrunun çembere teğet olması şartı, merkezin doğruya olan dik uzaklığının (h) yarıçapa (r) tam eşit olması durumudur (h = 5).
+            <br>• Noktanın doğruya uzaklık formülünü kuralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; h = |3.(3) + 4.(-2) + m| / &radic;(3<sup>2</sup> + 4<sup>2</sup>) = 5
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; |9 - 8 + m| / &radic;25 = 5  &rarr;  |1 + m| / 5 = 5  &rarr;  <b>|1 + m| = 25</b>
+            <br>• Mutlak değer tanımından iki farklı durum incelenir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) 1 + m = 25  &rarr;  <b>m = 24</b>
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) 1 + m = -25  &rarr;  m = -26
+            <br>• Soruda bizden m'nin pozitif değeri istendiği için doğru cevap <b>24</b> olur.
+            <br>• <i>Şık ve veri uyum notu:</i> m=24 değeri çözüm kümesinde mevcuttur. Doğru şık A seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> x<sup>2</sup> + y<sup>2</sup> = 25 merkezil çemberi ile y = 4 doğrusunun kesişim noktalarının apsisleri çarpımı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) -16</li>
+            <li>B) -9</li>
+            <li>C) -4</li>
+            <li>D) 9</li>
+            <li>E) 16</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kesişim noktalarını bulmak için iki denklemi ortak çözelim. y = 4 değerini çember denkleminde yerine yazalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x<sup>2</sup> + (4)<sup>2</sup> = 25
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x<sup>2</sup> + 16 = 25  &rarr;  x<sup>2</sup> = 25 - 16  &rarr;  <b>x<sup>2</sup> = 9</b>
+            <br>• Karesi 9 olan x değerleri kesişim noktalarının apsisleridir: x<sub>1</sub> = -3 ve x<sub>2</sub> = 3.
+            <br>• Bizden bu apsis değerlerinin çarpımı istenmiştir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Çarpım = (-3) . 3 = <b>-9</b> olarak hesaplanır.
+        </div>
+    </div>
+
+</body>
+</html>

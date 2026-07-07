@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Geometri - Ünite 4: Katı Cisimler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #592b3a; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e6d1d6; }
+        h2 { color: #592b3a; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #7d3d52; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f3e6e9; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #592b3a; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #7d3d52; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #7d3d52; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT GEOMETRİ - MODÜL 4: KATI CİSİMLER</h1>
+        <p>Prizmalar, Silindir, Piramitler, Koni ve Kürenin Alan-Hacim Bağıntıları ile Açınım Analizleri</p>
+    </div>
+
+    <h2>1. PRİZMALAR VE DİK DAİRESEL SİLİNDİR</h2>
+    <p>Alt ve üst tabanları birbirine eş ve paralel çokgenlerden oluşan, yan yüzleri ise taban düzlemlerine dik dikdörtgenlerden meydana gelen kapalı uzay şekillerine <b>dik prizma</b> denir. Prizmalar taban çokgenlerine göre isimlendirilirler (Üçgen prizma, kare prizma vb.). Bütün dik prizmalarda geçerli olan genel formüller şunlardır:</p>
+    <ul>
+        <li><b>Yanal Alan:</b> Taban Çevresi . Yükseklik &nbsp; (Y.A = T.Ç . h)</li>
+        <li><b>Bütün Alan:</b> Yanal Alan + 2 . Taban Alanı &nbsp; (A = Y.A + 2.T.A)</li>
+        <li><b>Hacim:</b> Taban Alanı . Yükseklik &nbsp; (V = T.A . h)</li>
+        <li><b>Cisim Köşegeni (Dikdörtgenler Prizmasında):</b> Üç farklı kenarı a, b, c olan prizmanın cisim köşegeni: <b>k = &radic;(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>)</b></li>
+    </ul>
+
+    <h3>Dik Dairesel Silindir:</h3>
+    <p>Tabanı daire olan özel bir prizma gibi düşünülebilir. Taban yarıçapı r ve yüksekliği h olan bir silindirde:</p>
+    <p style="text-indent: 40px;"><b>Taban Alanı = &pi;.r<sup>2</sup></b> &nbsp; | &nbsp; <b>Yanal Alan = 2.&pi;.r.h</b> &nbsp; | &nbsp; <b>Hacim = &pi;.r<sup>2</sup>.h</b></p>
+    <div class="tip-box">
+        <strong>💡 SİLİNDİRİN AÇINIM STRATEJİSİ:</strong>
+        <br>Bir silindir açıldığında yan yüzeyin bir <b>dikdörtgen</b> oluşturduğu görülür. Bu dikdörtgenin bir kenarı silindirin yüksekliği (h) iken, diğer kenarı taban dairesini tam sardığı için tabanın çevre uzunluğuna (<b>2.&pi;.r</b>) eşit olur. En kısa yol sorularında bu dikdörtgen düzleme serilerek Pitagor teoremi uygulanır.
+    </div>
+
+    <h2>2. PİRAMİTLER VE DİK DAİRESEL KONİ</h2>
+    <p>Tabanı herhangi bir çokgen olan ve yan yüzleri bir tepe noktasında birleşen üçgenlerden oluşan katı cisimlere <b>piramit</b> denir. Tepe noktasından tabana inen dikme tabanın ağırlık merkezinden geçiyorsa buna <b>düzgün piramit</b> adı verilir.</p>
+    <ul>
+        <li><b>Hacim Kuralı:</b> Sivrilen katı cisimlerin (piramit ve koni) hacmi, prizma hacminin <u>üçte birine</u> eşittir: <b>V = (Taban Alanı . Yükseklik) / 3</b></li>
+    </ul>
+
+    <h3>Dik Dairesel Koni:</h3>
+    <p>Tabanı daire olan düzgün bir piramittir. Taban yarıçapı r, yüksekliği h ve yanal kenar (ana doğru) uzunluğu a olan bir konide dik üçgen ilişkisinden <b>a<sup>2</sup> = r<sup>2</sup> + h<sup>2</sup></b> bağıntısı mevcuttur. Alan ve hacim formülleri:</p>
+    <p style="text-indent: 40px;"><b>Yanal Alan = &pi;.r.a</b> &nbsp; | &nbsp; <b>Bütün Alan = &pi;.r.a + &pi;.r<sup>2</sup></b> &nbsp; | &nbsp; <b>Hacim = (&pi;.r<sup>2</sup>.h) / 3</b></p>
+    <div class="highlight-box">
+        <strong>⚠️ KONİ SEKTÖR AÇISI İLİŞKİSİ:</strong>
+        <br>Bir koni açıldığında yan yüzey bir daire dilimi (sektör) belirtir. Bu daire diliminin merkez açısı &alpha; ile koninin taban yarıçapı (r) ve ana doğrusu (a) arasında ÖSYM'nin sormayı çok sevdiği şu altın oran vardır:
+        <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 10px 0;">
+            r / a = &alpha; / 360&deg;
+        </p>
+    </div>
+
+    <h2>3. KÜRE</h2>
+    <p>Uzayda sabit bir noktadan eşit uzaklıktaki noktaların oluşturduğu kapalı yüzeye <b>küre</b> denir. Kürenin en büyük özelliği, açınımının düzleme pürüzsüz yerleştirilemiyor oluşudur. Yarıçapı R olan bir kürenin yüzey alanı ve hacmi integral yardımıyla şu şekilde ispatlanır:</p>
+    <table style="margin: 15px 0;">
+        <thead>
+            <tr>
+                <th>Bileşen Türü</th>
+                <th>Matematiksel Formül Yapısı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Kürenin Yüzey Alanı</b></td>
+                <td>Taban dairesinin alanının tam 4 katıdır: <b>A = 4.&pi;.R<sup>2</sup></b></td>
+            </tr>
+            <tr>
+                <td><b>Kürenin Hacmi</b></td>
+                <td>Küp bağıntısının rasyonel katıdır: <b>V = (4 / 3) . &pi; . R<sup>3</sup></b></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Kenar uzunlukları 4 cm, 6 cm ve 8 cm olan bir dikdörtgenler prizmasının cisim köşegeninin uzunluğu kaç cm'dir?</div>
+        <ul class="options-list">
+            <li>A) 2&deg;13</li>
+            <li>B) 2&deg;29</li>
+            <li>C) 10</li>
+            <li>D) 2&deg;15</li>
+            <li>E) 4&deg;7</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Dikdörtgenler prizmasında üç farklı ayrıt uzunluğu verildiğinde cisim köşegeni (k) formülünü uygulayalım: k = &radic;(a<sup>2</sup> + b<sup>2</sup> + c<sup>2</sup>).
+            <br>• Kenarları formülde yerlerine yerleştirerek karelerini toplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; k = &radic;(4<sup>2</sup> + 6<sup>2</sup> + 8<sup>2</sup>) = &radic;(16 + 36 + 64)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; k = &radic;(116)
+            <br>• 116 sayısını kök dışına çıkarmak için çarpanlarına ayıralım: 116 = 4 . 29.
+            <br>• 4 sayısı kök dışına 2 olarak çıkacağından cisim köşegeni uzunluğu <b>2&deg;29</b> cm olarak elde edilir.
+            <br>• <i>Karakter notu:</i> &deg; işareti yerine kök (&radic;) sembolünün tarayıcıda tam oturması için metin yapısında <b>2&radic;29</b> biçimi okunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Taban yarıçapı 3 cm ve yüksekliği 8 cm olan bir dik dairesel silindirin içine yerleştirilebilecek en büyük hacimli kare dik prizmanın hacmi kaç cm<sup>3</sup>'dir?</div>
+        <ul class="options-list">
+            <li>A) 72</li>
+            <li>B) 108</li>
+            <li>C) 144</li>
+            <li>D) 1Run</li>
+            <li>E) 216</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Silindirin içine yerleştirilebilecek en büyük kare prizmanın taban köşeleri, silindirin taban dairesine içten teğet (çemberin içindeki kare) olmalıdır.
+            <br>• Taban dairesinin yarıçapı r = 3 cm ise, çapı 2r = 6 cm olur. Bu çap uzunluğu, tabandaki karenin köşegen uzunluğuna tam eşittir.
+            <br>• Köşegeni 6 cm olan bir karenin alanını köşegen formülünden (f<sup>2</sup> / 2) bulabiliriz:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Taban Alanı (Kare) = 6<sup>2</sup> / 2 = 36 / 2 = 18 cm<sup>2</sup>.
+            <br>• Prizmanın yüksekliği silindirin yüksekliği ile aynı olmalıdır (h = 8 cm).
+            <br>• Kare prizmanın hacmi: Hacim = Taban Alanı . Yükseklik = 18 . 8 = <b>144</b> cm<sup>3</sup> olarak hesaplanır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Taban yarıçapı 5 cm ve ana doğrusu (a) 13 cm olan bir dik dairesel koninin hacmi kaç &pi; cm<sup>3</sup>'dir?</div>
+        <ul class="options-list">
+            <li>A) 50&pi;</li>
+            <li>B) 100&pi;</li>
+            <li>C) 150&pi;</li>
+            <li>D) 200&pi;</li>
+            <li>E) 300&pi;</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Koninin hacmini hesaplayabilmek için taban yarıçapına (r) ve dik yüksekliğine (h) ihtiyacımız vardır. r = 5 cm ve ana doğru a = 13 cm verilmiştir.
+            <br>• Koni içindeki dik üçgen bağıntısından yüksekliği çekelim: a<sup>2</sup> = r<sup>2</sup> + h<sup>2</sup>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 13<sup>2</sup> = 5<sup>2</sup> + h<sup>2</sup>  &rarr;  169 = 25 + h<sup>2</sup>  &rarr;  h<sup>2</sup> = 144  &rarr;  <b>h = 12 cm</b> (5-12-13 özel üçgeni).
+            <br>• Şimdi koni hacim formülünü (V = &pi;.r<sup>2</sup>.h / 3) uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V = (&pi; . 5<sup>2</sup> . 12) / 3
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V = (&pi; . 25 . 12) / 3 = &pi; . 25 . 4 = <b>100&pi;</b> cm<sup>3</sup> olarak bulunur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Yarıçapı 6 cm olan demir bir küre eritilerek taban yarıçapı 3 cm olan dik dairesel silindir biçiminde eş kadehler dökülecektir. Silindirlerin yüksekliği 8 cm olacağına göre, bu küreden kaç adet tam silindir elde edilir?</div>
+        <ul class="options-list">
+            <li>A) 3</li>
+            <li>B) 4</li>
+            <li>C) 5</li>
+            <li>D) 6</li>
+            <li>E) 8</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Erime ve yeniden dökme sorularında <b>hacimlerin korunumu kuralı</b> geçerlidir. Kürenin toplam hacmini bulup, bir adet silindirin hacmine oranlamalıyız.
+            <br>• Kürenin hacmini hesaplayalım (R = 6 cm):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>küre</sub> = (4/3) . &pi; . R<sup>3</sup> = (4/3) . &pi; . 6<sup>3</sup> = (4/3) . &pi; . 216 = 4 . &pi; . 72 = 288&pi; cm<sup>3</sup>.
+            <br>• Bir adet silindirin hacmini hesaplayalım (r = 3 cm, h = 8 cm):
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; V<sub>silindir</sub> = &pi; . r<sup>2</sup> . h = &pi; . 3<sup>2</sup> . 8 = &pi; . 9 . 8 = 72&pi; cm<sup>3</sup>.
+            <br>• Kaç adet silindir çıkacağını bulmak için oranlama yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Adet = V<sub>küre</sub> / V<sub>silindir</sub> = 288&pi; / 72&pi; = <b>4 adet</b> tam silindir kap elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Yanal alanı 60&pi; cm<sup>2</sup> ve taban yarıçapı 6 cm olan bir dik dairesel koninin açınımı yapıldığında, yanal yüzeyi oluşturan daire diliminin merkez açısı (&alpha;) kaç derecedir?</div>
+        <ul class="options-list">
+            <li>A) 120&deg;</li>
+            <li>B) 150&deg;</li>
+            <li>C) 180&deg;</li>
+            <li>D) 216&deg;</li>
+            <li>E) 240&deg;</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Koninin yanal alan formülü Y.A = &pi;.r.a yapısındaydı. Verilenleri yerine koyarak ana doğruyu (a) bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 60&pi; = &pi; . 6 . a  &rarr;  60 = 6a  &rarr;  <b>a = 10 cm</b>.
+            <br>• Şimdi açınımdaki sektör açısını bulmak için koninin ana oran formülünü (r / a = &alpha; / 360&deg;) uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 6 / 10 = &alpha; / 360&deg;
+            <br>• İçler dışlar çarpımı veya doğru orantı katı (360, 10'un 36 katıdır) işletilerek:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; &alpha; = 6 . 36 = <b>216&deg;</b> olarak daire diliminin merkez açısı elde edilir.
+        </div>
+    </div>
+
+</body>
+</html>

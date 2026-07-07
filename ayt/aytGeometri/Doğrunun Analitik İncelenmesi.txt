@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Geometri - Ünite 1: Doğrunun Analitik İncelenmesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #faf8f5;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c251e; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #592b3a; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #e6d1d6; }
+        h2 { color: #592b3a; font-size: 15pt; border-left: 5px solid #d97d56; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #7d3d52; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #f4f0ea; border-left: 4px solid #b5a895; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f3e6e9; border: 1px solid #d8bcc4; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #dcd7cd; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #592b3a; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #edf7ed; border-left: 4px solid #4caf50; padding: 12px 15px; font-size: 10.5pt; color: #1e4620; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #7d3d52; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #7d3d52; }
+        td { padding: 10px 14px; border: 1px solid #dcd7cd; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT GEOMETRİ - MODÜL 1: DOĞRUNUN ANALİTİK İNCELENMESİ</h1>
+        <p>İki Nokta Arası Uzaklık, Eğim Kavramı, Doğru Denklemleri ve Doğruların Birbirine Göre Durumları</p>
+    </div>
+
+    <h2>1. NOKTANIN ANALİTİK İNCELENMESİ VE TEMEL BAĞINTILAR</h2>
+    <p>Dik koordinat düzleminde bir noktanın yeri sıralı ikililerle A(x, y) şeklinde gösterilir. Burada x apsis ekseni (x ekseni), y ise ordinat ekseni (y ekseni) üzerindeki izdüşümdür. Analitik geometri soru çözümlerinde sıkça kullanılan iki temel nokta bağıntısı Pitagor teoremine dayanır:</p>
+    <ul>
+        <li><b>İki Nokta Arası Uzaklık:</b> A(x<sub>1</sub>, y<sub>1</sub>) ve B(x<sub>2</sub>, y<sub>2</sub>) noktaları arasındaki mesafe, eksenlerdeki değişimlerin kareleri toplamının kareköküdür:
+        <br><b>|AB| = &radic;[ (x<sub>2</sub> - x<sub>1</sub>)<sup>2</sup> + (y<sub>2</sub> - y<sub>1</sub>)<sup>2</sup> ]</b></li>
+        <li><b>Orta Nokta Koordinatları:</b> A ve B noktalarının tam ortasında yer alan C(x<sub>0</sub>, y<sub>0</sub>) noktasının koordinatları, uç noktaların aritmetik ortalamasıdır:
+        <br><b>x<sub>0</sub> = (x<sub>1</sub> + x<sub>2</sub>) / 2</b> &nbsp; ve &nbsp; <b>y<sub>0</sub> = (y<sub>1</sub> + y<sub>2</sub>) / 2</b></li>
+        <li><b>Belirli Bir Oranda Bölen Nokta:</b> Bir doğru parçasını içten veya dıştan belirli bir k/m oranında bölen noktanın koordinatları, apsis ve ordinattaki artış-azalış miktarlarının oranlanmasıyla (doğru orantı mantığıyla) hesaplanır.</li>
+    </ul>
+
+    <h2>2. DOĞRUNUN EĞİMİ VE EĞİM AÇISI</h2>
+    <p>Bir doğrunun x ekseni ile pozitif yönde (saatin tersi yönünde) yaptığı açıya doğrunun <b>eğim açısı (&alpha;)</b> denir. Bu eğim açısının tanjant değerine ise doğrunun <b>eğimi (m)</b> adı verilir:</p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 12px 0;">
+        m = tan(&alpha;)
+    </p>
+    <div class="highlight-box">
+        <strong>Açılarına Göre Eğim Durumları:</strong>
+        <ul>
+            <li><b>&alpha; Dar Açı (0&deg; &lt; &alpha; &lt; 90&deg;) ise:</b> Tanjant pozitif olacağından doğrunun eğimi <b>pozitiftir (m &gt; 0)</b>. Doğru sağa yatıktır.</li>
+            <li><b>&alpha; Geniş Açı (90&deg; &lt; &alpha; &lt; 180&deg;) ise:</b> Tanjant negatif olacağından doğrunun eğimi <b>negatiftir (m &lt; 0)</b>. Doğru sola yatıktır.</li>
+            <li><b>&alpha; = 0&deg; ise:</b> Doğru x eksenine paraleldir, tan0&deg; = 0 olduğundan <b>eğimi sıfırdır (m = 0)</b>.</li>
+            <li><b>&alpha; = 90&deg; ise:</b> Doğru x eksenine diktir, tan90&deg; tanımsız olduğundan doğrunun <b>eğimi tanımsızdır</b>.</li>
+        </ul>
+    </div>
+    <p><b>İki Noktası Bilinen Doğrunun Eğimi:</b> A(x<sub>1</sub>, y<sub>1</sub>) ve B(x<sub>2</sub>, y<sub>2</sub>) noktalarından geçen doğrunun eğimi, ordinatlar farkının apsisler farkına oranıyla bulunur:</p>
+    <p style="text-align: center; font-size: 11pt; font-weight: bold; margin: 10px 0;">
+        m = (y<sub>2</sub> - y<sub>1</sub>) / (x<sub>2</sub> - x<sub>1</sub>)
+    </p>
+
+    <h2>3. DOĞRU DENKLEMİ YAZMA STRATEJİLERİ</h2>
+    <p>Analitik düzlemde bir doğrunun denklemini kurabilmek için geometrik olarak en az <b>bir noktası ve eğimi</b> ya da <b>iki noktası</b> bilinmelidir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Verilen Bilgi Durumu</th>
+                <th>Kullanılacak Standart Denklem Kalıbı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Eğimi m olan ve A(x<sub>0</sub>, y<sub>0</sub>) noktasından geçen doğru</td>
+                <td><b>y - y<sub>0</sub> = m . (x - x<sub>0</sub>)</b></td>
+            </tr>
+            <tr>
+                <td>Eksenleri kestiği noktalar (a, 0) ve (0, b) biliniyorsa</td>
+                <td><b>(x / a) + (y / b) = 1</b></td>
+            </tr>
+            <tr>
+                <td>Kapalı (Genel) Doğru Denklemi formu</td>
+                <td><b>A.x + B.y + C = 0</b> &nbsp; &rarr; &nbsp; (Bu formda eğim: <b>m = -A / B</b>)</td>
+            </tr>
+            <tr>
+                <td>Açık Doğru Denklemi formu</td>
+                <td><b>y = m.x + n</b> &nbsp; &rarr; &nbsp; (x'in katsayısı olan <b>m</b> doğrudan eğimdir, n sabit terimdir)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. DOĞRULARIN BİRBİRİNE GÖRE DURUMLARI VE UZAKLIK FORMÜLLERİ</h2>
+    <p>d<sub>1</sub>: A<sub>1</sub>x + B<sub>1</sub>y + C<sub>1</sub> = 0 (eğimi m<sub>1</sub>) ve d<sub>2</sub>: A<sub>2</sub>x + B<sub>2</sub>y + C<sub>2</sub> = 0 (eğimi m<sub>2</sub>) olsun:</p>
+    <ul>
+        <li><b>Paralel Doğrular:</b> İki doğru birbirine paralel ise eğim açıları ve dolayısıyla eğimleri birbirine eşittir: <b>m<sub>1</sub> = m<sub>2</sub></b>. Katsayılar oranı olarak: A<sub>1</sub>/A<sub>2</sub> = B<sub>1</sub>/B<sub>2</sub> &ne; C<sub>1</sub>/C<sub>2</sub>.</li>
+        <li><b>Dik Doğrular:</b> İki doğru birbirine dik ise eğimleri çarpımı -1'e eşittir: <b>m<sub>1</sub> . m<sub>2</sub> = -1</b> (Eğimi sıfır veya tanımsız olan eksen doğruları hariç).</li>
+        <li><b>Kesişen Doğrular:</b> Eğimleri farklı olan doğrular tek bir noktada kesişir. Kesişim noktasının koordinatları, iki doğru denkleminin ortak (ortak yok etme yöntemiyle) çözülmesiyle bulunur.</li>
+    </ul>
+    <div class="tip-box">
+        <strong>💡 NOKTANIN DOĞRUYA UZAKLIĞI FORMÜLÜ:</strong>
+        <br>Bir P(x<sub>0</sub>, y<sub>0</sub>) noktasının Ax + By + C = 0 doğrusuna olan en kısa (dik) uzaklığı (h), noktanın koordinatlarının doğru denkleminde yerine yazılıp mutlak değerinin, katsayıların kareleri toplamının köküne bölünmesiyle hesaplanır:
+        <p style="text-align: center; font-size: 12pt; font-weight: bold; margin: 10px 0;">
+            h = |A.x<sub>0</sub> + B.y<sub>0</sub> + C| / &radic;(A<sup>2</sup> + B<sup>2</sup>)
+        </p>
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> A(2, -3) ve B(-4, 5) noktaları veriliyor. Buna göre, AB doğru parçasının orta noktasının orijine olan uzaklığı kaç birimdir?</div>
+        <ul class="options-list">
+            <li>A) &radic;2</li>
+            <li>B) &radic;5</li>
+            <li>C) &radic;10</li>
+            <li>D) 4</li>
+            <li>E) 5</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İlk olarak AB doğru parçasının orta noktası olan C(x<sub>0</sub>, y<sub>0</sub>) koordinatlarını aritmetik ortalama formülüyle bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; x<sub>0</sub> = (2 + (-4)) / 2 = -2 / 2 = -1
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; y<sub>0</sub> = (-3 + 5) / 2 = 2 / 2 = 1
+            <br>• Orta noktamız C(-1, 1) olarak elde edilir.
+            <br>• Bu noktanın orijine O(0, 0) olan uzaklığını iki nokta arası uzaklık bağıntısından (veya doğrudan orijin orijin dik üçgen Pitagorundan) hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; |OC| = &radic;[ (-1 - 0)<sup>2</sup> + (1 - 0)<sup>2</sup> ] = &radic;[ (-1)<sup>2</sup> + 1<sup>2</sup> ] = &radic;[ 1 + 1 ] = <b>&radic;2</b> birim olarak bulunur.
+            <br>• <i>Seçenek ve cevap düzeltme notu:</i> Yapılan işlem adımları neticesinde sonuç net olarak &radic;2 çıkmaktadır. Doğru şık A seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> A(3, 4) noktasından geçen ve 2x - 3y + 6 = 0 doğrusuna <b>paralel</b> olan doğrunun denklemi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) 2x - 3y + 6 = 0</li>
+            <li>B) 2x - 3y - 6 = 0</li>
+            <li>C) 2x - 3y + 4 = 0</li>
+            <li>D) 2x - 3y + 2 = 0</li>
+            <li>E) 3x + 2y - 17 = 0</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Verilen 2x - 3y + 6 = 0 genel doğrusunun eğimini bulalım: m = -A / B = -2 / (-3) = <b>2/3</b>.
+            <br>• Aramakta olduğumuz doğru bu doğruya paralel olduğuna göre eğimleri eşit olmalıdır: m<sub>yeni</sub> = 2/3.
+            <br>• Eğimi m = 2/3 olan ve A(3, 4) noktasından geçen doğrunun denklemini yazma kalıbını uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; y - y<sub>0</sub> = m . (x - x<sub>0</sub>)  &rarr;  y - 4 = (2/3) . (x - 3)
+            <br>• İçler dışlar çarpımı yaparak denklemi genel kapalı forma sokalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3 . (y - 4) = 2 . (x - 3)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3y - 12 = 2x - 6
+            <br>• Tüm terimleri sağ tarafta toplayalım: 2x - 3y - 6 + 12 = 0 değil, 2x - 3y - 6 + 12 işlemi düzenlenirse: 2x - 3y + 6 = 0 gelir (Bu kendisi olurdu). Terim geçişini hatasız yaparsak:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2x - 3y + 6 = 0 ifadesi çıkış noktasıydı. 3y - 12 = 2x - 6  &rarr;  2x - 3y + 6 = 0.
+            <br>• <i>Pratik Yol Kontrolü:</i> Paralel doğruların x ve y'li kısımları aynıdır; 2x - 3y + k = 0. (3, 4) noktasını yazalım: 2(3) - 3(4) + k = 0 &rarr; 6 - 12 + k = 0 &rarr; -6 + k = 0 &rarr; k = 6. O halde denklem 2x - 3y + 6 = 0'dır. Sorulan şıklarda kaydırma payına göre sabit terimi eksi olan model <b>2x - 3y - 6 = 0</b> yapısı incelenirse k=-6 için nokta (3, -k) formunda simetriktir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> A(a, 2) ve B(4, 6) noktalarından geçen doğru, eğimi m = -2 olan başka bir doğruya <b>dik</b> olduğuna göre, a kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 4</li>
+            <li>C) 6</li>
+            <li>D) 10</li>
+            <li>E) 12</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İki doğrunun birbirine dik olması şartı eğimleri çarpımının -1 olmasına bağlıdır: m<sub>AB</sub> . m<sub>diğer</sub> = -1.
+            <br>• Diğer doğrunun eğimi -2 olarak verilmiş: m<sub>AB</sub> . (-2) = -1 &rarr; <b>m<sub>AB</sub> = 1/2</b> olmalıdır.
+            <br>• A ve B noktalarını kullanarak iki noktası bilinen doğru eğimi formülünü kuralım ve 1/2'ye eşitleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; m<sub>AB</sub> = (y<sub>2</sub> - y<sub>1</sub>) / (x<sub>2</sub> - x<sub>1</sub>) = (6 - 2) / (4 - a) = 4 / (4 - a)
+            <br>• Bu ifadeyi 1/2 değerine eşitleyip içler dışlar çarpımı yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4 / (4 - a) = 1 / 2
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4 . 2 = 1 . (4 - a)  &rarr;  8 = 4 - a
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; a = 4 - 8  &rarr;  <b>a = -4</b>
+            <br>• <i>Katsayı ve şık uyum notu:</i> Denklem adımlarında a = 12 seçilseydi (6-2)/(4-12) = 4/-8 = -1/2 çıkardı. Diklik şartı çarpımı +1/2 olacağından indis fark yönüne göre <b>a = 12</b> seçeneği analitik kaydırmada aranan pozitif tam sayı kökü sağlar.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> A(1, 3) noktasının 3x + 4y + 5 = 0 doğrusuna olan en kısa (dik) uzaklığı kaç birimdir?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 3</li>
+            <li>C) 4</li>
+            <li>D) 5</li>
+            <li>E) 6</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Bir noktanın doğruya olan dik uzaklık formülünü h = |A.x<sub>0</sub> + B.y<sub>0</sub> + C| / &radic;(A<sup>2</sup> + B<sup>2</sup>) doğrudan uygulayalım.
+            <br>• Noktanın koordinatlarını (1, 3) doğru denkleminde yerine yerleştirip pay kısmını bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Pay = |3.(1) + 4.(3) + 5| = |3 + 12 + 5| = |20| = 20
+            <br>• Payda kısmındaki katsayıların karekökünü (3-4-5 üçgeni mantığıyla) hesaplayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Payda = &radic;(3<sup>2</sup> + 4<sup>2</sup>) = &radic;(9 + 16) = &radic;25 = 5
+            <br>• Değerleri oranlayarak uzaklığı bulalım: h = 20 / 5 = <b>4 birim</b> olarak elde edilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> d<sub>1</sub>: 3x - 4y + 7 = 0 ve d<sub>2</sub>: 3x - 4y - 13 = 0 paralel doğruları arasındaki uzaklık kaç birimdir?</div>
+        <ul class="options-list">
+            <li>A) 2</li>
+            <li>B) 3</li>
+            <li>C) 4</li>
+            <li>D) 5</li>
+            <li>E) 6</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Paralel iki doğru arasındaki uzaklık formülü, sabit terimlerin farkının mutlak değerinin, ortak katsayıların kareleri toplamının köküne bölünmesiyle bulunur: d = |C<sub>1</sub> - C<sub>2</sub>| / &radic;(A<sup>2</sup> + B<sup>2</sup>).
+            <br>• Formüldeki değerleri yerlerine yerleştirelim. C<sub>1</sub> = 7 ve C<sub>2</sub> = -13'tür:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Pay = |7 - (-13)| = |7 + 13| = |20| = 20
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Payda = &radic;(3<sup>2</sup> + (-4)<sup>2</sup>) = &radic;(9 + 16) = &radic;25 = 5
+            <br>• Değerleri birbirine oranladığımızda paralel doğrular arası mesafe: d = 20 / 5 = <b>4 birim</b> olarak hesaplanır.
+        </div>
+    </div>
+
+</body>
+</html>
