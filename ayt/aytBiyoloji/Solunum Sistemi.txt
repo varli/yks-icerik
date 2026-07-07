@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 6: Solunum Sistemi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 6: SOLUNUM SİSTEMİ</h1>
+        <p>Solunum Anatomisi, Gaz Alışveriş Mekaniği ve Kanda O₂ ve CO₂ Taşınma Biyokimyası</p>
+    </div>
+
+    <h2>1. SOLUNUM ORGANLARI VE ALVEOLÜN ÖNEMİ</h2>
+    <p>Dış ortamdan alınan oksijenin ($O_2$) hücrelere ulaştırılması ve hücrelerde oluşan karbondioksitin ($CO_2$) vücuttan uzaklaştırılması sürecine solunum sistemi denir. İnsanda hava sırasıyla burun, yutak (farenks), gırtlak (larenks), soluk borusu (trake), bronşlar ve akciğer içindeki bronşçuklar (bronşiyol) yolunu takip eder.</p>
+    <p>Soluk borusunun açık kalmasını sağlayan **at nalı şeklindeki kıkırdak halkalar**, bronşçuklara doğru gidildikçe kaybolur. Bronşçukların ucunda, sadece memelilere özgü olan, solunum yüzeyini muazzam genişleten üzüm salkımı benzeri **alveoller (hava keseleri)** yer alır. Alveollerin zarı tek katlı yassı epitelden oluşur ve etrafı kılcal damar ağıyla sarılıdır. Gaz alışverişi (difüzyon) tamamen burada gerçekleşir.</p>
+    <div class="tip-box">
+        <strong>💡 SÜRFAKTAN MUCİZESİ:</strong>
+        <br>Alveol iç yüzeyindeki hücreler tarafından salgılanan lipoprotein yapılı maddeye <b>sürfaktan</b> denir. Sürfaktan, alveollerin yüzey gerilimini düşürerek soluk verme anında alveollerin birbirine yapışıp sönmesini engeller ve soluk alırken şişmesini kolaylaştırır. Su kaybını da minimuma indirir.
+    </div>
+
+    <h2>2. SOLUK ALMA VE SOLUK VERME MEKANİĞİ</h2>
+    <p>Akciğerlerde kas dokusu bulunmaz, dolayısıyla kendi kendilerine kasılıp gevşeyemezler. Soluk alıp verme işlemi, göğüs boşluğu hacminin değiştirilmesi sonucu oluşan **basınç farkına** (fizikteki Boyle Kanunu) dayanır. Akciğerlerin dışını saran çift katlı zara <b>plevra zarı</b>, iki zar arasındaki sıvıya ise plevra sıvısı denir.</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Fizyolojik Değişken / Yapı</th>
+                <th>Soluk Alma (Inspiration)</th>
+                <th>Soluk Verme (Expiration)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Diyafram Kası ve Kaburga Kasları</b></td>
+                <td>Kasılır. Diyafram **düzleşir**.</td>
+                <td>Gevşer. Diyafram **kubbeleşir**.</td>
+            </tr>
+            <tr>
+                <td><b>Göğüs Boşluğu Hacmi</b></td>
+                <td>Artar</td>
+                <td>Azalır</td>
+            </tr>
+            <tr>
+                <td><b>Akciğer İç Basıncı</b></td>
+                <td>Düşer (Dış atmosfer basıncının altına iner)</td>
+                <td>Artar (Dış atmosfer basıncının üzerine çıkar)</td>
+            </tr>
+            <tr>
+                <td><b>Hava Akış Yönü</b></td>
+                <td>Dışarıdan akciğerlere doğru zorla girer</td>
+                <td>Akciğerlerden dışarıya doğru itilir</td>
+            </tr>
+            <tr>
+                <td><b>Karın Boşluğu Hacmi ve Basıncı</b></td>
+                <td>Hacim azalır, basınç **artar**.</td>
+                <td>Hacim artar, basınç **azalır**.</td>
+            </tr>
+            <tr>
+                <td><b>Enerji (ATP) Harcanması</b></td>
+                <td>Harcanır. (Aktif süreç)</td>
+                <td>Harcanır. (Ancak geri yaylanma basıncı etkisiyle daha az harcanır)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="highlight-box">
+        <strong>⚠️ SOLUNUMUN MERKEZİ KONTROLÜ (pH AYARI):</strong>
+        <br>Solunum hızını denetleyen ana merkezler **Omurilik Soğanı** ve **Pons**tur. Solunumun hızlanmasını tetikleyen temel itici güç kanda oksijenin azalması değil, <b>kanda CO₂ miktarının artmasıdır</b>. Kan CO₂'si artınca karbonik asit oluşur ve kanın pH'ı düşer (asitlik artırılır). Omurilik soğanı bu pH düşüşünü algıladığı anda diyafram ve kaburga kaslarına hızlı sinyaller göndererek solunumu fırlatır.
+    </div>
+
+    <h2>3. KANDA GAZLARIN TAŞINMA BİYOKİMYASI</h2>
+    <p>Oksijen ve karbondioksitin büyük kısmı, alyuvarların (eritrosit) içinde bulunan demir kökenli <b>Hemoglobin (Hb)</b> pigmentiyle taşınır. Hemoglobin gazlarla tersinir (çift yönlü) bağlanma yeteneğine sahiptir.</p>
+
+    <h3>A) Oksijenin Taşınması</h3>
+    <p>Oksijenin %2'si plazmada çözünmüş olarak, %98'i ise hemoglobine bağlanarak **Oksihemoglobin (HbO₂)** şeklinde taşınır.</p>
+    <ul>
+        <li><b>Alveol (Akciğer) Kılcallarında:</b> Oksijen basıncı çok yüksektir. Hemoglobin oksijene bağlanır: <b>Hb + O₂ &rarr; HbO₂</b> (Oksihemoglobin miktarı artar).</li>
+        <li><b>Doku Kılcallarında:</b> Oksijen basıncı düşük, $CO_2$ ve asitlik yüksektir. Asitliğin artması hemoglobinin oksijene olan ilgisini azaltır ve oksijeni bırakmasına yol açar (Buna <b>Bohr Etkisi</b> denir): <b>HbO₂ &rarr; Hb + O₂</b>. Serbest kalan oksijen doku sıvısına ve oradan hücrelere difüzyonla geçer.</li>
+    </ul>
+
+    <h3>B) Karbondioksitin Taşınması</h3>
+    <p>Hücrelerde oluşan $CO_2$ kana geçtiğinde tam üç farklı yolla taşınır:</p>
+    <ol>
+        <li><b>Plazmada çözünmüş olarak (%7):</b> Doğrudan kan sıvısında çözünür.</li>
+        <li><b>Karbaminohemoglobin olarak (%23):</b> Alyuvar içine girip hemoglobine bağlanır: <b>Hb + CO₂ &rightleftharpoons; HbCO₂</b>. (Doku kılcalında bağlanır, akciğer kılcalında CO₂'yi bırakır).</li>
+        <li><b>Bikarbonat İyonları ($HCO_3^-$) şeklinde (%70 - En Büyük Pay):</b> Alyuvar içine giren CO₂, su ile birleşir. Bu reaksiyonu alyuvardaki <b>Karbonik Anhidraz</b> enzimi hızlandırır:
+        <br>&bull; <i>Doku Kılcallarındaki Sıra:</i> 
+        <p style="text-align: center; font-weight: bold; margin: 6px 0;">CO₂ + H₂O &rarr; H₂CO₃ (Karbonik asit) &rarr; H⁺ + HCO₃⁻ (Bikarbonat)</p>
+        Oluşan $HCO_3^-$ iyonu alyuvardan çıkıp **kan plazmasına** geçer ve akciğere kadar plazmada taşınır. Serbest kalan $H^+$ iyonu ise ortamı asitleştirmemesi için **hemoglobin tarafından tutulur (HbH)**.
+        <br>&bull; <i>Alveol (Akciğer) Kılcallarındaki Sıra (Tam Tersidir):</i> Plazmadaki bikarbonat ($HCO_3^-$) tekrar alyuvar içine girer. Hemoglobin tuttuğu $H^+$ iyonunu bırakır. İyonlar birleşir:
+        <p style="text-align: center; font-weight: bold; margin: 6px 0;">H⁺ + HCO₃⁻ &rarr; H₂CO₃ &xrightarrow{\text{Karbonik Anhidraz}} CO₂ + H₂O</p>
+        Oluşan $CO_2$ gazı alyuvardan çıkıp alveol boşluğuna geçer ve soluk vermeyle dışarı atılır.
+    </ol>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sağlıklı bir insanda soluk alma (inspiration) sürecinde göğüs ve karın boşluğunda meydana gelen değişimler ile ilgili; I. Diyafram kası kasılarak düzleşir, II. Göğüs boşluğunun hacmi artar, iç basıncı düşer, III. Karın boşluğunun hacmi artar, basıncı azalır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Soluk alma anındaki anatomik ve basınç dinamiklerini çalıştıralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Soluk alırken kubbe şeklinde duran diyafram kası kasılarak aşağı doğru **düzleşir**. Kaburga kasları da kasılarak göğüs kafesini öne doğru genişletir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Göğüs kafesinin genişlemesi ve diyaframın düzleşmesiyle göğüs boşluğunun hacmi fırlar. Boyle kanunu ($P \cdot V = \text{sabit}$) uyarınca hacim arttığı için akciğer iç basıncı düşer ve dışarıdaki hava içeri dolar. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Diyafram kası aşağı doğru düzleştiğinde karın boşluğundaki organları aşağı doğru ittirir ve sıkıştırır. Bu sıkışmadan dolayı karın boşluğunun hacmi azalır, **basıncı ise artar**. Öncülde tam tersi yazıldığı için yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Dokularda metabolik faaliyetler sonucu oluşan karbondioksitin ($CO_2$) alyuvarlar içine girerek su ($H_2O$) ile birleşmesi ve karbonik asit ($H_2CO_3$) oluşturması reaksiyonunu katalizleyen, aynı şekilde akciğer kılcallarında bu reaksiyonun tam tersini de yürütebilen <b>çift yönlü (tersinir)</b> solunum enzimi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Pepsin</li>
+            <li>B) Amilaz</li>
+            <li>C) Karbonik Anhidraz</li>
+            <li>D) Lipaz</li>
+            <li>E) Katalaz</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kan gazlarının taşınmasında alyuvar hücresinin içinde çalışan en hayati enzimi arıyoruz.
+            <br>• Karbondioksit ile suyun birleşerek karbonik aside dönüşmesini ($CO_2 + H_2O \rightleftharpoons H_2CO_3$) ve akciğerlerde bu asidin tekrar su ve karbondioksit gazına çözülmesini sağlayan o meşhur, çift yönlü çalışan solunum enzimi <b>Karbonik Anhidraz</b> enzimidir. Bu enzim olmasaydı karbondioksitin vücuttan atılma hızı hücre metabolizmasına yetişemezdi.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> İnsanın kan dolaşımında karbondioksit gazının taşınma yolları ve oranları incelendiğinde, karbondioksitin en büyük kısmının (%70) taşınma formu ve bu formun yolculuk yaptığı kan bölümü aşağıdakilerden hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Karbaminohemoglobin şeklinde - Alyuvar içinde</li>
+            <li>B) Oksihemoglobin şeklinde - Kan plazmasında</li>
+            <li>C) Bikarbonat iyonları ($HCO_3^-$) şeklinde - Kan plazmasında</li>
+            <li>D) Gaz halinde çözünmüş olarak - Kan plazmasında</li>
+            <li>E) Bikarbonat iyonları ($HCO_3^-$) şeklinde - Alyuvar içinde</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Karbondioksitin kan içindeki üç büyük rotasının paylarını ve konumlarını netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - %7'si plazmada çözünmüş gaz olarak, %23'ü alyuvar içinde hemoglobine bağlı ($HbCO_2$) olarak taşınır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - En devasa pay olan **%70'lik kısım ise Bikarbonat iyonları ($HCO_3^-$) şeklinde taşınır**.
+            <br>• <i>Kritik Konum Ayrımı:</i> Alyuvarın içinde üretilen bikarbonat iyonları, alyuvarda kalmaz; hücre zarındaki özel kanallarla dışarı fırlatılarak **Kan Plazmasına (sıvı kısma)** geçer. Akciğere kadar kan plazmasının içinde yüzerek taşınır. Bu yüzden doğru şık C seçeneğidir (E şıkkı konum hatasından elenir).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Yoğun egzersiz yapan bir insanda doku kılcallarındaki karbondioksit ($CO_2$) kısmi basıncının artması ve ortamın pH değerinin düşmesi, alyuvardaki hemoglobinin oksijeni bırakma eğilimini artırır. Biyolojide bu duruma ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Starling Etkisi</li>
+            <li>B) Bohr Etkisi</li>
+            <li>C) Hamburger Fenomeni</li>
+            <li>D) Haldane Etkisi</li>
+            <li>E) Ya hep ya hiç prensibi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hemoglobin pigmentinin oksijen doygunluk eğrisinin asitlikle olan ilişkisini sorgulayan bir sorudur.
+            <br>• Doku kılcallarında yoğun $CO_2$ birikimi asitliği artırır ve lokal pH'ı düşürür. Hemoglobin proteini, düşük pH ortamına ulaştığında yapısal bir değişikliğe uğrar ve oksijene olan kimyasal ilgisini (bağlanma gücünü) kaybeder; böylece oksijeni hızla serbest bırakarak dokunun oksijene kavuşmasını kolaylaştırır. Fizyolojide bu hayati olaya <b>Bohr Etkisi (Bohr Kayması)</b> adı verilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Yoğun bir şekilde merdiven çıkmaya başlayan sağlıklı bir bireyde; I. Hücrelerdeki karbondioksit üretiminin artması, II. Kanın pH değerinin düşmesi, III. Omurilik soğanının uyarılması, IV. Diyafram ve kaburga kaslarının kasılma hızının artması olaylarının doğru gerçekleşme sırası aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) I - II - III - IV</li>
+            <li>B) II - I - III - IV</li>
+            <li>C) I - III - II - IV</li>
+            <li>D) III - I - II - IV</li>
+            <li>E) I - II - IV - III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Solunum hızının sinirsel ve kimyasal kontrol döngüsünü sıraya dizelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Kaslar yoğun çalıştığı için hücresel solunum fırlar ve ilk olarak dokularda/kanda **CO₂ üretimi artar** (I. basamak).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Kana karışan CO₂, suyla birleşip karbonik aside dönüşerek **kanın pH değerini düşürür (asitliği artırır)** (II. basamak).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Dolaşımdaki bu pH düşüşü, kemoreseptörler vasıtasıyla solunum kontrol merkezi olan <b>Omurilik Soğanını uyarır</b> (III. basamak).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4) Omurilik soğanı otonom sinirlerle **diyafram ve kaburga kaslarına** emir göndererek kasılma frekansını fırlatır; böylece soluk alıp verme hızlanır (IV. basamak).
+            <br>• Doğru fizyolojik sıralama I - II - III - IV şeklinde gerçekleşir.
+        </div>
+    </div>
+
+</body>
+</html>

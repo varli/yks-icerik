@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 5: Dolaşım Sistemleri ve Bağışıklık</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 5: DOLAŞIM SİSTEMLERİ VE BAĞIŞIKLIK</h1>
+        <p>Kalbin Çalışması, Starling Hipotezi, Damar Dinamikleri ve Bağışıklık Savunma Hatları</p>
+    </div>
+
+    <h2>1. KALBİN YAPISI VE KASILMA MEKANİZMASI</h2>
+    <p>İnsanda kalp; üstte iki kulakçık (atrium), altta iki karıncık (ventrikül) olmak üzere 4 odacıktan oluşur. Kalbin sol tarafında daima **temiz (oksijence zengin)**, sağ tarafında ise daima **kirli (karbondioksitçe zengin)** kan bulunur. Kulakçıklar ile karıncıklar arasında tek yönlü açılan kapakçıklar (sağda üçlü/triküspit, solda ikili/bikitspit/mitral) yer alır. Karıncıklardan çıkan atardamarların ağzında ise **yarım ay (semilunar)** kapakçıkları bulunur.</p>
+    
+    <h3>Kalbin Çalışma Döngüsü ve Uyartı İletim Sırası:</h3>
+    <p>Kalp kası (miyokard), kendi ritmik uyartılarını kendisi üretebilen özel bir yapıya sahiptir. Kalbin bir kez kasılması (sistol) ve gevşemesi (diyastol) yaklaşık 0.85 saniye sürer. Kalp atımını başlatan ve yayan elektriksel düğümlerin izlediği sıra ÖSYM'nin en sevdiği kalıplardandır:</p>
+    <p style="text-align: center; font-weight: bold; margin: 12px 0; font-size: 10.5pt;">
+        Sinoatrial Düğüm (SA) &rarr; Kulakçıkların Kasılması &rarr; Atriyoventriküler Düğüm (AV) &rarr; His Demetleri &rarr; Purkinje Lifleri &rarr; Karıncıkların Kasılması
+    </p>
+    <ul>
+        <li><b>Sinoatrial Düğüm (SA):</b> Sağ kulakçık duvarındadır. Kalbin **pacemakerı (ritm belirleyicisi)** olup kasılma uyarısını başlatır. Uyartı kulakçıklara yayılır ve kulakçıklar kasılır.</li>
+        <li><b>Atriyoventriküler Düğüm (AV):</b> Kulakçık ile karıncık sınırındadır. SA'dan gelen uyartıyı alarak karıncıklara iletmeden önce **yaklaşık 0.1 saniye geciktirir**. Bu sayede kulakçıklardaki kanın karıncıklara tamamen boşalması sağlanır.</li>
+        <li><b>His Demetleri ve Purkinje Lifleri:</b> Uyartıyı AV düğümünden alarak karıncıkların kas (miyokard) tabakasına milisaniyeler içinde yayar ve karıncıkların aşağıdan yukarıya doğru güçlüce kasılmasını tetikler.</li>
+    </ul>
+
+    <h2>2. DAMARLARIN ÖZELLİKLERİ VE STARLING HİPOTEZİ</h2>
+    <p>İnsanda kan dolaşımı atardamar, kılcal damar ve toplardamar olmak üzere üç tip damarda gerçekleşir. Bu damarların parametrik karşılaştırmaları şöyledir:</p>
+    <ul>
+        <li><b>Kan Akış Hızı:</b> Atardamar &gt; Toplardamar &gt; <b>Kılcal Damar</b> (Kılcal damarlarda akış hızının en düşük olması, madde alışverişinin verimli yapılması içindir).</li>
+        <li><b>Kan Basıncı:</b> Atardamar &gt; Kılcal Damar &gt; Toplardamar (Kalpten uzaklaştıkça basınç doğrusal olarak düşer).</li>
+        <li><b>Toplam Kesit Alanı:</b> <b>Kılcal Damar</b> &gt; Toplardamar &gt; Atardamar (Vücuttaki tüm kılcallar yan yana dizildiğinde en geniş alanı oluşturur).</li>
+    </ul>
+
+    <h3>Starling Hipotezi (Kılcallarda Madde Alışverişi):</h3>
+    <p>Kılcal damarlar ile doku sıvısı arasındaki madde alışverişi, damar boyunca değişen **Kan Basıncı (KB)** ile damar içinde sabit kalan **Kanın Osmotik Basıncı (OB)** arasındaki farka dayanır. Kanın osmotik basıncı (yaklaşık 25 mmHg), içindeki plazma proteinleri (albümin, globülin) sayesinde damar boyunca hiç değişmez.</p>
+    <ul>
+        <li><b>Kılcal Damarın Atardamar Ucunda:</b> Kan basıncı (yaklaşık 40 mmHg), osmotik basınçtan (25 mmHg) büyüktür ($KB &gt; OB$). Bu yüksek basınç etkisiyle su, glikoz, aminoasit ve oksijen gibi maddeler damardan **doku sıvısına doğru süzülür (çıkar)**.</li>
+        <li><b>Kılcal Damarın Toplardamar Ucunda:</b> Kan basıncı (yaklaşık 15 mmHg) değerine düşer ve osmotik basınçtan (25 mmHg) küçük hale gelir ($KB &lt; OB$). Osmotik çekim gücü baskın geldiği için doku sıvısındaki üre, karbondioksit ve atık maddeler damar içine doğru **geri emilir (girer)**.</li>
+    </ul>
+    <div class="highlight-box">
+        <strong>⚠️ ÖDEM OLUŞUMU MEKANİZMASI:</strong>
+        <br>Doku sıvısı miktarının normal sınırın üzerine çıkması durumuna <b>ödem</b> denir. Kılcallardan süzülen fazla sıvıyı toplayıp kan dolaşımına geri kazandıran <b>Lenf Dolaşımının tıkanması</b> ödeme yol açar. Ayrıca; kılcal kan basıncının (KB) normalden yüksek olması, kan osmotik basıncının (OB) düşmesi (protein eksikliği) veya doku sıvısı osmotik basıncının artması (tuzlu beslenme) ödemi tetikler.
+    </div>
+
+    <h2>3. BAĞIŞIKLIK SİSTEMİ VE SAVUNMA HATLARI</h2>
+    <p>Vücuda giren yabancı mikroorganizmalara (antijenlere) karşı vücudun gösterdiği direnç ve koruma mekanizmalarına bağışıklık denir. Bağışıklık sistemi üç büyük savunma hattından oluşur:</p>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Savunma Hattı</th>
+                <th>Bağışıklık Türü</th>
+                <th>Gruptaki Hücreler / Yapılar ve Temel Görevleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>1. HAT</b></td>
+                <td>Özgül Olmayan (Genel)</td>
+                <td><b>Fiziksel Engeller:</b> Deri (keratin tabaka), gözyaşı (lizozim enzimi), mide asidi (HCl), tükürük ve mukus. Patojenin vücut içine girmesini engeller.</td>
+            </tr>
+            <tr>
+                <td><b>2. HAT</b></td>
+                <td>Özgül Olmayan (Genel)</td>
+                <td>Vücuda girmeyi başaran patojenlerle savaşır. <b>Fagositoz yapan hücreler</b> (makrofajlar, nötrofiller), <b>Doğal Katil Hücreleri</b> (tümör ve virüslü hücreleri patlatır), interferonlar (virüslere karşı koruyucu protein), ateş yükselmesi ve yangısal tepki (iltihaplanma).</td>
+            </tr>
+            <tr>
+                <td><b>3. HAT</b></td>
+                <td><b>Özgül (Spesifik)</b></td>
+                <td>Patojeni tanır ve ona özel silah üretir. <b>Lenfositler</b> görev alır:
+                <br>&bull; <b>B Lenfositleri (Humoral/Sıvısal):</b> Kemik iliğinde olgunlaşır. Antijene özel <b>Antikor</b> üreterek kan plazmasıyla savaşır. Bir kısmı hafıza (bellek) hücresine dönüşür.
+                <br>&bull; <b>T Lenfositleri (Hücresel):</b> Timus bezinde olgunlaşır. Antijene doğrudan **temas ederek (hücre hücreye)** savaşır. Kansere ve virüslere karşı etkilidir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="tip-box">
+        <strong>💡 AKTİF VE PASİF BAĞIŞIKLIK AYRIMI:</strong>
+        <br>• <b>Aktif Bağışıklık (Uzun Süreli):</b> Vücudun antijeni bizzat tanıyıp kendi antikoru ve bellek hücresini üretmesidir. Hastalığı geçirmekle veya <b>Aşı</b> yaptırmakla kazanılır. Aşı, sağlıklı insana koruma amaçlı yapılan, zayıflatılmış antijen içeren koruyucu bir yöntemdir.
+        <br>• <b>Pasif Bağışıklık (Kısa Süreli):</b> Vücuda dışarıdan hazır antikor verilmesidir. Bellek hücresi oluşmaz. <b>Serum</b> verilmesiyle veya anne sütü/plasenta yoluyla bebeğe antikor geçmesiyle kazanılır. Serum, hasta insana tedavi amaçlı yapılan, hazır antikor içeren bir yöntemdir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sağlıklı bir insanın kalbinin ritmik çalışması sürecinde meydana gelen; I. Purkinje liflerinin uyarılmasıyla karıncıkların kasılması, II. Sinoatrial düğümün (SA) elektriksel sinyal başlatması, III. Atriyoventriküler düğümün (AV) uyartıyı alıp kısa bir süre geciktirmesi olaylarının doğru gerçekleşme sırası aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) I - II - III</li>
+            <li>B) II - I - III</li>
+            <li>C) II - III - I</li>
+            <li>D) III - II - I</li>
+            <li>E) I - III - II</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kalbin elektriksel ileti ağının kronolojik basamaklarını işletelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Kalp atımı ilk olarak sağ kulakçık duvarında bulunan **Sinoatrial düğümün (SA)** kendi kendine aksiyon potansiyeli (sinyal) üretmesiyle başlar (II. olay). Sinyal kulakçıklara yayılır ve kulakçıklar kasılır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Kulakçıkların alt sınırındaki **Atriyoventriküler düğüm (AV)** bu sinyali yakalar ve kanın karıncıklara tam dolabilmesi için sinyali 0.1 saniye kadar tutarak geciktirir (III. olay).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) AV düğümünden çıkan uyartı His demetleri üzerinden **Purkinje liflerine** aktarılır. Purkinje lifleri uyarılınca karıncık kasları (sistol) kasılır ve kan atardamarlara pompalanır (I. olay).
+            <br>• Doğru sıralama II - III - I şeklinde kurulur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Starling Hipotezine göre, kılcal damarlar boyunca kan basıncı (KB) ile kanın osmotik basıncı (OB) arasındaki fark madde geçiş yönünü belirler. Buna göre, normal bir insanda; I. Kan plazma proteinlerinin (albümin, globülin) azalması, II. Kılcal damar atardamar ucundaki kan basıncının normalin çok üzerine çıkması, III. Lenf kılcallarının parazit veya mekanik olarak tıkanması durumlarından hangileri dokularda <b>ödem oluşumuna</b> neden olabilir?</div>
+        <ul class="options-list">
+            <li>A) Yalnız III</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız I</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Dokular arası sıvının aşırı birikmesi olan ödem nedenlerini tek tek analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Durum: Plazma proteinleri azalırsa kanın osmotik basıncı (OB) düşer. Damarın emiş gücü azalacağı için doku sıvısı damara geri emilemez ve ödem olur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Durum: Kan basıncı (KB) çok yükselirse, damardan doku sıvısına doğru süzülen madde miktarı muazzam artar, emilim zorlaşır ve ödem olur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Durum: Lenf sistemi, kılcallardan kaçan ve dokuda biriken fazla sıvıyı toplayan bir drenaj ağıdır. Lenf damarları tıkanırsa bu fazla sıvı dokuda kalır ve doğrudan ağır ödemlere (örn: fil hastalığı) yol açar.
+            <br>• Üç öncül de net birer ödem tetikleyicisidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> İnsanda bağışıklık sisteminin Savunma Hatları ve özgüllük durumları incelendiğinde; aşağıda verilen yapılardan hangisi vücuda giren yabancı antijene özel olarak üretilen, <b>Savunma Hatlarının 3. basamağında</b> görev alan ve doğrudan <b>özgül (spesifik) bağışıklık</b> sağlayan bir elemandır?</div>
+        <ul class="options-list">
+            <li>A) Mide öz suyu içindeki Hidroklorik asit (HCl)</li>
+            <li>B) Fagositoz yapan Makrofaj hücreleri</li>
+            <li>C) Virüslere karşı salgılanan İnterferon proteinleri</li>
+            <li>D) B lenfositleri tarafından salgılanan Antikorlar</li>
+            <li>E) Kansere karşı savaşan Doğal Katil Hücreleri</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Savunma hatlarının özgüllük analizini yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Mide asidi patojen ayrımı yapmadan her şeyi öldürür (1. Hat, özgül değil).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Makrofajlar, interferonlar ve doğal katil hücreleri düşmanın türüne bakmaksızın genel bir defans yaparlar (2. Hat, özgül değil).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>B ve T lenfositleri ise doğrudan 3. Savunma Hattını oluştururlar</b>. B lenfositlerinin ürettiği <b>Antikorlar</b>, sadece kendisinin üretilmesine neden olan o spesifik antijene (kilit-anahtar uyumuyla) bağlanıp onu etkisiz hale getirir. Bu yüzden tam anlamıyla **özgül (spesifik)** bir bağışıklık ürünüdür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Seyahate çıkacak olan sağlıklı bir bireye, gideceği bölgedeki bulaşıcı bir viral hastalığa karşı koruma sağlamak amacıyla laboratuvarda hazırlanmış bir **Aşı** enjekte edilmiştir. Bu aşı uygulaması ve bireyin bağışıklık sistemi süreci ile ilgili aşağıdakilerden hangisi <b>yanlıştır</b>?</div>
+        <ul class="options-list">
+            <li>A) Bireye zayıflatılmış veya öldürülmüş antijen parçaları verilmiştir.</li>
+            <li>B) Bu uygulama bireyde pasif bağışıklık kurulmasını sağlar.</li>
+            <li>C) Bireyin bağışıklık sisteminde bu antijene karşı bellek (hafıza) hücreleri oluşur.</li>
+            <li>D) Aşı koruyucu bir tıp uygulaması olup sağlıklı insanlara tatbik edilir.</li>
+            <li>E) Bireyin kanında bu virüse özgü antikor grafiği zamanla artış gösterir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Aşılamanın immünolojik mekanizmasını sorgulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Aşı, vücuda zayıflatılmış antijen verilerek vücudun uyarılması sürecidir (A doğru). Sağlıklı insana koruma amaçlı uygulanır (D doğru). Vücut antijeni tanır, antikor üretir (E doğru) ve bellek hücresi oluşturur (C doğru).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak **Aşı bir AKTİF BAĞIŞIKLIK yöntemidir**. Vücut antikorları dışarıdan hazır almamış, kendi hücresel fabrikalarında bizzat üretmiştir. Pasif bağışıklık kuran şey hazır antikor içeren **serum**dur. Bu yüzden B seçeneği kavramsal olarak yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Sağlıklı bir insanda kılcal damarlar boyunca kanın basıncı, akış hızı ve toplam kesit alanı değerleri grafiksel olarak incelenmektedir. Buna göre damar türleri (Atardamar, Kılcal Damar, Toplardamar) arasında bu parametrelerin karşılaştırılması ile ilgili yazılan ilişkilerden hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Kan Basıncı: Atardamar &gt; Toplardamar &gt; Kılcal Damar</li>
+            <li>B) Kan Akış Hızı: Atardamar &gt; Kılcal Damar &gt; Toplardamar</li>
+            <li>C) Toplam Kesit Alanı: Kılcal Damar &gt; Toplardamar &gt; Atardamar</li>
+            <li>D) Kan Basıncı: Kılcal Damar &gt; Atardamar &gt; Toplardamar</li>
+            <li>E) Toplam Kesit Alanı: Atardamar &gt; Toplardamar &gt; Kılcal Damar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Damar parametre kurallarını tek tek denetleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kan Basıncı sıralaması: Kalpten uzaklaştıkça düşer; Atardamar &gt; Kılcal Damar &gt; Toplardamar olmalıdır (A ve D şıkları elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kan Akış Hızı sıralaması: Atardamar &gt; Toplardamar &gt; Kılcal Damar şeklindedir. En yavaş kılcaldadır (B şıkkı elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - **Toplam Kesit Alanı sıralaması ise: Kılcal Damar &gt; Toplardamar &gt; Atardamar şeklindedir.** Vücuttaki milyonlarca kılcal damarın toplam yüzey ve kesit alanı, ana arterlerden kat kat büyüktür. C seçeneği bu fiziksel ve anatomik kuralı tam ve doğru olarak vermektedir.
+        </div>
+    </div>
+
+</body>
+</html>

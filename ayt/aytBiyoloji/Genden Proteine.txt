@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 9: Genden Proteine</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 9: GENDEN PROTEİNE</h1>
+        <p>Nükleik Asitlerin Yapısı, DNA Replikasyonu, Santral Dogma ve Protein Sentezi Mekanizması</p>
+    </div>
+
+    <h2>1. NÜKLEİK ASİTLERİN YAPISI VE KARŞILAŞTIRILMASI</h2>
+    <p>Tüm canlılarda kalıtsal bilgiyi taşıyan ve hücre yönetimini sağlayan dev organik moleküllere <b>nükleik asitler (yönetici moleküller)</b> denir. Nükleik asitlerin en küçük yapı birimlerine <b>nükleotit</b> adı verilir. Bir nükleotit daima üç grubun birleşmesiyle oluşur: *Azotlu Organik Baz*, *5 Karbonlu Pentoz Şekeri* ve *Fosfat Grubu ($H_3PO_4$)*.</p>
+    <ul>
+        <li><b>Azotlu Bazlar:</b> Çift halkalı büyük bazlara <b>Pürin</b> (Adenin-A, Guanin-G), tek halkalı küçük bazlara ise <b>Pirimidin</b> (Timin-T, Urasil-U, Sitozin-C) denir.</li>
+        <li><b>Pentoz Şekeri:</b> DNA'nın yapısında <b>Deoksiriboz</b>, RNA'nın yapısında ise <b>Riboz</b> şekeri bulunur. Riboz şekerinde deoksiriboza göre tam 1 oksijen atomu fazladır.</li>
+    </ul>
+
+    <h3>DNA ve RNA Arasındaki Moleküler Farklar:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Özellik / Parametre</th>
+                <th>DNA (Deoksiribonükleik Asit)</th>
+                <th>RNA (Ribonükleik Asit)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Zincir Yapısı</b></td>
+                <td>Sarmal yapıda, çift zincirlidir (Watson-Crick modeli).</td>
+                <td>Tek zincirlidir, sarmal oluşturmaz.</td>
+            </tr>
+            <tr>
+                <td><b>Spesifik Bazı</b></td>
+                <td><b>Timin (T)</b> sadece DNA'ya hastır.</td>
+                <td><b>Urasil (U)</b> sadece RNA'ya hastır.</td>
+            </tr>
+            <tr>
+                <td><b>Kendini Eşleme</b></td>
+                <td>Yarı korunumlu olarak kendini eşleyebilir (Replikasyon).</td>
+                <td>Kendini eşleyemez, DNA üzerinden sentezlenir (Transkripsiyon).</td>
+            </tr>
+            <tr>
+                <td><b>Hidrojen Bağları</b></td>
+                <td>Karşılıklı zincirlerde daima vardır (A=T arasında 2'li, G&equiv;C arasında 3'lü).</td>
+                <td>Genel olarak yoktur; ancak tRNA ve rRNA'nın katlanma bölgelerinde bulunur (mRNA'da bağ yoktur).</td>
+            </tr>
+            <tr>
+                <td><b>Yıkım Enzimi</b></td>
+                <td>DNAaz (Deoksiribonükleaz)</td>
+                <td>RNAaz (Ribonükleaz)</td>
+            </tr>
+            <tr>
+                <td><b>Genel Eşitlik Kuralları</b></td>
+                <td>Pürin = Pirimidin ($A+G = T+C$) kuralı geçerlidir.</td>
+                <td>Tek zincirli olduğundan baz eşitliği aranmaz.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. DNA REPLİKASYONU (YARI KORUNUMLU EŞLENME)</h2>
+    <p>Hücre bölünmesi (mitoz/mayoz) öncesinde, kalıtsal bilginin yeni hücrelere eksiksiz aktarılması için DNA'nın bir kopyasını üretmesi sürecine <b>replikasyon</b> denir. Meselson ve Stahl'ın ağır azot ($^{15}N$) deneyleriyle kanıtladığı üzere DNA, <b>yarı korunumlu (semiconservative)</b> olarak eşlenir; yani yeni DNA'ların bir zinciri eski orijinal kalıp, diğer zinciri ise yeni sentezlenen zincirdir.</p>
+    <p></p>
+    
+    <h3>Replikasyonda Görev Alan Ana Enzimler:</h3>
+    <ol>
+        <li><b>DNA Helikaz:</b> İki azotlu baz arasındaki zayıf hidrojen bağlarını kopararak DNA sarmalını bir fermuar gibi açar. Replikasyon çatalını oluşturur. Sentez bitene kadar ATP harcar.</li>
+        <li><b>DNA Polimeraz:</b> Açılan kalıp zincirin karşısına uygun serbest nükleotitleri (A yerine T, G yerine C) getirerek yeni zinciri sentezler. **Yeni zinciri daima 5' &rarr; 3' yönünde sentezleyebilir.** Bu kuraldan dolayı, bir zincir kesintisiz akarken (leading strand), diğer zincir kesintili olarak parça parça sentezlenir. Bu küçük parçalara <b>Okazaki fragmanları</b> denir.</li>
+        <li><b>DNA Ligaz:</b> Kesintili sentezlenen Okazaki parçacıklarını fosfodiester bağları kurarak birbirine sımsıkı yapıştırır. Kesintisiz, tek parça dev bir zincir üretilmesini tamamlar.</li>
+    </ol>
+
+    <h2>3. SANTRAL DOGMA VE PROTEİN SENTEZİ</h2>
+    <p>Hücredeki genetik bilginin protein molekülüne dönüşmesi sürecine <b>Santral Dogma</b> denir. Santral dogma üç büyük adımdan oluşur: *Replikasyon* (DNA eşlenmesi - protein sentezinde şart değildir), *Transkripsiyon* (DNA'dan RNA yazılması) ve *Translasyon* (tRNA'ların aminoasitleri ribozoma getirip dizmesi).</p>
+    <p></p>
+    <ul>
+        <li><b>Genetik Şifre Kalıpları:</b> DNA üzerindeki 3'lü nükleotit gruplarına <b>Genetik Kod</b>, bu kodlara karşılık mRNA üzerinde sentezlenen 3'lü gruplara <b>Kodon</b>, tRNA üzerindeki eşleşen 3'lü gruplara ise <b>Antikodon</b> denir.
+        <br>&bull; Doğada toplam 64 çeşit kodon bulunur. 
+        <br>&bull; <b>AUG Kodonu:</b> Protein sentezini başlatan tek kodondur (**Başlangıç / Start Kodonu**). Metiyonin aminoasitini şifreler.
+        <br>&bull; <b>UAA, UAG, UGA Kodonları:</b> Protein sentezini bitiren kodonlardır (**Durdurma / Stop Kodonları**). Bu kodonların karşılığı olan hiçbir aminoasit ve antikodon doğada <u>bulunmaz</u>. Bu yüzden 64 kodon olmasına rağmen, en fazla 61 çeşit antikodon ve tRNA bulunur.
+        </li>
+    </ul>
+
+    <h3>Protein Sentezinin Mekanik Basamakları:</h3>
+    <p>1) DNA'nın ilgili gen bölgesi RNA polimeraz ile açılır ve kalıp zincirden **mRNA sentezlenir (Transkripsiyon)**. 
+    <br>2) Sentezlenen mRNA çekirdekten çıkıp sitoplazmadaki ribozomun küçük alt birimine tutunur. 
+    <br>3) İlk tRNA, AUG kodonuna karşılık gelen antikodonuyla (UAC) gelip eşleşir. Ribozomun büyük alt birimi de komplekse katılır ve ribozom aktifleşir. 
+    <br>4) Sırasıyla kodonlara uygun tRNA'lar aminoasitleri taşır. Yan yana gelen aminoasitler arasında ribozomda **Peptit bağları** kurulur ve su açığa çıkar (Dehidrasyon sentezi). 
+    <br>5) Ribozom mRNA boyunca 5' &rarr; 3' yönünde kayar. Ne zaman ki durdurma kodonlarından (UAA, UAG, UGA) biri gelirse, sentez biter. Protein zinciri serbest kalır.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Toplam 1000 nükleotitten oluşan çift zincirli doğrusal bir DNA molekülünde Guanin nükleotitlerinin sayısı 300 olarak saptanmıştır. Buna göre bu DNA molekülünün replikasyonu sırasında kurulması gereken toplam <b>Zayıf Hidrojen Bağı</b> sayısı kaçtır?</div>
+        <ul class="options-list">
+            <li>A) 1000</li>
+            <li>B) 1200</li>
+            <li>C) 1300</li>
+            <li>D) 1500</li>
+            <li>E) 2000</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• DNA'daki baz kurallarını ve eşitliklerini uygulayalım: Toplam Nükleotit = 2 . (A + G) = 1000.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Buradan çift zincirdeki toplam Pürin sayısı: A + G = 500 olur.
+            <br>• Soruda Guanin (G) sayısı 300 olarak verildiğine göre Adenin (A) sayısını bulalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; A + 300 = 500  &rarr;  <b>A = 200</b> nükleotit.
+            <br>• Eşitlik kuralı gereği: G = C = 300 ve A = T = 200'dür.
+            <br>• Hidrojen bağı hesaplama formülünü işletelim: Adenin-Timin arasında 2'li, Guanin-Sitozin arasında 3'lü bağ kurulur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Toplam Hidrojen Bağı = (2 . A) + (3 . G)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; Toplam Hidrojen Bağı = (2 . 200) + (3 . 300) = 400 + 900 = <b>1300 adet hidrojen bağı</b> kurulmalıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> DNA replikasyonu sırasında kalıp zincirlerin karşısında yeni zincirler sentezlenirken görev alan enzimlerin işlevleri ile ilgili; I. DNA Helikaz, bazlar arasındaki hidrojen bağlarını kopararak sarmalı açar, II. DNA Polimeraz, Okazaki fragmanları adı verilen kesintili parçaları fosfodiester bağlarıyla birleştirir, III. DNA Polimeraz, yeni zinciri sadece 5' &rarr; 3' yönünde uzatabilir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Replikasyon enzimlerinin spesifik görevlerini denetleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: DNA Helikaz sarmal yapıyı çözerek çift zinciri birbirinden ayıran ana enzimdir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Okazaki fragmanlarını (kesintili parçaları) birleştiren enzim DNA polimeraz değil, bir yapıştırıcı gibi çalışan <b>DNA LİGAZ</b> enzimidir. Bu yüzden ikinci ifade yanlıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: DNA Polimerazın katı bir stereo-kimyasal kısıtlaması vardır; yeni nükleotiti sadece büyüyen zincirin 3'-OH ucuna ekleyebilir, yani sentez yönü kesinlikle <b>5' &rarr; 3' doğrultusundadır</b>. Bu yüzden bir zincir geriye doğru kesintili (Okazaki) sentezlenir. Bu doğrudur. Cevap I ve III olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir protein sentezi sürecinde kalıp olarak görev yapan mRNA molekülü üzerinde sırasıyla 5'-AUG - CCG - UAA-3' kodon dizilimi okunmaktadır. Buna göre, bu mRNA kalıbına göre sentezlenen protein molekülünde kurulacak <b>peptit bağı sayısı</b> ve görev alan toplam <b>tRNA (antikodon) sayısı</b> kaçtır?</div>
+        <ul class="options-list">
+            <li>A) Peptit: 2 , tRNA: 3</li>
+            <li>B) Peptit: 1 , tRNA: 2</li>
+            <li>C) Peptit: 3 , tRNA: 3</li>
+            <li>D) Peptit: 2 , tRNA: 2</li>
+            <li>E) Peptit: 1 , tRNA: 3</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Verilen mRNA kodonlarını sırasıyla çözümleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Kodon: <b>AUG</b> &rarr; Başlangıç kodonudur, 1. aminoasit (Metiyonin) gelir (1 tRNA görev alır).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Kodon: <b>CCG</b> &rarr; Prolin aminoasitini şifreler, 2. aminoasit gelir (1 tRNA görev alır).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3. Kodon: <b>UAA</b> &rarr; ÖSYM'nin en sevdiği final tuzağıdır. UAA bir **Durdurma (Stop) Kodonudur**. Protein sentezini anında bitirir. Durdurma kodonunun doğada hiçbir aminoasit ve <u>tRNA/antikodon karşılığı yoktur</u>. Dolayısıyla bu kodon için ribozoma tRNA gelmez.
+            <br>• Toplam getirilen aminoasit sayısı = 2 adettir. Görev alan toplam tRNA sayısı da <b>2</b> olur.
+            <br>• Peptit bağı sayısı aminoasit sayısının 1 eksiğidir ($n-1$): 2 - 1 = <b>1 adet peptit bağı</b> kurulur. Doğru şık B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Genetik şifre ve kodonların özellikleri ile ilgili aşağıda verilen ifadelerden hangisi biyolojik olarak <b>yanlıştır</b>?</div>
+        <ul class="options-list">
+            <li>A) Bir aminoasit çeşidi, birden fazla farklı kodon tarafından şifrelenebilir.</li>
+            <li>B) Bir kodon çeşidi, birden fazla farklı aminoasit çeşidini şifreleyebilir.</li>
+            <li>C) Evrensel başlangıç kodonu olan AUG, aynı zamanda Metiyonin aminoasitini şifreler.
+            <li>D) Üç adet durdurma kodonunun (UAA, UAG, UGA) karşılığı olan bir antikodon yoktur.</li>
+            <li>E) Genetik kod sistemi neredeyse tüm canlı organizmalarda ortaktır (evrenseldir).</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Genetik kod yapısının kurallarını inceleyelim: Doğa mutasyonlara karşı koruma sağlamak için bir aminoasiti birden fazla kodonla şifreleme (A şıkkı doğru - dejenere kod) yeteneğine sahiptir (Örn: Glisin 4 farklı kodonla şifrelenir). 
+            <br>• Ancak bunun tam tersi kesinlikle imkansızdır; yani **hiçbir kodon çeşidi birden fazla farklı aminoasiti şifreleyemez**. Bir kodonun (örn: CCU) anlamı tektir, sadece spesifik bir aminoasiti (prolin) çağırabilir, aksi halde protein sentezinde kaos çıkardı. Bu yüzden B seçeneğindeki ifade net bir şekilde yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Hücrede aynı protein molekülünden çok kısa sürede binlerce adet üretilmesi gerektiğinde, tek bir mRNA zincirine peş peşe birden fazla ribozomun tutunmasıyla oluşan devasa protein üretim ünitelerine ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Sentrozom</li>
+            <li>B) Spliceozom</li>
+            <li>C) Polizom (Poliribozom)</li>
+            <li>D) Nükleozom</li>
+            <li>E) Replizom</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hücrelerin zaman ve hammadde tasarruf stratejisini sorgulayan bir sorudur.
+            <br>• Eğer hücre aynı proteinden çok miktarda üretmek istiyorsa, her seferinde DNA'dan yeni bir mRNA yazdırmakla uğraşmaz (büyük zaman ve enerji kaybı olur). Üretilen tek bir mRNA kalıbının üzerine onlarca ribozom bir tren vagonu gibi peş peşe dizilir. mRNA bu ribozom zincirinden geçerken her bir ribozom aynı proteini eş zamanlı üretir. Bu muazzam çoklu ribozom yapılarına <b>Polizom (Poliribozom)</b> adı verilir.
+        </div>
+    </div>
+
+</body>
+</html>

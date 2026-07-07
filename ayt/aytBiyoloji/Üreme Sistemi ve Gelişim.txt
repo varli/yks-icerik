@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 8: Üreme Sistemi ve Gelişim</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 8: ÜREME SİSTEMİ VE EMBRİYONİK GELİŞİM</h1>
+        <p>Dişi ve Erkek Üreme Anatomisi, Menstrüal Döngü Hormonları ve Gelişim Evreleri</p>
+    </div>
+
+    <h2>1. DİŞİ VE ERKEK ÜREME SİSTEMİ YAPILARI</h2>
+    <p>İnsanda üreme sistemi, gametlerin (sperm ve yumurta) üretilmesini ve neslin devamlılığını sağlayan özel anatomik yapılardan oluşur. Üreme hücrelerinin mayozla üretilmesine **gametogenez** adı verilir.</p>
+    <ul>
+        <li><b>Dişi Üreme Sistemi:</b> Yumurtalık (yumurta üretilir), <b>Yumurta Kanalı (Fallopi Tüpü)</b>, Rahim (Uterus) ve vajinadan oluşur. 
+        <br><b>⚠️ En Kritik Kural:</b> Döllenme olayı ve oluşan zigotun ilk mitoz bölünmeleri (segmentasyon) kesinlikle rahimde değil, <b>Yumurta Kanalında (Fallopi tüpünde)</b> gerçekleşir. Rahim içi duvarı kaplayan bol damarlı dokuya <b>endometrium</b> denir.</li>
+        <li><b>Erkek Üreme Sistemi:</b> Testisler, epididimis, vas deferens ve yardımcı bezlerden oluşur. 
+        <br>&bull; Testis içindeki **Seminifer tüpçüklerinde** spermler mayozla üretilir (Spermatogenez).
+        <br>&bull; Üretilen bu spermler hareket ve döllenme yeteneğini kazanmak (olgunlaşmak) üzere <b>Epididimis</b> kanalına geçer.
+        <br>&bull; Olgunlaşan spermler, spermi üretraya taşıyan <b>Vas Deferens</b> (sperm kanalı) kanalına aktarılır.
+    </ul>
+
+    <h2>2. MENSTRÜAL DÖNGÜ VE HORMONAL DALGALANMALAR</h2>
+    <p>Dişi üreme sisteminde yumurtalıkta ve rahim iç duvarında (endometrium) yaklaşık 28 günde bir tekrarlanan periyodik değişimlere <b>menstrüal döngü</b> denir. Döngü 4 evrede tamamlanır ve hipofiz ile yumurtalık hormonlarının milimetrik kontrolü altındadır:</p>
+    <p></p>
+    <ol>
+        <li><b>Folikül Evresi (1-14. gün):</b> Hipofizden salgılanan <b>FSH</b> hormonu yumurtalıktaki foliküllerden birini büyütür. Gelişen folikülden bol miktarda <b>Östrojen</b> hormonu salgılanır. Östrojen rahim iç duvarını (endometrium) kalınlaştırmaya başlar.</li>
+        <li><b>Ovülasyon (Yumurtlama) Evresi (Tam 14. gün):</b> Kandaki yüksek östrojen hipofizi uyarır ve hipofizden **LH (Lüteinleştirici Hormon) salgısı tepe noktasına (pik)** ulaşır. LH'ın bu ani artışı etkisiyle folikül patlar ve ikincil oosit (yumurta) yumurta kanalına (fallopi tüpüne) fırlatılır.</li>
+        <li><b>Korpus Luteum Evresi (14-28. gün):</b> LH etkisiyle içi boşalan folikül yağ damlacıklarıyla dolarak sarı cisim (korpus luteum) adını alır. Korpus luteum, **az miktarda östrojen ama YOĞUN miktarda Progesteron** salgılar. Progesteron hormonu, rahmi gebeliğe hazırlayan hayati hormondur; endometriumu damar yönünden zenginleştirir ve süngerimsi yapar.</li>
+        <li><b>Menstrüasyon (Kanama) Evresi:</b> Döllenme olmazsa korpus luteum bozulur. Progesteron kanda aniden çakılır. Rahim iç duvarı parçalanarak bir miktar kanla birlikte vajinadan dışarı atılır.</li>
+    </ol>
+
+    <h2>3. EMBRİYONİK GELİŞİM BASAMAKLARI</h2>
+    <p>Yumurta kanalında sperm ve yumurtanın birleşmesiyle oluşan 2n kromozomlu tek bir hücreye <b>zigot</b> denir. Zigot, kalıtsal yapısını değiştirmeden peş peşe mitoz bölünmeler geçirerek gelişir. Gelişim evreleri sırasıyla şöyledir:</p>
+    <p></p>
+    <ul>
+        <li><b>Segmentasyon (Hızlı Bölünme Evresi):</b> Zigotun yumurta kanalında ilerlerken büyümeden geçirdiği aşırı hızlı mitoz bölünmelerdir. Bu evrede hücre sayısı artar ancak hücrelerin büyüklüğü ve **toplam ağırlığı (yumurtanın besini harcandığı için) zigottan daha azdır**. Bölünmeler sonucu dut görünümündeki hücre topluluğuna <b>Morula</b> denir.</li>
+        <li><b>Blastula Evresi:</b> Moruladaki hücreler dışa doğru göç ederek içi sıvı dolu bir küre oluşturur. Bu içi sıvı dolu boşluğa *blastosöl*, bu evredeki embriyoya ise <b>Blastula</b> denir. Embriyonun rahme tutunduğu (implante olduğu) evre tam olarak blastula evresidir. Kök hücreler buradan elde edilir.</li>
+        <li><b>Gastrula Evresi (Hücre Göçü):</b> Blastula tabanındaki hücreler içe doğru göç etmeye başlar. İlk hücre göçünün başladığı bu çöküntü deliğine *blastopor (ilk ağız)*, oluşan üç katmanlı (ektoderm, mezoderm, endoderm) embriyonik yapıya ise <b>Gastrula</b> denir. Bu evreden sonra organogenez (organ oluşumu) basamağı başlar.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sağlıklı bir dişi bireyin üreme sisteminin anatomisi ve işleyişi ile ilgili; I. Yumurtanın mayoz bölünme süreçlerinin başladığı yer yumurtalıktır, II. Sperm ile yumurtanın birleşmesi (döllenme) olayı rahim (uterus) boşluğunda gerçekleşir, III. Zigotun morula ve blastula evrelerine dönüşmesini sağlayan ilk mitoz bölünmeler yumurta kanalında (fallopi tüpü) yürütülür yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Dişi üreme sistemindeki olay-konum eşleşmelerini kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Yumurta hücrelerinin (oogenez) başlangıç adımları yumurtalık (ovaryum) içindeki foliküllerde gerçekleşir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Biyolojinin en popüler yanılgılarından biridir. **Döllenme olayı rahimde gerçekleşmez.** Rahim sadece embriyonun tutunup büyüyeceği yataktır. Döllenme, yumurtalıktan atılan yumurtanın yakalandığı yer olan **Yumurta Kanalında (Fallopi tüpünde)** gerçekleşir. Bu yüzden ikinci öncül yanlıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Döllenme sonucu oluşan zigot, kanal boyunca rahme doğru kayarken (segmentasyon evresi) mitoz bölünmelerine devam eder. Morula aşaması tam bu kanalda oluşur. Bu doğrudur. Cevap I ve III'tür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sağlıklı bir dişi bireyin menstrüal döngüsünün tam 14. gününde, folikülün patlayarak olgunlaşmış ikincil oositin (yumurtanın) serbest kalmasını (ovülasyonu) sağlayan ve hipofiz bezinden ani bir pik (tepe noktası) yaparak salgılanan hormon aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) FSH (Folikül Uyarıcı Hormon)</li>
+            <li>B) Östrojen</li>
+            <li>C) Progesteron</li>
+            <li>D) LH (Lüteinleştirici Hormon)</li>
+            <li>E) Oksitosin</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Menstrüal grafiğin en ikonik hormon piki sorgulanmaktadır.
+            <br>• Döngünün ortasına doğru (yaklaşık 12-13. günler) kanda östrojen tırmanır. Bu durum hipofize pozitif feedback yaparak **LH (Lüteinleştirici Hormon)** salgısını aniden fırlatır. 14. günde LH kandaki en yüksek değerine (pika) ulaşır. LH'ın bu muazzam artışı folikül zarını yırtarak yumurtanın kanala fırlatılmasını, yani <b>Ovülasyonu (Yumurtlamayı)</b> tetikler. LH olmasaydı üreme döngüsü dururdu.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Erkek üreme sisteminde yer alan seminifer tüpçüklerinde mayoz bölünme (spermatogenez) tamamlandıktan sonra oluşan kamçısız ve hareketsiz spermatit hücrelerinin, **hareket ve döllenme yeteneği kazanarak (olgunlaşarak)** gerçek sperm formunu aldığı anatomik kanal aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Vas Deferens</li>
+            <li>B) Epididimis</li>
+            <li>C) Prostat Bezi</li>
+            <li>D) Leydig Hücreleri</li>
+            <li>E) Seminal Kesecik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Spermlerin üretim, olgunlaşma ve taşınma rotalarını netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Testis içindeki seminifer tüpçüklerinde spermatogenez olur ancak oluşan hücreler kuyruksuz ve dölleme yetisinden yoksundur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bu ham spermatitler, seminifer tüpçüklerinden hemen sonra gelen, testisin üzerindeki kıvrımlı bir ağ olan <b>Epididimis</b> kanalına geçerler. Spermler tam bu kanalda yaklaşık 3 hafta kalarak kamçı (kuyruk) geliştirir, akrozom yapısını olgunlaştırır ve **hareket/döllenme yeteneği kazanırlar**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Olgunlaşan gerçek spermler daha sonra depo edilmek ve taşınmak üzere Vas Deferens (sperm kanalı) kanalına aktarılır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Gebeliğin sürdürülmesinde, rahim iç duvarının (endometrium) kalın, süngerimsi ve kan damarı yönünden zengin kalmasını sağlayarak embriyonun düşmesini engelleyen, özellikle Menstrüal döngünün **Korpus Luteum evresinde yumurtalık sarı cisminden yoğun miktarda salgılanan** hayati hormon hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Progesteron</li>
+            <li>B) Östrojen</li>
+            <li>C) Prolaktin (PRL)</li>
+            <li>D) HCG</li>
+            <li>E) LH</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Rahim yatağını gebeliğe hazırlayan ve koruyan ana hormonu bulmalıyız.
+            <br>• Ovülasyondan sonra folikül kalıntısı **Korpus Luteum (Sarı Cisim)** yapısına dönüşür. Bu yapı gebeliğin garantörü olan <b>Progesteron</b> hormonunu çok yoğun olarak salgılar. Progesteron rahim kaslarının kasılmasını bloke eder, endometriumu kalınlaştırır ve embriyonun sımsıkı tutunmasını sağlar. Kanda progesteron düştüğü anda rahim duvarı çöker ve düşük/regl kanaması başlar.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Bir zigotun segmentasyon (hızlı mitoz bölünmeler) evresindeki gelişimi incelendiğinde; morula aşamasına gelmiş bir hücre topluluğunun toplam ağırlığı ile başlangıçtaki tek hücreli zigotun ağırlığı karşılaştırılmıştır. Morula topluluğunun toplam kütlesinin zigottan **daha az** olduğu saptanmıştır. Bu kütle azalışının temel biyolojik nedeni aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hücrelerin bölünürken kromozom sayısını yarıya indirmesi (Mayoz)</li>
+            <li>B) Segmentasyon sırasında dışarıdan besin alınamaması ve hücrelerin enerji eldesi (mitoz) için yumurtadaki hazır vitellüs (besin) stoğunu harcaması</li>
+            <li>C) Hücrelerin bir kısmının sıvı oluşturarak blastosöl boşluğuna akması</li>
+            <li>D) Embriyonun rahim duvarına tutunarak erimesi</li>
+            <li>E) Hücre göçlerinin (gastrulanın) kütle kaybettirmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• ÖSYM'nin en meşhur embriyoloji analitik tuzağıdır: "Segmentasyonda hücre sayısı katlanarak artar (1-2-4-8-16-Morula...) ancak embriyonun toplam kuru ağırlığı/kütlesi başlangıçtaki tek bir zigotun kütlesinden **daha küçüktür**."
+            <br>• Bunun sebebi; segmentasyon evresinin fallopi tüpünde (yumurta kanalında) çok hızlı gerçekleşmesi ve embriyonun henüz anne rahmine tutunmadığı için **dışarıdan (anneden) hiçbir besin alamamasıdır**. Hücreler o çılgın mitoz bölünmeler ve replikasyonlar için gereken devasa ATP enerjisini, yumurtanın içindeki hazır sitoplazmik besini (**vitellüs stoğunu**) hücresel solunumda yakarak karşılarlar. Besin maddesi yakılıp CO₂ ve H₂O olarak havaya uçtuğu için morulanın toplam ağırlığı zigottan bariz daha az kalır. Rahim duvarına (blastula evresinde) tutunduktan sonra nihayet anneden beslenmeye başlar ve kütlesi geometrik olarak tırmanır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 12: Komünite ve Popülasyon Ekolojisi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 12: KOMÜNİTE VE POPÜLASYON EKOLOJİSİ</h1>
+        <p>Türler Arası İlişkiler, Süksesyon Döngüleri, Popülasyon Büyüme Modelleri ve Çevre Direnci</p>
+    </div>
+
+    <h2>1. KOMÜNİTE EKOLOJİSİ VE TÜRLER ARASI SİMBİYOTİK İLİŞKİLER</h2>
+    <p>Belirli bir alanda bir arada yaşayan ve birbirleriyle etkileşim halinde olan farklı türlere ait popülasyonların oluşturduğu topluluğa <b>komünite</b> denir. Komünitede türler arasında besin, ışık ve alan için kıyasıya bir **rekabet** veya av-avcı ilişkisi yürütülür. Ayrıca farklı türlerin bir arada yaşamasına dayanan <b>simbiyotik ilişkiler</b> mevcuttur:</p>
+    <ul>
+        <li><b>Mutualizm (+ / +):</b> Her iki türün de bir arada yaşamaktan fayda sağladığı "kazan-kazan" ilişkisidir. Ayrıldıklarında iki canlı da zarar görür veya ölür (Örn: Liken birliği - Alg ve Mantar, Mikoriza - Bitki kökü ve Mantar, Baklagil ve Rhizobium bakterileri).</li>
+        <li><b>Komensalizm (+ / 0):</b> Birlikte yaşayan iki türden biri fayda sağlarken, diğerinin bu ilişkiden olumlu ya da olumsuz hiçbir şekilde **etkilenmediği** (nötr kaldığı) ilişkidir. (Örn: Köpek balığına tutunarak taşınan Echeneis balıkları, ağaçların üzerinde yaşayan ve ağaca zarar vermeyen epifit orkideler).</li>
+        <li><b>Parazitizm (+ / -):</b> Bir canlının (parazit), üzerinde veya içinde yaşadığı diğer canlıya (konak) zarar vererek beslendiği tek taraflı sömürü ilişkisidir. Bitkisel parazitlerde; kloroplastı olup sadece su çalanlara <i>yarı parazit</i> (Örn: Ökse otu), kloroplastı olmayıp emeçlerini hem ksileme hem floeme salanlara ise <i>tam parazit</i> (Örn: Cinsaçı) denir.</li>
+        <li><b>Amensalizm (- / 0):</b> İki türden birinin zarar gördüğü, diğer türün ise bu durumdan hiç etkilenmediği ilişkidir. (Örn: Ceviz ağacının yapraklarından sızan juglon maddesinin altındaki diğer bitkileri kurutması; ceviz ağacına hiçbir şey olmazken alttakiler ölür).</li>
+    </ul>
+
+    <h3>Komünitede Değişim: Süksesyon (Ardıllık)</h3>
+    <p>Baskı, yangın veya doğal afetler sonucu komünitedeki baskın türlerin zamanla değişerek yerini yeni türlere bırakması olayına <b>süksesyon (ardıllık)</b> denir. Komünitenin kararlı ve dengeli bir hal aldığı son aşamaya *klimaks* denir. İki tipi vardır:</p>
+    <ol>
+        <li><b>Birincil (Primer) Süksesyon:</b> Üzerinde hiçbir şekilde **toprak ve canlı tabakası bulunmayan** kaya, buzultaş veya lav akıntısı gibi alanlarda hayatın sıfırdan başlamasıdır. Toprak oluşumuyla birlikte sırasıyla; *Liken &rarr; Yosun &rarr; Ot &rarr; Çalı &rarr; Ağaç* evreleri izlenir.</li>
+        <li><b>İkincil (Sekonder) Süksesyon:</b> Mevcut bir ekosistemin yangın, aşırı otlatma veya tarım gibi nedenlerle bozulması, ancak **toprak yapısının korunması** durumunda gerçekleşir. Toprak hazır olduğu için yosun/liken evresi yaşanmaz; doğrudan otsu bitkilerle başlar ve primer süksesyona göre çok daha hızlı ilerler.</li>
+    </ol>
+
+    <h2>2. POPÜLASYON DİNAMİKLERİ VE BÜYÜME MODELLERİ</h2>
+    <p>Belirli bir zaman diliminde, sınırları belli bir coğrafi alanda yaşayan **aynı türe ait** bireylerin oluşturduğu topluluğa <b>popülasyon</b> denir. Popülasyonun dengesini doğumlar, ölümler, içe göçler ve dışa göçler belirler.</p>
+    
+    <h3>Popülasyon Büyüme Eğrileri:</h3>
+    <ul>
+        <li><b>S Tipi Büyüme Eğrisi (Lojistik Büyüme):</b> Kaynakların sınırlı olduğu doğal ekosistemlerde görülen gerçekçi büyüme modelidir. 4 evrede tamamlanır: *Pozitif artış (kuruluş) evresi*, *Logaritmik (hızlı) artış evresi*, *Negatif artış (yavaşlama) evresi* ve nihayet popülasyonun **Taşıma Kapasitesine (K)** ulaştığı <b>Denge Evresi</b>.Popülasyon taşıma kapasitesine yaklaştıkça alan darlığı, besin kıtlığı ve salgın hastalıklar gibi popülasyonun büyümesini frenleyen dış faktörlerin tamamına <b>Çevre Direnci</b> denir. Taşıma kapasitesinde çevre direnci **maksimum** seviyededir.</li>
+        <li><b>J Tipi Büyüme Eğrisi (Eksponansiyel Büyüme):</b> Kaynakların sınırsız olduğu, çevre direncinin sıfır kabul edildiği ideal laboratuvar ortamlarında veya geometrik çoğalan canlılarda (örn: bazı böcek ve bakteri patlamaları) görülür. Denge evresi <u>yoktur</u>. Popülasyon ani bir patlamanın ardından kaynakların aniden bitmesiyle hızla çöker.</li>
+    </ul>
+
+    <h3>Hayatta Kalma (Survivorship) Eğrileri:</h3>
+    <p>Popülasyonların hayatta kalma stratejilerini özetleyen 3 tip grafiksel eğri mevcuttur:</p>
+    <ul>
+        <li><b>Tip I Eğrisi:</b> Ergin dönemlerde hayatta kalma oranı çok yüksektir. Ölümler yaşlılık döneminde yoğunlaşır. Az sayıda yavru üretip onlara yüksek **yavru bakımı** sağlayan canlılarda görülür. (Örn: İnsan, fil, balina gibi memeliler).</li>
+        <li><b>Tip II Eğrisi:</b> Ölüm oranının yaşa bağlı olmadığı, her yaş döneminde sabit ve doğrusal bir riskle sürdüğü modeldir. (Örn: Kuşlar, bazı kemirgenler ve sürüngenler).</li>
+        <li><b>Tip III Eğrisi:</b> Erken yaşlarda (yavruluk döneminde) ölüm oranının aşırı yüksek olduğu modeldir. Çok sayıda yumurta/yavru bırakıp onlara **hiç yavru bakımı uygulamayan** canlılarda görülür. (Örn: Balıklar, kurbağalar, deniz omurgasızları ve böcekler).</li>
+    </ul>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> İki farklı canlı türü arasındaki ortak yaşam (simbiyoz) ilişkisi incelenmektedir. Bu türlerden biri birliktelikten net bir şekilde fayda sağlarken (+), diğer canlı türü bu ilişkiden olumlu ya da olumsuz hiçbir şekilde etkilenmemekte, tamamen nötr (0) kalmaktadır. Buna göre bu canlılar arasındaki simbiyotik ilişki türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Sıkı Mutualizm</li>
+            <li>B) Parazitizm</li>
+            <li>C) Komensalizm</li>
+            <li>D) Amensalizm</li>
+            <li>E) Protokoperasyon (Gevşek Mutualizm)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Simbiyotik etkileşimlerin matematiksel kodlarını kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Mutualizm (+ / +) kuralına dayanır; iki taraf da kazanır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Parazitizm (+ / -) sömürüsüdür; biri kazanırken diğeri ağır zarar görür.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Amensalizm (- / 0) ilişkisidir; biri zarar görürken diğeri farkında bile değildir.
+            <br>• Soruda açıkça tarif edilen **(+ / 0)** kalıbı, tam anlamıyla <b>Komensalizm</b> ilişkisinin tanımıdır. Büyük köpek balıklarının etrafında yüzerek hem korunan hem de onun diş artıklarıyla beslenen küçük vantuzlu balıkların (Echeneis) ilişkisi buna en klasik örnektir; köpek balığının bu küçük balıklardan haberi bile yoktur (nötrdür).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Büyük bir orman ekosisteminde meydana gelen devasa bir yangın felaketinin ardından, tüm baskın ağaç türleri küle dönmüş ancak **toprak tabakası yapısını ve organik zenginliğini korumuştur**. Yangından sonraki yıllarda bu alanda otsu bitkilerin, ardından çalıların ve en son yeni ağaç türlerinin baskın hale gelerek ekosistemin kararlı bir dengeye (klimaksa) ulaşması süreci aşağıdakilerden hangisi ile adlandırılır?</div>
+        <ul class="options-list">
+            <li>A) Primer Süksesyon</li>
+            <li>B) Sekonder Süksesyon</li>
+            <li>C) Ekolojik Niş Değişimi</li>
+            <li>D) Karakter Kayması</li>
+            <li>E) Amensalizm Dönüşümü</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Ekosistemlerin zamana bağlı tür değişim zincirini (süksesyonu) analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Eğer yaşam, üzerinde hiçbir organik kalıntı ve toprak bulunmayan çıplak bir kayalıkta sıfırdan başlasaydı buna Primer (Birincil) süksesyon derdik.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak soruda net bir ipucu verilmiştir: Büyük bir afet (yangın) yaşanmış, komünite bozulmuş fakat **toprak yapısı ve kök sistemleri tamamen korunmuştur**. Toprağın hazır olduğu bu yıkım alanlarında yaşamın otsu bitkilerle başlayarak kendini hızlıca tamir etmesi sürecine <b>Sekonder (İkincil) Süksesyon</b> denir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Doğal ortamlarda yaşayan sınırlı kaynaklara sahip bir popülasyonun S tipi (lojistik) büyüme grafiği incelenmiştir. Bu popülasyonun büyüme hızı yavaşlayarak **Denge Evresine** ulaştığı ve taşıma kapasitesine (K) tam oturduğu anda popülasyondaki **Çevre Direnci** ve birey sayısı değişimi ile ilgili aşağıdakilerden hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Çevre direnci sıfırdır, birey sayısı geometrik olarak patlar.</li>
+            <li>B) Çevre direnci minimumdur, doğum oranı ölümlerden çok fazladır.</li>
+            <li>C) Çevre direnci maksimumdur, birey sayısı durağanlaşarak dengelenmiştir.</li>
+            <li>D) Taşıma kapasitesi çöker, popülasyon yok olur.</li>
+            <li>E) İçe göçler maksimuma ulaşır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Lojistik büyüme modelindeki taşıma kapasitesi ve çevre direnci ilişkisini yorumlayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Popülasyon büyüdükçe ve alan daraldıkça, dışarıdan gelen baskı faktörlerinin tamamı yani **Çevre Direnci** tırmanır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Popülasyon o alanın kaldırabileceği en üst limit olan <b>Taşıma Kapasitesine (K)</b> ulaştığı an, kap dolmuş demektir. Besin sınırda, alan sıkışıktır. Dolayısıyla bu evrede popülasyonun tepesindeki <b>Çevre Direnci maksimum seviyeye ulaşır</b>.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Maksimum çevre direnci doğumu ölüme eşitler, popülasyonun büyüme hızı sıfırlanır ve birey sayısı sabitlenerek dengeye (klimaksa) oturur. Doğru şık C seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Bir popülasyona ait hayatta kalma (survivorship) eğrisi grafiklerinde **Tip III** modelini sergileyen bir canlı türü ile ilgili; I. Çok sayıda yavru üretip onlara hiçbir şekilde yavru bakımı uygulamazlar, II. Ölümler en yoğun olarak erken yaşlarda (yavruluk döneminde) görülür, III. İnsan ve büyük memeli hayvanlar bu gruba en belirgin örnektir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hayatta kalma stratejilerinden Tip III modelini analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. ve II. Öncüller: Tip III eğrisine sahip canlılar (örneğin deniz balıkları veya kurbağalar), suya milyonlarca yumurta bırakırlar ancak yavruları korumak için hiçbir **yavru bakımı sergilemezler**. Korumasız olan bu küçük yavruların büyük kısmı çevre şartları ve avcılar nedeniyle erken yaşta katledilir, yani **ölümler yavruluk döneminde tavan yapar**. Hayatta kalan şanslı azınlık ise ergin döneme ulaşır. Bu iki öncül doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: İnsan ve fil gibi dev memeliler az yavru yapıp onlara gözü gibi bakarlar (Yavru bakımı maksimumdur), bu yüzden ölümleri yaşlılıkta olur. Onlar Tip III değil, **Tip I** modelini sergilerler. Üçüncü ifade yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Tarım alanlarına dadanan zararlı böceklerle mücadele etmek isteyen köylüler, ortama bu böcekleri avlayan yabani kuş türlerini salmışlardır. Kuşların böcekleri avlamasıyla böcek popülasyonu hızla çökmüş, kuş popülasyonu ise besin bolluğundan tırmanmıştır. Ancak bir süre sonra böcekler bitince kuşlar da açlıktan ölmeye başlamış ve iki popülasyon dalgalı bir dengeye oturmuştur. Ekolojide popülasyonları dengeleyen bu grafiksel döngüye ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Süksesyon Zinciri</li>
+            <li>B) Av - Avcı İlişkisi (Dalgalanma Modeli)</li>
+            <li>C) Amensalizm Eğrisi</li>
+            <li>D) Taşıma Kapasitesi Çöküşü</li>
+            <li>E) Mutlak Komensalizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Komünitelerdeki dinamik nüfus denge mekanizmalarını inceleyelim:
+            <br>• Bir canlının diğerini besin amacıyla doğrudan avladığı sistemlerde popülasyon grafiklerinde senkronize bir **sinüs dalgalanması** (biri artarken diğerinin onu takip etmesi, ardından av bitince avcının da düşmesi döngüsü) gözlenir. Ekolojideki bu sarsılmaz popülasyon frenleme mekanizmasına <b>Av-Avcı İlişkisi (Dalgalanma Grafiği)</b> denir (En meşhur örneği Vaşak - Kar tavşanı döngüsüdür).
+        </div>
+    </div>
+
+</body>
+</html>

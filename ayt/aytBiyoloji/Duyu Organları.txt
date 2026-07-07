@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 2: Duyu Organları</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 2: DUYU ORGANLARI</h1>
+        <p>Reseptör Tipleri, Göz Anatomisi ve Görme Mekanizması, Kulak Anatomisi, İşitme ve Denge Fizyolojisi</p>
+    </div>
+
+    <h2>1. DUYU RESEPTÖRLERİNİN SINIFLANDIRILMASI</h2>
+    <p>Dış ortamdan gelen fiziksel veya kimyasal uyarıları alarak sinir hücrelerinde impuls (aksiyon potansiyeli) başlatan özel hücrelere <b>reseptör (almaç)</b> denir. İnsanda duyu organlarında yer alan reseptörler dört ana gruba ayrılır:</p>
+    <ul>
+        <li><b>Fotoreseptörler:</b> Işığa karşı duyarlıdırlar. İnsan vücudunda sadece **gözün ağ tabakasında (retina)** bulunurlar.</li>
+        <li><b>Mekanoreseptörler:</b> Basınç, dokunma, ses dalgaları, hareket ve titreşim gibi fiziksel uyarılara duyarlıdırlar. **Kulakta (Corti organı)** ve **deride** (Meissner, Merkel, Pacini cisimcikleri) yoğunlaşmışlardır.</li>
+        <li><b>Kemoreseptörler:</b> Kimyasal maddelerin çözünmüş hallerine karşı duyarlıdırlar. **Dilde (tat tomurcukları)** tükürük içinde çözünen maddeleri, **burunda (koku alanı)** ise mukus içinde çözünen koku taneciklerini algılarlar. Koku reseptörleri doğrudan nöron kökenlidir.</li>
+        <li><b>Termoreseptörler:</b> Sıcak ve soğuk değişimlerine duyarlıdırlar. **Deride** (Krause ve Ruffini cisimcikleri) ve hipotalamusta bulunurlar.</li>
+    </ul>
+
+    <h2>2. GÖZÜN YAPISI VE GÖRME MEKANİZMASI</h2>
+    <p>Göz küresi dıştan içe doğru üç temel tabakadan meydana gelir:</p>
+    <ol>
+        <li><b>Sert Tabaka (Sclera):</b> Gözü dıştan koruyan beyaz ve koruyucu tabakadır. Gözün ön kısmında hafifçe şişkinleşip saydamlaşarak ışığın ilk kırıldığı yer olan <b>saydam tabakayı (kornea)</b> oluşturur. Korneada kan damarı ve sinir bulunmaz, beslenmesini göz sıvısından sağlar.</li>
+        <li><b>Damar Tabaka (Choroidea):</b> Gözü besleyen kan damarlarının bulunduğu koyu renkli tabakadır. Ön tarafta genişleyerek gözün rengini belirleyen <b>iris</b>i oluşturur. İrisin ortasındaki boşluğa <b>göz bebeği</b> denir. İris kasları ışık yoğunluğuna göre göz bebeğini büyütüp küçülterek göze giren ışık miktarını ayarlar. İrisin hemen arkasında ışığı ikinci kez kırarak retina üzerine düşüren saydam <b>göz merceği</b> bulunur. Mercek, kirpiksi cisim kasları vasıtasıyla kalınlığını ayarlayarak yakın veya uzağa bakarken netlik sağlar (Göz uyumu).</li>
+        <li><b>Ağ Tabaka (Retina):</b> En içte yer alan, fotoreseptörlerin ve sinir hücrelerinin bulunduğu tabakadır. Işığın ve renklerin en net algılandığı, fotoreseptörlerin en yoğun kümelendiği çukur bölgeye <b>sarı benek (fovea)</b> denir. Retinada iki tip fotoreseptör vardır:
+            <br>&bull; <b>Çomak (Çubuk) Hücreleri:</b> Loş ışıkta (gece) siyah-beyaz görmeyi ve nesnelerin şeklini algılamayı sağlar. Yapısında A vitamini kökenli <i>rodopsin</i> pigmenti bulunur.
+            <br>&bull; <b>Koni Hücreleri:</b> Yeterli ışıkta parlak ve renkli (Mavi, Yeşil, Kırmızı) görmeyi sağlar. Eksikliğinde renk körlüğü (Daltonizm) oluşur.
+        </li>
+    </ol>
+    <p><b>Görmenin İzlediği Yol:</b> Işık &rarr; Kornea (1. Kırılma) &rarr; Göz Bebeği &rarr; Göz Merceği (2. Kırılma) &rarr; Camsı Sıvı &rarr; Retina (Sarı Benek - Ters Görüntü) &rarr; Optik Sinirler &rarr; Optik Chiasma &rarr; Talamus &rarr; Beyin Kabuğu (Oksipital Lob - Net, Düz ve Renkli Algılama).</p>
+
+    <div class="highlight-box">
+        <strong>⚠️ ÖSYM'NİN OPTİK SİNEMA TUZAKLARI (GÖZ KUSURLARI):</strong>
+        <br>• <b>Miyopluk:</b> Göz küresinin önden arkaya çapının uzaması veya merceğin çok kavisli olması nedeniyle görüntü retinanın **önüne** düşer. Birey uzağı net göremez. **Kalın kenarlı (ıraksak) mercekle** düzeltilir. (Kodlama: <b>MUK</b> - Miyop, Uzak, Kalın).
+        <br>• <b>Hipermetropluk:</b> Göz küresinin çapının kısalması nedeniyle görüntü retinanın **arkasına** düşer. Birey yakını net göremez. **Ince kenarlı (yakınsak) mercekle** düzeltilir. (Kodlama: <b>HAY</b> - Hipermetrop, Yakın, İnce).
+        <br>• <b>Presbitlik:</b> Yaşlanmaya bağlı olarak göz merceğinin esnekliğini kaybetmesi ve göz uyumu yapamamasıdır. Yakını göremezler, ince kenarlı mercekle düzeltilir.
+    </div>
+
+    <h2>3. KULAĞIN YAPISI, İŞİTME VE DENGE FİZYOLOJİSİ</h2>
+    <p>Kulak, hem işitme hem de statik/dinamik denge organımızdır. Üç ana bölümden oluşur:</p>
+    <ul>
+        <li><b>Dış Kulak:</b> Kulak kepçesi (sesi toplar) ve kulak yolundan oluşur. Kulak zarı ile son bulur. Ses dalgalarını orta kulağa iletir.</li>
+        <li><b>Orta Kulak:</b> Kulak zarından sonra gelen, içinde vücudun en küçük kemikleri olan **Çekiç, Örs ve Üzengi** kemiklerinin bulunduğu hava dolu odacıktır. Bu kemikler ses titreşimlerinin genliğini fırlatarak **oval pencere**ye iletir. Ayrıca yutak ile orta kulak arasındaki basıncı dengeleyen <b>Östaki borusu</b> burada açılır.</li>
+        <li><b>İç Kulak:</b> Hem işitme reseptörlerinin hem de denge yapılarının yer aldığı sıvıyla dolu karmaşık kanallar sistemidir.
+            <br>&bull; <b>İşitme Bölümü (Salyangoz - Cochlea):</b> Sırasıyla vestibular kanal (perilenf), timpanik kanal (perilenf) ve ortadaki kohlear kanaldan (endolenf) oluşur. Kohlear kanalın tabanındaki temel zar üzerinde, ses dalgalarını elektriksel impulsa dönüştüren mekanoreseptörlü <b>Corti Organı</b> yer alır.
+            <br>&bull; <b>Denge Bölümü:</b> Dinamik dengeyi (dönme hareketlerini) algılayan **Yarım Daire Kanalları** (içindeki endolenf sıvısı ve ampulladaki siller) ile statik dengeyi (yer çekimine karşı konum, ileri-geri hareketler) algılayan **Tulumcuk ve Kesecik** odacıklarından oluşur. Tulumcuk ve kesecik tabanında jelatinimsi sıvı üzerinde kalsiyum karbonat yapılı <b>otolit taşları</b> bulunur. Hareket anında bu taşlar silleri bükerek denge sinirlerinde impuls başlatır.
+        </li>
+    </ul>
+    <p><b>İşitmenin İzlediği Yol:</b> Ses Dalgaları &rarr; Kulak Kepçesi &rarr; Kulak Yolu &rarr; Kulak Zarı (Titreşim) &rarr; Çekiç-Örs-Üzengi &rarr; Oval Pencere &rarr; Vestibular Kanal &rarr; Timpanik Kanal &rarr; Yuvarlak Pencere (Basınç Sönümleme) &rarr; Kohlear Kanal (Corti Organı Sillerinin Eğilmesi) &rarr; İşitme Sinirleri &rarr; Talamus &rarr; Beyin Kabuğu (Temporal Lob - İşitme).</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bir insanda koku ve tat alma duyularının işleyiş mekanizmaları karşılaştırıldığında; I. Uyarı maddelerinin sıvı (mukus veya tükürük) içinde çözünmüş olması zorunluluğu, II. Alınan impulsların uç beyne ulaşmadan önce Talamus uğraması, III. Reseptörlerinin türü özelliklerinden hangileri iki duyu organı için <b>ortaktır</b>?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İki kimyasal duyunun özelliklerini eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Hem burnun koku hücreleri hem de dilin tat tomurcukları kimyasal uyarıları alır. Bir kimyasalın algılanabilmesi için burunda mukus içinde, dilde ise tükürük sıvısı içinde mutlaka **çözünmüş olması gerekir**. Bu ortaktır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Biyolojinin en sarsılmaz kurallarından biri şudur: <b>Koku duyusu hariç</b> tüm duyular talamusa uğrar. Koku impulsları talamusa kesinlikle <u>uğramadan</u> doğrudan beyin kabuğundaki koku merkezine gider. Bu yüzden ortak değildir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Her iki duyu organı da kimyasal maddeleri algıladığından reseptör türleri <b>Kemoreseptör</b>'dür. Bu da ortaktır. Cevap I ve III olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Yakındaki bir nesneye bakarken aniden uzaktaki bir nesneye doğru odaklanan sağlıklı bir insanın gözünde, görüntüyü retinadaki sarı benek üzerine tam düşürebilmek için (göz uyumu sürecinde) aşağıdakilerden hangisi gerçekleşir?</div>
+        <ul class="options-list">
+            <li>A) Göz merceği kalınlaşarak kırıcılığı artar.</li>
+            <li>B) Kirpiksi cisimdeki düz kaslar kasılır, mercek bağları gevşer.</li>
+            <li>C) Merceği tutan asıcı bağlar kasılır (gerilir), mercek yassılaşır.</li>
+            <li>D) Kornea tabakası düzleşerek ışığı kırmayı durdurur.</li>
+            <li>E) Göz bebeği ışığı engellemek için tamamen kapanır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Gözün uzağa odaklanma mekanizmasını (göz uyumunu) adım adım analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Uzaktaki bir nesneye bakarken kirpiksi cisimdeki düz kaslar **gevşer**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Kirpiksi kasların gevşemesiyle, merceği iki yandan tutan **asıcı bağlar (mercek bağları) gerilir (kasılır)**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Gerilen asıcı bağlar göz merceğini iki yana doğru çeker; merceğin bombeliği azalır, mercek <b>yassılaşır (incelir)</b>. Mercek inceldiği için ışığı kırma gücü (kırıcılığı) azalır ve uzağın net görüntüsü tam sarı benek üzerine düşürülür. (Yakına bakarken ise tam tersi olur; kirpiksi kaslar kasılır, bağlar gevşer, mercek küreleşip kalınlaşır).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir göz doktoruna giren hasta, uzağı net göremediğini söylemiştir. Yapılan tetkiklerde optik eksen uzunluğunun normalden fazla olduğu ve mercekten kırılan ışınların retinanın önüne düştüğü belirlenmiştir. Buna göre bu hastanın göz kusuru ve tedavisinde kullanılması gereken mercek türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hipermetropluk - İnce kenarlı mercek</li>
+            <li>B) Miyopluk - Kalın kenarlı mercek</li>
+            <li>C) Astigmatizm - Silindirik mercek</li>
+            <li>D) Presbitlik - İnce kenarlı mercek</li>
+            <li>E) Miyopluk - İnce kenarlı mercek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hastanın şikayetlerini klinik kodlarımıza dökelim: "Uzağı net görememek", "göz küresi çapının uzun olması" ve "ışınların retinanın **önüne** düşmesi".
+            <br>• Bu üç yapısal ve optik durum eksiksiz olarak <b>Miyopluk</b> göz kusurunu tanımlar.
+            <br>• Retinanın önüne erken düşen ışınları biraz dağıtarak geriye, yani tam retina (sarı benek) çizgisine oturtabilmek için ışığı dağıtma özelliğine sahip olan <b>Kalın kenarlı (ıraksak) mercek</b> kullanılmalıdır. (MUK formülü: Miyop-Uzak-Kalın).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İnsanın iç kulağında bulunan Kohlear kanal içindeki Corti organında ses dalgalarının mekanik etkisini elektriksel impulsa dönüştüren özel yapılar yer alır. Buna göre, ses dalgaları Corti organındaki reseptör hücrelerine ulaşmadan hemen önce iç kulaktaki hangi kanalda titreşim dalgaları oluşturur?</div>
+        <ul class="options-list">
+            <li>A) Östaki Borusu</li>
+            <li>B) Vestibular Kanal</li>
+            <li>C) Timpanik Kanal</li>
+            <li>D) Yarım Daire Kanalları</li>
+            <li>E) Kohlear Kanal</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Salyangoz (cochlea) içindeki sıvı dalga akış sırasını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Üzengi kemiği oval pencereye vurduğunda titreşimler ilk olarak üstteki **Vestibular kanal** içindeki perilenf sıvısına geçer.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Sıvı dalgası vestibular kanalın sonuna kadar gider ve oradan dönerek alttaki **Timpanik kanal** sıvısına aktarılır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Timpanik kanaldaki bu sıvı basınç dalgaları, ortada duran Kohlear kanalın tabanındaki temel zarı (basilar zar) yukarı aşağı titreştirir. Temel zardaki sillerin üstteki çatı zara sürtünmesiyle Corti mekanoreseptörleri uyarılır.
+            <br>• Dolayısıyla Corti'deki sillerin bükülmesinden hemen önceki dalga hareketi <b>Timpanik kanal</b> sıvısı içinde gerçekleşmektedir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kendi ekseni etrafında hızlıca dönen bir dansçı, aniden durduğu halde hala başının döndüğünü ve etrafın hareket ettiğini hissetmeye devam eder. Bu durumun yaşanmasının temel biyolojik nedeni iç kulaktaki hangi yapının ve fiziksel olayın bir sonucudur?</div>
+        <ul class="options-list">
+            <li>A) Kohlear kanaldaki perilenf sıvısının yuvarlak pencereyi zorlaması</li>
+            <li>B) Yarım daire kanalları içindeki endolenf sıvısının hareketinin eylemsizlik nedeniyle durma anında da sürmesi</li>
+            <li>C) Otolit taşlarının tulumcuk tabanına yapışıp kalması</li>
+            <li>D) Östaki borusunun hava basıncını eşitleyememesi</li>
+            <li>E) Corti organındaki sillerin kırılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İnsanda dönme, ivmelenme gibi dinamik hareketlerin dengesi iç kulaktaki **Yarım Daire Kanalları** tarafından algılanır.
+            <br>• Bu kanalların içi <b>endolenf</b> adı verilen viskoz bir sıvı ile doludur. Birey kendi etrafında döndüğünde bu sıvı da kanallar içinde akmaya başlar ve ampulladaki reseptör sillerini bükerek beyne dönme sinyalleri gönderir.
+            <br>• Birey aniden durduğunda, fiziksel bir kural olan **eylemsizlik (inertia)** yasası gereği, yarım daire kanalları içindeki endolenf sıvısı aniden duramaz ve bir süre daha akmaya/dönmeye devam eder. Sıvı hareket etmeye devam ettiği için reseptörler hala dönülüyormuş gibi impuls üretip beyne yollar ve birey durduğu yerde baş dönmesi hisseder.
+        </div>
+    </div>
+
+</body>
+</html>

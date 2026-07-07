@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 4: Sindirim Sistemi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 4: SİNDİRİM SİSTEMİ</h1>
+        <p>Sindirim Organları, Yardımcı Yapılar, Besinlerin Kimyasal Sindirimi ve Emilim Yolları</p>
+    </div>
+
+    <h2>1. SİNDİRİM ORGANLARI VE HORMONAL KONTROL</h2>
+    <p>Büyük moleküllü besin maddelerinin su ve enzimler yardımıyla hücre zarından geçebilecek kadar küçük monomerlerine parçalanması sürecine <b>sindirime</b> denir. Sindirim; ağız, yutak, yemek borusu, mide, ince bağırsak ve kalın bağırsaktan oluşan bir kanalda yürütülür.</p>
+    <ul>
+        <li><b>Mide:</b> Besinleri geçici olarak depolar, mekanik olarak karıştırır ve proteinlerin kimyasal sindirimini başlatır. Mide öz suyu içinde **HCl (Hidroklorik asit)**, pasif bir enzim olan **Pepsinojen** ve mukus bulunur. Mide, kendi salgısı olan asit ve pepsinden; mukus tabakası, pepsinojenin pasif salgılanması ve **Gastrin** hormonunun kontrolü sayesinde korunur.</li>
+        <li><b>İnce Bağırsak:</b> **Tüm besin gruplarının kimyasal sindiriminin tamamlandığı ve emilimin gerçekleştiği ana organdır.** İç yüzeyinde emilim yüzeyini yüzlerce kat artıran <b>villus (tümür)</b> ve mikrovilluslar bulunur. İnce bağırsağın ilk kısmı olan onikiparmak bağırsağı (duodenum), sindirimin yönetim merkezidir. Burada üç büyük hormon salgılanır:
+            <br>&bull; <b>Gastrin:</b> Mide hücreleri tarafından salgılanır, mideyi uyararak HCl ve pepsinojen salgılanmasını artırır.
+            <br>&bull; <b>Sekretin:</b> Onikiparmak bağırsağından salgılanır. Pankreası uyararak bikarbonat iyonları ($HCO_3^-$) salgılattırır (mide asidini nötralize eder). Karaciğeri uyararak **safra üretimini** tetikler.
+            <br>&bull; <b>Kolesistokinin:</b> Onikiparmak bağırsağından salgılanır. Pankreası uyararak sindirim enzimlerinin salgılanmasını sağlar. Safra kesesini uyararak kasılmasını ve **safranın onikiparmak bağırsağına dökülmesini** sağlar.
+        </li>
+    </ul>
+
+    <h2>2. SİNDİRİME YARDIMCI ORGANLARIN KANALLARI</h2>
+    <p>Sindirime yardımcı organlar ürettikleri sıvıları özel kanallarla onikiparmak bağırsağına ulaştırırlar. Bu kanalların anatomik isimleri ÖSYM tarafından sıkça yoklanır:</p>
+    <p></p>
+    <ul>
+        <li><b>Karaciğer ve Safra Kesesi:</b> Karaciğer hücreleri <b>safra sıvısı</b> üretir. Safra sıvısı safra kesesinde depolanır. Safra kesesi kasıldığında safra, <b>Koledok kanalı</b> vasıtasıyla onikiparmak bağırsağındaki <b>Water kabarcığı</b>na dökülür. **Safra bir enzim değildir, içinde kesinlikle sindirim enzimi bulunmaz.** Görevi; yağları mekanik (fiziksel) olarak küçük yağ damlacıklarına dönüştürerek lipaz enziminin etkinliğini artırmaktır.</li>
+        <li><b>Pankreas:</b> Amilaz, Lipaz, Kimotripsinojen, Tripsinojen ve Nükleaz gibi en kritik sindirim enzimlerini barındıran *pankreas öz suyunu* üretir. Bu sıvı, <b>Wirsung kanalı</b> ile Water kabarcığına taşınır.</li>
+    </ul>
+
+    <h2>3. BESİNLERİN KİMYASAL SİNDİRİM BASAMAKLARI</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Besin Grubu</th>
+                <th>Ağızdaki Durum</th>
+                <th>Midedeki Durum</th>
+                <th>İnce Bağırsaktaki Durum (Final)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Karbonhidrat</b></td>
+                <td><b>Pityalin (Amilaz)</b> ile başlar.
+                <br>Nişasta &rarr; Dekstrin + Maltoz</td>
+                <td>Sindirim yoktur (pH asidik olduğu için amilaz çalışmaz).</td>
+                <td><b>Pankreas Amilazı</b> ve bağırsak enzimleri (Maltaz, Sükraz, Laktaz) ile **Glikoz**a kadar parçalanır.</td>
+            </tr>
+            <tr>
+                <td><b>Protein</b></td>
+                <td>Sindirim yoktur.</td>
+                <td><b>Pepsin</b> ile başlar.
+                <br>Protein + H₂O &rarr; Polipeptit</td>
+                <td>Pankreastan gelen **Tripsin, Kimotripsinojen** ve bağırsaktan gelen karboksipeptidaz / aminopeptidazlar ile **Aminoasit**e parçalanır.</td>
+            </tr>
+            <tr>
+                <td><b>Yağ (Lipit)</b></td>
+                <td>Sindirim yoktur.</td>
+                <td>Sindirim yoktur.</td>
+                <td>Önce **Safra** ile mekanik olarak damlacıklara ayrılır. Ardından pankreastan gelen <b>Lipaz</b> enzimiyle **Yağ asidi ve Gliserol**e parçalanır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. BESİNLERİN EMİLİM YOLLARI (KAN VE LENF AYRIMI)</h2>
+    <p>İnce bağırsakta sindirimi tamamlanan monomerler, villus hücreleri tarafından emilerek iki farklı yolla kalbe (dolaşıma) ulaştırılır:</p>
+    <ol>
+        <li><b>Kan Yolu (Suda Çözünenler):</b> Glikoz, aminoasitler, B ve C vitaminleri, su ve mineraller ince bağırsak villuslarındaki kan kılcallarına geçer. Buradan <b>Kapı Toplardamarı</b> ile ilk önce **Karaciğere** gelir. Karaciğer fazlasını depolar veya ayarlar. Karaciğer üstü toplardamarı &rarr; Alt ana toplardamar &rarr; Kalbin **Sağ Kulakçığı**.</li>
+        <li><b>Lenf Yolu (Yağda Çözünenler):</b> Yağ asitleri, gliserol ve A, D, E, K vitaminleri villusların epitel hücrelerine geçer. Burada yeniden birleştirilerek trigliseritlere dönüştürülür ve etrafı özel bir protein kılıfla kaplanarak <b>Şilomikron</b> adı verilen yapılara dönüştürülür. Şilomikronlar ekzositozla **Lenf kılcallarına** verilir.
+        <br><i>İzlediği Rota:</i> Lenf kılcalları &rarr; Peke sarnıcı &rarr; Göğüs lenf kanalı &rarr; <b>Sol Köprücük Altı Toplardamarı</b> (Yağ kökenli besinlerin kana ilk karıştığı yer burasıdır ve buradaki kan kirlidir) &rarr; Üst ana toplardamar &rarr; Kalbin **Sağ Kulakçığı**.
+        <br>💡 Suda ve yağda çözünen tüm besinlerin kalbe ilk ulaştığı ve birleştiği ortak yer **Sağ Kulakçık**tır.</li>
+    </ol>
+    <p></p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sağlıklı bir insanda onikiparmak bağırsağından (duodenum) salgılanan Sekretin ve Kolesistokinin hormonlarının hedef organları ve bu organlarda tetikledikleri fizyolojik olaylar ile ilgili aşağıdakilerden hangisi <b>yanlıştır</b>?</div>
+        <ul class="options-list">
+            <li>A) Sekretin, pankreası uyararak bikarbonat iyonlarının salgılanmasını sağlar.</li>
+            <li>B) Kolesistokinin, safra kesesini uyararak kasılmasını ve safranın dökülmesini tetikler.</li>
+            <li>C) Sekretin, karaciğer hücrelerini uyararak safra sıvısının üretilmesini sağlar.</li>
+            <li>D) Kolesistokinin, pankreası uyararak sindirim enzimlerinin wirsung kanalına verilmesini sağlar.</li>
+            <li>E) Kolesistokinin, mideyi uyararak mide asidinin ve gastrin hormonunun üretimini fırlatır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Onikiparmak bağırsağından salgılanan hormonların feedback mekanizmalarını kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sekretin pankreastan bikarbonat salgılattırır (A doğru) ve karaciğere safra ürettirir (C doğru).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kolesistokinin safra kesesini kasarak safrayı boşaltır (B doğru) ve pankreastan sindirim enzimi salgılattırır (D doğru).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak onikiparmak bağırsağına asidik kimus ulaştığında, mide işini bitirmiş demektir. Bu yüzden ince bağırsak hormonları (sekretin ve kolesistokinin), mideyi uyararak çalışmasını fırlatmaz; tam aksine **mide hareketlerini ve asit salgısını baskılar (enterogastrik refleks)**. Bu yüzden E seçeneğindeki ifade kesinlikle yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Karaciğerde üretilen ve safra kesesinde depolanan safra sıvısı ile ilgili; I. İçeriğinde polipeptitleri parçalayan hidrolitik enzimler bulunur, II. Yağların mekanik sindirimini gerçekleştirerek lipazın yüzey alanını genişletir, III. Koledok kanalı aracılığıyla onikiparmak bağırsağındaki Water kabarcığına salgılanır yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Safra sıvısının fizyokimyasal yapısını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: ÖSYM'nin en klasik ve sarsıcı biyoloji tuzaklarından biridir. **Safra sıvısı bir enzim değildir, içinde kesinlikle hiçbir organik sindirim enzimi bulunmaz.** Kimyasal bağları koparamaz. Bu yüzden birinci öncül yanlıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Safra tuzları, büyük yağ kütlelerini fiziksel (mekanik) olarak mikroskobik yağ damlacıklarına çevirir. Bu sayede lipaz enziminin substrat temas yüzeyi artar ve yağ sindirimi hızlanır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Safra kesesinden çıkan safra sıvısı, **Koledok kanalı** adı verilen kanal yoluyla ince bağırsaktaki Water kabarcığına boşaltılır (Pankreas sıvısı ise Wirsung kanalıyla gelir). Bu da doğrudur. Cevap II ve III olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Akşam yemeğinde yoğun miktarda nişasta (karbonhidrat) barındıran patates yiyen sağlıklı bir bireyde, bu nişasta moleküllerinin monomerlerine (glikoza) dönüşene kadar geçtiği sindirim kanallarında görev alan enzimlerin doğru sıralaması aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Amilaz &rarr; Pepsin &rarr; Maltaz</li>
+            <li>B) Amilaz &rarr; Lipaz &rarr; Sükraz</li>
+            <li>C) Pityalin (Ağız Amilazı) &rarr; Pankreas Amilazı &rarr; Maltaz</li>
+            <li>D) Tripsinojen &rarr; Amilaz &rarr; Laktaz</li>
+            <li>E) Pityalin &rarr; Maltaz &rarr; Pankreas Amilazı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Karbonhidrat (nişasta) sindirim kronolojisini baştan sona takip edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Nişastanın kimyasal sindirimi ilk olarak ağızda tükürük içindeki **Pityalin (Tükürük amilazı)** ile başlar ve nişasta dekstrin ile maltoza (ikili şeker) dönüşür.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Midede karbonhidrat sindirimi olmaz. Besin onikiparmak bağırsağına ulaştığında, ağızda kaçan nişastalar pankreastan wirsung kanalıyla salgılanan **Pankreas amilazı** ile tekrar maltozlara parçalanır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Son olarak ince bağırsak epitel hücrelerinin kendi ürettiği disakkarit enzimleri (özellikle maltozu parçalayan **Maltaz**) devreye girerek maltozları 2 molekül Glikoz monomerine dönüştürür ve sindirim biter. Sıralama C seçeneğindeki gibidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İşaretlenmiş bir aminoasit molekülünün ince bağırsak villuslarındaki kan kılcallarından emilmesinden sonra, kalbin sağ kulakçığına ulaşana kadar geçen süreçte aşağıdaki anatomik yapılardan hangisinden <b>en ilk önce</b> geçmesi beklenir?</div>
+        <ul class="options-list">
+            <li>A) Alt Ana Toplardamar</li>
+            <li>B) Karaciğer Üstü Toplardamarı</li>
+            <li>C) Kapı Toplardamarı</li>
+            <li>D) Sol Köprücük Altı Toplardamarı</li>
+            <li>E) Aort Atardamarı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Aminoasit suda çözünen bir besindir ve emilimde **Kan Yolunu** takip eder.
+            <br>• İnce bağırsak villus kan kılcallarından emilen tüm glikoz ve aminoasitler, karın bölgesindeki organların kanını toplayıp filtre edilmek üzere karaciğere taşıyan ana damara, yani <b>Kapı Toplardamarı</b>na dökülür. Dolayısıyla ilk geçilen büyük damar budur.
+            <br>• Yolculuğun devamı şöyledir: Kapı toplardamarı &rarr; Karaciğer iç kılcalları &rarr; Karaciğer üstü toplardamarı &rarr; Alt ana toplardamar &rarr; Kalbin sağ kulakçığı.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> İnce bağırsaktan emilen yağ asitleri, gliserol ve yağda çözünen A, D, E, K vitaminlerinin lenf kılcallarına verilerek taşınma süreci ile ilgili; I. Hücre içinde yeniden trigliseritlere dönüştürülüp protein kılıfla kaplanarak şilomikron halini alırlar, II. Şilomikronların kana ilk karıştığı yer sol köprücük altı toplardamarıdır, III. Taşınma sırasında karaciğer kapı toplardamarından geçerler yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Yağ kökenli moleküllerin lenfatik taşınma adımlarını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Yağ asidi ve gliserol bağırsak epitelinde birleşip nötral yağa dönüşür. Suda çözünmeyen bu yağların lenfte tıkanıklık yapmadan akabilmesi için etrafları hidrofilik protein kılıfla sarılarak <b>Şilomikron</b> paketlerine dönüştürülür ve ekzositozla lenfe verilir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Lenf damarlarıyla (Peke sarnıcı ve göğüs kanalı yoluyla) yukarı taşınan şilomikronlar, boyun bölgesindeki <b>Sol Köprücük Altı Toplardamarı</b>na dökülerek ilk kez **kana karışırlar**. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Lenf yolu tamamen bağımsız bir ağ olup karaciğere uğramaz, doğrudan kalbe gider. Karaciğer kapı toplardamarından geçenler sadece kan yoluyla taşınan glikoz ve aminoasitlerdir. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 7: Üriner Sistem (Boşaltım)</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 7: ÜRİNER SİSTEM (BOŞALTIM)</h1>
+        <p>Böbrek Anatomisi, Nefronun Yapısı, Süzülme, Geri Emilim ve Salgılama Mekanizmaları</p>
+    </div>
+
+    <h2>1. AZOTLU BOŞALTIM ATIKLARI VE BÖBREK ANATOMİSİ</h2>
+    <p>Aminoasit ve nükleik asitlerin hücresel solunumda yıkılması (katabolizması) sonucu zehirli bir madde olan <b>Amonyak (NH₃)</b> açığa çıkar. Canlılar evrimsel adaptasyonlarına ve su tasarruf stratejilerine göre amonyağı farklı formlarda dışarı atarlar: <i>Amonyak</i> (en zehirli, en çok suyla atılır - balıklar), <i>Üre</i> (orta zehirli, memeliler ve amfibiler) ve <i>Ürik Asit</i> (en az zehirli, neredeyse susuz atılır - kuşlar ve sürüngenler). İnsanda amonyak, karaciğerdeki **Ornitin döngüsü** ile daha az zehirli olan üreye dönüştürülür.</p>
+    <p>İnsanda boşaltım sistemi; iki adet böbrek, idrar borusu (üreter), idrar torbası (mesane) ve dış boşaltım kanalından (üretra) oluşur. Böbrek dıştan içe doğru üç bölgeden meydana gelir:</p>
+    <ul>
+        <li><b>Kabuk (Korteks):</b> Böbreğin en dış katmanıdır. Kanı süzen nefron yapılarının büyük kısmı burada yer alır. İdrar oluşumu burada başlar.</li>
+        <li><b>Öz (Medulla):</b> Kabuk ile havuzcuk arasındaki katmandır. İdrar toplama kanallarının bir araya gelmesiyle oluşan piramit şeklindeki **Malpighi piramitleri** bu bölgede bulunur.</li>
+        <li><b>Havuzcuk (Pelvis):</b> Böbreğin en iç kısmındaki toplama boşluğudur. Nefronlardan gelen tamamlanmış idrar burada birikir ve üretere aktarılır. Havuzcuktaki sıvının bileşimi, üretra dışına atılan **idrarın bileşimi ile birebir aynıdır** (artık geri emilim yapılamaz).</li>
+    </ul>
+
+    <h2>2. NEFRONUN YAPISI VE İDRAR OLUŞUM EVRELERİ</h2>
+    <p>Böbreğin kanı süzerek idrar oluşturan en küçük işlevsel birimine <b>nefron</b> denir. Bir böbrekte yaklaşık 1 milyon nefron bulunur. Nefronda idrar oluşumu sırasıyla üç aşamada gerçekleşir:</p>
+    <p></p>
+
+    <h3>A) Süzülme (Filtrasyon)</h3>
+    <p>Böbrek atardamarından gelen kan, getirici atardamarla **Glomerulus kılcallarına** ulaşır. Glomerulus, iki atardamar arasında sıkışmış özel bir kılcal ağdır. Bu yüzden **kan basıncı normal kılcallardan iki kat daha yüksektir** ve damar boyunca sabit kalır. Yüksek basınç etkisiyle kan hücreleri, plazma proteinleri ve büyük yağ molekülleri hariç; su, glikoz, aminoasit, üre, iyonlar ve mineral maddeler zorla <b>Bowman kapsülü</b>ne geçer. Bu olaya süzülme denir. Süzülme tamamen yüksek kan basıncı gücüyle yapıldığından **ATP (enerji) harcanmaz (pasif süreçtir)**.</p>
+
+    <h3>B) Geri Emilim (Reabsorbsiyon)</h3>
+    <p>Süzüntü Bowman kapsülünden sonra nefron kanallarına (nefron kanalcıklarına) geçer. Süzüntü içindeki yararlı maddelerin (glikoz, aminoasit vb.) nefron kanallarını saran kılcal damarlara difüzyon veya aktif taşıma ile geri geçmesine <b>geri emilim</b> denir. Kanallara göre emilim haritası şöyledir:</p>
+    <ul>
+        <li><b>Proksimal Tüp:</b> Glikoz, vitamin ve aminoasit gibi organik besin monomerlerinin **%100'ü (tamamı) burada geri emilir**. Sağlıklı bir insanın idrarında glikoza rastlanmaz. Ayrıca su ve $Na^+$, $Cl^-$ iyonları emilir.</li>
+        <li><b>Henle Kulpu:</b> Öz bölgesine inip çıkan kulptur. **İnen kolu suya karşı geçirgendir** (su geri emilir), ancak tuzlara karşı geçirgen değildir. **Çıkan kolu ise tuzlara ($Na^+$, $Cl^-$) karşı geçirgendir**, ancak suya karşı kesinlikle <u>geçirgen değildir</u> (çıkan kolda su emilimi sıfırdır).</li>
+        <li><b>Distal Tüp:</b> Su, sodyum ve klor iyonları geri emilir. **Distal tüp hücreleri üreye karşı geçirgen değildir**, bu yüzden distal tüp boyunca üre geri emilimi yapılmaz, üre derişimi fırlar.</li>
+        <li><b>İdrar Toplama Kanalı:</b> Suyun, tuzun ve **ürenin yaklaşık %50'si** difüzyonla geri emilir. Ürenin emilmesinin sebebi, medulla bölgesinde osmotik yoğunluk kurarak suyun geri emilimini kolaylaştırmaktır.</li>
+    </ul>
+
+    <h3>C) Salgılama (Aktif Boşaltım / Sekresyon)</h3>
+    <p>Süzülme sırasında büyüklüklerinden dolayı Bowman kapsülüne geçemeyen bazı atık maddelerin (ilaç kalıntıları, boyalar, amonyak, hidrojen iyonları, potasyum iyonları, penisilin), nefron kanallarını saran kılcal damarlardan **proksimal ve distal tüp hücrelerine zorla aktif taşıma ile verilmesi** olayıdır. Salgılama sürecinde **kesinlikle ATP harcanır**.</p>
+
+    <h2>3. ÜRİNER SİSTEMİN HORMONAL KONTROLÜ</h2>
+    <p>Böbreklerden madde emilimi ve homeostazi iki büyük hormon tarafından milimetrik olarak ayarlanır:</p>
+    <ul>
+        <li><b>ADH (Vazopressin):</b> Hipofiz arka lobundan salgılanır. Nefronun distal tüp ve toplama kanallarının suya geçirgenliğini artırarak **suyun geri emilimini sağlar**. ADH eksikliğinde su emilemez, birey sıkça ve çok seyreltik idrara çıkar (Şekersiz Şeker Hastalığı - Diabetes Insipidus).</li>
+        <li><b>Aldosteron:</b> Adrenal korteksten (böbrek üstü bezi kabuğu) salgılanır. Nefron kanallarından **Sodyumun ($Na^+$) ve suyun geri emilimini artırırken, Potasyumun ($K^+$) idrarla atılmasını sağlar**. Kan basıncını ve hacmini dengeler.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sağlıklı bir insanın nefron yapısında idrar oluşumu sürecinde gerçekleşen Süzülme (filtrasyon) olayı ile ilgili; I. Glomerulus kılcallarındaki yüksek kan basıncı etkisiyle pasif olarak gerçekleşir, II. Süzülme sürecinde nefron hücreleri tarafından yoğun miktarda ATP harcanır, III. Süzüntü sıvısının içeriğinde albümin plazma proteinleri ve alyuvar hücreleri bol miktarda bulunur yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) IIve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Süzülme (filtrasyon) evresinin mekanik kurallarını inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Süzülme, iki atardamar arasında sıkışmış Glomerulus kılcallarındaki yüksek ve sabit kan basıncının itici gücüyle maddelerin Bowman kapsülüne geçmesidir. Tamamen fiziksel basınçla yürüdüğü için <b>pasif bir süreçtir</b>. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Pasif süreç olduğundan süzülme sırasında hücrelerde kesinlikle <b>ATP harcanmaz</b>. Bu yüzden ikinci öncül yanlıştır (Enerji harcanan evreler emilim ve salgılamadır).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Büyük kan hücreleri (alyuvar, akyuvar) ve dev plazma proteinleri (albümin, fibrinojen) Glomerulus gözeneklerinden geçemez. Sağlıklı bir insanın süzüntüsünde bunlara rastlanmaz. Bu yüzden üçüncü öncül de yanlıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sağlıklı bir bireyin böbreğindeki bir nefrona ait kanallarda ilerleyen süzüntü sıvısındaki glikoz ve aminoasit gibi yararlı organik monomerlerin **%100'ünün (tamamının)** geri emilerek kana geri kazandırıldığı nefron bölgesi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bowman Kapsülü</li>
+            <li>B) Proksimal Tüp</li>
+            <li>C) Henle Kulpunun İnen Kolu</li>
+            <li>D) Distal Tüp</li>
+            <li>E) İdrar Toplama Kanalı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Nefron kanallarındaki spesifik emilim bölgelerini hatırlayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bowman kapsülünde emilim olmaz, sadece süzülme olur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Henle kulpunda su ve tuz emilir. Distal tüp ve toplama kanalında su, mineral ve üre emilim dengeleri kurulur.
+            <br>• Süzüntü içindeki glikoz, vitamin ve aminoasit gibi hücrelerin asla kaybetmek istemediği değerli organik monomerlerin tamamı, Bowman kapsülünden hemen sonra gelen ilk nefron kanalı olan <b>Proksimal Tüp</b> hücreleri tarafından mikrovilluslar yardımıyla aktif taşıma yapılarak %100 oranında emilir ve kana geri verilir. Bu yüzden sağlıklı idrarda glikoz sıfırdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Nefronun Henle kulpu yapısı incelendiğinde; Henle kulpunun inen kolu ve çıkan kolunun madde geçirgenlikleri birbirinden tamamen farklıdır. Buna göre, Henle kulpunun **çıkan kolu** ile ilgili aşağıda verilen özelliklerden hangisi doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Suya karşı geçirgenliği çok yüksektir, yoğun su emilimi yapılır.</li>
+            <li>B) Ürenin %50'sinin difüzyonla emildiği yerdir.</li>
+            <li>C) Suya karşı tamamen geçirgen olmayıp, sadece tuz iyonlarının ($Na^+$ ve $Cl^-$) geri emildiği bölgedir.</li>
+            <li>D) Süzülmenin gerçekleştiği Malpighi cisimciğini oluşturur.</li>
+            <li>E) Sağlıklı insanda glikozun emildiği son kısımdır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• ÖSYM'nin Henle kulpu tuzak analizini netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Henle kulpunun **inen kolu** suya geçirgendir, su emildikçe aşağı indikçe süzüntünün yoğunluğu (ozmolaritesi) fırlar.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak Henle kulpunun **çıkan kolu suya karşı tamamen geçirgen değildir (su emilimi sıfırdır)**. Çıkan kol hücreleri sadece sodyum ($Na^+$) ve klor ($Cl^-$) iyonlarını (tuzu) pasif ve aktif taşıma ile geri emer. Tuz emilip su içeride kaldığı için yukarı çıkıldıkça süzüntünün derişimi azalır (seyrelir). Doğru tanım C seçeneğinde verilmiştir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Yoğun bir şekilde tuzlu ve baharatlı besinler tüketen, ancak yeterli miktarda su içmeyen sağlıklı bir bireyde homeostaziyi korumak amacıyla; I. Kanın osmotik basıncının artması, II. Hipofiz bezinden ADH (Antidiüretik Hormon) salgısının artması, III. Nefron distal tüp ve toplama kanallarından suyun geri emiliminin artması olaylarının gerçekleşme sırası aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) I - II - III</li>
+            <li>B) II - I - III</li>
+            <li>C) I - III - II</li>
+            <li>D) III - II - I</li>
+            <li>E) II - III - I</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Vücudun su dengesini koruma (osmoregülasyon) zincirini sıraya dizelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Tuzlu yiyip su içmeyen bireyde ilk olarak kanın mineral yoğunluğu tırmanır ve **kanın osmotik basıncı artar** (I. olay).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Hipotalamustaki osmoreseptörler kandaki bu yoğunluk artışını saptar ve hipofiz arka lobunu uyararak kanda <b>ADH hormonu salgısını fırlatır</b> (II. olay).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Kana karışan ADH böbreklere ulaşır; nefron distal tüp ve toplama kanallarının gözeneklerini açarak **suyun kana geri emilimini maksimuma çıkarır** (III. olay). Vücut suyu içeride tuttuğu için idrar az miktarda ve aşırı yoğun (hipertonik/koyu renkli) olur. Sıralama I - II - III şeklindedir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Böbrekte nefron kanallarından süzüntü ilerlerken geri emilim mekanizmasının yanında bir de kılcal damarlardan kanallara doğru **Salgılama (aktif boşaltım)** olayı gerçekleşir. Buna göre salgılama olayı ile ilgili; I. Süzülmeyle Bowman kapsülüne geçemeyen ilaç kalıntıları, zehirler ve bazı boyaların kandan uzaklaştırılmasını sağlar, II. Gerçekleşmesi sırasında taşıyıcı proteinler görev alır ve yoğun miktarda ATP harcanır, III. Sadece Henle kulpunun inen kolunda gerçekleşir yargılarından hangileri doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Salgılama (sekresyon) evresinin karakteristik özelliklerini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Salgılamanın temel amacı süzülmeyle atılamayan büyük veya kanda kalması tehlikeli olan ilaç (örn: penisilin), boya, amonyak, $H^+$ ve $K^+$ iyonlarını kandan zorla temizlemektir. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Salgılama işlemi, maddelerin az yoğun olduğu kandan çok yoğun olduğu kanal içine doğru zorla itilmesi esasına dayandığı için net bir **Aktif Taşıma** sürecidir, dolayısıyla <b>kesinlikle ATP harcanır</b> ve taşıyıcı proteinler rol alır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Salgılama olayı Henle kulpunda değil; nefronun **Proksimal ve özellikle Distal tüp** bölgelerinde yoğun olarak gerçekleştirilir. Bu yüzden üçüncü öncül yanlıştır.
+        </div>
+    </div>
+
+</body>
+</html>

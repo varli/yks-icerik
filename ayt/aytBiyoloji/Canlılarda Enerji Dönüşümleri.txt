@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 10: Canlılarda Enerji Dönüşümleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 10: CANLILARDA ENERJİ DÖNÜŞÜMLERİ</h1>
+        <p>Fotosentez ve Kemosentez Reaksiyonları, Hücresel Solunum Evreleri ve Kemoozmotik Hipotez</p>
+    </div>
+
+    <h2>1. FOTOSENTEZ MEKANİZMASI VE EVRELERİ</h2>
+    <p>Klorofil pigmenti taşıyan ototrof canlıların, ışık enerjisini kullanarak karbondioksit ($CO_2$) ve sudan ($H_2O$) organik besin (glikoz) sentezlemesi olayına <b>fotosentez</b> denir. Fotosentez ökaryotlarda kloroplast organelinde, prokaryotlarda ise sitoplazma ve hücre zarında gerçekleşir. Fotosentez iki ana evrede tamamlanır:</p>
+    
+    <h3>A) Işığa Bağımlı Reaksiyonlar (Granum / Tilakoit Zar)</h3>
+    <p>Güneş ışığının doğrudan soğurulduğu, klorofil ve ETS elemanlarının görev aldığı evredir. Bu evrede su molekülleri ışık yardımıyla parçalanır (<b>Fotoliz</b>). Fotoliz sonucu oluşan elektronlar ve protonlar ($H^+$) NADP⁺ koenzimi tarafından yakalanarak <b>NADPH</b> molekülü üretilir. Açığa çıkan oksijen ($O_2$) ise atmosfere verilir. Ayrıca ışık enerjisiyle ATP sentezi (<b>Fotofosforilasyon</b>) gerçekleştirilir. Bu evrenin tek amacı, bir sonraki evrede harcanacak olan ATP ve NADPH'ı üretmektir.</p>
+
+    <h3>B) Işıktan Bağımsız Reaksiyonlar (Stroma / Calvin Döngüsü)</h3>
+    <p>Işığın doğrudan kullanılmadığı ancak ışığa bağımlı evreden gelen ürünlere muhtaç olunduğu, enzimlerin yönettiği evredir. Karbondioksit ($CO_2$) döngüye dahil edilerek (<b>CO₂ fiksasyonu / tespiti</b>) organik besinin (PGAL ve glikoz) ana iskeletini oluşturur. Bu döngüde ışık evresinden gelen **ATP'ler harcanır (ADP olur)** ve **NADPH'lar elektron/proton vererek yükseltgenir (NADP⁺ olur)**. Sıcaklık değişimlerine karşı çok hassastır.</p>
+    <p></p>
+
+    <h2>2. KEMOSENTEZ (IŞIKSIZ ORGANİK BESİN ÜRETİMİ)</h2>
+    <p>Sadece bazı prokaryot canlıların (bakteri ve arkeler), ışık enerjisine hiç ihtiyaç duymadan, amonyak ($NH_3$), nitrit ($NO_2^-$), demir ($Fe^{2+}$) veya kükürt gibi **inorganik maddeleri oksitleyerek** elde ettikleri kimyasal enerjiyle organik besin sentezlemesi olayına <b>kemosentez</b> denir. Güneş ışığı kullanılmadığı için **gece-gündüz kesintisiz** gerçekleşebilir. Doğadaki azot döngüsünde görev alan nitrit ve nitrat bakterileri en kritik kemosentetik canlılardır.</p>
+
+    <h2>3. HÜCRESEL SOLUNUM EVRELERİ (MİTOKONDRİ İŞLEYİŞİ)</h2>
+    <p>Hücrelerin organik besin monomerlerini parçalayarak hücre için hayati olan metabolik enerjiyi (ATP) üretmesi sürecine hücresel solunum denir. En verimlisi oksijenli (aerobik) solunumdur ve dört büyük evreden oluşur:</p>
+    <p></p>
+    <ol>
+        <li><b>Glikoliz Evresi (Sitoplazma):</b> Oksijenli, oksijensiz solunum ve fermentasyonun **istisnasız tamamında ortak olan** başlangıç evresidir. 6 karbonlu glikoz, peş peşe enzimlerle parçalanarak 2 molekül 3 karbonlu <b>Pirüvat (Pirüvik asit)</b> molekülüne dönüştürülür. Başlangıçta glikozu aktifleştirmek için 2 ATP harcanır, süreçte Substrat Düzeyinde Fosforilasyon (SDF) ile 4 ATP sentezlenir (Net kazanç 2 ATP). Ayrıca 2 adet <b>NADH</b> üretilir. Tüm canlılarda sitoplazmada ortak enzimlerle yürütülür.</li>
+        <li><b>Pirüvatın Asetil-CoA'ya Dönüşümü (Mitokondri Matriksi):</b> Pirüvat mitokondri içine girer. 1 molekül $CO_2$ çıkışı olur ve 2 karbonlu Asetil-CoA (Asetil Koenzim A) oluşur. Bu esnada NADH sentezlenir. Asetil-CoA oluşumu, bir tepkimenin **oksijenli solunuma dahil olduğunun kesin kanıtıdır**.</li>
+        <li><b>Krebs Döngüsü (Sitoplazma / Mitokondri Matriksi):</b> Asetil-CoA, 4 karbonlu oksaloasetik asit ile birleşerek 6 karbonlu <b>Sitrik Asit</b>i oluşturur ve döngü başlar (Sitrik Asit Döngüsü). Döngü boyunca yoğun miktarda **CO₂ çıkışı** gerçekleşir. SDF ile ATP sentezlenir. Ayrıca elektron ve proton taşıyıcı koenzimler olan **NADH** ve bu evreye özgü olan <b>FADH₂</b> molekülleri üretilir.</li>
+        <li><b>Elektron Taşıma Sistemi — ETS (Mitokondri Kristası):</b> Solunumun en çok ATP üreten final evresidir. Önceki evrelerde üretilen tüm NADH ve FADH₂ molekülleri, taşıdıkları yüksek enerjili elektronları krista zarına dizilmiş olan ETS elemanlarına (NADH dehidrogenaz, sitokromlar vb.) bırakarak yükseltgenirler. Elektronlar ETS boyunca akarken açığa çıkan enerjiyle protonlar ($H^+$) matriks aralığından zarlar arası boşluğa pompalanır. Elektronları en sonda bekleyen **son elektron alıcısı Oksijen ($O_2$)** iyonudur. Oksijen elektron ve protonları alarak **Su ($H_2O$)** oluşturur.</li>
+    </ol>
+
+    <div class="highlight-box">
+        <strong>💡 KEMOOZMOTİK TEORİ (ATP SENTAZIN DÖNÜŞÜMÜ):</strong>
+        <br>ETS boyunca pompalanan protonlar ($H^+$), mitokondrinin zarlar arası boşluğunda aşırı birikir ve devasa bir konsantrasyon farkı (elektrokimyasal potansiyel) oluşturur. Protonlar, krista zarından matrikse geri dönebilmek için tek bir kapıya muhtaçtır: <b>ATP Sentaz Enzimi</b>. Protonlar ATP sentazın içindeki tünelden matrikse doğru akarken, enzim bir hidroelektrik santralinin türbini gibi dönerek ADP'ye fosfat ekler ve devasa miktarda ATP üretir. Bu mekanizmaya <b>Oksidatif Fosforilasyon</b> denir. (Aynı teori kloroplastın tilakoit boşluğunda fotofosforilasyon için de aynen geçerlidir).
+    </div>
+
+    <h2>4. FERMANTASYON REAKSİYONLARI</h2>
+    <p>Oksijenin kullanılmadığı, giren glikozun sadece Glikoliz evresinde parçalanıp **ETS kullanılmadan** son ürün evresiyle tamamlandığı düşük verimli enerji eldesi sürecidir. Sadece Glikoliz evresinde ATP (SDF ile 2 net) sentezlenir, son ürün evresinde kesinlikle ATP sentezi <u>yoktur</u>. Son ürün evresinin tek amacı, glikolizin durmaması için **NADH'ları yükseltgeyip NAD⁺ haline geri döndürmektir**.</p>
+    <ul>
+        <li><b>Etil Alkol Fermentasyonu:</b> Pirüvattan önce **CO₂ çıkışı** olur ve asetaldehit oluşur. Ardından asetaldehit indirgenerek <b>Etil Alkol (C₂H₅OH)</b> üretilir. (Örn: Maya mantarları, ekmek hamurunun kabarması CO₂ çıkışındandır).</li>
+        <li><b>Laktik Asit Fermentasyonu:</b> Pirüvattan CO₂ çıkışı <u>olmadan</u> doğrudan pirüvat indirgenir ve 3 karbonlu <b>Laktik Asit</b> üretilir. (Örn: Yoğurt bakterileri, çizgili kas hücrelerinde oksijen yetersizliğinde yorgunluk asidi olarak birikir).</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Kloroplast organelinde gerçekleşen Fotosentezin Işığa Bağımlı ve Işıktan Bağımsız reaksiyonları arasındaki madde transferleri incelendiğinde; Işığa bağımlı evreden, ışıktan bağımsız evreye (Calvin döngüsüne) aktarılan moleküller aşağıdakilerden hangisinde tam olarak doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) CO₂ ve NADPH</li>
+            <li>B) ATP ve O₂</li>
+            <li>C) ATP ve NADPH</li>
+            <li>D) NADP⁺ ve ADP</li>
+            <li>E) Glikoz ve ATP</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Fotosentezin iki evresi arasındaki metabolik köprüyü kuralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Tilakoit zardaki ışık evresinde, güneş enerjisi emilerek fotofosforilasyon ile **ATP** sentezlenir. Ayrıca suyun fotolizi ile protonlar NADP⁺'ye yüklenerek **NADPH** üretilir (Açığa çıkan O₂ ise Calvin'e gitmez, doğrudan atmosfere verilir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Stroma sıvısındaki Calvin döngüsünde, dışarıdan alınan CO₂ gazını sabitleyip glikoza dönüştürmek için muazzam bir enerji ve indirgeme gücü gerekir.
+            <br>• Işık evresinde üretilen <b>ATP ve NADPH</b> molekülleri doğrudan Calvin döngüsünün olduğu stroma sıvısına aktarılarak besin sentezinde harcanır. İşleri bitince yükseltgenerek ADP ve NADP⁺ halinde ışık evresine geri dönerler.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Hücresel solunum reaksiyonlarının ilk basamağı olan ve tüm canlı organizmalarda hücrenin sitoplazmasında aynı basamaklar ve ortak enzimler yardımıyla gerçekleştirilen evre aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Krebs Döngüsü</li>
+            <li>B) Glikoliz</li>
+            <li>C) Oksidatif Fosforilasyon</li>
+            <li>D) Etil Alkol Son Ürün Evresi</li>
+            <li>E) Asetil-CoA Sentezi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Biyolojinin en evrensel ve sarsılmaz ortak metabolizma bilgisini arıyoruz.
+            <br>• İster oksijenli solunum, ister oksiyensiz solunum, ister etil alkol veya laktik asit fermentasyonu olsun; dünyadaki tüm hücresel enerji eldesi yöntemleri 6 karbonlu glikozun 3 karbonlu pirüvata kadar yıkılmasıyla başlar. Bu evrensel evrenin adı <b>Glikoliz</b>'dir. Glikoliz evresinin tüm canlılarda sitoplazmada birebir aynı adımlarla ve aynı ara enzimlerle yürütülmesi, tüm canlıların ortak bir atadan geldiğinin en büyük moleküler biyolojik kanıtlarından biridir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Oksijenli solunum reaksiyonları sırasında meydana gelen; I. Karbondioksit ($CO_2$) gazının açığa çıkması, II. FADH₂ moleküllerinin sentezlenmesi, III. Substrat Düzeyinde Fosforilasyon (SDF) ile ATP üretilmesi olaylarından hangileri mitokondrinin matriks sıvısında yürütülen <b>Krebs Döngüsü (Sitrik Asit Döngüsü)</b> evresine özgüdür (burada gerçekleşir)?</div>
+        <ul class="options-list">
+            <li>A) Yalnız II</li>
+            <li>B) I ve II</li>
+            <li>C) II ve III</li>
+            <li>D) Yalnız III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Krebs döngüsündeki biyokimyasal ürünleri tek tek kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Olay: 6 karbonlu sitrik asitten 4 karbonlu oksaloasetik aside geri dönülürken tam 2 molekül **CO₂ çıkışı** bu döngüde gerçekleşir. (Ayrıca pirüvat analizinde de çıkar).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Olay: Koenzim olan FADH₂ molekülü, hücresel solunum zinciri boyunca **sadece ve sadece Krebs döngüsünde sentezlenir**. Başka hiçbir evrede FAD görev almaz. Net ayırt edicidir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Olay: Krebs döngüsünde substrat düzeyinde fosforilasyon (SDF) ile döngü başına 1 ATP (toplam 2 ATP) sentezlenir (Glikolizde de SDF vardır).
+            <br>• Sonuç olarak verilen üç olay da Krebs döngüsünde aktif olarak yürütülür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Mitchell tarafından öne sürülen Kemoozmotik Hipoteze göre, mitokondride Oksidatif Fosforilasyon ile ATP sentezlenebilmesi için, ETS elemanları üzerinden akan elektronların enerjisiyle protonlar ($H^+$) mitokondrinin hangi iki bölgesi arasında pompalanarak bir **konsantrasyon gradyanı (yoğunluk farkı)** oluşturulur?</div>
+        <ul class="options-list">
+            <li>A) Sitoplazma ile Krista zarı arasında</li>
+            <li>B) Matriks sıvısı ile Zarlar arası boşluk arasında</li>
+            <li>C) Çekirdek ile Mitokondri dış zarı arasında</li>
+            <li>D) Krista zarı ile Granum boşluğu arasında</li>
+            <li>E) Matriks sıvısı ile Sitoplazma arasında</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Kemoozmotik teorinin ne ne yöne iyon pompaladığını iyi bilmek gerekir:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Krista zarı üzerindeki ETS elemanları elektron taşırken, protonları ($H^+$ iyonlarını) iç kısımda duran **Matriks sıvısından alarak**, iç zar ile dış zar arasında kalan daracık <b>Zarlar Arası Boşluğa</b> doğru zorla (aktif olarak) pompalarlar.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Bu pompalama sonucu zarlar arası boşluk bir baraj gibi protonla dolar, pH'ı aşırı düşer (asitleşir) ve matrikse göre muazzam bir elektrik yük farkı doğar. Bu protonların matrikse geri akma gücü ATP Sentazı çalıştırır. Rota Matriks &rarr; Zarlar arası boşluk yönündedir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Çizgili kas hücrelerinde oksijen yetersizliğinde gerçekleşen Laktik Asit Fermentasyonu ile maya mantarlarında gerçekleşen Etil Alkol Fermentasyonu süreçleri karşılaştırıldığında; aşağıda verilen özelliklerden hangisi <b>etil alkol fermentasyonuna özgüdür (laktik asitte görülmez)</b>?</div>
+        <ul class="options-list">
+            <li>A) Reaksiyonların glikoliz evresi ile başlaması</li>
+            <li>B) Net 2 molekül ATP kazancının olması</li>
+            <li>C) Son ürün evresinde NADH moleküllerinin yükseltgenerek NAD⁺ haline dönmesi</li>
+            <li>D) Reaksiyonların son ürün evresinde yan ürün olarak Karbondioksit ($CO_2$) gazı açığa çıkması</li>
+            <li>E) Tepkimelerin tamamının hücre sitoplazmasında tamamlanması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İki fermentasyon türünün ortak ve farklı yönlerini ayıralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A, B, C ve E seçeneklerinde verilen özellikler (Glikolizle başlama, net 2 ATP üretme, NADH'ı yükseltgeme ve tamamen sitoplazmada gerçekleşme) iki fermentasyon için de **ortaktır**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak D seçeneğindeki durum çok kritiktir: Laktik asit fermentasyonunda 3 karbonlu pirüvattan direkt 3 karbonlu laktik asit oluşur, karbon sayısı değişmez, dolayısıyla **CO₂ çıkışı kesinlikle olmaz**. Etil alkol fermentasyonunda ise 3 karbonlu pirüvattan 2 karbonlu etil alkol oluşurken aradaki farktan dolayı dışarıya **Karbondioksit ($CO_2$) gazı açığa çıkar**. Hamurun kabarmasını veya biranın köpürmesini sağlayan bu gaz çıkışıdır ve etil alkol fermentasyonuna özgüdür.
+        </div>
+    </div>
+
+</body>
+</html>

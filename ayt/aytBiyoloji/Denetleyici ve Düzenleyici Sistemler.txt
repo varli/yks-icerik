@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 1: Denetleyici ve Düzenleyici Sistemler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 1: DENETLEYİCİ VE DÜZENLEYİCİ SİSTEMLER</h1>
+        <p>Sinir Hücresi Dinamikleri, İmpuls İletimi, Beyin Anatomisi ve Endokrin Sistem Mekanizmaları</p>
+    </div>
+
+    <h2>1. SİNİR DOKU, NÖRON YAPISI VE İMPULS İLETİMİ</h2>
+    <p>İç ve dış çevreden gelen uyarıları algılayan, değerlendiren ve bunlara uygun yanıtlar oluşturarak vücut içi dengenin (homeostazi) korunmasını sağlayan sisteme sinir sistemi denir. Sinir doku; <b>nöron (sinir hücresi)</b> ve onlara desteklik, beslenme, yalıtım sağlayan <b>glia (glia hücreleri - Schwann, oligodendrosit, astrosit, mikroglia)</b> hücrelerinden oluşur.</p>
+    <p>Bir nöron temelde üç kısımdan oluşur: Dendrit (uyarıyı alan kısa uzantılar), Hücre Gövdesi (organellerin ve çekirdeğin bulunduğu kısım) ve Akson (impulsu ileten uzun uzantı). Aksonların etrafını saran lipit kökenli **miyelin kılıf**, elektriksel yalıtım sağlayarak impuls iletimini yaklaşık 10 kat hızlandırır. Miyelin kılıfın kesintiye uğradığı noktalara **Ranvier boğumu** denir.</p>
+
+    <h3>İmpuls (Uyartı) İletim Mekanizması:</h3>
+    <p>Nöron boyunca impuls iletimi <b>elektrokimyasal</b> bir süreçtir. Bu süreçte ATP harcanır, O₂ tüketilir ve ısı açığa çıkar. Akson zarı üzerindeki elektriksel yük değişimi (aksiyon potansiyeli) üç aşamada gerçekleşir:</p>
+    <ol>
+        <li><b>Polarizasyon (Kutuplaşma - Dinlenme Hali):</b> Hücre içi negatif (-), hücre dışı pozitif (+) yüklüdür. Bu durum, aktif taşıma yapan **Sodyum-Potasyum (Na⁺/K⁺) pompası** sayesinde korunur. Hücre dışında Na⁺, hücre içinde K⁺ iyonları fazladır.</li>
+        <li><b>Depolarizasyon (Kutuplaşmanın Bozulması):</b> Uyarı eşik değeri aştığında **Na⁺ kapıları açılır** ve Na⁺ iyonları difüzyonla hücre içine fırlatılır. Hücre içi pozitif (+), hücre dışı negatif (-) yük kazanır. Aksiyon potansiyeli doğar.</li>
+        <li><b>Repolarizasyon (Yeniden Kutuplaşma):</b> Na⁺ kapıları kapanır, **K⁺ kapıları açılır**. K⁺ iyonları difüzyonla hücre dışına çıkar. Hücre içi yeniden negatif (-), hücre dışı pozitif (+) olur. Ancak iyonların yerleri başlangıcın tersidir. Daha sonra Na⁺/K⁺ pompası devreye girerek iyon dengesini polarizasyon haline döndürür.</li>
+    </ol>
+    <p></p>
+
+    <div class="highlight-box">
+        <strong>⚠️ SİNAPSLARDA İLETİM (KİMYASAL ETKİ):</strong>
+        <br>Bir nöronun akson ucu ile diğer nöronun dendriti arasındaki boşluğa <b>sinaps</b> denir. Akson boyunca elektriksel olan iletim, sinapslarda akson ucundan salınan **nörotransmitter maddeler (asetilkolin, dopamin, serotonin, adrenalin)** vasıtasıyla tamamen <b>kimyasal</b> olarak yürür. Bu yüzden sinapslarda iletim hızı, akson içindeki iletim hızından çok daha <u>yavaştır</u>.
+    </div>
+
+    <h2>2. İNSANDA SİNİR SİSTEMİNİN BÖLÜMLERİ</h2>
+    <p>İnsan sinir sistemi, Merkezi Sinir Sistemi (MSS) ve Çevresel Sinir Sistemi (ÇSS) olarak ikiye ayrılır:</p>
+    <ul>
+        <li><b>Merkezi Sinir Sistemi (MSS):</b> Beyin ve Omurilikten oluşur.
+            <br>&bull; <b>Uç Beyin (Serebrum):</b> İstemli hareketlerin kontrolü, zeka, hafıza, öğrenme, bilinç ve 5 duyu organından gelen uyarıların algılanma merkezidir.
+            <br>&bull; <b>Beyincik (Serebellum):</b> Kas koordinasyonu, hareket ve **vücut dengesinin** merkezidir. İç kulaktaki yarım daire kanalları ve gözle koordineli çalışır.
+            <br>&bull; <b>Talamus:</b> Koku duyusu hariç tüm duyuların toplandığı ve beyin kabuğuna sınıflandırılarak dağıtıldığı ana istasyondur.
+            <br>&bull; <b>Hipotalamus:</b> **Homeostazinin (iç dengenin) ana merkezidir.** Vücut sıcaklığı, susama, iştah, kan basıncı, uyku ritmi ve endokrin sistemin (hipofizin) kontrolünü sağlar.
+            <br>&bull; <b>Omurilik Soğanı:</b> Solunum, dolaşım, boşaltım gibi **hayatsal sistemlerin reaksiyon merkezidir.** Öksürme, hapşırma, yutma, kusma reflekslerini kontrol eder (Hayat düğümü).
+            <br>&bull; <b>Omurilik:</b> Alışkanlık hareketleri ve doğuştan gelen ya da sonradan kazanılan **reflekslerin ana kontrol merkezidir.** Uyarıları beyne taşır.
+        </li>
+    </ul>
+
+    <h2>3. ENDOKRİN SİSTEM (HORMONAL DÜZENLEME)</h2>
+    <p>Hormon adı verilen kimyasal habercileri doğrudan **kana salgılayan** kanalsız bezlerin oluşturduğu sisteme endokrin sistem denir. Sinir sistemine göre daha yavaş, ancak daha uzun süreli etki gösterir. Homeostazi sinir ve endokrin sistemin ortak koordinasyonuyla yürütülür.</p>
+    <p></p>
+    
+    <h3>En Kritik Endokrin Bezler ve Hormonları:</h3>
+    <ol>
+        <li><b>Hipofiz Bezi:</b> Hipotalamus tarafından denetlenir. Diğer bezleri uyaran hormonlar salgılar (TSH, ACTH, FSH, LH). Ayrıca büyümeyi sağlayan <b>STH</b>, böbreklerden su geri emilimini sağlayan <b>ADH (Vazopressin)</b> ve sütün süt kanallarına salınmasını, rahim kasılmasını sağlayan <b>Oksitosin</b> hormonlarını üretir/salgılar.</li>
+        <li><b>Tiroit Bezi:</b> Soluk borusu üzerindedir. Salgıladığı <b>Tiroksin</b> hormonu, hücrelerin metabolizma hızını ve O₂ tüketimini ayarlar (Yapısında iyot bulunur). <b>Kalsitonin</b> hormonu ise kandan kemiğe kalsiyum ($Ca^{2+}$) geçişini sağlayarak kemiği güçlendirir.</li>
+        <li><b>Paratiroit Bezi:</b> Tiroit bezinin arkasındadır. Salgıladığı <b>Parathormon</b>, kalsitoninin tam tersi (antagonist) çalışır. Kemikten kana kalsiyum geçişini sağlar, böbrek ve bağırsaklardan kalsiyum emilimini artırır.</li>
+        <li><b>Pankreas (Karma Bez):</b> Kan şekerini düzenleyen iki büyük hormon üretir:
+            <br>&bull; <b>İnsülin:</b> Kan şekerini **düşürür**. Glikozun karaciğer ve vücut hücrelerine geçerek glikojene dönüşmesini sağlar.
+            <br>&bull; <b>Glukagon:</b> Kan şekerini **artırır**. Karaciğerdeki glikojenin yıkılarak kana glikoz verilmesini tetikler.
+        </li>
+        <li><b>Böbrek Üstü Bezleri (Adrenal Bezler):</b> Kabuk (korteks) kısmından uzun süreli strese yanıt olarak **Kortizol** (kan şekerini artırır, bağışıklığı baskılar) ve böbrekten Na⁺ emilimini, K⁺ atılımını sağlayan **Aldosteron** salgılanır. Öz (medulla) kısmından ise kısa süreli tehlike anında metabolizmayı fırlatan **Adrenalin** ve Noradrenalin salgılanır.</li>
+    </ol>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bir nöronun aksonu boyunca gerçekleşen impuls iletimi sırasında; I. Na⁺ iyonlarının hücre içine difüzyonla girmesi, II. ATP harcanarak Na⁺ ve K⁺ iyonlarının yerlerinin değiştirilmesi, III. K⁺ iyonlarının hücre dışına difüzyonla çıkması olaylarının gerçekleşme sırası (aksiyon potansiyeli döngüsü) aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) I - II - III</li>
+            <li>B) I - III - II</li>
+            <li>C) II - I - III</li>
+            <li>D) III - I - II</li>
+            <li>E) II - III - I</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İmpuls iletiminin elektriksel basamaklarını kronolojik olarak inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Uyarı geldiğinde ilk olarak **Depolarizasyon** gerçekleşir. Bu aşamada Na⁺ kapıları açılır ve Na⁺ iyonları hücre içine difüzyonla girer (I. olay).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Hemen ardından **Repolarizasyon** başlar. Na⁺ kapıları kapanır, K⁺ kapıları açılır ve K⁺ iyonları hücre dışına difüzyonla kaçar (III. olay).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Repolarizasyon sonunda hücre içi negatiflik sağlansa da iyon konumları başlangıcın tersidir. Sistemin dinlenme (Polarizasyon) haline dönebilmesi için aktif taşıma yapan Na⁺/K⁺ pompası devreye girer ve ATP harcayarak iyonları yerlerine taşır (II. olay).
+            <br>• Doğru kronolojik sıralama I - III - II şeklinde gerçekleşir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Trafik kazası geçiren bir bireyde yapılan muayenede; bireyin gözleriyle bir nesneyi takip edebildiği ve sorulara mantıklı cevaplar verebildiği, ancak düz bir çizgi üzerinde yürümekte zorlandığı ve dengesini kaybettiği gözlenmiştir. Buna göre, kazada bu bireyin merkezi sinir sistemine ait hangi yapısı hasar görmüş olabilir?</div>
+        <ul class="options-list">
+            <li>A) Uç Beyin</li>
+            <li>B) Talamus</li>
+            <li>C) Hipotalamus</li>
+            <li>D) Beyincik</li>
+            <li>E) Omurilik Soğanı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hastanın klinik tablosundaki işlevleri beyin bölgeleriyle eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sorulara mantıklı cevap vermesi ve istemli göz takibi yapabilmesi **Uç Beyin (Serebrum)** fonksiyonlarının sağlam olduğunu gösterir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak hastanın temel şikayeti düz çizgide yürüyememek ve **vücut dengesini kuramamaktır**.
+            <br>• İnsanda çizgili kasların birbiriyle koordineli çalışmasını, hareketin pürüzsüzlüğünü ve iç kulaktan gelen verilerle vücut dengesinin milimetrik olarak korunmasını sağlayan ana merkez <b>Beyincik (Serebellum)</b>'tir. Alkol alan insanların da ilk olarak beyincik fonksiyonları baskılandığı için yalpalayarak yürürler.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir insanın vücudunda kalsiyum ($Ca^{2+}$) homeostazisinin bozulduğu, kemiklerinin zayıflayıp eridiği ve kanındaki kalsiyum seviyesinin normalin çok üzerine çıktığı saptanmıştır. Buna göre, bu bireyde hangi endokrin bezin aşırı aktif (hiperfonksiyonel) çalışması bu duruma yol açmış olabilir?</div>
+        <ul class="options-list">
+            <li>A) Tiroit Bezi</li>
+            <li>B) Paratiroit Bezi</li>
+            <li>C) Pankreas</li>
+            <li>D) Hipofiz Arka Lobu</li>
+            <li>E) Adrenal Korteks</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Vücutta kalsiyum dengesini zıt çalışan iki hormon yönetir: Tiroit bezinden salgılanan Kalsitonin (kandan kemiğe kalsiyum geçirir) ve Paratiroit bezinden salgılanan Parathormon (kemikten kana kalsiyum geçirir).
+            <br>• Hastanın durumunda kemikler erimekte (kalsiyum kaybetmekte) ve kan kalsiyumu aşırı yükselmektedir.
+            <br>• Demek ki kemikten kana kontrolsüz kalsiyum geçişini tetikleyen hormon yani <b>Parathormon</b> kanda aşırı miktarda bulunmaktadır. Bu hormonu salgılayan yapı ise <b>Paratiroit Bezi</b>'dir. Bu bezin tümör veya hiperplazi nedeniyle aşırı çalışması kemik erimesine ve hiperkalsemiye yol açar.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Endokrin sistemde hormon salgısının kontrol edilmesini sağlayan geri bildirim (feedback) mekanizması ile ilgili; TSH ve Tiroksin hormonları arasındaki ilişki incelendiğinde, kanda Tiroksin hormonu miktarının aşırı artması durumunda hipofiz bezi ve hipotalamusta nasıl bir değişim gözlenir?</div>
+        <ul class="options-list">
+            <li>A) Hipofizden TSH salgısı artar, hipotalamus uyarılır.</li>
+            <li>B) Hipofizden TSH salgısı azalır (Negatif Feedback).</li>
+            <li>C) Hipotalamustan TRH salgısı artar, tiroit büyür.</li>
+            <li>D) Feedback mekanizması çalışmaz, hormon birikir.</li>
+            <li>E) İnsülin salgısı tetiklenir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Hormonların kanda belirli bir seviyede (homeostazi) tutulması negatif geri bildirim döngüsü ile yürütülür.
+            <br>• Hipotalamus TRH ile hipofizi uyarır, hipofiz TSH salgılar, TSH ise tiroit bezinden Tiroksin üretimini tetikler.
+            <br>• Kanda Tiroksin seviyesi hedef sınırı aşıp çok yükseldiğinde, bu yüksek miktar kan yoluyla üst merkezler olan hipotalamus ve hipofiz bezine ulaşır ve onları baskılar.
+            <br>• Bu baskılama sonucunda hipofiz bezi TSH salgısını **azaltır (Negatif Feedback)**. TSH azalınca tiroit bezi yavaşlar ve Tiroksin üretimi durdurularak dengeye gelinir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Bir sinir hücresinde (nöron) uyarı şiddetinin artırılması (örneğin sıcaklığın 20°C'den 80°C'ye çıkarılması), o nöronda aşağıda verilen niceliklerden hangisinin değişmesine (artmasına) neden <b>olmaz</b>?</div>
+        <ul class="options-list">
+            <li>A) Birim zamanda oluşan impuls sayısı</li>
+            <li>B) İmpulsun akson boyundaki iletim hızı</li>
+            <li>C) Tepki organının (efektör) gösterdiği tepkinin derecesi</li>
+            <li>D) Harcanan ATP ve tüketilen oksijen miktarı</li>
+            <li>E) Sinapslardan salınan nörotransmitter madde miktarı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• ÖSYM'nin her yıl biyoloji testinde sormayı çok sevdiği en sarsılmaz temel kural şudur: **Bir nöronda uyarı şiddeti, uyarı süresi veya uyarı frekansı ne kadar artarsa artsın, oluşan tek bir impulsun (aksiyon potansiyelinin) hızı ve büyüklüğü kesinlikle DEĞİŞMEZ.** (Ya hep ya hiç prensibi). İmpuls iletim hızı sadece miyelin kılıf varlığına, akson çapına ve sıcaklığa bağlıdır.
+            <br>• Uyarı şiddeti arttığında nöronda birim zamandaki **impuls sayısı (frekansı) artar**, harcanan enerji katlanır, sinapslardan daha çok kimyasal salınır ve beyin uyarının şiddetini algılayarak daha büyük bir kas tepkisi (C şıkkı) verir. Ancak hız sabit kalır.
+        </div>
+    </div>
+
+</body>
+</html>

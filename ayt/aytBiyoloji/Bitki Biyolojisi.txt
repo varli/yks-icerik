@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Biyoloji - Ünite 11: Bitki Biyolojisi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm 15mm 20mm 15mm;
+            background-color: #fafdfb;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1c2821; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; }
+        .header-banner { background-color: #1b4d3e; color: #ffffff; padding: 30px 20px; margin-bottom: 25px; border-radius: 4px; text-align: center; }
+        .header-banner h1 { margin: 0; font-size: 22pt; font-weight: bold; }
+        .header-banner p { margin: 5px 0 0 0; font-size: 11pt; color: #a3e2c9; }
+        h2 { color: #1b4d3e; font-size: 15pt; border-left: 5px solid #2e8b57; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #2c6b56; font-size: 12.5pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .highlight-box { background-color: #eaf6ee; border-left: 4px solid #2e8b57; padding: 15px; margin: 18px 0; border-radius: 0 4px 4px 0; }
+        .tip-box { background-color: #f4faf6; border: 1px solid #d2ecd9; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .question-block { background-color: #ffffff; border: 1px solid #d2ecd9; padding: 18px; margin: 25px 0; border-radius: 6px; page-break-inside: avoid; }
+        .question-title { font-weight: bold; color: #1b4d3e; margin-bottom: 12px; text-indent: 0; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 6px; }
+        .solution-box { background-color: #f0fff4; border-left: 4px solid #38a169; padding: 12px 15px; font-size: 10.5pt; color: #22543d; margin-top: 10px; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #2c6b56; color: #ffffff; font-weight: bold; text-align: left; padding: 10px 14px; font-size: 10.5pt; border: 1px solid #2c6b56; }
+        td { padding: 10px 14px; border: 1px solid #d2ecd9; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT BİYOLOJİ - MODÜL 11: BİTKİ BİYOLOJİSİ</h1>
+        <p>Bitkisel Dokular, Anatomik Yapılar, Madde Taşınması, Stoma Fizyolojisi ve Üreme Mekanizmaları</p>
+    </div>
+
+    <h2>1. BİTKİSEL DOKULARIN SINIFLANDIRILMASI</h2>
+    <p>Bitkisel dokular üstlendikleri görevlere ve bölünme yeteneklerine göre bölünür (meristem) doku ve bölünmez doku olmak üzere ikiye ayrılır:</p>
+    <ul>
+        <li><b>Meristem (Büyüme) Doku:</b> Sürekli bölünme yeteneğine sahip, canlı, bol sitoplazmalı, büyük çekirdekli, ince çeperli ve kofulsuz/küçük koful taşıyan hücrelerden oluşur. Kök ve gövde büyüme uçlarındaki boyuna büyümeyi sağlayan türe <b>Primer (Birincil) Meristem</b>; odunsu bitkilerde enine kalınlaşmayı ve yaş halkalarını (kambiyum) oluşturan türe ise <b>Sekonder (Ikincil) Meristem</b> denir.</li>
+        <li><b>Örtü Doku:</b> Bitkiyi dıştan saran koruyucu katmandır. Otsu kısımlarda tek katlı canlı hücrelerden oluşan <b>Epidermis</b> yer alır. Epidermis hücrelerinde kloroplast bulunmaz, fotosentez yapamazlar. Epidermis hücrelerinin farklılaşmasıyla terleme ve gaz alışverişini yöneten <b>Stomalar (Gözenekler)</b>, su damlatmayı sağlayan <b>Hidatotlar</b>, tüyler ve emergensler (dikenler) oluşur. Odunsu gövdelerde koruyucu doku ölü hücrelerden oluşan <b>Periderm (Mantar doku)</b> tabakasına dönüşür. Periderm üzerindeki gaz alışveriş deliklerine <b>Lentisel (Mantar delmeç)</b> denir (Lentiseller ölüdür, açılıp kapanamaz).</li>
+        <li><b>İletim Doku:</b> Bitki içi uzun mesafe lojistik ağıdır:
+            <br>&bull; <b>Ksilem (Odun Boruları):</b> Tamamı **ölü (cansız)** hücrelerden oluşur. Kökten yapraklara doğru **su ve mineral maddeleri tek yönlü ve çok hızlı** taşır. Taşıma tamamen fiziksel kuvvetlerle yürür, ATP harcanmaz.
+            <br>&bull; <b>Floem (Soymuk Boruları):</b> Kalburlu hücreler ve arkadaş hücrelerinden oluşan **canlı** bir dokudur. Yapraklarda üretilen **organik besinleri (sukroz, aminoasit) köklere, köklerde üretilen aminoasitleri yukarıya çift yönlü ve yavaş** taşır. Hücreleri canlı olduğundan taşıma sırasında ATP harcanır.
+        </li>
+    </ul>
+
+    <h2>2. STOMALARIN AÇILIP KAPANMA MEKANİZMASI</h2>
+    <p>Stomalar, kloroplast taşıyan iki adet canlı <b>bekçi (kilit) hücresi</b> ve aralarındaki stoma açıklığından oluşur. Bekçi hücrelerinin iç çeperleri (stoma açıklığına bakan çeper) kalın, dış çeperleri ise incedir. Çeper kalınlık farkı ve turgor basıncı değişimleri stomanın açılıp kapanmasını kontrol eder:</p>
+    
+    <div class="highlight-box">
+        <strong>☀️ STOMANIN GÜNDÜZ AÇILMA EVRESİ (TURGOR ARTIŞI):</strong>
+        <br>Gündüz bekçi hücrelerinde fotosentez başlar, glikoz miktarı artar. Komşu epidermis hücrelerinden bekçi hücrelerine doğru **aktif taşıma ile Potasyum ($K^+$) iyonları pompalanır**. Hücre içi glikoz ve potasyum artışı bekçi hücrelerinin osmotik basıncını fırlatır. Ozmotik basınç artınca, komşu hücrelerden bekçi hücrelerine doğru **difüzyonla su girer**. Su giren bekçi hücrelerinin <b>turgor basıncı artar</b>. Ince olan dış çeperler dışa doğru esner, kalın olan iç çeperler gerilir ve stoma açıklığı ardına kadar açılır.
+        <br><i>Geceleri ve kuraklıkta (Absisik asit hormonu etkisiyle) ise tam tersi olur:</i> İyonlar ve glikoz hücreyi terk eder, su dışarı kaçar, turgor basıncı düşer ve stoma kapanır.
+    </div>
+
+    <h2>3. BİTKİLERDE SU VE ORGANİK MADDE TAŞINMASI</h2>
+    <h3>A) Ksilemde Su Taşınmasını Sağlayan Kuvvetler</h3>
+    <p>Topraktaki suyun ksilem borularıyla onlarca metre yukarıdaki yapraklara taşınması üç ana fiziksel kuvvete dayanır:</p>
+    <ol>
+        <li><b>Terleme - Çekim Teorisi (En Güçlü Kuvvet):</b> Yapraklardaki stomalardan su buharlaştıkça (terleme), yaprak hücrelerinin osmotik basıncı fırlatır. Bu durum ksilem borularında muazzam bir negatif çekme kuvveti (vakum) yaratır. Su molekülleri arasındaki **Hidrojen bağları (Kohezyon kuvveti)** ve suyun boru çeperine tutunma gücü (**Adhezyon kuvveti**) sayesinde kopmayan dev bir su sütunu yukarı doğru çekilir.</li>
+        <li><b>Kök Basıncı:</b> Kök emici tüylerindeki osmotik yoğunluğun topraktan fazla olması nedeniyle emilen suyun ksileme girerek oluşturduğu itme (hidrostatik) kuvvetidir. Havanın neme doygun olduğu geceleri terleme durduğunda kök basıncı baskın gelir ve su yaprak kenarlarındaki hidatotlardan damlalar halinde dışarı atılır (<b>Damlama / Gutasyon</b>).</li>
+        <li><b>Kılcallık:</b> Ksilem borularının çok ince olması sayesinde suyun adhezyon kuvvetiyle çeperlere tutunarak birkaç santim kendiliğinden yükselmesidir. En zayıf etkendir.</li>
+    </ol>
+
+    <h3>B) Floemde Organik Madde Taşınması (Basınç - Akış Teorisi)</h3>
+    <p>Organik besinlerin floemde taşınması Münch tarafından öne sürülen <b>Basınç-Akış Teorisi</b> ile açıklanır. Besinin üretildiği yere (yaprak fotosentez hücreleri) <b>Kaynak (Source)</b>, besinin tüketildiği veya depolandığı yere (kök, meyve) <b>Havuz (Sink)</b> denir:</p>
+    <p style="text-align: center; font-weight: bold; margin: 10px 0; font-size: 10.5pt;">
+        Kaynak hücreden floeme organik madde yüklenir (ATP harcanır) &rarr; Floemin ozmotik basıncı artar &rarr; Komşu ksilemden floeme su girer &rarr; Floem içi hidrostatik basınç fırlatır &rarr; Sıvı yüksek basınçtan düşük basınçlı havuz hücrelerine doğru akar &rarr; Havuzda besin boşaltılır &rarr; Floem osmotik basıncı düşer &rarr; Su tekrar ksileme geri döner.
+    </p>
+
+    <h2>4. ÇİÇEKLİ BİTKİLERDE ÜREME VE ÇİFT DÖLLENME</h2>
+    <p>Kapalı tohumlu bitkilerin üreme organı çiçektir. Çiçekte erkek organdaki polen oluşumu ve dişi organdaki embriyo kesesi oluşumu mayoz ve peş peşe **Mitoz (Endomitoz)** bölünmelerle yürütülür:</p>
+    <ul>
+        <li><b>Polen Oluşumu (Erkek):</b> Mikrospor ana hücresi mayoz geçirerek 4 mikrospor oluşturur. Her mikrospor çekirdeği mitoz (karyokinez) geçirerek iki çekirdekli poleni oluşturur: Tüp çekirdeği (polen tüpünü açar) ve Üretken (generatif) çekirdek (spermleri üretecektir).</li>
+        <li><b>Embriyo Kesesi Oluşumu (Dişi):</b> Makrospor ana hücresi mayoz geçirir, 3'ü erir 1'i kalır (megaspor). Kalan megaspor çekirdeği **ardışık 3 mitoz** geçirerek toplam 8 çekirdekli embriyo kesesini oluşturur (3 antipod, 2 polar, 2 sinerjit ve 1 ana yumurta çekirdeği).</li>
+    </ul>
+    <p><b>Çift Döllenme (Double Fertilization) Mekanizması:</b> Tozlaşma sonrası polen tüpünde ilerleyen generatif çekirdek mitozla 2 adet sperm çekirdeği oluşturur. Bu iki sperm embriyo kesesine girerek iki farklı döllenme yapar (Bu yüzden çift döllenme denir):</p>
+    <p style="text-align: center; font-weight: bold; margin: 8px 0; font-size: 11pt;">
+        1. Sperm (n) + Yumurta (n) &rarr; Zigot (2n) &rarr; Embriyo
+        <br>2. Sperm (n) + Polar Çekirdekler (2n) &rarr; Triploit Çekirdek (3n) &rarr; <b>Endosperma (Besi Doku - 3n)</b>
+    </p>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bitkisel iletim dokusunu oluşturan Ksilem (odun boruları) ve Floem (soymuk boruları) dokularının yapısal ve fizyolojik özellikleri karşılaştırıldığında, aşağıda verilen özelliklerden hangisi <b>sadece Ksilem dokusuna özgüdür</b>?</div>
+        <ul class="options-list">
+            <li>A) Hücrelerinin sitoplazma ve çekirdek taşıyan canlı yapıda olması</li>
+            <li>B) Taşınma sürecinde hücresel ATP harcanması</li>
+            <li>C) Organik maddelerin çift yönlü olarak yavaş taşınması</li>
+            <li>D) Hücre çeperlerinin tamamen erimesiyle oluşan, linyin birikmiş ölü ve kesintisiz borulardan oluşması</li>
+            <li>E) Hücreler arasında kalburlu plak yapılarının bulunması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• İki büyük iletim dokusunun ayırt edici histolojik özelliklerini inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - A, B, C ve E seçeneklerinde listelenen özellikler (canlı hücre yapısı, arkadaş hücreleri, kalburlu plaklar, çift yönlü taşıma ve aktif taşıma/ATP harcanması) tamamen **Floem (soymuk boruları)** dokusuna aittir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - D seçeneğinde verilen özellik ise tamamen <b>Ksilem (odun boruları)</b> dokusunun tanımıdır. Ksilem hücreleri (trake ve trakeidler) olgunlaştıkça tüm sitoplazma ve çekirdeklerini kaybederek ölürler. Hücrelerin enine çeperleri tamamen eriyerek boyuna kesintisiz kılcal kılcal odun boruları oluşur ve çeperlere mekanik dayanıklılık veren linyin maddesi birikir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sıcak ve kurak bir yaz gününde, toprağında yeterli su bulunmayan bir odunsu bitkinin yapraklarındaki stoma (gözenek) hücrelerinin **kapanma** sürecinde, bekçi hücrelerinde ve çevre dokularda hangi biyokimyasal ve turgor değişimi gerçekleşir?</div>
+        <ul class="options-list">
+            <li>A) Bekçi hücrelerine komşu epidermis hücrelerinden aktif taşıma ile yoğun Potasyum ($K^+$) girişi olur.</li>
+            <li>B) Bekçi hücrelerinin içindeki glikoz miktarı ve osmotik basınç aniden fırlar.</li>
+            <li>C) Kuraklık stresi altındaki yapraklarda Absisik Asit (ABA) hormonu salgılanarak bekçi hücrelerinden su çıkışı ve turgor düşmesi tetiklenir.</li>
+            <li>D) Bekçi hücrelerine su girişi artar, turgor basıncı tepe yapar.</li>
+            <li>E) Karbondioksit fiksasyonu hızlanır, stoma çeperleri gevşer.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Stomaların kapanma fizyolojisini ve stres kontrolünü inceleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Stomanın kapanabilmesi için bekçi hücrelerindeki suyun dışarı kaçması ve turgor basıncının düşmesi (hücrelerin sönmesi) gerekir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bitki kuraklık stresi ve su eksikliği yaşadığında, yapraklarda bitki koruma hormonu olan <b>Absisik Asit (ABA)</b> üretimi tavan yapar. ABA hormonu bekçi hücrelerinin zarlarındaki kanalları uyararak hücre içindeki Potasyum ($K^+$) ve diğer iyonların hızla komşu hücrelere kaçmasını sağlar. İçeride yoğunluk azalınca su da osmoz kurallarıyla dışarı kaçar. Suyunu kaybeden bekçi hücrelerinin <b>turgor basıncı hızla düşer</b>, hücreler pörsir ve stoma açıklığı sımsıkı kapanarak su kaybı önlenir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Ksilemde suyun köklerden yapraklara doğru onlarca metre boyunca kopmadan yükselmesini sağlayan Terleme-Çekim teorisinin temelinde; su moleküllerinin kendi aralarında kurduğu hidrojen bağlarından doğan çekim kuvveti ile su moleküllerinin ksilem çeperlerindeki selüloz moleküllerine tutunma gücü yer alır. Bu iki fiziksel kuvvet sırasıyla aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Adhezyon - Kohezyon</li>
+            <li>B) Kohezyon - Adhezyon</li>
+            <li>C) Kılcallık - Kök Basıncı</li>
+            <li>D) Gutasyon - Aktif Taşıma</li>
+            <li>E) Osmotik Basınç - Turgor Basıncı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Terleme-çekim teorisindeki fiziksel sıvı kuvvetlerinin tanımlarını yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Aynı cins moleküllerin (burada su moleküllerinin) kendi aralarında kurdukları hidrojen bağları sayesinde birbirini sımsıkı tutması ve kopmayan bir sütun oluşturması kuvvetine <b>Kohezyon (Cohesion)</b> denir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Farklı cins moleküllerin (su moleküllerinin borunun selüloz çeperine) birbirine tutunması, yapışması kuvvetine ise <b>Adhezyon (Adhesion)</b> denir.
+            <br>• Soruda sırasıyla su-su bağı ve su-çeper bağı sorulduğu için doğru eşleştirme Kohezyon - Adhezyon şeklinde kurulmalıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Floemde organik madde taşınmasını açıklayan Basınç-Akış (Münch) teorisine göre; yaprak fotosentez hücreleri gibi organik besinin üretildiği **Kaynak (Source) hücreden** kalburlu borulara aktif taşıma ile yoğun sakkaroz (şeker) yüklendiğinde floem borularında sırasıyla hangi değişimler yaşanır?</div>
+        <ul class="options-list">
+            <li>A) Osmotik basınç düşer &rarr; Ksileme su verilir &rarr; Hidrostatik basınç azalır</li>
+            <li>B) Osmotik basınç artar &rarr; Ksilemden su çekilir &rarr; Hidrostatik basınç fırlar &rarr; Kütle akışı başlar</li>
+            <li>C) Turgor basıncı düşer &rarr; Besin çökelir &rarr; Taşıma durur</li>
+            <li>D) Lentiseller açılır &rarr; Su buharlaşır &rarr; Kök basıncı düşer</li>
+            <li>E) Hücreler öler &rarr; Ksileme dönüşür</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Basınç-Akış teorisinin kaynak hücre yükleme mekanizmasını işletelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Kaynak hücreden kalburlu borulara şeker pompalandığında, o bölgedeki floem sıvısının çözünen madde yoğunluğu fırlar, yani **Osmotik Basıncı (OB) artar**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Osmotik emme gücü artan floem borusu, hemen yanı başında duran ksilem (odun borusu) sütunundan difüzyonla **su çekmeye başlar**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3) Dar borunun içine yoğun su girişi olunca, borunun çeperlerine yapılan sıvı basıncı yani **Hidrostatik Basınç fırlar**.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 4) Oluşan bu devasa basınç farkı, floem sıvısını yüksek basınçlı kaynak bölgesinden, düşük basınçlı havuz (kök/meyve) bölgesine doğru bir nehir gibi akıtır (Kütle akışı). Doğru şık B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kapalı tohumlu bir çiçekli bitkinin çift döllenme (double fertilization) süreci incelendiğinde; embriyo kesesine giren 1. sperm çekirdeği (n) ile yumurta hücresinin (n) birleşmesi sonucu X yapısı; 2. sperm çekirdeği (n) ile iki adet polar çekirdeğin (2n) birleşmesi sonucu Y yapısı oluşur. Buna göre X ve Y yapılarının isimleri ve kromozom sayıları aşağıdakilerden hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) X: Endosperma (2n) &nbsp; | &nbsp; Y: Zigot (3n)</li>
+            <li>B) X: Zigot (2n) &nbsp; | &nbsp; Y: Sinerjit (n)</li>
+            <li>C) X: Zigot (2n) &nbsp; | &nbsp; Y: Endosperma (Besi Doku - 3n)</li>
+            <li>D) X: Antipod (3n) &nbsp; | &nbsp; Y: Embriyo (2n)</li>
+            <li>E) X: Polen (n) &nbsp; | &nbsp; Y: Tohum kabuğu (2n)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Geniş Çözüm Analizi:</b> 
+            <br>• Çiçekli bitkilerin en karizmatik özelliği olan Çift Döllenme denklemini kuralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 1. Döllenme: n kromozomlu sperm ile n kromozomlu ana yumurta hücresi birleşir. Sonuçta 2n kromozomlu **Zigot (X yapısı)** oluşur. Zigot daha sonra mitozlarla büyüyerek bitki taslağı olan embriyoyu meydana getirir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 2. Döllenme: n kromozomlu diğer sperm çekirdeği, embriyo kesesinin merkezinde duran iki adet polar çekirdeğin (n+n=2n) birleşimiyle oluşan yapıya saldırır. $n + 2n = 3n$ kromozomlu triploit çekirdek doğar. Bu yapı mitoz bölünmelerle gelişerek tohumun içindeki embriyoyu besleyecek olan unlu/yağlı katman olan <b>Endospermayı (Besi Doku - Y yapısı - 3n)</b> oluşturur. Doğru eşleşme C seçeneğindedir.
+        </div>
+    </div>
+
+</body>
+</html>
