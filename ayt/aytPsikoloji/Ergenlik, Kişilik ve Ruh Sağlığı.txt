@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Psikoloji - Modül 3: Ergenlik, Kişilik ve Ruh Sağlığı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fbfbfe;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fbfbfe; }
+        .header-banner { background: linear-gradient(135deg, #4c1d95, #6d28d9); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ddd6fe; font-style: italic; }
+        h2 { color: #4c1d95; font-size: 16pt; border-left: 6px solid #8b5cf6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #6d28d9; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f5f3ff; border: 1px dashed #a78bfa; border-left: 5px solid #7c3aed; padding: 15px; margin: 18px 0; border-radius: 4px; color: #4c1d95; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #4c1d95; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #4c1d95; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #4c1d95; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT PSİKOLOJİ - MODÜL 3: ERGENLİK, KİŞİLİK VE RUH SAĞLIĞI</h1>
+        <p>"Zihnin Savunma Kalkanları: Freud'un Yapısal Kuramı, Psikolojik Uyum Mekanizmaları ve Gelişim Krizleri"</p>
+    </div>
+
+    <h2>1. HAYATIN FIRTINASI: ERGENLİK DÖNEMİ VE GELİŞİM GÖREVLERİ</h2>
+    <p>Çocukluktan yetişkinliğe geçiş evresi olan <b>ergenlik dönemi</b> (12-20 yaş), organizmanın hem fizyolojik hem de psiko-sosyal yönden en radikal dönüşüm yaşadığı kriz evresidir. 
+    <br>&bull; <b>Fizyolojik Değişim:</b> Hormonal patlamalarla ikincil cinsiyet özellikleri gelişir, büyüme hızlanır. Beden yapısındaki bu hızlı değişim ergende sakarlık ve beden imajı kaygısı doğurur.
+    <br>&bull; <b>Psiko-Sosyal Kriz (Erikson):</b> Ergenliğin temel gelişim görevi <b>Kimlik Kazanmaya Karşı Rol Karmaşası</b>'dır. Ergen *"Ben kimim, hayattaki amacım ne?"* sorularının peşine düşer. Akran gruplarının (arkadaşların) onayı aileden daha önemli hale gelir. <b>Benmerkezcilik (Egosantrizm)</b> tavan yapar; ergen herkesin sürekli kendisini izlediğini sanır (Hayali Seyirci) ve kendi başına hiçbir şey gelmeyeceğine inanır (Kişisel Efsane).</p>
+
+    <h2>2. FREUD'UN KİŞİLİK YAPISI: İD, EGO VE SUPEREGO</h2>
+    <p>Sigmund Freud'a göre insan kişiliği tek bir parça değildir; birbiriyle sürekli çatışma veya uzlaşma halinde olan 3 katmandan oluşur. ÖSYM bu mekanizmayı doğrudan sorgular:</p>
+
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kişilik Katmanı</th>
+                <th>Çalışma Prensibi ve Karakteri</th>
+                <th>Zihindeki Sloganı ve İşlevi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>İD (Alt Benlik)</b></td>
+                <td>Doğuştan gelir. İlkel, bencil ve hayvansal yönümüzdür. Cinsellik ve saldırganlık dürtülerinin merkezidir. Zaman, mekân veya ahlak tanımaz. **Haz İlkesi** ile çalışır. Arzusunun derhal tatmin edilmesini ister.</td>
+                <td>*"Hemen şimdi istiyorum!"*</td>
+            </tr>
+            <tr>
+                <td><b>SUPEREGO (Üst Benlik)</b></td>
+                <td>Toplum, aile, ahlak ve din kurallarının içselleştirilmiş halidir. Kişiliğin vicdan, ahlak ve kurallar mekanizmasıdır. İd'in tüm hayvansal isteklerini bastırmaya çalışır, insanı kusursuz ve suçluluk duyan bir varlık yapmayı hedefler.</td>
+                <td>*"Asla yapmamalısın, ayıp/günah!"*</td>
+            </tr>
+            <tr>
+                <td><b>EGO (Benlik)</b></td>
+                <td>Kişiliğin mantıklı, rasyonel ve yürütme organıdır. İd'in bitmek bilmeyen arzuları ile Superego'nun katı ahlak kuralları arasında **dengeyi kuran hakemdir**. **Gerçeklik İlkesi** ile çalışır. İd'in isteklerini toplumsal gerçekliğe uydurarak erteler veya meşru yolla doyurur.</td>
+                <td>*"Gerçekçi ve dengeli olalım."*</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. RUH SAĞLIĞI VE ZİHNİN DEFANSLARI: SAVUNMA MEKANİZMALARI</h2>
+    <p>İd ile Superego arasındaki çatışma aşırı büyüdüğünde ve Ego dengeyi kuramadığında, bireyde yoğun bir **Kaygı (Anksiyete)** baş gösterir. Ego, ruh sağlığını çöküşten kurtarmak, o ağır stresten sıyrılmak amacıyla bilinçdışı olarak **Ego Savunma Mekanizmaları** üretir. ÖSYM her yıl buradan bir vaka paragrafı sorar:</p>
+
+    <div class="memory-box">
+        <strong>👑 EN SEÇİCİ SAVUNMA MEKANİZMALARI VE GÜNLÜK VAKALAR:</strong>
+        <br>&bull; <b>1. Mantığa Bürümek (Rasyonalizasyon / Bahanecilik):</b> Kabul edilemez bir başarısızlığa veya hataya, toplumsal olarak kabul edilebilir akla uygun yapay bahaneler bulmaktır. (Örn: Sınavdan sıfır alan öğrencinin "Zaten hoca da takıktı bana" demesi veya ciğere uzanamayan kedinin "Zaten pisti" demesi).
+        <br>&bull; <b>2. Yansıtma (Projeksiyon):</b> Bireyin kendisinde bulunan kötü bir özelliği, hatayı veya suçluluk duygusunu başkalarına yüklemesidir. (Örn: Kendisi aşırı kıskanç ve sadakatsiz olan birinin, eşini sürekli kendisini aldatmakla suçlaması).
+        <br>&bull; <b>3. Karşıt Tepki Geliştirme:</b> Bireyin hissettiği asıl duygunun tam **tersi** yönünde abartılı davranışlar sergilemesidir. (Örn: İçten içe nefret ettiği ve kıskandığı iş arkadaşına aşırı sevgi gösterilerinde bulunup hediyeler boğması).
+        <br>&bull; <b>4. Yüceltme (Süblimasyon):</b> Toplumun kabul etmediği ilkel bir dürtünün (saldırganlık veya cinsellik), toplumun alkışladığı faydalı bir alana kanalize edilmesidir. **En sağlıklı savunma mekanizmasıdır.** (Örn: Aşırı saldırganlık dürtüsü olan birinin boksör veya cerrah olması).
+        <br>&bull; <b>5. Ödünleme (Telafi):</b> Bireyin başarısız ve zayıf olduğu bir alanı, başka bir alanda devasa başarılar kazanarak kapatmaya çalışmasıdır. (Örn: Derslerinde başarısız olan bir öğrencinin okulun en iyi basketbolcusu olarak parlaması).
+        <br>&bull; <b>6. Yer Değiştirme:</b> Bireyin gücünün yetmediği asıl hedef yerine, hıncını ve öfkesini gücünün yettiği zararsız bir nesneden veya kişiden çıkarmasıdır. (Örn: Müdüründen azar işiten memurun eve gelip eşine veya kapıyı tırmalayan kedisine bağırması).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 15 yaşındaki bir ergen, sabah aynaya baktığında yüzünde çıkan küçük bir sivilce yüzünden o gün okula gitmek istememiş, "Okuldaki herkes sadece benim yüzüme bakacak ve benimle dalga geçecek" diyerek ağlamıştır. 
+        <br>Ergenlik psikolojisine göre, bu gencin sergilediği bu aşırı hassasiyet ve odaklanma durumu, aşağıdaki **benmerkezci (egosantrik) kavramlardan hangisiyle doğrudan açıklanır**?</div>
+        <ul class="options-list">
+            <li>A) Kişisel Efsane</li>
+            <li>B) Hayali Seyirci</li>
+            <li>C) Rol Karmaşası</li>
+            <li>D) Cinsel Özdeşim</li>
+            <li>E) Akran Dayanışması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Ergen benmerkezciliğinin alt kırılımlarını tahlil edelim. Ergenlik döneminde birey, dünyanın merkezinde kendisinin olduğunu düşünür.
+            <br>• Çevresindeki tüm insanların (arkadaşlarının, öğretmenlerinin) her an, her saniye kendisini izlediğini, onun kıyafetini, saçını, sivilcesini incelediğini sanır. Psikolojide bu duruma <b>Hayali Seyirci</b> adı verilir. Gencin sivilce yüzünden herkesin kendisiyle dalga geçeceğini sanması hayali bir seyirci kitlesi yarattığının kanıtıdır. Kişisel efsane ise "bana hiçbir şey olmaz" inancıdır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Çok sevdiği ve evlilik hazırlığı yaptığı nişanlısı tarafından aniden terk edilen bir birey, bu ağır ayrılık travmasının yarattığı devasa suçluluk, öfke ve acı duygusuyla baş edememiş; süreç ilerledikçe nişanlısının ismini, onunla geçirdiği o son haftaları ve ayrılık konuşmasını tamamen unuttuğunu, hiçbir şey hatırlamadığını iddia etmiştir. Klinik muayenede hafızasında organik hiçbir fiziksel hasar bulunamamıştır. 
+        <br>Freud'un psikanalitik kuramına göre, egonun bu bireyi ağır depresyondan kurtarmak için devreye soktuğu **o en temel, en ilkel savunma mekanizması** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yansıtma</li>
+            <li>B) Bastırma (Represyon)</li>
+            <li>C) Karşıt Tepki Geliştirme</li>
+            <li>D) Yüceltme</li>
+            <li>E) Yer Değiştirme</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Savunma mekanizmalarının bilinçdışı operasyonlarını inceleyelim. Birey bilincinde taşıyamayacağı kadar ağır, yıkıcı ve yıpratıcı bir acıyla (terk edilme travmasıyla) yüzleşmiştir.
+            <br>• Ego, bilinci korumak adına bu acı verici anıları, isimleri ve yaşantıları farkında olmadan doğrudan **bilinçaltına (farkındalığın dışına)** iter, orada kilitler. Bireyin bunu unutmuş gibi davranması, felsefe ve psikolojide <b>Bastırma (Represyon)</b> mekanizmasıyla açıklanır. Bastırma, tüm savunma mekanizmalarının anası kabul edilir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Şirketteki terfi sınavını kazanamayan ve pozisyonunu koruyan bir müdür yardımcısı, kendisini teselli etmeye gelen iş arkadaşlarına; *"Zaten o üst pozisyonun sorumluluğu çok ağırdı, her gün eve geç gitmek zorunda kalacaktım, maaş farkı da vergiye gidiyordu, böylesi benim sağlığım için çok daha hayırlı oldu"* demiştir. 
+        <br>Müdür yardımcısının başarısızlığını hafifletmek için sergilediği bu akılcı duruş, aşağıdaki **savunma mekanizmalarından hangisine doğrudan bir örnektir**?</div>
+        <ul class="options-list">
+            <li>A) Ödünleme (Telafi)</li>
+            <li>B) Yansıtma (Çamur atma)</li>
+            <li>C) Mantığa Bürüme (Rasyonalizasyon / Bahanecilik)</li>
+            <li>D) Gerileme</li>
+            <li>E) Özdeşim Kurma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Vakanın psikolojik manevrasını okuyalım. Kişi bir başarısızlığa uğramış (sınavı kazanamamış) ve bunun yarattığı yetersizlik duygusunu ezmek istemektedir.
+            <br>• Ulaşamadığı o hedefi (makamı) küçülterek, "zaten sorumluluğu ağırdı, vergiye gidiyordu" diyerek kendisine ve çevresine karşı mantıklı, kabul edilebilir kılıflar uydurmuştur. Bu duruma psikolojide <b>Mantığa Bürüme (Rasyonalizasyon)</b> veya bahanecilik adı verilir. Ezop'un tilki ve ulaşamadığı üzümlere ekşi demesi (Kedi-ciğer bağı) hikayesiyle aynı mantıktır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İç dünyasında insanlara karşı devasa bir öfke, şiddet, nefret ve fiziksel zarar verme dürtüsü (Saldırganlık dürtüsü) barındıran bir birey, bu ilkel dürtüleri doğrudan dışarı vurursa toplum tarafından dışlanacağını ve hapse atılacağını (Superego baskısını) bilir. Bu kişi gençlik yıllarında dövüş sporlarına yönelmiş, yıllarca çalışarak dünya çapında şampiyonluklar kazanan, ülkesini gururlandıran milli bir boksör olmuştur. Toplum onu şiddet uyguladığı için cezalandırmak yerine ringde madalyalarla alkışlamıştır. 
+        <br>Egonun bu ilkel ve yıkıcı dürtüyü toplum yararına faydalı bir başarıya dönüştürmesi, **hangi en sağlıklı savunma mekanizmasıyla** açıklanır?</div>
+        <ul class="options-list">
+            <li>A) Yüceltme (Süblimasyon)</li>
+            <li>B) Karşıt Tepki Geliştirme</li>
+            <li>C) Yer Değiştirme</li>
+            <li>D) Hayal Dünyasına Kaçma</li>
+            <li>E) İnkar (Yadsıma)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kişiliğin dürtü dönüşüm dehasını inceleyelim. Saldırganlık İd'in ilkel dürtüsüdür. Sokakta birini dövmek suçtur. 
+            <br>• Ancak Ego bu enerjiyi yasal, kurallı ve saygın bir mesleğe (Boksörlüğe, cerrahlığa, kasaplığa) yönlendirerek hem İd'i doyurmuş hem Superego'yu susturmuştur. İlkel ve anti-sosyal dürtülerin, sosyal olarak kabul gören ve alkışlanan **üst düzey prestijli faaliyetlere dönüştürülmesi** işlemine <b>Yüceltme (Süblimasyon)</b> denir. Savunma mekanizmaları içinde en olumlu, en yapıcı olanıdır. Cevap A'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Freud'un yapısal kişilik kuramına göre; insan zihninin o en ilkel, en bencil, ahlak ve zaman kavramı tanımayan, tamamen cinsellik ve saldırganlık dürtüleriyle hareket ederek isteklerinin anında, derhal doyurulmasını talep eden **"Haz İlkesi" odaklı katmanı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ego</li>
+            <li>B) Superego</li>
+            <li>C) İd (Alt Benlik)</li>
+            <li>D) Bilinçöncesi</li>
+            <li>E) Mantık Katmanı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Freud'un kişilik sacayağını özetleyen harika bir final sorusudur. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ego gerçeklik ilkesiyle çalışan mantıklı yöneticidir. Superego toplumsal ahlak ve vicdandır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kişiliğin doğuştan gelen, karanlık, terbiye edilmemiş, mantık dışı olan ve sadece **Haz İlkesine (Pleasure Principle)** endeksli olarak çalışan bencil katmanı tereddütsüz <b>İD (Alt Benlik)</b>'tir. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

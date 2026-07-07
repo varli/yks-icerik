@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Psikoloji - Modül 2: Öğrenme, Bellek ve Güdülenme</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fbfbfe;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fbfbfe; }
+        .header-banner { background: linear-gradient(135deg, #0284c7, #4f46e5); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0f2fe; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #3b82f6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #4f46e5; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #14b8a6; border-left: 5px solid #0d9488; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0284c7; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0284c7; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0284c7; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT PSİKOLOJİ - MODÜL 2: ÖĞRENME, BELLEK VE GÜDÜLENME</h1>
+        <p>"Zihinsel Dönüşüm: Koşullanma Deneyleri, Bellek Mimarisi ve İnsan İhtiyaçlarının Güdü Haritası"</p>
+    </div>
+
+    <h2>1. ÖĞRENME SÜREÇLERİ VE DAVRANIŞÇI KOŞULLANMA MODELLERİ</h2>
+    <p>Tekrar veya yaşantı sonucu davranışta meydana gelen nispeten kalıcı izli değişikliklere <b>öğrenme</b> denir. Davranışçı ekol, öğrenmeyi iki büyük deneysel koşullanma modeliyle açıklar:</p>
+
+    <h3>A) Klasik Koşullanma (Pavlov'un Köpeği)</h3>
+    <p>Organizmanın doğal olarak tepki vermediği nötr bir uyarıcıyı, doğal bir uyarıcıyla eşleştirerek ona da tepki vermeyi öğrenmesidir. ÖSYM bu ögeleri paragrafta buldurmayı çok sever:</p>
+    <ul>
+        <li><b>Koşulsuz (Doğal) Uyarıcı:</b> Organizma için öğrenilmemiş, doğal tepki doğuran etkendir. (Örn: Et).</li>
+        <li><b>Koşulsuz (Doğal) Tepki:</b> Doğal uyarıcıya verilen otomatik, refleksif tepkidir. (Örn: Ete karşı salya salgılama).</li>
+        <li><b>Nötr Uyarıcı:</b> Başlangıçta organizma için hiçbir anlam ifade etmeyen etkendir. (Örn: Zil sesi).</li>
+        <li><b>Koşullu (Öğrenilmiş) Uyarıcı:</b> Nötr uyarıcının doğal uyarıcıyla defalarca tekrarlanması sonucu tek başına tepki doğurur hale gelmesidir. (Örn: Tek başına çalınan zil).</li>
+        <li><b>Koşullu (Öğrenilmiş) Tepki:</b> Koşullu uyarıcıya verilen yapay tepkidir. (Örn: Zil sesine karşı salya salgılama).</li>
+    </ul>
+
+    <h3>B) Edimsel Koşullanma (Skinner'ın Kutusu)</h3>
+    <p>Klasik koşullanmada organizma pasiftir (refleksiftir). Edimsel koşullanmada ise organizma **aktiftir**; önce bir davranış yapar (edim), davranışın arkasından gelen sonuca göre o davranışı tekrar eder veya bırakır. Süreç **Ödül ve Ceza** mekanizmasına dayanır:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Kavram Adı</th>
+                <th>Operasyonel Fonksiyonu (Etkisi)</th>
+                <th>ÖSYM Standartlarında Günlük Hayat Örneği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Olumlu Pekiştireç</b></td>
+                <td>Ortama hoş bir uyarıcı eklenerek davranışın yapılma sıklığı **artırılır**.</td>
+                <td>Ödevini eksiksiz yapan öğrenciye öğretmenin **yıldızlı pekiyi (ödül)** vermesi.</td>
+            </tr>
+            <tr>
+                <td><b>Olumsuz Pekiştireç</b></td>
+                <td>Ortamdan rahatsız edici bir uyarıcı çıkarılarak davranışın sıklığı **artırılır**.</td>
+                <td>Başı ağrıyan birinin ağrıdan kurtulmak için **ilaç içmesi** ve rahatlaması.</td>
+            </tr>
+            <tr>
+                <td><b>I. Tür Ceza</b></td>
+                <td>Ortama rahatsız edici kötü bir uyarıcı eklenerek davranış **durdurulur**.</td>
+                <td>Kırmızı ışıkta geçen sürücüye **para cezası** kesilmesi.</td>
+            </tr>
+            <tr>
+                <td><b>II. Tür Ceza</b></td>
+                <td>Ortamdan hoş ve güzel bir uyarıcı çıkarılarak davranış **durdurulur**.</td>
+                <td>Yaramazlık yapan çocuğun elinden **oyuncağının alınması**.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. BELLEK MİMARİSİ VE BİLGİYİ İŞLEME MODELİ</h2>
+    <p>Öğrenilen bilgilerin saklanması, depolanması ve ihtiyaç anında geri çağrılması yetisine <b>bellek</b> denir. Bilgiyi işleme modeli üç aşamalı bir süzgeçten oluşur:</p>
+    <ol>
+        <li><b>Duyusal Bellek:</b> Dış dünyadan gelen ham verilerin ilk uğradığı yerdir. Kapasitesi sınırsızdır ancak bilgiyi tutma süresi **1-2 saniye** gibi çok kısıtlıdır. Sadece **dikkat ve algı** süzgecinden geçen bilgiler bir sonraki belleğe aktarılır.</li>
+        <li><b>Kısa Süreli (Çalışan) Bellek:</b> Aktif olarak o an düşündüğümüz yerdir. Kapasitesi sınırlıdır (7&plusmn;2 birim bilgi tutabilir). Bilgiyi tutma süresi **20-30 saniye**dir. Bilginin burada kalması için zihinsel tekrar gerekir. Bilgi, anlamlandırma ve kodlama süreçleriyle uzun süreli belleğe gönderilir.</li>
+        <li><b>Uzun Süreli Bellek:</b> Bilgilerin kalıcı olarak saklandığı devasa kütüphanedir. Kapasitesi ve bilgiyi tutma süresi **sınırsızdır**. Unutma, bilginin silinmesi değil, geri çağırma (hatırlama) ipuçlarının kaybolmasıdır.</li>
+    </ol>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN KET VURMA TUZAĞI KURAR (KARIŞTIRMA!):</strong>
+        <br>&bull; <b>İleriye Ket Vurma (Öğrenme engeli):</b> Eski bilginin, yeni öğrenilen bilgiyi unutturması veya karıştırmasıdır. (Örn: Yeni bir telefon numarası alan kişinin, numarasını soranlara eski numarasını söylemesi).
+        <br>&bull; <b>Geriye Ket Vurma (Hatırlama engeli):</b> Yeni öğrenilen bilginin, eski bilgiyi unutturmasıdır. (Örn: Almanca kelimeler öğrendikten sonra, lisede öğrendiği Fransızca kelimeleri hatırlayamamak).
+    </div>
+
+    <h2>3. BİZİ HAREKETE GEÇİREN GÜÇ: GÜDÜLENME (MOTİVASYON)</h2>
+    <p>Organizmayı bir amaca doğru harekete geçiren içsel veya dışsal itici güce <b>güdü</b>, bu sürece ise <b>güdülenme</b> denir. Güdüler temel olarak ikiye ayrılır: *Fizyolojik güdüler (Dürtüler: Açlık, susuzluk, uyku - doğuştandır, evrenseldir)* ve *Sosyal güdüler (Başarı, statü, aidiyet - sonradan öğrenilir)*.</p>
+    
+    <div class="memory-box">
+        <strong>👑 MASLOW'UN İHTİYAÇLAR HİYERARŞİSİ PİRAMİDİ:</strong>
+        <br>Abraham Maslow'a göre insan güdüleri hiyerarşik bir piramit oluşturur. Alt basamaktaki bir ihtiyaç belirli bir düzeyde karşılanmadan, üst basamaktaki bir güdü insanı harekete geçiremez.
+        <br>&bull; <b>1. Basamak:</b> Fizyolojik İhtiyaçlar (Açlık, susuzluk, nefes alma).
+        <br>&bull; <b>2. Basamak:</b> Güvenlik İhtiyaçları (Ev, barınma, iş garantisi, can güvenliği).
+        <br>&bull; <b>3. Basamak:</b> Aidiyet ve Sevgi İhtiyaçları (Bir gruba ait olma, arkadaş edinme, sevilme).
+        <br>&bull; <b>4. Basamak:</b> Saygınlık (Statü, takdir edilme, başarı, saygı görme).
+        <br>&bull; <b>5. Basamak (Zirve):</b> **Kendini Gerçekleştirme**. (Kişinin tüm potansiyelini, yeteneklerini sonuna kadar açığa çıkarıp ideallerine ulaşması. Piramidin en elit ve en zor basamağıdır).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Küçük bir çocuk evlerinin bahçesinde oynarken komşunun beyaz renkli tüylü köpeği tarafından ısırılmış ve canı çok yanmıştır. Bu trajik olaydan sonra çocuk, ne zaman beyaz tüylü bir köpek görse korkudan ağlamaya başlamıştır. Hatta çocuk ilerleyen günlerde sadece beyaz köpeklerden değil, beyaz renkli bir kedi veya tüylü beyaz bir mont gördüğünde bile aynı korku tepkisini sergilemiştir. 
+        <br>Binişsel-davranışçı kurama göre, çocuğun beyaz köpeğe verdiği korku tepkisinin yanına beyaz kedi veya tüylü montu da eklemesi, aşağıdaki **klasik koşullanma kavramlarından hangisiyle açıklanır**?</div>
+        <ul class="options-list">
+            <li>A) Sönme</li>
+            <li>B) Uyarıcı Genellemesi</li>
+            <li>C) Ayırt Etme</li>
+            <li>D) Edimsel Koşullanma</li>
+            <li>E) Olumsuz Pekiştirme</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Klasik koşullanma kurallarını paragraf üzerinden analiz edelim. Çocuk beyaz köpeğe karşı bir korku (koşullu tepki) geliştirmiştir.
+            <br>• Ancak daha sonra, koşullu uyarıcıya (beyaz köpeğe) benzeyen diğer **benzer uyarıcılara da (beyaz kedi, tüylü mont)** aynı koşullu tepkiyi (korkuyu) vermeye başlamıştır. Organizmanın orijinal koşullu uyarıcıya benzeyen diğer benzer etkenleri birbirinden ayıramayıp hepsine aynı tepkiyi vermesi durumuna psikolojide <b>Uyarıcı Genellemesi</b> adı verilir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sürekli gürültülü çalışan klimalı bir ofiste işe başlayan bir mühendis, ilk günlerde bu sesten aşırı rahatsız olmuş ve dikkati dağılmıştır. Ancak işini kaybetmemek adına her gün ofise gelmeye devam eden mühendis, odadaki bu uğultudan kurtulmak için gürültü engelleyici özel bir kulaklık satın almış ve kulaklığı taktığı anda o sinir bozucu sesten tamamen kurtularak rahatlamıştır. Mühendis, bu rahatlama deneyiminden sonra ne zaman ofiste gürültü hissetse hemen o kulaklığı takmayı bir alışkanlık haline getirmiştir. 
+        <br>Edimsel koşullanma ilkelerine göre, mühendisin kulaklık takma davranışının sıklığının artması, aşağıdaki **pekiştirme süreçlerinden hangisinin doğrudan bir sonucudur**?</div>
+        <ul class="options-list">
+            <li>A) Olumlu Pekiştirme</li>
+            <li>B) Olumsuz Pekiştirme</li>
+            <li>C) I. Tür Ceza</li>
+            <li>D) II. Tür Ceza</li>
+            <li>E) Ayırt Edici Uyarıcı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Edimsel koşullanma matrisini adım adım işletelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Mühendisin "kulaklık takma" davranışının sıklığı artmıştır, yani bir **Pekiştirme** söz konusudur (Ceza şıkları C ve D elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Davranışın sıklığını artıran şey ortama ödül eklenmesi değildir. Tam aksine, ortamda bulunan ve mühendisi rahatsız eden o kötü uyarıcının (klima gürültüsünün) kulaklık vasıtasıyla **ortamdan çıkarılmasıdır**. 
+            <br>• Organizmayı rahatsız eden itici bir uyarıcının ortamdan çıkarılmasıyla davranışın yapılma sıklığının artırılması sürecine tam anlamıyla <b>Olumsuz Pekiştirme</b> denir. Kulaklık takmak gürültüyü elediği için olumsuz pekişmiştir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Yıllardır aynı banka kartının şifresini kullanan bir birey, güvenlik gerekçesiyle kart şifresini değiştirmek zorunda kalmış ve yepyeni bir şifre belirlemiştir. Ancak bu kişi, alışveriş yaptıktan sonra pos cihazına şifresini girmek istediğinde her defasında aklına o yeni şifre yerine, yıllarca kullandığı o eski kart şifresi gelmiş ve hata yapmıştır. 
+        <br>Bu bireyin yeni şifreyi hatırlamakta zorlanması ve eski bilgisinin yeni bilgiyi karıştırması, bellek süreçlerindeki **hangi unutma / ket vurma kavramıyla** açıklanır?</div>
+        <ul class="options-list">
+            <li>A) Geriye Ket Vurma</li>
+            <li>B) İleriye Ket Vurma</li>
+            <li>C) Kaybolma</li>
+            <li>D) Güdüsel Unutma</li>
+            <li>E) Duyusal Bozulma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin her yıl soru bankalarında kurduğu o kronolojik ket vurma tuzağını deşifre edelim. Süreçteki bilgilerin sırasını yazalım: Eski bilgi = Eski şifre, Yeni bilgi = Yeni şifre.
+            <br>• Olayda hatırlanmak istenen, güncel olan bilgi hangisidir? Yeni şifredir. Peki engeli çıkaran, araya girip unutturan kimdir? Yılların getirdiği o baskın eski şifredir. **Eski bilginin, yeni öğrenilen bilginin hatırlanmasını engellemesine, onu sabote etmesine** psikoloji biliminde <b>İleriye Ket Vurma</b> adı verilir. Eski bilgi ileriye doğru ket vurmuştur. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İnsan zihnine gelen bilgilerin işlenme aşamalarını inceleyen bir psikolog; duyu organlarına çarpan ham verilerin bu bellekte sadece 1-2 saniye kalabildiğini, eğer bu verilere odaklanılmaz ve dikkat süzgecinden geçirilmezse bilginin tamamen silinip yok olduğunu rapor etmiştir. 
+        <br>Paragrafta tutulma süresi aşırı kısa olan, **bilgiyi işleme modelinin o ilk giriş kapısı niteliğindeki bellek türü** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kısa Süreli Bellek</li>
+            <li>B) Uzun Süreli Bellek</li>
+            <li>C) Duyusal Bellek (Duyusal Kayıt)</li>
+            <li>D) Çalışan Bellek</li>
+            <li>E) Epizodik Bellek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Bellek mimarisinin zaman parametrelerini eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kısa süreli bellek bilgiyi 20-30 saniye tutar. Uzun süreli bellek sınırsız tutar.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Dış dünyadaki fiziksel enerjinin (gözün gördüğü anlık görüntüler, kulağa çarpan anlık sesler) hiçbir işleme uğramadan ham haliyle **1-2 saniye** gibi çok minik bir süre tutulduğu, dikkat edilmezse uçup gittiği o ilk giriş istasyonu <b>Duyusal Bellek (Duyusal Kayıt)</b>'tir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Maslow'un İhtiyaçlar Hiyerarşisi kuramına göre; bir insanın açlık, susuzluk gibi fiziyolojik dürtüleri ile barınma ve can güvenliği gibi emniyet ihtiyaçları belirli bir düzeyde tatmin edilmeden, o bireyin sanata yönelmesi, felsefe yapması veya tüm potansiyelini açığa çıkaracak ideallerin peşinden koşması mantıken mümkün değildir. Piramidin basamakları sırayla tırmanılmalıdır. 
+        <br>Buna göre Maslow'un piramidinin **en üst noktasında (zirvesinde) yer alan, insanın ulaşabileceği o en elit erdemlilik ve güdülenme düzeyi** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Aidiyet ve Sevgi İhtiyacı</li>
+            <li>B) Statü ve Saygınlık İhtiyacı</li>
+            <li>C) Kendini Gerçekleştirme İhtiyacı</li>
+            <li>D) Güvenlik İhtiyacı</li>
+            <li>E) Sosyal Güvence</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Maslow piramidinin dikey ihtiyaçlar sırasını hatırlayalım: En altta fizyolojik, sonra güvenlik, sonra aidiyet/sevgi, ardından statü/saygı gelir.
+            <br>• Tüm bu alt ve orta düzey ihtiyaçları başarıyla tamamlayan bireyin, hayattaki yegane amacı artık kendi gizil güçlerini, yaratıcılığını, sanatsal veya bilimsel dehasını doruk noktasına çıkarmaktır. Piramidin en tepesindeki bu nihai zirve noktasına <b>Kendini Gerçekleştirme</b> adı verilir. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

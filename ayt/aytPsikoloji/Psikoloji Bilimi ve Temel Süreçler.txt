@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Psikoloji - Modül 1: Psikoloji Bilimi ve Temel Süreçler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fbfbfe;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fbfbfe; }
+        .header-banner { background: linear-gradient(135deg, #0d9488, #0891b2); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ccfbf1; font-style: italic; }
+        h2 { color: #0f766e; font-size: 16pt; border-left: 6px solid #0d9488; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0891b2; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #14b8a6; border-left: 5px solid #0d9488; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0d9488; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0d9488; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0d9488; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT PSİKOLOJİ - MODÜL 1: PSİKOLOJİ BİLİMİ VE TEMEL SÜREÇLER</h1>
+        <p>"Davranışın Bilimi: Ekollerin Zihin Şifreleri, Araştırma Metotları, Duyum Eşikleri ve Algı Dinamikleri"</p>
+    </div>
+
+    <h2>1. PSİKOLOJİNİN DOĞUŞU VE EKOLÜN ŞİFRELERİ</h2>
+    <p>Psikoloji, canlıların **davranışlarını ve zihinsel süreçlerini** inceleyen pozitif bir bilimdir. 1879 yılında **Wilhelm Wundt**'un Almanya'da ilk psikoloji laboratuvarını kurmasıyla felsefeden kesin olarak ayrılmıştır. ÖSYM, ekollerin anahtar kelimelerini sormayı çok sever:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Psikoloji Ekolü (Yaklaşım)</th>
+                <th>Öncü Temsilcisi</th>
+                <th>İnceleme Konusu ve ÖSYM Çözdüren Şifre Kelimeleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Yapısalcılık</b><br>(Strüktüralizm)</td>
+                <td>Wilhelm Wundt</td>
+                <td>İnsan bilincinin yapısını ve ögelerini incelemelidir. Kullandığı yöntem **İç Gözlem (İçebakış)**'dir. (Kişinin kendi zihnini anlatması).</td>
+            </tr>
+            <tr>
+                <td><b>Davranışçılık</b><br>(Bihevyorizm)</td>
+                <td>Watson, Pavlov, Skinner</td>
+                <td>Zihin gözlenemez, bilim dışıdır. Psikoloji sadece gözlenebilen ve ölçülebilen **Dış Davranışları** incelemelidir. **U-T (Uyarıcı-Tepki)** bağı esastır. Deney fareleri kullanılır.</td>
+            </tr>
+            <tr>
+                <td><b>Psikanaliz</b><br>(Psikodinamik)</td>
+                <td>Sigmund Freud</td>
+                <td>Davranışların arkasındaki asıl güç **Bilinçaltı**, bastırılmış duygular, çocukluk yaşantıları ve cinsellik/saldırganlık dürtüleridir. Hipnoz ve rüya analizi kullanılır.</td>
+            </tr>
+            <tr>
+                <td><b>Gestalt Ekolü</b><br>(Bütüncül Yaklaşım)</td>
+                <td>Wertheimer, Köhler, Koffka</td>
+                <td>Zihin ve algı nesneleri parçalayarak değil, bütün olarak kavrar. En ünlü mottosu: <b>"Bütün, parçaların toplamından daha büyük ve farklıdır."</b></td>
+            </tr>
+            <tr>
+                <td><b>Hümanistik</b><br>(İnsancıl Yaklaşım)</td>
+                <td>Rogers, Maslow</td>
+                <td>İnsan bencil veya bir robot değildir; özgürdür, değerlidir ve doğuştan iyidir. Her insanın amacı **Kendini Gerçekleştirmek**tir. Empati önemlidir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. PSİKOLOJİDE ARAŞTIRMA YÖNTEMLERİ VE KORELASYON TUZAKLARI</h2>
+    <p>Psikologlar bilgi toplarken betimsel (gözlem, anket, vaka incelemesi), deneysel ve ilişkisel yöntemler kullanırlar. ÖSYM'nin en çok takla attırdığı iki kritik alan şunlardır:</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN KESİN MATEMATİKSEL TUZAK KURAR — KORELASYON COĞRAFYASI:</strong>
+        <br>İki değişken arasındaki ilişkinin yönünü ve gücünü gösteren istatistiksel değere **Korelasyon** denir. Değeri her zaman **-1 ile +1 arasındadır**.
+        <br>&bull; <b>Pozitif Korelasyon (0 ile +1 arası):</b> İki değişken aynı anda artar veya aynı anda azalır. (Örn: Tekrar sayısı arttıkça, öğrenme gücü artar).
+        <br>&bull; <b>Negatif Korelasyon (-1 ile 0 arası):</b> Değişkenlerden biri artarken diğeri azalır. (Örn: Kaygı düzeyi arttıkça, sınav başarısı düşer).
+        <br>&bull; <b>Nötr Korelasyon (0):</b> İki değişken arasında hiçbir bağ yoktur. (Örn: Boy uzunluğu ile dürüstlük).
+        <br><b>🔥 En Büyük Tuzak: İlişkinin gücü sorulduğunda işaretin (+/-) hiçbir önemi yoktur! Sıfırdan uzaklaşan (-0.95 veya +0.95) her sayı en güçlü ilişkiyi gösterir. İşaret sadece yönü belirtir.</b>
+    </div>
+
+    <h2>3. DUYUM VE ALGI DİFERANSİYELLERİ (TEMEL SÜREÇLERİ)</h2>
+    <p>Dış dünyadan gelen fiziksel enerjinin (ışık, ses) duyu organları tarafından alınıp beyne ulaştırılmasına <b>Duyum</b>; beyne gelen bu ham verilerin yorumlanıp anlamlı hale getirilmesine ise <b>Algı</b> denir. (Gözün ışığı görmesi duyum, onun bir 'elma' olduğunu anlamak algıdır).</p>
+
+    <h3>A) Duyum Eşikleri ve Uyum (Adaptasyon)</h3>
+    <p>&bull; <b>Mutlak Eşik:</b> Bir organizmanın bir uyarıcıyı fark etmeye başladığı en alt ve en üst sınırdır. (İnsan kulağı 20 Hz ile 20.000 Hz arasındaki sesleri duyabilir, altını ve üstünü algılayamaz).
+    <br>&bull; <b>Duyusal Uyum:</b> Bir uyarıcının şiddeti değişmeden sürekli verilmesi durumunda duyu organının o uyarıcıya karşı hassasiyetini kaybetmesidir. (Gürültülü bir odaya girdikten bir süre sonra sesi duymamak veya kendi parfüm kokumuzu alamamak).</p>
+
+    <h3>B) Algıda Organizasyon (Gestalt) İlkeleri</h3>
+    <p>Beyin dış dünyayı algılarken belirli kurallara göre gruplandırma yapar:</p>
+    <ul>
+        <li><b>Şekil - Zemin İlişkisi:</b> Algıda her zaman bir odak (Şekil) ve onu çevreleyen bir arka plan (Zemin) vardır.</li>
+        <li><b>Yakınlık - Benzerlik - Tamamlama:</b> Zaman ve mekân olarak birbirine yakın olan nesneler, birbirine benzeyen şekiller veya eksik bırakılmış çizgiler beyin tarafından otomatik olarak bir bütün olarak algılanır.</li>
+    </ul>
+
+    <div class="memory-box">
+        <strong>🧠 İLLÜZYON VE HALÜSİNASYON AYRIMI (KARIŞTIRMA!):</strong>
+        <br>&bull; <b>İllüzyon (Yanılsama):</b> Var olan fiziksel bir uyarıcının **yanlış algılanmasıdır**. Her normal insanda görülür. İkiye ayrılır: <i>Fiziki İllüzyon</i> (bardağın içindeki kaşığın kırık görünmesi - dış etken) ve <i>Psikolojik İllüzyon</i> (korkudan yerdeki ipi yılan sanmak - iç etken).
+        <br>&bull; <b>Halüsinasyon (Sanrı):</b> Dış dünyada **hiçbir uyarıcı yokken**, organizmanın bir şeyler algılamasıdır. Tamamen zihinsel süreçlerin, şizofreninin, yüksek ateşin veya uyuşturucu etkisinin bir ürünüdür. Normal insanlarda görülmez, patolojiktir. (Olmayan sesler duymak).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bir psikolog laboratuvarında yaptığı araştırmada; bireylerin kendilerine verilen geometrik şekillere, renklere ve ses tonlarına verdikleri tepkileri incelemiş; onlardan o andaki zihinsel durumlarını, hissettikleri duyguları detaylıca kendilerine anlatmalarını istemiştir. Psikolog, bilincin haritasını çıkarabilmek için deneklerin bu içsel beyanlarını (İç Gözlem metodunu) temel veri kabul etmiştir. 
+        <br>Buna göre, bahsedilen bu psikoloğun çalışmalarında rehber edindiği **psikoloji ekolü (yaklaşımı)** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Davranışçılık</li>
+            <li>B) Yapısalcılık (Strüktüralizm)</li>
+            <li>C) Psikanaliz</li>
+            <li>D) Hümanistik Yaklaşım</li>
+            <li>E) Fonksiyonalizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Psikoloji ekollerinin turnusol kelimelerini eşleştirelim. Paragrafta "bilincin yapısını ve ögelerini anlama çabası" ve bunu yapmak için deneklerin kendi içine dönüp zihnini anlatması, yani <b>İç Gözlem (İçebakış)</b> metodunun kullanıldığı vurgulanmaktadır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Wilhelm Wundt ve Titchener tarafından savunulan, psikolojiyi bilincin yapısını inceleyen bir bilim olarak kuran ve yegane metot olarak içebakışı gören akım tereddütsüz <b>Yapısalcılık</b>'tır. Davranışçılık iç gözlemi tamamen reddeder. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bir üniversitede yapılan ilişkisel araştırmada, öğrencilerin "Sınav Kaygı Düzeyleri" ile "Akademik Başarı Notları" arasındaki bağ incelenmiş ve korelasyon katsayısı **-0.85** olarak hesaplanmıştır. 
+        <br>Bu istatistiksel sonuç dikkate alındığında, kaygı ile başarı arasındaki ilişki hakkında aşağıdaki **yorumlardan hangisi kesinlikle doğrudur**?</div>
+        <ul class="options-list">
+            <li>A) Kaygı ile başarı arasında hiçbir ilişki (bağ) yoktur.</li>
+            <li>B) Öğrencilerin kaygı düzeyleri arttıkça, akademik başarı notları da doğrusal olarak yükselmektedir.</li>
+            <li>C) İki değişken arasında **ters yönlü (biri artarken diğeri azalan) ve oldukça güçlü** bir ilişki bulunmaktadır.</li>
+            <li>D) Kaygı düzeyi başarıyı etkileyen tek pozitif unsurdur.</li>
+            <li>E) İlişkinin gücü sıfıra çok yakındır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Korelasyon katsayısının matematiksel ve coğrafi okumasını yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Önündeki eksi (-) işareti, ilişkinin **Negatif (Ters yönlü)** olduğunu gösterir; yani kaygı arttıkça başarı düşmektedir (B elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Sayısal değer olan 0.85, sarsılmaz sınır olan 1'e çok yakındır. Dolayısıyla bu iki değişken arasında **oldukça güçlü** bir bağ vardır. 
+            <br>• Sonuç olarak karşımızda ters yönlü ve çok güçlü bir ilişki denklemi mevcuttur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir anne mutfakta yemek pişirirken odaya ilk giren çocuğu "Anneciğim ev mis gibi yemek kokmuş" demiştir. Ancak mutfakta saatlerdir yemek yapan anne, bu kokuyu hiç fark etmediğini söylemiştir. Annenin burnundaki koku reseptörlerinin, koku uyarıcısının şiddeti değişmediği için bir süre sonra bu uyarıcıya karşı duyarlılığını kaybetmesi durumudur. 
+        <br>Yukarıdaki olayda annenin yaşadığı bu **psiko-biyolojik süreç** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Algıda Seçicilik</li>
+            <li>B) Duyusal Uyum (Adaptasyon)</li>
+            <li>C) Halüsinasyon</li>
+            <li>D) Aşırı Uyarılma</li>
+            <li>E) Algı Değişmezliği</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Duyum süreçlerinin sınır kalıplarını kontrol edelim. Organizma, şiddeti değişmeyen sürekli bir fiziksel uyarıcıya maruz kaldığında, sinir sistemi yorulur ve enerji tasarrufu yapmak için o uyarıcıyı beyne rapor etmeyi bırakır.
+            <br>• Mutfaktaki annenin kokuyu alamaması, kolumuzdaki saatin ağırlığını veya tenimize değen kıyafetleri bir süre sonra hissetmememiz tamamen <b>Duyusal Uyum (Adaptasyon)</b> kavramıyla açıklanır. Organizma çevreye uyum sağlamıştır. Doğru cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Gece karanlığında tek başına evde korku filmi izleyen bir genç, aniden esen rüzgârla dalgalanan pencere perdesinin gölgesini eve giren maskeli bir hırsız sanarak büyük bir çığlık atmıştır. 
+        <br>Gencin yaşadığı bu olay psikoloji literatürüne göre aşağıdaki **kavramlardan hangisinin doğrudan bir örneğidir**?</div>
+        <ul class="options-list">
+            <li>A) Halüsinasyon (Sanrı)</li>
+            <li>B) Algıda Değişmezlik</li>
+            <li>C) Psikolojik Kökenli İllüzyon (Yanılsama)</li>
+            <li>D) Duyusal Yetersizlik</li>
+            <li>E) Şekil-Zemin Çatışması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İllüzyon ve halüsinasyon arasındaki o ince çizgiyi çekelim: Olayda dışarıda somut, fiziksel bir nesne (perde gölgesi) **vardır**. Var olan bu nesne korku psikolojisinin (iç etkenlerin) etkisiyle yanlış yorumlanmıştır (hırsız sanılmıştır).
+            <br>• Ortada somut bir nesne olduğu için bu durum kesinlikle bir **İllüzyon**dur. Korku, beklenti gibi öznel duygulardan kaynaklandığı için de tam anlamıyla <b>Psikolojik Kökenli İllüzyon</b>'dur. Eğer ortada hiç perde gölgesi yokken hırsız görseydi o zaman halüsinasyon olurdu. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 
+            <i>"Trafikte araba sürerken radyoda çalan şarkının sadece sözlerine odaklanan bir sürücü için o esnada arkadan gelen hafif motor gürültüsü silikleşir. Beyin, karmaşık dış dünyayı algılarken her zaman bir nesneyi merkez seçer, diğerlerini arka plana iter."</i>
+            <br>Yukarıdaki olayda bahsedilen zihnin bu **algısal organizasyon kuralı** aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Algıda Tamamlama</li>
+            <li>B) Algıda Süreklilik</li>
+            <li>C) Şekil - Zemin (Fon) İlişkisi</li>
+            <li>D) Algı Derinliği</li>
+            <li>E) Zamansal Yakınlık</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Algı örgütlenmesi (Gestalt) ilkelerini yorumlayalım. Zihnimiz aynı anda uyarılan binlerce veriyi tek tek işleyemez. Her algı anında dikkatimizi çeken, öne çıkan net unsur **Şekil (Figür)**; onun arkasında kalan, silikleşen çevre ise **Zemin (Fon)** adını alır.
+            <br>• Sürücünün odaklandığı şarkı sözleri 'şekil', motor gürültüsü ise 'zemin'dir. Dikkat değiştiğinde şekil ve zemin yer değiştirebilir. Bu kural <b>Şekil - Zemin İlişkisi</b>'dir. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>
