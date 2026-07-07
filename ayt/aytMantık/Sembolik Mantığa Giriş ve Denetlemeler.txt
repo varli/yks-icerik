@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Mantık - Modül 3: Sembolik Mantığa Giriş ve Denetlemeler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafbfe;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafbfe; }
+        .header-banner { background: linear-gradient(135deg, #0f172a, #312e81); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0e7ff; font-style: italic; }
+        h2 { color: #0f172a; font-size: 16pt; border-left: 6px solid #4f46e5; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #312e81; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #e0e7ff; border: 1px dashed #6366f1; border-left: 5px solid #4f46e5; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e1b4b; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0f172a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0f172a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0f172a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MANTIK - MODÜL 3: SEMBOLİK MANTIK VE DENETLEMELER</h1>
+        <p>"Doğruluk Cebiri: Önermeler Mantığı Eklemleri, Matris Tabloları ve Çözümleyici Çizelge Kuralları"</p>
+    </div>
+
+    <h2>1. ÖNERMELER MANTIĞI VE SEMBOLİK DİL EKLEMLERİ</h2>
+    <p>Günlük dilin anlam belirsizliklerinden kurtulmak amacıyla önermelerin sembolik sembollerle (p, q, r) ve mantık bağlaçlarıyla (eklemlerle) ifade edilmesine <b>Sembolik Mantık</b> denir. İçinde mantık eklemi barındırmayan önermelere <i>Basit Önerme</i> (p), en az bir eklem barındıranlara ise <i>Bileşik Önerme</i> (~p, p &and; q) denir. ÖSYM bu 5 eklemin doğruluk değerlerini doğrudan test eder:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Eklem Adı</th>
+                <th>Sembolü</th>
+                <th>Dildeki Karşılığı</th>
+                <th>Sarsılmaz Doğruluk Kuralı (Matematiği)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Değilleme Eklemi</b></td>
+                <td><b>~</b></td>
+                <td>Değil, -me, -ma</td>
+                <td>Önermenin doğruluk değerini tam tersine çevirir. p doğru (D) ise, ~p yanlış (Y) olur.</td>
+            </tr>
+            <tr>
+                <td><b>Tümel Evetleme</b></td>
+                <td><b>&and;</b></td>
+                <td>Ve, ile, hem... hem...</td>
+                <td>Sadece ve sadece **iki bileşen de Doğru (D) olduğunda** sonuç Doğru (D) olur. Diğer tüm durumlarda Yanlıştır.</td>
+            </tr>
+            <tr>
+                <td><b>Tikel Evetleme</b></td>
+                <td><b>&or;</b></td>
+                <td>Veya, yahut, ya da</td>
+                <td>Sadece ve sadece **iki bileşen de Yanlış (Y) olduğunda** sonuç Yanlış (Y) olur. En az bir tane doğru olması sonucu Doğru yapar.</td>
+            </tr>
+            <tr>
+                <td><b>Koşul Eklemi</b></td>
+                <td><b>&rArr;</b></td>
+                <td>İse, -se, -sa</td>
+                <td>Sadece ve sadece **birinci doğru, ikinci yanlış olduğunda (D &rArr; Y)** sonuç Yanlış (Y) olur. Diğer tüm durumlarda Doğrudur.</td>
+            </tr>
+            <tr>
+                <td><b>Karşılıklı Koşul</b></td>
+                <td><b>&hArr;</b></td>
+                <td>Ancak ve ancak</td>
+                <td>İki bileşen de **aynı doğruluk değerine sahip olduğunda (D&hArr;D veya Y&hArr;Y)** sonuç Doğru (D) olur. Farklıysa Yanlıştır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. DOĞRULUK TABLOSU İLE DENETLEME MATEMATİĞİ</h2>
+    <p>Bir tablonun satır sayısı, içerdiği farklı basit önerme sayısına ($n$) göre $2^n$ formülüyle belirlenir. (2 farklı önerme varsa $2^2=4$ satır oluşur). ÖSÜM bu tablolarda üç kritik kavramı sorgular:</p>
+    <ul>
+        <li><b>Tutarlılık:</b> Bir önermenin doğruluk tablosundaki sonuç sütununda **en az bir tane Doğru (D)** değerinin bulunması o önermenin tutarlı olduğunu kanıtlar. Hepsi Y ise tutarsızdır.</li>
+        <li><b>Geçerlilik:</b> Bir önermenin sonuç sütunundaki tüm değerlerin **istisnasız Doğru (D)** olması durumudur (Totoloji). İçinde tek bir Y bile varsa o önerme geçersizdir.</li>
+        <li><b>Eş Değerlilik:</b> İki ayrı önermenin aynı satırlarda **tıpatıp aynı doğruluk değerlerine** (aynı D ve Y dizilimine) sahip olması durumudur.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN EN ALTIN GEÇERLİLİK FORMÜLÜNÜ SORAR:</strong>
+        <br>Çözümleyici çizelgede veya tabloda bir çıkarımın geçerliliğini denetlemek için şu altın kural uygulanır:
+        <br><b>"Öncüller aynen alınır, sonuç cümlesinin DEĞİLİ (~) alınır ve birlikte tutarlılık denetlemesi yapılır. Eğer bu denetleme sonucunda tablo TUTARSIZ (tüm yollar kapalı) çıkarsa, çıkarım GEÇERLİDİR."</b>
+    </div>
+
+    <h2>3. ÇÖZÜMLÜ ÇİZELGE (AĞAÇ YÖNTEMİ) TÜRETME KURALLARI</h2>
+    <p>Bileşik önermelerin doğruluk değerlerini büyük tablolar yapmadan, alt alta veya çatal açarak çarpanlarına ayırma metodudur. İki ana kurala göre dallanma yapılır:</p>
+    <p>&bull; <b>Alt Alta Yazma Kuralları (Stratejik önceliklidir):</b> Tümel evetleme önermeleri ($p \land q$) ve Koşulun değili [$\sim(p \Rightarrow q)$] alt alta açılır. Zihinde "ve" bağı düz bir çizgidir.
+    <br>&bull; <b>Çatal Açma Kuralları (İkinci önceliklidir):</b> Tikel evetleme önermeleri ($p \lor q$) ve Koşul önermeleri ($p \Rightarrow q$) sağa ve sola çatal açılarak çözülür. Zihinde "veya" bir yol ayrımıdır.</p>
+
+    <div class="memory-box">
+        <strong>🧠 ÇÖZÜMLÜ ÇİZELGEDE YOL KAPATMA MANTIĞI:</strong>
+        <br>Aynı dal (aynı dikey hat) üzerinde aşağıdan yukarıya doğru yürürken hem bir önermenin kendisine ($p$) hem de o önermenin değiline ($\sim p$) rastlanırsa, orada mantıksal bir çelişki doğmuş demektir. O dalın en altına **çarpı (X)** işareti konularak yol kapatılır. Açık dal kalmazsa önerme tutarsızdır.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Sembolik mantıkta bileşik önermelerin adını ve karakterini belirleyen unsur, o önermede en son işleme giren ve tüm önermeyi parantez dışından kontrol eden ana eklemdir. 
+        <br>Buna göre, $\sim(p \lor q) \Rightarrow (p \land \sim q)$ bileşik önermesinin **ana eklemi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Değilleme Eklemi ($\sim$)</li>
+            <li>B) Tümel Evetleme Eklemi ($\land$)</li>
+            <li>C) Tikel Evetleme Eklemi ($\lor$)</li>
+            <li>D) Koşul Eklemi ($\Rightarrow$)</li>
+            <li>E) Karşılıklı Koşul Eklemi ($\Leftrightarrow$)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Önermenin yapısal anatomisini ameliyat edelim. Önermemiz iki ana bloktan oluşmaktadır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sol blok: $\sim(p \lor q)$ &rarr; Ana eklemi değillemedir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sağ blok: $(p \land \sim q)$ &rarr; Ana eklemi tümel evetlemedir.
+            <br>• Bu iki devasa parantezli bloğu tam ortadan birbirine bağlayan, önermenin en genel çatısını kuran ve en son çözülen bağlaç <b>Koşul Eklemidir ($\Rightarrow$)</b>. Dolayısıyla bu önerme bir "Koşul Önermesi"dir ve ana eklemi $\Rightarrow$'dir. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Sembolik mantıkta Koşul Eklemi'nin ($\Rightarrow$) sarsılmaz ve katı bir doğruluk tablosu kuralı vardır. Bu kurala göre önerme sadece tek bir satır kombinasyonunda Yanlış (Y) değerini alır, diğer tüm durumlarda tamamen Doğrudur. 
+        <br>Buna göre, $p \Rightarrow q$ önermesinin **tabloda Yanlış (Y) değerini alabilmesi için** p ve q bileşenlerinin doğruluk değerleri sırasıyla ne olmalıdır?</div>
+        <ul class="options-list">
+            <li>A) p = Doğru , q = Doğru</li>
+            <li>B) p = Yanlış , q = Doğru</li>
+            <li>C) p = Doğru , q = Yanlış</li>
+            <li>D) p = Yanlış , q = Yanlış</li>
+            <li>E) p = Nötr , q = Doğru</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Koşul ekleminin doğruluk cebirini hatırlayalım. "İse" bağlacı vaatte bulunmaya benzer. 
+            <br>• Sadece ve sadece **birinci önerme Doğru, ikinci önerme Yanlış olduğunda (D &rArr; Y)** sonuç kesin olarak <b>Yanlış (Y)</b> olur. Diğer tüm dizilimlerde ($D \Rightarrow D = D$, $Y \Rightarrow D = D$, $Y \Rightarrow Y = D$) sonuç doğrudur. ÖSÜM bu 100 numara kuralını tablolarda çok sık yoklar. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir mantık araştırmacısı, elindeki bileşik bir önermeyi doğruluk tablosunda denetlemiş ve sonuç sütunundaki dört satırın dördünün de **"D, D, D, D"** şeklinde tamamen Doğru değerlerden oluştuğunu görmüştür. 
+        <br>Sonuç sütunundaki tüm satırları doğru çıkan bu önerme için aşağıdaki **terimsel adlandırmalardan hangisi kesinlikle doğrudur**?</div>
+        <ul class="options-list">
+            <li>A) Önerme sadece tutarlıdır, geçersizdir.</li>
+            <li>B) Önerme hem tutarlı hem de **GEÇERLİ** bir önermedir.</li>
+            <li>C) Önerme tutarsız ve geçersizdir.</li>
+            <li>D) Önerme eş değer bir bileşendir.</li>
+            <li>E) Önerme tikel evetlemedir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tablo denetleme tanımlarını uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bir önermenin tutarlı olması için tek bir "D" yeterlidir. Satırlarda D olduğu için bu önerme kesinlikle tutarlıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bir önermenin **Geçerli** olabilmesi için ise tüm satırlarının istisnasız **Doğru (D)** çıkması şarttır (Totoloji).
+            <br>• Elimizdeki önermenin tüm sütunu D çıktığı için bu önerme hem tutarlılık şartını hem de en üst sınır olan <b>Geçerlilik</b> şartını tam kapasite karşılamaktadır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Çözümleyici Çizelge (Ağaç Yöntemi) ile denetleme yaparken, karşımıza çıkan karmaşık bileşik önermeleri çarpanlarına ayırmanın katı hiyerarşik bir strateji sırası vardır. Çatal açarak dallanma yapan kurallara geçmeden önce, her zaman alt alta yazılan kuralların tamamlanması gerekir. 
+        <br>Buna göre, aşağıdaki önermelerden hangisi çözümleyici çizelgede **çatal açarak değil, kesinlikle ALT ALTA yazma kuralına göre** çözülür?</div>
+        <ul class="options-list">
+            <li>A) $p \lor q$ (Tikel Evetleme)</li>
+            <li>B) $p \Rightarrow q$ (Koşul Önermesi)</li>
+            <li>C) $p \land q$ (Tümel Evetleme)</li>
+            <li>D) $\sim(p \land q)$ (Tümel Evetlemenin Değili)</li>
+            <li>E) $p \Leftrightarrow q$ (Karşılıklı Koşul)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Çözümleyici çizelgenin geometrik açılım kurallarını eşleştirelim. "Veya" bağlacı ($\lor$), "İse" bağlacı ($\Rightarrow$) ve "Tümel evetlemenin değili" [$\sim(p \land q)$] mantıksal yapıları gereği alternatif yollar içerdiğinden **Çatal Açma** yöntemiyle çözülürler (A, B, D elenir).
+            <br>• Ancak "Ve" bağlacı olan <b>$p \land q$ (Tümel Evetleme) önermesi, iki bileşenin de aynı anda doğru olmasını zorunlu kıldığı için doğrusal bir hat üzerinde kesin olarak ALT ALTA yazılma</b> kuralına tabidir. p üste, q onun hemen altına yazılır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Çözümleyici çizelge (ağaç yöntemi) tekniğiyle bir çıkarımın geçerliliğini denetlemek isteyen bir öğrenci, kuralları uygularken hata yapmamak için öğretmeninin panoya astığı o sarsılmaz geçerlilik kuralı adımlarını takip etmektedir. 
+        <br>Buna göre, çözümleyici çizelgede bir çıkarımın **geçerli olup olmadığını denetlemek için atılması gereken İLK ve zorunlu adım** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Öncüllerin değili alınmalı, sonuç aynen bırakılmalıdır.</li>
+            <li>B) Öncüller aynen alınmalı, **sonuç cümlesinin önüne değilleme eklemi ($\sim$) getirilerek (sonucun değili alınarak)** hep birlikte tek bir dikey hat üzerinde tutarlılık denetlemesi yapılmalıdır.</li>
+            <li>C) Tüm önermeler çatal açılarak başlanmalıdır.</li>
+            <li>D) Sonuç cümlesi çıkarımdan tamamen atılmalıdır.</li>
+            <li>E) Önermelerin sadece harfleri yazılmalıdır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sembolik mantığın en hayati geçerlilik denetleme kuralını sorgulayan harika bir final sorusudur. Bir çıkarımın geçerli olması, öncüller doğruyken sonucun yanlış olmasının imkansız olması demektir.
+            <br>• Bunu ağaç yöntemiyle denetlemek için: <b>Öncüller aynen yazılır, sonuç cümlesinin DEĞİLİ (~) alınır</b> ve hep beraber çözülür. Eğer bu işlem sonunda tüm dallar çelişkiyle kapanır ve **tutarsız** çıkarsa, çıkarımın <b>GEÇERLİ</b> olduğu tescillenir. Bu algoritma ÖSÜM'ün mantık testlerindeki en sarsılmaz kuralıdır. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

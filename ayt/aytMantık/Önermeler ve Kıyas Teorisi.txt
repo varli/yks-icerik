@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Mantık - Modül 2: Önermeler ve Kıyas Teorisi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafbfe;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafbfe; }
+        .header-banner { background: linear-gradient(135deg, #1e1b4b, #312e81); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0e7ff; font-style: italic; }
+        h2 { color: #1e1b4b; font-size: 16pt; border-left: 6px solid #4f46e5; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #312e81; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #e0e7ff; border: 1px dashed #6366f1; border-left: 5px solid #4f46e5; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e1b4b; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e1b4b; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e1b4b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e1b4b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MANTIK - MODÜL 2: ÖNERMELER VE KIYAS TEORİSİ</h1>
+        <p>"Rasyonel Çıkarım: Karşı Olum Karesi, Döndürme Kodları ve Tasım Akıl Yürütme Kuralları"</p>
+    </div>
+
+    <h2>1. ÖNERMENİN YAPISI VE ÇEŞİTLERİ</h2>
+    <p>Doğru veya yanlış bir doğruluk değeri taşıyan, en az iki terim ve bir bağdan oluşan bildirme cümlelerine <b>Önerme</b> denir. (Soru, ünlem, dilek ve emir cümleleri önerme değildir). Klasik mantıkta önermeler nitelik (**Olumlu/Olumsuz**) ve nicelik (**Tümel/Tikel/Tekil**) yönünden 4 ana koda ayrılır ve sembolize edilir:</p>
+    <ul>
+        <li><b>A (Tümel Olumlu):</b> Sınıfın tamamını kapsar ve onaylar. (Örn: *Her insan ölümlüdür.*)</li>
+        <li><b>E (Tümel Olumsuz):</b> Sınıfın tamamını dışlar ve reddeder. (Örn: *Hiçbir taş canlı değildir.*)</li>
+        <li><b>I (Tikel Olumlu):</b> Sınıfın bir kısmını kapsar ve onaylar. (Örn: *Bazı öğrenciler çalışkandır.*)</li>
+        <li><b>O (Tikel Olumsuz):</b> Sınıfın bir kısmını dışlar ve reddeder. (Örn: *Bazı insanlar gözlüklü değildir.*)</li>
+    </ul>
+
+    <h2>2. ARİSTOTELES'İN KARŞI OLUM KARESİ (KARE DİYAGRAMI)</h2>
+    <p>Aynı özne ve yükleme sahip önermelerin sadece nitelik, nicelik veya hem nitelik hem nicelik yönünden değiştirildiğinde aralarında kurulan mantıksal ilişkileri gösteren karedir:</p>
+
+    
+
+    <ol>
+        <li><b>Üst Karşıtlık (A ile E arası):</b> Özneleri ve yüklemleri aynı olan iki tümel önermenin nitelikçe (olumlu/olumsuz) çelişmesidir. Biri doğruysa diğeri kesinlikle yanlıştır.</li>
+        <li><b>Altıklar (A ile I / E ile O arası):</b> Sadece nicelik farkı (tümel/tikel) vardır. Tümel önerme doğruysa, onun altığı olan tikel önerme de otomatikman doğrudur.</li>
+        <li><b>Çelişiklik (A ile O / E ile I arası):</b> Çapraz ilişkidir. Hem nitelik hem nicelik yönünden tamamen zıttırlar. Biri doğruysa diğeri **mutlak surette** yanlıştır, ikisi aynı anda doğru veya yanlış olamaz.</li>
+    </ol>
+
+    <h2>3. ÖSÜM'NÜN FORMÜLÜ: ÖNERMELERDE DÖNDÜRME KURALLARI</h2>
+    <p>Bir önermenin doğruluğunu ve niteliğini (olumlu/olumsuz) bozmadan, öznesiyle yükleminin yerini değiştirme işlemidir. ÖSYM buradan her yıl kesinlikle matematiksel soru kurar:</p>
+
+    <div class="warning-box">
+        <strong>👑 1. DÜZ DÖNDÜRME FORMÜLÜ (Şifre: İKİ CAMI KIRDI):</strong>
+        <br>Önermenin olumluluğu/olumsuzluğu aynen kalır; özne yüklenir, yüklem özne olur. Hangi önermenin neye dönüşeceği şu sessiz harflerle kodlanır:
+        <br>&bull; <b>A</b> önermesi &rarr; <b>I</b> önermesine dönüşür. (Tümel Olumlu &rarr; Tikel Olumlu)
+        <br>&bull; <b>E</b> önermesi &rarr; <b>E</b> önermesine dönüşür. (Tümel Olumsuz &rarr; Tümel Olumsuz)
+        <br>&bull; <b>I</b> önermesi &rarr; <b>I</b> önermesine dönüşür. (Tikel Olumlu &rarr; Tikel Olumlu)
+        <br>&bull; <b>O önermesinin düz döndürmesi YOKTUR!</b> (Tikel olumsuz döndürülemez).
+    </div>
+
+    <div class="warning-box">
+        <strong>👑 2. TERS DÖNDÜRME FORMÜLÜ (Şifre: EROL ATAR):</strong>
+        <br>Önermenin öznesinin karşıtı (değili) yüklem, yükleminin karşıtı (değili) özne yapılır. Dönüşüm sessiz harfleri:
+        <br>&bull; <b>E</b> önermesi &rarr; <b>O</b> önermesine dönüşür. (Tümel Olumsuz &rarr; Tikel Olumsuz)
+        <br>&bull; <b>A</b> önermesi &rarr; <b>A</b> önermesine dönüşür. (Tümel Olumlu &rarr; Tümel Olumlu)
+        <br>&bull; <b>O</b> önermesi &rarr; <b>O</b> önermesine dönüşür. (Tikel Olumsuz &rarr; Tikel Olumsuz)
+        <br>&bull; <b>I önermesinin ters döndürmesi YOKTUR!</b> (Tikel olumlu ters döndürülemez).
+    </div>
+
+    <h2>4. MANTIKIN ZİRVESİ: KIYAS (TASIM) VE KURALLARI</h2>
+    <p>En az iki öncülden (veriden) hareketle zorunlu olarak bir sonuç çıkarma işlemine <b>Kıyas</b> denir. (Örn: *Her insan ölümlüdür (1. Öncül) / Sokrates insandır (2. Öncül) / O halde Sokrates ölümlüdür (Sonuç)*).
+    <br>Kıyasın içinde üç temel terim bulunur: <b>Büyük Terim</b> (Sonucun yüklemi), <b>Küçük Terim</b> (Sonucun öznesi) ve <b>Orta Terim</b> (Her iki öncülde de tekrarlanan ancak **sonuç cümlesinde kesinlikle yer almayan** köprü terimdir. Yukarıdaki örnekte 'insan' orta terimdir).</p>
+
+    <h3>Sarsılmaz Kıyas Kuralları (ÖSYM Buradan Hata Buldurur):</h3>
+    <ul>
+        <li>Her kıyasta büyük, küçük ve orta terim olmak üzere sadece ve sadece **üç terim** bulunmalıdır.</li>
+        <li>**İki olumsuz öncülden kesinlikle sonuç çıkmaz.** Öncüllerden en az biri olumlu olmalıdır.</li>
+        <li>**İki tikel öncülden kesinlikle sonuç çıkmaz.** Öncüllerden en az biri tümel olmalıdır.</li>
+        <li>Sonuç, her zaman öncüllerin **en zayıf ve kısıtlı olanına** uymak zorundadır. (Öncüllerden biri olumsuzsa sonuç olumsuz, biri tikelse sonuç tikel olmak zorundadır).</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> *"Her canlı beslenir"* önermesi klasik mantıkta tümel olumlu ($A$) bir önermedir. Mantık öğretmeni Emre'den bu önermenin kurallara uygun olarak **"Düz Döndürmesini"** yapmasını istemiştir. 
+        <br>Buna göre, Emre'nin tahtaya yazması gereken **en doğru ve mantıksal düz döndürme cümlesi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hiçbir beslenen canlı değildir.</li>
+            <li>B) Bazı beslenenler canlıdır.</li>
+            <li>C) Bazı canlılar beslenen değildir.</li>
+            <li>D) Her beslenen canlıdır.</li>
+            <li>E) Bazı beslenmeyenler canlı olmayandır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Düz döndürmenin o meşhur altın şifresini işletelim: **"A" önermesinin düz döndürmesi "I" önermesi olur** (Kelimemiz: c<b>A</b>m<b>I</b>).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Verilen cümle: *"Her canlı beslenir"* &rarr; Tümel Olumlu ($A$).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Formüle göre yüklem (beslenir) başa gelecek, özne (canlı) sona gidecek ve cümle **Tikel Olumlu ($I$)** yapılacak.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bu kuralları tam karşılayan kalıp: <b>"Bazı beslenenler canlıdır"</b> ($I$) önermesidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Aristoteles'in Karşı Olum Karesi'ne göre; çapraz konumda yer alan iki önerme (A ile O / E ile I) birbiriyle **"Çelişik"** ilişkisi içindedir. Çelişik önermelerin en katı kuralı, aynı anda doğru veya aynı anda yanlış olamamalarıdır. 
+        <br>Buna göre, *"Hiçbir kitap zararlı değildir"* ($E$) tümel olumsuz önermesinin **Karşı olum karesindeki çelişiği olan önerme** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Her kitap zararlıdır ($A$)</li>
+            <li>B) Bazı kitaplar zararlıdır ($I$)</li>
+            <li>C) Bazı kitaplar zararlı değildir ($O$)</li>
+            <li>D) Hiçbir zararlı kitap değildir</li>
+            <li>E) Bazı kitap olmayanlar zararlı olmayandır</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karşı olum karesinin çapraz hatlarını hatırlayalım: Tümel Olumsuz ($E$) önermesinin tam çaprazındaki çelişiği **Tikel Olumlu ($I$)** önermesidir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Verilen önerme: *"Hiçbir kitap zararlı değildir"* ($E$).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bu cümlenin öznelerini bozmadan tikel olumlu ($I$) kalıbına sokmamız gerekir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Doğru seçenek: <b>"Bazı kitaplar zararlıdır"</b> ($I$) cümlesidir. Biri doğruysa diğeri mutlak yanlıştır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Klasik mantıkta tikel olumsuz ($O$) önermelerin (Örn: *Bazı insanlar sporcu değildir*) döndürme kuralları çok katı istisnalara tabidir. 
+        <br>Buna göre önermelerde döndürme kuralları dikkate alındığında, **tikel olumsuz ($O$) bir önermenin düz döndürmesi** hakkında aşağıdakilerden hangisi kesinlikle doğrudur?</div>
+        <ul class="options-list">
+            <li>A) Düz döndürmesi tümel olumlu ($A$) olur.</li>
+            <li>B) Düz döndürmesi tikel olumlu ($I$) olur.</li>
+            <li>C) Tikel olumsuz ($O$) önermenin **düz döndürmesi kesinlikle YAPILAMAZ / YOKTUR**.</li>
+            <li>D) Düz döndürmesi kendisi gibi tikel olumsuz olur.</li>
+            <li>E) Şifresi "at" kelimesidir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Düz döndürmenin sesli harf yasasını denetleyelim: **"İKİ CAMI KIRDI"** formülündeki sessiz harflere göre: $A \rightarrow I$, $E \rightarrow E$, $I \rightarrow I$ dönüşümü geçerlidir.
+            <br>• Dikkat edilirse şifreli sesli harfler içinde **"O" (Tikel olumsuz)** harfi kesinlikle yer almaz. Mantık kurallarına göre tikel olumsuz bir önermenin doğruluğunu ve niteliğini bozmadan terimlerinin yerini değiştirmek imkansızdır. Bu yüzden <b>O önermesinin düz döndürmesi yoktur</b>. Sınavların en büyük tuzak bilgi şıkkıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> 
+            <i>1. Öncül: Her profesör entelektüeldir.
+            <br>2. Öncül: İlber Ortaylı profesördür.
+            <br>Sonuç: O halde İlber Ortaylı entelektüeldir.</i>
+            <br>Yukarıda verilen geçerli kıyas yapısı incelendiğinde; her iki öncülde de köprü vazifesi görerek tekrarlanan, kıyasın iskeletini kuran ancak <b>sonuç cümlesinde kesinlikle yer almaması gereken "Orta Terim"</b> aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Entelektüel</li>
+            <li>B) İlber Ortaylı</li>
+            <li>C) Profesör</li>
+            <li>D) O halde</li>
+            <li>E) Her</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kıyasın terim anatometrisini çıkaralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sonuç cümlesinin yüklemi olan "entelektüel" **Büyük Terim**'dir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sonuç cümlesinin öznesi olan "İlber Ortaylı" **Küçük Terim**'dir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Hem 1. hem 2. öncülde ortaklaşa kullanılan, büyük ve küçük terimi birbirine bağlayan ama **sonuç cümlesinde asla yazılmayan** o sihirli köprü terim ise <b>"Profesör"</b>dür, yani tam anlamıyla <b>Orta Terim</b>'dir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Klasik mantıkta geçerli ve kurallara uygun bir kıyas tasımı oluşturabilmek için Aristoteles tarafından belirlenmiş katı sarsılmaz kurallar vardır. Bu kuralların ihlal edilmesi çıkarımı tamamen geçersiz kılar. 
+        <br>Buna göre, aşağıdaki kıyas kurallarından hangisi **mantıken kesinlikle doğrudur**?</div>
+        <ul class="options-list">
+            <li>A) İki olumsuz öncülden her zaman tümel olumlu bir sonuç çıkar.</li>
+            <li>B) İki tikel öncülden kesinlikle geçerli bir sonuç elde edilemez, öncüllerden en az biri tümel olmalıdır.</li>
+            <li>C) Sonuç cümlesi her zaman öncüllerin en güçlüsüne uymak zorundadır.</li>
+            <li>D) Bir kıyasta toplamda en az beş adet terim bulunmalıdır.</li>
+            <li>E) Orta terim sonuç cümlesinin öznesi olmak zorundadır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kıyas kurallarının doğruluğunu denetleyelim: İki olumsuzdan sonuç çıkmaz (A yanlış), Kıyasta 3 terim olmalıdır (D yanlış), Sonuç en zayıf öncüle uyar (C yanlış), Orta terim sonuçta yer almaz (E yanlış).
+            <br>• Ancak sarsılmaz kıyas kanununa göre: <b>İki tikel öncülden (Örn: Bazı insanlar esmerdir / Bazı esmerler sporcudur) kesinlikle mantıksal ve zorunlu bir sonuç cümlesi çıkarılamaz</b>. Öncüllerden en az birinin "Her" veya "Hiçbir" gibi bir tümel nicelikle başlaması zorunludur. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

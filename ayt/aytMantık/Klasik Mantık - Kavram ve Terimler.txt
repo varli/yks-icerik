@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Mantık - Modül 1: Klasik Mantık - Kavram ve Terimler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafbfe;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafbfe; }
+        .header-banner { background: linear-gradient(135deg, #1e1b4b, #4338ca); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0e7ff; font-style: italic; }
+        h2 { color: #1e1b4b; font-size: 16pt; border-left: 6px solid #4f46e5; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #4338ca; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #e0e7ff; border: 1px dashed #6366f1; border-left: 5px solid #4f46e5; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e1b4b; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e1b4b; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e1b4b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e1b4b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT MANTIK - MODÜL 1: KLASİK MANTIK (KAVRAM VE TERİMLER)</h1>
+        <p>"Doğru Düşünmenin Yasaları: Nelik-Gerçeklik Dengesi, Beş Tümel Ağacı ve Mantıksal İlişkiler"</p>
+    </div>
+
+    <h2>1. KAVRAMLARIN BOYUTLARI: NELİK, GERÇEKLİK VE KİMLİK</h2>
+    <p>Bir nesnenin zihindeki soyut tasarımına <b>Kavram</b>, bu kavramın dille ifade edilmiş haline ise <b>Terim</b> denir. ÖSYM, bir kavramın varlık boyutunu üç aşamalı bir mantık süzgeciyle sorgular:</p>
+    <ul>
+        <li><b>Nelik (Zihinsel Varlık):</b> Bir kavramın sadece ve sadece **zihinde var olması**, dış dünyada hiçbir somut karşılığının bulunmaması durumudur. **Her kavramın mutlaka bir neliği vardır.** (Örn: Kafdağı, Denizkızı, Pegasus, Unicorn, Anka Kuşu).</li>
+        <li><b>Gerçeklik (Dışsal Varlık):</b> Zihindeki kavramın dış dünyada somut, elle tutulur, gözle görülür bir karşılığının olmasıdır. (Örn: Dağ, Deniz, At, Kuş kavramlarının dış dünyada gerçekliği vardır. Ancak Kafdağı'nın gerçekliği yoktur).</li>
+        <li><b>Kimlik (Belirli Varlık):</b> Gerçekliği olan bir kavramın, dış dünyada "şudur" diye işaret edilebilen, **tek bir somut nesneye** indirgenmiş halidir. (Örn: Dağ kavramdır, gerçekliği vardır; ama <b>"Ağrı Dağı"</b> dediğimiz an o kavram bir kimlik kazanır).</li>
+    </ul>
+
+    <h2>2. ÖSYM'NİN EN SEVDİĞİ TABLO: PORPHYRİUS (BEŞ TÜMEL) AĞACI</h2>
+    <p>Aristoteles'in kategorilerini açıklamak amacıyla Porphyrius tarafından kurulan bu hiyerarşik ağaç, kavramları genelden özele doğru beş temel sınıfta inceler:</p>
+
+    
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tümel Türü</th>
+                <th>Mantıksal Tanımı ve İşlevi</th>
+                <th>Nokta Atışı Klasik Örneği</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>1. CİNS</b></td>
+                <td>Ortak özellikleri olan iki sınıftan **daha genel olan**, altında türleri barındıran üst kavramdır. Sınıflandırırken üstte kalır.</td>
+                <td>**Hayvan** (Kuşa göre cinstir), **Canlı** (Hayvana göre cinstir).</td>
+            </tr>
+            <tr>
+                <td><b>2. TÜR</b></td>
+                <td>Cinsin altında yer alan, daha özel, ortak özelliklere sahip nesneler topluluğudur. Sınıflandırırken altta kalır.</td>
+                <td>**İnsan** (Canlı cinsine göre türdür), **Kedi** (Hayvan cinsine göre türdür).</td>
+            </tr>
+            <tr>
+                <td><b>3. AYRIM</b></td>
+                <td>Bir türü, içinde yer aldığı cinsteki diğer türlerden ayıran **en hayati, en temel özelliktir**. Geri alınamaz.</td>
+                <td>İnsanın canlı cinsindeki diğer canlılardan ayrımı: <b>Düşünen / Konuşan</b> olmasıdır.</td>
+            </tr>
+            <tr>
+                <td><b>4. ÖZGÜLÜK</b></td>
+                <td>Sadece ve sadece **tek bir türe ait olan**, başka hiçbir türde bulunmayan özel bir niteliktir.</td>
+                <td>İnsana özgülük: <b>Kültür üretmek, resim yapmak, felsefe yapmak, ağlamak</b>.</td>
+            </tr>
+            <tr>
+                <td><b>5. İLİNTİ</b></td>
+                <td>Tek bir türe ait olmayan, **birden fazla türe yayılan**, geçici veya ortak olan genel niteliklerdir.</td>
+                <td>Uyumak, beslenmek, yürümek, ölümlü olmak. (Hem insanda, hem kedide, hem kuşta vardır).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. KAVRAMLAR ARASI DÖRT İLİŞKİ BİÇİMİ</h2>
+    <p>İki kavramın kapsadığı nesne kümeleri (kaplamları) mantıksal olarak 4 şekilde kesişebilir. ÖSYM bunları şemalarla sormayı çok sever:</p>
+    <ul>
+        <li><b>1. Eşitlik:</b> İki kavramın kümesi tamamen aynıdır. Biri diğerinin tıpatıp aynısıdır. (Örn: **İnsan** ile **Düşünen**. Her insan düşünendir, her düşünen insandır).</li>
+        <li><b>2. Ayrıklık:</b> İki kavramın hiçbir ortak elemanı yoktur, kümeleri tamamen bağımsızdır. (Örn: **Taş** ile **Kuş**. Hiçbir taş kuş değildir, hiçbir kuş taş değildir).</li>
+        <li><b>3. Tam Girişimlik:</b> Kavramlardan biri, diğer kavramın kümesini tamamen içine alır, onu yutar. (Örn: **Canlı** ile **İnsan**. Her insan canlıdır, ama bazı canlılar insandır. Canlı kümesi insanı kapsar).</li>
+        <li><b>4. Eksik Girişimlik:</b> İki kavramın kümeleri çaprazlama olarak sadece bir bölgede kesişir. (Örn: **Sporcu** ile **Öğretmen**. Bazı öğretmenler sporcudur, bazı sporcular öğretmendir).</li>
+    </ul>
+
+    
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Mantık dersinde tahtaya kalkan bir öğrenci; "Anka Kuşu", "Denizkızı" ve "Kafdağı" kavramlarının ortak özelliklerini analiz ederken; bu kavramların hepsinin insan zihninde bir tasarım olarak var olduğunu, ancak dış dünyada somut, fiziksel hiçbir karşılıklarının bulunmadığını belirtmiştir. 
+        <br>Buna göre öğrencinin tahtaya yazdığı bu kavramlar, mantık literatürüne göre **aşağıdaki özelliklerden hangisine zorunlu olarak sahiptir**?</div>
+        <ul class="options-list">
+            <li>A) Sadece gerçekliğe sahiptirler, nelikleri yoktur.</li>
+            <li>B) Sadece **Neliğe (Zihinsel Varlığa)** sahiptirler, gerçeklikleri yoktur.</li>
+            <li>C) Hem neliğe, hem gerçekliğe, hem de kimliğe sahiptirler.</li>
+            <li>D) Sadece kimlikleri vardır.</li>
+            <li>E) Beş tümel içinde ilinti sınıfındadırlar.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kavramların varlık boyutlarını süzgeçten geçirelim. Bir kavramın sadece insan zihninde hayal/tasarım olarak var olması, laboratuvarda veya doğada somut bir cisim olarak bulunmaması durumuna mantıkta <b>Nelik</b> denir.
+            <br>• Soruda verilen Anka Kuşu, Denizkızı ve Kafdağı mitolojik unsurlardır, zihinde tasarlanabilirler (nelikleri vardır) ama dış dünyada uçan bir Anka kuşu bulamazsınız (gerçeklikleri yoktur). Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> "Gezegen" kavramının dış dünyada somut bir gerçekliği vardır (Jüpiter, Satürn, Dünya vb.). Ancak ben bu genel kavramı daraltıp, evrende çıplak gözle işaret edebileceğim belirli bir tekil nesneye indirgeyerek **"Halley Kuyruklu Yıldızı"** veya **"Dünya"** dediğim andan itibaren o kavram yepyeni bir boyut kazanır. 
+        <br>Genel bir kavramın dış dünyada tek bir somut nesne olarak somutlaşmış bu **belirli varlık boyutuna** ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Nelik</li>
+            <li>B) Kimlik</li>
+            <li>C) Cins</li>
+            <li>D) Ayrım</li>
+            <li>E) İlinti</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Mantıkta kavram-nesne somutlaşma zincirini takip edelim: 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1. Nehir (Zihindeki fikir) &rarr; Neliktir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2. Nehir (Doğadaki akan su kütleleri genel adı) &rarr; Gerçekliktir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 3. **"Kızılırmak"** (Tek bir özel nehir) &rarr; <b>Kimlik</b>tir.
+            <br>• Soruda "Gezegen" kavramının dış dünyada tek bir somut nesneye indirgenerek adlandırılması (Dünya veya Halley denmesi) onun tam anlamıyla bir **Kimlik** kazandığının tescilidir. Doğru şık B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Porphyrius Ağacı'na (Beş Tümel Hiyerarşisine) göre; "Düşünmek" ve "Kültür üretmek" özellikleri sadece ve sadece "İnsan" türüne ait olan, insandan başka hiçbir canlı türünde kesinlikle bulunmayan sarsılmaz niteliklerdir. 
+        <br>Beş tümel kuramına göre, sadece tek bir türe ait olan bu tarz benzersiz kavramsal niteliklere ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Cins</li>
+            <li>B) Ayrım</li>
+            <li>C) Özgülük</li>
+            <li>D) İlinti</li>
+            <li>E) Tür</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Beş tümel kavram sınırlarını denetleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - İlinti birden fazla türe yayılan ortak özelliktir (Uyumak, beslenmek gibi - D elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ayrım bir türü cinsinden ayıran temel biyolojik/mantıksal sınırdır (B elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sadece ve sadece **tek bir türe hasredilmiş olan**, o türün adeta imzası niteliğindeki kavramsal niteliklere mantık biliminde doğrudan <b>Özgülük</b> adı verilir. Resim yapmak, felsefe yapmak insana özgüdür. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> "Miyavlamak" ve "Dört bacaklı olmak" nitelikleri beş tümel hiyerarşisinde analiz edilmiştir. "Miyavlamak" sadece kedi türüne aitken; "Dört bacaklı olmak" niteliği hem kedide, hem köpekte, hem de atta bulunan ortak, genel bir fizizsel özelliktir. 
+        <br>Buna göre, birden fazla türe yayılan ve onlar tarafından **ortaklaşa paylaşılan bu tarz genel nitelikler** beş tümel içinde hangi sınıfa girer?</div>
+        <ul class="options-list">
+            <li>A) Cins</li>
+            <li>B) Ayrım</li>
+            <li>C) Özgülük</li>
+            <li>D) İlinti</li>
+            <li>E) Tür</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorunun mantıksal odağı, özelliğin kaç türü kapsadığıdır. Eğer bir nitelik tek bir türe aitse özgülüktür (Miyavlamak kediye özgüdür).
+            <br>• Ancak "Dört bacaklı olmak", "Uyumak", "Beslenmek", "Ölümlü olmak" gibi nitelikler tek bir sınıfa kilitlenemez; **pek çok farklı canlı türü tarafından ortaklaşa taşınan genel ve paylaşılan özelliklerdir**. Mantıkta bu tarz ortak/geçici niteliklere <b>İlinti</b> adı verilir. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> "Gözlüklü" ve "Öğretmen" kavramları arasındaki mantıksal ilişki şemalarla incelenmiştir. Bu iki kavramın elemanları analiz edildiğinde; bazı gözlüklülerin öğretmen olduğu, bazı öğretmenlerin de gözlüklü olduğu görülmüştür. Yani kümeler birbirini tamamen yutmamış, sadece ortak bir bölgede kısmen kesişmiştir. 
+        <br>Kavramlar arası ilişkiler teorisine göre, bu iki kavram arasındaki mantıksal bağıntı türü aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Eşitlik</li>
+            <li>B) Ayrıklık</li>
+            <li>C) Tam Girişimlik</li>
+            <li>D) Eksik Girişimlik</li>
+            <li>E) Özdeşlik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kavramlar arası kesişim kümelerini yorumlayalım. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Eğer hiçbir ortaklık olmasaydı Ayrıklık olurdu (Taş-Kuş gibi). 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Biri diğerini tamamen kapsasaydı Tam Girişimlik olurdu (Canlı-İnsan gibi).
+            <br>• Ancak "Gözlüklü" ve "Öğretmen" kümeleri **çaprazlama olarak sadece bir bölgede ortaklık kurmuştur**. Bazı öğretmenler gözlüklüdür, bazı gözlüklüler öğretmendir. Kavramların bu kısmi ortaklık ve kesişim ilişkisine mantıkta net olarak <b>Eksik Girişimlik</b> adı verilir. Doğru şık D'dir.
+        </div>
+    </div>
+
+</body>
+</html>
