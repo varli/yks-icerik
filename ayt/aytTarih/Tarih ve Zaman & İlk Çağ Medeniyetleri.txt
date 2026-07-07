@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 1: Tarih ve Zaman & İlk Çağ Medeniyetleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #0f172a, #0284c7); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0f2fe; font-style: italic; }
+        h2 { color: #0369a1; font-size: 16pt; border-left: 6px solid #0284c7; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0f766e; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #0d9488; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0369a1; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0f172a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0f172a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 1: TARİH VE ZAMAN & İNSANLIĞIN İLK DÖNEMLERİ</h1>
+        <p>"Zamanın Kayıtları: Tarih Yazıcılığı, Kronoloji ve Kadim Akdeniz-Mezopotamya Medeniyetlerinin Şifreleri"</p>
+    </div>
+
+    <h2>1. TARİH BİLİMİNİN YÖNTEMİ VE YARDIMCI BİLİMLER</h2>
+    <p>Tarih; geçmişte yaşamış insan topluluklarının faaliyetlerini, birbirleriyle olan ilişkilerini yer ve zaman göstererek, sebep-sonuç ilişkisi içerisinde, belgelere dayanarak, objektif (nesnel) olarak inceleyen sosyal bir bilim dalıdır. Tarih araştırmalarında deney ve gözlem kesinlikle <u>yapılamaz</u>.</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN VURUR — YAZILI VE YAZISIZ BELGE AYRIMI:</strong>
+        <br>Tarih öncesi dönemlerin (Taş ve Maden çağları) araştırılmasında yazılı bilim dalları kesinlikle kullanılamaz. Örneğin, bir höyükte yapılan kazıda yazı bulunana kadar geçen evrelerde **Paleografya** veya **Numizmatik** bilimlerinden yararlanılamaz. Sadece arkeoloji ve kimya gibi bilimler devrededir.
+    </div>
+
+    <h3>Tarihe Yardımcı Bilim Dalları Şifreleri:</h3>
+    <ul>
+        <li><b>Arkeoloji:</b> Kazı bilimidir. Özellikle yazının henüz bulunmadığı tarih öncesi dönemlerin aydınlatılmasında bir numaralı kılavuzdur.</li>
+        <li><b>Paleografya:</b> Eski yazıların okunmasını, türlerini ve gelişimini inceleyen **yazı bilimidir**.</li>
+        <li><b>Epigrafi:</b> Kitabeler, anıtlar ve taşlar üzerindeki yazıları inceleyen <b>anıt (kitabe) bilimidir</b>. (Örn: Orhun Yazıtları).</li>
+        <li><b>Numizmatik (Meskukat):</b> Eski dönemlere ait paraları inceleyen <b>para bilimidir</b>. Ekonomik ve siyasi güç hakkında bilgi verir.</li>
+        <li><b>Diplomatik:</b> Siyasi belgeleri, fermanları, anlaşmaları, beratları ve resmi yazışmaları inceleyen <b>belge bilimidir</b>.</li>
+        <li><b>Filoloji:</b> Dillerin yapısını, kökenini ve akrabalık bağlarını inceleyen <b>dil bilimidir</b>.</li>
+        <li><b>Kronoloji:</b> Tarihsel olayları zaman sırasına göre dizen <b>zaman bilimidir</b>.</li>
+        <li><b>Antropoloji:</b> İnsan ırklarını, iskelet ve kafatası yapılarını inceleyen <b>ırk bilimidir</b>.</li>
+    </ul>
+
+    <h2>2. TÜRKLERİN TARİH BOYUNCA KULLANDIĞI TAKVİMLER</h2>
+    <p>Türkler yaşadıkları coğrafi çevreye, kültürel etkileşimlere ve benimsedikleri dinlere göre kronolojik olarak 5 büyük takvim sistemi kullanmışlardır:</p>
+    <ol>
+        <li><b>12 Hayvanlı Türk Takvimi:</b> Türklerin kullandığı en eski, milli takvimdir. **Güneş yılı** esaslıdır. Aylar sayılarla, yıllar ise hayvan isimleriyle (Sıçan yılı, Pars yılı vb.) anılır.</li>
+        <li><b>Hicri Takvim:</b> İslamiyet’in kabulüyle geçilmiştir. **Ay yılı** esaslı tek Türk takvimidir. Başlangıcı 622 Hicret’tir. Hz. Ömer döneminde oluşturulmuştur.</li>
+        <li><b>Celali Takvimi:</b> Büyük Selçuklu Sultanı Melikşah adına Ömer Hayyam başkanlığındaki heyet tarafından, **ekonomik/mali işleri** düzenlemek için hazırlanmıştır. Güneş yılı esaslıdır.</li>
+        <li><b>Rumi Takvim:</b> Osmanlı Devleti’nde 17. yüzyıldan itibaren sadece **mali işlerin ve vergilerin** düzenlenmesi amacıyla kullanılan Güneş yılı esaslı takvimdir. Başlangıcı yine Hicret'tir.</li>
+        <li><b>Miladi Takvim:</b> 1 Ocak 1926’dan itibaren Türkiye Cumhuriyeti’nde kullanılmaya başlanan, Güneş yılı esaslı, başlangıcı Hz. İsa’nın doğumu (Milat) olan takvimdir.</li>
+    </ol>
+
+    <h2>3. İNSANLIĞIN İLK DÖNEMLERİ (İLK ÇAĞ MEDENİYETLERİ ATLASI)</h2>
+    <p>Yazının icadından (MÖ 3200) Kavimler Göçü’ne (MS 375) kadar süren dönem İlk Çağ olarak adlandırılır. Bu çağda nehir yataklarında ve verimli havzalarda büyük medeniyetler filizlenmiştir:</p>
+
+    <div class="memory-box">
+        <strong>👑 ANADOLU MEDENİYETLERİNİN NOKTA ATIŞI ŞİFRELERİ:</strong>
+        <br>&bull; <b>Hititler:</b> Başkentleri Hattuşaş’tır. Kralın yanında en büyük yetkiye sahip kraliçeye <b>Tavananna</b>, soylulardan oluşan meclise ise <b>Pankuş Meclisi</b> denir (İlk meşruti krallık izleri). Kralların tanrıya hesap vermek amacıyla yazdıkları objektif resmi tarih yıllıkları olan <b>Anal</b>'ları ilk kez yazmışlardır (İlk tarafsız tarih yazıcılığı). Mısır ile tarihin ilk yazılı anlaşması olan <b>Kadeş Antlaşması</b>'nı (MÖ 1280) imzalamışlardır.
+        <br>&bull; <b>Frigler:</b> Başkentleri Gordion’dır. Geçim kaynakları tarım ve hayvancılıktır. Hukuk kuralları tarıma endekslidir; **öküz öldürenin veya saban kıranın cezası idamdırdır**. Bereket tanrıçalarına <b>Kibele</b>, halı/kilim dokumalarına <b>Tapates</b>, hayvan hikayelerine (fabl) ve çengelli iğnelerine <b>Fibula</b> denir.
+        <br>&bull; <b>İyonlar:</b> Şehir devletleri (Efes, Milet, İzmir) şeklinde yaşamışlardır. Merkezi otorite yoktur. Deniz ticareti sayesinde zenginleşmişler ve **özgür düşünce ortamı** kurmuşlardır. Bu sayede bilim fırlamış; Hipokrat, Herodot, Tales ve Pisagor bu topraklardan çıkmıştır.
+        <br>&bull; <b>Urartular:</b> Başkentleri Tuşpa (Van)’dır. Taş işçiliği ve madencilikte devleşmişlerdir. Tarımı geliştirmek için yaptıkları <b>Şamran Kanalı</b> (su kanalı) bugün bile hala çalışmaktadır.
+        <br>&bull; <b>Lidyalılar:</b> Başkentleri Sardes’tir. Kral Yolu’nu kurarak ticareti patlatmışlardır. **Tarihte parayı ilk kez icat eden medeniyettir**. Ordularını tamamen **paralı askerlerden** kurdukları için vatan sevgisi oluşmamış ve kısa sürede yıkılmışlardır.
+    </div>
+
+    <h3>A) Mezopotamya Medeniyetleri</h3>
+    <ul>
+        <li><b>Sümerler:</b> **Yazıyı (Çivi yazısı) ilk icat eden medeniyettir.** Tarih Sümerlerle başlar. Şehir devletlerine *Site*, rahip-krallarına *Patesi* denir. Çok amaçlı dev tapınakları olan <b>Ziggurat</b>'ları inşa etmişlerdir (Depo, okul ve rasathane/gözlemevi olarak kullanılır). Ay yılı esaslı takvimi ilk bulandırlar. Tarihin ilk yazılı kanunları olan <b>Urugkina Kanunları</b> Sümerlere aittir (Fidye ve tazminat esaslı, insancıl).</li>
+        <li><b>Babiller:</b> En meşhur kralları I. Hammurabi’dir. Hammurabi dini krallık yerine gücünü ordudan alan **mutlak askeri krallığı** kurmuştur. Kendi adıyla anılan <b>Hammurabi Kanunları</b>, Sümerlerin aksine son derece sert, acımasız ve **Kısasa Kısas** ("göze göz, dişe diş") ilkesine dayanır. Babil'in Asma Bahçeleri meşhurdur.</li>
+        <li><b>Asurlar:</b> Başkentleri Ninova'dır. Kara kolonisi ticareti yapmışlardır. Anadolu'ya (Kayseri Kültepe tabletleri vasıtasıyla) **yazıyı getirerek Anadolu'nun Tarih Çağlarına girmesini sağlayan** medeniyettir. Dünyanın ilk kütüphanesini kurmuşlardır.</li>
+    </ul>
+
+    <h3>B) Mısır ve Kadim Akdeniz Medeniyetleri</h3>
+    <ul>
+        <li><b>Mısır Medeniyetleri:</b> Etrafı çöllerle çevrili olduğu için istilaya uğramamış, tamamen **özgün (kendine has)** kalmıştır. Krallarına tanrı gözüyle bakılan <b>Firavun</b> denir; bu durum katı bir **Teokratik (Dini) Monorşi** yaratmıştır. Nil Nehri'nin taşma zamanlarını hesaplarken *Astronomi ve Geometri*, mumyalama yaparken *Tıp ve Eczacılık*, kendi resimli yazıları olan *Hiyeroglif*i yazarken *Papirüs* kağıdını bulmuşlardır. Güneş yılı esaslı takvimi ilk icat edenlerdir.</li>
+        <li><b>Fenikeliler:</b> Deniz ticaret kolonileri kurmuşlardır. En büyük mirasları, bugünkü Latin alfabesinin temelini oluşturan <b>dünyanın ilk harf alfabesini (Fenike Alfabesi)</b> icat etmeleridir.</li>
+        <li><b>İbraniler:</b> **Tarihte ilk kez tek tanrılı (Semavi) din inancını (Musevilik)** benimseyen topluluktur. Dini sadece kendi ırklarına has gördükleri için Musevilik dünyada yayılmamış, milli bir din olarak kalmıştır.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Bir tarih profesörü, yürüttüğü arkeolojik kazı projesinde bir İlk Çağ höyüğünün en alt katmanından en üst katmanına doğru sırasıyla; taş baltalar, pişmiş topraktan çanak çömlekler, tunç kılıçlar ve üzerinde kralın mührü bulunan **yazılı kil tabletler** keşfetmiştir. 
+        <br>Buna göre profesör, kazının yazı bulunana kadar geçen o en eski evrelerini aydınlatırken aşağıdaki bilim dallarının hangisinden <b>kesinlikle yararlanamaz</b>?</div>
+        <ul class="options-list">
+            <li>A) Arkeoloji</li>
+            <li>B) Kimya (Karbon 14 metodu)</li>
+            <li>C) Antropoloji</li>
+            <li>D) Paleografya</li>
+            <li>E) Etnografya</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tarih biliminin en temel metodolojik kuralını işletelim: Yazının henüz bulunmadığı dönemlere **Tarih Öncesi Çağlar**, yazının icadından sonraki dönemlere ise **Tarih Çağları** denir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Arkeoloji (A) kazı yaparak nesneleri çıkarır, Kimya (B) Karbon 14 testiyle nesnelerin yaşını bulur, Antropoloji (C) kemikleri inceler, Etnografya (E) örf adetleri inceler. Bunlar yazısız dönemde de çalışır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak <b>Paleografya Eski Yazı Bilimidir</b>. Ortada henüz yazı yokken eski yazı bilimi paleografyanın araştırma yapması mantıken ve fiziken imkansızdır. Yazı bulunana kadar paleografya kesinlikle devreye giremez. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Türklerin tarih boyunca göç ettikleri coğrafyalara, kültürel ve dini değişimlerine göre kullandıkları takvim sistemleri incelendiğinde; aşağıda verilen takvimlerden hangisi **diğerlerinden farklı olarak Güneş yılı değil, tamamen Ay yılı (354 gün) esas alınarak** tasarlanmış yegane takvimdir?</div>
+        <ul class="options-list">
+            <li>A) 12 Hayvanlı Türk Takvimi</li>
+            <li>B) Hicri Takvim</li>
+            <li>C) Celali Takvimi</li>
+            <li>D) Rumi Takvim</li>
+            <li>E) Miladi Takvim</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Türklerin kullandığı 5 büyük takvimin astronomik iskeletini kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 12 Hayvanlı Türk Takvimi (Milli takvim), Celali Takvimi (Selçuklu mali takvimi), Rumi Takvim (Osmanlı mali takvimi) ve Miladi Takvim (Modern takvim) dünyadaki her 365 günlük döngü gibi tamamen **Güneş yılı** esaslıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak İslamiyet'in kabulüyle hayatımıza giren, başlangıcı Hz. Muhammed'in Mekke'den Medine'ye hicreti (622) olan ve Hz. Ömer döneminde hazırlanan <b>Hicri Takvim, Ay yılı (ay takvimi - 354 gün) esaslı tek takvim sistemidir</b>. Bu yüzden milli bayramlar ve dini günler her yıl 11 gün erkene kayar. Doğru şık B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> İlk Çağ Anadolu medeniyetlerine ait hukuki ve kültürel miras özellikleri incelendiğinde; **"toplumsal hayatta tarım ve hayvancılığı korumak amacıyla saban kıranın ya da öküz öldürenin cezasını tereddütsüz idam olarak belirleyen"** sert ve korumacı hukuk yasalarına sahip medeniyet hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hititler</li>
+            <li>B) Lidyalılar</li>
+            <li>C) İyonlar</li>
+            <li>D) Frigler</li>
+            <li>E) Urartular</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İlk Çağ medeniyetlerinin hukuk kuralları, onların en büyük geçim kaynaklarının doğrudan bir aynasıdır.
+            <br>• İç Batı Anadolu'da Sakarya nehri çevresinde kurulan ve başkentleri Gordion olan <b>Frigler</b>, hayatlarını tamamen tarım ve hayvancılığa entegre etmişlerdir. Ekonomilerinin temeli tarım olduğu için, hukuki adalet mekanizmalarını da tarımı sabote edecek eylemleri en ağır şekilde cezalandıracak şekilde kurmuşlardır. Bu yüzden saban kıranı veya öküz öldüreni doğrudan **idam** ederlerdi. Doğru şık D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İlk Çağ Mezopotamya uygarlıklarından Asurlara ait tüccarlar, Anadolu'daki yerli topluluklarla ticari ilişkiler kurmak amacıyla Kayseri yakınlarındaki Kültepe bölgesinde "Karum" adı verilen büyük pazar yerleri kurmuşlar ve yanlarında getirdikleri çivi yazılı kil tabletleri buraya bırakmışlardır. 
+        <br>Bu tarihi gelişme dikkate alındığında, Asurlu tüccarların Anadolu kültür tarihine yaptığı **en devrimsel, en büyük katkı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Anadolu'da ilk kez madencilik faaliyetlerini başlatmaları</li>
+            <li>B) Tek tanrılı din inancını Anadolu halkına aşılamaları</li>
+            <li>C) Anadolu'yu ilk kez yazı ile tanıştırarak, Anadolu'nun Tarih Çağlarına (Yazılı döneme) girmesini sağlamaları</li>
+            <li>D) Paralı askerlik sistemini Anadolu'ya getirmeleri</li>
+            <li>E) Anadolu'da ilk kez tarımsal sulama kanallarını inşa etmeleri</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Soru kökündeki tarihi kırılma anını iyi okuyalım: "Asurlu tüccarlar", "Kayseri Kültepe tabletleri" ve "Çivi yazısının gelmesi".
+            <br>• Yazı ilk kez Sümerler tarafından Mezopotamya'da bulunmuştu, dolayısıyla Mezopotamya tarih çağlarına erken girdi. Anadolu ise henüz yazısız tarih öncesi çağları yaşıyordu. <b>Asurlu kara kolonisi tüccarları, ticaret yapmak amacıyla Anadolu'ya geldiklerinde yazıyı da beraberlerinde getirmiş ve Kültepe tabletleriyle Anadolu halkına öğretmişlerdir</b>. Bu sayede Anadolu, tarih öncesi karanlık çağlardan kurtulmuş ve resmen **Tarih Çağlarına (Yazılı Döneme)** adım atmıştır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kadim Mısır medeniyetinin dış dünyadan izole, tamamen kendine has, özgün bir medeniyet yapısı sergilemesinde coğrafi konumunun etrafının çöllerle ve denizlerle kaplı olması etkilidir. 
+        <br>Buna göre Mısır medeniyetinde Firavunların tanrı-kral olarak kabul edilmesinin, ülkede nasıl bir **devlet ve yönetim yapısı** doğurduğu söylenebilir?</div>
+        <ul class="options-list">
+            <li>A) Özgür düşünceye dayalı katılımcı demokrasi</li>
+            <li>B) Soylular meclisinin yönettiği meşruti oligarşi</li>
+            <li>C) Din ve devlet işlerinin iç içe geçtiği katı bir Teokratik Mutlak Monorşi</li>
+            <li>D) Merkezi otoritenin olmadığı bağımsız feodal şehir devletleri</li>
+            <li>E) Kralların seçimle iş başına geldiği cumhuriyet rejimi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Siyaset bilimi ve yönetim biçimi kavramlarını eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Eğer devlet yönetiminde güç tek bir kişideyse buna **Monarşi** denir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Eğer yönetim gücü meşruiyetini dinden, tanrıdan alıyorsa buna **Teokrasi** denir.
+            <br>• Mısır'da baş yönetici olan <b>Firavunlar</b>, tanrının yeryüzündeki gölgesi veya doğrudan tanrının kendisi (tanrı-kral) sayılıyorlardı. Firavunun ağzından çıkan her söz tanrı emri/kanun hükmündeydi. Bu durum gücün dinsel dogma ile perçinlendiği en uç, en katı <b>Teokratik Mutlak Monorşi</b> yapısını doğurmuştur. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

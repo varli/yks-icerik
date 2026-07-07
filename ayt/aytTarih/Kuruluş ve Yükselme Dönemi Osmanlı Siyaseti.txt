@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 6: Kuruluş ve Yükselme Dönemi Osmanlı Siyaseti</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #7f1d1d, #991b1b); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fca5a5; font-style: italic; }
+        h2 { color: #7f1d1d; font-size: 16pt; border-left: 6px solid #b91c1c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #991b1b; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fef2f2; border: 1px dashed #f87171; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #7f1d1d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #7f1d1d; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #7f1d1d; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #7f1d1d; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 6: BEYLİKTEN DEVLETE OSMANLI SİYASETİ</h1>
+        <p>"Çadırdan Cihana: İskân Dehası, Bizans Sınır Siyaseti ve Dünya Gücü Osmanlı'nın Küresel Stratejileri"</p>
+    </div>
+
+    <h2>1. OSMANLI DEVLETİ'NİN KISA SÜREDE BÜYÜME NEDENLERİ</h2>
+    <p>1299 yılında Osman Bey tarafından Söğüt ve Domaniç çevresinde kurulan uç beyliğinin kısa sürede devasa bir imparatorluğa dönüşmesinde pek çok faktör etkilidir: Bizans'ın taht kavgalarıyla zayıflamış olması ve tekfurların (Bizans valileri) halka eziyet etmesi, coğrafi konumun sağladığı **jeopolitik avantaj** (Doğrudan batıya, Hristiyan topraklarına gaza açma imkanı), Anadolu'daki Türk beylikleriyle ilk başlarda barışçıl geçinme siyaseti, **Ahiyân-ı Rûm** (Esnaf teşkilatı), Gaziyân-ı Rûm ve Bâcıyân-ı Rûm (Kadınlar teşkilatı) gibi demografik grupların manevi ve askeri desteği.</p>
+
+    <div class="memory-box">
+        <strong>👑 BALKANLARDA TUTUNMA STRATEJİLERİ (İSKÂN VE İSTİMALET):</strong>
+        <br>&bull; <b>İskân Politikası (Yerleştirme):</b> Fethedilen Balkan topraklarının kalıcı olarak Türk yurdu haline getirilmesi amacıyla, Anadolu'daki göçebe Türkmen boylarının buralara planlı olarak yerleştirilmesidir. Özellikle aralarında kan davası olan aileler seçilmiştir ki Anadolu'da asayiş sağlansın. Yerleşenlerden bir süre vergi alınmamıştır.
+        <br>&bull; <b>İstimalet Politikası (Hoşgörü):</b> Fethedilen yerlerdeki gayrimüslim halkın can, mal, namus ve inanç özgürlüğünün devlet garantisi altına alınmasıdır. Kimsenin dini inancına, ibadetine ve diline karışılmamış, adil bir vergi sistemi uygulanmıştır. Bu sayede Balkan halkları, Bizans veya Haçlı ordularına karşı Osmanlı idaresini gönüllü olarak desteklemiştir.
+    </div>
+
+    <h2>2. KURULUŞ DÖNEMİNİN EN HAYATİ SAVAŞLARI VE KLANLAR</h2>
+    <ul>
+        <li><b>Koyunhisar Savaşı (1302):</b> Osman Bey döneminde Bizans merkezi ordusuna karşı yapılan ve kazanılan **ilk büyük savaştır**.</li>
+        <li><b>Palekanon (Maltepe) Savaşı (1329):</b> Orhan Bey döneminde Bizans imparatorluk ordusu imha edilmiş ve **İznik feth edilmiştir**. İlk kez Rumeli'ye geçiş, Bizans'ın iç karışıklıklarından yararlanılarak <b>Çimpe Kalesi</b>'nin askeri üs olarak alınmasıyla (1353) gerçekleşmiştir.</li>
+        <li><b>Balkanların Kilidi Savaşlar:</b> I. Murad döneminde Edirne feth edilerek başkent yapılmış; Haçlılara karşı <b>Sırpsındığı (1364)</b> ve <b>I. Kosova (1389)</b> savaşları kazanılarak Balkanlardaki Türk hakimiyeti pekişmiştir. (I. Murad savaş meydanını gezerken bir Sırp milliyetçisi tarafından şehit edilmiştir).</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>⚠️ ANKARA SAVAŞI (1402) VE TRACİK FRETRET DEVRİ:</strong>
+        <br>Yıldırım Bayezid ile Moğol kökenli Timur arasında yapılmıştır. Yıldırım'ın Anadolu beyliklerini zorla ortadan kaldırması ve beylerin Timur'a sığınması savaşı tetiklemiştir. Osmanlı ordusu yenilmiş ve Yıldırım Bayezid Timur'a esir düşmüştür.
+        <br><i>Sonuçları:</i> Anadolu Türk siyasi birliği darmadağın olmuş, beylikler yeniden kurulmuştur. Osmanlı'da padişahsız geçen, şehzadelerin (İsa, Musa, Süleyman, Mehmet) birbirini katlettiği 11 yıllık kanlı <b>Fetret Devri (1402-1413)</b> başlamıştır. Devleti bu uçurumdan kurtarıp birliği yeniden sağlayan I. Mehmet (Çelebi), devletin <b>ikinci kurucusu</b> unvanını almıştır. Bu kriz esnasında İskân ve İstimalet sayesinde **Balkanlarda neredeyse hiç toprak kaybedilmemiştir**.
+    </div>
+
+    <h2>3. CİHANŞÜMUL DÖNEM: DÜNYA GÜCÜ OSMANLI (YÜKSELME)</h2>
+    
+    <h3>A) Fatih Sultan Mehmet Dönemi (1451 - 1481) — Çağ Açan İhtilal</h3>
+    <p>29 Mayıs 1453'te **İstanbul feth edilmiş**, Doğu Roma (Bizans) İmparatorluğu tamamen tarihten silinmiştir. Orta Çağ kapanmış, **Yeni Çağ** başlamıştır. Osmanlı kuruluştan **Yükselme/İmparatorluk** evresine atlamıştır. İpek Yolu'nun kontrolü Osmanlı'ya geçmiş, bu durum Avrupalıları **Coğrafi Keşifler**'e mecbur bırakmıştır. Fatih; Bizans'ın yeniden dirilme umutlarını yok etmek için Mora yarımadasını ve Trabzon Rum İmparatorluğu'nu (1461) fethetmiştir. Kırım'ın fethiyle Karadeniz bir **Türk gölü** haline gelmiştir. İlk kez devlete mutlak merkeziyetçi yapı kazandırmak için <i>Kanunname-i Ali Osman</i> ile kardeş katli yasallaştırılmıştır.</p>
+
+    <h3>B) Yavuz Sultan Selim Dönemi (1512 - 1520) — Doğu Siyaseti</h3>
+    <p>Hayatı boyunca tamamen Doğu ve İslam dünyası üzerine seferler düzenlemiştir. Safevi (İran) tehlikesini 1514 **Çaldıran Savaşı** ile eritmiş, Turnadağ Savaşı ile Dulkadiroğulları beyliğini yıkarak Anadolu Türk siyasi birliğini **kesin olarak** sağlamıştır. En büyük hamlesi Memlük Devleti üzerine yaptığı **Mısır Seferi**'dir (Mercidabık 1516, Ridaniye 1517). 
+    <br><b>💡 Mısır Seferi Sonuçları:</b> Memlük Devleti yıkılmış, kutsal topraklar Osmanlı'ya geçmiş ve <b>HİLAFET (Halifelik) makamı resmen Osmanlı soyuna geçmiştir</b>. Osmanlı Devleti teokratik (dini) karakterini en üst düzeye taşımıştır. Baharat Yolu'nun kontrolü ele geçirilmiş, kutsal emanetler Topkapı Sarayı'na getirilmiştir.</p>
+
+    <h3>C) Kanuni Sultan Süleyman Dönemi (1520 - 1566) — Zirve</h3>
+    <p>46 yıl ile Osmanlı tahtında en uzun süre kalan padişahtır. Belgrad'ı alarak balkan üssü yapmış, Macaristan'ı tarihin en kısa meydan savaşı olan 2 saatlik <b>Mohaç Meydan Savaşı (1526)</b> ile haritadan silmiştir. Viyana'yı ilk kez kuşatmış, Avusturya ile imzalanan 1533 <b>İstanbul (İbrahim Paşa) Antlaşması</b> ile Avusturya arşidükünü (kralını) Osmanlı sadrazamına (başbakanına) denk saydırarak Avrupa'nın siyasi üstünlüğünü (protokol gücünü) ele geçirmiştir. Barbaros Hayreddin Paşa'nın kazandığı 1538 <b>Preveze Deniz Zaferi</b> ile Akdeniz bir **Türk gölü** haline gelmiştir. Portekizlilerin Hint Okyanusu'ndaki baskısını kırmak için düzenlenen *Hint Deniz Seferleri* ise gemilerin okyanusa dayanıksız olması ve coğrafi bilgi eksikliği nedeniyle başarısızlıkla sonuçlanmıştır.</p>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Osmanlı Devleti, Rumeli ve Balkanlar'da fethettiği topraklarda kalıcı egemenlik kurabilmek amacıyla Anadolu'daki göçebe Türkmen boylarını buralara yerleştirmiş (**İskân**); aynı zamanda bölgedeki yerli gayrimüslim halkın inanç, dil ve ibadet özgürlüğünü koruyarak adil bir yönetim sergilemiştir (**İstimalet**). 
+        <br>Osmanlı Devleti'nin uyguladığı bu iki stratejik politikanın **temel ortak amacı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Anadolu'daki Türk nüfusunu tamamen yok etmek</li>
+            <li>B) Balkan halklarını zorla Müslümanlaştırmak ve asimile etmek</li>
+            <li>C) Fethedilen yeni topraklarda kalıcılığı sağlamak, fethi kökleştirmek ve balkan halklarının devlete olan bağlılığını artırmak</li>
+            <li>D) Ticari faaliyetleri tamamen durdurmak</li>
+            <li>E) Derebeylik sistemini Balkanlar'da yeniden canlandırmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İskân ve İstimalet kavramlarının imparatorluk inşa sürecindeki sosyo-politik fonksiyonunu yorumlayalım: Bir toprağı askeri güçle fethetmek kolaydır ancak orada kalıcı olmak zordur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>İskân ile:</b> Boş balkan topraklarına Türk nüfusu yığılarak demografik (nüfus) denge kurulmuş ve güvenlik garantiye alınmıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>İstimalet ile:</b> Hristiyan halkın hakları korunarak Haçlı ittifaklarına destek vermeleri engellenmiştir.
+            <br>• Dolayısıyla bu iki sistem, Osmanlı'nın fethettiği topraklarda **kalıcı, köklü ve sarsılmaz bir egemenlik yapısı** kurmasını hedefleyen muazzam birer idari deha ürünüdür. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 1402 yılında Yıldırım Bayezid ile Timur arasında gerçekleşen Ankara Savaşı'nın ardından Osmanlı Devleti mağlup olmuş, Anadolu Türk beylikleri yeniden kurulmuş ve şehzadeler arasında 11 yıl süren kanlı "Fetret Devri" krizi patlak vermiştir. 
+        <br>Bu devasa merkezi çöküşe ve taht kavgalarına rağmen, Osmanlı Devleti'nin **Balkanlar'da büyük bir toprak kaybı yaşamamasının ve balkan halklarının isyan etmemesinin** en temel nedeni nedir?</div>
+        <ul class="options-list">
+            <li>A) Timur ordularının Balkanlar'ı tamamen işgal etmesi</li>
+            <li>B) Kuruluş döneminden beri uygulanan adil, hoşgörülü ve koruyucu "İstimalet Politikası"nın balkan halklarında yarattığı memnuniyet</li>
+            <li>C) Avrupa'da o esnada hiçbir devletin bulunmaması</li>
+            <li>D) Şehzadelerin balkan halklarına rüşvet vermesi</li>
+            <li>E) İpek Yolu'nun balkanlardan geçmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Ankara Savaşı sonrası yaşanan Fetret Devri, Osmanlı'nın en büyük sınavlarından biridir. Devletin merkezi başı (padişahı) yoktur, ordu darmadağındır. Normal şartlarda Balkanlardaki Hristiyan tebaanın hemen isyan edip bağımsızlık kazanması beklenirdi.
+            <br>• Ancak Osmanlı'nın adil vergi sistemi ve inanç hürriyeti sağlayan <b>İstimalet (hoşgörü) siyaseti</b>, Balkan halklarını o kadar memnun etmiştir ki, kiliseler ve feodal beyler bile Osmanlı adaletini, Avrupa'nın mezhep savaşlarına ve Bizans'ın ağır vergilerine tercih etmişlerdir. Bu yüzden Osmanlı merkezde çökerken, Balkanlar devlete sadık kalmıştır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Yavuz Sultan Selim'in 1516 Mercidabık ve 1517 Ridaniye savaşlarıyla Memlük Devleti'ni haritadan sildiği muazzam Mısır Seferi'nin sonuçları incelendiğinde; aşağıda verilen gelişmelerden hangisi Osmanlı Devleti'nin **"Teokratik (Dini) Devlet"** karakterini en üst seviyeye çıkaran gelişmedir?</div>
+        <ul class="options-list">
+            <li>A) Baharat Yolu'nun kontrolünün Osmanlı'ya geçmesi</li>
+            <li>B) Memlük hazinesinin İstanbul'a taşınarak devletin zenginleşmesi</li>
+            <li>C) Kutsal Emanetlerin Topkapı Sarayı'na getirilmesi</li>
+            <li>D) İslam dünyasının manevi ve siyasi liderlik makamı olan <b>HİLAFETİN (Halifeliğin)</b> resmi olarak Osmanlı padişahlarına geçmesi</li>
+            <li>E) Venediklilerin Kıbrıs için Memlüklere ödediği verginin Osmanlı'ya ödenmeye başlanması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Teokrasi teriminin devlet yönetimindeki anlamsal karşılığını sorgulayalım: Teokrasi, devletin dini kurallarla yönetilmesi veya hükümdarın dini bir unvana sahip olması durumudur.
+            <br>• Mısır Seferi'ne kadar Osmanlı padişahları sadece "Bey, Sultan, Hakan" gibi dünyevi siyasi unvanlar taşıyorlardı. Ancak Memlüklerin yıkılmasıyla birlikte, tüm dünya Müslümanlarının dini ve siyasi lideri sayılan <b>Halifelik makamı Osmanlı padişahlarının üzerine geçmiştir</b>. Bu durum Osmanlı'nın mutlak monarşi yapısının yanına devasa bir dini otorite ekleyerek, devletin <b>Teokratik</b> kimliğini en zirve noktaya taşımıştır. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Kanuni Sultan Süleyman döneminde Avusturya Arşidüklüğü ile imzalanan ve **"Avusturya kralının siyasi ve protokol açısından Osmanlı sadrazamına (başbakanına) denk sayılacağını"** hükme bağlayan, Osmanlı'nın Avrupa üzerindeki mutlak siyasi üstünlüğünü tescilleyen o meşhur 1533 tarihli anlaşma hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Amasya Antlaşması</li>
+            <li>B) İstanbul (İbrahim Paşa) Antlaşması</li>
+            <li>C) Zitvatorok Antlaşması</li>
+            <li>D) Karlofça Antlaşması</li>
+            <li>E) Bucaş Antlaşması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Diploması tarihi ve protokol gücü eşleşmesini yapalım: Bir devletin kralı, normal şartlarda diğer devletin sadece kralına/padişahına denk sayılır.
+            <br>• Ancak Kanuni döneminde Avusturya'nın dize getirilmesiyle imzalanan 1533 <b>İstanbul Antlaşması</b>'na göre; Avusturya kralı Osmanlı padişahına değil, Osmanlı'nın iki numaralı adamı olan **Sadrazama** denk kabul edilmiştir. Bu inanılmaz diplomatik madde, Osmanlı Devleti'nin Avusturya ve Avrupa karşısında **mutlak bir siyasi, hukuki ve psikolojik üstünlük** elde ettiğinin en net belgesidir. Cevap B'dir. (Bu üstünlük 1606 Zitvatorok ile kaybedilecektir).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Osmanlı Devleti'nin Yükselme Dönemi'ndeki deniz fetihleri ve stratejik hamleleri incelendiğinde; Kaptan-ı Derya Barbaros Hayreddin Paşa komutasındaki Osmanlı donanmasının Haçlı ittifakını imha ettiği ve **Akdeniz'i bir Türk gölü haline getiren** o meşhur 1538 tarihli deniz zaferi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) İnebahtı Deniz Savaşı</li>
+            <li>B) Çeşme Baskını</li>
+            <li>C) Preveze Deniz Zaferi</li>
+            <li>D) Navarin Olayı</li>
+            <li>E) Sinop Baskını</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Osmanlı denizcilik tarihinin o en büyük altın sayfasını arıyoruz: "1538 tarihi", "Barbaros Hayreddin Paşa komutası", "Haçlı donanmasının bozguna uğratılması" ve "Akdeniz'in Türk gölü olması".
+            <br>• Bu muazzam askeri başarının adı <b>Preveze Deniz Zaferi</b>'dir. Bu zafer sayesinde Osmanlı'nın Akdeniz'deki üstünlüğü perçinlenmiş, deniz ticareti tamamen Osmanlı kontrolüne geçmiştir. Bu yüzden bugün hala 28 Eylül günü Türk Deniz Kuvvetleri Günü olarak kutlanır. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

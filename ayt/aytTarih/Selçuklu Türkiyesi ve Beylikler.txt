@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 5: Selçuklu Türkiyesi ve Beylikler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #b91c1c); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fee2e2; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #b91c1c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #9a3412; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fff7ed; border: 1px dashed #ea580c; border-left: 5px solid #c2410c; padding: 15px; margin: 18px 0; border-radius: 4px; color: #7c2d12; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 5: SELÇUKLU TÜRKİYESİ VE BEYLİKLER</h1>
+        <p>"Anadolu'nun Tapusu: Miryokefalon Zaferi, Deniz Ticareti Hamleleri ve Kösedağ Parçalanışının Siyasi Anatomisi"</p>
+    </div>
+
+    <h2>1. ANADOLU SELÇUKLU DEVLETİ'NİN KURULUŞU VE HAÇLI SEFERLERİ</h2>
+    <p>Kutalmışoğlu Süleyman Şah tarafından 1075 yılında İznik merkezli kurulmuştur. Devlet, kuruluşundan hemen sonra Batı dünyasından gelen devasa <b>Haçlı Seferleri</b> dalgasıyla göğüs göğse çarpışmak zorunda kalmıştır. I. Haçlı Seferleri sırasında çok kalabalık gelen düşman ordularına karşı başkent İznik savunulamamış, Sultan I. Kılıç Arslan başkenti daha korunaklı olan **Konya**'ya taşımıştır. Bu askeri zorunluluk nedeniyle ASD'nin başkenti yıkılana kadar Konya olarak kalmıştır.</p>
+
+    <h2>2. ANADOLU'NUN TAPUSU: MİRYOKEFALON SAVAŞI (1176)</h2>
+    <p>Sultan II. Kılıç Arslan döneminde, Türkleri Anadolu'dan tamamen söküp atmak isteyen Bizans İmparatorluğu ile yapılmıştır. Denizli/Isparta yakınlarındaki kumdan geçitlerde Bizans ordusu ağır bir bozguna uğratılmıştır.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ KARŞILAŞTIRMA (MALAZGİRT vs MİRYOKEFALON):</strong>
+        <br>• 1071 Malazgirt Savaşı &rarr; Anadolu'nun kapılarını Türklere **açan** savaştır (Türkiye Tarihi başlar).
+        <br>• 1176 Miryokefalon Savaşı &rarr; Anadolu'nun tapusunun kesin olarak Türklere geçtiğini, **Türk yurdu olduğunu tescilleyen** savaştır. Bu savaştan sonra Bizans tamamen savunmaya çekilmiş, Batı kaynaklarında bu coğrafyaya ilk kez resmi olarak <b>"TÜRKİYE" (Turchia)</b> denmeye başlanmıştır. Haçlı Seferleri'nin yarattığı Bizans umutları son bulmuştur.
+    </div>
+
+    <h2>3. ANADOLU SELÇUKLU DEVLETİ'NİN TİCARİ DEHASI</h2>
+    <p>Anadolu Selçuklu Devleti, en parlak dönemlerini yaşadığı 13. yüzyılda (I. Gıyaseddin Keyhüsrev, I. İzzeddin Keykavus, I. Alâeddin Keykubat) dünya ticaret tarihine geçecek muazzam bir ekonomi stratejisi izlemiştir:</p>
+    <ul>
+        <li><b>Liman Fetihleri:</b> Karadeniz ve Akdeniz'deki en kritik liman kentleri sırasıyla fethedilmiştir: **Samsun, Sinop, Alanya (Alaiye) ve Antalya**. Sinop ve Alanya'da devasa **Tersaneler** kurularak deniz ticaret filoları oluşturulmuştur. Kırım'ın **Sudak** limanına ilk denizaşırı askeri sefer düzenlenmiştir.</li>
+        <li><b>Ticaret Anlaşmaları:</b> Venedik ve Kıbrıs Krallığı gibi Avrupalı devletlerle gümrük vergilerini düşüren ticari anlaşmalar imzalanmıştır.</li>
+        <li><b>Devlet Sigortacılığı:</b> Dünyada **İLK KEZ** Anadolu Selçuklu sınırları içinde malları zarara uğrayan, gemisi batan ya da eşkıya saldırısına uğrayan yerli/yabancı tüm tüccarların zararları devlet hazinesinden karşılanmıştır. Bu kural yabancı tüccarları Anadolu'ya mıknatıs gibi çekmiştir.</li>
+        <li><b>Kervansaray Ağı:</b> Ticaret yolları üzerine 30-40 kilometrelik (bir devenin günlük yürüyüş mesafesi) mesafelerle devasa <b>Kervansaraylar</b> inşa edilmiştir. Buralarda kalan tüccarlardan 3 gün boyunca yeme, içme, barınma ve hayvan bakımı için tek kuruş para alınmamış, tamamen ücretsiz vakıf hizmeti sunulmuştur.</li>
+    </ul>
+
+    <h2>4. ALTIN ÇAĞIN SONU VE KÖSEDAĞ SAVAŞI PARÇALANIŞI (1243)</h2>
+    <p>Anadolu Selçuklu Devleti'nin en parlak hükümdarı olan Alâeddin Keykubat'ın zehirlenerek ölmesinin ardından tahta zayıf karakterli II. Gıyaseddin Keyhüsrev geçmiştir. Devlet idaresindeki zafiyetler ve adaletsizlikler nedeniyle Anadolu'da dini ve sosyal içerikli ilk büyük isyan olan <b>Babailer İsyanı (Baba İshak İsyanı)</b> patlak vermiştir. Selçuklu bu isyanı bastırmakta aşırı zorlanmış ve askeri zayıflığı dış dünyaya ifşa olmuştur.</p>
+    
+    <div class="memory-box">
+        <strong>👑 KÖSEDAĞ SAVAŞI (1243) — MOĞOL TOKADI:</strong>
+        <br>Selçuklu'nun zayıflığını gören Baycu Noyan komutasındaki İlhanlı (Moğol) ordusu Anadolu'ya saldırmıştır. Sivas yakınlarındaki Kösedağ mevkisinde Selçuklu ordusu ağır bir yenilgi almış ve devlet Moğollara vergi veren bağımlı bir kukla haline gelmiştir (1308 yılında resmen yıkılmıştır).
+        <br><i>Siyasi Sonuçları:</i> Anadolu'da Türk siyasi birliği darmadağın olmuştur. Anadolu'da **İkinci Dönem Türk Beylikleri** kurulmuştur. Bu kurulan küçük beyliklerden biri, Söğüt ve Domaniç çevresinde yerleşen <b>Osmanoğulları Beyliği</b>'dir. Moğol zulmünden kaçan Türkmenlerin Batı Anadolu'ya yığılması, buranın hızlıca Türkleşmesini sağlamıştır.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Anadolu Selçuklu Devleti'nin sınırları içerisinde seyahat eden ve ticaret yapan yerli veya yabancı ayrımı gözetmeksizin tüm tüccarların mallarının eşkıya saldırısı, yangın ya da doğal afet sonucu zarar görmesi durumunda; bu zararın devlet hazinesi tarafından tazmin edilmesi sistemine ne ad verilir ve bu sistemin temel amacı nedir?</div>
+        <ul class="options-list">
+            <li>A) İkta Sistemi - Tarımsal üretimi kilitlemek</li>
+            <li>B) Gulam Sistemi - Saray muhafız ordusu yetiştirmek</li>
+            <li>C) Devlet Sigortacılığı - Anadolu'yu uluslararası bir ticaret merkezi haline getirmek ve ticareti canlandırmak</li>
+            <li>D) Narh Sistemi - Fiyatları sabit tutmak</li>
+            <li>E) Ahilik Teşkilatı - Esnaf denetimi yapmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Anadolu Selçuklu Devleti'nin ekonomik dehasını sorgulayan harika bir sorudur. 
+            <br>• Selçuklu sultanları, ticaret yollarının kendi ülkelerinden geçmesinin devlet hazinesine getireceği devasa gümrük gelirlerinin farkındaydılar. Tüccarlara sadece güvenli kervansaraylar yapmakla kalmamış, dünyada **ilk kez** ticari malları güvence altına alan bir <b>Devlet Sigortacılığı</b> sistemini uygulamışlardır. Can ve mal güvenliğinin garanti altında olduğunu gören Avrupalı ve Doğulu tüm tüccarlar akın akın Anadolu yollarına dökülmüş, bu da ülkeyi küresel bir ticaret üssüne çevirmiştir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 1176 yılında Sultan II. Kılıç Arslan komutasındaki Selçuklu ordusunun Bizans İmparatorluğu'nu ağır bir yenilgiye uğrattığı Miryokefalon Zaferi'nin **Türk tarihi açısından en hayati, en ayırt edici stratejik sonucu** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Anadolu'da ilk Türk beyliklerinin kurulmaya başlanması</li>
+            <li>B) Haçlı Seferleri'nin tamamen son bulması</li>
+            <li>C) Anadolu'nun kapılarının Türklere ilk kez açılması</li>
+            <li>D) Anadolu'nun kesin ve geri dönülmez bir şekilde Türk yurdu olduğunun tescillenmesi (Anadolu'nun tapusunun alınması) ve Batı kaynaklarında bu coğrafyaya "Türkiye" denmeye başlanması</li>
+            <li>E) İstanbul'un Türkler tarafından fethedilmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Miryokefalon Savaşı'nın tarihsel kimliğini mühürleyelim: Bizans'ın amacı Türkleri Anadolu'dan tamamen atmaktı (Malazgirt'in rövanşı).
+            <br>• Ancak bu ağır yenilgiden sonra Bizans, Türkleri Anadolu'dan atamayacağını kesin olarak anlamış ve taarruz gücünü kaybederek tamamen **savunma** pozisyonuna çekilmiştir. Anadolu'daki Türk egemenliği kalıcı hale gelmiş, **Anadolu'nun tapusu resmen tescillenmiştir**. Avrupalılar ümidini kestiği için bu coğrafyaya ilk kez **"Türkiye"** ismi verilmiştir (D şıkkı). Anadolu kapılarını açan savaş ise 1071 Malazgirt'tir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Anadolu Selçuklu Devleti'nin yıkılış sürecini başlatan ve Anadolu'daki Türk siyasi birliğini darmadağın ederek İkinci Dönem Türk Beyliklerinin (Osmanoğulları, Karamanoğulları vb.) kurulmasına yol açan **1243 tarihli o kırılma savaşı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Pasinler Savaşı</li>
+            <li>B) Dandanakan Savaşı</li>
+            <li>C) Katvan Savaşı</li>
+            <li>D) Kösedağ Savaşı</li>
+            <li>E) Ankara Savaşı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Anadolu Selçuklu Devleti'nin belini kıran Moğol darbesini arıyoruz: "1243 tarihi", "Selçuklu'nun Moğol İlhanlı devletine yenilmesi" ve "Anadolu siyasi birliğinin parçalanarak 2. dönem beyliklerin kurulması".
+            <br>• Bu yıkıcı trajedinin adı <b>Kösedağ Savaşı</b>'dır. Selçuklu bu savaştan sonra bağımsızlığını kaybetmiş, Moğolların kuklası bir vasal devlet haline gelmiştir. Merkez otorite yok olduğu için her boy kendi bağımsız beyliğini (Osmanlı dahil) ilan etmiştir. Cevap D'dir. (Katvan Büyük Selçuklu'yu yıkan Moğol savaşıdır, karıştırılmamalıdır).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Anadolu Selçuklu Devleti'nde deniz ticaretini ve denizcilik faaliyetlerini bir devlet politikası haline getiren sultanlar, Akdeniz ve Karadeniz kıyılarında stratejik öneme sahip liman kentlerini fethetmişlerdir. 
+        <br>Buna göre, aşağıda verilen şehirlerden hangisi Anadolu Selçuklu Devleti'nin denizcilik ve tersanecilik amacıyla fethettiği **liman kentleri arasında yer almaz**?</div>
+        <ul class="options-list">
+            <li>A) Konya</li>
+            <li>B) Sinop</li>
+            <li>C) Alanya</li>
+            <li>D) Antalya</li>
+            <li>E) Samsun</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Coğrafi konum ve liman fethi mantığını sorgulayan bir sorudur: Sinop ve Samsun Karadeniz'in; Alanya ve Antalya ise Akdeniz'in en stratejik kıyı/liman şehirleridir. Selçuklu buralarda devasa donanma üsleri (tersaneler) kurmuştur.
+            <br>• Ancak <b>Konya, İç Anadolu bölgesinde yer alan, denize kıyısı kesinlikle bulunmayan tamamen karasal bir şehirdir</b>. Konya, Anadolu Selçuklu Devleti'nin başkentidir (kültür ve siyaset merkezidir) ancak coğrafi konumundan dolayı bir liman veya denizcilik kenti olması fiziken imkansızdır. Cevap A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 1243 Kösedağ Savaşı'nın ardından Anadolu'da Moğol baskısının artmasıyla birlikte, Selçuklu otoritesi çökmüş ve uç bölgelerdeki Türkmen boyları kendi bağımsız beyliklerini kurmuşlardır. 
+        <br>Buna göre, Söğüt ve Domaniç çevresinde kurulan, başlangıçta çok küçük bir aşiret beyliği iken jeopolitik konumunun sağladığı avantajla devasa bir dünya imparatorluğuna dönüşecek olan beylik hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Karamanoğulları</li>
+            <li>B) Karesioğulları</li>
+            <li>C) Osmanoğulları</li>
+            <li>D) Germiyanoğulları</li>
+            <li>E) Candaroğulları</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kösedağ Savaşı sonrası kurulan İkinci Dönem Beyliklerinin coğrafi harita analizini yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Karamanoğulları Konya civarında, Karesioğulları Balıkesir'de, Germiyanoğulları Kütahya'da kurulmuştur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Söğüt, Domaniç ve Bilecik sınır hatlarında Bizans'a komşu bir "Uç Beyliği" olarak kurulan küçük yapı ise <b>Osmanoğulları Beyliği (Osmanlı)</b>'dir. Bu küçük beylik Bizans sınırında olmasının (gaza ve cihad avantajı) ve Anadolu'daki beyliklerin iç kavgalarına bulaşmamasının verdiği jeopolitik güçle dev bir dünya imparatorluğuna evrilecektir. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

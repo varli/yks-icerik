@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 7: Osmanlı Kültür ve Medeniyeti</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #451a03, #78350f); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fde68a; font-style: italic; }
+        h2 { color: #451a03; font-size: 16pt; border-left: 6px solid #d97706; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #78350f; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fffbeb; border: 1px dashed #f59e0b; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #451a03; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #451a03; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #451a03; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 7: OSMANLI KÜLTÜR VE MEDENİYETİ</h1>
+        <p>"Devlet-i Aliyye'nin İskeleti: Divan-ı Hümayun Bürokrasisi, Saray Teşkilatı ve Klasik Toplum Düzeni"</p>
+    </div>
+
+    <h2>1. MERKEZ TEŞKİLATI: SULTAN VE TOPKAPI SARAYI</h2>
+    <p>Osmanlı Devleti mutlak ve merkeziyetçi bir monarşiyle yönetilmiştir. Devletin idare merkezi Fatih döneminde inşa edilen ve yaklaşık 400 yıl boyunca imparatorluğun beyni olan <b>Topkapı Sarayı</b>'dır. Saray üç ana bölümden oluşur:</p>
+    <ul>
+        <li><b>Birun (Dış Saray):</b> Devletin dış idare, askeri ve saray dışı memurlarının bulunduğu yerdir. Yeniçeriler, darphane çalışanları, hekimler ve seyisler buradadır.</li>
+        <li><b>Enderun (İç Saray):</b> **Saray okuludur.** Devşirme sistemiyle toplanan zeki ve yetenekli çocukların devlet adamı, sadrazam, komutan veya vali olarak yetiştirildiği üst düzey bürokrasi okuludur. Padişahın özel hayatının geçtiği resmi daireleri de barındırır.</li>
+        <li><b>Harem:</b> Padişahın ailesiyle birlikte yaşadığı, aynı zamanda saray kadınlarının sıkı bir eğitim ve disiplinden geçtiği okul niteliğindeki iç bölümdür.</li>
+    </ul>
+
+    <h2>2. DİVAN-I HÜMAYUN VE BÜROKRASİNİN SINIFLARI</h2>
+    <p>Orhan Bey döneminde kurulan, Fatih dönemine kadar padişahın, Fatih'ten sonra ise **Sadrazamın** başkanlık ettiği bakanlar kuruludur. En üst yargı, yasama ve yürütme organıdır. Divan üyeleri aldıkları eğitime ve üstlendikleri göreve göre üç ana sınıfa ayrılır. ÖSYM bu sınıf ayrımını her yıl mutlaka sorar:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Bürokratik Sınıf</th>
+                <th>Temsil Ettiği Güç / Alan</th>
+                <th>Sınıfın Divan-ı Hümayun'daki En Kritik Üyeleri ve Görevleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Seyfiye</b><br>(Kılıç Ehli)</td>
+                <td>Askeri güç, yönetim ve yürütme yetkisi. Taşra asayişi.</td>
+                <td>&bull; <b>Sadrazam (Veziriazam):</b> Padişahın mutlak vekilidir. Padişahın mührünü taşır. Padişah savaşa gitmediğinde <i>Serdar-ı Ekrem</i> unvanıyla orduyu komuta eder.<br>&bull; <b>Vezirler:</b> Sadrazamın yardımcılarıdır (Bakanlar gibi).<br>&bull; <b>Kaptan-ı Derya:</b> Donanma komutanıdır.<br>&bull; <b>Yeniçeri Ağası:</b> İstanbul'un güvenliğinden sorumludur.</td>
+            </tr>
+            <tr>
+                <td><b>İlmiye</b><br>(Din, Hukuk, Eğitim)</td>
+                <td>Yargı (Adalet), Eğitim, Din ve Fetva işleri. Medrese kökenlidirler.</td>
+                <td>&bull; <b>Kazasker (Kadıasker):</b> **Adalet ve Eğitim Bakanıdır.** Taşradaki Kadıların ve Müderrislerin (profesörlerin) atamasını, tayinini yapar. Divandaki büyük davalara bakar.<br>&bull; <b>Şeyhülislam (Müfti):</b> Divanın daimi üyesi değildir, çağrılınca katılır. Alınan kararların İslama uygun olup olmadığına dair <b>FETVA</b> verir. Sadrazamla protokolde denktir.</td>
+            </tr>
+            <tr>
+                <td><b>Kalemiye</b><br>(Bürokrasi ve Yazı)</td>
+                <td>Maliye, dış yazışmalar, kayıtlar ve arazi defterleri.</td>
+                <td>&bull; <b>Defterdar:</b> **Maliye Bakanıdır.** Devletin gelir ve giderlerini hesaplar, bütçeyi hazırlar. "Padişah malının mutlak vekilidir."<br>&bull; <b>Nişancı:</b> **Devletin Baş Yazmanı ve Hukuk Danışmanıdır.** Padişahın belgelerine <b>Tuğra</b> (imza) çeker. Fethedilen arazileri <b>Tahrir Defterlerine</b> kaydeder. Örfî hukukun divandaki temsilcisidir.<br>&bull; <b>Reisülküttab:</b> Önceleri Nişancıya bağlıyken, dış diplomasinin önem kazanmasıyla (17. yy) **Dışişleri Bakanı** olmuştur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. KLASİK ÇAĞDA OSMANLI TOPLUM DÜZENİ</h2>
+    <p>Osmanlı toplum yapısı kesinlikle Avrupa'daki gibi katı, geçirgenliği olmayan kölelik veya sınıf ayrımına dayanmaz. Toplum temel olarak ikiye ayrılır: <b>Yönetenler (Askerî)</b>; vergi ödemezler, devletten maaş alırlar (Seyfiye, İlmiye, Kalemiye). <b>Yönetilenler (Reaya)</b>; din, dil ayrımı olmaksızın tarım, ticaret ve esnaflıkla uğraşan, devlete vergi öden halk tabakasıdır. Gerekli eğitimleri alan bir reaya çocuğu (Enderun veya Medrese vasıtasıyla) en üst yönetici sınıfına yükselebilir (**Dikey Hareketlilik**).</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN TUZAK KURAR — MİLLET SİSTEMİ KRİTERİ:</strong>
+        <br>Osmanlı Devleti'nde uygulanan <b>Millet Sistemi</b>, toplumu oluşturan bireyleri kesinlikle **ırklarına, dillerine veya etnik kökenlerine göre AYIRMAZ**. Sistem tamamen **DİNİ İNANÇ** (Müslümanlar ve Gayrimüslimler: Rum, Ermeni, Yahudi) esasına dayanır. Her dini cemaat kendi hukuk kuralları ve ibadet hürriyetiyle özerk yaşamıştır. Irkçılığı engelleyen bir sistemdir.
+    </div>
+
+    <div class="memory-box">
+        <strong>🧠 TAŞRA TEŞKİLATI VE LONCA SİSTEMİ ŞİFRELERİ:</strong>
+        <br>&bull; <b>Tımar (Dirlik) Sistemi:</b> Merkeze uzak eyaletlerde (Salıyanesiz eyaletler) vergilerin doğrudan toplanmayıp, görevlilere hizmet karşılığı bırakılmasıdır (Selçuklu'daki İkta'nın birebir devamıdır). Sistem sayesinde tavan yapan eyalet askerlerine <b>Tımarlı Sipahiler</b> denir.
+        <br>&bull; <b>Lonca Teşkilatı:</b> Esnaf ve zanaatkarlar birliğidir. Ahiliğin devamıdır. Gayrimüslimler de üye olabilir. Malların kalitesini denetler, fiyatları sabit tutar (**Narh Kesmek**), çırak-usta ilişkisini düzenler. Dükkan açma iznine <b>Gedik</b> adı verilir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Divan-ı Hümayun'da devletin tüm mali kayıtlarını tutan, bütçe planlamalarını yapan, devletin gelir ve gider dengesinden birinci derecede sorumlu olan ve "padişah malının mutlak vekili" kabul edilen **Kalemiye sınıfı üyesi bakan** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Nişancı</li>
+            <li>B) Kazasker</li>
+            <li>C) Defterdar</li>
+            <li>D) Sadrazam</li>
+            <li>E) Reisülküttab</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Divan üyelerinin görev tanımlarını doğrudan eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Nişancı yazı işleri ve tuğra sorumlusudur. Kazasker adalet ve eğitimden sorumludur (İlmiye). Sadrazam padişahın siyasi vekilidir (Seyfiye). Reisülküttab ise dışişleri bürokratıdır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Devletin hazinesini, hesap kitap işlerini, bütçe raporlarını tutan maliyeden sorumlu Kalemiye sınıfı temsilcisi tereddütsüz <b>Defterdar</b>'dır. Günümüzün Maliye Bakanıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Osmanlı Devleti'nde üst düzey idari ve askeri kadroların atamasını yapan "Kazasker" ile devletin yazı ve tescil işlerini yürüten "Nişancı" bürokratlarının ait oldukları **idari sınıflar** aşağıdakilerden hangisinde sırasıyla doğru olarak verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Seyfiye - İlmiye</li>
+            <li>B) İlmiye - Kalemiye</li>
+            <li>C) Kalemiye - Seyfiye</li>
+            <li>D) İlmiye - Seyfiye</li>
+            <li>E) Seyfiye - Kalemiye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Bürokrasinin köken ve eğitim ayrımlarını kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) <b>Kazasker:</b> Medrese eğitimi almış, fıkıh ve hukuk uzmanıdır. Kadı ve müderris atamalarını (Adalet ve Eğitim) yapar. Bu alan doğrudan din, hukuk ve eğitimle ilgilenen <b>İlmiye</b> sınıfının tekelindedir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) <b>Nişancı:</b> Kalem ve bürokrasi kökenlidir. Padişah tuğrasını çeker, yazışmaları yürütür ve tapu kayıtlarını (Tahrir) tutar. Bu alan ise tamamen yazı, maliye ve bürokrasiyle ilgilenen <b>Kalemiye</b> sınıfına aittir. Sıralama İlmiye - Kalemiye şeklinde olmalıdır (B şıkkı).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Osmanlı Devleti'nin klasik dönem toplum yapısını şekillendiren "Millet Sistemi" ile ilgili aşağıda verilen bilgilerden hangisi ÖSYM soru havuz kriterlerine göre **doğrudur**?</div>
+        <ul class="options-list">
+            <li>A) Toplum, bireylerin etnik kökenlerine ve ait oldukları ırklara (Türk, Arap, Sırp vb.) göre kesin sınıflara bölünmüştür.</li>
+            <li>B) Reaya sınıfının hiçbir şekilde dini ibadet özgürlüğü bulunmamaktadır.</li>
+            <li>C) Toplumun dikey hareketlilikle sınıflar arasında geçiş yapması tamamen yasaklanmıştır.</li>
+            <li>D) Toplumsal gruplar, ırksal veya etnik kriterlere göre değil, tamamen **benimsenen dini inanç ve cemaat** (Müslümanlar ve Gayrimüslimler) esasına göre sınıflandırılmıştır.</li>
+            <li>E) Sadece Türk kökenli olanlar yönetenler sınıfına kabul edilmiştir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin her yıl çeldirici olarak sorduğu "Millet Sistemi"nin turnusol kâğıdı tanımını yapalım. 
+            <br>• Osmanlı Devleti çok uluslu bir imparatorluktur ancak yönetim anlayışında modern anlamda bir "ırk, milliyet veya dil" ayrımı kesinlikle uygulamamıştır. Devlet, reayayı (halkı) örgütlerken ve yönetirken sadece **dini inançları ve cemaat yapılarını** baz almıştır. Müslümanlar hakim millet sayılırken; Ortodokslar, Ermeniler ve Yahudiler kendi dini liderlerinin önderliğinde özerk hukuki haklara sahip cemaatler (milletler) olarak kabul edilmiştir. Bu yüzden sistemin temel kriteri dindir (D şıkkı).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Topkapı Sarayı'nda devşirme kökenli yetenekli çocukların alındığı; burada sıkı bir askeri, idari, sanatsal ve dini eğitimden geçirilerek sadrazam, vali veya saray başbürokratı olarak yetiştirildiği **o meşhur üst düzey devlet okulu/saray bölümü** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Birun</li>
+            <li>B) Harem</li>
+            <li>C) Enderun</li>
+            <li>D) Medrese</li>
+            <li>E) Lonca</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Saray bölümlerinin eğitsel fonksiyonlarını analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Birun dış saray işleridir. Harem padişahın aile hayatı ve kadınların eğitimidir. Medrese saray dışında halka açık üniversitedir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Topkapı Sarayı'nın iç saray kısmında yer alan, devşirme çocukların zeka ve yeteneklerine göre devletin en kritik kademelerine yönetici devşirmek amacıyla kurulan yatılı saray okulu <b>Enderun</b>'dur. İmparatorluğun idari dehasının mutfağıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Osmanlı esnaf teşkilatı olan Loncalarda; piyasaya sürülen malların kalitesini denetlemek, haksız rekabeti engellemek ve enflasyona karşı halkı korumak amacıyla **"devlet ve esnaf temsilcilerinin ortak kararıyla fiyatların kesin olarak sabitlenmesi / fiyat sınırı konulması"** uygulamasına ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Gedik</li>
+            <li>B) Narh Sistemi</li>
+            <li>C) Tahrir</li>
+            <li>D) Müsadere</li>
+            <li>E) İltizam</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Klasik dönem Osmanlı iktisat terimlerini netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Gedik dükkan açma ruhsatıdır. Tahrir arazi tescilidir. Müsadere mal varlığına el koymadır. İltizam ise peşin vergi ihalesidir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Lonca teşkilatında tüketicinin sömürülmesini engellemek ve karaborsacılığın önüne geçmek için satılacak mallara (özellikle ekmek, et, un gibi temel gıdalara) tavan ve taban fiyat sınırı getirilmesi uygulamasına İslam ticaret hukukundan gelen bir terimle <b>Narh Sistemi (Narh Kesmek)</b> adı verilir. Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

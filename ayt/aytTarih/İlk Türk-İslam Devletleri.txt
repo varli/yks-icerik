@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 4: İlk Türk-İslam Devletleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #065f46, #0369a1); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #bae6fd; font-style: italic; }
+        h2 { color: #065f46; font-size: 16pt; border-left: 6px solid #0f766e; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdfa; border: 1px dashed #0d9488; border-left: 5px solid #0f766e; padding: 15px; margin: 18px 0; border-radius: 4px; color: #115e59; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #065f46; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #065f46; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #065f46; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 4: TÜRK-İSLAM TARİHİ VE İLK DEVLETLER</h1>
+        <p>"Hilal ve Kurt: Talas Savaşı'ndan Büyük Selçuklu İmparatorluğu'na Kurumsal ve Siyasi Sentez"</p>
+    </div>
+
+    <h2>1. TÜRK-İSLAM TARİHİNİN DÖNÜM NOKTASI: TALAS SAVAŞI (751)</h2>
+    <p>Orta Asya'ya hakim olmak isteyen Çin ile Abbasi orduları arasında gerçekleşmiştir. Bu savaşta Türk boyları (özellikle <b>Karluklar</b>), Abbasilerin hoşgörülü politikasından dolayı Müslümanların yanında yer almış ve Çin ağır bir yenilgiye uğratılmıştır.</p>
+    
+    <h3>Talas Savaşı'nın Dünya ve Türk Tarihi Açısından Sonuçları:</h3>
+    <ul>
+        <li>Orta Asya'nın Çinlileşmesi kesin olarak engellenmiş, bölgedeki Türk varlığı korunmuştur.</li>
+        <li><b>Türkler kitleler (boylar) halinde ilk kez İslamiyet'i kabul etmeye başlamıştır</b> (Sırasıyla Karluk, Yağma, Çiğil ve Tuhsi boyları).</li>
+        <li>Çin dışında kağıt, matbaa, barut ve pusula ilk kez Semerkand kentinde üretilmeye başlanmıştır. Semerkand, dünya kültür tarihinde <b>"Şehirlerin Şahı"</b> unvanını almıştır.</li>
+    </ul>
+
+    <h2>2. İLK MÜSLÜMAN TÜRK DEVLETLERİ VE KARAKTERİSTİKLERİ</h2>
+    
+    <h3>A) Karahanlı Devleti (840 - 1212)</h3>
+    <p>Orta Asya'da kurulan <b>ilk Müslüman Türk devletidir</b>. Satuk Buğra Han döneminde İslamiyet'i resmi din olarak kabul etmişlerdir. 
+    <br><b>⚠️ En Kritik Özelliği:</b> Kurulduğu coğrafya, halkı ve yöneticileri tamamen Türk'tür. Bu yüzden İslamiyet'i seçmelerine rağmen **milli kimliklerini (asli Türklük özelliklerini) en katı şekilde korumuşlardır**. Resmi dilleri Türkçe (Hakaniye lehçesi), orduları tamamen Türk, yönetim yapıları ise geleneksel Türk devlet modelidir (ikili teşkilat sürdürülmüştür).</p>
+    <p>&bull; Kervansarayların ilk örnekleri sayılan, ticari ve askeri savunma amaçlı <b>Ribat</b>'ları inşa etmişlerdir. Türk-İslam tarihindeki ilk burslu öğrencilik sistemini ve ilk medreseleri kurmuşlardır.</p>
+
+    <h3>B) Gazneliler (963 - 1187)</h3>
+    <p>Alp Tigin tarafından bugün Afganistan sınırlarında yer alan Gazne şehrinde kurulmuştur. Çok uluslu bir imparatorluk yapısına sahiptir. En parlak dönemi olan <b>Gazneli Mahmut</b>, Abbasi halifesini Şii Büveyhoğulları baskısından kurtardığı için halifeden dünyada <b>"SULTAN" unvanını alan İLK Türk hükümdarı</b> olmuştur. Gazneli Mahmut, Hindistan'a tam 17 askeri sefer düzenleyerek İslamiyet'in bugün Pakistan, Hindistan ve Bangladeş coğrafyasına yayılmasını sağlamış, kast sistemine ilk büyük darbeyi vurmuştur. Sarayında ağırladığı ünlü bilim insanı Biruni için "Sarayımın en değerli hazinesi" demiştir.</p>
+
+    <h2>3. BÜYÜK SELÇUKLU İMPARATORLUĞU VE ANADOLU KAPILARI</h2>
+    <p>Oğuzların Kınık boyu tarafından Tuğrul ve Çağrı Beylerin liderliğinde kurulan, İslam dünyasının siyasi liderliğini ve koruyuculuğunu tamamen üstlenen dev imparatorluktur.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dönemin Hayati Savaşı</th>
+                <th>Tarihi</th>
+                <th>Savaşın Perde Arkası ve ÖSYM Odaklı Stratejik Sonuçları</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Dandanakan Savaşı</b></td>
+                <td>1040</td>
+                <td>Selçuklular ile Gazneliler arasında yapılmıştır. Gazneliler yıkılış sürecine girerken, **Büyük Selçuklu Devleti resmen kurulmuştur**.</td>
+            </tr>
+            <tr>
+                <td><b>Pasinler Savaşı</b></td>
+                <td>1048</td>
+                <td>Büyük Selçuklu ile Bizans arasındaki <b>ilk büyük meydan savaşı ve zaferidir</b>. Anadolu'yu tanıma amaçlı keşif seferidir.</td>
+            </tr>
+            <tr>
+                <td><b>Malazgirt Savaşı</b></td>
+                <td>1071</td>
+                <td>Sultan Alp Arslan, Bizans İmparatoru Romen Diyojen'i imha etmiştir. **Anadolu'nun kapıları Türkler ardına kadar açılmıştır**. Anadolu'da "Birinci Dönem Türk Beylikleri" (Saltuklular, Mengücekliler, Danişmentliler, Artuklular, Çaka Beyliği) kurulmuş, Türkiye Tarihi resmen başlamıştır. Haçlı Seferleri'nin tetikleyicisidir.</td>
+            </tr>
+            <tr>
+                <td><b>Katvan Savaşı</b></td>
+                <td>1141</td>
+                <td>Sultan Sancar döneminde Moğol kökenli Karahitaylara karşı kaybedilen ve **Büyük Selçuklu'nun yıkılış sürecini başlatan** trajik savaştır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. TÜRK-İSLAM DEVLET TEŞKİLATI VE KURUMLARIN ANALİZİ</h2>
+    <p>İslamiyet'in kabulüyle birlikte eski Türk devlet geleneklerine İslami kurallar (Şer'i hukuk, hükümdar adına hutbe okutma, para bastırma) eklenmiştir. Saray teşkilatında en güvenilir memura <b>Hacip (Hacibü'l-Hüccab)</b> denir; halk ile hükümdar arasındaki görüşmeleri düzenler.</p>
+
+    <div class="memory-box">
+        <strong>👑 İKTA SİSTEMİ (Toprak ve Ordu Döngüsü):</strong>
+        <br>Mülkiyeti devlete ait olan arazilerin (Miri toprak), hizmet karşılığı devlet memurlarına ve komutanlara maaş olarak verilmesidir. İkta sahibi, topladığı vergilerle kendi geçimini sağlar, geri kalan para ile de devlete **Sipahi (Cebelü)** adı verilen atlı askerler yetiştirir.
+        <br><i>Faydaları:</i> Devlet kasasından tek kuruş para çıkmadan devasa bir ordu hazır tutulur. Taşrada asayiş ve güvenlik sağlanır. Üretimde süreklilik garanti altına alınır (Toprağı 3 yıl üst üste boş bırakandan toprak geri alınır).
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 GULAM SİSTEMİ (Merkezi Güç):</strong>
+        <br>Savaş esirlerinin veya satın alınan köle çocukların <i>Gulamhane</i> adı verilen merkezlerde sıkı bir askeri ve idari eğitimden geçirilmesidir. Doğrudan sultana bağlı muhafız ordusunu (**Gulamân-ı Saray**) oluştururlar. Osmanlı'daki <b>Devşirme ve Yeniçeri sisteminin</b> birebir atasıdır. Maaşlarını yılda 4 kez <i>Bistegâni</i> adıyla alırlar.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Karahanlı Devleti, İslamiyet'i resmi bir din olarak benimseyen ilk Müslüman Türk devleti olmasına rağmen; resmi dil olarak Türkçeyi (Hakaniye lehçesi) kullanmış, yönetimde ikili teşkilat modelini sürdürmüş ve ordusunu tamamen Türk boylarından oluşturmuştur. 
+        <br>Karahanlıların bu idari ve kültürel tutumu, aşağıdakilerden hangisinin doğrudan bir kanıtıdır?</div>
+        <ul class="options-list">
+            <li>A) İslam medeniyetinin kurallarını tamamen reddettiklerinin</li>
+            <li>B) Kısa sürede yıkılma sürecine girdiklerinin</li>
+            <li>C) Asli milli kimliklerini, Türk kültür özelliklerini en katı şekilde koruduklarının (ulusçu/milliyetçi yapı)</li>
+            <li>D) Teokratik devlet düzenini tamamen tasfiye ettiklerinin</li>
+            <li>E) Arap milliyetçiliğinin etkisi altında kaldıklarının</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karahanlıların kurulduğu coğrafyanın sosyolojik yapısını analiz edelim: Karahanlılar, tamamen Türklerin yaşadığı Orta Asya (Türkistan) topraklarında, Türk boylarının (Karluk, Yağma, Çiğil) birleşmesiyle kurulmuştur.
+            <br>• Din değiştirmelerine rağmen halkın da yöneticilerin de tamamen Türk olması, onların başka kültürlerin (Arap-Fars) potasında erimesini engellemiştir. Alfabeyi Uygur alfabesi olarak korumaları, Türkçeyi resmi dil ilan etmeleri ve eski Türk devlet geleneğini (ikili teşkilat) yaşatmaları, onların <b>milli kimliklerini ve ulusçu karakterlerini en üst düzeyde koruduklarının</b> kesin kanıtıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Gazneli hükümdarı Sultan Mahmut, Abbasi halifesini Şii Büveyhoğulları'nın ordularına ve siyasi baskılarına karşı korumuş, bu askeri hizmetinin karşılığında Abbasi halifesi tarafından kendisine İslam dünyasında **"Sultan"** unvanı verilmiştir. 
+        <br>Bu tarihi gelişme dikkate alındığında, İslam dünyasındaki güç dengeleri hakkında aşağıdakilerden hangisi söylenebilir?</div>
+        <ul class="options-list">
+            <li>A) Siyasi ve askeri liderliğin Türk hükümdarlarına geçtiği, halifenin sadece dini bir sembol olarak kaldığı</li>
+            <li>B) Gaznelilerin teokratik yapıyı tamamen yıktığı</li>
+            <li>C) Şii inancının tüm İslam dünyasında mutlak egemen kılındığı</li>
+            <li>D) Halifeliğin Gazneli soyuna devredildiği</li>
+            <li>E) Türklerin İslamiyet'ten tamamen koptuğu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Siyasi güç ile dini otorite arasındaki makas ayrımını okuyalım: Abbasi halifesi dini liderdir ancak askeri gücü olmadığı için Şii Büveyhoğulları tarafından ezilmektedir. Türk hükümdarı Gazneli Mahmut ise devasa bir ordunun komutanıdır.
+            <br>• Halifenin Türk hükümdarından yardım istemesi ve ona "Sultan" (dünyevi gücün sahibi) unvanını bahşetmesi, <b>İslam dünyasındaki fiili, askeri ve siyasi koruyuculuk liderliğinin resmen Türklerin eline geçtiğinin</b> kanıtıdır. Halife bu tarihten itibaren siyasi güçten arındırılmış, manevi bir lider konumuna evrilmiştir. Cevap A'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Büyük Selçuklu İmparatorluğu döneminde uygulanan İkta Sistemi sayesinde; I. Devlet kasasından nakit para çıkmadan devasa bir Sipahi ordusunun hazır tutulması, II. Taşrada asayiş, güvenlik ve merkezi otoritenin korunması, III. Toprağın boş bırakılmasının yasaklanmasıyla tarımsal üretimde sürekliliğin sağlanması durumlarından hangileri bu sistemin **devlete sağladığı faydalar** arasında yer alır?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İkta sisteminin sosyo-ekonomik ve askeri sacayaklarını denetleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Vergi gelirleriyle atlı asker (cebelü) yetiştirildiği için hazineye yük olunmaz. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: İkta sahibi komutanlar taşrada bizzat ordusuyla durduğu için eşkıyalığı engeller, asayişi korur. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Toprağı mazeretsiz ekmeyenden ceza alınır, 3 yıl ekmeyenin iktası fesh edilir; bu kural üretimi kilitler. Doğrudur.
+            <br>• Üç öncül de ikta sisteminin devlete sağladığı hayati, çok yönlü faydalardır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> 1071 yılında Sultan Alp Arslan komutasındaki Selçuklu ordusunun Bizans İmparatorluğu'nu imha ettiği Malazgirt Zaferi'nin ardından; Anadolu'da Danismentliler, Saltuklular, Mengücekliler ve Artuklular gibi ilk Türk beylikleri kurulmuştur. 
+        <br>Bu durum Malazgirt Savaşı'nın **Anadolu tarihi açısından** en net sonucunun aşağıdakilerden hangisi olduğunu kanıtlar?</div>
+        <ul class="options-list">
+            <li>A) Anadolu'da siyasi birliğin kesin olarak sağlandığını</li>
+            <li>B) Anadolu'nun kapılarının Türklere açıldığını ve Türkiye Tarihinin resmen başladığını</li>
+            <li>C) İslamiyet'in Anadolu'da tamamen yok edildiğini</li>
+            <li>D) Bizans İmparatorluğu'nun tamamen yıkıldığını</li>
+            <li>E) Haçlı Seferleri'nin kesin olarak son bulduğunu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Malazgirt Savaşı'nın Türk ve dünya tarihindeki o meşhur unvanını hatırlayalım: **"Anadolu'nun kapılarını açan savaş"**.
+            <br>• Bizans'ın askeri direncinin kırılmasıyla birlikte, Türk boyları kitleler halinde Anadolu'ya fırlamış ve feth edilen yerlerde hemen ilk Türk beylikleri (Birinci Dönem Beylikleri) kurulmuştur. Bu fetih ve beylikler zinciri, bugünkü Türkiye Cumhuriyeti'ne kadar uzanan köklü <b>Türkiye Tarihini (Anadolu'nun Türkleşmesi sürecini) fiilen ve resmen başlatan</b> ana kıvılcımdır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> İlk Müslüman Türk devletlerinde hükümdarların mutlak egemenliklerini pekiştiren pek çok sembol mevcuttur. Buna göre, aşağıda verilen egemenlik alametlerinden hangisi **Türklerin İslamiyet'i kabul etmesiyle birlikte hayatlarına giren (İslami kökenli)** bir semboldür?</div>
+        <ul class="options-list">
+            <li>A) Otağ (Hükümdar çadırı)</li>
+            <li>B) Kotuz / Tuğ (Sancak/At kuyruğu)</li>
+            <li>C) Nevbet (Askeri bando/Davul vurulması)</li>
+            <li>D) Hükümdar adına Hutbe okutulması ve sikke (para) bastırılması</li>
+            <li>E) Yay ve Örgün (Taht)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Egemenlik alametlerinin İslam öncesi ve sonrası köken ayrımını yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Otağ (çadır), Tuğ (sancak), Nevbet (davul) ve Örgün (taht) gibi kavramlar, Türklerin Hunlardan beri Orta Asya bozkırlarında kullandıkları geleneksel, **İslam öncesi** milli hakimiyet sembolleridir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak cuma namazlarında hükümdarın adının, adaletinin zikr edilerek dua edilmesi olan <b>Hutbe okutulması</b> ve paranın üzerine İslami ibareler kazınarak <b>Sikke bastırılması</b>, tamamen **İslam devlet geleneğinden** (Arap-Fars etkisinden) Türk kültürüne entegre olmuş yeni dönem alametleridir. Cevap D'dir.
+        </div>
+    </div>
+
+</body>
+</html>

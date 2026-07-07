@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 11: Milli Mücadele Cepheler Dönemi ve Lozan</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #991b1b, #1e3a8a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fee2e2; font-style: italic; }
+        h2 { color: #991b1b; font-size: 16pt; border-left: 6px solid #1e3a8a; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #1e3a8a; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #16a34a; border-left: 5px solid #15803d; padding: 15px; margin: 18px 0; border-radius: 4px; color: #14532d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #991b1b; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #991b1b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #991b1b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 11: MİLLİ MÜCADELE CEPHELER DÖNEMİ</h1>
+        <p>"Süngünün ve Diplomasinin Zaferi: Üç Cephe Stratejisi, Sakarya Kırılması ve Lozan Barış Antlaşması"</p>
+    </div>
+
+    <h2>1. DOĞU VE GÜNEY CEPHELERİ: İLK TOKATLAR</h2>
+    <p>TBMM hükümeti, Mondros ile silah bırakmayı reddeden düzenli ve düzensiz birliklerle üç kolda vatan savunması yürütmüştür:</p>
+    <ul>
+        <li><b>Doğu Cephesi (Düzenli Ordu):</b> Mondros Ateşkesi'ne meydan okuyarak 15. Kolordu'yu dağıtmayan <b>Kazım Karabekir</b>, Ermeni ordularını ağır bozguna uğratmıştır. 3 Aralık 1920'de <b>Gümrü Antlaşması</b> imzalanmıştır. <b>💡 Önemi: Gümrü Antlaşması, TBMM'nin uluslararası alandaki İLK siyasi ve askeri zaferidir.</b> Ermeniler, Doğu Anadolu'daki (Sevr'deki) toprak iddialarından vazgeçmiş ve TBMM'yi tanıyan ilk devlet olmuştur. Doğu sınırı daha sonra *Moskova* ve kesin olarak *Kars* antlaşmalarıyla mühürlenmiştir.</li>
+        <li><b>Güney Cephesi (Halk Direnişi):</b> Bu cephede düzenli ordu <u>yoktur</u>. Fransızlar ve onlarla iş birliği yapan Ermeni çetelerine karşı tamamen yerel halkın kurduğu <b>Kuvayı-ı Milliye</b> savaşmıştır. Maraş'ta *Sütçü İmam*, Antep'te *Şahin Bey*, Urfa'da *Ali Saip Bey* direnişin sembolü olmuştur. Fransa, Batı Cephesi'ndeki Sakarya Zaferi'ni gördükten sonra Anadolu'da kalamayacağını anlayıp 1921 <b>Ankara Antlaşması</b> ile çekilmiştir. Hatay dışındaki Güney sınırı çizilmiştir.</li>
+    </ul>
+
+    <h2>2. BATI CEPHELERİ SAVAŞLARI VE DÜZENLİ ORDU MATEMATİĞİ</h2>
+    <p>Yunan ordusuna karşı yürütülen, Kurtuluş Savaşı'nın kaderini belirleyen asıl büyük cephedir. Kuvayı Milliye'nin düzensiz yapısı (Gedik Taarruzu başarısızlığı) ve Çerkez Ethem gibi liderlerin başına buyruk hareketleri nedeniyle TBMM tarafından **Düzenli Ordu** kurulmuştur. Komutanlığına **İsmet Paşa (İnönü)** getirilmiştir.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Savaşın Adı ve Türü</th>
+                <th>Tarihi</th>
+                <th>ÖSYM Odaklı Stratejik Süreç ve Jeopolitik Sonuçları</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>I. İnönü Savaşı</b><br>(Savunma)</td>
+                <td>Ocak 1921</td>
+                <td>Düzenli ordunun Yunanlılara karşı kazandığı <b>İLK askeri zaferdir</b>. İçeride halkın meclise güveni artmış, Teşkilat-ı Esasiye (İlk anayasa) ve İstiklal Marşı kabul edilmiştir. Dışarıda İtilaf devletleri TBMM'yi <i>Londra Konferansı</i>'na davet etmiştir. Sovyet Rusya ile **Moskova Antlaşması** imzalanmıştır (Rusya TBMM'yi tanıyan ilk büyük Avrupa devleti olmuş, Misak-ı Milli'den ilk taviz **Batum** olarak verilmiştir).</td>
+            </tr>
+            <tr>
+                <td><b>II. İnönü Savaşı</b><br>(Savunma)</td>
+                <td>Mart 1921</td>
+                <td>Yunan ordusu ikinci kez püskürtülmüştür. Mustafa Kemal, İsmet Paşa'ya gönderdiği telgrafta o meşhur sözünü söylemiştir: <b>"Siz orada yalnız düşmanı değil, milletin makûs (kötü) talihini de yendiniz."</b> İtalya Anadolu'dan çekilmeye başlamıştır.</td>
+            </tr>
+            <tr>
+                <td><b>Kütahya - Eskişehir Savaşları</b><br>(Savunma)</td>
+                <td>Temmuz 1921</td>
+                <td>**Düzenli ordunun Batı Cephesi'ndeki İLK ve TEK yenilgisidir.** Ordu imha olmasın diye Mustafa Kemal'in emriyle Sakarya Nehri'nin doğusuna çekilmiştir. Meclisin Kayseri'ye taşınması tartışılmıştır. Meclis, tüm yetkilerini 3 aylığına Mustafa Kemal'e devrederek ona <b>Başkomutanlık Kanunu</b>'nu (Ağustos 1921) vermiştir. Mustafa Kemal yasama yetkisini kullanarak ordunun lojistik ihtiyacı için <b>Tekalif-i Milliye Emirleri</b>'ni ilan etmiştir. (Topyekûn seferberlik). Savaş ortasında Ankara'da <i>Maarif (Eğitim) Kongresi</i> toplanmıştır.</td>
+            </tr>
+            <tr>
+                <td><b>Sakarya Meydan Savaşı</b><br>(Savunma &rarr; Taarruz kırılması)</td>
+                <td>Ağustos - Eylül 1921</td>
+                <td>Türk tarihinin en büyük ölüm kalım savaşıdır (Subaylar Savaşı). Mustafa Kemal askeri strateji tarihine geçen o meşhur emrini vermiştir: <b>"Hatt-ı müdafaa yoktur, sath-ı müdafaa vardır. O satıh bütün vatandır."</b> Yunan ordusu ağır bozguna uğratılmıştır. 1683 II. Viyana'dan beri süren Türk çekilmesi (savunması) son bulmuş, **Türk ordusu Taarruz (Saldırı) pozisyonuna geçmiştir**. Fransa ile Ankara Antlaşması imzalanmıştır. Mustafa Kemal'e **Gazi** unvanı ve **Mareşal** rütbesi verilmiştir.</td>
+            </tr>
+            <tr>
+                <td><b>Büyük Taarruz ve Başkomutanlık</b><br>(Taarruz)</td>
+                <td>Ağustos - Eylül 1922</td>
+                <td>Ordunun yaklaşık 1 yıl boyunca Tekalif-i Milliye emirleriyle taarruz eğitimi almasından sonra başlatılan imha harekatıdır (Dumlupınar). Mustafa Kemal: **"Ordular, ilk hedefiniz Akdeniz'dir, ileri!"** emrini vermiştir. 9 Eylül'de İzmir düşmandan temizlenmiş, Anadolu'daki Yunan işgali tamamen son bulmuştur. Savaşın askeri safhası bitmiştir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. ASKERİ ZAFERİN DİPLOMATİK TESCİLİ VE LOZAN BARIŞ ANTLAŞMASI</h2>
+    <p>Büyük Taarruz'un ardından İtilaf devletleri silah bırakmak zorunda kalmış ve <b>Mudanya Ateşkes Antlaşması (11 Ekim 1922)</b> imzalanmıştır. Bu ateşkesle **İstanbul, Boğazlar ve Doğu Trakya (Edirne/Tekirdağ) savaş yapılmadan diplomatik yolla kurtarılmıştır**. Osmanlı Devleti hukuken yok sayılmıştır.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ LOZAN BARIŞ ANTLAŞMASI (24 TEMMUZ 1923) — TAPU SENEDİ:</strong>
+        <br>İsviçre'nin Lozan kentinde toplanan konferansa TBMM'yi temsilen Mudanya'daki diplomatik başarısından dolayı **İsmet İnönü** başkanlığındaki heyet gitmiştir. Mustafa Kemal heyetten iki konuda kesinlikle taviz verilmemesini istemiştir: **Ermeni Yurdu iddiaları** ve **Kapitülasyonların tamamen kaldırılması**. (Taviz verilirse masayı terk edin emri).
+        <br><i>Lozan'ın En Kritik ÖSYM Kararları:</i>
+        <br>1. **Kapitülasyonlar:** Tamamen kaldırılmıştır (Ekonomik bağımsızlık tescillendi).
+        <br>2. **Ermeni ve Rum İddiaları:** Sevr tamamen yırtılmış, Ermeni yurdu yalanı çöpe atılmıştır.
+        <br>3. **Azınlıklar:** Osmanlı'daki tüm azınlıklar **Türk Vatandaşı** kabul edilmiştir. Böylece Avrupalıların azınlıkları bahane ederek iç işlerimize karışması tamamen engellenmiştir.
+        <br>4. **Duyun-u Umumiye (Dış Borçlar):** Osmanlı borçları, Osmanlı'dan ayrılan devletler arasında paylaştırılmış; Türkiye kendi payına düşeni Türk Lirası/Fransız Frangı olarak taksitle ödemeyi kabul etmiştir.
+        <br>5. **Nüfus Mübadelesi:** Türkiye'deki Rumlar ile Yunanistan'daki Türklerin zorunlu olarak yer değiştirmesi kabul edilmiştir (İstanbul ve Batı Trakya halkı hariç - Etabli kuralı).
+        <br>6. **Boğazlar (Yara):** Başkanı Türk olan uluslararası bir **Boğazlar Komisyonu**'na bırakılmış ve her iki yakası silahsızlandırılmıştır. (Egemenliğimize aykırı çözülen maddedir, 1936 Montrö ile çözülecektir).
+        <br>7. **Çözülemeyen Tek Sorun (Irak Sınırı/Musul):** İngiltere ile yaşanan Musul uyuşmazlığı nedeniyle Lozan'da çözülememiş, savaştan sonraki sürece ertelenmiştir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Milli Mücadele Doğu Cephesi'nde 15. Kolordu Komutanı Kazım Karabekir Paşa'nın Ermeni ordularını kesin bir bozguna uğratmasının ardından 3 Aralık 1920'de imzalanan Gümrü Antlaşması'nın **Türk siyasi tarihi açısından en ayırt edici, en öncelikli stratejik değeri** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Düzenli ordunun batı cephesinde kurulmasını geciktirmesi</li>
+            <li>B) TBMM hükümetinin uluslararası alanda kazandığı İLK askeri ve siyasi zafer olması, Sevr Antlaşması'nı bir devlete (Ermenistan'a) resmen yırtıp geçersiz kıldırması</li>
+            <li>C) Misak-ı Milli sınırlarından ilk tavizin verilmesi</li>
+            <li>D) Güney cephesindeki halk direnişini tamamen durdurması</li>
+            <li>E) İstanbul hükümetinin otoritesini tüm dünyada pekiştirmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Gümrü Antlaşması'nın tarihsel "ilk" olma unvanını analiz edelim. Ankara'da meclis (TBMM) açıldıktan sonra yabancı devletler onun gücünü ve kalıcılığını sorguluyorlardı.
+            <br>• Doğu Cephesi'ndeki bu muazzam zafer ve ardından imzalanan <b>Gümrü Antlaşması</b>, TBMM'nin varlığını, gücünü ve hukuki kimliğini dünyada kabul ettiren **İLK diplomatik sözleşmedir**. Ermenistan TBMM'yi tanıyan ilk devlet olmuş, Sevr'deki Doğu Anadolu toprak iddialarından tamamen vazgeçmiştir. Bu zafer, batı cephesine askeri kaydırma yapılmasını da kolaylaştırmıştır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Batı Cephesi Savaşları kronolojisinde; Türk ordusunun taarruz gücüne henüz ulaşamadığı için ağır zayiatlar vererek geri çekildiği, **düzenli ordunun Batı Cephesi'ndeki ilk ve tek yenilgisi** kabul edilen, ordu imha olmasın diye Mustafa Kemal'in emriyle ordunun Sakarya Nehri'nin doğusuna çekildiği savaş hangisidir?</div>
+        <ul class="options-list">
+            <li>A) I. İnönü Savaşı</li>
+            <li>B) II. İnönü Savaşı</li>
+            <li>C) Kütahya - Eskişehir Savaşları</li>
+            <li>D) Sakarya Meydan Savaşı</li>
+            <li>E) Büyük Taarruz</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Batı Cephesi'nin o tek hüzünlü ve kriz doğuran kırılma noktasını arıyoruz. 
+            <br>• I. ve II. İnönü zaferlerinin ardından şımaran Yunan ordusu İngiliz desteğiyle devasa bir taarruz başlatmıştır. Yeni kurulan Türk düzenli ordusu bu ağır darbe karşısında tutunamamış ve Afyon, Kütahya, Eskişehir şehirlerini kaybederek geri çekilmiştir. Mustafa Kemal askeri bir dehayla ordunun tamamen yok olmasını engellemek için **Sakarya Nehri'nin doğusuna çekilme** emri vermiştir. Bu yenilgi mecliste büyük krize yol açmış ve Mustafa Kemal'e **Başkomutanlık** yetkisinin verilmesini tetiklemiştir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Kütahya-Eskişehir yenilgisinin ardından meclisin tüm yetkilerini (Yasama, Yürütme) şahsında toplayarak Başkomutanlık görevini üstlenen Mustafa Kemal Paşa'nın; doğrudan kendi imzaladığı **Tekalif-i Milliye Emirleri (Ulusal Yükümlülükler)** ile halktan çorabından çarığına, buğdayından bineğine kadar her şeyin belli bir kısmını orduya teslim etmesini istemesi, onun hangi gücü doğrudan kullandığını ve neyi amaçladığını gösterir?</div>
+        <ul class="options-list">
+            <li>A) Yargı gücünü kullanarak padişahı korumayı</li>
+            <li>B) Yasama (Kanun yapma) gücünü doğrudan kullanarak ordunun acil lojistik/askeri ihtiyaçlarını karşılamayı ve topyekûn bir seferberlik başlatmayı</li>
+            <li>C) Meclisi tamamen kapatmayı</li>
+            <li>D) Fransa ile barış anlaşması imzalamayı</li>
+            <li>E) Çok partili hayata derhal geçmeyi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Başkomutanlık Kanunu'nun hukuki boyutunu ameliyat edelim: Meclis, Mustafa Kemal'e hızlı kararlar alabilmesi için kendi **Yasama (Kanun çıkarma)** yetkisini devretmişti.
+            <br>• Mustafa Kemal'in meclise sormadan, doğrudan kendi imzasıyla yayınladığı <b>Tekalif-i Milliye Emirleri</b> birer kanun hükmündedir ve meclisin yasama yetkisinin şahsen kullanıldığının kanıtıdır. Bu emirlerin asıl amacı, yaklaşan o büyük Sakarya Savaşı öncesi tamamen tükenmiş olan Türk ordusunun kıyafet, yiyecek, silah ve lojistik eksikliklerini halkın fedakarlığıyla **topyekûn seferberlik** ilan ederek kapatmaktır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Batı Cephesi'nde kazanılan Sakarya Meydan Muharebesi'nin Türk tarihi açısından jeopolitik kırılma noktaları incelendiğinde, aşağıda verilen sonuçlardan hangisi bu savaşın **savunma psikolojisini bitiren en hayati yönüdür**?</div>
+        <ul class="options-list">
+            <li>A) Mustafa Kemal'e kanunla Başkomutanlık unvanının verilmesi</li>
+            <li>B) İtilaf devletlerinin Londra Konferansı'nı toplaması</li>
+            <li>C) 1683 II. Viyana Kuşatması'ndan beri yaklaşık 2.5 asırdır süren "Türk ordusunun geri çekilme / savunma" döneminin kesin olarak son bulması ve Türk ordusunun Taarruz (Saldırı) pozisyonuna geçmesi</li>
+            <li>D) Rusya'nın TBMM'yi tanıyan ilk Avrupa devleti olması</li>
+            <li>E) Doğu sınırımızın Gümrü Antlaşması ile tamamen kapatılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sakarya Savaşı'nın dünya askeri ve Türk tarihi kronolojisindeki asırlık kırılma kodunu görelim.
+            <br>• Türk milleti Osmanlı'nın gerileme döneminden, yani 1683 II. Viyana Kuşatması'ndaki bozgunundan beri balkanlarda ve Anadolu'da sürekli toprak kaybediyor, sürekli geri çekiliyor ve savunma yapıyordu. <b>Sakarya Meydan Savaşı'nda Yunan ordusunun taarruz gücü tamamen eritilmiş ve Türk ordusu asırlar sonra ilk kez savunmadan TAARRUZ (Saldırı) pozisyonuna geçmiştir</b>. Bu durum psikolojik ve askeri üstünlüğün tamamen Türk tarafına geçtiğinin kanıtıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'nda çözüme kavuşturulan maddeler incelendiğinde; Osmanlı Devleti'nden kalan **"Kapitülasyonların tamamen kaldırılması"** ile **"Tüm azınlıkların kayıtsız şartsız Türk vatandaşı kabul edilmesi"** kararlarının Türkiye Cumhuriyeti'ne sağladığı en büyük ortak kazanım aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Ekonomik ve hukuki alanlarda tam bağımsızlığın tescillenmesi, yabancı devletlerin azınlıkları bahane ederek iç işlerimize müdahale etme kapılarının kesin olarak kapatılması</li>
+            <li>B) Musul ve Kerkük'ün misak-ı milli sınırlarına dahil edilmesi</li>
+            <li>C) Boğazlar üzerindeki uluslararası komisyonun yetkilerinin artırılması</li>
+            <li>D) Nüfus mübadelesi uygulamasının tamamen iptal edilmesi</li>
+            <li>E) Saltanat sisteminin hukuken devam ettirilmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Lozan'ın tam bağımsızlık felsefesini sorgulayan muazzam bir final sorusudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>Kapitülasyonların kaldırılması:</b> Devletin ekonomisini kelepçeleyen yabancı imtiyazlarını yok etmiş ve **ekonomik bağımsızlığı** kurmuştur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>Azınlıkların Türk vatandaşı sayılması:</b> Avrupalıların yüzyıllardır (özellikle 19. yüzyılda) "Osmanlı'daki Hristiyanların/azınlıkların haklarını koruyoruz" yalanıyla devletin iç işlerine müdahale etme, devleti içten bölme kozunu ellerinden tamamen almıştır. Artık hepsi Türk vatandaşıdır ve iç sorunumuzdur.
+            <br>• Dolayısıyla her iki karar da yeni Türk devletinin **tam bağımsızlık, egemenlik hakları ve iç işlerinin korunması** ilkelerinin dünyada sarsılmaz bir kaya gibi tescillendiğini gösterir. Cevap A'dır.
+        </div>
+    </div>
+
+</body>
+</html>

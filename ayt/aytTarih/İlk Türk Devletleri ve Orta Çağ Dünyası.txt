@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 2: İlk Türk Devletleri ve Orta Çağ Dünyası</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #701a75); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #f3e8ff; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #3b82f6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #701a75; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #faf5ff; border: 1px dashed #c084fc; border-left: 5px solid #a855f7; padding: 15px; margin: 18px 0; border-radius: 4px; color: #581c87; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 2: İLK TÜRK DEVLETLERİ VE ORTA ÇAĞ DÜNYASI</h1>
+        <p>"Bozkırın Efendileri: Kurultay Teşkilatı, Kut İnancı ve Orta Çağ Avrupası Siyasi Sistemleri"</p>
+    </div>
+
+    <h2>1. ORTA ÇAĞ'DA DÜNYA VE AVRUPA SİSTEMLERİ</h2>
+    <p>Kavimler Göçü (375) ile başlayıp İstanbul'un Fethi'ne (1453) kadar süren dönem Orta Çağ'dır. Bu dönemde Avrupa'da siyasi, sosyal ve ekonomik yapıyı şekillendiren temel sistem <b>Feodalite (Derebeylik)</b> olmuştur. Merkezi krallıkların zayıf olduğu bu düzende, koruma altına giren halka *vassal*, koruyan senyörlere ise *süzeren* denmiştir. Katolik Kilisesi, **Skolastik Düşünce** ve Aforoz/Endüljans yetkileriyle Avrupa zihnini tamamen ipotek altına almıştır. İngiltere'de 1215 yılında imzalanan <b>Magna Carta (Büyük Şart)</b> ile kralın yetkileri ilk kez kısıtlanmış ve Avrupa'da anayasal düzene giden ilk köprü kurulmuştur.</p>
+
+    <h2>2. COĞRAFYA VE YAŞAM: TÜRK KÜLTÜRÜNÜN İSKELETİ</h2>
+    <p>Orta Asya'nın sert karasal iklimi ve bozkır coğrafyası, Türklerin **Konargöçer (Göçebe)** bir yaşam tarzı benimsemelerine yol açmıştır. Bu yaşam tarzı, Türk toplum yapısını ve hukukunu doğrudan şekillendirmiştir:</p>
+    <ul>
+        <li><b>Ordu-Millet Anlayışı:</b> Türklerde eli silah tutan her fert (kadın-erkek fark etmeksizin) asker sayılmıştır. Ücretli veya profesyonel bir askerlik sınıfı yoktur.</li>
+        <li><b>Taşınabilir Kültür Mirası:</b> Sanat eserleri, çadırlar (yurt), halı/kilim dokumaları ve madeni eşyalar göçebe hayata uygundur. **Uzun süreli hapis cezaları uygulanamaz** (En fazla 10-12 gün).</li>
+        <li><b>Töre Hukuku:</b> Yazısız hukuk kurallarıdır. Temeli örf, adet ve geleneklerdir. Dinamik ve esnektir; ancak adalet, eşitlik ve iyilik gibi evrensel ilkeleri asla değiştirilemez.</li>
+    </ul>
+
+    <h2>3. İSLAMİYET ÖNCESİ EN POPÜLER TÜRK DEVLETLERİ</h2>
+    <ol>
+        <li><b>Asya Hun Devleti:</b> Tarihte Türklerin kurduğu <b>ilk teşkilatlı devlettir</b>. En parlak dönemi olan <b>Mete Han</b>; Orta Asya'daki tüm Türk boylarını ilk kez tek bir bayrak altında toplamıştır. Dünya askeri tarihine **Onlu Sistemi** kazandırmış ve ilk düzenli Türk ordusunu kurmuştur.</li>
+        <li><b>I. ve II. Göktürk Devletleri:</b> Tarihte **Türk adını resmi bir devlet ismi olarak kullanan İLK devlettir**. II. Göktürk (Kutluk) Devleti döneminde dikilen <b>Orhun Yazıtları</b>, Türk tarihinin ve edebiyatının ilk yazılı abideleridir.</li>
+        <li><b>Uygur Devleti:</b> Bögü Kağan döneminde **Maniheizm** dinini benimseyerek **yerleşik hayata geçen İLK Türk devletidir**. Savaşçılık özelliklerini kaybetmişler ancak tarım, matbaa, kütüphanecilik, kağıt üretimi, yerleşik hukuk ve mimaride (saray ve tapınaklar) devasa bir medeniyet kırılması yaratmışlardır.</li>
+    </ol>
+
+    <h2>4. TÜRK DEVLET TEŞKİLATI VE SİYASİ ANLAYIŞ ŞİFRELERİ</h2>
+    <p>ÖSYM'nin her yıl öncüllü veya doğrudan tanım olarak sorduğu en hayati devlet yapısı terimleri şunlardır:</p>
+
+    <div class="memory-box">
+        <strong>👑 KUT İNANCI (Egemenliğin İlahi Kaynağı):</strong>
+        <br>Devleti yönetme yetkisinin Gök Tanrı tarafından hükümdara ve onun **kan bağı taşıyan tüm erkek üyelerine** (hanedana) verildiği inancıdır. Bu inanç hükümdarın otoritesini güçlendirir; ancak "Ülke hanedanın ortak malıdır" kuralını doğurduğu için hükümdar öldüğünde tahta geçme hakkı olan tüm şehzadeler (tiginler) hak iddia eder. Bu durum **taht kavgalarına**, devletlerin kısa sürede ikiye bölünerek **parçalanmasına** yol açar. Sabit bir veraset sistemi yoktur.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 KURULTAY (Toy / Kengeş) — Devlet Meclisi:</strong>
+        <br>Hükümdarın başkanlığında toplanan; devletin siyasi, askeri, ekonomik ve hukuki işlerinin görüşüldüğü dev meclistir. Üyelerine <b>Toygun</b> denir (Hakan, Hatun, Boy Beyleri, Komutanlar). Hakanın eşi olan <b>Hatun (Katun)</b>'un kurultaya katılması ve elçileri kabul etmesi, kadına verilen siyasi değerin kanıtıdır. Kurultayda son söz hakanındır; bu yönüyle bir **Danışma Meclisi** niteliğindedir. Ancak hakanı seçme veya töreye uymayan hakanı görevden alma yetkisi olduğundan bazen bir **Karar Meclisi** gibi de çalışabilir.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 İKİLİ TEŞKİLAT (Yönetim Şablonu):</strong>
+        <br>Devlet yönetiminin kolaylaştırılması amacıyla ülkenin Doğu ve Batı olmak üzere ikiye ayrılarak yönetilmesidir. Kutsal sayılan **Doğu'da asıl hükümdar (Kağan)** otururken, **Batı'da hükümdarın kardeşi (Yabgu)** iç işlerinde serbest, dış işlerinde Doğu'ya bağlı olarak yönetim icra eder. Bu durum ilk Türk devletlerinde **federal devlet** yapılanmasının ilk kanıtıdır. Kısa sürede bölünmeyi hızlandırır.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> İslamiyet öncesi Türk devletlerinde egemenliğin ilahi bir kaynağa dayandırılmasını sağlayan "Kut İnancı"nın Türk siyasi tarihi üzerindeki yansımaları incelendiğinde; aşağıda verilen durumlardan hangisi bu inancın doğrudan doğurduğu **olumsuz** bir sonuçtur?</div>
+        <ul class="options-list">
+            <li>A) Hükümdarın halk üzerindeki siyasi otoritesinin ve saygınlığının artması</li>
+            <li>B) Yazısız hukuk kuralları olan Töre'ye kesin bir itaatin sağlanması</li>
+            <li>C) Sabit bir veraset kuralının olmaması sebebiyle, hükümdar öldüğünde hanedan üyeleri arasında kanlı taht kavgalarının çıkması ve devletlerin hızla parçalanması</li>
+            <li>D) Düzenli orduların kurulmasının hızlanması</li>
+            <li>E) Kurultay meclisinin tamamen ortadan kaldırılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kut inancının genetik ve hukuki felsefesini analiz edelim: Tanrı yönetme hakkını kağanın kanına mühürlemiştir. Dolayısıyla kağanın soyundan gelen (oğlu, kardeşi, amcası, yeğeni) her erkek üye bu kutsal kanı taşımaktadır.
+            <br>• Hangi şehzadenin tahta geçeceği önceden net bir kurala bağlanmadığı için, hükümdar öldüğünde hanedanın tüm erkek üyeleri "bana da kut verildi" diyerek taht mücadelesine girişirlerdi. Bu durum iç savaşları tetikler, merkezi otoriteyi sıfırlar ve **Türk devletlerinin çok kısa sürede ikiye bölünerek tarih sahnesinden silinmesine** neden olurdu. Bu, Türk devlet yapısının en büyük kronik zafiyetidir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Bir tarih araştırmacısı, Hunlar ve Göktürkler dönemine ait arkeolojik verileri incelerken; uzun süreli hapis cezalarına ait zindan kalıntılarına, mülkiyete dayalı geniş arazi tapularına ve taş mimariye dair izlere rastlayamamıştır. 
+        <br>Buna göre, ilk Türk devletlerinde bu tarz yapısal ve hukuki kalıntıların bulunmamasının **temel köken nedeni** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Gök Tanrı inancının taş işçiliğini yasaklaması</li>
+            <li>B) Yazılı hukuk kurallarının (Töre) aşırı katı olması</li>
+            <li>C) Coğrafi ve ekonomik şartların zorlamasıyla benimsenen "Konargöçer (Göçebe)" yaşam tarzı</li>
+            <li>D) Çin medeniyetiyle yapılan yoğun savaşlar</li>
+            <li>E) Kurultay meclisinin bu tarz yapıların inşasına izin vermemesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Yaşam tarzının sosyo-kültürel ve mimari altyapıya etkisini yorumlayalım: Hunlar ve Göktürkler, Orta Asya bozkırlarında hayvancılıkla geçinen göçebe topluluklardır. Mevsimlere göre sürekli yaylak ve kışlaklar arasında yer değiştirirler.
+            <br>• Sürekli hareket halinde olan bir toplumda devasa taş saraylar, tapınaklar yapmak veya suçluları yıllarca tek bir yerde tutacak zindanlar kurmak **hayatın pratik akışına tamamen aykırıdır**. Göçebe hayat nedeniyle hapis cezaları kısa süreli (10-12 gün) tutulmuş, mimari taş yerine taşınabilir çadır (yurt) kültürüne evrilmiştir. Temel neden göçebe yaşamdır (C şıkkı).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Türklerin tarihsel gelişim çizgisi incelendiğinde; Maniheizm dinini resmi olarak benimseyerek göçebe bozkır hayatını tamamen terk eden, **yerleşik hayata geçen ilk Türk devleti** olma unvanıyla tarım, mimari ve matbaacılıkta çığır açan devlet hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Asya Hun Devleti</li>
+            <li>B) I. Göktürk Devleti</li>
+            <li>C) Uygur Devleti</li>
+            <li>D) Hazar Devleti</li>
+            <li>E) Kırgızlar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Türk tarihinde tam bir kültür ve medeniyet eksen kayması yaratan devleti arıyoruz: "Maniheizm inancı" ve "Yerleşik hayata ilk geçiş".
+            <br>• Bögü Kağan döneminde Çin etkisinden dolayı et yemeyi ve kan dökmeyi yasaklayan Mani dinine geçen <b>Uygurlar</b>, bu dinin kuralları gereği hayvancılığı ve göçebeliği bırakıp tapınakların etrafına yerleşmiş, tarıma başlamışlardır. Türk tarihinde ilk kez kalıcı şehirler (Balık adı verilen şehirler), saraylar, tapınaklar kuran, matbaayı ve kağıdı kullanan ilk yerleşik Türk topluluğudur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İlk Türk devletlerinde hükümdarın başkanlığında toplanan Kurultay (Toy) meclisinde; son sözün her zaman Kağan'a ait olması, kağanın kararları kendi süzgecinden geçirmesi bu meclisin **öncelikle** hangi özelliğe sahip olduğunu kanıtlar?</div>
+        <ul class="options-list">
+            <li>A) Kurultayın mutlak bir yasama (kanun yapma) organı olduğunu</li>
+            <li>B) Kurultayın bir "Danışma Meclisi" niteliği taşıdığını</li>
+            <li>C) İkili teşkilat sisteminin tamamen çöktüğünü</li>
+            <li>D) Hatun'un kurultayda hiçbir yetkisinin bulunmadığını</li>
+            <li>E) Demokratik cumhuriyet rejiminin tam olarak uygulandığını</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Meclislerin işlevsel tanımlarını hukuk tarihi açısından yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Eğer bir mecliste oylama yapılır ve meclisin aldığı karar hükümdar dahil herkesi bağlarsa o bir **Karar Meclisi**dir (Parlamento gibi).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak meclis toplanıp fikir beyan ediyor, tartışıyor fakat **finalde son sözü, kararı hükümdar tek başına veriyorsa**, meclis sadece hükümdara fikir veren bir kurul niteliğindedir. Bu tarz meclislere siyaset biliminde <b>Danışma Meclisi</b> adı verilir. Kurultay da son sözün kağana ait olması yönüyle öncelikle bir danışma meclisidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Orta Çağ Avrupası'nda merkezi krallıkların gücünü kaybetmesiyle ortaya çıkan, toprağı elinde bulunduran derebeylerin (senyörlerin) şatolarında korunaklı surlar arkasında hüküm sürdüğü, kilisenin dogmatik skolastik düşüncesiyle sarmalanmış **parçalanmış siyasi ve toplumsal düzen** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Mutlakiyet</li>
+            <li>B) Teokrasi</li>
+            <li>C) Meşrutiyet</li>
+            <li>D) Feodalite (Derebeylik)</li>
+            <li>E) Oligarşi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Orta Çağ Avrupası'nın o en meşhur sosyo-politik düzenini arıyoruz: "Kavimler göçüyle krallıkların yıkılması", "şatolar/surlar", "senyör-vassal ilişkisi" ve "parçalanmış merkezi otorite".
+            <br>• Bu unsurların tamamı Orta Çağ Avrupası'na damga vuran, siyasi birliğin olmadığı parçalı egemenlik modeli olan <b>Feodalite (Derebeylik)</b> sistemini tanımlar. Bu sistem Yeni Çağ'da ateşli silahların (topların) surları yıkmasıyla tamamen tasfiye edilecektir. Doğru şık D'dir.
+        </div>
+    </div>
+
+</body>
+</html>

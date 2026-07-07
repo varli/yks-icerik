@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 9: XX. Yüzyıl Başlarında Osmanlı Devleti ve Dünya</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #450a0a, #7f1d1d); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fca5a5; font-style: italic; }
+        h2 { color: #450a0a; font-size: 16pt; border-left: 6px solid #dc2626; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #7f1d1d; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fef2f2; border: 1px dashed #ef4444; border-left: 5px solid #b91c1c; padding: 15px; margin: 18px 0; border-radius: 4px; color: #7f1d1d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #450a0a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #450a0a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #450a0a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 9: XX. YÜZYIL BAŞLARINDA OSMANLI DEVLETI</h1>
+        <p>"İmparatorluğun Son Savaşları: Trablusgarp'tan Cihan Harbine, Cepheler ve Mondros İşgal Tuzakları"</p>
+    </div>
+
+    <h2>1. 20. YÜZYILIN İLK SAVAŞLARI: TRABLUSGARP VE BALKAN BUNALIMLARI</h2>
+    <p>Osmanlı Devleti yeni yüzyıla ardı ardına gelen toprak kayıpları ve iç siyasi çalkantılarla (İttihat ve Terakki Cemiyeti baskısıyla II. Meşrutiyet'in ilanı - 1908 ve ordu içindeki isyan olan 31 Mart Vakası) girmiştir.</p>
+    <ul>
+        <li><b>Trablusgarp Savaşı (1911 - 1912):</b> Sömürge arayan İtalya, Osmanlı'nın Kuzey Afrika'daki son toprağı olan Trablusgarp'a (Libya) saldırmıştır. Mısır İngiliz işgalinde olduğu için Osmanlı karadan ordu gönderememiş, donanma zayıf olduğu için denizden de müdahale edememiştir. **Mustafa Kemal (Şerif takma adıyla gazeteci)** ve Enver Bey gibi subaylar gizlice bölgeye giderek yerli halkı İtalyanlara karşı örgütlemiş, Derne ve Tobruk'ta büyük başarılar kazanmıştır. Ancak Balkan Savaşı patlak verince İtalya ile <b>Uşi Antlaşması</b> imzalanmıştır: **Trablusgarp İtalya'ya bırakılmış, böylece Osmanlı Kuzey Afrika'daki son toprak parçasını kaybetmiştir.** On İki Ada ise Balkan Savaşları bitene kadar geçici olarak İtalya'ya emanet edilmiştir. <b>💡 Önemi: Trablusgarp, Mustafa Kemal'in sömürgeciliğe karşı ilk askeri mücadelesidir.</b></li>
+        <li><b>Balkan Savaşları (1912 - 1913):</b> I. Balkan Savaşı'nda dört küçük balkan devleti (Bulgaristan, Yunanistan, Sırbistan, Karadağ) Osmanlı'ya saldırmış ve ordu içindeki siyasi çekişmeler yüzünden Osmanlı ağır bir yenilgi alarak Midye-Enez hattının batısındaki tüm balkan topraklarını (Edirne dahil) kaybetmiştir. Bu yenilgiyi fırsat bilen İttihatçılar, Türk tarihinin **ilk askeri darbesi** kabul edilen <b>Bâb-ı Âli Baskını (1913)</b> ile hükümeti devirerek yönetimi tamamen ele geçirmişlerdir. II. Balkan Savaşı'nda ise Bulgaristan'ın çok toprak almasına kızan diğer devletler Bulgaristan'a saldırmış, Osmanlı bu kargaşadan yararlanarak Edirne ve Kırklareli'yi geri almıştır.</li>
+    </ul>
+
+    <h2>2. BÜYÜK HESAPLAŞMA: I. DÜNYA SAVAŞI VE OSMANLI CEPHELERİ (1914 - 1918)</h2>
+    <p>Osmanlı Devleti, kaybettiği toprakları geri almak ve İtilaf devletlerinin (İngiltere, Fransa, Rusya) kendisini parçalama niyetini kırmak amacıyla İttifak devletlerinin (Almanya, Avusturya-Macaristan) yanında savaşa girmiştir. Goben ve Breslav (Yavuz ve Midilli) adlı Alman gemilerinin Rus limanlarını bombalaması savaşı fiilen başlatmıştır.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Cephe Grubu / Türü</th>
+                <th>Cephe Adı</th>
+                <th>ÖSYM Odaklı Stratejik Karakteri, Amaçları ve Sonuçları</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2"><b>Taarruz Cepheleri</b><br>(Osmanlı'nın Açtığı)</td>
+                <td><b>Kafkas Cephesi</b></td>
+                <td>Enver Paşa komutasındaki <b>Sarıkamış Harekâtı</b> trajediyle sonuçlanmış, binlerce asker donarak şehit olmuştur. Ruslar Doğu Anadolu'yu işgal etmiştir. Bölgeye atanan Mustafa Kemal, Muş ve Bitlis'i geri almıştır. 1917'de Rusya'da bolşevik ihtilali çıkınca Ruslar <i>Brest-Litovsk Antlaşması</i> ile savaştan çekilmiş ve işgal ettikleri yerleri (Kars, Ardahan, Batum - Evliye-i Selase) Osmanlı'ya geri bırakmışlardır. **Osmanlı'nın toprak kaybettiği halde toprak kazandığı tek cephedir.**</td>
+            </tr>
+            <tr>
+                <td><b>Kanal Cephesi</b></td>
+                <td>Almanya'nın isteğiyle Süveyş Kanalı'nı alıp İngiltere'nin Hindistan sömürge yollarını kesmek ve Mısır'ı geri almak amacıyla açılmıştır. Lojistik yetersizlik ve çöl şartları yüzünden başarısızlıkla sonuçlanmıştır.</td>
+            </tr>
+            <tr>
+                <td rowspan="4"><b>Savunma Cepheleri</b><br>(İtilaf Devletlerinin Saldırdığı)</td>
+                <td><b>Çanakkale Cephesi</b></td>
+                <td>İtilaf devletleri Rusya'ya yardım götürmek ve İstanbul'u alarak Osmanlı'yı saf dışı bırakmak için saldırmıştır. Nusret Mayın Gemisi ve Seyit Onbaşı'nın kahramanlıklarıyla deniz savaşı, Mustafa Kemal'in **"Ben size taarruzu değil, ölmeyi emrediyorum"** sözüyle Conkbayırı ve Anafartalar'da kara savaşı kazanılmıştır. **I. Dünya Savaşı'nın ömrü 2 yıl uzamıştır.** Rusya'ya yardım gidemediği için Rusya'da çarlık çökmüştür. Bulgaristan İttifak safında savaşa girmiştir. Mustafa Kemal dünya çapında tanınan bir lider olmuştur.</td>
+            </tr>
+            <tr>
+                <td><b>Suriye-Filistin Cephesi</b></td>
+                <td>Kanal Cephesi'nin başarısızlığından sonra İngilizlerin taarruzuyla açılmıştır. Mustafa Kemal, Halep'in kuzeyinde bir savunma hattı (Yıldırım Orduları) kurarak İngilizleri durdurmuştur. Savaşın bittiği son cephedir.</td>
+            </tr>
+            <tr>
+                <td><b>Irak - Basra Cephesi</b></td>
+                <td>İngilizlerin petrol bölgelerini korumak ve Rusya'ya güneyden yardım ulaştırmak için açtığı cephedir. Osmanlı ordusu <b>Kut'ül Amâre (1916)</b> zaferinde Halil Paşa komutasında İngiliz general Townshend ve 13 bin askerini esir alarak dev bir başarı kazanmışsa da, sonradan gelen İngiliz takviyeleriyle cephe kaybedilmiştir.</td>
+            </tr>
+            <tr>
+                <td><b>Hicaz - Yemen Cephesi</b></td>
+                <td>Kutsal toprakları korumak için İngilizlere ve onlarla iş birliği yapan şerif Hüseyin'e karşı savaşılmıştır. Medine Müdafii <b>Fahreddin Paşa (Çöl Kaplanı)</b>'nın açlık ve çekirge yiyerek yaptığı destansı Medine savunmasıyla tarihe geçmiştir. <b>💡 Sonucu: İslamcılık (Ümmetçilik) fikri iflas etmiştir.</b></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. İMPARATORLUĞUN FİİLEN BİTİŞİ: MONDROS ATEŞKES ANTLAŞMASI (30 EKİM 1918)</h2>
+    <p>Savaştan yenik çıkan Osmanlı Devleti adına Rauf Orbay ile İtilaf devletleri adına Amiral Calthorpe arasında Limni Adası'nın Mondros Limanı'nda imzalanmıştır. Bu anlaşma bir ateşkes değil, doğrudan doğruya **Anadolu'yu işgale hazır hale getirme planıdır**.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BU İKİ MADDEYİ HER YIL YOKLAR (MONDROS'UN İMZA TUZAKLARI):</strong>
+        <br>&bull; <b>7. MADDE:</b> *"İtilaf devletleri, güvenliklerini tehdit edecek bir durum ortaya çıkarsa herhangi bir stratejik noktayı işgal edebilecektir."*
+        <br><b>Hukuki Tahlili: Anlaşmanın en tehlikeli maddesidir. İtilaf devletleri bu maddeyle Anadolu'nun tamamını işgal etmek için kendilerine meşru, hukuki bir zemin hazırlamışlardır. Bu madde tüm vatanı savunmasız bırakmıştır.</b>
+        <br>&bull; <b>24. MADDE:</b> *"Doğu Anadolu'daki altı vilayette (Vilayat-ı Sitte: Erzurum, Van, Harput, Diyarbakır, Bitlis, Sivas) bir karışıklık çıkarsa, İtilaf devletleri buraları işgal edebilecektir."*
+        <br><b>Hukuki Tahlili: İngilizce metinde bu bölge için doğrudan "Armenia" (Ermenistan) denmiştir. Bu maddenin tek bir gizli amacı vardır: Doğu Anadolu'da bağımsız bir Ermeni Devleti kurmaktır.</b>
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Mustafa Kemal Bey, 1911 yılında İtalya'nın Trablusgarp'a saldırması üzerine gizlice bölgeye gitmiş, yerli halkı sömürgeci güçlere karşı örgütleyerek Derne ve Tobruk'ta büyük askeri başarılar elde etmiştir. 
+        <br>Mustafa Kemal'in Trablusgarp'taki bu faaliyeti, onun askeri ve şahsi karakterinin **öncelikle** hangi yönünü ortaya koymaktadır?</div>
+        <ul class="options-list">
+            <li>A) Uluslararası hukuk kurallarına sıkı sıkıya bağlı olduğunu</li>
+            <li>B) Teşkilatçılık (örgütleyicilik) yeteneğini ve vatanseverlik duygusunu</li>
+            <li>C) Düzenli orduları yönetme stratejisini geliştirdiğini</li>
+            <li>D) Saltanat sistemini desteklediğini</li>
+            <li>E) Barışçıl diplomasiyi her şeyin üstünde tuttuğunu</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Mustafa Kemal'in ilk askeri sınavını analiz edelim: Osmanlı Devleti resmi ordu gönderemediği için Mustafa Kemal ve arkadaşları tamamen kendi inisiyatifleriyle, canlarını ortaya koyarak (vatanseverlik) gizli kimliklerle Trablusgarp'a sızmışlardır.
+            <br>• Orada düzenli bir Osmanlı ordusu yoktur. Mustafa Kemal, birbirini tanımayan dağınık yerel Arap kabilelerini bir araya getirmiş, onlara askeri eğitim vermiş ve İtalyanlara karşı tek bir yumruk gibi savaşmalarını sağlamıştır. Sıfırdan bir halkı bir amaç etrafında birleştirme gücüne siyaset ve askeri bilimde <b>Teşkilatçılık / Örgütleyicilik</b> adı verilir. Bu onun Milli Mücadele liderliğinin de provasıdır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> I. Dünya Savaşı esnasında Osmanlı ordularının **toprak kaybetmesine rağmen, müttefiki Rusya'da Bolşevik İhtilali'nin çıkıp savaştan çekilmesiyle (Brest-Litovsk Antlaşması) Kars, Ardahan ve Batum'u geri alarak kazançlı çıktığı yegane taarruz cephesi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Çanakkale Cephesi</li>
+            <li>B) Kanal Cephesi</li>
+            <li>C) Suriye - Filistin Cephesi</li>
+            <li>D) Kafkas Cephesi</li>
+            <li>E) Irak - Basra Cephesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Soru kökündeki coğrafi ve diplomatik ipuçlarını birleştirelim: "Rusya ile savaşılması", "Brest-Litovsk" ve "Kars, Ardahan, Batum (Evliye-i Selase) şehirlerinin geri alınması".
+            <br>• Bu özellikler, Osmanlı'nın doğu sınırında açtığı ilk taarruz cephesi olan <b>Kafkas Cephesi</b>'ni işaret eder. Sarıkamış faciasıyla ordu ağır darbe almış, Ruslar Erzurum, Trabzon, Erzincan ve Van'ı işgal etmişti. Ancak 1917'de Rusya içindeki rejim devrimi (Bolşevik İhtilali) çarlığı yıkınca yeni Sovyet yönetimi savaştan çekilmiş ve imzalanan anlaşmayla 1878'den beri Rus işgalinde olan Kars, Ardahan ve Batum'u Osmanlı'ya iade etmiştir. Bu yüzden cephe askeri olarak kaybedilse de diplomatik olarak kazançla bitmiştir. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> I. Dünya Savaşı'nda İngilizlerin kutsal toprakları ele geçirme girişimlerine karşı, Medine şehrini çevredeki isyancı kabilelere ve İngiliz ordularına karşı açlık, sefalet ve çekirge yiyerek aylarca aslanlar gibi savunan, tarihe **"Medine Müdafii"** ve **"Çöl Kaplanı"** unvanlarıyla geçen kahraman Osmanlı komutanı kimdir?</div>
+        <ul class="options-list">
+            <li>A) Enver Paşa</li>
+            <li>B) Halil Kut Paşa</li>
+            <li>C) Fahreddin Paşa</li>
+            <li>D) Cemal Paşa</li>
+            <li>E) Mustafa Kemal Paşa</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin biyografik kahraman şifre kelimelerini tarayalım: "Hicaz-Yemen cephesi", "Medine Savunması", "Çöl Kaplanı unvanı".
+            <br>• İstanbul hükümetinin "Medine'yi tahliye et, İngilizlere teslim et" emrini vermesine rağmen, "Ben Peygamber'in yeşil kubbesini kendi ellerimle İngiliz bayrağı altına bırakamam" diyerek isyan eden ve askerleriyle çekirge yiyerek son kurşuna kadar şehri savunan efsanevi komutan <b>Fahreddin Paşa (Fahreddin Türkkan)</b>'dır. Cevap C'dir. (Halil Paşa Kut'ül Amare kahramanıdır, karıştırılmamalıdır).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Mondros Ateşkes Antlaşması'nın ünlü 7. maddesinde yer alan *"İtilaf devletleri, güvenliklerini tehdit edecek herhangi bir durum ortaya çıkarsa, istedikleri stratejik bir noktayı işgal edebilecektir"* hükmünün **asıl sinsi amacı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Osmanlı saltanatını koruma altına almak</li>
+            <li>B) Boğazlarda ticari trafiği hızlandırmak</li>
+            <li>C) Anadolu'nun tamamını işgale açık hale getirmek ve yapılacak tüm işgallere meşru, hukuki bir kılıf hazırlamak</li>
+            <li>D) Rusya'ya askeri yardım ulaştırmak</li>
+            <li>E) Ermeni isyanlarını kesin olarak bastırmak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Mondros'un en tehlikeli maddesinin arkasındaki emperyalist zihniyeti deşifre edelim. İtilaf devletleri uluslararası hukukta haksız duruma düşmek istemiyorlardı.
+            <br>• 7. maddeye ekledikleri "güvenliğin tehdit edilmesi" gibi ucu açık, muğlak ifade sayesinde, Anadolu'nun neresini işgal etmek isterlerse istesinler orada yapay bir karışıklık çıkarıp "güvenliğimiz tehdit edildi, anlaşmanın 7. maddesine göre hakkımızı kullanıyoruz" diyebileceklerdi. Yani bu madde, <b>tüm Anadolu işgallerinin önceden planlanmış yasal kılıfıdır</b>. Vatanı tamamen savunmasız bırakmıştır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> I. Dünya Savaşı'nın devam ettiği sırada İtilaf Devletlerinin (İngiltere, Fransa, İtalya, Rusya) kendi aralarında imzaladıkları **Sykes-Picot, Londra, Saint-Jean de Maurienne ve Petrograd** gibi gizli anlaşmaların ortak amacı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Savaş bittikten sonra kurulacak Cemiyet-i Akvam'ın tüzüğünü hazırlamak</li>
+            <li>B) Amerika Birleşik Devletleri'ni savaşa girmeye ikna etmek</li>
+            <li>C) Savaş henüz devam ederken, Osmanlı İmparatorluğu'nun topraklarını kendi aralarında gizlice paylaşmak ve paylaşım kavgalarını önceden çözmek</li>
+            <li>D) Bolşevik rejimini tüm dünyada yaygınlaştırmak</li>
+            <li>E) Almanya'yı ekonomik olarak desteklemek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Savaş diplomasisinin o en karanlık perdelerini açalım: İtilaf devletleri Osmanlı'nın (Hasta Adam'ın) kesin olarak çökeceğini biliyorlardı. 
+            <br>• Savaş bittiğinde ganimet paylaşımı yüzünden kendi aralarında birbirlerine düşmemek amacıyla, savaş devam ederken (1915-1917 yılları arasında) bir araya gelerek gizli anlaşmalar imzalamışlardır. Örneğin **Sykes-Picot** ile Ortadoğu'yu (Petrolleri) İngiltere-Fransa arasında bölüşmüşler, **Londra** anlaşmasıyla İtalya'ya Antalya çevresini vaat ederek onu kendi saflarına çekmişlerdir. Bu gizli planları dünya tarihine ilk kez çarlığı yıkan Rus Bolşevikler (Sarı Kitap ile) ifşa etmiştir. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 10: Milli Mücadele Hazırlık Dönemi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #b91c1c, #451a03); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fde68a; font-style: italic; }
+        h2 { color: #b91c1c; font-size: 16pt; border-left: 6px solid #451a03; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #78350f; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fffbeb; border: 1px dashed #f59e0b; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #b91c1c; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #b91c1c; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #b91c1c; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 10: MİLLİ MÜCADELE HAZIRLIK DÖNEMİ</h1>
+        <p>"Milletin Azim ve Kararı: İşgal Cemiyetleri, İhtilal Genelgeleri, Kongreler ve Misak-ı Milli Kararları"</p>
+    </div>
+
+    <h2>1. İŞGAL GÜNLERİ: DIRENİŞ HÜCRELERİ VE CEMİYETLER</h2>
+    <p>Mondros’un ardından İstanbul hükümetinin işgallere sessiz kalması üzerine, Türk halkı kendi haklarını savunmak amacıyla bölgesel **Milli (Yararlı) Cemiyetler** kurmuş ve silahlı direniş örgütü olan <b>Kuvayı-ı Milliye</b> ruhunu doğurmuştur.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Yararlı (Milli) Cemiyetler (Vatansever)</th>
+                <th>Zararlı Azınlık Cemiyetleri (Hain)</th>
+                <th>Milli Varlığa Düşman Türk Cemiyetleri (Yozlaşmış)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>&bull; <b>Trakya-Paşaeli:</b> İlk kurulan cemiyettir. Rumlara karşı kurulmuştur.<br>&bull; <b>Doğu Anadolu Müdafaa-i Hukuk:</b> Ermeni devletine karşı kurulmuştur. Erzurum Kongresi'ni organize etmiştir.<br>&bull; <b>Kilikyalılar:</b> Adana ve çevresini Fransız/Ermenilere karşı savunmuştur (İsmi yanıltıcıdır!).<br>&bull; <b>Milli Kongre:</b> **Basın-yayın ve propaganda yoluyla** haklılığımızı dünyaya duyuran, Kuvayı Milliye tabirini ilk kullanan ulusal cemiyettir.</td>
+                <td>&bull; <b>Mavri Mira ve Etnik-i Eterya:</b> Büyük Yunanistan'ı (**Megali İdea**) kurmak ve Bizans'ı diriltmek amacıyla Ege ve İstanbul'da çalışan Rum cemiyetleridir.<br>&bull; <b>Pontus Rum:</b> Trabzon merkezli bir Rum devleti kurmayı amaçlamıştır.<br>&bull; <b>Hınçak ve Taşnak:</b> Doğu Anadolu ve Çukurova'da bağımsız bir Ermenistan kurmak için katliamlar yapan Ermeni örgütleridir.</td>
+                <td>&bull; <b>İngiliz Muhipleri:</b> Kurtuluşu İngiliz mandasına girmekte görenlerin cemiyetidir (Damad Ferit dahil).<br>&bull; <b>Wilson Prensipleri:</b> Kurtuluşu Amerikan mandasına girmekte görenlerin cemiyetidir (Bazı aydınlar).<br>&bull; <b>Sulh ve Selamet-i Osmaniye:</b> Kurtuluşun ancak padişah ve halifenin emirlerine sıkı sıkıya uymakla mümkün olacağını savunan cemiyettir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. İHTİLALİN KRONOLOJİK ADIMLARI: GENELGELER VE KONGRELER</h2>
+    <p>9. Ordu Müfettişi olarak 19 Mayıs 1919'da Samsun'a çıkan Mustafa Kemal, bölgesel direnişleri birleştirip ulusal bir ihtilal zinciri başlatmıştır:</p>
+
+    <h3>A) Havza Genelgesi (28 Mayıs 1919) — İlk Uyandırma</h3>
+    <p>Mustafa Kemal halktan işgalleri protesto eden **mitingler düzenlemesini**, İtilaf devletlerine protesto telgrafları çekmesini istemiştir. **Milli bilinci (uyanışı) başlatan İLK resmi belgedir.**</p>
+
+    <h3>B) Amasya Genelgesi (22 Haziran 1919) — İhtilal Manifestosu</h3>
+    <p>Mustafa Kemal, Rauf Orbay, Refet Bele ve Ali Fuat Cebesoy tarafından imzalanmış; Kazım Karabekir tarafından onaylanmıştır. Genelge, Kurtuluş Savaşı'nın resmi **ihtilal beyannamesidir**. ÖSYM bu maddelerin derin yorumlarını her yıl sorar:</p>
+    <div class="warning-box">
+        <strong>⚠️ AMASYA GENELGESİ'NİN EN SEVDİĞİ ANLAMSAL OTOPİSİ:</strong>
+        <br>&bull; *Maddesi:* "Vatanın bütünlüğü milletin bağımsızlığı tehlikededir. İstanbul hükümeti üzerine aldığı sorumluluğu yerine getirememektedir."
+        <br><b>Yorumu: Kurtuluş Savaşı'nın gerekçesi (nedeni) ilk kez ortaya konulmuştur. İstanbul hükümetine açıkça başkaldırılmıştır.</b>
+        <br>&bull; *Maddesi:* "Milletin bağımsızlığını, yine **milletin azim ve kararı** kurtaracaktır."
+        <br><b>Yorumu: Kurtuluş Savaşı'nın amacı ve yöntemi ilk kez belirtilmiştir. "Milletin kararı" ifadesi, ileride saltanatın yıkılacağının, cumhuriyete gidileceğinin, ulusal egemenliğe dayalı yeni bir devlet kurulacağının ilk üstü kapalı ilanıdır.</b>
+        <br>&bull; *Maddesi:* Devleti temsil etmek üzere ulusal bir kurul (<b>Temsil Heyeti</b>) oluşturulmalıdır ve Sivas'ta ulusal bir kongre toplanmalıdır.
+    </div>
+
+    <h3>C) Erzurum Kongresi (23 Temmuz - 7 Ağustos 1919) — Sınırlar</h3>
+    <p>Toplanış amacı yönüyle Doğu Anadolu'daki Ermeni tehlikesine karşı kurulduğu için **bölgesel**, aldığı kararlar yönüyle ise **ulusal (milli)** bir kongredir. Mustafa Kemal askerlikten istifa ettikten sonra sivil olarak başkanlık etmiştir.
+    <br>&bull; <b>"Milli sınırlar içinde vatan bir bütündür, parçalanamaz"</b> maddesiyle **Misak-ı Milli'nin temelleri ilk kez atılmıştır**.
+    <br>&bull; **Manda ve himaye (Sömürgecilik/Güdüm) ilk kez kesin olarak reddedilmiştir.**
+    <br>&bull; *Kuva-yı Milliye'yi amil, milli iradeyi hakim kılmak esastır* denmiştir. **Temsil Heyeti ilk kez kurulmuştur** (Sadece Doğu'yu temsil eder tarzda).</p>
+
+    <h3>D) Sivas Kongresi (4 - 11 Eylül 1919) — Ulusal Zirve</h3>
+    <p>Hem toplanış amacı hem de aldığı kararlar yönüyle **kesinlikle ULUSAL (Milli)** tek kongredir. Engelleme çabalarına (Ali Galip olayı) rağmen toplanmıştır.
+    <br>&bull; Erzurum Kongresi kararları genişletilerek tüm vatan için aynen kabul edilmiştir.
+    <br>&bull; **Manda ve himaye fikri bir daha gündeme gelmemek üzere KESİN VE SON KEZ reddedilmiştir.**
+    <br>&bull; Tüm yararlı cemiyetler <b>"Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti"</b> adı altında tek bir çatı altında birleştirilmiştir (Tek merkezden yönetim amacı).
+    <br>&bull; Temsil Heyeti'nin üye sayısı artırılarak **tüm vatanı temsil eder hale getirilmiştir**. Heyet, Ali Fuat Paşa'yı Batı Cephesi Komutanlığına atayarak ilk kez bir hükümet gibi **Yürütme yetkisini** kullanmıştır. İrade-i Milliye adıyla ilk gazete çıkarılmıştır.</p>
+
+    <h2>3. BAĞIMSIZLIK ANDI: MİSAK-I MİLLİ (28 OCAK 1920)</h2>
+    <p>Sivas Kongresi'nden sonra Ali Rıza Paşa hükümeti ile Temsil Heyeti arasında **Amasya Görüşmeleri (Protokolü)** yapılmış ve İstanbul hükümeti Temsil Heyeti'ni **hukuken ilk kez tanımıştır**. Bu görüşmeler sonucu İstanbul'da son Osmanlı Mebusan Meclisi açılmıştır. Mustafa Kemal Ankara'dan meclise giden vekillerden bir bağımsızlık grubu (**Felah-ı Vatan**) kurdurmuş ve mecliste Türk milletinin bağımsızlık andı olan <b>Misak-ı Milli Kararları</b> oy birliğiyle kabul edilmiştir.</p>
+    
+    <div class="memory-box">
+        <strong>🧠 MİSAK-I MİLLİ KAPSAMI VE FORMÜLÜ (KODLAMA: BORSA / KARABAS):</strong>
+        <br>Misak-ı Milli, Türk vatanının sınırlarını çizen belgedir. Ana maddeleri şunlardır:
+        <br>&bull; <b>K</b>apitülasyonlar: Ekonomik ve hukuki bağımsızlığımızı engelleyen kapitülasyonlar kesinlikle kabul edilemez (Tam bağımsızlık maddesi).
+        <br>&bull; <b>A</b>zınlıklar: Azınlıkların hakları, komşu ülkelerdeki Müslümanlara verilen haklar kadar olacaktır (Uluslararası eşitlik ilkesi).
+        <br>&bull; <b>R</b>efrandum (Halk oylaması): Kars, Ardahan, Batum (Elviye-i Selase), Batı Trakya ve Arap topraklarında halkın geleceğini belirlemek için serbestçe halk oylaması yapılabilir (Milli iradeye güven).
+        <br>&bull; <b>B</b>oğazlar: İstanbul ve Marmara Denizi'nin güvenliği sağlandığı takdirde dünya ticaretine açılabilir.
+        <br>&bull; <b>S</b>ınırlar: Mondros Ateşkesi imzalandığı anda işgal edilmemiş olan, Türk ve Müslüman çoğunluğun yaşadığı topraklar bir bütündür, bölünemez.
+        <br><b>⚠️ Sonucu: Misak-ı Milli'nin kabul edilmesine kuduran İtilaf devletleri, 16 Mart 1920'de İstanbul'u resmen işgal etmiş ve meclisi basıp vekilleri sürgün etmiştir. Bu yıkım, Ankara'da TBMM'nin açılmasına (23 Nisan 1920) zemin hazırlamıştır.</b>
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Amasya Genelgesi'nde yer alan *"Milletin bağımsızlığını, yine milletin azim ve kararı kurtaracaktır"* maddesi Kurtuluş Savaşı tarih yazımı açısından analiz edildiğinde; bu maddenin genelgeye eklenmesinin **en devrimsel, en hayati anlamsal yorumu** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Manda ve himaye fikrinin ilk kez Sivas'ta tartışılacağını belirtmesi</li>
+            <li>B) Kurtuluş Savaşı'nın sadece bölgesel güçlerle yürütüleceğini ilan etmesi</li>
+            <li>C) Kurtuluş Savaşı'nın amaç ve yöntemini ortaya koyarken, "milletin kararı" vurgusuyla ileride mutlak monarşinin (saltanatın) yıkılacağına ve milli egemenliğe dayalı yeni bir rejim (cumhuriyet) kurulacağına ilk kez üstü kapalı işaret etmesi</li>
+            <li>D) İstanbul hükümetinin askeri gücünden yararlanılacağını açıklaması</li>
+            <li>E) Kapitülasyonların derhal kaldırılacağını ilan etmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Amasya Genelgesi'ndeki o muazzam siyaset felsefesi şifresini çözelim. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Şiirsel veya düz bir askeri emir değildir bu madde. "Milletin bağımsızlığını kim kurtaracak?" sorusunun cevabı amacı verir: Milletin bağımsızlığı.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - "Nasıl/Hangi yöntemle kurtaracak?" sorusunun cevabı yöntemi verir: Milletin azmi ve **MİLLETİN KARARI**.
+            <br>• Monarşiyle yönetilen bir ülkede, padişahın iradesi dururken "kararı millet verecektir" demek, egemenliğin kaynağını padişahtan alıp halka devretmek demektir. Bu yönüyle Amasya Genelgesi'nin bu maddesi, Türk tarihinin ilk **üstü kapalı rejim/cumhuriyet ve ulusal egemenlik manifestosu**dur. Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Milli Mücadele Hazırlık Dönemi'nde gerçekleşen kongrelerin yapısal özellikleri incelendiğinde; **"toplanış amacı ve çağrısı yönüyle Doğu Anadolu'daki Ermeni tehlikesine odaklandığı için bölgesel; ancak aldığı kararlar (milli sınırlar, manda reddi) yönüyle tamamen ulusal olan"** kongre aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Balıkesir Kongresi</li>
+            <li>B) Amasya Görüşmeleri</li>
+            <li>C) Erzurum Kongresi</li>
+            <li>D) Sivas Kongresi</li>
+            <li>E) Alaşehir Kongresi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin en meşhur turnusol kağıdı kongre kıyas kuralını uygulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Balıkesir ve Alaşehir kongreleri hem toplanış hem karar yönüyle sadece Batı cephesine has **bölgesel** kongrelerdir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sivas Kongresi hem toplanış hem karar yönüyle tamamen **ulusal** tek kongredir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Doğu Anadolu Müdafaa-i Hukuk Cemiyeti tarafından Doğu vilayetlerini Ermenilere karşı korumak için toplanan ancak Mustafa Kemal'in katılımıyla "Milli sınırlar içinde vatan bir bütündür" diyerek tüm vatanı kurtaracak kararlar alan **toplanışı bölgesel, kararları ulusal** karma nitelikli kongre ise <b>Erzurum Kongresi</b>'dir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Sivas Kongresi'nde alınan idari kararlar incelendiğinde; Temsil Heyeti'nin üye sayısının artırılarak tüm vatanı temsil eder hale getirilmesinin ardından, **Ali Fuat Paşa'yı Batı Cephesi Kuvayı Milliye Genel Komutanlığına ataması**, Temsil Heyeti'nin devletler hukuku kriterlerine göre hangi yetkiyi doğrudan kullandığını kanıtlar?</div>
+        <ul class="options-list">
+            <li>A) Yasama (Kanun yapma)</li>
+            <li>B) Yargı (Dava çözme)</li>
+            <li>C) Yürütme (Hükümet gibi davranma)</li>
+            <li>D) Uluslararası antlaşma imzalama</li>
+            <li>E) Rejim değiştirme</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Hukuk ve anayasa terimlerinin idari karşılıklarını eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kanun yapmak = Yasama, Kanunlara göre ceza/dava çözmek = Yargı, Kanunları uygulamak, bir memuru/bakanı/komutanı bir göreve **atamak** veya görevden almak ise tamamen **YÜRÜTME** yetkisidir.
+            <br>• Temsil Heyeti, bir meclis veya padişah olmadığı halde, sanki bağımsız ve egemen bir **hükümetmiş gibi** hareket ederek Ali Fuat Paşa'yı cepheye komutan olarak atamıştır. Bu durum Temsil Heyeti'nin Anadolu'da yürütme gücünü eline aldığının ve hükümet gibi çalıştığının en net kanıtıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Kurtuluş Savaşı hazırlık sürecinde kurulan cemiyetlerin yapısal nitelikleri incelendiğinde; ismi Adana ve çevresinin eski antik adından esinlenerek kurulduğu için sanki zararlı bir azınlık cemiyetiymiş gibi çeldirici duran, ancak asıl amacı **Adana ve çevresini Fransız işgali ile Ermeni katliamlarına karşı canla başla savunan yararlı (milli) cemiyet** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kilikyalılar Cemiyeti</li>
+            <li>B) Mavri Mira</li>
+            <li>C) Taşnak Sütyun</li>
+            <li>D) Pontus Rum</li>
+            <li>E) İngiliz Muhipleri</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin soru bankalarında kurduğu en klasik isim tuzağını deşifre edelim. Mavri Mira (B) Rum, Taşnak (C) Ermeni, İngiliz Muhipleri (E) manda taraftarı zararlı yapılardır.
+            <br>• Çukurova (Adana) bölgesinin tarihteki eski ismi **Kilikya**'dır. İstanbul'da kurulan ve daha sonra merkezini Adana'ya taşıyan Fransız/Ermeni işgallerine karşı silahlı direniş yürüten bu vatansever örgütün adı <b>Kilikyalılar Cemiyeti</b>'dir. İsmi yabancı gibi durduğu için öğrencileri çeldirmek amacıyla sınavlarda sıkça sorulur, oysa tam bir yararlı milli cemiyettir. Cevap A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Son Osmanlı Mebusan Meclisi'nde kabul edilen ve Türk milletinin tam bağımsızlık sınırlarını çizen "Misak-ı Milli Kararları"nın İtilaf devletleri tarafından öğrenilmesinin ardından; İtilaf devletlerinin Türk milletinin iradesine darbe vurmak amacıyla gerçekleştirdiği **doğrudan askeri ve siyasi misilleme** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Amasya Genelgesi'ni yayınlatmak</li>
+            <li>B) 16 Mart 1920'de İstanbul'u resmen işgal ederek meclisi basmak, vekilleri ve aydınları Malta'ya sürgüne göndermek</li>
+            <li>C) Sevr Antlaşması'nı imzalamak</li>
+            <li>D) Mustafa Kemal'i Erzurum'a vali atamak</li>
+            <li>E) İzmir'i Yunanistan'a bağlamak</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Siyasi sebep-sonuç ilişkisini kronolojik olarak kuralım: İtilaf devletleri, Osmanlı Mebusan Meclisi'nin kendi baskıları altında ezileceğini ve teslimiyetçi kararlar alacağını sanıyorlardı.
+            <br>• Ancak meclisten tam bağımsızlık yemini olan **Misak-ı Milli** çıkınca çılgına dönmüşler ve <b>16 Mart 1920'de İstanbul'u resmi ve fiili olarak işgal etmişlerdir</b>. Meclis-i Mebusan'ı basıp milli iradeyi kelepçelemişler, meclisi kapatmışlardır. Bu işgal, İstanbul'da artık hiçbir şey yapılamayacağını gösterdiği için Mustafa Kemal'in Ankara'da yepyeni ve bağımsız bir parlamento olan **TBMM'yi (23 Nisan 1920) açmasını kolaylaştıran ve hızlandıran** en büyük etken olmuştur. Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

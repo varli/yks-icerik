@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 8: Osmanlı Duraklama, Gerileme ve Dağılma Dönemleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #334155, #1e293b); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #cbd5e1; font-style: italic; }
+        h2 { color: #1e293b; font-size: 16pt; border-left: 6px solid #475569; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #334155; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f8fafc; border: 1px dashed #64748b; border-left: 5px solid #475569; padding: 15px; margin: 18px 0; border-radius: 4px; color: #0f172a; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e293b; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e293b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e293b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 8: DEĞİŞEN DÜNYA DENGELERİ VE OSMANLI SİYASETİ</h1>
+        <p>"Arayıştan Dağılmaya: Zitvatorok Kırılmasından Karlofça Trajedisine, 19. Yüzyıl Denge Siyaseti ve Demokratikleşme Belgeleri"</p>
+    </div>
+
+    <h2>1. 17. YÜZYIL DURAKLAMA (ARAYIŞ YILLARI) VE DİPLOMATİK GERİLEME</h2>
+    <p>Osmanlı Devleti bu yüzyılda hala en geniş sınırlarına ulaşmış ve gücünü korumuştur (Bucaş Antlaşması ile Batı'da en geniş sınır, Ferhat Paşa Antlaşması ile Doğu'da en geniş sınır). Ancak devletin iç iskeleti (tımar sistemi, yeniçeri ocağı, maliye) bozulmaya başlamıştır. Ekber ve Erşed sistemiyle veraset kuralı netleşmiş, sancağa çıkma kaldırılarak <i>Kafes Sistemi</i> getirilmiş; bu durum tecrübesiz padişahların tahta geçmesine yol açmıştır.</p>
+    
+    <h3>En Kritik Diplomatik Kırılma Noktaları:</h3>
+    <ul>
+        <li><b>1606 Zitvatorok Antlaşması:</b> Avusturya ile imzalanmıştır. Kanuni dönemindeki 1533 İstanbul Antlaşması ile elde edilen mutlak protokol üstünlüğü kaybedilmiştir. **Avusturya kralı, Osmanlı padişahına denk (Sezar unvanıyla) sayılmıştır.** Osmanlı'nın küresel diplomasi gücü ağır yara almıştır.</li>
+        <li><b>1699 Karlofça Antlaşması:</b> II. Viyana Kuşatması'ndaki (1683) başarısızlığın ardından kurulan Kutsal İttifak (Avusturya, Rusya, Lehistan, Venedik, Malta) ordularına karşı kaybedilen uzun savaşlar sonucu imzalanmıştır. **Osmanlı Devleti tarihinde İLK KEZ Batı'da devasa miktarda toprak (Macaristan, Mora, Podolya) kaybetmiştir.** Duraklama dönemi bitmiş, **Gerileme Dönemi** resmen başlamıştır.</li>
+    </ul>
+
+    <h2>2. 18. YÜZYIL GERİLEME (DENGELERİN DEĞİŞMESİ) VE KUZEY TEHDİDİ</h2>
+    <p>Osmanlı'nın bu yüzyılın ilk yarısındaki temel amacı Karlofça ile kaybettiği toprakları geri almaktır (Prut Savaşı ile umutlar artmış, Pasarofça ile batının üstünlüğü kabul edilerek <b>Lale Devri</b> batılılaşma hamleleri başlamıştır). Yüzyılın ikinci yarısında ise en büyük düşman, sıcak denizlere inme politikasını başlatan Çarlık Rusyası olmuştur.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN KESİN SORAR — KÜÇÜK KAYNARCA TRAJEDİSİ (1774):</strong>
+        <br>Rusya ile imzalanan, Osmanlı tarihinin en ağır, en yıkıcı anlaşmalarından biridir.
+        <br><i>Maddeleri ve Şifreleri:</i>
+        <br>1. **Kırım bağımsız olacaktır.** (Tarihte ilk kez halkı tamamen Türk ve Müslüman olan bir toprak parçası Osmanlı'dan kopmuştur. Kültürel bağın korunması için halkın halifeye bağlı kalması maddesi eklenmiştir).
+        <br>2. Rusya, Karadeniz ve Akdeniz'de serbestçe donanma bulundurabilecek ve boğazlardan geçebilecektir (Karadeniz'in Türk gölü olma özelliği resmen bitmiştir).
+        <br>3. **Osmanlı Devleti tarihinde İLK KEZ savaş tazminatı ödemiştir** (Rusya'ya).
+        <br>4. Rusya, Osmanlı sınırları içindeki Ortodoks halkı koruma (himaye etme) hakkı kazanmıştır (Rusya, Osmanlı'nın iç işlerine karışmak için devasa bir yasal kapı açmıştır).
+    </div>
+
+    <h2>3. 19. YÜZYIL DAĞILMA (EN UZUN YÜZYIL) VE DENGE SİYASETİ</h2>
+    <p>1789 Fransız İhtilali'nin yaydığı <b>Milliyetçilik (Ulusçuluk)</b> akımı, çok uluslu bir imparatorluk olan Osmanlı'yı darmadağın etmiştir. Balkanlarda isyan eden ilk topluluk **Sırplar** (1804), bağımsızlığını kazanan ilk topluluk ise **Rumlar / Yunanistan** (1829 Edirne Antlaşması) olmuştur. Osmanlı, kendi valisi olan Mısır Valisi Kavalalı Mehmet Ali Paşa isyanını bile tek başına bastıramamış, İngiltere ve Rusya'dan yardım istemiştir. Bu çaresizlik, Osmanlı'yı ömrünü uzatmak için <b>Denge Siyaseti</b> (büyük devletlerin kendi aralarındaki çıkar çatışmalarından yararlanarak hayatta kalma) uygulamaya mecbur bırakmıştır.</p>
+
+    <h2>4. DEVLETİ KURTARMA ÇABALARI VE DEMOKRATİKLEŞME ADIMLARI</h2>
+    <p>Osmanlı aydınları ve padişahları, milliyetçilik isyanlarını durdurmak, azınlıkların devletten kopmasını engellemek ve Avrupalıların iç işlerimize karışmasının önüne geçmek için sırasıyla devrimsel belgeler ilan etmişlerdir:</p>
+
+    <div class="memory-box">
+        <strong>👑 1839 TANZİMAT FERMANI (Gülhane Hatt-ı Hümayunu):</strong>
+        <br>Sultan Abdülmecid döneminde Hariciye Nazırı Mustafa Reşit Paşa tarafından okunmuştur. **Hukukun üstünlüğü ilkesi ilk kez kabul edilmiştir.** Din, dil, ırk ayrımı gözetmeksizin tüm Osmanlı tebaasının can, mal, namus güvenliği devlet garantisine alınmış, mahkemelerin açık yapılması ve herkesin gelirine göre vergi ödemesi kuralı getirilmiştir. Padişah kendi gücünün üstünde kanun gücü olduğunu kabul etmiştir (Anayasal düzene geçişin ilk büyük basamağıdır). **Yabancı baskısı yoktur, iç dinamiklerle ilan edilmiştir.**
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 1856 ISLAHAT FERMANI (Azınlıklar Dönemi):</strong>
+        <br>Kırım Savaşı sonrası Paris Barış Konferansı kararlarını etkilemek amacıyla, **Avrupa devletlerinin ağır baskısı ve diktesiyle** ilan edilmiştir. Tanzimat'tan farkı; tamamen **Gayrimüslimlerin (Azatlı azınlıkların)** haklarını genişletmeye yöneliktir. Müslüman-gayrimüslim eşitliği hedeflenmiştir. Azınlıklara bedelli askerlik hakkı, devlet memuru olma hakkı, il genel meclislerine üye olma ve kendi okul/hastanelerini açma hakkı verilmiştir. Müslümanların tepkisini çekmiştir.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 1876 KANUN-I ESASİ VE I. MEŞRUTİYET (Rejim Devrimi):</strong>
+        <br>Jön Türklerin (Genç Osmanlılar) baskısıyla Sultan II. Abdülhamid tarafından ilan edilen, **Türk tarihinin İLK ANAYASASI**dır. Mutlak monarşiden **Meşruti Monarşiye (Meşrutiyete)** geçilmiştir. Türk tarihinde halk, **Mebusan Meclisi** vasıtasıyla ilk kez (kısıtlı da olsa) seçme-seçilme ve **yönetime katılma hakkı** elde etmiştir. (Egemenlik tarzı ilk kez değişmiştir).
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 1606 yılında Avusturya ile imzalanan Zitvatorok Antlaşması'nın *"Avusturya arşidükü protokol bakımından bundan böyle Osmanlı sadrazamına değil, doğrudan Osmanlı padişahına denk sayılacak ve kendisine Sezar unvanıyla hitap edilecektir"* maddesi incelendiğinde; Osmanlı Devleti hakkında aşağıdaki yorumlardan hangisi yapılabilir?</div>
+        <ul class="options-list">
+            <li>A) Avusturya üzerinde kesin bir siyasi askeri üstünlük sağlandığı</li>
+            <li>B) Kanuni döneminde elde edilen mutlak diplomatik / protokol üstünlüğünün kaybedildiği ve iki devletin hukuken eşit statüye (mütekabiliyet esasına) geldiği</li>
+            <li>C) Osmanlı'nın Batı'da en geniş sınırlara ulaştığı</li>
+            <li>D) Avusturya'nın Osmanlı'ya vergi ödemeye devam edeceği</li>
+            <li>E) Haçlı Seferleri'nin kesin olarak başladığı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Diplomatik tarih ve psikolojik üstünlük kırılmasını analiz edelim: 1533 İstanbul Antlaşması'nda Avusturya kralı Osmanlı sadrazamına (iki numaralı adama) denk sayılarak aşağılanmıştı ve Osmanlı'nın mutlak üstünlüğü tescillenmişti.
+            <br>• Ancak 1606 <b>Zitvatorok Antlaşması</b> ile Avusturya kralı artık doğrudan **Osmanlı padişahına denk** kabul edilmiştir. Bu durum, Osmanlı'nın 16. yüzyıldaki o erişilmez devasa küresel gücünü ve diplomatik tek taraflı üstünlüğünü kaybettiğinin, Avusturya karşısında hukuki olarak eşit (mütekabil) bir seviyeye gerilediğinin en net kanıtıdır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 1774 yılında Rusya ile imzalanan Küçük Kaynarca Antlaşması'nın Osmanlı tarihi üzerindeki yıkıcı etkileri incelendiğinde; aşağıda verilen maddelerden hangisi Osmanlı Devleti'nin **"uluslararası egemenlik haklarına ve iç işlerinin bağımsızlığına" doğrudan en büyük darbeyi vuran** maddedir?</div>
+        <ul class="options-list">
+            <li>A) Rus gemilerinin Osmanlı denizlerinde serbestçe ticaret yapabilmesi</li>
+            <li>B) Kırım'ın bağımsız bir devlet haline gelmesi</li>
+            <li>C) Osmanlı Devleti'nin Rusya'ya savaş tazminatı ödemesi</li>
+            <li>D) Rusya'nın, Osmanlı sınırları içerisinde yaşayan tüm Ortodoks Hristiyan tebaayı himaye (koruma) altına alma hakkına sahip olması</li>
+            <li>E) Azak Kalesi'nin Ruslara bırakılması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İç işlerine karışma hukuki kapılarını arayalım: Kırım'ın kaybı (B) milli ve dini bir yıkımdır, Tazminat (C) ekonomik çöküştür.
+            <br>• Ancak D seçeneğindeki madde tam bir diplomatik faciadır. Bir devletin kendi vatandaşlarını (Ortodoksları), başka bir yabancı devletin (Rusya'nın) korumasına bırakması, o yabancı devlete her an "benim dindaşlarıma kötü davranıyorsun" diyerek **Osmanlı'nın iç işlerine, egemenlik haklarına müdahale etme hakkını yasal olarak altın tepside sunmaktır**. Rusya bu maddeyi kullanarak yüzyıl boyunca Osmanlı'yı içten içe kemirmiştir. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Osmanlı Devleti'nde Sultan Abdülmecid döneminde ilan edilen 1839 Tanzimat Fermanı'nda; *"Yasa önünde tüm Osmanlı vatandaşları (Müslüman-Gayrimüslim) eşittir, hiç kimse yargılanmadan cezalandırılamaz, herkesten gelirine göre vergi alınacaktır"* hükümleri yer almıştır. 
+        <br>Bu hükümler dikkate alındığında, Tanzimat Fermanı ile Osmanlı devlet yapısına **ilk kez giren köklü kavram** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Teokratik yönetim anlayışı</li>
+            <li>B) Mutlak monarşinin sınırlarının genişletilmesi</li>
+            <li>C) Hukukun üstünlüğü ve kanun gücünün padişah otoritesinin üzerinde kabul edilmesi</li>
+            <li>D) Cumhuriyete dayalı ulusal egemenlik rejimi</li>
+            <li>E) Sömürgecilik politikası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tanzimat Fermanı'nın anayasal hukuk felsefesini yorumlayalım: Fermanda padişah kendi isteğiyle *"ben de bu kanun kurallarına uyacağım"* demiştir.
+            <br>• Padişahın yasa önünde eşitliği, yargısız ceza olamayacağını ilan etmesi, Osmanlı idari tarihinde **Kanun Gücünün / Hukukun Üstünlüğünün** padişahın şahsi iradesinin üzerinde olduğunun ilk resmi itirafıdır. Bu yönüyle Tanzimat Fermanı, mutlak monarşiyi frenleyen, Türk anayasacılık tarihini başlatan en hayati belgedir. Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> 19. yüzyılda Fransız İhtilali'nin getirdiği milliyetçilik akımının etkisiyle Osmanlı Devleti darmadağın olurken; balkanlarda bağımsızlık amacıyla Osmanlı'ya karşı **ilk isyan bayrağını açan** topluluk ile 1829 Edirne Antlaşması ile Osmanlı'dan ayrılarak **ilk bağımsızlığını kazanan** topluluk hangisinde sırasıyla doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Sırplar - Yunanlılar (Rumlar)</li>
+            <li>B) Yunanlılar - Sırplar</li>
+            <li>C) Bulgarlar - Arnavutlar</li>
+            <li>D) Karadağlılar - Sırplar</li>
+            <li>E) Ermeniler - Rumlar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Balkan milliyetçilik kronolojisi ÖSYM'nin en sevdiği öncüllü veya doğrudan bilgi tuzağıdır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 1804 yılında Kara Yorgi liderliğinde Osmanlı'ya karşı ilk milliyetçi isyanı başlatan topluluk <b>Sırplar</b>'dır (Bükreş ile imtiyaz, Edirne ile özerklik, Berlin ile bağımsızlık aldılar).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak büyük devletlerin (İngiltere, Rusya, Fransa) Navarin'de Osmanlı donanmasını yakarak tam destek verdiği ve 1829 Edirne Antlaşması ile Osmanlı'dan koparak **ilk bağımsız devlet kurmayı başaran** topluluk ise <b>Yunanlılar (Rumlar)</b> olmuştur. Sıralama Sırplar - Yunanlılar şeklindedir (A şıkkı).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 1876 yılında II. Abdülhamid döneminde Genç Osmanlıların (Jön Türklerin) baskısıyla ilan edilen, Türk tarihinin ilk anayasası Kanun-ı Esasi'nin yürürlüğe girmesiyle başlayan I. Meşrutiyet Dönemi'nin **Türk siyasi tarihi açısından en devrimsel niteliği** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Halifelik makamının tamamen kaldırılması</li>
+            <li>B) Dış ülkelere ilk kez kapitülasyonların verilmesi</li>
+            <li>C) Türk tarihinde halkın Mebusan Meclisi vasıtasıyla ilk kez seçme-seçilme hakkı elde ederek padişahın yanında yönetime ortak olması (rejimin değişmesi)</li>
+            <li>D) Ordunun siyasetten tamamen soyutlanması</li>
+            <li>E) Eyalet sistemine kesin olarak son verilmesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Rejim ve egemenlik dönüşümü kriterini inceleyelim: Osmanlı yüzyıllar boyunca sadece tek bir kişinin (padişahın) mutlak emriyle (Mutlak Monorşi) yönetilmişti. Halkın yönetimde zerre söz hakkı yoktu.
+            <br>• 1876 yılında <b>Meşrutiyet</b>'in ilanı ve anayasanın yürürlüğe girmesiyle birlikte, tarihimizde ilk kez halkın seçtiği milletvekillerinden oluşan bir **Mebusan Meclisi** açılmıştır. Padişahın yanında artık halkın temsilcileri de kanun yapma ve yürütme süreçlerinde söz sahibi olmuştur. Bu durum egemenlik yapısının ve rejimin değiştiği en köklü **siyasal devrim adımı**dır. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

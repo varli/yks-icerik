@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 12: Atatürkçülük, İnkılaplar ve Dış Politika</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #b91c1c); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fee2e2; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #b91c1c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #b91c1c; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fff7ed; border: 1px dashed #ea580c; border-left: 5px solid #c2410c; padding: 15px; margin: 18px 0; border-radius: 4px; color: #7c2d12; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 12: ATATÜRKÇÜLÜK VE TÜRK İNKILABI</h1>
+        <p>"Çağdaş Türkiye'nin Temelleri: Altı İlke, Çağdaşlaşma Hamleleri ve Atatürk Dönemi Türk Dış Politikası"</p>
+    </div>
+
+    <h2>1. ATATÜRK İLKELERİNİN ANALİTİK ŞİFRELERİ VE ANAHTAR KELİMELERİ</h2>
+    <p>Atatürk ilkeleri, Türk inkılabının dayandığı temel felsefi akıl ve dinamizmdir. ÖSYM paragraf verip "Hangi ilkedir?" diye sormayı çok sever. Her ilkenin turnusol kağıdı niteliğinde şifre kelimeleri mevcuttur:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Atatürk İlkesi</th>
+                <th>ÖSYM Odaklı Anahtar Kelimeler (Zihniyet Şifreleri)</th>
+                <th>İlke Doğrultusunda Yapılan En Kritik İnkılaplar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Cumhuriyetçilik</b></td>
+                <td>**Milli Egemenlik, Ulusal İrade, Seçim, Meclis, Siyasi Parti, Oy Verme, Demokratikleşme**. (Doğrudan devlet rejimini ve yönetimi ilgilendirir).</td>
+                <td>&bull; TBMM'nin açılması<br>&bull; Saltanatın kaldırılması (1922)<br>&bull; Cumhuriyetin ilanı (1923)<br>&bull; Halifeliğin kaldırılması (1924)<br>&bull; Çok partili hayat denemeleri<br>&bull; Kadınlara seçme-seçilme hakkı verilmesi</td>
+            </tr>
+            <tr>
+                <td><b>Milliyetçilik</b></td>
+                <td>**Milli Bağımsızlık, Türk, Milli Kimlik, Tarih Şifresi, Dil Bilinci, Ortak Kültür, Bağımsız Ekonomi**. (Irkçılığa karşıdır, birleştiricidir).</td>
+                <td>&bull; Yeni Türk Devleti'nin kurulması ve Misak-ı Milli<br>&bull; **Kabotaj Kanunu'nun çıkarılması (Denizlerde bağımsızlık)**<br>&bull; Türk Tarih Kurumu (TTK) ve Türk Dil Kurumu (TDK)<br>&bull; Kapitülasyonların Lozan'da kaldırılması<br>&bull; Paranın üzerine Türk ibaresinin basılması</td>
+            </tr>
+            <tr>
+                <td><b>Halkçılık</b></td>
+                <td>**Eşitlik, Sınıfsız Toplum, Sosyal Adalet, Ayrıcalıkların Reddi, Millete Hizmet, Kanun Önünde Eşitlik**. (Cumhuriyetçilik ve Milliyetçiliğin doğal sonucudur).</td>
+                <td>&bull; **Aşar Vergisinin kaldırılması (Köylünün rahatlatılması)**<br>&bull; Türk Medeni Kanunu (Kadın-erkek eşitliği)<br>&bull; Kılık Kıyafet Kanunu (Unvanların yasaklanması)<br>&bull; Soyadı Kanunu (Ayrıcalıklı unvanların bitmesi)<br>&bull; Kadınlara siyasi hakların verilmesi (Eşitlik)</td>
+            </tr>
+            <tr>
+                <td><b>Devletçilik</b></td>
+                <td>**Ekonomi, Yatırım, Sermaye Yetersizliği, Planlı Kalkınma, Fabrikalar, Karma Ekonomi Modeli, Merkez Bankası**. (Zorunluluktan doğmuştur).</td>
+                <td>&bull; I. Beş Yıllık Sanayi Planı'nın uygulanması<br>&bull; Sümerbank, Etibank ve Merkez Bankası'nın kurulması<br>&bull; Demir yollarının millileştirilmesi<br>&bull; Karabük Demir-Çelik Fabrikası'nın açılması<br><b>⚠️ Not: Teşvik-i Sanayi Kanunu başarısız olunca devletçiliğe geçilmiştir.</b></td>
+            </tr>
+            <tr>
+                <td><b>Laiklik</b></td>
+                <td>**Akılcılık, Bilimsellik, Din ve Devlet İşlerinin Ayrılması, Din ve Vicdan Hürriyeti, Dogmatizmin Reddi**. (Hukuk ve eğitimin dine değil akla dayanması).</td>
+                <td>&bull; Halifeliğin kaldırılması<br>&bull; Şer'iyye ve Evkaf Vekaleti'nin kaldırılması<br>&bull; Tevhid-i Tedrisat Kanunu (Eğitimin laikleşmesi)<br>&bull; Tekke, Zaviye ve Türbelerin kapatılması<br>&bull; Türk Medeni Kanunu'nun kabulü (Şer'i hukukun bitişi)<br>&bull; "Devletin dini İslam'dır" maddesinin anayasadan atılması (1928)</td>
+            </tr>
+            <tr>
+                <td><b>İnkılapçılık</b></td>
+                <td>**Çağdaşlaşma, Modernleşme, Dinamizm, İlerleme, Statükonun Reddi, Sürekli Yenilenme, Batılılaşma**. (Tüm inkılapların ortak koruyucu çatısıdır).</td>
+                <td>&bull; Takvim, Saat ve Ölçülerde yapılan değişiklikler<br>&bull; Hafta sonu tatilinin cumadan pazara alınması<br>&bull; Harf İnkılabı (Yeni Türk Alfabesi)<br>&bull; Eski köhne kurumların yerine çağdaş kurumların açılması</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. ÇAĞDAŞLAŞAN TÜRKİYE: ALANLARINA GÖRE İNKILAPLAR</h2>
+    
+    <h3>A) Siyasi ve Hukuk Alanındaki İnkılaplar</h3>
+    <p>&bull; <b>Saltanatın Kaldırılması (1 Kasım 1922):</b> Milli egemenliğin önündeki en büyük engel kaldırılmıştır. Osmanlı Devleti resmen sona ermiştir. Lozan'a İstanbul hükümetinin katılması engellenerek **ikilik çıkması önlenmiştir**.</p>
+    <p>&bull; <b>Halifeliğin Kaldırılması (3 Mart 1924):</b> Laikliğin en büyük hamlesidir. Yapılacak devrimlerin önü açılmıştır. Aynı gün; *Şer'iyye ve Evkaf Vekaleti* kaldırılarak yerine Diyanet İşleri Başkanlığı kurulmuş, *Erkan-ı Harbiye* kaldırılarak ordu siyasetten ayrılmış ve <b>Tevhid-i Tedrisat Kanunu</b> kabul edilmiştir.</p>
+    <p>&bull; <b>1926 Türk Medeni Kanunu:</b> İsviçre'den uyarlanmıştır. Kadınlara **Sosyal, Ekonomik ve Hukuki** haklar tanınmıştır. Mahkemede şahitlik, miras, boşanma ve istediği mesleğe girme konularında kadın-erkek tamamen eşitlenmiştir. Patrikhanenin dünyevi yetkileri bitmiştir. <b>⚠️ ÖSÜM TUZAĞI: Türk Medeni Kanunu'nda kadınlara kesinlikle SİYASİ HAKLAR (Seçme-Seçilme) <u>verilmemiştir</u>.</b> Kadınlar siyasi haklarını 1930, 1933 ve 1934 yıllarında (BMW formülü: Belediye, Muhtar, Vekil) almışlardır.</p>
+
+    <h3>B) Eğitim, Kültür ve Toplumsal Alanlardaki İnkılaplar</h3>
+    <p>&bull; <b>Tevhid-i Tedrisat Kanunu (3 Mart 1924):</b> Ülkedeki tüm okullar Milli Eğitim Bakanlığı'na bağlanmıştır. **Eğitimde birlik sağlanmıştır.** Kültür çatışması önlenmiştir. Laik ve milli eğitimin iskeletidir. Azınlık ve yabancı okulların dini propaganda yapması engellenmiştir.</p>
+    <p>&bull; <b>Harf İnkılabı ve Millet Mektepleri (1928):</b> Latin harfleri esas alınarak yeni Türk alfabesi kabul edilmiş, yeni harfleri okuma yazma bilmeyen yetişkin halka öğretmek amacıyla **Millet Mektepleri** açılmıştır. Mustafa Kemal'e "Başöğretmen" unvanı verilmiştir.</p>
+
+    <h2>3. ATATÜRK DÖNEMİ TÜRK DIŞ POLİTİKASI (DİPLOMASİ ZAFERLERİ)</h2>
+    <p>Atatürk dönemi dış politikası iki evreye ayrılır: 1923-1930 arası **Lozan'dan Kalan Sorunları Çözme** (Yabancı okullar, Musul sorunu, Nüfus mübadelesi), 1930-1939 arası ise yaklaşan II. Dünya Savaşı tehlikesine karşı **Dünya Barışına Katılma ve Sınırları Koruma** evresidir.</p>
+
+    <div class="memory-box">
+        <strong>👑 DIŞ POLİTİKANIN EN BÜYÜK DİPLOMATİK ZAFERLERİ VE ABİDELERİ:</strong>
+        <br>&bull; <b>1932 Milletler Cemiyeti'ne Katılım:</b> Türkiye, barışçıl dış politikası sayesinde bizzat cemiyetin davetiyle uluslararası barış örgütüne üye olmuştur.
+        <br>&bull; <b>1934 Balkan Antantı:</b> Batı sınırımızı koruma hamlesidir. Almanya ve İtalya'nın yayılmacı politikasından korkan **Türkiye, Yunanistan, Yugoslavya ve Romanya** arasında imzalanmıştır (Kodlama: <b>TAYYAR</b>). Batı sınırı güvenceye alınmıştır.
+        <br>&bull; <b>1936 MONTRÖ BOĞAZLAR SÖZLEŞMESİ (Tam Egemenlik):</b> Lozan'da Boğazlar uluslararası bir komisyona bırakılmıştı ve bu durum bağımsızlığımıza aykırıydı. Avrupa'da savaş rüzgarları esince Türkiye diplomatik bir dehayla masayı kurmuştur. **Boğazlar Komisyonu tamamen kaldırılmış, tüm yetkileri kayıtsız şartsız TÜRK DEVLETİ'ne devredilmiştir.** Boğazlarda asker bulundurma hakkı kazanılmıştır. Lozan'ın eksik kalan tek gedği tam bağımsızlık lehine kapatılmıştır.
+        <br>&bull; <b>1937 Sadabat Paktı:</b> Doğu sınırımızı koruma hamlesidir. İtalya'nın Habeşistan'a saldırması üzerine **Türkiye, İran, Irak ve Afganistan** arasında Tahran'da imzalanmıştır. Doğu sınırı güvence altına alınmıştır.
+        <br>&bull; <b>1939 HATAY'IN ANA VATANA KATILMASI (Büyük Vasiyet):</b> Lozan'da Hatay, Fransız mandasındaki Suriye sınırları içinde kalmıştı (Misak-ı Milli'den tavizdi). Mustafa Kemal "Şahsi meselem" dediği Hatay için ömrünün son günlerine kadar savaşmıştır. 1938'de Hatay Bağımsız Cumhuriyeti kurulmuş, 1939'da ise Hatay Meclisi oy birliğiyle **Türkiye Ana Vatanına katılma** kararı almıştır. Atatürk'ün vefatından sonra gerçekleşen en büyük Misak-ı Milli zaferidir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Yeni Türk Devleti'nde, deniz ticareti ve liman işletme haklarının tamamen yabancı devletlerin tekelinden alınarak milli sermayeye ve Türk gemicilerine devredilmesini sağlayan; bu yönüyle **"ekonomik alanda tam bağımsızlığı ve millileşmeyi"** perçinleyen o meşhur 1926 tarihli yasa aşağıdakilerden hangisidir ve öncelikle hangi Atatürk ilkesiyle ilişkilidir?</div>
+        <ul class="options-list">
+            <li>A) Teşvik-i Sanayi Kanunu - Devletçilik</li>
+            <li>B) Kabotaj Kanunu - Milliyetçilik</li>
+            <li>C) Takrir-i Sükun Kanunu - Cumhuriyetçilik</li>
+            <li>D) Men-i Müskirat Kanunu - Halkçılık</li>
+            <li>E) Türk Medeni Kanunu - Laiklik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kanunun ekonomik-milli deşifresini yapalım. Yabancı devletlerin kapitülasyon hakları Lozan'da kaldırılmıştı ancak denizlerimizdeki ticaret hakkı hala tam netleşmemişti.
+            <br>• 1 Temmuz 1926'da yürürlüğe giren <b>Kabotaj Kanunu</b> ile, Türkiye kıyılarında ve limanlarında deniz ticareti yapma, yük ve yolcu taşıma hakkı **sadece Türk bayraklı gemilere ve Türk vatandaşlarına** has kılınmıştır. Bu yasa, ekonomik bağımsızlığın denizlerdeki mutlak tescili olduğu için doğrudan ve öncelikle **Milliyetçilik** ilkesinin en harika imza örneklerinden biridir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 1926 yılında İsviçre'den uyarlanarak kabul edilen Türk Medeni Kanunu ile Türk kadınına; tek eşlilik, resmi nikah zorunluluğu, mahkemelerde şahitlikte eşitlik, miras ve boşanma süreçlerinde erkeklerle eşit haklara sahip olma ve istediği mesleğe serbestçe girme hakları tanınmıştır. 
+        <br>Buna göre, Türk Medeni Kanunu'nun içeriği incelendiğinde; bu kanunla kadınlara **kesinlikle verilmeyen, ÖSYM'nin en büyük soru tuzağı kabul edilen hak** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) İstediği mesleği serbestçe seçme hakkı</li>
+            <li>B) Mirastan erkek çocukla eşit pay alma hakkı</li>
+            <li>C) Siyasi Haklar (Seçme, seçilme, milletvekili olma ve oy kullanma hakkı)</li>
+            <li>D) Mahkemede tanıklık yaparken eşit sayılma hakkı</li>
+            <li>E) Resmi nikah ve boşanma davası açma hakkı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin her yıl soru bankalarında kurduğu o en sarsılmaz, en klasik kronoloji tuzağını deşifre edelim. 1926 Türk Medeni Kanunu, Türk toplum hayatını laikleştiren muazzam bir hukuk devrimidir. Kadın-erkek eşitliğini kurmuştur.
+            <br>• Ancak bu kanun tamamen **Sosyal, Ekonomik ve Medeni** alanları kapsar. Bu kanunun içinde kadına yönelik **SİYASİ HAKLAR (Seçme ve Seçilme hakkı) KESİNLİKLE YER ALMAZ**. Türk kadını siyasi haklarını daha sonra, 1930 (Belediye), 1933 (Muhtarlık) ve 1934 (Milletvekilliği - BMW formülü) yıllarında yapılan anayasa değişiklikleriyle kademeli olarak elde etmiştir. Bu iki süreç karıştırılmamalıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Cumhuriyet'in ilk yıllarında özel sermayenin yetersiz olması, halkın elinde fabrika kuracak para ve teknik birikimin bulunmaması nedeniyle; devletin doğrudan ekonomiye müdahale ederek dev sanayi planlarını bizzat kendi bütçesiyle işletmesi, Sümerbank ve Etibank gibi kurumları kurarak demir yollarını millileştirmesi **hangi Atatürk ilkesinin** mutlak bir yansımasıdır?</div>
+        <ul class="options-list">
+            <li>A) Cumhuriyetçilik</li>
+            <li>B) Halkçılık</li>
+            <li>C) Devletçilik</li>
+            <li>D) İnkılapçılık</li>
+            <li>E) Laiklik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorudaki ekonomi ve yatırım terminolojisini tarayalım: "Özel sermaye yetersizliği", "devletin bizzat fabrika kurması", "bütçe ve planlı sanayi hamleleri".
+            <br>• Bu kavramlar, Atatürk'ün tamamen Türkiye'nin o dönemki sosyo-ekonomik zorunluluklarından dolayı geliştirdiği <b>Devletçilik</b> ilkesini tanımlar. Devletçilik, liberalizmin çöktüğü (1929 Dünya Ekonomik Buhranı) bir ortamda, ülkeyi hızlıca kalkındırmak için fabrikaların devlet eliyle açılmasını öngören rasyonel ekonomik modeldir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Lozan Barış Antlaşması'nda Boğazların yönetimi; başkanı Türk olan ancak kendine ait bütçesi ve bayrağı bulunan uluslararası bir "Boğazlar Komisyonu"na bırakılmış, bu durum Türkiye'nin tam bağımsızlık ve egemenlik haklarını zedelemiştir. 
+        <br>Türkiye'nin 1936 yılında değişen dünya dengelerini ve savaş riskini fırsat bilerek imzaladığı, **Boğazlar Komisyonu'nu tamamen kaldırarak tüm yetkileri ve asker bulundurma hakkını kayıtsız şartsız Türk devletine devreden** diplomatik başyapıt anlaşma hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Londra Konferansı</li>
+            <li>B) Balkan Antantı</li>
+            <li>C) Sadabat Paktı</li>
+            <li>D) Montrö Boğazlar Sözleşmesi</li>
+            <li>E) Mudanya Ateşkesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Boğazlar üzerindeki tam egemenlik tescilini arıyoruz: "1936 tarihi", "Boğazlar Komisyonu'nun tasfiyesi" ve "Boğazların mutlak olarak Türk askerine ve egemenliğine teslim edilmesi".
+            <br>• Bu muazzam dış politika zaferinin adı <b>Montrö Boğazlar Sözleşmesi</b>'dir. İtalya ve Almanya'nın silahlanması üzerine Türkiye diplomatik bir atak başlatmış ve Lozan'da egemenliğimize vurulan o tek hukuki zinciri (komisyonu) Montrö ile tamamen parçalayarak Boğazların mutlak tek hakimi olmuştur. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Mustafa Kemal Atatürk'ün bizzat **"Benim şahsi meselem"** ve **"Kırk asırlık Türk yurdu düşman elinde bırakılamaz"** diyerek üzerinde hassasiyetle durduğu, ömrünün son anına kadar diplomasisini yürüttüğü; ancak vefatından sonra (1939 yılında) kendi meclisinin oy birliği kararıyla Türkiye ana vatanına katılan o meşhur Misak-ı Milli toprağı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Musul</li>
+            <li>B) Batum</li>
+            <li>C) Kıbrıs</li>
+            <li>D) Hatay</li>
+            <li>E) Batı Trakya</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Atatürk'ün dış politikadaki o en büyük vasiyetini ve şahsi mücadelesini arıyoruz. 
+            <br>• Lozan'da Fransız mandasındaki Suriye sınırına bırakılan ve Fransa'nın 1936'da Suriye'den çekilmesiyle kriz haline gelen sancılı toprak parçası <b>Hatay (Sancak)</b> coğrafyasıdır. Atatürk hasta yatağında bile Adana'ya giderek askeri geçit törenlerini izlemiş ve dünyaya kararlılık mesajı vermiştir. Onun dehasıyla önce bağımsız olan Hatay, 1939'da kendi özgür iradesiyle **Türkiye Cumhuriyeti'ne katılma** kararı alarak Misak-ı Milli'nin son büyük halkasını tamamlamıştır. Doğru şık D'dir.
+        </div>
+    </div>
+
+</body>
+</html>

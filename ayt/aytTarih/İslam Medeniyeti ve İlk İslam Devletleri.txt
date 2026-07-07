@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Tarih - Modül 3: İslam Medeniyeti ve İlk İslam Devletleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #f8fafc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #f8fafc; }
+        .header-banner { background: linear-gradient(135deg, #047857, #065f46); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #a7f3d0; font-style: italic; }
+        h2 { color: #047857; font-size: 16pt; border-left: 6px solid #10b981; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #065f46; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #ecfdf5; border: 1px dashed #34d399; border-left: 5px solid #10b981; padding: 15px; margin: 18px 0; border-radius: 4px; color: #064e3b; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #047857; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #047857; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #047857; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT TARİH - MODÜL 3: İSLAM MEDENİYETİ VE İLK İSLAM DEVLETLERİ</h1>
+        <p>"İnançtan Devlete: Medine Sözleşmesi, Dört Halife Kurumsallaşması ve Endülüs-Bağdat Kültür Rönesansı"</p>
+    </div>
+
+    <h2>1. İSLAMİYET ÖNCESİ ARABİSTAN VE MEDİNE DÖNEMİ TEMELLERİ</h2>
+    <p>İslamiyet öncesi Arabistan’da siyasi birlik yoktu; kabilecilik kan davaları, kölelik ve putperestlik egemendi. Bu döneme **Cahiliye Dönemi** denir. Hz. Muhammed'in 622 yılında Mekke’den Medine’ye göç etmesiyle (**Hicret**) İslam devletinin temelleri atılmıştır. Medine’deki Müslümanlar, Yahudiler ve putperest kabileler arasında imzalanan <b>Medine Sözleşmesi</b>, tarihin <b>ilk yazılı anayasası</b> kabul edilir ve din vicdan hürriyeti ile ortak savunma ilkelerini içerir.</p>
+    <ul>
+        <li><b>Bedir Savaşı (624):</b> Müslümanların Mekkeli müşriklere karşı ilk büyük askeri zaferidir. Savaş hukuku doğmuştur: Ganimetlerin 5'te 1'i devlete, kalanı askerlere dağıtılmış; okuma yazma bilen esirler 10 Müslümana öğretme karşılığı serbest bırakılmıştır.</li>
+        <li><b>Uhud Savaş (625):</b> Okçuların tepeyi erken terk etmesiyle Müslümanların kaybettiği, itaatin önemini gösteren savaştır.</li>
+        <li><b>Hendek Savaşı (627):</b> Selman-ı Farisi'nin önerisiyle Medine etrafına hendekler kazılan ilk büyük **savunma** savaşıdır.</li>
+        <li><b>Hudeybiye Barışı (628):</b> Mekkeliler, Müslümanları **resmi ve hukuki olarak İLK KEZ tanımıştır**.</li>
+    </ul>
+
+    <h2>2. DÖRT HALİFE (CUMHURİYET) DÖNEMİ VE KURUMSALLAŞMA (632 - 661)</h2>
+    <p>Hz. Muhammed'in vefatından sonra devlet başkanlarının **seçimle (biatla)** iş başına geldiği, bu yönüyle "Cumhuriyet Dönemi" olarak adlandırılan evredir. ÖSYM bu 4 halifenin imza kurumsal adımlarını sormayı çok sever:</p>
+
+    <div class="memory-box">
+        <strong>👑 DÖRT HALİFENİN AYIRT EDİCİ SİYASİ VE KURUMSAL KODLARI:</strong>
+        <br>&bull; <b>Hz. Ebubekir:</b> Yalancı peygamberleri (Riddet savaşları) temizleyerek iç birliği korumuştur. Savaşlarda hafızların şehit düşmesi üzerine Kur'an-ı Kerim'i <b>Zeyd bin Sabit</b> başkanlığındaki komisyonla **MUSHAF (Kitap) haline getiren** ilk halifedir.
+        <br>&bull; <b>Hz. Ömer (Devletin Mimarı):</b> Fetihlerin en yoğun olduğu dönemdir (Suriye, Filistin, Mısır, İran/Sasani fethi). Sınırlar aşırı genişlediği için devlet teşkilatını kurmuştur: **Ülkeyi illere (eyaletlere) bölmüş**, ilk kez mahkemeleri kurup bağımsız **Kadı** atamaları yapmış, **Beytülmal** (Devlet hazinesi) sistemini kurmuş, ilk düzenli orduyu ve **İkta sisteminin** temellerini atmış, **Hicri Takvimi** yürürlüğe koymuştur.
+        <br>&bull; <b>Hz. Osman:</b> İlk İslam donanmasını kurarak Kıbrıs'ı fethetmiştir. Kur'an-ı Kerim'i **çoğaltarak** önemli merkezlere gönderen halifedir. Döneminin sonlarına doğru kendi akrabalarını (Emevileri) önemli valiliklere getirmesiyle **ilk iç karışıklıklar** baş göstermiş ve şehit edilmiştir.
+        <br>&bull; <b>Hz. Ali:</b> Fetihlerin tamamen durduğu, **iç karışıklıkların, taht ve hilafet kavgalarının** tavan yaptığı dönemdir. Müslümanların kendi arasında savaştığı ilk iç savaş olan <b>Cemel Vakası (Deve Olayı)</b> ve Hz. Muaviye ile yapılan <b>Sıffin Savaşı</b> bu dönemdedir. Sıffin Savaşı sonrası hakem heyetinin hilesiyle İslam dünyası Üç Gruba (Şiiler, Emeviler, Hariciler) bölünmüştür. Hz. Ali'nin şehit edilmesiyle Dört Halife dönemi kapanmıştır.
+    </div>
+
+    <h2>3. EMEVİLER VE MEVÂLÎ POLİTİKASININ YIKICI ETKİSİ (661 - 750)</h2>
+    <p>Muaviye tarafından Şam merkezli kurulan devlettir. Hilafeti babadan oğula (Yezid'e) geçirerek **saltanat sistemine** dönüştürmüşlerdir. İstanbul'u iki kez kuşatmışlar, Kuzey Afrika'yı aşarak Kadiks Savaşı ile İspanya'ya (Endülüs) girmişler ve Avrupa içlerine kadar ilerlemişlerdir (Puvatya Savaşı ile durduruldular).</p>
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN SORU ÜRETİR — MEVÂLÎ SİSTEMİ VE YIKILIŞI:</strong>
+        <br>Emeviler, Arap milliyetçiliği gütmüşlerdir. Müslüman dahi olsalar Arap olmayan milletleri (Türkler, İranlılar, Berberiler) ikinci sınıf insan, yani <b>Mevâlî (Azatlı Köle)</b> olarak görmüşlerdir. Mevâlîlerden ağır vergiler (cizye ve haraç) almaya devam etmişlerdir. Bu ırkçı politika, Türklerin Emeviler döneminde **İslamiyet'e geçmesini geciktirmiştir**. Bu haksızlığa karşı Arap olmayan Müslümanların başlattığı eşitlik ve isyan hareketine <b>Şuubiye Akımı</b> denir. Emeviler bu ırkçı politika yüzünden yıkılmışlardır.
+    </div>
+
+    <h2>4. ABBASİLER: HOŞGÖRÜ VE BİLİM RÖNESANSI (750 - 1258)</h2>
+    <p>Emevileri yıkarak Bağdat merkezli kurulan devlettir. Emevilerin aksine **Ümmetçi (İnsancıl/Hoşgörülü)** bir politika izlemişlerdir. Herkese eşit yaklaşmışlardır. Bu sayede Türkler kitleler halinde İslamiyet'e geçmeye başlamıştır. (Özellikle 751 **Talas Savaşı**'nda Türkler ve Abbasiler Çin'e karşı birlikte savaşmışlardır).</p>
+    <ul>
+        <li><b>Sâmerrâ Şehirleri ve Avâsım Hatları:</b> Abbasiler, Türklerin savaşçılık özelliklerinden yararlanmak için sadece Türk askerlerinin ve ailelerinin kalacağı <b>Sâmerrâ</b> adı verilen askeri şehirler kurmuşlardır. Ayrıca Bizans sınırına Türk savaşçıları yerleştirerek <b>Avâsım</b> adı verilen koruyucu sınır kentleri inşa etmişlerdir.</li>
+        <li><b>Beytülhikme (Bilgelik Evi):</b> Bağdat'ta kurulan, İlk Çağ Yunan, Helen, Hint ve Fars klasiklerinin Arapçaya tercüme edildiği devasa bir akademi ve kütüphanedir. İslam medeniyetinin ve dünya bilim tarihinin rönesans merkezidir.</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> İslam devletinin kurumsallaşması ve imparatorluk düzeyinde bir idari teşkilata kavuşması sürecinde; ülkenin eyaletlere (illere) bölünmesi, mahkemelerin kurularak bağımsız kadıların atanması, Beytülmal adıyla devlet hazinesinin sistemleştirilmesi ve düzenli orduların kurulması adımları **hangi halife döneminde** hayata geçirilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Hz. Ebubekir</li>
+            <li>B) Hz. Ömer</li>
+            <li>C) Hz. Osman</li>
+            <li>D) Hz. Ali</li>
+            <li>E) Hz. Muaviye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İslam devletinin teşkilat haritasını inceleyelim: Hz. Ömer dönemi, İslam tarihinin en büyük fetih dalgalarının yaşandığı dönemdir. Sınırlar bir uçtan Mısır'a, diğer uçtan İran'a (Sasani İmparatorluğu yıkılarak) kadar uzanmıştır.
+            <br>• Bu devasa coğrafyayı Medine'den merkezi olarak yönetmek imkansız hale geldiği için <b>vekalet ve eyalet sistemine</b> geçilmiştir. Ülke illere bölünmüş, valilerin yanına yargı bağımsızlığı için ilk kez **Kadılar** atanmış, askeri ikta temelleri atılmış ve maliye için **Beytülmal** hazinesi kurulmuştur. Kısacası İslam devletinin asıl kurumsal baş mimarı <b>Hz. Ömer</b>'dir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Emeviler Dönemi'nde uygulanan ve **Arap olmayan Müslümanları (Türkler, İranlılar vb.) ikinci sınıf vatandaş veya 'azatlı köle' olarak gören**, onlardan Müslüman olmalarına rağmen cizye vergisi almaya devam eden ırkçı idari sisteme ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) İkta Sistemi</li>
+            <li>B) Avâsım Politikası</li>
+            <li>C) Mevâlî Sistemi</li>
+            <li>D) Şuubiye Akımı</li>
+            <li>E) İstimalet Politikası</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Emevilerin yıkılışını hazırlayan o meşhur sosyo-politik kavramı arıyoruz.
+            <br>• Emevi hanedanı, İslamiyet'in evrensel eşitlik ilkesine aykırı olarak katı bir Arap milliyetçiliği gütmüştür. Arap soyundan gelmeyen yeni Müslüman toplulukları küçümseyerek onlara <b>Mevâlî (Azatlı Köle)</b> ismini vermişlerdir. Bu dışlayıcı sistem, Türklerin İslamiyet'e ısınmasını yaklaşık bir asır geciktirmiş ve Emevilere karşı büyük bir nefret doğurarak devletin çöküşünü hızlandırmıştır. Cevap C'dir. (Şuubiye bu ırkçılığa karşı doğan reaksiyon akımıdır).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Abbasiler Dönemi'nde, Türklerin savaşçılık, cesaret ve askeri deha özelliklerinden maksimum düzeyde yararlanmak; onların Arap nüfusla karışarak bu yeteneklerini kaybetmesini engellemek amacıyla **sadece Türk askerleri ve aileleri için inşa edilen özel askeri şehirlere** ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Avâsım</li>
+            <li>B) Sâmerrâ</li>
+            <li>C) Ribat</li>
+            <li>D) Kapan Hanı</li>
+            <li>E) Bedesten</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Abbasilerin Türk odaklı askeri yerleşim stratejisini netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bizans sınır boylarına kurulan koruyucu tampon bölge kentlerine **Avâsım** denir (A şıkkı).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak sadece Türk ordusunun saf askeri gücünü korumak, asimile olmalarını önlemek amacıyla Bağdat yakınlarında kurulan ve Arapların girmesinin yasak olduğu o meşhur garnizon şehirlerine <b>Sâmerrâ</b> adı verilir. ÖSYM bu iki terimi (Avâsım ve Sâmerrâ) sınavlarda sıkça karşılaştırır. Doğru cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Hz. Ali Dönemi'nde fetihlerin tamamen bıçak gibi kesilmesinin, İslam devletinin içe dönmesinin ve İslam dünyasında mezhepsel/siyasi ayrılıkların geri dönülmez şekilde kesinleşmesinin **temel nedeni** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Haçlı Seferleri'nin başlaması</li>
+            <li>B) Kur'an-ı Kerim'in henüz kitap haline getirilememiş olması</li>
+            <li>C) Bizans İmparatorluğu'nun tüm İslam topraklarını işgal etmesi</li>
+            <li>D) Hilafet ve taht kavgalarından doğan iç savaşlar ile mezhepsel bölünmeler (Cemel Vakası, Sıffin Savaşı ve Hakem Olayı)</li>
+            <li>E) Türklerin İslam devletine saldırması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Hz. Ali döneminin genel siyasi panoramasını analiz edelim: Bu dönem, bir önceki halife Hz. Osman'ın şehit edilmesiyle başlayan ümmet içi kırılmanın tavan yaptığı evredir.
+            <br>• Hz. Muaviye'nin Hz. Ali'nin halifeliğini tanımaması üzerine Müslümanlar kendi içlerinde iç savaşlara girişmişlerdir (Cemel Vakası ve Sıffin Savaşı). Sıffin Savaşı'ndaki **Hakem Olayı** ise İslam dünyasını geri dönülmez şekilde Hariciler, Şiiler ve Emeviler olmak üzere keskin siyasi/dini kamplara bölmüştür. Devlet enerjisini iç çatışmalarda tükettiği için dış fetihler tamamen durmuştur. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Abbasi halifeleri Harun Reşid ve Memun dönemlerinde Bağdat'ta kurulan; içinde bir akademi, devasa bir kütüphane ve çeviri merkezi barındıran; Antik Yunan'dan Hint klasiklerine kadar binlerce eserin Arapçaya kazandırılarak **İslam Rönesansı'nın doğmasını sağlayan** o meşhur ilim merkezinin adı nedir?</div>
+        <ul class="options-list">
+            <li>A) Darülfünun</li>
+            <li>B) Beytülhikme</li>
+            <li>C) Nizamiye Medresesi</li>
+            <li>D) Suffe Okulu</li>
+            <li>E) Enderun Mektebi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İslam dünyasının bilim ve felsefe tarihindeki en büyük aydınlanma üssünü arıyoruz: "Abbasiler", "Bağdat", "Tercüme akademisi" ve "Kütüphane".
+            <br>• Bu özellikler, kelime anlamı "Bilgelik Evi / Hikmet Evi" olan <b>Beytülhikme</b>'yi tarif eder. Burada yapılan çeviriler sayesinde Aristo, Eflatun ve Batlamyus gibi düşünürlerin eserleri korunmuş, İslam felsefesi (Meşşailik ekolü, Farabi, İbn Sina) bu temel üzerine inşa edilmiştir. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>
