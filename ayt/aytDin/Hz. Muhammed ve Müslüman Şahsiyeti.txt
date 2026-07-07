@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Din Kültürü - Modül 2: Hz. Muhammed ve Müslüman Şahsiyeti</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #047857, #065f46); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #a7f3d0; font-style: italic; }
+        h2 { color: #047857; font-size: 16pt; border-left: 6px solid #34d399; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #065f46; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #34d399; border-left: 5px solid #047857; padding: 15px; margin: 18px 0; border-radius: 4px; color: #065f46; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #047857; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #047857; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #047857; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT DİN KÜLTÜRÜ - MODÜL 2: HZ. MUHAMMED VE MÜSLÜMAN ŞAHSİYETİ</h1>
+        <p>"Nübüvvet Misyonu: Peygamberimizin Temel Görevleri ve İslam Ahlakının Kurumsal Değerleri"</p>
+    </div>
+
+    <h2>1. HZ. MUHAMMED'İN PEYGAMBERLİK MİSYONU VE GÖREVLERİ</h2>
+    <p>Kur'an-ı Kerim'e göre Hz. Muhammed, hem bizler gibi bir insan (beşer) hem de Allah'tan vahiy alan bir peygamberdir (resul). O'nun peygamberlik sıfatıyla yerine getirdiği ve dinin kurumsallaşmasını sağlayan 4 temel görevi vardır. ÖSÜM bu kavramların terimsel karşılıklarını her yıl kesinlikle test eder:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Peygamberlik Görevi</th>
+                <th>Kelime Anlamı</th>
+                <th>Teolojik Tanımı ve İşlevi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Tebliğ</b></td>
+                <td>Ulaştırmak, taşımak</td>
+                <td>Allah'tan alınan vahiylerin, ayetlerin üzerine hiçbir ilave veya eksiltme yapmadan aynen insanlara **duyurulması ve ulaştırılması** görevidir.</td>
+            </tr>
+            <tr>
+                <td><b>Tebyin</b></td>
+                <td>Açıklamak, beyan etmek</td>
+                <td>Kur'an'daki kapalı (mücmel) veya anlaşılması zor olan ayetlerin, peygamber tarafından sözlü veya uygulamalı olarak **açıklanıp anlaşılır hale getirilmesi** misyonudur. (Örn: Namazın kılınış şeklinin gösterilmesi).</td>
+            </tr>
+            <tr>
+                <td><b>Teşri</b></td>
+                <td>Şeriat koymak, yasalaştırmak</td>
+                <td>Kur'an-ı Kerim'de hakkında doğrudan hüküm bulunmayan fıkhi ve ameli konularda, Hz. Muhammed'in Allah'ın izniyle **hüküm (kanun/kural) koyma** yetkisidir.</td>
+            </tr>
+            <tr>
+                <td><b>Temsil</b></td>
+                <td>Örnek olmak, simgelemek</td>
+                <td>İslam'ın getirdiği ahlak kurallarını, inanç ve ibadet esaslarını peygamberin kendi hayatında eksiksiz uygulayarak insanlığa **en güzel model (Üsve-i Hasene)** olmasıdır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="memory-box">
+        <strong>🧠 ALTIN KAVRAM: ÜSVE-I HASENE</strong>
+        <br>Kur'an-ı Kerim'de Ahzâb Suresi 21. ayette geçen, Hz. Muhammed'in inanç, ibadet, adalet ve ahlak bakımından insanlık için <b>"en güzel örnek", "mükemmel model"</b> olduğunu ifade eden evrensel İslam terminolojisidir.
+    </div>
+
+    <h2>2. İSLAM AHLAKININ ÖZÜ: MÜSLÜMAN ŞAHSİYETİNİN TEMEL DEĞERLERİ</h2>
+    <p>Kur'an ve sünnet doğrultusunda şekillenen ideal Müslüman karakteri, tesadüfi değil; belirli erdemlerin kalıcı birer şahsiyet özelliğine (meleke) dönüşmesiyle oluşur. Klasik İslam felsefesi ve ahlakında bu değerler 4 ana başlıkta incelenir:</p>
+    <ul>
+        <li><b>Adalet ve İhsan:</b> Her şeye hakkını vermek, aşırılıklardan uzak durup dengeli olmak <i>Adalet</i>; bir işi en güzel şekliyle yapmak, iyilikte bulunmak ve Allah'ı görüyormuş gibi davranmak ise <i>İhsan</i> erdemidir.</li>
+        <li><b>Hikmet:</b> İnsanın eşyanın hakikatini bilmesi, eşyaya ve olaylara doğru tanı koyması, hakkı batıldan ayırabilme derinliğidir. Bilgi ile ahlakın birleşimidir.</li>
+        <li><b>İffet:</b> İnsanın yeme, içme ve şehvet gibi hayvani ve nefsi arzularını aklın ve dinin kontrolünde tutarak, haddi aşmaktan ve harama düşmekten kendini korumasıdır.</li>
+        <li><b>Şecaat (Cesaret):</b> Korkaklık ile delice atılganlık arasındaki ideal dengedir. Din, vatan, namus ve adalet gibi kutsal değerleri korumak için canı pahasına göstermesi gereken asil yiğitlik ve yürekliliktir.</li>
+    </ul>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN KAVRAM TUZAĞI KURAR: "HATEMÜ'L-ENBİYA"</strong>
+        <br>Hz. Muhammed'in insanlık tarihine gönderilen <b>"Son Peygamber"</b> olduğunu, ondan sonra kesinlikle yeni bir nebi veya resul gelmeyeceğini ifade eden mutlak inanç ilkesidir. Kelime anlamı "Peygamberlerin mührü" demektir.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Kur'an-ı Kerim'de namaz kılınması, zekat verilmesi ve hacca gidilmesi kesin olarak emredilmiştir. Ancak bu ibadetlerin hangi vakitlerde, hangi rükünlerle ve tam olarak nasıl yapılacağı Kur'an ayetlerinde detaylandırılmamıştır. İnsanlar bu ibadetlerin tüm pratik uygulama biçimlerini Hz. Muhammed'in söz ve davranışlarından öğrenmişlerdir. 
+        <br>Buna göre, Hz. Muhammed'in ayetlerdeki genel hükümleri açıklayarak uygulanabilir hale getirmesi, onun aşağıdaki **peygamberlik görevlerinden hangisiyle doğrudan ilgilidir**?</div>
+        <ul class="options-list">
+            <li>A) Tebliğ</li>
+            <li>B) Tebyin</li>
+            <li>C) Teşri</li>
+            <li>D) İsmet</li>
+            <li>E) Fetanet</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Peygamberlik görevlerinin kelime köklerini analiz edelim: Tebliğ vahiyleri aynen ulaştırmaktır (A elenir), Teşri dinî hüküm/kanun koymaktır (C elenir).
+            <br>• Arapçada "beyan etmek" kökünden gelen, teolojik anlamda ise **Kur'an'ın kapalı veya genel hükümlerini peygamberin kendi söz ve uygulamalarıyla açıklaması, tefsir etmesi** eylemine <b>Tebyin</b> adı verilir. Peygamberimizin namazı ve haccı ümmetine öğreterek açıklaması tebyin görevinin en somut örneğidir. Cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Ahzâb Suresi 21. ayette yüce Allah şöyle buyurmaktadır: *"Andolsun, Allah’ın Resulünde sizin için; Allah’a ve ahiret gününe kavuşmayı umanlar ve Allah’ı çokça ananlar için hiç şüphesiz mükemmel bir örnek vardır."*
+        <br>Ayet metninde geçen ve Hz. Muhammed'in müslümanlar için **"en güzel ve mükemmel ahlaki model/örnek"** olduğunu ifade eden teolojik kavram aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hatemü'l-Enbiya</li>
+            <li>B) Üsve-i Hasene</li>
+            <li>C) Emanet</li>
+            <li>D) Hâtem-i Şerif</li>
+            <li>E) Sıdk</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin her yıl paragraf sorularında sabitlemeyi çok sevdiği kalıp kavram sorusudur. 
+            <br>• Hz. Muhammed'in hayat tarzının, davranışlarının, adaletinin ve ahlakının tüm insanlık için en ideal, en kusursuz model olduğunu simgeleyen Kur'ani terim <b>Üsve-i Hasene</b>'dir. (Hatemü'l-Enbiya son peygamber demektir). Dolayısıyla doğru cevap B seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Kur'an-ı Kerim'de evcil eşeklerin etinin yenmesi veya altın yüzük takılması gibi konularda açık, doğrudan yasaklayıcı bir ayet bulunmamaktadır. Ancak Hz. Muhammed, sünnetiyle bu ve benzeri konularda müslümanlara açık yasaklar getirmiş ve kurallar koymuştur. Müslümanlar da bu kurallara ayet gibi uymuşlardır.
+        <br>Buna göre, Hz. Muhammed'in Kur'an'da yer almayan bir hususta **doğrudan dinî kural ve yasa (hüküm) koyma yetkisi**, onun hangi nebevi göreviyle tanımlanır?</div>
+        <ul class="options-list">
+            <li>A) Temsil</li>
+            <li>B) Tebliğ</li>
+            <li>C) Teşri</li>
+            <li>D) Tebyin</li>
+            <li>E) Mucize</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Din hukukunda yasama yetkisini ölçen kavramı inceliyoruz. Arapçada "şeriat ve kural koyma" kökünden türeyen, teolojide ise **peygamberin dinî bir konuda helal veya haram şeklinde bağlayıcı hüküm koyabilme yetisini** ifade eden kavram <b>Teşri</b>'dir. Bu yetki ona bizzat Allah tarafından tanınmıştır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İslam ahlak literatüründe karakter özellikleri analiz edilirken her bir erdem, iki aşırı ucun (ifrat ve tefrit) tam ortasındaki ideal denge olarak tanımlanır. Örneğin, dinî ve mukaddes değerleri korumak için sergilenen asil yiğitlik, korkaklık (tefrit) ile delice, anlamsız atılganlık (ifrat) arasındaki o muazzam dengedir.
+        <br>Yukarıda ahlaki dengesi ve tanımı verilen, Müslüman şahsiyetinin temel direklerinden olan **"cesaret ve yiğitlik" erdemi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hikmet</li>
+            <li>B) İffet</li>
+            <li>C) Şecaat</li>
+            <li>D) İhsan</li>
+            <li>E) Tecrit</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İslam ahlak felsefesinde (ilm-i ahlak) dört temel erdem vardır: Hikmet (bilgelik), İffet (nefsi kontrol), Adalet (hak gözetme).
+            <br>• Korkaklığın zıttı olan, vatan, bayrak, namus ve hak uğrunda korkusuzca, ancak akıl sınırları içinde mücadele etme yürekliliğine İslam ahlakında <b>Şecaat</b> denir. Uygulama soru bankalarında sıklıkla yanlış çözülen elit bir kelimedir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Hz. Muhammed'in ahlakını ve şahsiyetini anlatan tarihi kaynaklar, onun Mekkeliler tarafından daha peygamberlik gelmeden önce bile sözünde duran, hiç yalan söylemeyen, herkesin kıymetli eşyasını gözü kapalı emanet edebildiği tek kişi olduğunu aktarır. Müşrikler bile ona bu yüzden özel bir unvan vermişlerdir.
+        <br>Buna göre, Hz. Muhammed'in gençlik yıllarından itibaren sahip olduğu dürüstlük ve güvenilirlik karakterini simgeleyen, Mekke halkının ona layık gördüğü **o meşhur sıfat unvanı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) El-Emin</li>
+            <li>B) Halilullah</li>
+            <li>C) Kelamullah</li>
+            <li>D) Habibullah</li>
+            <li>E) Zünnureyn</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tarihsel ve teolojik unvan eşleştirmesi yapalım: Halilullah Hz. İbrahim'in (Allah'ın dostu), Zünnureyn Hz. Osman'ın sıfatıdır.
+            <br>• Hz. Muhammed'in İslam öncesinde bile toplumda kazandığı mutlak güveni, sarsılmaz doğruluğu ve emniyeti simgeleyen unvanı <b>Muhammedü'l-Emin</b> veya kısaca <b>El-Emin</b> (Güvenilir Muhammed) sıfatıdır. Doğru cevap A seçeneğidir.
+        </div>
+    </div>
+
+</body>
+</html>

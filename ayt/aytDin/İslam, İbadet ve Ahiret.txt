@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Din Kültürü - Modül 1: İslam, İbadet ve Ahiret</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #065f46, #0f766e); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ccfbf1; font-style: italic; }
+        h2 { color: #065f46; font-size: 16pt; border-left: 6px solid #10b981; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0f766e; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #10b981; border-left: 5px solid #065f46; padding: 15px; margin: 18px 0; border-radius: 4px; color: #134e4a; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #065f46; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #065f46; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #065f46; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT DİN KÜLTÜRÜ - MODÜL 1: İSLAM, İBADET VE AHİRET</h1>
+        <p>"Doğru Bilgiden Ebedi Hayata: Bilgi Kaynakları, İbadet İlkeleri ve Ahiret Hayatının Kozmik Evreleri"</p>
+    </div>
+
+    <h2>1. İSLAM'DA BİLGİ KAYNAKLARI VE "AKAİD" ESASLARI</h2>
+    <p>İslam dininde inanç esaslarını oluşturan kuralların bütününe <b>Akâid</b> denir. İslam, insanın doğru bilgiye ulaşabilmesi için yanıltıcı hurafe ve batıl inançları reddeder ve 3 temel sarsılmaz bilgi kaynağını kabul eder. ÖSYM paragrafta bu üçlüyü buldurmayı çok sever:</p>
+    <ul>
+        <li><b>Selim Akıl:</b> İnsanın yaratılışındaki saf, temiz, ön yargılardan, hırslardan ve kötü duygulardan arınmış, doğru karar verebilme yetisine sahip akıldır.</li>
+        <li><b>Salim Duyular (Havas-ı Selime):</b> Herhangi bir yapısal bozukluğu veya eksikliği bulunmayan, dış dünyayı hatasız algılayan beş duyu organıdır (göz, kulak, ten vb.).</li>
+        <li><b>Sadık Haber:</b> İnsanın akıl ve duyularla tek başına ulaşamayacağı gayb alemini (melekler, ahiret) açıklayan vahiyler (**Kur'an-ı Kerim**) ve peygamberlerin mütevatir (yalan üzere birleşmesi imkansız topluluklarca aktarılan) hadisleridir.</li>
+    </ul>
+
+    <h2>2. İBADETTE TEMEL İLKELER VE AHLAKİ DİFERANSİYELLER</h2>
+    <p>İslam'da yapılan amellerin ve ibadetlerin (namaz, oruç, zekat) Allah katında geçerli olabilmesi ve ahlaki bir olgunluğa dönüşmesi için 3 temel kurumsal ilke gözetilir:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>İbadet İlkesi / Terim</th>
+                <th>Sosyolojik ve Teolojik Tanımı</th>
+                <th>ÖSYM Soru Bankası Çözdüren Anahtar Karşılığı</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>İhlas</b></td>
+                <td>İbadetleri ve güzel amelleri sadece ve sadece **Allah rızasını kazanmak için** yapmaktır. İçine hiçbir dünya menfaati, gösteriş veya övgü beklentisi katmamaktır.</td>
+                <td>Zıttı: <b>Riya</b> (Gösteriş, iki yüzlülük). İhlas amelin ruhudur.</td>
+            </tr>
+            <tr>
+                <td><b>İhsan</b></td>
+                <td>Kulun, Tanrı'yı görüyormuş gibi ibadet etmesidir. Kul O'nu göremese bile, O'nun kendisini her an izlediğinin sarsılmaz bilincinde olmasıdır.</td>
+                <td>Cibril Hadisi'nde tescillenen **en üst düzey kulluk farkındalığı** ve iç denetimdir.</td>
+            </tr>
+            <tr>
+                <td><b>Takva</b></td>
+                <td>Bireyin Allah'ın sevgisini kaybetmekten korkarak günahlardan, haramlardan ve şüpheli şeylerden titizlikle kaçınması, kendini korumasıdır.</td>
+                <td>Kullukta derin sorumluluk bilinci. Kur'an'a göre üstünlük ancak takviledir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. DÜNYA VE AHİRET BAĞLAMI: EBEDİ HAYATIN EVRELERİ</h2>
+    <p>İslam inancına göre dünya hayatı bir imtihan yeri, ahiret ise bu imtihanın adil karşılığının alınacağı kalıcı (ebedi) mekândır. ÖSYM'nin en çok net elediği alan, ölümle başlayan ve cennet/cehenneme kadar uzanan o kronolojik **Ahiret Evreleri** terminolojisidir:</p>
+
+    <div class="warning-box">
+        <strong>⚠️ BU BEŞ EVREYİ SIRASIYLA EZBERLETİN — UYGULAMA İÇİN ALTIN KART:</strong>
+        <br>&bull; <b>1. BERZAH (Kabir Hayatı):</b> Ölümle başlayıp kıyametin kopacağı (Sûr'a ilk üfleme) ana kadar süren o ara dönem, ruhlar alemindeki bekleyiş safhasıdır. Ahiretin ilk kapısıdır.
+        <br>&bull; <b>2. BA'S (Yeniden Diriliş):</b> Kıyamet koptuktan ve her şey yok olduktan sonra, İsrafil meleğin Sûr borusuna ikinci kez üflemesiyle tüm insanların kabirlerinden **yeniden diriltilerek** ayağa kalkması olayıdır.
+        <br>&bull; <b>3. HAŞR ve MAHŞER (Toplanma):</b> Dirilen tüm insanların hesap vermek üzere evrensel bir meydanda toplanması eylemine <b>Haşr</b>, toplandıkları o devasa meydana ise <b>Mahşer</b> denir.
+        <br>&bull; <b>4. MİZAN (Kozmik Terazi):</b> Mahşer meydanında sorgu sual bittikten sonra, insanların dünyada işledikleri tüm iyilik ve kötülüklerin, amellerin tartıldığı o **mutlak adalet terazisidir**.
+        <br>&bull; <b>5. SIRAAT:</b> Mizan tartısından sonra cehennemin üzerinden cennete uzanan, herkesin ameline göre hızla veya düşerek geçeceği o manevi köprü/yoldur.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> İslam akaidine göre insanın doğru bilgiye ulaşabilmesi; rüyalar, fallar, astrolojik tahminler veya sezgiler gibi öznel ve aldatıcı yöntemlerle mümkün değildir. İslam, nesnel ve herkes için geçerli olan üç sarsılmaz bilgi kaynağını (Selim akıl, salim duyular ve sadık haber) kabul eder. 
+        <br>Buna göre, peygamberlerin Allah'tan getirdiği vahiyler (**Kur'an-ı Kerim**) ile yalan üzere birleşmeleri mantıken imkansız olan toplulukların aktardığı hadisler, bu üç bilgi kaynağından **hangisinin kapsamı içerisinde yer alır**?</div>
+        <ul class="options-list">
+            <li>A) Havas-ı Selime</li>
+            <li>B) Selim Akıl</li>
+            <li>C) Sadık Haber</li>
+            <li>D) Keşif ve İlham</li>
+            <li>E) Tecrübi Bilgi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İslam'ın bilgi teorisini (epistemolojisini) süzgeçten geçirelim: Beş duyu organı Havas-ı Selime'dir (A elenir), akıl yürütme Selim Akıl'dır (B elenir).
+            <br>• İnsanın kendi aklı veya gözleriyle tek başına göremeyeceği gayb alemini, yaratılış gayesini ve ilahi emirleri bildiren vahiyler ile peygamberlerin getirdiği sarsılmaz haber zinciri, İslam literatüründe doğrudan <b>Sadık Haber</b> (Haber-i Sadık) olarak adlandırılır. Doğru cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Hz. Muhammed, bir gün kendisine *"İman nedir, İslam nedir?"* diye sorular soran Cebrail'e, kulluğun en üst zirvesini şu meşhur sözüyle açıklamıştır: **"O, Allah'a O'nu görüyormuş gibi ibadet etmendir. Sen O'nu göremesen de O seni kesinlikle görmektedir."** <br>Peygamberimizin bu meşhur hadisinde (Cibril Hadisi) dikkat çektiği, kulun her an Tanrı'nın gözetiminde olduğunu bilerek ihlasla hareket etmesini simgeleyen **o meşhur teolojik kavram** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Riya</li>
+            <li>B) İhsan</li>
+            <li>C) Takva</li>
+            <li>D) Bid'at</li>
+            <li>E) Taassup</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İslam ahlak ve ibadet terimlerini test edelim. Riya gösteriştir, Takva günahtan kaçınmadır.
+            <br>• Peygamberimizin hadisteki tanımı kelimesi kelimesine tek bir kavramın İslam literatüründeki mutlak ispatıdır: <b>İhsan</b>. Bir müminin, Allah'ın kendisini her saniye izlediği bilinciyle, tam bir samimiyet ve iç denetimle yaşamasına "ihsan", bu kalitede yaşayan mümine ise "muhsin" denir. ÖSYM bu hadisi paragraf olarak sormayı çok sever. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Bir müslüman, mahalledeki yoksul ailelere zekat ve sadaka verirken; bu yardımın gizli kalmasına aşırı dikkat etmiş, ne sosyal medyada paylaşmış ne de komşularına anlatmıştır. Amacı sadece Allah'ın rızasını kazanmaktır. 
+        <br>Bu müminin ibadetine gösteriş, övgü veya menfaat bulaştırmadan, **saf ve samimi bir niyetle sadece Allah için yapması**, aşağıdaki ibadet ilkelerinden hangisiyle özetlenir?</div>
+        <ul class="options-list">
+            <li>A) İhlas</li>
+            <li>B) Takva</li>
+            <li>C) İslam</li>
+            <li>D) Tevekkül</li>
+            <li>E) Mütevatir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Amellerin niyet kalitesini ölçen kavrama bakıyoruz. Gösteriş ve riyanın tam panzehiri olan, ibadeti her türlü yabancı ve dünyevi niyetten temizleyerek **saf tutmak** eylemine İslam'da <b>İhlas</b> denir. İhlasla yapılan ameller değerlidir, ihlassız yapılanlar ise riya (gösteriş) sayılır ve çöker. Cevap A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İslam inancına göre ölüm bir yok oluş değil, mekânsal bir yer değiştirmedir. İnsanın dünya hayatı bittikten sonra gömüldüğü kabirde başlayan, dünyadaki amellerine göre bir cennet bahçesi veya cehennem çukuru olarak yaşayacağı, **kıyamet kopana kadar sürecek olan o 'ara dönem / kabir hayatı' evresine** ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Mahşer</li>
+            <li>B) Ba's</li>
+            <li>C) Berzah</li>
+            <li>D) Mizan</li>
+            <li>E) Haşr</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Ahiret kronolojisini işletelim: Ba's yeniden dirilmek (B), Mahşer toplanılan meydandır (A).
+            <br>• Kelime anlamı olarak "iki şey arasındaki perde, engel" demek olan, teolojik olarak ise **ölüm ile kıyamet arasındaki o gizemli kabir hayatı bekleme dönemini** simgeleyen kavram <b>Berzah</b> alemidir. İnsanın öldüğü andan itibaren Berzah hayatı başlar. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Kıyamet koptuktan sonra İsrafil adlı meleğin Sûr borusuna ikinci kez üflemesiyle dünya tarihinde yaşamış tüm insanlar aynı anda kabirlerinden dirilerek (Ba's) kalkarlar. Bu milyarlarca insanın hesap vermek üzere tek bir devasa meydanda **toplanması eylemine ve o toplanılan meydana** sırasıyla ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Berzah - Mizan</li>
+            <li>B) Ba's - Sırat</li>
+            <li>C) Haşr - Mahşer</li>
+            <li>D) Mizan - Haşr</li>
+            <li>E) Sırat - Berzah</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Ahiret evrelerinin toplanma eylemini ve lokasyon adını eşleştiriyoruz.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Dirilen insanların tek bir alana doğru akın ederek **toplanması fiiline Haşr** denir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Bu evrensel, muazzam mahkemenin kurulduğu, hesapların görüleceği **devasa meydana ise Mahşer** meydanı adı verilir. Doğru sıralı ikili C şıkkındadır.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Din Kültürü - Modül 3: İslam Düşüncesinde Yorumlar ve Mezhepler</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #311b92); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0e7ff; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #4f46e5; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #311b92; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f3e5f5; border: 1px dashed #ab47bc; border-left: 5px solid #8e24aa; padding: 15px; margin: 18px 0; border-radius: 4px; color: #4a148c; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT DİN KÜLTÜRÜ - MODÜL 3: İSLAM DÜŞÜNCESİNDE YORUMLAR VE MEZHEPLER</h1>
+        <p>"Düşünsel Zenginlik: İtikadi ve Ameli Ekoller, Tasavvufi Akımlar ve Anadolu İslam Mirası"</p>
+    </div>
+
+    <h2>1. İSLAM DÜŞÜNCESİNDE YORUMLARIN DOĞUŞ NEDENLERİ</h2>
+    <p>Hz. Muhammed'in vefatından sonra İslam coğrafyası hızla genişlemiş; farklı kültür, dil ve ırktan topluluklar İslam'a dahil olmuştur. Bu süreçte ayetlerin yorumlanması, siyasi liderlik (hilafet) mücadeleleri ve felsefi akımlarla karşılaşılması sonucunda farklı düşünsel ekoller (mezhepler) doğmuştur. Din tektir ve sabittir; ancak **mezhepler dinin beşerî (insani) yorumlarıdır**, dolayısıyla kutsal değil, kültürel birer zenginliktir.</p>
+
+    <h2>2. İTİKADİ (İNANÇSAL) VE AMELİ (FIKHİ) MEZHEPLER MATRİSİ</h2>
+    <p>ÖSYM, din kültürü testinde itikadi ve ameli mezheplerin kurucularını ve temel niteliklerini doğrudan bilgi sorusu olarak sormayı çok sever:</p>
+
+    <h3>A) İtikadi (İnançla İlgili) Yorumlar</h3>
+    <ul>
+        <li><b>Maturidilik:</b> Kurucusu <b>İmam Maturidi</b>'dir. Türk dünyasında en yaygın inanç ekolüdür. Akıl ile nakil (vahiy) arasında muazzam bir denge kurmuştur. İnsanın akılla Tanrı'nın varlığını bulabileceğini savunur.</li>
+        <li><b>Eş'arilik:</b> Kurucusu <b>İmam Eş'ari</b>'dir. Daha çok Arap dünyasında ve medreselerde (Şafiiler arasında) yaygındır. Vahyi akıldan üstün tutar; insan aklının Tanrı buyruğu olmadan iyiyi ve kötüyü tek başına bulamayacağını iddia eder.</li>
+    </ul>
+
+    <h3>B) Ameli ve Fıkhi (İbadet ve Hukukla İlgili) Yorumlar</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Fıkhi Mezhep Adı</th>
+                <th>Kurucu Büyük İmamı</th>
+                <th>En Belirgin Karakteristik Özelliği / Coğrafyası</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Hanefilik</b></td>
+                <td><b>İmam-ı Azam Ebû Hanife</b></td>
+                <td>Hüküm koyarken aklı, kıyası ve re'yi (görüşü) en çok kullanan, **Türkiye, Balkanlar ve Orta Asya'da en yaygın** olan fıkhi mezheptir.</td>
+            </tr>
+            <tr>
+                <td><b>Şafiilik</b></td>
+                <td><b>İmam Şafiî</b></td>
+                <td>Hüküm koyarken hadislere çok sıkı bağlanır. **Türkiye'nin Doğu ve Güneydoğu Anadolu bölgeleri** ile Mısır'da son derece yaygındır.</td>
+            </tr>
+            <tr>
+                <td><b>Malikilik</b></td>
+                <td><b>İmam Malik</b></td>
+                <td>Medine halkının örf ve adetlerini sünnetin en canlı kanıtı kabul eden, Kuzey Afrika ülkelerinde (Fas, Cezayir, Tunus) yaygın ekoldür.</td>
+            </tr>
+            <tr>
+                <td><b>Hanbelilik</b></td>
+                <td><b>Ahmad b. Hanbel</b></td>
+                <td>Kıyas ve re'yi neredeyse hiç kullanmayan, tamamen ayet ve hadislerin zahiri (görünen) anlamına dayanan, Suudi Arabistan'da yaygın mezheptir.</td>
+            </tr>
+            <tr>
+                <td><b>Caferilik</b></td>
+                <td><b>İmam Cafer-i Sadık</b></td>
+                <td>Ehl-i Beyt'in (Peygamberimizin soyunun) bilgi ve rivayetlerini temel alan, **Şia** dünyasının ana hukuki mezhebidir. Türkiye'de de mensupları vardır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. İSLAM'IN KALBİ: TASAVVUFİ YORUMLAR (TARİKATLAR)</h2>
+    <p>İslam'ın ahlaki, kalbi ve batıni boyutuna odaklanan, nefsi terbiye ederek ruhsal olgunluğa ulaşmayı hedefleyen düşünce biçimine <b>Tasavvuf</b> denir. Anadolu ve İslam coğrafyasında derin izler bırakmış başlıca tasavvufi ekoller şunlardır:</p>
+    <ul>
+        <li><b>Yesevilik:</b> Kurucusu **Hoca Ahmed Yesevî**'dir (Pîr-i Türkistan). Türkistan'da kurulan bu ilk tarikat, dervişler (Alperenler) vasıtasıyla İslam'ın Anadolu'da yayılmasını sağlayan ana damardır. En ünlü eseri <i>Divân-ı Hikmet</i>'tir.</li>
+        <li><b>Mevlevilik:</b> **Mevlânâ Celâleddîn-i Rûmî**'nin fikirleri etrafında oğlu Sultan Veled tarafından sistemleştirilmiştir. Temel felsefesi ilahi aşk, hoşgörü ve evrensel insan sevgisidir. En büyük ritüeli ney ve müzik eşliğinde yapılan <b>Sema Töreni</b>'dir.</li>
+        <li><b>Kadirilik ve Nakşibendilik:</b> Kadirilik, Abdülkadir Geylani adına kurulan en eski tasavvufi yollardandır. Nakşibendilik ise Bahauddin Nakşibend tarafından kurulan, zikri sessizce (hafi zikir) yapmasıyla bilinen çok yaygın bir ekoldür.</li>
+    </ul>
+
+    <div class="memory-box">
+        <strong>👑 UYGULAMA İÇİN ÖZEL DETAY: ALEVİLİK - BEKTAŞİLİK VE RİTÜELLERİ:</strong>
+        <br>Hacı Bektaş-ı Velî'nin fikirleri ve Hz. Ali sevgisi etrafında şekillenen özgün bir tasavvufi yorumdur. ÖSYM buradaki kavramları doğrudan sorar:
+        <br>&bull; <b>Cem ve Cemevi:</b> Alevi-Bektaşilerin bir dede rehberliğinde dua ettikleri, zikir yaptıkları ve sorunları çözdükleri kurumsal toplantıya **Cem**, yapıldığı yere **Cemevi** denir.
+        <br>&bull; <b>Semah:</b> Cem esnasında kadın ve erkeklerin ilahiler eşliğinde el ele vermeden, dönerek icra ettikleri mistik, estetik zikir törenidir.
+        <br>&bull; <b>Razılık ve Kul Hakkı:</b> Ceme katılan herkesin birbirinden razı olması, üzerinde kul hakkı olanların helalleşmesi şarttır. Küskünler ceme alınmaz.
+        <br>&bull; <b>Gülbank:</b> Cemevinde dedenin veya babanın okuduğu ezgili, ritmik ve manevi **Alevi dualarına** verilen isimdir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> İslam dünyasında ortaya çıkan yorumlar (mezhepler) inançla ilgili olanlar (İtikadi) ve günlük hayatın ameli/hukuki kurallarıyla ilgili olanlar (Ameli/Fıkhi) olmak üzere ikiye ayrılır. 
+        <br>Buna göre, aşağıda verilen mezheplerden hangisi **diğerlerinden farklı olarak ameli/fıkhi (hukuk odaklı) bir mezhep değil, tamamen itikadi (inanç esaslarına dayalı) bir yorum ekolüdür**?</div>
+        <ul class="options-list">
+            <li>A) Hanefilik</li>
+            <li>B) Şafiilik</li>
+            <li>C) Maturidilik</li>
+            <li>D) Malikilik</li>
+            <li>E) Caferilik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Mezheplerin kategorik ayrımlarını zihnimizde netleştirelim: Hanefilik (A), Şafiilik (B), Malikilik (D) ve Caferilik (E) namaz, oruç, ticaret ve evlilik gibi pratik yaşam kurallarını düzenleyen **Fıkıh (Ameli)** mezhepleridir.
+            <br>• Ancak C seçeneğinde yer alan <b>Maturidilik</b>, İmam Maturidi tarafından kurulan, Allah'ın sıfatları, kader, irade ve iman gibi doğrudan **inanç (itikat) esaslarını** ele alan teolojik bir ekoldür. Cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Türkistan'da kurduğu tasavvufi ekolle, yetiştirdiği binlerce dervişi ve alpereni Anadolu'ya, Balkanlar'a göndererek buraların müslümanlaşmasında ve Türkleşmesinde tarihi bir rol oynayan; özgün şiirlerini topladığı *Divân-ı Hikmet* adlı eseriyle bilinen ve İslam tarihinde <b>"Pîr-i Türkistan"</b> unvanıyla anılan büyük mutasavvıf kimdir?</div>
+        <ul class="options-list">
+            <li>A) Mevlânâ Celâleddîn-i Rûmî</li>
+            <li>B) Hacı Bektaş-ı Velî</li>
+            <li>C) Hoca Ahmed Yesevî</li>
+            <li>D) Yunus Emre</li>
+            <li>E) Abdülkadir Geylani</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Soru kökündeki tarihi ve tasavvufi unvan şifrelerini birleştirelim: "Pîr-i Türkistan unvanı", "Divân-ı Hikmet eseri" ve "Anadolu'yu mayalayan ilk Türk tarikatının kurucusu olması".
+            <br>• Bu özellikler sarsılmaz bir bilgiyle <b>Hoca Ahmed Yesevî</b>'ye aittir. Yesevîlik, Türklerin İslamiyet'i kendi kültür ve dilleriyle (Türkçe) yaşamasını sağlayan en köklü tasavvuf yoludur. Doğru cevap C seçeneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Alevi-Bektaşi kültüründe inanç ve ibadet ritüellerinin icra edildiği kurumsal bir mekanizma vardır. Bu gelenekte müminler bir araya gelerek bir "Dede"nin manevi rehberliğinde dualar okur, Allah'ı zikreder ve aralarındaki küskünlükleri, davaları çözerek toplumsal barışı sağlarlar.
+        <br>Alevi-Bektaşilikteki bu **toplu ibadet ve arınma ritüeline ve bu ritüelin gerçekleştirildiği kutsal mekâna** sırasıyla ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Sema - Dergâh</li>
+            <li>B) Cem - Cemevi</li>
+            <li>C) Gülbank - Semahane</li>
+            <li>D) Razılık - Tekke</li>
+            <li>E) İtiraf - Cami</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin her yıl hiç sekmeden sorduğu Alevi-Bektaşi terminolojisini kontrol edelim. Sema ve Mevlevilik bağı vardır (A elenir).
+            <br>• Arapçada "toplanmak, bir araya gelmek" anlamına gelen ve Aleviliğin merkez ibadet formunu oluşturan törene <b>Cem</b>; bu manevi toplantının yapıldığı mekâna ise <b>Cemevi</b> adı verilir. Kul hakkının sorulduğu, razılığın alındığı yer burasıdır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Fıkıh biliminde (İslam hukukunda) hüküm çıkarırken akla, mantığa, kıyas yöntemine ve re'ye (hür görüşe) en geniş yeri ayıran; katı şekilcilikten uzak, esnek yapısıyla dikkat çeken ve bugün Türkiye Cumhuriyeti vatandaşlarının çok büyük bir kısmının ameli hayatta mensubu olduğu **dünyanın en kalabalık fıkhi mezhebi** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Şafiilik</li>
+            <li>B) Malikilik</li>
+            <li>C) Hanbelilik</li>
+            <li>D) Hanefilik</li>
+            <li>E) Maturidilik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Türkiye'nin ve fıkıh coğrafyasının demografik haritasını işletelim:
+            <br>• Kurucusu İmam-ı Azam Ebû Hanife olan, Irak'ta doğup Abbasi ve Osmanlı imparatorluklarının resmi hukuku haline gelen, akıl ve kıyası öne çıkardığı için Türk dünyasında mutlak bir egemenlik kuran fıkhi mezhep <b>Hanefilik</b>'tir (Maturidilik inanç mezhebidir, fıkhi değildir). Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Alevi-Bektaşi kültüründe Cem töreninin başlamasından önce, Dede meydanda bulunan tüm cemaate dönerek; *"Üzerinde kul hakkı olan, birine kırgın olan veya birinden şikayeti olan var mı?"* diye sorar. Ceme katılan herkesin birbiriyle helalleşmesi, toplumsal olarak kimsenin kimseden hak talep etmeyecek şekilde uzlaşması zorunludur. Küskünlerin olduğu bir cem başlatılamaz.
+        <br>Alevilikteki bu **toplumsal rıza, helalleşme ve adalet mekanizmasını** simgeleyen sosyo-dini kavram aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Gülbank</li>
+            <li>B) Semah</li>
+            <li>C) Razılık (Kul Hakkı Sorulması)</li>
+            <li>D) Çırağ Yakma</li>
+            <li>E) On İki Hizmet</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Cem ritüelinin ahlaki ve hukuki iskeletini analiz eden harika bir final sorusudur. Gülbank duadır, Semah zikirdir.
+            <br>• Cemin geçerli olabilmesi için cemaatin tam bir fikir ve gönül birliği içinde olması gerekir. İnsanların birbirinden razı olması, kul haklarının ödenmesi aşamasına doğrudan <b>Razılık alınması</b> adı verilir. Bu kural, Alevi kültürünün ahlaki ve hukuki hassasiyetinin en büyük tescilidir. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

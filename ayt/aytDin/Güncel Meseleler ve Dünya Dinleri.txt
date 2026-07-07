@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Din Kültürü - Modül 4: Güncel Meseleler ve Dünya Dinleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fafdfc;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fafdfc; }
+        .header-banner { background: linear-gradient(135deg, #064e3b, #0f172a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #a7f3d0; font-style: italic; }
+        h2 { color: #064e3b; font-size: 16pt; border-left: 6px solid #10b981; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #10b981; border-left: 5px solid #064e3b; padding: 15px; margin: 18px 0; border-radius: 4px; color: #14532d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #064e3b; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #064e3b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #064e3b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT DİN KÜLTÜRÜ - MODÜL 4: GÜNCEL MESELELER VE DÜNYA DİNLERİ</h1>
+        <p>"Çağdaş Fetvalar ve İnançlar Atlası: Tıbbi ve Ekonomik Fıkıh, İlahi ve Beşerî Dünya Dinleri"</p>
+    </div>
+
+    <h2>1. ÇAĞDAŞ YAŞAMIN GETİRDİĞİ GÜNCEL DİNÎ MESELELER</h2>
+    <p>Teknolojinin, tıbbın ve küresel ekonominin gelişmesi, klasik fıkıh kitaplarında doğrudan cevabı bulunmayan yeni meseleleri doğurmuştur. İslam fıkıh meclisleri (Diyanet Din İşleri Yüksek Kurulu vb.) bu konulara Kur'an'ın genel ilkeleri ışığında çözümler üretir:</p>
+    <ul>
+        <li><b>Sağlık ve Tıp:</b> 
+            <br>&bull; <i>Organ Nakli:</i> Belirli şartlar altında (ticari bir amaç olmaması, vericinin rızası ve tıbbi zorunluluk) **caiz kabul edilmiştir**. Can kurtarmak esastır.
+            <br>&bull; <i>Ötanazi:</i> Tıbben umudu kesilen birinin kendi isteğiyle hayatına son verdirmesidir. İslam'da can kutsaldır ve Allah'ın emanetidir; bu yüzden ötanazi **kesinlikle haramdır (intihar/cinayet sayılır)**.
+            <br>&bull; <i>Yapay Döllenme (Tüp Bebek):</i> Sadece ve sadece **nikahlı eşler arasında** yapılması şartıyla caizdir. Sperm veya yumurta bankalarından donör kullanılması dinen kesinlikle haramdır.
+        </li>
+        <li><b>Gıda ve Katkı Maddeleri:</b> İslam gıdada "helal ve temiz (tayyib)" olma ilkesini koyar. Domuzdan elde edilen jelatin veya alkol içeren koruyucuların gıdalarda kullanılması haramdır. İstihale (kimyasal yapının tamamen değişerek başka bir maddeye dönüşmesi) durumu fıkıhta yakından incelenir.</li>
+        <li><b>Ekonomi:</b> Faiz, haksız kazanç ve şans oyunları (kumar) haramdır. Dijital paralar (Kripto varlıklar) ve borsa spekülasyonları, güvence ve aldatma (garar) riski barındırdığı sürece fıkıh meclislerince mesafeli karşılanmaktadır.</li>
+    </ul>
+
+    <h2>2. YAŞAYAN DÜNYA DİNLERİ VE TURNUSOL ÖZELLİKLERİ</h2>
+    <p>ÖSYM, AYT Din Kültürü testinin son sorusunu neredeyse her yıl hiç sekmeden dünya dinlerinin temel kavramlarından sorar. Dinler ilahi kökenli (**Vahye dayalı**) ve beşerî kökenli (**Hint-Çin dinleri**) olarak iki grupta karşılaştırılır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dünya Dini</th>
+                <th>Kutsal Kitabı ve Sembolü</th>
+                <th>ÖSYM Soru Bankalarında Çıkan En Kritik Kavramları</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Yahudilik</b><br>(Musevilik)</td>
+                <td>**Teorat (Tora)** ve **Zebur** (Tanah genel adıdır). Yedi kollu şamdan (Menora), Davud Yıldızı.</td>
+                <td>Etnik (ırksal) bir dindir, misyonerlik yoktur. En temel ilkeleri **On Emir**'dir. Kutsal mekânları **Ağlama Duvarı**'dır. Cumartesi (Şabat) günü mutlak ibadet ve dinlenme günüdür, iş yapmak yasaktır.</td>
+            </tr>
+            <tr>
+                <td><b>Hristiyanlık</b></td>
+                <td>**İncil** (Ahd-i Cedid). Haç sembolü.</td>
+                <td>En temel inanç esası **Teslis İnancı**'dır (Baba-Oğul-Kutsal Ruh üçlemesi). Vaftiz (suyla arınma) ve Ekmek-Şarap (Evharistiya) ayinleri kurumsaldır. Katolik, Ortodoks ve Protestan olmak üzere 3 ana mezhebe ayrılır.</td>
+            </tr>
+            <tr>
+                <td><b>Hinduizm</b></td>
+                <td>**Vedalar** (Çok hacimli metinler). "Om" sembolü.</td>
+                <td>Dünyanın en eski çok tanrılı (Politeist - Brahma, Vişnu, Şiva) dinlerindendir. Toplumu katı sınıflara bölen **Kast Sistemi** hakimdir. Reenkarnasyona (**Samsara - Ruh göçü**) ve yapılan işlerin karşılığını görme yasasına (**Karma**) inanırlar. Kutsal nehirleri **Ganj**'dır, ölülerini yakarlar (Kremasyon).</td>
+            </tr>
+            <tr>
+                <td><b>Budizm</b></td>
+                <td>**Tripitaka** (Üç Sepet). Sekiz dilimli tekerlek sembolü.</td>
+                <td>İlahi bir kurucusu ve Tanrı kavramı yoktur. Kurucusu **Gautama Buddha**'dır. Kast sistemine tepki olarak doğmuştur. Hayattaki acılardan kurtulmak ve arzuları söndürmek için ulaşılan en üst düzey aydınlanma/ruhsal sessizlik mertebesine <b>Nirvana</b> adı verilir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN NOKTA ATIŞI KIYASLAR — KAST SİSTEMİ FARKI:</strong>
+        <br>Hinduizm'de **Kast Sistemi** dinin sarsılmaz bir emridir ve sınıflar arası geçiş imkansızdır. **Budizm** ise Kast sistemini tamamen reddederek her insanın eşit olduğunu savunmuş ve bu sayede Hindistan'dan çıkıp Çin ve Japonya'da hızla yayılmıştır.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Çağdaş tıp biliminin ulaştığı teknolojik düzey doğrultusunda, bir insanın klinik olarak beyin ölümünün gerçekleşmesinin ardından, organlarının başka hastaların tedavisinde kullanılması fıkıh meclislerinde uzun süre tartışılmıştır. İslam fıkıh kurumları (Örn: Diyanet Din İşleri Yüksek Kurulu), belirli şartların taşınması kaydıyla organ naklinin dinen hiçbir engel taşımadığını rapor etmiştir. 
+        <br>Aşağıdakilerden hangisi İslam dininde organ naklinin caiz (uygun) olabilmesi için aranan **o zorunlu fıkhi şartlardan biri olamaz**?</div>
+        <ul class="options-list">
+            <li>A) Organı verilecek kişinin veya yasal varislerinin açık rızasının (izninin) bulunması</li>
+            <li>B) Yapılacak bu nakil operasyonu karşılığında alıcıdan **fahiş veya cüzi bir maddi ücret (para) talep edilmesi / organ ticareti yapılması**</li>
+            <li>C) Naklin yapılacağı hastanın hayatını kurtarmak veya bir organının işlevini düzeltmek için tıbbi bir zorunluluğun bulunması</li>
+            <li>D) Alıcının vücudunun bu organı kabul edeceğine dair tıbbi kesinliğin veya yüksek olasılığın olması</li>
+            <li>E) Organı bağışlayan kişinin hayattayken bu kararı hür iradesiyle vermiş olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İslam hukukunun (fıkhının) tıp etiği ilkelerini denetleyelim. Can kurtarmak Kur'an'ın genel ruhuna uygundur ("Bir canı kurtaran tüm insanlığı kurtarmış gibidir"). Bu yüzden rıza (A, E) ve tıbbi zorunluluk (C, D) şartıyla nakil caizdir.
+            <br>• Ancak İslam'da insan onuru, bedeni ve organları kutsaldır; kesinlikle bir meta veya mal gibi satılamaz. **Maddi bir ücret karşılığında organ nakli yapılması, yani işin içine ticaret ve menfaat girmesi dinen kesinlikle haramdır**. Şartlar tamamen insani ve ücretsiz olmak zorundadır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Hint alt kıtasında doğan, kökeni binlerce yıl öncesine dayanan milli bir inanç sisteminde; evrenin ve varoluşun işleyişi "Karma" adı verilen nedensellik yasasına bağlanmıştır. Bu inanca göre insan, dünyada ne kadar iyilik veya kötülük işlerse, öldükten sonra ruhu o amellerin kalitesine göre başka bir bedende (insan, hayvan veya bitki olarak) yeniden dünyaya doğar (Reenkarnasyon). Tabakalar arası geçişin yasak olduğu katı bir Kast Sistemi bu dinin en belirgin toplumsal özelliğidir. 
+        <br>Yukarıda temel inanç esasları ve sınıfsal yapısı özetlenen **yaşayan dünya dini** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yahudilik</li>
+            <li>B) Budizm</li>
+            <li>C) Hinduizm</li>
+            <li>D) Hristiyanlık</li>
+            <li>E) Şintoizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Dünya dinlerinin coğrafi ve kavramsal şifrelerini birleştirelim: "Hint kökenli olması", "Karma yasası", "Ruh göçü (Samsara)" ve o en meşhur ayırt edici kural olan **"Katı Kast Sistemi"**.
+            <br>• Bu özellikler Hindistan'ın milli dini olan <b>Hinduizm</b>'i işaret eder. Budizm de Hint kökenlidir ancak Kast sistemini reddettiği için bu paragraftaki din kesinlikle Hinduizm'dir. Doğru cevap C şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> İlahi kökenli bir din olan Yahudiliğin (Musevilik) kendine has tarihi, kurumsal ve ırksal kuralları vardır. İnanç esasları tamamen Hz. Musa'ya Sina Dağı'nda bildirilen kurallara dayanır. 
+        <br>Aşağıdakilerden hangisi Yahudilik dinine ait **en bilindik, en karakteristik kavramlardan veya kurallardan biri değildir**?</div>
+        <ul class="options-list">
+            <li>A) Kutsal metinlerinin ve yasalarının özünü oluşturan **On Emir**</li>
+            <li>B) İbadetlerin yapıldığı ve Kudüs'te yer alan kutsal **Ağlama Duvarı**</li>
+            <li>C) Cumartesi (Şabat) gününün mutlak kutsal sayılması ve o gün dünya işi yapmanın yasak olması</li>
+            <li>D) İnanç sisteminin merkezinde yer alan **Teslis (Baba-Oğul-Kutsal Ruh) doktrini**</li>
+            <li>E) Dinî sembolleri olan yedi kollu şamdan (Menora) ve Davud Yıldızı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Yahudilik din terminolojisini denetleyelim: On Emir (A), Ağlama Duvarı (B), Cumartesi yasağı/Şabat (C) ve Menora (E) tamamen Yahudiliğe ait tescilli unsurlardır.
+            <br>• Ancak D seçeneğinde yer alan <b>Teslis İnancı (Üçleme), Yahudiliğin tam aksine mutlak monoteizmi (tek tanrıcılığı) bozan ve HRİSTİYANLIK dinine ait olan en temel inanç dogmasıdır</b>. Yahudilikte Tanrı Yehova tektir ve asla eşi, oğlu olamaz. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Gautama Buddha tarafından Hindistan'daki çok tanrılı düzene ve halkı köleleştiren katı Kast Sistemi'ne bir başkaldırı olarak kurulan felsefi dinde; evrendeki tüm acıların, hüzünlerin ve kötülüklerin kaynağı insanın içindeki bitmek bilmeyen bencil arzular, istekler ve hırslardır. İnsan ancak "Sekiz Dilimli Yolu" takip ederek içindeki bu dünyevi arzuları tamamen söndürdüğünde, en üst düzey ruhsal huzura, aydınlanmaya ve mutlak sessizlik mertebesine ulaşabilir. 
+        <br>Budizm inancındaki bu **nihai aydınlanma ve ruhsal özgürlük mertebesine** ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Karma</li>
+            <li>B) Nirvana</li>
+            <li>C) Şabat</li>
+            <li>D) Vaftiz</li>
+            <li>E) Kast</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Budizm dininin en elit epistemolojik ve soteryolojik terimini arıyoruz. Paragraftaki "bencil arzuların söndürülmesiyle ulaşılan o en üst düzey ruhsal sessizlik, aydınlanma ve kurtuluş zirvesi" tanımı tek bir kelimeyle tescillenmiştir.
+            <br>• Bu terim <b>Nirvana</b> kavramıdır. Budizm'in nihai hedefi insanı Nirvana'ya ulaştırmaktır. (Şabat Yahudilikte, Vaftiz Hristiyanlıktadır). Doğru şık B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Çağdaş tıp etiğinde, tedavisi imkansız bir hastalığa yakalanmış, dayanılmaz acılar çeken ve tıbben bilinci/umudu tamamen kapanmış olan bir hastanın, kendi hür iradesiyle veya yasal vasilerinin onayıyla tıbbi desteğinin kesilerek ya da kimyasal enjekte edilerek "acısız bir şekilde hayatına son verilmesi" eylemine ötanazi denir. 
+        <br>İslam fıkhının ve ahlakının sarsılmaz kuralları dikkate alındığında, **ötanazi uygulaması karşısındaki dinî hüküm** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hastanın rızası olduğu için tamamen caiz ve sevaptır.</li>
+            <li>B) Tıbbi masrafları azaltacağı için fıkhen tavsiye edilen bir yöntemdir.</li>
+            <li>C) İslam'da hayatı veren ve alan sadece Allah'tır; can insana emanettir. Bu yüzden ötanazi **kesinlikle haramdır, intihar veya cinayet hükmündedir**.</li>
+            <li>D) Sadece yaşlı hastalarda caiz, gençlerde haramdır.</li>
+            <li>E) Din kaynaklarında bu konuda hiçbir kural yoktur.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İslam'ın can ve hayat felsefesini sorgulayan muazzam bir güncel mesele sorusudur. İslam hukukunun en temel beş koruma ilkesinden (Zarurat-ı Hamse) biri **Canın Korunması**'dır.
+            <br>• İnsan kendi bedeninin mutlak sahibi değil, sadece geçici bir emanetçisidir. Acı ne kadar büyük olursa olsun, bir insanın kendi canını aldırması veya doktorun onu öldürmesi İslam'da <b>kesinlikle haramdır</b>. Kul hakkı ve Allah'ın takdirine isyan sayılır; hukuksal boyutu **cinayet**, bireysel boyutu ise **intihar** ile eş değerdir. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>
