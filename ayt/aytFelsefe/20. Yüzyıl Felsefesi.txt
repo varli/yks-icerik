@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Felsefe - Modül 4: 20. Yüzyıl Felsefesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fcfcfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fcfcfd; }
+        .header-banner { background: linear-gradient(135deg, #0f172a, #475569); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #cbd5e1; font-style: italic; }
+        h2 { color: #0f172a; font-size: 16pt; border-left: 6px solid #64748b; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #334155; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f8fafc; border: 1px dashed #94a3b8; border-left: 5px solid #64748b; padding: 15px; margin: 18px 0; border-radius: 4px; color: #334155; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0f172a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #0f172a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0f172a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FELSEFE - MODÜL 4: 20. YÜZYIL FELSEFESİ</h1>
+        <p>"Çağdaş Akımlar: Özün Keşfi, Dil Analizleri, Eksistansiyal Sancılar ve Yeni Ontoloji Metodu"</p>
+    </div>
+
+    <h2>1. 20. YÜZYIL FELSEFESİNİN ÖNE ÇIKAN TEMEL NİTELİKLERİ</h2>
+    <p>Bu dönem felsefesi, bilimsel bilginin devasa hızla büyüdüğü, iki büyük dünya savaşının yaşandığı kriz asrıdır. Felsefe artık büyük metafiziksel sistemler kurmaz. **Dile, bilime, insanın varoluş sorunlarına ve metin yorumlamalarına** yönelmiştir. Felsefede uzmanlaşma başlamış, akademik bir disipline dönüşmüştür.</p>
+
+    <h2>2. ÖSYM'NİN EN ÇOK SORDUĞU ÇAĞDAŞ FELSEFİ AKIMLAR</h2>
+    <p>Bu yüzyılın akımları çok spesifiktir ve her birinin paragrafı çözen sihirli bir anahtar kavramı mevcuttur:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Felsefi Akım (Akım Adı)</th>
+                <th>Öne Çıkan Kurucusu ve Temel Felsefesi</th>
+                <th>ÖSYM Sorularını Çözen Anahtar Kelimeler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Fenomenoloji</b><br>(Öz Bilimi)</td>
+                <td><b>Edmund Husserl</b>. Nesnelerin duyu organlarıyla algılanan dış özelliklerini değil, o nesneyi o nesne yapan **ÖZÜNÜ** (öz niteliğini) kavramayı hedefler.</td>
+                <td>**Öz, Fenomen, Paranteze Alma (Epokhe)**. (Nesneye ait tüm ön yargıları, renk, şekil gibi özellikleri paranteze alıp geride kalan saf öze ulaşma).</td>
+            </tr>
+            <tr>
+                <td><b>Hermeneutik</b><br>(Yorumlama Bilgisi)</td>
+                <td><b>Dilthey</b> ve <b>Gadamer</b>. Bir metni, tarihi olayı veya insan davranışını anlamak için, o eserin üretildiği **tarihsel ve kültürel bağlamı** içinde yorumlamak gerekir.</td>
+                <td>**Yorumlama, Anlama, Tarihsel Bağlam, Ön Anlamalar**. (İnsan doğa gibi açıklanamaz, ancak anlamlandırılır).</td>
+            </tr>
+            <tr>
+                <td><b>Varoluşçuluk</b><br>(Eksistansiyalizm)</td>
+                <td><b>Jean-Paul Sartre</b>. İnsanın dışındaki tüm varlıkların özü önceden bellidir. Ancak insan dünyaya bomboş gelir; kendi kararlarıyla kendi özünü kendi yaratır.</td>
+                <td><b>"Varoluş özden önce gelir"</b>, **Özgürlük, Sorumluluk, Sancı, Seçim, Yapay Varlık**. (İnsan ne olmayı seçerse odur).</td>
+            </tr>
+            <tr>
+                <td><b>Mantıksal Pozitivizm</b><br>(Analitik Felsefe)</td>
+                <td><b>Wittgenstein</b> ve Reichenbach (Viyana Çevresi). Metafiziksel tüm kavramlar (tanrı, ruh, ruh) anlamsızdır. Felsefenin görevi **dil çözümlemesi (mantıksal analiz)** yapmaktır.</td>
+                <td>**Dil Analizleri, Doğrulanabilirlik, Anlamlılık, Metafizik Reddi**. Formülü: <i>"Dilimin sınırları, dünyamın sınırlarıdır."</i></td>
+            </tr>
+            <tr>
+                <td><b>Yeni Ontoloji</b></td>
+                <td><b>Nicolai Hartmann</b>. Varlığı parçalamadan, tüm katmanlarıyla (inorganik, organik, ruhsal, tinsel) deneysel ve bilimsel olarak inceleyen çağdaş varlık felsefesidir.</td>
+                <td>**Varlık Katmanları, Kritizim eleştirisi, Gerçek Varlık**. Metafiziğe sapmadan varlığı bütünüyle ele alır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN TUZAK KURAR — SARTRE'IN ÖZGÜRLÜK TRAJEDİSİ:</strong>
+        <br>Varoluşçuluğa göre insan tamamen **özgürlüğe mahkûmdur**. Kader diye bir şey yoktur. İnsan kararlarını kendi verir ve bu kararların getirdiği tüm **sorumluluğu** tek başına sırtlamak zorundadır. Bu durum insanda varoluşsal bir **sancı и bunaltı** doğurur. "Beni çevre belirledi" demek Sartre'a göre kötü niyettir.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Edmund Husserl'e göre, bir nesnenin hakikatine (özüne) ulaşmak istiyorsak; o nesneye dair kulaktan dolma bilgileri, toplumsal ön yargıları, nesnenin rengi, ağırlığı veya şekli gibi duyu organlarına hitap eden geçici nitelikleri bir kenara bırakmalıyız. Ancak bu geçici nitelikleri geçici olarak yok saydığımızda, o nesneyi zihnimizde "saf özüyle" kavrayabiliriz. 
+        <br>Husserl'in fenomenoloji akımında saf öze ulaşmak için kullandığı bu **"ön yargıları и nesnenin niteliklerini askıya alma / yok sayma" yöntemine** ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Kartezyen Şüphe</li>
+            <li>B) Paranteze Alma (Epokhe)</li>
+            <li>C) Mantıksal Dil Analizi</li>
+            <li>D) Tarihsel Yorumlama</li>
+            <li>E) Diyalektik Çatışма</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Fenomenolojinin o en ünlü metodolojik kavramını deşifre edelim. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Descartes'ın şüphesi (A) rasyonel kesinliğe gitmek içindir. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Husserl'in nesneyi çevreleyen tüm arızi, geçici nitelikleri (renk, biçim, toplumsal kabuller) zihinsel olarak dışarıda bırakıp saf varlığın özünü çıplak bırakması işlemine felsefede <b>Paranteze Alma (Epokhe)</b> yöntemi denir. Paranteze alınan şey yok edilmez, sadece özün görünmesini engellemesin diye askıya alınır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 20. yüzyıl felsefesinde Jean-Paul Sartre tarafından savunulan Varoluşçuluk (Eksistansiyalizm) akımına göre; bir masa veya bir sandalye üretilmeden önce marangozun zihninde onun planı, yani "özü" bellidir (Öz varoluştan önce gelir). Ancak insan için bu kural tam tersidir. İnsan önce dünyaya fırlatılır, var olur ve daha sonra kendi kararlarıyla, seçimleriyle nasıl bir insan olacağını belirleyerek kendi özünü kendi inşa eder. 
+        <br>Buna göre varoluşçuluğun **temel felsefi mottosu / çıkış ilkesi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) "Düşünüyorum, öyleyse varım."</li>
+            <li>B) "Denaysiz kavramlar boş, kavramsız deneyler kördür."</li>
+            <li>C) "Varoluş, özden önce gelir."</li>
+            <li>D) "Dilimin sınırları, dünyamın sınırlarıdır."</li>
+            <li>E) "Aynı nehirde iki kez yıkanılmaz."</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Varoluşçu felsefenin ontolojik bayrak cümlesini bulalım. Paragrafta masanın özünün (amacının) üretiminden önce geldiği, insanın ise tam aksine önce var olup sonra özünü yarattığı açıkça vurgulanmaktadır.
+            <br>• Sartre'ın bu felsefi devrimine <b>"Varoluş, özden önce gelir"</b> ilkesi denir. İnsan doğuştan bir kadere veya sabit bir öze (katil, kahraman, hırsız olarak) sahip değildir. Özgür seçimleriyle kendini ne yaparsa odur. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Viyana Çevresi filozofları ve Ludwig Wittgenstein'a göre; "Ruh", "Tanrı", "Ölümden sonraki hayat" gibi kavramlar duyu organlarıyla denetlenemeyen, laboratuvarda doğrulanamayan metafiziksel ve anlamsız önermelerdir. Felsefe bu tarz boş konularla uğraşmayı bırakmalı; bilimin kullandığı dili, kavramları ve sembolleri mantıksal kurallarla analiz etmelidir. Çünkü çözülemeyen felsefi sorunların temel nedeni dilin yanlış kullanılmasıdır. 
+        <br>Wittgenstein'ın öncüsü olduğu, felsefeyi tamamen **dil çözümlemelerine** indirgeyen bu çağdaş akım hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hermeneutik</li>
+            <li>B) Fenomenoloji</li>
+            <li>C) Yeni Ontoloji</li>
+            <li>D) Mantıksal Pozitivizm (Analitik Felsefe)</li>
+            <li>E) Pragmatizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraftaki o radikal anahtar kelimeleri süzüyoruz: "Metafiziğin anlamsız bulunarak reddedilmesi", "Viyana Çevresi", "Doğrulanabilirlik ilkesi" ve **"Felsefenin görevinin dil analizi olması"**.
+            <br>• Bu keskin kriterler tamamen <b>Mantıksal Pozitivizm (Analitik Felsefe)</b> akımına aittir. Onlara göre dili temizlersek felsefi problemler de buharlaşacaktır. Doğru şık D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Filozof Gadamer'e göre; bir sanat eserini veya tarihi bir metni anlamak, sadece o metindeki kelimeleri okumak demek değildir. Gerçek bir "anlama" eylemi, metni yazan yazarın yaşadığı dönemin ruhunu, kültürünü, inançlarını ve tarihsel bağlamını kavramakla mümkündür. İnsan doğayı formüllerle açıklar, ancak kültürel eserleri ve tarihi ancak içsel olarak anlamlandırıp yorumlayabilir. 
+        <br>Gadamer'in felsefenin merkezine yerleştirdiği bu **"Metin yorumlama ve tarihsel anlama bilimi"** akımı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Hermeneutik</li>
+            <li>B) Eksistansiyalizm</li>
+            <li>C) Kritisizm</li>
+            <li>D) Nominalizm</li>
+            <li>E) Rasyonalizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraftaki çağdaş akım şifresini yakalayalım: "Gadamer ve Dilthey isimleri", "Metin yorumlama", "Tarihsel bağlam" ve **"Anlama"** kavramı.
+            <br>• Kökeni antik çağda tanrıların mesajını insanlara yorumlayan elçi Hermes'e dayanan, 20. yüzyılda ise dev bir felsefi metodolojiye dönüşen bu <b>Yorumlama Bilgisi akımına Hermeneutik</b> adı verilir. Doğru cevap A şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 20. yüzyıl felsefesinde Nicolai Hartmann, geçmiş dönem filozoflarının varlığı sadece akla (idealizm) veya sadece maddeye (materyalizm) indirgeyerek parçalamasını eleştirmiştir. Ona göre varlık, inorganikten (cansız maddeden) başlayarak bitki, hayvan, insan ruhu ve en üstte tinsel (kültürel/düşünsel) değerlere kadar uzanan hiyerarşik katmanlardan oluşur ve felsefe bu katmanları bilimsel verilere dayanarak bir bütün olarak incelemelidir. 
+        <br>Hartmann'ın varlığı bu katmanlı yapısıyla ele aldığı **çağdaş felsefi yaklaşım** hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Mantıksal Pozitivizm</li>
+            <li>B) Fenomenoloji</li>
+            <li>C) Yeni Ontoloji</li>
+            <li>D) Hümanizm</li>
+            <li>E) Skolastik Düşünce</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Çağdaş varlık felsefesinin o en sistemli ismini ve metodunu netleştirelim: "Nicolai Hartmann", "Varlığın indirgenmesine karşı çıkılması" ve o meşhur **"Varlık Katmanları teorisi"**.
+            <br>• Hartmann'ın rasyonel ve deneysel temellere dayanarak varlığı yeniden felsefenin merkezine taşıdığı bu çağdaş akım <b>Yeni Ontoloji</b>'dir. Varlığı inorganik, organik, ruhsal ve tinsel olmak üzere 4 ana katmanda inceler. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

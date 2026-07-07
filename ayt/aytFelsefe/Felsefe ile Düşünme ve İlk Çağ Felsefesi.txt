@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Felsefe - Modül 1: Felsefe ile Düşünme ve İlk Çağ Felsefesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fcfcfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fcfcfd; }
+        .header-banner { background: linear-gradient(135deg, #311b92, #4a148c); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e1bee7; font-style: italic; }
+        h2 { color: #311b92; font-size: 16pt; border-left: 6px solid #7c4dff; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #4a148c; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f3e5f5; border: 1px dashed #ab47bc; border-left: 5px solid #8e24aa; padding: 15px; margin: 18px 0; border-radius: 4px; color: #4a148c; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #311b92; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #311b92; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #311b92; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FELSEFE - MODÜL 1: FELSEFEYLE DÜŞÜNME & İLK ÇAĞ FELSEFESİ</h1>
+        <p>"Bilgelik Sevgisi: Arkhe Tartışmaları, Sokratik İroni, Platon'un İdeaları ve Aristoteles'in Ölçülülük Akılı"</p>
+    </div>
+
+    <h2>1. FELSEFİ DÜŞÜNCENİN AYIRT EDİCİ NİTELİKLERİ</h2>
+    <p>Felsefe (Philosophia), Yunanca "philia" (sevgi) ve "sophia" (bilgelik) kelimelerinin birleşmesiyle oluşan <b>bilgelik sevgisi</b> veya bilme arayışıdır. Felsefi düşünceyi diğer zihinsel süreçlerden ayıran temel özellikler ÖSYM'nin her yıl paragraf sorularında yokladığı dinamiklerdir:</p>
+    <ul>
+        <li><b>Sorgulayıcı ve Refleksif Olma:</b> Felsefe sadece dış dünyaya bakmaz; **düşünce üzerine düşünmedir** (refleksif). Cevaplardan çok, soruların kendisi önemlidir.</li>
+        <li><b>Rasyonel ve Tutarlı Olma:</b> Akla ve mantık ilkelerine dayanır. İçinde çelişki barındırmaz, argümanları kendi içinde uyumludur.</li>
+        <li><b>Evrensel ve Kümülatif (Yığılan) Olma:</b> Felsefe bilim gibi ilerlemez, yığılarak (kümülatif) büyür. Platon'un 2500 yıl önceki sorusu bugün hala felsefenin masasındadır. Konuları tüm insanlığı ilgilendirir.</li>
+    </ul>
+
+    <h2>2. MÖ 6. YÜZYIL - MS 2. YÜZYIL FELSEFESİNİN ANA AKSI</h2>
+    <p>Felsefe, MÖ 6. yüzyılda İyonya (Aydın/Milet) kıyılarında doğmuştur. Mitolojik (masalsı/dini) açıklamaların yerine, evreni yine evrenin içindeki somut maddelerle açıklama (Logos/Akıl) çabası felsefeyi başlatmıştır. Dönem iki ana evrede incelenir:</p>
+
+    <h3>A) Doğa Felsefesi ve "Arkhe" Problemi (İlk Neden)</h3>
+    <p>İlk filozoflar tamamen dış dünyaya odaklanmış ve *"Evrenin ilk ana maddesi, varlığın kökeni, ilk başlangıç nedir?"* sorusunun peşine düşmüşlerdir. Bu ilk maddeye <b>Arkhe</b> denir:</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Filozof Adı</th>
+                <th>Savunduğu "Arkhe" (İlk Ana Madde)</th>
+                <th>ÖSYM Odaklı Felsefi Akıl Yürütme Şifresi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Thales</b></td>
+                <td><b>SU</b> (Hydor)</td>
+                <td>**Felsefenin kurucusu/ilk filozof kabul edilir.** Her şeyin canlı kalabilmesi için neme ve suya ihtiyacı olduğunu gözlemlemiştir.</td>
+            </tr>
+            <tr>
+                <td><b>Anaximandros</b></td>
+                <td><b>APEİRON</b> (Sonsuzluk/Belirsizlik)</td>
+                <td>Su veya ateş gibi sınırlı bir maddenin evreni açıklamaya yetmeyeceğini, arkhenin soyut ve **sınırlandırılamaz** bir sonsuzluk olması gerektiğini savunmuştur.</td>
+            </tr>
+            <tr>
+                <td><b>Herakleitos</b></td>
+                <td><b>ATEŞ</b> ve <b>DEĞİŞİM</b></td>
+                <td>Evrende her şeyin bir çatışma ve değişim içinde olduğunu savunur. **"Aynı nehirde iki kez yıkanılmaz"** sözüyle statik varlığı reddeder; oluş felsefesini kurmuştur.</td>
+            </tr>
+            <tr>
+                <td><b>Demokritos</b></td>
+                <td><b>ATOM</b></td>
+                <td>Varlığın bölünemez en küçük maddi parçacıklardan (atomlardan) oluştuğunu savunarak ilk **Materyalist (maddeci)** felsefeyi kurmuştur.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>B) İnsana Yönelen Felsefe: Sofistler ve Sokrates</h3>
+    <p>MÖ 5. yüzyılda felsefenin yönü doğadan **insana, bilgiye ve ahlaka** kaymıştır. 
+    <br>&bull; <b>Sofistler (Protagoras, Gorgias):</b> Gezgin felsefe öğretmenleridir. **"İnsan her şeyin ölçüsüdür"** diyerek bilginin ve ahlakın kişiden kişiye değiştiğini, mutlak/ortak bir doğrunun olamayacağını (**Rölativizm/Görecelik**) savunmuşlardır.
+    <br>&bull; <b>Sokrates:</b> Sofistlerin göreceliğine savaş açmıştır. Ahlakın ve bilginin mutlak olduğunu, herkes için ortak doğruların bulunduğunu savunur. İnsanın aklında doğruların doğuştan var olduğunu iddia eder. Ünlü **Sokratik Yöntem (Maiotik/Doğurtma)** iki aşamalıdır: Önce karşısındakinin bilmediğini yüzüne vurur (<i>İroni</i>), sonra sorular sorarak zihnindeki saklı bilgileri açığa çıkarır (<i>Doğurtma</i>).</p>
+
+    <h2>3. SİSTEMCİ FILOZOFLAR: PLATON VE ARİSTOTELES</h2>
+    
+    <div class="memory-box">
+        <strong>👑 PLATON (Eflatun) — İDEALAR KURAMI:</strong>
+        <br>Felsefe tarihinin ilk büyük sistemci filozofudur. Evreni ikiye ayırır:
+        <br>1. <b>Nesneler (Duyular) Evreni:</b> İçinde yaşadığımız, gözümüzle gördüğümüz evrendir. Sürekli değişir, aldatıcıdır, birer gölgeden ibarettir (**Kopyadır**).
+        <br>2. <b>İdealar Evreni:</b> Sadece akılla kavranabilen, değişmeyen, ezeli ve ebedi olan **gerçek evrendir**. En tepede <i>"İyi İdeası"</i> bulunur. Gerçek bilgi ancak ideaların bilgisidir (**Episteme**). Bilgi hatırlamaktır (Anamnesis).
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 ARİSTOTELES — MADDE VE FORM KURAMI:</strong>
+        <br>Platon'un öğrencisidir ancak onun iki evren ayrımına karşı çıkmıştır. Ona göre idealar nesnelerin dışında değil, bizzat **içindedir**. Varlık, madde ve formun (özün) birleşmesiyle oluşur. (Örn: Mermer maddedir, heykeltıraşın ona verdiği şekil formdur).
+        <br><b>💡 Ahlak Felsefesi (Altın Orta):</b> Aristoteles'e göre mutluluğun ve ahlakın sırrı **Ölçülülük**tür. İnsan her türlü aşırılıktan kaçınmalı, aklını kullanarak "Altın Orta"yı bulmalıdır. (Örn: Korkaklık ile delice atılganlığın ortası **Cesaret**tir).
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Felsefi düşünce, sadece dış dünyadaki nesneleri veya toplumsal olayları incelemekle kalmaz; aynı zamanda insanın kendi ürettiği bilgiler, kavramlar ve iddialar üzerine de dönüp yeniden düşünmesini sağlar. Yani felsefe, "düşünme üzerine düşünme" etkinliğidir. 
+        <br>Yukarıdaki paragrafta felsefi düşüncenin **en ayırt edici, en karakteristik özelliklerinden hangisi** vurgulanmaktadır?</div>
+        <ul class="options-list">
+            <li>A) Kümülatif (Yığılan) olması</li>
+            <li>B) Refleksif olması</li>
+            <li>C) Evrensel olması</li>
+            <li>D) Pratik yaşama dönük olması</li>
+            <li>E) Dogmatik olması</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Felsefi düşünce terimlerinin felsefe felsefesi anlamını sorgulayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kümülatiflik bilgilerin birikmesidir. Evrensellik tüm insanlığı ilgilendirmesidir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak felsefenin kendi içine dönmesi, zihnin kendi ürettiği düşünceyi yeniden masaya yatırıp sorgulaması sürecine felsefe literatüründe tam anlamıyla <b>Refleksif Olma (Refleksiyon)</b> adı verilir. Bir ayna gibi düşüncenin kendine dönmesidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> İlk Çağ doğa felsefesinde filozoflar, "Evrenin ilk başlangıcı, her şeyin kendisinden türediği o ilk ana madde (Arkhe) nedir?" sorusuna yanıt aramışlardır. Filozof Herakleitos ise evrendeki hiçbir şeyin sabit kalmadığını, her şeyin sürekli bir akış, çatışma ve zıtların birliği içinde dönüştüğünü savunarak arkheyi "Ateş" ve "Değişim" olarak ilan etmiştir. 
+        <br>Buna göre Herakleitos, varlığın statik (durağan) yapısını reddeden **hangi ünlü felsefi akımın / yaklaşımın** İlk Çağ'daki öncüsüdür?</div>
+        <ul class="options-list">
+            <li>A) Varlık nümendir diyen İdealizmin</li>
+            <li>B) Varlığı yok sayan Nihilizmin</li>
+            <li>C) Varlığı "Oluş" (Değişim) olarak gören felsefi yaklaşımın</li>
+            <li>D) Varlığı sadece madde sayan katı Materyalizmin</li>
+            <li>E) Fenomenolojinin</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Ontoloji (Varlık felsefesi) yaklaşımlarını eşleştirelim. Herakleitos'un felsefesinin kalbi **Değişim**dir. Ona göre "Değişmeyen tek şey değişimin kendisidir." 
+            <br>• Varlığı durağan bir nesne olarak değil, sürekli akan, dönüşen bir süreç, yani bir **Oluş** olarak kabul eder. "Aynı nehirde iki kez yıkanılmaz" aklı varlığın durağanlığını parçalar. Bu yüzden Herakleitos <b>Varlığı Oluş Olarak Kabul Eden Yaklaşım</b>'ın babasıdır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Gezgin öğretmenler olan Sofistler, bilginin ve ahlak kurallarının insandan insana, yaşanılan şehirden kültüre göre değiştiğini; bu yüzden herkes için geçerli mutlak, nesnel ve ortak bir doğrunun olamayacağını (Rölativizm) savunmuşlardır. Filozof Sokrates ise Sofistlerin bu iddiasına şiddetle karşı çıkmış, ahlaki doğruların ve bilgilerin insan zihninde doğuştan mutlak olarak var olduğunu iddia etmiştir. 
+        <br>Sokrates'in, insan zihninde saklı olan bu doğruları soru-cevap yöntemiyle adeta bir ebe gibi açığa çıkardığı **o ünlü felsefi yönteme** ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Kartezyen Şüphe Yöntemi</li>
+            <li>B) Diyalektik Materyalizm</li>
+            <li>C) Sokratik Yöntem (Maiotik / Doğurtma)</li>
+            <li>D) Fenomenolojik İndirgeme</li>
+            <li>E) Hermeneutik Yorumlama</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sokrates'in epistemolojik yöntem şifrelerini çözelim: "Ahlakın mutlaklığı", "bilgilerin zihinde doğuştan var olması" ve "sorularla bilgiyi ebe gibi doğurtma".
+            <br>• Annesinin ebe olmasından esinlenen Sokrates, kimseye yeni bir şey öğretmediğini, sadece zihinlerde uyuyan bilgileri sorular sorarak uyandırdığını söyler. Bu akıl yürütme tekniğine felsefede <b>Sokratik Yöntem (Maiotik / Doğurtma)</b> adı verilir. İroni ve Maiotik olarak iki evrelidir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Filozof Platon, felsefe tarihini derinden sarsan ünlü "Mağara Metaforu"nda; insanların duyularıyla algıladıkları bu maddi dünyayı mağara duvarına yansıyan gölgelere benzetir. Ona göre gerçek varlıklar, mağaranın dışındaki güneşin aydınlattığı, sadece akılla kavranabilen ezeli ve ebedi özlerdir. 
+        <br>Platon'un varlığı akılla kavranan bu soyut özlere bağladığı, felsefe tarihinin ilk büyük sistemli teorisi olan bu kuramın adı nedir?</div>
+        <ul class="options-list">
+            <li>A) Madde ve Form Kuramı</li>
+            <li>B) İdealar Kuramı</li>
+            <li>C) Altın Orta Felsefesi</li>
+            <li>D) Pragmatizm (Faydacılık)</li>
+            <li>E) Empirizm (Deneycilik)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Platon sisteminin ontolojik ve epistemolojik mutfağını sorgulayalım: "Mağara benzetmesi", "gölgeler dünyası (nesneler)" ve "akılla kavranan gerçek dünya".
+            <br>• Platon'un tüm felsefesini üzerine inşa ettiği bu devasa sisteme <b>İdealar Kuramı (Teorisi)</b> denir. Platon, duyular dünyasını kopya, idealar dünyasını ise tek gerçek asıl varlık alanı kabul ederek felsefe tarihinin en büyük **İdealist** filozofu olmuştur. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Aristoteles'e göre ahlaki eylemin amacı mutluluktur, mutluluğun yolu ise akla uygun ölçülü bir hayat yaşamaktan geçer. İnsan, kararlarında ve davranışlarında her türlü aşırılıktan (eksiklikten veya fazlalıktan) uzak durmalı, iradesini dengelemelidir. Örneğin; korkaklık bir uçtaki eksiklik, delice atılganlık ise diğer uçtaki fazlalıktır. Erdemli insan ise bu iki ucun ortasındaki cesareti seçmelidir. 
+        <br>Aristoteles'in ahlak felsefesinde erdemin ve ölçülülüğün ölçütü kabul ettiği bu ünlü kavrama ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) İdea</li>
+            <li>B) Apeiron</li>
+            <li>C) Altın Orta (Ölçülülük)</li>
+            <li>D) Tabula Rasa</li>
+            <li>E) Epokhe</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin Aristoteles ahlak metinlerinde döne döne sorduğu o meşhur terimi netleştirelim. Paragraftaki "korkaklık ile delice cüretin ortasındaki cesaret" örneği tam bir kavram turnusolüdür.
+            <br>• Aristoteles, insan davranışlarında dengeyi ve ölçüyü simgeleyen bu duruşa <b>Altın Orta</b> adını verir. Altın orta, matematiksel bir orta nokta değil, aklın rehberliğinde aşırılıklardan kaçınma sanatıdır. Doğru şık C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

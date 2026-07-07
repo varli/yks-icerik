@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Felsefe - Modül 2: Orta Çağ Hristiyan ve İslam Felsefesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fcfcfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fcfcfd; }
+        .header-banner { background: linear-gradient(135deg, #1a237e, #311b92); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #c5cae9; font-style: italic; }
+        h2 { color: #1a237e; font-size: 16pt; border-left: 6px solid #3f51b5; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #311b92; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #ede7f6; border: 1px dashed #7e57c2; border-left: 5px solid #512da8; padding: 15px; margin: 18px 0; border-radius: 4px; color: #311b92; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1a237e; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1a237e; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1a237e; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FELSEFE - MODÜL 2: MS 2 - MS 15. YÜZYIL FELSEFESİ</h1>
+        <p>"İnanç ve Akıl Köprüsü: Skolastik Dogmatizm, Tümeller Tartışması ve İslam Felsefesinin Altın Çağı"</p>
+    </div>
+
+    <h2>1. ORTA ÇAĞ HRİSTİYAN FELSEFESİNİN GENEL YAPISI VE AYRILMAZ KARAKTERİ</h2>
+    <p>Bu dönemde felsefe, bağımsız bir sorgulama alanı olmaktan çıkıp tamamen **Hristiyanlık dininin dogmalarını savunmak** amacıyla kullanılan bir araç (Ancilla Theologiae - Teolojinin Hizmetçisi) haline gelmiştir. Akıl, inancın hizmetindedir. Dönem iki ana evrede incelenir:</p>
+    <ul>
+        <li><b>Patristik Dönem (MS 2. yy - MS 8. yy):</b> Kilise Babaları dönemidir. Başta <b>Augustinus</b> olmak üzere, filozoflar Hristiyanlığa yönelik eleştirileri çürütmek için Platon'un İdealar felsefesini dine uyarlamışlardır. "Anlamak için inanıyorum" ilkesi hakimdir.</li>
+        <li><b>Skolastik Dönem (MS 8. yy - MS 15. yy):</b> Okul felsefesi demektir. Aristoteles mantığı Hristiyanlık dogmalarını kanıtlamak için üniversitelerde (Bologna, Paris) zorunlu kılınmıştır. En ünlü temsilcisi <b>Aquinalı Thomas</b>'tır.</li>
+    </ul>
+
+    <h2>2. ÖSYM'NİN EN SEVDİĞİ SINAV BAŞLIĞI: TÜMELLER PROBLEMİ</h2>
+    <p>Orta Çağ felsefesinin en büyük mantık ve varlık tartışmasıdır: *"Genel kavramlar (Tümeller: İnsanlık, ağaçlık, iyilik) gerçekte var mıdır, yoksa sadece zihinsel birer isimden mi ibarettir?"* ÖSYM bu üç akımı döne döne sorar:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Felsefi Akım / Yaklaşım</th>
+                <th>Tümeller Problemi Karşısındaki Duruşu</th>
+                <th>ÖSYM Odaklı Tanım ve Temsilci Şifresi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Kavram Realizmi</b><br>(Gerçekçilik)</td>
+                <td>Tümeller (Genel kavramlar), tek tek nesnelerden bağımsız olarak **Tanrı'nın zihninde gerçek bir varlığa sahiptir**. Nesneler onların birer gölgesidir. (Platon mirası).</td>
+                <td>**Augustinus ve Anselmus**. Tümeller nesnelerin **öncesindedir**.</td>
+            </tr>
+            <tr>
+                <td><b>Konseptualizm</b><br>(Kavramsalcılık)</td>
+                <td>Tümeller ayrı bir dünyada var değildir, ancak soyut birer isim de değildir. Tümeller, tek tek nesnelerin **bizzat içinde** yer alan özlerdir; akıl onları nesnelerden süzerek çıkarır. (Aristoteles mirası).</td>
+                <td>**Aquinalı Thomas**. Tümeller tek tek nesnelerin **içindedir**.</td>
+            </tr>
+            <tr>
+                <td><b>Nominalizm</b><br>(Adcılık)</td>
+                <td>Tümellerin nesnel veya zihinsel hiçbir gerçekliği yoktur. Gerçek olan sadece tek tek somut nesnelerdir (Bu kedi, şu ağaç). Tümeller ise sadece insan benzer nesnelere verdiği **boş birer isimden (addan)** ibarettir.</td>
+                <td>**Ockhamlı William**. Tümeller nesnelerin **sonrasındadır**.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. İSLAM FELSEFESİNİN ALTIN ÇAĞI VE DEHALARI</h2>
+    <p>Hristiyan dünyası karanlık Skolastik baskı altındayken, İslam dünyasında Antik Yunan felsefesi (Aristo ve Platon) Arapçaya çevrilmiş, **akıl ile inanç uzlaştırılmaya çalışılmış** ve muazzam özgün felsefi sistemler kurulmuştur. En kritik dehalar şunlardır:</p>
+
+    <div class="memory-box">
+        <strong>👑 İBN SİNA (Avicenna) — VARLIK ANALİZİ:</strong>
+        <br>Aristoteles felsefesi ile İslam inancını sentezlemiştir (Meşşai ekolü). Varlığı üçe ayırır:
+        <br>1. <b>Zorunlu Varlık (Vacibü'l-Vücud):</b> Var olmak için başka hiçbir şeye ihtiyacı olmayan, evrenin yaratıcısı olan tek varlıktır (Tanrı).
+        <br>2. <b>Mümkün Varlık (Mümkinü'l-Vücud):</b> Var olmak için Zorunlu Varlık'ın yaratmasına muhtaç olan, doğup ölen tüm maddi evrendir.
+        <br>3. <b>Mümkün Olmayan Varlık:</b> Mantıken varlığı imkansız olanlardır.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 GAZALİ — İNTUİSYONİZM (Sezgicilik):</strong>
+        <br>Aklın yetersiz olduğunu, mutlak inanç ve Tanrı bilgisine sadece rasyonel mantıkla ulaşılamayacağını savunmuştur. Ona göre akıl aldatıcıdır; gerçeğin kapısını ancak Tanrı'nın insanın kalbine akıttığı **"Kalp Gözü" (Sezgi / Nur)** açabilir. Felsefecileri (özellikle Aristo taklitçilerini) eleştirdiği ünlü eseri <i>Tehâfütü'l-Felâsife</i> (Filozofların Tutarsızlığı)'dir.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 İBN RÜŞD (Averroes) — AKILCILIĞIN ZİRVESİ:</strong>
+        <br>Endülüs'te yaşamış, Aristoteles'in dünyadaki en büyük yorumcusu (Şarih) kabul edilmiştir. Gazali'nin felsefeye vurduğu darbeye karşı <i>Tehâfütü't-Tehâfüt</i> (Tutarsızlığın Tutarsızlığı) eserini yazmıştır. **Din ile felsefenin aynı kaynaktan beslenen iki kardeş olduğunu**, ikisinin de amacının hakikate ulaşmak olduğunu, aklın vahiy ile asla çelişmeyeceğini savunarak Batı aydınlanmasını (Averroizm) tetiklemiştir.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Orta Çağ Hristiyan felsefesinde filozoflar, "İnsan" kavramının, tek tek yaşayan somut bireylerden (Ahmet, Mehmet) bağımsız olarak, Tanrı'nın zihninde ezeli ve ebedi bir gerçeklik olarak var olduğunu savunmuşlardır. Onlara göre tek tek insanlar, bu mutlak "İnsanlık" tümünün yeryüzündeki geçici birer yansımasından ibarettir. 
+        <br>Tümeller probleminde, genel kavramların nesnelerin dışında ve öncesinde gerçek bir varlığa sahip olduğunu savunan bu **felsefi yaklaşım** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Nominalizm (Adcılık)</li>
+            <li>B) Kavram Realizmi (Gerçekçilik)</li>
+            <li>C) Konseptualizm (Kavramsalcılık)</li>
+            <li>D) Pragmatizm (Faydacılık)</li>
+            <li>E) Nihilizm (Hiçcilik)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tümeller tartışmasının kavram kalıplarını kontrol edelim: Genel kavramların (tümellerin) nesnelerden bağımsız, aşkın bir gerçekliği olduğunu iddia eden akım Platon'un idealar felsefesinden beslenen <b>Kavram Realizmi (Gerçekçilik)</b>'dir. Nesnelerin öncesinde var olan tümel kavram esastır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Filozof Ockhamlı William'a göre, doğada "İnsanlık" veya "Ağaçlık" diye soyut, mistik bir genel varlık yoktur; gerçek olan sadece şu gördüğümüz somut ağaç veya bu yanımızdaki insandır. Genel kavramlar ise insanoğlunun benzer nesneleri gruplandırmak için onlara yakıştırdığı **boş birer sesten ve isimden (addan)** ibarettir. 
+        <br>Ockhamlı William'ın tümellerin gerçekliğini reddeden bu ünlü **radikal felsefi duruşuna** ne ad verilir?</div>
+        <ul class="options-list">
+            <li>A) Konseptualizm</li>
+            <li>B) Kavram Realizmi</li>
+            <li>C) Nominalizm (Adcılık)</li>
+            <li>D) Rasyonalizm</li>
+            <li>E) Fenomenoloji</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kavramların dildeki karşılık analizini yapalım. Tümel kavramların nesnel hiçbir karşılığı olmadığını, onların sadece birer "isim" (Latince: Nomen) olduğunu savunan akım <b>Nominalizm (Adcılık)</b>'dir. Nominalizme göre tümel kavramlar nesnelerin sonrasındadır ve dildeki etiketlerdir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> İslam felsefesinin en büyük dehalarından olan İbn Sina, varlık felsefesinde (ontoloji) Aristoteles'ten de ileri giderek köklü bir üçlü sınıflandırma yapmıştır. Ona göre evrende var olmak için kendisinden başka hiçbir sebebe ihtiyacı olmayan, varlığı ezeli, ebedi ve mutlak olan tek bir kaynak vardır; o da evrenin yaratıcısıdır. 
+        <br>İbn Sina'nın Tanrı'yı tanımlamak için kullandığı bu **metafiziksel ontolojik terim** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Mümkün Varlık (Mümkinü'l-Vücud)</li>
+            <li>B) Zorunlu Varlık (Vacibü'l-Vücud)</li>
+            <li>C) İdea</li>
+            <li>D) Arkhe</li>
+            <li>E) Form</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İbn Sina varlık terminolojisini deşifre edelim. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Mümkün varlık sonradan yaratılan, ölümlü evrendir (A elenir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Var olması kaçınılmaz olan, yokluğu mantıken düşünülemeyen, varlığın ilk ve mutlak kaynağı olan Tanrı için İbn Sina <b>Vacibü'l-Vücud (Zorunlu Varlık)</b> terimini kullanmıştır. ÖSYM bu kavramsal ayrımı sormayı çok sever. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İslam düşünürü Gazali, rasyonel mantık ve felsefi akıl yürütmelerin insanı mutlak inanç hakikatine ulaştırmada yetersiz kalacağını iddia etmiştir. Ona göre duyu organları da akıl da insanı yanıltabilir; mutlak bilginin ve Tanrı sevgisinin ışığı insanın aklına değil, doğrudan kalbine doğar. İnsan ancak bu manevi algıyla gerçeği kavrar. 
+        <br>Gazali'nin bilgi felsefesinde (epistemoloji) aklı yetersiz görerek **"Kalp Gözü" ve manevi sezgiye** dayandırdığı bu yaklaşım felsefe literatüründe hangi akımla eşleşir?</div>
+        <ul class="options-list">
+            <li>A) Rasyonalizm (Akılcılık)</li>
+            <li>B) Empirizm (Deneycilik)</li>
+            <li>C) İntuisyonizm (Sezgicilik)</li>
+            <li>D) Pozitivizm (Olgucılık)</li>
+            <li>E) Kritisizm (Eleştiricilik)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Bilgi akımlarının felsefi karşılıklarını denetleyelim: Akılcılık Rasyonalizm, Deneycilik Empirizmdir.
+            <br>• Gazali'nin "Kalp Gözü" (Nur) olarak adlandırdığı, rasyonel kanıtlar olmadan gerçeğin doğrudan, aracısız ve içsel bir kavrayışla bilinebileceğini savunan yaklaşım felsefede <b>İntuisyonizm (Sezgicilik)</b> akımıdır (Batı dünyasındaki temsilcisi Henri Bergson'dur). Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Endülüs İslam coğrafyasında yetişen ve Aristoteles felsefesinin batı dünyasına taşınmasında en büyük rolü oynayan İbn Rüşd; Gazali'nin felsefeyi dinden sapma olarak gören eleştirilerine sert yanıtlar vermiştir. Ona göre akıl ile vahiy, din ile felsefe asla çelişmez; çünkü ikisi de aynı hakikat kaynağının iki farklı anlatım tarzıdır. 
+        <br>İbn Rüşd'ün bu duruşu, Orta Çağ felsefesinin **hangi temel problemine getirdiği özgün ve cesur bir uzlaştırma hamlesidir**?</div>
+        <ul class="options-list">
+            <li>A) Tümeller problemi</li>
+            <li>B) Kötülük problemi</li>
+            <li>C) Ruhun ölümsüzlüğü problemi</li>
+            <li>D) İnanç ve Akıl ilişkisi problemi</li>
+            <li>E) Varlığın niceliği problemi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İbn Rüşd felsefesinin ana aksını yorumlayalım: Din (Vahiy) inanç alanıdır, Felsefe (Logos) ise rasyonel akıl alanıdır. Orta Çağ boyunca bu ikisi birbiriyle savaşmıştır.
+            <br>• İbn Rüşd "Din ve felsefe sütkardeştir" diyerek, gerçek bir felsefi aklın hakiki imanla tam bir uyum içinde olacağını savunmuştur. Bu çaba, Orta Çağ'ın en büyük krizi olan <b>İnanç ve Akıl ilişkisi / uzlaşısı</b> problemine vurulan rasyonel bir mühürdür. Doğru şık D'dir.
+        </div>
+    </div>
+
+</body>
+</html>

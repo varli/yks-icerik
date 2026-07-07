@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Felsefe - Modül 3: Rönesans ve Aydınlanma Dönemi Felsefesi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fcfcfd;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #1e293b; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fcfcfd; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #701a75); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fdf4ff; font-style: italic; }
+        h2 { color: #1e3a8a; font-size: 16pt; border-left: 6px solid #a21caf; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #701a75; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fdf4ff; border: 1px dashed #e879f9; border-left: 5px solid #a21caf; padding: 15px; margin: 18px 0; border-radius: 4px; color: #701a75; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #1e3a8a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e3a8a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT FELSEFE - MODÜL 3: RÖNESANS VE AYDINLANMA FELSEFESİ</h1>
+        <p>"Aklın Egemenliği: Kartezyen Şüphe, Epistemoloji Savaşları ve Toplumsal Sözleşme Teorileri"</p>
+    </div>
+
+    <h2>1. 15 - 17. YÜZYIL FELSEFESİ: RÖNESANS VE BİLİMSEL DEVRİM</h2>
+    <p>Orta Çağ'ın teosantrik (Tanrı merkezli) yapısı yıkılarak yerini **Hümanizm** (İnsan merkezli) anlayışına bırakmıştır. Felsefe, dinin vesayetinden kurtulup bağımsızlaşmıştır. Kopernik, Galileo ve Newton'ın mekanik evren tasarımları doğaya bakışı değiştirmiş; doğa bilimsel metotla (**Gözlem ve Deney**) açıklanmaya başlanmıştır.</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN KESİN METİN SORUSU KURAR — KARTEZYEN FELSEFE:</strong>
+        <br>Filozof <b>René Descartes</b> tarafından kurulmuştur. Doğru bilgiye ulaşmak için her şeyden ama her şeyden (duyulardan, çevreden, kendi bedeninden bile) sistemli bir şekilde şüphe eder. Ancak şüphe ederken şüphe ettiğinden ve o anda düşünüyor olduğundan şüphe edemez.
+        <br><b>💡 Formülü:</b> *"Şüphe ediyorsam, öyleyse düşünüyorum; düşünüyorum, öyleyse varım!"* (<b>Cogito ergo sum</b>). Descartes'ta şüphe bir amaç değil, sarsılmaz doğru bilgiye ulaşmak için kullanılan güvenilir bir **ARAÇ**tır (Metodik Şüphe).
+    </div>
+
+    <h2>2. 18 - 19. YÜZYIL FELSEFESİ: AYDINLANMA ÇAĞI VE EPİSTEMOLOJİ SAVAŞLARI</h2>
+    <p>Bu yüzyıl felsefesinin ana teması **Akıl**dır. Immanuel Kant dönemi *"İnsanın kendi suçu ile düşmüş olduğu bir ergin olmama durumundan kurtulması"* olarak tanımlar. Dönemin en büyük fikri çatışması bilginin kaynağı üzerine yapılan epistemolojik hesaplaşmadır:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Felsefi Akım / Yaklaşım</th>
+                <th>Bilginin Kaynağına Dair Temel İddiası</th>
+                <th>ÖSYM Odaklı Anahtar Kavramlar ve Temsilciler</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Rasyonalizm</b><br>(Akılcılık)</td>
+                <td>Doğru ve kesin bilgiye ancak **Akıl** ile ulaşılabilir. Doğru bilgiler zihnimizde doğuştan (apriori) saklı olarak bulunur; duyular yanıltıcıdır.</td>
+                <td>**Descartes, Spinoza, Leibniz**. Anahtar kelime: *Doğuştan gelen akıl ilkeleri, mantık*.</td>
+            </tr>
+            <tr>
+                <td><b>Empirizm</b><br>(Deneycilik)</td>
+                <td>Zihinde doğuştan gelen hiçbir bilgi yoktur. Bilginin yegane kaynağı **Duyular, Deney ve Deneyimdir**. İnsan zihni doğuşta boş bir levhadır.</td>
+                <td>**John Locke, David Hume**. Anahtar kelime: <b>Tabula Rasa</b> (Boş Levha), duyum, deneyim.</td>
+            </tr>
+            <tr>
+                <td><b>Kritisizm</b><br>(Eleştiricilik)</td>
+                <td>Rasyonalizm ile Empirizmi muazzam bir sentezle birleştirmiştir. Bilgi ne sadece akılla ne de sadece deneyle olur; **ikisinin ortak ortaklığı şarttır**.</td>
+                <td>**Immanuel Kant**. Formülü: <i>"Denaysiz kavramlar boş, kavramsız deneyler kördür."</i> Bilgi deneyle başlar ama akılla işlenir.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>3. SİYASET FELSEFESİ: TOPLUMSAL SÖZLEŞME TEORİLERİ</h2>
+    <p>Aydınlanma döneminde devletin kaynağı ve meşruiyeti sorgulanmış, kilise hukukuna karşı laik **Toplumsal Sözleşme** fikri doğmuştur. Filozoflar insanların devlet kurulmadan önceki durumuna <i>Doğa Durumu</i> derler:</p>
+    <ul>
+        <li><b>Thomas Hobbes (Leviathan):</b> Doğa durumunda insanların bencil olduğunu ve birbirini öldürdüğünü savunur (**"İnsan insanın kurdudur"**). Can güvenliğini sağlamak için insanlar bir araya gelerek haklarını mutlak, sarsılmaz bir güce (Devlete/Krala) devreden bir sözleşme imzalamışlardır.</li>
+        <li><b>John Locke:</b> Hobbes'un aksine doğa durumunun barışçıl olduğunu ancak mülkiyet hakkını korumak için devlete ihtiyaç duyulduğunu savunur. Devleti yönetenlerin gücü sınırlı olmalıdır; **Kuvvetler Ayrılığı** ilkesini ilk kez ortaya atmıştır.</li>
+        <li><b>Jean-Jacques Rousseau:</b> Doğa durumunda insanın özgür ve mutlu olduğunu, özel mülkiyetin (toprağı çitle çevirmenin) eşitsizliği başlattığını söyler. İnsanlar özgürlüklerini korumak için toplumsal iradeyle (**Halk iradesi / Toplum Sözleşmesi**) devleti kurmuşlardır. Egemenlik halka aittir.</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Fransız filozof René Descartes, her şeyden kuşku duyarak başlattığı zihinsel sürecinde; kendi varlığından, dış dünyadan, hatta tanrıdan bile şüphe edebileceğini fark etmiştir. Ancak tam bu esnada şüphe edemeyeceği tek bir şey olduğunu keşfeder: O da şu an "kuşku duyuyor/şüphe ediyor" olduğudur. Şüphe etmek bir düşünme faaliyeti olduğuna göre, şüphe eden bir varlık olarak kendisinin var olması kaçınılmazdır. Buradan hareketle o ünlü *"Düşünüyorum, öyleyse varım"* sarsılmaz ilkesine ulaşır. 
+        <br>Buna göre Descartes'ın felsefi sisteminde kullandığı bu "şüphe" kavramı, aşağıdaki **seçeneklerden hangisini tam olarak doğrulamaktadır**?</div>
+        <ul class="options-list">
+            <li>A) Her türlü bilgiyi imkansız gören septik (nihilist) bir amaçtır.</li>
+            <li>B) Doğru bilgiye ulaşmak için sistemli bir şekilde uygulanan güvenilir bir **ARAÇ**tır (Metodik Şüphe).</li>
+            <li>C) Sadece duyusal algıların doğruluğunu kanıtlayan deneysel bir metottur.</li>
+            <li>D) Akıl ilkelerini tamamen reddeden empirist bir duruştur.</li>
+            <li>E) Doğanın mistik güçlerle açıklanmasıdır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Descartes felsefesinde şüphenin işlevsel rolünü analiz edelim. İlk Çağ şüphecileri (Sextus Empiricus veya Sofistler) her şeyden şüphe ederek bilginin imkansız olduğunu söyleyip süreci orada bırakmışlardı (Şüphe onlar için bir amaçtı).
+            <br>• Ancak Descartes, şüpheyi her türlü köhne dogmayı, yanlış bilgiyi ayıklamak ve üzerine sarsılmaz bir bina kurabileceği o ilk kesin doğruyu bulmak için bir merdiven, bir kaldıraç olarak kullanır. Yani onun şüphesi bir amaç değil, kesin bilgiye götüren muazzam bir <b>Araçtır (Metodik / Kartezyen Şüphe)</b>. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> İngiliz empirist filozof John Locke, rasyonalistlerin "insan zihninde evrensel matematik ilkeleri veya tanrı kavramı doğuştan apriori olarak saklıdır" iddiasına sert bir reaksiyon gösterir. Ona göre yeni doğan bir bebeğin zihni üzerinde hiçbir yazının, hiçbir fikrin bulunmadığı bomboş beyaz bir kağıttan veya temiz bir levhadan ibarettir. Zihin, yaşlandıkça duyular ve deneyimler vasıtasıyla bu levhayı bilgilerle doldurur. 
+        <br>John Locke'un empirizm akımının bayrağı haline gelen insan zihnine yönelik bu ünlü **metafiziksel/epistemolojik kavramı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Anamnesis (Hatırlama)</li>
+            <li>B) Tabula Rasa (Boş Levha)</li>
+            <li>C) Altın Orta</li>
+            <li>D) Leviathan</li>
+            <li>E) Cogito</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• John Locke'un bilgi felsefesi şifresini doğrudan eşleştirelim. Paragraftaki "yeni doğan bebeğin zihninin bomboş bir beyaz kağıt, temiz bir levha olması" ve bilginin sadece sonradan gelen deneyimlerle (aposteriori) oluşması iddiası tek bir kavramla mühürlenmiştir.
+            <br>• Bu terim Latince <b>Tabula Rasa (Boş Levha)</b> kavramıdır. Locke bu tezle doğuştan gelen bilgileri reddederek empirizmin (deneyciliğin) teorik altyapısını kurmuştur. Doğru şık B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Filozof Immanuel Kant, bilgi felsefesinde yüzyıllardır süren rasyonalizm (akılcılık) ve empirizm (deneycilik) kavgasını izlemiş ve ikisinin de tek başına haklı olamayacağını söylemiştir. Ona göre deney olmasa bilgiye ait malzemeler (duyumlar) eksik kalır; akıl olmasa bu malzemeleri işleyecek, kalıba dökecek formlar bulunamaz. Bu büyük sentezi ünlü *"Denaysiz kavramlar boş, kavramsız deneyler kördür"* sözüyle özetlemiştir. 
+        <br>Kant'ın hem aklı hem deneyi eleştirel bir süzgeçten geçirerek uzlaştırdığı bu ünlü **felsefi akımı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Pozitivizm (Olguculuk)</li>
+            <li>B) Pragmatizm (Faydacılık)</li>
+            <li>C) Kritisizm (Eleştiricilik)</li>
+            <li>D) Sezgicilik (İntuisyonizm)</li>
+            <li>E) Fenomenoloji</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kant felsefesinin epistemolojik kimliğini analiz edelim. Kant rasyonalizmi de empirizmi de masaya yatırıp "eleştirmiştir".
+            <br>• Bilginin oluşumunda hem dışarıdan gelen verileri (deneyi) hem de zihnin doğuştan getirdiği kategorileri (aklı) zorunlu kılan, bu iki zıt kutbu muazzam bir akılla birleştiren yaklaşıma felsefede <b>Kritisizm (Eleştiricilik)</b> denir. Doğru şık C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Siyaset felsefesinde Thomas Hobbes, devletin kurulmadığı o ilk ilkel dönem olan doğa durumunda insanların tamamen bencil, bencil ve arzularının esiri olduğunu savunur. Herkesin her şey üzerinde hakkı olduğunu iddia ettiği bu ortam, kaçınılmaz olarak bir kaos ve güvensizlik doğurur. Hobbes bu trajik durumu *"İnsan insanın kurdudur"* ve *"Herkesin herkesle savaşı"* sözleriyle tasvir eder. 
+        <br>Hobbes'a göre, insanların bu kanlı doğa durumundan kurtulmak ve can güvenliklerini garantiye almak için **attıkları o devrimsel, uzlaşmacı adım** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Sanayi devrimini başlatmak</li>
+            <li>B) Özel mülkiyet kavramını tamamen ortadan kaldırmak</li>
+            <li>C) Bir araya gelerek haklarını ve silah kullanma güçlerini ortak bir sözleşmeyle tek bir mutlak otoriteye (Devlete) devretmek (Toplumsal Sözleşme)</li>
+            <li>D) Savaşları sonsuza kadar yasaklamak</li>
+            <li>E) Dini liderlerin otoritesini kabul etmek</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Hobbes'un devlet teorisindeki çıkış kapısını deşifre edelim. "Herkesin herkesle savaştığı" o ölümcül ortamdan kurtulmanın tek bir rasyonel yolu vardır: Bireysel güç kullanmaktan vazgeçmek.
+            <br>• İnsanlar kendi canlarını koruması karşılığında, şiddet uygulama ve yönetme hakkını ortak bir rıza ile devasa bir güce (Leviathan/Devlet) bırakmışlardır. Bu kurucu sözleşmeye siyaset biliminde <b>Toplumsal Sözleşme</b> adı verilir. Hobbes'a göre devlet yapay, sözleşmeye dayalı bir mekanizmadır. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 18. yüzyıl Aydınlanma felsefesinde devletin gücünün tek bir elde (kralda veya mecliste) toplanmasının mutlak bir diktatörlük ve tiranlık doğuracağını öngören İngiliz filozof John Locke; yasaları yapan güç ile (Yasama), o yasaları uygulayan gücün (Yürütme) kesinlikle birbirinden ayrılması gerektiğini savunmuştur. 
+        <br>John Locke'un modern demokratik devletlerin ve anayasaların temel iskeleti haline getirdiği bu **ünlü siyaset bilimi ilkesi** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kuvvetler Birliği</li>
+            <li>B) Kuvvetler Ayrılığı (Güçler Ayrılığı)</li>
+            <li>C) Doğal Hukuk Düzeni</li>
+            <li>D) Teokratik Egemenlik</li>
+            <li>E) Bürokrasi İlkesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Demokratik devlet teorisi kavramını netleştirelim. Paragrafta "yasama ve yürütme güçlerinin mutlak monarşiyi engellemek için birbirinden kesinlikle ayrılması" gerektiği vurgulanmaktadır (Daha sonra Montesquieu buna Yargıyı da ekleyecektir).
+            <br>• Devlet organlarının birbirini denetlemesini sağlayan, gücün tek elde toplanmasını engelleyen bu hayati kurala felsefe ve hukukta <b>Kuvvetler / Güçler Ayrılığı</b> adı verilir. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>
