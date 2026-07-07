@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 4: Halk Edebiyatı</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #15803d, #166534); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #dcfce7; font-style: italic; }
+        h2 { color: #166534; font-size: 16pt; border-left: 6px solid #15803d; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #14532d; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f0fdf4; border: 1px dashed #22c55e; border-left: 5px solid #16a34a; padding: 15px; margin: 18px 0; border-radius: 4px; color: #14532d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #15803d; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #166534; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #15803d; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #15803d; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 4: HALK EDEBİYATI</h1>
+        <p>"Sazın Tellerinde Yükselen Yalın Gerçeklik: Anonim, Âşık ve Dergâh Edebiyatının Şifreleri"</p>
+    </div>
+
+    <h2>1. HALK EDEBİYATININ GENEL ÖZELLİKLERİ</h2>
+    <p>İslamiyet öncesi sözlü dönemin Anadolu'daki devamıdır. Dil son derece yalın, sade ve halkın konuştuğu günlük Türkçedir. Nazım birimi **dörtlük**, milli ölçümüz **hece ölçüsü** (en çok 7'li, 8'li ve 11'li kalıplar) ve en baskın uyak türü **yarım uyak**tır. Somut konular (gerçek aşk, tabiat, ölüm, yiğitlik, toplumsal hiciv) işlenir. Halk edebiyatı üç ana kolda yürür:</p>
+
+    <h2>2. ANONİM HALK EDEBİYATI NAZIM BİÇİMLERİ</h2>
+    <p>Söyleyeni, yazanı belli olmayan, halkın ortak malı haline gelmiş ürünlerdir.</p>
+    <ul>
+        <li><b>Mani:</b> Halk edebiyatının en küçük nazım şeklidir. **Tek bir dörtlükten** oluşur. 7'li hece ölçüsüyle yazılır. Kafiye şeması kendine hastır: <b>"a a x a"</b>. İlk iki dize doldurmadır, asıl anlatılmak istenen son iki dizede verilir.</li>
+        <li><b>Türkü:</b> Kendine has bir ezgiyle söylenen manzumelerdir. İki kısımdan oluşur: Asıl sözlerin yer aldığı bentler ve her bendin sonunda aynen tekrarlanan nakarat (<b>bağlama/kavuştak</b>) bölümü.</li>
+        <li><b>Nenni (Ninni) ve Ağıt:</b> Ninni çocukları uyutmak, ağıt ise ölenlerin arkasından duyulan acıyı anlatmak için söylenir (Ağıt, İslamiyet öncesinde *sagu*, Divan'da *mersiye*dir).</li>
+    </ul>
+
+    <h2>3. ÂŞIK EDEBİYATI NAZIM BİÇİMLERİ VE TÜRLERİ</h2>
+    <p>"Âşık" veya "Ozan" denilen saz şairlerinin, rüyada bade içerek ya da usta-çırak ilişkisiyle yetişip diyar diyar gezerek oluşturdukları gelenektir. Şiirlerini <b>Cönk</b> adı verilen, aşağıdan yukarıya doğru açılan deri kaplı defterlerde toplarlar.</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN VURUR — 8'Lİ VE 11'Lİ HECE AYRIMI:</strong>
+        <br>• Bir şiir <b>11'li hece</b> ölçüsüyle yazılmışsa o kesinlikle bir <b>KOŞMA</b>dır.
+        <br>• Bir şiir <b>8'li hece</b> ölçüsüyle yazılmışsa iki ihtimal vardır: Eğer içinde efece, yiğitçe bir eda, ünlem varsa (Bre, Hey, Behey) o bir <b>VARSAĞI</b>dır. Eğer ünlem yoksa, daha lirik ve ezgisel ise o bir <b>SEMAİ</b>dir. Bu hece ve ünlem matematiği soruları saniyeler içinde çözer.
+    </div>
+
+    <h3>A) Âşık Edebiyatı Nazım Biçimleri (Dış Yapı)</h3>
+    <ul>
+        <li><b>Koşma:</b> 11'li hece ölçüsüyle yazılır. En az 3, en fazla 5-6 dörtlükten oluşur. Âşık edebiyatının en popüler şeklidir.</li>
+        <li><b>Semai:</b> 8'li hece ölçüsüyle yazılır. Koşmaya göre daha kıvrak ve özel bir ezgisi vardır.</li>
+        <li><b>Varsağı:</b> 8'li hece ölçüsüyle yazılır. Güney Anadolu'daki "Varsak" Türkmenlerine aittir. İçindeki <b>"Hey, Bre, Behey"</b> gibi nidalardan (meydan okumalardan) tanınır.</li>
+        <li><b>Destan:</b> Savaş, göç, ayaklanma, hatta deprem, salgın hastalık veya komik toplumsal olayları anlatan, dörtlük sınırı olmayan en uzun nazım biçimidir. 11'li veya 8'li olabilir.</li>
+    </ul>
+
+    <h3>B) Koşmanın Konularına Göre Türleri (İç Yapı)</h3>
+    <ul>
+        <li><b>Güzelleme:</b> Aşk, sevgili, tabiat, estetik güzellikleri anlatan duygusal koşmalardır (En büyük ustası: <i>Karacaoğlan</i>).</li>
+        <li><b>Taşlama:</b> Toplumun, kişilerin ya da yöneticilerin aksayan, hatalı yönlerini yeren, eleştiren koşmalardır (En büyük ustası: <i>Seyrani</i>). Divan'da karşılığı *hicviye*, Batı'da *satir*dir.</li>
+        <li><b>Koçaklama:</b> Yiğitlik, savaş, kahramanlık ve meydan okuma temalı coşkulu koşmalardır (En büyük ustaları: <i>Köroğlu, Dadaloğlu</i>).</li>
+        <li><b>Ağıt:</b> Ölüm konusunu işleyen hüzünlü koşmalardır.</li>
+    </ul>
+
+    <h2>4. TEKKE - TASAVVUF EDEBİYATI VE NAZIM TÜRLERİ</h2>
+    <p>Dergâhlarda ve tekkelerde filizlenen, temel felsefesi **Vahdet-i Vücut (Allah'ın birliği ve evrendeki her şeyin O'nun bir yansıması olduğu)** olan, ilahi aşkı yayan dini edebiyat koludur. Şairler hem heceyi hem aruzu kullanmışlardır.</p>
+    <ul>
+        <li><b>İlahi:</b> Allah'ı övmek, O'na yalvarmak ve ilahi aşkı anlatmak için yazılan, kendine has özel bir tarza sahip tarikat üstü şiirlerdir. En büyük ustası 13. yüzyılda yaşayan <b>Yunus Emre</b>'dir.</li>
+        <li><b>Nefes:</b> Bektaşi tekkelerinde söylenen, Hz. Ali ve Ehl-i Beyt övgüsü içeren ilahi tarzı şiirlerdir (En büyük ustası: <i>Pir Sultan Abdal</i>).</li>
+        <li><b>Şathiye:</b> İlk bakışta Allah ile şakalaşıyormuş, senli benli konuşuyormuş gibi görünen, ancak derinlemesine incelendiğinde tasavvufi ve felsefi sırlar barındıran sembolik şiirlerdir (En büyük ustası: <i>Kaygusuz Abdal</i>).</li>
+        <li><b>Nutuk:</b> Tarikata yeni giren müritlere (dervişlere) tarikat adabını, dergâh kurallarını ve nefis terbiyesini öğretmek amacıyla yazılan didaktik (öğretici) şiirlerdir.</li>
+    </ul>
+
+    <div class="memory-box">
+        <strong>👑 ŞAİRLERİN ŞİFRELERİ (ÖSYM NOKTA ATIŞI ANAHTAR KELİMELER):</strong>
+        <br>&bull; <b>Yunus Emre (13. yy):</b> İlahi aşk, saf Türkçe, "Risaletü'n-Nushiyye" mesnevisi (aruzla yazmıştır), hümanizm. Hem hece hem aruz taşır.
+        <br>&bull; <b>Köroğlu (16. yy):</b> Bolu Beyi'ne başkaldırı, koçaklama, kavga, yiğitlik. Sadece hece ölçüsü kullanmıştır (Aruz asla yoktur).
+        <br>&bull; <b>Karacaoğlan (17. yy):</b> Çukurova, Toroslar, arı Türkçe, güzelleme, somut aşk (Elif, esma isimleri geçer). <b>Aruz ölçüsünü ve dini konuları asla kullanmamıştır.</b>
+        <br>&bull; <b>Pir Sultan Abdal (16. yy):</b> Sivas, nefes ustası, Bektaşi felsefesi, siyasi isyan. Sadece hece kullanmıştır (Aruz asla yoktur).
+        <br>&bull; <b>Dadaloğlu (19. yy):</b> Avşar boyu, "Ferman padişahınsa dağlar bizimdir" sloganı, koçaklama, göçebe isyanı. Aruz yoktur.
+        <br>&bull; <b>Erzurumlu Emrah / Gevheri / Dertli:</b> Divan edebiyatından etkilenmiş, kaleme aruz ölçüsünü de almış, medrese eğitimi görmüş âşıklardır.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 
+            <div class="poem-sample">
+                Bre ağalar bre beyler<br>
+                Ölmeden bir dem sürelim<br>
+                Gözümüze toprak dolmadan<br>
+                Gelin bir murada erelim
+            </div>
+            Yukarıda verilen dörtlüğün hece ölçüsü, üslup ve nida özellikleri dikkate alındığında, bu şiirin <b>nazım biçimi (şekli)</b> aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Koşma</li>
+            <li>B) Semai</li>
+            <li>C) Varsağı</li>
+            <li>D) Destan</li>
+            <li>E) Mani</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şiiri çözmek için hece ve üslup matematiğimizi devreye sokalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Dizelerdeki ünlü harfleri sayarak hece ölçüsünü bulalım: "Bre a-ğa-lar bre bey-ler" &rarr; Tam <b>8'li hece ölçüsü</b> ile yazılmıştır. Bu durum şıkları Semai ve Varsağı'ya indirger.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) Şiirin ilk dizesine baktığımızda çok baskın bir şekilde **"Bre"** ünlemiyle (nidasıyla) karşılaşmaktayız. Şiir genel olarak meydan okuyan, yiğitçe, erkekçe bir edaya sahiptir.
+            <br>• Âşık edebiyatında 8'li hece ölçüsüyle yazılan ve içinde **"Bre, Hey, Behey"** gibi yiğitçe ünlemler barındıran yegane nazım biçimi <b>Varsağı</b>'dır. Semai daha lirik ve soft konulardadır. Bu yüzden cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Âşık edebiyatının en büyük lirik şairlerinden biri olan Karacaoğlan'ın edebi kimliği ile ilgili; I. Şiirlerinde aruz ölçüsünü hiç kullanmamış, tamamen hece ölçüsüne sadık kalmıştır, II. Güzelleme türünün en büyük ustası olup somut aşkı ve doğayı işlemiştir, III. Tasavvuf dergâhlarında yetiştiği için şiirlerinde yoğun dini-tasavvufi terimler yer alır ifadelerinden hangileri ÖSYM kriterlerine göre <b>doğrudur</b>?</div>
+        <ul class="options-list">
+            <li>A) Yalnız I</li>
+            <li>B) I ve II</li>
+            <li>C) I ve III</li>
+            <li>D) II ve III</li>
+            <li>E) I, II ve III</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karacaoğlan'ın sarsılmaz edebi şifrelerini kontrol edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - I. Öncül: Karacaoğlan tam bir halk şairidir. Divan edebiyatına zerre prim vermemiş, hayatı boyunca **aruz ölçüsünü kesinlikle kullanmamıştır**. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - II. Öncül: Çukurova ve Toroslar coğrafyasında yaşamış; Elif, Esma gibi gerçek kadın isimlerini zikrederek din dışı, dünyevi, somut aşkı ve doğayı (güzellemeyi) zirveye taşımıştır. Doğrudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - III. Öncül: Karacaoğlan'ın şiirlerinde **dini, tasavvufi veya ilahi hiçbir içerik bulunmaz**. Dergâh eğitimi görmemiş, tamamen din dışı (din dışı laik) konularda yazmıştır. Bu yüzden üçüncü öncül yanlıştır. Cevap I ve II olur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> 16. yüzyılda Sivas ve çevresinde yaşamış, Safevi-Osmanlı siyasi çekişmelerine karışarak hapsedilmiş ve asılmış olan; ancak edebiyatımızda Bektaşi felsefesini, nefes ve şathiye türlerini **aruz ölçüsünü hiç kullanmadan, tamamen duru bir Türkçe ve heceyle** haykıran, coşkulu ve isyankâr Tekke-Tasavvuf şairi kimdir?</div>
+        <ul class="options-list">
+            <li>A) Yunus Emre</li>
+            <li>B) Hacı Bektaş-ı Veli</li>
+            <li>C) Pir Sultan Abdal</li>
+            <li>D) Kaygusuz Abdal</li>
+            <li>E) Erzurumlu İbrahim Hakkı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorudaki biyografik ve edebi şifreleri birleştirelim: "16. yüzyıl", "Sivas yöresi", "siyasi isyan ve trajedi", "aruzun sıfır olması" ve en önemlisi "Bektaşi nefeslerinin en coşkulu sesi".
+            <br>• Bu özellikler tartışmasız olarak Alevî-Bektaşi halk şiirinin pir kabul edilen şahsiyeti <b>Pir Sultan Abdal</b>'ı işaret etmektedir. Şiirlerinde aruzun ve divan etkisinin hiç olmaması onu dönemin diğer aydın mutasavvıflarından ayırır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> 
+            <div class="poem-sample">
+                Yüce dağların başında duranlar<br>
+                Halkın haklı davasına vuranlar<br>
+                Ferman padişahınsa dağlar bizimdir<br>
+                Hakkı için kılıç çekip duranlar
+            </div>
+            Yukarıdaki ünlü dizelerin sahibi olan, 19. yüzyılda Çukurova bölgesinde göçebe Avşar Türkmenlerinin zorunlu iskan politikasına karşı isyanını koçaklama tarzında sazıyla haykıran şair aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Köroğlu</li>
+            <li>B) Dadaloğlu</li>
+            <li>C) Seyrani</li>
+            <li>D) Aşık Veysel</li>
+            <li>E) Bayburtlu Zihni</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şiirdeki o efsanevi slogan dizeyi yakalayalım: **"Ferman padişahınsa dağlar bizimdir"**.
+            <br>• Bu dize ve 19. yüzyılda Osmanlı Devleti'nin göçebe Türkmenleri yerleşik hayata geçirme (iskan) kararına karşı Toroslar'da isyan bayrağı açan, Avşar boyunun gür sesi <b>Dadaloğlu</b>'na aittir. Köroğlu ile çok karıştırılır ancak Köroğlu 16. yüzyıldadır ve Bolu Beyi ile savaşmıştır; Dadaloğlu ise 19. yüzyıldadır ve doğrudan padişahın fermanına karşı durmuştur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Tekke-Tasavvuf edebiyatına ait nazım türleri içeriksel olarak karşılaştırıldığında; **Allah ile şakalaşır gibi bir üslupla yazılan ancak derin felsefi anlamlar barındıran** şiir türü ile **tarikata yeni giren dervişlere ahlak ve adap öğretmek amacıyla yazılan didaktik** şiir türü aşağıdakilerden hangisinde sırasıyla doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) İlahi - Nefes</li>
+            <li>B) Devriye - Deme</li>
+            <li>C) Şathiye - Nutuk</li>
+            <li>D) Nutuk - Şathiye</li>
+            <li>E) Münacat - Tevhit</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Tasavvuf edebiyatı iç içerik (nazım türü) tanımlarını eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - İlk bakışta inanç esaslarıyla alay ediyormuş veya Allah ile senli benli konuşuyormuş gibi görünen mecazi, ironik ama arkasında derin sırlar olan şiir türüne <b>Şathiye</b> denir (En ünlüsü Kaygusuz Abdal'ın "Kıldan köprü yaratmışsın" şiiridir).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Tarikata yeni katılan dervişlere yol yordam, tarikat terbiyesi ve kuralları öğretmek için yazılan didaktik rehber şiirlere ise <b>Nutuk</b> adı verilir. Sıralama Şathiye - Nutuk şeklinde olmalıdır (C şıkkı).
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 10: Milli Edebiyat Dönemi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #991b1b, #1e3a8a); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fee2e2; font-style: italic; }
+        h2 { color: #991b1b; font-size: 16pt; border-left: 6px solid #b91c1c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #1e3a8a; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fef2f2; border: 1px dashed #ef4444; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #7f1d1d; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #991b1b; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #991b1b; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #991b1b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #991b1b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 10: MİLLİ EDEBİYAT DÖNEMİ</h1>
+        <p>"Halka Doğru: Yeni Lisan İhtilali, Cephe Gerçeği ve Memleketçi Şiirin Estetik Uyanışı"</p>
+    </div>
+
+    <h2>1. MİLLİ EDEBİYATIN DOĞUŞU VE YENİ LİSAN HAREKETİ</h2>
+    <p>1911 yılında Selanik’te çıkarılan <b>Genç Kalemler</b> dergisinde **Ömer Seyfettin**, **Ali Canip Yöntem** ve **Ziya Gökalp**’in öncülüğünde başlayan edebi akımdır. Derginin ilk sayısında Ömer Seyfettin tarafından imzasız (soru işaretiyle) yayınlanan <b>"Yeni Lisan"</b> makalesi, Milli Edebiyatın resmi manifestosudur. Bu hareket, Servet-i Fünun ve Fecr-i Ati’nin köhne, yapay dillerine karşı açılmış en büyük dil savaşıdır.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ YENİ LİSAN MAKALESİNİN SÜPER İLKELERİ:</strong>
+        <br>1. Arapça ve Farsça gramer kuralları (tamlamalar) tamamen kaldırılmalıdır.
+        <br>2. Türkçeye girmiş ve halkın diline yerleşip Türkçeleşmiş olan kelimeler (Örn: *kitap, mektep*) Türkçe kabul edilecek, dilden atılmayacaktır. ("Türkçeleşmiş Türkçe" ilkesi).
+        <br>3. Konuşma dili ile yazı dili arasındaki uçurum yok edilmeli; **İstanbul konuşma ağzı** ortak yazı dili haline getirilmelidir.
+        <br>4. Diğer Türk lehçelerinden kelime alınmamalıdır.
+    </div>
+
+    <h3>A) Dönemin Şiir Özellikleri</h3>
+    <p>Aruz ölçüsü tamamen reddedilmiş, milli ölçümüz olan <b>Hece Ölçüsü</b> ana ölçü kabul edilmiştir. Nazım birimi **dörtlük**tür. Şiirde soyut, bireysel temalar terk edilmiş; yurt güzellikleri, vatan sevgisi, Anadolu gerçeği ve Türklük şuuru işlenmiştir (<b>Memleketçi Şiir</b>).</p>
+
+    <h3>B) Beş Hececiler Topluluğu</h3>
+    <p>Milli Edebiyat akımından etkilenerek şiire aruzla başlayıp daha sonra tamamen **hece ölçüsüne** geçen ve memleketçi şiiri popülerleştiren 5 şairdir. (Kodlama: <b>HEYOF</b>):
+    <br>&bull; <b>H</b>alît Fahrî Ozansoy (Ünlü "Aruza Veda" şiirini yazmıştır).
+    <br>&bull; <b>E</b>nis Behiç Koryürek (Gemiciler şiiriyle ünlüdür).
+    <br>&bull; <b>Y</b>usuf Ziya Ortaç (Akbaba mizah dergisini çıkarmıştır).
+    <br>&bull; <b>O</b>rhan Seyfi Orhon (Fırtına ve Kar şiiri meşhurdur).
+    <br>&bull; <b>F</b>aruk Nafiz Çamlıbel (Grubun en büyük dev şairidir. **"Sanat"** şiiri memleketçi şiirin manifestosudur. *Han Duvarları*, *Çoban Çeşmesi* başyapıtlarıdır).</p>
+
+    <h2>2. ÖSYM ODAKLI MİLLİ ROMANLAR VE KARAKTER ŞİFRELERİ</h2>
+    <p>Milli Edebiyat romanlarında iki ana tema tavan yapar: **Kurtuluş Savaşı (Anadolu gerçeği)** ve **Kuşak Çatışmaları**. ÖSYM buralardan her yıl soru üretir:</p>
+
+    <div class="memory-box">
+        <strong>👑 YABAN — Yakup Kadri Karaosmanoğlu (Aydın-Halk Çatışması):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Sakarya Savaşı dönemi, Porsuk Çayı, aydın-köylü yabancılaşması, realist köy gözlemi.
+        <br>&bull; <b>Karakter Analizi:</b> <b>Ahmet Celal</b>; I. Dünya Savaşı'nda bir kolunu kaybetmiş gazi bir Osmanlı subayıdır. İstanbul İngilizler tarafından işgal edilince, emir eri Mehmet Ali'nin Eskişehir taraflarındaki köyüne yerleşir. Ahmet Celal köylüleri Milli Mücadele'ye ikna etmeye çalışır ancak köylüler (özellikle yobaz Salih Ağa) onu bir <b>"Yaban"</b> (yabancı) olarak görür, düşman olarak algılar. Ahmet Celal köylü kız <b>Emine</b>'ye aşık olur. Romanın sonunda Yunan askerleri köyü yakıp yıkarken Ahmet Celal ve Emine yaralı olarak kaçarlar, Ahmet Celal anı defterini Emine'ye bırakıp gözden kaybolur.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 SODOM VE GOMORRE — Yakup Kadri Karaosmanoğlu (İşgal İstanbul'u):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> İşgal altındaki İstanbul'un ahlaki çöküşü, mütareke dönemi, mandacılık özentisi.
+        <br>&bull; <b>Karakter Şeması:</b> <b>Necdet</b> (Milli şuura sahip, işgale içerleyen genç), <b>Leyla</b> (Necdet'in nişanlısı, işgalci İngiliz subaylarıyla düşüp kalkan, lüks düşkünü yozlaşmış kız). Yakup Kadri, işgal altındaki İstanbul'u ahlaksızlıklarından dolayı Tanrı'nın helak ettiği antik <b>Sodom ve Gomore</b> şehirlerine benzetir. Necdet, Leyla'nın İngiliz hayranlığına tiksinerek bakar. Kuvayımilliye ordusu İstanbul'a girdiğinde Leyla pişman olup Necdet'e döner ancak Necdet onu affetmez.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 ATEŞTEN GÖMLEK — Halide Edib Adıvar (İlk Kurtuluş Savaşı Romanı):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> İzmir'in işgali, Sultanahmet mitingi, Ankara, cephe hemşireliği, destansı aşk.
+        <br>&bull; <b>Karakterler:</b> <b>Ayşe</b> (İzmir işgalinde eşi ve çocuğu öldürülen, intikam yeminiyle Anadolu'ya geçen sembol kadın), <b>Peyami</b> (Hariciye memuru, romanı onun hatıra defterinden okuruz), <b>İhsan</b> (Kuvayımilliye komutanı). Hem Peyami hem de İhsan, Ayşe'ye deliler gibi aşıktır. Bu aşk onlar için vatan savunmasıyla iç içe geçmiş bir "Ateşten Gömlek"tir. Ayşe cephede hemşirelik yapar. Savaşta önce İhsan, ardından Ayşe şehit düşer. Peyami ise kafasındaki kurşunla hastanede ölür.
+    </div>
+
+    <h2>3. MİLLİ EDEBİYATIN DEV SANATÇILARI VE EN SEÇİCİ ŞİFRELERİ</h2>
+    <ul>
+        <li><b>Ömer Seyfettin:</b> Türk edebiyatında **bağımsız hikayeciliği (Maupassant tarzı - olay hikayesi)** meslek haline getiren ilk isimdir. Yeni Lisan'ın dil ilkelerini hikayelerinde kusursuz uygulamıştır. Hikayelerinde çocukluk anıları, tarihsel kahramanlıklar ve Balkanlardaki Türk acıları hakimdir. *(Efruz Bey, Bomba, Falaka, Pembe İncili Kaftan, Başını Vermeyen Şehit)*.</li>
+        <li><b>Ziya Gökalp:</b> Milli Edebiyatın **sosyologu ve fikir babasıdır**. Türkçülük düşüncesini sistemleştirmiştir *(Türkçülüğün Esasları)*. Şiirleri tamamen didaktiktir, sanat kaygısı gütmez, ideolojisini halka yaymak için yazar *(Kızıl Elma, Yeni Hayat)*.</li>
+        <li><b>Yakup Kadri Karaosmanoğlu:</b> Romanlarında Tanzimat’tan Cumhuriyet’e kadar Türk toplumunun geçirdiği tüm evreleri, kuşak çatışmalarını ve yozlaşmaları kronolojik olarak anlatan **Nehir Roman** ustasıdır.
+            <br>&bull; *Kiralık Konak:* Üç kuşak arasındaki korkunç kopukluk (Naim Efendi, Damadı Servet Bey ve torunu Seniha).
+            <br>&bull; *Sodom ve Gomore:* İşgal İstanbul'unun ahlaki çöküşü.
+            <br>&bull; *Yaban:* Aydın-köylü çatışması.
+            <br>&bull; *Ankara:* Cumhuriyet'in ilk yıllarındaki Ankara ve ideallerin yozlaşması.
+            <br>&bull; *Panorama:* Cumhuriyet devrimlerinin toplumdaki yansımaları.
+        </li>
+        <li><b>Halide Edib Adıvar:</b> Kurtuluş Savaşı'nda bizzat cephede bulunmuş (onbaşı ve çavuş rütbeleriyle) kahraman yazar kadındır. Romanlarında **aşırı güçlü, iradeli, erkeklere boyun eğmeyen kadın karakterler** ön plandadır. Üslubu savruk ve düzensizdir ancak tasvirleri çok güçlüdür. Realisttir. *(Vurun Kahpeye - İdealist öğretmen Aliye'nin yobazlarca şehit edilmesi, Sinekli Bakkal - Rabia ve Peregrini)*.</li>
+        <li><b>Reşat Nuri Güntekin:</b> Memuriyet göreviyle Anadolu’yu diyar diyar gezmiş *(Anadolu Notları)*, Anadolu insanının saf gerçeğini, batıl inançları ve eğitim sorunlarını realizmle aktarmıştır. En ünlü eseri, İstanbullu aristokrat bir kız olan **Feride**'nin (Çalıkuşu) nişanlısı Kamran'ın ihaneti sonrası Anadolu'da idealist bir öğretmen olarak köy köy kaçışını anlatan <b>Çalıkuşu</b>'dur. Diğer eseri: *Yaprak Dökümü* (Ali Rıza Bey ve ailesinin çöküşü).</li>
+    </ul>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 1911 yılında Selanik'te yayınlanan Genç Kalemler dergisinin ilk sayısında yer alan "Yeni Lisan" makalesinin dil ilkeleri göz önünde bulundurulduğunda, aşağıda verilen kurallardan hangisi bu makalenin manifestosuna <b>aykırıdır</b>?</div>
+        <ul class="options-list">
+            <li>A) Arapça ve Farsça kökenli dil bilgisi kuralları ve tamlamaları tamamen terk edilmelidir.</li>
+            <li>B) Dile yerleşmiş, halkın dilinde Türkçeleşmiş olan Arapça-Farsça kelimeler dilden atılmamalı, Türkçe kabul edilmelidir.</li>
+            <li>C) Türk dünyasındaki dil birliğini sağlamak amacıyla Göktürkçe ve Çağatayca gibi eski lehçelerden yoğun şekilde kelime transferi yapılmalıdır.</li>
+            <li>D) Yazı dili ile konuşma dili arasındaki fark yok edilmeli, İstanbul Türkçesi ortak dil kabul edilmelidir.</li>
+            <li>E) Bilimsel terimlerde zorunlu olmadıkça Arapça-Farsça kurallara başvurulmamalıdır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Yeni Lisan makalesinin o çok net dil kurallarını test edelim: Arapça tamlamaları kaldırma (A), halka mal olmuş kelimeleri koruma (B) ve İstanbul ağzını esas alma (D) makalenin en temel maddeleridir.
+            <br>• Ancak C seçeneğindeki ifade Yeni Lisan'ın özüne tamamen terstir. Ziya Gökalp ve Ömer Seyfettin, **diğer Türk lehçelerinden veya eski köhne metinlerden (Göktürkçe, Çağatayca) yapay kelimeler alınmasına kesinlikle karşı çıkmışlardır**. Onların amacı yapay bir dil kurmak değil, halkın yaşayan canlı dilini egemen kılmaktır. Bu yüzden C aykırıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> I. Dünya Savaşı'nda bir kolunu kaybetmiş gazi subay **Ahmet Celal**'in, emir eri Mehmet Ali'nin Porsuk Çayı yakınlarındaki köyüne yerleşmesi; burada köylüleri Kuvayımilliye hareketine ikna etmeye çalışırken köylülerin onu dışlamasını ve köylü kız Emine'ye duyduğu hüzünlü aşkı konu alan Yakup Kadri Karaosmanoğlu romanı hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Kiralık Konak</li>
+            <li>B) Sodom ve Gomore</li>
+            <li>C) Ankara</li>
+            <li>D) Yaban</li>
+            <li>E) Panorama</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karakter ve mekan kodlarını birleştirelim: "Gazi subay Ahmet Celal", "Emir eri Mehmet Ali", "Köylü kız Emine" ve "Aydın-köylü çatışması".
+            <br>• Türk edebiyatında aydın kesim ile köylü kesim arasındaki o derin uçurumu (yabancılaşmayı) en sarsıcı ve realist gözlemlerle ele alan Yakup Kadri eseri <b>Yaban</b> romanıdır. Ahmet Celal köylüler tarafından bir yabancı yani "Yaban" olarak adlandırılır. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Milli Edebiyat akımının şiirdeki yansıması olan "Beş Hececiler" topluluğu ile ilgili aşağıda verilen edebi bilgilerden hangisi ÖSYM standartlarına göre <b>hatalıdır</b>?</div>
+        <ul class="options-list">
+            <li>A) Şiire ilk başta eski gelenek olan aruz ölçüsüyle başlamışlar, daha sonra heceye geçmişlerdir.</li>
+            <li>B) Şiirlerinde memleket sevgisini, yurt güzelliklerini ve Anadolu insanını coşkulu bir dille işlemişlerdir.</li>
+            <li>C) Grubun en büyük şairi olan Faruk Nafiz Çamlıbel, "Sanat" şiiriyle bu ekolün poetikasını (manifestosunu) çizmiştir.</li>
+            <li>D) Şiir dilinde tamamen tasavvufi kapalılığı ve Sepk-i Hindi akımının ağır imgelerini Anadolu'ya uyarlamışlardır.</li>
+            <li>E) Nazım birimi olarak dörtlüğü, dil olarak ise son derece duru bir İstanbul Türkçesini esas almışlardır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Beş Hececilerin (HEYOF) edebi kimliğini sorgulayalım: Aruzdan heceye geçiş (A), memleket temaları (B), Faruk Nafiz'in liderliği (C) ve duru Türkçe (E) bilgileri tam birer AYT gerçeğidir.
+            <br>• Ancak D seçeneğindeki iddia bu grubun doğasına tamamen aykırıdır. Beş Hececiler, Divan edebiyatının o süslü, ağır, soyut **Sepk-i Hindî akımına ve tasavvufi kapalılığa tamamen düşmandır**. Onların amacı şiiri halkın anlayacağı kadar şeffaf, net, yalın ve düz yazıya yakın bir memleket edebiyatı haline getirmektir. Bu yüzden D şıkkı hatalıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> İzmir'in işgali üzerine eşi ve çocuğu Yunan askerlerince şehit edilen **Ayşe**'nin, İstanbullu hariciye memuru **Peyami** ve Kuvayımilliye komutanı **İhsan** ile birlikte Anadolu'da bağımsızlık savaşına katılmasını; iki erkeğin Ayşe'ye duyduğu aşkın vatan aşkıyla eriyip gitmesini konu alan <b>ilk Kurtuluş Savaşı romanımız</b> aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Vurun Kahpeye</li>
+            <li>B) Ateşten Gömlek</li>
+            <li>C) Yorgun Savaşçı</li>
+            <li>D) Küçük Ağa</li>
+            <li>E) Dikmen Yıldızı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Roman karakter şeması ve tarihi unvan eşleşmesini işletelim: "Ayşe, Peyami, İhsan karakterleri" ve "İlk Kurtuluş Savaşı romanı unvanı".
+            <br>• Bu özellikler, bizzat cephede onbaşı olarak görev yapan Halide Edib Adıvar'ın kaleme aldığı sakatlanmaz başyapıtı <b>Ateşten Gömlek</b> romanına aittir. Roman Peyami'nin Ankara'daki bir hastanede kafasındaki kurşunla ölmeden önce yazdığı hatıra defteri şeklinde kurgulanmıştır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 
+            <i>"Yakup Kadri Karaosmanoğlu, romanlarında tek bir dönemi değil, Tanzimat’tan Cumhuriyet sonrasına kadar Türk toplumunun geçirdiği tüm tarihsel dönüşümleri, batılılaşma sancılarını ve kuşak çatışmalarını bir nehir gibi birbirini takip eden kronolojik romanlarla anlatmıştır."</i>
+            <br>Buna göre, yazarın **Tanzimat'tan I. Dünya Savaşı'na kadar olan süreçteki üç farklı kuşağın (Dede Naim Efendi, Damat Servet ve Torun Seniha) korkunç zihniyet kopuşunu** işlediği o meşhur ilk romanı aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Sodom ve Gomore</li>
+            <li>B) Kiralık Konak</li>
+            <li>C) Hep O Şarkı</li>
+            <li>D) Panorama</li>
+            <li>E) Nur Baba</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Yakup Kadri'nin nehir roman serisindeki o en ünlü ilk halkayı arıyoruz: "Üç kuşak çatışması", "Dede Naim Efendi", "Damat Servet Bey" ve "Avrupa özentisi torun Seniha".
+            <br>• Geleneksel Osmanlı ailesinin batılılaşma rüzgarıyla nasıl darmadağın olduğunu bir konağın çöküşü (kiralık ilanı asılması) üzerinden sembolleştiren bu büyük roman <b>Kiralık Konak</b>'tır. Konak değerlerin, Naim Efendi eski kuşağın, Seniha ise yozlaşan yeni kuşağın sembolüdür. Doğru şık B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 7: Edebi Akımlar ve Batı Etkisi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #0369a1, #1d4ed8); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e0f2fe; font-style: italic; }
+        h2 { color: #1d4ed8; font-size: 16pt; border-left: 6px solid #2563eb; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #eff6ff; border: 1px dashed #3b82f6; border-left: 5px solid #2563eb; padding: 15px; margin: 18px 0; border-radius: 4px; color: #1e3a8a; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1d4ed8; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #1e3a8a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #1d4ed8; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1d4ed8; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 7: EDEBİ AKIMLAR VE BATI ETKİSİ</h1>
+        <p>"Akıl, Hayal ve Gerçeğin Çatışması: Avrupa Sanat Akımları ve Türk Edebiyatının Yenileşme Koordinatları"</p>
+    </div>
+
+    <h2>1. BATI AVRUPA MENŞEİLİ EDEBİ AKIMLAR VE ANAHTAR ŞİFRELERİ</h2>
+    <p>Edebi akımlar; felsefi, sosyal ve tarihi gelişmelerin sonucunda ortaya çıkan, sanatçıların benzer dünya görüşü ve estetik ilkeler etrafında birleşmesiyle kurulan ekollerdir. ÖSYM her yıl bir metin veya yazar manifestosu vererek akımı sormayı çok sever.</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Edebi Akım Adı</th>
+                <th>ÖSYM Odaklı Anahtar Kelimeler (Zihniyet Şifreleri)</th>
+                <th>Dünya Edebiyatı Temsilcileri</th>
+                <th>Türk Edebiyatı Temsilcileri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Klasisizm</b><br>(Akılcılık)</td>
+                <td>**Akıl, Sağduyu, Ahlak, Erdem**, Soylular, Değişmez Tipler, Kusursuz Dil, Eski Yunan ve Latin Mitolojisi. (Sanat, insan tabiatının taklididir).</td>
+                <td>Moliere, Corneille, Racine, La Fontaine</td>
+                <td>Şinasi, Ahmet Vefik Paşa (Tanzimat 1. Dönem)</td>
+            </tr>
+            <tr>
+                <td><b>Romantizm</b><br>(Coşumculuk)</td>
+                <td>**Duygu, Hayal, Coşku, Özgürlük**, Ak-Kara Çatışması, Kişiliğini Gizlememe, Tesadüfler, Hristiyanlık Tarihi, Yerel Renkler. Klasisizme tepkidir.</td>
+                <td>V. Hugo (Manifestosu: Cromwell), Goethe, Schiller, Lamartine</td>
+                <td>Namık Kemal, Ahmet Mithat Efendi, Abdülhak Hamit Tarhan</td>
+            </tr>
+            <tr>
+                <td><b>Realizm</b><br>(Gerçekçilik)</td>
+                <td>**Gözlem, Belge, Anket, Pozitivizm**, Nesnellik, Çevre Tasviri (İnsanın karakterini şekillendirir), Kişiliğini Gizleme. Romantizme tepkidir.</td>
+                <td>Balzac, Stendhal, Flaubert, Tolstoy, Dostoyevski</td>
+                <td>Recaizade Mahmut Ekrem, Halit Ziya Uşaklıgil, Yakup Kadri</td>
+            </tr>
+            <tr>
+                <td><b>Naturalizm</b><br>(Doğalcılık)</td>
+                <td>**Soyaçekim (Genetik), Laboratuvar, Determinizm, Bilimsel Deney**, Toplum bir laboratuvar, insan bir denektir. Sokak dili, argolar. Realizmin aşırı ucudur.</td>
+                <td>Emile Zola (Manifestosu: Deneysel Roman), Maupassant</td>
+                <td>Nabizade Nazım, Hüseyin Rahmi Gürpınar</td>
+            </tr>
+            <tr>
+                <td><b>Parnasizm</b><br>(Şiirde Gerçekçilik)</td>
+                <td>**Şiirde Realizm, Biçim Kusursuzluğu, Plastik Güzellik**, Kuyumcu titizliği, Tablo gibi şiir, Saf betimleme. Romantik şiire tepkidir.</td>
+                <td>Gautier, Banville, Leconte de Lisle</td>
+                <td>Cenap Şahabettin, Tevfik Fikret, Yahya Kemal Beyatlı</td>
+            </tr>
+            <tr>
+                <td><b>Sembolizm</b><br>(Simgecilik)</td>
+                <td>**Kapalılık, Musiki (Müzikalite), Şiirsel Loşluk**, Alacakaranlık, Kızıl Gün Batımları, Ağaçlar, Simgeler. (Şiir anlaşılmak için değil, duyulmak içindir). Parnasizme tepkidir.</td>
+                <td>Baudelaire, Verlaine, Rimbaud, Mallarme</td>
+                <td>Ahmet Haşim (Manifestosu: Şiir Hakkında Bazı Mülahazalar), Cenap Şahabettin</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="memory-box">
+        <strong>🧠 HAFIZA TEKNİĞİ — MODERNİST VE MODERN SONRASI AKIMLAR:</strong>
+        <br>&bull; <b>Empresyonizm (İzlenimcilik):</b> Dış dünyanın sanatçıda bıraktığı "izlenimler" önemlidir. Gerçeklik özneldir. (Ahmet Haşim).
+        <br>&bull; <b>Ekspresyonizm (Dışavurumculuk):</b> İnsanın iç dünyasındaki isyanı, çığlığı dışa vurmasıdır. Doğanın sadık tasvirine karşıdır.
+        <br>&bull; <b>Futurizm (Gelecekçilik):</b> **Hız, Makine, Dinamizm, Fabrika Çarkları**, Saldırganlık. Geleneksel olan her şeye düşmandır. Ölçü ve kafiyeyi reddeder. (Dünyada: Marinetti, Mayakovski; Bizde: <b>Nazım Hikmet</b> - "Trrum Trrum Trak Tik Tak" şiiri).
+        <br>&bull; <b>Dadaizm (Kuralsızlık):</b> Kelimeleri şapkadan rastgele çekerek şiir yazarlar. **Kuralsızlığı kural edinmişlerdir**. Savaşın yarattığı anlamsızlığa bir tepkidir. (Tzara).
+        <br>&bull; <b>Sürrealizm (Gerçeküstücülük):</b> **Bilinçaltı, Rüyalar, Hipnoz, Sigmund Freud**, Otomatik Yazı. Aklın ve ahlakın denetimini tamamen reddederler. (Bizde: Garipçiler ve İkinci Yeniciler).
+    </div>
+
+    <h2>2. BATI ETKİSİNDEKİ TÜRK EDEBİYATININ GENEL DÖNEM ŞEMASI</h2>
+    <p>1839 Tanzimat Fermanı'nın ilanıyla başlayan askeri, siyasi ve hukuki Batılılaşma hamlesi, 1860 yılında Şinasi ve Agâh Efendi'nin ilk özel gazete olan <b>Tercüman-ı Ahvâl</b>'i çıkarmasıyla edebi bir kimlik kazanmıştır. Edebiyatımız bu tarihten itibaren Doğu estetiğini (Divan) terk ederek tamamen Batı modeline (Fransız edebiyatına) endekslenmiştir. Süreç şu kronolojik ana duraklarla ilerler:</p>
+    <p style="text-align: center; font-weight: bold; margin: 12px 0;">
+        Tanzimat Edebiyatı (1860-1896) &rarr; Servet-i Fünun Edebiyatı (1896-1901) &rarr; Fecr-i Âti Topluluğu (1909-1912) &rarr; Milli Edebiyat Dönemi (1911-1923) &rarr; Cumhuriyet Dönemi (1923-Sonrası)
+    </p>
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM BURADAN TUZAKLAR — "İLK" TÜRLER VE DEĞİŞİM SÜRECİ:</strong>
+        <br>Batı etkisine geçildiğinde Divan edebiyatındaki *Gazel, Kaside, Mesnevi* gibi biçimlerin yerine; Batı'dan alınan <b>Roman, Hikaye, Tiyatro (Sahne), Makale, Eleştiri ve Deneme</b> gibi tamamen yeni türler girmiştir. İlk başlarda teknik olarak kusurlu (Tanzimat'ta) olan bu türler, Servet-i Fünun dönemiyle birlikte Batılı anlamda tam olgunluğa ve teknik kusursuzluğa ulaşacaktır.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> "Ben romancıyı bir laboratuvardaki bilim insanı, insanı bir denek, toplumu ise deney masası olarak görürüm. İnsanın attığı her adım, onun geçmişinden gelen genetik kodların ve içine doğduğu çevrenin kaçınılmaz bir sonucudur (determinizm)." 
+        <br>Yukarıdaki edebi manifestoyu ilan eden bir yazar, Avrupa sanatında çığır açan hangi **edebi akımın** etkisi altındadır?</div>
+        <ul class="options-list">
+            <li>A) Klasisizm</li>
+            <li>B) Realizm</li>
+            <li>C) Naturalizm</li>
+            <li>D) Romantizm</li>
+            <li>E) Sembolizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraftaki ÖSYM anahtar kelime avcılığını başlatalım: "Laboratuvar", "bilim insanı", "denek", "genetik kodlar (soyaçekim)" ve "determinizm (aynı nedenler aynı sonuçları doğurur)".
+            <br>• Bu terimler realizmin bir adım daha ileri giderek edebiyatı pozitif bir bilim dalı haline getirmeyi hedefleyen aşırı ucu <b>Naturalizm</b> (Doğalcılık) akımının mutlak felsefesidir. Kurucusu Emile Zola'dır ve insanı tamamen soyaçekim ve çevre ürünü bir varlık olarak ele alır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> "Şiir anlaşılmak için yazılan mantıksal bir nutuk değildir. Şiir, sözcüklerin tınısı, loş bir alacakaranlık, kızıl gün batımları ve kapalı simgelerle ruhu saracak bir musikidir. Anlam ne kadar kapalıysa şiirin estetik gücü o kadar tırmanır." 
+        <br>Görüşlerini bu şekilde özetleyen bir şair ve onun Türk edebiyatındaki en büyük temsilcisi aşağıdakilerden hangisinde doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Parnasizm - Tevfik Fikret</li>
+            <li>B) Sembolizm - Ahmet Haşim</li>
+            <li>C) Romantizm - Namık Kemal</li>
+            <li>D) Realizm - Recaizade Mahmut Ekrem</li>
+            <li>E) Sembolizm - Yahya Kemal Beyatlı</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Metindeki şifreleri çözelim: "Şiir nutuk değildir", "kapalı simgeler", "musiki (müzikalite)", "loşluk, kızıl gün batımı".
+            <br>• Şiiri bir düşünce aktarma aracı olmaktan çıkarıp tamamen duygu ve musiki perdesi haline getiren akım <b>Sembolizm</b>'dir. Türk edebiyatında "Şiir sözden ziyade musikiye yakın bir lisan-ı havastır" diyerek sembolizmin ve saf şiirin ilk büyük teorisyeni ve uygulayıcısı olan şairimiz ise **Ahmet Haşim**'dir. (Yahya Kemal biçim mükemmelliği ve parnas etkiler barındırır, net sembolist Haşim'dir).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> 
+            <div class="poem-sample">
+                "Trrum, trrum, trrum / Trak tik tak!<br>
+                Makineleşmek istiyorum!<br>
+                Beynimden, etimden, iskeletimden geliyor bu!"
+            </div>
+            Nazım Hikmet Ran'a ait bu ünlü dizelerin üslup, ritim, hız ve makineleşme coşkusu incelendiğinde; bu şiir Batı dünyasındaki hangi **avangart (modern)** edebi akımın etkisiyle yazılmıştır?
+        </div>
+        <ul class="options-list">
+            <li>A) Dadaizm</li>
+            <li>B) Sürrealizm</li>
+            <li>C) fütürizm</li>
+            <li>D) Ekspresyonizm</li>
+            <li>E) Kübizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şiirdeki o dinamik ve endüstriyel havayı okuyalım: "Trak tik tak (makine sesi)", "makineleşmek", "hız".
+            <br>• 20. yüzyılın başlarında İtalya'da Marinetti ve Rusya'da Mayakovski tarafından başlatılan; geleneksel tüm sanat kurallarını, kafiye ve ölçüyü yıkarak şiire **hızı, sanayiyi, trenleri, uçakları, fabrikaları ve dinamizmi** sokan akım <b>Fütürizm</b> (Gelecekçilik) akımıdır. Nazım Hikmet, Rusya yıllarında Mayakovski'den etkilenerek bu akımı Türk şiirine serbest nazım formuyla sokan ilk büyük şairdir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Batı etkisindeki Türk edebiyatının başlangıç tarihi ve zihniyet dönüşüm adımları incelendiğinde; Batılı tarzdaki ilk edebi türlerin (roman, makale, tiyatro vb.) halka sunulmasını sağlayan ve **edebiyatımızın ilk özel gazetesi** kabul edilen yayın organı aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Takvim-i Vekayi</li>
+            <li>B) Ceride-i Havadis</li>
+            <li>C) Tercüman-ı Ahvâl</li>
+            <li>D) Tasvir-i Efkâr</li>
+            <li>E) Servet-i Fünun Dergisi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Gazetelerin edebi önem derecelerini ve statülerini netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Takvim-i Vekayi ilk resmi gazetedir (1831). Ceride-i Havadis yarı resmi gazetedir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 1860 yılında Şinasi ve Agâh Efendi tarafından çıkarılan <b>Tercüman-ı Ahvâl</b> gazetesi ise Türk basın ve edebiyat tarihinin **İLK ÖZEL GAZETESİ**dir. Bu gazetenin ilk sayısında Şinasi edebiyatımızın ilk makalesi olan "Tercüman-ı Ahvâl Mukaddimesi"ni yayınlamış ve Batı Etkisindeki Türk Edebiyatı (Tanzimat) resmen ve fiilen bu gazetenin çıkışıyla başlamıştır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Aşağıda verilen dünya edebiyatı sanatçıları ve onların temsil ettiği edebi akım eşleştirmelerinden hangisi ÖSYM soru standartlarına göre <b>hatalıdır</b>?</div>
+        <ul class="options-list">
+            <li>A) Moliere - Klasisizm</li>
+            <li>B) Victor Hugo - Romantizm</li>
+            <li>C) Balzac - Realizm</li>
+            <li>D) Emile Zola - Naturalizm</li>
+            <li>E) Sigmund Freud - Parnasizm</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Akım-sanatçı/düşünür eşleşmelerini denetleyelim: Moliere tiyatrolarıyla klasisizmin (A), Victor Hugo Cromwell önsözüyle romantizmin (B), Balzac İnsanlık Komedisi serisiyle realizmin (C), Emile Zola ise deneysel romanıyla naturalizmin (D) dünya çapındaki kurucu babalarıdır.
+            <br>• Ancak E seçeneği baştan aşağı yanlıştır. Sigmund Freud edebi bir şair veya parnasist bir kuyumcu değildir; o psikanaliz teorisinin kurucusu olan ünlü bir bilim insanıdır. Onun bilinçaltı, rüyalar ve bastırılmış duygular teorisi edebiyatta parnasizmi değil, tam aksine <b>Sürrealizm</b> (Gerçeküstücülük) akımını doğurmuştur. Parnasizmin babası Gautier'dir.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 9: Servet-i Fünun ve Fecr-i Âti</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #1e1b4b, #311042); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ddd6fe; font-style: italic; }
+        h2 { color: #311042; font-size: 16pt; border-left: 6px solid #5b21b6; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #4c1d95; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f5f3ff; border: 1px dashed #8b5cf6; border-left: 5px solid #6d28d9; padding: 15px; margin: 18px 0; border-radius: 4px; color: #2e1065; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e1b4b; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #1e1b4b; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #1e1b4b; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #1e1b4b; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 9: SERVET-İ FÜNUN VE FECR-İ ÂTİ</h1>
+        <p>"Melankolinin Estetiği: Batılı Anlamda Kusursuz Roman Teknikleri ve Saf Şiirin İlk Beyannamesi"</p>
+    </div>
+
+    <h2>1. SERVET-İ FÜNUN (EDEBİYAT-I CEDİDE) DÖNEMİ ZİHNİYETİ</h2>
+    <p>1896-1901 yılları arasında II. Abdülhamid döneminin siyasi baskı atmosferinde, Recaizade Mahmut Ekrem’in teşvikiyle **Tevfik Fikret**'in *Servet-i Fünun* fen dergisinin edebi yazı işleri müdürlüğüne getirilmesiyle başlayan topluluktur. Tanzimat'taki toplumsal hava tamamen bıçak gibi kesilmiş; sanatçılar evlerine, iç dünyalarına, fildişi kulelerine çekilerek tam bir **"Salon Edebiyatı"** kurmuşlardır.</p>
+    <ul>
+        <li><b>Sanat Anlayışı:</b> **"Sanat sanat içindir"** ilkesi mutlak olarak benimsenmiştir.</li>
+        <li><b>Dil ve Üslup:</b> Türk edebiyatının en ağır, en yapay ve anlaşılması en güç dönemidir. Şairler sözlüklerden daha önce hiç duyulmamış Arapça-Farsça sözcükleri (Örn: *saat-ı semenfâm* - yasemin renkli saatler) seçip şiire doldurmuşlardır.</li>
+        <li><b>Şiirde Yenilikler:</b> Divan edebiyatı nazım şekilleri tamamen tasfiye edilmiştir. Batı'dan alınan <b>Sonet, Terzarima</b> ile Divan biçiminin bozularak Batılılaştırılmış hali olan <b>Serbest Müstezat</b> kullanılmıştır. Şiirde cümlenin bir dizede bitmeyip sonraki dizelere taşması olayına (<b>Anjambman</b>) geçilmiş, böylece şiir düz yazıya yaklaştırılmıştır.</li>
+        <li><b>Roman Tekniği:</b> **Tanzimat'taki teknik kusurların (akışı kesip bilgi verme, tesadüfi aşklar) tamamı bu dönemde yok edilmiştir.** Batılı anlamda ilk kusursuz, teknik açıdan muazzam realist romanlar bu dönemde yazılmıştır.</li>
+    </ul>
+
+    <h2>2. ÖSYM ODAKLI BAŞYAPIT ROMANLAR VE KARAKTER ŞİFRELERİ</h2>
+    <p>Servet-i Fünun denildiğinde ÖSYM'nin soru bankalarında döne döne yokladığı iki büyük dev roman karakter haritası vardır:</p>
+
+    <div class="memory-box">
+        <strong>👑 MAİ VE SİYAH — Halit Ziya Uşaklıgil (Neslin Aynası):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Hayal-hakikat çatışması, Servet-i Fünun neslinin trajedisi, matbaa dünyası, İstanbul geceleri.
+        <br>&bull; <b>Karakter Analizi:</b> <b>Ahmet Cemil</b>; edebiyat sevdalısı, hülyalı, Servet-i Fünun sanatçısını temsil eden şair bir gençtir. Hayalleri mavidir (<b>Mai</b>). Büyük bir şiir kitabı yazıp meşhur olmak, kız kardeşi İkbal'i mutlu etmek ve patronunun kızı Lamia ile evlenmek ister. Ancak gerçekler siyahtır (<b>Siyah</b>). Şiiri eleştirilir, kız kardeşi eniştesi Vehbi Bey'in eziyetleriyle ölür, Lamia başkasıyla evlenir. Ahmet Cemil yazdığı şiir kitabını fırına atıp yakar ve annesini alarak zifiri karanlık bir gecede İstanbul'u terk eder.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 AŞK-I MEMNU — Halit Ziya Uşaklıgil (İlk Büyük Kusursuz Roman):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Yasak aşk, Boğaziçi yalı hayatı, psikolojik derinlik, realizm zirvesi.
+        <br>&bull; <b>Karakter Şeması:</b> <b>Adnan Bey</b> (zengin, yaşlı dul İstanbullu beyefendi), <b>Bihter</b> (Adnan Bey'le sırf zenginliği ve annesi Firdevs Hanım'a nispet için evlenen genç, ihtiraslı kadın), <b>Behlül</b> (Adnan Bey'in çapkın, sorumsuz yeğeni), <b>Nihal</b> (Adnan Bey'in çıtkırıldım, hassas kızı). Bihter yalıdaki yalnızlığından ve Behlül'ün flörtöz tavırlarından dolayı yeğen Behlül ile yasak aşka yelken açar. Behlül daha sonra paçayı kurtarmak için Nihal ile evlenmeye kalkınca Bihter gerçeği kaldıramaz ve intihar eder.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 EYLÜL — Mehmet Rauf (İlk Psikolojik Roman):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Ruh tahlilleri, melankoli, yasak aşk, yalı yangını trajedisi.
+        <br>&bull; <b>Karakterler:</b> <b>Suat</b> (Necip'e aşık olan evli kadın), <b>Süreyya</b> (Suat'ın balık tutma meraklısı, dünyadan kopuk eşi), <b>Necip</b> (Süreyya'nın yakın arkadaşı, Suat'a platonik aşık olan genç). Necip ve Suat arasındaki platonik ve gizli aşk, Suat'ın eldiveninin Necip tarafından saklanmasıyla sembolleşir. Romanın sonunda yalıda çıkan büyük yangında Süreyya kaçarken, Necip içeride kalan Suat'ı kurtarmak için alevlerin arasına dalar ve ikisi de yanarak can verir.
+    </div>
+
+    <h2>3. SERVET-İ FÜNUN DÖNEMİNİN REKOR KIRAN SANATÇILARI</h2>
+    <ul>
+        <li><b>Tevfik Fikret:</b> Servet-i Fünun şiirinin lideridir. **Parnasizm** akımının etkisindedir, şiiri adeta bir kuyumcu gibi işler. Topluluk dağıldıktan sonra bireysellikten sıyrılıp aşırı toplumsal, sert muhalif bir çizgiye kaymıştır. İstanbul'u kirli bir fahişeye benzettiği ünlü <b>Sis</b> şiiri ve çocuk şiirlerini topladığı hece ölçülü tek eseri <b>Şermin</b> ÖSYM'nin en popüler soru tuzaklarındandır.</li>
+        <li><b>Cenap Şahabettin:</b> Şiirde **Sembolizm** ve Parnasizm akımlarını birleştirmiştir. Şiirde müzikaliteyi her şeyin üstünde tutar. En ünlü eseri, kışın yağan karın dökülüşünü kelimelerin tınısıyla müzikal olarak hissettirdiği <b>Elhân-ı Şitâ (Kış Ezgileri)</b> şiiridir. Şiirlerinde hece ölçüsünü **"parmak hesabı"** diyerek aşağılamış, sadece aruz kullanmıştır.</li>
+        <li><b>Halit Ziya Uşaklıgil:</b> Türk romanının babası, kurucusudur. Realizmin ve natüralizmin zirvesidir. Romanlarında İstanbul'un elit ve zengin tabakasını (yalı hayatını) anlatırken, hikayelerinde Anadolu ve halkı sade bir dille işlemiştir. *Kırık Hayatlar, Nemide, Sefile* diğer önemli romanlarıdır. Ayrıca edebiyatımızdaki ilk mensur şiir örneklerini (<b>Mensur Şiirler</b>) o yazmıştır.</li>
+    </ul>
+
+    <h2>4. FECR-İ ÂTİ TOPLULUĞU (1909 - 1912)</h2>
+    <p>Servet-i Fünun dergisi kapandıktan sonra oluşan edebi boşluğu doldurmak amacıyla İstanbul'da bir araya gelen gençlerin kurduğu gruptur. **Türk edebiyatı tarihinde ilk kez bir beyanname (bildiri) yayınlayarak kendilerini halka duyuran ilk topluluktur.** <br><b>💡 Sloganları:</b> <i>"Sanat şahsi ve muhteremdir (kişisel ve saygıdeğerdir)"</i> ilkesidir. Ancak Servet-i Fünun'u taklit etmekten öteye gidememişler, kısa sürede Trablusgarp ve Balkan Savaşları'nın patlamasıyla Milli Edebiyat akımına katılarak dağılmışlardır.</p>
+
+    <div class="warning-box">
+        <strong>⚠️ TEK KİŞİLİK DEV KADRO — AHMET HAŞİM:</strong>
+        <br>Fecr-i Âti dağıldığı halde çizgisini ve saf şiir ilkesini asla bozmayan, Milli Edebiyata asla katılmayan tek dev isim <b>Ahmet Haşim</b>'dir. **Sembolizm** ve Empresyonizmin doruk noktasıdır. Şiirlerinde çocukluk anıları, melankoli, göller, leylekler ve akşam vakitleri hakimdir. Şiir hakkındaki görüşlerini "Şiir Hakkında Bazı Mülahazalar" makalesinde açıklamıştır. 
+        <br><i>En Kritik Eserleri:</i> <b>Göl Saatleri</b>, <b>Piyale</b> (Şiir kitapları); <i>Bize Göre</i>, <i>Gurabahane-i Laklakan</i> (Düz yazıları); <i>Frankfurt Seyahatnamesi</i> (Gezi yazısı).
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Servet-i Fünun edebiyatının genel karakteristik özellikleri ve romandaki yapısal dönüşümü incelendiğinde; aşağıda verilen ifadelerden hangisi bu döneme ait bir nitelik <b>değildir</b>?</div>
+        <ul class="options-list">
+            <li>A) Tanzimat romanında görülen yazarın araya girip bilgi vermesi gibi teknik kusurlar tamamen tasfiye edilmiştir.</li>
+            <li>B) Fransız edebiyatı örnek alınarak Sonet, Terzarima ve Serbest Müstezat gibi nazım şekilleri şiire dahil edilmiştir.</li>
+            <li>C) "Sanat toplum içindir" felsefesiyle dilde büyük bir sadeleşme hareketi başlatılmış ve tiyatro altın çağını yaşamıştır.</li>
+            <li>D) Şiirde cümle bir dizede tamamlanmayıp sonraki dizelere taşırılmış (Anjambman) ve şiir düz yazıya yaklaştırılmıştır.</li>
+            <li>E) Romanlarda mekan mutlak olarak İstanbul (yalı ve konaklar), akım ise Realizmdir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Servet-i Fünun'un edebi kimliğini ameliyat edelim: Kusursuz roman tekniği (A), Batılı nazım şekilleri (B), anjambman uygulaması (D) ve İstanbul mekanlı realizm (E) dönem şifreleriyle tam örtüşür.
+            <br>• Ancak C seçeneğindeki iddia tamamen asılsızdır. Servet-i Fünun dönemi "Sanat toplum içindir" değil, katı bir **"Sanat sanat içindir"** dönemidir. Dilde sadeleşme şöyle dursun, dil tam aksine Türk tarihinin en ağır ve yapay haline bürünmüştür. Ayrıca baskıcı yönetim ortamından dolayı sahneler kapanmış, **tiyatro bu dönemde neredeyse tamamen durmuş, felç olmuştur**.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Servet-i Fünun neslinin o hülyalı, karamsar, hayal ile hakikat arasında sıkışmış psikolojisini adeta bir ayna gibi yansıtan; başkahramanı **Ahmet Cemil**'in mavi hayallerle başlayıp siyah bir gecede hüsranla biten edebi hayatını, kız kardeşi İkbal'in trajedisini ve Lamia'ya duyduğu imkansız aşkı konu alan Halit Ziya şaheseri aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Aşk-ı Memnu</li>
+            <li>B) Kırık Hayatlar</li>
+            <li>C) Mai ve Siyah</li>
+            <li>D) Eylül</li>
+            <li>E) Sefile</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karakter ve anahtar kelime eşleştirmesini yapalım: "Ahmet Cemil", "Kız kardeşi İkbal", "Lamia", "Hayal-hakikat çatışması" ve "Mai-Siyah metaforları".
+            <br>• Bu unsurların tamamı Halit Ziya Uşaklıgil'in Servet-i Fünun sanatçı kuşağını sembolize ettiği ünlü sosyo-edebi romanı <b>Mai ve Siyah</b>'a aittir. Roman adını Ahmet Cemil'in umutlarını temsil eden mavi gökyüzünden ve hüsranını temsil eden siyah Haliç sularından alır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Servet-i Fünun şiirinin iki büyük kutbu olan Tevfik Fikret ve Cenap Şahabettin'in edebi çizgileri karşılaştırıldığında; aşağıda verilen özelliklerden hangisi **sadece Cenap Şahabettin'e özgüdür (Tevfik Fikret'te görülmez)**?</div>
+        <ul class="options-list">
+            <li>A) Şiirlerini aruz ölçüsüyle kaleme alma</li>
+            <li>B) Parnasizm akımının biçimsel mükemmelliğinden etkilenme</li>
+            <li>C) Hayatının hiçbir döneminde hece ölçüsünü kullanmayıp onu "parmak hesabı" diyerek küçümseme, toplumsal konulara ise hiç girmeme</li>
+            <li>D) Nazım şekli olarak Serbest Müstezat'ı deneme</li>
+            <li>E) Kulak için kafiye anlayışını savunma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İki dev şairin ince ayrım çizgilerini denetleyelim: Aruz kullanma (A), parnasizm (B), serbest müstezat (D) ve kulak için kafiye (E) iki şair için de ortaktır.
+            <br>• Ancak C seçeneğindeki durum sadece <b>Cenap Şahabettin</b>'e mühürlüdür. Tevfik Fikret, hayatının son döneminde çocuklar için yazdığı "Şermin" kitabında **hece ölçüsünü** kullanmış ve topluluk dağıldıktan sonra aşırı toplumsal/siyasi şiirler yazmıştır. Cenap Şahabettin ise hayatı boyunca hece ölçüsünü küçümsemiş, ona "parmak hesabı" demiş, asla heceyle yazmadığı gibi **toplumsal/siyasi konulara da ömrü boyunca zerre kadar bulaşmamıştır**.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Edebiyat tarihinde bir ilke imza atarak "Sanat şahsi ve muhteremdir" sloganıyla **ilk kez bir bildiri (beyanname) yayınlayıp** kurulan, ancak Servet-i Fünun'un gölgesinde kalmaktan kurtulamayıp kısa sürede dağılan edebi topluluk aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yedi Meşaleciler</li>
+            <li>B) Beş Hececiler</li>
+            <li>C) Fecr-i Âti Topluluğu</li>
+            <li>D) Garip Akımı</li>
+            <li>E) İkinci Yeni Ekolü</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorudaki o can alıcı tarihi edebi hamleyi yakalayalım: "İlk kez bir bildiri/beyanname yayınlama" ve "Sanat şahsi ve muhteremdir ilkesi".
+            <br>• 1909 yılında Hilal gazetesinin matbaasında toplanarak Servet-i Fünun'a tepki olarak doğan, ancak felsefe olarak onu taklit eden, Türk edebiyatında resmi bir bildiriyle sahneye çıkan İLK topluluk <b>Fecr-i Âti</b> (Geleceğin Şafağı) topluluğudur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Fecr-i Âti topluluğu dağıldığı halde edebi çizgisini ve saf şiir anlayışını ölene kadar bozmayan; "Şiir anlaşılmak için değil, duyulmak içindir" diyerek Sembolizm ve Empresyonizmin Türk şiirindeki zirvesini kuran, akşam vakitleri ve melankoli şairi kimdir ve en meşhur iki şiir kitabı hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yahya Kemal &rarr; Kendi Gök Kubbemiz - Eski Şiirin Rüzgarıyla</li>
+            <li>B) Ahmet Haşim &rarr; Göl Saatleri - Piyale</li>
+            <li>C) Tevfik Fikret &rarr; Rubab-ı Şikeste - Haluk'un Defteri</li>
+            <li>D) Cenap Şahabettin &rarr; Tamat - Elhan-ı Şita</li>
+            <li>E) Cahit Sıtkı Tarancı &rarr; Otuz Beş Yaş - Düşten Güzel</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraftaki o ödün vermez saf sembolist şair şifrelerini birleştirelim: "Fecr-i Ati'ye sadık kalma", "Şiir duyulmak içindir ilkesi" ve "Akşam vakitleri sevdası".
+            <br>• Bu özellikler Türk şiirinin emprenyonist ve sembolist piri <b>Ahmet Haşim</b>'i ilan eder. Onun sembolist şiir sanatını icra ettiği ve edebiyat dünyasına miras bıraktığı iki ölümsüz şiir kitabı ise <b>Göl Saatleri</b> ve <b>Piyale</b>'dir. (Piyale'nin önsözü "Şiir Hakkında Bazı Mülahazalar" makalesidir). Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

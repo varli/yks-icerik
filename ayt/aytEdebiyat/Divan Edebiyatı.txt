@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 5: Divan Edebiyatı - I</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #581c87, #4338ca); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #e9d5ff; font-style: italic; }
+        h2 { color: #581c87; font-size: 16pt; border-left: 6px solid #6b21a8; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #4338ca; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f3e8ff; border: 1px dashed #a855f7; border-left: 5px solid #9333ea; padding: 15px; margin: 18px 0; border-radius: 4px; color: #3b0764; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #581c87; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #581c87; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #581c87; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #581c87; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 5: DİVAN EDEBİYATI - I</h1>
+        <p>"Sarayın Soyut Estetiği: Aruzun Matematiği, Nesir Geleneği ve Nazım Şekillerinin Yapısal Analizi"</p>
+    </div>
+
+    <h2>1. DİVAN EDEBİYATININ GENEL KARAKTERİ VE ZİHNİYETİ</h2>
+    <p>13. yüzyıldan 19. yüzyıla kadar saray ve medrese çevresinde gelişen, Arap ve Fars edebiyatlarının estetik kalıplarından beslenen aristokrat bir edebiyat geleneğidir. Dil; Türkçe, Arapça ve Farsça kelimelerin harmanlanmasıyla oluşan son derece ağır, süslü ve sanatlı <b>Osmanlı Türkçesi</b>dir. Ölçü her zaman **aruz ölçüsü**, baskın nazım birimi **beyit**, hakim kafiye türü ise **zengin ve tam kafiye**dir. Konudan ziyade konunun işleniş biçimi, yani "üslup ve kusursuz form" ön plandadır. Şiirde soyut, idealize edilmiş bir sevgili ve kalıplaşmış mecazlar (<b>mazmunlar</b>; örn: kirpik için ok, kaş için yay) kullanılır.</p>
+
+    <h2>2. BEYİTLERLE KURULAN NAZIM BİÇİMLERİ (ŞABLONLAR)</h2>
+    <p>Divan şiirinin ana iskeletini oluşturan, her biri ikişer dizelik bloklardan (beyit) meydana gelen nazım şekilleridir:</p>
+
+    <h3>A) Gazel</h3>
+    <p>Aşk, sevgi, şarap, kadın ve güzellik gibi lirik konuları işleyen en popüler nazım şeklidir. Beyit sayısı genellikle **5-15** arasındadır. Kafiye örgüsü: <b>"aa - ba - ca - da - ea..."</b> şeklindedir.
+    <br>&bull; <b>Matla:</b> İlk beyittir (Kendi içinde uyaklı olan "aa" beyiti).
+    <br>&bull; <b>Makta:</b> Son beyittir (Şairin lakabının yani <b>mahlasının</b> geçtiği beyit).
+    <br>&bull; <b>Beytü'l-Gazel (Şah Beyit):</b> Gazelin en güzel, en vurucu beyitidir.
+    <br>&bull; <b>Yek-âhenk Gazel:</b> Tüm beyitlerinde aynı konunun işlendiği gazellerdir.
+    <br>&bull; <b>Yek-âvâz Gazel:</b> Her beyiti aynı ses kalitesinde ve güzellikte olan gazellerdir.</p>
+
+    <h3>B) Kaside</h3>
+    <p>Devlet büyüklerini, padişahları veya din büyüklerini **övebilmek** amacıyla yazılan uzun şiirlerdir. Beyit sayısı **33-99** arasındadır. Kafiye örgüsü gazel gibidir (aa - ba - ca...). Kasidenin ilk beyitine <i>matla</i>, son beyitine <i>makta</i>, en güzel beyitine <i>beytü'l-kaside (taç beyit)</i> denir.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM'NİN EN SEVDİĞİ KASİDE BÖLÜMLERİ (SIRA ASLA DEĞİŞMEZ):</strong>
+        <br>1. <b>Nesib / Teşbib:</b> Giriş bölümüdür. Genelde bahar, kış, bayram gibi tasvirler yapılır.
+        <br>2. <b>Girizgâh:</b> Tasvir bölümünden asıl övgüye geçişi sağlayan tek veya çift beyitlik köprüdür.
+        <br>3. <b>Medhiye:</b> Kasidenin yazılma amacıdır. Kaside sunulan kişiye abartılı övgüler dizilir.
+        <br>4. <b>Tegazzül:</b> Kasidenin arasına, aynı ölçüyle sıkıştırılmış bir **gazel** bölümüdür (Zorunlu değildir).
+        <br>5. <b>Fahriye:</b> Şairin kendi şairliğini, dehasını övdüğü, meydan okuduğu bölümdür.
+        <br>6. <b>Dua:</b> Kaside sunulan kişinin ömrü, başarısı ve devleti için Allah'a yalvarılan son bölümdür.
+    </div>
+
+    <h3>C) Mesnevi</h3>
+    <p>Günümüzün roman ve hikayesinin Divan edebiyatındaki tam karşılığıdır. Savaş, aşk, din, ahlak ve şehir tasvirleri gibi uzun olay anlatımları mesneviyle yapılır. Beyit sayısında hiçbir sınır yoktur (binlerce beyit olabilir).
+    <br><b>💡 Formül:</b> Aruzun kısa kalıplarıyla yazılır ve **her beyit kendi içinde uyaklıdır**: <b>"aa - bb - cc - dd - ee..."</b>. Bu durum şaire inanılmaz bir yazım kolaylığı sağlar. Aynı şairin yazdığı 5 mesnevinin bütününe <b>Hamse</b> denir (Edebiyatımızda ilk hamse sahibi: <i>Ali Şîr Nevâî</i>'dir).</p>
+
+    <h3>D) Kıta ve Müstezat</h3>
+    <p>&bull; <b>Kıta:</b> Genelde iki beyitten (4 dize) oluşan, matla beyiti olmayan, felsefi ve toplumsal konuları işleyen nazım şeklidir (ab - cb).</p>
+    <p>&bull; <b>Müstezat:</b> Gazelin her uzun dizesinin altına "ziyade" adı verilen kısa birer dize eklenmesiyle oluşan (bir uzun, bir kısa) özel bir şekildir.</p>
+
+    <h2>3. DÖRTLÜKLERLE VE BENTLERLE KURULAN NAZIM BİÇİMLERİ</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Nazım Biçimi</th>
+                <th>Birim Yapısı</th>
+                <th>Kafiye Şeması</th>
+                <th>ÖSYM Nokta Atışı Ayırt Edici Özellikleri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Rubai</b></td>
+                <td>Tek Drtlük</td>
+                <td>a a x a</td>
+                <td>Fars edebiyatından geçmiştir. Tasavvufi, felsefi, derin düşünceler işlenir. Kendine has **24 özel aruz kalıbıyla** yazılır. Mahlas kullanılmaz. (En büyük ustası: <i>Ömer Hayyam</i>).</td>
+            </tr>
+            <tr>
+                <td><b>Tuyuğ</b></td>
+                <td>Tek Drtlük</td>
+                <td>a a x a</td>
+                <td><b>Türklerin Divan edebiyatına kazandırdığı milli nazım şeklidir.</b> Maniyle aynı şemadadır. Maninin aruzlu halidir. Sadece aruzun "Fâilâtün Fâilâtün Fâilün" kalıbıyla yazılır. (En büyük ustası: <i>Kadı Burhaneddin</i>).</td>
+            </tr>
+            <tr>
+                <td><b>Şarkı</b></td>
+                <td>Bentler (3-5)</td>
+                <td>aaaa - bbba</td>
+                <td><b>Türklerin Divan edebiyatına kazandırdığı ikinci milli nazım şeklidir.</b> Halk edebiyatındaki türkünün karşılığıdır. Bestelenmek için yazılır. Her bendin 3. dizesine <b>Miyan</b> (en dokunaklı yer), 4. dizesine ise aynen tekrarlanan <b>Nakarat</b> denir. (En büyük ustası: 18. yy'da <i>Nedim</i>).</td>
+            </tr>
+            <tr>
+                <td><b>Murabba</b></td>
+                <td>Bentler (3-7)</td>
+                <td>aaaa - bbba</td>
+                <td>Dörder dizelik bentlerden oluşur. Şarkıya benzer ancak şarkı gibi bestelenme zorunluluğu ve nakarat kuralı yoktur. Felsefi, dini, lirik her konu işlenebilir. (En büyük ustası: <i>Taşlıcalı Yahya</i>).</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>4. DİVAN EDEBİYATI NESİR (DÜZ YAZI) GELENEĞİ</h2>
+    <p>Şiir kadar ön planda olmasa da gelişmiş bir nesir türü de mevcuttur. Düz yazıda cümleleri birbirine bağlayan uyaklara <b>Seci</b> (İç kafiye) denir. Nesir üç gruba ayrılır: <i>Sade Nesir</i> (Halk için, yalın dil; örn: Mercimek Ahmet - Kabusname), <i>Süslü Nesir</i> (Sanat göstermek için, aşırı ağır dil; örn: Sinan Paşa - Tazarruname) ve <i>Orta Nesir</i> (Tarih ve coğrafya kitapları).</p>
+
+    <div class="memory-box">
+        <strong>🧠 HAFIZA KARTLARI — EN KRİTİK NESİR (DÜZ YAZI) TÜRLERİ:</strong>
+        <br>&bull; <b>Tezkire:</b> Günümüzdeki biyografi/antolojinin tam karşılığıdır. Şairlerin hayatını ve eserlerini anlatır. Türk edebiyatındaki ilk şairler tezkiresi Ali Şîr Nevâî'nin yazdığı <b>"Mecâlisü'n-Nefâis"</b>tir. Anadolu sahasındaki ilk tezkire ise Sehî Bey'in <b>"Heşt Behişt"</b>idir.
+        <br>&bull; <b>Sefaretname:</b> Osmanlı elçilerinin gittikleri yabancı ülkelerdeki gözlemlerini yazdıkları gezi-rapor kitaplarıdır. En ünlüsü Yirmisekiz Çelebi Mehmed'in <b>"Fransa Sefaretnamesi"</b>dir.
+        <br>&bull; <b>Seyahatname:</b> Gezi yazısı kitabıdır. En büyüğü Evliya Çelebi'nin 10 ciltlik muazzam <b>"Seyahatname"</b>sidir.
+        <br>&bull; <b>Şehrengiz:</b> Bir şehrin (genelde İstanbul, Edirne, Bursa) güzelliklerini ve o şehrin güzel insanlarını anlatan manzum veya nesir eserlerdir.
+    </div>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Divan edebiyatına ait bir kasidenin bölümleri incelendiğinde; şairin kaside sunduğu padişahı veya devlet büyüğünü doğrudan övmeye geçmeden hemen önce, kasidenin arasına aynı ölçü ve uyakla sıkıştırdığı, aşk ve lirik duyguları işleyen **gazel bölümüne** verilen isim aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Nesib</li>
+            <li>B) Medhiye</li>
+            <li>C) Tegazzül</li>
+            <li>D) Fahriye</li>
+            <li>E) Girizgâh</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kasidenin o katı hiyerarşik yapısını deşifre edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Nesib/Teşbib giriş tasviridir. Girizgâh övgüye köprüdür. Medhiye asıl övgüdür. Fahriye şairin kendini övmesidir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Şairler kasidenin monotonluğunu ve ciddiyetini kırmak amacıyla, kasidenin içine bazen kasideyle aynı ölçüye sahip bağımsız bir gazel yerleştirirler. Kelime kökü de zaten "gazel" sözcüğünden türeyen bu bölüme edebiyatta <b>Tegazzül</b> adı verilir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Divan şiirinde biçimsel özellikler şairlerin özgürlük alanını belirler. Buna göre; **her beyiti tamamen kendi içinde bağımsız olarak kafiyelenen (aa - bb - cc - dd...)**, beyit sayısı yönünden hiçbir üst sınırı bulunmayan ve bu sayede olay anlatımlarında (roman/hikaye gibi) bir şablon olarak kullanılan nazım biçimi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Gazel</li>
+            <li>B) Kaside</li>
+            <li>C) Kıta</li>
+            <li>D) Mesnevi</li>
+            <li>E) Murabba</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şiir biçimlerinin kafiye matematiğini kıyaslayalım: Gazel ve kasidede "aa-ba-ca..." düzeni vardır. Bu düzen şairi binlerce beyit boyunca aynı "a" uyağını bulmaya zorlar, bu da uzun hikayeler yazmayı imkansız kılar.
+            <br>• Ancak <b>Mesnevi</b> nazım biçiminde her beyit kendi içinde bağımsız kafiyelendiği için (aa - bb - cc...) şair her iki dizede bir yeni bir uyağa geçebilir. Bu muazzam yazım kolaylığı sayesinde mesneviler edebiyatımızda binlerce beyit süren olay anlatımlarının, aşk destanlarının ve dini hikayelerin (günümüzün romanı) ana kalıbı olmuştur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Edebi türlerin kökenleri ve milli aidiyetleri ÖSYM'nin en çok yokladığı teorik sınırlardandır. Buna göre; aşağıda verilen çiftlerden hangisindeki nazım biçimlerinin **ikisi de doğrudan Türk şairler tarafından icat edilip** Divan edebiyatı havuzuna kazandırılmıştır?</div>
+        <ul class="options-list">
+            <li>A) Rubai - Mesnevi</li>
+            <li>B) Tuyuğ - Şarkı</li>
+            <li>C) Gazel - Kaside</li>
+            <li>D) Murabba - Müstezat</li>
+            <li>E) Kıta - Rubai</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Divan edebiyatındaki nazım biçimlerinin köken haritasını çıkaralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Gazel, Kaside, Kıta, Mesnevi ve Müstezat Türk edebiyatına **Arap ve Fars (İran)** edebiyatlarından geçmiştir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Rubai tamamen Fars (İran) edebiyatının ürünüdür.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak Halk edebiyatındaki mani kültüründen beslenerek tek dörtlükle oluşturulan <b>Tuyuğ</b> ile türkü geleneğinden beslenerek bestelenmek amacıyla yazılan <b>Şarkı</b> biçimleri tamamen **Türk şairlerin dehasıyla icat edilmiş milli nazım şekilleridir**. Dolayısıyla cevap B şıkkıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Divan nesri (düz yazısı) ile ilgili aşağıda verilen terim ve açıklama eşleştirmelerinden hangisi ÖSYM müfredat kriterlerine göre **yanlıştır**?</div>
+        <ul class="options-list">
+            <li>A) Seci: Divan nesrinde cümle içlerinde veya sonlarında yapılan düz yazı uyağıdır.</li>
+            <li>B) Sefaretname: Osmanlı elçilerinin görevli gittikleri dış ülkelerdeki izlenimlerini aktardıkları rapor nitelikli eserlerdir.</li>
+            <li>C) Tezkire: Şairlerin hayat hikayelerini, edebi kişiliklerini ve şiir örneklerini toplayan günümüzün biyografi türüdür.</li>
+            <li>D) Münşeat: Divan edebiyatında tamamen sade ve yalın bir dille yazılmış, içinde hiç yabancı kelime barındırmayan halk masalları kitaplarıdır.</li>
+            <li>E) Şehrengiz: Bir şehrin tarihi, mimari güzelliklerini ve o şehrin insanlarını sanatsal bir dille öven eserlerdir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Nesir terimlerini tek tek denetleyelim: Seci (A), Sefaretname (B), Tezkire (C) ve Şehrengiz (E) tanımları tamamen doğru ve edebiyat tarihimizle örtüşmektedir.
+            <br>• Ancak D seçeneğindeki ifade baştan aşağı hatalıdır. <b>Münşeat</b>; Divan edebiyatında süslü düz yazıların, resmi veya özel mektupların, devlet belgelerinin bir araya toplandığı mektup/nesir mecmualarına (derlemelerine) verilen isimdir. Halk masalları kitabı olmadığı gibi, dili de aksine **en ağır, en süslü nesir (süslü nesir)** örneğidir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 
+            <div class="poem-sample">
+                Mef'ûlü / Fâ'ilâtü / Mefâ'îlü / Fâ'ilün<br>
+                Gönlümde bir ateş var, sönmüyor neyleyim (a)<br>
+                Aşkın elinden her an feryat eyleyim (a)<br>
+                Gözyaşım dökülür hep durmaz sel gibi (x)<br>
+                Yandım bu genç yaşımda, bitti her şeyim (a)
+            </div>
+            Yukarıda verilen, tek bir dörtlükten oluşan, "aaxa" kafiye şemasına sahip ve aruzun özel bir kalıbıyla yazılmış bu eserin nazım biçimi belirlenirken; **Tuyuğ değil de Rubai** olduğuna hükmedilmesi için aşağıdaki kriterlerden hangisi tek başına yeterlidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Kafiye şemasının "aaxa" şeklinde dizilmesi</li>
+            <li>B) Tek bir dörtlükten meydana gelmesi</li>
+            <li>C) Şiirde mahlas kullanılmamış olması</li>
+            <li>D) Yazımında "Fâilâtün Fâilâtün Fâilün" dışındaki özel aruz kalıplarının tercih edilmesi</li>
+            <li>E) Şiirin lirik ve duygusal bir konuyu işlemesi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin en zorlu tuzaklarından biri olan Rubai-Tuyuğ ayrımının matematiksel sınırını görelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - İki nazım biçimi de tek dörtlükten oluşur (B elenir). İkisi de "aaxa" şemasındadır (A elenir). İkisinde de mahlas bulunmaz (C elenir). İkisi de benzer konuları işleyebilir (E elenir).
+            <br>• Bu iki türü birbirinden ayıran tek ve en kesin turnusol kağıdı **aruz ölçüsünün kalıbıdır**. Tuyuğ sadece ve sadece tek bir kalıpla yazılır: <i>"Fâilâtün Fâilâtün Fâilün"</i>. Eğer bir dörtlük bu kalıbın **dışındaki** aruz kalıplarıyla (örn: Mef'ûlü, Mefâîlün vb.) yazılmışsa o eser kesinlikle ve tartışmasız bir <b>Rubai</b>'dir. Dolayısıyla doğru şık D'dir.
+        </div>
+    </div>
+
+</body>
+</html>

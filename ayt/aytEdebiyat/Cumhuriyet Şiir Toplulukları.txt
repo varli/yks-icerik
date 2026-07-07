@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 11: Cumhuriyet Şiir Toplulukları</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #4f46e5, #7c3aed); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ede9fe; font-style: italic; }
+        h2 { color: #4f46e5; font-size: 16pt; border-left: 6px solid #6366f1; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #7c3aed; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f5f3ff; border: 1px dashed #8b5cf6; border-left: 5px solid #7c3aed; padding: 15px; margin: 18px 0; border-radius: 4px; color: #2e1065; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #4f46e5; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #4f46e5; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #4f46e5; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #4f46e5; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 11: CUMHURİYET ŞİİR TOPLULUKLARI</h1>
+        <p>"Gelenekten Avangarda: Saf Şiirin Gizeminden Garip İhtilaline, İkinci Yeni'nin Soyut İmgelerinden Toplumcu Gerçekçiliğe"</p>
+    </div>
+
+    <h2>1. ÖZ (SAF) ŞİİR ANLAYIŞI VE YEDİ MEŞALECİLER</h2>
+    <p>Ahmet Haşim ve Yahya Kemal’in estetik mirasından beslenen, şiiri her türlü ideolojinin, siyasetin ve didaktikliğin üzerinde tutan akımdır. 
+    <br><b>💡 Temel Felsefesi:</b> **"Şiir bir şey anlatmak için değil, sadece güzel olmak için yazılır."** Kelimelerin ses uyumu, imge zenginliği ve biçim kusursuzluğu ön plandadır. İçsel bir gizem, melankoli, rüya ve zaman temaları işlenir.
+    <br>&bull; <b>En Önemli Temsilcileri:</b> Ahmet Hamdi Tanpınar *(Zaman, rüya, bilinçaltı; Saatleri Ayarlama Enstitüsü, Huzur)*, Cahit Sıtkı Tarancı *(Ölüm, yaşama sevinci; Otuz Beş Yaş)*, Necip Fazıl Kısakürek *(Mistik, metafizik, korku, iç hesaplaşma; Çile, Kaldırımlar)*, Asaf Hâlet Çelebi *(Sezgisel, mistik, Doğu-Hint mitolojisi, "He" şiir kitabı)*.</p>
+
+    <h3>Yedi Meşaleciler (1928):</h3>
+    <p>Cumhuriyet döneminin **ilk şiir topluluğudur**. Beş Hececilerin o sığ, gerçeklikten uzak memleketçi şiirine tepki olarak doğmuşlardır. Sloganları: <i>"Canlılık, samimiyet ve daima yenilik"</i>tir. Ancak saf şiir çizgisinden öteye gidemeyip kısa sürede dağılmışlardır. (Kodlama: <b>Cevdet SAYSAM</b> - Cevdet Kudret Solok, Sabri Esat Siyavuşgil, Yaşar Nabi Nayır, Vasfi Mahir Kocatürk, Sabri Esat Siyavuşgil, Muammer Lütfi, Kenan Hulusi Koray (Tek hikayecidir)).
+    <br><b>⚠️ En Önemli Şairi:</b> Topluluğun şiir çizgisini ömür boyu sürdüren tek ismi, eşya ve ev tasvirleriyle ünlü <b>Ziya Osman Saba</b>'dır *(Sebil ve Güvercinler)*.</p>
+
+    <h2>2. TOPLUMCU GERÇEKÇİ ŞİİR (SERBEST NAZIM)</h2>
+    <p>Marksist-Sosyalist felsefeden beslenen, şiiri kitleleri harekete geçiren, ideolojik bir bayrak olarak gören akımdır. Estetik güzellik değil, **toplumsal fayda, işçi ve köylü sınıfının sömürülmesi, grevler, makineleşme ve devrim** konuları işlenir. Ölçü ve kafiye tamamen reddedilmiş, **serbest nazım** egemen kılınmıştır.</p>
+    <ul>
+        <li><b>Nazım Hikmet Ran:</b> Akımın kurucu babasıdır. Rusya'da gördüğü **Fütürizm** (Mayakovski) akımını Türk şiirine uyarlamış, kırık dizelerle basamaklı şiir formunu getirmiştir. *(835 Satır, Jokond ile Sî-Yâ-Û, Memleketimden İnsan Manzaraları)*.</li>
+        <li><b>Diğer Önemli Temsilciler:</b> Rıfat Ilgaz *(Hababam Sınıfı yazarı, Sınıf şiir kitabı)*, Ceyhun Atuf Kansu *(Dünyanın Bütün Çiçekleri)*, Arif Damar, Hasan Hüseyin Korkmazgil.</li>
+    </ul>
+
+    <h2>3. GARİP AKIMI (BİRİNCİ YENİ — 1941)</h2>
+    <p>Türk şiir tarihinde gerçekleşmiş **en radikal, en yıkıcı ihtilaldir**. **Orhan Veli Kanık**, **Melih Cevdet Anday** ve **Oktay Rifat Horozcu**'nun çıkardığı *Garip* adlı kitapla başlamıştır. Şiiri aristokratların, elitlerin tekelinden çıkarıp **küçük adamın (sıradan insanın)** günlük yaşamına indirgemişlerdir.</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ GARİP ŞİİRİNİN YIKICI İLKELERİ (HER ŞEYE KART):</strong>
+        <br>1. Ölçüye (hece/aruz) ve kafiyeye tamamen karşıdırlar (Şiir serbest olmalıdır).
+        <br>2. Edebi sanatlar, mecazlar, süslü kelimeler tamamen çöpe atılmalıdır (Şiir çıplak olmalıdır).
+        <br>3. Şiirin dili günlük konuşma, sokak dili olmalıdır.
+        <br>4. Şiire o güne kadar hiç girmemiş nasır, ceket, kundura gibi sıradan kelimeler ve Süleyman Efendi gibi sıradan insanlar girmelidir. (Örn: Orhan Veli - Kitabe-i Seng-i Mezar: *"Yazık oldu Süleyman Efendi'ye / Nasırından çektiği kadar hiçbir şeyden çekmedi"*).
+    </div>
+
+    <h2>4. İKİNCİ YENİ ŞİİR EKOLÜ (1950 - 1960)</h2>
+    <p>Garip akımının şiiri aşırı basitleştirmesine, adeta bir espri, fıkra düzeyine indirmesine tepki olarak doğan **aşırı soyut, kapalı ve elitist** bir şiir dalgasıdır. Ortak bir bildiriyle kurulmamışlar, bağımsız şairler aynı estetik çizgide birleşmişlerdir. **Sürrealizm** (bilinçaltı) ve Dadaizm akımlarından etkilenmişlerdir.</p>
+    <ul>
+        <li><b>Şiir Özellikleri:</b> Anlam tamamen kapatılmıştır. **"Şiir bir şey anlatmak zorunda değildir"** derler. Dilin mantık yapısını bozmuşlar, sözlükte olmayan yepyeni kelimeler (<b>Üvercinka, Cehennet, Gözistan</b>) uydurmuşlardır. Soyut imgeler, çağrışımlar ve entelektüel bir dil hakimdir.</li>
+        <li><b>Dev Kadro (Kodlama: ECE SÜTÇÜ):</b>
+            <br>&bull; <b>E</b>ce Ayhan *(Kınar Hanımın Denizleri, Bakışsız Bir Kedi Kara - Akımın en kapalı şairi)*.
+            <br>&bull; <b>C</b>emal Süreya *(Üvercinka, Göçebe, Beni Öp Sonra Doğur Beni - Akımın en erotik, lirik şairi)*.
+            <br>&bull; <b>E</b>dip Cansever *(Yerçekimli Karanfil, Masa da Masaymış Ha - Düşünce ve drama şairi)*.
+            <br>&bull; <b>S</b>ezai Karakoç *(Mistik-İslami çizgide bir İkinci Yenicidir. **Mona Roza** aşk şiiri ve Kör Körfez, Şahdamar eserleriyle bilinir)*.
+            <br>&bull; <b>Ü</b>lkü Tamer *(Soğuk Otların Altında)*.
+            <br>&bull; <b>T</b>urgut Uyar *(Göğe Bakma Durağı, Dünyanın En Güzel Arabistanı)*.
+            <br>&bull; <b>İ</b>lhan Berk *(Galile Denizi - Akımın uç beydi)*.
+        </li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 
+            <div class="poem-sample">
+                "Hiçbir şeyden çekmedi dünyada<br>
+                Nasırdan çektiği kadar;<br>
+                Hatta çirkin yaratıldığından bile<br>
+                O kadar müteessir değildi;<br>
+                Kundurası vurmadığı zamanlarda<br>
+                Anmazdı ama Allahın adını,<br>
+                Günahkar da sayılmazdı."
+            </div>
+            Orhan Veli Kanık'ın "Kitabe-i Seng-i Mezar" şiirinden alınan bu dizelerin **dil, üslup, ölçü ve konu özellikleri** dikkate alındığında; Türk şiirindeki hangi **akımın / topluluğun** manifestosunu yansıttığı söylenebilir?
+        </div>
+        <ul class="options-list">
+            <li>A) Yedi Meşaleciler</li>
+            <li>B) Öz (Saf) Şiir Ekolü</li>
+            <li>C) İkinci Yeni Akımı</li>
+            <li>D) Garip Akımı (Birinci Yeni)</li>
+            <li>E) Toplumcu Gerçekçi Şiir</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şiirin yapısal ve anlamsal kodlarını inceleyelim: 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Şiirde ölçü ve kafiye tamamen reddedilmiş, serbest yazılmıştır. 
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - İçerikte şairane, süslü, ulu kavramlar yerine günlük hayata dair en sıradan kelimeler (**nasır, kundura**) kullanılmıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kahraman olarak elit bir soylu değil, sıradan halktan bir insan olan "Süleyman Efendi" seçilmiştir.
+            <br>• Şiiri kalıplardan arındırarak sokağın, sıradan insanın sesine indirgeyen bu devrimsel yaklaşım, tam anlamıyla Orhan Veli öncülüğündeki <b>Garip Akımı (Birinci Yeni)</b>'nın imza niteliğindeki ilkeleridir. Cevap D'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Cumhuriyet dönemi şiir topluluklarının şiirsel dilleri karşılaştırıldığında; **"Gözistan, Üvercinka, Cehennet" gibi dilde bulunmayan yepyeni kelimeler uyduran, dilin mantıksal dil bilgisi yapısını bozarak anlamı tamamen kapatan ve sürrealizmden etkilenen** edebi topluluk hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Beş Hececiler</li>
+            <li>B) Garip Akımı</li>
+            <li>C) İkinci Yeni</li>
+            <li>D) Mistik Şiirciler</li>
+            <li>E) Hisarcılar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Soru kökündeki net ayırt edici şifreleri yakalayalım: "Yeni kelimeler uydurma (deformasyon)", "anlamı tamamen kapatma" ve "sürrealizm/bilinçaltı".
+            <br>• Garipçilerin şiiri aşırı basitleştirmesine tepki olarak doğan, Cemal Süreya, Turgut Uyar ve Edip Cansever gibi dev isimlerin omuzlarında yükselen, soyut imge dünyasını zirveye taşıyan topluluk <b>İkinci Yeni</b> ekolüdür. Anlam kapalılığı ve kelime uydurma onlara mühürlü bir özelliktir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Şiirlerinde "rüya, zaman, bilinçaltı ve geçmişe özlem" temalarını estetik birer imge olarak işleyen; "Ne içindeyim zamanın / Ne de büsbütün dışında" dizeleriyle zaman algısını felsefileştiren, Saf (Öz) Şiir anlayışının en büyük temsilcisi olan Cumhuriyet şair-yazarı kimdir?</div>
+        <ul class="options-list">
+            <li>A) Nazım Hikmet</li>
+            <li>B) Ahmet Hamdi Tanpınar</li>
+            <li>C) Necip Fazıl Kısakürek</li>
+            <li>D) Ziya Osman Saba</li>
+            <li>E) Orhan Veli Kanık</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin her yıl hiç sekmeden sorduğu o meşhur anahtar kelimeleri birleştirelim: **"Rüya, Zaman, Bilinçaltı"** kavram üçlemesi ve "Ne içindeyim zamanın" dizesi.
+            <br>• Bu kavramları şiirinin ve romanlarının (*Huzur, Saatleri Ayarlama Enstitüsü*) merkezine yerleştiren, hocası Yahya Kemal'in izinden giderek Saf Şiir anlayışını doruk noktasına taşıyan dev isim <b>Ahmet Hamdi Tanpınar</b>'dır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Rus şair Mayakovski'den etkilenerek Türk edebiyatına **Fütürizm (Gelecekçilik)** akımını sokan; ölçü ve kafiyeyi reddederek kırık dizelerle basamaklı şiir formunu getiren ve şiiri ideolojik, toplumcu bir mücadele bayrağı olarak gören "835 Satır" kitabının sahibi kimdir?</div>
+        <ul class="options-list">
+            <li>A) Rıfat Ilgaz</li>
+            <li>B) Faruk Nafiz Çamlıbel</li>
+            <li>C) Nazım Hikmet Ran</li>
+            <li>D) Attilâ İlhan</li>
+            <li>E) Sezai Karakoç</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şair şifrelerini doğrudan tarayalım: "Fütürizm akımı", "basamaklı şiir formu", "toplumcu gerçekçilik" ve <b>"835 Satır"</b> adlı ilk dev şiir kitabı.
+            <br>• Bu devrimsel serbest nazım özellikleri ve başyapıt, Türk edebiyatında toplumcu gerçekçi şiir ekolünün kurucu lideri olan <b>Nazım Hikmet Ran</b>'a aittir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 1928 yılında çıkan ve Cumhuriyet döneminin **ilk şiir topluluğu** olma unvanını taşıyan, Beş Hececilerin sığ memleketçiliğine karşı "Canlılık, samimiyet ve daima yenilik" sloganıyla ortaya çıkan ancak kısa sürede dağılan edebi grup aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yedi Meşaleciler</li>
+            <li>B) Garipçiler</li>
+            <li>C) İkinci Yeniciler</li>
+            <li>D) Mavi Akımı</li>
+            <li>E) Hisarcılar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorudaki tarihi edebi unvanı ve sloganı yakalayalım: "1928 yılı", **"Cumhuriyet döneminin İLK şiir topluluğu unvanı"** ve "Canlılık, samimiyet, daima yenilik sloganı".
+            <br>• Bu özelliklerin tamamı, Sabri Esat, Ziya Osman Saba ve Cevdet Kudret gibi gençlerin bir araya gelerek kurduğu <b>Yedi Meşaleciler</b> topluluğuna aittir. Edebiyat tarihi açısından Cumhuriyet'in ilk organize grubu olmaları sebebiyle ÖSYM tarafından çok önemsenirler. Doğru şık A'dır.
+        </div>
+    </div>
+
+</body>
+</html>

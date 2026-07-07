@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 12: Cumhuriyet Dönemi Roman ve Postmodernizm</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #0f172a, #334155); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #cbd5e1; font-style: italic; }
+        h2 { color: #0f172a; font-size: 16pt; border-left: 6px solid #475569; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #334155; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #f8fafc; border: 1px dashed #64748b; border-left: 5px solid #475569; padding: 15px; margin: 18px 0; border-radius: 4px; color: #0f172a; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #0f172a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #0f172a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #0f172a; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #0f172a; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 12: CUMHURİYET ROMAN VE POSTMODERNİZM</h1>
+        <p>"Kurgunun Sınırlarında: Gerçekçilikten Bilinç Akışına, Üstkurgudan Zaman Oyunlarına Devasa Kapanış"</p>
+    </div>
+
+    <h2>1. CUMHURİYET DÖNEMİ TÜRK ROMANININ DÖRT ANA DAMARI</h2>
+    <p>1923'ten günümüze uzanan süreçte Türk romanı ideolojik, estetik ve felsefi eğilimlerine göre dört temel grupta şekillenmiştir. ÖSYM her yıl bu grupların zihniyet ayrımını doğrudan test eder:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Roman Eğilimi (Grubu)</th>
+                <th>Temel Felsefesi ve İşlenen Temalar</th>
+                <th>ÖSYM Odaklı En Kritik Temsilcileri</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Toplumcu Gerçekçiler</b></td>
+                <td>Marksist felsefe. **Ağa-köylü, zengin-fakir, işçi-patron çatışması**, ezen-ezilen ilişkileri, köyden kente göçün yarattığı varoş hayatı, hapishane yaşamı. Realizm ve natüralizm.</td>
+                <td>Yaşar Kemal, Kemal Tahir, Orhan Kemal, Fakir Baykurt, Sadri Ertem, Talip Apaydın.</td>
+            </tr>
+            <tr>
+                <td><b>Bireyin İç Dünyasını Esas Alanlar</b></td>
+                <td>Freudyen psikoloji. **Ruh tahlilleri, yabancılaşma, yalnızlık, psikolojik krizler**, Doğu-Batı çatışmasının bireydeki vicdan azabı, ahlaki çöküş, kaçış. Nesnellik değil, öznellik hakimdir.</td>
+                <td>Peyami Safa, Ahmet Hamdi Tanpınar, Tarık Buğra, Mustafa Kutlu, Samiha Ayverdi.</td>
+            </tr>
+            <tr>
+                <td><b>Milli ve Dini Çizgiyi Sürdürenler</b></td>
+                <td>Milli Mücadele ruhu, **Atatürk devrimleri, Osmanlı tarihi, İslam ahlakı**, geleneksel değerlerin korunması, yanlış batılılaşmanın aile yapısına vurduğu darbeler, milli kimlik şuuru.</td>
+                <td>Tarık Buğra *(Küçük Ağa)*, Aka Gündüz, Emine Işınsu, Sevinç Çokum, Mustafa Necati Sepetçioğlu.</td>
+            </tr>
+            <tr>
+                <td><b>Modernistler ve Postmodernistler</b></td>
+                <td>Kronolojik zamanı ve klasik olay örgüsünü reddetme. **Kaos, ironi, oyun, üstkurgu, metinlerarasılık**, yalnızlaşan entelektüel bireyin bunalımı, gerçekliğin çok boyutluluğu.</td>
+                <td>Oğuz Atay, Yusuf Atılgan, Orhan Pamuk, Bilge Karasu, İhsan Oktay Anar, Adalet Ağaoğlu.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. MODERNİST / POSTMODERNİST ROMAN TEKNİKLERİ</h2>
+    <p>Postmodern romanda yazar, klasik "giriş-gelişme-sonuç" zincirini ve mutlak gerçeği kırar. Kurgunun kurgu olduğunu okuyucunun yüzüne çarpar. En popüler ÖSYM teknikleri şunlardır:</p>
+    <ul>
+        <li><b>Bilinç Akışı (Stream of Consciousness):</b> Karakterin zihninden geçen düzensiz, sıçramalı, mantık süzgecinden geçmemiş **tüm karmaşık düşüncelerin, çağrışımların dil bilgisi kuralları tamamen hiçe sayılarak** doğrudan okuyucuya aktarılmasıdır (İç konuşmadan farkı, dil bilgisi ve mantık bağlarının tamamen kopuk olmasıdır).</li>
+        <li><b>Üstkurgu (Metafiction):</b> Yazarın, romanın içinde **romanı nasıl yazdığını, kurguyu nasıl planladığını** anlatması, okuyucuyla konuşup bunun bir hayal ürünü olduğunu itiraf etmesidir.</li>
+        <li><b>Metinlerarasılık (Intertextuality):</b> Bir yazarın, eserinde başka bir yazarın metnine, kutsal kitaplara veya tarihi destanlara gönderme yapması, onları kendi metnine yedirmesidir.</li>
+        <li><b>Pastiş ve Parodi:</b> <b>Pastiş</b>; başka bir yazarın dil ve üslup özelliklerini taklit etmektir. <b>Parodi</b>; ciddi/bilinen bir eserin konusunu alıp onu alaycı, eğlenceli, komik bir tarzda yeniden kurgulamaktır.</li>
+    </ul>
+
+    <h2>3. ÖSYM ODAKLI BAŞYAPIT ROMANLAR VE KARAKTER ŞİFRELERİ</h2>
+    
+    <div class="memory-box">
+        <strong>👑 TUTUNAMAYANLAR — Oğuz Atay (Postmodernizmin Başlangıç Abidesi):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> İroni, burjuva eleştirisi, tutunamama felsefesi, ansiklopedik kurgu, iç sesler.
+        <br>&bull; <b>Karakter Analizi:</b> <b>Turgut Özben</b>; mühendis, evli ve burjuva hayatı yaşayan bir entelektüeldir. Yakın arkadaşı <b>Selim Işık</b>'ın intihar ettiğini öğrenince sarsılır ve Selim'in neden intihar ettiğini çözmek için onun geçmişinin, günlüklerinin izini sürmeye başlar. Selim'in hayatına giren insanları (Süleyman Kargı, Günseli) bulur. Araştırdıkça Selim'in modern toplumun yalanlarına, sahteliklerine uyum sağlayamayan dev bir <b>"Tutunamayan"</b> olduğunu anlar. Turgut Özben de süreçte kendi burjuva hayatından tiksinir, içindeki hayali ses olan "Olric" ile konuşarak evini terk eder ve trene binip gözden kaybolur.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 AYLAK ADAM — Yusuf Atılgan (Yabancılaşmanın Zirvesi):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Baba kompleksi, kronik sıkıntı, kentsel yalnızlık, "C." karakteri, sinema ve sokaklar.
+        <br>&bull; <b>Karakter Şeması:</b> Başkahramanın adı sadece tek bir harftir: <b>C.</b> (Bireyin isimsizleşerek silinmesini simgeler). C., babasından kalan miras sayesinde çalışmaya ihtiyaç duymayan, İstanbul sokaklarında, pansiyonlarda, meyhanelerde aylak aylak gezen bir entelektüeldir. Çocukluğunda babasının teyzesiyle olan ilişkisine şahit olmuş ve babasından nefret etmiştir (baba kompleksi). Hayatı boyunca kendisini tam anlamıyla anlayacak o "ideal kadını" arar. Sadece birkaç saniyeliğine bir otobüste gördüğü mavi yağmurluklu kıza ulaşmaya çalışır, tam ona yaklaşmışken bir kavga sırasında kızı kaybeder ve modern kalabalıkta tamamen yapayalnız yok olur. (Yazarın diğer eseri: *Anayurt Oteli* - Katip Zebercet'in delirme süreci).
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 DOKUZUNCU HARCİYE KOĞUŞU — Peyami Safa (İç Dünyanın Şaheseri):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Otobiyografik roman, kemik tüberkülozu, hastane koridorları, psikolojik tahlil.
+        <br>&bull; <b>Karakterler:</b> <b>İsimsiz Hasta Çocuk</b> (15 yaşında bacağından diz mafsalı hastalığı çeken genç), <b>Nüzhet</b> (Çocuğun aşık olduğu akrabası, 19 yaşında neşeli kız), Paşa (Nüzhet'in babası), Doktor Ragıp (Nüzhet'le evlenmek isteyen zengin, kibirli doktor). 15 yaşındaki hasta çocuk, Paşa'nın Erenköy'deki köşkünde kalırken Nüzhet'e platonik aşık olur. Ancak bacağındaki hastalık ve Nüzhet'in Doktor Ragıp'la evlendirileceği gerçeği çocuğun ruhunu paramparça eder, hastalık bacağına vurur. Hastane koğuşunda ameliyata alınır, bacağı kurtulur ancak köşke döndüğünde Nüzhet evlenip gitmiştir. Roman hastane kokularının ve acının psikolojik otopsisidir.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 DEV "KEMAL"LER — TOPLUMCU GERÇEKÇİ KÖY VE TARİH DEVLERİ:</strong>
+        <br>&bull; <b>Yaşar Kemal:</b> Çukurova, Toroslar, Anavarza ağalarının köylüyü sömürmesi, kan davaları ve destansı efsane dili. Başyapıtı: <b>İnce Memed</b> (Abdi Ağa'nın zulmüne dayanamayıp dağa çıkan, köylünün hamisi olan eşkıya Memed'in destanı), *Yer Demir Gök Bakır, Dağın Öte Yüzü, Çakırcalı Efe*.
+        <br>&bull; <b>Kemal Tahir:</b> Tarih, devlet yapısı, ağalık sistemi, hapishane gözlemleri ve nehir roman kurgusu. *Devlet Ana* (Osmanlı Devleti'nin kuruluş felsefesi), *Yorgun Savaşçı* (Kurtuluş Savaşı'na katılan subayların psikolojisi - Yüzbaşı Cemil), *Karılar Koğuşu, Sağırdere*.
+        <br>&bull; <b>Orhan Kemal:</b> Adana pamuk tarlaları, Çırçır fabrikaları, İstanbul'un arka sokaklarındaki fakir işçi sınıfı, ekmek kavgası. *Bereketli Topraklar Üzerinde* (Köyden Adana'ya çalışmaya gelen İflahsızın Yusuf, Köse Hasan ve Pehlivan Ali'nin trajedisi), *Murtaza* (Görevine aşık, absürt dürüstlükteki bekçi Murtaza), *Hanımın Çiftliği, Eskici ve Oğulları*.
+    </div>
+
+    <h2>4. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Postmodern roman kurgusunda yazar, okuyucuya okuduğu metnin tamamen bir kurmaca, bir oyun olduğunu doğrudan ya da dolaylı olarak hissettirir. Romanın içinde romanın yazılma aşamalarından, karakterlerin nasıl tasarlandığından bahseder. 
+        <br>Yukarıda teorik tanımı verilen bu **postmodern roman tekniği** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bilinç Akışı</li>
+            <li>B) Üstkurgu</li>
+            <li>C) Pastiş</li>
+            <li>D) Metinlerarasılık</li>
+            <li>E) İç Konuşma</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Paragraftaki postmodern şifre kelimeyi analiz edelim: "Romanın içinde romanın yazılma sürecinden bahsetmek", "kurgunun kurmaca olduğunu ifşa etmek".
+            <br>• Geleneksel gerçekçi romanlardaki "gerçeklik ilüzyonunu" kasten yıkan, yazarın bir kukla oynatıcısı gibi sahneye çıkıp okuyucuyla roman planı hakkında konuştuğu bu tekniğe edebiyatta <b>Üstkurgu (Metafiction)</b> adı verilir. Oğuz Atay ve Orhan Pamuk bu tekniği zirveye taşımıştır. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Yakın arkadaşı **Selim Işık**'ın gizemli intiharını öğrendikten sonra onun geçmişinin, günlüklerinin izini süren; onun hayata neden uyum sağlayamadığını araştırdıkça modern toplumun sahteliğini keşfeden ve en sonunda kendi burjuva hayatını terk edip hayali iç sesi **Olric** ile tren yolculuğuna çıkan **Turgut Özben** karakteri, edebiyatımızın hangi postmodern başlangıç başyapıtının kahramanıdır?</div>
+        <ul class="options-list">
+            <li>A) Aylak Adam</li>
+            <li>B) Anayurt Oteli</li>
+            <li>C) Tutunamayanlar</li>
+            <li>D) Kara Kitap</li>
+            <li>E) Tehlikeli Oyunlar</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karakter kadrosunu ve kavram dünyasını doğrudan eşleştirelim: "Turgut Özben", "İntihar eden Selim Işık", "İç ses Olric" ve "Topluma uyum sağlayamama/tutunamama felsefesi".
+            <br>• Bu unsurların tamamı, Oğuz Atay tarafından kaleme alınan, UNESCO tarafından 20. yüzyıl Türk edebiyatının en seçkin eseri kabul edilen ve postmodernizmin kapısını açan o dev abidevi roman olan <b>Tutunamayanlar</b>'a aittir. Cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Cumhuriyet dönemi Türk romanında "Toplumcu Gerçekçi" ekolün devleri olan "Üç Kemaller"in eser içerikleri karşılaştırıldığında; aşağıda verilen yazar-eser eşleştirmelerinden hangisi ÖSYM standartlarına göre <b>hatalıdır</b>?</div>
+        <ul class="options-list">
+            <li>A) Yaşar Kemal - İnce Memed</li>
+            <li>B) Kemal Tahir - Devlet Ana</li>
+            <li>C) Orhan Kemal - Bereketli Topraklar Üzerinde</li>
+            <li>D) Kemal Tahir - Yorgun Savaşçı</li>
+            <li>E) Yaşar Kemal - Hanımın Çiftliği</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Toplumcu gerçekçi edebiyatın "Üç Kemaller" eser haritasını denetleyelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Yaşar Kemal Çukurova ağalık sömürüsünü İnce Memed'de (A) muazzam işlemiştir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Kemal Tahir Osmanlı kuruluşunu Devlet Ana'da (B), milli mücadele subaylarını Yorgun Savaşçı'da (D) destanlaştırmıştır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Orhan Kemal Adana'ya giden gurbetçi işçileri Bereketli Topraklar Üzerinde (C) romanıyla sosyolojik otopsiye tabi tutmuştur.
+            <br>• Ancak E seçeneğindeki eşleşme tamamen hatalıdır. Güllü, Muzaffer Bey ve Kemal karakterleri üzerinden Adana'daki tarım-sanayi dönüşümünü ve sınıf atlama hırslarını anlatan <b>Hanımın Çiftliği</b> romanı Yaşar Kemal'e değil, işçi sınıfının gür sesi olan <b>Orhan Kemal</b>'e aittir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Babasından kalan miras sayesinde çalışmaya ihtiyaç duymayan, zamanını İstanbul sokaklarında, pansiyonlarda, sinemalarda aylakça gezip hayatının anlamı olacak o "ideal kadını" arayarak geçiren; **baba kompleksi, kentsel yalnızlık ve yabancılaşma** temalarıyla örülü, adı isimsizleşerek sadece <b>"C."</b> harfiyle simgelenmiş modernist roman kahramanı ve eseri hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Yusuf Atılgan - Aylak Adam</li>
+            <li>B) Oğuz Atay - Tehlikeli Oyunlar</li>
+            <li>C) Ahmet Hamdi Tanpınar - Huzur</li>
+            <li>D) Peyami Safa - Matmazel Noraliya'nın Koltuğu</li>
+            <li>E) Yusuf Atılgan - Anayurt Oteli</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karakter şifresini ve tematik kodları okuyalım: "Sadece C. harfiyle simgelenme", "aylaklık/çalışmama", "baba kompleksi" ve "ideal kadını arama".
+            <br>• Modern insanın şehir hayatındaki ağır yabancılaşmasını, hiçleşmesini ve kronikal sıkıntısını bir karakter prototipi üzerinden dünyaya sunan bu ünlü roman, Yusuf Atılgan'a ait olan <b>Aylak Adam</b> romanıdır. (Anayurt Oteli'ndeki kahraman ise Zebercet'tir). Doğru şık A'dır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 15 yaşında bacağından ağır bir kemik tüberkülozu hastalığı çeken, hastane koridorlarının o keskin iyodoform kokusunda eriyen adsız bir gencin; akrabası olan 19 ik yaşındaki neşeli **Nüzhet**'e duyduğu platonik, hüzünlü aşkı ve Nüzhet'in zengin **Doktor Ragıp**'la evlendirilmesi sürecinde yaşadığı ağır ruhsal çöküşü anlatan, edebiyatımızın **en başarılı otobiyografik/psikolojik romanı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Sözde Kızlar</li>
+            <li>B) Fatih-Harbiye</li>
+            <li>C) Dokuzuncu Harciye Koğuşu</li>
+            <li>D) Bir Tereddüdün Romanı</li>
+            <li>E) Yalnızız</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karakter haritasını ve psikolojik derinlik kodunu birleştirelim: "İsimsiz hasta çocuk", "Nüzhet", "Doktor Ragıp" ve "bacak hastalığı/hastane koğuşu".
+            <br>• Peyami Safa'nın kendi çocukluğunda geçirdiği ağır kemik hastalığından ilham alarak kaleme aldığı, acının ve ruhsal tahlilin adeta zirvesi kabul edilen o ölümsüz psikolojik başyapıtı <b>Dokuzuncu Harciye Koğuşu</b> romanıdır. Eser, insan psikolojisinin fiziksel acıyla olan muazzam bağını inceler. Cevap C'dir.
+        </div>
+    </div>
+
+</body>
+</html>

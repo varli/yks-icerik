@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 6: Divan Şairleri ve Eserleri</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #4c1d95, #701a75); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #f3e8ff; font-style: italic; }
+        h2 { color: #4c1d95; font-size: 16pt; border-left: 6px solid #7c3aed; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #701a75; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-card { background-color: #faf5ff; border: 1px solid #e9d5ff; border-left: 5px solid #a855f7; padding: 15px; margin: 20px 0; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        .card-title { font-weight: bold; color: #4c1d95; font-size: 12pt; margin-bottom: 6px; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #4c1d95; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #4c1d95; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #4c1d95; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #4c1d95; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 6: DİVAN ŞAİRLERİ VE ESERLERİ</h1>
+        <p>"Yüzyılların Sultanları: Fuzûlî'nin Ahından Bâkî'nin İhtişamına, Şairlerin ve Başyapıtların Analitik Atlası"</p>
+    </div>
+
+    <h2>1. DİVAN EDEBİYATI AKIMLARI</h2>
+    <p>Yüzyıllar içinde şairlerin dili, üslubu ve hayal dünyasını şekillendiren üç büyük edebi akım ÖSYM'nin en sevdiği teorik soru kalıplarındandır:</p>
+    <ul>
+        <li><b>Türkî-i Basit (Basit Türkçe):</b> 15. ve 16. yüzyılda Arapça-Farsça tamlamaları bırakıp **öz Türkçe** kelimelerle, halk dilindeki atasözleri ve deyimlerle Divan şiiri yazma eğilimidir. En büyük temsilcileri: <b>Aydınlı Visâlî</b>, Tatavlalı Mahremî ve Edirneli Nazmî'dir.</li>
+        <li><b>Mahallîleşme (Yerlileşme) Akımı:</b> Şiirde soyut konuları bırakıp İstanbul'un somut yaşamını, somut sevgililerini, mesire yerlerini (Sadabad) ve günlük konuşma dilini şiire sokma akımıdır. En büyük ustası 18. yüzyılda <b>Nedim</b>, temellerini atan ise 16. yüzyılda <b>Bâkî</b>'dir.</li>
+        <li><b>Sepk-i Hindî (Hint Üslubu):</b> 17. ve 18. yüzyılda gelişen; **aşırı soyut, karmaşık, hayali ve anlaşılması güç** mecazlarla örülü ağdalı akımdır. Söz sanatı yerine derin anlam tercih edilir. En büyük temsilcileri: <b>Şeyh Gâlib</b> ve <b>Nâilî</b>'dir.</li>
+    </ul>
+
+    <h2>2. YÜZYILLARA GÖRE DİVAN ŞAİRLERİ (HAFIZA KARTLARI)</h2>
+
+    <div class="memory-card">
+        <div class="card-title">13. YÜZYIL — BAŞLANGIÇ SULTANLARI</div>
+        <p>&bull; <b>Hoca Dehhânî:</b> Divan edebiyatının <b>ilk şairi</b> ve kurucusu kabul edilir. Din dışı (aşk, şarap, eğlence) konularda yazmıştır. Selçuklu Şehnamesi en bilinen eseridir.</p>
+        <p>&bull; <b>Mevlânâ Celâleddîn-i Rûmî:</b> Eserlerini tamamen <b>Farsça</b> kaleme almıştır. Tasavvufi aşkın doruk noktasıdır.
+        <br><i>En Kritik Eserleri:</i> <b>Mesnevi</b>, <b>Divân-ı Kebîr</b>, <i>Fîhi Mâ Fîh</i>, <i>Mecâlis-i Seb'a</i>.</p>
+        <p>&bull; <b>Sultan Veled:</b> Mevlânâ'nın oğludur. Mevlevilik tarikatını sistemleştiren kişidir. (İbtidânâme, Rebâbnâme mesnevileri).</p>
+    </div>
+
+    <div class="memory-card">
+        <div class="card-title">14. YÜZYIL — ANADOLU SAHASININ OLGUNLAŞMASI</div>
+        <p>&bull; <b>Gülşehrî:</b> Türkçenin büyük savunucusudur. Ferîdüddîn-i Attâr'ın eserini Türkçeye uyarlayarak yazdığı allegorik şaheseri <b>Mantıku't-Tayr (Kuş Dili)</b> ile ünlüdür. Bu eser tasavvufi bir mesnevidir.</p>
+        <p>&bull; <b>Âşık Paşa:</b> Döneminde Türkçeye değer verilmemesine isyan etmiş, Türkçenin de yüksek bir edebiyat dili olduğunu kanıtlamak için 12 bin beyitlik devasa dini-tasavvufi mesnevisi <b>Garibnâme</b>'yi yazmıştır.</p>
+        <p>&bull; <b>Ahmedî:</b> Çağının en bilinen ansiklopedik bilginidir. Büyük İskender'in hayatını anlatan <b>İskendernâme</b> ve tıp/astronomi konulu <b>Cemşîd ü Hurşîd</b> mesnevileriyle tanınır.</p>
+        <p>&bull; <b>Kadı Burhaneddin:</b> Sivas'ta devlet kurmuş bir hükümdar-şairdir. Şiirlerinde coşkulu, cesur bir dil kullanmıştır. Divan edebiyatına milli nazım şekli olan **Tuyuğ**ları kazandıran en büyük ustadır.</p>
+    </div>
+
+    <div class="memory-card">
+        <div class="card-title">15. YÜZYIL — KLASİK DÖNEME GEÇİŞ VE ÇAĞATAY DEHASI</div>
+        <p>&bull; <b>Ali Şîr Nevâî:</b> Çağatay edebiyatının devidir. **Türk edebiyatı tarihinin İLK HAMSE sahibidir.** Türkçenin Farsçadan daha üstün ve zengin bir dil olduğunu kanıtlamak amacıyla yazdığı dil karşılaştırma abidesi <b>Muhâkemetü'l-Lugateyn</b> ile tanınır. Ayrıca ilk şairler tezkiresi olan <b>Mecâlisü'n-Nefâis</b> ona aittir.</p>
+        <p>&bull; <b>Şeyhî:</b> Hekimdir. Edebiyatımızın en meşhur hiciv, alegori ve mizah mesnevisi olan <b>Harname (Eşek Kitabı)</b> onun başyapıtıdır. Uğradığı soygun sonrası hiciv tarzında yazmıştır. Diğer eseri: <i>Hüsrev ü Şîrîn</i>.</p>
+        <p>&bull; <b>Necâtî:</b> Şiirlerinde Türk atasözleri ve deyimlerini yoğun şekilde kullanarak Mahallîleşme akımının temellerini atan, gazelleriyle ünlü 15. yy üstadıdır.</p>
+    </div>
+
+    <div class="memory-card">
+        <div class="card-title">16. YÜZYIL — DİVAN ŞİİRİNİN ALTIN ÇAĞI (ZİRVE)</div>
+        <p>&bull; <b>Fuzûlî:</b> Divan şiirinin lirik, felsefi ve tasavvufi anlamda tartışmasız en büyük dehasıdır. Şiirlerinin temel felsefesi **ızdırap ve ayrılık acısı çekmektir**; kavuşursa aşkının büyüsünün bozulacağına inanır. Platonik aşkın piridir. Azeri Türkçesiyle yazmıştır.
+        <br><i>En Kritik Eserleri:</i> <b>Leylâ vü Mecnûn</b> (en başarılı aşk mesnevisi), <b>Su Kasidesi</b> (Hz. Muhammed övgüsü - Naat), <b>Şikâyetnâme</b> (Maaşını alamadığı için yazdığı Türk edebiyatının ilk büyük hiciv/mektup örneği), <i>Beng ü Bâde</i>, <i>Hadîkatü's-Suadâ</i>.</p>
+        <p>&bull; <b>Bâkî:</b> İstanbul'da yaşamış, Kanuni Sultan Süleyman'ın koruması altında parlamış, **Sultânü'ş-Şuarâ (Şairlerin Sultanı)** unvanını almıştır. Fuzûlî'nin aksine acı ve tasavvufu değil, **dünyevi zevkleri, ihtişamı, İstanbul yaşamını ve eğlenceyi** işlemiştir. Tasavvufa şiirlerinde asla yer vermemiştir. Aruz ölçüsünü Türkçeye kusursuz uygulamıştır.
+        <br><i>En Kritik Eseri:</i> <b>Kanuni Mersiyesi</b> (Terkibibent biçiminde yazılmış devasa bir ağıttır).</p>
+    </div>
+
+    <div class="memory-card">
+        <div class="card-title">17. YÜZYIL — ÖVGÜ, HİCİV VE HİKMET ASALETİ</div>
+        <p>&bull; <b>Nef'î:</b> Divan edebiyatının **en büyük kaside ve hiciv ustasıdır**. Övgülerinde de yergilerinde de akıl almaz bir mübalağa ve cesaret kullanır. Padişahları överken bile kendini onlardan üstün görür (Fahriyeleri çok güçlüdür). Babasını bile hicvetmiştir. Hicivlerini topladığı başyapıtı <b>Sihâm-ı Kazâ (Kaza Okları)</b> yüzünden boğularak idam edilmiştir.</p>
+        <p>&bull; <b>Nâbî:</b> Şiirde duygu yerine **düşünceyi, felsefeyi, ahlaki ve didaktik (öğretici) öğütleri** ön plana çıkaran <b>Hikemî (Nâbî Tarzı) Şiir</b> akımının kurucusudur. Oğlu Ebülhayr'a öğüt vermek amacıyla yazdığı ahlaki mesnevisi <b>Hayriyye</b> ve aşk/macera konulu <b>Hayrabat</b> en popüler eserleridir.</p>
+    </div>
+
+    <div class="memory-card">
+        <div class="card-title">18. YÜZYIL — LALE DEVRİ COŞKUSU VE SON BÜYÜK ATEŞ</div>
+        <p>&bull; <b>Nedim:</b> Lale Devri'nin eğlence, zevk ve sefa şairidir. **Mahallîleşme akımını zirveye taşımıştır.** Şiirlerinde İstanbul'u, Sadabad eğlencelerini, somut aşkı ve neşeyi şarkı formunda işlemiştir. Dili günlük konuşma diline yakındır. Dini konulara hiç girmemiştir. Divan edebiyatının en büyük <b>Şarkı</b> şairidir.</p>
+        <p>&bull; <b>Şeyh Gâlib:</b> Divan edebiyatının **son büyük dehasıdır**. Galata Mevlevihanesi şeyhidir. **Sepk-i Hindî (Hint Üslubu)** akımının en büyük temsilcisidir. Şiirleri aşırı ağır, sembolik, soyut ve tasavvufidir. Nâbî'nin Hayrabat'ından daha güzel bir eser yazılabileceğini kanıtlamak amacıyla sadece 6 ayda yazdığı allegorik şaheser mesnevisi <b>Hüsn ü Aşk (Güzellik ve Aşk)</b> Divan edebiyatının kapanış abidesidir.</p>
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> Şiirlerinde tasavvufi aşka, felsefi derinliğe ve ızdıraba yer vermeyen; Kanuni Sultan Süleyman'ın saray çevresinde yaşayıp "Sultânü'ş-Şuarâ" unvanını kazanan, dünyevi zevkleri ve İstanbul'un ihtişamlı yaşamını kusursuz bir aruz matematiğiyle şiire döken 16. yüzyıl Divan şairi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Fuzûlî</li>
+            <li>B) Bâkî</li>
+            <li>C) Nedim</li>
+            <li>D) Nef'î</li>
+            <li>E) Şeyhî</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin en meşhur iki 16. yüzyıl şairini (Fuzûlî ve Bâkî) ayıran turnusol kağıdı şifrelerini çalıştıralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Fuzûlî; Bağdat/Kerbela çevresindedir, sefalet, dert, platonik aşk ve yoğun tasavvuf işler.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>Bâkî ise;</b> İstanbul sarayındadır, zenginlik, neşe, dünyevi zevkler ve ihtişam işler. Şiirlerinde tasavvufa asla yer vermez. Unvanı "Sultânü'ş-Şuarâ"dır (Şairlerin Sultanı). En büyük eseri Kanuni Mersiyesi'dir. Bu yüzden net cevap B şıkkıdır (Nedim 18. yy'da olduğu için elenir).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 15. yüzyılda Çağatay edebiyatı sahasında eser veren büyük devlet adamı ve dil bilgini Ali Şîr Nevâî'nin Türk edebiyatı tarihindeki ilki ve abideleri incelendiğinde; aşağıda verilen eserlerden hangisi **doğrudan ona ait bir başyapıttır**?</div>
+        <ul class="options-list">
+            <li>A) Harnâme</li>
+            <li>B) Muhâkemetü'l-Lugateyn</li>
+            <li>C) Sihâm-ı Kazâ</li>
+            <li>D) Hüsn ü Aşk</li>
+            <li>E) Garibnâme</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Seçeneklerdeki büyük Divan şaheserlerini gerçek yazarlarıyla eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Harnâme &rarr; Şeyhî (15. yy)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Sihâm-ı Kazâ &rarr; Nef'î (17. yy)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Hüsn ü Aşk &rarr; Şeyh Gâlib (18. yy)
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Garibnâme &rarr; Âşık Paşa (14. yy)
+            <br>• Türkçenin Farsçadan daha üstün ve derin bir dil olduğunu kanıtlamak amacıyla yazılan dil karşılaştırma harikası <b>Muhâkemetü'l-Lugateyn (İki Dilin Karşılaştırılması)</b> eseri 15. yüzyılda Çağatay Türkçesinin hamisi olan <b>Ali Şîr Nevâî</b> tarafından kaleme alınmıştır. Ayrıca ilk hamse ve ilk tezkire (Mecalisün-Nefais) de ona aittir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Divan edebiyatında şairlerin üslup arayışları farklı edebi akımları doğurmuştur. Buna göre; **anlaşılması güç, kapalı, bol mecazlı, soyut ve Hint felsefesinden beslenen Sepk-i Hindî akımı** ile **İstanbul'un günlük yaşamını, deyimlerini ve Sadabad eğlencelerini şiire sokan Mahallîleşme akımının** en büyük iki zirve şairi aşağıdakilerden hangisinde sırasıyla doğru verilmiştir?</div>
+        <ul class="options-list">
+            <li>A) Nâbî - Fuzûlî</li>
+            <li>B) Şeyh Galip - Nedim</li>
+            <li>C) Bâkî - Kadı Burhaneddin</li>
+            <li>D) Nedim - Şeyh Galip</li>
+            <li>E) Sinan Paşa - Ahmedi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İki büyük edebi akımın en tepesindeki isimleri eşleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Ağır, sembolik, bilmece gibi ağdalı dizeler kuran ve kuantum boyutu andıran **Sepk-i Hindî (Hind üslubu)** akımının Türk edebiyatındaki en büyük, son dev dehası 18. yüzyılda yaşayan <b>Şeyh Galip</b>'tir (Hüsn ü Aşk mesnevisinin yazarı).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) İstanbul Türkçesini, halkın dilini, şarkı formunu ve Lale Devri eğlencelerini lirik bir neşeyle şiire geçiren <b>Mahallîleşme (Yerlileşme)</b> akımının en büyük bayrak taşıyıcısı ise yine 18. yüzyılda yaşayan <b>Nedim</b>'dir. Doğru sıralama Şeyh Galip ve Nedim şeklindedir (B şıkkı).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> 17. yüzyılın o sert, fırtınalı ve cesur edebi ikliminde; yazdığı zehir zemberek yergiler, babasını dahi esirgemediği akıl almaz abartılı eleştiriler yüzünden boğularak saray cellatları tarafından idama mahkum edilen, kasidelerinin ihtişamıyla bilinen büyük şair ve onun **Hiciv (Yergi) başyapıtı** aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bağdatlı Ruhî - Terkibibent</li>
+            <li>B) Şeyhî - Harnâme</li>
+            <li>C) Nâbî - Hayriyye</li>
+            <li>D) Nef'î - Sihâm-ı Kazâ</li>
+            <li>E) Fuzûlî - Şikâyetnâme</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şairin trajik biyografisinden ve tür şifresinden gidelim: "17. yüzyıl", "hiciv ve kaside devi" ve "hicivleri yüzünden öldürülme".
+            <br>• Bu özellikler Türk edebiyatının en korkusuz, en keskin dilli taşlama/hiciv üstadı olan <b>Nef'î</b>'yi tanımlar. Onun tüm hiciv oklarını, sadrazamları ve devlet ricalini yerle bir ettiği şiirlerini topladığı o meşhur eserin adı <b>Sihâm-ı Kazâ (Kaza Okları)</b>'dır. Eser adeta patlamaya hazır bir bomba gibidir ve şairin sonunu hazırlamıştır. (Şikâyetname Fuzûlî'nindir ve bir mektuptur, ölüm getirmemiştir).
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> Divan şiirinde duygu, aşk ve eğlence yerine; **aklı, mantığı, toplumsal ahlakı, devlet idaresini ve didaktik (öğretici) bilgece öğütleri** ön plana çıkaran, edebiyatımızda "Hikemî Şiir" (Hakimane Şiir) çığırını açan 17. yüzyıl ekol şairi aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Bâkî</li>
+            <li>B) Nâbî</li>
+            <li>C) Şeyh Gâlib</li>
+            <li>D) Ahmed-i Dâî</li>
+            <li>E) Taşlıcalı Yahya</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorudaki "Didaktik/Öğretici bilgece tarz" ve "Hikemî Şiir" anahtar terimlerini yakalayalım.
+            <br>• Şiiri bir hayal dünyası olmaktan çıkarıp toplumsal bir ahlak, ders ve felsefe okuluna dönüştüren, edebiyat tarihimizde açtığı bu yola "Nâbî Tarzı" veya <b>Hikemî Şiir</b> denilen 17. yüzyıl şairi <b>Nâbî</b>'dir. Oğlu Ebülhayr özelinde tüm gençliğe ahlak dersi verdiği "Hayriyye" mesnevisi bu ekolün en büyük manifestosudur. Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

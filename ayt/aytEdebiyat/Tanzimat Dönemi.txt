@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 8: Tanzimat Dönemi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #b91c1c, #9a3412); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ffedd5; font-style: italic; }
+        h2 { color: #9a3412; font-size: 16pt; border-left: 6px solid #b91c1c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #c2410c; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fff7ed; border: 1px dashed #f97316; border-left: 5px solid #ea580c; padding: 15px; margin: 18px 0; border-radius: 4px; color: #431407; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #b91c1c; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #9a3412; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; }
+        th { background-color: #b91c1c; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #b91c1c; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 8: TANZİMAT DÖNEMI EDEBİYATI</h1>
+        <p>"Doğu ile Batı'nın Kavşağında: Hürriyet Çığlığından Kulak İçin Kafiye Tartışmasına Zihniyet Dönüşümü"</p>
+    </div>
+
+    <h2>1. TANZİMAT 1. VE 2. DÖNEM FARKLARI (ANALYTİK ŞEMA)</h2>
+    <p>Tanzimat Edebiyatı, Osmanlı Devleti'nin siyasi ve toplumsal çalkantılarına bağlı olarak iki farklı edebi anlayışa bölünmüştür. Bu iki dönemin zihniyet ayrımı ÖSYM'nin en temel soru havuzudur:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Parametre / Kriter</th>
+                <th>Tanzimat 1. Dönem (1860 - 1876)</th>
+                <th>Tanzimat 2. Dönem (1876 - 1896)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>Sanat Anlayışı</b></td>
+                <td>**"Sanat toplum içindir"** felsefesi hakimdir. Edebiyat, halkı eğitmek için bir araçtır.</td>
+                <td>İstibdat (baskı) dönemi etkisiyle **"Sanat sanat içindir"** anlayışına dönülmüştür.</td>
+            </tr>
+            <tr>
+                <td><b>Dil ve Üslup</b></td>
+                <td>Dili sadeleştirmeyi amaçlamışlar (başaramasalar da), halkın anlayacağı yalınlığa yaklaşmışlardır.</td>
+                <td>Sadeleşme fikri terk edilmiş; son derece **ağır, süslü ve ağdalı** bir dil kurulmuştur.</td>
+            </tr>
+            <tr>
+                <td><b>Temalar (Şiir/Roman)</b></td>
+                <td>**Hak, Hukuk, Adalet, Hürriyet, Vatan, Kanun** gibi tamamen yepyeni toplumsal konular.</td>
+                <td>**Aşk, Doğa, Ölüm, Karamsarlık, Melankoli** gibi tamamen bireysel ve soyut konular.</td>
+            </tr>
+            <tr>
+                <td><b>Edebi Akımlar</b></td>
+                <td>**Klasisizm** (Şinasi) ve **Romantizm** (Namık Kemal, Ahmet Mithat Efendi)</td>
+                <td>**Realizm** (R. Mahmut Ekrem, Sami Paşazade) ve **Natüralizm** (Nabizade Nazım)</td>
+            </tr>
+            <tr>
+                <td><b>Kafiye Tartışması</b></td>
+                <td>Eski Divan geleneğine sadık kalınarak **"Göz için kafiye"** anlayışı sürdürülmüştür.</td>
+                <td>Muallim Naci (Göz için) ile R. Mahmut Ekrem (Kulak için) arasında **"Kulak için kafiye"** savaşı patlamıştır.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>2. TANZİMAT EDEBİYATININ EN KRİTİK "İLK"LERİ</h2>
+    <p>Tanzimat, Türk edebiyatına Batılı türlerin girdiği bir kapıdır. Bu yüzden "İlkler" tablosu sarsılmaz bir ezber gücü gerektirir:</p>
+    <ul>
+        <li><b>İlk Yerli Tiyatro Eseri:</b> Şinasi &rarr; <b>Şair Evlenmesi</b> (Töre komedisidir, görücü usulü evliliği yerer).</li>
+        <li><b>İlk Edebi Roman:</b> Namık Kemal &rarr; <b>İntibah</b> (Ali Bey, Mahpeyker ve Dilaşub arasındaki trajedi).</li>
+        <li><b>İlk Tarihi Roman:</b> Namık Kemal &rarr; <b>Cezmi</b> (II. Selim dönemi Osmanlı-İran savaşları).</li>
+        <li><b>İlk Realist Roman:</b> Recaizade Mahmut Ekrem &rarr; <b>Araba Sevdası</b> (Bihruz Bey'in yanlış Batılılaşma trajikomedisi).</li>
+        <li><b>İlk Köy Romanı:</b> Nabizade Nazım &rarr; <b>Karabibik</b> (Antalya Kaş'ta geçer, realizmin dibidir).</li>
+        <li><b>İlk Psikolojik Roman Denemesi / Tezli Roman:</b> Nabizade Nazım &rarr; <b>Zehra</b> (Kıskançlık temalı psikolojik analiz).</li>
+        <li><b>İlk Hikaye Kitabı Denemesi:</b> Ahmet Mithat Efendi &rarr; <b>Letaif-i Rivayat</b>.</li>
+        <li><b>Batılı Anlamda İlk Kusursuz Hikaye:</b> Samipaşazade Sezai &rarr; <b>Küçük Şeyler</b>.</li>
+    </ul>
+
+    <h2>3. ÖSYM ODAKLI ROMAN ÖZETLERİ VE KARAKTER ŞİFRELERİ</h2>
+    
+    <div class="memory-box">
+        <strong>👑 ARABA SEVDASI — Recaizade Mahmut Ekrem (Bihruz Bey):</b></strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Alafranga özentilik, lüks yaşam sevdası, Çamlıca mesire yerleri, yanlış batılılaşma.
+        <br>&bull; <b>Karakter Analizi:</b> <b>Bihruz Bey</b>; yarım yamalak Fransızcasıyla, şık giyimi ve faytonuyla hava atmaya çalışan züppe bir tiptir. Bir gün parkta gördüğü sarf sarışın <b>Periveş</b> adındaki hafifmeşrep bir kadına platonik aşık olur. Onu bir asilzade sanır. Çapkın Keşfi Bey'in yalanlarıyla sevgilisinin öldüğünü sanıp perişan olur, sonunda gerçeği ve sefaleti anlar.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 İNTİBAH — Namık Kemal (İlk Edebi Roman):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Mirasyedi genç, kötü kadın tuzağı, pişmanlık, aile dramı.
+        <br>&bull; <b>Karakterler:</b> <b>Ali Bey</b> (zengin, toy delikanlı), <b>Mahpeyker</b> (kötü yollu, fettan kadın), <b>Dilaşuz</b> (eve alınan cariye, temiz ruhlu kız), Abdullah Efendi (Ali Bey'in babası). Ali Bey, Mahpeyker'e aşık olur ve hayatı kararır. Annesi onu kurtarmak için eve Dilaşuz'u alır. Mahpeyker intikam için Ali Bey'i öldürtmek ister, fedakarlık yapan Dilaşuz ölür, Ali Bey de Mahpeyker'i öldürüp hapiste kahrından ölür.
+    </div>
+
+    <div class="memory-box">
+        <strong>👑 SERGÜZEŞT — Samipaşazade Sezai (Esaret Teması):</strong>
+        <br>&bull; <b>Anahtar Kelimeler:</b> Kölelik, cariyelik, insan ticareti, Nil Nehri trajedisi. Romantizmden realizme geçiş eseridir.
+        <br>&bull; <b>Karakterler:</b> <b>Dilber</b> (Kafkasya'dan kaçırılıp satılan bahtsız cariye kız), <b>Asaf Paşa</b> (Dilber'i alan konak sahibi), <b>Celal</b> (Asaf Paşa'nın ressam oğlu, Dilber'e aşık olur). Celal ile Dilber'in aşkını gururuna yediremeyen paşa hanımı Dilber'i Mısır'a sattırır. Mısır'da bir haremde hapsedilen Dilber, kendisini kurtarmaya çalışan harem ağası Cevher ile kaçarken Cevher ölür, Dilber çaresizlikten kendini Nil Nehri'nin azgın sularına bırakır.
+    </div>
+
+    <h2>4. DÖNEMİN DEV SANATÇILARI VE EN SEÇİCİ ŞİFRELERİ</h2>
+    <ul>
+        <li><b>Şinasi (1. Dönem):</b> Tanzimat'ın kurucu aklıdır. Yeniliklerin öncüsüdür. Noktalama işaretlerini (Şair Evlenmesi'nde), ilk makaleyi (Tercüman-ı Ahval Mukaddimesi) ve ilk yerli tiyatroyu o getirmiştir. Klasisizmden etkilenmiştir.</li>
+        <li><b>Namık Kemal (1. Dönem):</b> <b>"Vatan Şairi"</b> olarak bilinir. Şiirlerinde divan nazım biçimlerini (gazel, kaside) korumuş ancak içine **Vatan, Hürriyet, Adalet** konularını doldurmuştur. Coşkulu bir romantiktir. Vatan Yahut Silistre tiyatrosu sahnelenen ilk oyundur.</li>
+        <li><b>Ahmet Mithat Efendi (1. Dönem):</b> <b>"Hâce-i Evvel" (İlk Öğretmen)</b> ve <b>"Yazı Makinesi"</b> unvanlarıyla anılır. Amacı halka okuma alışkanlığı kazandırmaktır. Ansiklopedik bilgileri romanın akışını kesip (kusurlu teknik) okuyucuya anlatır. Felatun Bey ile Rakım Efendi romanı meşhurdur.</li>
+        <li><b>Abdülhak Hamit Tarhan (2. Dönem):</b> <b>"Şair-i Âzam" (Büyük Şair)</b> olarak bilinir. Kuralsızlığı kural edinmiştir. Türk şiirine metafizik, felsefi derinlik ve ölüm temasını sokmuştur. Eşi Fatma Hanım'ın ölümü üzerine yazdığı tekerleksiz devasa ağıt şiiri <b>Makber</b> edebiyat tarihine kazınmıştır. Sahnelenmesi imkansız, okunmak için yazılan ağır tiyatrolar yazmıştır (Eşber, Finten).</li>
+    </ul>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 
+            <div class="poem-sample">
+                Görüp ahkâm-ı asrı ağlaram itfâl-i bî-vâye<br>
+                Görüp hürriyetin mahbûsunu feryâd eder cânım<br>
+                Ne efsunkâr imişsin ey didâr-ı hürriyet<br>
+                Esîr-i aşkın olduk gerçi kurtulduk esâretten
+            </div>
+            Namık Kemal'e ait "Hürriyet Kasidesi"nden alınan bu beyitlerin **şekil özellikleri (nazım biçimi) ve içerdiği kavramlar** incelendiğinde; bu şiirin Tanzimat'ın hangi dönemine ait olduğu ve hangi zihniyeti yansıttığı söylenebilir?
+        </div>
+        <ul class="options-list">
+            <li>A) Tanzimat 2. Dönem - Sanat sanat içindir, bireysel karamsarlık</li>
+            <li>B) Tanzimat 1. Dönem - Biçim olarak eski Divan şablonu, içerik olarak yepyeni toplumsal kavramlar (Vatan, Hürriyet)</li>
+            <li>C) Servet-i Fünun Dönemi - Ağır batılı nazım şekilleri (Sonet)</li>
+            <li>D) Tanzimat 1. Dönem - Tamamen dilde sadeleşme ve serbest ölçü</li>
+            <li>E) Milli Edebiyat Dönemi - Hece ölçüsü ve milliyetçilik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şiirin dış ve iç anatomisini ameliyat edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 1) Dış yapı: Şiir beyitlerle yazılmış, "aa - ba - ca..." şeklinde kafiyelenmiş bir **Kaside**dir. Yani dış kalıp tamamen eski, geleneksel Divan edebiyatına aittir.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; 2) İç yapı (Konu): Beyitlerde geçen kelimelere bakalım: <b>"Hürriyet"</b>, "Esaret". Divan kasidelerinde sadece padişahlar, din büyükleri övülürdü; hürriyet gibi soyut toplumsal bir kavram asla kasideye konu olamazdı.
+            <br>• Biçimi eski (Divan), konusu ise yepyeni ve devrimsel (toplumsal) olan bu sentez yapısı tam anlamıyla **Tanzimat 1. Döneminin** "Sanat toplum içindir" zihniyetinin imza karakteristiğidir. Cevap B'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> Tanzimat dönemi Türk romanında "Yanlış/Kusurlu Batılılaşma" ve "Züppe Tipi" en çok işlenen temaların başında gelir. Buna göre; yarım yamalak Fransızcasıyla, şık kıyafetleri ve Çamlıca sokaklarında gezdirdiği lüks arabasıyla alafranga bir yaşam sürmeye çalışan, parkta gördüğü hafifmeşrep Periveş Hanım'a platonik aşık olan **Bihruz Bey** karakteri, aşağıdaki hangi ilk realist romanımızın başkahramanıdır?</div>
+        <ul class="options-list">
+            <li>A) İntibah</li>
+            <li>B) Sergüzeşt</li>
+            <li>C) Felatun Bey ile Rakım Efendi</li>
+            <li>D) Araba Sevdası</li>
+            <li>E) Karabibik</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorudaki anahtar karakteri ve şifreleri doğrudan eşleştirelim: "Bihruz Bey", "Periveş Hanım", "Lüks araba/fayton sevdası" ve "İlk realist roman".
+            <br>• Bu ikonik kadro ve yanlış Batılılaşmayı yerden yere vuran realist kurgu, Recaizade Mahmut Ekrem'in kaleme aldığı Türk edebiyatının İLK REALİST ROMANI kabul edilen <b>Araba Sevdası</b>'na aittir. Roman adını Bihruz Bey'in fayton merakından ve batı özentiliğinden alır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Edebiyatımızda "Yazı Makinesi" ve "Hâce-i Evvel" unvanlarıyla anılan; asıl amacı sanat yapmak değil, halka okuma alışkanlığı kazandırmak ve toplumu bir öğretmen gibi eğitmek olan, bu uğurda romanın en heyecanlı yerinde araya girip ansiklopedik bilgiler veren üretken Tanzimat 1. Dönem yazarı kimdir?</div>
+        <ul class="options-list">
+            <li>A) Şinasi</li>
+            <li>B) Namık Kemal</li>
+            <li>C) Ahmet Mithat Efendi</li>
+            <li>D) Samipaşazade Sezai</li>
+            <li>E) Recaizade Mahmut Ekrem</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin en bariz yazar şifre kelimeleri paragrafta sıralanmıştır: "Yazı Makinesi" (200'den fazla eser yazdığı için), "Hâce-i Evvel" (İlk Öğretmen) ve "roman akışını kesip ansiklopedik bilgi verme" (halk kütüphanesi misyonu).
+            <br>• Bu popüler popülist edebi çizgi tamamen <b>Ahmet Mithat Efendi</b>'ye hastır. Onun kurduğu bu halkçı gelenek daha sonra bağımsız olarak Hüseyin Rahmi Gürpınar tarafından sürdürülecektir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Tanzimat Edebiyatının 2. Döneminde eski-yeni tartışmaları doruk noktasına ulaşmıştır. Bu dönemde, eski Divan şiiri geleneğini savunan Muallim Naci'nin **"Göz için kafiye"** anlayışına sert bir şekilde karşı çıkan; şiirin tamamen özgürleşmesini ve estetiğin kulakta tınlaması gerektiğini savunarak **"Kulak için kafiye"** çığırını açan ve Servet-i Fünun neslinin kurulmasına zemin hazırlayan yazar kimdir?</div>
+        <ul class="options-list">
+            <li>A) Abdülhak Hamit Tarhan</li>
+            <li>B) Recaizade Mahmut Ekrem</li>
+            <li>C) Nabizade Nazım</li>
+            <li>D) Namık Kemal</li>
+            <li>E) Şinasi</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Edebiyat tarihinin en meşhur "Zemzeme-Demdeme" ve "Kafiye" savaşını hatırlayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Muallim Naci, eski köhne kuralları ve "Göz için kafiye" (harflerin yazılış aynılığı) ilkesini savunuyordu (Eseri: Demdeme).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ona Galatasaray Sultanisi'nden öğrencileriyle birlikte karşı duran, şiirde biçim ve kulak estetiğini ön plana çıkaran, **"Kulak için kafiye"** manifestosunu ilan eden üstat <b>Recaizade Mahmut Ekrem</b>'dir (Eseri: Zemzeme). Bu büyük edebi çarpışma eskiyi tamamen tasfiye etmiş ve yeni nesil olan Servet-i Fünun kadrosunun doğmasını tetiklemiştir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 
+            <i>"Kafkasya'dan çocuk yaşta kaçırılarak İstanbul'daki zengin konaklarına satılan, buralarda acımasızca cariye ve köle muamelesi gören, konağın ressam oğlu Celal Bey ile kurduğu imkansız aşk yüzünden Mısır'a sürgün edilen ve en sonunda trajik bir şekilde esaretten kurtulmak için kendini Nil Nehri'nin sularına bırakan **Dilber**'in hikayesi..."</i>
+            <br>Yukarıda özeti ve karakter analizi verilen, kölelik ve esaret temasını realizm sınırlarında işleyen Tanzimat romanı aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) İntibah</li>
+            <li>B) Karabibik</li>
+            <li>C) Zehra</li>
+            <li>D) Sergüzeşt</li>
+            <li>E) Taaşşuk-ı Talat ve Fitnat</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Karakter ve olay örgüsünü eşleştirelim: "Cariye Dilber", "Ressam Celal Bey", "Mısır esareti" ve "Nil Nehri trajedisi".
+            <br>• İnsanın bir mal gibi satılmasını (esareti) sert bir toplumsal ve bireysel dille ele alan, Samipaşazade Sezai'ye ait olan bu ünlü roman <b>Sergüzeşt</b> (Macera/Serüven) romanıdır. Eser, romantizmden realizme geçişin en muazzam köprü örneğidir. Cevap D'dir.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 2: Edebi Sanatlar</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #1e3a8a, #0d9488); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #ccfbf1; font-style: italic; }
+        h2 { color: #0f766e; font-size: 16pt; border-left: 6px solid #0d9488; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #0369a1; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #ecfeff; border: 1px dashed #06b6d4; border-left: 5px solid #0891b2; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #1e3a8a; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #1e3a8a; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 2: SÖZ (EDEBİ) SANATLARI</h1>
+        <p>"İmgenin Gücü: Anlamı Süsleyen, Hayal Gücünü Ateşleyen Estetik Kelime Oyunları"</p>
+    </div>
+
+    <h2>1. MECAZA VE BENZETMEYE DAYALI EDEBİ SANATLAR</h2>
+    <p>Şairlerin anlatımı sıradanlıktan kurtarmak, soyut duyguları somutlaştırmak veya sözün etkisini artırmak için kelimeleri gerçek anlamlarının dışında kullanmasıyla oluşan sanatlardır.</p>
+
+    <h3>A) Teşbih (Benzetme)</h3>
+    <p>Aralarında ortak nitelik bulunan iki şeyden zayıf olanı güçlü olana benzetme sanatıdır. Tam bir teşbihte 4 unsur bulunur: <i>Benzeyen (Zayıf)</i>, <i>Benzetilen (Güçlü)</i>, <i>Benzetme Yönü</i> ve <i>Benzetme Edatı (gibi, kadar)</i>.</p>
+    <p>&bull; <b>Teşbih-i Beliğ (Güzel Benzetme):</b> Sadece **Benzeyen** ve **Benzetilen** ile yapılan, edat ve yönün kullanılmadığı vurucu benzetmedir. (Örn: "Kömür gözlüm" &rarr; Göz kömüre benzetilmiş).</p>
+
+    <h3>B) İstiare (Eğretileme)</h3>
+    <p>Teşbihin temel unsurlarından (benzeyen veya benzetilen) **sadece birinin** kullanılmasıyla yapılan aşırı somutlaştırılmış bir benzetme sanatıdır. İkiye ayrılır:</p>
+    <ul>
+        <li><b>Açık İstiare:</b> Sadece <b>Benzetilen (Güçlü olan)</b> ile yapılan istiaredir.
+        <br><i>Örnek Beyit:</i> "Bir hilal uğruna ya Rab ne <u>güneşler</u> batıyor!" (Güneş derken şehit olan askerler kastedilmiştir. Asker güneşe benzetilmiş ancak zayıf olan asker söylenmeyip sadece güçlü olan güneş söylenmiştir).</li>
+        <li><b>Kapalı İstiare:</b> Sadece <b>Benzeyen (Zayıf olan)</b> ile yapılan istiaredir. Söylenen benzeyenin yanında benzetilenin bir özelliği (ipucu) mutlaka verilir.
+        <br><i>Örnek Beyit:</i> "Tekerlekler yollara bir şeyler <u>anlatıyor</u>." (Anlatmak insana has bir özelliktir. Tekerlekler insana benzetilmiş; benzeyen tekerlek var ancak güçlü olan "insan" yok, sadece insana ait olan "anlatma" özelliği verilmiştir). <b>💡 İpucu: Her kişileştirme (teşhis) sanatı aynı zamanda bir kapalı istiaredir.</b></li>
+    </ul>
+
+    <h3>C) Mecazımürsel (Ad Aktarması)</h3>
+    <p>Bir sözcüğün, benzetme amacı güdülmeden, **parça-bütün, iç-dış, yazar-eser, neden-sonuç** gibi zihinsel ilişkilerle başka bir sözcük yerine kullanılmasıdır. (Örn: "Cevdet Bey'i okudum." &rarr; Kitabını kasteder. "Ocakta çay kaynıyor." &rarr; Çaydanlığın içindeki suyu kasteder).</p>
+
+    <h3>D) Kinaye (Değinme)</h3>
+    <p>Bir sözün **hem gerçek hem de mecaz anlama** gelebilecek şekilde kullanılmasıdır. Ancak şairin asıl kastettiği ve vurgulamak istediği anlam her zaman <b>mecaz anlam</b>dır. Atasözlerimizin çoğunda kinaye vardır. (Örn: "Onun kapısı herkese açıktır." &rarr; Gerçekten kapı açık olabilir ama kastedilen mecazen cömert ve misafirperver olduğudur).</p>
+
+    <div class="memory-box">
+        <strong>🧠 HAFIZA TEKNİĞİ — İSTİARE AYRIM KALIBI:</strong>
+        <br>• Şiirde sadece <b>Dev/Devasa/Güçlü</b> şey varsa (Güneş, Aslan, İnci) &rarr; <b>AÇIK İSTİARE</b> (Kapı açık, her şey görünüyor).
+        <br>• Şiirde <b>Zayıf</b> şey insan gibi davranıyor, canlanıyorsa &rarr; <b>KAPALI İSTİARE</b> (İnsan kimliği saklanmış, gizli/kapalı kalmış).
+    </div>
+
+    <h2>2. DÜŞÜNCEYE VE ANLAMA DAYALI EDEBİ SANATLAR</h2>
+    
+    <h3>A) Hüsnütalil (Güzel Nedene Bağlama)</h3>
+    <p>Herkesçe bilinen doğal veya fiziksel bir olayı, asıl nedeninin dışında, tamamen şairane ve **güzel, hayali bir nedene** bağlama sanatıdır.
+    <br><i>Örnek Beyit:</i> "Sen yoksun diye bahçemde çiçekler açmıyor." (Çiçeklerin açmaması mevsimseldir ancak şair bunu sevgilinin yokluğuna bağlamıştır).</p>
+
+    <h3>B) Tecahülüarif (Bilmezlikten Gelme)</h3>
+    <p>Şairin, çok iyi bildiği bir durumu veya gerçeği, bir nükte, espri ya da anlamı pekiştirme amacıyla **bilmiyormuş gibi** yansıtması sanatıdır. Genelde soru cümleleriyle kurulur.
+    <br><i>Örnek Beyit:</i> "Şakaklarıma kar mı yağdı ne var? / Benim mi Allahım bu çizgili yüz?" (Cahit Sıtkı yüzün kendisine ait olduğunu bilmektedir, bilmezlikten gelir).</p>
+
+    <h3>C) Tevriye (İki Anlamlılık)</h3>
+    <p>İki anlamı olan sesteş bir sözcüğü, bir dizede **hem yakın hem uzak anlamını** düşündürecek şekilde kullanıp, asıl olarak <b>uzak anlamını</b> kastetme sanatıdır. Kinayeden farkı, tevriyedeki iki anlamın da tamamen gerçek anlam olmasıdır (mecaz yoktur).
+    <br><i>Örnek Beyit:</i> "Gülülmez ağlanır cana irişse dâğ-ı hicranın / Sana <u>yüz</u> vermedi güller nihal-i bağ-ı hicranın" (Yüz hem çehre/çehremiz hem de sayı veya ilgi göstermek anlamındadır).</p>
+
+    <h3>D) Tezat (Karşıtlık)</h3>
+    <p>Aralarında birbirine zıt kavramların, düşüncelerin ya da durumların bir beyitte karşılaştırılmasıdır. Sadece "siyah-beyaz" gibi kelime zıtlığı değil, durum zıtlığı da tezattır.
+    <br><i>Örnek Beyit:</i> "Ağlarım çağlar gibi, gülerim sağlar gibi." (Ağlamak ve gülmek).</p>
+
+    <h3>E) Mübalağa (Abartma)</h3>
+    <p>Bir durumun, özelliğin ya da olayın niteliğini akıl ve mantık sınırlarını zorlayacak derecede **büyüterek veya küçülterek** anlatmaktır.
+    <br><i>Örnek Beyit:</i> "Bir ah çeksem dağı taşı eritir." (Ah çekmenin dağı eritmesi abartmadır).</p>
+
+    <div class="warning-box">
+        <strong>⚠️ ÖSYM TUZAK KELİMELER SÖZLÜĞÜ:</strong>
+        <br>&bull; <b>Tariz (İğneleme):</b> Sözün tam tersini kastederek alay etmektir. ("Ne kadar zeki, sınavdan sıfır almış" gibi).
+        <br>&bull; <b>İntak (Konuşturma):</b> İnsan dışındaki canlı veya cansız varlıkların konuşturulmasıdır. İntak olan her yerde **Teşhis (Kişileştirme)** de vardır.
+        <br>&bull; <b>Tenisip (Uygunluk):</b> Birbiriyle anlamca ilgili kelimelerin (örn: gül, bülbül, bahçe) bir arada kullanılmasıdır.
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 
+            <div class="poem-sample">
+                "Kurban olam, kurban olam / Beşikte yatan o <u>kuzuya</u>"
+            </div>
+            Yukarıdaki dizelerde altı çizili olan "kuzu" sözcüğünde gerçekleştirilen edebi sanat aşağıdakilerden hangisidir?
+        </div>
+        <ul class="options-list">
+            <li>A) Teşbih-i Beliğ</li>
+            <li>B) Açık İstiare</li>
+            <li>C) Kapalı İstiare</li>
+            <li>D) Mecazımürsel</li>
+            <li>E) Kinaye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şiirdeki zihinsel benzetme mantığını çözelim: Beşikte yatan şey nedir? Bir bebektir, çocuktur.
+            <br>• Şair, beşikte yatan bebeği masumiyetinden dolayı bir <b>kuzuya</b> benzetmiştir.
+            <br>• Benzetmenin unsurlarını yazalım: Benzeyen = Bebek (zayıf) , Benzetilen = Kuzu (güçlü).
+            <br>• Dizelere baktığımızda benzeyen unsur yani "bebek" sözcüğü kesinlikle yer almamaktadır. Sadece güçlü olan ve kendisine benzetilen unsur olan <b>"kuzu"</b> kelimesi kullanılmıştır. 
+            <br>• Benzetme unsurlarından **sadece kendisine benzetilen (güçlü unsur) ile yapılan** bu sanata edebiyatta <b>Açık İstiare</b> denir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 
+            <div class="poem-sample">
+                "Aramazdık gece mehtabı yüzün parlarken<br>
+                Bir uzak yıldıza benzerdi güneş sen varken"
+            </div>
+            Yukarıdaki beytin ikinci dizesinde yer alan edebi sanatlar ve unsurları incelendiğinde, bu dizede hangi edebi sanat **açıkça** yapılmıştır?
+        </div>
+        <ul class="options-list">
+            <li>A) Teşbih (Benzetme)</li>
+            <li>B) Tezat (Karşıtlık)</li>
+            <li>C) Tecahülüarif</li>
+            <li>D) Kinaye</li>
+            <li>E) İstifham (Soru Sorma)</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: A</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• İkinci dizenin kelime ve anlam örgüsünü parçalayalım: "Bir uzak yıldıza benzerdi güneş..."
+            <br>• Şair, evrenin en büyük ve parlak yıldızı olan güneşi, sevgilinin varlığının ve ihtişamının yanında sönük kaldığı için "uzak, küçük bir yıldıza" benzetmiştir.
+            <br>• Benzetme unsurlarının tamamı dizede durmaktadır:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Benzeyen: Güneş
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Benzetilen: Uzak bir yıldız
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Benzetme Edatı: Benzerdi (gibi anlamında)
+            <br>• Benzetme unsurları bir arada kullanıldığı için bu net ve kusursuz bir <b>Teşbih (Benzetme)</b> sanatıdır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> 
+            <div class="poem-sample">
+                "Gül dalı ne zaman seni görse eğilir yere<br>
+                Selam durur o endamına her gelen geçene"
+            </div>
+            Bu beyitte, gül dalının rüzgar veya fiziksel etkilerle yere doğru eğilmesi olayının, sevgilinin güzelliği karşısında saygıdan eğilmesi şeklinde açıklanması hangi edebi sanattır?
+        </div>
+        <ul class="options-list">
+            <li>A) Mecazımürsel</li>
+            <li>B) Tecahülüarif</li>
+            <li>C) Hüsnütalil</li>
+            <li>D) Kinaye</li>
+            <li>E) Tariz</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Beyitteki neden-sonuç kurgusunu deşifre edelim: Gül dalı doğası gereği, yer çekimi, rüzgar veya üzerindeki yaprak/çiçek yükünden dolayı yere doğru sarkar, eğilir. Bu tamamen fiziksel biyolojik bir olaydır.
+            <br>• Ancak şair bu bilinen fiziksel gerçeği bir kenara bırakmış; dalın eğilmesini "sevgilinin boyunu, endamını gördüğü için ona duyduğu hürmetten ve saygıdan dolayı yere eğilmesi" şeklinde tamamen hayali, şairane ve **zarif bir nedene** bağlamıştır.
+            <br>• Bir olayı gerçek sebebinin dışında estetik ve hayali güzel bir sebebe bağlama sanatına edebiyatta <b>Hüsnütalil</b> (Güzel nedene bağlama) denir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> 
+            <div class="poem-sample">
+                "Gökyüzünün başka rengi de varmış<br>
+                Geç fark ettim taşın sert olduğunu"
+            </div>
+            Cahit Sıtkı Tarancı'ya ait bu dizelerde, şairin taşın sert olduğunu veya gökyüzünün mavi dışında akşamları/geceleri farklı renklere büründüğünü çok iyi bildiği halde "yeni fark etmiş gibi" yansıtması hangi sanattır?
+        </div>
+        <ul class="options-list">
+            <li>A) Tevriye</li>
+            <li>B) Tecahülüarif</li>
+            <li>C) Mübalağa</li>
+            <li>D) Teşhis</li>
+            <li>E) Tenezzül</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Şairin psikolojik ve edebi zihniyetini okuyalım: Dünyadaki her insan (ve tabii ki şair de) taşın sert bir nesne olduğunu, gökyüzünün renk değiştirdiğini çocukluğundan beri bilir. Bu sarsılmaz bir gerçektir.
+            <br>• Ancak şair, yaşlandığını, hayatın acı gerçekleriyle yüzleştiğini daha sarsıcı anlatmak için "taşın sert olduğunu geç fark ettim" diyerek bilinen bir gerçeği **bilmezlikten gelmekte**, sanki yeni öğrenmiş gibi bir nükte yapmaktadır.
+            <br>• Bilinen bir durumu anlam derinliği katmak amacıyla **bilmiyormuş gibi yapma** sanatına <b>Tecahülüarif</b> (Arif kişinin bilmezlikten gelmesi) adı verilir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> "Kinaye" ile "Tevriye" sanatları öğrenciler tarafından sıkça karıştırılmaktadır. Bu iki edebi sanatın yapısal farkları incelendiğinde; aşağıda verilen bilgilerden hangisi bu iki sanatı birbirinden ayıran <b>en temel kuraldır</b>?</div>
+        <ul class="options-list">
+            <li>A) Kinayede kelimeler sadece yabancı kökenlidir, tevriyede ise öztürkçedir.</li>
+            <li>B) Kinayede bir sözün hem gerçek hem mecaz anlamı olup mecaz kastedilir; tevriyede ise sözün iki anlamı da tamamen gerçektir, mecaz yoktur.</li>
+            <li>C) Tevriye sadece soru cümlelerinde olur, kinaye ise düz cümlelerde olur.</li>
+            <li>D) Kinaye sadece Divan edebiyatında kullanılır, tevriye ise Halk edebiyatında kullanılır.</li>
+            <li>E) İki sanat arasında hiçbir fark yoktur, isimleri ortaktır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: B</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• ÖSYM'nin en sevdiği teorik kavram ayrım sınırını netleştirelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>Kinayede:</b> Kullanılan ifadenin bir gerçek bir de mecaz anlamı vardır (Çift katman). Şair iki anlama da kapı açar ama asıl amacı **mecaz anlamı** vurgulamaktır (Örn: "Ayağını kaydırmak").
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - <b>Tevriyede:</b> Ortada kesinlikle mecaz bir durum <u>yoktur</u>. Sesteş (eş sesli) bir kelimenin iki anlamı da tamamen sözlükteki **gerçek anlamıdır**. Şair yakın olan anlamı söyler gibi yapıp uzak olan gerçek anlamı kasteder (Örn: "Avcı vurdu geyiği, kalbinden vurdu <i>kanını</i>" derken kan hem bildiğimiz kırmızı sıvı hem de eş/visal anlamındadır, iki anlam da gerçektir).
+            <br>• Dolayısıyla en temel fark, tevriyede mecazın bulunmaması, kinayede ise odağın mecaz olmasıdır. Cevap B'dir.
+        </div>
+    </div>
+
+</body>
+</html>

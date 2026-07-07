@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 1: Şiir Bilgisi ve Estetik</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #6b21a8, #b91c1c); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fbcfe8; font-style: italic; }
+        h2 { color: #9d174d; font-size: 16pt; border-left: 6px solid #be123c; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #b91c1c; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fdf2f8; border: 1px dashed #ec4899; border-left: 5px solid #db2777; padding: 15px; margin: 18px 0; border-radius: 4px; }
+        .warning-box { background-color: #fffbeb; border: 1px solid #fef3c7; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #6b21a8; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #4c1d95; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #9d174d; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #9d174d; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 1: ŞİİR BİLGİSİ VE ESTETİK</h1>
+        <p>"Sözün ahenkle dansı: Kafiye, Ölçü, Nazım Şekilleri ve Şiir Türlerinin Analitik Haritası"</p>
+    </div>
+
+    <h2>1. GÜZEL SANATLAR İÇİNDE EDEBİYATIN YERİ</h2>
+    <p>İnsanda estetik haz uyandıran, yaratıcı ve özgün etkinliklerin tümüne sanat denir. Güzel sanatlar kullanılan **malzemeye (materyale)** göre üç temel gruba ayrılır. Edebiyat, malzemesi sadece "kelimeler ve dil" olan, zamana ve sese dayalı <b>Fonetik (İşitsel) Sanatlar</b> grubunun en büyük üyesidir. Sinema ve tiyatro gibi sanatlar ise hem göze hem kulağa hitap ettiği için karma (dramatik) sanatlar sınıfına girer.</p>
+
+    <h2>2. ŞİİRDE AHENK UNSURLARI (KAFİYE VE REDİF MATEMATİĞİ)</h2>
+    <p>Şiirde ritmi, müzikaliteyi ve kulağa hoş gelen ses uyumunu sağlayan unsurların bütününe ahenk denir. ÖSYM'nin her yıl bir şiir vererek buldurduğu en kritik konulardan biri kafiye ve redif ayrımıdır:</p>
+    
+    <div class="warning-box">
+        <strong>⚠️ ALTIN KURAL (SIRA ASLA DEĞİŞMEZ):</strong>
+        <br>Dize sonlarında ahenk aranırken **her zaman en sondan başa doğru** bakılır. Dize sonlarında önce varsa <b>REDİF</b> bulunur, redifler tamamen ayıklandıktan sonra geriye kalan kök veya gövdedeki ses benzerliklerinde <b>KAFİYE (UYAK)</b> aranır. Bu sıralamayı karıştırmak soruyu doğrudan kaybettirir.
+    </div>
+
+    <h3>A) Redif Nedir?</h3>
+    <p>Dize sonlarında, kafiyeden sonra gelen, **görevleri, anlamları ve yazılışları tıpatıp aynı olan** eklerin ya da sözcüklerin tekrarlanmasına <b>redif</b> denir. 
+    <br>&bull; <i>Ek Halinde Redif:</i> "Göz-<u>ler</u> / Söz-<u>ler</u>" (Buradaki "-ler" ekleri çokluk göreviyle aynıdır, rediftir).
+    <br>&bull; <i>Sözcük Halinde Redif:</i> Aynen tekrarlanan kelimelerdir.</p>
+
+    <h3>B) Kafiye (Uyak) Çeşitleri Nelerdir?</h3>
+    <p>Dize sonlarında, anlamları ve görevleri farklı olan kelimeler veya ekler arasındaki **ses (harf) benzerliklerine** denir. Benzer harf sayısına göre 5'e ayrılır:</p>
+    <ul>
+        <li><b>Yarım Kafiye:</b> Dize sonlarında sadece <b>tek bir ünsüz (harf)</b> benzerliğine dayanır. Halk edebiyatının milli uyak türüdür. (Örn: Ya<u>l</u>-ınız / Ka<u>l</u>-ınız &rarr; "l" yarım kafiyedir).</li>
+        <li><b>Tam Kafiye:</b> Dize sonlarında <b>biri ünlü, biri ünsüz olmak üzere iki ses</b> benzerliğine dayanır. (Örn: Y<u>ar</u> / Bah<u>ar</u> &rarr; "-ar" tam kafiyedir).</li>
+        <li><b>Zengin Kafiye:</b> Dize sonlarında <b>üç veya daha fazla ses</b> benzerliğine dayanır. Divan edebiyatında çok sık kullanılır. (Örn: Gecel<u>eri</u> / Hecel<u>eri</u> &rarr; "-eri" kısmı redif ise geriye kalan "-ec" veya "-el" ses durumuna bakılır. Eğer kökte ses benzerliği 3'ü geçerse zengindir).</li>
+        <li><b>Tunç Kafiye:</b> Kafiyeli olan sözcüklerden birinin, **diğer sözcüğün içinde aynen (bütün halinde) yer alması** durumudur. Zengin kafiyenin özel bir halidir. (Örn: Bastığın yerleri toprak diyerek geçme, <u>tanı</u> / Düşün altındaki binlerce kefensiz ya<u>tanı</u> &rarr; "tanı" kelimesi "yatanı" kelimesinin içinde aynen geçmektedir).</li>
+        <li><b>Cinaslı Kafiye:</b> Dize sonlarında **yazılışları ve okunuşları aynı, ancak anlamları tamamen farklı** olan (sesteş) sözcüklerin bir arada kullanılmasıyla oluşan uyaktır. (Örn: Bilmem ki niçin <u>gül</u> / Yüzün her daim <u>gül</u> &rarr; Biri çiçek olan gül, diğeri eylem olan güldür).</li>
+    </ul>
+
+    <div class="memory-box">
+        <strong>🧠 HAFIZA TEKNİĞİ — UYAK KODLAMA SİSTEMİ:</strong>
+        <br>• <b>1 Harf</b> benzerse: <b>Yarım</b> (Tek elin yarısı gibi)
+        <br>• <b>2 Harf</b> benzerse: <b>Tam</b> (Çift harf, tam uyum)
+        <br>• <b>3+ Harf</b> benzerse: <b>Zengin</b> (Harf sayısı zenginleşti)
+        <br>• <b>Kelimede Kelime</b> kaçarsa: <b>Tunç</b> (İç içe geçmiş maden gibi)
+    </div>
+
+    <h2>3. KAFİYE ÖRGÜSÜ (ŞEMASI) TÜRLERİ</h2>
+    <p>Dizelerin sonlarındaki ses uyumlarının harflerle (a, b, c) ifade edilerek gruplandırılmasına kafiye örgüsü denir. Dört ana şema ÖSYM'nin soru bankalarında döner:</p>
+    <ul>
+        <li><b>Düz Kafiye:</b> Dizelerin "a a a a", "a a a b" veya "a a b b" şeklinde dizilmesidir. Halk şiirinin ve koşmaların ana örgüsüdür.</li>
+        <li><b>Çapraz Kafiye:</b> Birinci dize ile üçüncü dizenin, ikinci dize ile de dördüncü dizenin uyaklı olmasıdır: <b>"a b a b"</b>.</li>
+        <li><b>Sarma (Sarmal) Kafiye:</b> Birinci dize ile dördüncü dizenin, ikinci dize ile de üçüncü dizenin uyaklı olması halidir: <b>"a b b a"</b> (Dıştakiler içtekileri sarar).</li>
+        <li><b>Mani Tipi Kafiye:</b> Sadece manilere özgü olan, üçüncü dizesi tamamen serbest bırakılan örgüdür: <b>"a a x a"</b>.</li>
+    </ul>
+
+    <h2>4. DÖNEMLERİNE GÖRE NAZIM BİÇİMİ VE NAZIM TÜRLERİ</h2>
+    <p><b>Nazım Biçimi (Şekli):</b> Şiirin dış yapısıdır; yani ölçüsü, nazım birimi (beyit, dörtlük) ve kafiye örgüsüne göre aldığı isimdir (Örn: Koşma, Gazel, Sonet).</p>
+    <p><b>Nazım Türü:</b> Şiirin **içeriği, teması ve konusuna** göre aldığı isimdir (Örn: Güzelleme, Taşlama, Tevhit, Mersiye).</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Dönem Sınıflandırması</th>
+                <th>En Popüler Nazım Biçimleri (Şekilleri)</th>
+                <th>En Popüler Nazım Türleri (Konuları)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><b>İslamiyet Öncesi</b></td>
+                <td>Sagu, Koşug, Destan</td>
+                <td>Doğa, kahramanlık, ölüm (Yuğ törenleri)</td>
+            </tr>
+            <tr>
+                <td><b>Halk Edebiyatı</b></td>
+                <td>Koşma, Semai, Varsağı, Destan, Mani</td>
+                <td>Güzelleme (Aşk), Taşlama (Eleştiri), Koçaklama (Yiğitlik), Ağıt (Ölüm), İlahi, Nefes</td>
+            </tr>
+            <tr>
+                <td><b>Divan Edebiyatı</b></td>
+                <td>Gazel, Kaside, Mesnevi, Rubai, Tuyuğ, Şarkı, Murabba</td>
+                <td>Tevhit (Allah'ın birliği), Münacat (Yalvarış), Naat (Peygamber övgüsü), Hicviye (Eleştiri), Mersiye (Ağıt)</td>
+            </tr>
+            <tr>
+                <td><b>Batı Etkisi (Tanzimat/Sonrası)</b></td>
+                <td>Sonet, Terzarima, Triole, Serbest Müstezat</td>
+                <td>Hak, hukuk, adalet, hürriyet, felsefi temalar</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>5. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 
+            <div class="poem-sample">
+                Yüreğine dert ortağı arayanlar v<u>armış</u><br>
+                Gönül bağını hüzünlü hazanlar s<u>armış</u>
+            </div>
+            Yukarıda verilen beyitteki ses benzeşmeleri incelendiğinde, beyitin kafiye ve redif analizi aşağıdakilerden hangisinde doğru olarak verilmiştir?
+        </div>
+        <ul class="options-list">
+            <li>A) "-mış"lar ek halinde redif, "-ar"lar yarım kafiye</li>
+            <li>B) "-armış" sözcük halinde redif, kafiye yoktur.</li>
+            <li>C) "-mış"lar ek halinde redif, "-ar"lar tam kafiye</li>
+            <li>D) "-armış" komple zengin kafiyedir, redif yoktur.</li>
+            <li>E) "-mış"lar ek halinde redif, "-ar"lar zengin kafiye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Altın kuralımızı işletelim ve dize sonundaki kelimeleri kök ve eklerine ayıralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - v-ar / -mış (Varmak eylemi veya var ismi köküne gelen öğrenilen geçmiş zaman eki "-mış")
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - s-ar / -mış (Sarmak eylemi köküne gelen öğrenilen geçmiş zaman eki "-mış")
+            <br>• Her iki kelimenin sonundaki <b>"-mış"</b> ekleri aynı zaman eki görevinde ve aynı anlamda oldukları için net bir şekilde <b>ek halinde redif</b>tir.
+            <br>• Redifleri tamamen ayıklayıp kenara koyduktan sonra geriye "var" ve "sar" kök kelimeleri kalır. Bu kelimelerin sonundaki <b>"-ar"</b> sesleri (a ve r olmak üzere iki harf) anlamca tamamen farklı kök ses benzerliği olduğu için <b>iki ses benzerliğine dayanan TAM KAFİYE</b>yi oluşturur. Bu yüzden cevap C'dir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 2:</b> 
+            <div class="poem-sample">
+                Karac'oğlan der ki kondum göçemedim (a)<br>
+                Aşkın zehrini aldım içemedim (a)<br>
+                Sırrımı kimseye açamadım (a)<br>
+                Kaldı dertlerim bende biçare (b)
+            </div>
+            Karacaoğlan'a ait bu dörtlüğün kafiye örgüsü (şeması) aşağıdakilerden hangisine uygundur?
+        </div>
+        <ul class="options-list">
+            <li>A) Çapraz Kafiye</li>
+            <li>B) Sarma Kafiye</li>
+            <li>C) Mani Tipi Kafiye</li>
+            <li>D) Düz Kafiye</li>
+            <li>E) Örüşük Kafiye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Dörtlüğün dize sonlarındaki ses uyum şemalarını harflendirerek çıkaralım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 1. Dize: "...göçemedim" &rarr; Bu ses yapısına <b>a</b> diyelim.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 2. Dize: "...içemedim" &rarr; Üstteki dizeyle tam uyumlu, o halde bu da <b>a</b> olur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 3. Dize: "...açamadım" &rarr; Ses tonu ve ek yapısı üsttekileri takip ediyor, bu da <b>a</b> olur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 4. Dize: "...biçare" &rarr; Yukarıdaki ses örgüsünden tamamen kopuk, bağımsız yeni bir ses grubu. Buna da <b>b</b> diyoruz.
+            <br>• Ortaya çıkan harf şeması <b>"a a a b"</b> şeklindedir. İlk üç dizesi birbiriyle uyumlu, son dizesi serbest olan ya da dörtlük halinde blok uyum gösteren bu örgü kalıbına edebiyatta <b>Düz Kafiye Örgüsü</b> denir. Koşmaların ilk dörtlüğünde çok sık görülür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Edebiyatta dış yapısal özellikler ile içeriksel özelliklerin isimlendirilmesi tamamen farklı kurallara bağlıdır. Buna göre; Halk edebiyatındaki <b>Koşma</b> ile Divan edebiyatındaki <b>Gazel</b> kavramları şiirin hangi kriterine göre verilmiş isimlerdir ve ortak adları nedir?</div>
+        <ul class="options-list">
+            <li>A) Nazım Türüdür</li>
+            <li>B) Nazım Birimidir</li>
+            <li>C) Kafiye Şemasıdır</li>
+            <li>D) Nazım Biçimidir (Şeklidir)</li>
+            <li>E) Edebi Akımdır</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Koşma ve Gazel terimlerinin teorik tanımlarını yapalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Koşma; 11'li hece ölçüsüyle, dörtlüklerle yazılan, "abab / cccb" şemasına sahip bir Halk şiiri dış şablonudur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Gazel; aruz ölçüsüyle, beyitlerle yazılan, "aa / ba / ca" şemasına sahip bir Divan şiiri dış şablonudur.
+            <br>• Her iki kavram da şiirin konusuna (içeriğine) bakılmaksızın, tamamen **ölçü, kafiye şeması ve nazım birimi gibi dış geometrik şablonlarına** göre verilmiş isimlerdir. Şiirin bu dış kalıpsal isimlendirmelerine <b>Nazım Biçimi (Nazım Şekli)</b> denir. Şiirin konusuna göre verilen isimler (güzelleme, hicviye vb.) ise nazım türüdür.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> 
+            <div class="poem-sample">
+                Ezelden beri değişmez kaderin <u>hükmü</u><br>
+                Bu ağır hasret, bükemez bendeki <u>bükümü</u>
+            </div>
+            Yukarıdaki beyit dize sonlarındaki "hükmü" ve "bükümü" kelimeleri arasında kurulan uyak türü incelendiğinde; bu uyak türü aşağıdakilerden hangisidir? (Ek veya kelime halinde redif bulunmamaktadır).
+        </div>
+        <ul class="options-list">
+            <li>A) Yarım Kafiye</li>
+            <li>B) Tam Kafiye</li>
+            <li>C) Tunç Kafiye</li>
+            <li>D) Cinaslı Kafiye</li>
+            <li>E) Zengin Kafiye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: E</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Kelimelerin sonlarındaki ortak harf benzeşmelerini (redif olmadığı belirtildiği için) doğrudan sayalım:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - h - ü - k - m - ü
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - b - ü - k - ü - m - ü
+            <br>• İki kelime sonundaki ses benzeşmelerine sondan başa doğru baktığımızda:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; ...<b>ü - m - k - ü</b> ses dizilimlerinin ortak tınladığı görülür. Kelimeler arasında ortak olan sesler "ü", "m", "k" ve "ü" olmak üzere tam **4 harftir (4 ses benzerliği)**.
+            <br>• Edebiyat kurallarımıza göre **3 ve daha fazla ses (harf) benzerliğine dayanan** uyak türüne <b>Zengin Kafiye</b> denir. 4 harf benzeştiği için bu net bir zengin uyaktır.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 
+            <div class="poem-sample">
+                Gül yanaklar sararıp solsa da bir gün yeridir (a)<br>
+                Ayrılık hançeri sinemi derinden <u>yaralar</u> (b)<br>
+                Gözyaşım sel olup aksa da durmaz geridir (a)<br>
+                Şu garip gönlümü sarar hep kara <u>yaralar</u> (b)
+            </div>
+            Bu dörtlüğün ikinci ve dördüncü dizelerinin sonlarında yer alan "yaralar" sözcükleri arasındaki ahenk ilişkisi aşağıdakilerden hangisine tam olarak uymaktadır?
+        </div>
+        <ul class="options-list">
+            <li>A) Kelime halinde rediftir.</li>
+            <li>B) Zengin kafiyedir.</li>
+            <li>C) Cinaslı kafiyedir.</li>
+            <li>D) Tunç kafiyedir.</li>
+            <li>E) Yarım kafiyedir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Dördün dize sonlarında duran iki "yaralar" kelimesini cümle içindeki anlam bağlamlarına göre tek tek analiz edelim:
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 2. dizedeki "...derinden yaralar" eylemdir; yaralamak, zarar vermek, acıtmak (fiil) anlamındadır.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - 4. dizedeki "...kara yaralar" ise isimdir; vücutta veya kalpte açılan çıban, yara (isim) kelimesinin çoğul halidir.
+            <br>• Görüldüğü üzere bu iki kelimenin **yazılışları ve okunuşları harfi harfine tıpatıp aynıdır, fakat anlamları ve kökenleri birbirinden tamamen farklıdır**.
+            <br>• Yazılışı aynı anlamı farklı olan bu tarz sesteş kelimelerin dize sonlarında oluşturduğu ahenk türüne edebiyatta kesin bir dille <b>Cinaslı Kafiye</b> denir. Anlamları farklı olduğu için asla redif kabul edilemezler.
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"/>
+    <title>AYT Edebiyat - Modül 3: İslamiyet Öncesi ve Geçiş Dönemi</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 15mm 18mm 15mm;
+            background-color: #fdfbf7;
+        }
+        *, *::before, *::after { box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2d2219; line-height: 1.6; font-size: 11pt; margin: 0; padding: 0; background-color: #fdfbf7; }
+        .header-banner { background: linear-gradient(135deg, #7c2d12, #b45309); color: #ffffff; padding: 35px 20px; margin-bottom: 25px; border-radius: 6px; text-align: center; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .header-banner h1 { margin: 0; font-size: 24pt; font-weight: bold; letter-spacing: 0.5px; }
+        .header-banner p { margin: 8px 0 0 0; font-size: 11.5pt; color: #fef3c7; font-style: italic; }
+        h2 { color: #7c2d12; font-size: 16pt; border-left: 6px solid #b45309; padding-left: 12px; margin-top: 35px; margin-bottom: 15px; page-break-after: avoid; }
+        h3 { color: #9a3412; font-size: 13pt; margin-top: 25px; margin-bottom: 12px; page-break-after: avoid; }
+        p { margin-top: 0; margin-bottom: 14px; text-align: justify; text-indent: 20px; }
+        .memory-box { background-color: #fffbeb; border: 1px dashed #f59e0b; border-left: 5px solid #d97706; padding: 15px; margin: 18px 0; border-radius: 4px; color: #78350f; }
+        .warning-box { background-color: #fef2f2; border: 1px solid #fee2e2; border-left: 5px solid #dc2626; padding: 15px; margin: 18px 0; border-radius: 4px; color: #991b1b; }
+        .question-block { background-color: #ffffff; border: 1px solid #e5e7eb; border-top: 4px solid #7c2d12; padding: 20px; margin: 25px 0; border-radius: 4px; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        .question-title { font-weight: bold; color: #7c2d12; margin-bottom: 12px; text-indent: 0; font-size: 11.5pt; }
+        .options-list { list-style-type: none; padding-left: 5px; margin-bottom: 15px; }
+        .options-list li { margin-bottom: 8px; padding-left: 5px; }
+        .solution-box { background-color: #f0fdf4; border-left: 5px solid #16a34a; padding: 12px 15px; font-size: 10.5pt; color: #14532d; margin-top: 15px; border-radius: 0 4px 4px 0; }
+        .solution-title { font-weight: bold; margin-bottom: 5px; color: #16a34a; font-size: 11pt; }
+        .poem-sample { background-color: #f5f5f4; border-radius: 4px; padding: 12px 25px; margin: 12px auto; width: fit-content; min-width: 250px; font-style: italic; font-family: 'Georgia', serif; line-height: 1.8; box-shadow: inset 0 2px 4px rgba(0,0,0,0.02); }
+        table { width: 100%; border-collapse: collapse; margin: 22px 0; page-break-inside: avoid; box-shadow: 0 2px 4px rgba(0,0,0,0.02); }
+        th { background-color: #7c2d12; color: #ffffff; font-weight: bold; text-align: left; padding: 11px 14px; font-size: 10.5pt; border: 1px solid #7c2d12; }
+        td { padding: 11px 14px; border: 1px solid #e5e7eb; font-size: 10.5pt; background-color: #ffffff; }
+        ul, ol { margin-top: 0; margin-bottom: 14px; padding-left: 24px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>AYT EDEBİYAT - MODÜL 3: İSLAMİYET ÖNCESİ VE GEÇİŞ DÖNEMİ</h1>
+        <p>"Orhun Yazıtları'nın Taş Çığlığından Karahanlı Sarayı'nın Bilgelik Işığına Ulusal Miras Analizi"</p>
+    </div>
+
+    <h2>1. İSLAMİYET ÖNCESİ TÜRK EDEBİYATI (KÖKLER)</h2>
+    <p>Başlangıcı tam olarak bilinmeyen, Türklerin İslamiyet’i kabul ettiği 11. yüzyıla kadar süren dönemdir. Dil yabancı etkilerden uzak, saf ve öztürkçedir. Milli ölçümüz olan **hece ölçüsü** ve nazım birimi olan **dörtlük** kullanılmıştır. Dönem iki kolda incelenir:</p>
+
+    <h3>A) Sözlü Dönem Ürünleri</h3>
+    <p>Dini törenlerden (Sığır: Av töreni, Şölen: Ziyafet, Yuğ: Ölüm töreni) doğmuş, kulaktan kulağa yayılan ürünlerdir. Şiirleri <i>"Ozan, Kam, Baksı, Şaman"</i> adı verilen bilgeler, milli çalgımız olan <b>kopuz</b> eşliğinde söylerler.</p>
+    <ul>
+        <li><b>Koşuk:</b> Şölenlerde ve sığır törenlerinde söylenen; aşk, doğa, yiğitlik temalı lirik şiirlerdir. (Halk edebiyatındaki karşılığı: <i>Koşma</i> , Divan edebiyatındaki karşılığı: <i>Gazel</i>).</li>
+        <li><b>Sagu:</b> Yuğ adı verilen cenaze törenlerinde, ölen bir devlet büyüğünün arkasından duyulan acıyı ve onun kahramanlıklarını anlatan şiirlerdir. (Halk edebiyatındaki karşılığı: <i>Ağıt</i> , Divan edebiyatındaki karşılığı: <i>Mersiye</i>). En ünlüsü <b>Alp Er Tunga Sagusu</b>'dur.</li>
+        <li><b>Sav:</b> Dönemin derin felsefesini ve yaşam tecrübelerini aktaran atasözleridir.</li>
+        <li><b>Destan:</b> Bir milletin hafızasında derin izler bırakan göç, savaş, kıtlık gibi olayları fantastik ve mitolojik unsurlarla (kurt, ışık, ağaç motifleri) süsleyerek anlatan uzun manzum anlatılardır. (Örn: Ergenekon, Oğuz Kağan, Göç, Türeyiş destanları).</li>
+    </ul>
+
+    <h3>B) Yazılı Dönem Ürünleri</h3>
+    <ul>
+        <li><b>Göktürk (Orhun) Yazıtları (8. Yüzyıl):</b> Türk tarihinin ve edebiyatının <b>ilk yazılı belgeleridir</b>. Söylev (nutuk) dilinin ve gelişmiş bir Türkçenin ilk şaheseridir. **Bilge Kağan, Kültigin ve Vezir Tonyukuk** adına dikilmiştir. Yazarı Türk tarihinin ilk tarihçisi ve edibi kabul edilen <b>Yollug Tigin</b>'dir (Tonyukuk kendi taşını kendi yazmıştır). Yazıtları dünyaya ilk kez 1893'te Danimarkalı dil bilimci <b>Wilhelm Thomsen</b> okumuştur.</li>
+        <li><b>Uygur Metinleri:</b> Maniheizm ve Budizm dinlerinin etkisiyle yazılan, dini içerikli metinlerdir. (Örn: <i>Altun Yaruk</i>, <i>Irk Bitig</i> (Fal kitabı), <i>Kalyanamkara ve Papamkara</i> (İyi prens kötü prens)). Matbaa ve kağıt ilk kez bu dönemde kullanılmıştır.</li>
+    </ul>
+
+    <h2>2. GEÇİŞ DÖNEMİ TÜRK EDEBİYATI (11. - 12. YÜZYIL)</h2>
+    <p>Türklerin Karahanlılar döneminde İslamiyet'i kabul etmesiyle başlayan, eski Türk kültürü ile yeni İslami (Arap-Fars) kültürün iç içe geçtiği köprü dönemdir. 
+    <br><b>⚠️ Ortak Yapısal Özellikleri:</b> Hakaniye lehçesiyle (Karahanlı Türkçesi) yazılmışlardır. Hem dörtlük hem beyit; hem hece hem aruz ölçüsü bir arada kullanılmıştır. Amaç estetik kaygı değil, **topluma İslamiyet'i öğretmek ve ahlak vermektir**.</p>
+
+    <div class="memory-box">
+        <strong>🧠 HAFIZA KARTLARI — GEÇİŞ DÖNEMİNİN 4 BÜYÜK ABİDESİ:</strong>
+        <table>
+            <thead>
+                <tr>
+                    <th>Eser Adı</th>
+                    <th>Yazarı</th>
+                    <th>Yüzyıl</th>
+                    <th>ÖSYM Nokta Atışı Anahtar Kelimeleri / Önemi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><b>Kutadgu Bilig</b><br>(Mutluluk Veren Bilgi)</td>
+                    <td>Yusuf Has Hacib</td>
+                    <td>11. yy</td>
+                    <td>İlk siyasetname. İlk mesnevi. Aruzla yazılan ilk eser. **Alegorik (sembolik)** bir eserdir. 4 soyut kavramı temsil eden 4 karakter vardır: Küntogdı (Adalet), Aytoldı (Mutluluk), Ögdülmiş (Akıl), Odgurmuş (Akıbet/Ölüm).</td>
+                </tr>
+                <tr>
+                    <td><b>Divânu Lugâti't-Türk</b><br>(Türk Dili Sözlüğü)</td>
+                    <td>Kaşgarlı Mahmut</td>
+                    <td>11. yy</td>
+                    <td><b>İlk Türk dünyası haritasını içerir.</b> Araplara Türkçe öğretmek ve Türkçenin Arapça kadar zengin bir dil olduğunu kanıtlamak için yazılmış ilk sözlüktür. İçinde sözlü dönem ürünleri (koşuk, sagu, sav) ilk kez derlenmiştir. Hakiki ansiklopedidir.</td>
+                </tr>
+                <tr>
+                    <td><b>Atabetü'l-Hakayık</b><br>(Hakikatlerin Eşiği)</td>
+                    <td>Edip Ahmet Yükneki</td>
+                    <td>12. yy</td>
+                    <td>Dini-ahlaki bir öğüt kitabıdır. Bilginin önemi, cehaletin zararları, cömertlik ve doğruluk konularını ayet ve hadislerle açıklar. Gazel ve kaside biçiminde (manzum) yazılmıştır.</td>
+                </tr>
+                <tr>
+                    <td><b>Divân-ı Hikmet</b></td>
+                    <td>Hoca Ahmet Yesevi</td>
+                    <td>12. yy</td>
+                    <td><b>Türk tasavvuf edebiyatının ilk eseridir.</b> "Hikmet" adı verilen şiirler, yalın bir dille ve hece ölçüsüyle yazılmıştır. Yesevilik tarikatının ve Anadolu'nun İslamlaşmasının manevi temelidir.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>3. ÜNİTE PEKİŞTİRME SORULARI (DETAYLI AKADEMİK ÇÖZÜMLÜ)</h2>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 1:</b> 
+            <div class="poem-sample">
+                Alp Er Tunga öldi mü<br>
+                Isız acun kaldı mu<br>
+                Ölek öçin aldı mu<br>
+                Emdi yürek yırtılur
+            </div>
+            İslamiyet öncesi Türk edebiyatına ait bu parça ile ilgili aşağıda verilen ifadelerden hangisi biyolojik ve edebi kriterlere göre <b>yanlıştır</b>?
+        </div>
+        <ul class="options-list">
+            <li>A) Sagu nazım biçiminin en bilinen örneğidir.</li>
+            <li>B) Hece ölçüsü ve dörtlük nazım birimiyle söylenmiştir.</li>
+            <li>C) Ölen bir kahramanın arkasından duyulan yas duygusunu anlatır.</li>
+            <li>D) Dil özellikleri bakımından yabancı kelimelerin istilasına uğramış ağır bir dille yazılmıştır.</li>
+            <li>E) Halk edebiyatındaki karşılığı "Ağıt", Divan edebiyatındaki karşılığı "Mersiye"dir.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Verilen şiir Türk edebiyatının bilinen en eski ve ikonik parçası olan **Alp Er Tunga Sagusu**dur.
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Şiir yuğ törenlerinde söylenen bir sagudur (A, C doğru), hece ölçüsü ve dörtlük taşır (B doğru), tür eşleşmeleri kusursuzdur (E doğru).
+            <br>&nbsp;&nbsp;&nbsp;&nbsp; - Ancak D seçeneğindeki ifade tamamen yanlıştır. İslamiyet öncesi Türk edebiyatının en belirgin özelliği, Türklerin henüz başka medeniyetlerle yoğun temasa geçmemesinden dolayı **dilin tamamen saf, katışıksız, öztürkçe ve yabancı kelimelerden tamamen uzak** olmasıdır. Ağır bir dil ancak İslamiyet sonrası Divan edebiyatında görülecektir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Yusuf Has Hacib tarafından 11. yüzyılda Karahanlı sarayında Tabgaç Buğra Han'a sunulan, Türk edebiyatındaki **ilk mesnevi, ilk aruz ölçülü eser ve ilk siyasetname** olma unvanlarını elinde bulunduran alegorik başyapıt aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Divânu Lugâti't-Türk</li>
+            <li>B) Atabetü'l-Hakayık</li>
+            <li>C) Kutadgu Bilig</li>
+            <li>D) Divân-ı Hikmet</li>
+            <li>E) Kitab-ı Dede Korkut</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Sorudaki ÖSYM nokta atışı anahtar kelimeleri yakalayalım: "İlk mesnevi", "ilk siyasetname", "ilk aruz" ve "Yusuf Has Hacib".
+            <br>• Bu unvanların tamamı Karahanlılar döneminde kaleme alınan, kelime anlamı "Mutluluk veren bilgi" olan <b>Kutadgu Bilig</b>'e aittir. Eser devlet yönetim ilkelerini, adalet, akıl ve akıbet kavramlarını 4 sembolik karakter üzerinden tartıştırarak anlatan muazzam bir kılavuzdur.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 3:</b> Kaşgarlı Mahmut tarafından kaleme alınan Divânu Lugâti't-Türk adlı eserin Türk kültür tarihindeki yeri incelendiğinde; aşağıda verilen özelliklerden hangisi bu esere ait bir nitelik <b>değildir</b>?</div>
+        <ul class="options-list">
+            <li>A) Araplara Türkçe öğretmek amacıyla yazılmış ilk Türk dili sözlüğüdür.</li>
+            <li>B) Eserin sonuna Türk dünyasını ve Türk boylarının coğrafi dağılımını gösteren renkli bir harita eklenmiştir.</li>
+            <li>C) Tamamen hece ölçüsü ve dörtlüklerle yazılmış, içinde hiçbir nesir (düz yazı) barındırmayan tasavvufi bir eserdir.</li>
+            <li>D) İslamiyet öncesi sözlü döneme ait koşuk, sagu ve sav örneklerini ilk kez yazıya geçirerek yok olmaktan kurtarmıştır.</li>
+            <li>E) Dönemin Karahanlı (Hakaniye) Türkçesi lehçe özelliklerini yansıtır.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Divânu Lugâti't-Türk'ün ansiklopedik kimliğini sorgulayalım: Araplara Türkçe öğretme amacı (A), ilk Türk haritası (B), sözlü dönem şiirlerinin ilk derlemesi (D) ve Hakaniye Türkçesi (E) bilgileri tamamen gerçektir.
+            <br>• Ancak C seçeneğindeki iddia tamamen yanlıştır. Divânu Lugâti't-Türk şiir kitabı değil, **ansiklopedik bir sözlüktür**. Türkçe kelimelerin anlamları Arapça düz yazıyla (nesir) açıklanmış, aralara sadece kanıt ve örnek olsun diye dörtlükler serpiştirilmiştir. Ayrıca tasavvufi bir niteliği yoktur; tasavvufi olan eser Divân-ı Hikmet'tir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 4:</b> Göktürk (Orhun) Yazıtları ile ilgili aşağıda verilen edebi ve tarihi bilgilerden hangisi ÖSYM kriterlerine göre <b>hatalıdır</b>?</div>
+        <ul class="options-list">
+            <li>A) Türk adının geçtiği ilk yazılı edebi ve tarihi metinlerdir.</li>
+            <li>B) Tonyukuk, Kültigin ve Bilge Kağan adına dikilmiş üç büyük anıttan oluşur.</li>
+            <li>C) Yazıtlarda kullanılan dil, gelişmiş bir hitabet (söylev) ve sanatlı üslup barındırır.</li>
+            <li>D) Budizm ve Maniheizm dinlerinin felsefesini Türk halkına aşılamak amacıyla Uygur alfabesiyle kaleme alınmışlardır.</li>
+            <li>E) Anıtların üzerindeki yazıları dünyada ilk kez Danimarkalı Wilhelm Thomsen okumuştur.</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: D</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Orhun Abideleri'nin tarihi gerçeklerini denetleyelim: Türk adının ilk geçişi (A), üç büyük abide (B), nutuk dili (C) ve Thomsen'ın çözmesi (E) tamamen doğrudur.
+            <br>• Ancak D seçeneğindeki ifade baştan aşağı yanlıştır. Orhun Yazıtları Uygur değil, **Göktürk (Runik) alfabesiyle** yazılmıştır. İçeriği ise yabancı dinlerin aşılanması değil, tamamen milli bir şuurla **Çinlilerin hilelerine karşı uyanık olunmasını, devletin ve milletin nasıl korunacağını** anlatan siyasi, askeri ve milli öğütlerdir. Din telkini Uygur metinlerinde görülecektir.
+        </div>
+    </div>
+
+    <div class="question-block">
+        <div class="question-title"><b>Soru 5:</b> 12. yüzyılda Edip Ahmet Yükneki tarafından yazılan, kelime anlamı "Hakikatlerin Eşiği" olan, bilimin değerini, adaleti, cömertliği ayet ve hadislerin ışığında ahlaki birer öğüt olarak insanlığa sunan Geçiş Dönemi eseri aşağıdakilerden hangisidir?</div>
+        <ul class="options-list">
+            <li>A) Divân-ı Hikmet</li>
+            <li>B) Kutadgu Bilig</li>
+            <li>C) Atabetü'l-Hakayık</li>
+            <li>D) Şehname</li>
+            <li>E) Risaletü'n-Nushiyye</li>
+        </ul>
+        <div class="solution-box">
+            <div class="solution-title">✓ Doğru Cevap: C</div>
+            <b>Analitik Çözüm:</b> 
+            <br>• Eser-içerik eşleştirmesini yapalım: "12. yüzyıl", "Edip Ahmet Yükneki" ve özellikle "Hakikatlerin Eşiği anlamı" ile "ayet-hadis destekli ahlak kitabı" tanımları doğrudan doğruya <b>Atabetü'l-Hakayık</b> eserini işaret etmektedir. Eser Karahanlı emiri Dad Sipehsalar Bey'e sunulmuş, ahlaki bir manifesto niteliğindedir.
+        </div>
+    </div>
+
+</body>
+</html>
