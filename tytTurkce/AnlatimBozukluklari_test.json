@@ -1,0 +1,310 @@
+{
+  "id": "anlatim-bozukluklari-test",
+  "title": "Anlatım Bozuklukları",
+  "lesson": "TYT Türkçe",
+  "description": "Anlatım Bozuklukları konusu için 20 soruluk mini test",
+  "questionCount": 20,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Gereksiz sözcük kullanımı",
+      "question": "Aşağıdaki cümlelerin hangisinde gereksiz sözcük kullanımından kaynaklanan bir anlatım bozukluğu vardır?",
+      "options": [
+        "Bu konuyu yarın yeniden konuşuruz.",
+        "Toplantıya bütün herkes katıldı.",
+        "Kardeşim bugün erkenden uyandı.",
+        "Soruları dikkatlice çözmelisin."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "\"Bütün\" ve \"herkes\" aynı kapsamı bildirdiği için birlikte kullanılmaları gereksizdir. Doğru kullanım: \"Toplantıya herkes katıldı.\""
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Gereksiz sözcük kullanımı",
+      "question": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu vardır?",
+      "options": [
+        "Geri geri çekilerek kapıdan çıktı.",
+        "Yarın sabah erkenden yola çıkacağız.",
+        "Bu kitabı iki günde bitirdim.",
+        "Seni uzun zamandır görmüyorum."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"Çekilmek\" fiili zaten geriye doğru hareket anlamı taşıdığı için \"geri geri\" sözü gereksizdir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Çelişen sözlerin kullanımı",
+      "question": "Aşağıdaki cümlelerin hangisinde anlamca çelişen sözler bir arada kullanılmıştır?",
+      "options": [
+        "Kesinlikle belki yarın gelir.",
+        "Yarın seni arayabilirim.",
+        "Bu konuyu mutlaka öğreneceğim.",
+        "Sanırım toplantı biraz gecikecek."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"Kesinlikle\" kesinlik, \"belki\" olasılık bildirir. Aynı yargıda birlikte kullanılamaz."
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "category": "Sözcüğün yanlış anlamda kullanılması",
+      "question": "Aşağıdaki cümlelerin hangisinde bir sözcük yanlış anlamda kullanılmıştır?",
+      "options": [
+        "Bu davranışıyla arkadaşlarını küçümsedi.",
+        "Yaptığı hatayı telafi etmek için çok çalıştı.",
+        "Yeni düzenleme çalışanların haklarını kısıtladı.",
+        "Bu tedbirler kazaların oluşmasını sağlayacaktır."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "\"Sağlamak\" olumlu bir sonucu anlatır. Burada \"Bu tedbirler kazaları önleyecektir.\" denmelidir."
+    },
+    {
+      "id": 5,
+      "difficulty": "medium",
+      "category": "Deyim yanlışlığı",
+      "question": "Aşağıdaki cümlelerin hangisinde deyim yanlış kullanılmıştır?",
+      "options": [
+        "Bu olaydan sonra onun gözünden düştüm.",
+        "Sınav yaklaşınca etekleri tutuştu.",
+        "Bize yardım etmek için elinden geleni ardına koymadı.",
+        "Haberi duyunca sevinçten havalara uçtu."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "\"Elinden geleni ardına koymamak\" kötülük yapmak anlamındadır. Yardım bağlamında \"elinden geleni yaptı\" denmelidir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Özne-yüklem uyumsuzluğu",
+      "question": "Aşağıdaki cümlelerin hangisinde özne-yüklem uyumsuzluğu vardır?",
+      "options": [
+        "Öğrencilerin çoğu sınava zamanında girdi.",
+        "Çocuklar bahçede neşeyle oynuyordu.",
+        "Herkes sorularını dikkatle çözmeliler.",
+        "Kardeşimle ben yarın yola çıkacağız."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "\"Herkes\" tekil bir öznedir. Yüklem \"çözmeli\" olmalıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Özne eksikliği",
+      "question": "Aşağıdaki cümlelerin hangisinde özne eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+      "options": [
+        "Toplantıya geç geldi ve hemen başladı.",
+        "Eve geldi, üstünü değiştirdi.",
+        "Kitabı okudu ve arkadaşına verdi.",
+        "Pencereyi açtı, odayı havalandırdı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İlk yüklemin öznesi gizli \"o\", ikinci yüklemin öznesi ise \"toplantı\" olmalıdır. Doğru kullanım: \"Toplantıya geç geldi, toplantı da hemen başladı.\""
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Nesne / tümleç eksikliği",
+      "question": "Aşağıdaki cümlelerin hangisinde tümleç eksikliği vardır?",
+      "options": [
+        "Kitabı aldı ve masanın üzerine bıraktı.",
+        "Arkadaşını aradı ve uzun süre konuştu.",
+        "Bu öneriyi düşündü ve kabul etti.",
+        "Soruları çözdü ve öğretmenine verdi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "\"Konuşmak\" fiili \"arkadaşıyla\" tümlecini ister. Cümle \"Arkadaşını aradı ve onunla uzun süre konuştu.\" biçiminde olmalıdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "hard",
+      "category": "Dolaylı tümleç eksikliği",
+      "question": "Aşağıdaki cümlelerin hangisinde dolaylı tümleç eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+      "options": [
+        "Çocuklara değer verir, her zaman ilgilenirdi.",
+        "Bu haberi duyunca çok sevindi.",
+        "Arkadaşlarıyla sinemaya gitti.",
+        "Bize uğradı ve biraz dinlendi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"İlgilenmek\" fiili \"çocuklarla\" tümlecini ister. Doğru kullanım: \"Çocuklara değer verir, onlarla her zaman ilgilenirdi.\""
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Tamlama yanlışlığı",
+      "question": "Aşağıdaki cümlelerin hangisinde tamlama yanlışlığı vardır?",
+      "options": [
+        "Okulun bahçesi bugün çok kalabalıktı.",
+        "Öğrenci ve öğretmenlerin sorunları konuşuldu.",
+        "Bu kitabın kapağı oldukça ilgi çekici.",
+        "Şehrin sokakları yağmurdan sonra temizlendi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "\"Öğrenci\" sözcüğü de tamlayan eki almalıdır. Doğru kullanım: \"Öğrencilerin ve öğretmenlerin sorunları konuşuldu.\""
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Ek yanlışlığı",
+      "question": "Aşağıdaki cümlelerin hangisinde ekin yanlış kullanılmasından kaynaklanan anlatım bozukluğu vardır?",
+      "options": [
+        "Onunla görüşmeyeli uzun zaman oldu.",
+        "Bu davranışından dolayı seni kutluyorum.",
+        "Seni görmekten çok mutlu oldum.",
+        "Başarılı olmasının nedeni düzenli çalışmasındandır."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "\"Nedeni\" ve \"-dandır\" aynı nedensellik görevini üstlenir. Doğrusu: \"Başarılı olmasının nedeni düzenli çalışmasıdır.\""
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Mantık hatası",
+      "question": "Aşağıdaki cümlelerin hangisinde mantık hatası vardır?",
+      "options": [
+        "Bırakın yüksek sesle konuşmayı, fısıldamıyordu bile.",
+        "Bırakın koşmayı, yürümekte bile zorlanıyordu.",
+        "Bırakın roman yazmayı, kısa bir öykü bile yazamıyor.",
+        "Bırakın onu tanımayı, adını bile duymadım."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"Bırakın..., ... bile\" yapısında ikinci eylem daha kolay olmalıdır. Burada sıralama mantıksızdır."
+    },
+    {
+      "id": 13,
+      "difficulty": "easy",
+      "category": "Anlam belirsizliği",
+      "question": "Aşağıdaki cümlelerin hangisinde anlam belirsizliği vardır?",
+      "options": [
+        "Ali, kardeşini öğretmenine götürdü.",
+        "Ali, öğretmeniyle uzun süre konuştu.",
+        "Ali, kitabını masanın üzerine bıraktı.",
+        "Ali, sabah erkenden okula gitti."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"Öğretmenine\" sözü Ali'nin mi yoksa kardeşinin mi öğretmeni olduğunu açıkça belirtmemektedir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Zamir eksikliği",
+      "question": "Aşağıdaki cümlelerin hangisinde zamir eksikliği anlam belirsizliğine yol açmıştır?",
+      "options": [
+        "Arkadaşına kitabını getirmesini söyledi.",
+        "Arkadaşına kendi kitabını getirmesini söyledi.",
+        "Arkadaşının kitabını masaya bıraktı.",
+        "Kitabını çantasına koydu."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"Kitabını\" sözcüğünün kimin kitabı olduğu belirsizdir. \"Kendi kitabını\" ya da \"onun kitabını\" denmelidir."
+    },
+    {
+      "id": 15,
+      "difficulty": "medium",
+      "category": "Yanlış bağlaç kullanımı",
+      "question": "Aşağıdaki cümlelerin hangisinde bağlaç yanlış kullanılmıştır?",
+      "options": [
+        "Çok çalıştı fakat başarılı oldu.",
+        "Çok çalıştı ve başarılı oldu.",
+        "Çok çalışmasına rağmen başarılı olamadı.",
+        "Hem çalıştı hem de dinlendi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"Fakat\" karşıtlık bildirir. Çok çalışmak ile başarılı olmak arasında karşıtlık olmadığı için \"ve\" kullanılmalıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Yüklem eksikliği",
+      "question": "Aşağıdaki cümlelerin hangisinde yüklem eksikliğinden kaynaklanan bir anlatım bozukluğu vardır?",
+      "options": [
+        "Kimi öğrenciler kitap, kimileri dergi okuyordu.",
+        "Bazıları erken, bazıları geç geldi.",
+        "Kardeşim matematiği, ben ise Türkçeyi seviyorum.",
+        "Bir kısmı salonda, diğerleri bahçedeydi."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İlk bölümün yüklemi eksiktir. Doğru kullanım: \"Bir kısmı salondaydı, diğerleri bahçedeydi.\""
+    },
+    {
+      "id": 17,
+      "difficulty": "medium",
+      "category": "Olay sıralaması",
+      "question": "Aşağıdaki cümlelerin hangisinde olayların sıralanışında yanlışlık vardır?",
+      "options": [
+        "Eve geldi, ellerini yıkadı ve yemeğe oturdu.",
+        "Kitabı bitirdi, okumaya başladı ve notlar aldı.",
+        "Sabah uyandı, kahvaltı yaptı ve evden çıktı.",
+        "Dosyayı açtı, bilgileri kontrol etti ve kaydetti."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bir kitabın önce okunmaya başlanması, sonra not alınması ve en sonunda bitirilmesi gerekir."
+    },
+    {
+      "id": 18,
+      "difficulty": "medium",
+      "category": "Sözcüğün yanlış yerde kullanılması",
+      "question": "Aşağıdaki cümlelerin hangisinde bir sözcüğün yanlış yerde kullanılmasından kaynaklanan anlatım bozukluğu vardır?",
+      "options": [
+        "Yeni okula başlayan öğrenciler için toplantı yapıldı.",
+        "Okula yeni başlayan öğrenciler için toplantı yapıldı.",
+        "Toplantı yarın okulda yapılacak.",
+        "Öğrenciler toplantıya zamanında geldi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "\"Yeni\" sözcüğü \"okul\"u değil \"başlama\" eylemini nitelemelidir. Doğru kullanım: \"Okula yeni başlayan öğrenciler...\""
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Çatı uyuşmazlığı",
+      "question": "Aşağıdaki cümlelerin hangisinde çatı uyuşmazlığı vardır?",
+      "options": [
+        "Toplantıda sorunlar tartışıldı ve çözüm yolları arandı.",
+        "Eve gidildi ve biraz dinlenildi.",
+        "Ödevler tamamlandı ve öğretmene teslim ettik.",
+        "Kitaplar toplandı ve raflara yerleştirildi."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İlk yüklem edilgen, ikinci yüklem etken çatılıdır. Doğrusu: \"Ödevler tamamlandı ve öğretmene teslim edildi.\""
+    },
+    {
+      "id": 20,
+      "difficulty": "medium",
+      "category": "Anlatım bozukluğu yoktur",
+      "question": "Aşağıdaki cümlelerin hangisinde anlatım bozukluğu yoktur?",
+      "options": [
+        "Bütün öğrencilerin hepsi salona girdi.",
+        "Bu işi kesinlikle belki yarın bitiririz.",
+        "Sınava düzenli çalıştığı için başarılı oldu.",
+        "Onun görüşlerine katılıyor ve saygı duyuyorum."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "C seçeneğinde anlatım bozukluğu yoktur. A'da gereksiz sözcük, B'de çelişen sözler, D'de ise tümleç eksikliği vardır."
+    }
+  ]
+}
