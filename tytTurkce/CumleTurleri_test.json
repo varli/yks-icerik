@@ -1,0 +1,331 @@
+{
+  "id": "cumle-turleri-test",
+  "title": "Cümle Türleri",
+  "lesson": "TYT Türkçe",
+  "description": "Cümle Türleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Yüklemin türüne göre",
+      "question": "Aşağıdaki cümlelerden hangisi fiil cümlesidir?",
+      "options": [
+        "Bugün hava oldukça serin.",
+        "Bu kitabın yazarı ünlü bir romancı.",
+        "Çocuklar bahçede neşeyle oynuyor.",
+        "En sevdiğim mevsim ilkbahardır.",
+        "Sınıfın en çalışkanı Ayşe'ydi."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "“Oynuyor” çekimli bir fiildir. Bu nedenle cümle fiil cümlesidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Yüklemin türüne göre",
+      "question": "Aşağıdaki cümlelerden hangisi isim cümlesidir?",
+      "options": [
+        "Sabah erkenden evden çıktı.",
+        "Bu sokak geceleri oldukça sessizdir.",
+        "Bahçedeki çiçekleri suladı.",
+        "Soruları dikkatlice çözdü.",
+        "Arkadaşına uzun bir mektup yazdı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "“Sessizdir” isim soylu bir sözcüğün ek fiil almasıyla yüklem olmuştur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Yüklemin yerine göre",
+      "question": "Aşağıdaki cümlelerden hangisi devrik cümledir?",
+      "options": [
+        "Bugün seni okulda göremedim.",
+        "Kardeşim odasında ders çalışıyor.",
+        "Geldi akşamüstü beklediğimiz misafirler.",
+        "Bu sabah erkenden yola çıktık.",
+        "Çocuklar parkta oyun oynadı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yüklem olan “geldi” cümlenin sonunda değildir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Yüklemin yerine göre",
+      "question": "Aşağıdaki cümlelerden hangisi kurallı cümledir?",
+      "options": [
+        "Sessizce yürüdü koridorda.",
+        "Bahçede açmış rengârenk çiçekler.",
+        "Dün akşam bizi aradı öğretmenimiz.",
+        "Öğrenciler sınav sonuçlarını merakla bekliyordu.",
+        "Ne güzel kokuyor bu çiçekler."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "“Bekliyordu” yüklemi cümlenin sonunda yer aldığı için cümle kurallıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Anlamına göre",
+      "question": "Aşağıdaki cümlelerden hangisi olumsuz cümledir?",
+      "options": [
+        "Bu soruyu kolayca çözdüm.",
+        "Yarın bizimle gelecek.",
+        "Kardeşim bugün okula gitmedi.",
+        "Akşam seni arayacağım.",
+        "Kitabı masanın üzerine bıraktı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "“Gitmedi” yüklemi eylemin gerçekleşmediğini bildirir."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Anlamına göre",
+      "question": "Aşağıdaki cümlelerden hangisi biçimce olumlu, anlamca olumsuzdur?",
+      "options": [
+        "Seni hiç unutur muyum?",
+        "Bu soruyu çözemedim.",
+        "Bugün dışarı çıkmayacağım.",
+        "Onunla bir daha konuşmadı.",
+        "Böyle bir davranışı kabul etmiyorum."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Cümle biçimce olumlu soru, anlamca “Seni asla unutmam.” yargısını taşır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Anlamına göre",
+      "question": "Aşağıdaki cümlelerden hangisi biçimce olumsuz, anlamca olumludur?",
+      "options": [
+        "Bu kadar güzel bir manzara görülmez mi?",
+        "Seni bugün aramadım.",
+        "Bu işi zamanında bitiremeyiz.",
+        "Kimse toplantıya katılmadı.",
+        "Bu davranışını doğru bulmuyorum."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Biçimce olumsuz olsa da “Elbette görülür.” anlamını taşır."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "category": "Anlamına göre",
+      "question": "Aşağıdaki cümlelerden hangisi soru cümlesidir?",
+      "options": [
+        "Yarın erken gel.",
+        "Keşke seni daha önce arasaydım.",
+        "Bu kitabı sen mi aldın?",
+        "Ne güzel bir gün.",
+        "Lütfen pencereyi kapat."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "“mi” soru edatı kullanılmıştır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Yapısına göre",
+      "question": "Aşağıdaki cümlelerden hangisi basit cümledir?",
+      "options": [
+        "Eve gelince hemen odasına çıktı.",
+        "Kitabı okudu ve arkadaşına verdi.",
+        "Çocuklar bahçede neşeyle oynuyordu.",
+        "Seni gördüğümde çok sevindim.",
+        "Yağmur yağdı, sokaklar ıslandı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tek yüklem vardır ve fiilimsi yoktur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Yapısına göre",
+      "question": "Aşağıdaki cümlelerden hangisi birleşik cümledir?",
+      "options": [
+        "Sabah erkenden kalktı.",
+        "Seni görünce çok sevindim.",
+        "Çocuklar parkta oynadı.",
+        "Akşam yemeğini birlikte yedik.",
+        "Bu kitap oldukça sürükleyici."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "“Görünce” zarf-fiili yan cümlecik oluşturur."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Yapısına göre",
+      "question": "Aşağıdaki cümlelerden hangisi sıralı cümledir?",
+      "options": [
+        "Ders çalışırsan başarılı olursun.",
+        "Kapıyı açtı ve içeri girdi.",
+        "Güneş battı, hava serinledi.",
+        "Seni gördüğüm için sevindim.",
+        "Bugün hava oldukça sıcak."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İki bağımsız cümle virgülle sıralanmıştır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Yapısına göre",
+      "question": "Aşağıdaki cümlelerden hangisi bağlı cümledir?",
+      "options": [
+        "Eve geldi, odasına çıktı.",
+        "Yağmur yağınca maç ertelendi.",
+        "Çok çalıştı ama istediği sonucu alamadı.",
+        "Bu sabah erkenden uyandım.",
+        "Kitabı masaya bıraktı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İki bağımsız cümle “ama” bağlacıyla bağlanmıştır."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "category": "Yapısına göre",
+      "question": "Aşağıdaki cümlelerden hangisi girişik birleşik cümledir?",
+      "options": [
+        "Sana söz veriyorum, yarın geleceğim.",
+        "Beni görünce gülümseyerek yanıma geldi.",
+        "Kapıyı açtı ve dışarı çıktı.",
+        "Hava karardı, sokaklar sessizleşti.",
+        "Bu ev oldukça eskiydi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "“Görünce” ve “gülümseyerek” fiilimsileri yan cümlecik oluşturur."
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "category": "Yapısına göre",
+      "question": "Aşağıdaki cümlelerden hangisi şartlı birleşik cümledir?",
+      "options": [
+        "Beni ararsan sana her şeyi anlatırım.",
+        "Seni görünce çok sevindim.",
+        "Kapıyı açtı ve içeri girdi.",
+        "Yağmur yağdı, yollar ıslandı.",
+        "Bu soruyu kolayca çözdü."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "“Ararsan” sözcüğündeki -sa şart eki yan cümle oluşturur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Yapısına göre",
+      "question": "Aşağıdaki cümlelerden hangisi ki’li birleşik cümledir?",
+      "options": [
+        "Biliyorum ki bu işi başaracaksın.",
+        "Ders çalışırsan başarılı olursun.",
+        "Seni görünce çok sevindim.",
+        "Kapıyı açtı ve içeri girdi.",
+        "Akşam oldu, herkes evine döndü."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Temel cümle ile yan cümle “ki” bağlacıyla bağlanmıştır."
+    },
+    {
+      "id": 16,
+      "difficulty": "medium",
+      "category": "Eksiltili cümle",
+      "question": "Aşağıdaki cümlelerden hangisi eksiltili cümledir?",
+      "options": [
+        "Akşam olunca eve döndük.",
+        "Bu kadar emekten sonra...",
+        "Yarın seni mutlaka arayacağım.",
+        "Çocuklar bahçede oynuyordu.",
+        "Kitabı dün bitirdim."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yüklem söylenmemiş, anlam tamamlanmadan bırakılmıştır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Karma sınıflandırma",
+      "question": "“Yağmur dinince çocuklar yeniden dışarı çıktı.” cümlesinin özellikleri aşağıdakilerin hangisinde doğru verilmiştir?",
+      "options": [
+        "İsim, devrik, olumsuz, basit",
+        "Fiil, kurallı, olumlu, birleşik",
+        "Fiil, devrik, olumlu, sıralı",
+        "İsim, kurallı, olumlu, bağlı",
+        "Fiil, kurallı, olumsuz, basit"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "“Çıktı” fiil yüklemdir ve sondadır; cümle olumlu, “dinince” nedeniyle birleşiktir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Karma sınıflandırma",
+      "question": "“Bu şehir geceleri ne kadar da sessizmiş!” cümlesinin özellikleri aşağıdakilerin hangisinde doğru verilmiştir?",
+      "options": [
+        "Fiil, kurallı, olumlu, basit",
+        "İsim, kurallı, olumlu, basit",
+        "İsim, devrik, olumsuz, birleşik",
+        "Fiil, devrik, olumlu, bağlı",
+        "İsim, kurallı, soru, sıralı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "“Sessizmiş” isim soylu yüklemdir; sonda, olumlu ve tek yargılıdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Karma sınıflandırma",
+      "question": "“Seni aradım fakat telefonun kapalıydı.” cümlesinin yapısı aşağıdakilerden hangisidir?",
+      "options": [
+        "Basit cümle",
+        "Girişik birleşik cümle",
+        "Şartlı birleşik cümle",
+        "Bağlı cümle",
+        "Eksiltili cümle"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İki cümle “fakat” bağlacıyla bağlanmıştır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Karma sınıflandırma",
+      "question": "Aşağıdaki cümlelerden hangisi hem devrik hem de birleşik cümledir?",
+      "options": [
+        "Çocuklar bahçede oyun oynuyor.",
+        "Eve gelince hemen uyudu kardeşim.",
+        "Bu sabah hava çok soğuktu.",
+        "Kapıyı açtı ve dışarı çıktı.",
+        "Güneş battı, hava karardı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "“Uyudu” yüklemi sonda değildir; “gelince” zarf-fiili yan cümlecik oluşturur."
+    }
+  ]
+}
