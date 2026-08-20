@@ -1,0 +1,331 @@
+{
+  "id": "sozcukte-anlam-test",
+  "title": "Sözcükte Anlam",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Sözcükte Anlam konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Gerçek Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde 'sıcak' sözcüğü gerçek anlamıyla kullanılmıştır?",
+      "options": [
+        "Bize sıcak bir gülümsemeyle yaklaştı.",
+        "Sıcak sözleri herkesi etkiledi.",
+        "Çocuk sıcak çorbayı yavaşça içti.",
+        "Aralarında sıcak bir dostluk vardı.",
+        "Toplantıda sıcak bir ortam oluştu."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Sıcak çorba' ifadesinde sözcük, ölçülebilir sıcaklığı bildirdiği için gerçek anlamdadır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Mecaz Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde 'sert' sözcüğü mecaz anlamda kullanılmıştır?",
+      "options": [
+        "Sert taşların üzerinde yürüdük.",
+        "Sert rüzgâr gece boyunca esti.",
+        "Öğretmenin sert sözleri onu üzdü.",
+        "Ekmeğin kabuğu çok sertti.",
+        "Sert zeminde oturmak zordu."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Sert sözler' ifadesinde sözcük kırıcı, katı anlamında kullanılmıştır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Terim Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde terim anlamlı bir sözcük kullanılmıştır?",
+      "options": [
+        "Perdeyi açınca oda aydınlandı.",
+        "Üçgenin iç açıları toplamı 180 derecedir.",
+        "Bahçedeki ağaçlar çiçek açtı.",
+        "Akşam eve erken döndük.",
+        "Kardeşim yeni bir çanta aldı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Üçgen' ve 'iç açı' matematik alanına özgü terimlerdir."
+    },
+    {
+      "id": 4,
+      "difficulty": "medium",
+      "category": "Yan Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde 'ayak' sözcüğü yan anlamda kullanılmıştır?",
+      "options": [
+        "Koşarken ayağını incitti.",
+        "Masanın bir ayağı kırılmış.",
+        "Ayağına yeni bir ayakkabı aldı.",
+        "Soğuktan ayakları üşüdü.",
+        "Doktor ayağını kontrol etti."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Masanın ayağı' insan ayağına biçim veya işlev benzerliği nedeniyle verilen addır; yan anlamdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "medium",
+      "category": "Somut-Soyut",
+      "question": "Aşağıdaki cümlelerin hangisinde soyut anlamlı bir sözcük kullanılmıştır?",
+      "options": [
+        "Masadaki kalemi bana uzattı.",
+        "Pencereden denizi seyrediyordu.",
+        "İçinde büyük bir umut taşıyordu.",
+        "Bahçeye iki fidan dikildi.",
+        "Çantanın fermuarı bozulmuş."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Umut' beş duyu organıyla algılanamadığı için soyut anlamlıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Nicel-Nitel",
+      "question": "Aşağıdaki cümlelerin hangisinde 'ağır' sözcüğü nicel anlamda kullanılmıştır?",
+      "options": [
+        "Ağır bir eleştiriyle karşılaştı.",
+        "Ağır davranışları yüzünden geç kaldık.",
+        "Bu kutu oldukça ağır.",
+        "Ağır bir sorumluluk üstlendi.",
+        "Hastanın durumu ağırdı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kutunun ağırlığı ölçülebilir olduğundan 'ağır' nicel anlam taşır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Genel-Özel Anlam",
+      "question": "Aşağıdaki sözcüklerden hangisi diğerlerine göre daha genel anlamlıdır?",
+      "options": [
+        "Roman",
+        "Şiir",
+        "Edebiyat",
+        "Hikâye",
+        "Tiyatro"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Roman, şiir, hikâye ve tiyatro edebiyat kapsamındadır; 'edebiyat' daha genel anlamlıdır."
+    },
+    {
+      "id": 8,
+      "difficulty": "easy",
+      "category": "Eş Anlam",
+      "question": "Aşağıdaki sözcük çiftlerinden hangisi eş anlamlıdır?",
+      "options": [
+        "Siyah - Beyaz",
+        "Cevap - Yanıt",
+        "İleri - Geri",
+        "Genç - Yaşlı",
+        "Uzak - Yakın"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Cevap' ve 'yanıt' aynı kavramı karşılayan eş anlamlı sözcüklerdir."
+    },
+    {
+      "id": 9,
+      "difficulty": "easy",
+      "category": "Zıt Anlam",
+      "question": "Aşağıdaki sözcük çiftlerinden hangisi karşıt anlamlıdır?",
+      "options": [
+        "Konuk - Misafir",
+        "Yoksul - Fakir",
+        "Cesur - Korkak",
+        "Kalp - Yürek",
+        "Soru - Sual"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Cesur' ile 'korkak' karşıt özellikleri bildirir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Eş Sesli",
+      "question": "Aşağıdaki cümlelerin hangisinde eş sesli olabilecek bir sözcük kullanılmıştır?",
+      "options": [
+        "Bahçedeki güller bu yıl erken açtı.",
+        "Yeni aldığı kitabı bir günde bitirdi.",
+        "Sabah erkenden okula gitti.",
+        "Pencereleri tek tek kapattı.",
+        "Çantasını masaya bıraktı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Gül' hem çiçek adı hem de 'gülmek' fiilinin emir biçimi olabilir; sesteştir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Deyim",
+      "question": "Aşağıdaki cümlelerin hangisinde deyim kullanılmıştır?",
+      "options": [
+        "Çocuk bütün gün bahçede oynadı.",
+        "Bu haberi duyunca etekleri zil çaldı.",
+        "Akşam yemeğini erkenden yedik.",
+        "Kitabı iki gün içinde bitirdi.",
+        "Sabah otobüsü kaçırdı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Etekleri zil çalmak' çok sevinmek anlamındaki bir deyimdir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Söz Öbeğinde Anlam",
+      "question": "'Bu sanatçı, eserlerinde toplumun kanayan yaralarına dokunuyor.' cümlesindeki 'kanayan yaralar' sözüyle anlatılmak istenen nedir?",
+      "options": [
+        "Fiziksel hastalıklar",
+        "Toplumda süregelen önemli sorunlar",
+        "Sanatçının kişisel sıkıntıları",
+        "Geçmişteki savaşlar",
+        "Günlük küçük problemler"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Kanayan yara' çözülememiş ve etkisini sürdüren önemli sorunları anlatır."
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "category": "Bağlamda Anlam",
+      "question": "'Yazar, bu romanında oldukça duru bir dil kullanmış.' cümlesinde 'duru' sözcüğünün anlamı hangisidir?",
+      "options": [
+        "Süslü ve sanatlı",
+        "Eski sözcüklerle dolu",
+        "Açık, anlaşılır ve gereksiz unsurlardan arınmış",
+        "Bilimsel terimlere dayalı",
+        "Kapalı ve yoruma açık"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dil için 'duru', açık ve gereksiz sözlerden arınmış anlatım demektir."
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "category": "Bağlamda Anlam",
+      "question": "'Onun bu konudaki düşünceleri zamanla iyice kökleşti.' cümlesinde 'kökleşmek' hangi anlamdadır?",
+      "options": [
+        "Toprağın altına uzamak",
+        "Başka yere taşınmak",
+        "Güçlenip kalıcı duruma gelmek",
+        "Hızla değişmek",
+        "Tamamen unutulmak"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Kökleşmek' burada düşüncelerin güçlenip yerleşmesi ve kalıcı hâle gelmesi anlamındadır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Mecaz Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde 'ışık' sözcüğü mecaz anlamda kullanılmıştır?",
+      "options": [
+        "Odanın ışığını kapattı.",
+        "Güneşin ışığı gözlerimi kamaştırdı.",
+        "Bu araştırma sorunun çözümüne ışık tuttu.",
+        "Sokak ışıkları gece boyunca yandı.",
+        "Telefonun ışığı çok parlaktı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Işık tutmak' bir konunun anlaşılmasına yardımcı olmak anlamında mecazdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Nitel-Nicel",
+      "question": "Aşağıdaki cümlelerin hangisinde nitel anlamlı bir sözcük kullanılmıştır?",
+      "options": [
+        "Bahçede üç büyük ağaç vardı.",
+        "Çantanın ağırlığı beş kiloydu.",
+        "Masanın uzunluğu iki metreydi.",
+        "Yazarın etkileyici üslubu okuyucuyu hemen sarıyor.",
+        "Sınıfta yirmi öğrenci vardı."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Etkileyici' ölçülemeyen, niteliği bildiren bir özelliktir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Çok Anlamlılık",
+      "question": "Aşağıdaki cümlelerin hangisinde 'düşmek' sözcüğü 'değeri veya miktarı azalmak' anlamında kullanılmıştır?",
+      "options": [
+        "Çocuk koşarken yere düştü.",
+        "Akşam sıcaklık beş derece düştü.",
+        "Bu görev bana düştü.",
+        "Yolu uzatınca köye geç düştük.",
+        "Aklına ilginç bir fikir düştü."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Sıcaklık düştü' ifadesinde sözcük miktarın azalması anlamındadır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Söz Öbeğinde Anlam",
+      "question": "'Şair, alışılmış söyleyişlerin dışına çıkarak kendine özgü bir ses yakalamış.' cümlesindeki 'kendine özgü bir ses yakalamak' ne demektir?",
+      "options": [
+        "Yüksek sesle şiir okumak",
+        "Başkalarını taklit etmek",
+        "Özgün bir anlatım biçimine ulaşmak",
+        "Şiirlerinde müzik kullanmak",
+        "Yalnızca konuşma dilini kullanmak"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Söz, sanatçının başkalarından ayrılan özgün anlatım tarzına ulaşmasını ifade eder."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Gerçek-Mecaz Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde belirtilen sözcük gerçek anlamda kullanılmıştır?",
+      "options": [
+        "Tatlı sözleriyle herkesi ikna etti.",
+        "Keskin zekâsıyla sorunu çözdü.",
+        "Sıcak davranışları bizi rahatlattı.",
+        "İnce bir dal rüzgârda sallanıyordu.",
+        "Ağır eleştiriler karşısında sustu."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'İnce dal' ifadesindeki 'ince' gerçek anlamdadır; diğer seçeneklerdeki nitelemeler mecazdır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Karma",
+      "question": "Aşağıdaki cümlelerin hangisinde hem terim anlamlı hem de mecaz anlamlı bir kullanım vardır?",
+      "options": [
+        "Şair, şiirin son dizesinde okuyucunun yüreğine dokunuyor.",
+        "Çocuk topu kaleye doğru gönderdi.",
+        "Öğretmen tahtaya bir üçgen çizdi.",
+        "Oyunun ikinci perdesi birazdan başlayacak.",
+        "Doktor hastanın nabzını kontrol etti."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Dize' edebiyat terimidir; 'yüreğine dokunmak' ise etkilemek, duygulandırmak anlamında mecazdır."
+    }
+  ]
+}

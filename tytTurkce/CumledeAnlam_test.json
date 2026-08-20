@@ -1,0 +1,331 @@
+{
+  "id": "cumlede-anlam-test",
+  "title": "Cümlede Anlam",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Cümlede Anlam konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Neden-Sonuç",
+      "question": "Aşağıdaki cümlelerin hangisinde neden-sonuç ilişkisi vardır?",
+      "options": [
+        "Otobüsü kaçırdığı için okula geç kaldı.",
+        "Eve gidip biraz dinleneceğim.",
+        "Kitabı almak üzere mağazaya uğradı.",
+        "Beni görür görmez yanıma geldi.",
+        "Akşam olunca sokaklar sessizleşti."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Geç kalmanın nedeni otobüsün kaçırılmasıdır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Amaç-Sonuç",
+      "question": "Aşağıdaki cümlelerin hangisinde amaç-sonuç ilişkisi vardır?",
+      "options": [
+        "Yağmur yağdığı için maç ertelendi.",
+        "Sınavı kazanmak için düzenli çalışıyor.",
+        "Çok yorulduğundan erkenden uyudu.",
+        "Hava soğuyunca içeri girdik.",
+        "Onu görünce çok sevindi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Düzenli çalışmanın amacı sınavı kazanmaktır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Koşul",
+      "question": "Aşağıdaki cümlelerin hangisinde koşul anlamı vardır?",
+      "options": [
+        "Beni ararsan sana konuyu anlatırım.",
+        "Sabah erkenden evden çıktı.",
+        "Seni görmek için buraya geldim.",
+        "Yağmur yağdığı için dışarı çıkmadık.",
+        "Kitabı dün akşam bitirdim."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Konunun anlatılması, 'beni arama' koşuluna bağlanmıştır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Karşılaştırma",
+      "question": "Aşağıdaki cümlelerin hangisinde karşılaştırma yapılmıştır?",
+      "options": [
+        "Bu kitabı geçen hafta aldım.",
+        "Kardeşim benden daha hızlı koşuyor.",
+        "Sabah erkenden yola çıktık.",
+        "Bugün hava oldukça sıcak.",
+        "Bahçede çocuklar oynuyor."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kardeş ile konuşan kişi koşma hızı bakımından karşılaştırılmıştır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Öznel-Nesnel",
+      "question": "Aşağıdaki cümlelerin hangisi öznel bir yargıdır?",
+      "options": [
+        "Türkiye'nin başkenti Ankara'dır.",
+        "Roman 240 sayfadan oluşuyor.",
+        "Bu şiir, şairin en etkileyici eseridir.",
+        "Su deniz seviyesinde 100 °C'de kaynar.",
+        "Kitap üç bölümden oluşmaktadır."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'En etkileyici' kişisel beğeniye dayandığı için öznel bir yargıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Öznel-Nesnel",
+      "question": "Aşağıdaki cümlelerin hangisi nesnel bir yargıdır?",
+      "options": [
+        "Filmin sonu oldukça etkileyiciydi.",
+        "Bu yazarın dili çok başarılıdır.",
+        "Roman ilk kez 2024 yılında yayımlandı.",
+        "Şehrin en güzel sokağı burasıdır.",
+        "Bu şarkı insanı derinden etkiliyor."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yayımlanma yılı doğrulanabilir bir bilgidir, bu nedenle nesneldir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Varsayım",
+      "question": "Aşağıdaki cümlelerin hangisinde varsayım anlamı vardır?",
+      "options": [
+        "Diyelim ki sınavı kazandın, hangi bölümü seçersin?",
+        "Sanırım bugün bize gelmeyecek.",
+        "Keşke biraz daha erken gelseydin.",
+        "Mutlaka bu kitabı okumalısın.",
+        "Belki yarın yağmur yağar."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Diyelim ki' ifadesi gerçekleşmemiş bir durumu gerçekleşmiş kabul ederek düşünmeyi bildirir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Olasılık",
+      "question": "Aşağıdaki cümlelerin hangisinde olasılık anlamı vardır?",
+      "options": [
+        "Bu saatte eve varmış olmalı.",
+        "Yarın bize gelebilir.",
+        "Kesinlikle toplantıya katılacak.",
+        "Kapıyı hemen kapat.",
+        "Keşke o da bizimle gelseydi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Gelebilir' ifadesi gerçekleşmesi mümkün fakat kesin olmayan bir durumu bildirir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Tahmin",
+      "question": "Aşağıdaki cümlelerin hangisinde tahmin anlamı vardır?",
+      "options": [
+        "Bu kadar sessiz olduğuna göre uyumuş olmalı.",
+        "Yarın mutlaka seni arayacağım.",
+        "Derslerine düzenli çalışmalısın.",
+        "Keşke tatil biraz daha uzun sürseydi.",
+        "Sakın buradan ayrılma."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Eldeki bir belirtiden hareketle kişinin uyuduğu tahmin edilmektedir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Öneri",
+      "question": "Aşağıdaki cümlelerin hangisinde öneri vardır?",
+      "options": [
+        "Bu kitabı mutlaka iki günde bitir.",
+        "Bence her gün yarım saat kitap okumalısın.",
+        "Keşke daha çok kitap okusaydım.",
+        "Kitabı dün kütüphaneden aldım.",
+        "Sanırım kitap yarın gelir."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Konuşan kişi yararlı olacağını düşündüğü bir davranışı tavsiye etmektedir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Eleştiri",
+      "question": "Aşağıdaki cümlelerin hangisinde eleştiri söz konusudur?",
+      "options": [
+        "Yazar bu romanında olayları yüzeysel işlemiş.",
+        "Yazarın yeni romanı dün yayımlandı.",
+        "Roman üç ana bölümden oluşuyor.",
+        "Yazar yarın söyleşiye katılacak.",
+        "Kitabın kapağında bir şehir resmi var."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Eserin olayları yüzeysel işlemesi olumsuz bir değerlendirmedir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Yakınma",
+      "question": "Aşağıdaki cümlelerin hangisinde yakınma anlamı vardır?",
+      "options": [
+        "Bu kadar işi tek başıma yapmak zorunda kalıyorum.",
+        "Keşke dün seni de arasaydım.",
+        "Bence biraz dinlenmelisin.",
+        "Belki akşam bize gelir.",
+        "Onunla yarın görüşeceğiz."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kişi içinde bulunduğu durumdan şikâyet etmektedir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Hayıflanma",
+      "question": "Aşağıdaki cümlelerin hangisinde hayıflanma anlamı vardır?",
+      "options": [
+        "Keşke gençken daha çok kitap okusaydım.",
+        "Yine bütün işleri bana bıraktılar.",
+        "Bu kitabı mutlaka okumalısın.",
+        "Sanırım birazdan yağmur yağacak.",
+        "Onu görünce çok sevindim."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Geçmişte yapılmayan bir davranıştan duyulan üzüntü hayıflanmadır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Pişmanlık",
+      "question": "Aşağıdaki cümlelerin hangisinde pişmanlık anlamı vardır?",
+      "options": [
+        "Sana o sözleri söylediğim için çok üzgünüm.",
+        "Keşke ben de sizinle gelebilseydim.",
+        "Bana yine haber vermediler.",
+        "Belki bir gün yeniden görüşürüz.",
+        "Bu işi bugün bitirmelisin."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kişi yaptığı bir davranıştan dolayı üzüntü duymaktadır; bu pişmanlıktır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Ön Yargı",
+      "question": "Aşağıdaki cümlelerin hangisinde ön yargı vardır?",
+      "options": [
+        "Bu filmi izlemeden söylüyorum, kesin sıkıcıdır.",
+        "Film geçen hafta gösterime girdi.",
+        "Filmi izleyince çok şaşırdım.",
+        "Sanırım film birazdan başlayacak.",
+        "Bu filmi kardeşim de izlemiş."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Film izlenmeden onun sıkıcı olduğuna kesin hüküm verilmiştir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kanıksama",
+      "question": "Aşağıdaki cümlelerin hangisinde kanıksama anlamı vardır?",
+      "options": [
+        "Onun toplantılara geç gelmesine artık kimse şaşırmıyor.",
+        "Keşke toplantıya zamanında gelseydi.",
+        "Toplantıya geç kaldığı için özür diledi.",
+        "Sanırım toplantı birazdan başlayacak.",
+        "Toplantıya katılmak için erkenden çıktı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Sürekli tekrarlanan bir durumun artık yadırganmaması kanıksamadır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Aşamalı Durum",
+      "question": "Aşağıdaki cümlelerin hangisinde aşamalı bir durum anlatılmıştır?",
+      "options": [
+        "Hava gittikçe soğuyor.",
+        "Hava bugün çok soğuk.",
+        "Sabah yağmur yağdı.",
+        "Akşam eve erken döndü.",
+        "Birden ayağa kalktı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Gittikçe' sözcüğü değişimin zaman içinde derece derece gerçekleştiğini gösterir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Çıkarım",
+      "question": "'Sokaklar ıslak, insanların çoğunun elinde şemsiye var.' gözleminden aşağıdakilerden hangisi çıkarılabilir?",
+      "options": [
+        "Biraz önce yağmur yağmış olabilir.",
+        "Yarın kesin kar yağacaktır.",
+        "Herkes işe geç kalmıştır.",
+        "Şehirde ulaşım tamamen durmuştur.",
+        "Bütün dükkânlar kapanmıştır."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Islak sokaklar ve şemsiyeler, yakın zamanda yağmur yağmış olabileceği sonucunu destekler."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Doğrudan-Dolaylı Anlatım",
+      "question": "Aşağıdaki cümlelerin hangisinde dolaylı anlatım vardır?",
+      "options": [
+        "Öğretmen, 'Yarın sınav yapacağım.' dedi.",
+        "Öğretmen yarın sınav yapacağını söyledi.",
+        "'Bu kitabı çok beğendim.' dedi.",
+        "Babam, 'Erken gel.' diye seslendi.",
+        "Arkadaşım, 'Seni ararım.' dedi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bir başkasının sözü anlam korunarak kişinin kendi anlatımıyla aktarılmıştır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Anlam İlişkileri",
+      "question": "Aşağıdaki cümlelerin hangisinde hem koşul hem de amaç anlamı vardır?",
+      "options": [
+        "Düzenli çalışırsan sınavı kazanmak için önemli bir adım atmış olursun.",
+        "Çok çalıştığı için sınavı kazandı.",
+        "Sınavı kazanmak üzere kursa yazıldı.",
+        "Beni arayınca durumu anlattı.",
+        "Kitabı bitirip arkadaşına verdi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Çalışırsan' koşul, 'sınavı kazanmak için' ise amaç anlamı oluşturur."
+    }
+  ]
+}
