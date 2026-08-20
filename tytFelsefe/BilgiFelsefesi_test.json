@@ -1,0 +1,331 @@
+{
+  "id": "bilgifelsefesi",
+  "title": "Bilgi Felsefesi",
+  "lesson": "TYT Felsefe",
+  "description": "TYT Felsefe Bilgi Felsefesi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Bilgi Felsefesi",
+      "question": "Bilginin kaynağını, sınırlarını ve doğruluğunu inceleyen felsefe dalı hangisidir?",
+      "options": [
+        "Epistemoloji",
+        "Ontoloji",
+        "Etik",
+        "Estetik",
+        "Siyaset felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Epistemoloji yani bilgi felsefesi bilginin kaynağı, imkânı, sınırları ve doğruluğunu inceler."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Bilgi Felsefesi",
+      "question": "Bilginin temel kaynağının akıl olduğunu savunan görüş hangisidir?",
+      "options": [
+        "Septisizm",
+        "Pozitivizm",
+        "Pragmatizm",
+        "Rasyonalizm",
+        "Empirizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Rasyonalizm doğru bilginin temel kaynağının akıl olduğunu savunur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Bilgi Felsefesi",
+      "question": "Bilginin temel kaynağının deney ve duyular olduğunu savunan yaklaşım hangisidir?",
+      "options": [
+        "Nihilizm",
+        "Empirizm",
+        "Rasyonalizm",
+        "Entüisyonizm",
+        "Dogmatizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Empirizm bilginin deney ve duyular yoluyla elde edildiğini savunur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Bilgi Felsefesi",
+      "question": "Kesin bilginin mümkün olup olmadığından kuşku duyan görüş hangisidir?",
+      "options": [
+        "Rasyonalizm",
+        "Realizm",
+        "Pragmatizm",
+        "Pozitivizm",
+        "Septisizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Septisizm yani şüphecilik kesin bilgiye ulaşılabileceği iddiasını sorgular."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Bilgi Felsefesi",
+      "question": "Bilginin doğruluğunu pratik sonuç ve işe yararlılıkla ilişkilendiren görüş hangisidir?",
+      "options": [
+        "Septisizm",
+        "Entüisyonizm",
+        "Pragmatizm",
+        "Empirizm",
+        "Rasyonalizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Pragmatizm bir düşüncenin doğruluğunu pratik sonuçları ve işe yararlılığıyla ilişkilendirir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Bilgi Felsefesi",
+      "question": "Doğru bilginin sezgi yoluyla elde edilebileceğini savunan görüş hangisidir?",
+      "options": [
+        "Entüisyonizm",
+        "Empirizm",
+        "Rasyonalizm",
+        "Pozitivizm",
+        "Kritisizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Entüisyonizm bazı gerçekliklerin sezgiyle doğrudan kavranabileceğini savunur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Kant'ın bilgi anlayışıyla ilişkilendirilen yaklaşım hangisidir?",
+      "options": [
+        "Nihilizm",
+        "Materyalizm",
+        "Anarşizm",
+        "Kritisizm",
+        "Hedonizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kritisizm, bilginin oluşumunda hem deneyin hem de zihnin rolünü eleştirel biçimde değerlendirir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Özne ile nesne arasındaki bağ sonucunda ortaya çıkan ürüne ne denir?",
+      "options": [
+        "İrade",
+        "Bilgi",
+        "Varlık",
+        "Değer",
+        "Sanat"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bilgi, bilen özne ile bilinen nesne arasındaki ilişki sonucunda oluşur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Bilginin nesnesine uygun olmasını ifade eden doğruluk ölçütü hangisidir?",
+      "options": [
+        "Tutarlılık",
+        "Yararlılık",
+        "Tümel uzlaşım",
+        "Apaçıklık",
+        "Uygunluk"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Uygunluk ölçütüne göre bir yargı gerçeklikle örtüşüyorsa doğrudur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Bir önermenin diğer önermelerle çelişmemesi hangi doğruluk ölçütüdür?",
+      "options": [
+        "Apaçıklık",
+        "Tümel uzlaşım",
+        "Tutarlılık",
+        "Uygunluk",
+        "Yararlılık"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tutarlılık ölçütü, önermelerin kendi aralarında çelişmemesine dayanır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Epistemoloji yani bilgi felsefesi bilginin kaynağı, imkânı, sınırları ve doğruluğunu inceler. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Epistemoloji",
+        "Ontoloji",
+        "Etik",
+        "Estetik",
+        "Siyaset felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Epistemoloji yani bilgi felsefesi bilginin kaynağı, imkânı, sınırları ve doğruluğunu inceler."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Rasyonalizm doğru bilginin temel kaynağının akıl olduğunu savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Septisizm",
+        "Pozitivizm",
+        "Pragmatizm",
+        "Rasyonalizm",
+        "Empirizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Rasyonalizm doğru bilginin temel kaynağının akıl olduğunu savunur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Empirizm bilginin deney ve duyular yoluyla elde edildiğini savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Nihilizm",
+        "Empirizm",
+        "Rasyonalizm",
+        "Entüisyonizm",
+        "Dogmatizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Empirizm bilginin deney ve duyular yoluyla elde edildiğini savunur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Bilgi Felsefesi",
+      "question": "Septisizm yani şüphecilik kesin bilgiye ulaşılabileceği iddiasını sorgular. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Rasyonalizm",
+        "Realizm",
+        "Pragmatizm",
+        "Pozitivizm",
+        "Septisizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Septisizm yani şüphecilik kesin bilgiye ulaşılabileceği iddiasını sorgular."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Bilgi Felsefesi",
+      "question": "Pragmatizm bir düşüncenin doğruluğunu pratik sonuçları ve işe yararlılığıyla ilişkilendirir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Septisizm",
+        "Entüisyonizm",
+        "Pragmatizm",
+        "Empirizm",
+        "Rasyonalizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Pragmatizm bir düşüncenin doğruluğunu pratik sonuçları ve işe yararlılığıyla ilişkilendirir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Bilgi Felsefesi",
+      "question": "Entüisyonizm bazı gerçekliklerin sezgiyle doğrudan kavranabileceğini savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Entüisyonizm",
+        "Empirizm",
+        "Rasyonalizm",
+        "Pozitivizm",
+        "Kritisizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Entüisyonizm bazı gerçekliklerin sezgiyle doğrudan kavranabileceğini savunur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Bilgi Felsefesi",
+      "question": "Kritisizm, bilginin oluşumunda hem deneyin hem de zihnin rolünü eleştirel biçimde değerlendirir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Nihilizm",
+        "Materyalizm",
+        "Anarşizm",
+        "Kritisizm",
+        "Hedonizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kritisizm, bilginin oluşumunda hem deneyin hem de zihnin rolünü eleştirel biçimde değerlendirir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Bilgi Felsefesi",
+      "question": "Bilgi, bilen özne ile bilinen nesne arasındaki ilişki sonucunda oluşur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "İrade",
+        "Bilgi",
+        "Varlık",
+        "Değer",
+        "Sanat"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bilgi, bilen özne ile bilinen nesne arasındaki ilişki sonucunda oluşur."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Bilgi Felsefesi",
+      "question": "Uygunluk ölçütüne göre bir yargı gerçeklikle örtüşüyorsa doğrudur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Tutarlılık",
+        "Yararlılık",
+        "Tümel uzlaşım",
+        "Apaçıklık",
+        "Uygunluk"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Uygunluk ölçütüne göre bir yargı gerçeklikle örtüşüyorsa doğrudur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Bilgi Felsefesi",
+      "question": "Tutarlılık ölçütü, önermelerin kendi aralarında çelişmemesine dayanır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Apaçıklık",
+        "Tümel uzlaşım",
+        "Tutarlılık",
+        "Uygunluk",
+        "Yararlılık"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tutarlılık ölçütü, önermelerin kendi aralarında çelişmemesine dayanır."
+    }
+  ]
+}

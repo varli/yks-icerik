@@ -1,0 +1,331 @@
+{
+  "id": "varlikfelsefesi",
+  "title": "Varlık Felsefesi",
+  "lesson": "TYT Felsefe",
+  "description": "TYT Felsefe Varlık Felsefesi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Varlık Felsefesi",
+      "question": "Varlığı varlık olmak bakımından inceleyen felsefe dalına ne denir?",
+      "options": [
+        "Ontoloji",
+        "Epistemoloji",
+        "Etik",
+        "Estetik",
+        "Mantık"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ontoloji varlığın ne olduğunu, türlerini ve temel yapısını sorgular."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Varlık Felsefesi",
+      "question": "Varlığın temelinde maddenin bulunduğunu savunan görüş hangisidir?",
+      "options": [
+        "Düalizm",
+        "Nihilizm",
+        "Fenomenoloji",
+        "Materyalizm",
+        "İdealizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Materyalizm gerçekliğin temelinin madde olduğunu savunur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Varlık Felsefesi",
+      "question": "Varlığın temelinde düşünce veya idea bulunduğunu savunan yaklaşım hangisidir?",
+      "options": [
+        "Pozitivizm",
+        "İdealizm",
+        "Materyalizm",
+        "Realizm",
+        "Nihilizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İdealizm gerçekliğin temelini düşünsel veya tinsel bir ilkeye dayandırır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Varlık Felsefesi",
+      "question": "Varlığın hem madde hem ruh olmak üzere iki temel tözden oluştuğunu savunan görüş hangisidir?",
+      "options": [
+        "Monizm",
+        "Materyalizm",
+        "İdealizm",
+        "Nihilizm",
+        "Düalizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Düalizm varlığı iki temel töz veya ilkeyle açıklar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Varlık Felsefesi",
+      "question": "Varlığın tek bir temel ilkeye dayandığını savunan görüşe ne denir?",
+      "options": [
+        "Nihilizm",
+        "Septisizm",
+        "Monizm",
+        "Düalizm",
+        "Plüralizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Monizm varlığın temelinde tek bir töz veya ilke bulunduğunu savunur."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Varlık Felsefesi",
+      "question": "Varlığın birden çok temel ilkeye dayandığını savunan görüş hangisidir?",
+      "options": [
+        "Plüralizm",
+        "Monizm",
+        "Düalizm",
+        "Determinizm",
+        "Rasyonalizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Plüralizm gerçekliği birden çok temel töz veya ilkeyle açıklar."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "Herakleitos'un varlık anlayışında öne çıkan düşünce hangisidir?",
+      "options": [
+        "Gerçeklik yalnızca ideadır",
+        "Hiçbir şey var değildir",
+        "Bilgi yalnızca deneydir",
+        "Her şey değişir",
+        "Varlık değişmez"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Herakleitos evrendeki oluş ve değişimi temel kabul eder."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "Parmenides'in varlık anlayışına göre hangisi doğrudur?",
+      "options": [
+        "Varlık iki tözden oluşur",
+        "Varlık vardır ve değişmez",
+        "Her şey sürekli değişir",
+        "Varlık yalnızca maddedir",
+        "Hiçbir bilgi mümkün değildir"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Parmenides gerçek varlığın bir ve değişmez olduğunu savunur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "Varlığın insan bilincinden bağımsız olarak bulunduğunu savunan görüş hangisidir?",
+      "options": [
+        "İdealizm",
+        "Nihilizm",
+        "Septisizm",
+        "Solipsizm",
+        "Realizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Realizm dış dünyanın zihinden bağımsız bir gerçekliğe sahip olduğunu savunur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "Varlık felsefesinin temel sorularından biri hangisidir?",
+      "options": [
+        "Bilginin kaynağı nedir?",
+        "Devlet nasıl yönetilmelidir?",
+        "Varlık nedir?",
+        "Doğru davranış nedir?",
+        "Güzel nedir?"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Varlık felsefesi varlığın ne olduğu ve temel yapısı gibi sorularla ilgilenir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "Ontoloji varlığın ne olduğunu, türlerini ve temel yapısını sorgular. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Ontoloji",
+        "Epistemoloji",
+        "Etik",
+        "Estetik",
+        "Mantık"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ontoloji varlığın ne olduğunu, türlerini ve temel yapısını sorgular."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "Materyalizm gerçekliğin temelinin madde olduğunu savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Düalizm",
+        "Nihilizm",
+        "Fenomenoloji",
+        "Materyalizm",
+        "İdealizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Materyalizm gerçekliğin temelinin madde olduğunu savunur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "İdealizm gerçekliğin temelini düşünsel veya tinsel bir ilkeye dayandırır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Pozitivizm",
+        "İdealizm",
+        "Materyalizm",
+        "Realizm",
+        "Nihilizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İdealizm gerçekliğin temelini düşünsel veya tinsel bir ilkeye dayandırır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Varlık Felsefesi",
+      "question": "Düalizm varlığı iki temel töz veya ilkeyle açıklar. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Monizm",
+        "Materyalizm",
+        "İdealizm",
+        "Nihilizm",
+        "Düalizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Düalizm varlığı iki temel töz veya ilkeyle açıklar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Varlık Felsefesi",
+      "question": "Monizm varlığın temelinde tek bir töz veya ilke bulunduğunu savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Nihilizm",
+        "Septisizm",
+        "Monizm",
+        "Düalizm",
+        "Plüralizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Monizm varlığın temelinde tek bir töz veya ilke bulunduğunu savunur."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Varlık Felsefesi",
+      "question": "Plüralizm gerçekliği birden çok temel töz veya ilkeyle açıklar. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Plüralizm",
+        "Monizm",
+        "Düalizm",
+        "Determinizm",
+        "Rasyonalizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Plüralizm gerçekliği birden çok temel töz veya ilkeyle açıklar."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Varlık Felsefesi",
+      "question": "Herakleitos evrendeki oluş ve değişimi temel kabul eder. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Gerçeklik yalnızca ideadır",
+        "Hiçbir şey var değildir",
+        "Bilgi yalnızca deneydir",
+        "Her şey değişir",
+        "Varlık değişmez"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Herakleitos evrendeki oluş ve değişimi temel kabul eder."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Varlık Felsefesi",
+      "question": "Parmenides gerçek varlığın bir ve değişmez olduğunu savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Varlık iki tözden oluşur",
+        "Varlık vardır ve değişmez",
+        "Her şey sürekli değişir",
+        "Varlık yalnızca maddedir",
+        "Hiçbir bilgi mümkün değildir"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Parmenides gerçek varlığın bir ve değişmez olduğunu savunur."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Varlık Felsefesi",
+      "question": "Realizm dış dünyanın zihinden bağımsız bir gerçekliğe sahip olduğunu savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "İdealizm",
+        "Nihilizm",
+        "Septisizm",
+        "Solipsizm",
+        "Realizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Realizm dış dünyanın zihinden bağımsız bir gerçekliğe sahip olduğunu savunur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Varlık Felsefesi",
+      "question": "Varlık felsefesi varlığın ne olduğu ve temel yapısı gibi sorularla ilgilenir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Bilginin kaynağı nedir?",
+        "Devlet nasıl yönetilmelidir?",
+        "Varlık nedir?",
+        "Doğru davranış nedir?",
+        "Güzel nedir?"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Varlık felsefesi varlığın ne olduğu ve temel yapısı gibi sorularla ilgilenir."
+    }
+  ]
+}

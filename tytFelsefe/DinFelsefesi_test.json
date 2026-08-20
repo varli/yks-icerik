@@ -1,0 +1,331 @@
+{
+  "id": "dinfelsefesi",
+  "title": "Din Felsefesi",
+  "lesson": "TYT Felsefe",
+  "description": "TYT Felsefe Din Felsefesi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Din Felsefesi",
+      "question": "Dinin temel kavram ve iddialarını akla dayalı biçimde sorgulayan felsefe dalı hangisidir?",
+      "options": [
+        "Din felsefesi",
+        "Etik",
+        "Estetik",
+        "Epistemoloji",
+        "Bilim felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Din felsefesi din, Tanrı, iman, vahiy ve kötülük gibi konuları felsefi yöntemle ele alır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Din Felsefesi",
+      "question": "Tanrı'nın varlığını kabul eden görüşe ne ad verilir?",
+      "options": [
+        "Agnostisizm",
+        "Nihilizm",
+        "Septisizm",
+        "Teizm",
+        "Ateizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Teizm Tanrı'nın varlığını kabul eden genel görüştür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Din Felsefesi",
+      "question": "Tanrı'nın varlığını reddeden görüş hangisidir?",
+      "options": [
+        "Agnostisizm",
+        "Ateizm",
+        "Teizm",
+        "Deizm",
+        "Panteizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ateizm Tanrı'nın varlığını kabul etmeyen görüştür."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Din Felsefesi",
+      "question": "Tanrı'nın varlığı veya yokluğunun bilinemeyeceğini savunan görüş hangisidir?",
+      "options": [
+        "Teizm",
+        "Ateizm",
+        "Deizm",
+        "Panteizm",
+        "Agnostisizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Agnostisizm Tanrı'nın varlığı konusunda kesin bilgiye ulaşılamayacağını savunur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Din Felsefesi",
+      "question": "Tanrı'nın evreni yarattığını ancak sonrasında müdahale etmediğini savunan görüş hangisidir?",
+      "options": [
+        "Panteizm",
+        "Panenteizm",
+        "Deizm",
+        "Teizm",
+        "Ateizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Deizm yaratıcı bir Tanrı'yı kabul eder ancak vahiy ve müdahale anlayışına mesafeli yaklaşır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Din Felsefesi",
+      "question": "Tanrı ile evreni özdeş kabul eden görüş hangisidir?",
+      "options": [
+        "Panteizm",
+        "Deizm",
+        "Ateizm",
+        "Agnostisizm",
+        "Teizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Panteizm Tanrı ile evreni bir ve özdeş kabul eden görüştür."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Evrendeki düzen ve amaçlılıktan hareketle Tanrı'nın varlığını temellendiren kanıt hangisidir?",
+      "options": [
+        "Kozmolojik kanıt",
+        "Ahlak kanıtı",
+        "Septik kanıt",
+        "Teleolojik kanıt",
+        "Ontolojik kanıt"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Teleolojik kanıt evrendeki düzen ve amaçlılıktan hareket eder."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Evrenin varlığının bir ilk nedene ihtiyaç duyduğu düşüncesine dayanan kanıt hangisidir?",
+      "options": [
+        "Pragmatik kanıt",
+        "Kozmolojik kanıt",
+        "Teleolojik kanıt",
+        "Ontolojik kanıt",
+        "Estetik kanıt"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kozmolojik kanıt neden-sonuç ilişkisi üzerinden ilk neden veya zorunlu varlık düşüncesine ulaşır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Tanrı'nın varlığı ile dünyadaki acı ve kötülüklerin nasıl bağdaştırılacağı hangi problemle ilgilidir?",
+      "options": [
+        "Bilgi problemi",
+        "Tümeller problemi",
+        "Değişim problemi",
+        "Özgürlük problemi",
+        "Kötülük problemi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kötülük problemi, mutlak iyi ve güçlü bir Tanrı anlayışıyla dünyadaki kötülüklerin ilişkisini sorgular."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Din felsefesinin yaklaşımında aşağıdakilerden hangisi esastır?",
+      "options": [
+        "Deney yapma zorunluluğu",
+        "Tek bir inancı benimsetme",
+        "Eleştirel ve akılcı sorgulama",
+        "Sadece gelenekleri aktarma",
+        "Hiçbir görüşü sorgulamama"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Din felsefesi dinî kavramları tarafsız, tutarlı ve akla dayalı biçimde sorgulamayı amaçlar."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Din felsefesi din, Tanrı, iman, vahiy ve kötülük gibi konuları felsefi yöntemle ele alır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Din felsefesi",
+        "Etik",
+        "Estetik",
+        "Epistemoloji",
+        "Bilim felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Din felsefesi din, Tanrı, iman, vahiy ve kötülük gibi konuları felsefi yöntemle ele alır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Teizm Tanrı'nın varlığını kabul eden genel görüştür. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Agnostisizm",
+        "Nihilizm",
+        "Septisizm",
+        "Teizm",
+        "Ateizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Teizm Tanrı'nın varlığını kabul eden genel görüştür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Ateizm Tanrı'nın varlığını kabul etmeyen görüştür. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Agnostisizm",
+        "Ateizm",
+        "Teizm",
+        "Deizm",
+        "Panteizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ateizm Tanrı'nın varlığını kabul etmeyen görüştür."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Din Felsefesi",
+      "question": "Agnostisizm Tanrı'nın varlığı konusunda kesin bilgiye ulaşılamayacağını savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Teizm",
+        "Ateizm",
+        "Deizm",
+        "Panteizm",
+        "Agnostisizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Agnostisizm Tanrı'nın varlığı konusunda kesin bilgiye ulaşılamayacağını savunur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Din Felsefesi",
+      "question": "Deizm yaratıcı bir Tanrı'yı kabul eder ancak vahiy ve müdahale anlayışına mesafeli yaklaşır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Panteizm",
+        "Panenteizm",
+        "Deizm",
+        "Teizm",
+        "Ateizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Deizm yaratıcı bir Tanrı'yı kabul eder ancak vahiy ve müdahale anlayışına mesafeli yaklaşır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Din Felsefesi",
+      "question": "Panteizm Tanrı ile evreni bir ve özdeş kabul eden görüştür. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Panteizm",
+        "Deizm",
+        "Ateizm",
+        "Agnostisizm",
+        "Teizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Panteizm Tanrı ile evreni bir ve özdeş kabul eden görüştür."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Din Felsefesi",
+      "question": "Teleolojik kanıt evrendeki düzen ve amaçlılıktan hareket eder. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Kozmolojik kanıt",
+        "Ahlak kanıtı",
+        "Septik kanıt",
+        "Teleolojik kanıt",
+        "Ontolojik kanıt"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Teleolojik kanıt evrendeki düzen ve amaçlılıktan hareket eder."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Din Felsefesi",
+      "question": "Kozmolojik kanıt neden-sonuç ilişkisi üzerinden ilk neden veya zorunlu varlık düşüncesine ulaşır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Pragmatik kanıt",
+        "Kozmolojik kanıt",
+        "Teleolojik kanıt",
+        "Ontolojik kanıt",
+        "Estetik kanıt"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kozmolojik kanıt neden-sonuç ilişkisi üzerinden ilk neden veya zorunlu varlık düşüncesine ulaşır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Din Felsefesi",
+      "question": "Kötülük problemi, mutlak iyi ve güçlü bir Tanrı anlayışıyla dünyadaki kötülüklerin ilişkisini sorgular. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Bilgi problemi",
+        "Tümeller problemi",
+        "Değişim problemi",
+        "Özgürlük problemi",
+        "Kötülük problemi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kötülük problemi, mutlak iyi ve güçlü bir Tanrı anlayışıyla dünyadaki kötülüklerin ilişkisini sorgular."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Din Felsefesi",
+      "question": "Din felsefesi dinî kavramları tarafsız, tutarlı ve akla dayalı biçimde sorgulamayı amaçlar. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Deney yapma zorunluluğu",
+        "Tek bir inancı benimsetme",
+        "Eleştirel ve akılcı sorgulama",
+        "Sadece gelenekleri aktarma",
+        "Hiçbir görüşü sorgulamama"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Din felsefesi dinî kavramları tarafsız, tutarlı ve akla dayalı biçimde sorgulamayı amaçlar."
+    }
+  ]
+}

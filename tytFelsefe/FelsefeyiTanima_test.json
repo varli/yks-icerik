@@ -1,0 +1,331 @@
+{
+  "id": "felsefeyitanima",
+  "title": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+  "lesson": "TYT Felsefe",
+  "description": "TYT Felsefe Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri) konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefe sözcüğünün köken anlamı aşağıdakilerden hangisidir?",
+      "options": [
+        "Bilgelik sevgisi",
+        "Doğa bilgisi",
+        "Kesin bilgi",
+        "Deneysel bilim",
+        "Güzel sanat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Felsefe, Yunanca philia (sevgi) ve sophia (bilgelik) sözcüklerinden türemiştir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefenin sistemli bir düşünme etkinliği olarak ortaya çıktığı uygarlık hangisidir?",
+      "options": [
+        "Roma",
+        "Mezopotamya",
+        "Hint",
+        "Antik Yunan",
+        "Mısır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Felsefenin sistemli ve eleştirel bir düşünme etkinliği olarak Antik Yunan'da ortaya çıktığı kabul edilir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "İlk filozoflardan biri olarak kabul edilen düşünür kimdir?",
+      "options": [
+        "Descartes",
+        "Thales",
+        "Sokrates",
+        "Platon",
+        "Aristoteles"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Thales, doğayı mitolojik açıklamalar yerine akla dayalı nedenlerle açıklamaya çalışan ilk filozoflardan kabul edilir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefi düşüncenin temel özelliklerinden biri hangisidir?",
+      "options": [
+        "Dogmatik olması",
+        "Değişmez olması",
+        "Sadece deney yapması",
+        "Tek bir konuya yönelmesi",
+        "Sorgulayıcı olması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Felsefi düşünce soru sorar, kabulleri sorgular ve gerekçeler arar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefi düşüncenin akıl ilkelerine dayanması hangi özelliğini ifade eder?",
+      "options": [
+        "Rastlantısal olma",
+        "Öznel olmama",
+        "Rasyonel olma",
+        "Dogmatik olma",
+        "Mistik olma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rasyonellik, felsefi düşüncenin akıl yürütmeye ve gerekçelendirmeye dayanmasıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefi düşüncenin kendi üzerine yeniden düşünmesine ne denir?",
+      "options": [
+        "Refleksif olma",
+        "Deneysel olma",
+        "Dogmatik olma",
+        "Pratik olma",
+        "Yerel olma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Refleksif düşünme, düşüncenin kendi yöntem ve varsayımlarını da sorgulamasıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefi soruların genel özelliği aşağıdakilerden hangisidir?",
+      "options": [
+        "Sadece laboratuvarda cevaplanmaları",
+        "Yalnızca geçmişle ilgili olmaları",
+        "Hiçbir gerekçe gerektirmemeleri",
+        "Sorgulamaya ve tartışmaya açık olmaları",
+        "Tek kelimelik kesin cevaplarının olması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Felsefi sorular kavramsal ve tartışmaya açık problemlere yönelir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefenin doğuşunda etkili olan koşullardan biri hangisidir?",
+      "options": [
+        "Değişmez kabullerin zorunlu olması",
+        "Özgür düşünce ortamı",
+        "Sorgulamanın yasaklanması",
+        "Bilginin tek kaynağa indirgenmesi",
+        "Ticari etkileşimin olmaması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Farklı kültürlerle etkileşim ve görece özgür tartışma ortamı felsefi düşünceyi desteklemiştir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefe ile bilimin ortak özelliklerinden biri hangisidir?",
+      "options": [
+        "Aynı yöntemi kullanmaları",
+        "Aynı soruları cevaplamaları",
+        "Her zaman kesin sonuçlara ulaşmaları",
+        "Yalnızca deney kullanmaları",
+        "Akla ve sorgulamaya önem vermeleri"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Felsefe ve bilim akıl, tutarlılık ve sorgulamaya önem verir; yöntemleri ise aynı değildir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefenin bireye katkılarından biri hangisidir?",
+      "options": [
+        "Önyargıları güçlendirmesi",
+        "Tek tip düşünce oluşturması",
+        "Eleştirel düşünme becerisini geliştirmesi",
+        "Her konuda kesin cevap vermesi",
+        "Sorgulamayı ortadan kaldırması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Felsefe kişinin sorgulama, gerekçelendirme ve farklı bakış açılarını değerlendirme becerisini geliştirir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefe, Yunanca philia (sevgi) ve sophia (bilgelik) sözcüklerinden türemiştir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Bilgelik sevgisi",
+        "Doğa bilgisi",
+        "Kesin bilgi",
+        "Deneysel bilim",
+        "Güzel sanat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Felsefe, Yunanca philia (sevgi) ve sophia (bilgelik) sözcüklerinden türemiştir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefenin sistemli ve eleştirel bir düşünme etkinliği olarak Antik Yunan'da ortaya çıktığı kabul edilir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Roma",
+        "Mezopotamya",
+        "Hint",
+        "Antik Yunan",
+        "Mısır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Felsefenin sistemli ve eleştirel bir düşünme etkinliği olarak Antik Yunan'da ortaya çıktığı kabul edilir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Thales, doğayı mitolojik açıklamalar yerine akla dayalı nedenlerle açıklamaya çalışan ilk filozoflardan kabul edilir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Descartes",
+        "Thales",
+        "Sokrates",
+        "Platon",
+        "Aristoteles"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Thales, doğayı mitolojik açıklamalar yerine akla dayalı nedenlerle açıklamaya çalışan ilk filozoflardan kabul edilir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefi düşünce soru sorar, kabulleri sorgular ve gerekçeler arar. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Dogmatik olması",
+        "Değişmez olması",
+        "Sadece deney yapması",
+        "Tek bir konuya yönelmesi",
+        "Sorgulayıcı olması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Felsefi düşünce soru sorar, kabulleri sorgular ve gerekçeler arar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Rasyonellik, felsefi düşüncenin akıl yürütmeye ve gerekçelendirmeye dayanmasıdır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Rastlantısal olma",
+        "Öznel olmama",
+        "Rasyonel olma",
+        "Dogmatik olma",
+        "Mistik olma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rasyonellik, felsefi düşüncenin akıl yürütmeye ve gerekçelendirmeye dayanmasıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Refleksif düşünme, düşüncenin kendi yöntem ve varsayımlarını da sorgulamasıdır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Refleksif olma",
+        "Deneysel olma",
+        "Dogmatik olma",
+        "Pratik olma",
+        "Yerel olma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Refleksif düşünme, düşüncenin kendi yöntem ve varsayımlarını da sorgulamasıdır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefi sorular kavramsal ve tartışmaya açık problemlere yönelir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Sadece laboratuvarda cevaplanmaları",
+        "Yalnızca geçmişle ilgili olmaları",
+        "Hiçbir gerekçe gerektirmemeleri",
+        "Sorgulamaya ve tartışmaya açık olmaları",
+        "Tek kelimelik kesin cevaplarının olması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Felsefi sorular kavramsal ve tartışmaya açık problemlere yönelir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Farklı kültürlerle etkileşim ve görece özgür tartışma ortamı felsefi düşünceyi desteklemiştir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Değişmez kabullerin zorunlu olması",
+        "Özgür düşünce ortamı",
+        "Sorgulamanın yasaklanması",
+        "Bilginin tek kaynağa indirgenmesi",
+        "Ticari etkileşimin olmaması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Farklı kültürlerle etkileşim ve görece özgür tartışma ortamı felsefi düşünceyi desteklemiştir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefe ve bilim akıl, tutarlılık ve sorgulamaya önem verir; yöntemleri ise aynı değildir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Aynı yöntemi kullanmaları",
+        "Aynı soruları cevaplamaları",
+        "Her zaman kesin sonuçlara ulaşmaları",
+        "Yalnızca deney kullanmaları",
+        "Akla ve sorgulamaya önem vermeleri"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Felsefe ve bilim akıl, tutarlılık ve sorgulamaya önem verir; yöntemleri ise aynı değildir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Felsefeyi Tanıma (Felsefenin Anlamı, Doğuşu ve Özellikleri)",
+      "question": "Felsefe kişinin sorgulama, gerekçelendirme ve farklı bakış açılarını değerlendirme becerisini geliştirir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Önyargıları güçlendirmesi",
+        "Tek tip düşünce oluşturması",
+        "Eleştirel düşünme becerisini geliştirmesi",
+        "Her konuda kesin cevap vermesi",
+        "Sorgulamayı ortadan kaldırması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Felsefe kişinin sorgulama, gerekçelendirme ve farklı bakış açılarını değerlendirme becerisini geliştirir."
+    }
+  ]
+}

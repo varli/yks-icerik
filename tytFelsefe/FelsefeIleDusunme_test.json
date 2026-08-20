@@ -1,0 +1,331 @@
+{
+  "id": "felsefeiledusunme",
+  "title": "Felsefe ile Düşünme",
+  "lesson": "TYT Felsefe",
+  "description": "TYT Felsefe Felsefe ile Düşünme konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Felsefe ile Düşünme",
+      "question": "Bir düşüncenin kendi içinde çelişki barındırmamasına ne denir?",
+      "options": [
+        "Tutarlılık",
+        "Öznellik",
+        "Dogmatiklik",
+        "Sezgisellik",
+        "Görecelilik"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tutarlılık, düşüncelerin kendi içinde çelişmemesidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Felsefe ile Düşünme",
+      "question": "Bir görüşü desteklemek amacıyla sunulan gerekçelere ne ad verilir?",
+      "options": [
+        "Dogma",
+        "Sezgi",
+        "Slogan",
+        "Argüman",
+        "Önyargı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Argüman, bir iddiayı gerekçelendirmek amacıyla kullanılan öncül ve sonuçlardan oluşur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Felsefe ile Düşünme",
+      "question": "Doğruluğu veya yanlışlığı hakkında yargıda bulunulabilen cümleye ne denir?",
+      "options": [
+        "Dilek",
+        "Önerme",
+        "Soru",
+        "Emir",
+        "Ünlem"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Önerme doğru ya da yanlış değer alabilen yargı bildiren ifadedir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Felsefe ile Düşünme",
+      "question": "Bir argümanda desteklenmeye çalışılan temel yargıya ne denir?",
+      "options": [
+        "Öncül",
+        "Kavram",
+        "Soru",
+        "Tanım",
+        "Sonuç"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sonuç, öncüllerin desteklemek üzere ileri sürüldüğü yargıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Felsefe ile Düşünme",
+      "question": "Sonucu desteklemek için kullanılan yargılara ne ad verilir?",
+      "options": [
+        "Paradigma",
+        "Dogma",
+        "Öncül",
+        "Sonuç",
+        "Sentez"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Öncüller argümanın sonucunu destekleyen gerekçelerdir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Felsefe ile Düşünme",
+      "question": "Felsefi düşüncenin soru sormaya ve sorgulamaya dayanması hangi özelliğini gösterir?",
+      "options": [
+        "Sorgulayıcı olma",
+        "Dogmatik olma",
+        "Değişmez olma",
+        "Ezbere dayanma",
+        "Deneyselliğe indirgenme"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Felsefi düşünce hazır kabulleri sorgular ve gerekçelerini araştırır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Felsefi düşüncenin konuları tek yönlü değil, farklı boyutlarıyla ele alması hangi özelliğidir?",
+      "options": [
+        "Kesin olma",
+        "Deneysel olma",
+        "Yerel olma",
+        "Bütüncül olma",
+        "Dogmatik olma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Felsefi düşünce problemleri farklı yönleriyle ve bütünlük içinde değerlendirmeye çalışır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Bir kavramın anlamını belirginleştirmek için yapılan açıklamaya ne denir?",
+      "options": [
+        "Paradoks",
+        "Tanım",
+        "Argüman",
+        "Çıkarım",
+        "Önerme"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tanım, bir kavramın ne anlama geldiğini belirlemeye yönelik açıklamadır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Birden fazla önermeden hareketle yeni bir yargıya ulaşmaya ne denir?",
+      "options": [
+        "Tanım",
+        "Soru",
+        "Kavram",
+        "Betimleme",
+        "Çıkarım"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çıkarım, öncüllerden mantıksal olarak bir sonuca ulaşma işlemidir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Felsefi tartışmada karşıt görüşlerin gerekçeleriyle değerlendirilmesi hangi tutumu gerektirir?",
+      "options": [
+        "Dogmatizm",
+        "Taklit",
+        "Eleştirel düşünme",
+        "Körü körüne kabul",
+        "Önyargı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eleştirel düşünme iddiaları ve gerekçeleri sorgulayıp değerlendirmeyi gerektirir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Tutarlılık, düşüncelerin kendi içinde çelişmemesidir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Tutarlılık",
+        "Öznellik",
+        "Dogmatiklik",
+        "Sezgisellik",
+        "Görecelilik"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tutarlılık, düşüncelerin kendi içinde çelişmemesidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Argüman, bir iddiayı gerekçelendirmek amacıyla kullanılan öncül ve sonuçlardan oluşur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Dogma",
+        "Sezgi",
+        "Slogan",
+        "Argüman",
+        "Önyargı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Argüman, bir iddiayı gerekçelendirmek amacıyla kullanılan öncül ve sonuçlardan oluşur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Önerme doğru ya da yanlış değer alabilen yargı bildiren ifadedir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Dilek",
+        "Önerme",
+        "Soru",
+        "Emir",
+        "Ünlem"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Önerme doğru ya da yanlış değer alabilen yargı bildiren ifadedir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Felsefe ile Düşünme",
+      "question": "Sonuç, öncüllerin desteklemek üzere ileri sürüldüğü yargıdır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Öncül",
+        "Kavram",
+        "Soru",
+        "Tanım",
+        "Sonuç"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sonuç, öncüllerin desteklemek üzere ileri sürüldüğü yargıdır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Felsefe ile Düşünme",
+      "question": "Öncüller argümanın sonucunu destekleyen gerekçelerdir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Paradigma",
+        "Dogma",
+        "Öncül",
+        "Sonuç",
+        "Sentez"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Öncüller argümanın sonucunu destekleyen gerekçelerdir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Felsefe ile Düşünme",
+      "question": "Felsefi düşünce hazır kabulleri sorgular ve gerekçelerini araştırır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Sorgulayıcı olma",
+        "Dogmatik olma",
+        "Değişmez olma",
+        "Ezbere dayanma",
+        "Deneyselliğe indirgenme"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Felsefi düşünce hazır kabulleri sorgular ve gerekçelerini araştırır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Felsefe ile Düşünme",
+      "question": "Felsefi düşünce problemleri farklı yönleriyle ve bütünlük içinde değerlendirmeye çalışır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Kesin olma",
+        "Deneysel olma",
+        "Yerel olma",
+        "Bütüncül olma",
+        "Dogmatik olma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Felsefi düşünce problemleri farklı yönleriyle ve bütünlük içinde değerlendirmeye çalışır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Felsefe ile Düşünme",
+      "question": "Tanım, bir kavramın ne anlama geldiğini belirlemeye yönelik açıklamadır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Paradoks",
+        "Tanım",
+        "Argüman",
+        "Çıkarım",
+        "Önerme"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tanım, bir kavramın ne anlama geldiğini belirlemeye yönelik açıklamadır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Felsefe ile Düşünme",
+      "question": "Çıkarım, öncüllerden mantıksal olarak bir sonuca ulaşma işlemidir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Tanım",
+        "Soru",
+        "Kavram",
+        "Betimleme",
+        "Çıkarım"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çıkarım, öncüllerden mantıksal olarak bir sonuca ulaşma işlemidir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Felsefe ile Düşünme",
+      "question": "Eleştirel düşünme iddiaları ve gerekçeleri sorgulayıp değerlendirmeyi gerektirir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Dogmatizm",
+        "Taklit",
+        "Eleştirel düşünme",
+        "Körü körüne kabul",
+        "Önyargı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eleştirel düşünme iddiaları ve gerekçeleri sorgulayıp değerlendirmeyi gerektirir."
+    }
+  ]
+}

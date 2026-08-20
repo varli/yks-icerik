@@ -1,0 +1,331 @@
+{
+  "id": "siyasetfelsefesi",
+  "title": "Siyaset Felsefesi",
+  "lesson": "TYT Felsefe",
+  "description": "TYT Felsefe Siyaset Felsefesi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Siyaset Felsefesi",
+      "question": "Devlet, iktidar, egemenlik ve adalet gibi kavramları inceleyen felsefe dalı hangisidir?",
+      "options": [
+        "Siyaset felsefesi",
+        "Ahlak felsefesi",
+        "Bilgi felsefesi",
+        "Varlık felsefesi",
+        "Sanat felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Siyaset felsefesi devlet, iktidar, egemenlik, hak, özgürlük ve adalet gibi kavramları sorgular."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Siyaset Felsefesi",
+      "question": "Bir devletin ülke ve toplum üzerindeki en üstün karar verme gücüne ne denir?",
+      "options": [
+        "Bürokrasi",
+        "Adalet",
+        "Özgürlük",
+        "Egemenlik",
+        "Meşruiyet"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Egemenlik devletin kendi sınırları içinde üstün ve bağımsız karar verme yetkisidir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Siyaset Felsefesi",
+      "question": "Siyasi iktidarın yönetme hakkının toplum tarafından kabul edilmesine ne denir?",
+      "options": [
+        "Anarşi",
+        "Meşruiyet",
+        "Egemenlik",
+        "Bürokrasi",
+        "Ütopya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Meşruiyet, iktidarın yönetme yetkisinin haklı ve kabul edilebilir görülmesidir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Siyaset Felsefesi",
+      "question": "Devletin ortaya çıkışını insanların karşılıklı anlaşmasına dayandıran yaklaşım hangisidir?",
+      "options": [
+        "Nihilizm",
+        "Hedonizm",
+        "Empirizm",
+        "Determinizm",
+        "Toplum sözleşmesi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Toplum sözleşmesi kuramları devletin bireyler arasındaki varsayımsal anlaşma sonucunda ortaya çıktığını savunur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Siyaset Felsefesi",
+      "question": "Olması arzulanan ideal toplum ve devlet tasarımlarına ne ad verilir?",
+      "options": [
+        "Ontoloji",
+        "Epistemoloji",
+        "Ütopya",
+        "Dogma",
+        "Paradigma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ütopya ideal bir toplum düzeninin tasarımıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Siyaset Felsefesi",
+      "question": "Hukuk önünde kişilere hak ettikleri biçimde davranılması hangi kavramla ilişkilidir?",
+      "options": [
+        "Adalet",
+        "Egemenlik",
+        "Bürokrasi",
+        "İktidar",
+        "Otorite"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Adalet hakların korunması ve kişilere hak ettikleri biçimde davranılmasıyla ilişkilidir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Bireyin başkalarının haklarına zarar vermeden seçim yapabilmesi hangi siyasi değerle ilgilidir?",
+      "options": [
+        "Otorite",
+        "Bürokrasi",
+        "Meşruiyet",
+        "Özgürlük",
+        "Egemenlik"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Siyaset felsefesinde özgürlük bireyin hak ve seçim alanını ifade eder."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Devletin gerekli olmadığını veya ortadan kaldırılması gerektiğini savunan görüş hangisidir?",
+      "options": [
+        "Monarşi",
+        "Anarşizm",
+        "Liberalizm",
+        "Sosyalizm",
+        "Muhafazakârlık"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Anarşizm zorlayıcı devlet otoritesine karşı çıkar."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Devletin temel görevlerinden biri aşağıdakilerden hangisidir?",
+      "options": [
+        "Tek tip düşünce oluşturmak",
+        "Bütün bireysel tercihleri belirlemek",
+        "Felsefi sorgulamayı yasaklamak",
+        "Bilimsel sonuçları belirlemek",
+        "Toplumsal düzeni ve hakları korumak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Devletin temel işlevleri arasında güvenlik, hukuk düzeni ve temel hakların korunması yer alır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Hak, özgürlük ve eşitlik kavramları en doğrudan hangi felsefi alanın problemleri arasındadır?",
+      "options": [
+        "Estetik",
+        "Bilim felsefesi",
+        "Siyaset felsefesi",
+        "Ontoloji",
+        "Epistemoloji"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hak, özgürlük ve eşitlik siyasal düzenin temel kavramları arasında yer alır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Siyaset felsefesi devlet, iktidar, egemenlik, hak, özgürlük ve adalet gibi kavramları sorgular. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Siyaset felsefesi",
+        "Ahlak felsefesi",
+        "Bilgi felsefesi",
+        "Varlık felsefesi",
+        "Sanat felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Siyaset felsefesi devlet, iktidar, egemenlik, hak, özgürlük ve adalet gibi kavramları sorgular."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Egemenlik devletin kendi sınırları içinde üstün ve bağımsız karar verme yetkisidir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Bürokrasi",
+        "Adalet",
+        "Özgürlük",
+        "Egemenlik",
+        "Meşruiyet"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Egemenlik devletin kendi sınırları içinde üstün ve bağımsız karar verme yetkisidir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Meşruiyet, iktidarın yönetme yetkisinin haklı ve kabul edilebilir görülmesidir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Anarşi",
+        "Meşruiyet",
+        "Egemenlik",
+        "Bürokrasi",
+        "Ütopya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Meşruiyet, iktidarın yönetme yetkisinin haklı ve kabul edilebilir görülmesidir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Siyaset Felsefesi",
+      "question": "Toplum sözleşmesi kuramları devletin bireyler arasındaki varsayımsal anlaşma sonucunda ortaya çıktığını savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Nihilizm",
+        "Hedonizm",
+        "Empirizm",
+        "Determinizm",
+        "Toplum sözleşmesi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Toplum sözleşmesi kuramları devletin bireyler arasındaki varsayımsal anlaşma sonucunda ortaya çıktığını savunur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Siyaset Felsefesi",
+      "question": "Ütopya ideal bir toplum düzeninin tasarımıdır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Ontoloji",
+        "Epistemoloji",
+        "Ütopya",
+        "Dogma",
+        "Paradigma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ütopya ideal bir toplum düzeninin tasarımıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Siyaset Felsefesi",
+      "question": "Adalet hakların korunması ve kişilere hak ettikleri biçimde davranılmasıyla ilişkilidir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Adalet",
+        "Egemenlik",
+        "Bürokrasi",
+        "İktidar",
+        "Otorite"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Adalet hakların korunması ve kişilere hak ettikleri biçimde davranılmasıyla ilişkilidir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Siyaset Felsefesi",
+      "question": "Siyaset felsefesinde özgürlük bireyin hak ve seçim alanını ifade eder. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Otorite",
+        "Bürokrasi",
+        "Meşruiyet",
+        "Özgürlük",
+        "Egemenlik"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Siyaset felsefesinde özgürlük bireyin hak ve seçim alanını ifade eder."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Siyaset Felsefesi",
+      "question": "Anarşizm zorlayıcı devlet otoritesine karşı çıkar. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Monarşi",
+        "Anarşizm",
+        "Liberalizm",
+        "Sosyalizm",
+        "Muhafazakârlık"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Anarşizm zorlayıcı devlet otoritesine karşı çıkar."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Siyaset Felsefesi",
+      "question": "Devletin temel işlevleri arasında güvenlik, hukuk düzeni ve temel hakların korunması yer alır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Tek tip düşünce oluşturmak",
+        "Bütün bireysel tercihleri belirlemek",
+        "Felsefi sorgulamayı yasaklamak",
+        "Bilimsel sonuçları belirlemek",
+        "Toplumsal düzeni ve hakları korumak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Devletin temel işlevleri arasında güvenlik, hukuk düzeni ve temel hakların korunması yer alır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Siyaset Felsefesi",
+      "question": "Hak, özgürlük ve eşitlik siyasal düzenin temel kavramları arasında yer alır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Estetik",
+        "Bilim felsefesi",
+        "Siyaset felsefesi",
+        "Ontoloji",
+        "Epistemoloji"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hak, özgürlük ve eşitlik siyasal düzenin temel kavramları arasında yer alır."
+    }
+  ]
+}

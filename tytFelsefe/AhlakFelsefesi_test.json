@@ -1,0 +1,331 @@
+{
+  "id": "ahlakfelsefesi",
+  "title": "Ahlak Felsefesi",
+  "lesson": "TYT Felsefe",
+  "description": "TYT Felsefe Ahlak Felsefesi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlaki eylemlerin temelini ve değerini konu edinen felsefe dalı hangisidir?",
+      "options": [
+        "Ahlak felsefesi",
+        "Bilgi felsefesi",
+        "Varlık felsefesi",
+        "Siyaset felsefesi",
+        "Bilim felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ahlak felsefesi iyi-kötü, özgürlük, sorumluluk ve ahlaki eylem gibi problemleri inceler."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlak felsefesinde 'iyi' ve 'kötü' kavramlarını sorgulayan alan hangisidir?",
+      "options": [
+        "Epistemoloji",
+        "Estetik",
+        "Mantık",
+        "Etik",
+        "Ontoloji"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Etik, ahlaki değerleri ve eylemlerin iyi-kötü bakımından değerlendirilmesini konu edinir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Ahlak Felsefesi",
+      "question": "Kişinin eylemlerinin sonuçlarını üstlenebilmesi öncelikle hangi kavramla ilişkilidir?",
+      "options": [
+        "Varlık",
+        "Sorumluluk",
+        "Haz",
+        "Sezgi",
+        "Güzellik"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sorumluluk, kişinin özgür iradesiyle yaptığı eylemlerin sonuçlarını üstlenmesidir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Ahlak Felsefesi",
+      "question": "İnsanın davranışları arasında seçim yapabilme gücüne ne denir?",
+      "options": [
+        "Determinizm",
+        "Fatalizm",
+        "Egoizm",
+        "Nihilizm",
+        "Özgürlük"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ahlak felsefesinde özgürlük, kişinin seçenekler arasında iradesiyle tercih yapabilmesidir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlaki eylemin amacını mutluluk olarak gören yaklaşıma ne ad verilir?",
+      "options": [
+        "Determinizm",
+        "Anarşizm",
+        "Eudaimonizm",
+        "Hedonizm",
+        "Nihilizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eudaimonizm, ahlaki yaşamın amacını mutluluk olarak görür."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Ahlak Felsefesi",
+      "question": "Hazza dayalı ahlak anlayışına ne ad verilir?",
+      "options": [
+        "Hedonizm",
+        "Eudaimonizm",
+        "Entüisyonizm",
+        "Determinizm",
+        "Realizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Hedonizm, hazzı ahlaki eylemin temel ölçütlerinden biri olarak kabul eder."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "Bir eylemin mümkün olduğunca çok insana fayda sağlamasını ölçüt alan görüş hangisidir?",
+      "options": [
+        "Fatalizm",
+        "Egoizm",
+        "Rasyonalizm",
+        "Utilitarizm",
+        "Nihilizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Faydacılık, en fazla sayıda insana en yüksek faydayı sağlayan eylemi ahlaken değerli görür."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlaki davranışlarda yalnızca kişinin kendi çıkarını temel almasına ne ad verilir?",
+      "options": [
+        "Entüisyonizm",
+        "Egoizm",
+        "Altruizm",
+        "Utilitarizm",
+        "Determinizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Egoizm, bireyin kendi çıkarını ahlaki eylemin merkezine alan yaklaşımdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "İnsanın davranışlarının önceden belirlenmiş nedenlerin zorunlu sonucu olduğunu savunan görüş hangisidir?",
+      "options": [
+        "İndeterminizm",
+        "Otodeterminizm",
+        "Hedonizm",
+        "Eudaimonizm",
+        "Determinizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Determinizm, insan eylemlerinin neden-sonuç ilişkileriyle belirlendiğini savunur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlaki değerlerin kişiden kişiye veya toplumdan topluma değişebileceğini savunan yaklaşım hangisidir?",
+      "options": [
+        "Rasyonalizm",
+        "Realizm",
+        "Ahlaki relativizm",
+        "Ahlaki evrenselcilik",
+        "Determinizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ahlaki relativizm, değer yargılarının birey veya kültüre göre değişebileceğini savunur."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlak felsefesi iyi-kötü, özgürlük, sorumluluk ve ahlaki eylem gibi problemleri inceler. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Ahlak felsefesi",
+        "Bilgi felsefesi",
+        "Varlık felsefesi",
+        "Siyaset felsefesi",
+        "Bilim felsefesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ahlak felsefesi iyi-kötü, özgürlük, sorumluluk ve ahlaki eylem gibi problemleri inceler."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "Etik, ahlaki değerleri ve eylemlerin iyi-kötü bakımından değerlendirilmesini konu edinir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Epistemoloji",
+        "Estetik",
+        "Mantık",
+        "Etik",
+        "Ontoloji"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Etik, ahlaki değerleri ve eylemlerin iyi-kötü bakımından değerlendirilmesini konu edinir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "Sorumluluk, kişinin özgür iradesiyle yaptığı eylemlerin sonuçlarını üstlenmesidir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Varlık",
+        "Sorumluluk",
+        "Haz",
+        "Sezgi",
+        "Güzellik"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sorumluluk, kişinin özgür iradesiyle yaptığı eylemlerin sonuçlarını üstlenmesidir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlak felsefesinde özgürlük, kişinin seçenekler arasında iradesiyle tercih yapabilmesidir. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Determinizm",
+        "Fatalizm",
+        "Egoizm",
+        "Nihilizm",
+        "Özgürlük"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ahlak felsefesinde özgürlük, kişinin seçenekler arasında iradesiyle tercih yapabilmesidir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Ahlak Felsefesi",
+      "question": "Eudaimonizm, ahlaki yaşamın amacını mutluluk olarak görür. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Determinizm",
+        "Anarşizm",
+        "Eudaimonizm",
+        "Hedonizm",
+        "Nihilizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eudaimonizm, ahlaki yaşamın amacını mutluluk olarak görür."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Ahlak Felsefesi",
+      "question": "Hedonizm, hazzı ahlaki eylemin temel ölçütlerinden biri olarak kabul eder. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Hedonizm",
+        "Eudaimonizm",
+        "Entüisyonizm",
+        "Determinizm",
+        "Realizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Hedonizm, hazzı ahlaki eylemin temel ölçütlerinden biri olarak kabul eder."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Ahlak Felsefesi",
+      "question": "Faydacılık, en fazla sayıda insana en yüksek faydayı sağlayan eylemi ahlaken değerli görür. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Fatalizm",
+        "Egoizm",
+        "Rasyonalizm",
+        "Utilitarizm",
+        "Nihilizm"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Faydacılık, en fazla sayıda insana en yüksek faydayı sağlayan eylemi ahlaken değerli görür."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Ahlak Felsefesi",
+      "question": "Egoizm, bireyin kendi çıkarını ahlaki eylemin merkezine alan yaklaşımdır. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Entüisyonizm",
+        "Egoizm",
+        "Altruizm",
+        "Utilitarizm",
+        "Determinizm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Egoizm, bireyin kendi çıkarını ahlaki eylemin merkezine alan yaklaşımdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Ahlak Felsefesi",
+      "question": "Determinizm, insan eylemlerinin neden-sonuç ilişkileriyle belirlendiğini savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "İndeterminizm",
+        "Otodeterminizm",
+        "Hedonizm",
+        "Eudaimonizm",
+        "Determinizm"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Determinizm, insan eylemlerinin neden-sonuç ilişkileriyle belirlendiğini savunur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Ahlak Felsefesi",
+      "question": "Ahlaki relativizm, değer yargılarının birey veya kültüre göre değişebileceğini savunur. Bu açıklamayla doğrudan ilişkili kavram veya görüş hangisidir?",
+      "options": [
+        "Rasyonalizm",
+        "Realizm",
+        "Ahlaki relativizm",
+        "Ahlaki evrenselcilik",
+        "Determinizm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ahlaki relativizm, değer yargılarının birey veya kültüre göre değişebileceğini savunur."
+    }
+  ]
+}
