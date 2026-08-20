@@ -1,0 +1,331 @@
+{
+  "id": "yazim-kurallari-test",
+  "title": "Yazım Kuralları",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Yazım Kuralları konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Büyük Harflerin Kullanımı",
+      "question": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımıyla ilgili bir yazım yanlışı vardır?",
+      "options": [
+        "Türkiye'nin başkenti Ankara'dır.",
+        "Bu yaz Karadeniz Bölgesi'ni gezeceğiz.",
+        "Geçen hafta Türk Dil Kurumunu ziyaret ettik.",
+        "Kardeşim Pazartesi günü İstanbul'a gidecek.",
+        "Ayşe Hanım birazdan toplantıya katılacak."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Belirli bir tarih bildirmeyen gün adları küçük harfle başlar. Doğrusu 'pazartesi günü'dür."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "de/da'nın Yazımı",
+      "question": "Aşağıdaki cümlelerin hangisinde 'de/da'nın yazımı yanlıştır?",
+      "options": [
+        "Ben de sizinle geleceğim.",
+        "Evde kimse yoktu.",
+        "O da bu kitabı okumuş.",
+        "Seninde fikrini almak istiyorum.",
+        "Bahçede çocuklar oynuyordu."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Bağlaç olan 'de' ayrı yazılır: 'Senin de fikrini...'"
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "ki'nin Yazımı",
+      "question": "Aşağıdaki cümlelerin hangisinde 'ki'nin yazımı doğrudur?",
+      "options": [
+        "Biliyorumki beni anlayacaksın.",
+        "Evde ki kitapları topladı.",
+        "Duydum ki yarın geliyormuş.",
+        "Masada ki kalemi bana ver.",
+        "Dünkü ki toplantı uzundu."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Bağlaç olan 'ki' ayrı yazılır: 'Duydum ki...'"
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "mi'nin Yazımı",
+      "question": "Aşağıdaki cümlelerin hangisinde soru eki 'mi' doğru yazılmıştır?",
+      "options": [
+        "Bize gelecekmi?",
+        "Bu kitabı okudun mu?",
+        "Senmi yaptın bunu?",
+        "Hazırmısınız?",
+        "Beni duydunmu?"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Soru eki 'mi' kendinden önceki sözcükten ayrı yazılır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Sayıların Yazımı",
+      "question": "Aşağıdaki cümlelerin hangisinde sayıların yazımı doğrudur?",
+      "options": [
+        "Yarışmada 2'inci oldu.",
+        "Sınıfta yirmibeş öğrenci var.",
+        "Toplantı 3'er kişilik gruplarla yapıldı.",
+        "Bu yıl on beş kitap okudum.",
+        "Saat 9.30 da buluşacağız."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Birden fazla sözcükten oluşan sayılar ayrı yazılır: 'on beş'."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Birleşik Sözcükler",
+      "question": "Aşağıdaki sözcüklerden hangisinin yazımı doğrudur?",
+      "options": [
+        "bir çok",
+        "herşey",
+        "hiç bir",
+        "birkaç",
+        "pekçok"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Birkaç' bitişik yazılır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Birleşik Sözcükler",
+      "question": "Aşağıdaki cümlelerin hangisinde birleşik sözcüğün yazımı yanlıştır?",
+      "options": [
+        "Bugün birkaç arkadaşım bize gelecek.",
+        "Hiçbir öğrenci soruyu çözemedi.",
+        "Her şey zamanla düzelecek.",
+        "Bir çok insan bu habere şaşırdı.",
+        "Akşamüstü kısa bir yürüyüş yaptık."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Birçok' bitişik yazılmalıdır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kısaltmalar",
+      "question": "Aşağıdaki cümlelerin hangisinde kısaltmaya getirilen ek doğru yazılmıştır?",
+      "options": [
+        "TBMM'ye yeni bir teklif sunuldu.",
+        "TDK'na bir soru yönelttik.",
+        "TRT'de ki programı izledim.",
+        "kg.'dan daha ağırdı.",
+        "cm.'yi ölçtük."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Büyük harfli kısaltmalara ek, okunuşa göre kesmeyle ayrılır: TBMM'ye."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Özel Adlar",
+      "question": "Aşağıdaki cümlelerin hangisinde özel ada getirilen ekin yazımı yanlıştır?",
+      "options": [
+        "Ankara'ya yarın gideceğiz.",
+        "Mehmet'in kitabını aldım.",
+        "Türkiye'nin nüfusu artıyor.",
+        "Boğaziçi Köprüsü'nü geçtik.",
+        "Türk Dil Kurumu'nun sözlüğüne baktım."
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kurum ve kuruluş adlarına gelen ekler kesmeyle ayrılmaz: 'Türk Dil Kurumunun'."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Yön Adları",
+      "question": "Aşağıdaki cümlelerin hangisinde yön adının yazımı doğrudur?",
+      "options": [
+        "Türkiye'nin Batısı bu hafta yağışlı.",
+        "Evin Doğusunda bahçe var.",
+        "Batı Anadolu'da sıcaklıklar artacak.",
+        "Şehrin Kuzeyinde yollar açıldı.",
+        "Güneye Anadolu'da yağış bekleniyor."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yön adı belirli bir bölge adının parçası olduğunda büyük harfle başlar: Batı Anadolu."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Gün ve Ay Adları",
+      "question": "Aşağıdaki cümlelerin hangisinde gün ve ay adlarının yazımı yanlıştır?",
+      "options": [
+        "Toplantı 20 Ağustos 2026 Perşembe günü yapılacak.",
+        "Geçen pazartesi seni aradım.",
+        "Okullar eylül ayında açılacak.",
+        "23 Nisan 1920 tarihi önemlidir.",
+        "Bu yıl Ağustos ayında tatile çıkacağız."
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Belirli tarih bildirmeyen ay adları küçük harfle başlar: 'ağustos ayında'."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "İkilemeler",
+      "question": "Aşağıdaki ikilemelerden hangisinin yazımı yanlıştır?",
+      "options": [
+        "yavaş yavaş",
+        "peş peşe",
+        "art arda",
+        "iç içe",
+        "ardarda"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Doğru yazım 'art arda'dır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Pekiştirmeler",
+      "question": "Aşağıdaki sözcüklerden hangisinin yazımı yanlıştır?",
+      "options": [
+        "simsiyah",
+        "tertemiz",
+        "masmavi",
+        "sapasağlam",
+        "yem yeşil"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Pekiştirmeli sözcük bitişik yazılır: 'yemyeşil'."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Birleşik Fiiller",
+      "question": "Aşağıdaki sözcüklerden hangisinin yazımı yanlıştır?",
+      "options": [
+        "affetmek",
+        "hissetmek",
+        "reddetmek",
+        "sabretmek",
+        "kayıtetmek"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ses olayı yoksa yardımcı fiille kurulan birleşik fiil ayrı yazılır: 'kayıt etmek'."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Yazım Yanlışı",
+      "question": "Aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+      "options": [
+        "Bu konuda hiçbir şey söylemedi.",
+        "Biraz sonra toplantıya başlayacağız.",
+        "Herhangi bir sorun yaşarsan beni ara.",
+        "Bugün pek çok kişi buraya geldi.",
+        "Bende seninle aynı fikirdeyim."
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bağlaç olan 'de' ayrı yazılır: 'Ben de...'"
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Birleşik Fiiller",
+      "question": "Aşağıdaki cümlelerin hangisinde birleşik fiilin yazımı yanlıştır?",
+      "options": [
+        "Beni görünce fark etti.",
+        "Bu davranışını affetmek kolay değildi.",
+        "Onun geleceğini hissettim.",
+        "Teklifi kabul etti.",
+        "Söylediklerini red etti."
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Doğru kullanım 'reddetti'dir; ünsüz türemesi nedeniyle bitişik yazılır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Yazım Kuralları",
+      "question": "Aşağıdaki cümlelerin hangisinde birden fazla yazım yanlışı vardır?",
+      "options": [
+        "Herşeyi bir anda anlatmak istemedi.",
+        "Bende hiç bir şey söylemedim.",
+        "Bugün birkaç arkadaşla buluştuk.",
+        "Hiçbirimiz onun neden gelmediğini bilmiyoruz.",
+        "Pek çok öğrenci sınava hazırlanıyor."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Bende' → 'Ben de', 'hiç bir' → 'hiçbir'; iki yazım yanlışı vardır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Büyük Harflerin Kullanımı",
+      "question": "Aşağıdaki cümlelerin hangisinde büyük harflerin kullanımı yanlıştır?",
+      "options": [
+        "Bu yıl Güneydoğu Anadolu Bölgesi'nde kuraklık arttı.",
+        "Türk edebiyatının önemli isimlerini araştırıyoruz.",
+        "Kurtuluş Savaşı tarihimizin dönüm noktalarındandır.",
+        "Geçen yaz Ege Denizi'nde yüzdük.",
+        "Babam Doğuya doğru uzun bir yolculuğa çıktı."
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yön bildiren 'doğu' özel bir bölge adı değilse küçük harfle başlar."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Sayıların Yazımı",
+      "question": "Aşağıdaki cümlelerin hangisinde sayıların yazımı yanlıştır?",
+      "options": [
+        "Yarışmada 5'inci sırayı aldı.",
+        "Öğrenciler üçer kişilik gruplara ayrıldı.",
+        "Toplantıya yüz yirmi kişi katıldı.",
+        "Saat 14.30'da görüşelim.",
+        "Sınıfta 8'er öğrenci oturuyordu."
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üleştirme sayıları rakamla değil yazıyla yazılır: 'sekizer'."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Genel Yazım Kuralları",
+      "question": "Aşağıdaki cümlelerin hangisinde yazım yanlışı yoktur?",
+      "options": [
+        "Bir çok kişi bu konuda hem fikir.",
+        "Hiç bir zaman böyle düşünmedim.",
+        "Bugün herhangi bir sorunla karşılaşmadık.",
+        "Herşey düşündüğümüzden hızlı gelişti.",
+        "Bende yarın sizinle geleceğim."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Herhangi bir' ayrı yazılır; C seçeneğinde yazım yanlışı yoktur."
+    }
+  ]
+}

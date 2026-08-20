@@ -1,0 +1,331 @@
+{
+  "id": "fiiller-ek-fiil-test",
+  "title": "Fiiller - Ek Fiil",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Fiiller - Ek Fiil konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Ek Fiilin Görevi",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiil, isim soylu bir sözcüğü yüklem yapmıştır?",
+      "options": [
+        "Bu ev oldukça eskidir.",
+        "Dün seni okulda gördüm.",
+        "Yarın erkenden yola çıkacağız.",
+        "Çocuklar bahçede oynuyor.",
+        "Kitabı geçen hafta bitirdim."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Eskidir' sözcüğünde ek fiil, 'eski' sıfatını yüklem yapmıştır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Ek Fiilin Görevi",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiil kullanılmamıştır?",
+      "options": [
+        "Ben dün çok yorgundum.",
+        "Bu kitap oldukça güzeldir.",
+        "Hava bugün serin.",
+        "Arkadaşım öğretmendi.",
+        "O, sınıfın en çalışkanıymış."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Hava bugün serin.' cümlesinde yüklem olan 'serin' ek fiil almadan kullanılmıştır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Ek Fiil Kipleri",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiilin görülen geçmiş zamanı vardır?",
+      "options": [
+        "Bu bina çok eskiymiş.",
+        "O zamanlar öğrenciydim.",
+        "Babam bugün evdeyse onu görürüm.",
+        "Bu çocuk çok çalışkandır.",
+        "Sanırım o da öğretmendir."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Öğrenciydim' sözcüğündeki '-di' ek fiilin görülen geçmiş zamanıdır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Ek Fiil Kipleri",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiilin öğrenilen geçmiş zamanı kullanılmıştır?",
+      "options": [
+        "Bu ev bizimmiş.",
+        "Ben dün evdeydim.",
+        "Hava bugün güzel.",
+        "O, doktor ise birazdan gelir.",
+        "Bu soru kolaydır."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bizimmiş' sözcüğündeki '-miş' ek fiilin öğrenilen geçmiş zamanıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Ek Fiil Kipleri",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiilin şartı vardır?",
+      "options": [
+        "Hazırsan hemen başlayalım.",
+        "Dün çok yorgundum.",
+        "Bu kitap güzelmiş.",
+        "O, sınıfın en çalışkanıdır.",
+        "Babam öğretmendi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Hazırsan' sözcüğündeki '-sa' ek fiilin şart biçimidir."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Ek Fiilin Geniş Zamanı",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiilin geniş zamanı vardır?",
+      "options": [
+        "Ben dün evdeydim.",
+        "Bu sokak oldukça sakindir.",
+        "O çocuk çok çalışkanmış.",
+        "Hazırsan çıkabiliriz.",
+        "Arkadaşım geçen yıl öğrenciydi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Sakindir' sözcüğündeki '-dir' eki ek fiilin geniş zamanıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde birleşik zamanlı bir fiil vardır?",
+      "options": [
+        "Her sabah erken kalkarım.",
+        "Dün seni aradım.",
+        "Eskiden burada oturuyorduk.",
+        "Yarın Ankara'ya gideceğiz.",
+        "Şimdi kitap okuyorum."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Oturuyorduk' fiili şimdiki zamanın hikâyesi biçimindedir ve ek fiil yardımıyla birleşik zamanlı olmuştur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "'Seni daha önce de görmüştüm.' cümlesindeki birleşik zamanın türü aşağıdakilerden hangisidir?",
+      "options": [
+        "Geniş zamanın hikâyesi",
+        "Şimdiki zamanın hikâyesi",
+        "Öğrenilen geçmiş zamanın hikâyesi",
+        "Gelecek zamanın hikâyesi",
+        "Gereklilik kipinin hikâyesi"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Görmüştüm' fiili öğrenilen geçmiş zamanın hikâyesidir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde geniş zamanın hikâyesi kullanılmıştır?",
+      "options": [
+        "Çocukken burada oynardık.",
+        "Şimdi seni bekliyorum.",
+        "Dün seni aramış.",
+        "Yarın bize gelecek.",
+        "Bu işi bitirmelisin."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Oynardık' fiili geniş zaman eki üzerine hikâye eki almıştır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde şimdiki zamanın hikâyesi vardır?",
+      "options": [
+        "Seni her gün arardı.",
+        "Dün akşam kitap okuyordum.",
+        "Yarın seni arayacakmış.",
+        "Bu işi bitirmeliydi.",
+        "Keşke bizimle gelseydi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Okuyordum' fiili şimdiki zamanın hikâyesidir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde gelecek zamanın rivayeti vardır?",
+      "options": [
+        "Bizi dün aramıştı.",
+        "Yarın buraya gelecekmiş.",
+        "Her gün buraya gelirdi.",
+        "Şimdi bizi bekliyordu.",
+        "Bu işi bitirmeliydi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Gelecekmiş' fiili gelecek zamanın rivayeti biçimindedir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde gereklilik kipinin hikâyesi vardır?",
+      "options": [
+        "Bu işi dün bitirmeliydin.",
+        "Yarın bize gelecekmiş.",
+        "Eskiden burada otururdu.",
+        "Şimdi seni arıyordu.",
+        "Sınavı kazanmıştı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bitirmeliydin' fiili gereklilik kipi üzerine hikâye eki almıştır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde şart birleşik zamanlı bir fiil vardır?",
+      "options": [
+        "Beni ararsan sana anlatırım.",
+        "Beni arasaydın sana anlatırdım.",
+        "Yarın seni arayacağım.",
+        "Dün seni aramış.",
+        "Şimdi seni bekliyorum."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Arasaydın' fiili şart kipinin hikâyesi biçimindedir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Ek Fiil",
+      "question": "'O, geçen yıl bu okulda öğrenciydi.' cümlesinde ek fiilin görevi aşağıdakilerden hangisidir?",
+      "options": [
+        "Fiili olumsuz yapmak",
+        "İsim soylu sözcüğü yüklem yapmak",
+        "Fiile soru anlamı katmak",
+        "Fiilin çatısını değiştirmek",
+        "Fiile çoğul anlamı katmak"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Öğrenci' isim soylu bir sözcüktür; ek fiil onu yüklem yapmıştır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Ek Fiil ve Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiil farklı bir görevde kullanılmıştır?",
+      "options": [
+        "Bu ev oldukça büyüktür.",
+        "Ben o zamanlar öğrenciydim.",
+        "O, sınıfın en çalışkanıymış.",
+        "Dün seni bekliyordum.",
+        "Hazırsan hemen başlayalım."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Diğer seçeneklerde ek fiil isim soylu sözcükleri yüklem yaparken 'bekliyordum' fiilinde birleşik zaman oluşturmuştur."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Birleşik Zaman",
+      "question": "'Bu kitabı daha önce okumuş olmalıydı.' cümlesindeki 'olmalıydı' fiilinin birleşik zaman türü aşağıdakilerden hangisidir?",
+      "options": [
+        "Gereklilik kipinin hikâyesi",
+        "Gelecek zamanın hikâyesi",
+        "Şimdiki zamanın hikâyesi",
+        "Geniş zamanın rivayeti",
+        "Şart kipinin hikâyesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Olmalıydı' fiili gereklilik kipi üzerine hikâye eki almıştır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Ek Fiilin Düşmesi",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiilin geniş zaman eki düşmüştür?",
+      "options": [
+        "Bu sokak çok sessiz.",
+        "Dün bu sokak sessizdi.",
+        "Bu sokak sessizmiş.",
+        "Bu sokak sessizse burada oturalım.",
+        "Bu sokak oldukça sessizdir."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bu sokak çok sessiz.' cümlesinde ek fiilin geniş zaman biçimi olan '-dir' kullanılmadan yüklem kurulmuştur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Ek Fiil ve Kişi",
+      "question": "Aşağıdaki cümlelerin hangisinde ek fiil birinci çoğul kişiyle çekimlenmiştir?",
+      "options": [
+        "Biz bu işte yeniyiz.",
+        "Ben bu işte yeniyim.",
+        "Siz bu işte yenisiniz.",
+        "O bu işte yenidir.",
+        "Onlar bu işte yeniler."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Yeniyiz' sözcüğü birinci çoğul kişi, yani 'biz' ile çekimlenmiştir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde rivayet birleşik zamanı kullanılmıştır?",
+      "options": [
+        "Dün seni bekliyordum.",
+        "Eskiden burada yaşardı.",
+        "Yarın bize gelecekmiş.",
+        "Bu işi bitirmeliydin.",
+        "Sınavı kazanmıştı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Gelecekmiş' fiilindeki '-miş' eki rivayet birleşik zamanını oluşturur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Ek Fiil Bilgisi",
+      "question": "Aşağıdaki cümlelerin hangisinde hem ek fiilin isim soylu sözcüğü yüklem yapma görevi hem de birleşik zamanlı bir fiil birlikte kullanılmıştır?",
+      "options": [
+        "Ben o yıllarda öğrenciydim ve her sabah erkenden kalkardım.",
+        "Bu ev oldukça büyüktür.",
+        "Dün seni uzun süre bekledim.",
+        "Yarın Ankara'ya gideceğim.",
+        "Bu kitap çok güzelmiş."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Öğrenciydim' ek fiille isim soylu sözcüğü yüklem yaparken 'kalkardım' geniş zamanın hikâyesi olan birleşik zamanlı bir fiildir."
+    }
+  ]
+}

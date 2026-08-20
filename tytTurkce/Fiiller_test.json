@@ -1,0 +1,331 @@
+{
+  "id": "fiiller-test",
+  "title": "Fiiller",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Fiiller konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Fiilde Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde durum fiili vardır?",
+      "options": [
+        "Çocuk bütün gece uyudu.",
+        "Babam kapıyı açtı.",
+        "Öğrenci ödevini tamamladı.",
+        "Annem masayı sildi.",
+        "Bahçıvan çiçekleri suladı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Uyumak' nesne almayan ve öznenin içinde bulunduğu durumu bildiren bir durum fiilidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Fiilde Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde iş (kılış) fiili vardır?",
+      "options": [
+        "Çocuk biraz önce uyandı.",
+        "Çiçekler baharda açtı.",
+        "Öğretmen tahtaya bir cümle yazdı.",
+        "Yaşlı adam uzun süre oturdu.",
+        "Bebek bütün gece uyudu."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Yazmak' nesne alabilen ve öznenin bir varlık üzerinde gerçekleştirdiği işi bildiren kılış fiilidir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Fiilde Anlam",
+      "question": "Aşağıdaki cümlelerin hangisinde oluş fiili vardır?",
+      "options": [
+        "Çocuk kapıyı kapattı.",
+        "Yapraklar sonbaharda sarardı.",
+        "Öğrenciler soruları çözdü.",
+        "Babam gazeteyi okudu.",
+        "Annem yemeği hazırladı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Sararmak', öznenin iradesi dışında zaman içinde gerçekleşen bir değişimi bildirdiği için oluş fiilidir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kip",
+      "question": "Aşağıdaki cümlelerin hangisinde görülen geçmiş zaman kullanılmıştır?",
+      "options": [
+        "Yarın seni arayacağım.",
+        "Dün akşam eve geç geldim.",
+        "Her sabah erken kalkarım.",
+        "Şimdi kitap okuyorum.",
+        "Birazdan dışarı çıkmalıyım."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Geldim' fiilindeki '-di' eki görülen geçmiş zaman ekidir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kip",
+      "question": "Aşağıdaki cümlelerin hangisinde geniş zaman kullanılmıştır?",
+      "options": [
+        "Her hafta sonu dedemi ziyaret ederim.",
+        "Dün sinemaya gittik.",
+        "Şu anda ders çalışıyor.",
+        "Yarın toplantıya katılacak.",
+        "Bu kitabı mutlaka okumalısın."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Ederim' fiilindeki '-er' eki geniş zaman anlamı taşır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Kip",
+      "question": "Aşağıdaki cümlelerin hangisinde gelecek zaman kullanılmıştır?",
+      "options": [
+        "Sabah erkenden yola çıktık.",
+        "Her gün düzenli yürür.",
+        "Akşam seni mutlaka arayacağım.",
+        "Şimdi biraz dinleniyorum.",
+        "Geçen hafta bu kitabı okumuş."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Arayacağım' fiilindeki '-acak/-ecek' eki gelecek zaman ekidir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kip",
+      "question": "Aşağıdaki cümlelerin hangisinde öğrenilen geçmiş zaman kullanılmıştır?",
+      "options": [
+        "Dün seni okulda gördüm.",
+        "Bu kitabı geçen yıl okudum.",
+        "Ahmet sınavı kazanmış.",
+        "Yarın erkenden yola çıkacağız.",
+        "Her akşam yürüyüş yapar."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Kazanmış' fiilindeki '-mış' eki öğrenilen geçmiş zamanı bildirir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Dilek Kipleri",
+      "question": "Aşağıdaki cümlelerin hangisinde gereklilik kipi vardır?",
+      "options": [
+        "Biraz daha dikkatli olmalısın.",
+        "Keşke bize de gelsen.",
+        "Kapıyı hemen kapat.",
+        "Yarın bize gelecek.",
+        "Her sabah erken kalkar."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Olmalısın' fiilindeki '-malı/-meli' eki gereklilik kipidir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Dilek Kipleri",
+      "question": "Aşağıdaki cümlelerin hangisinde şart kipi kullanılmıştır?",
+      "options": [
+        "Derslerine düzenli çalışırsan başarılı olursun.",
+        "Keşke biraz daha erken gelseydin.",
+        "Bu kitabı mutlaka oku.",
+        "Yarın seni arayacağım.",
+        "Şimdi eve gidiyorum."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Çalışırsan' fiilindeki '-sa/-se' eki şart kipidir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Dilek Kipleri",
+      "question": "Aşağıdaki cümlelerin hangisinde istek kipi vardır?",
+      "options": [
+        "Biraz dinlenelim.",
+        "Dün seni aradım.",
+        "Yarın buraya geleceğim.",
+        "Her gün kitap okurum.",
+        "Bu işi hemen bitirmelisin."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Dinlenelim' fiilindeki '-e/-a' istek kipi eki, bir isteği bildirir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kişi Ekleri",
+      "question": "'Yarın erkenden yola çıkacağız.' cümlesindeki fiil kaçıncı çoğul kişiyle çekimlenmiştir?",
+      "options": [
+        "Birinci tekil kişi",
+        "İkinci tekil kişi",
+        "Üçüncü tekil kişi",
+        "Birinci çoğul kişi",
+        "Üçüncü çoğul kişi"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Çıkacağız' fiilindeki '-ız' kişi eki birinci çoğul kişiyi, yani 'biz'i bildirir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Olumsuzluk",
+      "question": "Aşağıdaki cümlelerin hangisinde fiil olumsuz çekimlenmiştir?",
+      "options": [
+        "Dün akşam seni aradım.",
+        "Bu sabah kahvaltı yapmadım.",
+        "Yarın erkenden çıkacağım.",
+        "Her gün kitap okurum.",
+        "Şimdi seni dinliyorum."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Yapmadım' fiili '-ma' olumsuzluk ekiyle çekimlenmiştir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Soru",
+      "question": "Aşağıdaki cümlelerin hangisinde fiilin soru biçimi kullanılmıştır?",
+      "options": [
+        "Dün seni okulda gördüm.",
+        "Yarın bizimle gelecek misin?",
+        "Bu kitabı çok beğendim.",
+        "Her sabah yürüyüş yaparım.",
+        "Şimdi biraz dinleniyorum."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Gelecek misin?' yapısında soru anlamı 'mi' soru edatıyla sağlanmıştır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Birleşik Zaman",
+      "question": "Aşağıdaki cümlelerin hangisinde fiil birleşik zamanlıdır?",
+      "options": [
+        "Her sabah erken kalkarım.",
+        "Dün seni aradım.",
+        "Çocukken burada oynardık.",
+        "Yarın Ankara'ya gideceğim.",
+        "Şimdi ders çalışıyorum."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Oynardık' fiili geniş zamanın hikâyesi biçimindedir ve birleşik zamanlıdır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kip Anlamı",
+      "question": "Aşağıdaki cümlelerin hangisinde geniş zaman eki, gelecek zaman anlamında kullanılmıştır?",
+      "options": [
+        "Her sabah saat yedide kalkarım.",
+        "Yarın seni okul çıkışında alırım.",
+        "Su yüz derecede kaynar.",
+        "Babam hafta sonları gazete okur.",
+        "Bu otobüs her saat başı kalkar."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Alırım' biçim olarak geniş zamanla çekimlenmiş, ancak 'yarın' sözcüğü nedeniyle gelecek zaman anlamı kazanmıştır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kip Anlamı",
+      "question": "Aşağıdaki cümlelerin hangisinde şimdiki zaman eki, gelecek zaman anlamında kullanılmıştır?",
+      "options": [
+        "Şimdi odasında ders çalışıyor.",
+        "Her gün okula yürüyerek gidiyor.",
+        "Yarın sabah Ankara'ya gidiyorum.",
+        "Çocuk bahçede oynuyor.",
+        "Annem mutfakta yemek hazırlıyor."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Gidiyorum' şimdiki zamanla çekimlenmiş olsa da 'yarın sabah' ifadesi nedeniyle gelecek zaman anlamındadır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Birleşik Zaman",
+      "question": "'Seni daha önce de burada görmüştüm.' cümlesindeki fiilin birleşik zamanı aşağıdakilerden hangisidir?",
+      "options": [
+        "Geniş zamanın hikâyesi",
+        "Şimdiki zamanın hikâyesi",
+        "Öğrenilen geçmiş zamanın hikâyesi",
+        "Gelecek zamanın hikâyesi",
+        "Gereklilik kipinin hikâyesi"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Görmüştüm' fiili '-miş' öğrenilen geçmiş zaman eki ile '-di' hikâye ekinin birleşmesiyle oluşmuştur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Fiilde Yapı",
+      "question": "Aşağıdaki fiillerden hangisi türemiş fiildir?",
+      "options": [
+        "gelmek",
+        "bakmak",
+        "temizlemek",
+        "almak",
+        "görmek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Temizlemek' fiili 'temiz' isminden '-le' yapım ekiyle türetilmiştir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Fiilde Yapı",
+      "question": "Aşağıdaki cümlelerin hangisinde birleşik fiil vardır?",
+      "options": [
+        "Çocuk bahçede koştu.",
+        "Soruyu sonunda fark etti.",
+        "Babam gazeteyi okudu.",
+        "Öğrenciler sınıfa girdi.",
+        "Annem yemeği hazırladı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Fark etti' isim + yardımcı fiil biçiminde kurulmuş birleşik fiildir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Fiil Bilgisi",
+      "question": "Aşağıdaki cümlelerin hangisinde hem birleşik zamanlı hem de olumsuz çekimlenmiş bir fiil vardır?",
+      "options": [
+        "Dün seni aramadım.",
+        "Eskiden bu kadar geç kalmazdı.",
+        "Yarın bizimle gelmeyecek.",
+        "Şimdi hiç konuşmuyor.",
+        "Her sabah erken kalkmaz."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Kalmazdı' fiili geniş zamanın olumsuzu üzerine hikâye eki almıştır; bu nedenle hem olumsuz hem birleşik zamanlıdır."
+    }
+  ]
+}

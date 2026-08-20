@@ -1,0 +1,331 @@
+{
+  "id": "noktalama-isaretleri-test",
+  "title": "Noktalama İşaretleri",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Noktalama İşaretleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Nokta",
+      "question": "Aşağıdaki cümlelerin hangisinde nokta (.) doğru kullanılmıştır?",
+      "options": [
+        "Toplantı saat 14.30'da başlayacak.",
+        "Toplantı saat 14:30.da başlayacak.",
+        "Toplantı saat 14,30'da başlayacak.",
+        "Toplantı saat 14.30,da başlayacak.",
+        "Toplantı saat 14;30'da başlayacak."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Saat ve dakika gösteren sayıları birbirinden ayırmak için nokta kullanılabilir: 14.30."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Virgül",
+      "question": "Aşağıdaki cümlelerin hangisinde virgül (,) eş görevli sözcükleri ayırmak için kullanılmıştır?",
+      "options": [
+        "Ali, buraya gelir misin?",
+        "Pazardan elma, armut, portakal aldık.",
+        "Evet, seni dinliyorum.",
+        "Ankara, Türkiye'nin başkentidir.",
+        "Arkadaşım, sanırım, yarın gelecek."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Elma, armut, portakal' aynı görevdeki sözcüklerdir ve virgülle ayrılmıştır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Soru İşareti",
+      "question": "Aşağıdaki cümlelerin hangisinin sonuna soru işareti (?) getirilmelidir?",
+      "options": [
+        "Bana neden haber vermedin",
+        "Keşke sen de bizimle gelsen",
+        "Bugün hava ne kadar güzel",
+        "Sakın buradan ayrılma",
+        "Yarın erkenden yola çıkacağız"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Doğrudan soru anlamı taşıyan 'Bana neden haber vermedin?' cümlesinin sonuna soru işareti getirilir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Ünlem",
+      "question": "Aşağıdaki cümlelerin hangisinde ünlem işareti (!) kullanılması uygundur?",
+      "options": [
+        "Eyvah, otobüsü kaçırdık",
+        "Yarın seni arayacağım",
+        "Kitabı masaya bıraktım",
+        "Bugün hava serin",
+        "Toplantı saat üçte başlayacak"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Eyvah' korku, kaygı ve üzüntü bildiren bir ünlem olduğu için cümlenin sonunda ünlem işareti kullanılabilir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "İki Nokta",
+      "question": "Aşağıdaki cümlelerin hangisinde iki nokta (:) kendisinden sonra örnekler verileceğini göstermek için kullanılmıştır?",
+      "options": [
+        "Çantamda üç şey vardı: kitap, defter ve kalem.",
+        "Saat 09.30'da okulda ol.",
+        "Bana şöyle dedi: Yarın geliyorum.",
+        "Ankara'ya gittik; ancak onu göremedik.",
+        "Sevgili Arkadaşım, seni çok özledim."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İki noktadan sonra 'kitap, defter ve kalem' örnekleri sıralanmıştır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Noktalı Virgül",
+      "question": "Aşağıdaki cümlelerin hangisinde noktalı virgül (;) doğru kullanılmıştır?",
+      "options": [
+        "Pazardan elma, armut; marketten süt, ekmek aldık.",
+        "Bugün; okula erken gittim.",
+        "Ali; ve Ayşe bize geldi.",
+        "Kitabı okudum; çünkü çok merak ediyordum.",
+        "Sabah; erkenden uyandım."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kendi içinde virgüller bulunan iki grubu birbirinden ayırmak için noktalı virgül kullanılmıştır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Üç Nokta",
+      "question": "Aşağıdaki cümlelerin hangisinde üç nokta (...) tamamlanmamış bir cümlenin sonunda kullanılmıştır?",
+      "options": [
+        "Sana o kadar çok şey anlatacaktım ki...",
+        "Toplantı 12.05'te başladı.",
+        "Ankara, İstanbul, İzmir... büyük şehirlerimizdendir.",
+        "Kim bilir şimdi nerede?",
+        "Eyvah! Anahtarımı unuttum."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Cümle tamamlanmadan kesildiği için sonunda üç nokta kullanılmıştır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kısa Çizgi",
+      "question": "Aşağıdakilerin hangisinde kısa çizginin (-) kullanım amacı diğerlerinden farklıdır?",
+      "options": [
+        "Türkçe-İngilizce sözlük",
+        "Ankara-İstanbul yolu",
+        "Türkiye-Almanya maçı",
+        "Ural-Altay dilleri",
+        "2025-2026 eğitim yılı"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İlk dört örnekte kısa çizgi iki kavram arasında ilişki/bağlantı kurarken '2025-2026' ifadesinde iki tarih arasındaki süreyi gösterir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Uzun Çizgi",
+      "question": "Karşılıklı konuşmalarda konuşan kişinin sözünden önce aşağıdaki noktalama işaretlerinden hangisi kullanılır?",
+      "options": [
+        "Kısa çizgi (-)",
+        "Uzun çizgi (—)",
+        "Eğik çizgi (/)",
+        "İki nokta (:)",
+        "Noktalı virgül (;)"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Metinlerde konuşma satırlarının başında uzun çizgi (konuşma çizgisi) kullanılır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Tırnak İşareti",
+      "question": "Aşağıdaki cümlelerin hangisinde tırnak işareti (\") doğru kullanılmıştır?",
+      "options": [
+        "Atatürk, \"Hayatta en hakiki mürşit ilimdir.\" demiştir.",
+        "\"Ankara Türkiye'nin başkentidir.",
+        "Bu kitabın adı \"Çalıkuşu dur.",
+        "Öğretmen \"yarın sınav var dedi.",
+        "\"Bugün hava güzel\" dedi\"."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Başkasından olduğu gibi aktarılan sözler tırnak içine alınır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kesme İşareti",
+      "question": "Aşağıdaki cümlelerin hangisinde kesme işareti (') doğru kullanılmıştır?",
+      "options": [
+        "Ankara'ya yarın gideceğiz.",
+        "Türkçe'nin kurallarını öğreniyoruz.",
+        "Ahmetler'in evi buradadır.",
+        "Okul'a erkenden gittim.",
+        "Türkiye Cumhuriyeti'nin kuruluşu kutlandı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Özel ada getirilen yönelme hâli eki kesme işaretiyle ayrılır: Ankara'ya."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kesme İşareti",
+      "question": "Aşağıdaki cümlelerin hangisinde kesme işareti yanlış kullanılmıştır?",
+      "options": [
+        "İstanbul'un nüfusu oldukça fazladır.",
+        "Mehmet'e kitabı verdim.",
+        "TBMM'nin açılışı 23 Nisan'dadır.",
+        "Türk Dil Kurumu'nun sözlüğüne baktım.",
+        "2026'nın ilk ayında buradaydık."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kurum, kuruluş, kurul ve iş yeri adlarına gelen ekler kesme işaretiyle ayrılmaz; doğru kullanım 'Türk Dil Kurumunun' şeklindedir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Yay Ayraç",
+      "question": "Aşağıdaki cümlelerin hangisinde yay ayraç ( ) bir bilginin açıklamasını vermek için kullanılmıştır?",
+      "options": [
+        "Yunus Emre (1240?-1320?) Türk şiirinin önemli isimlerindendir.",
+        "Beni dinliyor musun (?)",
+        "Bu işi o yaptı (!)",
+        "Sınava üç ders (Türkçe, matematik, tarih) çalıştım.",
+        "Kitabı okudu (ama anlamadı)."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Parantez içinde, cümlede geçen 'üç ders'in hangileri olduğu açıklanmıştır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Eğik Çizgi",
+      "question": "Aşağıdakilerin hangisinde eğik çizgi (/) tarihlerin yazılışında kullanılmıştır?",
+      "options": [
+        "2026/2027 eğitim yılı",
+        "20/08/2026",
+        "ve/veya",
+        "km/s",
+        "https://example.com"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Gün, ay ve yılı rakamla gösterirken aralarına eğik çizgi konabilir: 20/08/2026."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Virgül",
+      "question": "Aşağıdaki cümlelerin hangisinde virgül kaldırılırsa cümlenin anlamında belirsizlik oluşabilir?",
+      "options": [
+        "Genç, doktora sorularını yöneltti.",
+        "Sabah, erkenden yola çıktık.",
+        "Kitabı, dün kütüphaneden aldım.",
+        "Çocuklar, bahçede oynuyordu.",
+        "Akşam, eve geç döndük."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Genç, doktora...' cümlesinde virgül 'genç' sözcüğünün özne olduğunu gösterir; kaldırılırsa 'genç doktora' biçiminde farklı bir anlam oluşabilir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "İki Nokta",
+      "question": "Aşağıdaki cümlelerin hangisinde iki nokta, kendisinden önceki ifadenin açıklamasını vermek için kullanılmıştır?",
+      "options": [
+        "Tek bir isteğim var: düzenli çalışmanız.",
+        "Marketten şunları aldım: süt, ekmek, peynir.",
+        "Öğretmen şöyle dedi: 'Yarın sınav var.'",
+        "Takımın renkleri şunlardır: sarı, lacivert.",
+        "Çantasında birçok eşya vardı: kalem, silgi, defter."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Düzenli çalışmanız' ifadesi, önceki bölümde sözü edilen 'tek bir isteğin' ne olduğunu açıklamaktadır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Noktalı Virgül",
+      "question": "Aşağıdaki cümlelerin hangisinde noktalı virgülün kullanımı yanlıştır?",
+      "options": [
+        "Erkek çocuklara Ali, Kerem; kız çocuklara Ece, Elif adları verildi.",
+        "İstanbul, Ankara, İzmir; Türkiye'nin büyük şehirlerindendir.",
+        "Meyvelerden elma, armut; sebzelerden domates, biber aldık.",
+        "Sınıfta Ayşe, Ece; bahçede Ali, Can vardı.",
+        "Takımın kalecileri Ali, Can; forvetleri Efe, Mert'ti."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Özne durumundaki 'İstanbul, Ankara, İzmir' sıralamasından sonra yükleme geçerken burada noktalı virgül kullanılmasına gerek yoktur; virgüllü öge gruplarını karşılaştıran ikinci bir grup bulunmamaktadır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Noktalama İşaretleri",
+      "question": "Aşağıdaki cümlelerin hangisinde noktalama yanlışı vardır?",
+      "options": [
+        "Sevgili Kardeşim, mektubunu dün aldım.",
+        "Saat 10.30'da toplantıya başladık.",
+        "Ahmet'e, Ayşe'ye ve Mehmet'e haber verdim.",
+        "Türk Dil Kurumu'nun sitesine baktım.",
+        "Eyvah! Cüzdanımı evde unuttum."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kurum ve kuruluş adlarına getirilen ekler kesme işaretiyle ayrılmaz. Doğrusu 'Türk Dil Kurumunun' biçimindedir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kesme İşareti",
+      "question": "Aşağıdakilerin hangisinde kesme işareti kullanılmamalıdır?",
+      "options": [
+        "İzmir'den",
+        "Atatürk'ün",
+        "Türkiye'nin",
+        "Millî Eğitim Bakanlığı'nın",
+        "Mehmet'in"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kurum ve kuruluş adlarına gelen ekler kesmeyle ayrılmaz; 'Millî Eğitim Bakanlığının' yazılmalıdır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Noktalama İşaretleri",
+      "question": "Aşağıdaki cümlelerin hangisinde parantezle belirtilen yere diğerlerinden farklı bir noktalama işareti getirilmelidir?",
+      "options": [
+        "Bana şunları getir( ) kalem, defter, silgi.",
+        "Tek bir amacı vardı( ) sınavı kazanmak.",
+        "Öğretmen şöyle dedi( ) 'Derslerinize çalışın.'",
+        "Çantasında her şey vardı( ) kitap, kalem, cetvel.",
+        "Saat kaçta geleceksin( )"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İlk dört boşluğa iki nokta (:), son cümle doğrudan soru olduğu için soru işareti (?) getirilmelidir."
+    }
+  ]
+}

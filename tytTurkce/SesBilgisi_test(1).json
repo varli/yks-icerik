@@ -1,0 +1,331 @@
+{
+  "id": "ses-bilgisi-test",
+  "title": "Ses Bilgisi",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Ses Bilgisi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Ünlü Düşmesi",
+      "question": "Aşağıdaki sözcüklerin hangisinde ünlü düşmesi vardır?",
+      "options": [
+        "burnu",
+        "kalemi",
+        "kapısı",
+        "arabası",
+        "defteri"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Burun' sözcüğü ünlüyle başlayan ek aldığında ikinci hecedeki 'u' düşer: burun + u → burnu."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Ünsüz Yumuşaması",
+      "question": "Aşağıdaki sözcüklerin hangisinde ünsüz yumuşaması vardır?",
+      "options": [
+        "kitabı",
+        "sınıfta",
+        "ağaçtan",
+        "çiçekçi",
+        "yurtta"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kitap' sözcüğünün sonundaki 'p', ünlüyle başlayan ek alınca 'b'ye dönüşmüştür: kitap + ı → kitabı."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Ünsüz Benzeşmesi",
+      "question": "Aşağıdaki sözcüklerin hangisinde ünsüz benzeşmesi (sertleşmesi) vardır?",
+      "options": [
+        "kitapta",
+        "evde",
+        "odada",
+        "yolda",
+        "kalemde"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kitap' sert ünsüzle bittiği için bulunma ekinin başındaki 'd', 't'ye dönüşmüştür: kitap + da → kitapta."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Ünlü Daralması",
+      "question": "Aşağıdaki sözcüklerin hangisinde ünlü daralması vardır?",
+      "options": [
+        "bekliyor",
+        "geldi",
+        "okudu",
+        "koştu",
+        "yazacak"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bekle-' fiili '-yor' eki aldığında 'e' ünlüsü daralarak 'i'ye dönüşür: bekle-yor → bekliyor."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kaynaştırma",
+      "question": "Aşağıdaki sözcüklerin hangisinde kaynaştırma ünsüzü kullanılmıştır?",
+      "options": [
+        "arabaya",
+        "evden",
+        "kitapta",
+        "kalemi",
+        "sokakta"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Araba' sözcüğü ile yönelme eki arasına 'y' kaynaştırma ünsüzü girmiştir: araba-y-a."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Ünsüz Türemesi",
+      "question": "Aşağıdaki sözcüklerin hangisinde ünsüz türemesi vardır?",
+      "options": [
+        "hissetmek",
+        "bakmak",
+        "gelmek",
+        "koşmak",
+        "okumak"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'His' sözcüğü 'etmek' yardımcı fiiliyle birleşirken 's' ünsüzü türemiştir: his + etmek → hissetmek."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Ünlü Türemesi",
+      "question": "Aşağıdaki sözcüklerin hangisinde ünlü türemesi vardır?",
+      "options": [
+        "azıcık",
+        "kitabı",
+        "burnu",
+        "bekliyor",
+        "affetmek"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Az' sözcüğüne küçültme eki getirilirken 'ı' ünlüsü türemiştir: az + cık → azıcık."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Ünsüz Düşmesi",
+      "question": "Aşağıdaki sözcüklerin hangisinde ünsüz düşmesi vardır?",
+      "options": [
+        "küçücük",
+        "kitabı",
+        "burnu",
+        "hissetmek",
+        "bekliyor"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Küçük' sözcüğüne '-cük' eki geldiğinde sözcüğün sonundaki 'k' düşer: küçük + cük → küçücük."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Ses Olayları",
+      "question": "'Ağacın dalları rüzgârda sallanıyordu.' cümlesindeki 'ağacın' sözcüğünde görülen ses olayı aşağıdakilerden hangisidir?",
+      "options": [
+        "Ünlü düşmesi",
+        "Ünsüz yumuşaması",
+        "Ünsüz benzeşmesi",
+        "Ünlü daralması",
+        "Ünsüz türemesi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Ağaç' sözcüğünün sonundaki 'ç', ünlüyle başlayan ek aldığında 'c'ye dönüşmüştür."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Ses Olayları",
+      "question": "'Çocuklar sokakta neşeyle oynuyordu.' cümlesindeki 'sokakta' sözcüğünde hangi ses olayı vardır?",
+      "options": [
+        "Ünlü düşmesi",
+        "Ünsüz yumuşaması",
+        "Ünsüz benzeşmesi",
+        "Ünlü daralması",
+        "Ünsüz türemesi"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Sokak' sert ünsüzle bittiğinden '-da' eki '-ta' biçimine dönüşmüş, ünsüz benzeşmesi gerçekleşmiştir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Ünlü Daralması",
+      "question": "Aşağıdaki cümlelerin hangisinde ünlü daralmasına uğramış bir sözcük vardır?",
+      "options": [
+        "Annem beni kapıda bekliyor.",
+        "Babam gazeteyi okudu.",
+        "Çocuklar bahçede koştu.",
+        "Dün akşam eve geldik.",
+        "Yarın erkenden çıkacağız."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bekliyor' sözcüğü 'bekle-' fiiline '-yor' eki gelmesiyle ünlü daralmasına uğramıştır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Ünlü Düşmesi",
+      "question": "Aşağıdaki cümlelerin hangisinde ünlü düşmesine uğramış bir sözcük vardır?",
+      "options": [
+        "Çocuğun alnı terlemişti.",
+        "Masada yeni bir kitap vardı.",
+        "Bahçedeki çiçekler açtı.",
+        "Arkadaşım dün bize geldi.",
+        "Öğretmen sınıfa girdi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Alın' sözcüğü iyelik eki alınca ikinci hecedeki 'ı' düşer: alın + ı → alnı."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Ünsüz Yumuşaması",
+      "question": "Aşağıdaki cümlelerin hangisinde ünsüz yumuşaması vardır?",
+      "options": [
+        "Kitabın kapağı oldukça renkliydi.",
+        "Çocuk parkta arkadaşını bekledi.",
+        "Sabah erkenden yola çıktık.",
+        "Öğrenciler sınıfta sessizce oturdu.",
+        "Bahçeden birkaç çiçek topladı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kitap → kitabın' ve 'kapak → kapağı' sözcüklerinde sert ünsüzler ünlüyle başlayan ek aldığında yumuşamıştır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kaynaştırma",
+      "question": "Aşağıdaki cümlelerin hangisinde kaynaştırma ünsüzü kullanılmıştır?",
+      "options": [
+        "Masayı pencerenin yanına taşıdı.",
+        "Kitapları çantasına koydu.",
+        "Çocuk okuldan eve döndü.",
+        "Babam sabah işe gitti.",
+        "Öğrenciler bahçede bekledi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Masa' sözcüğüne belirtme eki gelirken araya 'y' kaynaştırma ünsüzü girmiştir: masa-y-ı."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Birden Fazla Ses Olayı",
+      "question": "Aşağıdaki sözcüklerin hangisinde hem ünlü düşmesi hem de ünsüz yumuşaması görülür?",
+      "options": [
+        "kaybı",
+        "kitabı",
+        "burnu",
+        "bekliyor",
+        "hissetti"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kayıp + ı → kaybı' oluşumunda ikinci hecedeki 'ı' düşerken 'p' ünsüzü de 'b'ye yumuşamıştır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Ses Olayı Bulma",
+      "question": "'Onun bu davranışına sabredemedi.' cümlesindeki 'sabredemedi' sözcüğünde aşağıdaki ses olaylarından hangisi vardır?",
+      "options": [
+        "Ünlü düşmesi",
+        "Ünsüz türemesi",
+        "Ünsüz benzeşmesi",
+        "Ünlü daralması",
+        "Ünsüz düşmesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Sabır' sözcüğü 'etmek' yardımcı fiiliyle birleşirken ikinci hecedeki 'ı' düşer: sabır + etmek → sabretmek."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Ses Olayları",
+      "question": "Aşağıdaki cümlelerin hangisinde ünsüz türemesine örnek vardır?",
+      "options": [
+        "Bu hatayı affetmek kolay değildi.",
+        "Kitabı masanın üzerine bıraktı.",
+        "Çocuk parkta koşuyordu.",
+        "Sabah erkenden evden çıktı.",
+        "Onu kapıda bekledik."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Af + etmek → affetmek' birleşmesinde 'f' ünsüzü türemiştir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Ses Olayları",
+      "question": "Aşağıdaki cümlelerin hangisinde diğerlerinden farklı bir ses olayı vardır?",
+      "options": [
+        "Kitabı dün bitirdim.",
+        "Ağacı bahçeye diktiler.",
+        "Çocuğu annesi çağırdı.",
+        "Rengi zamanla solmuş.",
+        "Parkta uzun süre yürüdük."
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İlk dört seçenekte ünsüz yumuşaması görülür. 'Parkta' sözcüğünde ise ünsüz benzeşmesi vardır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Ses Olayı Sayısı",
+      "question": "'Küçücük çocuğun burnu soğuktan kızarmıştı.' cümlesinde aşağıdaki ses olaylarından hangisi yoktur?",
+      "options": [
+        "Ünsüz düşmesi",
+        "Ünlü düşmesi",
+        "Ünsüz benzeşmesi",
+        "Ünsüz yumuşaması",
+        "Hiçbiri"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Küçücük'te ünsüz düşmesi, 'burnu'nda ünlü düşmesi, 'soğuktan'da ünsüz benzeşmesi vardır. Cümlede ünsüz yumuşaması yoktur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Ses Bilgisi",
+      "question": "Aşağıdaki cümlelerin hangisinde ünlü düşmesi, ünsüz yumuşaması ve ünsüz benzeşmesine birlikte örnek vardır?",
+      "options": [
+        "Çocuğun burnu soğuktan kızarmıştı.",
+        "Annem beni kapıda bekliyordu.",
+        "Kitabı masaya bıraktım.",
+        "Çocuklar bahçede oynuyordu.",
+        "Sabah erkenden okula gittik."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Çocuğun' sözcüğünde ünsüz yumuşaması (çocuk→çocuğun), 'burnu'nda ünlü düşmesi (burun→burnu), 'soğuktan'da ünsüz benzeşmesi (-dan→-tan) vardır."
+    }
+  ]
+}

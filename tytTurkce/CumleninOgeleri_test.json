@@ -1,0 +1,331 @@
+{
+  "id": "cumlenin-ogeleri-test",
+  "title": "Cümlenin Ögeleri",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Cümlenin Ögeleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Özne",
+      "question": "Aşağıdaki cümlelerin hangisinde özne açıkça belirtilmiştir?",
+      "options": [
+        "Sabah erkenden yola çıkıldı.",
+        "Çocuklar bahçede neşeyle oynuyordu.",
+        "Bu sokakta geceleri çok gürültü oluyor.",
+        "Dün akşam uzun uzun konuşuldu.",
+        "Buraya yeni bir bina yapılacak."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Çocuklar' sözcüğü 'oynuyordu' yükleminin bildirdiği işi yapan açık öznedir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Yüklem",
+      "question": "Aşağıdaki cümlelerin hangisinde yüklem isim soylu bir sözcüktür?",
+      "options": [
+        "Kardeşim odasında kitap okuyor.",
+        "Çocuklar biraz önce dışarı çıktı.",
+        "Bu ev mahallenin en eski binasıdır.",
+        "Annem akşam yemeğini hazırladı.",
+        "Otobüs durağa biraz geç geldi."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Mahallenin en eski binasıdır' söz grubu isim soylu bir yüklemdir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Nesne",
+      "question": "Aşağıdaki cümlelerin hangisinde belirtili nesne vardır?",
+      "options": [
+        "Bahçede saatlerce çalıştı.",
+        "Kitabı dün akşam bitirdim.",
+        "Sabah erkenden uyandı.",
+        "Arkadaşlarıyla parka gitti.",
+        "Bu sabah çok hızlı yürüdü."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Kitabı' sözcüğü yükleme 'neyi?' sorusu sorularak bulunan belirtili nesnedir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Nesne",
+      "question": "Aşağıdaki cümlelerin hangisinde belirtisiz nesne vardır?",
+      "options": [
+        "Masadaki kitabı çantasına koydu.",
+        "Çocuklara güzel bir hikâye anlattı.",
+        "Okuldan eve yürüyerek döndü.",
+        "Dün seni uzun süre bekledim.",
+        "Bahçede arkadaşlarıyla konuştu."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Güzel bir hikâye' yükleme 'ne?' sorusu sorularak bulunan belirtisiz nesnedir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Yer Tamlayıcısı",
+      "question": "Aşağıdaki cümlelerin hangisinde yer tamlayıcısı vardır?",
+      "options": [
+        "Sabah erkenden uyandım.",
+        "Kardeşim okula koşarak gitti.",
+        "Çocuk sessizce bekliyordu.",
+        "Dün çok yorulmuş.",
+        "Akşam uzun uzun konuştuk."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Okula' sözcüğü yükleme 'nereye?' sorusunun cevabıdır ve yer tamlayıcısıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Zarf Tamlayıcısı",
+      "question": "Aşağıdaki cümlelerin hangisinde zarf tamlayıcısı kullanılmıştır?",
+      "options": [
+        "Defteri masaya bıraktı.",
+        "Arkadaşını okulda gördü.",
+        "Soruları dikkatlice çözdü.",
+        "Kitabı kardeşine verdi.",
+        "Çocuklar sınıfa girdi."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Dikkatlice' sözcüğü eylemin nasıl yapıldığını bildirerek zarf tamlayıcısı olur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Gizli Özne",
+      "question": "Aşağıdaki cümlelerin hangisinde gizli özne vardır?",
+      "options": [
+        "Öğrenciler sınıfa girdi.",
+        "Sabah erkenden kalkıp yürüyüşe çıktım.",
+        "Bu kitap çok beğenildi.",
+        "Sokaklar yağmurdan sonra temizlendi.",
+        "Bahçedeki çiçekler açmış."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Çıktım' yükleminin öznesi cümlede yazılmamış olan 'ben'dir; bu nedenle gizli özne vardır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Sözde Özne",
+      "question": "Aşağıdaki cümlelerin hangisinde sözde özne vardır?",
+      "options": [
+        "Görevli kapıları açtı.",
+        "Çocuklar camı kırdı.",
+        "Sınıflar dün temizlendi.",
+        "Annem perdeleri yıkadı.",
+        "Öğrenciler soruları çözdü."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Edilgen 'temizlendi' yükleminde işi yapan belli değildir; 'sınıflar' yapılan işten etkilendiği için sözde öznedir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Cümle Ögeleri",
+      "question": "'Öğretmen, öğrencilere yeni konuyu ayrıntılı biçimde anlattı.' cümlesinde 'öğrencilere' sözcüğü hangi ögedir?",
+      "options": [
+        "Özne",
+        "Belirtili nesne",
+        "Yer tamlayıcısı",
+        "Zarf tamlayıcısı",
+        "Yüklem"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Öğrencilere' sözcüğü 'kime?' sorusuna cevap verdiğinden yer tamlayıcısıdır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Cümle Ögeleri",
+      "question": "'Babam dün pazardan taze meyveler aldı.' cümlesinde 'taze meyveler' söz grubu hangi ögedir?",
+      "options": [
+        "Özne",
+        "Belirtili nesne",
+        "Belirtisiz nesne",
+        "Yer tamlayıcısı",
+        "Zarf tamlayıcısı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Babam ne aldı?' sorusunun cevabı olan 'taze meyveler' belirtisiz nesnedir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Cümle Ögeleri",
+      "question": "'Genç sporcu yarışmayı büyük bir farkla kazandı.' cümlesinin öznesi aşağıdakilerden hangisidir?",
+      "options": [
+        "Genç sporcu",
+        "yarışmayı",
+        "büyük bir farkla",
+        "farkla",
+        "kazandı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kim kazandı?' sorusunun cevabı 'genç sporcu'dur; dolayısıyla cümlenin öznesidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Zarf Tamlayıcısı",
+      "question": "'Akşamüstü arkadaşlarımla sahilde uzun uzun yürüdüm.' cümlesinde aşağıdakilerden hangisi zarf tamlayıcısıdır?",
+      "options": [
+        "arkadaşlarımla",
+        "sahilde",
+        "uzun uzun",
+        "arkadaşlarımla sahilde",
+        "yürüdüm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Uzun uzun' eylemin nasıl yapıldığını belirttiği için zarf tamlayıcısıdır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Yer Tamlayıcısı",
+      "question": "Aşağıdaki cümlelerin hangisinde birden fazla yer tamlayıcısı vardır?",
+      "options": [
+        "Çocuk odasında sessizce çalışıyordu.",
+        "Kitapları raftan masaya taşıdı.",
+        "Sabah erkenden evden çıktı.",
+        "Arkadaşına güzel bir hediye aldı.",
+        "Bahçede neşeyle oynadılar."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Raftan' ve 'masaya' sözcükleri sırasıyla 'nereden?' ve 'nereye?' sorularına cevap veren iki yer tamlayıcısıdır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Özne-Nesne",
+      "question": "Aşağıdaki cümlelerin hangisinde hem özne hem belirtili nesne açıkça verilmiştir?",
+      "options": [
+        "Dün akşam geç saatlere kadar çalışıldı.",
+        "Öğrenciler soruları dikkatlice çözdü.",
+        "Sabah erkenden okula gidildi.",
+        "Bu sokakta yeni binalar yapılıyor.",
+        "Akşam yemeğinden sonra yürüyüşe çıkıldı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Öğrenciler' özne, 'soruları' ise belirtili nesnedir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Öge Dizilişi",
+      "question": "'Küçük çocuk, kırmızı topunu bahçede neşeyle oynattı.' cümlesinin öge dizilişi aşağıdakilerden hangisidir?",
+      "options": [
+        "Özne - Belirtili nesne - Yer tamlayıcısı - Zarf tamlayıcısı - Yüklem",
+        "Özne - Yer tamlayıcısı - Belirtili nesne - Zarf tamlayıcısı - Yüklem",
+        "Belirtili nesne - Özne - Yer tamlayıcısı - Zarf tamlayıcısı - Yüklem",
+        "Özne - Belirtisiz nesne - Yer tamlayıcısı - Zarf tamlayıcısı - Yüklem",
+        "Özne - Belirtili nesne - Zarf tamlayıcısı - Yer tamlayıcısı - Yüklem"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Küçük çocuk' özne, 'kırmızı topunu' belirtili nesne, 'bahçede' yer tamlayıcısı, 'neşeyle' zarf tamlayıcısı ve 'oynattı' yüklemdir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Öge Dizilişi",
+      "question": "'Dün akşam kardeşim bana eski fotoğrafları gösterdi.' cümlesinin öge dizilişi aşağıdakilerden hangisidir?",
+      "options": [
+        "Zarf tamlayıcısı - Özne - Yer tamlayıcısı - Belirtili nesne - Yüklem",
+        "Özne - Zarf tamlayıcısı - Yer tamlayıcısı - Belirtili nesne - Yüklem",
+        "Zarf tamlayıcısı - Özne - Belirtili nesne - Yer tamlayıcısı - Yüklem",
+        "Yer tamlayıcısı - Özne - Zarf tamlayıcısı - Belirtili nesne - Yüklem",
+        "Zarf tamlayıcısı - Belirtili nesne - Özne - Yer tamlayıcısı - Yüklem"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Dün akşam' zarf tamlayıcısı, 'kardeşim' özne, 'bana' yer tamlayıcısı, 'eski fotoğrafları' belirtili nesne, 'gösterdi' yüklemdir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Ara Söz",
+      "question": "'Ahmet, sınıfın en çalışkan öğrencisi, yarışmada birinci oldu.' cümlesinde ara söz hangi ögenin açıklayıcısıdır?",
+      "options": [
+        "Yüklemin",
+        "Öznenin",
+        "Nesnenin",
+        "Yer tamlayıcısının",
+        "Zarf tamlayıcısının"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Sınıfın en çalışkan öğrencisi' ara sözü, cümlenin öznesi olan 'Ahmet'i açıklamaktadır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Vurgu",
+      "question": "Aşağıdaki cümlelerin hangisinde yer tamlayıcısı vurgulanmıştır?",
+      "options": [
+        "Ali dün kitabı okulda okudu.",
+        "Ali kitabı dün okulda okudu.",
+        "Dün okulda kitabı Ali okudu.",
+        "Ali dün okulda kitabı okudu.",
+        "Kitabı okulda dün Ali okudu."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kurallı fiil cümlelerinde yüklemden hemen önceki öge vurgulanır. A seçeneğinde yüklemden önce 'okulda' yer tamlayıcısı bulunmaktadır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Öge Bulma",
+      "question": "'Bu başarılı romanı genç yazar geçen yıl İstanbul'da kaleme aldı.' cümlesinde aşağıdaki ögelerden hangisi yoktur?",
+      "options": [
+        "Özne",
+        "Belirtili nesne",
+        "Yer tamlayıcısı",
+        "Zarf tamlayıcısı",
+        "Belirtisiz nesne"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Cümlede 'genç yazar' özne, 'bu başarılı romanı' belirtili nesne, 'geçen yıl' zarf tamlayıcısı, 'İstanbul'da' yer tamlayıcısıdır; belirtisiz nesne yoktur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Öge Ortaklığı",
+      "question": "'Öğretmen sınıfa girdi, öğrencileri selamladı ve derse başladı.' cümlesindeki yüklemlerin ortak ögesi aşağıdakilerden hangisidir?",
+      "options": [
+        "Özne",
+        "Belirtili nesne",
+        "Yer tamlayıcısı",
+        "Zarf tamlayıcısı",
+        "Yüklem"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Girdi', 'selamladı' ve 'başladı' yüklemlerinin işi yapanı aynı kişidir: öğretmen. Bu nedenle ortak öge öznedir."
+    }
+  ]
+}

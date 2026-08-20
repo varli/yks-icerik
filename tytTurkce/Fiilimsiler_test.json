@@ -1,0 +1,331 @@
+{
+  "id": "fiilimsiler-test",
+  "title": "Fiilimsiler",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Fiilimsiler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "İsim-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde isim-fiil vardır?",
+      "options": [
+        "Kitap okumak insanın düşünce dünyasını geliştirir.",
+        "Çocuklar bahçede neşeyle oynuyor.",
+        "Sabah erkenden okula gittik.",
+        "Bu ev geçen yıl yapılmış.",
+        "Arkadaşım beni dün aradı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Okumak' sözcüğü '-mak' eki alarak isim-fiil olmuştur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Sıfat-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde sıfat-fiil vardır?",
+      "options": [
+        "Koşarak yanıma geldi.",
+        "Okuduğum kitap beni çok etkiledi.",
+        "Yüzmek sağlığa faydalıdır.",
+        "Eve gidince seni ararım.",
+        "Dün seni uzun süre bekledim."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Okuduğum' sözcüğü bir ismi nitelediği için sıfat-fiildir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Zarf-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde zarf-fiil vardır?",
+      "options": [
+        "Gülen çocuk bize el salladı.",
+        "Kitap okumayı çok seviyorum.",
+        "Eve giderken markete uğradım.",
+        "Yazılan mektupları sakladı.",
+        "Koşmak onun için bir tutkuydu."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Giderken' sözcüğü fiile zaman anlamı katarak zarf-fiil görevindedir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "İsim-Fiil",
+      "question": "Aşağıdaki sözcüklerden hangisi isim-fiildir?",
+      "options": [
+        "gelen",
+        "gelince",
+        "gelmek",
+        "gelerek",
+        "gelecek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Gelmek' sözcüğü '-mek' ekiyle türetilmiş isim-fiildir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Fiilimsi Türleri",
+      "question": "Aşağıdaki cümlelerin hangisinde fiilimsi yoktur?",
+      "options": [
+        "Ders çalışmak için odasına geçti.",
+        "Koşan çocuk yere düştü.",
+        "Eve gelince beni ara.",
+        "Sabah erkenden dışarı çıktı.",
+        "Gülerek yanımıza geldi."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Sabah erkenden dışarı çıktı.' cümlesinde fiilimsi bulunmamaktadır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Sıfat-Fiil",
+      "question": "'Bahçede oynayan çocuklar birazdan eve dönecek.' cümlesindeki fiilimsi türü aşağıdakilerden hangisidir?",
+      "options": [
+        "İsim-fiil",
+        "Sıfat-fiil",
+        "Zarf-fiil",
+        "Çekimli fiil",
+        "Ek-fiil"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Oynayan' sözcüğü 'çocuklar' ismini nitelediğinden sıfat-fiildir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Zarf-Fiil",
+      "question": "'Sınav bitince arkadaşlarıyla dışarı çıktı.' cümlesindeki 'bitince' sözcüğünün türü nedir?",
+      "options": [
+        "İsim-fiil",
+        "Sıfat-fiil",
+        "Zarf-fiil",
+        "İsim",
+        "Çekimli fiil"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'-ince' eki alan 'bitince' sözcüğü zarf-fiildir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "İsim-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde isim-fiil özne görevindedir?",
+      "options": [
+        "Kitap okumak beni dinlendiriyor.",
+        "Okuyan öğrenci soruyu çözdü.",
+        "Eve varınca beni ara.",
+        "Gülerek dışarı çıktı.",
+        "Yazılmış notları topladı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kitap okumak' söz grubu cümlenin öznesidir; 'okumak' isim-fiildir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Sıfat-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde sıfat-fiil adlaşmıştır?",
+      "options": [
+        "Yarışmaya katılan öğrenciler salona geçti.",
+        "Kazananları sahneye davet ettiler.",
+        "Yazılan mektuplar masadaydı.",
+        "Gelecek günleri umutla bekliyoruz.",
+        "Kırılmış bardakları çöpe attı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Kazananları' sözcüğünde nitelenen isim düşmüş, sıfat-fiil adlaşmıştır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Fiilimsi Sayısı",
+      "question": "'Sabah kalkıp hazırlanarak okula gitmek için evden çıktı.' cümlesinde kaç fiilimsi vardır?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Kalkıp' ve 'hazırlanarak' zarf-fiil, 'gitmek' isim-fiildir; toplam 3 fiilimsi vardır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Fiilimsi Ekleri",
+      "question": "Aşağıdakilerden hangisi sıfat-fiil eki değildir?",
+      "options": [
+        "-an / -en",
+        "-ası / -esi",
+        "-mez / -maz",
+        "-dik / -dık",
+        "-ınca / -ince"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "'-ınca/-ince' zarf-fiil ekidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Zarf-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde zarf-fiil eylemin nasıl yapıldığını bildirir?",
+      "options": [
+        "Eve gelince beni ara.",
+        "Koşarak yanımıza geldi.",
+        "Ders bitmeden sınıftan çıkma.",
+        "Seni görünce sevindim.",
+        "Akşam olunca hava serinledi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Koşarak' sözcüğü eylemin nasıl yapıldığını bildirir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Fiilimsi Türleri",
+      "question": "'Yazdığı şiirleri okumayı çok seviyordu.' cümlesinde hangi fiilimsi türleri vardır?",
+      "options": [
+        "Yalnız isim-fiil",
+        "Yalnız sıfat-fiil",
+        "İsim-fiil ve sıfat-fiil",
+        "Sıfat-fiil ve zarf-fiil",
+        "Üçü de"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Yazdığı' sıfat-fiil, 'okumayı' isim-fiildir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Adlaşmış Sıfat-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde adlaşmış sıfat-fiil vardır?",
+      "options": [
+        "Gelen misafirleri kapıda karşıladık.",
+        "Sınava çalışan öğrenciler başarılı oldu.",
+        "Bilenler soruyu hemen cevapladı.",
+        "Okunacak kitapları masaya koydu.",
+        "Kırılan camı değiştirdik."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Bilenler' sözcüğünde nitelenen isim söylenmediği için sıfat-fiil adlaşmıştır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kalıcı İsim",
+      "question": "Aşağıdaki cümlelerin hangisinde fiilimsi eki aldığı hâlde kalıcı isim olmuş bir sözcük vardır?",
+      "options": [
+        "Bu konuyu çözmek için çok uğraştı.",
+        "Dondurma çocukların en sevdiği tatlıdır.",
+        "Gülerek arkadaşına yaklaştı.",
+        "Okuyan öğrenciler sessizdi.",
+        "Eve varınca beni aradı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Dondurma' sözcüğü fiilimsi eki almış olsa da burada kalıcı bir isimdir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Fiilimsi Sayısı",
+      "question": "'Koşarak gelen çocuğun düşmemek için yavaşladığını gördüm.' cümlesinde kaç fiilimsi vardır?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Koşarak' zarf-fiil, 'gelen' sıfat-fiil, 'düşmemek' isim-fiil, 'yavaşladığını' isim-fiil görevli fiilimsi yapıdır; toplam 4 fiilimsi vardır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Fiilimsi Görevi",
+      "question": "Aşağıdaki cümlelerin hangisinde isim-fiil nesne görevinde kullanılmıştır?",
+      "options": [
+        "Yüzmek en sevdiğim spordur.",
+        "Kitap okumayı çok seviyorum.",
+        "Koşan çocuk yanıma geldi.",
+        "Eve gelince beni ara.",
+        "Gülerek dışarı çıktı."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Kitap okumayı' söz grubu 'neyi seviyorum?' sorusuna cevap verdiği için nesnedir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Sıfat-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde sıfat-fiil bir tamlamanın içinde yer almıştır?",
+      "options": [
+        "Okuyan çocuk soruyu çözdü.",
+        "Dün aldığım kitabın kapağı yırtılmış.",
+        "Koşarak eve geldi.",
+        "Yüzmek onu rahatlatıyor.",
+        "Eve varınca haber verdi."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Aldığım' sıfat-fiili 'kitabın' ismini nitelemekte ve isim tamlamasının içinde yer almaktadır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Zarf-Fiil",
+      "question": "Aşağıdaki cümlelerin hangisinde zarf-fiil koşul anlamı taşır?",
+      "options": [
+        "Ders çalışmadan başarılı olamazsın.",
+        "Eve gelince beni ara.",
+        "Koşarak sınıfa girdi.",
+        "Seni görünce sevindim.",
+        "Gülerek yanımıza geldi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Çalışmadan' sözcüğü burada 'çalışmazsan' anlamıyla koşul bildirir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Fiilimsi Bilgisi",
+      "question": "Aşağıdaki cümlelerin hangisinde üç fiilimsi türü bir arada kullanılmıştır?",
+      "options": [
+        "Okumak için aldığım kitabı bitirince sana vereceğim.",
+        "Gülen çocuk yanımıza geldi.",
+        "Eve gelince beni aradı.",
+        "Yazdığı şiirleri okumayı seviyor.",
+        "Koşarak okula gitti."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Okumak' isim-fiil, 'aldığım' sıfat-fiil, 'bitirince' zarf-fiildir; üç tür de vardır."
+    }
+  ]
+}

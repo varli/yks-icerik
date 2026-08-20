@@ -1,0 +1,331 @@
+{
+  "id": "sozcukte-yapi-test",
+  "title": "Sözcükte Yapı",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Sözcükte Yapı konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kök",
+      "question": "Aşağıdaki sözcüklerden hangisinin kökü isimdir?",
+      "options": [
+        "gözlük",
+        "yazıcı",
+        "koşucu",
+        "sevinç",
+        "bilgi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Gözlük' sözcüğünün kökü 'göz'dür ve isim köküdür."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kök",
+      "question": "Aşağıdaki sözcüklerden hangisinin kökü fiildir?",
+      "options": [
+        "tuzluk",
+        "kitapçı",
+        "yazıcı",
+        "evsiz",
+        "gözlük"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Yazıcı' sözcüğünün kökü 'yaz-' fiilidir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Basit Sözcük",
+      "question": "Aşağıdaki sözcüklerden hangisi yapısına göre basittir?",
+      "options": [
+        "kitaplar",
+        "kitapçı",
+        "gözlük",
+        "susuz",
+        "bilgili"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kitaplar' sözcüğü yalnızca çekim eki almıştır. Yapım eki almadığı için basit yapılıdır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Türemiş Sözcük",
+      "question": "Aşağıdaki sözcüklerden hangisi türemiştir?",
+      "options": [
+        "evler",
+        "kalemim",
+        "yollarda",
+        "gözlükçü",
+        "kitabı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Gözlükçü' sözcüğü yapım ekleriyle yeni anlam kazanmış türemiş bir sözcüktür."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Birleşik Sözcük",
+      "question": "Aşağıdaki sözcüklerden hangisi birleşik yapılıdır?",
+      "options": [
+        "gecekondu",
+        "evimiz",
+        "kalemlik",
+        "yazıcı",
+        "simitçi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Gecekondu', birden fazla sözcüğün birleşmesiyle oluşmuş birleşik bir sözcüktür."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Yapım Eki",
+      "question": "Aşağıdaki sözcüklerden hangisi isimden isim yapan bir yapım eki almıştır?",
+      "options": [
+        "gözlük",
+        "yazıcı",
+        "sevinç",
+        "bakış",
+        "çalışkan"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Göz + lük' yapısında '-lük' eki isim kökünden yeni bir isim türetmiştir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Yapım Eki",
+      "question": "Aşağıdaki sözcüklerden hangisi fiilden isim yapan bir yapım eki almıştır?",
+      "options": [
+        "tuzluk",
+        "evsiz",
+        "yazı",
+        "taşlık",
+        "köylü"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Yaz-' fiil köküne '-ı' yapım eki gelerek 'yazı' ismi türemiştir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Yapım Eki",
+      "question": "Aşağıdaki sözcüklerden hangisi isimden fiil yapan bir yapım eki almıştır?",
+      "options": [
+        "temizlemek",
+        "yazmak",
+        "koşmak",
+        "görmek",
+        "bilmek"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Temiz' isim köküne '-le' yapım eki getirilerek 'temizle-' fiili oluşturulmuştur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Yapım Eki",
+      "question": "Aşağıdaki sözcüklerden hangisi fiilden fiil yapan bir yapım eki almıştır?",
+      "options": [
+        "yazdırmak",
+        "gözlük",
+        "evsiz",
+        "taşlık",
+        "bilgi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Yaz-' fiiline '-dır' yapım eki getirilerek 'yazdır-' fiili türetilmiştir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Çekim Eki",
+      "question": "Aşağıdaki sözcüklerin hangisinde yalnızca çekim eki kullanılmıştır?",
+      "options": [
+        "evlerimizde",
+        "gözlükçüler",
+        "kitaplıkta",
+        "susuzluk",
+        "yazıcılar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Evlerimizde' sözcüğünde 'ev' köküne çoğul, iyelik ve hâl ekleri gelmiştir; bunların tümü çekim ekidir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Yapı Bilgisi",
+      "question": "Aşağıdaki sözcüklerden hangisi diğerlerinden farklı yapıdadır?",
+      "options": [
+        "kitapçı",
+        "gözlük",
+        "evsiz",
+        "kalemler",
+        "taşlık"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "'Kitapçı, gözlük, evsiz, taşlık' yapım eki almış türemiş sözcüklerdir. 'Kalemler' yalnızca çekim eki aldığı için basittir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Gövde",
+      "question": "Aşağıdaki sözcüklerden hangisi bir gövdeye yeni bir yapım eki getirilerek oluşturulmuştur?",
+      "options": [
+        "gözlükçü",
+        "evler",
+        "kalemim",
+        "yolda",
+        "kitabı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Göz' köküne '-lük' gelerek 'gözlük' gövdesi, ardından '-çü' gelerek 'gözlükçü' sözcüğü oluşmuştur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Eklerin İşlevi",
+      "question": "Aşağıdaki sözcüklerin hangisinde hem yapım eki hem çekim eki vardır?",
+      "options": [
+        "kitapçılar",
+        "evde",
+        "kalemim",
+        "yollar",
+        "okuldan"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kitapçı' sözcüğündeki '-çı' yapım eki, '-lar' ise çoğul çekim ekidir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kök-Gövde",
+      "question": "Aşağıdaki sözcüklerden hangisinin kökü ile sözcüğün bütünü arasında anlam ilişkisi yoktur?",
+      "options": [
+        "gözlük",
+        "tuzluk",
+        "kitapçı",
+        "balıkçı",
+        "kelebek"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bir sözcüğün kökü, anlamlı en küçük parçasıdır ve sözcüğün bütünüyle anlam ilişkisi bulunmalıdır. 'Kelebek' sözcüğü 'kel' biçiminde kök ve ek olarak ayrılamaz."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Sesteş Kök",
+      "question": "Aşağıdaki cümlelerde geçen 'yüz' sözcüklerinden hangisi fiil kökü olarak kullanılmıştır?",
+      "options": [
+        "Yüzünde küçük bir yara vardı.",
+        "Havuzda her sabah yüzüyor.",
+        "Bu kitap yüz sayfadan oluşuyor.",
+        "Yüzünü soğuk suyla yıkadı.",
+        "Yüz ifadesi bir anda değişti."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Yüzüyor' sözcüğündeki 'yüz-' hareket bildiren fiil köküdür."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Ortak Kök",
+      "question": "Aşağıdaki sözcüklerden hangisinin kökü hem isim hem fiil olarak kullanılabilen ortak köke örnektir?",
+      "options": [
+        "boya",
+        "kitap",
+        "kalem",
+        "masa",
+        "duvar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Boya' sözcüğü isim olarak 'boya', fiil olarak 'boya-' biçiminde aynı anlam çevresinde kullanılabildiğinden ortak köktür."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Birleşik Sözcük",
+      "question": "Aşağıdaki sözcüklerden hangisi birleşik fiildir?",
+      "options": [
+        "fark etmek",
+        "gözlükçü",
+        "kitaplık",
+        "susuzluk",
+        "yazıcı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Fark etmek', isim ve yardımcı fiilin birleşmesiyle oluşmuş birleşik fiildir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Yapı Bilgisi",
+      "question": "'Çocuklarımızdan' sözcüğünün yapı bakımından açıklaması aşağıdakilerden hangisidir?",
+      "options": [
+        "Basit sözcük; çoğul, iyelik ve ayrılma hâli eki almıştır.",
+        "Türemiş sözcük; üç yapım eki almıştır.",
+        "Birleşik sözcük; iki sözcükten oluşmuştur.",
+        "Türemiş sözcük; bir yapım, iki çekim eki almıştır.",
+        "Basit sözcük; yalnızca yapım eki almıştır."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Çocuk' köküne '-lar' çoğul, '-ımız' iyelik ve '-dan' ayrılma hâli çekim ekleri gelmiştir. Yapım eki olmadığı için sözcük basittir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Yapım ve Çekim Ekleri",
+      "question": "'Gözlükçülerimizden' sözcüğünde kaç yapım eki ve kaç çekim eki vardır?",
+      "options": [
+        "1 yapım, 3 çekim",
+        "2 yapım, 3 çekim",
+        "2 yapım, 2 çekim",
+        "3 yapım, 2 çekim",
+        "3 yapım, 3 çekim"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Göz-lük-çü-ler-imiz-den: '-lük' ve '-çü' yapım; '-ler', '-imiz' ve '-den' çekim ekidir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Sözcükte Yapı",
+      "question": "Aşağıdaki cümlelerin hangisinde basit, türemiş ve birleşik yapılı sözcüklere bir arada örnek vardır?",
+      "options": [
+        "Kitapçı bugün gecekondu mahallesine gitti.",
+        "Çocuklar bahçede oynadı.",
+        "Gözlükçü dükkânı erkenden açtı.",
+        "Evimiz oldukça sessizdi.",
+        "Öğrenciler kitaplarını okudu."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bugün/gitti' gibi sözcükler basit, 'kitapçı' türemiş, 'gecekondu' ise birleşik yapılıdır; üç yapı türü de bir arada bulunmaktadır."
+    }
+  ]
+}

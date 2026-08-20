@@ -1,0 +1,331 @@
+{
+  "id": "paragraf-bilgisi-test",
+  "title": "Paragraf Bilgisi",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Paragraf Bilgisi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Ana Düşünce",
+      "question": "Kitap okumak yalnızca bilgi edinmenin bir yolu değildir. Farklı hayatlarla, düşüncelerle ve kültürlerle karşılaşan okur, dünyaya tek bir pencereden bakmamayı öğrenir. Bu nedenle düzenli okuma alışkanlığı, insanın hem düşünce dünyasını hem de başkalarını anlama yeteneğini geliştirir.\n\nBu parçanın ana düşüncesi aşağıdakilerden hangisidir?",
+      "options": [
+        "Kitaplar yalnızca bilgi edinmek için okunmalıdır.",
+        "Düzenli okuma, insanın bakış açısını ve anlama gücünü geliştirir.",
+        "Farklı kültürleri tanımanın tek yolu kitap okumaktır.",
+        "Her insan aynı tür kitapları okumalıdır.",
+        "Kitap okumak yalnızca boş zaman etkinliğidir."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Parçada okumanın bilgi edinmenin ötesinde bakış açısını ve başkalarını anlama becerisini geliştirdiği vurgulanmaktadır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Konu",
+      "question": "Kent yaşamında insanlar günün büyük bölümünü kapalı alanlarda geçiriyor. Oysa parklar ve korular, hem temiz hava alma hem de günlük koşuşturmadan kısa süreliğine uzaklaşma imkânı sunuyor. Bu nedenle şehirlerde yeşil alanların korunması yaşam kalitesi açısından büyük önem taşıyor.\n\nBu parçanın konusu aşağıdakilerden hangisidir?",
+      "options": [
+        "Kentlerde ulaşım sorunu",
+        "Şehir yaşamında yeşil alanların önemi",
+        "Kapalı alanların mimarisi",
+        "Şehir nüfusunun artışı",
+        "Spor yapmanın yararları"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Parçada şehirlerdeki park ve koruların insan yaşamına katkıları, yani yeşil alanların önemi ele alınmıştır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Başlık",
+      "question": "Bir işi sürekli ertelemek, çoğu zaman o işi ortadan kaldırmaz; aksine zihnimizde daha büyük bir yük hâline getirir. Küçük adımlarla işe başlamak ise hem kaygıyı azaltır hem de ilerleme duygusu verir.\n\nBu parçaya en uygun başlık aşağıdakilerden hangisidir?",
+      "options": [
+        "Başlamanın Gücü",
+        "Başarının Tesadüfleri",
+        "Zamanın Tarihi",
+        "Çalışmanın Zararları",
+        "Kaygının Kaynağı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Parça, ertelemek yerine küçük de olsa işe başlamanın yararını anlattığı için en uygun başlık 'Başlamanın Gücü'dür."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Yardımcı Düşünce",
+      "question": "Bisiklet, kısa mesafelerde hem ekonomik hem de çevre dostu bir ulaşım aracıdır. Düzenli bisiklet kullanımı fiziksel hareketliliği artırır. Ayrıca yoğun trafikte bazı güzergâhlarda otomobile göre zaman kazandırabilir.\n\nBu parçadan aşağıdakilerden hangisine ulaşılamaz?",
+      "options": [
+        "Bisiklet kullanımı ekonomik olabilir.",
+        "Bisiklet çevre dostu bir ulaşım seçeneğidir.",
+        "Bisiklet kullanmak fiziksel hareketliliğe katkı sağlar.",
+        "Bisiklet her koşulda otomobilden daha hızlıdır.",
+        "Bazı güzergâhlarda bisiklet zaman kazandırabilir."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Parçada bisikletin yalnızca bazı güzergâhlarda zaman kazandırabileceği söylenmiştir; her koşulda daha hızlı olduğu söylenmemiştir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Ana Düşünce",
+      "question": "Başarılı insanların ortak özelliklerinden biri, hata yapmaktan bütünüyle kaçınmaları değildir. Onlar da yanlış kararlar verir, başarısız sonuçlarla karşılaşır. Fakat bu sonuçları bir son olarak görmek yerine, neyi değiştirmeleri gerektiğini anlamak için kullanırlar.\n\nBu parçanın ana düşüncesi aşağıdakilerden hangisidir?",
+      "options": [
+        "Başarılı insanlar hiç hata yapmaz.",
+        "Başarısızlık her zaman yeteneksizlikten kaynaklanır.",
+        "Hatalardan ders çıkarmak başarıya katkı sağlar.",
+        "Başarı yalnızca doğru karar vermeye bağlıdır.",
+        "Yanlış kararlar mutlaka büyük kayıplara yol açar."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Parçada başarıyı belirleyen unsurun hata yapmamak değil, hataları öğrenme fırsatına dönüştürmek olduğu vurgulanmıştır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Paragraf Tamamlama",
+      "question": "Teknoloji, bilgiye ulaşmayı geçmişe göre çok daha hızlı hâle getirdi. Ancak bilgiye hızlı ulaşmak, ulaşılan her bilginin doğru olduğu anlamına gelmez. ______ Bu nedenle özellikle internetten edinilen bilgilerin farklı ve güvenilir kaynaklarla karşılaştırılması gerekir.\n\nBu parçada boş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+      "options": [
+        "İnternette yalnızca bilimsel içerikler yayımlanır.",
+        "Bilginin kaynağını ve güvenilirliğini sorgulamak önemlidir.",
+        "Teknolojik araçların kullanımı giderek azalmaktadır.",
+        "Basılı kaynakların tamamı hatasızdır.",
+        "Bilgiye ulaşmanın en yavaş yolu internettir."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Son cümlede bilgilerin güvenilir kaynaklarla karşılaştırılması önerildiğinden boşluğa kaynak güvenilirliğini sorgulama düşüncesi gelmelidir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Akış Bozan Cümle",
+      "question": "(I) Sabah erken kalkmak, güne daha planlı başlamayı kolaylaştırabilir. (II) Sessiz saatlerde yapılacak işleri belirlemek dikkatin dağılmasını azaltabilir. (III) Bazı kuş türleri göç sırasında binlerce kilometre yol alır. (IV) Ayrıca erken saatlerde günün önceliklerini belirlemek zaman yönetimine katkı sağlayabilir. (V) Böylece kişi gün içindeki sorumluluklarını daha düzenli sürdürebilir.\n\nNumaralanmış cümlelerden hangisi düşüncenin akışını bozmaktadır?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Paragraf sabah erken kalkma ve zaman yönetimiyle ilgilidir. III. cümledeki kuş göçü bu konudan bağımsızdır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Paragraf Oluşturma",
+      "question": "I. Böylece okuduklarını yalnızca hatırlamakla kalmaz, onları daha iyi anlamlandırır.\nII. Etkili okuma, metindeki her cümleyi aynı hızla geçmek değildir.\nIII. Okur, önemli gördüğü yerlerde yavaşlayıp düşünmeli ve metinle ilgili sorular sormalıdır.\nIV. Gerektiğinde önceki bölümlere dönerek bağlantıları yeniden kurmalıdır.\n\nNumaralanmış cümlelerle anlamlı bir paragraf oluşturulduğunda doğru sıralama aşağıdakilerden hangisi olur?",
+      "options": [
+        "I - II - III - IV",
+        "II - III - IV - I",
+        "II - IV - I - III",
+        "III - II - IV - I",
+        "IV - II - III - I"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Önce etkili okuma tanımlanır (II), ardından yapılması gerekenler açıklanır (III-IV) ve 'Böylece' ifadesiyle sonuç belirtilir (I)."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Çıkarım",
+      "question": "Bir fotoğrafçı, aynı sokağı yıllar boyunca farklı mevsimlerde görüntülüyor. Onun için önemli olan yalnızca binaları kaydetmek değil; ışığın, insanların ve gündelik yaşamın zamanla nasıl değiştiğini göstermek. Bu yüzden fotoğraflarına bakıldığında bir mekânın olduğu kadar bir dönemin de izleri görülüyor.\n\nBu parçadan fotoğrafçıyla ilgili aşağıdakilerden hangisi çıkarılabilir?",
+      "options": [
+        "Yalnızca mimari fotoğraflar çekmektedir.",
+        "Aynı mekândaki değişimi zaman içinde belgelemektedir.",
+        "Fotoğraflarında insanlara hiç yer vermemektedir.",
+        "Sadece kış mevsiminde çalışmaktadır.",
+        "Fotoğraf çekmekten çok resim yapmayı tercih etmektedir."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Aynı sokağın farklı zamanlardaki hâllerini çekmesi, fotoğrafçının değişimi zaman içinde belgelediğini gösterir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Anlatım Biçimi",
+      "question": "Deniz kıyısındaki küçük evin beyaz duvarlarını sarmaşıklar kaplamıştı. Pencerelerin önündeki mavi saksılarda kırmızı sardunyalar vardı. Taş döşeli dar yol, ahşap kapıya kadar uzanıyordu.\n\nBu parçanın anlatımında aşağıdakilerden hangisi ağır basmaktadır?",
+      "options": [
+        "Açıklama",
+        "Tartışma",
+        "Betimleme",
+        "Öyküleme",
+        "Tanımlama"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Mekânın görünüşü ayrıntılarıyla göz önünde canlandırıldığı için betimleyici anlatım ağır basmaktadır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Anlatım Biçimi",
+      "question": "Su, canlıların yaşamını sürdürebilmesi için temel maddelerden biridir. İnsan vücudundaki pek çok biyolojik süreç suyun varlığıyla gerçekleşir. Bu nedenle yeterli miktarda su tüketimi, vücudun normal işleyişinin korunmasında önemlidir.\n\nBu parçanın anlatımında aşağıdakilerden hangisi ağır basmaktadır?",
+      "options": [
+        "Öyküleme",
+        "Betimleme",
+        "Açıklama",
+        "Tartışma",
+        "Benzetme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Parçada suyun canlılar ve insan vücudu açısından önemi bilgi verme amacıyla açıklandığı için açıklayıcı anlatım kullanılmıştır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Düşünceyi Geliştirme Yolları",
+      "question": "Eleştiri, bir eserin güçlü ve zayıf yönlerini gerekçeleriyle değerlendirme işidir. Başka bir deyişle eleştirmen yalnızca 'beğendim' ya da 'beğenmedim' demekle yetinmez; yargısının nedenlerini de ortaya koyar.\n\nBu parçada düşünceyi geliştirme yollarından hangisine başvurulmuştur?",
+      "options": [
+        "Tanımlama",
+        "Sayısal verilerden yararlanma",
+        "Tanık gösterme",
+        "Örneklendirme",
+        "Karşılaştırma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İlk cümlede 'eleştiri' kavramının ne olduğu açıklanarak tanımlama yapılmıştır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Düşünceyi Geliştirme Yolları",
+      "question": "Birçok kişi öğrenmenin yalnızca ders sırasında gerçekleştiğini düşünür. Oysa günlük yaşam da öğrenme fırsatlarıyla doludur. Örneğin bir yemeği ilk kez hazırlamak, yeni bir otobüs güzergâhını öğrenmek ya da bozulan bir eşyayı onarmaya çalışmak da yeni bilgi ve beceriler kazandırabilir.\n\nBu parçada düşünceyi geliştirmek için özellikle aşağıdakilerden hangisine başvurulmuştur?",
+      "options": [
+        "Tanık gösterme",
+        "Örneklendirme",
+        "Sayısal verilerden yararlanma",
+        "Benzetme",
+        "Tanımlama"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Günlük yaşamdaki öğrenmeye yemek hazırlama, güzergâh öğrenme ve eşya onarma örnekleri verilmiştir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Paragrafın Yapısı",
+      "question": "Bir müzik aleti öğrenmek sabır ister. İlk günlerde basit hareketler bile zor gelebilir. ______ Bir süre sonra daha önce güçlükle yapılan hareketlerin doğal biçimde gerçekleştiği görülür. Bu ilerlemenin temelinde düzenli tekrar vardır.\n\nBoş bırakılan yere aşağıdakilerden hangisi getirilirse parçanın anlam bütünlüğü sağlanır?",
+      "options": [
+        "Ancak düzenli çalışmayla el ve zihin zamanla uyum sağlamaya başlar.",
+        "Bu nedenle hiçbir müzik aleti öğrenilmemelidir.",
+        "Müzik dinlemek ile müzik yapmak tamamen aynıdır.",
+        "Bazı konser salonları oldukça büyüktür.",
+        "Her müzik aletinin fiyatı birbirinden farklıdır."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Önce başlangıçtaki zorluktan söz edilmekte, ardından ilerleme anlatılmaktadır; bu geçişi düzenli çalışmanın etkisini belirten A seçeneği sağlar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "İki Paragrafa Ayırma",
+      "question": "(I) Kütüphaneler uzun yıllar boyunca temel olarak basılı kaynaklara erişim sağlayan yerlerdi. (II) Okurlar kitap, dergi ve gazetelere bu mekânlarda ulaşırdı. (III) Günümüzde ise kütüphanelerin işlevi teknolojinin etkisiyle genişledi. (IV) Birçok kütüphane dijital veri tabanlarına, elektronik kitaplara ve çevrim içi arşivlere erişim sunuyor. (V) Ayrıca çalışma ve ortak üretim alanlarıyla farklı ihtiyaçlara da cevap veriyor.\n\nBu parça iki paragrafa ayrılmak istenirse ikinci paragraf hangi cümleyle başlamalıdır?",
+      "options": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "I-II. cümlelerde geçmişteki kütüphaneler, III. cümleden itibaren günümüzde değişen işlevleri ele alınmaktadır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Ana Düşünce",
+      "question": "Bir şehrin geçmişini anlamak için yalnızca büyük anıtlara bakmak yeterli değildir. Eski bir dükkân tabelası, mahalle çeşmesi ya da yıllardır aynı yerde duran bir ağaç da o şehrin hafızasının parçasıdır. Çünkü kent kimliği, gösterişli yapıların yanında gündelik yaşamın küçük izleriyle de oluşur.\n\nBu parçanın ana düşüncesi aşağıdakilerden hangisidir?",
+      "options": [
+        "Kentlerin geçmişi yalnızca anıtlardan öğrenilebilir.",
+        "Eski yapılar şehir yaşamını olumsuz etkiler.",
+        "Kent kimliği, büyük yapıların yanı sıra gündelik yaşama ait izlerle de oluşur.",
+        "Şehirlerde eski ağaçların tamamı korunmalıdır.",
+        "Mahallelerde yeni dükkân açılmamalıdır."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Parçada şehir hafızasının yalnızca büyük anıtlardan değil, gündelik yaşama ait küçük unsurlardan da oluştuğu vurgulanmaktadır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Yazarın Tutumu",
+      "question": "Yeni çıkan her teknolojiyi sorgulamadan benimsemek ne kadar yanlışsa, yalnızca yeni olduğu için reddetmek de o kadar yanlıştır. Önemli olan aracın ne kadar yeni olduğu değil, hangi ihtiyacı nasıl karşıladığıdır. Teknolojiyi değerlendirirken yararlarını, sınırlarını ve olası sonuçlarını birlikte düşünmek gerekir.\n\nBu parçanın yazarının tutumu aşağıdakilerden hangisidir?",
+      "options": [
+        "Koşulsuz destekleyici",
+        "Tamamen karşı çıkan",
+        "Dengeli ve sorgulayıcı",
+        "Alaycı",
+        "Karamsar"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yazar teknolojiyi ne bütünüyle kabul etmekte ne de reddetmekte; yarar ve sınırları birlikte değerlendirmeyi savunmaktadır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Paragraf Tamamlama",
+      "question": "Bir hedef belirlemek başlangıç için önemlidir; ancak hedefin tek başına varlığı ilerlemeyi garanti etmez. Hedefe ulaşmak için yapılacak işleri küçük ve uygulanabilir adımlara bölmek gerekir. ______ Çünkü ne kadar ilerlediğini görebilen kişi, gerektiğinde yöntemini değiştirebilir.\n\nBoş bırakılan yere aşağıdakilerden hangisi getirilmelidir?",
+      "options": [
+        "Ayrıca sürecin belirli aralıklarla değerlendirilmesi önemlidir.",
+        "Bu nedenle hedefler mümkün olduğunca belirsiz olmalıdır.",
+        "Plan yapmak insanı her zaman başarısızlığa götürür.",
+        "Bir hedef belirlendikten sonra hiçbir değişiklik yapılmamalıdır.",
+        "Başarı için yalnızca şans yeterlidir."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Son cümlede ilerlemeyi görme ve yöntemi değiştirme anlatıldığı için öncesinde sürecin değerlendirilmesinden söz edilmesi anlam bütünlüğünü sağlar."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Anlatım Teknikleri",
+      "question": "Çocuk kapıyı sessizce açtı, içeri girdi ve masanın üzerindeki zarfı gördü. Bir an durdu. Zarfı eline alıp arkasını çevirdiğinde kendi adının yazılı olduğunu fark etti. Merakı giderek artıyordu.\n\nBu parçanın anlatımında aşağıdakilerden hangisi ağır basmaktadır?",
+      "options": [
+        "Öyküleme",
+        "Tanımlama",
+        "Tartışma",
+        "Açıklama",
+        "Karşılaştırma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Bir olay, hareketler ve zaman akışı içinde anlatıldığı için öyküleyici anlatım ağır basmaktadır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Paragraf Yorumu",
+      "question": "Bir araştırmacının iyi sorular sorması, her zaman hemen cevap bulmasından daha değerlidir. Çünkü doğru soru, daha önce fark edilmeyen bağlantıları görünür kılabilir ve yeni araştırmaların önünü açabilir. Bilimde ilerleme kimi zaman bir cevaptan değil, alışılmış kabulleri sorgulayan bir sorudan başlar.\n\nBu parçaya göre bilimsel ilerlemede aşağıdakilerden hangisinin önemi vurgulanmaktadır?",
+      "options": [
+        "Bilinen cevapları ezberlemenin",
+        "Her soruya hızlı cevap vermenin",
+        "Sorgulayıcı ve yeni yollar açan sorular sormanın",
+        "Araştırmaları mümkün olduğunca kısa tutmanın",
+        "Yalnızca daha önce denenmiş yöntemleri kullanmanın"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Parçada bilimsel ilerlemenin doğru ve sorgulayıcı sorularla başlayabileceği vurgulanmaktadır."
+    }
+  ]
+}

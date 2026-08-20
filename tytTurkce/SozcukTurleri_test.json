@@ -1,0 +1,331 @@
+{
+  "id": "sozcuk-turleri-test",
+  "title": "Sözcük Türleri",
+  "lesson": "TYT Türkçe",
+  "description": "TYT Türkçe Sözcük Türleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "İsim",
+      "question": "Aşağıdaki cümlelerin hangisinde altı çizili olduğu varsayılan 'güzel' sözcüğü isim görevinde kullanılmıştır?",
+      "options": [
+        "Güzel günler bizi bekliyor.",
+        "Güzel konuşması herkesi etkiledi.",
+        "Güzeli herkes sever.",
+        "Güzel bir kitap seçti.",
+        "Güzel çocuk bize gülümsedi."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Güzeli' sözcüğü bir varlığın adını karşılayacak biçimde kullanıldığı için isim görevindedir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Sıfat",
+      "question": "Aşağıdaki cümlelerin hangisinde niteleme sıfatı vardır?",
+      "options": [
+        "Kırmızı elbise ona çok yakıştı.",
+        "Bu kitabı dün aldım.",
+        "Üç öğrenci yarışmaya katıldı.",
+        "Hangi soruyu çözemedin?",
+        "Bazı insanlar erken geldi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Kırmızı' sözcüğü 'elbise' isminin nasıl olduğunu belirttiği için niteleme sıfatıdır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Zamir",
+      "question": "Aşağıdaki cümlelerin hangisinde kişi zamiri kullanılmıştır?",
+      "options": [
+        "Ben bu kitabı daha önce okudum.",
+        "Bu ev geçen yıl yapıldı.",
+        "Bazı öğrenciler gelmedi.",
+        "Hangi kalemi aldın?",
+        "Güzel günler yakındır."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Ben' sözcüğü konuşan kişinin adının yerine kullanılan kişi zamiridir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Zarf",
+      "question": "Aşağıdaki cümlelerin hangisinde durum zarfı vardır?",
+      "options": [
+        "Çocuk soruları dikkatlice çözdü.",
+        "Yarın bize gelecek.",
+        "İçeri girdi.",
+        "Çok güzel bir evdi.",
+        "Üç kitap aldı."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Dikkatlice' sözcüğü 'çözdü' fiilinin nasıl yapıldığını belirttiği için durum zarfıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Edat",
+      "question": "Aşağıdaki cümlelerin hangisinde edat vardır?",
+      "options": [
+        "Senin için bu kitabı aldım.",
+        "Ali ve Ayşe bize geldi.",
+        "Eyvah, otobüsü kaçırdık!",
+        "Ben de sizinle geliyorum.",
+        "Fakat onu bugün görmedim."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'İçin' tek başına tam anlam taşımayan ve sözcükler arasında anlam ilişkisi kuran bir edattır."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Bağlaç",
+      "question": "Aşağıdaki cümlelerin hangisinde bağlaç kullanılmıştır?",
+      "options": [
+        "Ali ile kardeşi sinemaya gitti.",
+        "Kalemi masanın üzerine bıraktı.",
+        "Senin kadar hızlı koşamam.",
+        "Sabaha karşı eve geldi.",
+        "Çocuk gibi sevindi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'İle' burada iki ismi birbirine bağladığı için bağlaç görevindedir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Ünlem",
+      "question": "Aşağıdaki cümlelerin hangisinde ünlem vardır?",
+      "options": [
+        "Eyvah, anahtarımı evde unuttum!",
+        "Yarın seni mutlaka ararım.",
+        "Bu kitabı çok beğendim.",
+        "Çocuklar bahçede oynuyor.",
+        "Akşam eve erken döndük."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Eyvah' korku, kaygı veya üzüntü bildiren bir ünlemdir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Belgisiz Zamir",
+      "question": "Aşağıdaki cümlelerin hangisinde belgisiz zamir vardır?",
+      "options": [
+        "Bazıları toplantıya geç kaldı.",
+        "Bazı öğrenciler toplantıya geç kaldı.",
+        "Bu öğrenci soruyu çözdü.",
+        "Hangi kitabı aldın?",
+        "Ben dün eve erken gittim."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bazıları' belirli olmayan kişilerin adının yerine geçtiği için belgisiz zamirdir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "İşaret Zamiri",
+      "question": "Aşağıdaki cümlelerin hangisinde işaret zamiri vardır?",
+      "options": [
+        "Bu, benim en sevdiğim kitaptır.",
+        "Bu kitap benimdir.",
+        "Şu çocuk kardeşimdir.",
+        "O ev geçen yıl satıldı.",
+        "Böyle insanlar az bulunur."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bu' sözcüğü bir ismin önünde kullanılmayıp doğrudan onun yerine geçtiği için işaret zamiridir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Soru Zamiri",
+      "question": "Aşağıdaki cümlelerin hangisinde soru zamiri kullanılmıştır?",
+      "options": [
+        "Hangisini satın aldın?",
+        "Hangi kitabı satın aldın?",
+        "Kaç öğrenci geldi?",
+        "Nasıl bir ev arıyorsun?",
+        "Ne zaman geleceksin?"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Hangisini' sözcüğü bir ismin yerini soru yoluyla tuttuğu için soru zamiridir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Sıfat-Zamir Ayrımı",
+      "question": "Aşağıdaki cümlelerin hangisinde 'bu' sözcüğü diğerlerinden farklı bir türde kullanılmıştır?",
+      "options": [
+        "Bu kitabı çok beğendim.",
+        "Bu ev oldukça eski.",
+        "Bu soruyu çözemedim.",
+        "Bu, dün gördüğüm çocuktu.",
+        "Bu kalem artık yazmıyor."
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Diğer seçeneklerde 'bu' bir ismi belirten işaret sıfatıdır; D seçeneğinde ismin yerine geçtiği için işaret zamiridir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Zarf-Sıfat Ayrımı",
+      "question": "Aşağıdaki cümlelerin hangisinde 'çok' sözcüğü zarf görevinde kullanılmıştır?",
+      "options": [
+        "Çok insan bu habere şaşırdı.",
+        "Çok kitap okumak istiyor.",
+        "Bu soruyu çok hızlı çözdü.",
+        "Çok öğrenci yarışmaya katıldı.",
+        "Çok para harcadı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Çok' sözcüğü C seçeneğinde 'hızlı' sözcüğünün derecesini belirttiği için zarftır; diğerlerinde isimleri belirtir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Soru Zarfı",
+      "question": "Aşağıdaki cümlelerin hangisinde soru anlamı bir zarfla sağlanmıştır?",
+      "options": [
+        "Buraya ne zaman geldin?",
+        "Hangi kitabı okudun?",
+        "Kaç kişi geldi?",
+        "Kimin kalemini aldın?",
+        "Hangisini beğendin?"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Ne zaman' ifadesi 'geldin' fiilinin zamanını soru yoluyla belirttiği için soru zarfıdır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Edat-Bağlaç Ayrımı",
+      "question": "Aşağıdaki cümlelerin hangisinde 'ile' edat görevindedir?",
+      "options": [
+        "Ali ile Ayşe bize geldi.",
+        "Kalem ile defteri çantaya koydu.",
+        "Kardeşi ile sinemaya gitti.",
+        "Annem ile babam dışarı çıktı.",
+        "Elma ile armut aldık."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Kardeşi ile sinemaya gitti.' cümlesinde 'ile', birlikte olma anlamı kattığı için edat görevindedir; diğerlerinde eş görevli unsurları bağlar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Adlaşmış Sıfat",
+      "question": "Aşağıdaki cümlelerin hangisinde adlaşmış sıfat vardır?",
+      "options": [
+        "Çalışkan öğrenciler her zaman takdir edilir.",
+        "Çalışkanlar bu sınavda başarılı oldu.",
+        "Mavi gömleği dün satın aldı.",
+        "Eski ev geçen yıl yıkıldı.",
+        "Uzun yolculuk hepimizi yordu."
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Çalışkanlar' sözcüğünde nitelenen 'öğrenciler' ismi düşmüş, sıfat adlaşmıştır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Sözcük Türü",
+      "question": "'Yalnız insanlar bazen sessizliği daha çok sever.' cümlesindeki 'yalnız' sözcüğünün türü aşağıdakilerden hangisidir?",
+      "options": [
+        "İsim",
+        "Sıfat",
+        "Zamir",
+        "Zarf",
+        "Bağlaç"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "'Yalnız' sözcüğü 'insanlar' ismini nitelediği için sıfattır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Sözcük Türü",
+      "question": "Aşağıdaki cümlelerin hangisinde 'yalnız' sözcüğü bağlaç görevinde kullanılmıştır?",
+      "options": [
+        "Yalnız çocuk bahçede oturuyordu.",
+        "Bu evde yalnız yaşıyor.",
+        "Sana yardım ederim, yalnız biraz beklemelisin.",
+        "Yalnız adam kimseyle konuşmadı.",
+        "Odada yalnız kaldı."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "C seçeneğindeki 'yalnız', 'ama/fakat' anlamında iki yargıyı bağladığı için bağlaçtır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Sözcük Türü",
+      "question": "Aşağıdaki cümlelerin hangisinde 'doğru' sözcüğü edat görevinde kullanılmıştır?",
+      "options": [
+        "Doğru söz insanı rahatlatır.",
+        "Soruyu doğru cevapladı.",
+        "Akşama doğru hava serinledi.",
+        "Bu cevabın doğru olduğunu biliyorum.",
+        "Doğruyu söylemekten çekinmedi."
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "'Akşama doğru' sözünde 'doğru', yönelme ve yaklaşma anlamı kurduğu için edattır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Birden Fazla Sözcük Türü",
+      "question": "'Bu güzel kitabı sana dün ben getirdim.' cümlesinde aşağıdaki sözcük türlerinden hangisi yoktur?",
+      "options": [
+        "İşaret sıfatı",
+        "Niteleme sıfatı",
+        "Kişi zamiri",
+        "Zaman zarfı",
+        "Bağlaç"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "'Bu' işaret sıfatı, 'güzel' niteleme sıfatı, 'sana/ben' kişi zamiri, 'dün' zaman zarfıdır; bağlaç yoktur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Sözcük Türleri",
+      "question": "Aşağıdaki cümlelerin hangisinde sıfat, zamir, zarf ve edat birlikte kullanılmıştır?",
+      "options": [
+        "Bu güzel kitabı ben senin için dün aldım.",
+        "Ali ve Ayşe dün okula gitti.",
+        "Bazıları yeni kitapları okudu.",
+        "Çocuk çok hızlı koştu.",
+        "Şu öğrenciler sınıfta sessizce bekledi."
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "'Bu/güzel' sıfat, 'ben/senin' zamir, 'dün' zarf ve 'için' edattır; dört sözcük türü birlikte kullanılmıştır."
+    }
+  ]
+}
