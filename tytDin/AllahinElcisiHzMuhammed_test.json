@@ -1,0 +1,331 @@
+{
+  "id": "allahinelcisihzmuhammed",
+  "title": "Allah'ın Elçisi Hz. Muhammed",
+  "lesson": "TYT Din Kültürü ve Ahlak Bilgisi",
+  "description": "TYT Din Kültürü ve Ahlak Bilgisi Allah'ın Elçisi Hz. Muhammed konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed nerede doğmuştur?",
+      "options": [
+        "Bağdat",
+        "Mekke",
+        "Medine",
+        "Kudüs",
+        "Şam"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hz. Muhammed Mekke'de dünyaya gelmiştir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in doğduğu yıl geleneksel olarak hangi adla anılır?",
+      "options": [
+        "Veda Yılı",
+        "Fetih Yılı",
+        "Hüzün Yılı",
+        "Fil Yılı",
+        "Hicret Yılı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hz. Muhammed'in doğduğu yıl Fil Vakası nedeniyle Fil Yılı olarak anılır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'e ilk vahiy nerede gelmiştir?",
+      "options": [
+        "Hira Mağarası",
+        "Sevr Mağarası",
+        "Mescid-i Nebevi",
+        "Kâbe'nin içi",
+        "Arafat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İlk vahiy Mekke yakınlarındaki Hira Mağarası'nda gelmiştir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'e ilk vahyi getiren melek hangisidir?",
+      "options": [
+        "Azrail",
+        "Kiramen Kâtibin",
+        "Cebrail",
+        "Mikail",
+        "İsrafil"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İlk vahyi Hz. Muhammed'e Cebrail getirmiştir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in Mekke'den Medine'ye göçüne ne ad verilir?",
+      "options": [
+        "Tebliğ",
+        "Bi'at",
+        "Fetih",
+        "İnfak",
+        "Hicret"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "622 yılında Mekke'den Medine'ye gerçekleşen göçe Hicret denir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in güvenilirliğini ifade eden lakabı hangisidir?",
+      "options": [
+        "Zinnureyn",
+        "el-Emin",
+        "el-Fatih",
+        "es-Sıddık",
+        "el-Faruk"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mekkeliler Hz. Muhammed'i peygamberlikten önce de güvenilirliği nedeniyle el-Emin diye anmıştır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in peygamber olarak Allah'tan aldığı mesajları insanlara bildirmesine ne denir?",
+      "options": [
+        "İnfak",
+        "İcma",
+        "Kıyas",
+        "Tebliğ",
+        "Tevekkül"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tebliğ peygamberlerin ilahi mesajı insanlara eksiksiz ulaştırma görevidir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in söz, davranış ve onaylarının genel adına ne denir?",
+      "options": [
+        "Sünnet",
+        "İcma",
+        "Kıyas",
+        "Fıkıh",
+        "Kelam"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Hz. Peygamber'in sözleri, davranışları ve onayları sünnet kapsamında değerlendirilir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in son haccında yaptığı önemli konuşmaya ne ad verilir?",
+      "options": [
+        "Hudeybiye Antlaşması",
+        "Hicret Hutbesi",
+        "Veda Hutbesi",
+        "Medine Vesikası",
+        "Akabe Biatı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hz. Muhammed'in son haccında yaptığı kapsamlı konuşma Veda Hutbesi olarak bilinir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in örnek alınması gereken güzel davranışlarını ifade eden Kur'an kavramı hangisidir?",
+      "options": [
+        "Ehl-i kitap",
+        "Beytülmal",
+        "Darülhikme",
+        "Asabiyet",
+        "Üsve-i hasene"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üsve-i hasene, Hz. Muhammed'in insanlar için güzel örnek oluşunu ifade eder."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed Mekke'de dünyaya gelmiştir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Bağdat",
+        "Mekke",
+        "Medine",
+        "Kudüs",
+        "Şam"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hz. Muhammed Mekke'de dünyaya gelmiştir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in doğduğu yıl Fil Vakası nedeniyle Fil Yılı olarak anılır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Veda Yılı",
+        "Fetih Yılı",
+        "Hüzün Yılı",
+        "Fil Yılı",
+        "Hicret Yılı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hz. Muhammed'in doğduğu yıl Fil Vakası nedeniyle Fil Yılı olarak anılır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "İlk vahiy Mekke yakınlarındaki Hira Mağarası'nda gelmiştir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Hira Mağarası",
+        "Sevr Mağarası",
+        "Mescid-i Nebevi",
+        "Kâbe'nin içi",
+        "Arafat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İlk vahiy Mekke yakınlarındaki Hira Mağarası'nda gelmiştir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "İlk vahyi Hz. Muhammed'e Cebrail getirmiştir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Azrail",
+        "Kiramen Kâtibin",
+        "Cebrail",
+        "Mikail",
+        "İsrafil"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İlk vahyi Hz. Muhammed'e Cebrail getirmiştir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "622 yılında Mekke'den Medine'ye gerçekleşen göçe Hicret denir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Tebliğ",
+        "Bi'at",
+        "Fetih",
+        "İnfak",
+        "Hicret"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "622 yılında Mekke'den Medine'ye gerçekleşen göçe Hicret denir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Mekkeliler Hz. Muhammed'i peygamberlikten önce de güvenilirliği nedeniyle el-Emin diye anmıştır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Zinnureyn",
+        "el-Emin",
+        "el-Fatih",
+        "es-Sıddık",
+        "el-Faruk"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mekkeliler Hz. Muhammed'i peygamberlikten önce de güvenilirliği nedeniyle el-Emin diye anmıştır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Tebliğ peygamberlerin ilahi mesajı insanlara eksiksiz ulaştırma görevidir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "İnfak",
+        "İcma",
+        "Kıyas",
+        "Tebliğ",
+        "Tevekkül"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tebliğ peygamberlerin ilahi mesajı insanlara eksiksiz ulaştırma görevidir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Peygamber'in sözleri, davranışları ve onayları sünnet kapsamında değerlendirilir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Sünnet",
+        "İcma",
+        "Kıyas",
+        "Fıkıh",
+        "Kelam"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Hz. Peygamber'in sözleri, davranışları ve onayları sünnet kapsamında değerlendirilir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Hz. Muhammed'in son haccında yaptığı kapsamlı konuşma Veda Hutbesi olarak bilinir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Hudeybiye Antlaşması",
+        "Hicret Hutbesi",
+        "Veda Hutbesi",
+        "Medine Vesikası",
+        "Akabe Biatı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hz. Muhammed'in son haccında yaptığı kapsamlı konuşma Veda Hutbesi olarak bilinir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Allah'ın Elçisi Hz. Muhammed",
+      "question": "Üsve-i hasene, Hz. Muhammed'in insanlar için güzel örnek oluşunu ifade eder. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Ehl-i kitap",
+        "Beytülmal",
+        "Darülhikme",
+        "Asabiyet",
+        "Üsve-i hasene"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üsve-i hasene, Hz. Muhammed'in insanlar için güzel örnek oluşunu ifade eder."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "bilgiveinanc",
+  "title": "Bilgi ve İnanç",
+  "lesson": "TYT Din Kültürü ve Ahlak Bilgisi",
+  "description": "TYT Din Kültürü ve Ahlak Bilgisi Bilgi ve İnanç konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Bilgi ve İnanç",
+      "question": "İslam düşüncesinde doğru bilgi kaynaklarından biri hangisidir?",
+      "options": [
+        "Taklit",
+        "Akıl",
+        "Hurafe",
+        "Batıl inanç",
+        "Önyargı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Akıl, doğru haber ve sağlıklı duyular İslam düşüncesinde bilgi kaynakları arasında değerlendirilir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Bilgi ve İnanç",
+      "question": "Vahiy yoluyla Allah'tan aldığı bilgileri insanlara bildiren kişiye ne denir?",
+      "options": [
+        "Tarihçi",
+        "Şair",
+        "Kâhin",
+        "Peygamber",
+        "Filozof"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Peygamberler Allah'tan aldıkları vahyi insanlara iletir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Bilgi ve İnanç",
+      "question": "Allah'ın varlığına ve birliğine inanmayı ifade eden kavram hangisidir?",
+      "options": [
+        "Tevhit",
+        "Şirk",
+        "Nifak",
+        "İsraf",
+        "Taklit"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tevhit Allah'ın bir ve tek olduğuna inanmayı ifade eder."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Bilgi ve İnanç",
+      "question": "Allah'a ortak koşmaya ne denir?",
+      "options": [
+        "İhlas",
+        "Tevekkül",
+        "Şirk",
+        "Tevhit",
+        "Takva"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Şirk, Allah'a ortak koşmak anlamına gelir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Bilgi ve İnanç",
+      "question": "İmanın esasları arasında aşağıdakilerden hangisi yer alır?",
+      "options": [
+        "Servete iman",
+        "Irka iman",
+        "Mesleğe iman",
+        "Coğrafyaya iman",
+        "Ahirete iman"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ahirete iman, İslam'ın iman esaslarından biridir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Bilgi ve İnanç",
+      "question": "İnsanın bilgi edinmesini sağlayan görme, işitme gibi yetiler hangi bilgi kaynağı kapsamında değerlendirilir?",
+      "options": [
+        "Taklit",
+        "Sağlıklı duyular",
+        "Hurafe",
+        "Rüya",
+        "Önyargı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sağlıklı duyular insanın dış dünyadan bilgi edinmesinin temel yollarındandır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "Peygamberlerden aktarılan güvenilir vahiy bilgisi hangi bilgi kaynağıyla ilişkilidir?",
+      "options": [
+        "Tahmin",
+        "Gelenek",
+        "Önyargı",
+        "Doğru haber",
+        "Sezgi"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Vahiy ve güvenilir aktarım doğru haber kapsamında değerlendirilir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "Bir şeyi hiçbir araştırma yapmadan sadece başkasından görerek benimsemeye ne denir?",
+      "options": [
+        "Taklit",
+        "Tahkik",
+        "Tefekkür",
+        "Tedebbür",
+        "İstişare"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Taklit, bir görüşü delilini araştırmadan benimsemektir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "İnsanın evren ve yaratılış üzerinde düşünmesi hangi kavramla ifade edilir?",
+      "options": [
+        "Haset",
+        "Riya",
+        "Tefekkür",
+        "Gıybet",
+        "İsraf"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tefekkür, insanın varlıklar ve olaylar üzerinde bilinçli biçimde düşünmesidir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "İnancın bilinçli biçimde delillere ve araştırmaya dayanmasına ne ad verilir?",
+      "options": [
+        "Taklit",
+        "İsraf",
+        "Riya",
+        "Gıybet",
+        "Tahkik"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tahkikî iman araştırma, düşünme ve delillere dayalı bilinçli imanı ifade eder."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "Akıl, doğru haber ve sağlıklı duyular İslam düşüncesinde bilgi kaynakları arasında değerlendirilir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Taklit",
+        "Akıl",
+        "Hurafe",
+        "Batıl inanç",
+        "Önyargı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Akıl, doğru haber ve sağlıklı duyular İslam düşüncesinde bilgi kaynakları arasında değerlendirilir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "Peygamberler Allah'tan aldıkları vahyi insanlara iletir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Tarihçi",
+        "Şair",
+        "Kâhin",
+        "Peygamber",
+        "Filozof"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Peygamberler Allah'tan aldıkları vahyi insanlara iletir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "Tevhit Allah'ın bir ve tek olduğuna inanmayı ifade eder. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Tevhit",
+        "Şirk",
+        "Nifak",
+        "İsraf",
+        "Taklit"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tevhit Allah'ın bir ve tek olduğuna inanmayı ifade eder."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Bilgi ve İnanç",
+      "question": "Şirk, Allah'a ortak koşmak anlamına gelir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "İhlas",
+        "Tevekkül",
+        "Şirk",
+        "Tevhit",
+        "Takva"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Şirk, Allah'a ortak koşmak anlamına gelir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Bilgi ve İnanç",
+      "question": "Ahirete iman, İslam'ın iman esaslarından biridir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Servete iman",
+        "Irka iman",
+        "Mesleğe iman",
+        "Coğrafyaya iman",
+        "Ahirete iman"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ahirete iman, İslam'ın iman esaslarından biridir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Bilgi ve İnanç",
+      "question": "Sağlıklı duyular insanın dış dünyadan bilgi edinmesinin temel yollarındandır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Taklit",
+        "Sağlıklı duyular",
+        "Hurafe",
+        "Rüya",
+        "Önyargı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sağlıklı duyular insanın dış dünyadan bilgi edinmesinin temel yollarındandır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Bilgi ve İnanç",
+      "question": "Vahiy ve güvenilir aktarım doğru haber kapsamında değerlendirilir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Tahmin",
+        "Gelenek",
+        "Önyargı",
+        "Doğru haber",
+        "Sezgi"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Vahiy ve güvenilir aktarım doğru haber kapsamında değerlendirilir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Bilgi ve İnanç",
+      "question": "Taklit, bir görüşü delilini araştırmadan benimsemektir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Taklit",
+        "Tahkik",
+        "Tefekkür",
+        "Tedebbür",
+        "İstişare"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Taklit, bir görüşü delilini araştırmadan benimsemektir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Bilgi ve İnanç",
+      "question": "Tefekkür, insanın varlıklar ve olaylar üzerinde bilinçli biçimde düşünmesidir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Haset",
+        "Riya",
+        "Tefekkür",
+        "Gıybet",
+        "İsraf"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tefekkür, insanın varlıklar ve olaylar üzerinde bilinçli biçimde düşünmesidir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Bilgi ve İnanç",
+      "question": "Tahkikî iman araştırma, düşünme ve delillere dayalı bilinçli imanı ifade eder. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Taklit",
+        "İsraf",
+        "Riya",
+        "Gıybet",
+        "Tahkik"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tahkikî iman araştırma, düşünme ve delillere dayalı bilinçli imanı ifade eder."
+    }
+  ]
+}

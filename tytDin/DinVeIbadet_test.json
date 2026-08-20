@@ -1,0 +1,331 @@
+{
+  "id": "dinveibadet",
+  "title": "Din ve İbadet",
+  "lesson": "TYT Din Kültürü ve Ahlak Bilgisi",
+  "description": "TYT Din Kültürü ve Ahlak Bilgisi Din ve İbadet konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Din ve İbadet",
+      "question": "İslam'da ibadetlerin temel amacı aşağıdakilerden hangisidir?",
+      "options": [
+        "Sadece gelenekleri sürdürmek",
+        "Allah'ın rızasını kazanmak",
+        "Toplumda ün kazanmak",
+        "Maddi kazanç sağlamak",
+        "Başkalarından üstün görünmek"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İbadetler Allah'a kulluk etmek ve O'nun rızasını kazanmak amacıyla yapılır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Din ve İbadet",
+      "question": "İslam'ın beş şartından biri hangisidir?",
+      "options": [
+        "Ticaret yapmak",
+        "Seyahat etmek",
+        "Meslek edinmek",
+        "Namaz kılmak",
+        "Felsefe öğrenmek"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Namaz İslam'ın beş temel şartından biridir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Din ve İbadet",
+      "question": "Müslümanların günde kaç vakit farz namazı vardır?",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İslam'da günlük beş vakit farz namaz vardır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Din ve İbadet",
+      "question": "Ramazan ayında yerine getirilen temel ibadet hangisidir?",
+      "options": [
+        "Zekât dışındaki sadaka",
+        "İtikâf zorunluluğu",
+        "Oruç",
+        "Hac",
+        "Kurban"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ramazan orucu ergenlik çağına ulaşmış ve gerekli şartları taşıyan Müslümanlara farzdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Din ve İbadet",
+      "question": "Maddi durumu belirli ölçülere ulaşan Müslümanın malının belli bir bölümünü ihtiyaç sahiplerine vermesine ne denir?",
+      "options": [
+        "Oruç",
+        "Hac",
+        "Tefekkür",
+        "İtikâf",
+        "Zekât"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Zekât mali bir ibadettir ve belirli şartlara bağlıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Din ve İbadet",
+      "question": "Hac ibadeti hangi şehirdeki Kâbe merkezli olarak yerine getirilir?",
+      "options": [
+        "Bağdat",
+        "Mekke",
+        "Medine",
+        "Kudüs",
+        "Şam"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hac ibadetinin temel mekânları Mekke ve çevresindedir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "İbadetlerde yalnızca Allah'ın rızasını gözetmeye ne denir?",
+      "options": [
+        "Haset",
+        "Gıybet",
+        "İsraf",
+        "İhlas",
+        "Riya"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İhlas ibadeti samimiyetle ve yalnızca Allah'ın rızası için yapmaktır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "İbadeti başkalarına gösteriş amacıyla yapmaya ne denir?",
+      "options": [
+        "Riya",
+        "İhlas",
+        "Takva",
+        "Sabır",
+        "Şükür"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Riya, ibadeti insanların beğenisini kazanmak amacıyla gösterişe dönüştürmektir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "Namazdan önce yerine getirilen temizlik şartlarından biri hangisidir?",
+      "options": [
+        "Tefekkür",
+        "Hicret",
+        "Abdest",
+        "İnfak",
+        "İstişare"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Abdest namazın hazırlık şartlarından olan hükmî temizliktir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "İslam'da ibadetlerle ilgili temel ilkelerden biri hangisidir?",
+      "options": [
+        "Gösteriş",
+        "Zorluk çıkarma",
+        "İnsanlardan övgü bekleme",
+        "Maddi çıkar",
+        "Samimiyet"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İbadetin özü samimiyet ve Allah'a kulluk bilincidir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "İbadetler Allah'a kulluk etmek ve O'nun rızasını kazanmak amacıyla yapılır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Sadece gelenekleri sürdürmek",
+        "Allah'ın rızasını kazanmak",
+        "Toplumda ün kazanmak",
+        "Maddi kazanç sağlamak",
+        "Başkalarından üstün görünmek"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İbadetler Allah'a kulluk etmek ve O'nun rızasını kazanmak amacıyla yapılır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "Namaz İslam'ın beş temel şartından biridir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Ticaret yapmak",
+        "Seyahat etmek",
+        "Meslek edinmek",
+        "Namaz kılmak",
+        "Felsefe öğrenmek"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Namaz İslam'ın beş temel şartından biridir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "İslam'da günlük beş vakit farz namaz vardır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "5",
+        "2",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İslam'da günlük beş vakit farz namaz vardır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Din ve İbadet",
+      "question": "Ramazan orucu ergenlik çağına ulaşmış ve gerekli şartları taşıyan Müslümanlara farzdır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Zekât dışındaki sadaka",
+        "İtikâf zorunluluğu",
+        "Oruç",
+        "Hac",
+        "Kurban"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ramazan orucu ergenlik çağına ulaşmış ve gerekli şartları taşıyan Müslümanlara farzdır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Din ve İbadet",
+      "question": "Zekât mali bir ibadettir ve belirli şartlara bağlıdır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Oruç",
+        "Hac",
+        "Tefekkür",
+        "İtikâf",
+        "Zekât"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Zekât mali bir ibadettir ve belirli şartlara bağlıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Din ve İbadet",
+      "question": "Hac ibadetinin temel mekânları Mekke ve çevresindedir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Bağdat",
+        "Mekke",
+        "Medine",
+        "Kudüs",
+        "Şam"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hac ibadetinin temel mekânları Mekke ve çevresindedir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Din ve İbadet",
+      "question": "İhlas ibadeti samimiyetle ve yalnızca Allah'ın rızası için yapmaktır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Haset",
+        "Gıybet",
+        "İsraf",
+        "İhlas",
+        "Riya"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İhlas ibadeti samimiyetle ve yalnızca Allah'ın rızası için yapmaktır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Din ve İbadet",
+      "question": "Riya, ibadeti insanların beğenisini kazanmak amacıyla gösterişe dönüştürmektir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Riya",
+        "İhlas",
+        "Takva",
+        "Sabır",
+        "Şükür"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Riya, ibadeti insanların beğenisini kazanmak amacıyla gösterişe dönüştürmektir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Din ve İbadet",
+      "question": "Abdest namazın hazırlık şartlarından olan hükmî temizliktir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Tefekkür",
+        "Hicret",
+        "Abdest",
+        "İnfak",
+        "İstişare"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Abdest namazın hazırlık şartlarından olan hükmî temizliktir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Din ve İbadet",
+      "question": "İbadetin özü samimiyet ve Allah'a kulluk bilincidir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Gösteriş",
+        "Zorluk çıkarma",
+        "İnsanlardan övgü bekleme",
+        "Maddi çıkar",
+        "Samimiyet"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İbadetin özü samimiyet ve Allah'a kulluk bilincidir."
+    }
+  ]
+}

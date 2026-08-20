@@ -1,0 +1,331 @@
+{
+  "id": "ahlakvedegerler",
+  "title": "Ahlak ve Değerler",
+  "lesson": "TYT Din Kültürü ve Ahlak Bilgisi",
+  "description": "TYT Din Kültürü ve Ahlak Bilgisi Ahlak ve Değerler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Ahlak ve Değerler",
+      "question": "İslam ahlakının temel kaynakları aşağıdakilerden hangisidir?",
+      "options": [
+        "Ekonomik kurallar",
+        "Kur'an ve sünnet",
+        "Örf ve moda",
+        "Sadece gelenekler",
+        "Felsefi akımlar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İslam ahlakının temel kaynakları Kur'an-ı Kerim ve Hz. Muhammed'in sünnetidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Ahlak ve Değerler",
+      "question": "Kişinin davranışlarında doğru ve dürüst olması hangi ahlaki kavramla ilişkilidir?",
+      "options": [
+        "Haset",
+        "Gıybet",
+        "Kibir",
+        "Doğruluk",
+        "İsraf"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Doğruluk, söz ve davranışlarda gerçeğe uygun hareket etmektir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Ahlak ve Değerler",
+      "question": "İnsanın kendisine verilen nimetleri gereksiz yere tüketmesine ne denir?",
+      "options": [
+        "İsraf",
+        "Şükür",
+        "İnfak",
+        "Tevekkül",
+        "Kanaat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İsraf, kaynakları ve nimetleri ölçüsüz ve gereksiz kullanmaktır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Ahlak ve Değerler",
+      "question": "Bir kimsenin sahip olduğu imkânları ihtiyaç sahipleriyle paylaşması hangi değerle ilişkilidir?",
+      "options": [
+        "Haset",
+        "İftira",
+        "Yardımlaşma",
+        "Kibir",
+        "Bencillik"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yardımlaşma ve dayanışma toplumsal birlik ve kardeşliği güçlendirir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Ahlak ve Değerler",
+      "question": "Başkalarının sahip olduğu nimetlerin yok olmasını istemeye ne denir?",
+      "options": [
+        "Sabır",
+        "Şükür",
+        "Tevazu",
+        "Merhamet",
+        "Haset"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Haset, başkasındaki nimetin ortadan kalkmasını istemektir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Ahlak ve Değerler",
+      "question": "Bir kişinin arkasından hoşlanmayacağı şeyleri söylemek hangi kavramdır?",
+      "options": [
+        "Emanet",
+        "Gıybet",
+        "İnfak",
+        "İstişare",
+        "Tevekkül"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Gıybet, bir kişinin arkasından onun hoşlanmayacağı sözleri söylemektir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "İslam ahlakında kişinin verdiği sözü yerine getirmesi hangi değerle yakından ilişkilidir?",
+      "options": [
+        "İsraf",
+        "Öfke",
+        "Kibir",
+        "Güvenilirlik",
+        "Gösteriş"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sözünde durmak güvenilir olmanın temel göstergelerindendir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "İnsanın sahip olduğu nimetler için Allah'a teşekkür etmesine ne denir?",
+      "options": [
+        "Şükür",
+        "Sabır",
+        "Tevbe",
+        "İstişare",
+        "Tefekkür"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Şükür, Allah'ın verdiği nimetlerin değerini bilmek ve teşekkür etmektir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "İnsanların farklılıklarına saygı göstermek aşağıdaki değerlerden hangisiyle daha çok ilişkilidir?",
+      "options": [
+        "İftira",
+        "Bencillik",
+        "Hoşgörü",
+        "Haset",
+        "Kibir"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hoşgörü, farklılıklara anlayış ve saygıyla yaklaşmayı ifade eder."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "İslam'a göre insanların değer bakımından üstünlüğünün temel ölçüsü nedir?",
+      "options": [
+        "Servet",
+        "Soy",
+        "Makam",
+        "Fiziksel güç",
+        "Takva"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İslam'da üstünlüğün ölçüsü mal, soy veya makam değil takvadır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "İslam ahlakının temel kaynakları Kur'an-ı Kerim ve Hz. Muhammed'in sünnetidir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Ekonomik kurallar",
+        "Kur'an ve sünnet",
+        "Örf ve moda",
+        "Sadece gelenekler",
+        "Felsefi akımlar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İslam ahlakının temel kaynakları Kur'an-ı Kerim ve Hz. Muhammed'in sünnetidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "Doğruluk, söz ve davranışlarda gerçeğe uygun hareket etmektir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Haset",
+        "Gıybet",
+        "Kibir",
+        "Doğruluk",
+        "İsraf"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Doğruluk, söz ve davranışlarda gerçeğe uygun hareket etmektir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "İsraf, kaynakları ve nimetleri ölçüsüz ve gereksiz kullanmaktır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "İsraf",
+        "Şükür",
+        "İnfak",
+        "Tevekkül",
+        "Kanaat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İsraf, kaynakları ve nimetleri ölçüsüz ve gereksiz kullanmaktır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Ahlak ve Değerler",
+      "question": "Yardımlaşma ve dayanışma toplumsal birlik ve kardeşliği güçlendirir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Haset",
+        "İftira",
+        "Yardımlaşma",
+        "Kibir",
+        "Bencillik"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yardımlaşma ve dayanışma toplumsal birlik ve kardeşliği güçlendirir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Ahlak ve Değerler",
+      "question": "Haset, başkasındaki nimetin ortadan kalkmasını istemektir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Sabır",
+        "Şükür",
+        "Tevazu",
+        "Merhamet",
+        "Haset"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Haset, başkasındaki nimetin ortadan kalkmasını istemektir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Ahlak ve Değerler",
+      "question": "Gıybet, bir kişinin arkasından onun hoşlanmayacağı sözleri söylemektir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Emanet",
+        "Gıybet",
+        "İnfak",
+        "İstişare",
+        "Tevekkül"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Gıybet, bir kişinin arkasından onun hoşlanmayacağı sözleri söylemektir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Ahlak ve Değerler",
+      "question": "Sözünde durmak güvenilir olmanın temel göstergelerindendir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "İsraf",
+        "Öfke",
+        "Kibir",
+        "Güvenilirlik",
+        "Gösteriş"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sözünde durmak güvenilir olmanın temel göstergelerindendir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Ahlak ve Değerler",
+      "question": "Şükür, Allah'ın verdiği nimetlerin değerini bilmek ve teşekkür etmektir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Şükür",
+        "Sabır",
+        "Tevbe",
+        "İstişare",
+        "Tefekkür"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Şükür, Allah'ın verdiği nimetlerin değerini bilmek ve teşekkür etmektir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Ahlak ve Değerler",
+      "question": "Hoşgörü, farklılıklara anlayış ve saygıyla yaklaşmayı ifade eder. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "İftira",
+        "Bencillik",
+        "Hoşgörü",
+        "Haset",
+        "Kibir"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hoşgörü, farklılıklara anlayış ve saygıyla yaklaşmayı ifade eder."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Ahlak ve Değerler",
+      "question": "İslam'da üstünlüğün ölçüsü mal, soy veya makam değil takvadır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Servet",
+        "Soy",
+        "Makam",
+        "Fiziksel güç",
+        "Takva"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İslam'da üstünlüğün ölçüsü mal, soy veya makam değil takvadır."
+    }
+  ]
+}

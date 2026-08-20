@@ -1,0 +1,331 @@
+{
+  "id": "islammedeniyetivekurumlaritasavvufiyorumlar",
+  "title": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+  "lesson": "TYT Din Kültürü ve Ahlak Bilgisi",
+  "description": "TYT Din Kültürü ve Ahlak Bilgisi İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "İslam medeniyetinde eğitim amacıyla kurulan temel kurumlardan biri hangisidir?",
+      "options": [
+        "Tersane",
+        "Medrese",
+        "Kervansaray",
+        "Bedesten",
+        "Darphane"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Medreseler İslam medeniyetinde eğitim ve öğretimin önemli kurumlarıdır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Hastaların tedavi edildiği geleneksel İslam kurumu hangisidir?",
+      "options": [
+        "Kervansaray",
+        "Bedesten",
+        "Ribat",
+        "Darüşşifa",
+        "Medrese"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Darüşşifalar sağlık ve tedavi hizmetlerinin verildiği kurumlardır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Ticaret yollarında yolcuların ve tüccarların konaklamasına hizmet eden yapı hangisidir?",
+      "options": [
+        "Kervansaray",
+        "Darüşşifa",
+        "Medrese",
+        "Rasathane",
+        "Kütüphane"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kervansaraylar yol güvenliği, konaklama ve ticaretin gelişmesine katkı sağlamıştır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Astronomi gözlemlerinin yapıldığı bilim kurumuna ne denir?",
+      "options": [
+        "Tekke",
+        "İmarethane",
+        "Rasathane",
+        "Darüşşifa",
+        "Bedesten"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rasathaneler gök cisimlerinin gözlemlendiği bilim merkezleridir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Tasavvufun temel amaçlarından biri aşağıdakilerden hangisidir?",
+      "options": [
+        "Maddi serveti artırmak",
+        "Siyasi makam elde etmek",
+        "Toplumsal sınıf oluşturmak",
+        "Bilimsel araştırmayı engellemek",
+        "Ahlakı güzelleştirmek ve manevi olgunluğa ulaşmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tasavvuf insanın manevi gelişimini ve güzel ahlakını önemser."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Tasavvufta kişinin nefsini eğitip kötü davranışlardan arındırmasına ne ad verilir?",
+      "options": [
+        "Asabiyet",
+        "Nefis terbiyesi",
+        "Riya",
+        "İsraf",
+        "Gıybet"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nefis terbiyesi kişinin kötü eğilimlerini kontrol edip ahlaki olgunluğa yönelmesidir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Anadolu'da sevgi ve hoşgörü anlayışıyla tanınan mutasavvıflardan biri kimdir?",
+      "options": [
+        "Farabi",
+        "Harezmi",
+        "Biruni",
+        "Yunus Emre",
+        "İbn Sina"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Yunus Emre tasavvufi şiirleriyle sevgi, kardeşlik ve Allah aşkını işlemiştir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Mevlevilik geleneğinin oluşumunda düşünceleri etkili olan mutasavvıf kimdir?",
+      "options": [
+        "Mevlânâ Celâleddîn-i Rûmî",
+        "Kaşgarlı Mahmut",
+        "Yusuf Has Hacip",
+        "İbn Haldun",
+        "Ali Kuşçu"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Mevlânâ'nın düşünceleri daha sonra Mevlevilik geleneğinin şekillenmesinde etkili olmuştur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Hacı Bektaş Veli'nin düşünceleriyle ilişkilendirilen tasavvufi gelenek hangisidir?",
+      "options": [
+        "Kadirilik",
+        "Rufailik",
+        "Bektaşilik",
+        "Mevlevilik",
+        "Nakşibendilik"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Bektaşilik geleneği Hacı Bektaş Veli'nin düşünce mirasıyla ilişkilendirilir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "İslam medeniyetinde ihtiyaç sahiplerine sürekli hizmet sağlamak amacıyla oluşturulan hayır kurumu hangisidir?",
+      "options": [
+        "Lonca",
+        "Divan",
+        "Tımar",
+        "Darphane",
+        "Vakıf"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Vakıflar eğitim, sağlık, sosyal yardım ve bayındırlık gibi alanlarda kalıcı hizmetler sağlamıştır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Medreseler İslam medeniyetinde eğitim ve öğretimin önemli kurumlarıdır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Tersane",
+        "Medrese",
+        "Kervansaray",
+        "Bedesten",
+        "Darphane"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Medreseler İslam medeniyetinde eğitim ve öğretimin önemli kurumlarıdır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Darüşşifalar sağlık ve tedavi hizmetlerinin verildiği kurumlardır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Kervansaray",
+        "Bedesten",
+        "Ribat",
+        "Darüşşifa",
+        "Medrese"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Darüşşifalar sağlık ve tedavi hizmetlerinin verildiği kurumlardır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Kervansaraylar yol güvenliği, konaklama ve ticaretin gelişmesine katkı sağlamıştır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Kervansaray",
+        "Darüşşifa",
+        "Medrese",
+        "Rasathane",
+        "Kütüphane"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kervansaraylar yol güvenliği, konaklama ve ticaretin gelişmesine katkı sağlamıştır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Rasathaneler gök cisimlerinin gözlemlendiği bilim merkezleridir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Tekke",
+        "İmarethane",
+        "Rasathane",
+        "Darüşşifa",
+        "Bedesten"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rasathaneler gök cisimlerinin gözlemlendiği bilim merkezleridir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Tasavvuf insanın manevi gelişimini ve güzel ahlakını önemser. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Maddi serveti artırmak",
+        "Siyasi makam elde etmek",
+        "Toplumsal sınıf oluşturmak",
+        "Bilimsel araştırmayı engellemek",
+        "Ahlakı güzelleştirmek ve manevi olgunluğa ulaşmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tasavvuf insanın manevi gelişimini ve güzel ahlakını önemser."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Nefis terbiyesi kişinin kötü eğilimlerini kontrol edip ahlaki olgunluğa yönelmesidir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Asabiyet",
+        "Nefis terbiyesi",
+        "Riya",
+        "İsraf",
+        "Gıybet"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nefis terbiyesi kişinin kötü eğilimlerini kontrol edip ahlaki olgunluğa yönelmesidir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Yunus Emre tasavvufi şiirleriyle sevgi, kardeşlik ve Allah aşkını işlemiştir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Farabi",
+        "Harezmi",
+        "Biruni",
+        "Yunus Emre",
+        "İbn Sina"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Yunus Emre tasavvufi şiirleriyle sevgi, kardeşlik ve Allah aşkını işlemiştir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Mevlânâ'nın düşünceleri daha sonra Mevlevilik geleneğinin şekillenmesinde etkili olmuştur. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Mevlânâ Celâleddîn-i Rûmî",
+        "Kaşgarlı Mahmut",
+        "Yusuf Has Hacip",
+        "İbn Haldun",
+        "Ali Kuşçu"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Mevlânâ'nın düşünceleri daha sonra Mevlevilik geleneğinin şekillenmesinde etkili olmuştur."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Bektaşilik geleneği Hacı Bektaş Veli'nin düşünce mirasıyla ilişkilendirilir. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Kadirilik",
+        "Rufailik",
+        "Bektaşilik",
+        "Mevlevilik",
+        "Nakşibendilik"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Bektaşilik geleneği Hacı Bektaş Veli'nin düşünce mirasıyla ilişkilendirilir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "İslam Medeniyeti ve Kurumları Tasavvufi Yorumlar",
+      "question": "Vakıflar eğitim, sağlık, sosyal yardım ve bayındırlık gibi alanlarda kalıcı hizmetler sağlamıştır. Bu açıklamada sözü edilen kavram/kişi/kurum aşağıdakilerden hangisidir?",
+      "options": [
+        "Lonca",
+        "Divan",
+        "Tımar",
+        "Darphane",
+        "Vakıf"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Vakıflar eğitim, sağlık, sosyal yardım ve bayındırlık gibi alanlarda kalıcı hizmetler sağlamıştır."
+    }
+  ]
+}
