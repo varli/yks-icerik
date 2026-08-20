@@ -1,0 +1,331 @@
+{
+  "id": "kimyabilimi",
+  "title": "Kimya Bilimi",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Kimya Bilimi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kimya Bilimi",
+      "question": "Maddenin yapısını, özelliklerini ve dönüşümlerini inceleyen bilim dalı hangisidir?",
+      "options": [
+        "Jeoloji",
+        "Kimya",
+        "Fizik",
+        "Biyoloji",
+        "Astronomi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kimya maddenin yapısı, özellikleri ve kimyasal değişimlerini inceler."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kimya Bilimi",
+      "question": "Organik bileşiklerin yapı ve tepkimelerini inceleyen kimya dalı hangisidir?",
+      "options": [
+        "Fizikokimya",
+        "Biyokimya",
+        "Polimer kimyası",
+        "Organik kimya",
+        "Analitik kimya"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Organik kimya başta karbon bileşikleri olmak üzere organik maddeleri inceler."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Kimya Bilimi",
+      "question": "Maddelerin bileşimini nitel ve nicel olarak belirleyen alan hangisidir?",
+      "options": [
+        "Analitik kimya",
+        "Organik kimya",
+        "Nükleer kimya",
+        "Biyokimya",
+        "Jeokimya"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Analitik kimya maddelerin bileşenlerini ve miktarlarını belirlemeye odaklanır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kimya Bilimi",
+      "question": "Canlılardaki kimyasal süreçleri inceleyen kimya dalı hangisidir?",
+      "options": [
+        "Fizikokimya",
+        "Petrokimya",
+        "Biyokimya",
+        "Analitik kimya",
+        "Anorganik kimya"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Biyokimya canlı sistemlerdeki kimyasal olayları inceler."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kimya Bilimi",
+      "question": "Laboratuvarda gözleri korumak için hangi ekipman kullanılmalıdır?",
+      "options": [
+        "Terlik",
+        "Atkı",
+        "Kulaklık",
+        "Saat",
+        "Koruyucu gözlük"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kimyasal sıçramalara karşı koruyucu gözlük kullanılmalıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Kimya Bilimi",
+      "question": "Kimyasal maddeler laboratuvarda doğrudan koklanmalı mıdır?",
+      "options": [
+        "Sadece asitlerde",
+        "Hayır",
+        "Evet",
+        "Yalnız renkliyse",
+        "Yalnız sıvıysa"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kimyasallar doğrudan koklanmamalı; güvenlik kurallarına uyulmalıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Asit seyreltilirken güvenli uygulama hangisidir?",
+      "options": [
+        "Asit ve suyu kapalı kapta çalkalamak",
+        "Koruyucusuz çalışmak",
+        "Asidi ısıtıp su eklemek",
+        "Asidi yavaşça suya eklemek",
+        "Suyu hızla aside eklemek"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Seyreltmede sıçrama riskini azaltmak için asit kontrollü biçimde suya eklenir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Simya ile modern kimya arasındaki temel farklardan biri hangisidir?",
+      "options": [
+        "Kimyanın sistematik deney ve bilimsel yönteme dayanması",
+        "Simyanın daha nicel olması",
+        "Kimyanın deney yapmaması",
+        "Simyanın atom teorisine dayanması",
+        "Aralarında fark olmaması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Modern kimya kontrollü deney, ölçüm ve bilimsel yöntem kullanır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Kimya laboratuvarında bilinmeyen bir madde tadılarak tanınmalı mıdır?",
+      "options": [
+        "Yalnız renksizse",
+        "Sadece tuzlarda",
+        "Hayır",
+        "Evet",
+        "Yalnız katıysa"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Laboratuvar maddeleri tadılmamalıdır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Polimerlerin yapısını ve özelliklerini inceleyen alan hangisidir?",
+      "options": [
+        "Analitik kimya",
+        "Nükleer kimya",
+        "Elektrokimya",
+        "Jeokimya",
+        "Polimer kimyası"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Polimer kimyası büyük moleküllü polimer maddeleri inceler."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Kimya maddenin yapısı, özellikleri ve kimyasal değişimlerini inceler. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Jeoloji",
+        "Kimya",
+        "Fizik",
+        "Biyoloji",
+        "Astronomi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kimya maddenin yapısı, özellikleri ve kimyasal değişimlerini inceler."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Organik kimya başta karbon bileşikleri olmak üzere organik maddeleri inceler. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Fizikokimya",
+        "Biyokimya",
+        "Polimer kimyası",
+        "Organik kimya",
+        "Analitik kimya"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Organik kimya başta karbon bileşikleri olmak üzere organik maddeleri inceler."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Analitik kimya maddelerin bileşenlerini ve miktarlarını belirlemeye odaklanır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Analitik kimya",
+        "Organik kimya",
+        "Nükleer kimya",
+        "Biyokimya",
+        "Jeokimya"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Analitik kimya maddelerin bileşenlerini ve miktarlarını belirlemeye odaklanır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kimya Bilimi",
+      "question": "Biyokimya canlı sistemlerdeki kimyasal olayları inceler. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Fizikokimya",
+        "Petrokimya",
+        "Biyokimya",
+        "Analitik kimya",
+        "Anorganik kimya"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Biyokimya canlı sistemlerdeki kimyasal olayları inceler."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kimya Bilimi",
+      "question": "Kimyasal sıçramalara karşı koruyucu gözlük kullanılmalıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Terlik",
+        "Atkı",
+        "Kulaklık",
+        "Saat",
+        "Koruyucu gözlük"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kimyasal sıçramalara karşı koruyucu gözlük kullanılmalıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kimya Bilimi",
+      "question": "Kimyasallar doğrudan koklanmamalı; güvenlik kurallarına uyulmalıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Sadece asitlerde",
+        "Hayır",
+        "Evet",
+        "Yalnız renkliyse",
+        "Yalnız sıvıysa"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kimyasallar doğrudan koklanmamalı; güvenlik kurallarına uyulmalıdır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Kimya Bilimi",
+      "question": "Seyreltmede sıçrama riskini azaltmak için asit kontrollü biçimde suya eklenir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Asit ve suyu kapalı kapta çalkalamak",
+        "Koruyucusuz çalışmak",
+        "Asidi ısıtıp su eklemek",
+        "Asidi yavaşça suya eklemek",
+        "Suyu hızla aside eklemek"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Seyreltmede sıçrama riskini azaltmak için asit kontrollü biçimde suya eklenir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Kimya Bilimi",
+      "question": "Modern kimya kontrollü deney, ölçüm ve bilimsel yöntem kullanır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kimyanın sistematik deney ve bilimsel yönteme dayanması",
+        "Simyanın daha nicel olması",
+        "Kimyanın deney yapmaması",
+        "Simyanın atom teorisine dayanması",
+        "Aralarında fark olmaması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Modern kimya kontrollü deney, ölçüm ve bilimsel yöntem kullanır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kimya Bilimi",
+      "question": "Laboratuvar maddeleri tadılmamalıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Yalnız renksizse",
+        "Sadece tuzlarda",
+        "Hayır",
+        "Evet",
+        "Yalnız katıysa"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Laboratuvar maddeleri tadılmamalıdır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Kimya Bilimi",
+      "question": "Polimer kimyası büyük moleküllü polimer maddeleri inceler. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Analitik kimya",
+        "Nükleer kimya",
+        "Elektrokimya",
+        "Jeokimya",
+        "Polimer kimyası"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Polimer kimyası büyük moleküllü polimer maddeleri inceler."
+    }
+  ]
+}

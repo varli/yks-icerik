@@ -1,0 +1,331 @@
+{
+  "id": "atomunyapisi",
+  "title": "Atomun Yapısı",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Atomun Yapısı konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Atomun Yapısı",
+      "question": "Atom çekirdeğinde bulunan pozitif yüklü tanecik hangisidir?",
+      "options": [
+        "İyon",
+        "Proton",
+        "Elektron",
+        "Nötron",
+        "Foton"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Proton pozitif yüklü çekirdek taneciğidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Atomun Yapısı",
+      "question": "Atom çekirdeğinde yüksüz tanecik hangisidir?",
+      "options": [
+        "Elektron",
+        "Katyon",
+        "Anyon",
+        "Nötron",
+        "Proton"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Nötron elektriksel olarak yüksüzdür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Atomun Yapısı",
+      "question": "Atomun çekirdeği çevresinde bulunan negatif yüklü tanecik hangisidir?",
+      "options": [
+        "Elektron",
+        "Proton",
+        "Nötron",
+        "Katyon",
+        "Nükleon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Elektron negatif elektrik yüküne sahiptir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Atomun Yapısı",
+      "question": "Atom numarası neye eşittir?",
+      "options": [
+        "Elektron+nötron sayısına",
+        "Katman sayısına",
+        "Proton sayısına",
+        "Nötron sayısına",
+        "Proton+nötron sayısına"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Bir elementin atom numarası çekirdekteki proton sayısıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Atomun Yapısı",
+      "question": "Kütle numarası hangi taneciklerin toplamına eşittir?",
+      "options": [
+        "Proton ve elektron",
+        "Elektron ve nötron",
+        "Yalnız proton",
+        "Yalnız elektron",
+        "Proton ve nötron"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kütle numarası nükleon sayısıdır: proton+nötron."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Atomun Yapısı",
+      "question": "Nötr atomda proton sayısı hangi tanecik sayısına eşittir?",
+      "options": [
+        "Orbital",
+        "Elektron",
+        "Nötron",
+        "İyon",
+        "Katman"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nötr atomun toplam yükü sıfır olduğundan proton ve elektron sayıları eşittir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Proton sayıları aynı, nötron sayıları farklı atomlara ne denir?",
+      "options": [
+        "İzoton",
+        "İyon",
+        "Molekül",
+        "İzotop",
+        "İzobar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İzotoplar aynı elementin farklı nötron sayılı atomlarıdır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Elektron alan atom hangi iyon türüne dönüşür?",
+      "options": [
+        "Anyon",
+        "Katyon",
+        "Nötron",
+        "İzotop",
+        "Nükleon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Elektron alan atom negatif yüklü anyon olur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Elektron veren atom hangi iyon türüne dönüşür?",
+      "options": [
+        "Nötron",
+        "Molekül",
+        "Katyon",
+        "Anyon",
+        "İzotop"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Elektron kaybeden atom pozitif yüklü katyon olur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Rutherford atom modelinin önemli sonucu hangisidir?",
+      "options": [
+        "Elektronların çekirdekte bulunması",
+        "Atomun bölünemez olması",
+        "Nötronların elektronlardan oluşması",
+        "Tüm atomların aynı olması",
+        "Pozitif yük ve kütlenin büyük bölümünün küçük bir çekirdekte toplanması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Rutherford saçılma deneyi atomda küçük ve yoğun bir çekirdek bulunduğunu göstermiştir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Proton pozitif yüklü çekirdek taneciğidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İyon",
+        "Proton",
+        "Elektron",
+        "Nötron",
+        "Foton"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Proton pozitif yüklü çekirdek taneciğidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Nötron elektriksel olarak yüksüzdür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Elektron",
+        "Katyon",
+        "Anyon",
+        "Nötron",
+        "Proton"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Nötron elektriksel olarak yüksüzdür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Elektron negatif elektrik yüküne sahiptir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Elektron",
+        "Proton",
+        "Nötron",
+        "Katyon",
+        "Nükleon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Elektron negatif elektrik yüküne sahiptir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Atomun Yapısı",
+      "question": "Bir elementin atom numarası çekirdekteki proton sayısıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Elektron+nötron sayısına",
+        "Katman sayısına",
+        "Proton sayısına",
+        "Nötron sayısına",
+        "Proton+nötron sayısına"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Bir elementin atom numarası çekirdekteki proton sayısıdır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Atomun Yapısı",
+      "question": "Kütle numarası nükleon sayısıdır: proton+nötron. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Proton ve elektron",
+        "Elektron ve nötron",
+        "Yalnız proton",
+        "Yalnız elektron",
+        "Proton ve nötron"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kütle numarası nükleon sayısıdır: proton+nötron."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Atomun Yapısı",
+      "question": "Nötr atomun toplam yükü sıfır olduğundan proton ve elektron sayıları eşittir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Orbital",
+        "Elektron",
+        "Nötron",
+        "İyon",
+        "Katman"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nötr atomun toplam yükü sıfır olduğundan proton ve elektron sayıları eşittir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Atomun Yapısı",
+      "question": "İzotoplar aynı elementin farklı nötron sayılı atomlarıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İzoton",
+        "İyon",
+        "Molekül",
+        "İzotop",
+        "İzobar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İzotoplar aynı elementin farklı nötron sayılı atomlarıdır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Atomun Yapısı",
+      "question": "Elektron alan atom negatif yüklü anyon olur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Anyon",
+        "Katyon",
+        "Nötron",
+        "İzotop",
+        "Nükleon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Elektron alan atom negatif yüklü anyon olur."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Atomun Yapısı",
+      "question": "Elektron kaybeden atom pozitif yüklü katyon olur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Nötron",
+        "Molekül",
+        "Katyon",
+        "Anyon",
+        "İzotop"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Elektron kaybeden atom pozitif yüklü katyon olur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Atomun Yapısı",
+      "question": "Rutherford saçılma deneyi atomda küçük ve yoğun bir çekirdek bulunduğunu göstermiştir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Elektronların çekirdekte bulunması",
+        "Atomun bölünemez olması",
+        "Nötronların elektronlardan oluşması",
+        "Tüm atomların aynı olması",
+        "Pozitif yük ve kütlenin büyük bölümünün küçük bir çekirdekte toplanması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Rutherford saçılma deneyi atomda küçük ve yoğun bir çekirdek bulunduğunu göstermiştir."
+    }
+  ]
+}

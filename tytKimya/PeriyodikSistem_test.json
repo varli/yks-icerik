@@ -1,0 +1,331 @@
+{
+  "id": "periyodiksistem",
+  "title": "Periyodik Sistem",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Periyodik Sistem konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Periyodik Sistem",
+      "question": "Periyodik tabloda yatay sıralara ne denir?",
+      "options": [
+        "Orbital",
+        "Periyot",
+        "Grup",
+        "Blok",
+        "Aile"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yatay sıralar periyot olarak adlandırılır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Periyodik Sistem",
+      "question": "Periyodik tabloda düşey sütunlara ne denir?",
+      "options": [
+        "Katman",
+        "Orbital",
+        "İzotop",
+        "Grup",
+        "Periyot"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Düşey sütunlar grup olarak adlandırılır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Periyodik Sistem",
+      "question": "Modern periyodik sistem elementleri hangi büyüklüğe göre sıralar?",
+      "options": [
+        "Atom numarası",
+        "Kütle numarası",
+        "Nötron sayısı",
+        "Yoğunluk",
+        "Erime noktası"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Modern periyodik tablo artan atom numarasına göre düzenlenmiştir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Periyodik Sistem",
+      "question": "Aynı gruptaki ana grup elementlerinin kimyasal özelliklerinin benzemesinin temel nedeni nedir?",
+      "options": [
+        "Aynı periyotta olmaları",
+        "Yoğunluklarının aynı olması",
+        "Değerlik elektron sayılarının benzer olması",
+        "Nötron sayılarının aynı olması",
+        "Kütlelerinin eşit olması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ana grup elementlerinde benzer değerlik elektron düzeni benzer kimyasal özelliklere yol açar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Periyodik Sistem",
+      "question": "1A grubundaki elementlere genel olarak ne denir?",
+      "options": [
+        "Halojenler",
+        "Soy gazlar",
+        "Toprak alkali metaller",
+        "Geçiş metalleri",
+        "Alkali metaller"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "1A grubunun hidrojen dışındaki üyeleri alkali metallerdir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Periyodik Sistem",
+      "question": "2A grubundaki elementlere ne denir?",
+      "options": [
+        "Kalkojenler",
+        "Toprak alkali metaller",
+        "Alkali metaller",
+        "Halojenler",
+        "Soy gazlar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2A grubu toprak alkali metaller olarak adlandırılır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "17. gruptaki elementlere genel olarak ne denir?",
+      "options": [
+        "Alkali metaller",
+        "Toprak alkali metaller",
+        "Geçiş metalleri",
+        "Halojenler",
+        "Soy gazlar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "17. grup elementleri halojenlerdir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "18. gruptaki elementlere genel olarak ne denir?",
+      "options": [
+        "Soy gazlar",
+        "Halojenler",
+        "Alkali metaller",
+        "Toprak alkali metaller",
+        "Lantanitler"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "18. grup soy gazlar olarak adlandırılır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "Bir periyotta soldan sağa doğru genel olarak atom yarıçapı nasıl değişir?",
+      "options": [
+        "Önce azalır sonra artar",
+        "Sıfır olur",
+        "Azalır",
+        "Artar",
+        "Değişmez"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Etkin çekirdek yükünün artmasıyla atom yarıçapı genel olarak azalır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "Bir grupta yukarıdan aşağıya doğru atom yarıçapı genel olarak nasıl değişir?",
+      "options": [
+        "Azalır",
+        "Değişmez",
+        "Sıfır olur",
+        "Önce artar sonra azalır",
+        "Artar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yeni enerji düzeyleri eklendiği için atom yarıçapı aşağı doğru artar."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "Yatay sıralar periyot olarak adlandırılır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Orbital",
+        "Periyot",
+        "Grup",
+        "Blok",
+        "Aile"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yatay sıralar periyot olarak adlandırılır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "Düşey sütunlar grup olarak adlandırılır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Katman",
+        "Orbital",
+        "İzotop",
+        "Grup",
+        "Periyot"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Düşey sütunlar grup olarak adlandırılır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "Modern periyodik tablo artan atom numarasına göre düzenlenmiştir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Atom numarası",
+        "Kütle numarası",
+        "Nötron sayısı",
+        "Yoğunluk",
+        "Erime noktası"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Modern periyodik tablo artan atom numarasına göre düzenlenmiştir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Periyodik Sistem",
+      "question": "Ana grup elementlerinde benzer değerlik elektron düzeni benzer kimyasal özelliklere yol açar. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Aynı periyotta olmaları",
+        "Yoğunluklarının aynı olması",
+        "Değerlik elektron sayılarının benzer olması",
+        "Nötron sayılarının aynı olması",
+        "Kütlelerinin eşit olması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ana grup elementlerinde benzer değerlik elektron düzeni benzer kimyasal özelliklere yol açar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Periyodik Sistem",
+      "question": "1A grubunun hidrojen dışındaki üyeleri alkali metallerdir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Halojenler",
+        "Soy gazlar",
+        "Toprak alkali metaller",
+        "Geçiş metalleri",
+        "Alkali metaller"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "1A grubunun hidrojen dışındaki üyeleri alkali metallerdir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Periyodik Sistem",
+      "question": "2A grubu toprak alkali metaller olarak adlandırılır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kalkojenler",
+        "Toprak alkali metaller",
+        "Alkali metaller",
+        "Halojenler",
+        "Soy gazlar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2A grubu toprak alkali metaller olarak adlandırılır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Periyodik Sistem",
+      "question": "17. grup elementleri halojenlerdir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Alkali metaller",
+        "Toprak alkali metaller",
+        "Geçiş metalleri",
+        "Halojenler",
+        "Soy gazlar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "17. grup elementleri halojenlerdir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Periyodik Sistem",
+      "question": "18. grup soy gazlar olarak adlandırılır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Soy gazlar",
+        "Halojenler",
+        "Alkali metaller",
+        "Toprak alkali metaller",
+        "Lantanitler"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "18. grup soy gazlar olarak adlandırılır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Periyodik Sistem",
+      "question": "Etkin çekirdek yükünün artmasıyla atom yarıçapı genel olarak azalır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Önce azalır sonra artar",
+        "Sıfır olur",
+        "Azalır",
+        "Artar",
+        "Değişmez"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Etkin çekirdek yükünün artmasıyla atom yarıçapı genel olarak azalır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Periyodik Sistem",
+      "question": "Yeni enerji düzeyleri eklendiği için atom yarıçapı aşağı doğru artar. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Azalır",
+        "Değişmez",
+        "Sıfır olur",
+        "Önce artar sonra azalır",
+        "Artar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yeni enerji düzeyleri eklendiği için atom yarıçapı aşağı doğru artar."
+    }
+  ]
+}

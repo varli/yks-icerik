@@ -1,0 +1,331 @@
+{
+  "id": "maddeninhalleri",
+  "title": "Maddenin Halleri",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Maddenin Halleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Maddenin Halleri",
+      "question": "Belirli şekil ve hacme sahip madde hâli hangisidir?",
+      "options": [
+        "Buhar",
+        "Katı",
+        "Sıvı",
+        "Gaz",
+        "Plazma"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Katılar belirli şekil ve hacme sahiptir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Maddenin Halleri",
+      "question": "Belirli hacmi olup bulunduğu kabın şeklini alan madde hâli hangisidir?",
+      "options": [
+        "Gaz",
+        "Plazma",
+        "Kristal",
+        "Sıvı",
+        "Katı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sıvılar belirli hacme sahipken kabın şeklini alır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Maddenin Halleri",
+      "question": "Bulunduğu kabın tamamını dolduran ve kolay sıkıştırılabilen hâl hangisidir?",
+      "options": [
+        "Gaz",
+        "Katı",
+        "Sıvı",
+        "Kristal",
+        "Amorf katı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Gazların belirli şekil ve hacmi yoktur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Maddenin Halleri",
+      "question": "Katının sıvıya dönüşmesine ne denir?",
+      "options": [
+        "Süblimleşme",
+        "Kırağılaşma",
+        "Erime",
+        "Donma",
+        "Yoğuşma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Katıdan sıvıya geçiş erimedir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Maddenin Halleri",
+      "question": "Sıvının katıya dönüşmesine ne denir?",
+      "options": [
+        "Erime",
+        "Buharlaşma",
+        "Yoğuşma",
+        "Süblimleşme",
+        "Donma"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sıvıdan katıya geçiş donmadır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Maddenin Halleri",
+      "question": "Sıvının gaz hâline geçmesine ne denir?",
+      "options": [
+        "Erime",
+        "Buharlaşma",
+        "Yoğuşma",
+        "Donma",
+        "Kırağılaşma"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sıvı yüzeyinden gaz hâline geçiş buharlaşmadır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Gazın sıvıya dönüşmesine ne denir?",
+      "options": [
+        "Erime",
+        "Süblimleşme",
+        "Donma",
+        "Yoğuşma",
+        "Buharlaşma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gazdan sıvıya hâl değişimi yoğuşmadır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Katının doğrudan gaz hâline geçmesine ne denir?",
+      "options": [
+        "Süblimleşme",
+        "Kırağılaşma",
+        "Yoğuşma",
+        "Donma",
+        "Erime"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Katıdan doğrudan gaza geçiş süblimleşmedir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Gazın doğrudan katıya dönüşmesine ne denir?",
+      "options": [
+        "Erime",
+        "Kaynama",
+        "Kırağılaşma",
+        "Süblimleşme",
+        "Buharlaşma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Gazdan doğrudan katıya geçiş kırağılaşmadır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Buharlaşma sıvının hangi kısmında gerçekleşebilir?",
+      "options": [
+        "Yalnız tabanında",
+        "Yalnız ortasında",
+        "Sadece kaynama noktasında",
+        "Hiçbir yerinde",
+        "Yüzeyinde"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Buharlaşma her sıcaklıkta sıvının yüzeyinden gerçekleşebilir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Katılar belirli şekil ve hacme sahiptir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Buhar",
+        "Katı",
+        "Sıvı",
+        "Gaz",
+        "Plazma"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Katılar belirli şekil ve hacme sahiptir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Sıvılar belirli hacme sahipken kabın şeklini alır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Gaz",
+        "Plazma",
+        "Kristal",
+        "Sıvı",
+        "Katı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sıvılar belirli hacme sahipken kabın şeklini alır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Gazların belirli şekil ve hacmi yoktur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Gaz",
+        "Katı",
+        "Sıvı",
+        "Kristal",
+        "Amorf katı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Gazların belirli şekil ve hacmi yoktur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Maddenin Halleri",
+      "question": "Katıdan sıvıya geçiş erimedir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Süblimleşme",
+        "Kırağılaşma",
+        "Erime",
+        "Donma",
+        "Yoğuşma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Katıdan sıvıya geçiş erimedir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Maddenin Halleri",
+      "question": "Sıvıdan katıya geçiş donmadır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Erime",
+        "Buharlaşma",
+        "Yoğuşma",
+        "Süblimleşme",
+        "Donma"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sıvıdan katıya geçiş donmadır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Maddenin Halleri",
+      "question": "Sıvı yüzeyinden gaz hâline geçiş buharlaşmadır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Erime",
+        "Buharlaşma",
+        "Yoğuşma",
+        "Donma",
+        "Kırağılaşma"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sıvı yüzeyinden gaz hâline geçiş buharlaşmadır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Maddenin Halleri",
+      "question": "Gazdan sıvıya hâl değişimi yoğuşmadır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Erime",
+        "Süblimleşme",
+        "Donma",
+        "Yoğuşma",
+        "Buharlaşma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gazdan sıvıya hâl değişimi yoğuşmadır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Maddenin Halleri",
+      "question": "Katıdan doğrudan gaza geçiş süblimleşmedir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Süblimleşme",
+        "Kırağılaşma",
+        "Yoğuşma",
+        "Donma",
+        "Erime"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Katıdan doğrudan gaza geçiş süblimleşmedir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Maddenin Halleri",
+      "question": "Gazdan doğrudan katıya geçiş kırağılaşmadır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Erime",
+        "Kaynama",
+        "Kırağılaşma",
+        "Süblimleşme",
+        "Buharlaşma"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Gazdan doğrudan katıya geçiş kırağılaşmadır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Maddenin Halleri",
+      "question": "Buharlaşma her sıcaklıkta sıvının yüzeyinden gerçekleşebilir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Yalnız tabanında",
+        "Yalnız ortasında",
+        "Sadece kaynama noktasında",
+        "Hiçbir yerinde",
+        "Yüzeyinde"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Buharlaşma her sıcaklıkta sıvının yüzeyinden gerçekleşebilir."
+    }
+  ]
+}

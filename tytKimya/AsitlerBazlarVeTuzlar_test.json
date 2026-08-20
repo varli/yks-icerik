@@ -1,0 +1,331 @@
+{
+  "id": "asitlerbazlarvetuzlar",
+  "title": "Asitler, Bazlar ve Tuzlar",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Asitler, Bazlar ve Tuzlar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Sulu çözeltisine H⁺ iyonu verebilen maddeler genel olarak ne olarak adlandırılır?",
+      "options": [
+        "Alaşım",
+        "Asit",
+        "Baz",
+        "Tuz",
+        "Metal"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Arrhenius yaklaşımında asitler suda H⁺ derişimini artırır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Sulu çözeltisine OH⁻ iyonu verebilen maddeler genel olarak ne olarak adlandırılır?",
+      "options": [
+        "Tuz",
+        "Ametal",
+        "Soy gaz",
+        "Baz",
+        "Asit"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Arrhenius bazları suda OH⁻ derişimini artırır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "25 °C'de pH değeri 7 olan çözelti genellikle nasıldır?",
+      "options": [
+        "Nötr",
+        "Asidik",
+        "Bazik",
+        "Doymuş",
+        "Tampon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "25 °C'de nötr çözeltinin pH değeri 7'dir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "pH değeri 7'den küçük olan çözelti genel olarak nasıldır?",
+      "options": [
+        "Metal",
+        "Tuzsuz",
+        "Asidik",
+        "Bazik",
+        "Nötr"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "25 °C'de pH<7 asidik ortamı gösterir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "pH değeri 7'den büyük olan çözelti genel olarak nasıldır?",
+      "options": [
+        "Asidik",
+        "Nötr",
+        "Saf metal",
+        "Apolar",
+        "Bazik"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "25 °C'de pH>7 bazik ortamı gösterir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Asit ve bazın tepkimesi sonucunda genellikle hangi ürünler oluşur?",
+      "options": [
+        "Karbon ve azot",
+        "Tuz ve su",
+        "Yalnız hidrojen",
+        "Yalnız oksijen",
+        "Metal ve su"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nötralleşme tepkimelerinde genel olarak tuz ve su oluşur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Mavi turnusol kâğıdını kırmızıya çeviren çözelti hangisidir?",
+      "options": [
+        "Nötr çözelti",
+        "Saf su",
+        "Tuzların tümü",
+        "Asit",
+        "Baz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Asitler mavi turnusolü kırmızıya çevirir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Kırmızı turnusol kâğıdını maviye çeviren çözelti hangisidir?",
+      "options": [
+        "Baz",
+        "Asit",
+        "Nötr çözelti",
+        "Saf su",
+        "Tüm tuzlar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Bazlar kırmızı turnusolü maviye çevirir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "HCl aşağıdaki madde sınıflarından hangisine örnektir?",
+      "options": [
+        "Alaşım",
+        "Soy gaz",
+        "Asit",
+        "Baz",
+        "Tuz"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "HCl hidroklorik asittir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "NaOH aşağıdaki madde sınıflarından hangisine örnektir?",
+      "options": [
+        "Asit",
+        "Tuz",
+        "Ametal",
+        "Soy gaz",
+        "Baz"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "NaOH sodyum hidroksit güçlü bir bazdır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Arrhenius yaklaşımında asitler suda H⁺ derişimini artırır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Alaşım",
+        "Asit",
+        "Baz",
+        "Tuz",
+        "Metal"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Arrhenius yaklaşımında asitler suda H⁺ derişimini artırır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Arrhenius bazları suda OH⁻ derişimini artırır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Tuz",
+        "Ametal",
+        "Soy gaz",
+        "Baz",
+        "Asit"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Arrhenius bazları suda OH⁻ derişimini artırır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "25 °C'de nötr çözeltinin pH değeri 7'dir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Nötr",
+        "Asidik",
+        "Bazik",
+        "Doymuş",
+        "Tampon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "25 °C'de nötr çözeltinin pH değeri 7'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "25 °C'de pH<7 asidik ortamı gösterir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Metal",
+        "Tuzsuz",
+        "Asidik",
+        "Bazik",
+        "Nötr"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "25 °C'de pH<7 asidik ortamı gösterir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "25 °C'de pH>7 bazik ortamı gösterir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Asidik",
+        "Nötr",
+        "Saf metal",
+        "Apolar",
+        "Bazik"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "25 °C'de pH>7 bazik ortamı gösterir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Nötralleşme tepkimelerinde genel olarak tuz ve su oluşur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Karbon ve azot",
+        "Tuz ve su",
+        "Yalnız hidrojen",
+        "Yalnız oksijen",
+        "Metal ve su"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nötralleşme tepkimelerinde genel olarak tuz ve su oluşur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Asitler mavi turnusolü kırmızıya çevirir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Nötr çözelti",
+        "Saf su",
+        "Tuzların tümü",
+        "Asit",
+        "Baz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Asitler mavi turnusolü kırmızıya çevirir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "Bazlar kırmızı turnusolü maviye çevirir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Baz",
+        "Asit",
+        "Nötr çözelti",
+        "Saf su",
+        "Tüm tuzlar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Bazlar kırmızı turnusolü maviye çevirir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "HCl hidroklorik asittir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Alaşım",
+        "Soy gaz",
+        "Asit",
+        "Baz",
+        "Tuz"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "HCl hidroklorik asittir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Asitler, Bazlar ve Tuzlar",
+      "question": "NaOH sodyum hidroksit güçlü bir bazdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Asit",
+        "Tuz",
+        "Ametal",
+        "Soy gaz",
+        "Baz"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "NaOH sodyum hidroksit güçlü bir bazdır."
+    }
+  ]
+}

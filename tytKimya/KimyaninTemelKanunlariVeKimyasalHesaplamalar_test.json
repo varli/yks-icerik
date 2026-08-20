@@ -1,0 +1,331 @@
+{
+  "id": "kimyanintemelkanunlarivekimyasalhesaplamalar",
+  "title": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Kapalı bir sistemde kimyasal tepkime sırasında toplam kütlenin değişmemesi hangi kanundur?",
+      "options": [
+        "Boyle yasası",
+        "Kütlenin korunumu kanunu",
+        "Sabit oranlar kanunu",
+        "Katlı oranlar kanunu",
+        "Avogadro yasası"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Lavoisier'in kütlenin korunumu kanununa göre toplam kütle korunur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Bir bileşiği oluşturan elementlerin kütlece sabit bir oranda birleşmesi hangi kanundur?",
+      "options": [
+        "Katlı oranlar",
+        "Gazların birleşen hacimleri",
+        "Avogadro yasası",
+        "Sabit oranlar kanunu",
+        "Kütlenin korunumu"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Proust'un sabit oranlar kanununa göre saf bileşiğin element oranı sabittir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "İki element birden fazla bileşik oluşturduğunda, birinin sabit miktarıyla birleşen diğer element miktarları arasındaki basit tam sayılı ilişki hangi kanundur?",
+      "options": [
+        "Katlı oranlar kanunu",
+        "Sabit oranlar",
+        "Kütlenin korunumu",
+        "Charles yasası",
+        "Boyle yasası"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Dalton'un katlı oranlar kanunu birden fazla bileşikte basit tam sayılı kütle oranlarını açıklar."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Mol kavramı neyi ifade eder?",
+      "options": [
+        "Hacmi",
+        "Yoğunluğu",
+        "Madde miktarını",
+        "Sıcaklığı",
+        "Basıncı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Mol SI'da madde miktarı birimidir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "1 mol tanecik yaklaşık kaç tane tanecik içerir?",
+      "options": [
+        "6,02×10²",
+        "3,01×10²³",
+        "1,00×10⁶",
+        "9,81×10²³",
+        "6,02×10²³"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Avogadro sayısı yaklaşık 6,02×10²³ mol⁻¹'dir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Mol sayısı n, kütle m ve mol kütlesi M arasındaki ilişki hangisidir?",
+      "options": [
+        "n=m−M",
+        "n=m/M",
+        "n=mM",
+        "n=M/m",
+        "n=m+M"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mol sayısı kütlenin mol kütlesine bölünmesiyle bulunur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Mol kütlesi 18 g/mol olan H₂O'nun 36 gramı kaç moldür?",
+      "options": [
+        "1",
+        "18",
+        "36",
+        "2",
+        "0.5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "n=36/18=2 moldür."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Kimyasal denklem denkleştirilirken temel olarak hangi büyüklük korunur?",
+      "options": [
+        "Her elementin atom sayısı",
+        "Molekül sayısı mutlaka",
+        "Mol sayısı mutlaka",
+        "Hacim mutlaka",
+        "Basınç mutlaka"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Denklemin iki tarafında her elementin atom sayısı eşit olmalıdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "2H₂ + O₂ → 2H₂O denkleminde H₂'nin katsayısı kaçtır?",
+      "options": [
+        "4",
+        "6",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Denkleştirilmiş tepkimede H₂'nin katsayısı 2'dir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Bir tepkimede 10 g A ile 15 g B tamamen tepkimeye girip tek ürün oluşturuyorsa ürünün kütlesi kaç g olur?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "150",
+        "25"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kütlenin korunumu gereği ürün kütlesi 10+15=25 g'dır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Lavoisier'in kütlenin korunumu kanununa göre toplam kütle korunur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Boyle yasası",
+        "Kütlenin korunumu kanunu",
+        "Sabit oranlar kanunu",
+        "Katlı oranlar kanunu",
+        "Avogadro yasası"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Lavoisier'in kütlenin korunumu kanununa göre toplam kütle korunur."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Proust'un sabit oranlar kanununa göre saf bileşiğin element oranı sabittir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Katlı oranlar",
+        "Gazların birleşen hacimleri",
+        "Avogadro yasası",
+        "Sabit oranlar kanunu",
+        "Kütlenin korunumu"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Proust'un sabit oranlar kanununa göre saf bileşiğin element oranı sabittir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Dalton'un katlı oranlar kanunu birden fazla bileşikte basit tam sayılı kütle oranlarını açıklar. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Katlı oranlar kanunu",
+        "Sabit oranlar",
+        "Kütlenin korunumu",
+        "Charles yasası",
+        "Boyle yasası"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Dalton'un katlı oranlar kanunu birden fazla bileşikte basit tam sayılı kütle oranlarını açıklar."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Mol SI'da madde miktarı birimidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hacmi",
+        "Yoğunluğu",
+        "Madde miktarını",
+        "Sıcaklığı",
+        "Basıncı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Mol SI'da madde miktarı birimidir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Avogadro sayısı yaklaşık 6,02×10²³ mol⁻¹'dir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "6,02×10²",
+        "3,01×10²³",
+        "1,00×10⁶",
+        "9,81×10²³",
+        "6,02×10²³"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Avogadro sayısı yaklaşık 6,02×10²³ mol⁻¹'dir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Mol sayısı kütlenin mol kütlesine bölünmesiyle bulunur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "n=m−M",
+        "n=m/M",
+        "n=mM",
+        "n=M/m",
+        "n=m+M"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mol sayısı kütlenin mol kütlesine bölünmesiyle bulunur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "n=36/18=2 moldür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "1",
+        "18",
+        "36",
+        "2",
+        "0.5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "n=36/18=2 moldür."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Denklemin iki tarafında her elementin atom sayısı eşit olmalıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Her elementin atom sayısı",
+        "Molekül sayısı mutlaka",
+        "Mol sayısı mutlaka",
+        "Hacim mutlaka",
+        "Basınç mutlaka"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Denklemin iki tarafında her elementin atom sayısı eşit olmalıdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Denkleştirilmiş tepkimede H₂'nin katsayısı 2'dir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "4",
+        "6",
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Denkleştirilmiş tepkimede H₂'nin katsayısı 2'dir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Kimyanın Temel Kanunları ve Kimyasal Hesaplamalar",
+      "question": "Kütlenin korunumu gereği ürün kütlesi 10+15=25 g'dır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "150",
+        "25"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kütlenin korunumu gereği ürün kütlesi 10+15=25 g'dır."
+    }
+  ]
+}

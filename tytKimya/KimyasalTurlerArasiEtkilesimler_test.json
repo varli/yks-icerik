@@ -1,0 +1,331 @@
+{
+  "id": "kimyasalturlerarasietkilesimler",
+  "title": "Kimyasal Türler Arası Etkileşimler",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Kimyasal Türler Arası Etkileşimler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Zıt yüklü iyonlar arasındaki elektrostatik çekime dayalı bağ hangisidir?",
+      "options": [
+        "London kuvveti",
+        "İyonik bağ",
+        "Kovalent bağ",
+        "Metalik bağ",
+        "Hidrojen bağı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İyonik bağ katyon ve anyonlar arasındaki elektrostatik çekimdir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Atomların elektronlarını ortaklaşa kullanmasıyla oluşan bağ hangisidir?",
+      "options": [
+        "Metalik bağ",
+        "Hidrojen bağı",
+        "İyon-dipol",
+        "Kovalent bağ",
+        "İyonik bağ"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kovalent bağ ortak elektron çiftleriyle oluşur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Metal atomları arasındaki bağ türü hangisidir?",
+      "options": [
+        "Metalik bağ",
+        "İyonik bağ",
+        "Kovalent bağ",
+        "Hidrojen bağı",
+        "Dipol-dipol"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Metallerde değerlik elektronlarının delokalizasyonu metalik bağ oluşturur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Moleküller arası etkileşimler kimyasal bağlara göre genel olarak nasıldır?",
+      "options": [
+        "Yoktur",
+        "Sadece iyonlarda vardır",
+        "Daha zayıftır",
+        "Daha güçlüdür",
+        "Her zaman eşittir"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Moleküller arası etkileşimler genellikle atomlar arası güçlü bağlardan zayıftır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Hidrojen bağı oluşumunda hidrojen genellikle hangi atomlardan biriyle bağlıdır?",
+      "options": [
+        "Na, K veya Li",
+        "Fe, Cu veya Zn",
+        "He, Ne veya Ar",
+        "Ca, Mg veya Ba",
+        "F, O veya N"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hidrojen bağı için H'nin yüksek elektronegatif F, O veya N ile bağlı olması tipiktir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Apolar moleküller arasında baskın olabilen zayıf etkileşim hangisidir?",
+      "options": [
+        "İyon-dipol",
+        "London kuvvetleri",
+        "İyonik bağ",
+        "Hidrojen bağı",
+        "Metalik bağ"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Geçici dipollerden doğan London kuvvetleri tüm taneciklerde, özellikle apolarlarda önemlidir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Polar moleküller arasında görülen etkileşimlerden biri hangisidir?",
+      "options": [
+        "İyonik kristal bağı",
+        "Yalnız London yokluğu",
+        "Nükleer kuvvet",
+        "Dipol-dipol",
+        "Metalik bağ"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kalıcı dipollere sahip polar moleküller dipol-dipol etkileşimi gösterebilir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "NaCl bileşiğinde baskın güçlü etkileşim hangisidir?",
+      "options": [
+        "İyonik bağ",
+        "Kovalent bağ",
+        "Metalik bağ",
+        "Hidrojen bağı",
+        "London kuvveti"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Na⁺ ve Cl⁻ iyonları iyonik bağla bir arada tutulur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "H₂ molekülünde atomları bir arada tutan bağ hangisidir?",
+      "options": [
+        "Hidrojen bağı",
+        "İyon-dipol",
+        "Kovalent bağ",
+        "İyonik bağ",
+        "Metalik bağ"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İki hidrojen atomu elektron çiftini paylaşarak kovalent bağ oluşturur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Kimyasal türler arası etkileşimlerin gücü maddenin hangi özelliğini etkileyebilir?",
+      "options": [
+        "Atom numarası",
+        "Proton sayısı",
+        "Element sembolü",
+        "Nötronun yükü",
+        "Kaynama noktası"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tanecikler arası çekim kuvvetleri arttıkça kaynama gibi fiziksel özellikler değişebilir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "İyonik bağ katyon ve anyonlar arasındaki elektrostatik çekimdir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "London kuvveti",
+        "İyonik bağ",
+        "Kovalent bağ",
+        "Metalik bağ",
+        "Hidrojen bağı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İyonik bağ katyon ve anyonlar arasındaki elektrostatik çekimdir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Kovalent bağ ortak elektron çiftleriyle oluşur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Metalik bağ",
+        "Hidrojen bağı",
+        "İyon-dipol",
+        "Kovalent bağ",
+        "İyonik bağ"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kovalent bağ ortak elektron çiftleriyle oluşur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Metallerde değerlik elektronlarının delokalizasyonu metalik bağ oluşturur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Metalik bağ",
+        "İyonik bağ",
+        "Kovalent bağ",
+        "Hidrojen bağı",
+        "Dipol-dipol"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Metallerde değerlik elektronlarının delokalizasyonu metalik bağ oluşturur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Moleküller arası etkileşimler genellikle atomlar arası güçlü bağlardan zayıftır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Yoktur",
+        "Sadece iyonlarda vardır",
+        "Daha zayıftır",
+        "Daha güçlüdür",
+        "Her zaman eşittir"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Moleküller arası etkileşimler genellikle atomlar arası güçlü bağlardan zayıftır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Hidrojen bağı için H'nin yüksek elektronegatif F, O veya N ile bağlı olması tipiktir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Na, K veya Li",
+        "Fe, Cu veya Zn",
+        "He, Ne veya Ar",
+        "Ca, Mg veya Ba",
+        "F, O veya N"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hidrojen bağı için H'nin yüksek elektronegatif F, O veya N ile bağlı olması tipiktir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Geçici dipollerden doğan London kuvvetleri tüm taneciklerde, özellikle apolarlarda önemlidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İyon-dipol",
+        "London kuvvetleri",
+        "İyonik bağ",
+        "Hidrojen bağı",
+        "Metalik bağ"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Geçici dipollerden doğan London kuvvetleri tüm taneciklerde, özellikle apolarlarda önemlidir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Kalıcı dipollere sahip polar moleküller dipol-dipol etkileşimi gösterebilir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İyonik kristal bağı",
+        "Yalnız London yokluğu",
+        "Nükleer kuvvet",
+        "Dipol-dipol",
+        "Metalik bağ"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kalıcı dipollere sahip polar moleküller dipol-dipol etkileşimi gösterebilir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Na⁺ ve Cl⁻ iyonları iyonik bağla bir arada tutulur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İyonik bağ",
+        "Kovalent bağ",
+        "Metalik bağ",
+        "Hidrojen bağı",
+        "London kuvveti"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Na⁺ ve Cl⁻ iyonları iyonik bağla bir arada tutulur."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "İki hidrojen atomu elektron çiftini paylaşarak kovalent bağ oluşturur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hidrojen bağı",
+        "İyon-dipol",
+        "Kovalent bağ",
+        "İyonik bağ",
+        "Metalik bağ"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İki hidrojen atomu elektron çiftini paylaşarak kovalent bağ oluşturur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Kimyasal Türler Arası Etkileşimler",
+      "question": "Tanecikler arası çekim kuvvetleri arttıkça kaynama gibi fiziksel özellikler değişebilir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Atom numarası",
+        "Proton sayısı",
+        "Element sembolü",
+        "Nötronun yükü",
+        "Kaynama noktası"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tanecikler arası çekim kuvvetleri arttıkça kaynama gibi fiziksel özellikler değişebilir."
+    }
+  ]
+}

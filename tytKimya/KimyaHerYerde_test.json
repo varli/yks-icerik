@@ -1,0 +1,331 @@
+{
+  "id": "kimyaheryerde",
+  "title": "Kimya Her Yerde",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Kimya Her Yerde konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kimya Her Yerde",
+      "question": "Sabun ve deterjanların temel kullanım amacı hangisidir?",
+      "options": [
+        "Elektrik üretmek",
+        "Temizlik",
+        "Metalleri üretmek",
+        "Radyoaktivite oluşturmak",
+        "Atom numarasını değiştirmek"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sabun ve deterjanlar kirlerin yüzeyden uzaklaştırılmasına yardımcı olur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kimya Her Yerde",
+      "question": "İlaçların bilinçsiz kullanımının temel sakıncalarından biri hangisidir?",
+      "options": [
+        "Suyu saflaştırması",
+        "Metalleri koruması",
+        "Yakıt üretmesi",
+        "Sağlığa zarar verebilmesi",
+        "Her zaman besin değerini artırması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İlaçlar doktor/eczacı önerisi ve kullanım talimatlarına uygun kullanılmalıdır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Kimya Her Yerde",
+      "question": "Gıdalarda son kullanma tarihinin kontrol edilmesinin temel nedeni nedir?",
+      "options": [
+        "Güvenli tüketimi desteklemek",
+        "Gıdayı elemente dönüştürmek",
+        "Kalorisini sıfırlamak",
+        "Yoğunluğu artırmak",
+        "Rengini sabitlemek"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Son kullanma tarihi gıda güvenliği açısından önemlidir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kimya Her Yerde",
+      "question": "Geri dönüşümün çevresel yararlarından biri hangisidir?",
+      "options": [
+        "Doğal kaynak tüketimini artırması",
+        "Hava kirliliğini zorunlu artırması",
+        "Ham madde ve enerji tüketimini azaltabilmesi",
+        "Atık miktarını artırması",
+        "Tüm maddeleri zehirli yapması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Geri dönüşüm kaynakların daha verimli kullanılmasına katkı sağlar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kimya Her Yerde",
+      "question": "Kozmetik ürünlerin kullanımında hangisine dikkat edilmelidir?",
+      "options": [
+        "Yalnız ambalaj rengine",
+        "Sadece fiyatına",
+        "Yalnız kokusuna",
+        "Hiçbir bilgiye",
+        "Ürün içeriği ve kullanım talimatlarına"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kozmetiklerin güvenli kullanımı için içerik, uyarılar ve talimatlar önemlidir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Kimya Her Yerde",
+      "question": "Temizlik maddeleri karıştırılırken neden dikkatli olunmalıdır?",
+      "options": [
+        "Yoğunluk sıfırlandığı için",
+        "Tehlikeli kimyasal tepkimeler oluşabileceği için",
+        "Her karışım patladığı için",
+        "Tüm deterjanlar yanıcı olduğu için",
+        "Su oluşmadığı için"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bazı temizlik ürünlerinin karıştırılması zararlı gazlar veya tepkimeler oluşturabilir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "Polimerler günlük yaşamda hangi ürünlerde yaygın olarak bulunur?",
+      "options": [
+        "Yalnız sofra tuzunda",
+        "Yalnız oksijende",
+        "Yalnız camda",
+        "Plastiklerde",
+        "Yalnız saf altınlarda"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Birçok plastik polimer yapılı malzemelerden oluşur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "Cam, seramik ve metal gibi malzemelerin farklı kullanım alanlarına sahip olmasının temel nedeni nedir?",
+      "options": [
+        "Fiziksel ve kimyasal özelliklerinin farklı olması",
+        "Hepsinin aynı element olması",
+        "Kütlelerinin sıfır olması",
+        "Tümünün gaz olması",
+        "Atom içermemeleri"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Malzeme seçimi sertlik, dayanıklılık, iletkenlik ve kimyasal kararlılık gibi özelliklere bağlıdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "Su arıtımının amaçlarından biri hangisidir?",
+      "options": [
+        "Suyu metal yapmak",
+        "Kütleyi sıfırlamak",
+        "İstenmeyen maddeleri sudan uzaklaştırmak",
+        "Suyu mutlaka aside dönüştürmek",
+        "Atomları yok etmek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Arıtma işlemleri kullanım amacına göre sudaki istenmeyen bileşenleri azaltmayı hedefler."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "Kimyasal ürünlerin etiketlerindeki tehlike işaretlerinin amacı nedir?",
+      "options": [
+        "Ürünün fiyatını belirlemek",
+        "Atom sayısını göstermek",
+        "Rengini değiştirmek",
+        "Kütlesini artırmak",
+        "Riskler konusunda kullanıcıyı uyarmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tehlike piktogramları kimyasal riskleri ve güvenli kullanım gerekliliklerini bildirir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "Sabun ve deterjanlar kirlerin yüzeyden uzaklaştırılmasına yardımcı olur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Elektrik üretmek",
+        "Temizlik",
+        "Metalleri üretmek",
+        "Radyoaktivite oluşturmak",
+        "Atom numarasını değiştirmek"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sabun ve deterjanlar kirlerin yüzeyden uzaklaştırılmasına yardımcı olur."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "İlaçlar doktor/eczacı önerisi ve kullanım talimatlarına uygun kullanılmalıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Suyu saflaştırması",
+        "Metalleri koruması",
+        "Yakıt üretmesi",
+        "Sağlığa zarar verebilmesi",
+        "Her zaman besin değerini artırması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İlaçlar doktor/eczacı önerisi ve kullanım talimatlarına uygun kullanılmalıdır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "Son kullanma tarihi gıda güvenliği açısından önemlidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Güvenli tüketimi desteklemek",
+        "Gıdayı elemente dönüştürmek",
+        "Kalorisini sıfırlamak",
+        "Yoğunluğu artırmak",
+        "Rengini sabitlemek"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Son kullanma tarihi gıda güvenliği açısından önemlidir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kimya Her Yerde",
+      "question": "Geri dönüşüm kaynakların daha verimli kullanılmasına katkı sağlar. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Doğal kaynak tüketimini artırması",
+        "Hava kirliliğini zorunlu artırması",
+        "Ham madde ve enerji tüketimini azaltabilmesi",
+        "Atık miktarını artırması",
+        "Tüm maddeleri zehirli yapması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Geri dönüşüm kaynakların daha verimli kullanılmasına katkı sağlar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kimya Her Yerde",
+      "question": "Kozmetiklerin güvenli kullanımı için içerik, uyarılar ve talimatlar önemlidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Yalnız ambalaj rengine",
+        "Sadece fiyatına",
+        "Yalnız kokusuna",
+        "Hiçbir bilgiye",
+        "Ürün içeriği ve kullanım talimatlarına"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kozmetiklerin güvenli kullanımı için içerik, uyarılar ve talimatlar önemlidir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kimya Her Yerde",
+      "question": "Bazı temizlik ürünlerinin karıştırılması zararlı gazlar veya tepkimeler oluşturabilir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Yoğunluk sıfırlandığı için",
+        "Tehlikeli kimyasal tepkimeler oluşabileceği için",
+        "Her karışım patladığı için",
+        "Tüm deterjanlar yanıcı olduğu için",
+        "Su oluşmadığı için"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bazı temizlik ürünlerinin karıştırılması zararlı gazlar veya tepkimeler oluşturabilir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Kimya Her Yerde",
+      "question": "Birçok plastik polimer yapılı malzemelerden oluşur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Yalnız sofra tuzunda",
+        "Yalnız oksijende",
+        "Yalnız camda",
+        "Plastiklerde",
+        "Yalnız saf altınlarda"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Birçok plastik polimer yapılı malzemelerden oluşur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Kimya Her Yerde",
+      "question": "Malzeme seçimi sertlik, dayanıklılık, iletkenlik ve kimyasal kararlılık gibi özelliklere bağlıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Fiziksel ve kimyasal özelliklerinin farklı olması",
+        "Hepsinin aynı element olması",
+        "Kütlelerinin sıfır olması",
+        "Tümünün gaz olması",
+        "Atom içermemeleri"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Malzeme seçimi sertlik, dayanıklılık, iletkenlik ve kimyasal kararlılık gibi özelliklere bağlıdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kimya Her Yerde",
+      "question": "Arıtma işlemleri kullanım amacına göre sudaki istenmeyen bileşenleri azaltmayı hedefler. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Suyu metal yapmak",
+        "Kütleyi sıfırlamak",
+        "İstenmeyen maddeleri sudan uzaklaştırmak",
+        "Suyu mutlaka aside dönüştürmek",
+        "Atomları yok etmek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Arıtma işlemleri kullanım amacına göre sudaki istenmeyen bileşenleri azaltmayı hedefler."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Kimya Her Yerde",
+      "question": "Tehlike piktogramları kimyasal riskleri ve güvenli kullanım gerekliliklerini bildirir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Ürünün fiyatını belirlemek",
+        "Atom sayısını göstermek",
+        "Rengini değiştirmek",
+        "Kütlesini artırmak",
+        "Riskler konusunda kullanıcıyı uyarmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tehlike piktogramları kimyasal riskleri ve güvenli kullanım gerekliliklerini bildirir."
+    }
+  ]
+}

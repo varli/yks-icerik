@@ -1,0 +1,331 @@
+{
+  "id": "karisimlar",
+  "title": "Karışımlar",
+  "lesson": "TYT Kimya",
+  "description": "TYT Kimya Karışımlar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Karışımlar",
+      "question": "Birden fazla saf maddenin kimyasal özelliklerini kaybetmeden bir araya gelmesiyle ne oluşur?",
+      "options": [
+        "İyon",
+        "Karışım",
+        "Element",
+        "Bileşik",
+        "Atom"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Karışımlarda bileşenler kimliklerini korur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Karışımlar",
+      "question": "Her yerinde aynı özellik gösteren karışımlara ne denir?",
+      "options": [
+        "Element",
+        "Saf madde",
+        "Süspansiyon",
+        "Homojen karışım",
+        "Heterojen karışım"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Homojen karışımlar tek fazlı ve her noktasında aynı özellikte görünür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Karışımlar",
+      "question": "Tuzlu su hangi karışım türüne örnektir?",
+      "options": [
+        "Homojen karışım",
+        "Heterojen karışım",
+        "Süspansiyon",
+        "Emülsiyon",
+        "Aerosol"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tuz suda çözündüğünde homojen çözelti oluşturur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Karışımlar",
+      "question": "Yağ ve su karışımı genel olarak hangi türdür?",
+      "options": [
+        "Bileşik",
+        "Saf madde",
+        "Heterojen karışım",
+        "Homojen karışım",
+        "Element"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yağ ve su birbirinde homojen çözünmez."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Karışımlar",
+      "question": "Bir katının sıvı içindeki çözünmeyen taneciklerinden oluşan heterojen karışıma ne denir?",
+      "options": [
+        "Çözelti",
+        "Alaşım",
+        "Emülsiyon",
+        "Gaz çözeltisi",
+        "Süspansiyon"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Süspansiyon katı-sıvı heterojen karışımdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Karışımlar",
+      "question": "Birbiri içinde çözünmeyen iki sıvının oluşturduğu heterojen karışıma ne denir?",
+      "options": [
+        "Element",
+        "Emülsiyon",
+        "Süspansiyon",
+        "Çözelti",
+        "Alaşım"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Emülsiyon sıvı-sıvı heterojen karışımdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Katı-sıvı heterojen karışımların ayrılmasında kullanılabilen yöntem hangisidir?",
+      "options": [
+        "Kristallendirme",
+        "Kromatografi",
+        "Özütleme",
+        "Süzme",
+        "Damıtma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Süzme çözünmeyen katıyı sıvıdan ayırabilir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Kaynama noktaları farklı, birbiri içinde çözünen sıvıları ayırmada hangi yöntem kullanılabilir?",
+      "options": [
+        "Damıtma",
+        "Süzme",
+        "Mıknatısla ayırma",
+        "Eleme",
+        "Yüzdürme"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Damıtma kaynama noktası farkından yararlanır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Demir tozu ile kum karışımını ayırmada hangi yöntem uygundur?",
+      "options": [
+        "Kristallendirme",
+        "Buharlaştırma",
+        "Mıknatısla ayırma",
+        "Damıtma",
+        "Süzme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Demirin manyetik özelliğinden yararlanılır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Çözeltilerde miktarı fazla olan veya çözen görevi yapan bileşene ne denir?",
+      "options": [
+        "Çözünen",
+        "Çökelti",
+        "Süspansiyon",
+        "Aerosol",
+        "Çözücü"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çözücü diğer bileşeni çözen ortamdır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Karışımlarda bileşenler kimliklerini korur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İyon",
+        "Karışım",
+        "Element",
+        "Bileşik",
+        "Atom"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Karışımlarda bileşenler kimliklerini korur."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Homojen karışımlar tek fazlı ve her noktasında aynı özellikte görünür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Element",
+        "Saf madde",
+        "Süspansiyon",
+        "Homojen karışım",
+        "Heterojen karışım"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Homojen karışımlar tek fazlı ve her noktasında aynı özellikte görünür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Tuz suda çözündüğünde homojen çözelti oluşturur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Homojen karışım",
+        "Heterojen karışım",
+        "Süspansiyon",
+        "Emülsiyon",
+        "Aerosol"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tuz suda çözündüğünde homojen çözelti oluşturur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Karışımlar",
+      "question": "Yağ ve su birbirinde homojen çözünmez. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Bileşik",
+        "Saf madde",
+        "Heterojen karışım",
+        "Homojen karışım",
+        "Element"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yağ ve su birbirinde homojen çözünmez."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Karışımlar",
+      "question": "Süspansiyon katı-sıvı heterojen karışımdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Çözelti",
+        "Alaşım",
+        "Emülsiyon",
+        "Gaz çözeltisi",
+        "Süspansiyon"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Süspansiyon katı-sıvı heterojen karışımdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Karışımlar",
+      "question": "Emülsiyon sıvı-sıvı heterojen karışımdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Element",
+        "Emülsiyon",
+        "Süspansiyon",
+        "Çözelti",
+        "Alaşım"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Emülsiyon sıvı-sıvı heterojen karışımdır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Karışımlar",
+      "question": "Süzme çözünmeyen katıyı sıvıdan ayırabilir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kristallendirme",
+        "Kromatografi",
+        "Özütleme",
+        "Süzme",
+        "Damıtma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Süzme çözünmeyen katıyı sıvıdan ayırabilir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Karışımlar",
+      "question": "Damıtma kaynama noktası farkından yararlanır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Damıtma",
+        "Süzme",
+        "Mıknatısla ayırma",
+        "Eleme",
+        "Yüzdürme"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Damıtma kaynama noktası farkından yararlanır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Karışımlar",
+      "question": "Demirin manyetik özelliğinden yararlanılır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kristallendirme",
+        "Buharlaştırma",
+        "Mıknatısla ayırma",
+        "Damıtma",
+        "Süzme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Demirin manyetik özelliğinden yararlanılır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Karışımlar",
+      "question": "Çözücü diğer bileşeni çözen ortamdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Çözünen",
+        "Çökelti",
+        "Süspansiyon",
+        "Aerosol",
+        "Çözücü"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çözücü diğer bileşeni çözen ortamdır."
+    }
+  ]
+}
