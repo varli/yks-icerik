@@ -1,0 +1,331 @@
+{
+  "id": "ucgendeaciortayvekenarortaybagintilari",
+  "title": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+  "lesson": "TYT Geometri",
+  "description": "TYT Geometri Üçgende Açıortay ve Kenarortay Bağıntıları konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Üçgende bir köşe açısını iki eşit parçaya bölen doğru parçasına ne denir?",
+      "options": [
+        "Açıortay",
+        "Kenarortay",
+        "Yükseklik",
+        "Orta taban",
+        "Kiriş"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Açıortay bir köşe açısını iki eşit açıya ayırır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Bir köşeyi karşı kenarın orta noktasıyla birleştiren doğru parçasına ne denir?",
+      "options": [
+        "Teğet",
+        "Kesen",
+        "Kenarortay",
+        "Açıortay",
+        "Yükseklik"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kenarortay köşe ile karşı kenarın orta noktasını birleştirir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Üçgenin kenarortaylarının kesişim noktasına ne denir?",
+      "options": [
+        "Diklik merkezi",
+        "İçteğet merkezi",
+        "Çevrel çember merkezi",
+        "Odak",
+        "Ağırlık merkezi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üç kenarortay ağırlık merkezinde kesişir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Ağırlık merkezi bir kenarortayı köşeden itibaren hangi oranda böler?",
+      "options": [
+        "3:2",
+        "2:1",
+        "1:1",
+        "3:1",
+        "1:2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ağırlık merkezi kenarortayı köşeye yakın parça:diğer parça=2:1 oranında böler."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Bir üçgende açıortay karşı kenarı hangi oranda böler?",
+      "options": [
+        "Açıların toplamı oranında",
+        "Alanların karesi oranında",
+        "Rastgele",
+        "Komşu kenarların uzunlukları oranında",
+        "Her zaman eşit"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İç açıortay teoremine göre karşı kenar komşu kenarlar oranında bölünür."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "AB=6, AC=9 ve A açıortayı BC'yi BD ve DC olarak bölüyorsa BD/DC kaçtır?",
+      "options": [
+        "2/3",
+        "1/2",
+        "3/2",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Açıortay teoremine göre BD/DC=AB/AC=6/9=2/3."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Bir üçgende üç iç açıortayın kesiştiği nokta neyin merkezidir?",
+      "options": [
+        "Diklik merkezinin",
+        "Kenarortay çemberinin",
+        "İçteğet çemberinin",
+        "Çevrel çemberin",
+        "Ağırlık merkezinin"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İç açıortayların kesişimi içteğet çemberinin merkezidir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Bir kenarortay üçgeni alan bakımından nasıl böler?",
+      "options": [
+        "1:2 oranında",
+        "1:3 oranında",
+        "Üçe eşit parçaya",
+        "Alanı bölmez",
+        "İki eşit alanlı üçgene"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ortak yükseklik ve eşit tabanlar nedeniyle iki alan eşittir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Kenarortay uzunluğunu hesaplamada kullanılan bağıntı hangi isimle de bilinir?",
+      "options": [
+        "Sinüs teoremi",
+        "Apollonius bağıntısı",
+        "Pisagor bağıntısı",
+        "Thales bağıntısı",
+        "Öklid yükseklik bağıntısı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kenarortay bağıntısı Apollonius teoremiyle ilişkilidir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Eşkenar üçgende bir köşeden karşı kenara çizilen doğru parçası için hangisi doğrudur?",
+      "options": [
+        "Sadece açıortaydır",
+        "Hiçbiri değildir",
+        "Kenarla paraleldir",
+        "Hem açıortay hem kenarortaydır",
+        "Sadece kenarortaydır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Eşkenar üçgende açıortay, kenarortay ve yükseklik aynı doğru parçasıdır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Açıortay bir köşe açısını iki eşit açıya ayırır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Açıortay",
+        "Kenarortay",
+        "Yükseklik",
+        "Orta taban",
+        "Kiriş"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Açıortay bir köşe açısını iki eşit açıya ayırır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Kenarortay köşe ile karşı kenarın orta noktasını birleştirir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Teğet",
+        "Kesen",
+        "Kenarortay",
+        "Açıortay",
+        "Yükseklik"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kenarortay köşe ile karşı kenarın orta noktasını birleştirir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Üç kenarortay ağırlık merkezinde kesişir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Diklik merkezi",
+        "İçteğet merkezi",
+        "Çevrel çember merkezi",
+        "Odak",
+        "Ağırlık merkezi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üç kenarortay ağırlık merkezinde kesişir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Ağırlık merkezi kenarortayı köşeye yakın parça:diğer parça=2:1 oranında böler. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "3:2",
+        "2:1",
+        "1:1",
+        "3:1",
+        "1:2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ağırlık merkezi kenarortayı köşeye yakın parça:diğer parça=2:1 oranında böler."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "İç açıortay teoremine göre karşı kenar komşu kenarlar oranında bölünür. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Açıların toplamı oranında",
+        "Alanların karesi oranında",
+        "Rastgele",
+        "Komşu kenarların uzunlukları oranında",
+        "Her zaman eşit"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İç açıortay teoremine göre karşı kenar komşu kenarlar oranında bölünür."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Açıortay teoremine göre BD/DC=AB/AC=6/9=2/3. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "2/3",
+        "1/2",
+        "3/2",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Açıortay teoremine göre BD/DC=AB/AC=6/9=2/3."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "İç açıortayların kesişimi içteğet çemberinin merkezidir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Diklik merkezinin",
+        "Kenarortay çemberinin",
+        "İçteğet çemberinin",
+        "Çevrel çemberin",
+        "Ağırlık merkezinin"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İç açıortayların kesişimi içteğet çemberinin merkezidir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Ortak yükseklik ve eşit tabanlar nedeniyle iki alan eşittir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "1:2 oranında",
+        "1:3 oranında",
+        "Üçe eşit parçaya",
+        "Alanı bölmez",
+        "İki eşit alanlı üçgene"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ortak yükseklik ve eşit tabanlar nedeniyle iki alan eşittir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Kenarortay bağıntısı Apollonius teoremiyle ilişkilidir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Sinüs teoremi",
+        "Apollonius bağıntısı",
+        "Pisagor bağıntısı",
+        "Thales bağıntısı",
+        "Öklid yükseklik bağıntısı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kenarortay bağıntısı Apollonius teoremiyle ilişkilidir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Üçgende Açıortay ve Kenarortay Bağıntıları",
+      "question": "Eşkenar üçgende açıortay, kenarortay ve yükseklik aynı doğru parçasıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Sadece açıortaydır",
+        "Hiçbiri değildir",
+        "Kenarla paraleldir",
+        "Hem açıortay hem kenarortaydır",
+        "Sadece kenarortaydır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Eşkenar üçgende açıortay, kenarortay ve yükseklik aynı doğru parçasıdır."
+    }
+  ]
+}

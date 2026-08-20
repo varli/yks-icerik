@@ -1,0 +1,331 @@
+{
+  "id": "dogrudaveugendeacilar",
+  "title": "Doğruda ve Üçgende Açılar",
+  "lesson": "TYT Geometri",
+  "description": "TYT Geometri Doğruda ve Üçgende Açılar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bir doğru açı kaç derecedir?",
+      "options": [
+        "180°",
+        "90°",
+        "120°",
+        "270°",
+        "360°"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Doğru açı 180°'dir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Tümler iki açının toplamı kaç derecedir?",
+      "options": [
+        "180°",
+        "360°",
+        "90°",
+        "45°",
+        "120°"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tümler açıların toplamı 90°'dir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bütünler iki açının toplamı kaç derecedir?",
+      "options": [
+        "90°",
+        "100°",
+        "270°",
+        "360°",
+        "180°"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bütünler açıların toplamı 180°'dir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bir üçgenin iç açılar toplamı kaç derecedir?",
+      "options": [
+        "540°",
+        "180°",
+        "90°",
+        "270°",
+        "360°"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Her üçgenin iç açılar toplamı 180°'dir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bir üçgende iki iç açı 50° ve 60° ise üçüncü açı kaç derecedir?",
+      "options": [
+        "80°",
+        "90°",
+        "110°",
+        "70°",
+        "60°"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "180−50−60=70°."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bir üçgenin bir dış açısı, kendisine komşu olmayan iki iç açının hangi değerine eşittir?",
+      "options": [
+        "Toplamına",
+        "Farkına",
+        "Çarpımına",
+        "Yarısına",
+        "Ortalamasına"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Üçgende dış açı teoremine göre dış açı iki uzak iç açının toplamıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bir üçgende iki iç açı 35° ve 75° ise üçüncü iç açı kaçtır?",
+      "options": [
+        "80°",
+        "110°",
+        "70°",
+        "60°",
+        "65°"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "180−35−75=70°."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Ters açıların ölçüleri için hangisi doğrudur?",
+      "options": [
+        "Toplamı 90°'dir",
+        "Toplamı 180°'dir",
+        "Biri diğerinin iki katıdır",
+        "Her zaman 45°'dir",
+        "Eşittir"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kesişen iki doğrunun oluşturduğu ters açılar eşittir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Paralel iki doğruyu kesen bir kesenin oluşturduğu yöndeş açılar nasıldır?",
+      "options": [
+        "İlişki yoktur",
+        "Eşittir",
+        "Bütünlerdir",
+        "Tümlerdir",
+        "Her zaman 90°'dir"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Paralel doğrularda yöndeş açılar eşittir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bir üçgende bir dış açı 120°, uzak iç açılardan biri 50° ise diğer uzak iç açı kaçtır?",
+      "options": [
+        "60°",
+        "80°",
+        "170°",
+        "70°",
+        "50°"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "120=50+x olduğundan x=70°."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Doğru açı 180°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "180°",
+        "90°",
+        "120°",
+        "270°",
+        "360°"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Doğru açı 180°'dir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Tümler açıların toplamı 90°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "180°",
+        "360°",
+        "90°",
+        "45°",
+        "120°"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tümler açıların toplamı 90°'dir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Bütünler açıların toplamı 180°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "90°",
+        "100°",
+        "270°",
+        "360°",
+        "180°"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bütünler açıların toplamı 180°'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Her üçgenin iç açılar toplamı 180°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "540°",
+        "180°",
+        "90°",
+        "270°",
+        "360°"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Her üçgenin iç açılar toplamı 180°'dir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "180−50−60=70°. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "80°",
+        "90°",
+        "110°",
+        "70°",
+        "60°"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "180−50−60=70°."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Üçgende dış açı teoremine göre dış açı iki uzak iç açının toplamıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Toplamına",
+        "Farkına",
+        "Çarpımına",
+        "Yarısına",
+        "Ortalamasına"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Üçgende dış açı teoremine göre dış açı iki uzak iç açının toplamıdır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "180−35−75=70°. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "80°",
+        "110°",
+        "70°",
+        "60°",
+        "65°"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "180−35−75=70°."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Kesişen iki doğrunun oluşturduğu ters açılar eşittir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Toplamı 90°'dir",
+        "Toplamı 180°'dir",
+        "Biri diğerinin iki katıdır",
+        "Her zaman 45°'dir",
+        "Eşittir"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kesişen iki doğrunun oluşturduğu ters açılar eşittir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "Paralel doğrularda yöndeş açılar eşittir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "İlişki yoktur",
+        "Eşittir",
+        "Bütünlerdir",
+        "Tümlerdir",
+        "Her zaman 90°'dir"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Paralel doğrularda yöndeş açılar eşittir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Doğruda ve Üçgende Açılar",
+      "question": "120=50+x olduğundan x=70°. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "60°",
+        "80°",
+        "170°",
+        "70°",
+        "50°"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "120=50+x olduğundan x=70°."
+    }
+  ]
+}

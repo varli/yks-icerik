@@ -1,0 +1,331 @@
+{
+  "id": "ucgendealanvebenzerlik",
+  "title": "Üçgende Alan ve Benzerlik",
+  "lesson": "TYT Geometri",
+  "description": "TYT Geometri Üçgende Alan ve Benzerlik konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Tabanı 10 cm ve bu tabana ait yüksekliği 6 cm olan üçgenin alanı kaç cm²'dir?",
+      "options": [
+        "30",
+        "16",
+        "20",
+        "40",
+        "60"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Alan=taban×yükseklik/2=10×6/2=30."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Alanı 24 cm², tabanı 8 cm olan üçgenin bu tabana ait yüksekliği kaç cm'dir?",
+      "options": [
+        "8",
+        "12",
+        "6",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "24=8h/2 ⇒ h=6."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Benzer iki üçgenin benzerlik oranı 2 ise çevreleri oranı kaçtır?",
+      "options": [
+        "1",
+        "4",
+        "6",
+        "8",
+        "2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Benzer şekillerde çevreler karşılıklı uzunluklarla aynı oranda değişir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Benzerlik oranı 3 olan iki üçgenin alanları oranı kaçtır?",
+      "options": [
+        "27",
+        "9",
+        "3",
+        "6",
+        "12"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Alan oranı benzerlik oranının karesidir: 3²=9."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Aynı yüksekliğe sahip iki üçgenin alanları oranı neye eşittir?",
+      "options": [
+        "Açıları oranına",
+        "Yüksekliklerin karesine",
+        "Her zaman 1'e",
+        "Tabanları oranına",
+        "Çevreleri oranına"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Alan=taban×ortak yükseklik/2 olduğundan alan oranı taban oranıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Aynı tabana sahip iki üçgenin alanları oranı neye eşittir?",
+      "options": [
+        "Yükseklikleri oranına",
+        "Tabanları oranına",
+        "Çevreleri oranına",
+        "Kenar sayısına",
+        "Her zaman 2'ye"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ortak taban varsa alanlar yüksekliklerle doğru orantılıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Kenarları 3, 4, 5 olan dik üçgenin alanı kaçtır?",
+      "options": [
+        "10",
+        "12",
+        "6",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dik kenarlar 3 ve 4 olduğundan alan 3×4/2=6."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Benzer iki üçgende birincinin bir kenarı 4, karşılık gelen ikinci kenar 12 ise benzerlik oranı ikinci/birinci kaçtır?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16",
+        "3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "12/4=3."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Benzerlik oranı 1/2 olan iki üçgenin alanları oranı kaçtır?",
+      "options": [
+        "4",
+        "1/4",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Alan oranı uzunluk oranının karesidir: (1/2)²=1/4."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Tabanı 12 ve yüksekliği 5 olan üçgenin alanı kaçtır?",
+      "options": [
+        "24",
+        "34",
+        "60",
+        "30",
+        "17"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "12×5/2=30."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Alan=taban×yükseklik/2=10×6/2=30. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "30",
+        "16",
+        "20",
+        "40",
+        "60"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Alan=taban×yükseklik/2=10×6/2=30."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "24=8h/2 ⇒ h=6. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "8",
+        "12",
+        "6",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "24=8h/2 ⇒ h=6."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Benzer şekillerde çevreler karşılıklı uzunluklarla aynı oranda değişir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "1",
+        "4",
+        "6",
+        "8",
+        "2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Benzer şekillerde çevreler karşılıklı uzunluklarla aynı oranda değişir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Alan oranı benzerlik oranının karesidir: 3²=9. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "27",
+        "9",
+        "3",
+        "6",
+        "12"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Alan oranı benzerlik oranının karesidir: 3²=9."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Alan=taban×ortak yükseklik/2 olduğundan alan oranı taban oranıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Açıları oranına",
+        "Yüksekliklerin karesine",
+        "Her zaman 1'e",
+        "Tabanları oranına",
+        "Çevreleri oranına"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Alan=taban×ortak yükseklik/2 olduğundan alan oranı taban oranıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Ortak taban varsa alanlar yüksekliklerle doğru orantılıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Yükseklikleri oranına",
+        "Tabanları oranına",
+        "Çevreleri oranına",
+        "Kenar sayısına",
+        "Her zaman 2'ye"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ortak taban varsa alanlar yüksekliklerle doğru orantılıdır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Dik kenarlar 3 ve 4 olduğundan alan 3×4/2=6. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "10",
+        "12",
+        "6",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dik kenarlar 3 ve 4 olduğundan alan 3×4/2=6."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "12/4=3. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "16",
+        "3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "12/4=3."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "Alan oranı uzunluk oranının karesidir: (1/2)²=1/4. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "4",
+        "1/4",
+        "1/2",
+        "1",
+        "2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Alan oranı uzunluk oranının karesidir: (1/2)²=1/4."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Üçgende Alan ve Benzerlik",
+      "question": "12×5/2=30. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "24",
+        "34",
+        "60",
+        "30",
+        "17"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "12×5/2=30."
+    }
+  ]
+}

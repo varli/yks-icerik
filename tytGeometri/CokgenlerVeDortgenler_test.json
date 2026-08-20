@@ -1,0 +1,331 @@
+{
+  "id": "cokgenlervedortgenler",
+  "title": "Çokgenler ve Dörtgenler",
+  "lesson": "TYT Geometri",
+  "description": "TYT Geometri Çokgenler ve Dörtgenler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Bir dörtgenin iç açılar toplamı kaç derecedir?",
+      "options": [
+        "360°",
+        "180°",
+        "270°",
+        "540°",
+        "720°"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Dörtgenlerin iç açılar toplamı 360°'dir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Bir beşgenin iç açılar toplamı kaç derecedir?",
+      "options": [
+        "600°",
+        "720°",
+        "540°",
+        "360°",
+        "450°"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "(5−2)×180=540°."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Düzgün altıgenin bir iç açısı kaç derecedir?",
+      "options": [
+        "60°",
+        "90°",
+        "135°",
+        "150°",
+        "120°"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Düzgün altıgende bir iç açı 720/6=120°'dir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Bir n-genin iç açılar toplamı hangi formülle bulunur?",
+      "options": [
+        "(n−1)×90°",
+        "(n−2)×180°",
+        "n×180°",
+        "(n+2)×180°",
+        "360°/n"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Çokgenin iç açılar toplamı (n−2)×180°'dir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Herhangi bir dışbükey çokgenin dış açılar toplamı kaç derecedir?",
+      "options": [
+        "540°",
+        "720°",
+        "n×180°",
+        "360°",
+        "180°"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Her dışbükey çokgenin birer dış açısının toplamı 360°'dir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Karşılıklı kenarları paralel olan dörtgene ne denir?",
+      "options": [
+        "Paralelkenar",
+        "Yamuk",
+        "Deltoid",
+        "Üçgen",
+        "Beşgen"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Paralelkenarda iki çift karşılıklı kenar paraleldir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Dikdörtgenin köşegenleri için hangisi doğrudur?",
+      "options": [
+        "Uzunlukları farklıdır",
+        "Kesişmezler",
+        "Uzunlukları eşittir",
+        "Birbirine diktir",
+        "Her zaman açıortaydır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dikdörtgenin köşegen uzunlukları eşittir ve birbirini ortalar."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Karenin alanı bir kenarı a ise nedir?",
+      "options": [
+        "2a",
+        "4a",
+        "a/2",
+        "2a²",
+        "a²"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Karenin alanı kenar×kenar=a²'dir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Yamuğun alanı hangi ifadeyle bulunur?",
+      "options": [
+        "Çevre × yükseklik",
+        "(Alt taban + üst taban) × yükseklik / 2",
+        "Taban × yükseklik",
+        "Kenar²",
+        "Köşegenlerin çarpımı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yamuk alanı paralel kenarların toplamının yarısı ile yüksekliğin çarpımıdır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Eşkenar dörtgende köşegenler için hangisi doğrudur?",
+      "options": [
+        "Kesişmezler",
+        "Paraleldir",
+        "Kenarlarla ilgisizdir",
+        "Birbirine diktir",
+        "Eşit olmak zorundadır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Eşkenar dörtgenin köşegenleri birbirini dik keser."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Dörtgenlerin iç açılar toplamı 360°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "360°",
+        "180°",
+        "270°",
+        "540°",
+        "720°"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Dörtgenlerin iç açılar toplamı 360°'dir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "(5−2)×180=540°. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "600°",
+        "720°",
+        "540°",
+        "360°",
+        "450°"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "(5−2)×180=540°."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Düzgün altıgende bir iç açı 720/6=120°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "60°",
+        "90°",
+        "135°",
+        "150°",
+        "120°"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Düzgün altıgende bir iç açı 720/6=120°'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Çokgenin iç açılar toplamı (n−2)×180°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "(n−1)×90°",
+        "(n−2)×180°",
+        "n×180°",
+        "(n+2)×180°",
+        "360°/n"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Çokgenin iç açılar toplamı (n−2)×180°'dir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Her dışbükey çokgenin birer dış açısının toplamı 360°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "540°",
+        "720°",
+        "n×180°",
+        "360°",
+        "180°"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Her dışbükey çokgenin birer dış açısının toplamı 360°'dir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Paralelkenarda iki çift karşılıklı kenar paraleldir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Paralelkenar",
+        "Yamuk",
+        "Deltoid",
+        "Üçgen",
+        "Beşgen"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Paralelkenarda iki çift karşılıklı kenar paraleldir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Dikdörtgenin köşegen uzunlukları eşittir ve birbirini ortalar. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Uzunlukları farklıdır",
+        "Kesişmezler",
+        "Uzunlukları eşittir",
+        "Birbirine diktir",
+        "Her zaman açıortaydır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dikdörtgenin köşegen uzunlukları eşittir ve birbirini ortalar."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Karenin alanı kenar×kenar=a²'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "2a",
+        "4a",
+        "a/2",
+        "2a²",
+        "a²"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Karenin alanı kenar×kenar=a²'dir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Yamuk alanı paralel kenarların toplamının yarısı ile yüksekliğin çarpımıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Çevre × yükseklik",
+        "(Alt taban + üst taban) × yükseklik / 2",
+        "Taban × yükseklik",
+        "Kenar²",
+        "Köşegenlerin çarpımı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yamuk alanı paralel kenarların toplamının yarısı ile yüksekliğin çarpımıdır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Çokgenler ve Dörtgenler",
+      "question": "Eşkenar dörtgenin köşegenleri birbirini dik keser. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Kesişmezler",
+        "Paraleldir",
+        "Kenarlarla ilgisizdir",
+        "Birbirine diktir",
+        "Eşit olmak zorundadır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Eşkenar dörtgenin köşegenleri birbirini dik keser."
+    }
+  ]
+}

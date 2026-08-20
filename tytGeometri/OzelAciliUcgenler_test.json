@@ -1,0 +1,331 @@
+{
+  "id": "ozelaciliucgenler",
+  "title": "Özel Açılı Üçgenler",
+  "lesson": "TYT Geometri",
+  "description": "TYT Geometri Özel Açılı Üçgenler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Özel Açılı Üçgenler",
+      "question": "45°-45°-90° üçgeninde dik kenarlar a ise hipotenüs nedir?",
+      "options": [
+        "a√2",
+        "a",
+        "2a",
+        "a√3",
+        "a/2"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İkizkenar dik üçgende hipotenüs a√2'dir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Özel Açılı Üçgenler",
+      "question": "30°-60°-90° üçgeninde 30° karşısındaki kenar a ise hipotenüs nedir?",
+      "options": [
+        "3a",
+        "a/2",
+        "2a",
+        "a√2",
+        "a√3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "30-60-90 üçgeninde kenar oranları a:a√3:2a'dır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Özel Açılı Üçgenler",
+      "question": "30°-60°-90° üçgeninde 30° karşısı 5 ise 60° karşısı kaçtır?",
+      "options": [
+        "5√2",
+        "10",
+        "10√3",
+        "15",
+        "5√3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kenar oranına göre 60° karşısı a√3=5√3'tür."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Özel Açılı Üçgenler",
+      "question": "45°-45°-90° üçgeninde hipotenüs 10√2 ise bir dik kenar kaçtır?",
+      "options": [
+        "20√2",
+        "10",
+        "5",
+        "5√2",
+        "20"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hipotenüs a√2 olduğundan a=10."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Özel Açılı Üçgenler",
+      "question": "30°-60°-90° üçgeninde hipotenüs 12 ise kısa dik kenar kaçtır?",
+      "options": [
+        "6√2",
+        "6√3",
+        "8",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kısa dik kenar hipotenüsün yarısıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Özel Açılı Üçgenler",
+      "question": "30°-60°-90° üçgeninde kısa dik kenar 4 ise uzun dik kenar kaçtır?",
+      "options": [
+        "4√3",
+        "4√2",
+        "8",
+        "8√3",
+        "12"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Uzun dik kenar kısa kenarın √3 katıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Bir eşkenar üçgenin yüksekliği, kenarı a ise kaçtır?",
+      "options": [
+        "a√3",
+        "2a",
+        "a√3/2",
+        "a/2",
+        "a√2/2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eşkenar üçgen iki 30-60-90 üçgenine ayrılır; yükseklik a√3/2 olur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Kenar uzunluğu 6 olan eşkenar üçgenin yüksekliği kaçtır?",
+      "options": [
+        "3",
+        "6√2",
+        "6√3",
+        "9",
+        "3√3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "h=6√3/2=3√3."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Kenar uzunluğu 4 olan eşkenar üçgenin alanı kaçtır?",
+      "options": [
+        "16",
+        "4√3",
+        "2√3",
+        "8",
+        "8√3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Alan=a²√3/4=16√3/4=4√3."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "45°-45°-90° üçgeninde bir dik kenar 7 ise diğer dik kenar kaçtır?",
+      "options": [
+        "14",
+        "3.5",
+        "14√2",
+        "7",
+        "7√2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "45-45-90 üçgeninde dik kenarlar eşittir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "İkizkenar dik üçgende hipotenüs a√2'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "a√2",
+        "a",
+        "2a",
+        "a√3",
+        "a/2"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İkizkenar dik üçgende hipotenüs a√2'dir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "30-60-90 üçgeninde kenar oranları a:a√3:2a'dır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "3a",
+        "a/2",
+        "2a",
+        "a√2",
+        "a√3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "30-60-90 üçgeninde kenar oranları a:a√3:2a'dır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Kenar oranına göre 60° karşısı a√3=5√3'tür. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "5√2",
+        "10",
+        "10√3",
+        "15",
+        "5√3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kenar oranına göre 60° karşısı a√3=5√3'tür."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Hipotenüs a√2 olduğundan a=10. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "20√2",
+        "10",
+        "5",
+        "5√2",
+        "20"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hipotenüs a√2 olduğundan a=10."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Kısa dik kenar hipotenüsün yarısıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "6√2",
+        "6√3",
+        "8",
+        "6",
+        "4"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kısa dik kenar hipotenüsün yarısıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Uzun dik kenar kısa kenarın √3 katıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "4√3",
+        "4√2",
+        "8",
+        "8√3",
+        "12"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Uzun dik kenar kısa kenarın √3 katıdır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Eşkenar üçgen iki 30-60-90 üçgenine ayrılır; yükseklik a√3/2 olur. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "a√3",
+        "2a",
+        "a√3/2",
+        "a/2",
+        "a√2/2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eşkenar üçgen iki 30-60-90 üçgenine ayrılır; yükseklik a√3/2 olur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Özel Açılı Üçgenler",
+      "question": "h=6√3/2=3√3. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "3",
+        "6√2",
+        "6√3",
+        "9",
+        "3√3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "h=6√3/2=3√3."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Özel Açılı Üçgenler",
+      "question": "Alan=a²√3/4=16√3/4=4√3. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "16",
+        "4√3",
+        "2√3",
+        "8",
+        "8√3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Alan=a²√3/4=16√3/4=4√3."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Özel Açılı Üçgenler",
+      "question": "45-45-90 üçgeninde dik kenarlar eşittir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "14",
+        "3.5",
+        "14√2",
+        "7",
+        "7√2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "45-45-90 üçgeninde dik kenarlar eşittir."
+    }
+  ]
+}

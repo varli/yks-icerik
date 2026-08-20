@@ -1,0 +1,331 @@
+{
+  "id": "ucgenesitsizligiveacikenarbagintilari",
+  "title": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+  "lesson": "TYT Geometri",
+  "description": "TYT Geometri Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Kenarları 3, 4 ve 5 olan üçgen için hangisi doğrudur?",
+      "options": [
+        "Üçgen oluşturur",
+        "Üçgen oluşturmaz",
+        "Eşkenardır",
+        "Kenarların toplamı 10'dan küçüktür",
+        "En büyük kenar 4'tür"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Her iki kenarın toplamı üçüncü kenardan büyüktür; 3+4>5."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "İki kenarı 5 ve 8 olan bir üçgende üçüncü kenar x için hangi aralık doğrudur?",
+      "options": [
+        "5 < x < 8",
+        "0 < x < 3",
+        "3 < x < 13",
+        "x < 3",
+        "x > 13"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Üçgen eşitsizliğine göre |8−5|<x<8+5."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Bir üçgende en büyük açının karşısında nasıl bir kenar bulunur?",
+      "options": [
+        "En kısa kenar",
+        "Her zaman eşit kenar",
+        "Kenar bulunmaz",
+        "Orta uzunlukta kenar",
+        "En uzun kenar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üçgende büyük açının karşısındaki kenar daha uzundur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Bir üçgende eşit açıların karşısındaki kenarlar nasıldır?",
+      "options": [
+        "Toplamları sıfırdır",
+        "Eşittir",
+        "Farklıdır",
+        "Diktir",
+        "Paraleldir"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Eşit açıların karşısında eşit uzunlukta kenarlar bulunur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Kenarları 2, 3 ve 6 olan uzunluklar neden üçgen oluşturmaz?",
+      "options": [
+        "6 çift sayı olduğu için",
+        "2 en küçük olduğu için",
+        "Çevre tek sayı olduğu için",
+        "2+3, 6'dan küçük olduğu için",
+        "Tüm kenarlar farklı olduğu için"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Üçgen eşitsizliği sağlanmaz: 2+3=5<6."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Bir üçgende A açısı B açısından büyükse karşılarındaki a ve b kenarları için ne söylenir?",
+      "options": [
+        "a > b",
+        "a < b",
+        "a = b",
+        "a+b=0",
+        "Karşılaştırılamaz"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Büyük açının karşısındaki kenar daha uzundur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "İki kenarı 7 ve 10 olan üçgende üçüncü kenarın alabileceği en küçük tam sayı değeri kaçtır?",
+      "options": [
+        "17",
+        "18",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "|10−7|<x ⇒ 3<x ve x<17; en küçük tam sayı 4'tür."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "İki kenarı 6 ve 9 olan üçgende üçüncü kenarın alabileceği en büyük tam sayı değeri kaçtır?",
+      "options": [
+        "3",
+        "15",
+        "16",
+        "18",
+        "14"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "3<x<15 olduğundan en büyük tam sayı 14'tür."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Bir üçgende en kısa kenarın karşısında hangi açı bulunur?",
+      "options": [
+        "Her zaman 60°",
+        "En küçük açı",
+        "En büyük açı",
+        "90°",
+        "Dış açı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kenar uzunluğu ile karşısındaki açının büyüklüğü aynı yönde sıralanır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Kenarları 8, 8 ve 12 olan üçgen için hangisi doğrudur?",
+      "options": [
+        "Üçgen değildir",
+        "Dik üçgendir",
+        "Tüm açıları farklıdır",
+        "İkizkenardır",
+        "Eşkenardır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İki kenarı eşit olduğu için ikizkenar üçgendir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Her iki kenarın toplamı üçüncü kenardan büyüktür; 3+4>5. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Üçgen oluşturur",
+        "Üçgen oluşturmaz",
+        "Eşkenardır",
+        "Kenarların toplamı 10'dan küçüktür",
+        "En büyük kenar 4'tür"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Her iki kenarın toplamı üçüncü kenardan büyüktür; 3+4>5."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Üçgen eşitsizliğine göre |8−5|<x<8+5. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "5 < x < 8",
+        "0 < x < 3",
+        "3 < x < 13",
+        "x < 3",
+        "x > 13"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Üçgen eşitsizliğine göre |8−5|<x<8+5."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Üçgende büyük açının karşısındaki kenar daha uzundur. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "En kısa kenar",
+        "Her zaman eşit kenar",
+        "Kenar bulunmaz",
+        "Orta uzunlukta kenar",
+        "En uzun kenar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üçgende büyük açının karşısındaki kenar daha uzundur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Eşit açıların karşısında eşit uzunlukta kenarlar bulunur. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Toplamları sıfırdır",
+        "Eşittir",
+        "Farklıdır",
+        "Diktir",
+        "Paraleldir"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Eşit açıların karşısında eşit uzunlukta kenarlar bulunur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Üçgen eşitsizliği sağlanmaz: 2+3=5<6. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "6 çift sayı olduğu için",
+        "2 en küçük olduğu için",
+        "Çevre tek sayı olduğu için",
+        "2+3, 6'dan küçük olduğu için",
+        "Tüm kenarlar farklı olduğu için"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Üçgen eşitsizliği sağlanmaz: 2+3=5<6."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Büyük açının karşısındaki kenar daha uzundur. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "a > b",
+        "a < b",
+        "a = b",
+        "a+b=0",
+        "Karşılaştırılamaz"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Büyük açının karşısındaki kenar daha uzundur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "|10−7|<x ⇒ 3<x ve x<17; en küçük tam sayı 4'tür. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "17",
+        "18",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "|10−7|<x ⇒ 3<x ve x<17; en küçük tam sayı 4'tür."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "3<x<15 olduğundan en büyük tam sayı 14'tür. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "3",
+        "15",
+        "16",
+        "18",
+        "14"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "3<x<15 olduğundan en büyük tam sayı 14'tür."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "Kenar uzunluğu ile karşısındaki açının büyüklüğü aynı yönde sıralanır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Her zaman 60°",
+        "En küçük açı",
+        "En büyük açı",
+        "90°",
+        "Dış açı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kenar uzunluğu ile karşısındaki açının büyüklüğü aynı yönde sıralanır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Üçgen Eşitsizliği ve Açı-Kenar Bağıntıları",
+      "question": "İki kenarı eşit olduğu için ikizkenar üçgendir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Üçgen değildir",
+        "Dik üçgendir",
+        "Tüm açıları farklıdır",
+        "İkizkenardır",
+        "Eşkenardır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İki kenarı eşit olduğu için ikizkenar üçgendir."
+    }
+  ]
+}

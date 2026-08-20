@@ -1,0 +1,331 @@
+{
+  "id": "cembervedaire",
+  "title": "Çember ve Daire",
+  "lesson": "TYT Geometri",
+  "description": "TYT Geometri Çember ve Daire konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Çember ve Daire",
+      "question": "Çemberin merkezinden geçen kirişe ne ad verilir?",
+      "options": [
+        "Çap",
+        "Yarıçap",
+        "Teğet",
+        "Yay",
+        "Kesen"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Merkezden geçen en uzun kiriş çaptır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Çember ve Daire",
+      "question": "Yarıçapı 5 cm olan çemberin çapı kaç cm'dir?",
+      "options": [
+        "15",
+        "25",
+        "10",
+        "2.5",
+        "5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Çap yarıçapın iki katıdır: 2×5=10."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Çember ve Daire",
+      "question": "Yarıçapı 4 cm olan dairenin alanı kaçtır?",
+      "options": [
+        "4π",
+        "8π",
+        "12π",
+        "32π",
+        "16π"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Daire alanı πr²=16π'dir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Çember ve Daire",
+      "question": "Yarıçapı 6 cm olan çemberin çevresi kaçtır?",
+      "options": [
+        "36π",
+        "12π",
+        "6π",
+        "18π",
+        "24π"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Çember çevresi 2πr=12π'dir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Çember ve Daire",
+      "question": "Çemberi yalnız bir noktada kesen doğruya ne denir?",
+      "options": [
+        "Çap",
+        "Kesen",
+        "Yay",
+        "Teğet",
+        "Kiriş"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Teğet çembere yalnız bir noktada dokunur."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Çember ve Daire",
+      "question": "Teğet, değme noktasına çizilen yarıçapla kaç derecelik açı yapar?",
+      "options": [
+        "90°",
+        "30°",
+        "45°",
+        "60°",
+        "180°"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yarıçap teğete değme noktasında diktir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Merkez açının ölçüsü gördüğü yayın ölçüsüyle nasıl ilişkilidir?",
+      "options": [
+        "Üç katıdır",
+        "İlişkisizdir",
+        "Eşittir",
+        "Yarısıdır",
+        "İki katıdır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Merkez açı ölçüsü gördüğü yayın derece ölçüsüne eşittir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Çevre açı, gördüğü yayın ölçüsünün kaç katıdır?",
+      "options": [
+        "1/4",
+        "1",
+        "2",
+        "3",
+        "1/2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çevre açının ölçüsü gördüğü yayın yarısıdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Çapı gören çevre açının ölçüsü kaç derecedir?",
+      "options": [
+        "180°",
+        "90°",
+        "45°",
+        "60°",
+        "120°"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Thales teoremine göre çapı gören çevre açı 90°'dir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Yarıçapı 3 cm olan dairenin alanı kaçtır?",
+      "options": [
+        "6π",
+        "12π",
+        "18π",
+        "9π",
+        "3π"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "πr²=π×9=9π."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Merkezden geçen en uzun kiriş çaptır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Çap",
+        "Yarıçap",
+        "Teğet",
+        "Yay",
+        "Kesen"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Merkezden geçen en uzun kiriş çaptır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Çap yarıçapın iki katıdır: 2×5=10. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "15",
+        "25",
+        "10",
+        "2.5",
+        "5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Çap yarıçapın iki katıdır: 2×5=10."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Daire alanı πr²=16π'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "4π",
+        "8π",
+        "12π",
+        "32π",
+        "16π"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Daire alanı πr²=16π'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Çember ve Daire",
+      "question": "Çember çevresi 2πr=12π'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "36π",
+        "12π",
+        "6π",
+        "18π",
+        "24π"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Çember çevresi 2πr=12π'dir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Çember ve Daire",
+      "question": "Teğet çembere yalnız bir noktada dokunur. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Çap",
+        "Kesen",
+        "Yay",
+        "Teğet",
+        "Kiriş"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Teğet çembere yalnız bir noktada dokunur."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Çember ve Daire",
+      "question": "Yarıçap teğete değme noktasında diktir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "90°",
+        "30°",
+        "45°",
+        "60°",
+        "180°"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yarıçap teğete değme noktasında diktir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Çember ve Daire",
+      "question": "Merkez açı ölçüsü gördüğü yayın derece ölçüsüne eşittir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "Üç katıdır",
+        "İlişkisizdir",
+        "Eşittir",
+        "Yarısıdır",
+        "İki katıdır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Merkez açı ölçüsü gördüğü yayın derece ölçüsüne eşittir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Çember ve Daire",
+      "question": "Çevre açının ölçüsü gördüğü yayın yarısıdır. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "1/4",
+        "1",
+        "2",
+        "3",
+        "1/2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çevre açının ölçüsü gördüğü yayın yarısıdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Çember ve Daire",
+      "question": "Thales teoremine göre çapı gören çevre açı 90°'dir. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "180°",
+        "90°",
+        "45°",
+        "60°",
+        "120°"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Thales teoremine göre çapı gören çevre açı 90°'dir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Çember ve Daire",
+      "question": "πr²=π×9=9π. Buna göre doğru sonuç/kavram aşağıdakilerden hangisidir?",
+      "options": [
+        "6π",
+        "12π",
+        "18π",
+        "9π",
+        "3π"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "πr²=π×9=9π."
+    }
+  ]
+}
