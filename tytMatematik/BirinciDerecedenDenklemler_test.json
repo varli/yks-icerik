@@ -1,0 +1,331 @@
+{
+  "id": "birinci-dereceden-denklemler-test",
+  "title": "Birinci Dereceden Denklemler",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Birinci Dereceden Denklemler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Temel Denklem",
+      "question": "x + 7 = 15 denkleminin çözümü kaçtır?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Her iki taraftan 7 çıkarılır: x = 15 - 7 = 8."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Temel Denklem",
+      "question": "3x = 21 denklemini sağlayan x değeri kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Her iki taraf 3'e bölünür: x = 21 / 3 = 7."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Temel Denklem",
+      "question": "2x - 5 = 13 denkleminin çözümü kaçtır?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "2x - 5 = 13 ⇒ 2x = 18 ⇒ x = 9."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kesirli Denklem",
+      "question": "x / 4 + 2 = 5 denkleminin çözümü kaçtır?",
+      "options": [
+        "8",
+        "10",
+        "12",
+        "14",
+        "16"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x/4 = 3 olduğundan x = 12'dir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Parantezli Denklem",
+      "question": "2(x + 3) = 18 denkleminin çözümü kaçtır?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "2(x+3)=18 ⇒ x+3=9 ⇒ x=6."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Bilinmeyen İki Tarafta",
+      "question": "5x - 4 = 3x + 10 denkleminin çözümü kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "5x-4=3x+10 ⇒ 2x=14 ⇒ x=7."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Parantezli Denklem",
+      "question": "3(x - 2) + 4 = 2x + 9 denkleminin çözümü kaçtır?",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12",
+        "13"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "3x-6+4=2x+9 ⇒ 3x-2=2x+9 ⇒ x=11."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kesirli Denklem",
+      "question": "(x - 2) / 3 = (x + 6) / 5 denkleminin çözümü kaçtır?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "5(x-2)=3(x+6) ⇒ 5x-10=3x+18 ⇒ 2x=28 ⇒ x=14."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Denklem Kurma",
+      "question": "Bir sayının 3 katının 5 fazlası 29 olduğuna göre bu sayı kaçtır?",
+      "options": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Sayı x olsun. 3x+5=29 ⇒ 3x=24 ⇒ x=8."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Sayı Problemi",
+      "question": "Bir sayının 4 eksiğinin 2 katı 20'dir. Buna göre sayı kaçtır?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "16",
+        "18"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "2(x-4)=20 ⇒ x-4=10 ⇒ x=14."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Ardışık Sayılar",
+      "question": "Ardışık üç tam sayının toplamı 45 olduğuna göre ortanca sayı kaçtır?",
+      "options": [
+        "13",
+        "14",
+        "15",
+        "16",
+        "17"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Sayılar x-1, x, x+1 olsun. Toplam 3x=45 ⇒ x=15."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Yaş Problemi",
+      "question": "Ali'nin yaşı, kardeşinin yaşının 2 katından 3 fazladır. Ali 17 yaşında olduğuna göre kardeşi kaç yaşındadır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kardeşin yaşı x olsun. 2x+3=17 ⇒ 2x=14 ⇒ x=7."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Çevre Problemi",
+      "question": "Bir dikdörtgenin uzun kenarı kısa kenarının 2 katından 3 cm fazladır. Dikdörtgenin çevresi 42 cm olduğuna göre kısa kenarı kaç cm'dir?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kısa kenar x, uzun kenar 2x+3 olsun. 2[x+(2x+3)]=42 ⇒ 6x+6=42 ⇒ x=6."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Oran ve Denklem",
+      "question": "Bir sayının 2/3'ü 18 olduğuna göre bu sayı kaçtır?",
+      "options": [
+        "21",
+        "24",
+        "27",
+        "30",
+        "36"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "(2/3)x=18 ⇒ x=18·3/2=27."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kesirli Denklem",
+      "question": "(2x - 1) / 3 - (x + 2) / 2 = 1 denkleminin çözümü kaçtır?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Paydalar 6'da eşitlenir: 2(2x-1)-3(x+2)=6 ⇒ 4x-2-3x-6=6 ⇒ x=14."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Denklem Kurma",
+      "question": "Bir sayının yarısının 4 fazlası, aynı sayının üçte birinin 9 fazlasına eşittir. Buna göre sayı kaçtır?",
+      "options": [
+        "24",
+        "26",
+        "28",
+        "30",
+        "32"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "x/2+4=x/3+9 ⇒ x/6=5 ⇒ x=30."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Ardışık Çift Sayılar",
+      "question": "Ardışık üç çift tam sayının toplamı 66 olduğuna göre en büyük sayı kaçtır?",
+      "options": [
+        "20",
+        "22",
+        "24",
+        "26",
+        "28"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Sayılar x-2, x, x+2 olsun. 3x=66 ⇒ x=22. En büyük sayı 24'tür."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Problem",
+      "question": "Bir kitabın fiyatının 20 TL fazlasının 3 katı 240 TL'dir. Kitabın fiyatı kaç TL'dir?",
+      "options": [
+        "50",
+        "55",
+        "60",
+        "65",
+        "70"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "3(x+20)=240 ⇒ x+20=80 ⇒ x=60."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Denklem ve Basamak",
+      "question": "İki basamaklı bir sayının onlar basamağı, birler basamağının 2 katıdır. Rakamları toplamı 12 olduğuna göre sayı kaçtır?",
+      "options": [
+        "48",
+        "62",
+        "72",
+        "84",
+        "93"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Birler basamağı x, onlar basamağı 2x olsun. 3x=12 ⇒ x=4. Sayı 84'tür."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Denklem Problemi",
+      "question": "Bir sınıftaki öğrencilerin 1/3'ü kızdır. Sınıfa 4 kız öğrenci daha geldiğinde kızların sayısı sınıfın toplam öğrenci sayısının 2/5'i oluyor. Başlangıçta sınıfta kaç öğrenci vardır?",
+      "options": [
+        "24",
+        "30",
+        "36",
+        "42",
+        "48"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Başlangıç toplamı x olsun; kız sayısı x/3'tür. (x/3+4)/(x+4)=2/5 ⇒ 5x/3+20=2x+8 ⇒ 12=x/3 ⇒ x=36."
+    }
+  ]
+}

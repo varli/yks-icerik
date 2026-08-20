@@ -1,0 +1,331 @@
+{
+  "id": "basit-esitsizlikler-test",
+  "title": "Basit Eşitsizlikler",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Basit Eşitsizlikler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Birinci Dereceden Eşitsizlik",
+      "question": "x + 3 > 7 eşitsizliğini sağlayan x değerleri için aşağıdakilerden hangisi doğrudur?",
+      "options": [
+        "x > 4",
+        "x < 4",
+        "x ≥ 4",
+        "x ≤ 4",
+        "x > 10"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Her iki taraftan 3 çıkarılır: x > 4."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Birinci Dereceden Eşitsizlik",
+      "question": "2x - 5 ≤ 9 eşitsizliğinin çözümü aşağıdakilerden hangisidir?",
+      "options": [
+        "x ≤ 2",
+        "x ≤ 7",
+        "x ≥ 7",
+        "x < 7",
+        "x ≥ 2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2x - 5 ≤ 9 ⇒ 2x ≤ 14 ⇒ x ≤ 7."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Negatif Sayıyla Bölme",
+      "question": "-3x > 12 eşitsizliğinin çözümü aşağıdakilerden hangisidir?",
+      "options": [
+        "x > -4",
+        "x < -4",
+        "x ≥ -4",
+        "x < 4",
+        "x > 4"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Her iki taraf -3'e bölünürken eşitsizliğin yönü değişir: x < -4."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Aralık",
+      "question": "-2 < x ≤ 5 eşitsizliğini sağlayan tam sayıların sayısı kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tam sayılar -1, 0, 1, 2, 3, 4 ve 5'tir. Toplam 7 tane vardır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Eşitsizlik Kurma",
+      "question": "Bir sayının 4 fazlası 11'den küçüktür. Bu durumu ifade eden eşitsizlik aşağıdakilerden hangisidir?",
+      "options": [
+        "x + 4 < 11",
+        "x - 4 < 11",
+        "4x < 11",
+        "x + 11 < 4",
+        "x + 4 > 11"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Sayı x seçilirse '4 fazlası' x + 4, '11'den küçüktür' ifadesi de < 11 olur."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Birinci Dereceden Eşitsizlik",
+      "question": "3(x - 2) ≥ 2x + 5 eşitsizliğinin çözümü aşağıdakilerden hangisidir?",
+      "options": [
+        "x ≥ 11",
+        "x ≤ 11",
+        "x > 1",
+        "x ≥ 1",
+        "x ≤ -11"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "3x - 6 ≥ 2x + 5 ⇒ x ≥ 11."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Birinci Dereceden Eşitsizlik",
+      "question": "5 - 2x < 11 eşitsizliğinin çözümü aşağıdakilerden hangisidir?",
+      "options": [
+        "x < -3",
+        "x > -3",
+        "x < 3",
+        "x > 3",
+        "x ≥ -3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "5 - 2x < 11 ⇒ -2x < 6. -2'ye bölünürken yön değişir ve x > -3 bulunur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Çift Taraflı Eşitsizlik",
+      "question": "1 < 2x + 3 ≤ 9 eşitsizliğinin çözümü aşağıdakilerden hangisidir?",
+      "options": [
+        "-1 < x ≤ 3",
+        "-2 < x ≤ 6",
+        "1 < x ≤ 9",
+        "-1 ≤ x < 3",
+        "x > -1"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "1 < 2x + 3 ≤ 9 ⇒ -2 < 2x ≤ 6 ⇒ -1 < x ≤ 3."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Tam Sayı Çözümler",
+      "question": "2x + 1 < 10 eşitsizliğini sağlayan pozitif tam sayı x değerlerinin toplamı kaçtır?",
+      "options": [
+        "6",
+        "10",
+        "15",
+        "4",
+        "3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2x + 1 < 10 ⇒ x < 4,5. Pozitif tam sayılar 1, 2, 3, 4'tür ve toplamları 10'dur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Eşitsizlik Sistemi",
+      "question": "x > 2 ve x ≤ 7 koşullarını birlikte sağlayan tam sayıların sayısı kaçtır?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Koşulları sağlayan tam sayılar 3, 4, 5, 6 ve 7'dir. Toplam 5 tane vardır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kesirli Eşitsizlik",
+      "question": "(x - 1) / 3 ≥ 2 eşitsizliğinin çözümü aşağıdakilerden hangisidir?",
+      "options": [
+        "x ≥ 5",
+        "x ≥ 7",
+        "x ≤ 7",
+        "x > 7",
+        "x ≤ 5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "(x - 1)/3 ≥ 2 ⇒ x - 1 ≥ 6 ⇒ x ≥ 7."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Problem",
+      "question": "Bir sinema salonunda öğrenci bileti 60 TL'dir. Biletler için en fazla 420 TL harcayacak bir öğrenci en çok kaç bilet alabilir?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "60x ≤ 420 ⇒ x ≤ 7. En fazla 7 bilet alınabilir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Problem",
+      "question": "Bir taksi yolculuğunun sabit açılış ücreti 30 TL, kilometre başına ücreti 12 TL'dir. Toplam ücretin 150 TL'yi aşmaması için en fazla kaç kilometre yol gidilebilir?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "30 + 12x ≤ 150 ⇒ 12x ≤ 120 ⇒ x ≤ 10."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Eşitsizlik",
+      "question": "4x + 7 > 2x + 15 eşitsizliğinin çözümü aşağıdakilerden hangisidir?",
+      "options": [
+        "x > 4",
+        "x < 4",
+        "x ≥ 4",
+        "x > 11",
+        "x < 11"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "4x + 7 > 2x + 15 ⇒ 2x > 8 ⇒ x > 4."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Tam Sayı Çözümler",
+      "question": "-5 ≤ 2x - 1 < 8 eşitsizliğini sağlayan kaç farklı tam sayı x vardır?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "-5 ≤ 2x - 1 < 8 ⇒ -4 ≤ 2x < 9 ⇒ -2 ≤ x < 4,5. Tam sayılar -2,-1,0,1,2,3,4 olmak üzere 7 tanedir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Parametreli Eşitsizlik",
+      "question": "x bir tam sayı olmak üzere 3x - 4 < 14 eşitsizliğini sağlayan en büyük x değeri kaçtır?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "3x - 4 < 14 ⇒ 3x < 18 ⇒ x < 6. En büyük tam sayı x = 5'tir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Problem",
+      "question": "Bir öğrencinin 5 sınavdan aldığı puanların ortalamasının en az 70 olması isteniyor. İlk dört sınav puanı 65, 72, 68 ve 75 olduğuna göre son sınavdan en az kaç puan almalıdır?",
+      "options": [
+        "65",
+        "68",
+        "70",
+        "72",
+        "75"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "(65+72+68+75+x)/5 ≥ 70 ⇒ 280+x ≥ 350 ⇒ x ≥ 70."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Problem",
+      "question": "Bir kargo şirketi 2 kg'a kadar sabit 50 TL, 2 kg'dan sonraki her kilogram için 15 TL ücret almaktadır. Kargo ücretinin 125 TL'yi aşmaması için kargonun ağırlığı en fazla kaç kg olabilir?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ağırlık x kg olsun. x>2 için 50 + 15(x-2) ≤ 125 ⇒ 15(x-2) ≤ 75 ⇒ x ≤ 7."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Eşitsizlik Sistemi",
+      "question": "2x - 3 ≥ 5 ve 3x + 1 < 19 eşitsizliklerini birlikte sağlayan tam sayı x değerlerinin toplamı kaçtır?",
+      "options": [
+        "4",
+        "5",
+        "9",
+        "10",
+        "15"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İlk eşitsizlik x ≥ 4, ikinci eşitsizlik x < 6 verir. Tam sayılar 4 ve 5 olduğundan toplam 9'dur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Çift Taraflı Eşitsizlik",
+      "question": "2 < (x + 1) / 2 ≤ 5 eşitsizliğini sağlayan tam sayı x değerlerinin toplamı kaçtır?",
+      "options": [
+        "30",
+        "32",
+        "35",
+        "39",
+        "42"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "2 < (x+1)/2 ≤ 5 ⇒ 4 < x+1 ≤ 10 ⇒ 3 < x ≤ 9. Tam sayılar 4,5,6,7,8,9 ve toplamları 39'dur."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "binom-acilimi-test",
+  "title": "Binom Açılımı",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Binom Açılımı konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Binom Açılımı",
+      "question": "(x + 2)^2 ifadesinin açılımı aşağıdakilerden hangisidir?",
+      "options": [
+        "x² + 2x + 4",
+        "x² + 4x + 4",
+        "x² + 4",
+        "x² + 2x + 2",
+        "x² + 4x + 2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "(a+b)²=a²+2ab+b². Buna göre (x+2)²=x²+4x+4."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Binom Açılımı",
+      "question": "(a - 3)^2 ifadesinin açılımı aşağıdakilerden hangisidir?",
+      "options": [
+        "a² - 6a + 9",
+        "a² - 9",
+        "a² + 6a + 9",
+        "a² - 3a + 9",
+        "a² - 6a - 9"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "(a-b)²=a²-2ab+b² olduğundan (a-3)²=a²-6a+9."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Katsayılar",
+      "question": "(x + y)^4 açılımında toplam kaç terim vardır?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "(x+y)^n açılımında n+1 terim vardır. n=4 için 5 terim bulunur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Binom Katsayısı",
+      "question": "(x + y)^5 açılımında x³y² teriminin katsayısı kaçtır?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "25"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x³y² teriminin katsayısı C(5,2)=10'dur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Sabit Terim",
+      "question": "(x + 3)^3 açılımındaki sabit terim kaçtır?",
+      "options": [
+        "3",
+        "9",
+        "18",
+        "27",
+        "81"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sabit terim 3³=27'dir."
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "category": "Binom Katsayısı",
+      "question": "(2x + 1)^4 açılımında x²'li terimin katsayısı kaçtır?",
+      "options": [
+        "16",
+        "20",
+        "24",
+        "32",
+        "36"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x² için k=2 seçilir: C(4,2)(2x)²=6·4x²=24x²."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Terim Bulma",
+      "question": "(x + 2)^5 açılımında x³'lü terimin katsayısı kaçtır?",
+      "options": [
+        "20",
+        "40",
+        "60",
+        "80",
+        "120"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x³ elde etmek için 2 iki kez seçilir: C(5,2)x³·2²=10·4x³=40x³."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Binom Katsayıları",
+      "question": "(x + y)^6 açılımındaki katsayıların toplamı kaçtır?",
+      "options": [
+        "32",
+        "48",
+        "64",
+        "96",
+        "128"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x=1 ve y=1 yazılırsa katsayılar toplamı (1+1)^6=64 bulunur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Binom Katsayıları",
+      "question": "(x - 1)^7 açılımındaki katsayıların toplamı kaçtır?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "7",
+        "128"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Katsayılar toplamı için x=1 yazılır: (1-1)^7=0."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Ortanca Terim",
+      "question": "(x + y)^6 açılımının ortanca terimi aşağıdakilerden hangisidir?",
+      "options": [
+        "15x⁴y²",
+        "20x³y³",
+        "15x²y⁴",
+        "6x⁵y",
+        "6xy⁵"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "7 terim olduğundan ortanca terim 4. terimdir: C(6,3)x³y³=20x³y³."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Terim Bulma",
+      "question": "(2x - 3)^3 açılımında x²'li terim aşağıdakilerden hangisidir?",
+      "options": [
+        "-12x²",
+        "-24x²",
+        "-36x²",
+        "12x²",
+        "36x²"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x²'li terim C(3,1)(2x)²(-3)=3·4x²·(-3)=-36x²."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Binom Katsayısı",
+      "question": "(x² + y)^5 açılımında x⁶y² teriminin katsayısı kaçtır?",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20",
+        "30"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "(x²)³y² için y iki kez seçilir. Katsayı C(5,2)=10'dur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Pascal Üçgeni",
+      "question": "Pascal üçgeninin 6. satırındaki (1, 5, 10, 10, 5, 1) sayıların toplamı kaçtır?",
+      "options": [
+        "16",
+        "25",
+        "30",
+        "32",
+        "64"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Bu satır (a+b)^5'in katsayılarıdır. Toplam 2^5=32'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Katsayı Bulma",
+      "question": "(1 + 2x)^5 açılımında x teriminin katsayısı kaçtır?",
+      "options": [
+        "5",
+        "8",
+        "10",
+        "16",
+        "20"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x'li terim C(5,1)(2x)=5·2x=10x olduğundan katsayı 10'dur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Sabit Terim",
+      "question": "(x² + 1/x)^6 açılımındaki sabit terim kaçtır?",
+      "options": [
+        "10",
+        "15",
+        "20",
+        "30",
+        "60"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Genel terimde x'in kuvveti 2(6-k)-k=12-3k'dır. Sabit terim için k=4 olur. Katsayı C(6,4)=15'tir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Belirli Terim",
+      "question": "(x - 2)^8 açılımında x⁵'li terimin katsayısı kaçtır?",
+      "options": [
+        "-224",
+        "-448",
+        "224",
+        "448",
+        "896"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x⁵ için (-2) üç kez seçilir: C(8,3)x⁵(-2)³=56·(-8)x⁵=-448x⁵."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Binom Katsayıları",
+      "question": "(2x + 3)^5 açılımındaki katsayıların toplamı kaçtır?",
+      "options": [
+        "625",
+        "1250",
+        "243",
+        "3125",
+        "7776"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Katsayılar toplamı için x=1 yazılır: (2+3)^5=5^5=3125."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Tek-Çift Dereceli Terimler",
+      "question": "(1 + x)^8 açılımında x'in çift kuvvetli terimlerinin katsayıları toplamı kaçtır?",
+      "options": [
+        "64",
+        "128",
+        "192",
+        "256",
+        "512"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Çift dereceli katsayıların toplamı [(1+1)^8+(1-1)^8]/2=256/2=128'dir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Terim Katsayısı",
+      "question": "(x² - 2/x)^6 açılımında x³'lü terimin katsayısı kaçtır?",
+      "options": [
+        "-120",
+        "-160",
+        "160",
+        "240",
+        "320"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Genel terimde x kuvveti 2(6-k)-k=12-3k. 12-3k=3 ⇒ k=3. Katsayı C(6,3)(-2)^3=20·(-8)=-160."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Binom ve Katsayı",
+      "question": "(1 + x)^10 açılımında x⁴ ve x⁶ terimlerinin katsayıları toplamı kaçtır?",
+      "options": [
+        "210",
+        "420",
+        "504",
+        "630",
+        "840"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "C(10,4)+C(10,6)=210+210=420. Simetriden bu iki katsayı eşittir."
+    }
+  ]
+}
