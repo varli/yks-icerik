@@ -1,0 +1,331 @@
+{
+  "id": "dogaveinsancografyaninbolumleri",
+  "title": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+  "lesson": "TYT Coğrafya",
+  "description": "TYT Coğrafya Doğa ve İnsan & Coğrafyanın Bölümleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "İnsan ile doğal çevre arasındaki karşılıklı etkileşimi inceleyen bilim hangisidir?",
+      "options": [
+        "Astronomi",
+        "Psikoloji",
+        "Coğrafya",
+        "Tarih",
+        "Kimya"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Coğrafya insan, mekân ve doğal çevre arasındaki ilişkileri inceler."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Aşağıdakilerden hangisi fiziki coğrafyanın inceleme alanındadır?",
+      "options": [
+        "Yer şekilleri",
+        "Nüfus hareketleri",
+        "Sanayi faaliyetleri",
+        "Ticaret",
+        "Yerleşme tipleri"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yer şekilleri fiziki coğrafyanın konusudur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Nüfusun dağılışı ve özelliklerini inceleyen coğrafya dalı hangisidir?",
+      "options": [
+        "Jeomorfoloji",
+        "Hidrografya",
+        "Biyocoğrafya",
+        "Nüfus coğrafyası",
+        "Klimatoloji"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Nüfus coğrafyası nüfusun dağılışını, yapısını ve hareketlerini inceler."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "İklimleri inceleyen coğrafya dalına ne ad verilir?",
+      "options": [
+        "Pedoloji",
+        "Klimatoloji",
+        "Kartografya",
+        "Jeomorfoloji",
+        "Hidrografya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Klimatoloji iklim elemanlarını ve iklim tiplerini inceler."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Yer şekillerinin oluşum ve gelişimini inceleyen dal hangisidir?",
+      "options": [
+        "Klimatoloji",
+        "Nüfus coğrafyası",
+        "Ekonomik coğrafya",
+        "Kartografya",
+        "Jeomorfoloji"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Jeomorfoloji yeryüzü şekillerini inceler."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Akarsular, göller ve yer altı sularını inceleyen coğrafya dalı hangisidir?",
+      "options": [
+        "Klimatoloji",
+        "Siyasi coğrafya",
+        "Hidrografya",
+        "Biyocoğrafya",
+        "Jeomorfoloji"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hidrografya yeryüzündeki suları inceler."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Haritaların hazırlanması ve kullanımıyla ilgilenen alan hangisidir?",
+      "options": [
+        "Kartografya",
+        "Pedoloji",
+        "Jeoloji",
+        "Demografi",
+        "Meteoroloji"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kartografya harita bilimi olarak tanımlanır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Aşağıdakilerden hangisi beşerî coğrafyanın konularından biridir?",
+      "options": [
+        "Akarsu aşındırması",
+        "Toprak oluşumu",
+        "Deprem",
+        "Göç",
+        "Volkanizma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Göç insan nüfusunun mekânsal hareketi olduğundan beşerî coğrafya konusudur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Tarım, sanayi ve ticaret faaliyetlerini inceleyen coğrafya alanı hangisidir?",
+      "options": [
+        "Hidrografya",
+        "Ekonomik coğrafya",
+        "Fiziki coğrafya",
+        "Klimatoloji",
+        "Jeomorfoloji"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ekonomik coğrafya üretim, dağıtım ve tüketim faaliyetlerinin mekânsal özelliklerini inceler."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "İnsanların doğal çevreyi değiştirmesine hangisi örnektir?",
+      "options": [
+        "Deprem oluşması",
+        "Volkan patlaması",
+        "Yağmur yağması",
+        "Gelgit oluşması",
+        "Baraj yapılması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Baraj insan müdahalesiyle doğal çevrenin değiştirilmesine örnektir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Coğrafya insan, mekân ve doğal çevre arasındaki ilişkileri inceler. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Astronomi",
+        "Psikoloji",
+        "Coğrafya",
+        "Tarih",
+        "Kimya"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Coğrafya insan, mekân ve doğal çevre arasındaki ilişkileri inceler."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Yer şekilleri fiziki coğrafyanın konusudur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Yer şekilleri",
+        "Nüfus hareketleri",
+        "Sanayi faaliyetleri",
+        "Ticaret",
+        "Yerleşme tipleri"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yer şekilleri fiziki coğrafyanın konusudur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Nüfus coğrafyası nüfusun dağılışını, yapısını ve hareketlerini inceler. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Jeomorfoloji",
+        "Hidrografya",
+        "Biyocoğrafya",
+        "Nüfus coğrafyası",
+        "Klimatoloji"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Nüfus coğrafyası nüfusun dağılışını, yapısını ve hareketlerini inceler."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Klimatoloji iklim elemanlarını ve iklim tiplerini inceler. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Pedoloji",
+        "Klimatoloji",
+        "Kartografya",
+        "Jeomorfoloji",
+        "Hidrografya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Klimatoloji iklim elemanlarını ve iklim tiplerini inceler."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Jeomorfoloji yeryüzü şekillerini inceler. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Klimatoloji",
+        "Nüfus coğrafyası",
+        "Ekonomik coğrafya",
+        "Kartografya",
+        "Jeomorfoloji"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Jeomorfoloji yeryüzü şekillerini inceler."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Hidrografya yeryüzündeki suları inceler. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Klimatoloji",
+        "Siyasi coğrafya",
+        "Hidrografya",
+        "Biyocoğrafya",
+        "Jeomorfoloji"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hidrografya yeryüzündeki suları inceler."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Kartografya harita bilimi olarak tanımlanır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Kartografya",
+        "Pedoloji",
+        "Jeoloji",
+        "Demografi",
+        "Meteoroloji"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kartografya harita bilimi olarak tanımlanır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Göç insan nüfusunun mekânsal hareketi olduğundan beşerî coğrafya konusudur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Akarsu aşındırması",
+        "Toprak oluşumu",
+        "Deprem",
+        "Göç",
+        "Volkanizma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Göç insan nüfusunun mekânsal hareketi olduğundan beşerî coğrafya konusudur."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Ekonomik coğrafya üretim, dağıtım ve tüketim faaliyetlerinin mekânsal özelliklerini inceler. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Hidrografya",
+        "Ekonomik coğrafya",
+        "Fiziki coğrafya",
+        "Klimatoloji",
+        "Jeomorfoloji"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ekonomik coğrafya üretim, dağıtım ve tüketim faaliyetlerinin mekânsal özelliklerini inceler."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Doğa ve İnsan & Coğrafyanın Bölümleri",
+      "question": "Baraj insan müdahalesiyle doğal çevrenin değiştirilmesine örnektir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Deprem oluşması",
+        "Volkan patlaması",
+        "Yağmur yağması",
+        "Gelgit oluşması",
+        "Baraj yapılması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Baraj insan müdahalesiyle doğal çevrenin değiştirilmesine örnektir."
+    }
+  ]
+}

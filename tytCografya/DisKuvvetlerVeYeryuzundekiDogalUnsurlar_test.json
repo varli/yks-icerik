@@ -1,0 +1,331 @@
+{
+  "id": "diskuvvetlerveyeryuzundekidogalunsurlar",
+  "title": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+  "lesson": "TYT Coğrafya",
+  "description": "TYT Coğrafya Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Aşağıdakilerden hangisi dış kuvvetlerden biridir?",
+      "options": [
+        "Volkanizma",
+        "Deprem",
+        "Akarsular",
+        "Orojenez",
+        "Epirojenez"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Akarsular enerjisini Güneş ve yer çekiminden alan dış kuvvetlerdendir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Akarsuların yatağını derine doğru aşındırmasıyla oluşan şekil hangisidir?",
+      "options": [
+        "Vadi",
+        "Delta",
+        "Moren",
+        "Falez",
+        "Kumul"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Akarsuyun çizgisel aşındırması vadileri oluşturur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Akarsuyun denize döküldüğü yerde biriktirme yapmasıyla oluşan ova hangisidir?",
+      "options": [
+        "Tektonik ova",
+        "Lös ovası",
+        "Lav platosu",
+        "Delta ovası",
+        "Karstik ova"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Akarsuların taşıdığı malzemeyi ağız kısmında biriktirmesi delta oluşturabilir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Rüzgârların biriktirmesiyle oluşan kum tepelerine ne denir?",
+      "options": [
+        "Dev kazanı",
+        "Kumul",
+        "Moren",
+        "Falez",
+        "Lapya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Rüzgârların taşıdığı kumları biriktirmesiyle kumullar oluşur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Buzulların taşıyıp biriktirdiği malzemelere ne ad verilir?",
+      "options": [
+        "Lös",
+        "Traverten",
+        "Kumul",
+        "Alüvyon",
+        "Moren"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Buzul birikintileri moren olarak adlandırılır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Dalgaların kıyıyı aşındırmasıyla oluşan dik kıyılara ne denir?",
+      "options": [
+        "Obruk",
+        "Kırgıbayır",
+        "Falez",
+        "Delta",
+        "Seki"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dalga aşındırması kıyıda falezleri oluşturur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Kalkerli arazilerde çözünme sonucu oluşan küçük yüzey şekli hangisidir?",
+      "options": [
+        "Lapya",
+        "Kumul",
+        "Moren",
+        "Delta",
+        "Falez"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Lapya karstik çözünmeyle oluşan küçük oluk ve çukurlardır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Yer altı sularının kireci çözüp yeniden biriktirmesiyle oluşan şekillerden biri hangisidir?",
+      "options": [
+        "Lös",
+        "Kumul",
+        "Sirk",
+        "Traverten",
+        "Moren"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kalsiyum karbonatlı suların çökelmesi travertenleri oluşturur."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Rüzgâr aşındırmasının en etkili olduğu alanların ortak özelliği nedir?",
+      "options": [
+        "Buzulların yaygın olması",
+        "Kurak ve bitki örtüsünün seyrek olması",
+        "Yağışın çok fazla olması",
+        "Ormanların gür olması",
+        "Nem oranının sürekli yüksek olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kuraklık ve seyrek bitki örtüsü yüzeyi rüzgâr aşındırmasına açık hâle getirir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Dış kuvvetlerin genel eğilimi aşağıdakilerden hangisidir?",
+      "options": [
+        "Dağları sürekli yükseltmek",
+        "Yeni levhalar oluşturmak",
+        "Dünya'nın eksenini değiştirmek",
+        "Magmayı yüzeye çıkarmak",
+        "Yeryüzündeki yükselti farklarını azaltmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Aşındırma ve biriktirme süreçleri uzun vadede relief farklarını azaltma eğilimindedir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Akarsular enerjisini Güneş ve yer çekiminden alan dış kuvvetlerdendir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Volkanizma",
+        "Deprem",
+        "Akarsular",
+        "Orojenez",
+        "Epirojenez"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Akarsular enerjisini Güneş ve yer çekiminden alan dış kuvvetlerdendir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Akarsuyun çizgisel aşındırması vadileri oluşturur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Vadi",
+        "Delta",
+        "Moren",
+        "Falez",
+        "Kumul"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Akarsuyun çizgisel aşındırması vadileri oluşturur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Akarsuların taşıdığı malzemeyi ağız kısmında biriktirmesi delta oluşturabilir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Tektonik ova",
+        "Lös ovası",
+        "Lav platosu",
+        "Delta ovası",
+        "Karstik ova"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Akarsuların taşıdığı malzemeyi ağız kısmında biriktirmesi delta oluşturabilir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Rüzgârların taşıdığı kumları biriktirmesiyle kumullar oluşur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Dev kazanı",
+        "Kumul",
+        "Moren",
+        "Falez",
+        "Lapya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Rüzgârların taşıdığı kumları biriktirmesiyle kumullar oluşur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Buzul birikintileri moren olarak adlandırılır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Lös",
+        "Traverten",
+        "Kumul",
+        "Alüvyon",
+        "Moren"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Buzul birikintileri moren olarak adlandırılır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Dalga aşındırması kıyıda falezleri oluşturur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Obruk",
+        "Kırgıbayır",
+        "Falez",
+        "Delta",
+        "Seki"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dalga aşındırması kıyıda falezleri oluşturur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Lapya karstik çözünmeyle oluşan küçük oluk ve çukurlardır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Lapya",
+        "Kumul",
+        "Moren",
+        "Delta",
+        "Falez"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Lapya karstik çözünmeyle oluşan küçük oluk ve çukurlardır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Kalsiyum karbonatlı suların çökelmesi travertenleri oluşturur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Lös",
+        "Kumul",
+        "Sirk",
+        "Traverten",
+        "Moren"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kalsiyum karbonatlı suların çökelmesi travertenleri oluşturur."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Kuraklık ve seyrek bitki örtüsü yüzeyi rüzgâr aşındırmasına açık hâle getirir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Buzulların yaygın olması",
+        "Kurak ve bitki örtüsünün seyrek olması",
+        "Yağışın çok fazla olması",
+        "Ormanların gür olması",
+        "Nem oranının sürekli yüksek olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kuraklık ve seyrek bitki örtüsü yüzeyi rüzgâr aşındırmasına açık hâle getirir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Dış Kuvvetler ve Yeryüzündeki Doğal Unsurlar",
+      "question": "Aşındırma ve biriktirme süreçleri uzun vadede relief farklarını azaltma eğilimindedir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Dağları sürekli yükseltmek",
+        "Yeni levhalar oluşturmak",
+        "Dünya'nın eksenini değiştirmek",
+        "Magmayı yüzeye çıkarmak",
+        "Yeryüzündeki yükselti farklarını azaltmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Aşındırma ve biriktirme süreçleri uzun vadede relief farklarını azaltma eğilimindedir."
+    }
+  ]
+}

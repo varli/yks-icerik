@@ -1,0 +1,331 @@
+{
+  "id": "haritabilgisi",
+  "title": "Harita Bilgisi",
+  "lesson": "TYT Coğrafya",
+  "description": "TYT Coğrafya Harita Bilgisi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Harita Bilgisi",
+      "question": "Yeryüzünün tamamının veya bir bölümünün kuş bakışı görünüşünün belirli oranda küçültülerek düzleme aktarılmasına ne denir?",
+      "options": [
+        "Fotoğraf",
+        "Grafik",
+        "Harita",
+        "Kroki",
+        "Profil"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Harita kuş bakışı görünümün ölçekli olarak düzleme aktarılmasıdır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Harita Bilgisi",
+      "question": "Haritalardaki küçültme oranına ne ad verilir?",
+      "options": [
+        "Ölçek",
+        "Lejant",
+        "İzohips",
+        "Projeksiyon",
+        "Koordinat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ölçek haritadaki uzunluğun gerçek uzunluğa oranını gösterir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Harita Bilgisi",
+      "question": "1/100.000 ölçekli haritada 1 cm gerçekte kaç kilometredir?",
+      "options": [
+        "10 km",
+        "100 km",
+        "1000 km",
+        "1 km",
+        "100 m"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "100.000 cm = 1 km olduğundan haritada 1 cm gerçekte 1 km'dir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Harita Bilgisi",
+      "question": "1/500.000 ölçekli haritada 4 cm gösterilen uzaklık gerçekte kaç km'dir?",
+      "options": [
+        "200 km",
+        "20 km",
+        "2 km",
+        "5 km",
+        "10 km"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "1 cm 5 km'yi gösterir; 4 cm = 20 km."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Harita Bilgisi",
+      "question": "Büyük ölçekli haritaların özelliği hangisidir?",
+      "options": [
+        "Geniş alan göstermeleri",
+        "Paydalarının büyük olması",
+        "Bozulmanın fazla olması",
+        "Ayrıntının az olması",
+        "Ayrıntıyı fazla göstermeleri"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Büyük ölçekli haritalar dar alanı daha ayrıntılı gösterir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Harita Bilgisi",
+      "question": "Haritada kullanılan işaret ve renklerin açıklandığı bölüme ne denir?",
+      "options": [
+        "Profil",
+        "Meridyen",
+        "Lejant",
+        "Ölçek",
+        "Koordinat"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Lejant haritadaki sembollerin anlamlarını açıklar."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "Eş yükselti eğrilerine ne ad verilir?",
+      "options": [
+        "İzohips",
+        "İzobar",
+        "İzoterm",
+        "İzobat",
+        "İzohyet"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İzohipsler deniz seviyesine göre aynı yükseltideki noktaları birleştirir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "İzohipslerin sık geçtiği bir yerde eğim nasıldır?",
+      "options": [
+        "Sıfırdır",
+        "Her zaman negatiftir",
+        "Belirlenemez",
+        "Fazladır",
+        "Azdır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kısa yatay mesafede büyük yükselti değişimi olduğundan eğim fazladır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "Bir haritanın ölçeğinin paydası küçüldükçe ölçek nasıl değişir?",
+      "options": [
+        "Önce küçülür sonra büyür",
+        "Büyür",
+        "Küçülür",
+        "Değişmez",
+        "Sıfır olur"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kesir ölçekte payda küçüldükçe harita ölçeği büyür."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "Haritalarda Dünya'nın küresel yüzeyini düzleme aktarırken oluşan bozulmaları azaltmak için kullanılan yöntemlere ne denir?",
+      "options": [
+        "Lejant",
+        "Ölçek",
+        "İzohips",
+        "Tarama",
+        "Projeksiyon"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Projeksiyon yöntemleri küresel yüzeyin düzleme aktarılmasındaki bozulmaları yönetmek için kullanılır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "Harita kuş bakışı görünümün ölçekli olarak düzleme aktarılmasıdır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Fotoğraf",
+        "Grafik",
+        "Harita",
+        "Kroki",
+        "Profil"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Harita kuş bakışı görünümün ölçekli olarak düzleme aktarılmasıdır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "Ölçek haritadaki uzunluğun gerçek uzunluğa oranını gösterir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Ölçek",
+        "Lejant",
+        "İzohips",
+        "Projeksiyon",
+        "Koordinat"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ölçek haritadaki uzunluğun gerçek uzunluğa oranını gösterir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "100.000 cm = 1 km olduğundan haritada 1 cm gerçekte 1 km'dir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "10 km",
+        "100 km",
+        "1000 km",
+        "1 km",
+        "100 m"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "100.000 cm = 1 km olduğundan haritada 1 cm gerçekte 1 km'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Harita Bilgisi",
+      "question": "1 cm 5 km'yi gösterir; 4 cm = 20 km. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "200 km",
+        "20 km",
+        "2 km",
+        "5 km",
+        "10 km"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "1 cm 5 km'yi gösterir; 4 cm = 20 km."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Harita Bilgisi",
+      "question": "Büyük ölçekli haritalar dar alanı daha ayrıntılı gösterir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Geniş alan göstermeleri",
+        "Paydalarının büyük olması",
+        "Bozulmanın fazla olması",
+        "Ayrıntının az olması",
+        "Ayrıntıyı fazla göstermeleri"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Büyük ölçekli haritalar dar alanı daha ayrıntılı gösterir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Harita Bilgisi",
+      "question": "Lejant haritadaki sembollerin anlamlarını açıklar. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Profil",
+        "Meridyen",
+        "Lejant",
+        "Ölçek",
+        "Koordinat"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Lejant haritadaki sembollerin anlamlarını açıklar."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Harita Bilgisi",
+      "question": "İzohipsler deniz seviyesine göre aynı yükseltideki noktaları birleştirir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "İzohips",
+        "İzobar",
+        "İzoterm",
+        "İzobat",
+        "İzohyet"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İzohipsler deniz seviyesine göre aynı yükseltideki noktaları birleştirir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Harita Bilgisi",
+      "question": "Kısa yatay mesafede büyük yükselti değişimi olduğundan eğim fazladır. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Sıfırdır",
+        "Her zaman negatiftir",
+        "Belirlenemez",
+        "Fazladır",
+        "Azdır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kısa yatay mesafede büyük yükselti değişimi olduğundan eğim fazladır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Harita Bilgisi",
+      "question": "Kesir ölçekte payda küçüldükçe harita ölçeği büyür. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Önce küçülür sonra büyür",
+        "Büyür",
+        "Küçülür",
+        "Değişmez",
+        "Sıfır olur"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kesir ölçekte payda küçüldükçe harita ölçeği büyür."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Harita Bilgisi",
+      "question": "Projeksiyon yöntemleri küresel yüzeyin düzleme aktarılmasındaki bozulmaları yönetmek için kullanılır. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Lejant",
+        "Ölçek",
+        "İzohips",
+        "Tarama",
+        "Projeksiyon"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Projeksiyon yöntemleri küresel yüzeyin düzleme aktarılmasındaki bozulmaları yönetmek için kullanılır."
+    }
+  ]
+}

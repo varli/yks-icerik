@@ -1,0 +1,331 @@
+{
+  "id": "atmosferveiklim",
+  "title": "Atmosfer ve İklim",
+  "lesson": "TYT Coğrafya",
+  "description": "TYT Coğrafya Atmosfer ve İklim konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Atmosfer ve İklim",
+      "question": "Atmosferde oranı en fazla olan gaz hangisidir?",
+      "options": [
+        "Argon",
+        "Su buharı",
+        "Azot",
+        "Oksijen",
+        "Karbondioksit"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Atmosferin yaklaşık %78'i azottan oluşur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Atmosfer ve İklim",
+      "question": "Hava olaylarının büyük bölümü atmosferin hangi katmanında gerçekleşir?",
+      "options": [
+        "Troposfer",
+        "Stratosfer",
+        "Mezosfer",
+        "Termosfer",
+        "Ekzosfer"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Su buharının büyük bölümü troposferde bulunduğu için hava olayları burada gerçekleşir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Atmosfer ve İklim",
+      "question": "Yükselti arttıkça troposferde sıcaklık genel olarak nasıl değişir?",
+      "options": [
+        "Değişmez",
+        "Önce artar sonra azalır",
+        "Sürekli 0 °C kalır",
+        "Azalır",
+        "Artar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Troposferde yükseldikçe sıcaklık genel olarak azalır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Atmosfer ve İklim",
+      "question": "Bir yerde kısa süre içinde değişebilen atmosfer koşullarına ne denir?",
+      "options": [
+        "Jeolojik yapı",
+        "Hava durumu",
+        "İklim",
+        "Bitki örtüsü",
+        "Basınç kuşağı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hava durumu dar alanlarda ve kısa sürelerde etkili atmosfer koşullarıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Atmosfer ve İklim",
+      "question": "Geniş bir alanda uzun yıllar boyunca gözlenen ortalama hava koşullarına ne denir?",
+      "options": [
+        "Hava durumu",
+        "Nem",
+        "Cephe",
+        "Rüzgâr",
+        "İklim"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İklim uzun yılların ortalama atmosfer koşullarını ifade eder."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Atmosfer ve İklim",
+      "question": "Rüzgârın temel oluşum nedeni nedir?",
+      "options": [
+        "Nüfus yoğunluğu",
+        "Bitki türü",
+        "Basınç farkı",
+        "Boylam farkı",
+        "Toprak türü"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hava yüksek basınçtan alçak basınca hareket eder; bu hareket rüzgârı oluşturur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Denizden karaya doğru esen gündüz melteminin oluşmasında hangisi etkilidir?",
+      "options": [
+        "Kara ve denizin farklı ısınması",
+        "Dünya'nın yıllık hareketi",
+        "Gelgit",
+        "Levha hareketleri",
+        "Akarsu aşındırması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Karalar gündüz denizlerden daha hızlı ısındığı için yerel basınç farkı oluşur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Bağıl nem %100'e ulaştığında aşağıdakilerden hangisi gerçekleşebilir?",
+      "options": [
+        "Basıncın sıfırlanması",
+        "Rüzgârın tamamen durması",
+        "Güneş ışınlarının dikleşmesi",
+        "Yoğuşma",
+        "Buharlaşmanın sınırsız artması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hava doyma noktasına ulaştığında yoğuşma başlayabilir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Ekvator çevresinde yıl boyunca sıcaklığın yüksek olmasının temel nedeni nedir?",
+      "options": [
+        "Gece süresinin sürekli uzun olması",
+        "Güneş ışınlarının büyük açılarla gelmesi",
+        "Yükseltinin fazla olması",
+        "Kutup rüzgârları",
+        "Denizlerin az olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ekvator çevresi yıl boyunca Güneş ışınlarını büyük açılarla alır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Karasal iklimlerde yıllık sıcaklık farkının fazla olmasının temel nedeni nedir?",
+      "options": [
+        "Ekvatora yakınlık",
+        "Sürekli bulutluluk",
+        "Akarsu fazlalığı",
+        "Bitki örtüsünün gür olması",
+        "Deniz etkisinden uzaklık"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Denizlerin sıcaklığı dengeleme etkisinden uzak alanlarda sıcaklık farkları büyür."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Atmosferin yaklaşık %78'i azottan oluşur. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Argon",
+        "Su buharı",
+        "Azot",
+        "Oksijen",
+        "Karbondioksit"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Atmosferin yaklaşık %78'i azottan oluşur."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Su buharının büyük bölümü troposferde bulunduğu için hava olayları burada gerçekleşir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Troposfer",
+        "Stratosfer",
+        "Mezosfer",
+        "Termosfer",
+        "Ekzosfer"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Su buharının büyük bölümü troposferde bulunduğu için hava olayları burada gerçekleşir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Troposferde yükseldikçe sıcaklık genel olarak azalır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Değişmez",
+        "Önce artar sonra azalır",
+        "Sürekli 0 °C kalır",
+        "Azalır",
+        "Artar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Troposferde yükseldikçe sıcaklık genel olarak azalır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Atmosfer ve İklim",
+      "question": "Hava durumu dar alanlarda ve kısa sürelerde etkili atmosfer koşullarıdır. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Jeolojik yapı",
+        "Hava durumu",
+        "İklim",
+        "Bitki örtüsü",
+        "Basınç kuşağı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hava durumu dar alanlarda ve kısa sürelerde etkili atmosfer koşullarıdır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Atmosfer ve İklim",
+      "question": "İklim uzun yılların ortalama atmosfer koşullarını ifade eder. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Hava durumu",
+        "Nem",
+        "Cephe",
+        "Rüzgâr",
+        "İklim"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İklim uzun yılların ortalama atmosfer koşullarını ifade eder."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Atmosfer ve İklim",
+      "question": "Hava yüksek basınçtan alçak basınca hareket eder; bu hareket rüzgârı oluşturur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Nüfus yoğunluğu",
+        "Bitki türü",
+        "Basınç farkı",
+        "Boylam farkı",
+        "Toprak türü"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hava yüksek basınçtan alçak basınca hareket eder; bu hareket rüzgârı oluşturur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Atmosfer ve İklim",
+      "question": "Karalar gündüz denizlerden daha hızlı ısındığı için yerel basınç farkı oluşur. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Kara ve denizin farklı ısınması",
+        "Dünya'nın yıllık hareketi",
+        "Gelgit",
+        "Levha hareketleri",
+        "Akarsu aşındırması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Karalar gündüz denizlerden daha hızlı ısındığı için yerel basınç farkı oluşur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Atmosfer ve İklim",
+      "question": "Hava doyma noktasına ulaştığında yoğuşma başlayabilir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Basıncın sıfırlanması",
+        "Rüzgârın tamamen durması",
+        "Güneş ışınlarının dikleşmesi",
+        "Yoğuşma",
+        "Buharlaşmanın sınırsız artması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hava doyma noktasına ulaştığında yoğuşma başlayabilir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Atmosfer ve İklim",
+      "question": "Ekvator çevresi yıl boyunca Güneş ışınlarını büyük açılarla alır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Gece süresinin sürekli uzun olması",
+        "Güneş ışınlarının büyük açılarla gelmesi",
+        "Yükseltinin fazla olması",
+        "Kutup rüzgârları",
+        "Denizlerin az olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ekvator çevresi yıl boyunca Güneş ışınlarını büyük açılarla alır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Atmosfer ve İklim",
+      "question": "Denizlerin sıcaklığı dengeleme etkisinden uzak alanlarda sıcaklık farkları büyür. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Ekvatora yakınlık",
+        "Sürekli bulutluluk",
+        "Akarsu fazlalığı",
+        "Bitki örtüsünün gür olması",
+        "Deniz etkisinden uzaklık"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Denizlerin sıcaklığı dengeleme etkisinden uzak alanlarda sıcaklık farkları büyür."
+    }
+  ]
+}

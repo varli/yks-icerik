@@ -1,0 +1,331 @@
+{
+  "id": "nufuscografyasibolgekavramivedogalafetler",
+  "title": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+  "lesson": "TYT Coğrafya",
+  "description": "TYT Coğrafya Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Belirli bir alanda yaşayan insan sayısına ne denir?",
+      "options": [
+        "Bölge",
+        "Demografi",
+        "Nüfus",
+        "Göç",
+        "Yerleşme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Nüfus belirli bir zamanda belirli bir alanda yaşayan insan sayısıdır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Aritmetik nüfus yoğunluğu nasıl hesaplanır?",
+      "options": [
+        "Toplam nüfusun yüz ölçümüne bölünmesiyle",
+        "Yüz ölçümünün nüfusa bölünmesiyle",
+        "Doğumların ölümlere bölünmesiyle",
+        "Göçmenlerin nüfusa eklenmesiyle",
+        "Çalışanların nüfusa bölünmesiyle"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Aritmetik yoğunluk nüfus / alan formülüyle bulunur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "İnsanların sürekli veya geçici olarak yer değiştirmesine ne denir?",
+      "options": [
+        "Kentleşme",
+        "Bölgeleme",
+        "Erozyon",
+        "Göç",
+        "Nüfus artışı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Göç insanların yaşam yerlerini geçici veya kalıcı biçimde değiştirmesidir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Aşağıdakilerden hangisi nüfusun seyrek olduğu alanlarda yaygın bir doğal etkendir?",
+      "options": [
+        "İş imkânlarının fazla olması",
+        "Sert iklim koşulları",
+        "Sanayinin gelişmiş olması",
+        "Ulaşımın kolay olması",
+        "Verimli ovaların bulunması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Aşırı soğuk, sıcak veya kurak koşullar yerleşme ve nüfuslanmayı sınırlar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Benzer doğal veya beşerî özelliklere sahip alanların oluşturduğu mekânsal birime ne denir?",
+      "options": [
+        "Meridyen",
+        "Paralel",
+        "Havza",
+        "Lejant",
+        "Bölge"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bölge belirli ölçütlere göre benzer özellik gösteren alanları ifade eder."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Depremlerin oluşmasında en etkili doğal süreç hangisidir?",
+      "options": [
+        "Rüzgâr aşındırması",
+        "Fotosentez",
+        "Tektonik hareketler",
+        "Buharlaşma",
+        "Akarsu biriktirmesi"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Depremlerin büyük bölümü levha ve fay hareketleriyle ilişkilidir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Eğimli arazide toprak ve kaya kütlesinin aşağı doğru hareket etmesine ne denir?",
+      "options": [
+        "Heyelan",
+        "Çığ",
+        "Erozyon",
+        "Tsunami",
+        "Kuraklık"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Heyelan yer çekimi etkisiyle yamaç malzemesinin kütle hâlinde hareketidir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Bitki örtüsünün tahrip edilmesi hangi afet riskini özellikle artırabilir?",
+      "options": [
+        "Tsunami",
+        "Deprem",
+        "Gelgit",
+        "Erozyon",
+        "Volkanizma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Bitki örtüsü toprağı koruduğu için tahribi erozyonu hızlandırabilir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Deniz tabanında gerçekleşen güçlü depremler hangi afete yol açabilir?",
+      "options": [
+        "Çığ",
+        "Tsunami",
+        "Kuraklık",
+        "Erozyon",
+        "Heyelan"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Deniz tabanındaki ani yer değiştirmeler büyük dalgalar oluşturabilir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Çığ riskinin yüksek olduğu yerlerin ortak özelliği hangisidir?",
+      "options": [
+        "Düz ve kurak ovalar",
+        "Alçak kıyı düzlükleri",
+        "Sıcak çöller",
+        "Yoğun ormanlarla kaplı düz alanlar",
+        "Eğimli ve yoğun kar örtülü yamaçlar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Eğimli yamaçlarda biriken kar kütlesinin hareketi çığ oluşturabilir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Nüfus belirli bir zamanda belirli bir alanda yaşayan insan sayısıdır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Bölge",
+        "Demografi",
+        "Nüfus",
+        "Göç",
+        "Yerleşme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Nüfus belirli bir zamanda belirli bir alanda yaşayan insan sayısıdır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Aritmetik yoğunluk nüfus / alan formülüyle bulunur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Toplam nüfusun yüz ölçümüne bölünmesiyle",
+        "Yüz ölçümünün nüfusa bölünmesiyle",
+        "Doğumların ölümlere bölünmesiyle",
+        "Göçmenlerin nüfusa eklenmesiyle",
+        "Çalışanların nüfusa bölünmesiyle"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Aritmetik yoğunluk nüfus / alan formülüyle bulunur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Göç insanların yaşam yerlerini geçici veya kalıcı biçimde değiştirmesidir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Kentleşme",
+        "Bölgeleme",
+        "Erozyon",
+        "Göç",
+        "Nüfus artışı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Göç insanların yaşam yerlerini geçici veya kalıcı biçimde değiştirmesidir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Aşırı soğuk, sıcak veya kurak koşullar yerleşme ve nüfuslanmayı sınırlar. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "İş imkânlarının fazla olması",
+        "Sert iklim koşulları",
+        "Sanayinin gelişmiş olması",
+        "Ulaşımın kolay olması",
+        "Verimli ovaların bulunması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Aşırı soğuk, sıcak veya kurak koşullar yerleşme ve nüfuslanmayı sınırlar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Bölge belirli ölçütlere göre benzer özellik gösteren alanları ifade eder. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Meridyen",
+        "Paralel",
+        "Havza",
+        "Lejant",
+        "Bölge"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bölge belirli ölçütlere göre benzer özellik gösteren alanları ifade eder."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Depremlerin büyük bölümü levha ve fay hareketleriyle ilişkilidir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Rüzgâr aşındırması",
+        "Fotosentez",
+        "Tektonik hareketler",
+        "Buharlaşma",
+        "Akarsu biriktirmesi"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Depremlerin büyük bölümü levha ve fay hareketleriyle ilişkilidir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Heyelan yer çekimi etkisiyle yamaç malzemesinin kütle hâlinde hareketidir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Heyelan",
+        "Çığ",
+        "Erozyon",
+        "Tsunami",
+        "Kuraklık"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Heyelan yer çekimi etkisiyle yamaç malzemesinin kütle hâlinde hareketidir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Bitki örtüsü toprağı koruduğu için tahribi erozyonu hızlandırabilir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Tsunami",
+        "Deprem",
+        "Gelgit",
+        "Erozyon",
+        "Volkanizma"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Bitki örtüsü toprağı koruduğu için tahribi erozyonu hızlandırabilir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Deniz tabanındaki ani yer değiştirmeler büyük dalgalar oluşturabilir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Çığ",
+        "Tsunami",
+        "Kuraklık",
+        "Erozyon",
+        "Heyelan"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Deniz tabanındaki ani yer değiştirmeler büyük dalgalar oluşturabilir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Nüfus Coğrafyası, Bölge Kavramı ve Doğal Afetler",
+      "question": "Eğimli yamaçlarda biriken kar kütlesinin hareketi çığ oluşturabilir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Düz ve kurak ovalar",
+        "Alçak kıyı düzlükleri",
+        "Sıcak çöller",
+        "Yoğun ormanlarla kaplı düz alanlar",
+        "Eğimli ve yoğun kar örtülü yamaçlar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Eğimli yamaçlarda biriken kar kütlesinin hareketi çığ oluşturabilir."
+    }
+  ]
+}

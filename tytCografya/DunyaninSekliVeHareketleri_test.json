@@ -1,0 +1,331 @@
+{
+  "id": "dunyaninseklivehareketleri",
+  "title": "Dünya'nın Şekli ve Hareketleri",
+  "lesson": "TYT Coğrafya",
+  "description": "TYT Coğrafya Dünya'nın Şekli ve Hareketleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya'nın kutuplardan basık, Ekvator'dan şişkin kendine özgü şekline ne ad verilir?",
+      "options": [
+        "Daire",
+        "Silindir",
+        "Geoit",
+        "Küre",
+        "Elips"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dünya'nın kendine özgü şekli geoit olarak adlandırılır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya'nın günlük hareketinin süresi yaklaşık kaç saattir?",
+      "options": [
+        "24",
+        "12",
+        "30",
+        "48",
+        "365"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Dünya kendi ekseni etrafındaki dönüşünü yaklaşık 24 saatte tamamlar."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Gece ve gündüzün oluşmasının temel nedeni nedir?",
+      "options": [
+        "Ay'ın Dünya çevresinde dolanması",
+        "Eksen eğikliği",
+        "Yörüngenin elips olması",
+        "Dünya'nın kendi ekseni etrafında dönmesi",
+        "Dünya'nın Güneş çevresinde dolanması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Dünya'nın günlük hareketi aydınlık ve karanlık alanların yer değiştirmesini sağlar."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Yerel saat farklarının oluşmasının temel nedeni hangisidir?",
+      "options": [
+        "Kara-deniz dağılışı",
+        "Dünya'nın günlük hareketi ve boylam farkı",
+        "Enlem farkı",
+        "Yükselti",
+        "Eksen eğikliği"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Dünya batıdan doğuya döndüğü için farklı boylamlarda Güneş farklı zamanlarda en yükseğe çıkar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya'nın Güneş çevresindeki dolanma süresi yaklaşık ne kadardır?",
+      "options": [
+        "24 saat",
+        "30 gün",
+        "180 gün",
+        "400 gün",
+        "365 gün 6 saat"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Dünya'nın yıllık hareketi yaklaşık 365 gün 6 saat sürer."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Mevsimlerin oluşmasında temel olarak hangi iki özellik etkilidir?",
+      "options": [
+        "Kara-deniz dağılışı ve nem",
+        "Ay'ın hareketi ve gelgit",
+        "Eksen eğikliği ve yıllık hareket",
+        "Günlük hareket ve yer çekimi",
+        "Boylam ve yükselti"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eksen eğikliği ile Güneş çevresindeki dolanma mevsimleri oluşturur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "21 Haziran'da Kuzey Yarım Küre'de hangi mevsim başlar?",
+      "options": [
+        "Yaz",
+        "Kış",
+        "İlkbahar",
+        "Sonbahar",
+        "Muson"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "21 Haziran Kuzey Yarım Küre için yaz gündönümüdür."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "21 Aralık'ta Kuzey Yarım Küre'de hangi durum yaşanır?",
+      "options": [
+        "Gece-gündüz eşitliği",
+        "Güneş'in Ekvator'a dik gelmesi",
+        "İlkbaharın başlaması",
+        "En uzun gece",
+        "En uzun gündüz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "21 Aralık'ta Kuzey Yarım Küre yılın en uzun gecesini yaşar."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "21 Mart ve 23 Eylül tarihlerinin ortak özelliği nedir?",
+      "options": [
+        "Kutuplarda 24 saat gündüz olması",
+        "Gece ve gündüz sürelerinin eşit olması",
+        "Kuzeyde en uzun gündüzün yaşanması",
+        "Güneyde en uzun gecenin yaşanması",
+        "Güneş'in dönencelere dik gelmesi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ekinoks tarihlerinde gece ve gündüz süreleri yaklaşık eşittir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Doğuya doğru gidildikçe yerel saatin ileri olmasının nedeni nedir?",
+      "options": [
+        "Dünya'nın geoit olması",
+        "Eksen eğikliği",
+        "Yükseltinin artması",
+        "Güneş'e uzaklığın azalması",
+        "Dünya'nın batıdan doğuya dönmesi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Dünya batıdan doğuya döndüğü için doğudaki meridyenler Güneş'i daha önce görür."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya'nın kendine özgü şekli geoit olarak adlandırılır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Daire",
+        "Silindir",
+        "Geoit",
+        "Küre",
+        "Elips"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Dünya'nın kendine özgü şekli geoit olarak adlandırılır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya kendi ekseni etrafındaki dönüşünü yaklaşık 24 saatte tamamlar. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "24",
+        "12",
+        "30",
+        "48",
+        "365"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Dünya kendi ekseni etrafındaki dönüşünü yaklaşık 24 saatte tamamlar."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya'nın günlük hareketi aydınlık ve karanlık alanların yer değiştirmesini sağlar. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Ay'ın Dünya çevresinde dolanması",
+        "Eksen eğikliği",
+        "Yörüngenin elips olması",
+        "Dünya'nın kendi ekseni etrafında dönmesi",
+        "Dünya'nın Güneş çevresinde dolanması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Dünya'nın günlük hareketi aydınlık ve karanlık alanların yer değiştirmesini sağlar."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya batıdan doğuya döndüğü için farklı boylamlarda Güneş farklı zamanlarda en yükseğe çıkar. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Kara-deniz dağılışı",
+        "Dünya'nın günlük hareketi ve boylam farkı",
+        "Enlem farkı",
+        "Yükselti",
+        "Eksen eğikliği"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Dünya batıdan doğuya döndüğü için farklı boylamlarda Güneş farklı zamanlarda en yükseğe çıkar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya'nın yıllık hareketi yaklaşık 365 gün 6 saat sürer. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "24 saat",
+        "30 gün",
+        "180 gün",
+        "400 gün",
+        "365 gün 6 saat"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Dünya'nın yıllık hareketi yaklaşık 365 gün 6 saat sürer."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Eksen eğikliği ile Güneş çevresindeki dolanma mevsimleri oluşturur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Kara-deniz dağılışı ve nem",
+        "Ay'ın hareketi ve gelgit",
+        "Eksen eğikliği ve yıllık hareket",
+        "Günlük hareket ve yer çekimi",
+        "Boylam ve yükselti"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eksen eğikliği ile Güneş çevresindeki dolanma mevsimleri oluşturur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "21 Haziran Kuzey Yarım Küre için yaz gündönümüdür. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Yaz",
+        "Kış",
+        "İlkbahar",
+        "Sonbahar",
+        "Muson"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "21 Haziran Kuzey Yarım Küre için yaz gündönümüdür."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "21 Aralık'ta Kuzey Yarım Küre yılın en uzun gecesini yaşar. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Gece-gündüz eşitliği",
+        "Güneş'in Ekvator'a dik gelmesi",
+        "İlkbaharın başlaması",
+        "En uzun gece",
+        "En uzun gündüz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "21 Aralık'ta Kuzey Yarım Küre yılın en uzun gecesini yaşar."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Ekinoks tarihlerinde gece ve gündüz süreleri yaklaşık eşittir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Kutuplarda 24 saat gündüz olması",
+        "Gece ve gündüz sürelerinin eşit olması",
+        "Kuzeyde en uzun gündüzün yaşanması",
+        "Güneyde en uzun gecenin yaşanması",
+        "Güneş'in dönencelere dik gelmesi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ekinoks tarihlerinde gece ve gündüz süreleri yaklaşık eşittir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Dünya'nın Şekli ve Hareketleri",
+      "question": "Dünya batıdan doğuya döndüğü için doğudaki meridyenler Güneş'i daha önce görür. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Dünya'nın geoit olması",
+        "Eksen eğikliği",
+        "Yükseltinin artması",
+        "Güneş'e uzaklığın azalması",
+        "Dünya'nın batıdan doğuya dönmesi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Dünya batıdan doğuya döndüğü için doğudaki meridyenler Güneş'i daha önce görür."
+    }
+  ]
+}

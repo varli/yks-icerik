@@ -1,0 +1,331 @@
+{
+  "id": "yerinicyapisiveickuvvetler",
+  "title": "Yerin İç Yapısı ve İç Kuvvetler",
+  "lesson": "TYT Coğrafya",
+  "description": "TYT Coğrafya Yerin İç Yapısı ve İç Kuvvetler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Dünya'nın en dış katmanı hangisidir?",
+      "options": [
+        "İç çekirdek",
+        "Magma odası",
+        "Yer kabuğu",
+        "Manto",
+        "Dış çekirdek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yer kabuğu Dünya'nın en dıştaki katı katmanıdır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Yer kabuğunun altında bulunan kalın katman hangisidir?",
+      "options": [
+        "Manto",
+        "Troposfer",
+        "Çekirdek",
+        "Hidrosfer",
+        "Stratosfer"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Manto yer kabuğu ile çekirdek arasında bulunur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Aşağıdakilerden hangisi iç kuvvetlerden biridir?",
+      "options": [
+        "Rüzgâr biriktirmesi",
+        "Buzul aşındırması",
+        "Dalga aşındırması",
+        "Orojenez",
+        "Akarsu aşındırması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Orojenez enerjisini Dünya'nın içinden alan iç kuvvetlerdendir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Dağ oluşumu hareketlerine ne ad verilir?",
+      "options": [
+        "Buharlaşma",
+        "Orojenez",
+        "Epirojenez",
+        "Erozyon",
+        "Sedimantasyon"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Orojenez kıvrılma ve kırılmalarla dağ oluşumunu ifade eder."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Geniş kara parçalarının yükselip alçalması hareketlerine ne denir?",
+      "options": [
+        "Orojenez",
+        "Volkanizma",
+        "Erozyon",
+        "Gelgit",
+        "Epirojenez"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Epirojenez geniş alanlı dikey yer kabuğu hareketidir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Magmanın yeryüzüne veya yeryüzüne yakın kesimlere çıkması olayına ne denir?",
+      "options": [
+        "Orojenez",
+        "Çözünme",
+        "Volkanizma",
+        "Erozyon",
+        "Heyelan"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Volkanizma magmanın yer kabuğunda ve yüzeyde gerçekleştirdiği faaliyetlerdir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Levhaların hareket etmesinin temel enerji kaynağı hangisidir?",
+      "options": [
+        "Dünya'nın iç ısısı",
+        "Güneş ışınları",
+        "Rüzgârlar",
+        "Ay'ın çekimi",
+        "Yağışlar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Levha hareketlerinin temelinde Dünya'nın iç enerjisi ve mantodaki hareketler bulunur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Fay hatlarının bulunduğu alanlarda hangi doğal olayın riski genellikle yüksektir?",
+      "options": [
+        "Gelgit",
+        "Çölleşme",
+        "Don",
+        "Deprem",
+        "Kuraklık"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Aktif faylar boyunca biriken gerilimin boşalması depremlere yol açar."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Volkanik faaliyetler sonucunda oluşan kayaçlara ne ad verilir?",
+      "options": [
+        "Alüvyonlar",
+        "Püskürük kayaçlar",
+        "Tortul kayaçlar",
+        "Başkalaşım kayaçları",
+        "Organik topraklar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Magmanın veya lavın soğuyup katılaşması püskürük kayaçları oluşturur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "İç kuvvetlerin yeryüzündeki genel etkisi hangisidir?",
+      "options": [
+        "Tüm dağları aşındırmak",
+        "Yalnızca kıyıları şekillendirmek",
+        "Yeryüzünü tamamen düzleştirmek",
+        "Sadece iklimi değiştirmek",
+        "Yer şekillerinin oluşmasına ve yükselti farklarının artmasına katkı sağlamak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İç kuvvetler dağ oluşumu, yükselme, volkanizma gibi süreçlerle reliefi oluşturur ve çeşitlendirir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Yer kabuğu Dünya'nın en dıştaki katı katmanıdır. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "İç çekirdek",
+        "Magma odası",
+        "Yer kabuğu",
+        "Manto",
+        "Dış çekirdek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yer kabuğu Dünya'nın en dıştaki katı katmanıdır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Manto yer kabuğu ile çekirdek arasında bulunur. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Manto",
+        "Troposfer",
+        "Çekirdek",
+        "Hidrosfer",
+        "Stratosfer"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Manto yer kabuğu ile çekirdek arasında bulunur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Orojenez enerjisini Dünya'nın içinden alan iç kuvvetlerdendir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Rüzgâr biriktirmesi",
+        "Buzul aşındırması",
+        "Dalga aşındırması",
+        "Orojenez",
+        "Akarsu aşındırması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Orojenez enerjisini Dünya'nın içinden alan iç kuvvetlerdendir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Orojenez kıvrılma ve kırılmalarla dağ oluşumunu ifade eder. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Buharlaşma",
+        "Orojenez",
+        "Epirojenez",
+        "Erozyon",
+        "Sedimantasyon"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Orojenez kıvrılma ve kırılmalarla dağ oluşumunu ifade eder."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Epirojenez geniş alanlı dikey yer kabuğu hareketidir. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Orojenez",
+        "Volkanizma",
+        "Erozyon",
+        "Gelgit",
+        "Epirojenez"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Epirojenez geniş alanlı dikey yer kabuğu hareketidir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Volkanizma magmanın yer kabuğunda ve yüzeyde gerçekleştirdiği faaliyetlerdir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Orojenez",
+        "Çözünme",
+        "Volkanizma",
+        "Erozyon",
+        "Heyelan"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Volkanizma magmanın yer kabuğunda ve yüzeyde gerçekleştirdiği faaliyetlerdir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Levha hareketlerinin temelinde Dünya'nın iç enerjisi ve mantodaki hareketler bulunur. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Dünya'nın iç ısısı",
+        "Güneş ışınları",
+        "Rüzgârlar",
+        "Ay'ın çekimi",
+        "Yağışlar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Levha hareketlerinin temelinde Dünya'nın iç enerjisi ve mantodaki hareketler bulunur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Aktif faylar boyunca biriken gerilimin boşalması depremlere yol açar. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Gelgit",
+        "Çölleşme",
+        "Don",
+        "Deprem",
+        "Kuraklık"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Aktif faylar boyunca biriken gerilimin boşalması depremlere yol açar."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "Magmanın veya lavın soğuyup katılaşması püskürük kayaçları oluşturur. Bu bilgi dikkate alındığında doğru kavram/sonuç hangisidir?",
+      "options": [
+        "Alüvyonlar",
+        "Püskürük kayaçlar",
+        "Tortul kayaçlar",
+        "Başkalaşım kayaçları",
+        "Organik topraklar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Magmanın veya lavın soğuyup katılaşması püskürük kayaçları oluşturur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Yerin İç Yapısı ve İç Kuvvetler",
+      "question": "İç kuvvetler dağ oluşumu, yükselme, volkanizma gibi süreçlerle reliefi oluşturur ve çeşitlendirir. Verilen açıklamanın karşılığı aşağıdakilerden hangisidir?",
+      "options": [
+        "Tüm dağları aşındırmak",
+        "Yalnızca kıyıları şekillendirmek",
+        "Yeryüzünü tamamen düzleştirmek",
+        "Sadece iklimi değiştirmek",
+        "Yer şekillerinin oluşmasına ve yükselti farklarının artmasına katkı sağlamak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İç kuvvetler dağ oluşumu, yükselme, volkanizma gibi süreçlerle reliefi oluşturur ve çeşitlendirir."
+    }
+  ]
+}
