@@ -1,0 +1,331 @@
+{
+  "id": "elektrostatikveelektrikakimi",
+  "title": "Elektrostatik ve Elektrik Akımı",
+  "lesson": "TYT Fizik",
+  "description": "TYT Fizik Elektrostatik ve Elektrik Akımı konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Elektrik yükünün SI birimi hangisidir?",
+      "options": [
+        "Watt",
+        "Coulomb",
+        "Amper",
+        "Volt",
+        "Ohm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Elektrik yükünün SI birimi coulombdur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Aynı cins elektrik yükleri birbirine nasıl kuvvet uygular?",
+      "options": [
+        "Kuvvet uygulamaz",
+        "Önce çeker sonra iter",
+        "Yalnız nötrler",
+        "İter",
+        "Çeker"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Aynı işaretli yükler birbirini iter."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Zıt cins elektrik yükleri birbirine nasıl kuvvet uygular?",
+      "options": [
+        "Çeker",
+        "İter",
+        "Kuvvet uygulamaz",
+        "Döndürür",
+        "Yalnız temas ederse iter"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Zıt işaretli yükler birbirini çeker."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Elektrik akımının SI birimi hangisidir?",
+      "options": [
+        "Coulomb",
+        "Joule",
+        "Amper",
+        "Volt",
+        "Ohm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Akım şiddetinin birimi amperdir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Bir iletkenden birim zamanda geçen yük miktarı hangi büyüklüğü verir?",
+      "options": [
+        "Direnç",
+        "Gerilim",
+        "Güç",
+        "Enerji",
+        "Akım şiddeti"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "I=Q/t bağıntısıyla akım şiddeti bulunur."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Ohm yasasına göre gerilim V, akım I ve direnç R arasındaki bağıntı hangisidir?",
+      "options": [
+        "V=R/I",
+        "V=IR",
+        "V=I/R",
+        "R=VI",
+        "I=VR"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ohm yasası V=IR şeklindedir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Gerilimi 12 V, direnci 4 Ω olan devreden geçen akım kaç A'dır?",
+      "options": [
+        "4",
+        "8",
+        "48",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "I=V/R=12/4=3 A."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Seri bağlı dirençlerin eşdeğer direnci nasıl bulunur?",
+      "options": [
+        "Dirençler toplanır",
+        "Tersleri toplanır",
+        "En küçüğü alınır",
+        "En büyüğü alınır",
+        "Çarpımları alınır"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Seri devrede R eşdeğer dirençlerin toplamıdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Elektriksel direncin birimi hangisidir?",
+      "options": [
+        "Watt",
+        "Coulomb",
+        "Ohm",
+        "Amper",
+        "Volt"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Direncin birimi ohm (Ω)'dur."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Elektriksel gücün birimi hangisidir?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Amper",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Gücün SI birimi watt'tır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Elektrik yükünün SI birimi coulombdur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Watt",
+        "Coulomb",
+        "Amper",
+        "Volt",
+        "Ohm"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Elektrik yükünün SI birimi coulombdur."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Aynı işaretli yükler birbirini iter. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kuvvet uygulamaz",
+        "Önce çeker sonra iter",
+        "Yalnız nötrler",
+        "İter",
+        "Çeker"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Aynı işaretli yükler birbirini iter."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Zıt işaretli yükler birbirini çeker. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Çeker",
+        "İter",
+        "Kuvvet uygulamaz",
+        "Döndürür",
+        "Yalnız temas ederse iter"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Zıt işaretli yükler birbirini çeker."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Akım şiddetinin birimi amperdir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Coulomb",
+        "Joule",
+        "Amper",
+        "Volt",
+        "Ohm"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Akım şiddetinin birimi amperdir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "I=Q/t bağıntısıyla akım şiddeti bulunur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Direnç",
+        "Gerilim",
+        "Güç",
+        "Enerji",
+        "Akım şiddeti"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "I=Q/t bağıntısıyla akım şiddeti bulunur."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Ohm yasası V=IR şeklindedir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "V=R/I",
+        "V=IR",
+        "V=I/R",
+        "R=VI",
+        "I=VR"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ohm yasası V=IR şeklindedir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "I=V/R=12/4=3 A. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "4",
+        "8",
+        "48",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "I=V/R=12/4=3 A."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Seri devrede R eşdeğer dirençlerin toplamıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Dirençler toplanır",
+        "Tersleri toplanır",
+        "En küçüğü alınır",
+        "En büyüğü alınır",
+        "Çarpımları alınır"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Seri devrede R eşdeğer dirençlerin toplamıdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Direncin birimi ohm (Ω)'dur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Watt",
+        "Coulomb",
+        "Ohm",
+        "Amper",
+        "Volt"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Direncin birimi ohm (Ω)'dur."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Elektrostatik ve Elektrik Akımı",
+      "question": "Gücün SI birimi watt'tır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Joule",
+        "Newton",
+        "Amper",
+        "Ohm",
+        "Watt"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Gücün SI birimi watt'tır."
+    }
+  ]
+}

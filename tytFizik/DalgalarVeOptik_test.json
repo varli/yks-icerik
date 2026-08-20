@@ -1,0 +1,331 @@
+{
+  "id": "dalgalarveoptik",
+  "title": "Dalgalar ve Optik",
+  "lesson": "TYT Fizik",
+  "description": "TYT Fizik Dalgalar ve Optik konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Dalgalar ve Optik",
+      "question": "Bir dalganın bir saniyedeki titreşim sayısına ne denir?",
+      "options": [
+        "Hız",
+        "Frekans",
+        "Periyot",
+        "Genlik",
+        "Dalga boyu"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Birim zamandaki titreşim sayısı frekanstır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Dalgalar ve Optik",
+      "question": "Frekansın SI birimi hangisidir?",
+      "options": [
+        "Saniye",
+        "Newton",
+        "Joule",
+        "Hertz",
+        "Metre"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Frekansın birimi hertz (Hz)'dir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Dalgalar ve Optik",
+      "question": "Dalga hızı v, frekans f ve dalga boyu λ arasındaki ilişki hangisidir?",
+      "options": [
+        "v=fλ",
+        "v=f/λ",
+        "v=λ/f",
+        "v=f+λ",
+        "v=f−λ"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Temel dalga bağıntısı v=fλ'dır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Dalgalar ve Optik",
+      "question": "Bir dalganın frekansı 5 Hz, dalga boyu 2 m ise hızı kaç m/s'dir?",
+      "options": [
+        "7",
+        "20",
+        "10",
+        "2.5",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "v=fλ=5×2=10 m/s."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Dalgalar ve Optik",
+      "question": "Işığın düzgün yansımasında gelme açısı ile yansıma açısı nasıldır?",
+      "options": [
+        "Toplamları 90°'dir",
+        "Biri diğerinin iki katıdır",
+        "Toplamları 180°'dir",
+        "İlişkisizdir",
+        "Eşittir"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yansıma kanununa göre gelme açısı yansıma açısına eşittir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Dalgalar ve Optik",
+      "question": "Düzlem aynada görüntünün boyu cismin boyuna göre nasıldır?",
+      "options": [
+        "Uzaklığa göre değişir",
+        "Eşittir",
+        "Yarısıdır",
+        "İki katıdır",
+        "Her zaman küçüktür"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Düzlem aynada görüntü ve cisim boyları eşittir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "Düzlem aynada görüntü aynanın arkasında nasıl oluşur?",
+      "options": [
+        "Ters gerçek",
+        "Noktasal",
+        "Daima küçültülmüş",
+        "Sanal",
+        "Gerçek"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Düzlem aynanın görüntüsü sanaldır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "Işık bir saydam ortamdan başka bir saydam ortama geçerken yön değiştirebilir. Bu olaya ne denir?",
+      "options": [
+        "Kırılma",
+        "Yansıma",
+        "Girişim",
+        "Kırınım",
+        "Rezonans"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Işığın ortam değiştirirken hız ve doğrultu değiştirmesi kırılmadır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "Ses dalgaları hangi tür dalgadır?",
+      "options": [
+        "Işık",
+        "Boşlukta yayılan",
+        "Mekanik",
+        "Elektromanyetik",
+        "Yalnız enine"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Sesin yayılması için maddesel ortam gerekir; bu nedenle mekanik dalgadır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "Ses boşlukta yayılabilir mi?",
+      "options": [
+        "Evet, her zaman",
+        "Yalnız düşük frekansta",
+        "Yalnız yüksek frekansta",
+        "Sadece ışıkla birlikte",
+        "Hayır"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ses mekanik dalga olduğu için boşlukta yayılamaz."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "Birim zamandaki titreşim sayısı frekanstır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hız",
+        "Frekans",
+        "Periyot",
+        "Genlik",
+        "Dalga boyu"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Birim zamandaki titreşim sayısı frekanstır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "Frekansın birimi hertz (Hz)'dir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Saniye",
+        "Newton",
+        "Joule",
+        "Hertz",
+        "Metre"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Frekansın birimi hertz (Hz)'dir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "Temel dalga bağıntısı v=fλ'dır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "v=fλ",
+        "v=f/λ",
+        "v=λ/f",
+        "v=f+λ",
+        "v=f−λ"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Temel dalga bağıntısı v=fλ'dır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Dalgalar ve Optik",
+      "question": "v=fλ=5×2=10 m/s. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "7",
+        "20",
+        "10",
+        "2.5",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "v=fλ=5×2=10 m/s."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Dalgalar ve Optik",
+      "question": "Yansıma kanununa göre gelme açısı yansıma açısına eşittir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Toplamları 90°'dir",
+        "Biri diğerinin iki katıdır",
+        "Toplamları 180°'dir",
+        "İlişkisizdir",
+        "Eşittir"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yansıma kanununa göre gelme açısı yansıma açısına eşittir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Dalgalar ve Optik",
+      "question": "Düzlem aynada görüntü ve cisim boyları eşittir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Uzaklığa göre değişir",
+        "Eşittir",
+        "Yarısıdır",
+        "İki katıdır",
+        "Her zaman küçüktür"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Düzlem aynada görüntü ve cisim boyları eşittir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Dalgalar ve Optik",
+      "question": "Düzlem aynanın görüntüsü sanaldır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Ters gerçek",
+        "Noktasal",
+        "Daima küçültülmüş",
+        "Sanal",
+        "Gerçek"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Düzlem aynanın görüntüsü sanaldır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Dalgalar ve Optik",
+      "question": "Işığın ortam değiştirirken hız ve doğrultu değiştirmesi kırılmadır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kırılma",
+        "Yansıma",
+        "Girişim",
+        "Kırınım",
+        "Rezonans"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Işığın ortam değiştirirken hız ve doğrultu değiştirmesi kırılmadır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Dalgalar ve Optik",
+      "question": "Sesin yayılması için maddesel ortam gerekir; bu nedenle mekanik dalgadır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Işık",
+        "Boşlukta yayılan",
+        "Mekanik",
+        "Elektromanyetik",
+        "Yalnız enine"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Sesin yayılması için maddesel ortam gerekir; bu nedenle mekanik dalgadır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Dalgalar ve Optik",
+      "question": "Ses mekanik dalga olduğu için boşlukta yayılamaz. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Evet, her zaman",
+        "Yalnız düşük frekansta",
+        "Yalnız yüksek frekansta",
+        "Sadece ışıkla birlikte",
+        "Hayır"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ses mekanik dalga olduğu için boşlukta yayılamaz."
+    }
+  ]
+}

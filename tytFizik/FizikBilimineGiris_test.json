@@ -1,0 +1,331 @@
+{
+  "id": "fizikbiliminegiris",
+  "title": "Fizik Bilimine Giriş",
+  "lesson": "TYT Fizik",
+  "description": "TYT Fizik Fizik Bilimine Giriş konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Madde, enerji ve bunların etkileşimlerini inceleyen temel bilim hangisidir?",
+      "options": [
+        "Sosyoloji",
+        "Fizik",
+        "Biyoloji",
+        "Tarih",
+        "Coğrafya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Fizik madde, enerji, hareket ve etkileşimleri inceler."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Uzunluğun SI temel birimi hangisidir?",
+      "options": [
+        "Saniye",
+        "Kelvin",
+        "Amper",
+        "Metre",
+        "Kilogram"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "SI sisteminde uzunluk birimi metredir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Kütlenin SI temel birimi hangisidir?",
+      "options": [
+        "Kilogram",
+        "Gram",
+        "Newton",
+        "Joule",
+        "Metre"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "SI sisteminde kütle birimi kilogramdır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Zamanın SI temel birimi hangisidir?",
+      "options": [
+        "Gün",
+        "Hertz",
+        "Saniye",
+        "Dakika",
+        "Saat"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "SI sisteminde zaman birimi saniyedir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Aşağıdakilerden hangisi temel büyüklüktür?",
+      "options": [
+        "Hız",
+        "Kuvvet",
+        "Enerji",
+        "Basınç",
+        "Sıcaklık"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sıcaklık SI'daki temel büyüklüklerden biridir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Aşağıdakilerden hangisi türetilmiş büyüklüktür?",
+      "options": [
+        "Sıcaklık",
+        "Hız",
+        "Kütle",
+        "Zaman",
+        "Uzunluk"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hız uzunluk ve zamandan türetilir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Yalnız büyüklük ve birimle ifade edilen niceliğe ne denir?",
+      "options": [
+        "Temel",
+        "Boyutsuz",
+        "Mekanik",
+        "Skaler",
+        "Vektörel"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Skaler niceliklerin yönü yoktur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Büyüklük yanında yön ve doğrultuya da sahip niceliğe ne denir?",
+      "options": [
+        "Vektörel",
+        "Skaler",
+        "Temel",
+        "Standart",
+        "Boyutsuz"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Vektörel nicelikler büyüklük, yön ve doğrultuyla tanımlanır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Aşağıdakilerden hangisi vektörel büyüklüktür?",
+      "options": [
+        "Sıcaklık",
+        "Zaman",
+        "Kuvvet",
+        "Sürat",
+        "Enerji"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kuvvet yönlü bir büyüklüktür."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Fizikte ölçümlerin ortak standartlarla ifade edilmesinin temel yararı nedir?",
+      "options": [
+        "Deneyleri gereksiz kılması",
+        "Hataları tamamen yok etmesi",
+        "Tüm büyüklükleri skaler yapması",
+        "Birimleri ortadan kaldırması",
+        "Sonuçların karşılaştırılabilmesi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Standart birimler ölçümlerin evrensel olarak karşılaştırılmasını sağlar."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Fizik madde, enerji, hareket ve etkileşimleri inceler. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Sosyoloji",
+        "Fizik",
+        "Biyoloji",
+        "Tarih",
+        "Coğrafya"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Fizik madde, enerji, hareket ve etkileşimleri inceler."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "SI sisteminde uzunluk birimi metredir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Saniye",
+        "Kelvin",
+        "Amper",
+        "Metre",
+        "Kilogram"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "SI sisteminde uzunluk birimi metredir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "SI sisteminde kütle birimi kilogramdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kilogram",
+        "Gram",
+        "Newton",
+        "Joule",
+        "Metre"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "SI sisteminde kütle birimi kilogramdır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Fizik Bilimine Giriş",
+      "question": "SI sisteminde zaman birimi saniyedir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Gün",
+        "Hertz",
+        "Saniye",
+        "Dakika",
+        "Saat"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "SI sisteminde zaman birimi saniyedir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Sıcaklık SI'daki temel büyüklüklerden biridir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hız",
+        "Kuvvet",
+        "Enerji",
+        "Basınç",
+        "Sıcaklık"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sıcaklık SI'daki temel büyüklüklerden biridir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Hız uzunluk ve zamandan türetilir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Sıcaklık",
+        "Hız",
+        "Kütle",
+        "Zaman",
+        "Uzunluk"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hız uzunluk ve zamandan türetilir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Skaler niceliklerin yönü yoktur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Temel",
+        "Boyutsuz",
+        "Mekanik",
+        "Skaler",
+        "Vektörel"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Skaler niceliklerin yönü yoktur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Vektörel nicelikler büyüklük, yön ve doğrultuyla tanımlanır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Vektörel",
+        "Skaler",
+        "Temel",
+        "Standart",
+        "Boyutsuz"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Vektörel nicelikler büyüklük, yön ve doğrultuyla tanımlanır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Kuvvet yönlü bir büyüklüktür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Sıcaklık",
+        "Zaman",
+        "Kuvvet",
+        "Sürat",
+        "Enerji"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kuvvet yönlü bir büyüklüktür."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Fizik Bilimine Giriş",
+      "question": "Standart birimler ölçümlerin evrensel olarak karşılaştırılmasını sağlar. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Deneyleri gereksiz kılması",
+        "Hataları tamamen yok etmesi",
+        "Tüm büyüklükleri skaler yapması",
+        "Birimleri ortadan kaldırması",
+        "Sonuçların karşılaştırılabilmesi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Standart birimler ölçümlerin evrensel olarak karşılaştırılmasını sağlar."
+    }
+  ]
+}

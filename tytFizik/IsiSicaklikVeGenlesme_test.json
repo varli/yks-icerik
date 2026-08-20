@@ -1,0 +1,331 @@
+{
+  "id": "isisicaklikvegenlesme",
+  "title": "Isı, Sıcaklık ve Genleşme",
+  "lesson": "TYT Fizik",
+  "description": "TYT Fizik Isı, Sıcaklık ve Genleşme konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Sıcaklık farkı nedeniyle aktarılan enerjiye ne denir?",
+      "options": [
+        "Hacim",
+        "Isı",
+        "Sıcaklık",
+        "Kütle",
+        "Basınç"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Isı, sıcaklık farkı nedeniyle aktarılan enerjidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Isının SI birimi hangisidir?",
+      "options": [
+        "Celsius",
+        "Watt",
+        "Newton",
+        "Joule",
+        "Kelvin"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Isı bir enerji olduğundan SI birimi joule'dür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Sıcaklığın SI temel birimi hangisidir?",
+      "options": [
+        "Kelvin",
+        "Joule",
+        "Celsius",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "SI sıcaklık birimi kelvindir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Isı hangi yönde kendiliğinden aktarılır?",
+      "options": [
+        "Hacmi küçük olandan büyüğe",
+        "Her zaman aşağıya",
+        "Sıcak maddeden soğuk maddeye",
+        "Soğuktan sıcağa",
+        "Kütlesi az olandan çoğa"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Net ısı aktarımı yüksek sıcaklıktan düşük sıcaklığa doğrudur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Öz ısı neyi ifade eder?",
+      "options": [
+        "Toplam kütleyi",
+        "Erime sıcaklığını",
+        "Yoğunluğu",
+        "Hacmi",
+        "Bir maddenin birim kütlesinin sıcaklığını 1 derece değiştirmek için gereken ısıyı"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Öz ısı maddenin sıcaklık değişimine karşı termal tepkisini ifade eder."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Q=mcΔT bağıntısında c hangi büyüklüktür?",
+      "options": [
+        "Hacim",
+        "Öz ısı",
+        "Kütle",
+        "Sıcaklık",
+        "Isı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "c maddenin öz ısısıdır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Katı bir madde ısıtıldığında boyutlarının artmasına ne denir?",
+      "options": [
+        "Yoğuşma",
+        "Donma",
+        "Süblimleşme",
+        "Genleşme",
+        "Büzülme"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sıcaklık artışı birçok maddede genleşmeye yol açar."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Maddelerin soğutulmasıyla boyutlarının küçülmesine ne denir?",
+      "options": [
+        "Büzülme",
+        "Genleşme",
+        "Erime",
+        "Kaynama",
+        "Buharlaşma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Sıcaklık azalınca çoğu madde büzülür."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Hal değişimi sırasında saf maddenin sıcaklığı, basınç sabitken genellikle nasıl davranır?",
+      "options": [
+        "İki katına çıkar",
+        "Sıfır olur",
+        "Sabit kalır",
+        "Sürekli artar",
+        "Sürekli azalır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hal değişimi sırasında alınan/verilen enerji bağları değiştirmeye harcanır; sıcaklık sabit kalır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Termometre hangi fiziksel büyüklüğü ölçer?",
+      "options": [
+        "Isı",
+        "Enerji",
+        "Basınç",
+        "Güç",
+        "Sıcaklık"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Termometre sıcaklığı ölçer."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Isı, sıcaklık farkı nedeniyle aktarılan enerjidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hacim",
+        "Isı",
+        "Sıcaklık",
+        "Kütle",
+        "Basınç"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Isı, sıcaklık farkı nedeniyle aktarılan enerjidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Isı bir enerji olduğundan SI birimi joule'dür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Celsius",
+        "Watt",
+        "Newton",
+        "Joule",
+        "Kelvin"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Isı bir enerji olduğundan SI birimi joule'dür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "SI sıcaklık birimi kelvindir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kelvin",
+        "Joule",
+        "Celsius",
+        "Watt",
+        "Pascal"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "SI sıcaklık birimi kelvindir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Net ısı aktarımı yüksek sıcaklıktan düşük sıcaklığa doğrudur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hacmi küçük olandan büyüğe",
+        "Her zaman aşağıya",
+        "Sıcak maddeden soğuk maddeye",
+        "Soğuktan sıcağa",
+        "Kütlesi az olandan çoğa"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Net ısı aktarımı yüksek sıcaklıktan düşük sıcaklığa doğrudur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Öz ısı maddenin sıcaklık değişimine karşı termal tepkisini ifade eder. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Toplam kütleyi",
+        "Erime sıcaklığını",
+        "Yoğunluğu",
+        "Hacmi",
+        "Bir maddenin birim kütlesinin sıcaklığını 1 derece değiştirmek için gereken ısıyı"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Öz ısı maddenin sıcaklık değişimine karşı termal tepkisini ifade eder."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "c maddenin öz ısısıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hacim",
+        "Öz ısı",
+        "Kütle",
+        "Sıcaklık",
+        "Isı"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "c maddenin öz ısısıdır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Sıcaklık artışı birçok maddede genleşmeye yol açar. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Yoğuşma",
+        "Donma",
+        "Süblimleşme",
+        "Genleşme",
+        "Büzülme"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sıcaklık artışı birçok maddede genleşmeye yol açar."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Sıcaklık azalınca çoğu madde büzülür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Büzülme",
+        "Genleşme",
+        "Erime",
+        "Kaynama",
+        "Buharlaşma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Sıcaklık azalınca çoğu madde büzülür."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Hal değişimi sırasında alınan/verilen enerji bağları değiştirmeye harcanır; sıcaklık sabit kalır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İki katına çıkar",
+        "Sıfır olur",
+        "Sabit kalır",
+        "Sürekli artar",
+        "Sürekli azalır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hal değişimi sırasında alınan/verilen enerji bağları değiştirmeye harcanır; sıcaklık sabit kalır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Isı, Sıcaklık ve Genleşme",
+      "question": "Termometre sıcaklığı ölçer. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Isı",
+        "Enerji",
+        "Basınç",
+        "Güç",
+        "Sıcaklık"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Termometre sıcaklığı ölçer."
+    }
+  ]
+}

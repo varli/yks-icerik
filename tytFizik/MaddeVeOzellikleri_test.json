@@ -1,0 +1,331 @@
+{
+  "id": "maddeveozellikleri",
+  "title": "Madde ve Özellikleri",
+  "lesson": "TYT Fizik",
+  "description": "TYT Fizik Madde ve Özellikleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Madde ve Özellikleri",
+      "question": "Kütlenin SI birimi hangisidir?",
+      "options": [
+        "Pascal",
+        "Kilogram",
+        "Newton",
+        "Metre",
+        "Litre"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kütlenin SI birimi kilogramdır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Madde ve Özellikleri",
+      "question": "Bir maddenin birim hacminin kütlesine ne denir?",
+      "options": [
+        "Ağırlık",
+        "Enerji",
+        "Sıcaklık",
+        "Özkütle",
+        "Basınç"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Özkütle d=m/V bağıntısıyla tanımlanır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Madde ve Özellikleri",
+      "question": "Özkütle hangi bağıntıyla bulunur?",
+      "options": [
+        "d=m/V",
+        "d=mV",
+        "d=V/m",
+        "d=m+V",
+        "d=m−V"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Özkütle kütlenin hacme oranıdır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Madde ve Özellikleri",
+      "question": "Kütlesi 200 g, hacmi 100 cm³ olan cismin özkütlesi kaç g/cm³'tür?",
+      "options": [
+        "20",
+        "200",
+        "2",
+        "0.5",
+        "1"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "d=200/100=2 g/cm³."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Madde ve Özellikleri",
+      "question": "Katı maddelerin belirli şekil ve hacme sahip olmasının temel nedeni nedir?",
+      "options": [
+        "Taneciklerinin olmaması",
+        "Kütlelerinin sıfır olması",
+        "Her zaman sıcak olmaları",
+        "Basınç oluşturmamaları",
+        "Tanecikler arası etkileşimin güçlü olması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Katılarda tanecikler birbirine yakın ve etkileşimleri güçlüdür."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Madde ve Özellikleri",
+      "question": "Sıvılar için hangisi doğrudur?",
+      "options": [
+        "Tanecikleri tamamen hareketsizdir",
+        "Belirli hacimleri vardır, kabın şeklini alırlar",
+        "Belirli şekilleri vardır",
+        "Hacimleri yoktur",
+        "Sıkıştırılmaları çok kolaydır"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sıvılar hacimlerini büyük ölçüde korur fakat bulundukları kabın şeklini alır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "Gazların belirgin özelliklerinden biri hangisidir?",
+      "options": [
+        "Belirli hacimlerinin olması",
+        "Taneciklerinin sabit olması",
+        "Sıkıştırılamamaları",
+        "Bulundukları kabı doldurmaları",
+        "Belirli şekillerinin olması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gazlar bulundukları kabın hacmini doldurur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "Bir cismin madde miktarının ölçüsüne ne denir?",
+      "options": [
+        "Kütle",
+        "Ağırlık",
+        "Özkütle",
+        "Basınç",
+        "Hacim"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kütle cismin madde miktarının ölçüsüdür."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "Ağırlık hangi kuvvetin sonucudur?",
+      "options": [
+        "Elektriksel kuvvet",
+        "Esneklik",
+        "Yer çekimi",
+        "Sürtünme",
+        "Manyetik kuvvet"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ağırlık cisme etki eden kütle çekim kuvvetidir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "Aynı maddeden yapılmış farklı büyüklükteki homojen cisimlerin özkütleleri için ne söylenir?",
+      "options": [
+        "Kütlesi büyük olanın daha fazladır",
+        "Hacmi küçük olanın sıfırdır",
+        "Her zaman farklıdır",
+        "Şekle bağlıdır",
+        "Aynıdır"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sabit sıcaklık ve basınçta özkütle saf madde için ayırt edici bir özelliktir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "Kütlenin SI birimi kilogramdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Pascal",
+        "Kilogram",
+        "Newton",
+        "Metre",
+        "Litre"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kütlenin SI birimi kilogramdır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "Özkütle d=m/V bağıntısıyla tanımlanır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Ağırlık",
+        "Enerji",
+        "Sıcaklık",
+        "Özkütle",
+        "Basınç"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Özkütle d=m/V bağıntısıyla tanımlanır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "Özkütle kütlenin hacme oranıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "d=m/V",
+        "d=mV",
+        "d=V/m",
+        "d=m+V",
+        "d=m−V"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Özkütle kütlenin hacme oranıdır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Madde ve Özellikleri",
+      "question": "d=200/100=2 g/cm³. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "20",
+        "200",
+        "2",
+        "0.5",
+        "1"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "d=200/100=2 g/cm³."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Madde ve Özellikleri",
+      "question": "Katılarda tanecikler birbirine yakın ve etkileşimleri güçlüdür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Taneciklerinin olmaması",
+        "Kütlelerinin sıfır olması",
+        "Her zaman sıcak olmaları",
+        "Basınç oluşturmamaları",
+        "Tanecikler arası etkileşimin güçlü olması"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Katılarda tanecikler birbirine yakın ve etkileşimleri güçlüdür."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Madde ve Özellikleri",
+      "question": "Sıvılar hacimlerini büyük ölçüde korur fakat bulundukları kabın şeklini alır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Tanecikleri tamamen hareketsizdir",
+        "Belirli hacimleri vardır, kabın şeklini alırlar",
+        "Belirli şekilleri vardır",
+        "Hacimleri yoktur",
+        "Sıkıştırılmaları çok kolaydır"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sıvılar hacimlerini büyük ölçüde korur fakat bulundukları kabın şeklini alır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Madde ve Özellikleri",
+      "question": "Gazlar bulundukları kabın hacmini doldurur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Belirli hacimlerinin olması",
+        "Taneciklerinin sabit olması",
+        "Sıkıştırılamamaları",
+        "Bulundukları kabı doldurmaları",
+        "Belirli şekillerinin olması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gazlar bulundukları kabın hacmini doldurur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Madde ve Özellikleri",
+      "question": "Kütle cismin madde miktarının ölçüsüdür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kütle",
+        "Ağırlık",
+        "Özkütle",
+        "Basınç",
+        "Hacim"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kütle cismin madde miktarının ölçüsüdür."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Madde ve Özellikleri",
+      "question": "Ağırlık cisme etki eden kütle çekim kuvvetidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Elektriksel kuvvet",
+        "Esneklik",
+        "Yer çekimi",
+        "Sürtünme",
+        "Manyetik kuvvet"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ağırlık cisme etki eden kütle çekim kuvvetidir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Madde ve Özellikleri",
+      "question": "Sabit sıcaklık ve basınçta özkütle saf madde için ayırt edici bir özelliktir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kütlesi büyük olanın daha fazladır",
+        "Hacmi küçük olanın sıfırdır",
+        "Her zaman farklıdır",
+        "Şekle bağlıdır",
+        "Aynıdır"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sabit sıcaklık ve basınçta özkütle saf madde için ayırt edici bir özelliktir."
+    }
+  ]
+}

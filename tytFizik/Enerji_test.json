@@ -1,0 +1,331 @@
+{
+  "id": "enerji",
+  "title": "Enerji",
+  "lesson": "TYT Fizik",
+  "description": "TYT Fizik Enerji konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Enerji",
+      "question": "İş yapabilme yeteneğine ne denir?",
+      "options": [
+        "Momentum",
+        "Enerji",
+        "Kuvvet",
+        "Basınç",
+        "İvme"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Enerji iş yapabilme yeteneğidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Enerji",
+      "question": "Enerjinin SI birimi hangisidir?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Amper",
+        "Joule",
+        "Newton"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Enerjinin SI birimi joule'dür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Enerji",
+      "question": "Hareket hâlindeki cismin sahip olduğu enerji hangisidir?",
+      "options": [
+        "Kinetik enerji",
+        "Potansiyel enerji",
+        "Isı",
+        "Kimyasal bağ enerjisi",
+        "Nükleer enerji"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Hareketten kaynaklanan enerji kinetik enerjidir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Enerji",
+      "question": "Kütlesi m, hızı v olan cismin kinetik enerjisi hangi ifadeyle bulunur?",
+      "options": [
+        "Fv",
+        "mg/v",
+        "mv²/2",
+        "mgh",
+        "mv"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kinetik enerji Ek=mv²/2'dir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Enerji",
+      "question": "Yer çekimi alanında yüksekte bulunan cismin sahip olduğu enerji hangisidir?",
+      "options": [
+        "Kinetik enerji",
+        "Elektrik akımı",
+        "Momentum",
+        "Basınç enerjisi",
+        "Çekim potansiyel enerjisi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yükseklik nedeniyle depolanan enerji çekim potansiyel enerjisidir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Enerji",
+      "question": "Çekim potansiyel enerjisi hangi bağıntıyla hesaplanır?",
+      "options": [
+        "mv",
+        "mgh",
+        "mv²/2",
+        "F/t",
+        "P/V"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yer yüzeyine yakın bölgede Ep=mgh'dir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "Sürtünmenin olmadığı sistemde mekanik enerji için hangisi doğrudur?",
+      "options": [
+        "Sürekli azalır",
+        "Sıfırdır",
+        "Kütleye bağlı değildir",
+        "Korunur",
+        "Sürekli artar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sürtünmesiz sistemlerde toplam mekanik enerji korunur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "Gücün tanımı hangisidir?",
+      "options": [
+        "Birim zamanda yapılan iş",
+        "Kuvvet ile zamanın çarpımı",
+        "Enerjinin karesi",
+        "Kütlenin hıza oranı",
+        "Basıncın hacme oranı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Güç yapılan işin zamana oranıdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "Gücün SI birimi hangisidir?",
+      "options": [
+        "Pascal",
+        "Metre",
+        "Watt",
+        "Joule",
+        "Newton"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Gücün birimi watt'tır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "100 J işi 5 saniyede yapan bir sistemin gücü kaç W'tır?",
+      "options": [
+        "5",
+        "10",
+        "50",
+        "500",
+        "20"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "P=W/t=100/5=20 W."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "Enerji iş yapabilme yeteneğidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Momentum",
+        "Enerji",
+        "Kuvvet",
+        "Basınç",
+        "İvme"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Enerji iş yapabilme yeteneğidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "Enerjinin SI birimi joule'dür. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Watt",
+        "Pascal",
+        "Amper",
+        "Joule",
+        "Newton"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Enerjinin SI birimi joule'dür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "Hareketten kaynaklanan enerji kinetik enerjidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kinetik enerji",
+        "Potansiyel enerji",
+        "Isı",
+        "Kimyasal bağ enerjisi",
+        "Nükleer enerji"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Hareketten kaynaklanan enerji kinetik enerjidir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Enerji",
+      "question": "Kinetik enerji Ek=mv²/2'dir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Fv",
+        "mg/v",
+        "mv²/2",
+        "mgh",
+        "mv"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kinetik enerji Ek=mv²/2'dir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Enerji",
+      "question": "Yükseklik nedeniyle depolanan enerji çekim potansiyel enerjisidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kinetik enerji",
+        "Elektrik akımı",
+        "Momentum",
+        "Basınç enerjisi",
+        "Çekim potansiyel enerjisi"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yükseklik nedeniyle depolanan enerji çekim potansiyel enerjisidir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Enerji",
+      "question": "Yer yüzeyine yakın bölgede Ep=mgh'dir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "mv",
+        "mgh",
+        "mv²/2",
+        "F/t",
+        "P/V"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yer yüzeyine yakın bölgede Ep=mgh'dir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Enerji",
+      "question": "Sürtünmesiz sistemlerde toplam mekanik enerji korunur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Sürekli azalır",
+        "Sıfırdır",
+        "Kütleye bağlı değildir",
+        "Korunur",
+        "Sürekli artar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sürtünmesiz sistemlerde toplam mekanik enerji korunur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Enerji",
+      "question": "Güç yapılan işin zamana oranıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Birim zamanda yapılan iş",
+        "Kuvvet ile zamanın çarpımı",
+        "Enerjinin karesi",
+        "Kütlenin hıza oranı",
+        "Basıncın hacme oranı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Güç yapılan işin zamana oranıdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Enerji",
+      "question": "Gücün birimi watt'tır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Pascal",
+        "Metre",
+        "Watt",
+        "Joule",
+        "Newton"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Gücün birimi watt'tır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Enerji",
+      "question": "P=W/t=100/5=20 W. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "5",
+        "10",
+        "50",
+        "500",
+        "20"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "P=W/t=100/5=20 W."
+    }
+  ]
+}

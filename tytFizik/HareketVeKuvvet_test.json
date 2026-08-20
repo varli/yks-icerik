@@ -1,0 +1,331 @@
+{
+  "id": "hareketvekuvvet",
+  "title": "Hareket ve Kuvvet",
+  "lesson": "TYT Fizik",
+  "description": "TYT Fizik Hareket ve Kuvvet konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Hareket ve Kuvvet",
+      "question": "Bir cismin referans noktasına göre konumunun zamanla değişmesine ne denir?",
+      "options": [
+        "Isı",
+        "Hareket",
+        "Enerji",
+        "Basınç",
+        "Denge"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Konumun zamana göre değişmesi harekettir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Hareket ve Kuvvet",
+      "question": "Alınan yolun zamana oranına ne denir?",
+      "options": [
+        "Kuvvet",
+        "Yer değiştirme",
+        "Momentum",
+        "Sürat",
+        "İvme"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Ortalama sürat toplam yol/toplam zaman ile bulunur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Hareket ve Kuvvet",
+      "question": "Yer değiştirmenin zamana oranı hangi büyüklüktür?",
+      "options": [
+        "Hız",
+        "Sürat",
+        "İvme",
+        "Kütle",
+        "Enerji"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ortalama hız yer değiştirme/zaman oranıdır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Hareket ve Kuvvet",
+      "question": "Hızın zamana göre değişim oranına ne denir?",
+      "options": [
+        "Enerji",
+        "İş",
+        "İvme",
+        "Sürat",
+        "Kuvvet"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İvme hız değişiminin zamana oranıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Hareket ve Kuvvet",
+      "question": "Kuvvetin SI birimi hangisidir?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Pascal",
+        "Kilogram",
+        "Newton"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kuvvetin SI birimi newtondur."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Hareket ve Kuvvet",
+      "question": "Newton'un ikinci yasası hangi bağıntıyla ifade edilir?",
+      "options": [
+        "F=mg²",
+        "F=ma",
+        "F=mv",
+        "F=m/a",
+        "F=a/m"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Net kuvvet kütle ile ivmenin çarpımına eşittir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "2 kg kütleli cisme 6 N net kuvvet uygulanırsa ivmesi kaç m/s² olur?",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "a=F/m=6/2=3 m/s²."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "Bir cisme etki eden net kuvvet sıfırsa cisim için hangisi mümkün olabilir?",
+      "options": [
+        "Sabit hızla hareket etmek",
+        "Mutlaka hızlanmak",
+        "Mutlaka yavaşlamak",
+        "İvmesinin artması",
+        "Yalnız düşey hareket yapmak"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Net kuvvet sıfırsa ivme sıfırdır; cisim durabilir veya sabit hızla hareket edebilir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "Etki-tepki kuvvetleri hangi Newton yasasıyla açıklanır?",
+      "options": [
+        "Kütle çekim yasası",
+        "Enerji yasası",
+        "Üçüncü yasa",
+        "Birinci yasa",
+        "İkinci yasa"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Newton'un üçüncü yasası kuvvetlerin karşılıklı çiftler hâlinde oluştuğunu söyler."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "Bir cismin hareket durumunu değiştirmeye karşı gösterdiği dirence ne denir?",
+      "options": [
+        "İvme",
+        "Enerji",
+        "İş",
+        "Basınç",
+        "Eylemsizlik"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Eylemsizlik cismin mevcut hareket durumunu koruma eğilimidir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "Konumun zamana göre değişmesi harekettir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Isı",
+        "Hareket",
+        "Enerji",
+        "Basınç",
+        "Denge"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Konumun zamana göre değişmesi harekettir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "Ortalama sürat toplam yol/toplam zaman ile bulunur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kuvvet",
+        "Yer değiştirme",
+        "Momentum",
+        "Sürat",
+        "İvme"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Ortalama sürat toplam yol/toplam zaman ile bulunur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "Ortalama hız yer değiştirme/zaman oranıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Hız",
+        "Sürat",
+        "İvme",
+        "Kütle",
+        "Enerji"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ortalama hız yer değiştirme/zaman oranıdır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Hareket ve Kuvvet",
+      "question": "İvme hız değişiminin zamana oranıdır. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Enerji",
+        "İş",
+        "İvme",
+        "Sürat",
+        "Kuvvet"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İvme hız değişiminin zamana oranıdır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Hareket ve Kuvvet",
+      "question": "Kuvvetin SI birimi newtondur. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Joule",
+        "Watt",
+        "Pascal",
+        "Kilogram",
+        "Newton"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kuvvetin SI birimi newtondur."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Hareket ve Kuvvet",
+      "question": "Net kuvvet kütle ile ivmenin çarpımına eşittir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "F=mg²",
+        "F=ma",
+        "F=mv",
+        "F=m/a",
+        "F=a/m"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Net kuvvet kütle ile ivmenin çarpımına eşittir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Hareket ve Kuvvet",
+      "question": "a=F/m=6/2=3 m/s². Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "4",
+        "8",
+        "12",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "a=F/m=6/2=3 m/s²."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Hareket ve Kuvvet",
+      "question": "Net kuvvet sıfırsa ivme sıfırdır; cisim durabilir veya sabit hızla hareket edebilir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Sabit hızla hareket etmek",
+        "Mutlaka hızlanmak",
+        "Mutlaka yavaşlamak",
+        "İvmesinin artması",
+        "Yalnız düşey hareket yapmak"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Net kuvvet sıfırsa ivme sıfırdır; cisim durabilir veya sabit hızla hareket edebilir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Hareket ve Kuvvet",
+      "question": "Newton'un üçüncü yasası kuvvetlerin karşılıklı çiftler hâlinde oluştuğunu söyler. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "Kütle çekim yasası",
+        "Enerji yasası",
+        "Üçüncü yasa",
+        "Birinci yasa",
+        "İkinci yasa"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Newton'un üçüncü yasası kuvvetlerin karşılıklı çiftler hâlinde oluştuğunu söyler."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Hareket ve Kuvvet",
+      "question": "Eylemsizlik cismin mevcut hareket durumunu koruma eğilimidir. Buna göre aşağıdakilerden hangisi doğru cevaptır?",
+      "options": [
+        "İvme",
+        "Enerji",
+        "İş",
+        "Basınç",
+        "Eylemsizlik"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Eylemsizlik cismin mevcut hareket durumunu koruma eğilimidir."
+    }
+  ]
+}
