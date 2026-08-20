@@ -1,0 +1,331 @@
+{
+  "id": "hucrebolunmeleriveureme",
+  "title": "Hücre Bölünmeleri ve Üreme",
+  "lesson": "TYT Biyoloji",
+  "description": "TYT Biyoloji Hücre Bölünmeleri ve Üreme konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Bir hücrenin birbirinin genetik olarak büyük ölçüde aynı iki hücre oluşturduğu bölünme hangisidir?",
+      "options": [
+        "Konjugasyon",
+        "Tomurcuklanma",
+        "Mitoz",
+        "Mayoz",
+        "Döllenme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Mitoz sonucunda ana hücreyle aynı kromozom sayısına sahip iki hücre oluşur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mitoz bölünmenin çok hücreli canlılardaki görevlerinden biri hangisidir?",
+      "options": [
+        "Büyüme ve onarım",
+        "Kromozom sayısını yarıya indirmek",
+        "Genetik çeşitliliği zorunlu olarak artırmak",
+        "Gamet oluşturmak",
+        "Döllenme yapmak"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Mitoz büyüme, gelişme ve doku onarımında görev alır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mayoz bölünme sonucunda kromozom sayısı nasıl değişir?",
+      "options": [
+        "Değişmez",
+        "Dört katına çıkar",
+        "Sıfırlanır",
+        "Yarıya iner",
+        "İki katına çıkar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mayozda diploit kromozom sayısı haploit sayıya iner."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mayoz bölünmede genetik çeşitliliğe katkı sağlayan olaylardan biri hangisidir?",
+      "options": [
+        "Hücre büyümesi",
+        "Crossing-over",
+        "Sitokinez",
+        "DNA eşlenmesi",
+        "İğ ipliği oluşumu"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Crossing-over homolog kromozomlar arasında parça değişimidir ve çeşitliliğe katkı sağlar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Homolog kromozomların birbirinden ayrılması mayozun hangi bölümünde gerçekleşir?",
+      "options": [
+        "Mayoz II",
+        "Mitoz",
+        "İnterfaz",
+        "Sitokinez",
+        "Mayoz I"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Homolog kromozomlar Mayoz I sırasında ayrılır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Eşeysiz üremenin temelinde hangi hücre bölünmesi bulunur?",
+      "options": [
+        "Crossing-over",
+        "Sinapsis",
+        "Mitoz",
+        "Mayoz",
+        "Döllenme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eşeysiz üremenin temel hücresel mekanizması mitozdur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Bir canlının vücudundan oluşan çıkıntının gelişerek yeni birey oluşturmasına ne denir?",
+      "options": [
+        "Tomurcuklanma",
+        "Bölünerek üreme",
+        "Döllenme",
+        "Partenogenez",
+        "Sporlanma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tomurcuklanmada ana canlı üzerinde gelişen çıkıntı yeni bireyi oluşturur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Dişi ve erkek üreme hücrelerinin birleşmesine ne denir?",
+      "options": [
+        "Mayoz",
+        "Rejenerasyon",
+        "Tomurcuklanma",
+        "Döllenme",
+        "Mitoz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gametlerin birleşmesiyle zigot oluşmasına döllenme denir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mayoz sonucunda bir ana hücreden genel olarak kaç hücre oluşur?",
+      "options": [
+        "8",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mayoz I ve Mayoz II sonucunda dört haploit hücre meydana gelir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mitozda kardeş kromatitlerin ayrıldığı evre hangisidir?",
+      "options": [
+        "Profaz",
+        "Metafaz",
+        "Telofaz",
+        "İnterfaz",
+        "Anafaz"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Anafazda kardeş kromatitler zıt kutuplara çekilir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mitoz sonucunda ana hücreyle aynı kromozom sayısına sahip iki hücre oluşur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Konjugasyon",
+        "Tomurcuklanma",
+        "Mitoz",
+        "Mayoz",
+        "Döllenme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Mitoz sonucunda ana hücreyle aynı kromozom sayısına sahip iki hücre oluşur."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mitoz büyüme, gelişme ve doku onarımında görev alır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Büyüme ve onarım",
+        "Kromozom sayısını yarıya indirmek",
+        "Genetik çeşitliliği zorunlu olarak artırmak",
+        "Gamet oluşturmak",
+        "Döllenme yapmak"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Mitoz büyüme, gelişme ve doku onarımında görev alır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mayozda diploit kromozom sayısı haploit sayıya iner. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Değişmez",
+        "Dört katına çıkar",
+        "Sıfırlanır",
+        "Yarıya iner",
+        "İki katına çıkar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mayozda diploit kromozom sayısı haploit sayıya iner."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Crossing-over homolog kromozomlar arasında parça değişimidir ve çeşitliliğe katkı sağlar. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Hücre büyümesi",
+        "Crossing-over",
+        "Sitokinez",
+        "DNA eşlenmesi",
+        "İğ ipliği oluşumu"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Crossing-over homolog kromozomlar arasında parça değişimidir ve çeşitliliğe katkı sağlar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Homolog kromozomlar Mayoz I sırasında ayrılır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Mayoz II",
+        "Mitoz",
+        "İnterfaz",
+        "Sitokinez",
+        "Mayoz I"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Homolog kromozomlar Mayoz I sırasında ayrılır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Eşeysiz üremenin temel hücresel mekanizması mitozdur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Crossing-over",
+        "Sinapsis",
+        "Mitoz",
+        "Mayoz",
+        "Döllenme"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Eşeysiz üremenin temel hücresel mekanizması mitozdur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Tomurcuklanmada ana canlı üzerinde gelişen çıkıntı yeni bireyi oluşturur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Tomurcuklanma",
+        "Bölünerek üreme",
+        "Döllenme",
+        "Partenogenez",
+        "Sporlanma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tomurcuklanmada ana canlı üzerinde gelişen çıkıntı yeni bireyi oluşturur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Gametlerin birleşmesiyle zigot oluşmasına döllenme denir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Mayoz",
+        "Rejenerasyon",
+        "Tomurcuklanma",
+        "Döllenme",
+        "Mitoz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gametlerin birleşmesiyle zigot oluşmasına döllenme denir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Mayoz I ve Mayoz II sonucunda dört haploit hücre meydana gelir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "8",
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mayoz I ve Mayoz II sonucunda dört haploit hücre meydana gelir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Hücre Bölünmeleri ve Üreme",
+      "question": "Anafazda kardeş kromatitler zıt kutuplara çekilir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Profaz",
+        "Metafaz",
+        "Telofaz",
+        "İnterfaz",
+        "Anafaz"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Anafazda kardeş kromatitler zıt kutuplara çekilir."
+    }
+  ]
+}

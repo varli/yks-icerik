@@ -1,0 +1,331 @@
+{
+  "id": "hucreninyapisiveislevleri",
+  "title": "Hücrenin Yapısı ve İşlevleri",
+  "lesson": "TYT Biyoloji",
+  "description": "TYT Biyoloji Hücrenin Yapısı ve İşlevleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Hücre teorisine göre canlıların temel yapı ve görev birimi nedir?",
+      "options": [
+        "Organel",
+        "Sistem",
+        "Hücre",
+        "Doku",
+        "Organ"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hücre canlıların temel yapı ve işlev birimidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Prokaryot hücrelerde aşağıdakilerden hangisi bulunmaz?",
+      "options": [
+        "Zarla çevrili çekirdek",
+        "Hücre zarı",
+        "Ribozom",
+        "Sitoplazma",
+        "DNA"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Prokaryotlarda DNA bulunur ancak zarla çevrili gerçek çekirdek yoktur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Hücrenin yönetim ve kalıtım merkezi olan organel hangisidir?",
+      "options": [
+        "Lizozom",
+        "Koful",
+        "Golgi aygıtı",
+        "Çekirdek",
+        "Ribozom"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Ökaryot hücrede genetik materyalin büyük bölümü çekirdekte bulunur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "ATP üretiminde temel görev alan organel hangisidir?",
+      "options": [
+        "Sentrozom",
+        "Mitokondri",
+        "Golgi aygıtı",
+        "Lizozom",
+        "Ribozom"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mitokondri oksijenli solunumla ATP üretiminde görev alır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Protein sentezi hangi organelde gerçekleşir?",
+      "options": [
+        "Mitokondri",
+        "Kloroplast",
+        "Lizozom",
+        "Koful",
+        "Ribozom"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ribozom protein sentezinin gerçekleştiği yapıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Fotosentezin gerçekleştiği organel hangisidir?",
+      "options": [
+        "Golgi aygıtı",
+        "Sentrozom",
+        "Kloroplast",
+        "Mitokondri",
+        "Lizozom"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Bitki ve bazı protist hücrelerinde fotosentez kloroplastta gerçekleşir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Hücre içi sindirimde görev alan organel hangisidir?",
+      "options": [
+        "Lizozom",
+        "Ribozom",
+        "Sentrozom",
+        "Çekirdek",
+        "Kloroplast"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Lizozom hidrolitik enzimleriyle hücre içi sindirim yapar."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Salgı maddelerinin işlenmesi, paketlenmesi ve taşınmasında görev alan organel hangisidir?",
+      "options": [
+        "Sentrozom",
+        "Çekirdek",
+        "Kloroplast",
+        "Golgi aygıtı",
+        "Ribozom"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Golgi aygıtı hücresel ürünlerin işlenmesi ve paketlenmesinde görev alır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Hücre zarının temel özelliği hangisidir?",
+      "options": [
+        "DNA taşıması",
+        "Seçici geçirgen olması",
+        "Tam geçirgen olması",
+        "Yalnız proteinlerden oluşması",
+        "Cansız olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hücre zarı madde giriş çıkışını seçici biçimde düzenler."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Suyun yarı geçirgen bir zardan çok su bulunan ortamdan az su bulunan ortama geçişine ne denir?",
+      "options": [
+        "Difüzyon",
+        "Aktif taşıma",
+        "Endositoz",
+        "Ekzositoz",
+        "Ozmoz"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ozmoz suyun seçici geçirgen zar üzerinden net geçişidir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Hücre canlıların temel yapı ve işlev birimidir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Organel",
+        "Sistem",
+        "Hücre",
+        "Doku",
+        "Organ"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hücre canlıların temel yapı ve işlev birimidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Prokaryotlarda DNA bulunur ancak zarla çevrili gerçek çekirdek yoktur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Zarla çevrili çekirdek",
+        "Hücre zarı",
+        "Ribozom",
+        "Sitoplazma",
+        "DNA"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Prokaryotlarda DNA bulunur ancak zarla çevrili gerçek çekirdek yoktur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Ökaryot hücrede genetik materyalin büyük bölümü çekirdekte bulunur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Lizozom",
+        "Koful",
+        "Golgi aygıtı",
+        "Çekirdek",
+        "Ribozom"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Ökaryot hücrede genetik materyalin büyük bölümü çekirdekte bulunur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Mitokondri oksijenli solunumla ATP üretiminde görev alır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Sentrozom",
+        "Mitokondri",
+        "Golgi aygıtı",
+        "Lizozom",
+        "Ribozom"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mitokondri oksijenli solunumla ATP üretiminde görev alır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Ribozom protein sentezinin gerçekleştiği yapıdır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Mitokondri",
+        "Kloroplast",
+        "Lizozom",
+        "Koful",
+        "Ribozom"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ribozom protein sentezinin gerçekleştiği yapıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Bitki ve bazı protist hücrelerinde fotosentez kloroplastta gerçekleşir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Golgi aygıtı",
+        "Sentrozom",
+        "Kloroplast",
+        "Mitokondri",
+        "Lizozom"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Bitki ve bazı protist hücrelerinde fotosentez kloroplastta gerçekleşir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Lizozom hidrolitik enzimleriyle hücre içi sindirim yapar. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Lizozom",
+        "Ribozom",
+        "Sentrozom",
+        "Çekirdek",
+        "Kloroplast"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Lizozom hidrolitik enzimleriyle hücre içi sindirim yapar."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Golgi aygıtı hücresel ürünlerin işlenmesi ve paketlenmesinde görev alır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Sentrozom",
+        "Çekirdek",
+        "Kloroplast",
+        "Golgi aygıtı",
+        "Ribozom"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Golgi aygıtı hücresel ürünlerin işlenmesi ve paketlenmesinde görev alır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Hücre zarı madde giriş çıkışını seçici biçimde düzenler. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "DNA taşıması",
+        "Seçici geçirgen olması",
+        "Tam geçirgen olması",
+        "Yalnız proteinlerden oluşması",
+        "Cansız olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hücre zarı madde giriş çıkışını seçici biçimde düzenler."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Hücrenin Yapısı ve İşlevleri",
+      "question": "Ozmoz suyun seçici geçirgen zar üzerinden net geçişidir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Difüzyon",
+        "Aktif taşıma",
+        "Endositoz",
+        "Ekzositoz",
+        "Ozmoz"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ozmoz suyun seçici geçirgen zar üzerinden net geçişidir."
+    }
+  ]
+}

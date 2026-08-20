@@ -1,0 +1,331 @@
+{
+  "id": "canlilarinsiniflandirilmasi",
+  "title": "Canlıların Sınıflandırılması",
+  "lesson": "TYT Biyoloji",
+  "description": "TYT Biyoloji Canlıların Sınıflandırılması konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Canlıların benzerlik ve farklılıklarına göre gruplandırılmasına ne denir?",
+      "options": [
+        "Üreme",
+        "Adaptasyon",
+        "Sınıflandırma",
+        "Metabolizma",
+        "Homeostazi"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Canlıların belirli özelliklerine göre gruplandırılması sınıflandırmadır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Sınıflandırmanın temel birimi hangisidir?",
+      "options": [
+        "Tür",
+        "Cins",
+        "Familya",
+        "Takım",
+        "Alem"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Sınıflandırmanın en küçük temel birimi türdür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Doğal sınıflandırmada canlıların hangi özelliği özellikle dikkate alınır?",
+      "options": [
+        "Vücut büyüklüğü",
+        "İnsanlara yararı",
+        "Hareket hızları",
+        "Akrabalık dereceleri",
+        "Yaşadıkları yer"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Doğal sınıflandırma evrimsel akrabalık ilişkilerini esas alır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "İkili adlandırma sistemini geliştiren bilim insanı kimdir?",
+      "options": [
+        "Louis Pasteur",
+        "Carl Linnaeus",
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Robert Hooke"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İkili adlandırma sistemi Linnaeus tarafından geliştirilmiştir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "İkili adlandırmada ilk sözcük neyi belirtir?",
+      "options": [
+        "Tür adını",
+        "Alem adını",
+        "Familya adını",
+        "Şube adını",
+        "Cins adını"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bilimsel adlandırmada ilk kelime cins adıdır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Aynı türdeki canlılar için aşağıdakilerden hangisi geçerlidir?",
+      "options": [
+        "Farklı cinslerde yer alırlar",
+        "Kromozom sayıları her zaman farklıdır",
+        "Çiftleşerek verimli döl oluşturabilirler",
+        "Mutlaka aynı bölgede yaşarlar",
+        "Tüm özellikleri aynıdır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Aynı tür bireyleri doğal koşullarda çiftleşerek verimli yavrular oluşturabilir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Türden aleme doğru gidildikçe canlılar arasındaki benzerlik genellikle nasıl değişir?",
+      "options": [
+        "Azalır",
+        "Artar",
+        "Değişmez",
+        "Önce artar sonra azalır",
+        "Tamamen yok olur"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Üst basamaklara çıkıldıkça kapsanan canlı çeşitliliği artar, ortak özellikler azalır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Türden aleme doğru gidildikçe kapsanan birey sayısı nasıl değişir?",
+      "options": [
+        "Değişmez",
+        "Sıfırlanır",
+        "Önce azalır sonra artar",
+        "Artar",
+        "Azalır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sınıflandırma basamakları genişledikçe daha fazla canlı kapsanır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Aynı cinste bulunan iki canlı için hangisi kesinlikle doğrudur?",
+      "options": [
+        "Proteinleri tamamen aynıdır",
+        "Aynı familyada da bulunurlar",
+        "Aynı türdürler",
+        "Aynı kromozom sayısına sahiptirler",
+        "Çiftleşip verimli döl verirler"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Aynı cinste olan canlılar daha üst basamak olan aynı familyada da yer alır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Bilimsel sınıflandırmada protein ve DNA benzerliğinin fazla olması neyi gösterir?",
+      "options": [
+        "Canlıların aynı yaşta olduğunu",
+        "Aynı ortamda yaşadıklarını",
+        "Beslenmelerinin aynı olduğunu",
+        "Kütlelerinin eşit olduğunu",
+        "Akrabalığın yakın olduğunu"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Moleküler benzerlik arttıkça evrimsel akrabalığın yakın olması beklenir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Canlıların belirli özelliklerine göre gruplandırılması sınıflandırmadır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Üreme",
+        "Adaptasyon",
+        "Sınıflandırma",
+        "Metabolizma",
+        "Homeostazi"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Canlıların belirli özelliklerine göre gruplandırılması sınıflandırmadır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Sınıflandırmanın en küçük temel birimi türdür. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Tür",
+        "Cins",
+        "Familya",
+        "Takım",
+        "Alem"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Sınıflandırmanın en küçük temel birimi türdür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Doğal sınıflandırma evrimsel akrabalık ilişkilerini esas alır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Vücut büyüklüğü",
+        "İnsanlara yararı",
+        "Hareket hızları",
+        "Akrabalık dereceleri",
+        "Yaşadıkları yer"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Doğal sınıflandırma evrimsel akrabalık ilişkilerini esas alır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "İkili adlandırma sistemi Linnaeus tarafından geliştirilmiştir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Louis Pasteur",
+        "Carl Linnaeus",
+        "Gregor Mendel",
+        "Charles Darwin",
+        "Robert Hooke"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İkili adlandırma sistemi Linnaeus tarafından geliştirilmiştir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Bilimsel adlandırmada ilk kelime cins adıdır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Tür adını",
+        "Alem adını",
+        "Familya adını",
+        "Şube adını",
+        "Cins adını"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Bilimsel adlandırmada ilk kelime cins adıdır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Aynı tür bireyleri doğal koşullarda çiftleşerek verimli yavrular oluşturabilir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Farklı cinslerde yer alırlar",
+        "Kromozom sayıları her zaman farklıdır",
+        "Çiftleşerek verimli döl oluşturabilirler",
+        "Mutlaka aynı bölgede yaşarlar",
+        "Tüm özellikleri aynıdır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Aynı tür bireyleri doğal koşullarda çiftleşerek verimli yavrular oluşturabilir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Üst basamaklara çıkıldıkça kapsanan canlı çeşitliliği artar, ortak özellikler azalır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Azalır",
+        "Artar",
+        "Değişmez",
+        "Önce artar sonra azalır",
+        "Tamamen yok olur"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Üst basamaklara çıkıldıkça kapsanan canlı çeşitliliği artar, ortak özellikler azalır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Sınıflandırma basamakları genişledikçe daha fazla canlı kapsanır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Değişmez",
+        "Sıfırlanır",
+        "Önce azalır sonra artar",
+        "Artar",
+        "Azalır"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sınıflandırma basamakları genişledikçe daha fazla canlı kapsanır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Aynı cinste olan canlılar daha üst basamak olan aynı familyada da yer alır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Proteinleri tamamen aynıdır",
+        "Aynı familyada da bulunurlar",
+        "Aynı türdürler",
+        "Aynı kromozom sayısına sahiptirler",
+        "Çiftleşip verimli döl verirler"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Aynı cinste olan canlılar daha üst basamak olan aynı familyada da yer alır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Canlıların Sınıflandırılması",
+      "question": "Moleküler benzerlik arttıkça evrimsel akrabalığın yakın olması beklenir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Canlıların aynı yaşta olduğunu",
+        "Aynı ortamda yaşadıklarını",
+        "Beslenmelerinin aynı olduğunu",
+        "Kütlelerinin eşit olduğunu",
+        "Akrabalığın yakın olduğunu"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Moleküler benzerlik arttıkça evrimsel akrabalığın yakın olması beklenir."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "canlilarintemelbilesenleri",
+  "title": "Canlıların Temel Bileşenleri",
+  "lesson": "TYT Biyoloji",
+  "description": "TYT Biyoloji Canlıların Temel Bileşenleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Canlıların yapısında en fazla bulunan inorganik bileşik genellikle hangisidir?",
+      "options": [
+        "DNA",
+        "Vitamin",
+        "Su",
+        "Protein",
+        "Glikojen"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Su canlıların yapısında yüksek oranda bulunan temel inorganik bileşiktir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Karbonhidratların yapı taşı aşağıdakilerden hangisidir?",
+      "options": [
+        "Monosakkarit",
+        "Amino asit",
+        "Yağ asidi",
+        "Nükleotit",
+        "Gliserol"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Karbonhidratların monomerleri monosakkaritlerdir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Proteinlerin yapı taşı nedir?",
+      "options": [
+        "Nükleotit",
+        "Gliserol",
+        "Yağ asidi",
+        "Amino asit",
+        "Glikoz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Proteinler amino asitlerin birleşmesiyle oluşur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Nükleik asitlerin yapı birimine ne denir?",
+      "options": [
+        "Peptit",
+        "Nükleotit",
+        "Amino asit",
+        "Monosakkarit",
+        "Yağ asidi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "DNA ve RNA nükleotitlerden oluşur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Enzimlerin temel görevi nedir?",
+      "options": [
+        "Enerji depolamak",
+        "Genetik bilgiyi taşımak",
+        "Hücreyi bölmek",
+        "Oksijen üretmek",
+        "Kimyasal tepkimeleri hızlandırmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Enzimler aktivasyon enerjisini düşürerek biyokimyasal tepkimeleri hızlandırır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Aşağıdakilerden hangisi yağların görevlerinden biridir?",
+      "options": [
+        "Hücre bölünmesini başlatmak",
+        "Enzim üretmeden sindirim yapmak",
+        "Uzun süreli enerji depolamak",
+        "Genetik şifreyi taşımak",
+        "Protein sentezlemek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yağlar yüksek miktarda enerji depolayan organik bileşiklerdir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "DNA ve RNA'nın yapısında ortak olarak bulunan organik baz hangisidir?",
+      "options": [
+        "Adenin",
+        "Timin",
+        "Urasil",
+        "Yalnız sitozin",
+        "Hiçbiri"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Adenin hem DNA hem RNA'da bulunur."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Vitaminlerle ilgili hangisi doğrudur?",
+      "options": [
+        "Monomerleri amino asittir",
+        "DNA'nın yapısına katılırlar",
+        "Tüm vitaminler vücutta sentezlenir",
+        "Düzenleyici olarak görev yapabilirler",
+        "Temel enerji kaynağıdırlar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Vitaminler metabolik süreçlerde düzenleyici rol oynar."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Minerallerle ilgili hangisi doğrudur?",
+      "options": [
+        "Yalnız bitkilerde bulunurlar",
+        "İnorganik maddelerdir",
+        "Enerji verirler",
+        "Sindirilerek monomere ayrılırlar",
+        "Protein yapılıdırlar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mineraller inorganik yapılı ve düzenleyici görevleri olan maddelerdir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Glikozun fazlası hayvanlarda hangi polisakkarit olarak depolanır?",
+      "options": [
+        "Nişasta",
+        "Selüloz",
+        "Kitin",
+        "Maltoz",
+        "Glikojen"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hayvanlarda glikozun depo polisakkariti glikojendir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Su canlıların yapısında yüksek oranda bulunan temel inorganik bileşiktir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "DNA",
+        "Vitamin",
+        "Su",
+        "Protein",
+        "Glikojen"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Su canlıların yapısında yüksek oranda bulunan temel inorganik bileşiktir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Karbonhidratların monomerleri monosakkaritlerdir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Monosakkarit",
+        "Amino asit",
+        "Yağ asidi",
+        "Nükleotit",
+        "Gliserol"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Karbonhidratların monomerleri monosakkaritlerdir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Proteinler amino asitlerin birleşmesiyle oluşur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Nükleotit",
+        "Gliserol",
+        "Yağ asidi",
+        "Amino asit",
+        "Glikoz"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Proteinler amino asitlerin birleşmesiyle oluşur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "DNA ve RNA nükleotitlerden oluşur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Peptit",
+        "Nükleotit",
+        "Amino asit",
+        "Monosakkarit",
+        "Yağ asidi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "DNA ve RNA nükleotitlerden oluşur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Enzimler aktivasyon enerjisini düşürerek biyokimyasal tepkimeleri hızlandırır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Enerji depolamak",
+        "Genetik bilgiyi taşımak",
+        "Hücreyi bölmek",
+        "Oksijen üretmek",
+        "Kimyasal tepkimeleri hızlandırmak"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Enzimler aktivasyon enerjisini düşürerek biyokimyasal tepkimeleri hızlandırır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Yağlar yüksek miktarda enerji depolayan organik bileşiklerdir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Hücre bölünmesini başlatmak",
+        "Enzim üretmeden sindirim yapmak",
+        "Uzun süreli enerji depolamak",
+        "Genetik şifreyi taşımak",
+        "Protein sentezlemek"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yağlar yüksek miktarda enerji depolayan organik bileşiklerdir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Adenin hem DNA hem RNA'da bulunur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Adenin",
+        "Timin",
+        "Urasil",
+        "Yalnız sitozin",
+        "Hiçbiri"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Adenin hem DNA hem RNA'da bulunur."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Vitaminler metabolik süreçlerde düzenleyici rol oynar. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Monomerleri amino asittir",
+        "DNA'nın yapısına katılırlar",
+        "Tüm vitaminler vücutta sentezlenir",
+        "Düzenleyici olarak görev yapabilirler",
+        "Temel enerji kaynağıdırlar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Vitaminler metabolik süreçlerde düzenleyici rol oynar."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Mineraller inorganik yapılı ve düzenleyici görevleri olan maddelerdir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Yalnız bitkilerde bulunurlar",
+        "İnorganik maddelerdir",
+        "Enerji verirler",
+        "Sindirilerek monomere ayrılırlar",
+        "Protein yapılıdırlar"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mineraller inorganik yapılı ve düzenleyici görevleri olan maddelerdir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Canlıların Temel Bileşenleri",
+      "question": "Hayvanlarda glikozun depo polisakkariti glikojendir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Nişasta",
+        "Selüloz",
+        "Kitin",
+        "Maltoz",
+        "Glikojen"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hayvanlarda glikozun depo polisakkariti glikojendir."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "kalitimvecevre",
+  "title": "Kalıtım ve Çevre",
+  "lesson": "TYT Biyoloji",
+  "description": "TYT Biyoloji Kalıtım ve Çevre konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kalıtım ve Çevre",
+      "question": "Kalıtsal özellikleri taşıyan DNA bölümlerine ne denir?",
+      "options": [
+        "Organel",
+        "Enzim",
+        "Gen",
+        "Kromatit",
+        "Sentromer"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Gen, kalıtsal bir özellik üzerinde etkili DNA bölgesidir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kalıtım ve Çevre",
+      "question": "Bir canlının sahip olduğu genlerin tümüne ne denir?",
+      "options": [
+        "Genotip",
+        "Fenotip",
+        "Modifikasyon",
+        "Adaptasyon",
+        "Mutasyon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Genotip bireyin genetik yapısını ifade eder."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Kalıtım ve Çevre",
+      "question": "Genotip ile çevrenin etkileşimi sonucu ortaya çıkan gözlenebilir özelliklere ne denir?",
+      "options": [
+        "Alel",
+        "Kromozom",
+        "Nükleotit",
+        "Fenotip",
+        "Genotip"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Fenotip genotipin çevreyle etkileşmesi sonucu ortaya çıkan özelliklerdir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kalıtım ve Çevre",
+      "question": "Bir karakter üzerinde etkili gen çeşitlerinden her birine ne denir?",
+      "options": [
+        "Enzim",
+        "Alel",
+        "Fenotip",
+        "Kromatit",
+        "Organel"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Aynı karakterle ilgili gen çeşitlerine alel denir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kalıtım ve Çevre",
+      "question": "Aynı karakter için iki aynı alele sahip bireye ne denir?",
+      "options": [
+        "Heterozigot",
+        "Haploit",
+        "Fenotip",
+        "Mutant",
+        "Homozigot"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Homozigot birey ilgili karakter için aynı iki aleli taşır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Kalıtım ve Çevre",
+      "question": "Bir karakter için iki farklı alel taşıyan bireye ne denir?",
+      "options": [
+        "Fenotip",
+        "Saf döl",
+        "Heterozigot",
+        "Homozigot",
+        "Diploit"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Heterozigot birey farklı iki alele sahiptir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "Heterozigot durumda fenotipte etkisini gösteren alele ne denir?",
+      "options": [
+        "Baskın alel",
+        "Çekinik alel",
+        "Mutant alel",
+        "Nötr alel",
+        "Bağlı alel"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Baskın alel heterozigot bireyde fenotipte etkisini gösterir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "DNA'nın nükleotit dizisinde meydana gelen kalıcı değişikliğe ne denir?",
+      "options": [
+        "Adaptasyon",
+        "Homeostazi",
+        "Difüzyon",
+        "Mutasyon",
+        "Modifikasyon"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mutasyon genetik materyalde oluşan kalıcı değişikliktir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "Çevre etkisiyle fenotipte oluşan ve genellikle kalıtsal olmayan değişikliklere ne denir?",
+      "options": [
+        "Rekombinasyon",
+        "Modifikasyon",
+        "Mutasyon",
+        "Adaptasyon",
+        "Crossing-over"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Modifikasyon çevresel koşulların fenotip üzerindeki etkisiyle oluşur ve DNA dizisini değiştirmez."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "Mendel'in çalışmalarında kullandığı canlı hangisidir?",
+      "options": [
+        "Mısır",
+        "Buğday",
+        "Sirke sineği",
+        "Bakteri",
+        "Bezelye"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Gregor Mendel kalıtım deneylerini bezelyeler üzerinde gerçekleştirmiştir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "Gen, kalıtsal bir özellik üzerinde etkili DNA bölgesidir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Organel",
+        "Enzim",
+        "Gen",
+        "Kromatit",
+        "Sentromer"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Gen, kalıtsal bir özellik üzerinde etkili DNA bölgesidir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "Genotip bireyin genetik yapısını ifade eder. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Genotip",
+        "Fenotip",
+        "Modifikasyon",
+        "Adaptasyon",
+        "Mutasyon"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Genotip bireyin genetik yapısını ifade eder."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "Fenotip genotipin çevreyle etkileşmesi sonucu ortaya çıkan özelliklerdir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Alel",
+        "Kromozom",
+        "Nükleotit",
+        "Fenotip",
+        "Genotip"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Fenotip genotipin çevreyle etkileşmesi sonucu ortaya çıkan özelliklerdir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kalıtım ve Çevre",
+      "question": "Aynı karakterle ilgili gen çeşitlerine alel denir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Enzim",
+        "Alel",
+        "Fenotip",
+        "Kromatit",
+        "Organel"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Aynı karakterle ilgili gen çeşitlerine alel denir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kalıtım ve Çevre",
+      "question": "Homozigot birey ilgili karakter için aynı iki aleli taşır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Heterozigot",
+        "Haploit",
+        "Fenotip",
+        "Mutant",
+        "Homozigot"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Homozigot birey ilgili karakter için aynı iki aleli taşır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kalıtım ve Çevre",
+      "question": "Heterozigot birey farklı iki alele sahiptir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Fenotip",
+        "Saf döl",
+        "Heterozigot",
+        "Homozigot",
+        "Diploit"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Heterozigot birey farklı iki alele sahiptir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Kalıtım ve Çevre",
+      "question": "Baskın alel heterozigot bireyde fenotipte etkisini gösterir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Baskın alel",
+        "Çekinik alel",
+        "Mutant alel",
+        "Nötr alel",
+        "Bağlı alel"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Baskın alel heterozigot bireyde fenotipte etkisini gösterir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Kalıtım ve Çevre",
+      "question": "Mutasyon genetik materyalde oluşan kalıcı değişikliktir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Adaptasyon",
+        "Homeostazi",
+        "Difüzyon",
+        "Mutasyon",
+        "Modifikasyon"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mutasyon genetik materyalde oluşan kalıcı değişikliktir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kalıtım ve Çevre",
+      "question": "Modifikasyon çevresel koşulların fenotip üzerindeki etkisiyle oluşur ve DNA dizisini değiştirmez. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Rekombinasyon",
+        "Modifikasyon",
+        "Mutasyon",
+        "Adaptasyon",
+        "Crossing-over"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Modifikasyon çevresel koşulların fenotip üzerindeki etkisiyle oluşur ve DNA dizisini değiştirmez."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Kalıtım ve Çevre",
+      "question": "Gregor Mendel kalıtım deneylerini bezelyeler üzerinde gerçekleştirmiştir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Mısır",
+        "Buğday",
+        "Sirke sineği",
+        "Bakteri",
+        "Bezelye"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Gregor Mendel kalıtım deneylerini bezelyeler üzerinde gerçekleştirmiştir."
+    }
+  ]
+}

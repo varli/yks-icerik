@@ -1,0 +1,331 @@
+{
+  "id": "canlilarinortakozellikleri",
+  "title": "Canlıların Ortak Özellikleri",
+  "lesson": "TYT Biyoloji",
+  "description": "TYT Biyoloji Canlıların Ortak Özellikleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Aşağıdakilerden hangisi tüm canlılarda ortak olarak görülür?",
+      "options": [
+        "Eşeyli üreme",
+        "Çok hücrelilik",
+        "Hücresel yapı",
+        "Fotosentez",
+        "Aktif hareket"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tüm canlılar en az bir hücreden oluşur."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlıların enerji elde etmek için gerçekleştirdiği yapım ve yıkım tepkimelerinin tümüne ne denir?",
+      "options": [
+        "Metabolizma",
+        "Homeostazi",
+        "Adaptasyon",
+        "Boşaltım",
+        "Üreme"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Canlıdaki yapım ve yıkım tepkimelerinin tümü metabolizmadır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlıların iç ortamlarını belirli sınırlar içinde dengede tutmasına ne ad verilir?",
+      "options": [
+        "Modifikasyon",
+        "Fermantasyon",
+        "Adaptasyon",
+        "Homeostazi",
+        "Mutasyon"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Homeostazi, iç çevrenin kararlı tutulmasıdır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlıların çevreden gelen değişikliklere tepki göstermesi hangi ortak özelliktir?",
+      "options": [
+        "Çok hücrelilik",
+        "Uyarılara tepki",
+        "Üreme",
+        "Sindirim",
+        "Fotosentez"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Canlılar ışık, sıcaklık ve kimyasal maddeler gibi uyaranlara tepki verebilir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlıların nesillerini devam ettirmesini sağlayan olay hangisidir?",
+      "options": [
+        "Boşaltım",
+        "Solunum",
+        "Beslenme",
+        "Homeostazi",
+        "Üreme"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üreme türün devamını sağlar."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlılarda protein sentezinin gerçekleştiği yapı hangisidir?",
+      "options": [
+        "Koful",
+        "Golgi aygıtı",
+        "Ribozom",
+        "Lizozom",
+        "Sentrozom"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ribozom tüm hücrelerde protein sentezinden sorumludur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlının yapısına yeni maddeler katması ve hacimce artmasına ne denir?",
+      "options": [
+        "Büyüme",
+        "Boşaltım",
+        "Adaptasyon",
+        "Solunum",
+        "Uyarılma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Büyüme canlıda madde ve hacim artışıdır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Metabolik faaliyetler sonucu oluşan zararlı veya fazla maddelerin vücuttan uzaklaştırılmasına ne denir?",
+      "options": [
+        "Üreme",
+        "Sindirim",
+        "Büyüme",
+        "Boşaltım",
+        "Beslenme"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Boşaltım metabolik atıkların uzaklaştırılmasıdır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlıların yaşamsal faaliyetlerini sürdürebilmek için enerjiye ihtiyaç duyması hangi olayla doğrudan ilişkilidir?",
+      "options": [
+        "Eşeyli üreme",
+        "Solunum",
+        "Sınıflandırma",
+        "Mutasyon",
+        "Döllenme"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hücresel solunumla besinlerdeki kimyasal enerjiden ATP üretilir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Bir canlının yaşadığı çevrede hayatta kalma ve üreme başarısını artıran kalıtsal özelliklerine ne denir?",
+      "options": [
+        "Modifikasyon",
+        "Homeostazi",
+        "Metabolizma",
+        "Boşaltım",
+        "Adaptasyon"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Adaptasyon çevreye uyumu artıran kalıtsal özelliklerdir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Tüm canlılar en az bir hücreden oluşur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Eşeyli üreme",
+        "Çok hücrelilik",
+        "Hücresel yapı",
+        "Fotosentez",
+        "Aktif hareket"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tüm canlılar en az bir hücreden oluşur."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlıdaki yapım ve yıkım tepkimelerinin tümü metabolizmadır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Metabolizma",
+        "Homeostazi",
+        "Adaptasyon",
+        "Boşaltım",
+        "Üreme"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Canlıdaki yapım ve yıkım tepkimelerinin tümü metabolizmadır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Homeostazi, iç çevrenin kararlı tutulmasıdır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Modifikasyon",
+        "Fermantasyon",
+        "Adaptasyon",
+        "Homeostazi",
+        "Mutasyon"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Homeostazi, iç çevrenin kararlı tutulmasıdır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Canlılar ışık, sıcaklık ve kimyasal maddeler gibi uyaranlara tepki verebilir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Çok hücrelilik",
+        "Uyarılara tepki",
+        "Üreme",
+        "Sindirim",
+        "Fotosentez"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Canlılar ışık, sıcaklık ve kimyasal maddeler gibi uyaranlara tepki verebilir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Üreme türün devamını sağlar. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Boşaltım",
+        "Solunum",
+        "Beslenme",
+        "Homeostazi",
+        "Üreme"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üreme türün devamını sağlar."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Ribozom tüm hücrelerde protein sentezinden sorumludur. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Koful",
+        "Golgi aygıtı",
+        "Ribozom",
+        "Lizozom",
+        "Sentrozom"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ribozom tüm hücrelerde protein sentezinden sorumludur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Büyüme canlıda madde ve hacim artışıdır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Büyüme",
+        "Boşaltım",
+        "Adaptasyon",
+        "Solunum",
+        "Uyarılma"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Büyüme canlıda madde ve hacim artışıdır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Boşaltım metabolik atıkların uzaklaştırılmasıdır. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Üreme",
+        "Sindirim",
+        "Büyüme",
+        "Boşaltım",
+        "Beslenme"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Boşaltım metabolik atıkların uzaklaştırılmasıdır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Hücresel solunumla besinlerdeki kimyasal enerjiden ATP üretilir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Eşeyli üreme",
+        "Solunum",
+        "Sınıflandırma",
+        "Mutasyon",
+        "Döllenme"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hücresel solunumla besinlerdeki kimyasal enerjiden ATP üretilir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Canlıların Ortak Özellikleri",
+      "question": "Adaptasyon çevreye uyumu artıran kalıtsal özelliklerdir. Bu bilgiye göre doğru kavram veya sonuç hangisidir?",
+      "options": [
+        "Modifikasyon",
+        "Homeostazi",
+        "Metabolizma",
+        "Boşaltım",
+        "Adaptasyon"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Adaptasyon çevreye uyumu artıran kalıtsal özelliklerdir."
+    }
+  ]
+}
