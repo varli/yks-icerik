@@ -1,0 +1,331 @@
+{
+  "id": "islammedeniyetinindogusuveilkislamdevletleri",
+  "title": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "İslamiyet hangi şehirde doğmuştur?",
+      "options": [
+        "Şam",
+        "Bağdat",
+        "Mekke",
+        "Medine",
+        "Kudüs"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hz. Muhammed'e ilk vahiy Mekke yakınlarındaki Hira'da gelmiştir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Hicret hangi iki şehir arasında gerçekleşmiştir?",
+      "options": [
+        "Medine'den Mekke'ye",
+        "Şam'dan Mekke'ye",
+        "Bağdat'tan Medine'ye",
+        "Kudüs'ten Şam'a",
+        "Mekke'den Medine'ye"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "622'de Müslümanlar Mekke'den Medine'ye hicret etmiştir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Hicret'in gerçekleştiği yıl hangisidir?",
+      "options": [
+        "661",
+        "622",
+        "571",
+        "610",
+        "632"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hicret 622 yılında gerçekleşmiş ve Hicri takvime başlangıç olmuştur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Dört Halife Dönemi'nin ilk halifesi kimdir?",
+      "options": [
+        "Hz. Osman",
+        "Hz. Ali",
+        "Muaviye",
+        "Hz. Ebubekir",
+        "Hz. Ömer"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hz. Muhammed'in vefatından sonra ilk halife Hz. Ebubekir olmuştur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Kur'an-ı Kerim'in kitap hâline getirilmesi hangi halife döneminde başlamıştır?",
+      "options": [
+        "Hz. Ebubekir",
+        "Hz. Ömer",
+        "Hz. Osman",
+        "Hz. Ali",
+        "Muaviye"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yemame Savaşı sonrası ayetlerin toplanarak mushaf hâline getirilmesi Hz. Ebubekir döneminde başlatılmıştır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Hicri takvim hangi halife döneminde kullanılmaya başlanmıştır?",
+      "options": [
+        "Hz. Ali",
+        "Muaviye",
+        "Hz. Ömer",
+        "Hz. Ebubekir",
+        "Hz. Osman"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hicri takvim Hz. Ömer döneminde resmî takvim olarak düzenlenmiştir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Kur'an nüshalarının çoğaltılarak önemli merkezlere gönderilmesi hangi halife dönemindedir?",
+      "options": [
+        "Hz. Ebubekir",
+        "Hz. Ömer",
+        "Hz. Ali",
+        "Muaviye",
+        "Hz. Osman"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hz. Osman döneminde Kur'an nüshaları çoğaltılmıştır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Emeviler döneminde devlet yönetiminde belirginleşen uygulama hangisidir?",
+      "options": [
+        "Moğol istilasının başlaması",
+        "Halifeliğin saltanata dönüşmesi",
+        "Halifenin seçimle belirlenmesinin güçlenmesi",
+        "Başkent olarak Bağdat'ın kurulması",
+        "Türklerin topluca Müslüman olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Muaviye'nin ardından yönetimin hanedan içinde sürmesi halifeliği saltanat niteliğine yaklaştırmıştır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Abbasilerin başkenti hangi şehirdir?",
+      "options": [
+        "Medine",
+        "Şam",
+        "Kahire",
+        "Bağdat",
+        "Mekke"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Abbasiler Bağdat'ı önemli bir siyasi ve kültürel merkez hâline getirmiştir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Beytü'l-Hikme hangi alandaki faaliyetleriyle öne çıkmıştır?",
+      "options": [
+        "Bilimsel çalışmalar ve tercümeler",
+        "Askerî eğitim",
+        "Vergi toplama",
+        "Tarım üretimi",
+        "Deniz ticareti"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Beytü'l-Hikme'de farklı dillerdeki bilimsel eserler tercüme edilmiş ve araştırmalar yapılmıştır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Mekke' bilgisi İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Şam",
+        "Bağdat",
+        "Mekke",
+        "Medine",
+        "Kudüs"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hz. Muhammed'e ilk vahiy Mekke yakınlarındaki Hira'da gelmiştir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "622'de Müslümanlar Mekke'den Medine'ye hicret etmiştir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Medine'den Mekke'ye",
+        "Şam'dan Mekke'ye",
+        "Bağdat'tan Medine'ye",
+        "Kudüs'ten Şam'a",
+        "Mekke'den Medine'ye"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "622'de Müslümanlar Mekke'den Medine'ye hicret etmiştir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde '622' bilgisi İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "661",
+        "622",
+        "571",
+        "610",
+        "632"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hicret 622 yılında gerçekleşmiş ve Hicri takvime başlangıç olmuştur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Hz. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Hz. Osman",
+        "Hz. Ali",
+        "Muaviye",
+        "Hz. Ebubekir",
+        "Hz. Ömer"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hz. Muhammed'in vefatından sonra ilk halife Hz. Ebubekir olmuştur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Hz. Ebubekir' bilgisi İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Hz. Ebubekir",
+        "Hz. Ömer",
+        "Hz. Osman",
+        "Hz. Ali",
+        "Muaviye"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yemame Savaşı sonrası ayetlerin toplanarak mushaf hâline getirilmesi Hz. Ebubekir döneminde başlatılmıştır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Hicri takvim Hz. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Hz. Ali",
+        "Muaviye",
+        "Hz. Ömer",
+        "Hz. Ebubekir",
+        "Hz. Osman"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hicri takvim Hz. Ömer döneminde resmî takvim olarak düzenlenmiştir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Hz. Osman' bilgisi İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Hz. Ebubekir",
+        "Hz. Ömer",
+        "Hz. Ali",
+        "Muaviye",
+        "Hz. Osman"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hz. Osman döneminde Kur'an nüshaları çoğaltılmıştır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Muaviye'nin ardından yönetimin hanedan içinde sürmesi halifeliği saltanat niteliğine yaklaştırmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Moğol istilasının başlaması",
+        "Halifeliğin saltanata dönüşmesi",
+        "Halifenin seçimle belirlenmesinin güçlenmesi",
+        "Başkent olarak Bağdat'ın kurulması",
+        "Türklerin topluca Müslüman olması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Muaviye'nin ardından yönetimin hanedan içinde sürmesi halifeliği saltanat niteliğine yaklaştırmıştır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Bağdat' bilgisi İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Medine",
+        "Şam",
+        "Kahire",
+        "Bağdat",
+        "Mekke"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Abbasiler Bağdat'ı önemli bir siyasi ve kültürel merkez hâline getirmiştir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "İslam Medeniyetinin Doğuşu ve İlk İslam Devletleri",
+      "question": "Beytü'l-Hikme'de farklı dillerdeki bilimsel eserler tercüme edilmiş ve araştırmalar yapılmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Bilimsel çalışmalar ve tercümeler",
+        "Askerî eğitim",
+        "Vergi toplama",
+        "Tarım üretimi",
+        "Deniz ticareti"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Beytü'l-Hikme'de farklı dillerdeki bilimsel eserler tercüme edilmiş ve araştırmalar yapılmıştır."
+    }
+  ]
+}

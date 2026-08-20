@@ -1,0 +1,331 @@
+{
+  "id": "beyliktendevleteosmanlisiyaseti",
+  "title": "Beylikten Devlete Osmanlı Siyaseti",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih Beylikten Devlete Osmanlı Siyaseti konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Osmanlı Beyliği'nin kurucusu kimdir?",
+      "options": [
+        "Yıldırım Bayezid",
+        "Ertuğrul Gazi",
+        "Osman Bey",
+        "Orhan Bey",
+        "I. Murad"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Osmanlı Beyliği Osman Bey'in liderliğinde bağımsız bir siyasi güç hâline gelmiştir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Osmanlıların Bizans'a karşı kazandığı ilk önemli savaşlardan biri hangisidir?",
+      "options": [
+        "Malazgirt Savaşı",
+        "Kösedağ Savaşı",
+        "Miryokefalon Savaşı",
+        "Dandanakan Savaşı",
+        "Koyunhisar Savaşı"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "1302 Koyunhisar Savaşı Osman Bey döneminde Bizans'a karşı kazanılmıştır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Bursa hangi Osmanlı hükümdarı döneminde fethedilmiştir?",
+      "options": [
+        "II. Murad",
+        "Orhan Bey",
+        "Osman Bey",
+        "I. Murad",
+        "Yıldırım Bayezid"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bursa 1326'da Orhan Bey döneminde Osmanlı hâkimiyetine girmiştir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Osmanlıların Rumeli'de kalıcı olarak elde ettiği ilk önemli üs hangisidir?",
+      "options": [
+        "Kilitbahir",
+        "Rumeli Hisarı",
+        "Belgrad",
+        "Çimpe Kalesi",
+        "Ankara Kalesi"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Çimpe Kalesi Osmanlıların Rumeli'deki ilerleyişinde önemli bir üs olmuştur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Edirne'yi fethederek başkent yapan Osmanlı hükümdarı kimdir?",
+      "options": [
+        "I. Murad",
+        "Orhan Bey",
+        "Osman Bey",
+        "Yıldırım Bayezid",
+        "Çelebi Mehmet"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Edirne I. Murad döneminde fethedilmiş ve başkent yapılmıştır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "I. Kosova Savaşı hangi Osmanlı hükümdarı döneminde gerçekleşmiştir?",
+      "options": [
+        "Çelebi Mehmet",
+        "II. Murad",
+        "I. Murad",
+        "Orhan Bey",
+        "Yıldırım Bayezid"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "1389 I. Kosova Savaşı I. Murad döneminde kazanılmıştır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Anadolu Türk siyasi birliğini sağlama çalışmalarını hızlandıran hükümdarlardan biri kimdir?",
+      "options": [
+        "Osman Bey",
+        "Orhan Bey",
+        "I. Mehmet",
+        "II. Osman",
+        "Yıldırım Bayezid"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yıldırım Bayezid Anadolu beyliklerini Osmanlı hâkimiyetine alma çalışmalarını hızlandırmıştır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "1402 Ankara Savaşı'nda Osmanlı Devleti kiminle savaşmıştır?",
+      "options": [
+        "Babür Şah",
+        "Timur",
+        "Cengiz Han",
+        "Uzun Hasan",
+        "Şah İsmail"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ankara Savaşı Yıldırım Bayezid ile Timur arasında yapılmıştır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Ankara Savaşı'ndan sonra yaşanan taht mücadeleleri dönemine ne ad verilir?",
+      "options": [
+        "Tanzimat Devri",
+        "Meşrutiyet Devri",
+        "Duraklama Devri",
+        "Fetret Devri",
+        "Lale Devri"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "1402-1413 arasındaki şehzadeler mücadelesi Fetret Devri olarak adlandırılır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Fetret Devri'ne son vererek Osmanlı siyasi birliğini yeniden kuran hükümdar kimdir?",
+      "options": [
+        "Çelebi Mehmet",
+        "II. Murad",
+        "Yıldırım Bayezid",
+        "Orhan Bey",
+        "Fatih Sultan Mehmet"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Çelebi Mehmet 1413'te mücadeleyi kazanarak devleti yeniden birleştirmiştir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Osman Bey' bilgisi Beylikten Devlete Osmanlı Siyaseti konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Yıldırım Bayezid",
+        "Ertuğrul Gazi",
+        "Osman Bey",
+        "Orhan Bey",
+        "I. Murad"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Osmanlı Beyliği Osman Bey'in liderliğinde bağımsız bir siyasi güç hâline gelmiştir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "1302 Koyunhisar Savaşı Osman Bey döneminde Bizans'a karşı kazanılmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Malazgirt Savaşı",
+        "Kösedağ Savaşı",
+        "Miryokefalon Savaşı",
+        "Dandanakan Savaşı",
+        "Koyunhisar Savaşı"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "1302 Koyunhisar Savaşı Osman Bey döneminde Bizans'a karşı kazanılmıştır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Orhan Bey' bilgisi Beylikten Devlete Osmanlı Siyaseti konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "II. Murad",
+        "Orhan Bey",
+        "Osman Bey",
+        "I. Murad",
+        "Yıldırım Bayezid"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Bursa 1326'da Orhan Bey döneminde Osmanlı hâkimiyetine girmiştir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Çimpe Kalesi Osmanlıların Rumeli'deki ilerleyişinde önemli bir üs olmuştur. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Kilitbahir",
+        "Rumeli Hisarı",
+        "Belgrad",
+        "Çimpe Kalesi",
+        "Ankara Kalesi"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Çimpe Kalesi Osmanlıların Rumeli'deki ilerleyişinde önemli bir üs olmuştur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'I. Murad' bilgisi Beylikten Devlete Osmanlı Siyaseti konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "I. Murad",
+        "Orhan Bey",
+        "Osman Bey",
+        "Yıldırım Bayezid",
+        "Çelebi Mehmet"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Edirne I. Murad döneminde fethedilmiş ve başkent yapılmıştır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "1389 I. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Çelebi Mehmet",
+        "II. Murad",
+        "I. Murad",
+        "Orhan Bey",
+        "Yıldırım Bayezid"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "1389 I. Kosova Savaşı I. Murad döneminde kazanılmıştır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Yıldırım Bayezid' bilgisi Beylikten Devlete Osmanlı Siyaseti konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Osman Bey",
+        "Orhan Bey",
+        "I. Mehmet",
+        "II. Osman",
+        "Yıldırım Bayezid"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yıldırım Bayezid Anadolu beyliklerini Osmanlı hâkimiyetine alma çalışmalarını hızlandırmıştır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Ankara Savaşı Yıldırım Bayezid ile Timur arasında yapılmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Babür Şah",
+        "Timur",
+        "Cengiz Han",
+        "Uzun Hasan",
+        "Şah İsmail"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ankara Savaşı Yıldırım Bayezid ile Timur arasında yapılmıştır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Fetret Devri' bilgisi Beylikten Devlete Osmanlı Siyaseti konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Tanzimat Devri",
+        "Meşrutiyet Devri",
+        "Duraklama Devri",
+        "Fetret Devri",
+        "Lale Devri"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "1402-1413 arasındaki şehzadeler mücadelesi Fetret Devri olarak adlandırılır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Beylikten Devlete Osmanlı Siyaseti",
+      "question": "Çelebi Mehmet 1413'te mücadeleyi kazanarak devleti yeniden birleştirmiştir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Çelebi Mehmet",
+        "II. Murad",
+        "Yıldırım Bayezid",
+        "Orhan Bey",
+        "Fatih Sultan Mehmet"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Çelebi Mehmet 1413'te mücadeleyi kazanarak devleti yeniden birleştirmiştir."
+    }
+  ]
+}

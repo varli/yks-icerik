@@ -1,0 +1,331 @@
+{
+  "id": "degisimcagindaavrupaveosmanli_8_20yuzyildaosmanlidevletiveinkilaptarihi",
+  "title": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Avrupa'da Rönesans ilk olarak hangi ülkede etkili olmuştur?",
+      "options": [
+        "Almanya",
+        "İspanya",
+        "İtalya",
+        "Fransa",
+        "İngiltere"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rönesans şehir devletlerinin ve antik mirasın etkisiyle ilk olarak İtalya'da gelişmiştir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Reform hareketlerinin başlamasında öne çıkan isim kimdir?",
+      "options": [
+        "Galileo",
+        "Leonardo da Vinci",
+        "Machiavelli",
+        "Kristof Kolomb",
+        "Martin Luther"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Martin Luther'in Katolik Kilisesi'ne yönelik eleştirileri Reform sürecini hızlandırmıştır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Coğrafi Keşiflerin Osmanlı ekonomisine olumsuz etkilerinden biri hangisidir?",
+      "options": [
+        "Yeniçeri Ocağının kurulması",
+        "Geleneksel ticaret yollarının önem kaybetmesi",
+        "Tımar sisteminin ilk kez kurulması",
+        "İstanbul'un fethedilmesi",
+        "Kapitülasyonların tamamen kaldırılması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yeni deniz yolları Akdeniz ve kara ticaret yollarının göreli önemini azalttı."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Sanayi Devrimi ilk olarak hangi ülkede başlamıştır?",
+      "options": [
+        "Rusya",
+        "Osmanlı Devleti",
+        "Avusturya",
+        "İngiltere",
+        "İtalya"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sanayi Devrimi 18. yüzyılda İngiltere'de başladı."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Fransız İhtilali'nin çok uluslu imparatorlukları etkileyen düşüncesi hangisidir?",
+      "options": [
+        "Milliyetçilik",
+        "Merkantilizm",
+        "Skolastik düşünce",
+        "Feodalite",
+        "Hümanizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Milliyetçilik çok uluslu imparatorluklarda bağımsızlık hareketlerini teşvik etti."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Osmanlı Devleti'nin I. Dünya Savaşı'ndan çekilmesini sağlayan ateşkes hangisidir?",
+      "options": [
+        "Sevr Antlaşması",
+        "Ankara Antlaşması",
+        "Mondros Ateşkes Antlaşması",
+        "Mudanya Ateşkesi",
+        "Lozan Antlaşması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "30 Ekim 1918 Mondros Ateşkesi Osmanlı'nın savaş faaliyetlerini sona erdirdi."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Mustafa Kemal'in Millî Mücadele'yi başlatmak üzere Samsun'a çıktığı tarih hangisidir?",
+      "options": [
+        "23 Nisan 1920",
+        "29 Ekim 1923",
+        "30 Ağustos 1922",
+        "24 Temmuz 1923",
+        "19 Mayıs 1919"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "19 Mayıs 1919 Millî Mücadele'nin başlangıç sürecinin simgesel tarihidir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "TBMM hangi tarihte açılmıştır?",
+      "options": [
+        "3 Mart 1924",
+        "23 Nisan 1920",
+        "19 Mayıs 1919",
+        "29 Ekim 1923",
+        "1 Kasım 1922"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Türkiye Büyük Millet Meclisi 23 Nisan 1920'de Ankara'da açılmıştır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Kurtuluş Savaşı'nın askerî safhasını büyük ölçüde sona erdiren ateşkes hangisidir?",
+      "options": [
+        "Sevr Antlaşması",
+        "Lozan Antlaşması",
+        "Moskova Antlaşması",
+        "Mudanya Ateşkes Antlaşması",
+        "Mondros Ateşkesi"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mudanya Ateşkesi ile silahlı çatışma dönemi sona ermiş, barış görüşmelerine geçilmiştir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Türkiye Cumhuriyeti'nin uluslararası bağımsızlığını tanıyan barış antlaşması hangisidir?",
+      "options": [
+        "Lozan Barış Antlaşması",
+        "Sevr Antlaşması",
+        "Mondros Ateşkesi",
+        "Brest-Litovsk Antlaşması",
+        "Berlin Antlaşması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "24 Temmuz 1923 Lozan Antlaşması yeni Türk devletinin bağımsızlığının uluslararası kabulünü sağlamıştır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'İtalya' bilgisi Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Almanya",
+        "İspanya",
+        "İtalya",
+        "Fransa",
+        "İngiltere"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rönesans şehir devletlerinin ve antik mirasın etkisiyle ilk olarak İtalya'da gelişmiştir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Martin Luther'in Katolik Kilisesi'ne yönelik eleştirileri Reform sürecini hızlandırmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Galileo",
+        "Leonardo da Vinci",
+        "Machiavelli",
+        "Kristof Kolomb",
+        "Martin Luther"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Martin Luther'in Katolik Kilisesi'ne yönelik eleştirileri Reform sürecini hızlandırmıştır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Geleneksel ticaret yollarının önem kaybetmesi' bilgisi Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Yeniçeri Ocağının kurulması",
+        "Geleneksel ticaret yollarının önem kaybetmesi",
+        "Tımar sisteminin ilk kez kurulması",
+        "İstanbul'un fethedilmesi",
+        "Kapitülasyonların tamamen kaldırılması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yeni deniz yolları Akdeniz ve kara ticaret yollarının göreli önemini azalttı."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Sanayi Devrimi 18. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Rusya",
+        "Osmanlı Devleti",
+        "Avusturya",
+        "İngiltere",
+        "İtalya"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sanayi Devrimi 18. yüzyılda İngiltere'de başladı."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Milliyetçilik' bilgisi Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Milliyetçilik",
+        "Merkantilizm",
+        "Skolastik düşünce",
+        "Feodalite",
+        "Hümanizm"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Milliyetçilik çok uluslu imparatorluklarda bağımsızlık hareketlerini teşvik etti."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "30 Ekim 1918 Mondros Ateşkesi Osmanlı'nın savaş faaliyetlerini sona erdirdi. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Sevr Antlaşması",
+        "Ankara Antlaşması",
+        "Mondros Ateşkes Antlaşması",
+        "Mudanya Ateşkesi",
+        "Lozan Antlaşması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "30 Ekim 1918 Mondros Ateşkesi Osmanlı'nın savaş faaliyetlerini sona erdirdi."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde '19 Mayıs 1919' bilgisi Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "23 Nisan 1920",
+        "29 Ekim 1923",
+        "30 Ağustos 1922",
+        "24 Temmuz 1923",
+        "19 Mayıs 1919"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "19 Mayıs 1919 Millî Mücadele'nin başlangıç sürecinin simgesel tarihidir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Türkiye Büyük Millet Meclisi 23 Nisan 1920'de Ankara'da açılmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "3 Mart 1924",
+        "23 Nisan 1920",
+        "19 Mayıs 1919",
+        "29 Ekim 1923",
+        "1 Kasım 1922"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Türkiye Büyük Millet Meclisi 23 Nisan 1920'de Ankara'da açılmıştır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Mudanya Ateşkes Antlaşması' bilgisi Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Sevr Antlaşması",
+        "Lozan Antlaşması",
+        "Moskova Antlaşması",
+        "Mudanya Ateşkes Antlaşması",
+        "Mondros Ateşkesi"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mudanya Ateşkesi ile silahlı çatışma dönemi sona ermiş, barış görüşmelerine geçilmiştir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Değişim Çağında Avrupa ve Osmanlı & 20. Yüzyılda Osmanlı Devleti ve İnkılap Tarihi",
+      "question": "24 Temmuz 1923 Lozan Antlaşması yeni Türk devletinin bağımsızlığının uluslararası kabulünü sağlamıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Lozan Barış Antlaşması",
+        "Sevr Antlaşması",
+        "Mondros Ateşkesi",
+        "Brest-Litovsk Antlaşması",
+        "Berlin Antlaşması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "24 Temmuz 1923 Lozan Antlaşması yeni Türk devletinin bağımsızlığının uluslararası kabulünü sağlamıştır."
+    }
+  ]
+}

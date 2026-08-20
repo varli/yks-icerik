@@ -1,0 +1,331 @@
+{
+  "id": "yerlesmevedevletlesmesurecindeselcukluturkiyesi",
+  "title": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "1071 Malazgirt Savaşı'nın Anadolu tarihi açısından en önemli sonucu hangisidir?",
+      "options": [
+        "İstanbul'un fethedilmesi",
+        "Haçlı Seferlerinin sona ermesi",
+        "Anadolu'nun Türkleşme sürecinin hızlanması",
+        "Bizans'ın tamamen yıkılması",
+        "Osmanlı Devleti'nin kurulması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Malazgirt zaferi Türklerin Anadolu'ya yerleşmesini hızlandırmıştır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Türkiye Selçuklu Devleti'nin kurucusu kimdir?",
+      "options": [
+        "Alp Arslan",
+        "Tuğrul Bey",
+        "Melikşah",
+        "I. Alaeddin Keykubat",
+        "Kutalmışoğlu Süleyman Şah"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kutalmışoğlu Süleyman Şah İznik merkezli Türkiye Selçuklu Devleti'ni kurmuştur."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Türkiye Selçuklularının ilk başkenti hangisidir?",
+      "options": [
+        "Erzurum",
+        "İznik",
+        "Konya",
+        "Sivas",
+        "Kayseri"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Devletin ilk merkezi İznik'tir; daha sonra Konya başkent olmuştur."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "1176 Miryokefalon Savaşı'nın önemi nedir?",
+      "options": [
+        "Moğolların Anadolu'ya girmesi",
+        "Osmanlıların Rumeli'ye geçmesi",
+        "Selçukluların yıkılması",
+        "Bizans'ın Türkleri Anadolu'dan çıkarma ümidinin büyük ölçüde sona ermesi",
+        "Haçlıların Kudüs'ü alması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Miryokefalon zaferi Anadolu'nun Türk yurdu hâline gelmesini pekiştirmiştir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Türkiye Selçuklularında ticareti geliştirmek amacıyla yollar üzerinde kurulan yapılar hangisidir?",
+      "options": [
+        "Kervansaraylar",
+        "Kümbetler",
+        "Medreseler",
+        "Darüşşifalar",
+        "Hisarlar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kervansaraylar tüccarların güvenli konaklamasını sağlayarak ticareti desteklemiştir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Türkiye Selçuklularının en parlak dönemlerinden biri hangi hükümdar zamanında yaşanmıştır?",
+      "options": [
+        "II. Gıyaseddin Keyhüsrev",
+        "Süleyman Şah",
+        "I. Alaeddin Keykubat",
+        "I. Kılıç Arslan",
+        "II. Kılıç Arslan"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "I. Alaeddin Keykubat döneminde siyasi ve ekonomik güç önemli ölçüde artmıştır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "1243 Kösedağ Savaşı'nda Türkiye Selçukluları hangi devlete yenilmiştir?",
+      "options": [
+        "Bizans'a",
+        "Haçlılara",
+        "Memlüklere",
+        "Gaznelilere",
+        "Moğollara"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kösedağ yenilgisiyle Türkiye Selçukluları Moğol baskısı altına girmiştir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Anadolu'da esnaf ve zanaatkârların dayanışmasını sağlayan teşkilat hangisidir?",
+      "options": [
+        "Divan",
+        "Ahilik",
+        "Devşirme",
+        "İkta",
+        "Enderun"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ahilik üretim, meslek ahlakı ve dayanışmayı düzenleyen bir teşkilattır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Anadolu'nun Türkleşmesinde ilk Türk beyliklerinin rolü hangisidir?",
+      "options": [
+        "Moğol yönetimini kurmaları",
+        "Haçlıları Anadolu'ya çağırmaları",
+        "Türk göçlerini durdurmaları",
+        "Fethedilen bölgelerde Türk yerleşimini ve kültürünü yaymaları",
+        "Bizans'ı yeniden güçlendirmeleri"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İlk beylikler fetih, iskân ve imar faaliyetleriyle Türkleşmeye katkı sağlamıştır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Kösedağ Savaşı sonrasında Anadolu'da hangi siyasi gelişme hızlanmıştır?",
+      "options": [
+        "İkinci Türk beyliklerinin ortaya çıkması",
+        "Merkezî Selçuklu otoritesinin güçlenmesi",
+        "Bizans'ın Anadolu'nun tamamını alması",
+        "Haçlı devletlerinin kurulması",
+        "Abbasi Devleti'nin yeniden kurulması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Selçuklu otoritesinin zayıflaması Anadolu'da yeni beyliklerin güçlenmesini kolaylaştırmıştır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Anadolu'nun Türkleşme sürecinin hızlanması' bilgisi Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "İstanbul'un fethedilmesi",
+        "Haçlı Seferlerinin sona ermesi",
+        "Anadolu'nun Türkleşme sürecinin hızlanması",
+        "Bizans'ın tamamen yıkılması",
+        "Osmanlı Devleti'nin kurulması"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Malazgirt zaferi Türklerin Anadolu'ya yerleşmesini hızlandırmıştır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Kutalmışoğlu Süleyman Şah İznik merkezli Türkiye Selçuklu Devleti'ni kurmuştur. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Alp Arslan",
+        "Tuğrul Bey",
+        "Melikşah",
+        "I. Alaeddin Keykubat",
+        "Kutalmışoğlu Süleyman Şah"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kutalmışoğlu Süleyman Şah İznik merkezli Türkiye Selçuklu Devleti'ni kurmuştur."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'İznik' bilgisi Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Erzurum",
+        "İznik",
+        "Konya",
+        "Sivas",
+        "Kayseri"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Devletin ilk merkezi İznik'tir; daha sonra Konya başkent olmuştur."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Miryokefalon zaferi Anadolu'nun Türk yurdu hâline gelmesini pekiştirmiştir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Moğolların Anadolu'ya girmesi",
+        "Osmanlıların Rumeli'ye geçmesi",
+        "Selçukluların yıkılması",
+        "Bizans'ın Türkleri Anadolu'dan çıkarma ümidinin büyük ölçüde sona ermesi",
+        "Haçlıların Kudüs'ü alması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Miryokefalon zaferi Anadolu'nun Türk yurdu hâline gelmesini pekiştirmiştir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Kervansaraylar' bilgisi Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Kervansaraylar",
+        "Kümbetler",
+        "Medreseler",
+        "Darüşşifalar",
+        "Hisarlar"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kervansaraylar tüccarların güvenli konaklamasını sağlayarak ticareti desteklemiştir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "I. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "II. Gıyaseddin Keyhüsrev",
+        "Süleyman Şah",
+        "I. Alaeddin Keykubat",
+        "I. Kılıç Arslan",
+        "II. Kılıç Arslan"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "I. Alaeddin Keykubat döneminde siyasi ve ekonomik güç önemli ölçüde artmıştır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Moğollara' bilgisi Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Bizans'a",
+        "Haçlılara",
+        "Memlüklere",
+        "Gaznelilere",
+        "Moğollara"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kösedağ yenilgisiyle Türkiye Selçukluları Moğol baskısı altına girmiştir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Ahilik üretim, meslek ahlakı ve dayanışmayı düzenleyen bir teşkilattır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Divan",
+        "Ahilik",
+        "Devşirme",
+        "İkta",
+        "Enderun"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ahilik üretim, meslek ahlakı ve dayanışmayı düzenleyen bir teşkilattır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Fethedilen bölgelerde Türk yerleşimini ve kültürünü yaymaları' bilgisi Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Moğol yönetimini kurmaları",
+        "Haçlıları Anadolu'ya çağırmaları",
+        "Türk göçlerini durdurmaları",
+        "Fethedilen bölgelerde Türk yerleşimini ve kültürünü yaymaları",
+        "Bizans'ı yeniden güçlendirmeleri"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İlk beylikler fetih, iskân ve imar faaliyetleriyle Türkleşmeye katkı sağlamıştır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Yerleşme ve Devletleşme Sürecinde Selçuklu Türkiyesi",
+      "question": "Selçuklu otoritesinin zayıflaması Anadolu'da yeni beyliklerin güçlenmesini kolaylaştırmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "İkinci Türk beyliklerinin ortaya çıkması",
+        "Merkezî Selçuklu otoritesinin güçlenmesi",
+        "Bizans'ın Anadolu'nun tamamını alması",
+        "Haçlı devletlerinin kurulması",
+        "Abbasi Devleti'nin yeniden kurulması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Selçuklu otoritesinin zayıflaması Anadolu'da yeni beyliklerin güçlenmesini kolaylaştırmıştır."
+    }
+  ]
+}

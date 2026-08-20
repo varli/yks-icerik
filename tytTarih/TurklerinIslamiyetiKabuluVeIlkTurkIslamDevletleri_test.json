@@ -1,0 +1,331 @@
+{
+  "id": "turklerinislamiyetikabuluveilkturkislamdevletleri",
+  "title": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Türklerle Müslüman Araplar arasındaki yakınlaşmayı artıran 751 tarihli savaş hangisidir?",
+      "options": [
+        "Dandanakan Savaşı",
+        "Miryokefalon Savaşı",
+        "Talas Savaşı",
+        "Malazgirt Savaşı",
+        "Pasinler Savaşı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Talas Savaşı sonrası Türklerle Müslümanlar arasındaki ilişkiler güçlenmiştir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "İslamiyet'i devlet dini olarak kabul eden ilk Türk devleti hangisidir?",
+      "options": [
+        "Gazneliler",
+        "Büyük Selçuklular",
+        "Göktürkler",
+        "Uygurlar",
+        "Karahanlılar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Karahanlılar ilk Müslüman Türk devleti olarak kabul edilir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Karahanlı hükümdarı Satuk Buğra Han'ın önemi nedir?",
+      "options": [
+        "Moğolları yenmesi",
+        "İslamiyet'i kabul eden ilk Karahanlı hükümdarı olması",
+        "Anadolu'yu fethetmesi",
+        "Bağdat'ı kurması",
+        "İstanbul'u fethetmesi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Satuk Buğra Han'ın İslamiyet'i kabulü Karahanlıların İslamlaşmasında dönüm noktasıdır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Gazneli Mahmut'un kullandığı önemli unvan hangisidir?",
+      "options": [
+        "Şahansah",
+        "Konsül",
+        "Firavun",
+        "Sultan",
+        "Kağan"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gazneli Mahmut 'sultan' unvanını kullanan ilk Türk hükümdarlarından kabul edilir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Büyük Selçuklu Devleti'nin kuruluşunu kesinleştiren savaş hangisidir?",
+      "options": [
+        "Dandanakan Savaşı",
+        "Talas Savaşı",
+        "Pasinler Savaşı",
+        "Malazgirt Savaşı",
+        "Kösedağ Savaşı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "1040 Dandanakan zaferi Büyük Selçuklu Devleti'nin kuruluşunu kesinleştirmiştir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Nizamiye Medreselerinin kurulmasında etkili olan devlet adamı kimdir?",
+      "options": [
+        "Edip Ahmet",
+        "Farabi",
+        "Nizamülmülk",
+        "Yusuf Has Hacip",
+        "Kaşgarlı Mahmut"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Büyük Selçuklu veziri Nizamülmülk Nizamiye Medreselerinin kurulmasına öncülük etmiştir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Kutadgu Bilig'in yazarı kimdir?",
+      "options": [
+        "Kaşgarlı Mahmut",
+        "Ahmet Yesevi",
+        "Nizamülmülk",
+        "Ali Şir Nevai",
+        "Yusuf Has Hacip"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kutadgu Bilig Yusuf Has Hacip tarafından yazılmıştır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Divânu Lügati't-Türk'ün yazarı kimdir?",
+      "options": [
+        "Farabi",
+        "Kaşgarlı Mahmut",
+        "Yusuf Has Hacip",
+        "Edip Ahmet Yükneki",
+        "Ahmet Yesevi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kaşgarlı Mahmut eserinde Türkçenin söz varlığını ve Türk dünyasını tanıtmıştır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Büyük Selçuklularda askerî hizmet karşılığında vergi gelirlerinin tahsis edildiği sisteme ne denir?",
+      "options": [
+        "Devşirme",
+        "Lonca",
+        "Müsadere",
+        "İkta",
+        "Tımar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İkta sisteminde belirli toprakların vergi gelirleri hizmet karşılığı görevlilere tahsis edilirdi."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Atabeylik kurumunun temel amacı nedir?",
+      "options": [
+        "Şehzadeleri devlet yönetiminde yetiştirmek",
+        "Vergileri kaldırmak",
+        "Donanmayı yönetmek",
+        "Ticaret yollarını kapatmak",
+        "Medreseleri denetlemek"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Atabeyler Selçuklu şehzadelerinin eğitim ve yönetim tecrübesinden sorumluydu."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Talas Savaşı' bilgisi Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Dandanakan Savaşı",
+        "Miryokefalon Savaşı",
+        "Talas Savaşı",
+        "Malazgirt Savaşı",
+        "Pasinler Savaşı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Talas Savaşı sonrası Türklerle Müslümanlar arasındaki ilişkiler güçlenmiştir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Karahanlılar ilk Müslüman Türk devleti olarak kabul edilir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Gazneliler",
+        "Büyük Selçuklular",
+        "Göktürkler",
+        "Uygurlar",
+        "Karahanlılar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Karahanlılar ilk Müslüman Türk devleti olarak kabul edilir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'İslamiyet'i kabul eden ilk Karahanlı hükümdarı olması' bilgisi Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Moğolları yenmesi",
+        "İslamiyet'i kabul eden ilk Karahanlı hükümdarı olması",
+        "Anadolu'yu fethetmesi",
+        "Bağdat'ı kurması",
+        "İstanbul'u fethetmesi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Satuk Buğra Han'ın İslamiyet'i kabulü Karahanlıların İslamlaşmasında dönüm noktasıdır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Gazneli Mahmut 'sultan' unvanını kullanan ilk Türk hükümdarlarından kabul edilir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Şahansah",
+        "Konsül",
+        "Firavun",
+        "Sultan",
+        "Kağan"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Gazneli Mahmut 'sultan' unvanını kullanan ilk Türk hükümdarlarından kabul edilir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Dandanakan Savaşı' bilgisi Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Dandanakan Savaşı",
+        "Talas Savaşı",
+        "Pasinler Savaşı",
+        "Malazgirt Savaşı",
+        "Kösedağ Savaşı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "1040 Dandanakan zaferi Büyük Selçuklu Devleti'nin kuruluşunu kesinleştirmiştir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Büyük Selçuklu veziri Nizamülmülk Nizamiye Medreselerinin kurulmasına öncülük etmiştir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Edip Ahmet",
+        "Farabi",
+        "Nizamülmülk",
+        "Yusuf Has Hacip",
+        "Kaşgarlı Mahmut"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Büyük Selçuklu veziri Nizamülmülk Nizamiye Medreselerinin kurulmasına öncülük etmiştir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Yusuf Has Hacip' bilgisi Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Kaşgarlı Mahmut",
+        "Ahmet Yesevi",
+        "Nizamülmülk",
+        "Ali Şir Nevai",
+        "Yusuf Has Hacip"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kutadgu Bilig Yusuf Has Hacip tarafından yazılmıştır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Kaşgarlı Mahmut eserinde Türkçenin söz varlığını ve Türk dünyasını tanıtmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Farabi",
+        "Kaşgarlı Mahmut",
+        "Yusuf Has Hacip",
+        "Edip Ahmet Yükneki",
+        "Ahmet Yesevi"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kaşgarlı Mahmut eserinde Türkçenin söz varlığını ve Türk dünyasını tanıtmıştır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'İkta' bilgisi Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Devşirme",
+        "Lonca",
+        "Müsadere",
+        "İkta",
+        "Tımar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İkta sisteminde belirli toprakların vergi gelirleri hizmet karşılığı görevlilere tahsis edilirdi."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Türklerin İslamiyet’i Kabulü ve İlk Türk-İslam Devletleri",
+      "question": "Atabeyler Selçuklu şehzadelerinin eğitim ve yönetim tecrübesinden sorumluydu. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Şehzadeleri devlet yönetiminde yetiştirmek",
+        "Vergileri kaldırmak",
+        "Donanmayı yönetmek",
+        "Ticaret yollarını kapatmak",
+        "Medreseleri denetlemek"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Atabeyler Selçuklu şehzadelerinin eğitim ve yönetim tecrübesinden sorumluydu."
+    }
+  ]
+}

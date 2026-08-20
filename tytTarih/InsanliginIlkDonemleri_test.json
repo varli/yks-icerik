@@ -1,0 +1,331 @@
+{
+  "id": "insanliginilkdonemleri",
+  "title": "İnsanlığın İlk Dönemleri",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih İnsanlığın İlk Dönemleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Tarih öncesi çağların sınıflandırılmasında temel ölçüt aşağıdakilerden hangisidir?",
+      "options": [
+        "Savaşların büyüklüğü",
+        "Yazılı antlaşmalar",
+        "Kullanılan araç ve gereçlerin niteliği",
+        "Hükümdarların saltanat süreleri",
+        "Dinî inançların sayısı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tarih öncesi dönemler taş ve maden teknolojisindeki gelişmelere göre sınıflandırılır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Yazının icadıyla aşağıdaki dönemlerden hangisi sona ermiştir?",
+      "options": [
+        "İlk Çağ",
+        "Orta Çağ",
+        "Yeni Çağ",
+        "Yakın Çağ",
+        "Tarih öncesi dönemler"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yazının kullanılması tarih çağlarının başlangıcı kabul edilir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Yerleşik yaşama geçişin hızlanmasında aşağıdakilerden hangisi etkili olmuştur?",
+      "options": [
+        "Pusulanın geliştirilmesi",
+        "Tarımın başlaması",
+        "Matbaanın bulunması",
+        "Sanayi Devrimi",
+        "Barutun kullanılması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tarım üretimi insanların aynı yerde sürekli yaşamalarını teşvik etmiştir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "İlk köy yerleşmelerinin ortaya çıkması en çok hangi gelişmeyle ilişkilidir?",
+      "options": [
+        "Paranın icadı",
+        "İmparatorlukların kurulması",
+        "Deniz ticaretinin başlaması",
+        "Üretici yaşama geçiş",
+        "Feodalitenin doğuşu"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tarım ve hayvancılığa dayalı üretici yaşam kalıcı yerleşmeleri doğurmuştur."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Mezopotamya'da yazıyı ilk kullanan uygarlık hangisidir?",
+      "options": [
+        "Sümerler",
+        "Hititler",
+        "Frigler",
+        "Lidyalılar",
+        "Urartular"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Çivi yazısını geliştiren Sümerler yazının ilk kullanıcıları arasında kabul edilir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Anadolu'da tarihî devirlerin başlamasında hangi uygarlığın tüccarları etkili olmuştur?",
+      "options": [
+        "Persler",
+        "İyonlar",
+        "Asurlular",
+        "Mısırlılar",
+        "Fenikeliler"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Asurlu tüccarlar yazıyı Anadolu'ya taşıyarak tarih çağlarının başlamasında etkili olmuştur."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Parayı kullanan ilk Anadolu uygarlığı hangisidir?",
+      "options": [
+        "Frigler",
+        "Hititler",
+        "Urartular",
+        "İyonlar",
+        "Lidyalılar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Lidyalılar ticarette madeni parayı kullanarak değiş tokuşu kolaylaştırmıştır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Tarihte bilinen ilk yazılı antlaşma aşağıdakilerden hangisidir?",
+      "options": [
+        "Versailles Antlaşması",
+        "Kadeş Antlaşması",
+        "Lozan Antlaşması",
+        "Westphalia Antlaşması",
+        "Pasarofça Antlaşması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kadeş, Hititler ile Mısırlılar arasında yapılan bilinen ilk yazılı antlaşmadır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Fenikelilerin dünya uygarlığına önemli katkılarından biri hangisidir?",
+      "options": [
+        "Barutun bulunması",
+        "Matbaanın geliştirilmesi",
+        "Pusulanın icadı",
+        "Alfabenin geliştirilmesi ve yayılması",
+        "Kâğıdın icadı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Fenike alfabesi sonraki alfabelerin gelişimini etkilemiştir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "İyonlarda bilimsel düşüncenin gelişmesinde aşağıdakilerden hangisi etkili olmuştur?",
+      "options": [
+        "Özgür düşünce ortamı ve ticari etkileşim",
+        "Kapalı ekonomik yapı",
+        "Katı feodal düzen",
+        "Göçebe yaşam",
+        "Merkezî baskının artması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ticaret ve görece özgür düşünce ortamı bilim ve felsefeyi desteklemiştir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Kullanılan araç ve gereçlerin niteliği' bilgisi İnsanlığın İlk Dönemleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Savaşların büyüklüğü",
+        "Yazılı antlaşmalar",
+        "Kullanılan araç ve gereçlerin niteliği",
+        "Hükümdarların saltanat süreleri",
+        "Dinî inançların sayısı"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tarih öncesi dönemler taş ve maden teknolojisindeki gelişmelere göre sınıflandırılır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Yazının kullanılması tarih çağlarının başlangıcı kabul edilir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "İlk Çağ",
+        "Orta Çağ",
+        "Yeni Çağ",
+        "Yakın Çağ",
+        "Tarih öncesi dönemler"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yazının kullanılması tarih çağlarının başlangıcı kabul edilir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Tarımın başlaması' bilgisi İnsanlığın İlk Dönemleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Pusulanın geliştirilmesi",
+        "Tarımın başlaması",
+        "Matbaanın bulunması",
+        "Sanayi Devrimi",
+        "Barutun kullanılması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tarım üretimi insanların aynı yerde sürekli yaşamalarını teşvik etmiştir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Tarım ve hayvancılığa dayalı üretici yaşam kalıcı yerleşmeleri doğurmuştur. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Paranın icadı",
+        "İmparatorlukların kurulması",
+        "Deniz ticaretinin başlaması",
+        "Üretici yaşama geçiş",
+        "Feodalitenin doğuşu"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tarım ve hayvancılığa dayalı üretici yaşam kalıcı yerleşmeleri doğurmuştur."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Sümerler' bilgisi İnsanlığın İlk Dönemleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Sümerler",
+        "Hititler",
+        "Frigler",
+        "Lidyalılar",
+        "Urartular"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Çivi yazısını geliştiren Sümerler yazının ilk kullanıcıları arasında kabul edilir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Asurlu tüccarlar yazıyı Anadolu'ya taşıyarak tarih çağlarının başlamasında etkili olmuştur. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Persler",
+        "İyonlar",
+        "Asurlular",
+        "Mısırlılar",
+        "Fenikeliler"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Asurlu tüccarlar yazıyı Anadolu'ya taşıyarak tarih çağlarının başlamasında etkili olmuştur."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Lidyalılar' bilgisi İnsanlığın İlk Dönemleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Frigler",
+        "Hititler",
+        "Urartular",
+        "İyonlar",
+        "Lidyalılar"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Lidyalılar ticarette madeni parayı kullanarak değiş tokuşu kolaylaştırmıştır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Kadeş, Hititler ile Mısırlılar arasında yapılan bilinen ilk yazılı antlaşmadır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Versailles Antlaşması",
+        "Kadeş Antlaşması",
+        "Lozan Antlaşması",
+        "Westphalia Antlaşması",
+        "Pasarofça Antlaşması"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kadeş, Hititler ile Mısırlılar arasında yapılan bilinen ilk yazılı antlaşmadır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Alfabenin geliştirilmesi ve yayılması' bilgisi İnsanlığın İlk Dönemleri konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Barutun bulunması",
+        "Matbaanın geliştirilmesi",
+        "Pusulanın icadı",
+        "Alfabenin geliştirilmesi ve yayılması",
+        "Kâğıdın icadı"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Fenike alfabesi sonraki alfabelerin gelişimini etkilemiştir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "İnsanlığın İlk Dönemleri",
+      "question": "Ticaret ve görece özgür düşünce ortamı bilim ve felsefeyi desteklemiştir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Özgür düşünce ortamı ve ticari etkileşim",
+        "Kapalı ekonomik yapı",
+        "Katı feodal düzen",
+        "Göçebe yaşam",
+        "Merkezî baskının artması"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ticaret ve görece özgür düşünce ortamı bilim ve felsefeyi desteklemiştir."
+    }
+  ]
+}

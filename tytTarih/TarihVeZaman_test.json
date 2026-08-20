@@ -1,0 +1,331 @@
+{
+  "id": "tarihvezaman",
+  "title": "Tarih ve Zaman",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih Tarih ve Zaman konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Tarih ve Zaman",
+      "question": "Tarih biliminin temel konusu aşağıdakilerden hangisidir?",
+      "options": [
+        "Gelecekte yaşanacak olaylar",
+        "Yalnızca savaşların sonuçları",
+        "İnsan topluluklarının geçmişteki faaliyetleri",
+        "Doğa olaylarının fiziksel nedenleri",
+        "Canlıların biyolojik yapıları"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tarih, insan topluluklarının geçmişteki faaliyetlerini yer ve zaman göstererek inceler."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Tarih ve Zaman",
+      "question": "Aşağıdakilerden hangisi birinci elden tarihî kaynağa örnektir?",
+      "options": [
+        "Günümüzde yazılmış ders kitabı",
+        "Tarihî roman",
+        "Belgesel filmi",
+        "Modern ansiklopedi",
+        "Döneme ait bir ferman"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Olayın yaşandığı döneme ait belgeler birinci elden kaynaklardır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Tarih ve Zaman",
+      "question": "Milattan önceki tarihlerde geçmişe doğru gidildikçe yıl sayıları nasıl değişir?",
+      "options": [
+        "Önce azalır sonra artar",
+        "Artar",
+        "Azalır",
+        "Değişmez",
+        "Sıfırlanır"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "MÖ tarihlerde geçmişe doğru gidildikçe sayısal değer büyür."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Tarih ve Zaman",
+      "question": "Bir yüzyıl kaç yıldan oluşur?",
+      "options": [
+        "50",
+        "500",
+        "1000",
+        "100",
+        "10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Bir yüzyıl 100 yıldır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Tarih ve Zaman",
+      "question": "1453 yılı kaçıncı yüzyıldadır?",
+      "options": [
+        "15. yüzyıl",
+        "13. yüzyıl",
+        "14. yüzyıl",
+        "16. yüzyıl",
+        "17. yüzyıl"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "1401-1500 arasındaki yıllar 15. yüzyıldır."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Tarih ve Zaman",
+      "question": "Tarih araştırmalarında olayların oluş sırasına konulmasına ne ad verilir?",
+      "options": [
+        "Diplomatik",
+        "Etnografya",
+        "Kronoloji",
+        "Arkeoloji",
+        "Paleografya"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kronoloji olayların zamanını ve oluş sırasını inceler."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Yazıların tür ve şekillerini inceleyen yardımcı bilim dalı hangisidir?",
+      "options": [
+        "Nümizmatik",
+        "Heraldik",
+        "Antropoloji",
+        "Coğrafya",
+        "Paleografya"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Paleografya eski yazıları ve yazı çeşitlerini inceler."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Eski paraları inceleyen bilim dalı hangisidir?",
+      "options": [
+        "Sosyoloji",
+        "Nümizmatik",
+        "Epigrafi",
+        "Paleografya",
+        "Filoloji"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nümizmatik eski para ve sikkeleri inceler."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Kitabeleri inceleyen yardımcı bilim dalı hangisidir?",
+      "options": [
+        "Nümizmatik",
+        "Arkeometri",
+        "Antropoloji",
+        "Epigrafi",
+        "Kronoloji"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Epigrafi yazıt ve kitabeleri inceler."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Tarihî olayların deney ve gözlem yoluyla tekrarlanamamasının temel nedeni nedir?",
+      "options": [
+        "Geçmişte ve kendine özgü koşullarda gerçekleşmeleri",
+        "Kaynakların hiç bulunmaması",
+        "Tarihçilerin tarafsız olamaması",
+        "Takvimlerin farklı olması",
+        "Coğrafyanın değişmemesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tarihî olaylar belirli zaman ve koşullarda bir kez gerçekleştiği için laboratuvar ortamında aynen tekrarlanamaz."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'İnsan topluluklarının geçmişteki faaliyetleri' bilgisi Tarih ve Zaman konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Gelecekte yaşanacak olaylar",
+        "Yalnızca savaşların sonuçları",
+        "İnsan topluluklarının geçmişteki faaliyetleri",
+        "Doğa olaylarının fiziksel nedenleri",
+        "Canlıların biyolojik yapıları"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tarih, insan topluluklarının geçmişteki faaliyetlerini yer ve zaman göstererek inceler."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Olayın yaşandığı döneme ait belgeler birinci elden kaynaklardır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Günümüzde yazılmış ders kitabı",
+        "Tarihî roman",
+        "Belgesel filmi",
+        "Modern ansiklopedi",
+        "Döneme ait bir ferman"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Olayın yaşandığı döneme ait belgeler birinci elden kaynaklardır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Artar' bilgisi Tarih ve Zaman konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Önce azalır sonra artar",
+        "Artar",
+        "Azalır",
+        "Değişmez",
+        "Sıfırlanır"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "MÖ tarihlerde geçmişe doğru gidildikçe sayısal değer büyür."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Tarih ve Zaman",
+      "question": "Bir yüzyıl 100 yıldır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "50",
+        "500",
+        "1000",
+        "100",
+        "10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Bir yüzyıl 100 yıldır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Tarih ve Zaman",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde '15. yüzyıl' bilgisi Tarih ve Zaman konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "15. yüzyıl",
+        "13. yüzyıl",
+        "14. yüzyıl",
+        "16. yüzyıl",
+        "17. yüzyıl"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "1401-1500 arasındaki yıllar 15. yüzyıldır."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Tarih ve Zaman",
+      "question": "Kronoloji olayların zamanını ve oluş sırasını inceler. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Diplomatik",
+        "Etnografya",
+        "Kronoloji",
+        "Arkeoloji",
+        "Paleografya"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kronoloji olayların zamanını ve oluş sırasını inceler."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Tarih ve Zaman",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Paleografya' bilgisi Tarih ve Zaman konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Nümizmatik",
+        "Heraldik",
+        "Antropoloji",
+        "Coğrafya",
+        "Paleografya"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Paleografya eski yazıları ve yazı çeşitlerini inceler."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Tarih ve Zaman",
+      "question": "Nümizmatik eski para ve sikkeleri inceler. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Sosyoloji",
+        "Nümizmatik",
+        "Epigrafi",
+        "Paleografya",
+        "Filoloji"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Nümizmatik eski para ve sikkeleri inceler."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Tarih ve Zaman",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Epigrafi' bilgisi Tarih ve Zaman konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Nümizmatik",
+        "Arkeometri",
+        "Antropoloji",
+        "Epigrafi",
+        "Kronoloji"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Epigrafi yazıt ve kitabeleri inceler."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Tarih ve Zaman",
+      "question": "Tarihî olaylar belirli zaman ve koşullarda bir kez gerçekleştiği için laboratuvar ortamında aynen tekrarlanamaz. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Geçmişte ve kendine özgü koşullarda gerçekleşmeleri",
+        "Kaynakların hiç bulunmaması",
+        "Tarihçilerin tarafsız olamaması",
+        "Takvimlerin farklı olması",
+        "Coğrafyanın değişmemesi"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tarihî olaylar belirli zaman ve koşullarda bir kez gerçekleştiği için laboratuvar ortamında aynen tekrarlanamaz."
+    }
+  ]
+}

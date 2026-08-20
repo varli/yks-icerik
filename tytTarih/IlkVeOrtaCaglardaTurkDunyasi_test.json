@@ -1,0 +1,331 @@
+{
+  "id": "ilkveortacaglardaturkdunyasi",
+  "title": "İlk ve Orta Çağlarda Türk Dünyası",
+  "lesson": "TYT Tarih",
+  "description": "TYT Tarih İlk ve Orta Çağlarda Türk Dünyası konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Bilinen ilk Türk devleti olarak kabul edilen siyasi teşkilat hangisidir?",
+      "options": [
+        "Karahanlı Devleti",
+        "Gazneli Devleti",
+        "Asya Hun Devleti",
+        "Göktürk Devleti",
+        "Uygur Devleti"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Asya Hun Devleti, bilinen ilk teşkilatlı Türk devleti kabul edilir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Türk adını devlet adı olarak ilk kez kullanan devlet hangisidir?",
+      "options": [
+        "Hunlar",
+        "Uygurlar",
+        "Avarlar",
+        "Kırgızlar",
+        "Göktürkler"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Göktürkler 'Türk' adını resmî devlet adı olarak kullanan ilk Türk devletidir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Orhun Yazıtları hangi Türk devletine aittir?",
+      "options": [
+        "Hazar Devleti",
+        "II. Göktürk Devleti",
+        "Asya Hun Devleti",
+        "Uygur Devleti",
+        "Karahanlı Devleti"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Orhun Yazıtları II. Göktürk döneminde dikilmiştir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Yerleşik yaşama geçen ve şehir kültürünü geliştiren ilk Türk topluluklarından biri hangisidir?",
+      "options": [
+        "Avarlar",
+        "Kıpçaklar",
+        "Peçenekler",
+        "Uygurlar",
+        "Hunlar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Uygurlar yerleşik yaşama geçerek şehir, sanat ve ticarette gelişmiştir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Eski Türklerde hükümdara yönetme yetkisinin Tanrı tarafından verildiği inancına ne denir?",
+      "options": [
+        "Kut",
+        "Töre",
+        "Kurultay",
+        "Ülüş",
+        "Toy"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kut anlayışı hükümdarlık yetkisinin ilahi kaynaklı kabul edilmesidir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Eski Türklerde devlet işlerinin görüşüldüğü meclise ne ad verilir?",
+      "options": [
+        "Meclis-i Mebusan",
+        "Enderun",
+        "Kurultay",
+        "Divan",
+        "Senato"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kurultay veya toy, devlet meselelerinin görüşüldüğü danışma meclisidir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Türklerde yazısız hukuk kurallarına ne ad verilmiştir?",
+      "options": [
+        "Kut",
+        "Ülüş",
+        "Balbal",
+        "Tamga",
+        "Töre"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Töre toplum ve devlet hayatını düzenleyen geleneksel hukuk kurallarıdır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Onlu ordu sistemini geliştiren Hun hükümdarı kimdir?",
+      "options": [
+        "Teoman",
+        "Mete Han",
+        "Bumin Kağan",
+        "Bilge Kağan",
+        "Attila"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mete Han orduda onlu teşkilatlanmayı sistemleştirmiştir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Kavimler Göçü'nün Avrupa'daki sonuçlarından biri hangisidir?",
+      "options": [
+        "Feodalitenin sona ermesi",
+        "Coğrafi Keşiflerin başlaması",
+        "Sanayi Devrimi'nin yaşanması",
+        "Avrupa'nın etnik ve siyasi yapısının değişmesi",
+        "Roma'nın güçlenerek tek devlet olması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Göçler Avrupa'da yeni kavimlerin ve siyasi yapıların oluşmasına yol açmıştır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Uygurların diğer bozkır Türk devletlerinden farklı olarak geliştirdiği özellik hangisidir?",
+      "options": [
+        "Yerleşik şehir yaşamı",
+        "Atlı savaşçılık",
+        "Kurultay geleneği",
+        "Töre anlayışı",
+        "Kut inancı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Uygurlar özellikle yerleşik yaşam ve şehir kültürüyle öne çıkmıştır."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Asya Hun Devleti' bilgisi İlk ve Orta Çağlarda Türk Dünyası konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Karahanlı Devleti",
+        "Gazneli Devleti",
+        "Asya Hun Devleti",
+        "Göktürk Devleti",
+        "Uygur Devleti"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Asya Hun Devleti, bilinen ilk teşkilatlı Türk devleti kabul edilir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Göktürkler 'Türk' adını resmî devlet adı olarak kullanan ilk Türk devletidir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Hunlar",
+        "Uygurlar",
+        "Avarlar",
+        "Kırgızlar",
+        "Göktürkler"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Göktürkler 'Türk' adını resmî devlet adı olarak kullanan ilk Türk devletidir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'II. Göktürk Devleti' bilgisi İlk ve Orta Çağlarda Türk Dünyası konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Hazar Devleti",
+        "II. Göktürk Devleti",
+        "Asya Hun Devleti",
+        "Uygur Devleti",
+        "Karahanlı Devleti"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Orhun Yazıtları II. Göktürk döneminde dikilmiştir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Uygurlar yerleşik yaşama geçerek şehir, sanat ve ticarette gelişmiştir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Avarlar",
+        "Kıpçaklar",
+        "Peçenekler",
+        "Uygurlar",
+        "Hunlar"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Uygurlar yerleşik yaşama geçerek şehir, sanat ve ticarette gelişmiştir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Kut' bilgisi İlk ve Orta Çağlarda Türk Dünyası konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Kut",
+        "Töre",
+        "Kurultay",
+        "Ülüş",
+        "Toy"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kut anlayışı hükümdarlık yetkisinin ilahi kaynaklı kabul edilmesidir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Kurultay veya toy, devlet meselelerinin görüşüldüğü danışma meclisidir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Meclis-i Mebusan",
+        "Enderun",
+        "Kurultay",
+        "Divan",
+        "Senato"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kurultay veya toy, devlet meselelerinin görüşüldüğü danışma meclisidir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Töre' bilgisi İlk ve Orta Çağlarda Türk Dünyası konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Kut",
+        "Ülüş",
+        "Balbal",
+        "Tamga",
+        "Töre"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Töre toplum ve devlet hayatını düzenleyen geleneksel hukuk kurallarıdır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Mete Han orduda onlu teşkilatlanmayı sistemleştirmiştir. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Teoman",
+        "Mete Han",
+        "Bumin Kağan",
+        "Bilge Kağan",
+        "Attila"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mete Han orduda onlu teşkilatlanmayı sistemleştirmiştir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Aşağıdaki eşleştirmelerden hangisinde 'Avrupa'nın etnik ve siyasi yapısının değişmesi' bilgisi İlk ve Orta Çağlarda Türk Dünyası konusu açısından doğru bir cevap oluşturur?",
+      "options": [
+        "Feodalitenin sona ermesi",
+        "Coğrafi Keşiflerin başlaması",
+        "Sanayi Devrimi'nin yaşanması",
+        "Avrupa'nın etnik ve siyasi yapısının değişmesi",
+        "Roma'nın güçlenerek tek devlet olması"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Göçler Avrupa'da yeni kavimlerin ve siyasi yapıların oluşmasına yol açmıştır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "İlk ve Orta Çağlarda Türk Dünyası",
+      "question": "Uygurlar özellikle yerleşik yaşam ve şehir kültürüyle öne çıkmıştır. Bu açıklamayla doğrudan ilişkili kavram/cevap hangisidir?",
+      "options": [
+        "Yerleşik şehir yaşamı",
+        "Atlı savaşçılık",
+        "Kurultay geleneği",
+        "Töre anlayışı",
+        "Kut inancı"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Uygurlar özellikle yerleşik yaşam ve şehir kültürüyle öne çıkmıştır."
+    }
+  ]
+}
