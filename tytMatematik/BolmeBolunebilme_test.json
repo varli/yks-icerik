@@ -1,0 +1,331 @@
+{
+  "id": "bolmebolunebilme",
+  "title": "Bölme ve Bölünebilme",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Bölme ve Bölünebilme konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Bölme ve Bölünebilme",
+      "question": "456 sayısı aşağıdakilerden hangisine tam bölünür?",
+      "options": [
+        "7",
+        "11",
+        "13",
+        "3",
+        "5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Rakamları toplamı 4+5+6=15 olduğundan 456, 3'e tam bölünür."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Bölme ve Bölünebilme",
+      "question": "725 sayısının 5 ile bölümünden kalan kaçtır?",
+      "options": [
+        "4",
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Son basamak 5 olduğundan sayı 5'e tam bölünür; kalan 0'dır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Bölme ve Bölünebilme",
+      "question": "438 sayısının 9 ile bölümünden kalan kaçtır?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Rakamlar toplamı 15'tir. 15'in 9 ile bölümünden kalan 6'dır."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Bir sayı 6'ya tam bölünüyorsa kesinlikle hangisine de tam bölünür?",
+      "options": [
+        "8",
+        "9",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "6=2·3 olduğundan 6'ya bölünen sayı 2 ve 3'e de bölünür."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Bölme ve Bölünebilme",
+      "question": "53a sayısı 3'e tam bölünüyor. a'nın alabileceği en küçük değer kaçtır?",
+      "options": [
+        "1",
+        "0",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "5+3+a=8+a, 3'ün katı olmalıdır. En küçük a=1'dir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Konu tekrarı: 456 sayısı aşağıdakilerden hangisine tam bölünür?",
+      "options": [
+        "11",
+        "13",
+        "3",
+        "5",
+        "7"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rakamları toplamı 4+5+6=15 olduğundan 456, 3'e tam bölünür."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Konu tekrarı: 725 sayısının 5 ile bölümünden kalan kaçtır?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Son basamak 5 olduğundan sayı 5'e tam bölünür; kalan 0'dır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Konu tekrarı: 438 sayısının 9 ile bölümünden kalan kaçtır?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "6",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Rakamlar toplamı 15'tir. 15'in 9 ile bölümünden kalan 6'dır."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Konu tekrarı: Bir sayı 6'ya tam bölünüyorsa kesinlikle hangisine de tam bölünür?",
+      "options": [
+        "9",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "6=2·3 olduğundan 6'ya bölünen sayı 2 ve 3'e de bölünür."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Konu tekrarı: 53a sayısı 3'e tam bölünüyor. a'nın alabileceği en küçük değer kaçtır?",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "5+3+a=8+a, 3'ün katı olmalıdır. En küçük a=1'dir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Hızlı kontrol: 456 sayısı aşağıdakilerden hangisine tam bölünür?",
+      "options": [
+        "13",
+        "3",
+        "5",
+        "7",
+        "11"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Rakamları toplamı 4+5+6=15 olduğundan 456, 3'e tam bölünür."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Hızlı kontrol: 725 sayısının 5 ile bölümünden kalan kaçtır?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "0"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Son basamak 5 olduğundan sayı 5'e tam bölünür; kalan 0'dır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Hızlı kontrol: 438 sayısının 9 ile bölümünden kalan kaçtır?",
+      "options": [
+        "4",
+        "5",
+        "6",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Rakamlar toplamı 15'tir. 15'in 9 ile bölümünden kalan 6'dır."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Hızlı kontrol: Bir sayı 6'ya tam bölünüyorsa kesinlikle hangisine de tam bölünür?",
+      "options": [
+        "3",
+        "4",
+        "5",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "6=2·3 olduğundan 6'ya bölünen sayı 2 ve 3'e de bölünür."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Bölme ve Bölünebilme",
+      "question": "Hızlı kontrol: 53a sayısı 3'e tam bölünüyor. a'nın alabileceği en küçük değer kaçtır?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "5+3+a=8+a, 3'ün katı olmalıdır. En küçük a=1'dir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Bölme ve Bölünebilme",
+      "question": "TYT alıştırması: 456 sayısı aşağıdakilerden hangisine tam bölünür?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "11",
+        "13"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Rakamları toplamı 4+5+6=15 olduğundan 456, 3'e tam bölünür."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Bölme ve Bölünebilme",
+      "question": "TYT alıştırması: 725 sayısının 5 ile bölümünden kalan kaçtır?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "0",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Son basamak 5 olduğundan sayı 5'e tam bölünür; kalan 0'dır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Bölme ve Bölünebilme",
+      "question": "TYT alıştırması: 438 sayısının 9 ile bölümünden kalan kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Rakamlar toplamı 15'tir. 15'in 9 ile bölümünden kalan 6'dır."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Bölme ve Bölünebilme",
+      "question": "TYT alıştırması: Bir sayı 6'ya tam bölünüyorsa kesinlikle hangisine de tam bölünür?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "9",
+        "3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "6=2·3 olduğundan 6'ya bölünen sayı 2 ve 3'e de bölünür."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Bölme ve Bölünebilme",
+      "question": "TYT alıştırması: 53a sayısı 3'e tam bölünüyor. a'nın alabileceği en küçük değer kaçtır?",
+      "options": [
+        "3",
+        "4",
+        "1",
+        "0",
+        "2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "5+3+a=8+a, 3'ün katı olmalıdır. En küçük a=1'dir."
+    }
+  ]
+}

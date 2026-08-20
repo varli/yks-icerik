@@ -1,0 +1,331 @@
+{
+  "id": "mutlakdeger",
+  "title": "Mutlak Değer",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Mutlak Değer konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Mutlak Değer",
+      "question": "|-8| kaçtır?",
+      "options": [
+        "0",
+        "1",
+        "16",
+        "8",
+        "-8"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mutlak değer sayının sıfıra uzaklığıdır; |-8|=8."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Mutlak Değer",
+      "question": "|x|=5 denkleminin kaç farklı gerçek sayı çözümü vardır?",
+      "options": [
+        "10",
+        "2",
+        "0",
+        "1",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x=5 veya x=-5 olmak üzere iki çözüm vardır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Mutlak Değer",
+      "question": "|x-3|=4 denkleminin çözümleri toplamı kaçtır?",
+      "options": [
+        "-2",
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "x-3=4 veya x-3=-4 ⇒ x=7,-1; toplam 6."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Mutlak Değer",
+      "question": "|2-7| + |-3| kaçtır?",
+      "options": [
+        "7",
+        "10",
+        "8",
+        "2",
+        "5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "|2-7|=5 ve |-3|=3; toplam 8."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Mutlak Değer",
+      "question": "|x|<3 eşitsizliğinin çözümü hangisidir?",
+      "options": [
+        "-3 < x < 3",
+        "x < -3",
+        "x > 3",
+        "x ≤ 3",
+        "x ≥ -3"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "|x|<a için -a<x<a olduğundan -3<x<3."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Mutlak Değer",
+      "question": "Konu tekrarı: |-8| kaçtır?",
+      "options": [
+        "1",
+        "16",
+        "8",
+        "-8",
+        "0"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Mutlak değer sayının sıfıra uzaklığıdır; |-8|=8."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Konu tekrarı: |x|=5 denkleminin kaç farklı gerçek sayı çözümü vardır?",
+      "options": [
+        "2",
+        "0",
+        "1",
+        "5",
+        "10"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "x=5 veya x=-5 olmak üzere iki çözüm vardır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Konu tekrarı: |x-3|=4 denkleminin çözümleri toplamı kaçtır?",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "6",
+        "-2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "x-3=4 veya x-3=-4 ⇒ x=7,-1; toplam 6."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Konu tekrarı: |2-7| + |-3| kaçtır?",
+      "options": [
+        "10",
+        "8",
+        "2",
+        "5",
+        "7"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "|2-7|=5 ve |-3|=3; toplam 8."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Konu tekrarı: |x|<3 eşitsizliğinin çözümü hangisidir?",
+      "options": [
+        "x < -3",
+        "x > 3",
+        "x ≤ 3",
+        "x ≥ -3",
+        "-3 < x < 3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "|x|<a için -a<x<a olduğundan -3<x<3."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Hızlı kontrol: |-8| kaçtır?",
+      "options": [
+        "16",
+        "8",
+        "-8",
+        "0",
+        "1"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Mutlak değer sayının sıfıra uzaklığıdır; |-8|=8."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Hızlı kontrol: |x|=5 denkleminin kaç farklı gerçek sayı çözümü vardır?",
+      "options": [
+        "0",
+        "1",
+        "5",
+        "10",
+        "2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "x=5 veya x=-5 olmak üzere iki çözüm vardır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Hızlı kontrol: |x-3|=4 denkleminin çözümleri toplamı kaçtır?",
+      "options": [
+        "4",
+        "8",
+        "6",
+        "-2",
+        "2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x-3=4 veya x-3=-4 ⇒ x=7,-1; toplam 6."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Mutlak Değer",
+      "question": "Hızlı kontrol: |2-7| + |-3| kaçtır?",
+      "options": [
+        "8",
+        "2",
+        "5",
+        "7",
+        "10"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "|2-7|=5 ve |-3|=3; toplam 8."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Mutlak Değer",
+      "question": "Hızlı kontrol: |x|<3 eşitsizliğinin çözümü hangisidir?",
+      "options": [
+        "x > 3",
+        "x ≤ 3",
+        "x ≥ -3",
+        "-3 < x < 3",
+        "x < -3"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "|x|<a için -a<x<a olduğundan -3<x<3."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Mutlak Değer",
+      "question": "TYT alıştırması: |-8| kaçtır?",
+      "options": [
+        "8",
+        "-8",
+        "0",
+        "1",
+        "16"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Mutlak değer sayının sıfıra uzaklığıdır; |-8|=8."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Mutlak Değer",
+      "question": "TYT alıştırması: |x|=5 denkleminin kaç farklı gerçek sayı çözümü vardır?",
+      "options": [
+        "1",
+        "5",
+        "10",
+        "2",
+        "0"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "x=5 veya x=-5 olmak üzere iki çözüm vardır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Mutlak Değer",
+      "question": "TYT alıştırması: |x-3|=4 denkleminin çözümleri toplamı kaçtır?",
+      "options": [
+        "8",
+        "6",
+        "-2",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x-3=4 veya x-3=-4 ⇒ x=7,-1; toplam 6."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Mutlak Değer",
+      "question": "TYT alıştırması: |2-7| + |-3| kaçtır?",
+      "options": [
+        "2",
+        "5",
+        "7",
+        "10",
+        "8"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "|2-7|=5 ve |-3|=3; toplam 8."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Mutlak Değer",
+      "question": "TYT alıştırması: |x|<3 eşitsizliğinin çözümü hangisidir?",
+      "options": [
+        "x ≤ 3",
+        "x ≥ -3",
+        "-3 < x < 3",
+        "x < -3",
+        "x > 3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "|x|<a için -a<x<a olduğundan -3<x<3."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "sayivekesirproblemleri",
+  "title": "Sayı ve Kesir Problemleri",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Sayı ve Kesir Problemleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Bir sayının 1/3'ü 12 ise sayı kaçtır?",
+      "options": [
+        "30",
+        "40",
+        "48",
+        "36",
+        "24"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "x/3=12 ⇒ x=36."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Bir sayının 2/5'i 18 ise sayının tamamı kaçtır?",
+      "options": [
+        "54",
+        "45",
+        "36",
+        "40",
+        "50"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2x/5=18 ⇒ 2x=90 ⇒ x=45."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Bir sayının yarısının 7 fazlası 22 ise sayı kaçtır?",
+      "options": [
+        "15",
+        "22",
+        "29",
+        "44",
+        "30"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "x/2+7=22 ⇒ x/2=15 ⇒ x=30."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Bir sayının 3/4'ü ile 1/4'ünün farkı 20 ise sayı kaçtır?",
+      "options": [
+        "60",
+        "80",
+        "40",
+        "20",
+        "30"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "(3/4-1/4)x=x/2=20 ⇒ x=40."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Bir sayının 5 fazlasının 3 katı 36 ise sayı kaçtır?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "3(x+5)=36 ⇒ x+5=12 ⇒ x=7."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Konu tekrarı: Bir sayının 1/3'ü 12 ise sayı kaçtır?",
+      "options": [
+        "40",
+        "48",
+        "36",
+        "24",
+        "30"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x/3=12 ⇒ x=36."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Konu tekrarı: Bir sayının 2/5'i 18 ise sayının tamamı kaçtır?",
+      "options": [
+        "45",
+        "36",
+        "40",
+        "50",
+        "54"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "2x/5=18 ⇒ 2x=90 ⇒ x=45."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Konu tekrarı: Bir sayının yarısının 7 fazlası 22 ise sayı kaçtır?",
+      "options": [
+        "22",
+        "29",
+        "44",
+        "30",
+        "15"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "x/2+7=22 ⇒ x/2=15 ⇒ x=30."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Konu tekrarı: Bir sayının 3/4'ü ile 1/4'ünün farkı 20 ise sayı kaçtır?",
+      "options": [
+        "80",
+        "40",
+        "20",
+        "30",
+        "60"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "(3/4-1/4)x=x/2=20 ⇒ x=40."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Konu tekrarı: Bir sayının 5 fazlasının 3 katı 36 ise sayı kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "9",
+        "7"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "3(x+5)=36 ⇒ x+5=12 ⇒ x=7."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Hızlı kontrol: Bir sayının 1/3'ü 12 ise sayı kaçtır?",
+      "options": [
+        "48",
+        "36",
+        "24",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x/3=12 ⇒ x=36."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Hızlı kontrol: Bir sayının 2/5'i 18 ise sayının tamamı kaçtır?",
+      "options": [
+        "36",
+        "40",
+        "50",
+        "54",
+        "45"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "2x/5=18 ⇒ 2x=90 ⇒ x=45."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Hızlı kontrol: Bir sayının yarısının 7 fazlası 22 ise sayı kaçtır?",
+      "options": [
+        "29",
+        "44",
+        "30",
+        "15",
+        "22"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x/2+7=22 ⇒ x/2=15 ⇒ x=30."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Hızlı kontrol: Bir sayının 3/4'ü ile 1/4'ünün farkı 20 ise sayı kaçtır?",
+      "options": [
+        "40",
+        "20",
+        "30",
+        "60",
+        "80"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "(3/4-1/4)x=x/2=20 ⇒ x=40."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "Hızlı kontrol: Bir sayının 5 fazlasının 3 katı 36 ise sayı kaçtır?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "3(x+5)=36 ⇒ x+5=12 ⇒ x=7."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "TYT alıştırması: Bir sayının 1/3'ü 12 ise sayı kaçtır?",
+      "options": [
+        "36",
+        "24",
+        "30",
+        "40",
+        "48"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "x/3=12 ⇒ x=36."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "TYT alıştırması: Bir sayının 2/5'i 18 ise sayının tamamı kaçtır?",
+      "options": [
+        "40",
+        "50",
+        "54",
+        "45",
+        "36"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "2x/5=18 ⇒ 2x=90 ⇒ x=45."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "TYT alıştırması: Bir sayının yarısının 7 fazlası 22 ise sayı kaçtır?",
+      "options": [
+        "44",
+        "30",
+        "15",
+        "22",
+        "29"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x/2+7=22 ⇒ x/2=15 ⇒ x=30."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "TYT alıştırması: Bir sayının 3/4'ü ile 1/4'ünün farkı 20 ise sayı kaçtır?",
+      "options": [
+        "20",
+        "30",
+        "60",
+        "80",
+        "40"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "(3/4-1/4)x=x/2=20 ⇒ x=40."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Sayı ve Kesir Problemleri",
+      "question": "TYT alıştırması: Bir sayının 5 fazlasının 3 katı 36 ise sayı kaçtır?",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "3(x+5)=36 ⇒ x+5=12 ⇒ x=7."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "rasyonelsayilarveondalikgosterimler",
+  "title": "Rasyonel Sayılar ve Ondalık Gösterimler",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Rasyonel Sayılar ve Ondalık Gösterimler konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "1/2 + 1/3 kaçtır?",
+      "options": [
+        "2/6",
+        "3/5",
+        "1",
+        "5/6",
+        "2/5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Ortak payda 6: 3/6+2/6=5/6."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "0,25 kesir olarak hangisine eşittir?",
+      "options": [
+        "3/4",
+        "1/4",
+        "1/2",
+        "1/3",
+        "2/5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "0,25=25/100=1/4."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "3/4 - 1/2 kaçtır?",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/3",
+        "3/8",
+        "1/4"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "3/4-2/4=1/4."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "2,5 + 1,75 kaçtır?",
+      "options": [
+        "4,5",
+        "5,25",
+        "4,25",
+        "3,25",
+        "4,15"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ondalık sayılar toplanır: 2,50+1,75=4,25."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "0,6 sayısının yüzde gösterimi nedir?",
+      "options": [
+        "%60",
+        "%6",
+        "%16",
+        "%40",
+        "%600"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "0,6·100=%60."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Konu tekrarı: 1/2 + 1/3 kaçtır?",
+      "options": [
+        "3/5",
+        "1",
+        "5/6",
+        "2/5",
+        "2/6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Ortak payda 6: 3/6+2/6=5/6."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Konu tekrarı: 0,25 kesir olarak hangisine eşittir?",
+      "options": [
+        "1/4",
+        "1/2",
+        "1/3",
+        "2/5",
+        "3/4"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "0,25=25/100=1/4."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Konu tekrarı: 3/4 - 1/2 kaçtır?",
+      "options": [
+        "1/3",
+        "2/3",
+        "3/8",
+        "1/4",
+        "1/2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "3/4-2/4=1/4."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Konu tekrarı: 2,5 + 1,75 kaçtır?",
+      "options": [
+        "5,25",
+        "4,25",
+        "3,25",
+        "4,15",
+        "4,5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ondalık sayılar toplanır: 2,50+1,75=4,25."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Konu tekrarı: 0,6 sayısının yüzde gösterimi nedir?",
+      "options": [
+        "%6",
+        "%16",
+        "%40",
+        "%600",
+        "%60"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "0,6·100=%60."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Hızlı kontrol: 1/2 + 1/3 kaçtır?",
+      "options": [
+        "1",
+        "5/6",
+        "2/5",
+        "2/6",
+        "3/5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ortak payda 6: 3/6+2/6=5/6."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Hızlı kontrol: 0,25 kesir olarak hangisine eşittir?",
+      "options": [
+        "1/2",
+        "1/3",
+        "2/5",
+        "3/4",
+        "1/4"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "0,25=25/100=1/4."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Hızlı kontrol: 3/4 - 1/2 kaçtır?",
+      "options": [
+        "2/3",
+        "3/8",
+        "1/4",
+        "1/2",
+        "1/3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "3/4-2/4=1/4."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Hızlı kontrol: 2,5 + 1,75 kaçtır?",
+      "options": [
+        "4,25",
+        "3,25",
+        "4,15",
+        "4,5",
+        "5,25"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ondalık sayılar toplanır: 2,50+1,75=4,25."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "Hızlı kontrol: 0,6 sayısının yüzde gösterimi nedir?",
+      "options": [
+        "%16",
+        "%40",
+        "%600",
+        "%60",
+        "%6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "0,6·100=%60."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "TYT alıştırması: 1/2 + 1/3 kaçtır?",
+      "options": [
+        "5/6",
+        "2/5",
+        "2/6",
+        "3/5",
+        "1"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ortak payda 6: 3/6+2/6=5/6."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "TYT alıştırması: 0,25 kesir olarak hangisine eşittir?",
+      "options": [
+        "1/3",
+        "2/5",
+        "3/4",
+        "1/4",
+        "1/2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "0,25=25/100=1/4."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "TYT alıştırması: 3/4 - 1/2 kaçtır?",
+      "options": [
+        "3/8",
+        "1/4",
+        "1/2",
+        "1/3",
+        "2/3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "3/4-2/4=1/4."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "TYT alıştırması: 2,5 + 1,75 kaçtır?",
+      "options": [
+        "3,25",
+        "4,15",
+        "4,5",
+        "5,25",
+        "4,25"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ondalık sayılar toplanır: 2,50+1,75=4,25."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Rasyonel Sayılar ve Ondalık Gösterimler",
+      "question": "TYT alıştırması: 0,6 sayısının yüzde gösterimi nedir?",
+      "options": [
+        "%40",
+        "%600",
+        "%60",
+        "%6",
+        "%16"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "0,6·100=%60."
+    }
+  ]
+}

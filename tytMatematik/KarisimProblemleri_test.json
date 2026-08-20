@@ -1,0 +1,331 @@
+{
+  "id": "karisimproblemleri",
+  "title": "Karışım Problemleri",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Karışım Problemleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Karışım Problemleri",
+      "question": "10 L %20 tuzlu su karışımında kaç litre tuz vardır?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "2",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "10·20/100=2 L."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Karışım Problemleri",
+      "question": "20 kg %30 şekerli karışımda kaç kg şeker vardır?",
+      "options": [
+        "14",
+        "6",
+        "3",
+        "5",
+        "7"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "20·0,30=6 kg."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Karışım Problemleri",
+      "question": "5 L saf suya 5 L %40 tuzlu su eklenirse yeni karışımın tuz yüzdesi kaç olur?",
+      "options": [
+        "%10",
+        "%30",
+        "%40",
+        "%80",
+        "%20"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tuz miktarı 2 L, toplam 10 L: 2/10=%20."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Karışım Problemleri",
+      "question": "10 L %30'luk karışıma 5 L saf su eklenirse madde miktarı kaç litre kalır?",
+      "options": [
+        "5",
+        "8",
+        "3",
+        "1,5",
+        "4,5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Saf su eklemek çözünen madde miktarını değiştirmez; 10·0,30=3 L."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Karışım Problemleri",
+      "question": "8 kg %25'lik karışımda çözücü miktarı kaç kg'dır?",
+      "options": [
+        "6",
+        "2",
+        "4",
+        "5",
+        "7"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Çözünen 2 kg, çözücü 8-2=6 kg."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Karışım Problemleri",
+      "question": "Konu tekrarı: 10 L %20 tuzlu su karışımında kaç litre tuz vardır?",
+      "options": [
+        "5",
+        "8",
+        "2",
+        "1",
+        "4"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "10·20/100=2 L."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Konu tekrarı: 20 kg %30 şekerli karışımda kaç kg şeker vardır?",
+      "options": [
+        "6",
+        "3",
+        "5",
+        "7",
+        "14"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "20·0,30=6 kg."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Konu tekrarı: 5 L saf suya 5 L %40 tuzlu su eklenirse yeni karışımın tuz yüzdesi kaç olur?",
+      "options": [
+        "%30",
+        "%40",
+        "%80",
+        "%20",
+        "%10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tuz miktarı 2 L, toplam 10 L: 2/10=%20."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Konu tekrarı: 10 L %30'luk karışıma 5 L saf su eklenirse madde miktarı kaç litre kalır?",
+      "options": [
+        "8",
+        "3",
+        "1,5",
+        "4,5",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Saf su eklemek çözünen madde miktarını değiştirmez; 10·0,30=3 L."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Konu tekrarı: 8 kg %25'lik karışımda çözücü miktarı kaç kg'dır?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "7",
+        "6"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çözünen 2 kg, çözücü 8-2=6 kg."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Hızlı kontrol: 10 L %20 tuzlu su karışımında kaç litre tuz vardır?",
+      "options": [
+        "8",
+        "2",
+        "1",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "10·20/100=2 L."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Hızlı kontrol: 20 kg %30 şekerli karışımda kaç kg şeker vardır?",
+      "options": [
+        "3",
+        "5",
+        "7",
+        "14",
+        "6"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "20·0,30=6 kg."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Hızlı kontrol: 5 L saf suya 5 L %40 tuzlu su eklenirse yeni karışımın tuz yüzdesi kaç olur?",
+      "options": [
+        "%40",
+        "%80",
+        "%20",
+        "%10",
+        "%30"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tuz miktarı 2 L, toplam 10 L: 2/10=%20."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Karışım Problemleri",
+      "question": "Hızlı kontrol: 10 L %30'luk karışıma 5 L saf su eklenirse madde miktarı kaç litre kalır?",
+      "options": [
+        "3",
+        "1,5",
+        "4,5",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Saf su eklemek çözünen madde miktarını değiştirmez; 10·0,30=3 L."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Karışım Problemleri",
+      "question": "Hızlı kontrol: 8 kg %25'lik karışımda çözücü miktarı kaç kg'dır?",
+      "options": [
+        "4",
+        "5",
+        "7",
+        "6",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Çözünen 2 kg, çözücü 8-2=6 kg."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Karışım Problemleri",
+      "question": "TYT alıştırması: 10 L %20 tuzlu su karışımında kaç litre tuz vardır?",
+      "options": [
+        "2",
+        "1",
+        "4",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "10·20/100=2 L."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Karışım Problemleri",
+      "question": "TYT alıştırması: 20 kg %30 şekerli karışımda kaç kg şeker vardır?",
+      "options": [
+        "5",
+        "7",
+        "14",
+        "6",
+        "3"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "20·0,30=6 kg."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Karışım Problemleri",
+      "question": "TYT alıştırması: 5 L saf suya 5 L %40 tuzlu su eklenirse yeni karışımın tuz yüzdesi kaç olur?",
+      "options": [
+        "%80",
+        "%20",
+        "%10",
+        "%30",
+        "%40"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tuz miktarı 2 L, toplam 10 L: 2/10=%20."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Karışım Problemleri",
+      "question": "TYT alıştırması: 10 L %30'luk karışıma 5 L saf su eklenirse madde miktarı kaç litre kalır?",
+      "options": [
+        "1,5",
+        "4,5",
+        "5",
+        "8",
+        "3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Saf su eklemek çözünen madde miktarını değiştirmez; 10·0,30=3 L."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Karışım Problemleri",
+      "question": "TYT alıştırması: 8 kg %25'lik karışımda çözücü miktarı kaç kg'dır?",
+      "options": [
+        "5",
+        "7",
+        "6",
+        "2",
+        "4"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Çözünen 2 kg, çözücü 8-2=6 kg."
+    }
+  ]
+}

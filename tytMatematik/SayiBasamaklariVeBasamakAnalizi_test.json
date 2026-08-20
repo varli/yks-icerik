@@ -1,0 +1,331 @@
+{
+  "id": "sayibasamaklarivebasamakanalizi",
+  "title": "Sayı Basamakları ve Basamak Analizi",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Sayı Basamakları ve Basamak Analizi konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "572 sayısında 7 rakamının basamak değeri kaçtır?",
+      "options": [
+        "50",
+        "500",
+        "700",
+        "70",
+        "7"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "7 onlar basamağındadır; basamak değeri 70'tir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "4a2 üç basamaklı sayısının rakamları toplamı 11 ise a kaçtır?",
+      "options": [
+        "7",
+        "5",
+        "3",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "4+a+2=11 ⇒ a=5."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "abc üç basamaklı sayısının açılımı hangisidir?",
+      "options": [
+        "a+b+c",
+        "10a+10b+c",
+        "100a+b+c",
+        "100a+100b+c",
+        "100a+10b+c"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yüzler, onlar ve birler basamaklarına göre 100a+10b+c."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "En küçük üç basamaklı doğal sayı kaçtır?",
+      "options": [
+        "110",
+        "111",
+        "100",
+        "99",
+        "101"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Üç basamaklı doğal sayılar 100 ile başlar."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Rakamları farklı en büyük üç basamaklı sayı kaçtır?",
+      "options": [
+        "987",
+        "999",
+        "998",
+        "989",
+        "976"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "En büyük farklı rakamlar sırasıyla 9,8,7 seçilir: 987."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Konu tekrarı: 572 sayısında 7 rakamının basamak değeri kaçtır?",
+      "options": [
+        "500",
+        "700",
+        "70",
+        "7",
+        "50"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "7 onlar basamağındadır; basamak değeri 70'tir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Konu tekrarı: 4a2 üç basamaklı sayısının rakamları toplamı 11 ise a kaçtır?",
+      "options": [
+        "5",
+        "3",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "4+a+2=11 ⇒ a=5."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Konu tekrarı: abc üç basamaklı sayısının açılımı hangisidir?",
+      "options": [
+        "10a+10b+c",
+        "100a+b+c",
+        "100a+100b+c",
+        "100a+10b+c",
+        "a+b+c"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Yüzler, onlar ve birler basamaklarına göre 100a+10b+c."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Konu tekrarı: En küçük üç basamaklı doğal sayı kaçtır?",
+      "options": [
+        "111",
+        "100",
+        "99",
+        "101",
+        "110"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Üç basamaklı doğal sayılar 100 ile başlar."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Konu tekrarı: Rakamları farklı en büyük üç basamaklı sayı kaçtır?",
+      "options": [
+        "999",
+        "998",
+        "989",
+        "976",
+        "987"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "En büyük farklı rakamlar sırasıyla 9,8,7 seçilir: 987."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Hızlı kontrol: 572 sayısında 7 rakamının basamak değeri kaçtır?",
+      "options": [
+        "700",
+        "70",
+        "7",
+        "50",
+        "500"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "7 onlar basamağındadır; basamak değeri 70'tir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Hızlı kontrol: 4a2 üç basamaklı sayısının rakamları toplamı 11 ise a kaçtır?",
+      "options": [
+        "3",
+        "4",
+        "6",
+        "7",
+        "5"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "4+a+2=11 ⇒ a=5."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Hızlı kontrol: abc üç basamaklı sayısının açılımı hangisidir?",
+      "options": [
+        "100a+b+c",
+        "100a+100b+c",
+        "100a+10b+c",
+        "a+b+c",
+        "10a+10b+c"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yüzler, onlar ve birler basamaklarına göre 100a+10b+c."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Hızlı kontrol: En küçük üç basamaklı doğal sayı kaçtır?",
+      "options": [
+        "100",
+        "99",
+        "101",
+        "110",
+        "111"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Üç basamaklı doğal sayılar 100 ile başlar."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "Hızlı kontrol: Rakamları farklı en büyük üç basamaklı sayı kaçtır?",
+      "options": [
+        "998",
+        "989",
+        "976",
+        "987",
+        "999"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "En büyük farklı rakamlar sırasıyla 9,8,7 seçilir: 987."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "TYT alıştırması: 572 sayısında 7 rakamının basamak değeri kaçtır?",
+      "options": [
+        "70",
+        "7",
+        "50",
+        "500",
+        "700"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "7 onlar basamağındadır; basamak değeri 70'tir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "TYT alıştırması: 4a2 üç basamaklı sayısının rakamları toplamı 11 ise a kaçtır?",
+      "options": [
+        "4",
+        "6",
+        "7",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "4+a+2=11 ⇒ a=5."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "TYT alıştırması: abc üç basamaklı sayısının açılımı hangisidir?",
+      "options": [
+        "100a+100b+c",
+        "100a+10b+c",
+        "a+b+c",
+        "10a+10b+c",
+        "100a+b+c"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yüzler, onlar ve birler basamaklarına göre 100a+10b+c."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "TYT alıştırması: En küçük üç basamaklı doğal sayı kaçtır?",
+      "options": [
+        "99",
+        "101",
+        "110",
+        "111",
+        "100"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Üç basamaklı doğal sayılar 100 ile başlar."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Sayı Basamakları ve Basamak Analizi",
+      "question": "TYT alıştırması: Rakamları farklı en büyük üç basamaklı sayı kaçtır?",
+      "options": [
+        "989",
+        "976",
+        "987",
+        "999",
+        "998"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "En büyük farklı rakamlar sırasıyla 9,8,7 seçilir: 987."
+    }
+  ]
+}

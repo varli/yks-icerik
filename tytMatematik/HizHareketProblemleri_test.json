@@ -1,0 +1,331 @@
+{
+  "id": "hizhareketproblemleri",
+  "title": "Hız (Hareket) Problemleri",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Hız (Hareket) Problemleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "60 km/sa hızla 3 saat giden araç kaç km yol alır?",
+      "options": [
+        "150",
+        "200",
+        "240",
+        "180",
+        "120"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Yol=hız·zaman=60·3=180 km."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "240 km yolu 4 saatte alan aracın ortalama hızı kaç km/saattir?",
+      "options": [
+        "120",
+        "60",
+        "40",
+        "50",
+        "80"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hız=yol/zaman=240/4=60."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "90 km/sa hızla 180 km yol kaç saatte alınır?",
+      "options": [
+        "1",
+        "1,5",
+        "2,5",
+        "3",
+        "2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Zaman=180/90=2 saat."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Zıt yönlerde 50 ve 70 km/sa hızla uzaklaşan iki aracın bağıl hızı kaçtır?",
+      "options": [
+        "70",
+        "3500",
+        "120",
+        "20",
+        "50"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Zıt yönlerde hızlar toplanır: 50+70=120."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Aynı yönde 80 ve 60 km/sa hızla giden araçların bağıl hızı kaçtır?",
+      "options": [
+        "20",
+        "40",
+        "60",
+        "80",
+        "140"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Aynı yönde hız farkı alınır: 80-60=20."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Konu tekrarı: 60 km/sa hızla 3 saat giden araç kaç km yol alır?",
+      "options": [
+        "200",
+        "240",
+        "180",
+        "120",
+        "150"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yol=hız·zaman=60·3=180 km."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Konu tekrarı: 240 km yolu 4 saatte alan aracın ortalama hızı kaç km/saattir?",
+      "options": [
+        "60",
+        "40",
+        "50",
+        "80",
+        "120"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Hız=yol/zaman=240/4=60."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Konu tekrarı: 90 km/sa hızla 180 km yol kaç saatte alınır?",
+      "options": [
+        "1,5",
+        "2,5",
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Zaman=180/90=2 saat."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Konu tekrarı: Zıt yönlerde 50 ve 70 km/sa hızla uzaklaşan iki aracın bağıl hızı kaçtır?",
+      "options": [
+        "3500",
+        "120",
+        "20",
+        "50",
+        "70"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Zıt yönlerde hızlar toplanır: 50+70=120."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Konu tekrarı: Aynı yönde 80 ve 60 km/sa hızla giden araçların bağıl hızı kaçtır?",
+      "options": [
+        "40",
+        "60",
+        "80",
+        "140",
+        "20"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Aynı yönde hız farkı alınır: 80-60=20."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Hızlı kontrol: 60 km/sa hızla 3 saat giden araç kaç km yol alır?",
+      "options": [
+        "240",
+        "180",
+        "120",
+        "150",
+        "200"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Yol=hız·zaman=60·3=180 km."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Hızlı kontrol: 240 km yolu 4 saatte alan aracın ortalama hızı kaç km/saattir?",
+      "options": [
+        "40",
+        "50",
+        "80",
+        "120",
+        "60"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hız=yol/zaman=240/4=60."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Hızlı kontrol: 90 km/sa hızla 180 km yol kaç saatte alınır?",
+      "options": [
+        "2,5",
+        "3",
+        "2",
+        "1",
+        "1,5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Zaman=180/90=2 saat."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Hızlı kontrol: Zıt yönlerde 50 ve 70 km/sa hızla uzaklaşan iki aracın bağıl hızı kaçtır?",
+      "options": [
+        "120",
+        "20",
+        "50",
+        "70",
+        "3500"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Zıt yönlerde hızlar toplanır: 50+70=120."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "Hızlı kontrol: Aynı yönde 80 ve 60 km/sa hızla giden araçların bağıl hızı kaçtır?",
+      "options": [
+        "60",
+        "80",
+        "140",
+        "20",
+        "40"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Aynı yönde hız farkı alınır: 80-60=20."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "TYT alıştırması: 60 km/sa hızla 3 saat giden araç kaç km yol alır?",
+      "options": [
+        "180",
+        "120",
+        "150",
+        "200",
+        "240"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yol=hız·zaman=60·3=180 km."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "TYT alıştırması: 240 km yolu 4 saatte alan aracın ortalama hızı kaç km/saattir?",
+      "options": [
+        "50",
+        "80",
+        "120",
+        "60",
+        "40"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hız=yol/zaman=240/4=60."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "TYT alıştırması: 90 km/sa hızla 180 km yol kaç saatte alınır?",
+      "options": [
+        "3",
+        "2",
+        "1",
+        "1,5",
+        "2,5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Zaman=180/90=2 saat."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "TYT alıştırması: Zıt yönlerde 50 ve 70 km/sa hızla uzaklaşan iki aracın bağıl hızı kaçtır?",
+      "options": [
+        "20",
+        "50",
+        "70",
+        "3500",
+        "120"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Zıt yönlerde hızlar toplanır: 50+70=120."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Hız (Hareket) Problemleri",
+      "question": "TYT alıştırması: Aynı yönde 80 ve 60 km/sa hızla giden araçların bağıl hızı kaçtır?",
+      "options": [
+        "80",
+        "140",
+        "20",
+        "40",
+        "60"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Aynı yönde hız farkı alınır: 80-60=20."
+    }
+  ]
+}

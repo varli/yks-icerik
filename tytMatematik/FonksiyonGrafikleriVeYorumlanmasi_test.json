@@ -1,0 +1,331 @@
+{
+  "id": "fonksiyongrafikleriveyorumlanmasi",
+  "title": "Fonksiyon Grafikleri ve Yorumlanması",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Fonksiyon Grafikleri ve Yorumlanması konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "f(x)=2x+1 doğrusunun y eksenini kestiği noktanın ordinatı kaçtır?",
+      "options": [
+        "0",
+        "2",
+        "3",
+        "1",
+        "-2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "y ekseninde x=0'dır; f(0)=1."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "y=3x-6 doğrusu x eksenini hangi noktada keser?",
+      "options": [
+        "(6,0)",
+        "(2,0)",
+        "(0,2)",
+        "(3,0)",
+        "(0,-6)"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x ekseninde y=0: 3x-6=0 ⇒ x=2."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "f(x)=x² grafiği hangi noktadan geçer?",
+      "options": [
+        "(2,2)",
+        "(-2,-4)",
+        "(1,0)",
+        "(0,1)",
+        "(2,4)"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "x=2 için y=4'tür."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "y=-2x+5 doğrusunun eğimi kaçtır?",
+      "options": [
+        "5",
+        "1/2",
+        "-2",
+        "-5",
+        "2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "y=mx+n formunda eğim x'in katsayısıdır: -2."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Sabit f(x)=4 fonksiyonunun grafiği hangi doğruya paraleldir?",
+      "options": [
+        "x eksenine",
+        "y eksenine",
+        "y=x doğrusuna",
+        "y=-x doğrusuna",
+        "hiçbirine"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "y=4 yatay bir doğru olduğundan x eksenine paraleldir."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Konu tekrarı: f(x)=2x+1 doğrusunun y eksenini kestiği noktanın ordinatı kaçtır?",
+      "options": [
+        "2",
+        "3",
+        "1",
+        "-2",
+        "0"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "y ekseninde x=0'dır; f(0)=1."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Konu tekrarı: y=3x-6 doğrusu x eksenini hangi noktada keser?",
+      "options": [
+        "(2,0)",
+        "(0,2)",
+        "(3,0)",
+        "(0,-6)",
+        "(6,0)"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "x ekseninde y=0: 3x-6=0 ⇒ x=2."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Konu tekrarı: f(x)=x² grafiği hangi noktadan geçer?",
+      "options": [
+        "(-2,-4)",
+        "(1,0)",
+        "(0,1)",
+        "(2,4)",
+        "(2,2)"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "x=2 için y=4'tür."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Konu tekrarı: y=-2x+5 doğrusunun eğimi kaçtır?",
+      "options": [
+        "1/2",
+        "-2",
+        "-5",
+        "2",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "y=mx+n formunda eğim x'in katsayısıdır: -2."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Konu tekrarı: Sabit f(x)=4 fonksiyonunun grafiği hangi doğruya paraleldir?",
+      "options": [
+        "y eksenine",
+        "y=x doğrusuna",
+        "y=-x doğrusuna",
+        "hiçbirine",
+        "x eksenine"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "y=4 yatay bir doğru olduğundan x eksenine paraleldir."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Hızlı kontrol: f(x)=2x+1 doğrusunun y eksenini kestiği noktanın ordinatı kaçtır?",
+      "options": [
+        "3",
+        "1",
+        "-2",
+        "0",
+        "2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "y ekseninde x=0'dır; f(0)=1."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Hızlı kontrol: y=3x-6 doğrusu x eksenini hangi noktada keser?",
+      "options": [
+        "(0,2)",
+        "(3,0)",
+        "(0,-6)",
+        "(6,0)",
+        "(2,0)"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "x ekseninde y=0: 3x-6=0 ⇒ x=2."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Hızlı kontrol: f(x)=x² grafiği hangi noktadan geçer?",
+      "options": [
+        "(1,0)",
+        "(0,1)",
+        "(2,4)",
+        "(2,2)",
+        "(-2,-4)"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "x=2 için y=4'tür."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Hızlı kontrol: y=-2x+5 doğrusunun eğimi kaçtır?",
+      "options": [
+        "-2",
+        "-5",
+        "2",
+        "5",
+        "1/2"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "y=mx+n formunda eğim x'in katsayısıdır: -2."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "Hızlı kontrol: Sabit f(x)=4 fonksiyonunun grafiği hangi doğruya paraleldir?",
+      "options": [
+        "y=x doğrusuna",
+        "y=-x doğrusuna",
+        "hiçbirine",
+        "x eksenine",
+        "y eksenine"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "y=4 yatay bir doğru olduğundan x eksenine paraleldir."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "TYT alıştırması: f(x)=2x+1 doğrusunun y eksenini kestiği noktanın ordinatı kaçtır?",
+      "options": [
+        "1",
+        "-2",
+        "0",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "y ekseninde x=0'dır; f(0)=1."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "TYT alıştırması: y=3x-6 doğrusu x eksenini hangi noktada keser?",
+      "options": [
+        "(3,0)",
+        "(0,-6)",
+        "(6,0)",
+        "(2,0)",
+        "(0,2)"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "x ekseninde y=0: 3x-6=0 ⇒ x=2."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "TYT alıştırması: f(x)=x² grafiği hangi noktadan geçer?",
+      "options": [
+        "(0,1)",
+        "(2,4)",
+        "(2,2)",
+        "(-2,-4)",
+        "(1,0)"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "x=2 için y=4'tür."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "TYT alıştırması: y=-2x+5 doğrusunun eğimi kaçtır?",
+      "options": [
+        "-5",
+        "2",
+        "5",
+        "1/2",
+        "-2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "y=mx+n formunda eğim x'in katsayısıdır: -2."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Fonksiyon Grafikleri ve Yorumlanması",
+      "question": "TYT alıştırması: Sabit f(x)=4 fonksiyonunun grafiği hangi doğruya paraleldir?",
+      "options": [
+        "y=-x doğrusuna",
+        "hiçbirine",
+        "x eksenine",
+        "y eksenine",
+        "y=x doğrusuna"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "y=4 yatay bir doğru olduğundan x eksenine paraleldir."
+    }
+  ]
+}

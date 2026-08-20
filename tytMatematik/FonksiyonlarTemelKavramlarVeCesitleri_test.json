@@ -1,0 +1,331 @@
+{
+  "id": "fonksiyonlartemelkavramlarvecesitleri",
+  "title": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Fonksiyonlar - Temel Kavramlar ve Çeşitleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "f(x)=2x+3 ise f(4) kaçtır?",
+      "options": [
+        "9",
+        "10",
+        "12",
+        "11",
+        "8"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "f(4)=2·4+3=11."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "f(x)=x²-1 ise f(-3) kaçtır?",
+      "options": [
+        "10",
+        "8",
+        "-10",
+        "-8",
+        "2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "f(-3)=9-1=8."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "f(x)=x+5 ve f(a)=12 ise a kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "17",
+        "7"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "a+5=12 ⇒ a=7."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "A={1,2,3}, B={a,b} için A'dan B'ye tanımlanabilecek fonksiyon sayısı kaçtır?",
+      "options": [
+        "9",
+        "12",
+        "8",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "|B|^|A|=2³=8."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "f(x)=3x-2 fonksiyonu için f(0) kaçtır?",
+      "options": [
+        "-2",
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "f(0)=3·0-2=-2."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Konu tekrarı: f(x)=2x+3 ise f(4) kaçtır?",
+      "options": [
+        "10",
+        "12",
+        "11",
+        "8",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "f(4)=2·4+3=11."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Konu tekrarı: f(x)=x²-1 ise f(-3) kaçtır?",
+      "options": [
+        "8",
+        "-10",
+        "-8",
+        "2",
+        "10"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "f(-3)=9-1=8."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Konu tekrarı: f(x)=x+5 ve f(a)=12 ise a kaçtır?",
+      "options": [
+        "6",
+        "8",
+        "17",
+        "7",
+        "5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "a+5=12 ⇒ a=7."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Konu tekrarı: A={1,2,3}, B={a,b} için A'dan B'ye tanımlanabilecek fonksiyon sayısı kaçtır?",
+      "options": [
+        "12",
+        "8",
+        "5",
+        "6",
+        "9"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "|B|^|A|=2³=8."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Konu tekrarı: f(x)=3x-2 fonksiyonu için f(0) kaçtır?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "-2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "f(0)=3·0-2=-2."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Hızlı kontrol: f(x)=2x+3 ise f(4) kaçtır?",
+      "options": [
+        "12",
+        "11",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "f(4)=2·4+3=11."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Hızlı kontrol: f(x)=x²-1 ise f(-3) kaçtır?",
+      "options": [
+        "-10",
+        "-8",
+        "2",
+        "10",
+        "8"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "f(-3)=9-1=8."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Hızlı kontrol: f(x)=x+5 ve f(a)=12 ise a kaçtır?",
+      "options": [
+        "8",
+        "17",
+        "7",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "a+5=12 ⇒ a=7."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Hızlı kontrol: A={1,2,3}, B={a,b} için A'dan B'ye tanımlanabilecek fonksiyon sayısı kaçtır?",
+      "options": [
+        "8",
+        "5",
+        "6",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "|B|^|A|=2³=8."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "Hızlı kontrol: f(x)=3x-2 fonksiyonu için f(0) kaçtır?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "-2",
+        "0"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "f(0)=3·0-2=-2."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "TYT alıştırması: f(x)=2x+3 ise f(4) kaçtır?",
+      "options": [
+        "11",
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "f(4)=2·4+3=11."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "TYT alıştırması: f(x)=x²-1 ise f(-3) kaçtır?",
+      "options": [
+        "-8",
+        "2",
+        "10",
+        "8",
+        "-10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "f(-3)=9-1=8."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "TYT alıştırması: f(x)=x+5 ve f(a)=12 ise a kaçtır?",
+      "options": [
+        "17",
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "a+5=12 ⇒ a=7."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "TYT alıştırması: A={1,2,3}, B={a,b} için A'dan B'ye tanımlanabilecek fonksiyon sayısı kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "9",
+        "12",
+        "8"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "|B|^|A|=2³=8."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Fonksiyonlar - Temel Kavramlar ve Çeşitleri",
+      "question": "TYT alıştırması: f(x)=3x-2 fonksiyonu için f(0) kaçtır?",
+      "options": [
+        "2",
+        "3",
+        "-2",
+        "0",
+        "1"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "f(0)=3·0-2=-2."
+    }
+  ]
+}

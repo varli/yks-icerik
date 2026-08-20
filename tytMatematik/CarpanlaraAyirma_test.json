@@ -1,0 +1,331 @@
+{
+  "id": "carpanlaraayirma",
+  "title": "Çarpanlara Ayırma",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Çarpanlara Ayırma konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Çarpanlara Ayırma",
+      "question": "x²-9 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x-3)²",
+        "(x+3)²",
+        "x(x-9)",
+        "(x-3)(x+3)",
+        "(x-9)(x+1)"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İki kare farkı: x²-3²=(x-3)(x+3)."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Çarpanlara Ayırma",
+      "question": "x²+5x ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x+5)²",
+        "x(x+5)",
+        "x(x-5)",
+        "(x+1)(x+5)",
+        "x²(1+5)"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Ortak çarpan x parantezine alınır: x(x+5)."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Çarpanlara Ayırma",
+      "question": "x²+6x+9 ifadesi hangisine eşittir?",
+      "options": [
+        "(x-3)²",
+        "(x+9)(x+1)",
+        "x(x+6)+9",
+        "(x+6)²",
+        "(x+3)²"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tam kare özdeşliği: x²+2·3x+3²=(x+3)²."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Çarpanlara Ayırma",
+      "question": "4x²-25 ifadesinin çarpanlarından biri hangisidir?",
+      "options": [
+        "2x-25",
+        "x+25",
+        "2x-5",
+        "4x-5",
+        "x-5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "4x²-25=(2x-5)(2x+5)."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Çarpanlara Ayırma",
+      "question": "x²-7x+12 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x-3)(x-4)",
+        "(x+3)(x+4)",
+        "(x-2)(x-6)",
+        "(x-1)(x-12)",
+        "(x+3)(x-4)"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Çarpımları 12, toplamları -7 olan sayılar -3 ve -4'tür."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Çarpanlara Ayırma",
+      "question": "Konu tekrarı: x²-9 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x+3)²",
+        "x(x-9)",
+        "(x-3)(x+3)",
+        "(x-9)(x+1)",
+        "(x-3)²"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İki kare farkı: x²-3²=(x-3)(x+3)."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Konu tekrarı: x²+5x ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "x(x+5)",
+        "x(x-5)",
+        "(x+1)(x+5)",
+        "x²(1+5)",
+        "(x+5)²"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Ortak çarpan x parantezine alınır: x(x+5)."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Konu tekrarı: x²+6x+9 ifadesi hangisine eşittir?",
+      "options": [
+        "(x+9)(x+1)",
+        "x(x+6)+9",
+        "(x+6)²",
+        "(x+3)²",
+        "(x-3)²"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tam kare özdeşliği: x²+2·3x+3²=(x+3)²."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Konu tekrarı: 4x²-25 ifadesinin çarpanlarından biri hangisidir?",
+      "options": [
+        "x+25",
+        "2x-5",
+        "4x-5",
+        "x-5",
+        "2x-25"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "4x²-25=(2x-5)(2x+5)."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Konu tekrarı: x²-7x+12 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x+3)(x+4)",
+        "(x-2)(x-6)",
+        "(x-1)(x-12)",
+        "(x+3)(x-4)",
+        "(x-3)(x-4)"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çarpımları 12, toplamları -7 olan sayılar -3 ve -4'tür."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Hızlı kontrol: x²-9 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "x(x-9)",
+        "(x-3)(x+3)",
+        "(x-9)(x+1)",
+        "(x-3)²",
+        "(x+3)²"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İki kare farkı: x²-3²=(x-3)(x+3)."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Hızlı kontrol: x²+5x ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "x(x-5)",
+        "(x+1)(x+5)",
+        "x²(1+5)",
+        "(x+5)²",
+        "x(x+5)"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Ortak çarpan x parantezine alınır: x(x+5)."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Hızlı kontrol: x²+6x+9 ifadesi hangisine eşittir?",
+      "options": [
+        "x(x+6)+9",
+        "(x+6)²",
+        "(x+3)²",
+        "(x-3)²",
+        "(x+9)(x+1)"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tam kare özdeşliği: x²+2·3x+3²=(x+3)²."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Çarpanlara Ayırma",
+      "question": "Hızlı kontrol: 4x²-25 ifadesinin çarpanlarından biri hangisidir?",
+      "options": [
+        "2x-5",
+        "4x-5",
+        "x-5",
+        "2x-25",
+        "x+25"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "4x²-25=(2x-5)(2x+5)."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Çarpanlara Ayırma",
+      "question": "Hızlı kontrol: x²-7x+12 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x-2)(x-6)",
+        "(x-1)(x-12)",
+        "(x+3)(x-4)",
+        "(x-3)(x-4)",
+        "(x+3)(x+4)"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Çarpımları 12, toplamları -7 olan sayılar -3 ve -4'tür."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Çarpanlara Ayırma",
+      "question": "TYT alıştırması: x²-9 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x-3)(x+3)",
+        "(x-9)(x+1)",
+        "(x-3)²",
+        "(x+3)²",
+        "x(x-9)"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İki kare farkı: x²-3²=(x-3)(x+3)."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Çarpanlara Ayırma",
+      "question": "TYT alıştırması: x²+5x ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x+1)(x+5)",
+        "x²(1+5)",
+        "(x+5)²",
+        "x(x+5)",
+        "x(x-5)"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Ortak çarpan x parantezine alınır: x(x+5)."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Çarpanlara Ayırma",
+      "question": "TYT alıştırması: x²+6x+9 ifadesi hangisine eşittir?",
+      "options": [
+        "(x+6)²",
+        "(x+3)²",
+        "(x-3)²",
+        "(x+9)(x+1)",
+        "x(x+6)+9"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tam kare özdeşliği: x²+2·3x+3²=(x+3)²."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Çarpanlara Ayırma",
+      "question": "TYT alıştırması: 4x²-25 ifadesinin çarpanlarından biri hangisidir?",
+      "options": [
+        "4x-5",
+        "x-5",
+        "2x-25",
+        "x+25",
+        "2x-5"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "4x²-25=(2x-5)(2x+5)."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Çarpanlara Ayırma",
+      "question": "TYT alıştırması: x²-7x+12 ifadesinin çarpanlara ayrılmış hâli nedir?",
+      "options": [
+        "(x-1)(x-12)",
+        "(x+3)(x-4)",
+        "(x-3)(x-4)",
+        "(x+3)(x+4)",
+        "(x-2)(x-6)"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Çarpımları 12, toplamları -7 olan sayılar -3 ve -4'tür."
+    }
+  ]
+}

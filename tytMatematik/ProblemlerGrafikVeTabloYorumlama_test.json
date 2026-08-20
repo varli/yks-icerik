@@ -1,0 +1,331 @@
+{
+  "id": "problemlergrafikvetabloyorumlama",
+  "title": "Problemler - Grafik ve Tablo Yorumlama",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Problemler - Grafik ve Tablo Yorumlama konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Bir tabloda pazartesi 20, salı 30 ürün satılmıştır. İki günde toplam kaç ürün satılmıştır?",
+      "options": [
+        "25",
+        "40",
+        "60",
+        "50",
+        "10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "20+30=50."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Bir grafikte A=40, B=25 ise A, B'den kaç fazladır?",
+      "options": [
+        "65",
+        "15",
+        "10",
+        "20",
+        "25"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "40-25=15."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Ocak 100, şubat 120 satış varsa artış yüzdesi kaçtır?",
+      "options": [
+        "%10",
+        "%12",
+        "%25",
+        "%120",
+        "%20"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Artış 20, başlangıç 100: %20."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Bir tabloda dört günün değerleri 10,20,30,40 ise günlük ortalama kaçtır?",
+      "options": [
+        "40",
+        "100",
+        "25",
+        "20",
+        "30"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Toplam 100/4=25."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "A kategorisi 60, toplam 200 ise A'nın toplam içindeki yüzdesi kaçtır?",
+      "options": [
+        "%30",
+        "%20",
+        "%25",
+        "%40",
+        "%60"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "60/200·100=%30."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Konu tekrarı: Bir tabloda pazartesi 20, salı 30 ürün satılmıştır. İki günde toplam kaç ürün satılmıştır?",
+      "options": [
+        "40",
+        "60",
+        "50",
+        "10",
+        "25"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "20+30=50."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Konu tekrarı: Bir grafikte A=40, B=25 ise A, B'den kaç fazladır?",
+      "options": [
+        "15",
+        "10",
+        "20",
+        "25",
+        "65"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "40-25=15."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Konu tekrarı: Ocak 100, şubat 120 satış varsa artış yüzdesi kaçtır?",
+      "options": [
+        "%12",
+        "%25",
+        "%120",
+        "%20",
+        "%10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Artış 20, başlangıç 100: %20."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Konu tekrarı: Bir tabloda dört günün değerleri 10,20,30,40 ise günlük ortalama kaçtır?",
+      "options": [
+        "100",
+        "25",
+        "20",
+        "30",
+        "40"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Toplam 100/4=25."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Konu tekrarı: A kategorisi 60, toplam 200 ise A'nın toplam içindeki yüzdesi kaçtır?",
+      "options": [
+        "%20",
+        "%25",
+        "%40",
+        "%60",
+        "%30"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "60/200·100=%30."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Hızlı kontrol: Bir tabloda pazartesi 20, salı 30 ürün satılmıştır. İki günde toplam kaç ürün satılmıştır?",
+      "options": [
+        "60",
+        "50",
+        "10",
+        "25",
+        "40"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "20+30=50."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Hızlı kontrol: Bir grafikte A=40, B=25 ise A, B'den kaç fazladır?",
+      "options": [
+        "10",
+        "20",
+        "25",
+        "65",
+        "15"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "40-25=15."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Hızlı kontrol: Ocak 100, şubat 120 satış varsa artış yüzdesi kaçtır?",
+      "options": [
+        "%25",
+        "%120",
+        "%20",
+        "%10",
+        "%12"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Artış 20, başlangıç 100: %20."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Hızlı kontrol: Bir tabloda dört günün değerleri 10,20,30,40 ise günlük ortalama kaçtır?",
+      "options": [
+        "25",
+        "20",
+        "30",
+        "40",
+        "100"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Toplam 100/4=25."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "Hızlı kontrol: A kategorisi 60, toplam 200 ise A'nın toplam içindeki yüzdesi kaçtır?",
+      "options": [
+        "%25",
+        "%40",
+        "%60",
+        "%30",
+        "%20"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "60/200·100=%30."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "TYT alıştırması: Bir tabloda pazartesi 20, salı 30 ürün satılmıştır. İki günde toplam kaç ürün satılmıştır?",
+      "options": [
+        "50",
+        "10",
+        "25",
+        "40",
+        "60"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "20+30=50."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "TYT alıştırması: Bir grafikte A=40, B=25 ise A, B'den kaç fazladır?",
+      "options": [
+        "20",
+        "25",
+        "65",
+        "15",
+        "10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "40-25=15."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "TYT alıştırması: Ocak 100, şubat 120 satış varsa artış yüzdesi kaçtır?",
+      "options": [
+        "%120",
+        "%20",
+        "%10",
+        "%12",
+        "%25"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Artış 20, başlangıç 100: %20."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "TYT alıştırması: Bir tabloda dört günün değerleri 10,20,30,40 ise günlük ortalama kaçtır?",
+      "options": [
+        "20",
+        "30",
+        "40",
+        "100",
+        "25"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Toplam 100/4=25."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Problemler - Grafik ve Tablo Yorumlama",
+      "question": "TYT alıştırması: A kategorisi 60, toplam 200 ise A'nın toplam içindeki yüzdesi kaçtır?",
+      "options": [
+        "%40",
+        "%60",
+        "%30",
+        "%20",
+        "%25"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "60/200·100=%30."
+    }
+  ]
+}

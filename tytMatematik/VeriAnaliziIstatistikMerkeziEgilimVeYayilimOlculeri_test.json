@@ -1,0 +1,331 @@
+{
+  "id": "verianaliziistatistikmerkeziegilimveyayilimolculeri",
+  "title": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "2,4,6,8 veri grubunun aritmetik ortalaması kaçtır?",
+      "options": [
+        "6",
+        "7",
+        "20",
+        "5",
+        "4"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Toplam 20, veri sayısı 4: ortalama 5."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "1,3,3,5,8 veri grubunun modu kaçtır?",
+      "options": [
+        "8",
+        "3",
+        "1",
+        "4",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "En sık tekrar eden değer 3'tür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "2,4,7,9,10 veri grubunun medyanı kaçtır?",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "9",
+        "7"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sıralı 5 verinin ortasındaki değer 7'dir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "3,5,8,12 veri grubunun açıklığı kaçtır?",
+      "options": [
+        "10",
+        "12",
+        "9",
+        "7",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Açıklık=en büyük-en küçük=12-3=9."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "4,6,8 veri grubuna 10 eklenirse yeni ortalama kaç olur?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9",
+        "10"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Yeni toplam 28, veri sayısı 4: ortalama 7."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Konu tekrarı: 2,4,6,8 veri grubunun aritmetik ortalaması kaçtır?",
+      "options": [
+        "7",
+        "20",
+        "5",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Toplam 20, veri sayısı 4: ortalama 5."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Konu tekrarı: 1,3,3,5,8 veri grubunun modu kaçtır?",
+      "options": [
+        "3",
+        "1",
+        "4",
+        "5",
+        "8"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "En sık tekrar eden değer 3'tür."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Konu tekrarı: 2,4,7,9,10 veri grubunun medyanı kaçtır?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "7",
+        "4"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sıralı 5 verinin ortasındaki değer 7'dir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Konu tekrarı: 3,5,8,12 veri grubunun açıklığı kaçtır?",
+      "options": [
+        "12",
+        "9",
+        "7",
+        "8",
+        "10"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Açıklık=en büyük-en küçük=12-3=9."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Konu tekrarı: 4,6,8 veri grubuna 10 eklenirse yeni ortalama kaç olur?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "10",
+        "7"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Yeni toplam 28, veri sayısı 4: ortalama 7."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Hızlı kontrol: 2,4,6,8 veri grubunun aritmetik ortalaması kaçtır?",
+      "options": [
+        "20",
+        "5",
+        "4",
+        "6",
+        "7"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Toplam 20, veri sayısı 4: ortalama 5."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Hızlı kontrol: 1,3,3,5,8 veri grubunun modu kaçtır?",
+      "options": [
+        "1",
+        "4",
+        "5",
+        "8",
+        "3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "En sık tekrar eden değer 3'tür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Hızlı kontrol: 2,4,7,9,10 veri grubunun medyanı kaçtır?",
+      "options": [
+        "8",
+        "9",
+        "7",
+        "4",
+        "6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Sıralı 5 verinin ortasındaki değer 7'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Hızlı kontrol: 3,5,8,12 veri grubunun açıklığı kaçtır?",
+      "options": [
+        "9",
+        "7",
+        "8",
+        "10",
+        "12"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Açıklık=en büyük-en küçük=12-3=9."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "Hızlı kontrol: 4,6,8 veri grubuna 10 eklenirse yeni ortalama kaç olur?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "7",
+        "6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Yeni toplam 28, veri sayısı 4: ortalama 7."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "TYT alıştırması: 2,4,6,8 veri grubunun aritmetik ortalaması kaçtır?",
+      "options": [
+        "5",
+        "4",
+        "6",
+        "7",
+        "20"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Toplam 20, veri sayısı 4: ortalama 5."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "TYT alıştırması: 1,3,3,5,8 veri grubunun modu kaçtır?",
+      "options": [
+        "4",
+        "5",
+        "8",
+        "3",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "En sık tekrar eden değer 3'tür."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "TYT alıştırması: 2,4,7,9,10 veri grubunun medyanı kaçtır?",
+      "options": [
+        "9",
+        "7",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sıralı 5 verinin ortasındaki değer 7'dir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "TYT alıştırması: 3,5,8,12 veri grubunun açıklığı kaçtır?",
+      "options": [
+        "7",
+        "8",
+        "10",
+        "12",
+        "9"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Açıklık=en büyük-en küçük=12-3=9."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Veri Analizi - İstatistik, Merkezî Eğilim ve Yayılım Ölçüleri",
+      "question": "TYT alıştırması: 4,6,8 veri grubuna 10 eklenirse yeni ortalama kaç olur?",
+      "options": [
+        "9",
+        "10",
+        "7",
+        "6",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Yeni toplam 28, veri sayısı 4: ortalama 7."
+    }
+  ]
+}

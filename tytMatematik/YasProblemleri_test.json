@@ -1,0 +1,331 @@
+{
+  "id": "yasproblemleri",
+  "title": "Yaş Problemleri",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Yaş Problemleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Yaş Problemleri",
+      "question": "Ayşe 12, annesi 36 yaşındadır. Kaç yıl sonra annenin yaşı Ayşe'nin yaşının 2 katı olur?",
+      "options": [
+        "8",
+        "10",
+        "18",
+        "12",
+        "6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "36+t=2(12+t) ⇒ 36+t=24+2t ⇒ t=12."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Yaş Problemleri",
+      "question": "Ali 8 yaşında, babası 38 yaşındadır. 5 yıl sonra yaşları toplamı kaç olur?",
+      "options": [
+        "66",
+        "56",
+        "46",
+        "51",
+        "61"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "5 yıl sonra 13 ve 43 yaşında olurlar; toplam 56."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Yaş Problemleri",
+      "question": "İki kardeşin yaşları toplamı 30, farkı 6'dır. Büyük kardeş kaç yaşındadır?",
+      "options": [
+        "12",
+        "15",
+        "16",
+        "20",
+        "18"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Büyük x, küçük y: x+y=30, x-y=6 ⇒ 2x=36 ⇒ x=18."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Yaş Problemleri",
+      "question": "Bir babanın yaşı oğlunun yaşının 4 katıdır. Yaşları toplamı 50 ise oğul kaç yaşındadır?",
+      "options": [
+        "15",
+        "20",
+        "10",
+        "8",
+        "12"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Oğul x, baba 4x; 5x=50 ⇒ x=10."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Yaş Problemleri",
+      "question": "Zeynep'in 4 yıl önceki yaşı 11 ise 7 yıl sonraki yaşı kaçtır?",
+      "options": [
+        "22",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Şimdiki yaşı 15'tir; 7 yıl sonra 22 olur."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Yaş Problemleri",
+      "question": "Konu tekrarı: Ayşe 12, annesi 36 yaşındadır. Kaç yıl sonra annenin yaşı Ayşe'nin yaşının 2 katı olur?",
+      "options": [
+        "10",
+        "18",
+        "12",
+        "6",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "36+t=2(12+t) ⇒ 36+t=24+2t ⇒ t=12."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Konu tekrarı: Ali 8 yaşında, babası 38 yaşındadır. 5 yıl sonra yaşları toplamı kaç olur?",
+      "options": [
+        "56",
+        "46",
+        "51",
+        "61",
+        "66"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "5 yıl sonra 13 ve 43 yaşında olurlar; toplam 56."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Konu tekrarı: İki kardeşin yaşları toplamı 30, farkı 6'dır. Büyük kardeş kaç yaşındadır?",
+      "options": [
+        "15",
+        "16",
+        "20",
+        "18",
+        "12"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Büyük x, küçük y: x+y=30, x-y=6 ⇒ 2x=36 ⇒ x=18."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Konu tekrarı: Bir babanın yaşı oğlunun yaşının 4 katıdır. Yaşları toplamı 50 ise oğul kaç yaşındadır?",
+      "options": [
+        "20",
+        "10",
+        "8",
+        "12",
+        "15"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Oğul x, baba 4x; 5x=50 ⇒ x=10."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Konu tekrarı: Zeynep'in 4 yıl önceki yaşı 11 ise 7 yıl sonraki yaşı kaçtır?",
+      "options": [
+        "18",
+        "19",
+        "20",
+        "21",
+        "22"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Şimdiki yaşı 15'tir; 7 yıl sonra 22 olur."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Hızlı kontrol: Ayşe 12, annesi 36 yaşındadır. Kaç yıl sonra annenin yaşı Ayşe'nin yaşının 2 katı olur?",
+      "options": [
+        "18",
+        "12",
+        "6",
+        "8",
+        "10"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "36+t=2(12+t) ⇒ 36+t=24+2t ⇒ t=12."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Hızlı kontrol: Ali 8 yaşında, babası 38 yaşındadır. 5 yıl sonra yaşları toplamı kaç olur?",
+      "options": [
+        "46",
+        "51",
+        "61",
+        "66",
+        "56"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "5 yıl sonra 13 ve 43 yaşında olurlar; toplam 56."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Hızlı kontrol: İki kardeşin yaşları toplamı 30, farkı 6'dır. Büyük kardeş kaç yaşındadır?",
+      "options": [
+        "16",
+        "20",
+        "18",
+        "12",
+        "15"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Büyük x, küçük y: x+y=30, x-y=6 ⇒ 2x=36 ⇒ x=18."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Yaş Problemleri",
+      "question": "Hızlı kontrol: Bir babanın yaşı oğlunun yaşının 4 katıdır. Yaşları toplamı 50 ise oğul kaç yaşındadır?",
+      "options": [
+        "10",
+        "8",
+        "12",
+        "15",
+        "20"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Oğul x, baba 4x; 5x=50 ⇒ x=10."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Yaş Problemleri",
+      "question": "Hızlı kontrol: Zeynep'in 4 yıl önceki yaşı 11 ise 7 yıl sonraki yaşı kaçtır?",
+      "options": [
+        "19",
+        "20",
+        "21",
+        "22",
+        "18"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Şimdiki yaşı 15'tir; 7 yıl sonra 22 olur."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Yaş Problemleri",
+      "question": "TYT alıştırması: Ayşe 12, annesi 36 yaşındadır. Kaç yıl sonra annenin yaşı Ayşe'nin yaşının 2 katı olur?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "10",
+        "18"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "36+t=2(12+t) ⇒ 36+t=24+2t ⇒ t=12."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Yaş Problemleri",
+      "question": "TYT alıştırması: Ali 8 yaşında, babası 38 yaşındadır. 5 yıl sonra yaşları toplamı kaç olur?",
+      "options": [
+        "51",
+        "61",
+        "66",
+        "56",
+        "46"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "5 yıl sonra 13 ve 43 yaşında olurlar; toplam 56."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Yaş Problemleri",
+      "question": "TYT alıştırması: İki kardeşin yaşları toplamı 30, farkı 6'dır. Büyük kardeş kaç yaşındadır?",
+      "options": [
+        "20",
+        "18",
+        "12",
+        "15",
+        "16"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Büyük x, küçük y: x+y=30, x-y=6 ⇒ 2x=36 ⇒ x=18."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Yaş Problemleri",
+      "question": "TYT alıştırması: Bir babanın yaşı oğlunun yaşının 4 katıdır. Yaşları toplamı 50 ise oğul kaç yaşındadır?",
+      "options": [
+        "8",
+        "12",
+        "15",
+        "20",
+        "10"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Oğul x, baba 4x; 5x=50 ⇒ x=10."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Yaş Problemleri",
+      "question": "TYT alıştırması: Zeynep'in 4 yıl önceki yaşı 11 ise 7 yıl sonraki yaşı kaçtır?",
+      "options": [
+        "20",
+        "21",
+        "22",
+        "18",
+        "19"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Şimdiki yaşı 15'tir; 7 yıl sonra 22 olur."
+    }
+  ]
+}

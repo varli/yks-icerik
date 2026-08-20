@@ -1,0 +1,331 @@
+{
+  "id": "yuzdefaizkarzararproblemleri",
+  "title": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Yüzde, Faiz, Kâr-Zarar Problemleri konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "200 TL'nin %15'i kaç TL'dir?",
+      "options": [
+        "20",
+        "25",
+        "40",
+        "30",
+        "15"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "200·15/100=30."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "80 TL'lik ürün %25 zamlanırsa yeni fiyatı kaç TL olur?",
+      "options": [
+        "120",
+        "100",
+        "90",
+        "95",
+        "105"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "80'in %25'i 20'dir; yeni fiyat 100 TL."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "120 TL'ye alınan ürün 150 TL'ye satılırsa kâr yüzdesi kaçtır?",
+      "options": [
+        "%20",
+        "%30",
+        "%35",
+        "%40",
+        "%25"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Kâr 30 TL; 30/120·100=%25."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "500 TL %10 indirimle kaç TL olur?",
+      "options": [
+        "475",
+        "490",
+        "450",
+        "400",
+        "425"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İndirim 50 TL; fiyat 450 TL."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "1000 TL anapara yıllık basit %20 faizle 1 yılda kaç TL faiz getirir?",
+      "options": [
+        "200",
+        "100",
+        "150",
+        "250",
+        "1200"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "1000·20/100=200 TL."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Konu tekrarı: 200 TL'nin %15'i kaç TL'dir?",
+      "options": [
+        "25",
+        "40",
+        "30",
+        "15",
+        "20"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "200·15/100=30."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Konu tekrarı: 80 TL'lik ürün %25 zamlanırsa yeni fiyatı kaç TL olur?",
+      "options": [
+        "100",
+        "90",
+        "95",
+        "105",
+        "120"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "80'in %25'i 20'dir; yeni fiyat 100 TL."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Konu tekrarı: 120 TL'ye alınan ürün 150 TL'ye satılırsa kâr yüzdesi kaçtır?",
+      "options": [
+        "%30",
+        "%35",
+        "%40",
+        "%25",
+        "%20"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kâr 30 TL; 30/120·100=%25."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Konu tekrarı: 500 TL %10 indirimle kaç TL olur?",
+      "options": [
+        "490",
+        "450",
+        "400",
+        "425",
+        "475"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İndirim 50 TL; fiyat 450 TL."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Konu tekrarı: 1000 TL anapara yıllık basit %20 faizle 1 yılda kaç TL faiz getirir?",
+      "options": [
+        "100",
+        "150",
+        "250",
+        "1200",
+        "200"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "1000·20/100=200 TL."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Hızlı kontrol: 200 TL'nin %15'i kaç TL'dir?",
+      "options": [
+        "40",
+        "30",
+        "15",
+        "20",
+        "25"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "200·15/100=30."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Hızlı kontrol: 80 TL'lik ürün %25 zamlanırsa yeni fiyatı kaç TL olur?",
+      "options": [
+        "90",
+        "95",
+        "105",
+        "120",
+        "100"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "80'in %25'i 20'dir; yeni fiyat 100 TL."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Hızlı kontrol: 120 TL'ye alınan ürün 150 TL'ye satılırsa kâr yüzdesi kaçtır?",
+      "options": [
+        "%35",
+        "%40",
+        "%25",
+        "%20",
+        "%30"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kâr 30 TL; 30/120·100=%25."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Hızlı kontrol: 500 TL %10 indirimle kaç TL olur?",
+      "options": [
+        "450",
+        "400",
+        "425",
+        "475",
+        "490"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İndirim 50 TL; fiyat 450 TL."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "Hızlı kontrol: 1000 TL anapara yıllık basit %20 faizle 1 yılda kaç TL faiz getirir?",
+      "options": [
+        "150",
+        "250",
+        "1200",
+        "200",
+        "100"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "1000·20/100=200 TL."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "TYT alıştırması: 200 TL'nin %15'i kaç TL'dir?",
+      "options": [
+        "30",
+        "15",
+        "20",
+        "25",
+        "40"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "200·15/100=30."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "TYT alıştırması: 80 TL'lik ürün %25 zamlanırsa yeni fiyatı kaç TL olur?",
+      "options": [
+        "95",
+        "105",
+        "120",
+        "100",
+        "90"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "80'in %25'i 20'dir; yeni fiyat 100 TL."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "TYT alıştırması: 120 TL'ye alınan ürün 150 TL'ye satılırsa kâr yüzdesi kaçtır?",
+      "options": [
+        "%40",
+        "%25",
+        "%20",
+        "%30",
+        "%35"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kâr 30 TL; 30/120·100=%25."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "TYT alıştırması: 500 TL %10 indirimle kaç TL olur?",
+      "options": [
+        "400",
+        "425",
+        "475",
+        "490",
+        "450"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İndirim 50 TL; fiyat 450 TL."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Yüzde, Faiz, Kâr-Zarar Problemleri",
+      "question": "TYT alıştırması: 1000 TL anapara yıllık basit %20 faizle 1 yılda kaç TL faiz getirir?",
+      "options": [
+        "250",
+        "1200",
+        "200",
+        "100",
+        "150"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "1000·20/100=200 TL."
+    }
+  ]
+}

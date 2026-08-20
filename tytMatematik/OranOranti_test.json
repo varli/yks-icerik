@@ -1,0 +1,331 @@
+{
+  "id": "oranoranti",
+  "title": "Oran Orantı",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Oran Orantı konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Oran Orantı",
+      "question": "2/3 = x/12 olduğuna göre x kaçtır?",
+      "options": [
+        "9",
+        "10",
+        "18",
+        "8",
+        "6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İçler-dışlar: 3x=24 ⇒ x=8."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Oran Orantı",
+      "question": "a:b=3:5 ve a=12 ise b kaçtır?",
+      "options": [
+        "30",
+        "20",
+        "15",
+        "18",
+        "24"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "12/b=3/5 ⇒ 3b=60 ⇒ b=20."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Oran Orantı",
+      "question": "4 işçi bir işi 6 günde yapıyorsa aynı hızla 8 işçi kaç günde yapar?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "12",
+        "3"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İşçi sayısı ile süre ters orantılıdır: 4·6=8·t ⇒ t=3."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Oran Orantı",
+      "question": "Bir haritada 2 cm gerçekte 10 km ise 7 cm kaç km'yi gösterir?",
+      "options": [
+        "28",
+        "70",
+        "35",
+        "14",
+        "20"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "2 cm→10 km ise 1 cm→5 km, 7 cm→35 km."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Oran Orantı",
+      "question": "x ve y doğru orantılıdır. x=6 iken y=15 ise x=10 iken y kaçtır?",
+      "options": [
+        "25",
+        "18",
+        "20",
+        "24",
+        "30"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "y/x sabittir: 15/6=y/10 ⇒ y=25."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Oran Orantı",
+      "question": "Konu tekrarı: 2/3 = x/12 olduğuna göre x kaçtır?",
+      "options": [
+        "10",
+        "18",
+        "8",
+        "6",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İçler-dışlar: 3x=24 ⇒ x=8."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Konu tekrarı: a:b=3:5 ve a=12 ise b kaçtır?",
+      "options": [
+        "20",
+        "15",
+        "18",
+        "24",
+        "30"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "12/b=3/5 ⇒ 3b=60 ⇒ b=20."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Konu tekrarı: 4 işçi bir işi 6 günde yapıyorsa aynı hızla 8 işçi kaç günde yapar?",
+      "options": [
+        "4",
+        "6",
+        "12",
+        "3",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İşçi sayısı ile süre ters orantılıdır: 4·6=8·t ⇒ t=3."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Konu tekrarı: Bir haritada 2 cm gerçekte 10 km ise 7 cm kaç km'yi gösterir?",
+      "options": [
+        "70",
+        "35",
+        "14",
+        "20",
+        "28"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2 cm→10 km ise 1 cm→5 km, 7 cm→35 km."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Konu tekrarı: x ve y doğru orantılıdır. x=6 iken y=15 ise x=10 iken y kaçtır?",
+      "options": [
+        "18",
+        "20",
+        "24",
+        "30",
+        "25"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "y/x sabittir: 15/6=y/10 ⇒ y=25."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Hızlı kontrol: 2/3 = x/12 olduğuna göre x kaçtır?",
+      "options": [
+        "18",
+        "8",
+        "6",
+        "9",
+        "10"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İçler-dışlar: 3x=24 ⇒ x=8."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Hızlı kontrol: a:b=3:5 ve a=12 ise b kaçtır?",
+      "options": [
+        "15",
+        "18",
+        "24",
+        "30",
+        "20"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "12/b=3/5 ⇒ 3b=60 ⇒ b=20."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Hızlı kontrol: 4 işçi bir işi 6 günde yapıyorsa aynı hızla 8 işçi kaç günde yapar?",
+      "options": [
+        "6",
+        "12",
+        "3",
+        "2",
+        "4"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "İşçi sayısı ile süre ters orantılıdır: 4·6=8·t ⇒ t=3."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Oran Orantı",
+      "question": "Hızlı kontrol: Bir haritada 2 cm gerçekte 10 km ise 7 cm kaç km'yi gösterir?",
+      "options": [
+        "35",
+        "14",
+        "20",
+        "28",
+        "70"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "2 cm→10 km ise 1 cm→5 km, 7 cm→35 km."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Oran Orantı",
+      "question": "Hızlı kontrol: x ve y doğru orantılıdır. x=6 iken y=15 ise x=10 iken y kaçtır?",
+      "options": [
+        "20",
+        "24",
+        "30",
+        "25",
+        "18"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "y/x sabittir: 15/6=y/10 ⇒ y=25."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Oran Orantı",
+      "question": "TYT alıştırması: 2/3 = x/12 olduğuna göre x kaçtır?",
+      "options": [
+        "8",
+        "6",
+        "9",
+        "10",
+        "18"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İçler-dışlar: 3x=24 ⇒ x=8."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Oran Orantı",
+      "question": "TYT alıştırması: a:b=3:5 ve a=12 ise b kaçtır?",
+      "options": [
+        "18",
+        "24",
+        "30",
+        "20",
+        "15"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "12/b=3/5 ⇒ 3b=60 ⇒ b=20."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Oran Orantı",
+      "question": "TYT alıştırması: 4 işçi bir işi 6 günde yapıyorsa aynı hızla 8 işçi kaç günde yapar?",
+      "options": [
+        "12",
+        "3",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İşçi sayısı ile süre ters orantılıdır: 4·6=8·t ⇒ t=3."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Oran Orantı",
+      "question": "TYT alıştırması: Bir haritada 2 cm gerçekte 10 km ise 7 cm kaç km'yi gösterir?",
+      "options": [
+        "14",
+        "20",
+        "28",
+        "70",
+        "35"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "2 cm→10 km ise 1 cm→5 km, 7 cm→35 km."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Oran Orantı",
+      "question": "TYT alıştırması: x ve y doğru orantılıdır. x=6 iken y=15 ise x=10 iken y kaçtır?",
+      "options": [
+        "24",
+        "30",
+        "25",
+        "18",
+        "20"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "y/x sabittir: 15/6=y/10 ⇒ y=25."
+    }
+  ]
+}

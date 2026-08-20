@@ -1,0 +1,331 @@
+{
+  "id": "kumelervekartezyencarpim",
+  "title": "Kümeler ve Kartezyen Çarpım",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Kümeler ve Kartezyen Çarpım konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "A={1,2,3} kümesinin eleman sayısı kaçtır?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "3",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Kümede üç farklı eleman vardır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "A={1,2,3}, B={3,4} ise A∩B nedir?",
+      "options": [
+        "∅",
+        "{3}",
+        "{1,2}",
+        "{3,4}",
+        "{1,2,4}"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İki kümenin ortak elemanı yalnızca 3'tür."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "A={1,2}, B={a,b,c} ise A×B'nin eleman sayısı kaçtır?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "8",
+        "6"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "|A×B|=|A|·|B|=2·3=6."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "A={1,2,3}, B={3,4} ise A∪B kaç elemanlıdır?",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Birleşim {1,2,3,4} olup 4 elemanlıdır."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "5 elemanlı bir kümenin alt küme sayısı kaçtır?",
+      "options": [
+        "32",
+        "10",
+        "16",
+        "25",
+        "64"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "n elemanlı kümenin alt küme sayısı 2^n'dir: 2⁵=32."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Konu tekrarı: A={1,2,3} kümesinin eleman sayısı kaçtır?",
+      "options": [
+        "4",
+        "6",
+        "3",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Kümede üç farklı eleman vardır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Konu tekrarı: A={1,2,3}, B={3,4} ise A∩B nedir?",
+      "options": [
+        "{3}",
+        "{1,2}",
+        "{3,4}",
+        "{1,2,4}",
+        "∅"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İki kümenin ortak elemanı yalnızca 3'tür."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Konu tekrarı: A={1,2}, B={a,b,c} ise A×B'nin eleman sayısı kaçtır?",
+      "options": [
+        "3",
+        "5",
+        "8",
+        "6",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "|A×B|=|A|·|B|=2·3=6."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Konu tekrarı: A={1,2,3}, B={3,4} ise A∪B kaç elemanlıdır?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Birleşim {1,2,3,4} olup 4 elemanlıdır."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Konu tekrarı: 5 elemanlı bir kümenin alt küme sayısı kaçtır?",
+      "options": [
+        "10",
+        "16",
+        "25",
+        "64",
+        "32"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "n elemanlı kümenin alt küme sayısı 2^n'dir: 2⁵=32."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Hızlı kontrol: A={1,2,3} kümesinin eleman sayısı kaçtır?",
+      "options": [
+        "6",
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Kümede üç farklı eleman vardır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Hızlı kontrol: A={1,2,3}, B={3,4} ise A∩B nedir?",
+      "options": [
+        "{1,2}",
+        "{3,4}",
+        "{1,2,4}",
+        "∅",
+        "{3}"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İki kümenin ortak elemanı yalnızca 3'tür."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Hızlı kontrol: A={1,2}, B={a,b,c} ise A×B'nin eleman sayısı kaçtır?",
+      "options": [
+        "5",
+        "8",
+        "6",
+        "2",
+        "3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "|A×B|=|A|·|B|=2·3=6."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Hızlı kontrol: A={1,2,3}, B={3,4} ise A∪B kaç elemanlıdır?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Birleşim {1,2,3,4} olup 4 elemanlıdır."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "Hızlı kontrol: 5 elemanlı bir kümenin alt küme sayısı kaçtır?",
+      "options": [
+        "16",
+        "25",
+        "64",
+        "32",
+        "10"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "n elemanlı kümenin alt küme sayısı 2^n'dir: 2⁵=32."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "TYT alıştırması: A={1,2,3} kümesinin eleman sayısı kaçtır?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Kümede üç farklı eleman vardır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "TYT alıştırması: A={1,2,3}, B={3,4} ise A∩B nedir?",
+      "options": [
+        "{3,4}",
+        "{1,2,4}",
+        "∅",
+        "{3}",
+        "{1,2}"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İki kümenin ortak elemanı yalnızca 3'tür."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "TYT alıştırması: A={1,2}, B={a,b,c} ise A×B'nin eleman sayısı kaçtır?",
+      "options": [
+        "8",
+        "6",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "|A×B|=|A|·|B|=2·3=6."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "TYT alıştırması: A={1,2,3}, B={3,4} ise A∪B kaç elemanlıdır?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Birleşim {1,2,3,4} olup 4 elemanlıdır."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Kümeler ve Kartezyen Çarpım",
+      "question": "TYT alıştırması: 5 elemanlı bir kümenin alt küme sayısı kaçtır?",
+      "options": [
+        "25",
+        "64",
+        "32",
+        "10",
+        "16"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "n elemanlı kümenin alt küme sayısı 2^n'dir: 2⁵=32."
+    }
+  ]
+}

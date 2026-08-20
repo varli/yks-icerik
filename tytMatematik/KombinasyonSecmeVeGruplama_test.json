@@ -1,0 +1,331 @@
+{
+  "id": "kombinasyonsecmevegruplama",
+  "title": "Kombinasyon - Seçme ve Gruplama",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Kombinasyon - Seçme ve Gruplama konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "5 kişiden 2 kişi kaç farklı şekilde seçilir?",
+      "options": [
+        "8",
+        "15",
+        "20",
+        "10",
+        "5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "C(5,2)=10."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "C(6,1) kaçtır?",
+      "options": [
+        "36",
+        "6",
+        "1",
+        "5",
+        "10"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "6 elemandan 1 seçim 6 farklı şekilde yapılır."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "C(7,0) kaçtır?",
+      "options": [
+        "0",
+        "7",
+        "14",
+        "49",
+        "1"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Hiç eleman seçmenin tek yolu vardır: C(7,0)=1."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "8 kişiden 3 kişilik ekip kaç farklı şekilde seçilir?",
+      "options": [
+        "48",
+        "64",
+        "56",
+        "24",
+        "32"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "C(8,3)=8·7·6/(3·2·1)=56."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "C(9,2) kaçtır?",
+      "options": [
+        "36",
+        "18",
+        "27",
+        "45",
+        "72"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "C(9,2)=9·8/2=36."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Konu tekrarı: 5 kişiden 2 kişi kaç farklı şekilde seçilir?",
+      "options": [
+        "15",
+        "20",
+        "10",
+        "5",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "C(5,2)=10."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Konu tekrarı: C(6,1) kaçtır?",
+      "options": [
+        "6",
+        "1",
+        "5",
+        "10",
+        "36"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "6 elemandan 1 seçim 6 farklı şekilde yapılır."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Konu tekrarı: C(7,0) kaçtır?",
+      "options": [
+        "7",
+        "14",
+        "49",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Hiç eleman seçmenin tek yolu vardır: C(7,0)=1."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Konu tekrarı: 8 kişiden 3 kişilik ekip kaç farklı şekilde seçilir?",
+      "options": [
+        "64",
+        "56",
+        "24",
+        "32",
+        "48"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "C(8,3)=8·7·6/(3·2·1)=56."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Konu tekrarı: C(9,2) kaçtır?",
+      "options": [
+        "18",
+        "27",
+        "45",
+        "72",
+        "36"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "C(9,2)=9·8/2=36."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Hızlı kontrol: 5 kişiden 2 kişi kaç farklı şekilde seçilir?",
+      "options": [
+        "20",
+        "10",
+        "5",
+        "8",
+        "15"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "C(5,2)=10."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Hızlı kontrol: C(6,1) kaçtır?",
+      "options": [
+        "1",
+        "5",
+        "10",
+        "36",
+        "6"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "6 elemandan 1 seçim 6 farklı şekilde yapılır."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Hızlı kontrol: C(7,0) kaçtır?",
+      "options": [
+        "14",
+        "49",
+        "1",
+        "0",
+        "7"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Hiç eleman seçmenin tek yolu vardır: C(7,0)=1."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Hızlı kontrol: 8 kişiden 3 kişilik ekip kaç farklı şekilde seçilir?",
+      "options": [
+        "56",
+        "24",
+        "32",
+        "48",
+        "64"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "C(8,3)=8·7·6/(3·2·1)=56."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "Hızlı kontrol: C(9,2) kaçtır?",
+      "options": [
+        "27",
+        "45",
+        "72",
+        "36",
+        "18"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "C(9,2)=9·8/2=36."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "TYT alıştırması: 5 kişiden 2 kişi kaç farklı şekilde seçilir?",
+      "options": [
+        "10",
+        "5",
+        "8",
+        "15",
+        "20"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "C(5,2)=10."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "TYT alıştırması: C(6,1) kaçtır?",
+      "options": [
+        "5",
+        "10",
+        "36",
+        "6",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "6 elemandan 1 seçim 6 farklı şekilde yapılır."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "TYT alıştırması: C(7,0) kaçtır?",
+      "options": [
+        "49",
+        "1",
+        "0",
+        "7",
+        "14"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Hiç eleman seçmenin tek yolu vardır: C(7,0)=1."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "TYT alıştırması: 8 kişiden 3 kişilik ekip kaç farklı şekilde seçilir?",
+      "options": [
+        "24",
+        "32",
+        "48",
+        "64",
+        "56"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "C(8,3)=8·7·6/(3·2·1)=56."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Kombinasyon - Seçme ve Gruplama",
+      "question": "TYT alıştırması: C(9,2) kaçtır?",
+      "options": [
+        "45",
+        "72",
+        "36",
+        "18",
+        "27"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "C(9,2)=9·8/2=36."
+    }
+  ]
+}

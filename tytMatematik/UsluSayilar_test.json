@@ -1,0 +1,331 @@
+{
+  "id": "uslusayilar",
+  "title": "Üslü Sayılar",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Üslü Sayılar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Üslü Sayılar",
+      "question": "2³ · 2⁴ işleminin sonucu hangi üslü ifadeye eşittir?",
+      "options": [
+        "4⁷",
+        "2¹",
+        "4³",
+        "2⁷",
+        "2¹²"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tabanlar aynıysa çarpımda üsler toplanır: 2^(3+4)=2⁷."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Üslü Sayılar",
+      "question": "(3²)³ kaçtır?",
+      "options": [
+        "2187",
+        "729",
+        "81",
+        "243",
+        "512"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "(3²)³=3⁶=729."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Üslü Sayılar",
+      "question": "5⁰ kaçtır?",
+      "options": [
+        "0",
+        "5",
+        "10",
+        "25",
+        "1"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "0'dan farklı her sayının sıfırıncı kuvveti 1'dir."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Üslü Sayılar",
+      "question": "2⁻³ aşağıdakilerden hangisidir?",
+      "options": [
+        "1/6",
+        "8",
+        "1/8",
+        "-8",
+        "-6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "2⁻³=1/2³=1/8."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Üslü Sayılar",
+      "question": "4³ / 4² kaçtır?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "8",
+        "16"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Aynı tabanda bölmede üsler çıkarılır: 4^(3-2)=4."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Üslü Sayılar",
+      "question": "Konu tekrarı: 2³ · 2⁴ işleminin sonucu hangi üslü ifadeye eşittir?",
+      "options": [
+        "2¹",
+        "4³",
+        "2⁷",
+        "2¹²",
+        "4⁷"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tabanlar aynıysa çarpımda üsler toplanır: 2^(3+4)=2⁷."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Konu tekrarı: (3²)³ kaçtır?",
+      "options": [
+        "729",
+        "81",
+        "243",
+        "512",
+        "2187"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "(3²)³=3⁶=729."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Konu tekrarı: 5⁰ kaçtır?",
+      "options": [
+        "5",
+        "10",
+        "25",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "0'dan farklı her sayının sıfırıncı kuvveti 1'dir."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Konu tekrarı: 2⁻³ aşağıdakilerden hangisidir?",
+      "options": [
+        "8",
+        "1/8",
+        "-8",
+        "-6",
+        "1/6"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2⁻³=1/2³=1/8."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Konu tekrarı: 4³ / 4² kaçtır?",
+      "options": [
+        "1",
+        "2",
+        "8",
+        "16",
+        "4"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Aynı tabanda bölmede üsler çıkarılır: 4^(3-2)=4."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Hızlı kontrol: 2³ · 2⁴ işleminin sonucu hangi üslü ifadeye eşittir?",
+      "options": [
+        "4³",
+        "2⁷",
+        "2¹²",
+        "4⁷",
+        "2¹"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tabanlar aynıysa çarpımda üsler toplanır: 2^(3+4)=2⁷."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Hızlı kontrol: (3²)³ kaçtır?",
+      "options": [
+        "81",
+        "243",
+        "512",
+        "2187",
+        "729"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "(3²)³=3⁶=729."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Hızlı kontrol: 5⁰ kaçtır?",
+      "options": [
+        "10",
+        "25",
+        "1",
+        "0",
+        "5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "0'dan farklı her sayının sıfırıncı kuvveti 1'dir."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Üslü Sayılar",
+      "question": "Hızlı kontrol: 2⁻³ aşağıdakilerden hangisidir?",
+      "options": [
+        "1/8",
+        "-8",
+        "-6",
+        "1/6",
+        "8"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "2⁻³=1/2³=1/8."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Üslü Sayılar",
+      "question": "Hızlı kontrol: 4³ / 4² kaçtır?",
+      "options": [
+        "2",
+        "8",
+        "16",
+        "4",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Aynı tabanda bölmede üsler çıkarılır: 4^(3-2)=4."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Üslü Sayılar",
+      "question": "TYT alıştırması: 2³ · 2⁴ işleminin sonucu hangi üslü ifadeye eşittir?",
+      "options": [
+        "2⁷",
+        "2¹²",
+        "4⁷",
+        "2¹",
+        "4³"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Tabanlar aynıysa çarpımda üsler toplanır: 2^(3+4)=2⁷."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Üslü Sayılar",
+      "question": "TYT alıştırması: (3²)³ kaçtır?",
+      "options": [
+        "243",
+        "512",
+        "2187",
+        "729",
+        "81"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "(3²)³=3⁶=729."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Üslü Sayılar",
+      "question": "TYT alıştırması: 5⁰ kaçtır?",
+      "options": [
+        "25",
+        "1",
+        "0",
+        "5",
+        "10"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "0'dan farklı her sayının sıfırıncı kuvveti 1'dir."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Üslü Sayılar",
+      "question": "TYT alıştırması: 2⁻³ aşağıdakilerden hangisidir?",
+      "options": [
+        "-8",
+        "-6",
+        "1/6",
+        "8",
+        "1/8"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "2⁻³=1/2³=1/8."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Üslü Sayılar",
+      "question": "TYT alıştırması: 4³ / 4² kaçtır?",
+      "options": [
+        "8",
+        "16",
+        "4",
+        "1",
+        "2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Aynı tabanda bölmede üsler çıkarılır: 4^(3-2)=4."
+    }
+  ]
+}

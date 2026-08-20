@@ -1,0 +1,331 @@
+{
+  "id": "fonksiyonlardaislemlerbileskevetersfonksiyon",
+  "title": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "f(x)=x+2, g(x)=3x ise (f+g)(x) nedir?",
+      "options": [
+        "4x",
+        "3x+6",
+        "x+6",
+        "4x+2",
+        "3x+2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "(f+g)(x)=x+2+3x=4x+2."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "f(x)=x+1, g(x)=2x ise (f∘g)(3) kaçtır?",
+      "options": [
+        "12",
+        "7",
+        "6",
+        "8",
+        "9"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "g(3)=6, f(6)=7."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "f(x)=2x+5 ise f⁻¹(x) nedir?",
+      "options": [
+        "(x+5)/2",
+        "2x-5",
+        "1/(2x+5)",
+        "x/2+5",
+        "(x-5)/2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "y=2x+5 ⇒ x=(y-5)/2."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "f(x)=x-3, g(x)=x² ise (g∘f)(x) nedir?",
+      "options": [
+        "(x+3)²",
+        "2x-3",
+        "(x-3)²",
+        "x²-3",
+        "x²-9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Önce f uygulanır: g(f(x))=(x-3)²."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "f(x)=3x ve g(x)=x+4 ise (f-g)(2) kaçtır?",
+      "options": [
+        "0",
+        "-2",
+        "2",
+        "4",
+        "6"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "f(2)=6, g(2)=6; fark 0."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Konu tekrarı: f(x)=x+2, g(x)=3x ise (f+g)(x) nedir?",
+      "options": [
+        "3x+6",
+        "x+6",
+        "4x+2",
+        "3x+2",
+        "4x"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "(f+g)(x)=x+2+3x=4x+2."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Konu tekrarı: f(x)=x+1, g(x)=2x ise (f∘g)(3) kaçtır?",
+      "options": [
+        "7",
+        "6",
+        "8",
+        "9",
+        "12"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "g(3)=6, f(6)=7."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Konu tekrarı: f(x)=2x+5 ise f⁻¹(x) nedir?",
+      "options": [
+        "2x-5",
+        "1/(2x+5)",
+        "x/2+5",
+        "(x-5)/2",
+        "(x+5)/2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "y=2x+5 ⇒ x=(y-5)/2."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Konu tekrarı: f(x)=x-3, g(x)=x² ise (g∘f)(x) nedir?",
+      "options": [
+        "2x-3",
+        "(x-3)²",
+        "x²-3",
+        "x²-9",
+        "(x+3)²"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Önce f uygulanır: g(f(x))=(x-3)²."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Konu tekrarı: f(x)=3x ve g(x)=x+4 ise (f-g)(2) kaçtır?",
+      "options": [
+        "-2",
+        "2",
+        "4",
+        "6",
+        "0"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "f(2)=6, g(2)=6; fark 0."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Hızlı kontrol: f(x)=x+2, g(x)=3x ise (f+g)(x) nedir?",
+      "options": [
+        "x+6",
+        "4x+2",
+        "3x+2",
+        "4x",
+        "3x+6"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "(f+g)(x)=x+2+3x=4x+2."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Hızlı kontrol: f(x)=x+1, g(x)=2x ise (f∘g)(3) kaçtır?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "12",
+        "7"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "g(3)=6, f(6)=7."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Hızlı kontrol: f(x)=2x+5 ise f⁻¹(x) nedir?",
+      "options": [
+        "1/(2x+5)",
+        "x/2+5",
+        "(x-5)/2",
+        "(x+5)/2",
+        "2x-5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "y=2x+5 ⇒ x=(y-5)/2."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Hızlı kontrol: f(x)=x-3, g(x)=x² ise (g∘f)(x) nedir?",
+      "options": [
+        "(x-3)²",
+        "x²-3",
+        "x²-9",
+        "(x+3)²",
+        "2x-3"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Önce f uygulanır: g(f(x))=(x-3)²."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "Hızlı kontrol: f(x)=3x ve g(x)=x+4 ise (f-g)(2) kaçtır?",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "0",
+        "-2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "f(2)=6, g(2)=6; fark 0."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "TYT alıştırması: f(x)=x+2, g(x)=3x ise (f+g)(x) nedir?",
+      "options": [
+        "4x+2",
+        "3x+2",
+        "4x",
+        "3x+6",
+        "x+6"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "(f+g)(x)=x+2+3x=4x+2."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "TYT alıştırması: f(x)=x+1, g(x)=2x ise (f∘g)(3) kaçtır?",
+      "options": [
+        "8",
+        "9",
+        "12",
+        "7",
+        "6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "g(3)=6, f(6)=7."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "TYT alıştırması: f(x)=2x+5 ise f⁻¹(x) nedir?",
+      "options": [
+        "x/2+5",
+        "(x-5)/2",
+        "(x+5)/2",
+        "2x-5",
+        "1/(2x+5)"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "y=2x+5 ⇒ x=(y-5)/2."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "TYT alıştırması: f(x)=x-3, g(x)=x² ise (g∘f)(x) nedir?",
+      "options": [
+        "x²-3",
+        "x²-9",
+        "(x+3)²",
+        "2x-3",
+        "(x-3)²"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Önce f uygulanır: g(f(x))=(x-3)²."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Fonksiyonlarda İşlemler, Bileşke ve Ters Fonksiyon",
+      "question": "TYT alıştırması: f(x)=3x ve g(x)=x+4 ise (f-g)(2) kaçtır?",
+      "options": [
+        "4",
+        "6",
+        "0",
+        "-2",
+        "2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "f(2)=6, g(2)=6; fark 0."
+    }
+  ]
+}

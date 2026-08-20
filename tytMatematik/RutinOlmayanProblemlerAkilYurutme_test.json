@@ -1,0 +1,331 @@
+{
+  "id": "rutinolmayanproblemlerakilyurutme",
+  "title": "Rutin Olmayan Problemler (Akıl Yürütme)",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Rutin Olmayan Problemler (Akıl Yürütme) konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Bir odada 4 köşe vardır. Her köşede bir kedi ve her kedi diğer 3 kediyi görüyorsa odada kaç kedi vardır?",
+      "options": [
+        "8",
+        "12",
+        "16",
+        "4",
+        "3"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Her köşede bir kedi vardır; toplam 4 kedi."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Bir çiftlikte tavuk ve koyunların toplam baş sayısı 10, toplam ayak sayısı 28'dir. Kaç koyun vardır?",
+      "options": [
+        "6",
+        "4",
+        "2",
+        "3",
+        "5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "k+t=10, 4k+2t=28 ⇒ 2k=8 ⇒ k=4."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Saat 3.00'te akrep ile yelkovan arasındaki küçük açı kaç derecedir?",
+      "options": [
+        "30",
+        "60",
+        "120",
+        "180",
+        "90"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "3 ile 12 arasında 3 saat aralığı vardır: 3·30=90°."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Bir sayı 2 ile çarpılıp 6 eklenince 20 oluyor. Sayı kaçtır?",
+      "options": [
+        "8",
+        "13",
+        "7",
+        "5",
+        "6"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "2x+6=20 ⇒ x=7."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Bir kutuda kırmızı toplar mavi topların 2 katıdır. Toplam 18 top varsa kaç kırmızı top vardır?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "9",
+        "14"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Mavi x, kırmızı 2x: 3x=18 ⇒ kırmızı 12."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Konu tekrarı: Bir odada 4 köşe vardır. Her köşede bir kedi ve her kedi diğer 3 kediyi görüyorsa odada kaç kedi vardır?",
+      "options": [
+        "12",
+        "16",
+        "4",
+        "3",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Her köşede bir kedi vardır; toplam 4 kedi."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Konu tekrarı: Bir çiftlikte tavuk ve koyunların toplam baş sayısı 10, toplam ayak sayısı 28'dir. Kaç koyun vardır?",
+      "options": [
+        "4",
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "k+t=10, 4k+2t=28 ⇒ 2k=8 ⇒ k=4."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Konu tekrarı: Saat 3.00'te akrep ile yelkovan arasındaki küçük açı kaç derecedir?",
+      "options": [
+        "60",
+        "120",
+        "180",
+        "90",
+        "30"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "3 ile 12 arasında 3 saat aralığı vardır: 3·30=90°."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Konu tekrarı: Bir sayı 2 ile çarpılıp 6 eklenince 20 oluyor. Sayı kaçtır?",
+      "options": [
+        "13",
+        "7",
+        "5",
+        "6",
+        "8"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "2x+6=20 ⇒ x=7."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Konu tekrarı: Bir kutuda kırmızı toplar mavi topların 2 katıdır. Toplam 18 top varsa kaç kırmızı top vardır?",
+      "options": [
+        "6",
+        "8",
+        "9",
+        "14",
+        "12"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Mavi x, kırmızı 2x: 3x=18 ⇒ kırmızı 12."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Hızlı kontrol: Bir odada 4 köşe vardır. Her köşede bir kedi ve her kedi diğer 3 kediyi görüyorsa odada kaç kedi vardır?",
+      "options": [
+        "16",
+        "4",
+        "3",
+        "8",
+        "12"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Her köşede bir kedi vardır; toplam 4 kedi."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Hızlı kontrol: Bir çiftlikte tavuk ve koyunların toplam baş sayısı 10, toplam ayak sayısı 28'dir. Kaç koyun vardır?",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "4"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "k+t=10, 4k+2t=28 ⇒ 2k=8 ⇒ k=4."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Hızlı kontrol: Saat 3.00'te akrep ile yelkovan arasındaki küçük açı kaç derecedir?",
+      "options": [
+        "120",
+        "180",
+        "90",
+        "30",
+        "60"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "3 ile 12 arasında 3 saat aralığı vardır: 3·30=90°."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Hızlı kontrol: Bir sayı 2 ile çarpılıp 6 eklenince 20 oluyor. Sayı kaçtır?",
+      "options": [
+        "7",
+        "5",
+        "6",
+        "8",
+        "13"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "2x+6=20 ⇒ x=7."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "Hızlı kontrol: Bir kutuda kırmızı toplar mavi topların 2 katıdır. Toplam 18 top varsa kaç kırmızı top vardır?",
+      "options": [
+        "8",
+        "9",
+        "14",
+        "12",
+        "6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Mavi x, kırmızı 2x: 3x=18 ⇒ kırmızı 12."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "TYT alıştırması: Bir odada 4 köşe vardır. Her köşede bir kedi ve her kedi diğer 3 kediyi görüyorsa odada kaç kedi vardır?",
+      "options": [
+        "4",
+        "3",
+        "8",
+        "12",
+        "16"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Her köşede bir kedi vardır; toplam 4 kedi."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "TYT alıştırması: Bir çiftlikte tavuk ve koyunların toplam baş sayısı 10, toplam ayak sayısı 28'dir. Kaç koyun vardır?",
+      "options": [
+        "3",
+        "5",
+        "6",
+        "4",
+        "2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "k+t=10, 4k+2t=28 ⇒ 2k=8 ⇒ k=4."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "TYT alıştırması: Saat 3.00'te akrep ile yelkovan arasındaki küçük açı kaç derecedir?",
+      "options": [
+        "180",
+        "90",
+        "30",
+        "60",
+        "120"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "3 ile 12 arasında 3 saat aralığı vardır: 3·30=90°."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "TYT alıştırması: Bir sayı 2 ile çarpılıp 6 eklenince 20 oluyor. Sayı kaçtır?",
+      "options": [
+        "5",
+        "6",
+        "8",
+        "13",
+        "7"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "2x+6=20 ⇒ x=7."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Rutin Olmayan Problemler (Akıl Yürütme)",
+      "question": "TYT alıştırması: Bir kutuda kırmızı toplar mavi topların 2 katıdır. Toplam 18 top varsa kaç kırmızı top vardır?",
+      "options": [
+        "9",
+        "14",
+        "12",
+        "6",
+        "8"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Mavi x, kırmızı 2x: 3x=18 ⇒ kırmızı 12."
+    }
+  ]
+}

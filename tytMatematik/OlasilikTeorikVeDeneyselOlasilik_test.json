@@ -1,0 +1,331 @@
+{
+  "id": "olasilikteorikvedeneyselolasilik",
+  "title": "Olasılık - Teorik ve Deneysel Olasılık",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Olasılık - Teorik ve Deneysel Olasılık konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Adil bir zar atıldığında 6 gelme olasılığı kaçtır?",
+      "options": [
+        "1/3",
+        "1/4",
+        "1/5",
+        "1/6",
+        "1/2"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "6 eş olası sonuçtan biri 6'dır."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Bir madeni para atıldığında yazı gelme olasılığı kaçtır?",
+      "options": [
+        "1",
+        "1/2",
+        "0",
+        "1/4",
+        "1/3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "İki eş olası sonuç vardır; yazı bunlardan biridir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Bir zar atıldığında çift sayı gelme olasılığı kaçtır?",
+      "options": [
+        "1/6",
+        "1/3",
+        "2/3",
+        "5/6",
+        "1/2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çift sonuçlar 2,4,6: 3/6=1/2."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "1'den 10'a kadar numaralı kartlardan biri seçiliyor. 5'in katı gelme olasılığı kaçtır?",
+      "options": [
+        "2/5",
+        "3/5",
+        "1/5",
+        "1/10",
+        "1/2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "5 ve 10 olmak üzere 2 uygun sonuç vardır: 2/10=1/5."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Bir torbada 3 kırmızı, 2 mavi top vardır. Rastgele seçilen topun mavi olma olasılığı kaçtır?",
+      "options": [
+        "2/5",
+        "1/5",
+        "3/5",
+        "1/2",
+        "2/3"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Toplam 5 topun 2'si mavidir: 2/5."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Konu tekrarı: Adil bir zar atıldığında 6 gelme olasılığı kaçtır?",
+      "options": [
+        "1/4",
+        "1/5",
+        "1/6",
+        "1/2",
+        "1/3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "6 eş olası sonuçtan biri 6'dır."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Konu tekrarı: Bir madeni para atıldığında yazı gelme olasılığı kaçtır?",
+      "options": [
+        "1/2",
+        "0",
+        "1/4",
+        "1/3",
+        "1"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "İki eş olası sonuç vardır; yazı bunlardan biridir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Konu tekrarı: Bir zar atıldığında çift sayı gelme olasılığı kaçtır?",
+      "options": [
+        "1/3",
+        "2/3",
+        "5/6",
+        "1/2",
+        "1/6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Çift sonuçlar 2,4,6: 3/6=1/2."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Konu tekrarı: 1'den 10'a kadar numaralı kartlardan biri seçiliyor. 5'in katı gelme olasılığı kaçtır?",
+      "options": [
+        "3/5",
+        "1/5",
+        "1/10",
+        "1/2",
+        "2/5"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "5 ve 10 olmak üzere 2 uygun sonuç vardır: 2/10=1/5."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Konu tekrarı: Bir torbada 3 kırmızı, 2 mavi top vardır. Rastgele seçilen topun mavi olma olasılığı kaçtır?",
+      "options": [
+        "1/5",
+        "3/5",
+        "1/2",
+        "2/3",
+        "2/5"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Toplam 5 topun 2'si mavidir: 2/5."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Hızlı kontrol: Adil bir zar atıldığında 6 gelme olasılığı kaçtır?",
+      "options": [
+        "1/5",
+        "1/6",
+        "1/2",
+        "1/3",
+        "1/4"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "6 eş olası sonuçtan biri 6'dır."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Hızlı kontrol: Bir madeni para atıldığında yazı gelme olasılığı kaçtır?",
+      "options": [
+        "0",
+        "1/4",
+        "1/3",
+        "1",
+        "1/2"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "İki eş olası sonuç vardır; yazı bunlardan biridir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Hızlı kontrol: Bir zar atıldığında çift sayı gelme olasılığı kaçtır?",
+      "options": [
+        "2/3",
+        "5/6",
+        "1/2",
+        "1/6",
+        "1/3"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Çift sonuçlar 2,4,6: 3/6=1/2."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Hızlı kontrol: 1'den 10'a kadar numaralı kartlardan biri seçiliyor. 5'in katı gelme olasılığı kaçtır?",
+      "options": [
+        "1/5",
+        "1/10",
+        "1/2",
+        "2/5",
+        "3/5"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "5 ve 10 olmak üzere 2 uygun sonuç vardır: 2/10=1/5."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "Hızlı kontrol: Bir torbada 3 kırmızı, 2 mavi top vardır. Rastgele seçilen topun mavi olma olasılığı kaçtır?",
+      "options": [
+        "3/5",
+        "1/2",
+        "2/3",
+        "2/5",
+        "1/5"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Toplam 5 topun 2'si mavidir: 2/5."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "TYT alıştırması: Adil bir zar atıldığında 6 gelme olasılığı kaçtır?",
+      "options": [
+        "1/6",
+        "1/2",
+        "1/3",
+        "1/4",
+        "1/5"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "6 eş olası sonuçtan biri 6'dır."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "TYT alıştırması: Bir madeni para atıldığında yazı gelme olasılığı kaçtır?",
+      "options": [
+        "1/4",
+        "1/3",
+        "1",
+        "1/2",
+        "0"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "İki eş olası sonuç vardır; yazı bunlardan biridir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "TYT alıştırması: Bir zar atıldığında çift sayı gelme olasılığı kaçtır?",
+      "options": [
+        "5/6",
+        "1/2",
+        "1/6",
+        "1/3",
+        "2/3"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Çift sonuçlar 2,4,6: 3/6=1/2."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "TYT alıştırması: 1'den 10'a kadar numaralı kartlardan biri seçiliyor. 5'in katı gelme olasılığı kaçtır?",
+      "options": [
+        "1/10",
+        "1/2",
+        "2/5",
+        "3/5",
+        "1/5"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "5 ve 10 olmak üzere 2 uygun sonuç vardır: 2/10=1/5."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Olasılık - Teorik ve Deneysel Olasılık",
+      "question": "TYT alıştırması: Bir torbada 3 kırmızı, 2 mavi top vardır. Rastgele seçilen topun mavi olma olasılığı kaçtır?",
+      "options": [
+        "1/2",
+        "2/3",
+        "2/5",
+        "1/5",
+        "3/5"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Toplam 5 topun 2'si mavidir: 2/5."
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "id": "permutasyonsaymayontemlerivesiralama",
+  "title": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Permütasyon - Sayma Yöntemleri ve Sıralama konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "5 farklı kitap bir rafa kaç farklı şekilde dizilir?",
+      "options": [
+        "60",
+        "100",
+        "240",
+        "120",
+        "25"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "5!=120."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "4 kişiden başkan ve başkan yardımcısı kaç farklı şekilde seçilir?",
+      "options": [
+        "24",
+        "12",
+        "6",
+        "8",
+        "16"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Sıra önemli: P(4,2)=4·3=12."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "3 farklı harf kaç farklı şekilde sıralanır?",
+      "options": [
+        "3",
+        "4",
+        "8",
+        "9",
+        "6"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "3!=6."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "P(6,2) kaçtır?",
+      "options": [
+        "24",
+        "36",
+        "30",
+        "12",
+        "15"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "6·5=30."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "1,2,3,4 rakamları birer kez kullanılarak kaç farklı 4 basamaklı sayı yazılır?",
+      "options": [
+        "24",
+        "12",
+        "16",
+        "20",
+        "32"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "4 farklı rakamın sıralanışı 4!=24'tür."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Konu tekrarı: 5 farklı kitap bir rafa kaç farklı şekilde dizilir?",
+      "options": [
+        "100",
+        "240",
+        "120",
+        "25",
+        "60"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "5!=120."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Konu tekrarı: 4 kişiden başkan ve başkan yardımcısı kaç farklı şekilde seçilir?",
+      "options": [
+        "12",
+        "6",
+        "8",
+        "16",
+        "24"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Sıra önemli: P(4,2)=4·3=12."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Konu tekrarı: 3 farklı harf kaç farklı şekilde sıralanır?",
+      "options": [
+        "4",
+        "8",
+        "9",
+        "6",
+        "3"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "3!=6."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Konu tekrarı: P(6,2) kaçtır?",
+      "options": [
+        "36",
+        "30",
+        "12",
+        "15",
+        "24"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "6·5=30."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Konu tekrarı: 1,2,3,4 rakamları birer kez kullanılarak kaç farklı 4 basamaklı sayı yazılır?",
+      "options": [
+        "12",
+        "16",
+        "20",
+        "32",
+        "24"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "4 farklı rakamın sıralanışı 4!=24'tür."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Hızlı kontrol: 5 farklı kitap bir rafa kaç farklı şekilde dizilir?",
+      "options": [
+        "240",
+        "120",
+        "25",
+        "60",
+        "100"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "5!=120."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Hızlı kontrol: 4 kişiden başkan ve başkan yardımcısı kaç farklı şekilde seçilir?",
+      "options": [
+        "6",
+        "8",
+        "16",
+        "24",
+        "12"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Sıra önemli: P(4,2)=4·3=12."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Hızlı kontrol: 3 farklı harf kaç farklı şekilde sıralanır?",
+      "options": [
+        "8",
+        "9",
+        "6",
+        "3",
+        "4"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "3!=6."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Hızlı kontrol: P(6,2) kaçtır?",
+      "options": [
+        "30",
+        "12",
+        "15",
+        "24",
+        "36"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "6·5=30."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "Hızlı kontrol: 1,2,3,4 rakamları birer kez kullanılarak kaç farklı 4 basamaklı sayı yazılır?",
+      "options": [
+        "16",
+        "20",
+        "32",
+        "24",
+        "12"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "4 farklı rakamın sıralanışı 4!=24'tür."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "TYT alıştırması: 5 farklı kitap bir rafa kaç farklı şekilde dizilir?",
+      "options": [
+        "120",
+        "25",
+        "60",
+        "100",
+        "240"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "5!=120."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "TYT alıştırması: 4 kişiden başkan ve başkan yardımcısı kaç farklı şekilde seçilir?",
+      "options": [
+        "8",
+        "16",
+        "24",
+        "12",
+        "6"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Sıra önemli: P(4,2)=4·3=12."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "TYT alıştırması: 3 farklı harf kaç farklı şekilde sıralanır?",
+      "options": [
+        "9",
+        "6",
+        "3",
+        "4",
+        "8"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "3!=6."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "TYT alıştırması: P(6,2) kaçtır?",
+      "options": [
+        "12",
+        "15",
+        "24",
+        "36",
+        "30"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "6·5=30."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Permütasyon - Sayma Yöntemleri ve Sıralama",
+      "question": "TYT alıştırması: 1,2,3,4 rakamları birer kez kullanılarak kaç farklı 4 basamaklı sayı yazılır?",
+      "options": [
+        "20",
+        "32",
+        "24",
+        "12",
+        "16"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "4 farklı rakamın sıralanışı 4!=24'tür."
+    }
+  ]
+}

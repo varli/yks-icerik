@@ -1,0 +1,331 @@
+{
+  "id": "temelkavramlar",
+  "title": "Temel Kavramlar",
+  "lesson": "TYT Matematik",
+  "description": "TYT Matematik Temel Kavramlar konusu için 5 seçenekli 20 soruluk test",
+  "questionCount": 20,
+  "optionCount": 5,
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "category": "Temel Kavramlar",
+      "question": "Aşağıdakilerden hangisi doğal sayıdır?",
+      "options": [
+        "1/2",
+        "√2",
+        "-1/4",
+        "0",
+        "-3"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "0 doğal sayılar kümesindedir."
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "category": "Temel Kavramlar",
+      "question": "En küçük pozitif tam sayı kaçtır?",
+      "options": [
+        "Yoktur",
+        "1",
+        "0",
+        "-1",
+        "2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Pozitif tam sayılar 1,2,3,... şeklindedir."
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "category": "Temel Kavramlar",
+      "question": "İki tek sayının toplamı her zaman nasıldır?",
+      "options": [
+        "Tektir",
+        "Negatiftir",
+        "Asaldır",
+        "Sıfırdır",
+        "Çifttir"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Tek+tek=çift."
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "category": "Temel Kavramlar",
+      "question": "Bir çift sayı ile bir tek sayının çarpımı nasıldır?",
+      "options": [
+        "Her zaman negatiftir",
+        "Belirsizdir",
+        "Çifttir",
+        "Tektir",
+        "Asaldır"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Çarpanlardan biri çiftse çarpım çifttir."
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "category": "Temel Kavramlar",
+      "question": "Aşağıdakilerden hangisi asal sayıdır?",
+      "options": [
+        "13",
+        "1",
+        "9",
+        "15",
+        "21"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "13 yalnızca 1 ve 13'e bölünür."
+    },
+    {
+      "id": 6,
+      "difficulty": "easy",
+      "category": "Temel Kavramlar",
+      "question": "Konu tekrarı: Aşağıdakilerden hangisi doğal sayıdır?",
+      "options": [
+        "√2",
+        "-1/4",
+        "0",
+        "-3",
+        "1/2"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "0 doğal sayılar kümesindedir."
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Konu tekrarı: En küçük pozitif tam sayı kaçtır?",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "2",
+        "Yoktur"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Pozitif tam sayılar 1,2,3,... şeklindedir."
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Konu tekrarı: İki tek sayının toplamı her zaman nasıldır?",
+      "options": [
+        "Negatiftir",
+        "Asaldır",
+        "Sıfırdır",
+        "Çifttir",
+        "Tektir"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Tek+tek=çift."
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Konu tekrarı: Bir çift sayı ile bir tek sayının çarpımı nasıldır?",
+      "options": [
+        "Belirsizdir",
+        "Çifttir",
+        "Tektir",
+        "Asaldır",
+        "Her zaman negatiftir"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Çarpanlardan biri çiftse çarpım çifttir."
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Konu tekrarı: Aşağıdakilerden hangisi asal sayıdır?",
+      "options": [
+        "1",
+        "9",
+        "15",
+        "21",
+        "13"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "13 yalnızca 1 ve 13'e bölünür."
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Hızlı kontrol: Aşağıdakilerden hangisi doğal sayıdır?",
+      "options": [
+        "-1/4",
+        "0",
+        "-3",
+        "1/2",
+        "√2"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "0 doğal sayılar kümesindedir."
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Hızlı kontrol: En küçük pozitif tam sayı kaçtır?",
+      "options": [
+        "0",
+        "-1",
+        "2",
+        "Yoktur",
+        "1"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Pozitif tam sayılar 1,2,3,... şeklindedir."
+    },
+    {
+      "id": 13,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Hızlı kontrol: İki tek sayının toplamı her zaman nasıldır?",
+      "options": [
+        "Asaldır",
+        "Sıfırdır",
+        "Çifttir",
+        "Tektir",
+        "Negatiftir"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "Tek+tek=çift."
+    },
+    {
+      "id": 14,
+      "difficulty": "medium",
+      "category": "Temel Kavramlar",
+      "question": "Hızlı kontrol: Bir çift sayı ile bir tek sayının çarpımı nasıldır?",
+      "options": [
+        "Çifttir",
+        "Tektir",
+        "Asaldır",
+        "Her zaman negatiftir",
+        "Belirsizdir"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "Çarpanlardan biri çiftse çarpım çifttir."
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "category": "Temel Kavramlar",
+      "question": "Hızlı kontrol: Aşağıdakilerden hangisi asal sayıdır?",
+      "options": [
+        "9",
+        "15",
+        "21",
+        "13",
+        "1"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "13 yalnızca 1 ve 13'e bölünür."
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "category": "Temel Kavramlar",
+      "question": "TYT alıştırması: Aşağıdakilerden hangisi doğal sayıdır?",
+      "options": [
+        "0",
+        "-3",
+        "1/2",
+        "√2",
+        "-1/4"
+      ],
+      "answer": 0,
+      "answerLetter": "A",
+      "solution": "0 doğal sayılar kümesindedir."
+    },
+    {
+      "id": 17,
+      "difficulty": "hard",
+      "category": "Temel Kavramlar",
+      "question": "TYT alıştırması: En küçük pozitif tam sayı kaçtır?",
+      "options": [
+        "-1",
+        "2",
+        "Yoktur",
+        "1",
+        "0"
+      ],
+      "answer": 3,
+      "answerLetter": "D",
+      "solution": "Pozitif tam sayılar 1,2,3,... şeklindedir."
+    },
+    {
+      "id": 18,
+      "difficulty": "hard",
+      "category": "Temel Kavramlar",
+      "question": "TYT alıştırması: İki tek sayının toplamı her zaman nasıldır?",
+      "options": [
+        "Sıfırdır",
+        "Çifttir",
+        "Tektir",
+        "Negatiftir",
+        "Asaldır"
+      ],
+      "answer": 1,
+      "answerLetter": "B",
+      "solution": "Tek+tek=çift."
+    },
+    {
+      "id": 19,
+      "difficulty": "hard",
+      "category": "Temel Kavramlar",
+      "question": "TYT alıştırması: Bir çift sayı ile bir tek sayının çarpımı nasıldır?",
+      "options": [
+        "Tektir",
+        "Asaldır",
+        "Her zaman negatiftir",
+        "Belirsizdir",
+        "Çifttir"
+      ],
+      "answer": 4,
+      "answerLetter": "E",
+      "solution": "Çarpanlardan biri çiftse çarpım çifttir."
+    },
+    {
+      "id": 20,
+      "difficulty": "hard",
+      "category": "Temel Kavramlar",
+      "question": "TYT alıştırması: Aşağıdakilerden hangisi asal sayıdır?",
+      "options": [
+        "15",
+        "21",
+        "13",
+        "1",
+        "9"
+      ],
+      "answer": 2,
+      "answerLetter": "C",
+      "solution": "13 yalnızca 1 ve 13'e bölünür."
+    }
+  ]
+}
